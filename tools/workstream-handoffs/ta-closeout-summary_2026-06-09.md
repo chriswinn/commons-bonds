@@ -47,3 +47,12 @@ Assembled the five held branches onto `origin/main` + applied the reserved close
 
 ## Merge readiness
 TA is internally consistent, reproduces, and passes invariants at HIGH. Recommend: **author reviews the path-scoped diff → on approval, merge to main** via pre-push reconciliation (`fetch origin main` + rebase; never force-push main). Items 1–7 above are post-merge / other-owner follow-ups, not merge blockers, EXCEPT the author may wish to resolve #3 (Norway headline) before or after merge at their discretion.
+
+---
+
+## Addendum — post-queue actions (2026-06-09, author-directed)
+
+- **#3 Norway headline — RESOLVED (author chose precision over round legacy figure).** Method-2 anchor standardized on the precise current end-2025 calc **~$48/BOE** ($2.0T NBIM ÷ 0.75 ÷ 55B BOE = $48.5); the 3 lagging round-$50 spots (§3 anchor table, §11.5 inflation caveat, capture headline) reconciled. Capture headline now **"~16% captured / 84% uncaptured"** ($48/$300). `$50/BOE` = 0; `$48` consistent (10 spots). Pre-pub USD re-stamp note in the GPFG citation. **New cross-corpus flag:** chapters/essays may still carry the round "~17% capture" → redraft campaign (same class as the chapter 33–122× lag).
+- **#4 Bib housekeeping — partially closed.** Added the **Norwegian Offshore Directorate cumulative-production** entry to `bibliography.md` §23.1 (closed the inline-only citation gap). §23.1↔§24 "duplicates" confirmed **benign** (distinct sources: Black Lung Trust Fund vs Benefits Program; EPA-2023 SCC vs IWG TSD) — no action. **Remaining (internal, optional):** full §18↔`bibliography.md` reconciliation.
+- **#7 Figure ledger — assessed, no action needed.** `_CANONICAL_FIGURE_LEDGER.md` is **McDowell-coal-scoped + RATIFIED**, and the TA **already matches it** (coal $4.71; SCC $190 EPA-2023; CO₂ 2.32/2.61). No Deepwater figure to reconcile; adding a Deepwater section would expand a ratified author-owned file → left to author.
+- **Still genuinely flagged (other-owner / toolchain / not-built):** #1 Stage-4 PDF render (needs the containerized toolchain — run before external circulation); #2 notation-consolidation (TA-wide A/P rename needs a ratified scheme → registry owner); #5 chapter 33–122× + Norway "~17%" (→ redraft campaign); #6 CSD reverse-model + reef (no `reverse-csd` branch → Session F).
