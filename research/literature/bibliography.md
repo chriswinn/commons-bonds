@@ -1433,3 +1433,20 @@ The framework engages the Public Choice tradition explicitly as a complementary 
 - `tools/commons_bonds_rigor_protocol_v1.3.0.md` §11 — the 25-character pressure suite (several characters map to canonical readers from this bibliography: Character 17 Ostrom successor, Character 18 Harvey/Klein reader, Character 9 tenured economics chair, etc.)
 - `research/case-studies/` — all case study files reference this bibliography for their primary-source citations
 - `core/technical-appendix/TechnicalAppendix_v2.0.0.html` — technical appendix (scholarly engagement work happens here; path updated 2026-05-04 to current v2.0.0 filename per Phase α.2.7e rebuild commit `439b1e0`)
+
+---
+
+## Ch5 figure-verification sources (confirmed 2026-06-09)
+
+Primary sources confirmed during the Ch5 pre-send fact-check pass (the Butler figures + the four flagged verifications). Discipline: cite the external primary source, never our own ledger. Full provenance: `tools/audits/corpus-primary-source-register_2026-06-08.md` + `tools/audits/_TA-redraft-reconciliation_2026-06-09.md`.
+
+- **Butler reimbursement figures — CONFIRMED, within her published account.** Butler, "What Broke My Father's Heart" (*NYT Magazine*, 2010) + *Knocking on Heaven's Door* (Scribner, 2013): Medicare ~$54 for a long office visit vs ~$461 to the surgeon for the pacemaker implant; hospital flat fee ~$12,000, nearly half flowing to the device maker; the 77-year-old mother "on duty more than 80 hours a week." Folded into Ch5 §126. (Both Butler works are catalogued in §5 above.)
+- **Mian, Atif, Kamalesh Rao, and Amir Sufi.** "Household Balance Sheets, Consumption, and the Economic Slump." *Quarterly Journal of Economics* 128, no. 4 (2013): 1687–1726. The MPC-out-of-housing-wealth source (avg ~5–7 cents; substantially higher for poorer/more-levered households — the "roughly threefold across the housing-net-worth distribution" claim, Ch5 §76). The empirical paper underlying *House of Debt* (§6 above).
+- **Kenworthy, Nora, and Mark Igra.** "Medical Crowdfunding and Disparities in Health Care Access in the United States, 2016–2020." *American Journal of Public Health* 112, no. 3 (2022): 491–498. GoFundMe scale (437,596 campaigns) + the racial-disparity finding (Ch5 §120–122). Supersedes the earlier "Kenworthy & Igra 2024" miscite.
+- **Saleh, et al.** Medical-crowdfunding cross-national comparison. *JAMA Network Open* (2020). Anchor for the "above peer-country levels" comparison (Ch5 §120).
+- **Federal Reserve, Financial Accounts of the United States (Z.1).** Total household net worth peak-to-trough decline ~$11 trillion, 2007–2009 — the $11T magnitude is the Fed's, not Mian-Sufi's (Ch5 §76 re-attribution).
+- **GAO-11-696** (2011), Federal Reserve emergency-assistance audit: the ~$16T gross-cumulative emergency-lending figure (Ch5 §78, labeled "cumulative").
+- **GAO / CRS, Black Lung Benefits Program:** ~$44B cumulative benefits paid through ~2009 (no authoritative post-2009 cumulative total exists; Ch5 §194); **Black Lung Disability Trust Fund** debt ~$5.1B as of Sept 2024 (GAO/DOL) — kept distinct from cumulative-paid.
+- **CoreLogic, U.S. foreclosure data:** ~4.1M completed foreclosures, 2008–2012 (Ch5 §78).
+- **EPA, Libby Asbestos Superfund Site (W.R. Grace):** >70% of US vermiculite produced at Libby; documented public/Superfund spending on the order of ~$0.9–1.0B (Ch5 §18, §24).
+- **U.S. Deepwater Horizon settlements:** DOJ/BP global settlement (2016, ~$20.8B); BP total charge ~$60–65B; BP–Mexico settlement ~$25M (2013); NOAA NRDA assessed ~$8.8B (the ">$150B" figure must NOT be attributed to NOAA; Ch5 §44).
