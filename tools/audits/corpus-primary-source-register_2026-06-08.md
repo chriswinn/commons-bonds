@@ -4,6 +4,7 @@
 **Trigger:** author directive — "find a primary source for everything in the citations; never cite ourselves." Corpus-wide scope (TA + Ch 1–10), confirmed.
 **Method:** read-only enumeration of every empirical figure in the TA + 10 chapters (3 agents), then primary-source hunt (4 web-research agents). HARD RULE applied throughout: no invented sources; real primary source + URL or marked UNVERIFIABLE; framework-computed numbers (IPG/RCV/CS) are NOT sourced — they get honest "framework-computed, derivation shown" labeling.
 **Companion artifacts:** `ta-number-provenance-ledger_2026-06-07.md` (TA figures) · `ta-number-provenance-DECISION-MEMO_2026-06-07.md` (judgment items) · the TA self-citation kill-list (LIST A/B, below §4).
+**UPDATE 2026-06-08 (§6):** mined `research/outreach/subjects/{darity,colden,cbf,moore}/` (4 agents, author steer). The **Darity "with-citations" Ch5/Ch6/TA docs already attribute most empirical figures to agency sources** (inline only — TA §18 bib is theory-only). New §6 records those + the Chesapeake primary sources from Colden/Moore/CBF + reconciliation flags. **$44B status changed — see §6 + §3.**
 
 **STATUS:** sources verified this session; **NOT yet applied to chapter prose** (chapters are end-user-facing prose → author/chapter-session pipeline + ratification). §23 bib updated with the new entries. The CORRECTIONS in §2 are the highest-value findings — several are factual errors, not missing cites.
 
@@ -83,7 +84,7 @@ These are not missing-citation issues — they are figures the primary sources c
 
 ## §3. UNVERIFIABLE — no primary source located (relabel as estimate, attribute to the secondary origin, or cut)
 
-- **Black Lung "$44B cumulative payouts"** — corpus-wide (Ch 2/6/8 + TA); exhaustively searched (GAO-18-351, Brookings, CRS-blocked, repo). No primary source. (Separate memo Item 9a.)
+- **Black Lung "$44B cumulative payouts"** — **status updated (§6B):** the Darity with-citations docs attribute it to "DOL OWCP / BLDTF annual reports" (TA) and "**$44B through 2009 (GAO/CRS)**" (Ch 6). The "through 2009" vs "56-year/Sept-2024" date split means it's **likely a ~2009 figure presented as current** — stale, not just unsourced. **Action:** pin the GAO/CRS "through 2009" doc (likely CRS R45261) and relabel to "≈$44B through 2009," OR get the current cumulative from DOL OWCP annual reports; the "56-year" framing must not rest on a 2009 number. (Memo Item 9a.)
 - **"60,000 MTR cancer cases"** — advocacy extrapolation, not in Hendryx 2012 (see §2.5).
 - **Libby "~$100M lifetime revenue"; ">$4B consolidated total"; "35M homes" precise** — no federal point source (components verifiable separately).
 - **Macondo well revenue (any figure)** — no government primary source; analyst estimate only.
@@ -111,3 +112,40 @@ Per author direction, framework-computed numbers get "framework-computed, deriva
 3. **TA LIST-A empirical fixes** — coal price ($4.71), Eco/Cohesion estimate-labels, Deepwater reconciliation: this workstream (Eco/Cohesion) + Session E (Deepwater) + Session C/D (coal-price cascade).
 4. **TA LIST-B framework-output relabels** — Session C (IPG apparatus) + Session D (M3).
 5. **§2 corrections are the priority** — several are shippable-error risks in the published chapters.
+
+---
+
+## §6. Sources recovered from `research/outreach/subjects/` (2026-06-08)
+
+Mined per author steer (the folders hold real source material). 4 agents: darity, colden, cbf, moore.
+
+### 6A. The Darity "with-citations" packet (2026-05-14) — the biggest find
+We already produced **citation-bearing versions of Ch 5, Ch 6, and the TA** for William Darity Jr. They **already attribute most empirical figures to agency sources** — but only *inline* (in the TA §11 anchor tables + Ch 6 parentheticals); the **TA §18 bibliography is academic-theory-only**, so none of these agency sources are formally entered. **This de-risks the whole sweep: the sources largely already exist in our own docs and need formalizing, not hunting.** Attributions found (verbatim source cells):
+- **13-yr life-expectancy gap → CDC + Robert Wood Johnson Foundation County Health Rankings.**
+- **Darity 6–7 yr Black–white longevity gap → Bassett-Bell, Williams, Darity et al., "Association Between Racial Wealth Inequities and Racial Disparities in Longevity…1992–2018," *JAMA Network Open* 5(11):e2240519 (2022)** (already in TA §18). ← real, specific, add to §23.
+- **Reclamation bond gap → OSMRE + GAO-17-207R + Yang & Davis 2021** ($4–6B; $865M bankruptcy transfer = OSMRE bankruptcy filings). *NB the clean-chapter "633,000 acres / $7.5–9.8B" has NO match here — that's the separate Appalachian Voices figure (§1B); the packet's number is 150,000 McDowell acres / $3.7–6B national.*
+- **SCC $190 → Rennert et al. 2022 *Nature***; **DAC bands → Climeworks/CE-1PointFive/IEA/IPCC/NAS**; **coal 2.32/2.61 t → EPA AP-42 §1.1 + EIA heat content**; **~600M tons → WV Geological Survey + USGS**; **Baotou shares → USGS MCS 2025**; **Norway → NBIM**; **Deepwater → NOAA Office of Response & Restoration + DOJ + 2016 BP Consent Decree (NRDA $8.8B)**; **Libby → EPA Libby Superfund record + Montana DOJ/DEQ + W.R. Grace filings**; **Exxon Valdez → EVOSTC + DOJ 1991**; **2008 → GAO 2011 audit ($16T) + FCIC 2011 + GAO HAMP reports**; **reparations → Darity & Mullen 2020 + Hamilton et al. 2015 + Coates 2014 + Conley 1999.** (All consistent with §1; the packet is the in-house corroboration.)
+
+### 6B. $44B Black Lung — STATUS CHANGE (attributed, but date-discrepant + likely stale)
+The with-citations docs DO attribute it: **TA §11.6 → "DOL Office of Workers' Compensation Programs; Black Lung Disability Trust Fund annual reports"**; **Ch 6 → "approximately $44 billion in distributions *through 2009* (GAO/CRS)."** **But:**
+1. **Date discrepancy = red flag.** Ch 6 says "$44B **through 2009**"; TA §11.6 says "$44B cumulative **1969–present (56 years)**"; Ch 5 leads with it and cites **nothing**. The same number cannot be both "through 2009" and "through 2024." This strongly implies **$44B is a ~2009 figure being presented as current cumulative** — i.e. stale, and undercounting if anything.
+2. **Still not pinned to a locatable document.** "DOL annual reports / GAO/CRS" is a category, not a citation; my earlier exhaustive search (GAO-18-351, Brookings 2021, web) found no "$44B" — consistent with it living in an **older CRS/GAO doc reporting "through ~2009"** (likely **CRS R45261**, which 403'd). **Action:** pin the specific GAO/CRS doc for "$44B through 2009," then EITHER relabel to "≈$44B through 2009 (GAO/CRS)" (what Ch 6 already says — honest + likely sourceable) OR get the current cumulative from DOL OWCP annual reports. The "56-year / Sept-2024" framing should NOT stand on a 2009 figure.
+
+### 6C. Chesapeake primary sources (Colden / Moore / CBF)
+- **Rockfish YOY 2.0 vs 11.0 (2024)** — MD DNR seine survey; surfaced via *Southern Maryland Chronicle* 2024-10-18 + **VIMS juvenile striped bass survey** (vims.edu). Colden's quotes attach here. *(Moratorium 1985–90/recovered-1995 dates are NOT in any folder — keep the NOAA/ASMFC source from §1C.)*
+- **Menhaden 51,000 mt cap → ASMFC, Nov 2017, on Colden's OWN original motion** (she was CBF MD Senior Fisheries Scientist) — strong authority. Peer-reviewed architecture: **ASMFC Ecological Reference Points + Anstead et al., *Frontiers in Marine Science* 7:606417 (2020)**; the cut was **~41.5% (≈87,000 → 51,000 mt)**. *(Confirms §2.4 correction: Amendment 3 / 2017–18, not 2006.)*
+- **Blue crab 238M (2025), 2nd-lowest since 1990 (lowest 226M, 2022)** — Winter Dredge Survey (MD DNR + VIMS); *Maryland Matters* 2025-05-23; VPM 2025-06-04 (Moore). Confirms §1C.
+- **Maryland oysters tripled since 2005 (2.4B→7.6B adults)** — **MD DNR press release 2025-08-26** (Gov. Moore five-sanctuary completion). Confirms §1C. *(Packet flags Ch 3 softens to "roughly tripled" — tone, not claim.)*
+- **Colden's own peer-reviewed science** (load-bearing for the "renewable-past-regeneration" construct): **Colden, Latour & Lipcius, "Reef height drives threshold dynamics of restored oyster reefs," *Marine Ecology Progress Series* 582:1–13 (2017)**; Colden & Lipcius 2015 (*MEPS* 527); Colden et al. 2016 (*Estuaries and Coasts* 39).
+- **CBF named report: *Hope on the Half Shell* (Feb 2024)** — oyster restoration (20 additional rivers; **$56.8M MD+VA oyster revenue 2022**). **CESR / STAC 2023** — the 40-year Bay nutrient-effort evaluation. **Bryan Watts / W&M Center for Conservation Biology 2025** — 90% osprey-nesting decline on VA Eastern Shore.
+- **Adversarial sources** (for Pass 3.4 balance, likely absent from a CBF-leaning bib): **Menhaden Fisheries Coalition rebuttal (Oct 2025)** + **Ocean Harvesters response (Aug 2025)** — dispute Moore's catch-distribution characterization.
+- **NOT in any folder** (still need §1C web sources): historical oyster decline (15M→<200K bushels / 99%) and watershed 64,000 sq mi. Colden is NOT the source for either.
+
+### 6D. New reconciliation flags (add to §2)
+- **(15) $44B end-year**: "through 2009" (Ch 6) vs "1969–present / Sept-2024 / 56 yrs" (TA §11.6, Ch 5). Likely a stale 2009 figure.
+- **(16) Norway GPFG value stated three ways across the packet**: $1.9T / $2.0T (end-2025) / $2.2T (early-2025 NBIM); per-BOE shifts $50→$48. Reconcile to one vintage (already a Session D item).
+- **(17) Deepwater total**: Ch 5 prose "$65B / >$150B" vs TA §11.2 + Ch 6 table "$20–30B documented." Material divergence (Session E reconciliation).
+- **(18) Menhaden "Bay cap 2007" (striped-bass-era, Goldsborough) vs "Nov 2017" (menhaden 51,000 mt)** — the folders use "Bay cap" for both; do not conflate.
+
+### 6E. Application note
+The Darity packet means **the chapter-citation pass is mostly a *formalization* job, not a research job**: lift the inline agency attributions from the with-citations docs into (a) the TA §18/§23 bibliography and (b) the clean chapters' citation apparatus. The genuinely-still-unsourced shrinks to: the $44B (pin the 2009 doc or relabel), the 633,000-acre/$7.5–9.8B figure (Appalachian Voices — §1B), historical oyster decline, watershed area, and the §3 UNVERIFIABLE set.
