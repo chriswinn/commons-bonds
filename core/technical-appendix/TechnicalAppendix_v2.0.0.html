@@ -2904,7 +2904,7 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
      Gate 2 (&sect;7.2) (dimensional).&nbsp;Empirical allocation: $5&ndash;$15 per ton of coal per year during the transition window, approximately 1990&ndash;2050. Units: [$ &middot; ton&minus;1&nbsp;&middot; year&minus;1]. Pass.
     </p>
     <p>
-     Gate 3 (&sect;7.3) (boundedness).&nbsp;C3&nbsp;is non-zero on the finite interval [1990, 2050] and zero elsewhere. The integral of a bounded function over a finite interval, discounted by a bounded discount factor, is finite. Present-value contribution (under canonical Weitzman parameters): approximately $5&ndash;$10 per ton. Pass.
+     Gate 3 (&sect;7.3) (boundedness).&nbsp;C3&nbsp;is non-zero on the finite interval [1990, 2050] and zero elsewhere. The integral of a bounded function over a finite interval, discounted by a bounded discount factor, is finite. Present-value contribution (under standard Weitzman declining-rate parameters, &sect;16.1): approximately $5&ndash;$10 per ton. Pass.
     </p>
     <p>
      Gate 4 (&sect;7.4) (independence).&nbsp;Foreclosure [1 &minus; S] &middot; U captures future-user value of the retained resource stock; E captures atmospheric and environmental externalities; C3&nbsp;captures community-infrastructural-and-demographic transition costs. Categories are disjoint under canonical specifications. Pass.
@@ -2916,7 +2916,7 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
      RCVMcDowell&nbsp;= &int;1960&infin;&nbsp;{ [1 &minus; S(t | 1960)] &middot; U(R, t, Q(t)) + E(R, t) + C3(R, t, Context) } &middot; D(t, 1960) dt
     </p>
     <p>
-     Numerical update.&nbsp;Present-value contribution of C3&nbsp;approximately $5&ndash;$10/ton. Against the canonical Ch 6 framework-introduction figure of $449&ndash;$464/ton (national-bituminous-average heat-content basis; dominated by the carbon externality), the updated RCV estimate is $454&ndash;$474/ton. Market price remains $4.50/ton (1960 historical) or $40&ndash;$140/ton (contemporary range by grade). The qualitative result CS &gt; 0 is preserved; the pricing gap widens slightly.
+     Numerical update.&nbsp;Present-value contribution of C3&nbsp;approximately $5&ndash;$10/ton. Against the Ch 6 framework-introduction figure of $449&ndash;$464/ton (national-bituminous-average heat-content basis; carbon term 2.32&nbsp;t CO&#8322; &times; SCC dominant), the updated RCV estimate is $454&ndash;$474/ton. Market price remains $4.50/ton (1960 historical) or $40&ndash;$140/ton (contemporary range by grade). The qualitative result CS &gt; 0 is preserved; the pricing gap widens slightly.
     </p>
     <p>
      Adding C3&nbsp;does not destabilize the computation. Convergence is preserved. Dimensional consistency is maintained. No existing term is invalidated. The framework has admitted a new variable via the four gates; subsequent analysts with improved community-transition-cost data can refine the C3&nbsp;estimate without disturbing the rest of the integrand. This is the generative property the framework is designed to support.
@@ -4493,14 +4493,14 @@ Companion to &sect;11.5 Norway.
       <tr>
        <td>
         <strong>
-         Documented IPG &mdash; canonical range
+         Intergenerational Pricing Gap (framework-computed)
         </strong>
        </td>
        <td>
         ~33&ndash;122&times;
        </td>
        <td>
-        Case-study audit &sect;2.1 + terms_index Severed Cost record
+        RCV &divide; 1960 mine-mouth price (derivation; see &sect;11.11) &mdash; framework output, not an external statistic
        </td>
       </tr>
       <tr>
@@ -6226,7 +6226,7 @@ Reconciliation finding:
       <strong>
        The lenses are not in tension &mdash; they measure different things.
       </strong>
-      The 33&ndash;122&times; canonical figure is the carbon-externality lens (damage cost &divide; 1960-nominal price). The Method-3 lens (~8.5&ndash;26&times;) is the foreclosure-premium <em>multiple</em> over market price &mdash; price-independent, hence more conservative. Comparing a present-dollar RCV against a 1960-nominal price (an inconsistent basis) would inflate the ratio toward two orders of magnitude; on a consistent price basis the lenses converge.
+      The 33&ndash;122&times; figure is the framework's carbon-externality lens (damage cost &divide; 1960-nominal price &mdash; a framework computation, not an external statistic). The Method-3 lens (~8.5&ndash;26&times;) is the foreclosure-premium <em>multiple</em> over market price &mdash; price-independent, hence more conservative. Comparing a present-dollar RCV against a 1960-nominal price (an inconsistent basis) would inflate the ratio toward two orders of magnitude; on a consistent price basis the lenses converge.
      </li>
      <li>
       <strong>
