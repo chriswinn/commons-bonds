@@ -80,3 +80,19 @@ cells (band/center/IPG) do NOT change. Ping the redraft campaign so the chapter 
 M3 Path-A is internally consistent, market-anchored, convexity-correct, notation-clean
 (V_market/ς/1-over-(1-α)), scaffolding-free, and provenance-grounded — all staged on origin for
 the closeout. The accountability-gap spine is intact and more conservative (lower-bound posture).
+
+
+## UPDATE 2026-06-09 (late) — §11.11 fully cleaned + scaffolding-checker gap
+- **§11.11 rewritten (commit 3e0a0e2)**: was "IPG-table reconciliation" carrying the
+  non-reproducing 33–122× AND internal scaffolding ("Pedagogical implication for Ch 6/Ch 8"
+  author-instructions; "the framework's earlier IPG reports in Ch 6 + Ch 8 cited"). Now a clean
+  reader-facing section, "The IPG depends on lens and price basis": M3 premium-multiple ~8.5–26×
+  (reproduces), carbon lens (qualitative, price-basis-sensitive), §9.5 integral 67–134×. No stale
+  number, no chapter cross-references, no author-instructions. Anchor id kept.
+- **⚠ SCAFFOLDING-CHECKER GAP (route to quality-gate owner):** `check-corpus-invariants.sh` does
+  NOT catch the chapter-author-instruction / cross-draft-reconciliation class ("Pedagogical
+  implication for Ch X", "when Ch X walks through…", "should be made explicit", "the framework's
+  earlier … reports … cited", "per the Ch X reframing"). It only catches Option-letter/TODO/glyph
+  families. ADD patterns for this class + RE-SCAN THE WHOLE TA (§11.11 alone had 3 uncaught
+  instances; L7312 "when Ch 4 frames…" is borderline — review). This is the one publisher-facing
+  integrity risk the M3 work surfaced that the automated gate misses.
