@@ -1541,7 +1541,7 @@ The framework engages the Public Choice tradition explicitly as a complementary 
 - **US v. Sioux Nation, 448 U.S. 371 (1980): ≈$106M (1980); BIA escrow >$1.5B.** Supreme Court. supreme.justia.com/cases/federal/us/448/371/. HIGH (case); MED (current escrow).
 
 #### From the outreach/subjects folders (recovered 2026-06-08; see register §6)
-- **Darity 6–7 yr Black–white longevity gap (legacy-effect pricing).** Bassett-Bell, R., Williams, D.R., Darity, W.A., et al. "Association Between Racial Wealth Inequities and Racial Disparities in Longevity Among US Adults, 1992–2018." *JAMA Network Open* 5(11):e2240519 (2022). *(In TA §18 already; ties to McDowell 13-yr gap.)* HIGH.
+- **Darity 6–7 yr Black–white longevity gap (legacy-effect pricing).** Himmelstein, K.E.W., Lawrence, J.A., … Bassett, M.T., Wispelwey, B.P., Darity, W.A. Jr., Venkataramani, A.S. "Association Between Racial Wealth Inequities and Racial Disparities in Longevity Among US Adults and Role of Reparations Payments, 1992 to 2018." *JAMA Network Open* 5(11):e2240519 (2022). https://doi.org/10.1001/jamanetworkopen.2022.40519 *(Full entry at §18.5; ties to McDowell 13-yr gap.)* HIGH. **[Authorship corrected 2026-06-09 — prior "Bassett-Bell, R., Williams, D.R., Darity, W.A." string was a garble of the real Himmelstein-lead authorship in §18.5.]**
 - **McDowell 13-yr life-expectancy gap.** CDC + Robert Wood Johnson Foundation **County Health Rankings** (attribution from Darity with-citations TA §11.6). HIGH.
 - **Reclamation bond gap $4–6B; $865M bankruptcy transfer (2014–16).** OSMRE + **GAO-17-207R** + Yang & Davis 2021 (Darity TA §11.6). HIGH. *(Distinct from the Appalachian Voices 633,000-acre/$7.5–9.8B figure, §23.3.)*
 - **Chesapeake menhaden 51,000 mt cap.** ASMFC **Amendment 3 (Nov 2017)** — set on **Allison Colden's original motion** (then CBF MD Senior Fisheries Scientist); ecosystem architecture: Anstead et al., "The Path to an Ecosystem Approach for Forage Fish Management," *Frontiers in Marine Science* 7:606417 (2020). HIGH. ~41.5% cut (≈87,000→51,000 mt).
@@ -1566,6 +1566,68 @@ Per the no-invented-claims discipline: surfaced by this session's web-research a
 - **OSMRE / Powell River Project (ARRI).** Reforestation ~$1,000–1,400/acre. *Candidate anchor:* TA §11.6 lower-bound restoration cost. Status: candidate, re-verify.
 
 (Full provenance + materiality: `tools/audits/ta-method1-input-provenance_2026-06-06.md`.)
+
+---
+
+## 24. Consolidated from manuscript citation ledgers (2026-06-09)
+
+Citations surfaced by the manuscript-folder citation ledgers (`manuscript/_RESEARCH-RESULTS-LEDGER`, `_CITATION_EVIDENCE_LEDGER`, `_DEEP-SOURCE-REPORT`, `_DANGLING-REFERENCE-MUST-INCLUDE`, `_cross-chapter-ledger`, `_essay-reveal-ledger`, `_CANONICAL_FIGURE_LEDGER`, + `research/citations/noema-indigenous-frame-citation-research`) that were **named in prose / load-bearing but had no bib home**. Extracted + dedup-checked against §§1–23 (four parallel agents, 2026-06-09). Discipline: external primary source only; framework outputs excluded; **no invented fields** — where a ledger named author+year+figure but not the exact title/venue/pages, that field is flagged `[verify]` rather than fabricated. Several carry HIGH-confidence standard citations; entries marked `[verify]` need the flagged field confirmed before publisher-facing use.
+
+### 24A. Coal health + occupational disease (Ch2/Ch6/Ch8 per-ton tier inputs)
+- **Epstein, Paul R., et al. "Full Cost Accounting for the Life Cycle of Coal." *Annals of the New York Academy of Sciences* 1219, no. 1 (2011): 73–98.** https://doi.org/10.1111/j.1749-6632.2010.05890.x — *Backs:* aggregate Appalachian coal external-cost bound (~$345B "best estimate") the Ch6/Ch8 health $2–4/ton + env $1–3/ton tiers sit an order of magnitude below. HIGH. Distinct from Bernhardt & Palmer 2011 (§16.5) + Lindberg 2011.
+- **National Research Council. *Hidden Costs of Energy: Unpriced Consequences of Energy Production and Use.* National Academies Press, 2010.** — *Backs:* ~$62B aggregate / "52% health" allocation anchoring the Ch8 health + env tiers. HIGH (confirm 2009 vs 2010 imprint year at apply-time).
+- **Hendryx, Michael, and Melissa M. Ahern. "Mortality in Appalachian Coal Mining Regions: The Value of Statistical Life Lost." *Public Health Reports* 124, no. 4 (2009): 541–550.** — *Backs:* ~$42B net mortality cost input to the Ch8 community-disruption $5–15/ton tier + >10-yr life-expectancy divergence. HIGH. Distinct from Hendryx et al. 2012 (§23.3, MTR cancer OR 2.03).
+- **Derickson, Alan. "The United Mine Workers of America and the Recognition of Occupational Respiratory Diseases, 1902–1968." *American Journal of Public Health* 81, no. 6 (1991): 782–790.** + **Derickson, Alan. *Black Lung: Anatomy of a Public Health Disaster.* Cornell University Press, 1998.** — *Backs:* Ch8 §120 Lewis/UMW "declined to press black lung" labor-history claim. HIGH.
+- **U.S. GAO. *[Coal mine reclamation: federal/state financial assurances].* GAO-18-305.** — *Backs:* reclamation-bond shortfall $3.7–6B (Ch5/Ch6/Ch8). HIGH `[confirm exact title]`. Companions GAO-17-207R + GAO-20-21 already in §15/§23.3; black-lung GAO-18-351/-19-622t + Brookings 2021 + CRS R45261 already cited in the §23.1 Black Lung entry.
+
+### 24B. Mobility + inequality (Ch8 lineage-labor tier)
+- **Chetty, Raj, and Nathaniel Hendren. "The Impacts of Neighborhoods on Intergenerational Mobility I & II." *Quarterly Journal of Economics* 133, no. 3 (2018): 1107–1162 + 1163–1228.** — *Backs:* place-effect / lifetime-earnings inputs to the Ch8 lineage-labor $1–5/ton derivation. HIGH. Distinct from the Chetty 2014 + 2018-Race papers already in §4.
+- **Chetty, Raj, John N. Friedman, Nathaniel Hendren, Maggie R. Jones, and Sonya R. Porter. "The Opportunity Atlas: Mapping the Childhood Roots of Social Mobility." NBER Working Paper No. 25147, 2018.** — *Backs:* ~$387K lifetime-earnings place effect (Ch8). HIGH.
+
+### 24C. Healthcare crowdfunding (Ch5/Ch9)
+- **Saleh, Shaymaa N., et al. "A Comparison of Online Medical Crowdfunding in Canada, the UK, and the US." *JAMA Network Open* 3, no. 10 (2020): e2021684.** — *Backs:* the "US as the only wealthy nation with GoFundMe-as-default at this scale" claim (US median $38,204 vs Canada $12,662 / UK $6,285). HIGH. Supports dropping unqualified "only," keeping "at this scale."
+
+### 24D. Financial crisis + housing (Ch5/Ch8/Ch9)
+- **Mian, Atif, Kamalesh Rao, and Amir Sufi. "Household Balance Sheets, Consumption, and the Economic Slump." *Quarterly Journal of Economics* 128, no. 4 (2013): 1687–1726.** — *Backs:* the corrected MPC-differential ~3× claim (Ch9 §122) — distinct from *House of Debt* (§6) which carries the $5.5T housing-wealth figure. HIGH.
+- **Cano-Urbina, Javier, Christopher Clapp, and Kevin Willardsen. "[Gulf housing-value effects of Deepwater Horizon]." *Journal of Housing Economics* 43 (2019).** — *Backs:* Ch5 Deepwater property-value correction ($12B → $3.8–5.0B). MED `[confirm exact title]`.
+
+### 24E. Opioid (Ch2)
+- **Alpert, Abby, William Evans, Ethan Lieber, and David Powell. "Origins of the Opioid Crisis and Its Enduring Impacts." NBER Working Paper No. 26500, 2019 (publ. 2022).** — *Backs:* the geographic-distress half of the Ch2 Purdue "four-characteristic target map" attribution. HIGH `[confirm journal venue — AEJ: Economic Policy vs QJE]`.
+
+### 24F. Planetary science + space economics (Ch7 / TA §11.10)
+- **Caldeira, Ken, and James F. Kasting. "The Life Span of the Biosphere Revisited." *Nature* 360 (1992): 721–723.** — *Backs:* ~0.5–1 Gyr biosphere-end horizon (Ch7). HIGH. (Ledger warns: do NOT use Schröder & Smith for this shorter horizon.)
+- **Wittenberg, L. J., J. F. Santarius, and G. L. Kulcinski. "Lunar Source of ³He for Commercial Fusion Power." *Fusion Technology* 10, no. 2 (1986): 167–178.** — *Backs:* lunar helium-3 ~1M-ton estimate (Ch7, hedged "contested"). HIGH.
+- **Jones, Harry W. "The Recent Large Reduction in Space Launch Cost." 48th International Conference on Environmental Systems, ICES-2018-81, 2018 (NTRS 20200001093).** — *Backs:* Shuttle-vs-Falcon-9 launch-cost comparison (Ch7 / TA §11.10). HIGH.
+
+### 24G. Extraction political economy + theory lineage
+- **Fraser, Nancy. *Cannibal Capitalism.* Verso, 2022.** + **Fraser, Nancy. "Behind Marx's Hidden Abode: For an Expanded Conception of Capitalism." *New Left Review* 86 (2014): 55–72.** — *Backs:* the book's "same-object" / expropriation-vs-exploitation meta-claim; now textually present in canonical Ch5 §156. HIGH. (Ledger TA meta-claim explicitly: "add to bibliography.")
+- **Olson, Mancur. *The Logic of Collective Action: Public Goods and the Theory of Groups.* Harvard University Press, 1965.** — *Backs:* "concentrated beats diffuse interests" (Ch9 §112). HIGH. Companions Buchanan & Tullock + Tullock 1967 in §22.
+- **United Nations Environment Programme. *Environmental Assessment of Ogoniland.* UNEP, 2011.** — *Backs:* Niger Delta 50-yr spillage / ~$1B initial / 25–30-yr remediation (Ch4/Ch9) — Ch4's only named external source for the Nigeria spine. HIGH.
+- **World Bank. *Detox Development: Repurposing Environmentally Harmful Subsidies.* World Bank, 2023.** — *Backs:* the fossil-subsidy comparison (Ch8 §220); use direct/explicit ~$1.25T, not the $7T implicit figure. HIGH.
+- **Naegele, Helene, and Karol Jan Borowiecki. "[fair-trade premium incidence]." *World Development* 133 (2020): 104998.** — *Backs:* Ch7 fair-trade-coffee / Kimberley generalization (farmer receives ~1/6 of the premium). HIGH `[confirm exact title]`.
+
+### 24H. Literary
+- **Camus, Albert. *Le Mythe de Sisyphe.* Gallimard, 1942.** *(Eng. The Myth of Sisyphus.)* — *Backs:* Ch10 §162 closing image. HIGH.
+
+### 24I. Indigenous Chesapeake history (Ch3 / Noema essay substrate — web-verified 2026-06-09 by the noema-citation-research agent; essay-research tier)
+- **Rountree, Helen C. *The Powhatan Indians of Virginia: Their Traditional Culture.* University of Oklahoma Press, 1989** (ISBN 9780806124551). — canonical Algonquian-Powhatan Bay ethnohistory; also covers Kecoughtan (Hampton River mouth). HIGH.
+- **Rountree, Helen C. *Pocahontas's People: The Powhatan Indians of Virginia Through Four Centuries.* University of Oklahoma Press, 1990** (ISBN 9780806128498). — four-century continuity frame; carries the corrected *Chesepiooc* etymology. HIGH.
+- **Potter, Stephen R. *Commoners, Tribute, and Chiefs: The Development of Algonquian Culture in the Potomac Valley.* University Press of Virginia, 1993** (ISBN 9780813914220). — pre-modern commons/tribute/chiefdom governance on the Bay system. HIGH.
+- **Treaty Ending the Third Anglo-Powhatan War (Treaty of Necotowance), October 1646** (primary; Encyclopedia Virginia, encyclopediavirginia.org) — reserved land north of the York; origin of the Pamunkey Reservation. HIGH.
+- **Articles of Peace (Treaty of Middle Plantation), May 29, 1677** (primary; Cockacoeske, weroansqua of the Pamunkey, for several tribes) — annual tribute honored continuously to present. HIGH.
+- **U.S. DOI, Office of the Assistant Secretary–Indian Affairs. *Final Determination for Federal Acknowledgment of the Pamunkey Indian Tribe.* Federal Register, July 8, 2015.** federalregister.gov/documents/2015/07/08/2015-16711 — first Virginia tribe federally recognized. HIGH.
+- **Pamunkey Indian Tribe shad hatchery (est. 1918, Pamunkey River) — reportage cluster:** Chesapeake Bay Program (chesapeakebay.net), *Bay Journal*, Pamunkey Tribe Natural Resources (pamunkey.org/natural-resource), NMAI / *American Indian Magazine*. — *Backs:* the indigenous-governance "renewable-past-regeneration" existence-proof (Noema Candidate C; Ch3). HIGH. **Courtesy-notify the Pamunkey communications office if shipped** (per named-subject discipline).
+- **Kecoughtan (Algonquian village, mouth of the Hampton River)** — cite via Rountree 1989 + William & Mary Center for Archaeological Research (wm.edu/sites/wmcar). — *Backs:* Fox Hill geographic-lineage anchor (Noema Candidate B). MED-HIGH (geographic facts solid; the "six-hundred-year post-hole" detail → pin to the W&M record first).
+
+### 24J. Pending pin — named in a ledger but NOT yet locatable to a specific source (do NOT cite / do NOT fabricate until pinned)
+Recorded so they are not lost; locate the primary source before any use:
+- **Rudes (2005)** Chesapeake etymology — venue unpinned; cite the corrected *Chesepiooc* gloss via Rountree 1990 (24I) meanwhile.
+- **Deepwater component cluster** — Lee 2018 (*J. Corp. Acct. & Finance*, ~$144.9B cost-to-BP), Bishop 2017 (NRDA $17.2B), Sumaila 2012 (fisheries $8.7B), Oxford Economics 2010 (tourism) — figures given, titles/authors unpinned.
+- **Ryggvik 2017** (Norwegian "moderate-pace" doctrine, "storm of protest") — venue unpinned; companion primary *St.meld. nr. 25 (1973–74)* is citable as a govt white paper.
+- **"The New Minimal Cities," *Yale Law Journal* (2019)** — author/cite unpinned. **IMF WP/23/169 (2023)** — authors unpinned. **MarketLine** oil&gas profile 2023; **Citi GPS** giving; **OECD DAC** ODA 2023; **Giving USA 2024**; **TEEB/Trucost 2013** — report ids partly unpinned.
+- **Ch4 Nigeria spine** — Saro-Wiwa execution / NEITI revenue / Alberta Heritage founding / SOMO 2016 / Sanusi-NEITI / Abacha recovery / OPL 245–Malabu — named, no specific document pinned. **Ch8/Ch9 policy cluster** — EU CRMA Reg 2024/1252, DOJ *v. RealPage* docket, FMLA 1993, *Harrington v. Purdue* 2024 + opioid settlements, Helium Acts 1996/2013, ISA/UNCLOS instruments, Amnesty/UNICEF 2016 cobalt, IWG SCC TSD 2021, OpenSecrets oil&gas, OSMRE e-AMLIS, Mondragón 2023, Wilson Center/DDI, Verra/Guardian 2023 — most are real + pinnable but back chapter claims still in redraft; route through the chapter-citation pass (`tools/audits/chapter-citation-specs/`) rather than bulk-entering here.
+
+**Still-UNSOURCED (excluded by discipline — no external source exists):** $108T Social Security foregone-return (framework counterfactual — disavowed + recomputed in canonical Ch5 §100–104); $44B Black Lung cumulative (relabeled "≈$44B through 2009 (GAO/CRS)," not re-cited); "Darity 2026" private interview (deleted, commit 389b773); the per-ton tier allocations, IPG/RCV/CS, and M3 ranges (framework outputs, not external cites).
 
 ---
 
