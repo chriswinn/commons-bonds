@@ -78,12 +78,12 @@
 
 | Glyph | Meaning | Units | Provenance | Std-notation | Collision |
 |---|---|---|---|---|---|
-| RCV_M3 | Method-3 estimate = V_option × scarcity_multiplier(ς) × irreversibility_premium(α) | $·res⁻¹ | quasi-option value (Arrow–Fisher 1974; Henry 1974) — NOT DP investment-timing, per §3.5 line 901 | — | — |
-| V_option | real-options option value | $ | Dixit–Pindyck 1994 **VERIFY** | — | 🟠 vs V(x,t) |
-| **ς** (final sigma) | M3 scarcity parameter (accessible-recoverable stock vs long-horizon demand; reserves-to-production-grounded) | dimensionless | — | **σ→ς applied 2026-06-08 (Path A)** to escape the σ=volatility read; ς is sigma-adjacent (scarcity mnemonic) | ✅ resolved. **Residual old-σ stragglers pending M3 cleanup:** TA 4295, 4309, 4314, 4332, 4338, 6732 |
-| α | irreversibility probability ∈[0,1] | dimensionless | — (aligned to IPCC AR6 SPM B.5; Bernhardt & Palmer 2011) | — | 🟠 vs §16.2 α — resolved by I-3 (§16.2 α→ζ) once branches merge |
+| RCV_M3 | Method-3 estimate = V_market × scarcity_multiplier(ς) × irreversibility_premium(α) | $·res⁻¹ | quasi-option value (Arrow–Fisher 1974; Henry 1974) — NOT DP investment-timing, per §3.5 line 901 | — | — |
+| V_market | resource's own market / underlying value (abundance baseline; renamed from V_option under Path A — the premium emerges from the ς/α weights, not the base) | $ | Arrow–Fisher 1974 / Henry 1974 | — | 🟠 vs V(x,t) |
+| **ς** (final sigma) | M3 scarcity parameter (accessible-recoverable stock vs long-horizon demand; reserves-to-production-grounded) | dimensionless | — | **σ→ς applied 2026-06-08 (Path A)** to escape the σ=volatility read; ς is sigma-adjacent (scarcity mnemonic) | ✅ resolved (old-σ stragglers cleaned by M3) |
+| α | irreversibility probability ∈[0,1] | dimensionless | — (aligned to IPCC AR6 SPM B.5; Bernhardt & Palmer 2011) | — | ✅ resolved (§16.2 α→ζ via I-3, now merged) |
 | ~~β~~ | **DROPPED from M3 (Path A, 2026-06-08):** irreversibility_premium = 1/(1−α), no free exponent (§3.5 line 901). M3-side β collision gone. | — | — | — | ✅ resolved |
-| scarcity_multiplier(ς) | 1+ln(1+ς)×Hotelling_anchor | dimensionless | Hotelling 1931; Atkinson 1970 | log→ln applied §3.5 | ✅ (residual `log(` at TA 4314 pending) |
+| scarcity_multiplier(ς) | 1+ln(1+ς)×Hotelling_anchor | dimensionless | Hotelling 1931; Atkinson 1970 | log→ln applied §3.5 | ✅ |
 | irreversibility_premium(α) | 1/(1−α) (no free exponent — Path A) | dimensionless | quasi-option value (Arrow–Fisher 1974; Henry 1974) | — | — |
 | Hotelling_anchor | ~5%/yr Hotelling-rate proxy coefficient | ~rate | Hotelling 1931 | — | — |
 

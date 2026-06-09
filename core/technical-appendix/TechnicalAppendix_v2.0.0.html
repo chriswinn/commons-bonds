@@ -245,7 +245,7 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
       &sect;10. Theorems and Proofs
      </a>
      <div class="toc-annotation">
-      Theorem 10.1a (Cost Severance Identity), 10.1b (Structural Cost Severance under Current Institutions), Empirical Observation 10.2 (Cross-Model Convergence), Theorem 10.3 (Abundance Masking), 10.4 (RCV Integral Convergence), 10.5 (Substitution Dominance), Corollary 10.5.1 (Optimal Extraction Sequencing).
+      Theorem 10.1a (Cost Severance Identity), Empirical Observation 10.1b (Structural Cost Severance under Current Institutions), Empirical Observation 10.2 (Cross-Model Convergence), Theorem 10.3 (Abundance Masking), 10.4 (RCV Integral Convergence), 10.5 (Substitution Dominance), Corollary 10.5.1 (Optimal Extraction Sequencing).
      </div>
     </li>
     <li>
@@ -368,7 +368,7 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
       Increasing in scarcity: &part;U/&part;Q &lt; 0 (utility per remaining unit increases as stock depletes)
      </li>
      <li>
-      Bounded below by market price: U(R, t, Q(t)) &ge; P(t) for all t &ge; t₀
+      Bounded below by the annualized market price: U(R, t, Q(t)) &ge; r &middot; P(t) for all t &ge; t₀ (the stock price P(t) is converted to a per-period flow r &middot; P(t) so the lower bound is dimensionally consistent with the flow U)
      </li>
     </ol>
     <p>
@@ -759,7 +759,7 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
      IPG(R, t₀) = RCV(R, t₀) / P(t₀)
     </p>
     <p>
-     IPG &gt; 1 indicates underpricing. IPG = 33 means the market price covers approximately 3% of the true intergenerational cost. All empirical cases tested (&sect;11) yield IPG &gg; 1, consistent with Theorem 10.1b (Structural Cost Severance).
+     IPG &gt; 1 indicates underpricing. IPG = 33 means the market price covers approximately 3% of the true intergenerational cost. All empirical cases tested (&sect;11) yield IPG &gg; 1, consistent with Empirical Observation 10.1b (Structural Cost Severance).
     </p>
     <p>
      Sensitivity analysis and numerical validation results (&sect;11) inform the IPG estimates reported below.
@@ -2916,7 +2916,7 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
      RCVMcDowell&nbsp;= &int;1960&infin;&nbsp;{ [1 &minus; S(t | 1960)] &middot; U(R, t, Q(t)) + E(R, t) + C3(R, t, Context) } &middot; D(t, 1960) dt
     </p>
     <p>
-     Numerical update.&nbsp;Present-value contribution of C3&nbsp;approximately $5&ndash;$10/ton. Against the canonical Ch 6 framework-introduction figure of $449&ndash;$464/ton (national-bituminous-average heat-content basis; dominated by the carbon externality), the updated RCV estimate is $454&ndash;$474/ton. Market price remains $4.50/ton (1960 historical) or $40&ndash;$140/ton (contemporary range by grade). The qualitative result CS &gt; 0 is preserved; the pricing gap widens slightly.
+     Numerical update.&nbsp;Present-value contribution of C3&nbsp;approximately $5&ndash;$10/ton. Against the canonical Ch 6 framework-introduction figure of $449&ndash;$464/ton (national-bituminous-average heat-content basis; dominated by the carbon externality), the updated RCV estimate is $454&ndash;$474/ton. Market price remains $4.71/ton (1960 historical) or $40&ndash;$140/ton (contemporary range by grade). The qualitative result CS &gt; 0 is preserved; the pricing gap widens slightly.
     </p>
     <p>
      Adding C3&nbsp;does not destabilize the computation. Convergence is preserved. Dimensional consistency is maintained. No existing term is invalidated. The framework has admitted a new variable via the four gates; subsequent analysts with improved community-transition-cost data can refine the C3&nbsp;estimate without disturbing the rest of the integrand. This is the generative property the framework is designed to support.
@@ -3090,7 +3090,7 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
      Intuition:&nbsp;A barrel of oil in the ground is a financial option &mdash; the right to extract at any future time, but not the obligation. That option has value beyond the present extraction price. Social option value extends this: not extracting today preserves the option to extract when substitutes have developed (increasing S(t)) and when alternative technologies make in-situ preservation more valuable.
     </p>
     <p>
-     Worked example (McDowell County coal, 1960):&nbsp;Coal at $4.50/ton in 1960. Social option value calculated using: (1) volatility of coal prices over 60 years; (2) avoided externality costs using EPA social cost of carbon; (3) innovation time value (the 60 years from 1960&ndash;2020 produced solar panels at $0.03/kWh). The social option value in 1960 substantially exceeded the extraction price &mdash; meaning socially, extraction was premature. The option would have been worth more kept alive.
+     Worked example (McDowell County coal, 1960):&nbsp;Coal at $4.71/ton in 1960. Social option value calculated using: (1) volatility of coal prices over 60 years; (2) avoided externality costs using EPA social cost of carbon; (3) innovation time value (the 60 years from 1960&ndash;2020 produced solar panels at $0.03/kWh). The social option value in 1960 substantially exceeded the extraction price &mdash; meaning socially, extraction was premature. The option would have been worth more kept alive.
     </p>
     <p>
      The structural-overlap attack &mdash; that Real Options and RCV share deep mathematical structure (both price irreversibility + uncertainty) &mdash; is acknowledged explicitly rather than buried. The defense rests on different calibration sources with uncorrelated error modes: Real Options calibrates volatility from market data; RCV calibrates substitutability from engineering and materials science. A reader who notices the structural overlap and finds it addressed openly trusts the convergence more than one who notices the overlap was not addressed.
@@ -3246,7 +3246,7 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
      </tr>
     </table>
     <p>
-     All four cases produce IPG &gg; 1 across all three models. The ranges overlap within one order of magnitude in every case, consistent with 10.2 (Cross-Model Convergence). The carbon term dominates the Damage Function IPG for fossil fuels; the Real Options model produces systematically lower estimates because it uses market-derived volatility, which discounts long-horizon uncertainty; the RCV model produces the highest estimates because it uses the Weitzman declining discount rate, which weights long-horizon costs more heavily.
+     All four cases produce IPG &gg; 1 across all three models. The ranges overlap within one order of magnitude in every case, consistent with 10.2 (Cross-Model Convergence). The carbon term dominates the Damage Function IPG for fossil fuels. No single model is uniformly highest or lowest across the four cases: the RCV model &mdash; which uses the Weitzman declining discount rate, weighting long-horizon costs heavily &mdash; gives the highest estimates in some cases, while the Real Options model &mdash; calibrated to market-derived volatility &mdash; reaches the highest upper bound in others. The load-bearing regularity is the order-of-magnitude overlap, not a fixed cross-model ordering.
     </p>
     <h3>
      &sect;9.6 &mdash; Backtesting Against Implicit Social Pricing
@@ -3260,7 +3260,10 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
      &sect;10. Theorems and Proofs
     </h2>
     <hr>
-    <h3>
+    <p>
+     <strong>Notation convention (&sect;10).</strong> Throughout &sect;10 the labels A1&ndash;A4 denote Assumptions and P1&ndash;P4 denote Premises (in Theorem 10.3, P1&ndash;P4 additionally label abstract cost-function properties, as noted there). These identifiers are distinct from the abundance variable A(t) (Theorem 10.3) and the market price P (Theorem 10.5), which are mathematical quantities, not assumption/premise labels.
+    </p>
+    <p>
      Theorem 10.1a (Cost Severance Identity)
     </h3>
     <p>
@@ -3301,9 +3304,9 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
      </strong>
      By Assumption A1, CS = RCV &minus; B. Therefore CS &gt; 0 &hArr; RCV &minus; B &gt; 0 &hArr; B &lt; RCV. Similarly for equality and inequality. ∎
     </p>
-    <h3>
-     Theorem 10.1b (Structural Cost Severance under Current Institutions)
-    </h3>
+    <p>
+     Empirical Observation 10.1b (Structural Cost Severance under Current Institutions)
+    </p>
     <p>
      <strong>
       Assumptions A2&ndash;A4:
@@ -3351,23 +3354,23 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
       <strong>
        (P3) Current accountability bond inadequacy &mdash; empirical.
       </strong>
-      Across major non-renewable extraction jurisdictions in the contemporary decade, the aggregate Accountability Bond B is empirically less than the aggregate Residual Commons Value RCV. Supporting evidence: &sect;11 validation cases (McDowell County coal; Black Lung Trust Fund deficit; EU ETS gaps; Norwegian sovereign-wealth-fund partial-coverage analysis).
+      Across major non-renewable extraction jurisdictions in the contemporary decade, the accountability instruments in operation provide neither comprehensive intergenerational coverage nor comprehensive externality coverage of the components of the Residual Commons Value RCV. Supporting evidence: &sect;11 validation cases (McDowell County coal; Black Lung Trust Fund deficit; EU ETS gaps; Norwegian sovereign-wealth-fund partial-coverage analysis).
      </li>
     </ol>
     <p>
      <strong>
       Statement.
      </strong>
-     Under Premises P1, P2, P3, for non-renewable extraction R at time t₀ in any jurisdiction observed under current institutions, aggregate B(R, t₀) &lt; aggregate RCV(R, t₀). Therefore by Theorem 10.1a, CS(R, t₀) &gt; 0.
+     Under Premises P1, P2, P3, for non-renewable extraction R at time t₀ across the &sect;11-characterized jurisdictions observed under current institutions, aggregate B(R, t₀) &lt; aggregate RCV(R, t₀). Therefore by Theorem 10.1a, CS(R, t₀) &gt; 0.
     </p>
     <p>
      <strong>
-      Proof.
+      Supporting argument.
      </strong>
      By Premise P1, the intergenerational components of RCV cannot be priced through market mechanisms; therefore market-based accountability instruments do not internalize these components. By Premise P2, the externality components of RCV are partially priced through existing Pigouvian instruments; the partial coverage means that the externality components of B are strictly less than the corresponding components of RCV in aggregate. By Premise P3 (empirical), across current-institution jurisdictions, neither comprehensive intergenerational coverage nor comprehensive externality coverage is implemented; therefore aggregate B &lt; aggregate RCV.
     </p>
     <p>
-     By Theorem 10.1a, B &lt; RCV implies CS &gt; 0. The conclusion follows: CS &gt; 0 holds for non-renewable extraction under current institutions across the jurisdictions empirically validated in &sect;11. ∎
+     By Theorem 10.1a, B &lt; RCV implies CS &gt; 0. The conclusion follows: CS &gt; 0 holds for non-renewable extraction under current institutions across the jurisdictions empirically validated in &sect;11.
     </p>
     <p>
      <strong>
@@ -3379,13 +3382,13 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
      <strong>
       Falsifiability.
      </strong>
-     Theorem 10.1b is falsifiable by either (a) discovery of a non-renewable extraction case under current institutions where aggregate B &ge; aggregate RCV (single counterexample); or (b) empirical demonstration that across most current institutions, accountability instruments are sufficient (B &asymp; RCV) such that Premise P3 fails. Empirical evidence (&sect;11) addresses (b); ongoing monitoring of jurisdictional accountability instruments addresses (a).
+     Empirical Observation 10.1b is falsifiable by either (a) discovery of a non-renewable extraction case under current institutions where aggregate B &ge; aggregate RCV (single counterexample); or (b) empirical demonstration that across most current institutions, accountability instruments are sufficient (B &asymp; RCV) such that Premise P3 fails. Empirical evidence (&sect;11) addresses (b); ongoing monitoring of jurisdictional accountability instruments addresses (a).
     </p>
     <p>
      <strong>
       Domain of applicability.
      </strong>
-     Theorem 10.1b applies to non-renewable extraction (resources whose substitutability function S(t) does not approach 1 within the relevant time horizon &mdash; see &sect;13 existential substitutability gap analysis) under contemporary institutions (defined as the set of accountability instruments in operation in the current decade across jurisdictions where the extraction occurs). Renewable extraction under sustainable management, and non-renewable extraction in hypothetical jurisdictions with comprehensive accountability instruments, are outside the theorem's domain (and would constitute falsifying counterexamples if observed empirically).
+     Empirical Observation 10.1b applies to non-renewable extraction (resources whose substitutability function S(t) does not approach 1 within the relevant time horizon &mdash; see &sect;13 existential substitutability gap analysis) under contemporary institutions (defined as the set of accountability instruments in operation in the current decade across jurisdictions where the extraction occurs). Renewable extraction under sustainable management, and non-renewable extraction in hypothetical jurisdictions with comprehensive accountability instruments, are outside its domain (and would constitute falsifying counterexamples if observed empirically). It is presented as an empirical observation rather than a theorem because its operative content is empirical: the supporting argument derives B &lt; RCV from Premises P1&ndash;P3, but the load-bearing premise (P3 &mdash; that current instruments do not comprehensively cover RCV's components) is an empirical regularity established by the &sect;11 cases, not derivable from primitive premises. The categorization mirrors Empirical Observation 10.2.
     </p>
     <h3>
      Empirical Observation 10.2 (Cross-Model Convergence)
@@ -3445,7 +3448,7 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
         lim_{A &rarr; &tau;⁺} c(A) = &infin; (or grows faster than any polynomial in 1/(A &minus; &tau;)).
        </li>
       </ul>
-      The framework adopts (without loss of generality) the explicit functional form c(A) = c₀ &middot; (&tau;/(A &minus; &tau;))^&xi; for some &xi; &ge; 1; alternative forms with the same limit behavior are admissible.
+      The framework adopts, as a concrete instance satisfying these limit conditions, the explicit functional form c(A) = c₀ &middot; (&tau;/(A &minus; &tau;))^&xi; for some &xi; &ge; 1; the masking result depends only on the limit behavior, so alternative forms with the same limits are admissible.
      </li>
      <li>
       <strong>
@@ -3632,7 +3635,7 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
      f(t) &le; [U_0 &middot; (1 + t)^k + E_0 &middot; (1 + t)^m] &middot; K &middot; exp(&minus;(r_&infin;/2) &middot; (t &minus; T))
     </p>
     <p>
-     Polynomial growth dominated by exponential decay &rArr; integrand integrable on [T, &infin;). Continuous on [t₀, T] &rArr; integrable on [t₀, T]. By Lebesgue dominated convergence theorem (Royden 1988 &sect;4.4; Folland 1999 &sect;2.4), &int;_{t₀}^&infin; f(t) dt &lt; &infin;. ∎ Case SC1.
+     Polynomial growth dominated by exponential decay &rArr; integrand integrable on [T, &infin;). Continuous on [t₀, T] &rArr; integrable on [t₀, T]. Since the integrand is dominated by an integrable function, it is itself integrable (the domination/comparison criterion for Lebesgue integrability; Royden 1988 &sect;4.4; Folland 1999 &sect;2.4), so &int;_{t₀}^&infin; f(t) dt &lt; &infin;. ∎ Case SC1.
     </p>
     <p>
      <strong>
@@ -3688,7 +3691,7 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
       <strong>
        (P1) Social opportunity cost exceeds market price.
       </strong>
-      RCV(R, t₀) &gt; P (equivalently, IPG(R, t₀) &gt; 1 per &sect;3.2). Under Theorem 10.1b's empirical premise (B &lt; RCV across current institutions), this condition is empirically supported across &sect;11 case studies (the IPG &gg; 1 finding). Note: CS &gt; 0 (i.e., RCV &gt; B per Theorem 10.1a) is a related but distinct condition; the substitution-dominance result here requires RCV &gt; P (social opportunity cost greater than extractor revenue), not CS &gt; 0 (social cost greater than posted bond). The two conditions coincide only when B = P, which generally does not hold under current institutions per Theorem 10.1b.
+      RCV(R, t₀) &gt; P (equivalently, IPG(R, t₀) &gt; 1 per &sect;3.2). Under Empirical Observation 10.1b's empirical premise (B &lt; RCV across current institutions), this condition is empirically supported across &sect;11 case studies (the IPG &gg; 1 finding). Note: CS &gt; 0 (i.e., RCV &gt; B per Theorem 10.1a) is a related but distinct condition; the substitution-dominance result here requires RCV &gt; P (social opportunity cost greater than extractor revenue), not CS &gt; 0 (social cost greater than posted bond). The two conditions coincide only when B = P, which generally does not hold under current institutions per Empirical Observation 10.1b.
      </li>
      <li>
       <strong>
@@ -3713,7 +3716,7 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
      <strong>
       Statement.
      </strong>
-     Under Premises P1&ndash;P4, for any non-renewable resource R, investment in a substitute technology S* (that increases S(t)) is weakly dominant over extraction of R from a social welfare perspective.
+     Under Premises P2&ndash;P4, for any non-renewable resource R, investment in a substitute technology S* (that increases S(t)) is weakly dominant over extraction of R from a social welfare perspective; under the additional magnitude premise P1 (RCV &gt; P) the dominance is strict.
     </p>
     <p>
      <strong>
@@ -3815,7 +3818,7 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
      <strong>
       Proof of Corollary 10.5.1.
      </strong>
-     Direct application of Theorem 10.5 across resource-class comparisons. Among extraction-eligible resources, those with lower RCV violate the dominance result less severely; among substitution-eligible resources, those with higher CS strengthen the dominance result.
+     By Theorem 10.5's decomposition, the discounted social-welfare loss from extracting a unit is increasing in that unit's RCV (the foreclosure-cost and externality terms both rise with RCV). Take any extraction schedule containing two units i, j with RCV_i &lt; RCV_j but j scheduled before i. Swapping their order defers the higher-RCV unit j: under a positive discount rate its larger foreclosure cost is incurred later (lower present value) and its option value is preserved longer, while the lower-RCV unit i is brought forward at smaller welfare penalty &mdash; so the swap does not increase, and generically reduces, total discounted welfare loss. Iterating the exchange until no such inversion remains yields the lowest-RCV-first ordering. ∎
     </p>
     <p>
      The framework therefore prioritizes:
@@ -3856,7 +3859,7 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
      Period:&nbsp;1940&ndash;2020 (primary extraction 1940&ndash;1980; legacy costs ongoing)
     </p>
     <p>
-     Market price:&nbsp;$4.50&ndash;$18/ton (mine mouth, nominal, period average)
+     Market price:&nbsp;$4.71&ndash;$18/ton (mine mouth, nominal, period average)
     </p>
     <p>
      Damage Function estimate (floor):
@@ -6532,7 +6535,7 @@ boundary-awareness register (per &sect;12).
      What Daly gets right:&nbsp;"Weak sustainability" (Hartwick's approach: substitute capital for natural capital) is insufficient. "Strong sustainability" requires maintaining the natural capital stock itself &mdash; particularly for critical natural capital with no adequate substitute. GDP as a measure of welfare is deeply misleading because it counts environmental destruction as economic activity.
     </p>
     <p>
-     RCV relationship:&nbsp;The RCV model operationalizes Daly's strong sustainability criterion mathematically. Where Daly argues normatively that S_max must equal 1 for strong sustainability to be achievable, RCV asks empirically: what is S_max for each resource class? For high-existential substitutability gap resources (rare earths, platinum group metals, phosphorus), S_max &lt; 1 &mdash; Daly's strong sustainability criterion cannot be met by substitution alone. The RCV model quantifies the resulting cost, complementing Daly's qualitative argument with a measurable framework.
+     RCV relationship:&nbsp;The RCV model operationalizes Daly's strong sustainability criterion mathematically. Daly's claim, in the framework's terms, is that for critical natural capital S_max &lt; 1 &mdash; there is no adequate substitute &mdash; so strong sustainability cannot be achieved by substituting capital for the natural stock and instead requires maintaining the physical stock itself. RCV asks empirically: what is S_max for each resource class? For high-existential substitutability gap resources (rare earths, platinum group metals, phosphorus), S_max &lt; 1, confirming Daly's premise &mdash; substitution alone cannot meet the criterion. The RCV model quantifies the resulting cost, complementing Daly's qualitative argument with a measurable framework.
     </p>
     <h3>
      &sect;14.7 &mdash; Harvey (2003): Accumulation by Dispossession
@@ -6541,7 +6544,7 @@ boundary-awareness register (per &sect;12).
      What Harvey gets right:&nbsp;Harvey names the broader mechanism of which cost severance is a specific instance: capital accumulates by dispossessing communities of their assets, commons, and resources through enclosure, privatization, and force. Cost severance is the pricing dimension of this &mdash; the financial mechanism by which dispossession is made to appear economically rational.
     </p>
     <p>
-     RCV as measurement tool:&nbsp;Harvey diagnoses the mechanism; RCV measures its magnitude. "Accumulation by dispossession" tells you it happened; the IPG tells you by how much. A McDowell County miner can say "we were exploited" &mdash; the RCV model says "you absorbed at least $504 of cost for every $4.50 you were paid." The measurement does not replace the political analysis; it gives it a number.
+     RCV as measurement tool:&nbsp;Harvey diagnoses the mechanism; RCV measures its magnitude. "Accumulation by dispossession" tells you it happened; the IPG tells you by how much. A McDowell County miner can say "we were exploited" &mdash; the RCV model says "you absorbed at least $504 of cost for every $4.71 you were paid." The measurement does not replace the political analysis; it gives it a number.
     </p>
    </section>
    <section id="sec-15-limitations">
@@ -7267,34 +7270,34 @@ boundary-awareness register (per &sect;12).
      RCV = &int;t₀&infin;&nbsp;{ [1 &minus; S(t)] &middot; U(R, t, Q(t)) + E(R, t) } &middot; exp(&minus;&int;t₀t&nbsp;r(u)du) dt
     </p>
     <p>
-     where r(t) = r₀ &middot; e&minus;&delta;t&nbsp;+ r_min
+     where r(t) = (r₀ &minus; r_min) &middot; e&minus;&kappa;t&nbsp;+ r_min
     </p>
     <p>
-     The declining discount rate function r(t) starts at r₀ (conventional current rate, ~4&ndash;5%) and declines to r_min (~1%) over long horizons, reflecting Weitzman's certainty-equivalent rate under discount rate uncertainty. This specification is conservative relative to a zero or near-zero pure time preference &mdash; it biases RCV downward.
+     The declining discount rate function r(t) starts at r₀ (conventional current rate, ~4&ndash;5%) and declines to r_min (~1%) over long horizons at decay rate &kappa; &gt; 0, reflecting Weitzman's certainty-equivalent rate under discount rate uncertainty. This specification is conservative relative to a zero or near-zero pure time preference &mdash; it biases RCV downward.
     </p>
     <h3>
      &sect;16.2 &mdash; Stock-Dependent Substitutability
     </h3>
     <p>
-     S(t | t₀, Q(t)) = S_base(t) &middot; [1 &minus; &alpha; &middot; (Q_critical / Q(t))&beta;]
+     S(t | t₀, Q(t)) = S_base(t) &middot; [1 &minus; &zeta; &middot; (Q_critical / Q(t))&omega;]
     </p>
     <p>
-     where &alpha;, &beta; &gt; 0 capture scarcity effects on innovation incentives
+     where &zeta;, &omega; &gt; 0 capture scarcity effects on innovation incentives (&zeta; and &omega; are local to &sect;16.2 and distinct from the Method-3 irreversibility parameters &alpha;, &beta; in &sect;3.5)
     </p>
     <p>
-     When stock Q is large, innovators have low incentive to develop substitutes &mdash; resources appear abundant, prices are low. As Q approaches Q_critical (the level at which scarcity becomes economically visible), innovation pressure increases and S_base rises faster. This creates a potential feedback loop: very rapid extraction can keep prices low long enough to delay substitute development, resulting in a lower achieved S_max when depletion eventually forces the issue. This is the mechanism behind "stranded asset risk" &mdash; industries that extracted too fast find themselves without substitutes when they need them.
+     When stock Q is large the suppression term &zeta; &middot; (Q_critical / Q(t))&omega; is negligible and achieved substitutability sits at its baseline S_base &mdash; abundance keeps prices low and removes the economic pressure that would drive substitute development, but the penalty has not yet bitten. As Q falls toward Q_critical (the level at which scarcity becomes economically visible) the suppression term grows and achieved S is pulled below S_base: the substitutes that low-price abundance failed to call forth are not ready when depletion forces the issue. This is the mechanism behind "stranded asset risk" &mdash; industries that extracted too fast kept prices low long enough to delay substitute development, and so face a lower achieved S_max (a larger 1 &minus; S foreclosure weight) exactly when substitutes are most needed.
     </p>
     <h3>
      &sect;16.3 &mdash; Spatial cost severance formalization
     </h3>
     <p>
-     SCS = &int;<sub>E&setminus;K</sub>&nbsp;&int;<sub>time</sub>&nbsp;C(x, t) dx dt
+     SCS = &int;<sub>&Omega;&setminus;K</sub>&nbsp;&int;<sub>time</sub>&nbsp;C(x, t) dx dt
     </p>
     <p>
-     where x represents geographic location, E is the extraction region, K is the consumption region (lettered K to avoid collision with the cost function C(x,t)), and C(x,t) is the cost burden at location x and time t. Where value-received-at-location appears in expanded forms or extensions, the framework denotes it V(x,t) &mdash; a distinct symbol from the framework's Accountability Bond B used elsewhere.
+     where x represents geographic location, &Omega; is the extraction region, K is the consumption region (K and &Omega; are lettered to avoid collision with the cost function C(x,t) and the externality function E(R,t) respectively), and C(x,t) is the cost burden at location x and time t. Where value-received-at-location appears in expanded forms or extensions, the framework denotes it V(x,t) &mdash; a distinct symbol from the framework's Accountability Bond B used elsewhere.
     </p>
     <p>
-     Spatial cost severance measures the cost borne in the extraction region outside the consumption region. When the extraction region is contained within the consumption region (E &sube; K; Mars colony mining its own rare earths; Norway's sovereign wealth fund returning extraction rent to the Norwegian polity that bears extraction's domestic costs), SCS = 0 because no cost falls outside the value-receiving region. When E and K are geographically separated (Appalachian coal, Baotou rare earths, Niger Delta oil), SCS &gt; 0 and scales with the cost density in the non-overlapping region E&setminus;K.
+     Spatial cost severance measures the cost borne in the extraction region outside the consumption region. When the extraction region is contained within the consumption region (&Omega; &sube; K; Mars colony mining its own rare earths; Norway's sovereign wealth fund returning extraction rent to the Norwegian polity that bears extraction's domestic costs), SCS = 0 because no cost falls outside the value-receiving region. When &Omega; and K are geographically separated (Appalachian coal, Baotou rare earths, Niger Delta oil), SCS &gt; 0 and scales with the cost density in the non-overlapping region &Omega;&setminus;K.
     </p>
     <p>
      This formalization explains why cost severance produces systematic geographic inequality: extraction communities absorb environmental, health, and economic disruption costs while consuming communities receive energy and materials at artificially low prices. The 13-year life expectancy gap between McDowell County and the national average is the human face of SCS.
