@@ -1619,13 +1619,37 @@ Citations surfaced by the manuscript-folder citation ledgers (`manuscript/_RESEA
 - **Pamunkey Indian Tribe shad hatchery (est. 1918, Pamunkey River) — reportage cluster:** Chesapeake Bay Program (chesapeakebay.net), *Bay Journal*, Pamunkey Tribe Natural Resources (pamunkey.org/natural-resource), NMAI / *American Indian Magazine*. — *Backs:* the indigenous-governance "renewable-past-regeneration" existence-proof (Noema Candidate C; Ch3). HIGH. **Courtesy-notify the Pamunkey communications office if shipped** (per named-subject discipline).
 - **Kecoughtan (Algonquian village, mouth of the Hampton River)** — cite via Rountree 1989 + William & Mary Center for Archaeological Research (wm.edu/sites/wmcar). — *Backs:* Fox Hill geographic-lineage anchor (Noema Candidate B). MED-HIGH (geographic facts solid; the "six-hundred-year post-hole" detail → pin to the W&M record first).
 
-### 24J. Pending pin — named in a ledger but NOT yet locatable to a specific source (do NOT cite / do NOT fabricate until pinned)
-Recorded so they are not lost; locate the primary source before any use:
+### 24J. Policy / primary-law / agency sources (added 2026-06-09)
+The pinnable primary-law / regulation / agency / named-report sources from the prior pending list, now entered (author direction 2026-06-09, "add now"). Standard public instruments (statutes, regulations, treaties, court cases, named agency/NGO reports + databases); the four marked **(verified 2026-06-09)** were web-checked this pass, the rest are standard citations of public instruments. Each backs a specific chapter claim; the chapter-citation pass wires the in-text cites.
+
+**Statutes / regulations / treaties / cases:**
+- **Family and Medical Leave Act of 1993, Pub. L. No. 103-3, 107 Stat. 6.** — *Backs:* Ch9 "FMLA 1993, 12 weeks unpaid."
+- **European Union. Regulation (EU) 2024/1252 (Critical Raw Materials Act), in force 23 May 2024.** **(verified 2026-06-09 — 34 critical / 17 strategic raw materials.)** — *Backs:* Ch9 EU CRMA.
+- ***Harrington v. Purdue Pharma L.P.*, 603 U.S. 204 (2024)** (decided June 27, 2024; Gorsuch, J. — barred nonconsensual third-party releases). **(verified 2026-06-09.)** — *Backs:* Ch2 Sackler/opioid settlement (paired with the National Opioids Settlement / Big Three ~$21B, 2022).
+- **Helium Privatization Act of 1996, Pub. L. No. 104-273** + **Helium Stewardship Act of 2013, Pub. L. No. 113-40 (Oct. 2, 2013).** **(verified 2026-06-09.)** — *Backs:* Ch9 federal helium reserve sold below market.
+- **United Nations Convention on the Law of the Sea (1982); Agreement Relating to the Implementation of Part XI (1994); International Seabed Authority exploration regulations ("Mining Code").** — *Backs:* Ch9 ISA / CCZ deep-seabed mining (with Nauru's 2021 "two-year rule" trigger). Complements Jaeckel 2017 + Smith 2008 (already in bib).
+- **Norwegian Ministry of Finance. *St.meld. nr. 25 (1973–74)* (petroleum-policy "moderate pace" white paper).** — *Backs:* Ch4 Norway deliberately-limited extraction pace.
+- **Alberta Heritage Savings Trust Fund Act (1976); Alberta Heritage Savings Trust Fund annual report.** — *Backs:* Ch4 Alberta Heritage founding (companion to the Alaska Permanent Fund entry, §23.3).
+
+**Agency / IGO / NGO reports + databases:**
+- **U.S. Interagency Working Group on the Social Cost of Greenhouse Gases. *Technical Support Document: Social Cost of Carbon, Methane, and Nitrous Oxide* (Feb. 2021).** — *Backs:* Ch8 historical SCC $42 (Obama-era IWG) / $51 (Biden-era interim) — attribute to the IWG TSD, NOT EO 12866. (Distinct from EPA 2023 SCGHG $190, §23.1.)
+- **Amnesty International and Afrewatch. *"This Is What We Die For": Human Rights Abuses in the DRC Power the Global Trade in Cobalt* (2016).** — *Backs:* Ch9 DRC cobalt ~40,000 children (figure originates UNICEF 2014, via Amnesty).
+- **International Monetary Fund. Working Paper WP/23/169 (2023)** (>$5T/yr unpriced fossil-fuel environmental cost) `[authors to confirm — Black/Parry et al.]`. — *Backs:* Ch9 aggregate severed-cost lower-bound corroboration.
+- **OECD. Development Assistance Committee (DAC) — Official Development Assistance statistics (2023)** (~$223.3B total ODA). — *Backs:* Ch8 ODA comparison denominator.
+- **Giving USA Foundation / IU Lilly Family School of Philanthropy. *Giving USA 2024: The Annual Report on Philanthropy.*** — *Backs:* Ch8 charitable-giving denominator (US giving ~$557B, 2023).
+- **OpenSecrets (Center for Responsive Politics). Oil & Gas industry lobbying/contributions profile (sector E01).** — *Backs:* Ch8 fossil-fuel lobbying totals (time-sensitive; cycle-year date-lock at apply).
+- **U.S. OSMRE. e-AMLIS (Abandoned Mine Land Inventory System).** — *Backs:* Ch8 AML acreage (hundreds of thousands of acres Appalachia / ~1M nationwide).
+- **U.S. DOJ Antitrust Division. *United States v. RealPage, Inc.* (M.D.N.C., filed 2024).** — *Backs:* Ch8 algorithmic rent-coordination (time-sensitive — approval/status to re-lock).
+- **The Guardian / Die Zeit / SourceMaterial investigation into Verra rainforest carbon-offset credits (Jan. 18, 2023).** — *Backs:* Ch7 carbon-offset-premium-does-not-reach parallel.
+- **Mondragón Corporation. *Annual Report 2023.*** — *Backs:* Ch9 Mondragón figures (~70,500 employees, ~81 cooperatives, ~€11.1B revenue, 2023) — cite a single 2023 reference year (the book's multi-year figures were CONTRADICTED; reconcile to 2023).
+- **Michelle Wilde Anderson. "The New Minimal Cities." *Yale Law Journal* 123 (2014): 1118.** — *Backs:* Ch8 community-disruption / shrinking-city stranded-infrastructure tier. **[Year corrected 2026-06-09 — prior "(2019)" was wrong; the paper is vol. 123 (2014).]**
+
+### 24K. Still pending pin — do NOT cite / do NOT fabricate until a specific source is located
 - **Rudes (2005)** Chesapeake etymology — venue unpinned; cite the corrected *Chesepiooc* gloss via Rountree 1990 (24I) meanwhile.
 - **Deepwater component cluster** — Lee 2018 (*J. Corp. Acct. & Finance*, ~$144.9B cost-to-BP), Bishop 2017 (NRDA $17.2B), Sumaila 2012 (fisheries $8.7B), Oxford Economics 2010 (tourism) — figures given, titles/authors unpinned.
-- **Ryggvik 2017** (Norwegian "moderate-pace" doctrine, "storm of protest") — venue unpinned; companion primary *St.meld. nr. 25 (1973–74)* is citable as a govt white paper.
-- **"The New Minimal Cities," *Yale Law Journal* (2019)** — author/cite unpinned. **IMF WP/23/169 (2023)** — authors unpinned. **MarketLine** oil&gas profile 2023; **Citi GPS** giving; **OECD DAC** ODA 2023; **Giving USA 2024**; **TEEB/Trucost 2013** — report ids partly unpinned.
-- **Ch4 Nigeria spine** — Saro-Wiwa execution / NEITI revenue / Alberta Heritage founding / SOMO 2016 / Sanusi-NEITI / Abacha recovery / OPL 245–Malabu — named, no specific document pinned. **Ch8/Ch9 policy cluster** — EU CRMA Reg 2024/1252, DOJ *v. RealPage* docket, FMLA 1993, *Harrington v. Purdue* 2024 + opioid settlements, Helium Acts 1996/2013, ISA/UNCLOS instruments, Amnesty/UNICEF 2016 cobalt, IWG SCC TSD 2021, OpenSecrets oil&gas, OSMRE e-AMLIS, Mondragón 2023, Wilson Center/DDI, Verra/Guardian 2023 — most are real + pinnable but back chapter claims still in redraft; route through the chapter-citation pass (`tools/audits/chapter-citation-specs/`) rather than bulk-entering here.
+- **Ryggvik 2017** (Norwegian "moderate-pace" doctrine, "storm of protest") — venue unpinned (the companion *St.meld. nr. 25* is now entered in 24J).
+- **MarketLine** oil&gas profile 2023; **Citi GPS** giving (~$1.3–2.3T); **TEEB/Trucost 2013** (~$7.3T natural-capital) — proprietary / title-reconstruction; locate the exact report id first.
+- **Ch4 Nigeria corruption cluster** — NEITI revenue specific report / SOMO 2016 / Sanusi-NEITI / Abacha recovery record / OPL 245–Malabu — named events, no specific document pinned (Saro-Wiwa's 1995 execution is citable to standard sources if needed). **Wilson Center / DDI** artisanal-miner wage (~<$1–2/day) — no locatable cite.
 
 **Still-UNSOURCED (excluded by discipline — no external source exists):** $108T Social Security foregone-return (framework counterfactual — disavowed + recomputed in canonical Ch5 §100–104); $44B Black Lung cumulative (relabeled "≈$44B through 2009 (GAO/CRS)," not re-cited); "Darity 2026" private interview (deleted, commit 389b773); the per-ton tier allocations, IPG/RCV/CS, and M3 ranges (framework outputs, not external cites).
 
