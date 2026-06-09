@@ -34,7 +34,7 @@
 | **δ vs Δ** | ε–δ width δ vs change-operator Δ (ΔForeclosure_cost) | 3520 vs 3747 |
 | **T vs t/t₀** | proof threshold time T vs time variable t | 3624 vs throughout |
 | **c vs C vs 𝒞** | cost function c(A) vs cost component C/Cᵢ vs commons set 𝒞 (script) | 3440 vs 327 vs 327 |
-| **V(x,t) vs V_option** | spatial value vs Method-3 option value | 7365 vs 889 |
+| **V(x,t) vs V_market** | spatial value vs Method-3 option value | 7365 vs 889 |
 | **C₁ vs B₁** | Foreclosure Cost C₁ (forward) vs Restitution Bond B₁ (backward) — subscript-1 carries *opposite* temporal valence | 1276 vs 1219 |
 | **2%** | EPA SCC discount rate vs one of Weitzman's candidate rates | 5740 vs 6564 |
 | **× (times)** | multiplication vs ratio-magnitude suffix ("33–122×") vs Cartesian product (ℝ×[t₀,∞)) | many |
@@ -78,12 +78,12 @@
 
 | Glyph | Meaning | Units | Provenance | Std-notation | Collision |
 |---|---|---|---|---|---|
-| RCV_M3 | Method-3 estimate = V_option × scarcity_multiplier(ς) × irreversibility_premium(α) | $·res⁻¹ | quasi-option value (Arrow–Fisher 1974; Henry 1974) — NOT DP investment-timing, per §3.5 line 901 | — | — |
-| V_option | real-options option value | $ | Dixit–Pindyck 1994 **VERIFY** | — | 🟠 vs V(x,t) |
-| **ς** (final sigma) | M3 scarcity parameter (accessible-recoverable stock vs long-horizon demand; reserves-to-production-grounded) | dimensionless | — | **σ→ς applied 2026-06-08 (Path A)** to escape the σ=volatility read; ς is sigma-adjacent (scarcity mnemonic) | ✅ resolved. **Residual old-σ stragglers pending M3 cleanup:** TA 4295, 4309, 4314, 4332, 4338, 6732 |
-| α | irreversibility probability ∈[0,1] | dimensionless | — (aligned to IPCC AR6 SPM B.5; Bernhardt & Palmer 2011) | — | 🟠 vs §16.2 α — resolved by I-3 (§16.2 α→ζ) once branches merge |
+| RCV_M3 | Method-3 estimate = V_market × scarcity_multiplier(ς) × irreversibility_premium(α) | $·res⁻¹ | quasi-option value (Arrow–Fisher 1974; Henry 1974) — NOT DP investment-timing, per §3.5 line 901 | — | — |
+| V_market | resource's own market / underlying value (abundance baseline; renamed from V_option under Path A — the premium emerges from the ς/α weights, not the base) | $ | Arrow–Fisher 1974 / Henry 1974 | — | 🟠 vs V(x,t) |
+| **ς** (final sigma) | M3 scarcity parameter (accessible-recoverable stock vs long-horizon demand; reserves-to-production-grounded) | dimensionless | — | **σ→ς applied 2026-06-08 (Path A)** to escape the σ=volatility read; ς is sigma-adjacent (scarcity mnemonic) | ✅ resolved (old-σ stragglers cleaned by M3) |
+| α | irreversibility probability ∈[0,1] | dimensionless | — (aligned to IPCC AR6 SPM B.5; Bernhardt & Palmer 2011) | — | ✅ resolved (§16.2 α→ζ via I-3, now merged) |
 | ~~β~~ | **DROPPED from M3 (Path A, 2026-06-08):** irreversibility_premium = 1/(1−α), no free exponent (§3.5 line 901). M3-side β collision gone. | — | — | — | ✅ resolved |
-| scarcity_multiplier(ς) | 1+ln(1+ς)×Hotelling_anchor | dimensionless | Hotelling 1931; Atkinson 1970 | log→ln applied §3.5 | ✅ (residual `log(` at TA 4314 pending) |
+| scarcity_multiplier(ς) | 1+ln(1+ς)×Hotelling_anchor | dimensionless | Hotelling 1931; Atkinson 1970 | log→ln applied §3.5 | ✅ |
 | irreversibility_premium(α) | 1/(1−α) (no free exponent — Path A) | dimensionless | quasi-option value (Arrow–Fisher 1974; Henry 1974) | — | — |
 | Hotelling_anchor | ~5%/yr Hotelling-rate proxy coefficient | ~rate | Hotelling 1931 | — | — |
 
@@ -128,8 +128,8 @@ Symbol/formula provenance citations used inline but **NOT found as bibliography 
 
 | Cited inline for | Work | Status |
 |---|---|---|
-| V_option / σ real-options provenance | **Brennan & Schwartz 1985** (commodity-investment real options) | ❌ ABSENT (cited 6706, 6719, 6723) |
-| V_option option-pricing foundation | **Black–Scholes 1973** | ❌ ABSENT (cited 6723) |
+| V_market / σ real-options provenance | **Brennan & Schwartz 1985** (commodity-investment real options) | ❌ ABSENT (cited 6706, 6719, 6723) |
+| V_market option-pricing foundation | **Black–Scholes 1973** | ❌ ABSENT (cited 6723) |
 | risk-vs-uncertainty | **Knight 1921** | ❌ ABSENT (cited 6895) |
 
 Confirmed PRESENT (symbol-provenance-relevant): Solow 1956 (7981) & 1974 (7984); Weitzman 2001 (8026); Dixit & Pindyck 1994 (7807); Hotelling 1931 (7855); Hartwick 1977 (7834); Dasgupta & Heal 1979 (7801); Atkinson 1970 (7741); Cobb & Douglas 1928 (7777); Arrow & Fisher 1974 (7738); Henry 1974 (7840); Pindyck 1978 (7945) & 2008 (7948); Pigou 1920 (7942); Nordhaus & Boyer 2000 (7915); Stern 2007 (7993); Royden 1988 (7966); Folland 1999 (7822).

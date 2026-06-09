@@ -886,9 +886,9 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
       Formal specification:
      </strong>
     </p>
-    <pre>RCV_M3 = V_option &times; scarcity_multiplier(&sigmaf;) &times; irreversibility_premium(&alpha;)
+    <pre>RCV_M3 = V_market &times; scarcity_multiplier(&sigmaf;) &times; irreversibility_premium(&alpha;)
 
-  V_option                       = resource's own intrinsic (market / extraction) value [abundance-context baseline]
+  V_market                       = resource's own intrinsic (market / extraction) value [abundance-context baseline]
   &sigmaf;                              = scarcity parameter (accessible-recoverable stock vs long-horizon demand; reserves-to-production&ndash;grounded; the scarcity the market underprices &mdash; non-renewability is carried by &alpha;, not &sigmaf;)
   &alpha;                              = irreversibility parameter (probability commons cannot be restored
                                    at any finite cost once extracted; &alpha; &isin; [0, 1])
@@ -898,7 +898,7 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
                                                        [per-event expected loss given irreversibility probability &alpha;]
 </pre>
     <p>
-     <strong>Reading the formula.</strong> V_option is the resource&rsquo;s own intrinsic value, so under counterfactual abundance both multipliers approach 1 and RCV_M3 approaches market price (the asteroid-iron calibration, &sect;11.8); the social premium emerges only as scarcity (&sigmaf;) and irreversibility (&alpha;) rise. The construct is the quasi-option value of preserving an irreversibly-losable commons (Arrow &amp; Fisher 1974; Henry 1974) &mdash; not the Dixit&ndash;Pindyck investment-timing model, which appears separately as the &sect;9 Real-Options cross-check. The irreversibility term carries no free exponent: high-&alpha; cases are weighted heavily because the empirical record shows the loss is irreversible (&sect;11.8; IPCC AR6 SPM B.5; Bernhardt &amp; Palmer 2011), and the <em>dominance</em> of permanent non-substitutable foreclosure is established independently by Theorem 10.4 (knife-edge) and Theorem 10.5 (Substitution Dominance). As &alpha; &rarr; 1 the weight diverges; that regime is handed to the incommensurability boundary and the Asymmetric Regret Rule (&sect;12), not priced by a runaway multiplier.
+     <strong>Reading the formula.</strong> V_market is the resource&rsquo;s own intrinsic value, so under counterfactual abundance both multipliers approach 1 and RCV_M3 approaches market price (the asteroid-iron calibration, &sect;11.8); the social premium emerges only as scarcity (&sigmaf;) and irreversibility (&alpha;) rise. The construct is the quasi-option value of preserving an irreversibly-losable commons (Arrow &amp; Fisher 1974; Henry 1974) &mdash; not the Dixit&ndash;Pindyck investment-timing model, which appears separately as the &sect;9 Real-Options cross-check. The irreversibility term carries no free exponent: high-&alpha; cases are weighted heavily because the empirical record shows the loss is irreversible (&sect;11.8; IPCC AR6 SPM B.5; Bernhardt &amp; Palmer 2011), and the <em>dominance</em> of permanent non-substitutable foreclosure is established independently by Theorem 10.4 (knife-edge) and Theorem 10.5 (Substitution Dominance). As &alpha; &rarr; 1 the weight diverges; that regime is handed to the incommensurability boundary and the Asymmetric Regret Rule (&sect;12), not priced by a runaway multiplier.
     </p>
     <p>
      <strong>
@@ -996,7 +996,7 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
        </td>
        <td>
         <strong>
-         V_option
+         V_market
         </strong>
        </td>
        <td>
@@ -1016,7 +1016,7 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
        <td>
         mixed;
         <strong>
-         &alpha; &rarr; &sigmaf; &rarr; V_option
+         &alpha; &rarr; &sigmaf; &rarr; V_market
         </strong>
        </td>
        <td>
@@ -4297,12 +4297,12 @@ Numerical anchors below are the framework's empirical operationalization.
       &alpha; &asymp; 0.50&ndash;0.75 (institutional architecture lowers Norway's effective irreversibility, out of the high-irreversibility regime &mdash; restoration optionality preserved through GPFG)
      </li>
      <li>
-      V_option = the crude's own market value (&asymp; recent Brent, EIA; the abundance-context baseline) &mdash; ~$80/BOE central, ~$40&ndash;120/BOE across price regimes
+      V_market = the crude's own market value (&asymp; recent Brent, EIA; the abundance-context baseline) &mdash; ~$80/BOE central, ~$40&ndash;120/BOE across price regimes
      </li>
     </ul>
     <p>
      <strong>
-      Computation (central &mdash; &sigmaf;=100, &alpha;=0.65, V_option=$80 market crude):
+      Computation (central &mdash; &sigmaf;=100, &alpha;=0.65, V_market=$80 market crude):
      </strong>
     </p>
     <ul>
@@ -4325,13 +4325,13 @@ Numerical anchors below are the framework's empirical operationalization.
     </p>
     <ul>
      <li>
-      Low corner (V_option=$40 crude, &sigmaf;=50, &alpha;=0.50): $40 &times; 1.20 &times; 2.0 &asymp;
+      Low corner (V_market=$40 crude, &sigmaf;=50, &alpha;=0.50): $40 &times; 1.20 &times; 2.0 &asymp;
       <strong>
        $96/BOE
       </strong>
      </li>
      <li>
-      High corner (V_option=$120 crude, &sigmaf;=200, &alpha;=0.75): $120 &times; 1.27 &times; 4.0 &asymp;
+      High corner (V_market=$120 crude, &sigmaf;=200, &alpha;=0.75): $120 &times; 1.27 &times; 4.0 &asymp;
       <strong>
        $610/BOE
       </strong>
@@ -4483,11 +4483,11 @@ Companion to &sect;11.5 Norway.
       <tr>
        <td>
         <strong>
-         1960 average coal price (Ch 6 convergence-table anchor)
+         1960 mine-mouth coal price, bituminous (Ch 6 convergence-table anchor)
         </strong>
        </td>
        <td>
-        $4.50/ton
+        $4.71/ton
        </td>
        <td>
         Ch 6 convergence table
@@ -4744,7 +4744,7 @@ Companion to &sect;11.5 Norway.
       &alpha; &asymp; 0.85&ndash;0.95 (mountaintop-removal habitat irreversible at finite engineering cost; cultural-and-community commons irreversible without targeted intervention; atmospheric carbon-cycle disruption irreversible &mdash; IPCC AR6 SPM B.5; Bernhardt &amp; Palmer 2011)
      </li>
      <li>
-      V_option = the coal's own intrinsic (market) value &asymp; $40&ndash;140/ton contemporary by grade (EIA; 1960 mine-mouth ~$4.50/ton) &mdash; the abundance-context baseline; the social premium emerges from the two weights
+      V_market = the coal's own intrinsic (market) value &asymp; $40&ndash;140/ton contemporary by grade (EIA; 1960 mine-mouth ~$4.71/ton, bituminous) &mdash; the abundance-context baseline; the social premium emerges from the two weights
      </li>
     </ul>
     <p>
@@ -4761,7 +4761,7 @@ Companion to &sect;11.5 Norway.
      </li>
      <li>
       <strong>
-       Method 3 RCV &mdash; band ~$340&ndash;$3,670/ton (V_option $40&ndash;140 &times; scarcity 1.27&ndash;1.31 &times; irreversibility 6.67&ndash;20); geometric center ~$1,115/ton
+       Method 3 RCV &mdash; band ~$340&ndash;$3,670/ton (V_market $40&ndash;140 &times; scarcity 1.27&ndash;1.31 &times; irreversibility 6.67&ndash;20); geometric center ~$1,115/ton
       </strong>
      </li>
     </ul>
@@ -4772,13 +4772,13 @@ Companion to &sect;11.5 Norway.
     </p>
     <ul>
      <li>
-      Low corner (V_option=$40, &alpha;=0.85): $40 &times; 1.27 &times; 6.67 &asymp;
+      Low corner (V_market=$40, &alpha;=0.85): $40 &times; 1.27 &times; 6.67 &asymp;
       <strong>
        $340/ton
       </strong>
      </li>
      <li>
-      High corner (V_option=$140, &alpha;=0.95): $140 &times; 1.31 &times; 20 &asymp;
+      High corner (V_market=$140, &alpha;=0.95): $140 &times; 1.31 &times; 20 &asymp;
       <strong>
        $3,670/ton
       </strong>
@@ -4885,7 +4885,7 @@ Companion to &sect;11.5 Norway.
       <strong>
        IPG calculation:
       </strong>
-      under the market-anchored option value (V_option = market price), the M3-IPG is the foreclosure-premium multiple itself &mdash; scarcity &times; irreversibility &asymp;
+      under the market-anchored option value (V_market = market price), the M3-IPG is the foreclosure-premium multiple itself &mdash; scarcity &times; irreversibility &asymp;
       <strong>
        8.5&ndash;26&times; (center ~15&times;)
       </strong>
@@ -5101,7 +5101,7 @@ Same structural insight expressed at decision-rule level (ARR) and estimation-me
         &alpha;
        </th>
        <th>
-        V_option
+        V_market
        </th>
        <th>
         Dominant parameter
@@ -5177,11 +5177,11 @@ Same structural insight expressed at decision-rule level (ARR) and estimation-me
        </td>
        <td>
         <strong>
-         V_option
+         V_market
         </strong>
        </td>
        <td>
-        both multipliers &asymp; 1; V_option drives the result
+        both multipliers &asymp; 1; V_market drives the result
        </td>
       </tr>
       <tr>
@@ -5201,11 +5201,11 @@ Same structural insight expressed at decision-rule level (ARR) and estimation-me
        </td>
        <td>
         <strong>
-         mixed; &alpha; &rarr; &sigmaf; &rarr; V_option order
+         mixed; &alpha; &rarr; &sigmaf; &rarr; V_market order
         </strong>
        </td>
        <td>
-        &alpha; matters most because it's near-1; &sigmaf; second because it's the visible scarcity; V_option third because it's the dimensional anchor
+        &alpha; matters most because it's near-1; &sigmaf; second because it's the visible scarcity; V_market third because it's the dimensional anchor
        </td>
       </tr>
      </tbody>
@@ -5229,7 +5229,7 @@ Same structural insight expressed at decision-rule level (ARR) and estimation-me
       &alpha; &asymp; 0.85&ndash;0.95 (mountaintop-removal habitat is mostly irreversible; community-and-cultural commons partially recoverable through targeted intervention but largely lost in current US policy regime)
      </li>
      <li>
-      V_option = the coal's own market value &asymp; $40&ndash;140/ton by grade (EIA)
+      V_market = the coal's own market value &asymp; $40&ndash;140/ton by grade (EIA)
      </li>
      <li>
       <strong>
@@ -5238,7 +5238,7 @@ Same structural insight expressed at decision-rule level (ARR) and estimation-me
       <strong>
        &alpha; dominates
       </strong>
-      (irreversibility_premium &asymp; 7&ndash;20 at &alpha; = 0.85&ndash;0.95; scarcity_multiplier &asymp; 1.27&ndash;1.31 via 1 + ln(1+200..500) &times; 0.05; V_option &asymp; $50&ndash;$500). The framework's RCV estimate for McDowell is driven primarily by irreversibility &mdash; the framework's "the coal is gone" / "the mountains are cut" claim is the load-bearing structural finding.
+      (irreversibility_premium &asymp; 7&ndash;20 at &alpha; = 0.85&ndash;0.95; scarcity_multiplier &asymp; 1.27&ndash;1.31 via 1 + ln(1+200..500) &times; 0.05; V_market &asymp; $50&ndash;$500). The framework's RCV estimate for McDowell is driven primarily by irreversibility &mdash; the framework's "the coal is gone" / "the mountains are cut" claim is the load-bearing structural finding.
      </li>
     </ul>
     <p>
@@ -5254,14 +5254,14 @@ Same structural insight expressed at decision-rule level (ARR) and estimation-me
       &alpha; &asymp; 0.50&ndash;0.75 (Norwegian extraction is partially recoverable via sovereign-wealth-fund accumulation that could fund DAC-class restoration; the resource itself is lost but the value is preserved through the institutional architecture)
      </li>
      <li>
-      V_option = market crude value per barrel (climate-policy + future-substitutability uncertainty fold into the scarcity/irreversibility weights, not the base)
+      V_market = market crude value per barrel (climate-policy + future-substitutability uncertainty fold into the scarcity/irreversibility weights, not the base)
      </li>
      <li>
       <strong>
        Dominance:
       </strong>
       <strong>
-       &sigmaf; + &alpha; near-equal; V_option third.
+       &sigmaf; + &alpha; near-equal; V_market third.
       </strong>
       Norway's institutional architecture has reduced effective irreversibility (by funding restoration optionality through GPFG accumulation) &mdash; so &alpha; is moderate rather than near-1, and &sigmaf; + &alpha; both matter. This is the structural reason Norway is the framework's canonical-existing-B2 exemplar: institutional architecture moves the case out of the high-irreversibility regime.
      </li>
@@ -5279,16 +5279,16 @@ Same structural insight expressed at decision-rule level (ARR) and estimation-me
       &alpha; &asymp; 0.05&ndash;0.2 (asteroid extraction is recoverable through extraction of substitutes; minimal habitat / community / atmospheric loss)
      </li>
      <li>
-      V_option = the metal's own market value (low for abundant iron); the asteroid stock is cosmic-abundant so the foreclosure weights &asymp; 1
+      V_market = the metal's own market value (low for abundant iron); the asteroid stock is cosmic-abundant so the foreclosure weights &asymp; 1
      </li>
      <li>
       <strong>
        Dominance:
       </strong>
       <strong>
-       V_option dominates by default.
+       V_market dominates by default.
       </strong>
-      Both multipliers &asymp; 1; V_option &times; small-multiplier produces small RCV; framework's "RCV approaches market price for asteroid iron" claim follows. This is the framework correctly producing market-price-equivalent answers where market pricing is approximately right &mdash; exactly the calibration the asteroid case is designed to demonstrate. <strong>Note &mdash;</strong> iron is the <em>low-existential-gap</em> exemplar; resources that are scarce on Earth and accessible from few bodies (lunar/asteroid helium-3, rare earths) carry a <em>higher</em> existential-substitutability gap (&sect;13) and a higher accessible-scarcity ς, so they do <em>not</em> price &asymp; market merely by being asteroid-sourced &mdash; ς must be grounded in accessible-recoverable stock, not theoretical cosmic abundance.
+      Both multipliers &asymp; 1; V_market &times; small-multiplier produces small RCV; framework's "RCV approaches market price for asteroid iron" claim follows. This is the framework correctly producing market-price-equivalent answers where market pricing is approximately right &mdash; exactly the calibration the asteroid case is designed to demonstrate. <strong>Note &mdash;</strong> iron is the <em>low-existential-gap</em> exemplar; resources that are scarce on Earth and accessible from few bodies (lunar/asteroid helium-3, rare earths) carry a <em>higher</em> existential-substitutability gap (&sect;13) and a higher accessible-scarcity ς, so they do <em>not</em> price &asymp; market merely by being asteroid-sourced &mdash; ς must be grounded in accessible-recoverable stock, not theoretical cosmic abundance.
      </li>
     </ul>
     <p>
@@ -5317,13 +5317,13 @@ Same structural insight expressed at decision-rule level (ARR) and estimation-me
       <strong>
        Institutional-architecture-mediated extractions
       </strong>
-      (Norway oil; well-managed renewables): &sigmaf; + &alpha; moderate; V_option third. Institutional architecture is the lever that shifts cases out of the high-irreversibility regime.
+      (Norway oil; well-managed renewables): &sigmaf; + &alpha; moderate; V_market third. Institutional architecture is the lever that shifts cases out of the high-irreversibility regime.
      </li>
      <li>
       <strong>
        Substitutable / cosmic-scale extractions
       </strong>
-      (asteroid; cosmic resources): V_option dominates because both multipliers approach 1.
+      (asteroid; cosmic resources): V_market dominates because both multipliers approach 1.
      </li>
     </ul>
     <p>
