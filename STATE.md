@@ -2,7 +2,8 @@
 
 **Discipline.** Any session that *changes* a status below updates that one line (with the date)
 in the same commit. The PM session reconciles this file against per-unit READMEs + the newest
-PM dashboard on each PM pass. Detail layer: newest `tools/workstream-handoffs/pm-session-handoff_<date>.md`.
+PM dashboard on each PM pass. Detail layer: newest `tools/workstream-handoffs/pm-session-handoff_<date>.md`
+(currently **2026-06-10** — includes the book-completion plan + per-chapter table + author decision queue).
 This file supersedes the snapshot table in `publishing/essays/README.md` as the live surface.
 Status vocabulary: `tools/conventions/status-markers.md`. Orientation: [MAP.md](MAP.md).
 
@@ -32,14 +33,14 @@ polish (redraft campaign) → agent-query Wave 1 fires ~Jun 24 – Jul 1 (cascad
 |---|---|---|---|
 | Norway op-ed (FT/Bloomberg/PS) | V-D′ canonical 06-01; news-peg pending | 06-04 (PM) | Opportunistic peg activation |
 | McDowell op-ed (venue TBD) | V-D hybrid canonical 06-01; news-peg pending | 06-04 (PM) | Opportunistic peg activation |
-| **Book proposal** | 00_overview **RATIFIED 06-09** (Stage 5); other sections in sprint; 3 external gates noted in its header | 06-10 (this session, file headers) | Sprint completes ~Jun 20; strip status header before send |
+| **Book proposal** | 00_overview **RATIFIED 06-09** (Stage 5); §00 + §05 recascaded to TA closeout figures 06-10; TA-indexed figures flagged for refresh before assembly (~Jun 14–20, pre-agent gate per dashboard §5) | 06-10 (PM + commits) | Sprint completes ~Jun 20; strip status header before send |
 | Agent pipeline (Wave 1) | Scaffolded, **0 queries sent**; targets list at `publishing/agents/_pipeline/targets.md` | 06-04 (PM) | Fires ~Jun 24 – Jul 1 after proposal + Ch 1/5 |
 
 ## Book
 
 | Unit | State | Verified | Next action |
 |---|---|---|---|
-| Chapters (10) | Content-complete; **redraft-compare campaign live** (Ch 1/2 working drafts `_Draft`; promote/fold-in verdicts per `manuscript/_REDRAFT-COMPARISON-SUMMARY_2026-06-06.md`) | 06-09 (kickoff) | Campaign resume → Ch 1 + Ch 5 polish for Wave-1 samples |
+| Chapters (10) | Content-complete; **redraft-compare campaign live**; per-chapter table in the 06-10 PM dashboard §3 — **Ch 5 + Ch 9 whole-cloth redrafts firing now** (briefs pre-written); Ch 8 spot-fix-vs-redraft = author decision #5; whole-book **prose-smoothing campaign PROPOSED** (dashboard §4, decision #7) | 06-10 (PM) | Author decision queue (dashboard §2) → Ch 1 + Ch 5 polish for Wave-1 samples |
 | Technical Appendix | v2.0.0 closeout **merged to main `fd12275` 06-09**; internally consistent, invariants HIGH=0; render glyphs verified tofu-free 06-10 | 06-10 (this session) | Stage-4 PDF render audit before external circulation |
 | Back matter (bib/glossary/notation) | Generated clean set **MERGED to main 06-10** (author ratified); regenerate via `tools/back-matter/build.py gen-all` | 06-10 (this session) | In-TA Notation section + Part 7 completeness → technical-review window |
 | Bibliography master | Single source of truth (TA §18 folded in, 06-09); 41 orphan candidates flagged for prune review | 06-10 (this session) | Optional prune pass |

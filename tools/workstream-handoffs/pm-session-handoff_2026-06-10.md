@@ -1,7 +1,7 @@
 # PM Session Dashboard + Book-Completion Plan — 2026-06-10
 
 **Session:** `claude/pm-book-completion-260610-07b75f`
-**Supersedes:** `pm-session-handoff_2026-06-04.md` (carries forward its open
+**Supersedes:** `archive/pm-session-handoff_2026-06-04.md` (carries forward its open
 items; re-verified against 06-06 → 06-09 artifacts).
 **Session-freshness:** built 2026-06-10 from five parallel survey agents
 reading current `origin/main` + held branches. Statuses re-verified against
