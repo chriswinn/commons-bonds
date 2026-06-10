@@ -256,7 +256,7 @@ Consider the candidate cost claim that platform attention-extraction (e.g., reco
 
 **Reporting discipline:** every CIT application must specify the level-of-claim before reporting the verdict. A bare "CIT passes" without level specification is methodologically incomplete. The minimum-acceptable form is: "CIT-pass at level [aggregation] / [temporal] / [substitutability]; CIT-fail at level [aggregation] / [temporal] / [substitutability]."
 
-**Source of refinement:** M11 Character 12 (graduate student building on the work) probed this distinction during the 2026-04-24 academic-rigor full test. The Char 12 case was platform-economy attention extraction; the framework's response surfaced that CIT operates at the level the cost claim is specified at, and that platform-extraction analysis benefits from explicit level specification because the individual-user level and the cumulative-population level produce different verdicts. See `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_academic_rigor_full_test_v1.0.0.md` §4.2.
+**Source of refinement:** M11 Character 12 (graduate student building on the work) probed this distinction during the 2026-04-24 academic-rigor full test. The Char 12 case was platform-economy attention extraction; the framework's response surfaced that CIT operates at the level the cost claim is specified at, and that platform-extraction analysis benefits from explicit level specification because the individual-user level and the cumulative-population level produce different verdicts. See `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-24_academic_rigor_full_test_v1.0.0.md` §4.2.
 
 **Cross-references:** Open Insight #16 (CIT two-sub-forms refinement); Open Insight #20 (sensitivity-analysis execution — same level-of-specification discipline applies to σ + α + V_option calibration); Working Principle #2 (audit-concept-not-phrase — the level-of-claim discipline is itself a Principle #2 application: identical *phrases* about commons-extraction can route to different *concepts* depending on the aggregation level).
 
@@ -272,7 +272,7 @@ Consider the candidate cost claim that platform attention-extraction (e.g., reco
 
 **Reporting discipline:** every CIT application should specify (per §6.1.1 level-of-claim discipline) whether the cost claim is named at extraction-commons level or coordination-commons level. A CIT-fail at the coordination-commons level is correct routing to Ostrom-tradition apparatus, not a framework limitation.
 
-**Source of refinement:** M11 Character 17 (Ostrom-successor scholar) probed this distinction during the 2026-04-24 academic-rigor full test. See `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_academic_rigor_full_test_v1.0.0.md` §4.3.
+**Source of refinement:** M11 Character 17 (Ostrom-successor scholar) probed this distinction during the 2026-04-24 academic-rigor full test. See `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-24_academic_rigor_full_test_v1.0.0.md` §4.3.
 
 ### §6.2 Four Gates admission apparatus
 

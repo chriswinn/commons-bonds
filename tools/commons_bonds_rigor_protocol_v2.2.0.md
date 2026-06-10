@@ -321,7 +321,7 @@ If any standing gate returns a blocking verdict, the module surfaces that at the
 
 **Companion to Working Principle #1:** Principle #1 (effort-to-repair-not-a-rigor-argument) holds that internal repair effort doesn't count as rigor input. Principle #7 holds that retired-term external-reception worries don't count as rigor input either. Together: the rigor protocol filters out two classes of would-be-rigor-arguments that aren't actually rigor — internal cost (Principle #1) and retired-term simulation (Principle #7).
 
-**Worked example:** The supplemental Gate-2-naming M6 pass (`tools/rigor-passes/commons_bonds_rigor_pass_2026-04-26_gate_2_naming_M6_supplement_v1.0.0.md`) operationalizes this discipline. Six candidates (Consistency / Units Consistency / Commensurability / Commensurate / Comparability / Homogeneity) are all candidate-publication terms — all get full M6/M11 depth. The retired predecessor "Dimensional Consistency" appears once for provenance and is zero-weighted in evaluation.
+**Worked example:** The supplemental Gate-2-naming M6 pass (`tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-26_gate_2_naming_M6_supplement_v1.0.0.md`) operationalizes this discipline. Six candidates (Consistency / Units Consistency / Commensurability / Commensurate / Comparability / Homogeneity) are all candidate-publication terms — all get full M6/M11 depth. The retired predecessor "Dimensional Consistency" appears once for provenance and is zero-weighted in evaluation.
 
 ---
 
@@ -2063,7 +2063,7 @@ When a term is flagged for rigor review AFTER originally being introduced withou
 
 ### §16.5.11 Example audit (Value Extraction, 2026-04-24)
 
-See `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_term_value_extraction_standalone_v1.0.0.md` §v1.1.0 Addendum for a worked example of M12 retrospective audit. Value Extraction → Mazzucato 2018 independent-rediscovery finding → cite-plus-extension-positioning action → canonical positioning statement → Terms Index v1.1 + bibliography update.
+See `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-24_term_value_extraction_standalone_v1.0.0.md` §v1.1.0 Addendum for a worked example of M12 retrospective audit. Value Extraction → Mazzucato 2018 independent-rediscovery finding → cite-plus-extension-positioning action → canonical positioning statement → Terms Index v1.1 + bibliography update.
 
 ---
 
@@ -2227,7 +2227,7 @@ SHOW-STOPPER: [Yes / No; if Yes, specify level]
 
 ### §18.4 Fourth worked example — 8-tier rigor pass v1.0.6
 
-`tools/rigor-passes/commons_bonds_rigor_pass_2026-04-22_v1.0.6.md` — full-rigor pass on each of 8 tiers applying Tests 28 + 29 (standing gates) + all Group A tests. Per-tier earning-its-place verdicts. All 8 tiers EARNED PLACE with specific book-scope functions named.
+`tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-22_v1.0.6.md` — full-rigor pass on each of 8 tiers applying Tests 28 + 29 (standing gates) + all Group A tests. Per-tier earning-its-place verdicts. All 8 tiers EARNED PLACE with specific book-scope functions named.
 
 **v2.0.0 translation:** In v2.0.0 terms, v1.0.6 was a M1 + Standing Gates pass on each tier. All 8 would be preserved in v2.0.0.
 

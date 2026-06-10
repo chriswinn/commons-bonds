@@ -24,7 +24,7 @@
 
 **Supersedes v1.0.0:** v1.0.1 patch added §9 Fieldwork guidance (per-case interview recommendations) without structural changes.
 
-**Related:** `alignment/decisions/alternate-8-tier-individual-level-retired.md`; `alignment/decisions/ws12-ipg-data-table-for-reconciliation.md`; `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-22_v1.0.6.md`; `research/case-studies/indigenous-land-dispossession.md`; reachable-horizon cluster at `research/case-studies/alaska-permanent-fund.md` + `chattanooga-municipal-broadband.md` + `mondragon-cooperative.md` + `vienna-social-housing.md`; `research/commons_bonds_stands_the_test_of_time_drafts_v1.0.0.md`; `tools/audits/commons_bonds_chapter_audit_v1.0.3.md` (all Ch profiles synchronized with this version).
+**Related:** `alignment/decisions/alternate-8-tier-individual-level-retired.md`; `alignment/decisions/ws12-ipg-data-table-for-reconciliation.md`; `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-22_v1.0.6.md`; `research/case-studies/indigenous-land-dispossession.md`; reachable-horizon cluster at `research/case-studies/alaska-permanent-fund.md` + `chattanooga-municipal-broadband.md` + `mondragon-cooperative.md` + `vienna-social-housing.md`; `research/commons_bonds_stands_the_test_of_time_drafts_v1.0.0.md`; `tools/audits/commons_bonds_chapter_audit_v1.0.3.md` (all Ch profiles synchronized with this version).
 
 ## §0.1a v1.0.6 change log — Path F reframing
 
@@ -1555,7 +1555,7 @@ Version numbering:
 - **Source rigor protocol:** `tools/commons_bonds_rigor_protocol_v1.3.0.md`.
 - **Applicable scope reference:** `tools/commons_bonds_book_scope_v1_0_3.md`.
 - **Applicable constraints reference:** `tools/commons_bonds_guiding_constraints_v1_0_0.md`.
-- **Companion rigor pass (8 tiers):** `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-22_v1.0.6.md`.
+- **Companion rigor pass (8 tiers):** `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-22_v1.0.6.md`.
 - **Pending-review queue:** `alignment/decisions/alternate-8-tier-individual-level-retired.md`, `alignment/decisions/ws12-ipg-data-table-for-reconciliation.md`, `alignment/decisions/april-19-*.md` (12 items).
 - **Pending canonical-file patches:** `alignment/patches/pending-framework-review/c2_scale_abstract_patch.md`, `c3_mechanism_shield_patch.md`, `c9_ait_canonical_positioning_patch.md`, `commons_bonds_rigor_vs_layers_triage_v1_0_0.md`, `commons_bonds_character_suite_vs_layers_triage_v1_0_0.md`.
 - **Chapter drafts:** `manuscript/chapters/Chapter__*_Draft.md` (8 drafted) + `Chapter__*___GuidanceDoc.md` (10 guidance docs).

@@ -5,9 +5,9 @@
 **Purpose:** Methodology illustration showing the Four Gates (Commons Inversion Test [CIT] + Units Consistency + Boundedness + Independence) applied to a varied set of framework cases. Each walkthrough demonstrates how candidate costs are admitted (or rejected) for inclusion in RCV. Captures findings from author-directed walkthroughs 2026-04-24 (Chris Winn).
 **Status:** Working illustration document. Primary audience: framework readers seeking concrete operationalization of the methodology. Secondary audience: rigor-pass infrastructure validating that the gates do operationally distinct work.
 **Cross-references:**
-- Four Gates cluster rigor pass `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_four_gates_cluster_v1.0.0.md`
-- Commons-as-structural-identity rigor pass `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_commons_as_structural_identity_v1.0.0.md`
-- CIT rename rigor pass `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_term_cit_rename_v1.0.0.md`
+- Four Gates cluster rigor pass `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-24_four_gates_cluster_v1.0.0.md`
+- Commons-as-structural-identity rigor pass `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-24_commons_as_structural_identity_v1.0.0.md`
+- CIT rename rigor pass `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-24_term_cit_rename_v1.0.0.md`
 - Personal Stories Candidates Candidate #1 (commute-trade)
 - `core/terms/terms_index.md` — CIT + Four Gates records.
 - `core/case-studies/` — per-case research material these examples reference.

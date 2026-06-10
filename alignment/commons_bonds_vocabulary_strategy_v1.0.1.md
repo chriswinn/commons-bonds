@@ -37,7 +37,7 @@ Failure mode this prevents: per-term audience juggling. Earlier methodology draf
 
 ### §1.2 What this document does NOT govern
 
-- Book-level audience (governed by `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-28_book_audience_choice_v1.0.0.md` — RATIFIED 2026-04-28)
+- Book-level audience (governed by `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-28_book_audience_choice_v1.0.0.md` — RATIFIED 2026-04-28)
 - General-project disciplines (governed by `commons_bonds_working_principles_v1.0.0.md`)
 - Term-record schema (governed by architecture rigor pass `commons_bonds_rigor_pass_2026-04-27_publication_architecture_terms_index_glossary_tech_appendix_v1.0.0.md`)
 - Retirement-trace handling (governed by `commons_bonds_rigor_pass_2026-04-28_retirement_traces_scaffolding_vs_publisher_facing_v1.0.0.md` once ratified)
@@ -45,10 +45,10 @@ Failure mode this prevents: per-term audience juggling. Earlier methodology draf
 
 ### §1.3 Cross-references — load-bearing rigor passes
 
-- `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-28_book_audience_choice_v1.0.0.md` — ratified book-level audience (the fixed input to this document)
-- `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-28_intergenerational_cluster_vocabulary_consolidation_v1.0.0.md` — applied rigor pass producing the per-term verdicts that this document distills into standing discipline
-- `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-27_publication_architecture_terms_index_glossary_tech_appendix_v1.0.0.md` — S1 schema for per-term records in `core/terms/terms_index.md`
-- `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_term_value_capture_vs_extraction_v1.0.0.md` (and analogous per-term rigor passes) — historical record of past per-term decisions; cross-referenced from worked examples
+- `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-28_book_audience_choice_v1.0.0.md` — ratified book-level audience (the fixed input to this document)
+- `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-28_intergenerational_cluster_vocabulary_consolidation_v1.0.0.md` — applied rigor pass producing the per-term verdicts that this document distills into standing discipline
+- `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-27_publication_architecture_terms_index_glossary_tech_appendix_v1.0.0.md` — S1 schema for per-term records in `core/terms/terms_index.md`
+- `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-24_term_value_capture_vs_extraction_v1.0.0.md` (and analogous per-term rigor passes) — historical record of past per-term decisions; cross-referenced from worked examples
 
 ---
 
@@ -647,8 +647,8 @@ Whenever this document is revised:
 
 ### §12.1 Upstream rigor passes (this document inherits from)
 
-- `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-28_book_audience_choice_v1.0.0.md` — RATIFIED 2026-04-28; ratified book-level audience (B + supplementary D)
-- `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-27_publication_architecture_terms_index_glossary_tech_appendix_v1.0.0.md` — RATIFIED 2026-04-27; S1 schema for terms_index per-term records
+- `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-28_book_audience_choice_v1.0.0.md` — RATIFIED 2026-04-28; ratified book-level audience (B + supplementary D)
+- `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-27_publication_architecture_terms_index_glossary_tech_appendix_v1.0.0.md` — RATIFIED 2026-04-27; S1 schema for terms_index per-term records
 
 ### §12.2 Sibling discipline files
 
@@ -657,12 +657,12 @@ Whenever this document is revised:
 
 ### §12.3 Applied rigor passes (this document distills)
 
-- `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-28_intergenerational_cluster_vocabulary_consolidation_v1.0.0.md` — applied rigor pass producing per-term verdicts that this document captures as standing discipline
-- `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_term_value_capture_vs_extraction_v1.0.0.md` — historical per-term decision (Value Capture retired; Value Extraction adopted)
-- `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_term_csg_v1.0.0.md` — historical per-term decision (CSG demoted to Tier C)
-- `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_term_universality_test_re_examination_v1.0.0.md` — historical per-term decision (Universality Test demoted)
-- `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_arp_rename_v1.0.0.md` — historical per-term decision (ARP → ARR)
-- `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_b1_b2_naming_v1.0.0.md` — historical per-term decision (B = B₁ + B₂; Reparations Bond → Restitution Bond)
+- `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-28_intergenerational_cluster_vocabulary_consolidation_v1.0.0.md` — applied rigor pass producing per-term verdicts that this document captures as standing discipline
+- `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-24_term_value_capture_vs_extraction_v1.0.0.md` — historical per-term decision (Value Capture retired; Value Extraction adopted)
+- `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-24_term_csg_v1.0.0.md` — historical per-term decision (CSG demoted to Tier C)
+- `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-24_term_universality_test_re_examination_v1.0.0.md` — historical per-term decision (Universality Test demoted)
+- `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-24_arp_rename_v1.0.0.md` — historical per-term decision (ARP → ARR)
+- `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-24_b1_b2_naming_v1.0.0.md` — historical per-term decision (B = B₁ + B₂; Reparations Bond → Restitution Bond)
 
 ### §12.4 Standing artifacts (this document feeds into)
 

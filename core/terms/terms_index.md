@@ -166,8 +166,8 @@ Abundance Inversion Test (AIT) · Asymmetric Regret Principle (ARP) · Reversibi
 **Last reviewed:** 2026-04-24
 
 **Rigor provenance:**
-- Commons Bonds standalone rigor pass `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_term_commons_bonds_v1.0.0.md` (2026-04-24) §9 — Option A PASSES extreme rigor unconditionally. Polysemy confirmed as load-bearing (each of 3 meanings does framework work). 7 rename candidates tested; none improves.
-- Full Ring-1 integrated rigor pass `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_ring1_full_integrated_v1.0.0.md` (2026-04-24) §7 — Commons Bonds pairs coherently with every other Ring-1 term (21 pairings verified).
+- Commons Bonds standalone rigor pass `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-24_term_commons_bonds_v1.0.0.md` (2026-04-24) §9 — Option A PASSES extreme rigor unconditionally. Polysemy confirmed as load-bearing (each of 3 meanings does framework work). 7 rename candidates tested; none improves.
+- Full Ring-1 integrated rigor pass `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-24_ring1_full_integrated_v1.0.0.md` (2026-04-24) §7 — Commons Bonds pairs coherently with every other Ring-1 term (21 pairings verified).
 - Open Insight #4 (Commons Bonds name rigor) RESOLVED by these two passes.
 
 **Polysemy per meaning, load-bearing verification:**
@@ -224,10 +224,10 @@ Abundance Inversion Test (AIT) · Asymmetric Regret Principle (ARP) · Reversibi
 **Rigor provenance:**
 - Variable-addability rigor pass (2026-04-24) — CORE mechanism preserved under Path F generalization.
 - Tier-reframing + macro-grouping passes (2026-04-24) — mechanism preserved under all ratified framework changes.
-- CS-vs-SC triage rigor pass `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_term_cost_severance_vs_severed_cost_v1.0.0.md` (2026-04-24) §17 — Option A (keep both Cost Severance + Severed Cost with role discipline) PASSES extreme rigor.
+- CS-vs-SC triage rigor pass `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-24_term_cost_severance_vs_severed_cost_v1.0.0.md` (2026-04-24) §17 — Option A (keep both Cost Severance + Severed Cost with role discipline) PASSES extreme rigor.
 - Ring-1 synthesis pass (2026-04-24) — verdict reinforced; CS = RCV − B equation integration verified.
-- **M12 collision rigor pass `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_term_cost_severance_collision_v1.0.0.md` (2026-04-24)** — tested semantic collision with HR/accounting "severance costs" (IAS 37, US GAAP, Big-4 firms, corporate-law practice). Classification: lexical collision, different concept, HIGH severity for legal/accounting audience. **Option C (rhetorical bridge) ratified 2026-04-24 by Chris Winn** — the collision is converted into a Ch 1 teaching move that recruits reader's existing HR-severance schema as on-ramp ("THIS IS the same move, applied differently"). Option B (rename) tested 6 candidates including Accountability Severance as strongest; all rejected. First application of M12 as primary driver in a rigor pass; established rhetorical-bridge as Level 5 on M12 action ladder.
-- **Phase 2 deeper-dive rigor pass `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-29_phase2_cost_severance_severed_cost_tier2d_v1.0.0.md` (2026-04-29)** — full 12-cell multi-audience matrix per vocabulary strategy v1.0.1 §2 + §8 + M6 academic rigor depth audit + M11 critic-survival from 5 critic positions + M12 attribution-honesty depth audit + Ch 1 Option C bridge plan verification at Tier 2d depth. **Verdict: KEEP terms (PASS conditional on three enhancements) — RATIFIED 2026-04-29 by Chris Winn.** No cell FAILS. Tier 2a + Tier 2d + Lived-oppression conditional STRONG-with-enhancement. Rename rejected (6 alternatives tested; none dominates). Three enhancements ratified: (a) lineage citation expansion (this update); (b) Ch 1 Option C bridge prose extension to three registers (labor + severance-tax + colonial; canonical text below); (c) Tech Appendix §L methodological footnote on commodification + decolonial framing (placement: NOW vs Phase 3 Tech Appendix v2.0.0 rebuild — pending author choice on §12.3 of Phase 2 rigor pass).
+- **M12 collision rigor pass `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-24_term_cost_severance_collision_v1.0.0.md` (2026-04-24)** — tested semantic collision with HR/accounting "severance costs" (IAS 37, US GAAP, Big-4 firms, corporate-law practice). Classification: lexical collision, different concept, HIGH severity for legal/accounting audience. **Option C (rhetorical bridge) ratified 2026-04-24 by Chris Winn** — the collision is converted into a Ch 1 teaching move that recruits reader's existing HR-severance schema as on-ramp ("THIS IS the same move, applied differently"). Option B (rename) tested 6 candidates including Accountability Severance as strongest; all rejected. First application of M12 as primary driver in a rigor pass; established rhetorical-bridge as Level 5 on M12 action ladder.
+- **Phase 2 deeper-dive rigor pass `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-29_phase2_cost_severance_severed_cost_tier2d_v1.0.0.md` (2026-04-29)** — full 12-cell multi-audience matrix per vocabulary strategy v1.0.1 §2 + §8 + M6 academic rigor depth audit + M11 critic-survival from 5 critic positions + M12 attribution-honesty depth audit + Ch 1 Option C bridge plan verification at Tier 2d depth. **Verdict: KEEP terms (PASS conditional on three enhancements) — RATIFIED 2026-04-29 by Chris Winn.** No cell FAILS. Tier 2a + Tier 2d + Lived-oppression conditional STRONG-with-enhancement. Rename rejected (6 alternatives tested; none dominates). Three enhancements ratified: (a) lineage citation expansion (this update); (b) Ch 1 Option C bridge prose extension to three registers (labor + severance-tax + colonial; canonical text below); (c) Tech Appendix §L methodological footnote on commodification + decolonial framing (placement: NOW vs Phase 3 Tech Appendix v2.0.0 rebuild — pending author choice on §12.3 of Phase 2 rigor pass).
 
 **Cross-political-tradition lineage (Phase 2 expansion 2026-04-29):**
 - *Decolonial / lived-oppression / Tier 2d* — Coulthard 2014 *Red Skin, White Masks* (severance-as-colonial-cutting); Tuck & Yang 2012 "Decolonization is not a metaphor" (severance of land from people); Whyte (indigenous environmental ethics; severance of ancestral kinship); Wolfe 1999 *Settler Colonialism* (logic of elimination); Patel & Moore 2017 *A History of the World in Seven Cheap Things* (capitalist severance of nature/work/care/lives); Federici 2004 *Caliban and the Witch* (primitive accumulation as severance of reproductive labor); Hickel 2020 *Less Is More* + *The Divide* (colonial extraction; Global South cost-severance).
@@ -309,7 +309,7 @@ Abundance Inversion Test (AIT) · Asymmetric Regret Principle (ARP) · Reversibi
 - Same implicit rigor as Cost Severance — Severed Cost is the flagship adoption phrase tested across every rigor pass since Path F.
 - CS-vs-SC triage rigor pass (2026-04-24) §17 — Option A ratified; Severed Cost retained as flagship adoption target alongside Cost Severance mechanism name.
 - Ring-1 synthesis (2026-04-24) — role discipline reinforced.
-- **Phase 2 deeper-dive rigor pass `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-29_phase2_cost_severance_severed_cost_tier2d_v1.0.0.md` (2026-04-29)** — bundled with Cost Severance Phase 2 audit. **Verdict: KEEP — RATIFIED 2026-04-29 by Chris Winn.** Severed Cost passes 12-cell matrix as flagship legal-tort-vocabulary adoption target. Cross-political-tradition lineage citations apply symmetrically (see Cost Severance entry above for full lineage list — Coulthard 2014; Tuck & Yang 2012; Darity & Mullen 2020 *From Here to Equality* especially load-bearing for Severed Cost as reparations-economics-parallel; Anderson 2017; Patel & Moore 2017; Federici 2004; Hickel 2020; Marx; Demsetz; Coase; Hayek; Pettit; US severance-tax law).
+- **Phase 2 deeper-dive rigor pass `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-29_phase2_cost_severance_severed_cost_tier2d_v1.0.0.md` (2026-04-29)** — bundled with Cost Severance Phase 2 audit. **Verdict: KEEP — RATIFIED 2026-04-29 by Chris Winn.** Severed Cost passes 12-cell matrix as flagship legal-tort-vocabulary adoption target. Cross-political-tradition lineage citations apply symmetrically (see Cost Severance entry above for full lineage list — Coulthard 2014; Tuck & Yang 2012; Darity & Mullen 2020 *From Here to Equality* especially load-bearing for Severed Cost as reparations-economics-parallel; Anderson 2017; Patel & Moore 2017; Federici 2004; Hickel 2020; Marx; Demsetz; Coase; Hayek; Pettit; US severance-tax law).
 
 **Role discipline:** Severed Cost is the *result/quantity noun* + *flagship adoption phrase*. Use when quantifying a specific instance, writing legal/policy-register prose, or using the framework's adoption-target vocabulary. *"McDowell bears a severed cost of $550/ton."* *"The severed cost shows up in community collapse."* Lexical slot: object or quantified predicate in accounting sentences. Companion: Cost Severance for mechanism naming.
 
@@ -368,7 +368,7 @@ Abundance Inversion Test (AIT) · Asymmetric Regret Principle (ARP) · Reversibi
 **Last reviewed:** 2026-04-24
 
 **Rigor provenance:**
-- Variable-vs-Cost rigor pass `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_term_variable_vs_cost_v1.0.0.md` (2026-04-24) §15 — Option B (replace "variable" with "cost") recommended. 5 options tested (A: variable / B: cost / C: hybrid / D: drop class term / E: ledger entry). Option B won on 9 of 11 modules; M1 and M7 indifferent.
+- Variable-vs-Cost rigor pass `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-24_term_variable_vs_cost_v1.0.0.md` (2026-04-24) §15 — Option B (replace "variable" with "cost") recommended. 5 options tested (A: variable / B: cost / C: hybrid / D: drop class term / E: ledger entry). Option B won on 9 of 11 modules; M1 and M7 indifferent.
 - Full Ring-1 integrated rigor pass (2026-04-24) — Cost (Cᵢ) coheres with all other Ring-1 terms.
 
 **Style discipline (inherited from D + E options as addenda):**
@@ -441,7 +441,7 @@ One side of the flagship equation CS = RCV − B, where CS is cost severance and
 - Variable-addability rigor pass (2026-04-24) — RCV confirmed as CORE quantification; variable-addability generalization preserves RCV form.
 - Path F rigor pass (2026-04-24) — RCV's role under the four-gate discipline confirmed.
 - Tier-reframing + macro-grouping passes (2026-04-24) — RCV unchanged.
-- RCV rigor pass `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_term_rcv_v1.0.0.md` (2026-04-24) §17 — Option A PASSES unconditionally. 729 total uses (658 acronym + 71 full-form) across 34 files — framework's MOST-used term. Name-quantity match exact per word (Residual / Commons / Value each does load-bearing semantic work).
+- RCV rigor pass `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-24_term_rcv_v1.0.0.md` (2026-04-24) §17 — Option A PASSES unconditionally. 729 total uses (658 acronym + 71 full-form) across 34 files — framework's MOST-used term. Name-quantity match exact per word (Residual / Commons / Value each does load-bearing semantic work).
 - Ring-1 synthesis (2026-04-24) — RCV's equation-anchor role reinforced.
 
 **Role:** quantification-anchor + equation-component (CS = RCV − B) + academic-citation target.
@@ -509,8 +509,8 @@ Removing any word creates ambiguity or unmoors the term.
 **Last reviewed:** 2026-04-24
 
 **Rigor provenance:**
-- Full rigor pass `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_term_value_capture_vs_extraction_v1.0.0.md` (2026-04-24) — Option B PASSES extreme rigor. Wins on decisive causal-chain bridge test + register alignment with book's extraction-economy critique + Harvey lineage + legal-register adoption + Berggruen fit + concept-level audit (extract-derivatives already dominate framework prose 42 refs).
-- Cross-pairing synthesis `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_synthesis_ring1_terms_v1.0.0.md` (2026-04-24) — Value Extraction verdict REINFORCED by synthesis: extraction's separation-from-source semantics pairs natively with Cost Severance's severance-from-capturer semantics. The chain flows.
+- Full rigor pass `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-24_term_value_capture_vs_extraction_v1.0.0.md` (2026-04-24) — Option B PASSES extreme rigor. Wins on decisive causal-chain bridge test + register alignment with book's extraction-economy critique + Harvey lineage + legal-register adoption + Berggruen fit + concept-level audit (extract-derivatives already dominate framework prose 42 refs).
+- Cross-pairing synthesis `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-24_synthesis_ring1_terms_v1.0.0.md` (2026-04-24) — Value Extraction verdict REINFORCED by synthesis: extraction's separation-from-source semantics pairs natively with Cost Severance's severance-from-capturer semantics. The chain flows.
 - Vocabulary-footprint meta-pass §13.2.c (2026-04-24) — initial Ring-2 classification; corrected audit + author ratification promoted to Ring 1.
 
 **Decisive test from rigor pass (causal-chain bridge):**
@@ -566,7 +566,7 @@ Mariana Mazzucato, *The Value of Everything: Making and Taking in the Global Eco
 **Notes:**
 - Different retirement basis from misnaming (Principle #3) or adjective-precision retirements: Value Capture retires as DUPLICATE of a co-existing-preferred term.
 
-**Full trace:** `archive/retirements/index.md` §1 + ratifying rigor pass `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_term_value_capture_vs_extraction_v1.0.0.md`.
+**Full trace:** `archive/retirements/index.md` §1 + ratifying rigor pass `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-24_term_value_capture_vs_extraction_v1.0.0.md`.
 
 ---
 
@@ -591,7 +591,7 @@ Mariana Mazzucato, *The Value of Everything: Making and Taking in the Global Eco
 
 **Staleness triggers:** Cost Severance concept redefined; phrase drifts into capitalized usage; published peer review identifies systematic ambiguity.
 
-**Rigor provenance:** Focused rigor pass `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_term_intergenerational_cost_severance_v1.0.0.md` (Option A PASSES UNCONDITIONALLY). Companion: Temporal Cost Severance retirement (paired move). Principle-#3 check: PASSED.
+**Rigor provenance:** Focused rigor pass `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-24_term_intergenerational_cost_severance_v1.0.0.md` (Option A PASSES UNCONDITIONALLY). Companion: Temporal Cost Severance retirement (paired move). Principle-#3 check: PASSED.
 
 **Supersedes:** "Temporal Cost Severance" capitalized term (see retired entry below). Full retirement trace at `archive/retirements/index.md` §1.
 
@@ -654,7 +654,7 @@ Mariana Mazzucato, *The Value of Everything: Making and Taking in the Global Eco
 - **Canonical example:** McDowell County 13-year life-expectancy gap.
 - **Style discipline (lowercase always):** restructure sentences to avoid sentence-start capitalization where possible.
 
-**Rigor provenance:** Re-examination rigor pass `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_term_spatial_cost_severance_re_examination_v1.0.0.md` (Option B ratified). Earlier retirement + un-retirement event recorded in `archive/retirements/index.md` §1.
+**Rigor provenance:** Re-examination rigor pass `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-24_term_spatial_cost_severance_re_examination_v1.0.0.md` (Option B ratified). Earlier retirement + un-retirement event recorded in `archive/retirements/index.md` §1.
 
 ---
 
@@ -668,7 +668,7 @@ Mariana Mazzucato, *The Value of Everything: Making and Taking in the Global Eco
 
 **Notes:** Distinguishing from Abundance Masking (PROMOTED to Ring 2 in parallel re-examination): AM names an in-the-world mechanism active in every extraction case; UT names a validation methodology that isn't exercised anywhere. Different Principle-#3 outcomes despite both having pairing-with-methodology in v2.
 
-**Full trace:** `archive/retirements/index.md` §1 + ratifying rigor pass `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_term_universality_test_re_examination_v1.0.0.md`.
+**Full trace:** `archive/retirements/index.md` §1 + ratifying rigor pass `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-24_term_universality_test_re_examination_v1.0.0.md`.
 
 ---
 
@@ -682,7 +682,7 @@ Mariana Mazzucato, *The Value of Everything: Making and Taking in the Global Eco
 - Close-call retirement: 66 active refs + active pedagogical use in Ch 7/Ch 9 + ARP topical pairing. **This ratification established Working Principle #1 Corollary B** ("usage frequency alone is not a rigor argument for retention") — usage-inertia could not override the derivation-from-primitive verdict.
 - Prose form **existential substitutability gap** requires Bostrom 2002 + Bostrom 2014 + MacAskill 2022 + Ord 2020 lineage citations on first chapter introduction (per Insight #33 disambiguation discipline).
 
-**Full trace:** `archive/retirements/index.md` §1 + ratifying rigor passes `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_term_csg_v1.0.0.md` + `..._csg_descriptive_prose_renaming_v1.0.0.md` (Insight #33).
+**Full trace:** `archive/retirements/index.md` §1 + ratifying rigor passes `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-24_term_csg_v1.0.0.md` + `..._csg_descriptive_prose_renaming_v1.0.0.md` (Insight #33).
 
 ---
 
@@ -716,7 +716,7 @@ Mariana Mazzucato, *The Value of Everything: Making and Taking in the Global Eco
 
 **Rigor provenance:**
 - Meta-pass §10.2 (commit `46600bc`) — identified as framework's most novel single component; Ring-2 default classification.
-- Individual rigor pass `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_term_substitutability_function_v1.0.0.md` (2026-04-24) — Option A (confirm Ring 2) verified via distinctness check vs Hicks / real options / intertemporal substitution + 98-ref concept audit + Principle-#3 primitive-distinctness check.
+- Individual rigor pass `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-24_term_substitutability_function_v1.0.0.md` (2026-04-24) — Option A (confirm Ring 2) verified via distinctness check vs Hicks / real options / intertemporal substitution + 98-ref concept audit + Principle-#3 primitive-distinctness check.
 
 **M12 classification:** Independent specialization (not adoption, not original coinage). Framework-specific features (time-indexed probability, baseline-conditional, endogenous to extraction timing) distinguish from Hicks 1932 elasticity of substitution + Dixit-Pindyck 1994 real options + intertemporal substitution macro theory.
 
@@ -773,7 +773,7 @@ Tech Appendix §L methodological footnote positions S as framework-specific exte
 
 **Rigor provenance:**
 - Meta-pass §10.2 — Ring-2 internal load-bearing classification.
-- Individual rigor pass `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_term_externality_tail_v1.0.0.md` (2026-04-24) — Option A (confirm Ring 2) verified via distinctness check vs Pigouvian externalities + 46-ref concept audit + Principle-#3 check.
+- Individual rigor pass `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-24_term_externality_tail_v1.0.0.md` (2026-04-24) — Option A (confirm Ring 2) verified via distinctness check vs Pigouvian externalities + 46-ref concept audit + Principle-#3 check.
 
 **M12 classification:** Framework-specific specialization of Pigouvian externality concept. Distinct via (a) post-extraction persistence, (b) substitutability-independence, (c) time-indexed function form, (d) "runs on its own clock" rhetorical anchor.
 
@@ -833,7 +833,7 @@ Tech Appendix §L footnote positions E as temporal-specialization of Pigouvian e
 
 **Rigor provenance:**
 - Holistic strategy §10 §5.1 (2026-04-29) — flagged Tier B promotion vs defer (commit `0a8510d`); discussion-needed verdict between (α) Tier B promotion and (β) defer.
-- Group 1.2 rigor pass `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-30_group1_2_intergenerational_option_value_v1.0.0.md` (2026-04-30) — full-depth rigor test parallel to Phase 2 #3.# theorem audits. **Verdict (α) Tier B promotion + dedicated terms_index entry RATIFIED 2026-04-30 by Chris Winn.** 12-cell multi-audience matrix: 9 STRONG + 3 ADEQUATE (Tier 2d + Socialist/communitarian + Lived-oppression — option-value reads as detached/abstract for present-suffering positions; mitigable via Tech Appendix §L methodological footnote per Insight #35 + #38 patterns). M11 critic-survival SURVIVES all 5 probes. Tier-ladder: Tier B clean (Henry/Arrow-Fisher/Dixit-Pindyck close-fit + intergenerational specialization decodable via light footnote).
+- Group 1.2 rigor pass `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-30_group1_2_intergenerational_option_value_v1.0.0.md` (2026-04-30) — full-depth rigor test parallel to Phase 2 #3.# theorem audits. **Verdict (α) Tier B promotion + dedicated terms_index entry RATIFIED 2026-04-30 by Chris Winn.** 12-cell multi-audience matrix: 9 STRONG + 3 ADEQUATE (Tier 2d + Socialist/communitarian + Lived-oppression — option-value reads as detached/abstract for present-suffering positions; mitigable via Tech Appendix §L methodological footnote per Insight #35 + #38 patterns). M11 critic-survival SURVIVES all 5 probes. Tier-ladder: Tier B clean (Henry/Arrow-Fisher/Dixit-Pindyck close-fit + intergenerational specialization decodable via light footnote).
 
 **Decisive criterion for Tier B (vs defer):** Argument-load-bearing distinction. Ch 4 argument-spine depends on Intergenerational Option Value as named concept; threshold-policy that defers single-chapter Cᵢ items (Lifetime Survival Cost; Community Disruption Cost; Political Capture Cost; Temporal Displacement Cost) applies to illustrative mentions, not argument-spines. Per Insight #32 §32.3 corollary: usage-frequency is not the rigor argument; argument-load-bearing-ness is a separate axis.
 
@@ -870,7 +870,7 @@ Tech Appendix §L footnote positions E as temporal-specialization of Pigouvian e
 
 **See:** Asymmetric Regret Rule (ARR) entry below for current framework element.
 
-**Full trace:** `archive/retirements/index.md` §1 + ratifying rigor pass `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_term_asymmetric_regret_principle_v1.0.0.md`.
+**Full trace:** `archive/retirements/index.md` §1 + ratifying rigor pass `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-24_term_asymmetric_regret_principle_v1.0.0.md`.
 
 ---
 
@@ -910,7 +910,7 @@ Tech Appendix §L footnote positions E as temporal-specialization of Pigouvian e
 
 **Rigor provenance:**
 - ARP rigor pass (commit `7f35783`, 2026-04-24) — Ring-2 promotion ratified for the underlying decision rule (originally as Asymmetric Regret Principle).
-- ARP rename rigor pass `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_arp_rename_v1.0.0.md` (commit `b8b62e3`, 2026-04-24) — 10 candidates tested; Reversibility Default identified as top M5 finalist; Asymmetric Regret Rule identified as M6 fallback. Pass's executive summary insufficiently surfaced M6 cost of RD's footnote-dependency; author M6 question post-ratification flipped final choice to ARR.
+- ARP rename rigor pass `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-24_arp_rename_v1.0.0.md` (commit `b8b62e3`, 2026-04-24) — 10 candidates tested; Reversibility Default identified as top M5 finalist; Asymmetric Regret Rule identified as M6 fallback. Pass's executive summary insufficiently surfaced M6 cost of RD's footnote-dependency; author M6 question post-ratification flipped final choice to ARR.
 - Preliminary ratification (Reversibility Default) — REVERSED same-day 2026-04-24 after M6 question surfaced.
 - Final ratification 2026-04-24 by Chris Winn — this commit. **Asymmetric Regret Rule (ARR) ratified.**
 
@@ -974,7 +974,7 @@ Tech Appendix §L footnote positions E as temporal-specialization of Pigouvian e
 
 **Rigor provenance:**
 - Meta-pass §13.2.c (commit `af2f18e`) — DEFERRED pending author re-read.
-- Individual rigor pass `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_term_asymmetric_regret_principle_v1.0.0.md` (2026-04-24) — Option A (PROMOTE to Ring 2) ratified with rename-sub-decision flagged.
+- Individual rigor pass `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-24_term_asymmetric_regret_principle_v1.0.0.md` (2026-04-24) — Option A (PROMOTE to Ring 2) ratified with rename-sub-decision flagged.
 - **Principle #5 origination:** ARP's bidirectional-flip behavior originated Working Principle #5 ("Context-flipping rules earn named-rule status") ratified 2026-04-24.
 
 **M12 classification:** Framework-specific operational specialization of established decision-theoretic family. Related to Precautionary Principle (different: ARP bidirectional, PP unidirectional); related to Savage 1951 minimax-regret + Loomes-Sugden 1982 regret theory (framework-specialization with irreversibility-weighted regret tails); related to Lempert Popper Bankes 2003 Robust Decision Making (philosophically aligned).
@@ -1049,7 +1049,7 @@ Candidates: *Asymmetric Regret Principle (current)* · *Asymmetric Regret Rule* 
 **Rigor provenance:**
 - Meta-pass §10.2 (commit `46600bc`) — Ring-2 internal load-bearing classification.
 - Literature audit + citation ratification commits `56a226f` + `f643e59` (2026-04-24) — M12 classification as extension of reclamation-bond + EIB + Pigouvian-tax lineage; bibliography citations ratified for Ch 5 + Tech Appendix.
-- Individual rigor pass `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_term_accountability_bond_v1.0.0.md` (2026-04-24) — Option A (confirm Ring 2) + two monitoring flags (phrase-travel + scope-creep).
+- Individual rigor pass `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-24_term_accountability_bond_v1.0.0.md` (2026-04-24) — Option A (confirm Ring 2) + two monitoring flags (phrase-travel + scope-creep).
 
 **M12 classification:** Independent specialization + extension of established environmental-bonding / Pigouvian-tax lineage. Framework novelty is (a) full-Severed-Cost scope vs reclamation-only, (b) equational-closure role in CS = RCV − B. Not original coinage; consciously extends prior art.
 
@@ -1156,7 +1156,7 @@ The v2 definition makes the pairing structure explicit: *"Abundance Masking is t
 
 **Rigor provenance:**
 - Meta-pass §11.3 + §13.2.c (commit `46600bc`, 2026-04-24) — initial DEMOTE-to-prose recommendation; Principle-#2 failure.
-- Re-examination rigor pass `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_term_abundance_masking_re_examination_v1.0.0.md` (2026-04-24, commit `cf02160`) — Option A (PROMOTE to Ring 2) recommended; supersedes earlier demote-to-prose.
+- Re-examination rigor pass `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-24_term_abundance_masking_re_examination_v1.0.0.md` (2026-04-24, commit `cf02160`) — Option A (PROMOTE to Ring 2) recommended; supersedes earlier demote-to-prose.
 - Ratification 2026-04-24 by Chris Winn — this commit.
 - **Diagnostic originated here (cross-cutting):** "structural vs topical pairing" distinction that later guided Universality Test re-examination + CSG-ARP pairing analysis. Structural pairings (Partner-A's definition requires Partner-B named) justify Ring-2 promotion; topical pairings don't.
 
@@ -1219,7 +1219,7 @@ The v2 definition makes the pairing structure explicit: *"Abundance Masking is t
 **Rigor provenance:**
 - Meta-pass §10.2 + §12.1 item 7 (commit `46600bc`) — identified as Ring-2 internal load-bearing ("CS = RCV − B equation (as a single conceptual object)").
 - Ring-1 full integrated pass (commit `d4c4be4`) — equation structurally tested in unified-system rigor; no reconsideration surfaced.
-- Individual rigor pass `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_term_cs_rcv_b_equation_v1.0.0.md` (2026-04-24) — Option A (CONFIRM Ring 2 as named relational claim) ratified 2026-04-24 by Chris Winn. Principle-#3 derivation check PASSES (light non-triviality: equation fixes arithmetic form + only-these-components claim + ideal-state definition beyond what's in components' prose definitions). M12 classification: independent specialization of established gap-accounting structure.
+- Individual rigor pass `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-24_term_cs_rcv_b_equation_v1.0.0.md` (2026-04-24) — Option A (CONFIRM Ring 2 as named relational claim) ratified 2026-04-24 by Chris Winn. Principle-#3 derivation check PASSES (light non-triviality: equation fixes arithmetic form + only-these-components claim + ideal-state definition beyond what's in components' prose definitions). M12 classification: independent specialization of established gap-accounting structure.
 
 **M12 classification:** Independent specialization of established gap/deficit-accounting structure. Gap-form equations ubiquitous in adjacent literature:
 - **Pigouvian gap:** externality − tax = unpriced amount (Pigou 1920).
@@ -1307,7 +1307,7 @@ The equation's statement "CS = RCV − B" is **framework-level prescription** (i
 
 **Rigor provenance:**
 - Meta-pass §10.2 + §12.1 item 10 (commit `46600bc`) — Ring-2 classification with flag for individual rigor to test demote-to-Ring-3 alternative.
-- Individual rigor pass `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_term_ipg_v1.0.0.md` (2026-04-24, commit `256e34d`) — Option A (CONFIRM Ring 2) ratified 2026-04-24. Principle-#3 derivation check PASSES.
+- Individual rigor pass `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-24_term_ipg_v1.0.0.md` (2026-04-24, commit `256e34d`) — Option A (CONFIRM Ring 2) ratified 2026-04-24. Principle-#3 derivation check PASSES.
 
 **M12 classification:** Independent specialization. Adjacent intergenerational-pricing literature (Ramsey 1928, Stern 2007, Nordhaus DICE, declining-discount work from Weitzman/Gollier/Portney-Weyant) addresses "markets underprice intergenerational costs" qualitatively; no established work uses this specific ratio form with RCV-as-numerator. Framework-specific diagnostic composite.
 
@@ -1394,9 +1394,9 @@ Specialized extension of commons-governance methodology (Ostrom lineage) to extr
 
 **Rigor provenance:**
 - Author structural-identity insights 2026-04-24 — commons-as-structural-identity + AIT-as-CIT realizations.
-- Commons-as-Structural-Identity rigor pass `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_commons_as_structural_identity_v1.0.0.md` (commit `c4b09dc`) — broader reframing including CIT rename + 10-as-commons-categories. Option A ratified.
-- Dedicated CIT rename rigor pass `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_term_cit_rename_v1.0.0.md` (commit `b294c79`) — Option A (ratify CIT) ratified with full M12 audit + sub-form formalization.
-- 10-Commons-List Dissolution rigor pass `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_10_commons_list_dissolution_v1.0.0.md` (commit `e30087e`) — Option C' ratified (10 as examples-not-canonical; methodology-forward; political-philosophical acknowledgment).
+- Commons-as-Structural-Identity rigor pass `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-24_commons_as_structural_identity_v1.0.0.md` (commit `c4b09dc`) — broader reframing including CIT rename + 10-as-commons-categories. Option A ratified.
+- Dedicated CIT rename rigor pass `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-24_term_cit_rename_v1.0.0.md` (commit `b294c79`) — Option A (ratify CIT) ratified with full M12 audit + sub-form formalization.
+- 10-Commons-List Dissolution rigor pass `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-24_10_commons_list_dissolution_v1.0.0.md` (commit `e30087e`) — Option C' ratified (10 as examples-not-canonical; methodology-forward; political-philosophical acknowledgment).
 
 **M12 classification:** Original specialization within counterfactual-reasoning methodological family. No prior-art collision on phrase or concept; acronym collisions in unrelated domains only (spell-out-at-first-use convention mitigates).
 
@@ -1440,7 +1440,7 @@ Specialized extension of commons-governance methodology (Ostrom lineage) to extr
 
 **Why:** author insight 2026-04-24: *"AiT is really CiT showing that a commons cost exists when you imagine the current abundance of that commons not existing."* The test operates on commons (concrete shared resources), not on abstract abundance-states. CIT's framing makes the operational instruction visualizable; AIT required reader-side abstraction. Plus the two sub-forms (Commons-Absence + Commons-Consumption Inversion) became visible only after the commons-reframing.
 
-**Full trace:** `archive/retirements/index.md` §1 + ratifying rigor pass `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_term_cit_rename_v1.0.0.md` + Commons-as-Structural-Identity + 10-list dissolution rigor passes.
+**Full trace:** `archive/retirements/index.md` §1 + ratifying rigor pass `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-24_term_cit_rename_v1.0.0.md` + Commons-as-Structural-Identity + 10-list dissolution rigor passes.
 
 ---
 
@@ -1557,7 +1557,7 @@ Politically-contested commons especially: Autonomy (Anderson 2017 *Private Gover
 **Rigor provenance:**
 - Three Ways + RCV Formal-Model rigor pass Block 1 (commit `1c8e4dd`, 2026-04-24) — surfaced CSD as hidden Ring-2 element via two-instrument architecture.
 - Three Ways + RCV Formal-Model ratification (commit `66becc5`, 2026-04-24) — promotion commissioned by Chris Winn directive.
-- CSD individual rigor pass `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_term_csd_v1.0.0.md` (commit `98fc8e6`, 2026-04-24) — Option A (Ring 2) ratified by Chris Winn 2026-04-24 with Principle-#3 distinctness check + M12 audit + 7-case implicit-operation evidence.
+- CSD individual rigor pass `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-24_term_csd_v1.0.0.md` (commit `98fc8e6`, 2026-04-24) — Option A (Ring 2) ratified by Chris Winn 2026-04-24 with Principle-#3 distinctness check + M12 audit + 7-case implicit-operation evidence.
 
 **M12 classification:** Independent specialization with established-methodology lineage. Adopts reparations-economics (Darity & Mullen 2020) wealth-gap-against-comparable-households methodology + VSL/DALY health-economics + intergenerational-mobility (Chetty et al.) + extends into extraction-community contexts via two-instrument architecture.
 
@@ -1649,7 +1649,7 @@ The framework EXTENDS Hotelling 1931 by adding a commons-side measurement to pai
 **Rigor provenance:**
 - Three Ways + RCV Formal-Model rigor pass Block 3 (commit `1c8e4dd`) — Hotelling Identity surfaced.
 - Three Ways + RCV Formal-Model ratification (commit `66becc5`) — promotion commissioned.
-- Hotelling Identity individual rigor pass `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_term_hotelling_identity_v1.0.0.md` (commit `5b8ff42`) — Option A (Ring 2 promote) with §3.2 Tech Appendix specification framing for the appropriated-commons-value interpretation.
+- Hotelling Identity individual rigor pass `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-24_term_hotelling_identity_v1.0.0.md` (commit `5b8ff42`) — Option A (Ring 2 promote) with §3.2 Tech Appendix specification framing for the appropriated-commons-value interpretation.
 - Author M12 challenge round 1 (2026-04-24): *"note 'Hotelling Identity' isn't my idea it's Hotelling, correct? we are just citing it and leveraging it within our formula."*
 - Author M12 resolution round 2 (2026-04-24): *"ratify = Hotelling Identity Ring 2 promotion... but again, it's not my work so just cite it and then use it and call out how my work extends / adds to his work."*
 - Ratification 2026-04-24 by Chris Winn — this commit. Ring 2 promotion ratified WITH extension-positioning discipline.
@@ -1709,7 +1709,7 @@ The framework EXTENDS Hotelling 1931 by adding a commons-side measurement to pai
 
 **Working definition:** Three-method estimation methodology for RCV producing a defensible range rather than a single point estimate. Method 1 (Replacement Cost lower bound) + Method 2 (Norway Revealed Preference middle-anchor within triangulation) + Method 3 (Scarcity-Adjusted Option Value upper bound). Convergence reduces uncertainty; divergence reveals where real disagreements live (substitutability vs scarcity-rate vs option-value parameter dominance). The methodology's output is described inline as *"the triangulated three-method range."*
 
-**Status:** `CURRENT` at Ring 2 (ratified 2026-04-24 by Chris Winn — methodology unchanged; renamed 2026-04-28 by Chris Winn from "Triangulated RCV Estimation" to "Three Ways of Counting" per `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-28_triangulated_rcv_estimation_naming_review_v1.0.0.md` Option B verdict — drop redundant formal name; promote pedagogical alias to primary methodology name; preserve "the triangulated three-method range" as inline result description; vocabulary footprint reduces by one Ring-2 term per Working Principle #1 parsimony).
+**Status:** `CURRENT` at Ring 2 (ratified 2026-04-24 by Chris Winn — methodology unchanged; renamed 2026-04-28 by Chris Winn from "Triangulated RCV Estimation" to "Three Ways of Counting" per `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-28_triangulated_rcv_estimation_naming_review_v1.0.0.md` Option B verdict — drop redundant formal name; promote pedagogical alias to primary methodology name; preserve "the triangulated three-method range" as inline result description; vocabulary footprint reduces by one Ring-2 term per Working Principle #1 parsimony).
 
 **Supersession record:** "Triangulated RCV Estimation" (proper-noun coined 2026-04-24) RETIRED 2026-04-28 as redundant with "Three Ways of Counting" pedagogical name. Methodology, three sub-methods (Replacement Cost / Revealed Preference / Scarcity-Adjusted Option Value), convergence/divergence diagnostic, reporting discipline all preserved unchanged. Tier verdict reaffirmed at Ring 2 / Tier D under "Three Ways of Counting" (chapter title pattern-matches accessible academic-trade convention per Mazzucato / Raworth / Anderson lineage).
 
@@ -1734,7 +1734,7 @@ The framework EXTENDS Hotelling 1931 by adding a commons-side measurement to pai
 **Rigor provenance:**
 - Three Ways + RCV Formal-Model rigor pass Block 2 (commit `1c8e4dd`) — methodology surfaced.
 - Three Ways + RCV Formal-Model ratification (commit `66becc5`) — promotion commissioned.
-- Triangulated RCV Estimation individual rigor pass `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_term_triangulated_rcv_estimation_v1.0.0.md` (commit `4f48c48`) — Option A (Ring 2 promote) verified with three method sub-tests + triangulation-discipline check + integration check.
+- Triangulated RCV Estimation individual rigor pass `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-24_term_triangulated_rcv_estimation_v1.0.0.md` (commit `4f48c48`) — Option A (Ring 2 promote) verified with three method sub-tests + triangulation-discipline check + integration check.
 - Ratification 2026-04-24 by Chris Winn — this commit.
 
 **M12 classification:** Independent specialization within established estimation methodology traditions. Each method adopts standard methodology; triangulation discipline is standard validation. Framework's contribution is the SPECIFIC THREE METHODS chosen + convergence/divergence diagnostic + integration with Two-Instrument Architecture (CSD ↔ B1; RCV ↔ B2).
@@ -1809,8 +1809,8 @@ The framework EXTENDS Hotelling 1931 by adding a commons-side measurement to pai
 - Original Accountability Bond rigor pass (commit `7fa1c1b`) — aggregate Ring-2 ratified.
 - Three Ways + RCV Formal-Model pass §7.3 (commit `1c8e4dd`) — surfaced B = B1 + B2 decomposition via Block 1 two-instrument architecture.
 - Three Ways + RCV Formal-Model ratification (commit `66becc5`) — decomposition rigor pass commissioned.
-- B1/B2 decomposition individual rigor pass `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_b1_b2_decomposition_v1.0.0.md` (commit `ab24a8e`) — Option A (decomposition ratified) verified with equational consistency check + per-sub-instrument M12 audit.
-- B1 + B2 naming rigor pass `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_b1_b2_naming_v1.0.0.md` (commit `8e6a5b2`) — Restitution Bond + Foreclosure Bond ratified over working labels (Reparations Bond + Resource-Foreclosure Bond).
+- B1/B2 decomposition individual rigor pass `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-24_b1_b2_decomposition_v1.0.0.md` (commit `ab24a8e`) — Option A (decomposition ratified) verified with equational consistency check + per-sub-instrument M12 audit.
+- B1 + B2 naming rigor pass `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-24_b1_b2_naming_v1.0.0.md` (commit `8e6a5b2`) — Restitution Bond + Foreclosure Bond ratified over working labels (Reparations Bond + Resource-Foreclosure Bond).
 - Aggregate decomposition ratification 2026-04-24 by Chris Winn (commit `56b5fd4`) — B = B1 + B2 + Open Insight #14 refinement.
 - Final names ratification 2026-04-24 by Chris Winn — this commit.
 
@@ -1878,7 +1878,7 @@ The framework EXTENDS Hotelling 1931 by adding a commons-side measurement to pai
 - Balboa 2016 *Accountability of Environmental Impact Bonds* — already in bibliography §15.
 - Pigou 1920 *Economics of Welfare* — already in bibliography §17. Pigouvian-tax tradition.
 
-**Phase 2 deeper-dive rigor pass `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-29_phase2_foreclosure_bond_housing_crisis_collision_v1.0.0.md` (2026-04-29):** full 12-cell multi-audience matrix per vocabulary strategy v1.0.1 §2 + §8 + M6 academic rigor depth audit + M11 critic-survival from 5 critic positions (housing-crisis-trauma; race-justice; mortgage-finance-vocabulary; resource-economics; marketing-positioning) + M12 attribution-honesty depth audit + affective-valence dimension. **Verdict: KEEP term (PASS conditional on three enhancements) — RATIFIED 2026-04-29 by Chris Winn.** Re-tested 2026-04-24 b1_b2_naming verdict against 12-cell matrix that did not exist at original ratification; verdict held. No cell FAILS. Tier 1 + Tier 2b + Tier 2d/Lived-oppression conditional STRONG-with-enhancement / WEAK-without (heavier failure-mode than Cost Severance Phase 2 due to housing-foreclosure trauma-affect vs HR-severance bureaucratic-affect). Tier 3a + 3b ADEQUATE due to inherent trauma-affect on jacket-marketing register (structural property of the term). Rename rejected (6 alternatives tested at Phase 2 depth: Resource-Foreclosure Bond; Future-Options Bond; Long-Horizon Bond; Intergenerational Resource Bond; Hartwick Bond; Sovereign Reserve Bond; Forward Accountability Bond). Three enhancements ratified: (a) lineage citation expansion (this update); (b) Ch 9 *Pricing Honestly* bridge prose at Foreclosure Bond first-introduction (canonical text below; DRAFT v1 Phase 2 §7.3); (c) Tech Appendix §L methodological footnote on Foreclosure Bond housing-crisis-affect handling (placement: NOW vs Phase 3 Tech Appendix v2.0.0 rebuild — pending author choice on §12.5 of Phase 2 rigor pass; option for unification with Cost Severance Phase 2 §L footnote into single methodological-framing section per §12.4).
+**Phase 2 deeper-dive rigor pass `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-29_phase2_foreclosure_bond_housing_crisis_collision_v1.0.0.md` (2026-04-29):** full 12-cell multi-audience matrix per vocabulary strategy v1.0.1 §2 + §8 + M6 academic rigor depth audit + M11 critic-survival from 5 critic positions (housing-crisis-trauma; race-justice; mortgage-finance-vocabulary; resource-economics; marketing-positioning) + M12 attribution-honesty depth audit + affective-valence dimension. **Verdict: KEEP term (PASS conditional on three enhancements) — RATIFIED 2026-04-29 by Chris Winn.** Re-tested 2026-04-24 b1_b2_naming verdict against 12-cell matrix that did not exist at original ratification; verdict held. No cell FAILS. Tier 1 + Tier 2b + Tier 2d/Lived-oppression conditional STRONG-with-enhancement / WEAK-without (heavier failure-mode than Cost Severance Phase 2 due to housing-foreclosure trauma-affect vs HR-severance bureaucratic-affect). Tier 3a + 3b ADEQUATE due to inherent trauma-affect on jacket-marketing register (structural property of the term). Rename rejected (6 alternatives tested at Phase 2 depth: Resource-Foreclosure Bond; Future-Options Bond; Long-Horizon Bond; Intergenerational Resource Bond; Hartwick Bond; Sovereign Reserve Bond; Forward Accountability Bond). Three enhancements ratified: (a) lineage citation expansion (this update); (b) Ch 9 *Pricing Honestly* bridge prose at Foreclosure Bond first-introduction (canonical text below; DRAFT v1 Phase 2 §7.3); (c) Tech Appendix §L methodological footnote on Foreclosure Bond housing-crisis-affect handling (placement: NOW vs Phase 3 Tech Appendix v2.0.0 rebuild — pending author choice on §12.5 of Phase 2 rigor pass; option for unification with Cost Severance Phase 2 §L footnote into single methodological-framing section per §12.4).
 
 **Cross-political-tradition lineage (Phase 2 expansion 2026-04-29):**
 - *Race + housing-economics scholarship (Tier 2d + Lived-oppression load-bearing)* — Mian & Sufi 2014 *House of Debt* (already cited at Ch 9:119 housing-crisis discussion; lineage anchor for bridge prose); Rothstein 2017 *The Color of Law* (housing segregation; structural foreclosure of Black wealth); Taylor 2019 *Race for Profit* (racial dimensions of subprime crisis); Coates 2014 "The Case for Reparations" *The Atlantic* (housing/wealth/race nexus); Hyman 2011 *Debtor Nation* (consumer credit + foreclosure history); Sugrue 1996 *The Origins of the Urban Crisis* (urban + race + wealth + foreclosure); Desmond 2016 *Evicted* (eviction + housing-instability lineage).

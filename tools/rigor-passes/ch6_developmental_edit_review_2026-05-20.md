@@ -88,7 +88,7 @@ ratification + application session per pipeline doctrine v1.0.0 Amendment C
    `5e08642`. Read for context only. **Render-side concerns are
    pipeline-side and tracked separately; NOT developmental concerns;
    flagged here so this review doesn't conflate them.**
-10. [`tools/rigor-passes/commons_bonds_rigor_pass_2026-04-29_phase2_three_ways_of_counting_adoption_fit_v1.0.0.md`](commons_bonds_rigor_pass_2026-04-29_phase2_three_ways_of_counting_adoption_fit_v1.0.0.md)
+10. [`tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-29_phase2_three_ways_of_counting_adoption_fit_v1.0.0.md`](archive/commons_bonds_rigor_pass_2026-04-29_phase2_three_ways_of_counting_adoption_fit_v1.0.0.md)
     — earlier adoption-fit pass; background context for cumulative
     Ch 6 audit-history.
 11. [`tools/workstream-handoffs/archive/ch6-pipeline-retrofit-handoff_2026-05-17.md`](../workstream-handoffs/archive/ch6-pipeline-retrofit-handoff_2026-05-17.md)

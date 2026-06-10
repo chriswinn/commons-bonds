@@ -227,7 +227,7 @@ Retirements during today's session (2026-04-24) that have Terms Index records bu
 
 The original 2026-04-24 discipline (sweep current docs; header-note older docs; full retirement record in Terms Index) was correct for the rapid-development phase. As the framework matured into the publisher-prep phase (2026-04-29 onward), the discipline's costs began to outweigh benefits in some places — specifically, terms_index approaching v1.0.0 with substantial retirement-trace metadata; navigability declining; Phase 3 + Phase 4 rebuilds inheriting noise; pre-publication external review friction.
 
-Per `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-30_working_principle_4_refinement_v1.0.0.md` (RATIFIED 2026-04-30 by Chris Winn): refine the discipline to a **tiered retirement-trace policy + dedicated retirement-archive index** (Options B + C combined per rigor pass §4-§5).
+Per `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-30_working_principle_4_refinement_v1.0.0.md` (RATIFIED 2026-04-30 by Chris Winn): refine the discipline to a **tiered retirement-trace policy + dedicated retirement-archive index** (Options B + C combined per rigor pass §4-§5).
 
 **Refined per-document-type policy:**
 
@@ -271,7 +271,7 @@ Per `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-30_working_principle_4_
 **Cross-references:**
 
 - `archive/retirements/index.md` — new canonical retirement-archive index; populated 2026-04-30 with 16 vocabulary retirements + 2 methodology retirements + 3 file/artifact retirements.
-- `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-30_working_principle_4_refinement_v1.0.0.md` — full audit trail for this refinement.
+- `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-30_working_principle_4_refinement_v1.0.0.md` — full audit trail for this refinement.
 - Insight #59 (closed-ratified 2026-04-30) — open_insights record.
 
 ---
@@ -397,7 +397,7 @@ Articulated and ratified 2026-04-26 by Chris Winn, after a methodology critique 
 
 **Ratified:** 2026-04-28 by Chris Winn. Originating articulation: *"regarding the Tier 3 / scaffolding-vs-publisher-facing principle in the still-PROPOSED retirement-traces rigor pass — scaffolding is internal; reasoning chains preserved in the rigor passes themselves; don't over-engineer for external readability. Let's expand that to every external facing document. So all chapter drafts, glossary items, and technical appendix."*
 
-**Originating context:** the retirement-traces rigor pass `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-28_retirement_traces_scaffolding_vs_publisher_facing_v1.0.0.md` (RATIFIED 2026-04-28; Insight #28) established the Tier 1 / Tier 2 / Tier 3 trichotomy for retirement-trace handling specifically. Tier 1 (publisher-facing live documents) gets retired terms swept; Tier 3 (scaffolding/decision-record) preserves traces. Author surfaced 2026-04-28 that the principle generalizes beyond retirement-traces: ALL scaffolding/audit-trail content should be scrubbed from publisher-facing artifacts (chapter drafts, glossary, Tech Appendix), with reasoning chains preserved exclusively in scaffolding documents (terms_index, rigor passes, working principles, vocabulary strategy, sessions, open insights, alignment patches).
+**Originating context:** the retirement-traces rigor pass `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-28_retirement_traces_scaffolding_vs_publisher_facing_v1.0.0.md` (RATIFIED 2026-04-28; Insight #28) established the Tier 1 / Tier 2 / Tier 3 trichotomy for retirement-trace handling specifically. Tier 1 (publisher-facing live documents) gets retired terms swept; Tier 3 (scaffolding/decision-record) preserves traces. Author surfaced 2026-04-28 that the principle generalizes beyond retirement-traces: ALL scaffolding/audit-trail content should be scrubbed from publisher-facing artifacts (chapter drafts, glossary, Tech Appendix), with reasoning chains preserved exclusively in scaffolding documents (terms_index, rigor passes, working principles, vocabulary strategy, sessions, open insights, alignment patches).
 
 **Scope:**
 
@@ -463,9 +463,9 @@ Reasoning chains for ALL framework decisions (vocabulary, methodology, structura
 
 **Cross-references:**
 
-- Retirement-traces rigor pass `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-28_retirement_traces_scaffolding_vs_publisher_facing_v1.0.0.md` (Insight #28 closed-ratified 2026-04-28)
+- Retirement-traces rigor pass `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-28_retirement_traces_scaffolding_vs_publisher_facing_v1.0.0.md` (Insight #28 closed-ratified 2026-04-28)
 - Vocabulary strategy scaffolding doc `alignment/commons_bonds_vocabulary_strategy_v1.0.1.md` §9 (decision-record format references this principle)
-- Architecture rigor pass `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-27_publication_architecture_terms_index_glossary_tech_appendix_v1.0.0.md` (Phase 3 Tech Appendix v2.0.0 + Phase 4 Glossary v4 rebuilds inherit Principle #8 as standing input)
+- Architecture rigor pass `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-27_publication_architecture_terms_index_glossary_tech_appendix_v1.0.0.md` (Phase 3 Tech Appendix v2.0.0 + Phase 4 Glossary v4 rebuilds inherit Principle #8 as standing input)
 - Routine 2 (pre-submission readiness audit) — pattern checks extended to include scaffolding-content patterns
 
 ---

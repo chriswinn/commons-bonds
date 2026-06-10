@@ -271,10 +271,10 @@ Chapter drafts (substantive content changes):
 - manuscript/chapters/Chapter_10_CommonBonds__Draft.md (no changes this session — completed earlier)
 
 Rigor passes added this session:
-- tools/rigor-passes/commons_bonds_rigor_pass_2026-04-27_ch9_title_candidates_v1.0.0.md (Round 1+2+3)
-- tools/rigor-passes/commons_bonds_rigor_pass_2026-04-27_candidate_5_rare_earths_strategic_v1.0.0.md
-- tools/rigor-passes/commons_bonds_rigor_pass_2026-04-27_candidate_6_us_uniqueness_healthcare_v1.0.0.md
-- tools/rigor-passes/commons_bonds_rigor_pass_2026-04-27_candidate_7_deep_seabed_mining_v1.0.0.md
+- tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-27_ch9_title_candidates_v1.0.0.md (Round 1+2+3)
+- tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-27_candidate_5_rare_earths_strategic_v1.0.0.md
+- tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-27_candidate_6_us_uniqueness_healthcare_v1.0.0.md
+- tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-27_candidate_7_deep_seabed_mining_v1.0.0.md
 
 Open insights file:
 - alignment/commons_bonds_open_insights_v1.0.0.md (Insights #22-#24 added; #23 + #24 closed-ratified)

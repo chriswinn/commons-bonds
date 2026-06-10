@@ -110,9 +110,9 @@ The rigor protocol §3.5 addition operationalizes the discipline into module pro
 
 - `alignment/commons_bonds_working_principles_v1.0.0.md` §1 — Principle #7 (ratified 2026-04-26).
 - `tools/commons_bonds_rigor_protocol_v2.4.0.md` §3.5 — operational discipline for M6/M11/M12.
-- `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-26_term_consistency_gate_rename_v1.0.0.md` — the original pass; spec checked above.
-- `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-26_gate_2_naming_M6_supplement_v1.0.0.md` — the supplemental pass; one inaccurate self-criticism flagged above for correction.
-- `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_vocabulary_footprint_meta_v1.0.0.md` — documents the discipline working as designed (in-pass self-correction on rewrite-cost-as-rigor-argument).
+- `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-26_term_consistency_gate_rename_v1.0.0.md` — the original pass; spec checked above.
+- `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-26_gate_2_naming_M6_supplement_v1.0.0.md` — the supplemental pass; one inaccurate self-criticism flagged above for correction.
+- `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-24_vocabulary_footprint_meta_v1.0.0.md` — documents the discipline working as designed (in-pass self-correction on rewrite-cost-as-rigor-argument).
 
 ---
 

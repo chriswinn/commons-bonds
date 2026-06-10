@@ -105,19 +105,19 @@ START THE NEXT SESSION BY:
 
 Full 12-cell multi-audience matrix at Phase 2 depth + M6 + M11 from 5 critic positions + M12 + Ch 1 Option C bridge plan verification. **No cell FAILS.** Tier 2a + Tier 2d + Lived-oppression conditional STRONG-with-enhancement / WEAK-without. Full ratify all three enhancements + KEEP terms; rename rejected (6 alternatives tested).
 
-**Rigor pass:** `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-29_phase2_cost_severance_severed_cost_tier2d_v1.0.0.md`
+**Rigor pass:** `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-29_phase2_cost_severance_severed_cost_tier2d_v1.0.0.md`
 
 #### Insight #38 — Phase 2 Foreclosure Bond housing-crisis collision (closed-ratified 2026-04-29)
 
 12-cell matrix + 2026-04-24 b1_b2_naming pass verdict re-tested against 12-cell matrix. **No cell FAILS** (Tier 1 + 2b + 2d/Lived-oppression conditional STRONG-with-enhancement; Tier 3a + 3b ADEQUATE due to inherent trauma-affect on jacket-marketing — structural property). Rename rejected (6 alternatives tested at Phase 2 depth).
 
-**Rigor pass:** `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-29_phase2_foreclosure_bond_housing_crisis_collision_v1.0.0.md`
+**Rigor pass:** `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-29_phase2_foreclosure_bond_housing_crisis_collision_v1.0.0.md`
 
 #### Insight #40 — Phase 2 Theorem E.4 Integral Convergence (closed-ratified 2026-04-29)
 
 Premise enumeration A1–A4 + restructured proof + Weitzman 2001 academic-rigor citation expansion. **Methodology template** for sibling theorem audits (#41 E.1; #42 E.3; #45 E.2; #47 E.5). Tech Appendix HTML edit batched into Phase 3 v2.0.0 rebuild.
 
-**Rigor pass:** `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-29_phase2_theorem_e4_integral_convergence_v1.0.0.md`
+**Rigor pass:** `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-29_phase2_theorem_e4_integral_convergence_v1.0.0.md`
 
 #### Insight #41 — Phase 2 #7 Scarcity multiplier formula academic-defensibility (closed-ratified 2026-04-29)
 
@@ -125,25 +125,25 @@ Full ratify; comprehensive bibliography expansion (Pindyck 1978 + 2008; Dasgupta
 
 #### Insight #41 (canonical) — Phase 2 Theorem E.1 Structural Cost Severance (closed-ratified 2026-04-29)
 
-E.1 split into E.1a + E.1b + premises P1–P3 + citations. **Full ratify** verdict per `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-29_phase2_theorem_e1_structural_cost_severance_v1.0.0.md`. Tech Appendix HTML edit batched into Phase 3 v2.0.0 rebuild.
+E.1 split into E.1a + E.1b + premises P1–P3 + citations. **Full ratify** verdict per `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-29_phase2_theorem_e1_structural_cost_severance_v1.0.0.md`. Tech Appendix HTML edit batched into Phase 3 v2.0.0 rebuild.
 
 #### Insight #42 (canonical) — Phase 2 Theorem E.3 Abundance Masking (closed-ratified 2026-04-29)
 
 Formal derivation + notation disambiguation + domain restriction + citations. Subject-collision with parallel-session Insight #54 resolved by retiring #54 in favor of canonical #42; parallel-session findings integrated into expanded #42 (3 → 4 enhancements).
 
-**Rigor pass:** `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-29_phase2_theorem_e3_abundance_masking_v1.0.0.md`
+**Rigor pass:** `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-29_phase2_theorem_e3_abundance_masking_v1.0.0.md`
 
 #### Insight #43/#49 — Phase 2 #5 Externality Tail statistics-distribution-tail collision (closed-ratified 2026-04-29)
 
 Full ratify both enhancements. Stern Review 2007 lineage citation reaffirmed; statistical-tail vs externality-tail framework distinction codified. Subsequently renumbered as canonical #49 in Phase 2 sweep #41–#47 → #47–#53 renumber.
 
-**Rigor pass:** `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-29_phase2_externality_tail_statistics_collision_v1.0.0.md`
+**Rigor pass:** `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-29_phase2_externality_tail_statistics_collision_v1.0.0.md`
 
 #### Insight #44/#50 — Phase 2 #4 RCV acronym collision audit (closed-ratified 2026-04-29)
 
 Full ratify with §15 Q5 Ranked-Choice Voting reorder. RCV (Residual Commons Value) primary acronym preserved with cross-reference disambiguation note (Ranked-Choice Voting; Recoverable Commodity Value). Renumbered as canonical #50.
 
-**Rigor pass:** `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-29_phase2_rcv_acronym_collision_v1.0.0.md`
+**Rigor pass:** `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-29_phase2_rcv_acronym_collision_v1.0.0.md`
 
 #### Insight #45/#51 — Phase 2 #3.4 Theorem E.2 Convergence of Independent Models categorization (closed-ratified 2026-04-29)
 
@@ -155,7 +155,7 @@ Full ratify Option A (categorization audit verdict). Sibling theorem audit using
 
 Full ratify Option A. Post-Insight #31 rename (Triangulated RCV Estimation → Three Ways of Counting) verification. Renumbered as canonical #48.
 
-**Rigor pass:** `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-29_phase2_three_ways_of_counting_adoption_fit_v1.0.0.md`
+**Rigor pass:** `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-29_phase2_three_ways_of_counting_adoption_fit_v1.0.0.md`
 
 #### Insight #46/#52 — Phase 2 #8 RCV integrand Q(t) notation-clarity (closed-ratified 2026-04-29)
 
@@ -167,7 +167,7 @@ Full ratify with comprehensive bibliography + full cross-reference scope + Phase
 
 Full ratify Option α + β COMBINED. Author election: **"Substitution Dominance"** as rename target (replacing "Renewable Imperative") per SC8 substantive-claim accuracy weighted higher than Tier 1 + Tier 2c-climate-progressive bold-framing rhetorical force. Audience-cell scoring 8-2 favoring Dominance + register-splitting insight (chapter title carries bold framing; theorem name carries technical precision). Plus Corollary E.5.1 added. Renumbered as canonical #53.
 
-**Rigor pass:** `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-29_phase2_theorem_e5_dual_scope_v1.0.0.md`
+**Rigor pass:** `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-29_phase2_theorem_e5_dual_scope_v1.0.0.md`
 
 #### Insight #54 — RETIRED (2026-04-29)
 
@@ -183,25 +183,25 @@ Cross-document collision audit hypothesis: cross-document audits surface collisi
 
 Full-depth rigor pass on 6 rename candidates: Lineage / Generational / Family / Family-Lineage / Hereditary / Intergenerational Labor Cost. **"Lineage Labor Cost"** wins decisively per multi-audience matrix STRONG/STRONGEST across 12 cells; "Lineage" carries family-line semantics without ruling-class connotation that Dynastic carried (lived-oppression reading WEAK-RISK in original). Apply sweep across 11 files: terms_index + glossary v3 + Ch 1, 6, 8 chapter drafts + healthcare-end-of-life.md + opioid-extraction-appalachia.md + indigenous-land-dispossession.md + social-security.md research case studies + Cᵢ illustrative-list.
 
-**Rigor pass:** `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-30_group1_1_labor_cost_naming_v1.0.0.md`
+**Rigor pass:** `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-30_group1_1_labor_cost_naming_v1.0.0.md`
 
 #### Insight #57 — Group 1.2 Intergenerational Option Value Tier B promotion (closed-ratified 2026-04-30)
 
 12-cell matrix: 9 STRONG + 3 ADEQUATE (Tier 2d Socialist/communitarian + Lived-oppression — option-value reads as detached/abstract for present-suffering positions; mitigable via Tech Appendix §L methodological footnote). Tier B clean — Henry 1974 + Arrow-Fisher 1974 + Dixit-Pindyck 1994 close-fit academic anchors; framework specializes intergenerational temporal-scope axis. **Decisive criterion:** Argument-load-bearing distinction. Ch 4 *The Existence Proof* frames the entire chapter argument via option-value reasoning. Verdict (a) Tier B promotion + dedicated terms_index entry. **Implementation applied:** terms_index Ring-2 entry added (Tier B; Henry/Arrow-Fisher/Dixit-Pindyck/Howarth-Norgaard lineage). Tech Appendix §L footnote queued for Phase 3.
 
-**Rigor pass:** `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-30_group1_2_intergenerational_option_value_v1.0.0.md`
+**Rigor pass:** `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-30_group1_2_intergenerational_option_value_v1.0.0.md`
 
 #### Insight #58 — Group 1.3 intergenerational claims + intergenerational obligations Hohfeldian-dual (closed-ratified 2026-04-30)
 
 Chapter-prose audit confirms framework deploys both terms as deliberate Hohfeldian jural-correlative pair (claim ↔ obligation per Hohfeld 1913). Verdict (α) Keep both — deliberate Hohfeldian-dual; documentation-only (no sweep needed). Three going-forward references cleaned up (question-framing → verdict-framing); historical question-framing preserved in original holistic strategy rigor pass.
 
-**Rigor pass:** `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-30_group1_3_intergenerational_claims_v1.0.0.md`
+**Rigor pass:** `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-30_group1_3_intergenerational_claims_v1.0.0.md`
 
 #### Insight #59 — Working Principle #4 refinement: Tiered retirement-trace policy + retirement-archive index (closed-ratified 2026-04-30)
 
 5 alternative disciplines tested: (A) Status quo / (B) Tiered retirement-trace policy / (C) Retirement-archive index / (D) Sunset clause / (E) Two-tier scaffolding. Verdict: **(B) + (C) COMBINED.** WP#4 refined to per-document-type policy table; canonical retirement-archive established at `archive/retirements/index.md` with initial population (16 vocabulary retirements + 2 methodology retirements + 3 file/artifact retirements).
 
-**Rigor pass:** `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-30_working_principle_4_refinement_v1.0.0.md`
+**Rigor pass:** `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-30_working_principle_4_refinement_v1.0.0.md`
 
 #### Insight #60 — Scaffolding cleanup pass: refined WP#4 application + broken-paths + stale-claims sweep (closed-ratified 2026-04-30)
 

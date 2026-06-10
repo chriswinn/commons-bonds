@@ -311,7 +311,7 @@ The 2026-08-17 Berggruen submission window readiness was flagged in v1.44.0 hand
 - `core/technical-appendix/archive/TechnicalAppendix_v0.0.5_supplement.md` §5 (Hotelling Identity) — provides per-case Hotelling_anchor input for Method 3.
 - `core/technical-appendix/method3_sensitivity_analysis_2026-04-25.md` — analytical sensitivity findings confirmed empirically here.
 - `core/technical-appendix/empirical_sourcing_pass_2026-04-25.md` — DAC + space-economics anchors used in Method 1 calculations.
-- `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_three_ways_rcv_formal_model_v1.0.0.md` Block 4 — the validation strategy this document executes.
+- `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-24_three_ways_rcv_formal_model_v1.0.0.md` Block 4 — the validation strategy this document executes.
 - `alignment/decisions/april-19-rcv-validation-strategy.md` — original Block 4 spec.
 - `alignment/commons_bonds_open_insights_v1.0.0.md` Open Insight #19 (CSD-RCV correlation hypothesis) + Open Insight #20 (sensitivity execution) + Open Insight #14 (Norway-as-canonical-B2 epistemic-humility).
 - `tools/audits/commons_bonds_case_study_audit_v1.0.6.md` §2.1 + §2.2 — McDowell + Norway case-study profiles with rigor verdicts that this document numerically validates.

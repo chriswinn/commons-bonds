@@ -82,7 +82,7 @@ START THE NEXT SESSION BY:
 1. Verify Claude's primary working directory is /Users/c17n/commons-bonds (NOT the old ~/Documents/___WorkingOn/commons-bonds path).
 2. Read this handoff (alignment/sessions/commons-bonds-session-handoff-2026-04-29_v1.47.0.md) for full context.
 3. Read alignment/commons_bonds_vocabulary_strategy_v1.0.1.md (NEW standing-discipline document; load-bearing on all future vocabulary decisions).
-4. Read tools/rigor-passes/commons_bonds_rigor_pass_2026-04-29_full_framework_audit_phase1_v1.0.0.md §10 + §11 + §12.2 for Phase 2 priorities + open questions.
+4. Read tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-29_full_framework_audit_phase1_v1.0.0.md §10 + §11 + §12.2 for Phase 2 priorities + open questions.
 5. Surface one of the candidate next moves above for author confirmation before execution.
 ```
 
@@ -96,13 +96,13 @@ START THE NEXT SESSION BY:
 
 Six audience options (A trade / B academic-trade hybrid / C pure academic / D policy-practitioner / E public-intellectual / F cross-tradition) tested through full rigor pass against M3 + M6 + M8 + M10 + M11 + M12 + commercial-viability + author-voice + success-criterion-reachability + agent-representability. Verdict: **Option B + supplementary D** — academic-trade hybrid primary register (Mazzucato / Raworth / Anderson / Sen / Acemoglu-Robinson exemplar), with policy-practitioner supplementation in Ch 9 + Ch 7 instrument-design + Ch 10 regulatory-architecture sections. Ratified verdict feeds all downstream vocabulary decisions.
 
-**Rigor pass:** `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-28_book_audience_choice_v1.0.0.md`
+**Rigor pass:** `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-28_book_audience_choice_v1.0.0.md`
 
 #### Insight #26 — Vocabulary decision framework shape (closed-ratified 2026-04-28)
 
 Eight alternative shapes evaluated against six criteria. Verdict: **Option 1 four-move A/B/C/D framework** retained + refinements: (a) §5 D-modulation guidance covers engineered-for-adoption-travel design intent; (b) §4 supplementary decision-tree representation. Decision-tree as supplementary illustration only.
 
-**Rigor pass:** `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-28_vocabulary_decision_framework_shape_v1.0.0.md`
+**Rigor pass:** `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-28_vocabulary_decision_framework_shape_v1.0.0.md`
 
 #### Insight #27 — Vocabulary strategy scaffolding doc v1.0.1 (closed-ratified 2026-04-28)
 
@@ -112,7 +112,7 @@ Eight alternative shapes evaluated against six criteria. Verdict: **Option 1 fou
 
 Three-tier classification: **Tier 1 publisher-facing live** (sweep retired terms); **Tier 2 archived/superseded** (header-note only); **Tier 3 scaffolding/decision-record/author-facing** (preserve full traces). Triggers Phase 1 Working Principle #4 update + Phase 2 Value Capture publisher-facing sweep + Phase 3 routine 1 Tier-aware exclusion. Implementation pending (per §19 todo).
 
-**Rigor pass:** `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-28_retirement_traces_scaffolding_vs_publisher_facing_v1.0.0.md`
+**Rigor pass:** `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-28_retirement_traces_scaffolding_vs_publisher_facing_v1.0.0.md`
 
 #### Insight #29 — Working Principle #8 (closed-ratified 2026-04-28)
 
@@ -126,19 +126,19 @@ Tech Appendix §4 cleanup applied: 3 Working Principle #8 scrubs (rigor-pass com
 
 §12 post-ratification re-rigor (2026-04-29) added per author direction "redo that rigor test to make sure we did it correctly" — full multi-audience matrix (12 sub-audience cells STRONG/STRONGEST across all) + M11 collision check (no collision with established Hotelling family terms) + M12 attribution-honesty (8 elements PASS) + plagiarism + copyright + academic-misconduct + legal-exposure all return minimal-to-zero risk. Three pre-publication safe-practice steps recommended: (1) Google Scholar + JSTOR + Web of Science literature collision-check for "Hotelling Identity"; (2) bibliography cross-check for full Hotelling 1931 citation; (3) Tech Appendix v2.0.0 rebuild attribution audit.
 
-**Rigor pass:** `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-28_hotelling_identity_attribution_review_v1.0.0.md`
+**Rigor pass:** `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-28_hotelling_identity_attribution_review_v1.0.0.md`
 
 #### Insight #31 — Three Ways of Counting rename (closed-ratified 2026-04-28)
 
 "Triangulated RCV Estimation" → "Three Ways of Counting" per Option B verdict. Drop redundant formal name; promote pedagogical alias to primary methodology name; preserve "the triangulated three-method range" as inline result description. Vocabulary footprint reduces by one Ring-2 term per Working Principle #1 parsimony. Methods 1/2/3 sub-records preserved with academic lineage (Costanza 1997; Hartwick 1977 + Solow 1974; Dixit + Pindyck 1994). Removes one-off `-Estimation` suffix. Implementation: terms_index entry rename + Tech Appendix sweep (4 instances) + Glossary v3 sweep (2 entries) + chapter sweep verification (chapter drafts already clean) + routine 1 pattern-list update.
 
-**Rigor pass:** `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-28_triangulated_rcv_estimation_naming_review_v1.0.0.md`
+**Rigor pass:** `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-28_triangulated_rcv_estimation_naming_review_v1.0.0.md`
 
 #### Insight #32 — Cluster items-not-flagged batch rigor (closed-ratified 2026-04-28; 24 items PASS)
 
 24 items batch-tested across 5 categories: 9 Tier A borrowed academic concept adoptions (intergenerational equity / mobility / wealth transmission / transfers / fiscal architecture / transfer programs / obligations / claims / stocks); 7 Tier C descriptive prose preservation groups; 4 Tier D coinage defers (Lifetime Survival Cost / Community Disruption Cost / Political Capture Cost / Temporal Displacement Cost — all stay in Cᵢ illustrative-list); 2 chapter-prose KEEP-per-existing-discipline (Ch 7:205 universality test lowercase; Ch 10 GuidanceDoc:119 FGC preserved per Tier-3); 11 Ch 5 cost severance KEEP verdicts. All 24 items PASS full rigor + audience + academic rigor tests.
 
-**Rigor pass:** `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-28_cluster_items_not_flagged_batch_rigor_v1.0.0.md`
+**Rigor pass:** `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-28_cluster_items_not_flagged_batch_rigor_v1.0.0.md`
 
 #### Insight #33 — Group 3 Tier-1 sweep regressions (closed-ratified 2026-04-29)
 
@@ -146,13 +146,13 @@ Tech Appendix §4 cleanup applied: 3 Working Principle #8 scrubs (rigor-pass com
 
 **Item 3.2** — Ch 5:145 cost-severance compression Author Structure B applied (commit 90540b9). Pattern: bbb-A-bb (drop "cost" prefix on instances 1, 2, 3; KEEP "cost severance" only on instance 4 immediately before climax). Multi-audience matrix STRONG/STRONGEST across 11 of 12 cells; specifically benefits socialist/communitarian reading by emphasizing the civilizational-scale public-finance line.
 
-**Rigor pass:** `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-28_csg_descriptive_prose_renaming_v1.0.0.md` (covers both items)
+**Rigor pass:** `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-28_csg_descriptive_prose_renaming_v1.0.0.md` (covers both items)
 
 #### Insight #34 — Group 2 Knowledge and Cultural Cost naming (closed-ratified 2026-04-29; C1 form canonical)
 
 C1 "Knowledge and Cultural Cost" adopted as canonical form. Wins on load-bearing cross-political-tradition Option C' criterion (lived-oppression reading + Tier 2d indigenous + heterodox alignment STRONG); modest cost on Tier 3b academic-trade hybrid copy-editor constraint (mitigable via editorial-review defense protocol). Cultural-loss vocabulary in lived-oppression literatures uses adjective form ("cultural genocide," "cultural erasure," "cultural extraction"); "Cultural [X]" pattern dominant in cultural-studies + indigenous-studies literatures. Implementation: Glossary v3:373 retired-list entry swept; terms_index:128 (8-tier-being-dissolved listing) swept to match.
 
-**Rigor pass:** `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-29_group2_knowledge_culture_cost_naming_v1.0.0.md`
+**Rigor pass:** `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-29_group2_knowledge_culture_cost_naming_v1.0.0.md`
 
 ### §2.2 Holistic strategy §10 full re-rigor (commit 0a8510d)
 
@@ -170,7 +170,7 @@ Per author direction 2026-04-29: full multi-audience matrix + M11 + M12 + plagia
 2. Intergenerational Option Value — Tier B promotion / defer / Tier C prose only
 3. Dynastic Labor Cost — keep "Dynastic" / **rename to "Lineage Labor Cost" (recommended)** / "Generational Labor Cost" / "Family Labor Cost" / "Family-Lineage Labor Cost"
 
-**Rigor pass:** `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-29_holistic_strategy_full_rerigor_v1.0.0.md`
+**Rigor pass:** `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-29_holistic_strategy_full_rerigor_v1.0.0.md`
 
 ### §2.3 Phase 1 full framework audit (commit e2796c6)
 
@@ -192,7 +192,7 @@ Per author direction 2026-04-29: full-discipline rigor on Defer-4 items + ratifi
 
 **6 open questions for author discussion** (per §11 of Phase 1 rigor pass): Phase 2 priority order; severance vocabulary cross-political-tradition concern (Ch 1 Option C HR-severance bridge sufficient at Tier 2d depth?); Foreclosure Bond housing connotation real concern?; theorem audit at academic-rigor depth dedicated rigor passes vs Tech Appendix v2.0.0 rebuild bundle?; bibliography accuracy + completeness Phase 2 vs separate; scarcity multiplier formula academic-defensibility log-form derivation needed?
 
-**Rigor pass:** `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-29_full_framework_audit_phase1_v1.0.0.md`
+**Rigor pass:** `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-29_full_framework_audit_phase1_v1.0.0.md`
 
 ### §2.4 Routine updates this session
 

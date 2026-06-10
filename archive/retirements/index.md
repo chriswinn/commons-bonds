@@ -38,22 +38,22 @@ The project uses a **hybrid archive structure**:
 
 | Date | Original term | Replacement / disposition | Insight # | Rigor pass |
 |---|---|---|---|---|
-| 2026-04-24 | Abundance Inversion Test (AIT) | Commons Inversion Test (CIT) | (pre-Insight tracking) | `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_term_cit_rename_v1.0.0.md` |
-| 2026-04-24 | Asymmetric Regret Principle (ARP) | Asymmetric Regret Rule (ARR) | (pre-Insight tracking) | `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_term_asymmetric_regret_principle_v1.0.0.md` |
+| 2026-04-24 | Abundance Inversion Test (AIT) | Commons Inversion Test (CIT) | (pre-Insight tracking) | `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-24_term_cit_rename_v1.0.0.md` |
+| 2026-04-24 | Asymmetric Regret Principle (ARP) | Asymmetric Regret Rule (ARR) | (pre-Insight tracking) | `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-24_term_asymmetric_regret_principle_v1.0.0.md` |
 | 2026-04-24 | Reversibility Default (RD) | Asymmetric Regret Rule (ARR) — same-day flip | (pre-Insight tracking) | terms_index entry "Reversibility Default (RD) — RATIFICATION REVERSED 2026-04-24 (same-day flip)" |
-| 2026-04-24 | Reparations Bond | Restitution Bond (B₁) | (pre-Insight tracking) | `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_b1_b2_naming_v1.0.0.md` |
-| 2026-04-24 | Resource-Foreclosure Bond | Foreclosure Bond (B₂) | (pre-Insight tracking) | `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_b1_b2_naming_v1.0.0.md` |
-| 2026-04-24 | Civilizational Substitutability Gap (CSG; Tier D coinage) | Tier C demotion → "industrial-vs-existential substitutability gap" descriptive prose | (pre-Insight tracking) | `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_term_csg_v1.0.0.md` |
-| 2026-04-24 | Universality Test (Tier D) | Tier C demotion → "the universality test" descriptive prose | (pre-Insight tracking) | `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_term_universality_test_re_examination_v1.0.0.md` |
-| 2026-04-24 | Spatial Cost Severance (proper-noun) | spatial cost severance (lowercase descriptive prose) | (pre-Insight tracking) | `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_term_spatial_cost_severance_re_examination_v1.0.0.md` |
-| 2026-04-24 | Temporal Cost Severance (proper-noun) | Demoted then RECONSIDERED — Tier C lowercase preserved | (pre-Insight tracking) | `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_term_temporal_cost_severance_v1.0.0.md` + `..._reconsider_v1.0.0.md` |
+| 2026-04-24 | Reparations Bond | Restitution Bond (B₁) | (pre-Insight tracking) | `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-24_b1_b2_naming_v1.0.0.md` |
+| 2026-04-24 | Resource-Foreclosure Bond | Foreclosure Bond (B₂) | (pre-Insight tracking) | `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-24_b1_b2_naming_v1.0.0.md` |
+| 2026-04-24 | Civilizational Substitutability Gap (CSG; Tier D coinage) | Tier C demotion → "industrial-vs-existential substitutability gap" descriptive prose | (pre-Insight tracking) | `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-24_term_csg_v1.0.0.md` |
+| 2026-04-24 | Universality Test (Tier D) | Tier C demotion → "the universality test" descriptive prose | (pre-Insight tracking) | `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-24_term_universality_test_re_examination_v1.0.0.md` |
+| 2026-04-24 | Spatial Cost Severance (proper-noun) | spatial cost severance (lowercase descriptive prose) | (pre-Insight tracking) | `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-24_term_spatial_cost_severance_re_examination_v1.0.0.md` |
+| 2026-04-24 | Temporal Cost Severance (proper-noun) | Demoted then RECONSIDERED — Tier C lowercase preserved | (pre-Insight tracking) | `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-24_term_temporal_cost_severance_v1.0.0.md` + `..._reconsider_v1.0.0.md` |
 | 2026-04-24 | Cost Bearing (proper-noun framework term) | Tier C demotion; descriptive prose only | (pre-Insight tracking) | terms_index entry §704 `Cost Bearing` |
-| 2026-04-24 | Full Generational Cost (FGC) | RETIRED — replaced by Cᵢ admitted via Four Gates per Path F + tier-reframing | (pre-Insight tracking) | `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_tier_reframing_v1.0.0.md` §11.2 |
-| 2026-04-24 | Value Capture | Value Extraction (preferred reframing) | Insight #28 | `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_term_value_capture_vs_extraction_v1.0.0.md` |
-| 2026-04-28 | Triangulated RCV Estimation | Three Ways of Counting | Insight #31 | `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-28_triangulated_rcv_estimation_naming_review_v1.0.0.md` |
-| 2026-04-29 | industrial-existential substitutability gap | existential substitutability gap (per Bostrom + MacAskill + Ord disambiguation) | Insight #33 | `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-28_csg_descriptive_prose_renaming_v1.0.0.md` |
-| 2026-04-29 | Knowledge and Culture Cost | Knowledge and Cultural Cost (C1 form canonical) | Insight #34 | `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-29_group2_knowledge_culture_cost_naming_v1.0.0.md` |
-| 2026-04-30 | Dynastic Labor Cost | Lineage Labor Cost — class-connotation cleanup | Insight #56 | `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-30_group1_1_labor_cost_naming_v1.0.0.md` |
+| 2026-04-24 | Full Generational Cost (FGC) | RETIRED — replaced by Cᵢ admitted via Four Gates per Path F + tier-reframing | (pre-Insight tracking) | `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-24_tier_reframing_v1.0.0.md` §11.2 |
+| 2026-04-24 | Value Capture | Value Extraction (preferred reframing) | Insight #28 | `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-24_term_value_capture_vs_extraction_v1.0.0.md` |
+| 2026-04-28 | Triangulated RCV Estimation | Three Ways of Counting | Insight #31 | `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-28_triangulated_rcv_estimation_naming_review_v1.0.0.md` |
+| 2026-04-29 | industrial-existential substitutability gap | existential substitutability gap (per Bostrom + MacAskill + Ord disambiguation) | Insight #33 | `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-28_csg_descriptive_prose_renaming_v1.0.0.md` |
+| 2026-04-29 | Knowledge and Culture Cost | Knowledge and Cultural Cost (C1 form canonical) | Insight #34 | `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-29_group2_knowledge_culture_cost_naming_v1.0.0.md` |
+| 2026-04-30 | Dynastic Labor Cost | Lineage Labor Cost — class-connotation cleanup | Insight #56 | `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-30_group1_1_labor_cost_naming_v1.0.0.md` |
 
 ---
 
@@ -61,8 +61,8 @@ The project uses a **hybrid archive structure**:
 
 | Date | Original methodology | Disposition | Insight # | Rigor pass |
 |---|---|---|---|---|
-| 2026-04-24 | 8-tier decomposition (Tiers 1–8 as canonical taxonomy) | RETIRED — replaced by Cᵢ indexed cost variables admitted via Four Gates per Path F | (pre-Insight tracking) | `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_tier_reframing_v1.0.0.md` §11.2 + `..._path_f_variable_addability_v1.0.0.md` |
-| 2026-04-24 | "Canonical taxonomy" framing for 10 abundances | REFRAMED — Path F: 10 abundances are *variables AIT has discovered across cases*, not closed ontological taxonomy | (pre-Insight tracking) | `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_path_f_variable_addability_v1.0.0.md` |
+| 2026-04-24 | 8-tier decomposition (Tiers 1–8 as canonical taxonomy) | RETIRED — replaced by Cᵢ indexed cost variables admitted via Four Gates per Path F | (pre-Insight tracking) | `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-24_tier_reframing_v1.0.0.md` §11.2 + `..._path_f_variable_addability_v1.0.0.md` |
+| 2026-04-24 | "Canonical taxonomy" framing for 10 abundances | REFRAMED — Path F: 10 abundances are *variables AIT has discovered across cases*, not closed ontological taxonomy | (pre-Insight tracking) | `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-24_path_f_variable_addability_v1.0.0.md` |
 
 ---
 
