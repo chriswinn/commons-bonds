@@ -21,6 +21,7 @@
             text-align: left; vertical-align: top; }
         table.notation th { background: #f3f6f9; }
         table.notation td.sym { font-weight: bold; white-space: nowrap; }
+        table.notation th.grp { background: #e8eef3; text-align: left; font-size: 0.95em; padding-top: 12px; }
         @media print { body { color: #000; background: #fff; } }
     </style>
 </head>
@@ -30,53 +31,52 @@
     <p class="subtitle">Notation &amp; Symbols</p>
     <p class="subtitle">By Chris Winn</p>
   </div>
-  <p>Symbols used in the Technical Appendix and the book&rsquo;s quantitative passages. Standard conventions are preserved where the framework follows them; deliberate redefinitions are noted in the meaning.</p>
+  <p>Symbols used in the Technical Appendix and the book&rsquo;s quantitative passages, each listed once. Standard conventions are preserved where the framework follows them; deliberate redefinitions are noted in the meaning.</p>
   <table class="notation">
     <tr><th>Symbol</th><th>Meaning</th><th>Units</th></tr>
+    <tr><th colspan="3" class="grp">Core quantities</th></tr>
     <tr><td class="sym">R</td><td>resource unit</td><td></td></tr>
-    <tr><td class="sym">𝒞 (script)</td><td>commons-territory set; R∈𝒞</td><td>set</td></tr>
+    <tr><td class="sym">𝒞</td><td>commons-territory set (R ∈ 𝒞)</td><td>set</td></tr>
     <tr><td class="sym">Q, Q(t)</td><td>remaining in-situ stock</td><td>resource-class units</td></tr>
-    <tr><td class="sym">ρ</td><td>regeneration rate of stock</td><td>resource·time⁻¹</td></tr>
     <tr><td class="sym">S(t|t₀), S_max</td><td>substitutability function; its ceiling</td><td>dimensionless [0,1]</td></tr>
-    <tr><td class="sym">λ</td><td>substitution rate (in S=S_max(1−e^(−λ(t−t₀))))</td><td>time⁻¹</td></tr>
     <tr><td class="sym">U(R,t,Q(t))</td><td>stock-dependent utility flow</td><td>$·res⁻¹·time⁻¹</td></tr>
-    <tr><td class="sym">∂U/∂Q</td><td>marginal utility wrt stock (&lt;0)</td><td></td></tr>
     <tr><td class="sym">P, P(t)</td><td>market price</td><td>$·res⁻¹</td></tr>
-    <tr><td class="sym">E(R,t)</td><td>externality-tail flow</td><td>$·res⁻¹·time⁻¹</td></tr>
-    <tr><td class="sym">D(t,t₀), r(t), r₀, g(t)</td><td>discount factor; rate; initial rate; decline fn</td><td>(0,1]; rate; rate; —</td></tr>
+    <tr><td class="sym">E(R,t)</td><td>externality-tail flow (deterministic; not the expectation operator E[·])</td><td>$·res⁻¹·time⁻¹</td></tr>
+    <tr><td class="sym">D(t,t₀), r(t), r₀</td><td>discount factor; discount rate; initial rate</td><td>(0,1]; rate; rate</td></tr>
     <tr><td class="sym">RCV(R,t₀)</td><td>Residual Commons Value (the integral)</td><td>$·res⁻¹</td></tr>
-    <tr><td class="sym">B, B₁, B₂</td><td>Accountability Bond; Restitution (backward); Foreclosure (forward)</td><td>$</td></tr>
-    <tr><td class="sym">CS, CSD</td><td>Cost Severance (=RCV−B); Cost Severance Damages (backward)</td><td>$</td></tr>
+    <tr><td class="sym">B, B₁, B₂</td><td>Accountability Bond; Restitution Bond (backward); Foreclosure Bond (forward)</td><td>$</td></tr>
+    <tr><td class="sym">CS, CSD</td><td>Cost Severance (= RCV − B); Cost Severance Damages (backward-looking)</td><td>$</td></tr>
+    <tr><td class="sym">IPG(R,t₀)</td><td>Intergenerational Pricing Gap (= RCV / P)</td><td>dimensionless</td></tr>
+    <tr><td class="sym">CIT</td><td>Commons Inversion Test (the discovery method)</td><td></td></tr>
+    <tr><td class="sym">Cᵢ, C₁…Cₙ₊₁</td><td>indexed cost components admitted via the Four Gates</td><td>$</td></tr>
+    <tr><td class="sym">SCS, Ω</td><td>spatial cost severance (∫ over Ω∖K); Ω = extraction region</td><td>$; set</td></tr>
     <tr><td class="sym">Aⱼ, τⱼ</td><td>commons category j; its scarcity threshold</td><td>—; category-dep</td></tr>
-    <tr><td class="sym">CIT</td><td>Commons Inversion Test</td><td></td></tr>
-    <tr><td class="sym">IPG(R,t₀)</td><td>Intergenerational Pricing Gap = RCV/P</td><td>dimensionless (×)</td></tr>
-    <tr><td class="sym">S_threshold, existential substitutability gap</td><td>criticality threshold; S_max(ind)−S_max(exist)</td><td>dimensionless</td></tr>
+    <tr><th colspan="3" class="grp">Parameters</th></tr>
+    <tr><td class="sym">ρ</td><td>regeneration rate of stock</td><td>resource·time⁻¹</td></tr>
+    <tr><td class="sym">λ</td><td>substitution rate (in S = S_max(1 − e^(−λ(t−t₀))))</td><td>time⁻¹</td></tr>
+    <tr><td class="sym">ς</td><td>Method-3 scarcity parameter (reserves-to-production-grounded)</td><td>dimensionless</td></tr>
+    <tr><td class="sym">α</td><td>Method-3 irreversibility probability ∈ [0,1]</td><td>dimensionless</td></tr>
+    <tr><td class="sym">ξ</td><td>cost-function curvature exponent (ξ ≥ 1)</td><td>dimensionless</td></tr>
+    <tr><td class="sym">η_S(A)</td><td>supply elasticity (→ 0 as A → τ⁺)</td><td>dimensionless</td></tr>
+    <tr><td class="sym">τ</td><td>scarcity threshold</td><td>category-dep</td></tr>
+    <tr><td class="sym">κ</td><td>discount-rate decay constant (§16.1; r(t) = (r₀ − r_min)·e^(−κt) + r_min)</td><td>time⁻¹</td></tr>
+    <tr><td class="sym">ζ, ω</td><td>§16.2 innovation-suppression coefficients (local to §16.2; distinct from M3 α)</td><td>dimensionless</td></tr>
+    <tr><th colspan="3" class="grp">Method-3</th></tr>
     <tr><td class="sym">RCV_M3</td><td>Method-3 estimate = V_market × scarcity_multiplier(ς) × irreversibility_premium(α)</td><td>$·res⁻¹</td></tr>
-    <tr><td class="sym">V_market</td><td>resource&#x27;s own market / underlying value (abundance baseline; renamed from V_option under Path A — the premium emerges from the ς/α weights, not the base)</td><td>$</td></tr>
-    <tr><td class="sym">ς (final sigma)</td><td>M3 scarcity parameter (accessible-recoverable stock vs long-horizon demand; reserves-to-production-grounded)</td><td>dimensionless</td></tr>
-    <tr><td class="sym">α</td><td>irreversibility probability ∈[0,1]</td><td>dimensionless</td></tr>
-    <tr><td class="sym">scarcity_multiplier(ς)</td><td>1+ln(1+ς)×Hotelling_anchor</td><td>dimensionless</td></tr>
-    <tr><td class="sym">irreversibility_premium(α)</td><td>1/(1−α) (no free exponent — Path A)</td><td>dimensionless</td></tr>
-    <tr><td class="sym">Hotelling_anchor</td><td>~5%/yr Hotelling-rate proxy coefficient</td><td>~rate</td></tr>
-    <tr><td class="sym">(i)–(iv) [Assumptions]</td><td>Assumption labels, roman (relabeled off A1–A4)</td><td></td></tr>
-    <tr><td class="sym">(i)–(iv) [Premises] / (a)–(d) [cost-fn properties]</td><td>Premise + property labels, roman (relabeled off P1–P4)</td><td></td></tr>
-    <tr><td class="sym">A, A(t)</td><td>abundance</td><td></td></tr>
-    <tr><td class="sym">c(A), c₀, ξ</td><td>cost function; scale; curvature exponent (ξ≥1)</td><td></td></tr>
-    <tr><td class="sym">η_S(A)</td><td>supply elasticity (→0 as A→τ⁺)</td><td></td></tr>
-    <tr><td class="sym">τ</td><td>scarcity threshold</td><td></td></tr>
-    <tr><td class="sym">ε, δ, M, A_ε</td><td>standard ε–δ analysis variables</td><td></td></tr>
-    <tr><td class="sym">U,U₀,k / E,E₀,m</td><td>utility &amp; externality polynomial-growth bounds</td><td></td></tr>
-    <tr><td class="sym">S, s</td><td>substitutability map; integration dummy</td><td></td></tr>
-    <tr><td class="sym">D(t,t₀), exp, r(s), r_∞, D_∞</td><td>discount machinery; long-run rate; limit</td><td></td></tr>
-    <tr><td class="sym">T, K</td><td>proof threshold time; proof constant</td><td></td></tr>
-    <tr><td class="sym">SW, ∂SW/∂U</td><td>social welfare; marginal SW</td><td></td></tr>
-    <tr><td class="sym">P, Investment_cost, Path A/B, S*</td><td>price; substitute-investment cost; paths; substitute substitutability</td><td></td></tr>
-    <tr><td class="sym">Δ(…)</td><td>change operators (ΔForeclosure_cost, ΔOption_value, …)</td><td></td></tr>
-    <tr><td class="sym">∎</td><td>QED</td><td></td></tr>
-    <tr><td class="sym">r(t), r₀, κ, r_min</td><td>declining-rate machinery; decay constant κ (defined on first use, L7299)</td><td></td></tr>
-    <tr><td class="sym">S(t|t₀,Q(t)), S_base(t), ζ, ω, Q_critical</td><td>stock-dependent substitutability + innovation coefficients ζ,ω (local to §16.2, distinct from M3 α)</td><td></td></tr>
-    <tr><td class="sym">SCS, x, Ω (region), K, Ω∖K, C(x,t), V(x,t)</td><td>spatial cost severance machinery</td><td></td></tr>
-    <tr><td class="sym">Σᵢ₌₁ⁿ, n, i, Cᵢ, C₁…Cₙ₊₁, Context</td><td>n-term generalization</td><td></td></tr>
+    <tr><td class="sym">V_market</td><td>resource&#x27;s own market / underlying value (abundance baseline)</td><td>$</td></tr>
+    <tr><td class="sym">scarcity_multiplier(ς)</td><td>1 + ln(1 + ς) × Hotelling_anchor</td><td>dimensionless</td></tr>
+    <tr><td class="sym">irreversibility_premium(α)</td><td>1 / (1 − α)</td><td>dimensionless</td></tr>
+    <tr><td class="sym">Hotelling_anchor</td><td>≈ 5%/yr Hotelling-rate proxy coefficient</td><td>~rate</td></tr>
+    <tr><th colspan="3" class="grp">Operators &amp; proof</th></tr>
+    <tr><td class="sym">Σ</td><td>summation operator</td><td></td></tr>
+    <tr><td class="sym">Δ</td><td>change operator (ΔForeclosure_cost, ΔOption_value, …)</td><td></td></tr>
+    <tr><td class="sym">∂U/∂Q</td><td>partial derivative (marginal utility wrt stock; &lt; 0)</td><td></td></tr>
+    <tr><td class="sym">A, A(t), c(A), c₀</td><td>abundance; cost function; cost scale (Theorem 10.3)</td><td></td></tr>
+    <tr><td class="sym">ε, δ</td><td>ε–δ analysis neighborhood variables (Theorem 10.3)</td><td></td></tr>
+    <tr><td class="sym">M, K, T</td><td>proof divergence bound; proof constant; threshold time (local to §10.3)</td><td></td></tr>
+    <tr><td class="sym">s</td><td>integration dummy (∫ r(s) ds)</td><td></td></tr>
+    <tr><td class="sym">(i)–(iv); (a)–(d)</td><td>enumerated assumption/premise labels; cost-function-property labels (§10)</td><td></td></tr>
+    <tr><td class="sym">∎</td><td>QED (end of proof)</td><td></td></tr>
   </table>
 </body>
 </html>

@@ -247,6 +247,7 @@ HEAD_CSS = """    <style>
             text-align: left; vertical-align: top; }
         table.notation th { background: #f3f6f9; }
         table.notation td.sym { font-weight: bold; white-space: nowrap; }
+        table.notation th.grp { background: #e8eef3; text-align: left; font-size: 0.95em; padding-top: 12px; }
         @media print { body { color: #000; background: #fff; } }
     </style>"""
 
@@ -372,24 +373,52 @@ def parse_registry_part2():
     return rows
 
 
+def parse_registry_part7():
+    """Reader-facing canonical (deduplicated) symbol list. Returns [(group,symbol,meaning,units)]."""
+    with open(REGISTRY, encoding="utf-8") as f:
+        txt = f.read()
+    m = re.search(r"## PART 7 .*", txt, re.S)
+    if not m:
+        return []
+    rows = []
+    for line in m.group(0).splitlines():
+        if not line.strip().startswith("|"):
+            continue
+        protected = line.strip().replace(r"\|", "\x00")
+        cells = [c.strip().replace("\x00", "|") for c in protected.strip("|").split("|")]
+        if len(cells) != 4 or cells[0].lower() == "group" or set(cells[0]) <= set(" :-"):
+            continue
+        rows.append(tuple(re.sub(r"\*\*|`", "", c).strip() for c in cells))
+    return rows
+
+
 def cmd_gen_notation():
-    rows = parse_registry_part2()
-    trs = []
-    for sym, meaning, units in rows:
+    rows = parse_registry_part7()
+    # dedupe guard: each symbol cell appears at most once
+    seen, uniq = set(), []
+    for r in rows:
+        if r[1] in seen:
+            continue
+        seen.add(r[1]); uniq.append(r)
+    trs, cur = [], None
+    for group, sym, meaning, units in uniq:
+        if group != cur:
+            cur = group
+            trs.append(f'    <tr><th colspan="3" class="grp">{html.escape(group)}</th></tr>')
         u = "" if units in ("—", "") else units
         trs.append(f'    <tr><td class="sym">{html.escape(sym)}</td>'
                    f'<td>{html.escape(meaning)}</td><td>{html.escape(u)}</td></tr>')
     body = ('  <div class="header">\n    <h1>Commons Bonds</h1>\n'
             '    <p class="subtitle">Notation &amp; Symbols</p>\n    <p class="subtitle">By Chris Winn</p>\n  </div>\n'
-            '  <p>Symbols used in the Technical Appendix and the book&rsquo;s quantitative passages. '
-            'Standard conventions are preserved where the framework follows them; deliberate '
-            'redefinitions are noted in the meaning.</p>\n'
+            '  <p>Symbols used in the Technical Appendix and the book&rsquo;s quantitative passages, '
+            'each listed once. Standard conventions are preserved where the framework follows them; '
+            'deliberate redefinitions are noted in the meaning.</p>\n'
             '  <table class="notation">\n    <tr><th>Symbol</th><th>Meaning</th><th>Units</th></tr>\n'
             + "\n".join(trs) + "\n  </table>")
     out = os.path.join(OUT_DIR, "symbol-registry.html")
     with open(out, "w", encoding="utf-8") as f:
         f.write(html_doc("Commons Bonds — Notation & Symbols", body))
-    print(f"wrote {out}  ({len(rows)} symbols)")
+    print(f"wrote {out}  ({len(uniq)} deduplicated symbols in {len(set(r[0] for r in uniq))} groups)")
 
 
 import glob as _glob
@@ -478,9 +507,74 @@ def cmd_crossref():
     print(f"wrote {CXR_OUT}: {len(rows)} cross-referenced, {len(orphans)} ORPHAN?, {len(na)} n/a")
 
 
+GREEK_ENTITIES = ["alpha","beta","gamma","delta","epsilon","zeta","eta","theta","iota",
+    "kappa","lambda","mu","nu","xi","omicron","pi","rho","sigma","sigmaf","tau","upsilon",
+    "phi","chi","psi","omega","Alpha","Beta","Gamma","Delta","Epsilon","Zeta","Eta","Theta",
+    "Iota","Kappa","Lambda","Mu","Nu","Xi","Omicron","Pi","Rho","Sigma","Tau","Upsilon",
+    "Phi","Chi","Psi","Omega"]
+ENT2CHAR = {"alpha":"α","beta":"β","gamma":"γ","delta":"δ","epsilon":"ε","zeta":"ζ","eta":"η",
+    "theta":"θ","iota":"ι","kappa":"κ","lambda":"λ","mu":"μ","nu":"ν","xi":"ξ","omicron":"ο",
+    "pi":"π","rho":"ρ","sigma":"σ","sigmaf":"ς","tau":"τ","upsilon":"υ","phi":"φ","chi":"χ",
+    "psi":"ψ","omega":"ω","Alpha":"Α","Beta":"Β","Gamma":"Γ","Delta":"Δ","Epsilon":"Ε","Zeta":"Ζ",
+    "Eta":"Η","Theta":"Θ","Iota":"Ι","Kappa":"Κ","Lambda":"Λ","Mu":"Μ","Nu":"Ν","Xi":"Ξ",
+    "Omicron":"Ο","Pi":"Π","Rho":"Ρ","Sigma":"Σ","Tau":"Τ","Upsilon":"Υ","Phi":"Φ","Chi":"Χ",
+    "Psi":"Ψ","Omega":"Ω"}
+
+
+def ta_body_text():
+    """TA with the §18 bibliography stripped (so author-name Greek in citations don't count)."""
+    t = open(TA_HTML, encoding="utf-8").read()
+    return re.sub(r'<section id="sec-18-bibliography">.*?</section>', "", t, flags=re.S)
+
+
+def scan_ta_greek():
+    """Return {glyph: (entity_name, count)} for every Greek symbol actually used in the TA body."""
+    body = ta_body_text()
+    found = {}
+    for name in GREEK_ENTITIES:
+        c = len(re.findall(r"&%s;" % name, body))
+        ch = ENT2CHAR[name]
+        c += len(re.findall(re.escape(ch), body))      # literal unicode too
+        if c:
+            g = found.setdefault(ch, [name, 0])
+            g[1] += c
+    return found
+
+
+def cmd_scan_symbols():
+    greek = scan_ta_greek()
+    rows = parse_registry_part2()
+    reg_glyphs = set()
+    for sym, _m, _u in rows:
+        for ch in sym:
+            if ch in ENT2CHAR.values():
+                reg_glyphs.add(ch)
+    ta_glyphs = set(greek.keys())
+    print("=== Greek symbols actually used in the merged TA (deduped) ===")
+    for ch in sorted(greek, key=lambda c: c):
+        name, cnt = greek[ch]
+        inreg = "in-registry" if ch in reg_glyphs else "** NOT IN REGISTRY **"
+        print(f"  {ch}  (&{name};)  x{cnt:<4} {inreg}")
+    print(f"\nTA Greek set ({len(ta_glyphs)}): {' '.join(sorted(ta_glyphs))}")
+    print(f"Registry Greek set ({len(reg_glyphs)}): {' '.join(sorted(reg_glyphs))}")
+    print(f"\nIn TA but NOT in registry (gaps to add): {sorted(ta_glyphs - reg_glyphs) or 'none'}")
+    print(f"In registry but NOT found in TA (stale / Latin-only / dropped): "
+          f"{sorted(reg_glyphs - ta_glyphs) or 'none'}")
+    # dedupe check on the notation rows
+    seen, dup = set(), []
+    for sym, _m, _u in rows:
+        key = sym.strip()
+        if key in seen:
+            dup.append(key)
+        seen.add(key)
+    print(f"\nNotation rows: {len(rows)}; exact-duplicate symbol cells: {dup or 'none'}")
+
+
 def main():
     cmd = sys.argv[1] if len(sys.argv) > 1 else ""
-    if cmd == "crossref":
+    if cmd == "scan-symbols":
+        cmd_scan_symbols()
+    elif cmd == "crossref":
         cmd_crossref()
     elif cmd == "fold-report":
         cmd_fold_report()

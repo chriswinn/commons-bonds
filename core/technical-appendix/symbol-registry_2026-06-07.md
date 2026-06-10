@@ -226,3 +226,57 @@ Free Greek letters (unused anywhere in the TA, per the completeness sweep): γ �
 Most single lowercase Latin letters are already in service as variables (Part 2: r, s, m, k, c, n, i, t, T, x, g, plus the framework set R, Q, S, P, E, B, C, D, U, A, V, K). Apparently-free and low-baggage: **f, h, j, w, y, z** (lowercase) and **G, H, J, L, M, N, W, X, Y, Z** (capitals) — **verify against Part 2 before use** (e.g., M is used as a proof bound and as a "million" suffix; E as expectation/region/externality). **Default for new quantities: a descriptive or subscripted name** (e.g., `S_RP`, `Cure_cost`) rather than a bare letter — descriptive names carry zero reader-expectation baggage, which is why they are the safe fallback whenever a clean single letter is unavailable.
 
 > **Coordination note:** this Part 6 was appended from the `ta-m3-pathb` branch (the registry currently lives on `origin/main`). It is an end-append (low merge-conflict). Reconcile with the notation-sweep session's copy when branches merge; if that session has already advanced the registry, graft this section in.
+
+---
+
+## PART 7 — READER-FACING CANONICAL SYMBOL LIST (deduplicated; scan-verified complete)
+
+**Added 2026-06-09 (back-matter consolidation).** Part 2 is the exhaustive per-section AUDIT
+catalog (same glyph may recur across section tables). This Part 7 is the **deduplicated,
+reader-facing canonical list** — each distinct quantity ONCE, grouped, with its canonical meaning.
+The reader-facing `manuscript/back-matter/symbol-registry.html` is generated from THIS table
+(`build.py gen-notation`). **Scan-verified complete:** `build.py scan-symbols` confirms the TA's
+Greek set (Δ Σ Ω α δ ε ζ η κ λ ξ ρ ς τ ω — 15) is fully covered here with no gaps and no stale
+entries; the Latin framework variables and compound/subscripted forms are included below.
+
+| Group | Symbol | Meaning | Units |
+|---|---|---|---|
+| Core quantities | R | resource unit | — |
+| Core quantities | 𝒞 | commons-territory set (R ∈ 𝒞) | set |
+| Core quantities | Q, Q(t) | remaining in-situ stock | resource-class units |
+| Core quantities | S(t\|t₀), S_max | substitutability function; its ceiling | dimensionless [0,1] |
+| Core quantities | U(R,t,Q(t)) | stock-dependent utility flow | $·res⁻¹·time⁻¹ |
+| Core quantities | P, P(t) | market price | $·res⁻¹ |
+| Core quantities | E(R,t) | externality-tail flow (deterministic; not the expectation operator E[·]) | $·res⁻¹·time⁻¹ |
+| Core quantities | D(t,t₀), r(t), r₀ | discount factor; discount rate; initial rate | (0,1]; rate; rate |
+| Core quantities | RCV(R,t₀) | Residual Commons Value (the integral) | $·res⁻¹ |
+| Core quantities | B, B₁, B₂ | Accountability Bond; Restitution Bond (backward); Foreclosure Bond (forward) | $ |
+| Core quantities | CS, CSD | Cost Severance (= RCV − B); Cost Severance Damages (backward-looking) | $ |
+| Core quantities | IPG(R,t₀) | Intergenerational Pricing Gap (= RCV / P) | dimensionless |
+| Core quantities | CIT | Commons Inversion Test (the discovery method) | — |
+| Core quantities | Cᵢ, C₁…Cₙ₊₁ | indexed cost components admitted via the Four Gates | $ |
+| Core quantities | SCS, Ω | spatial cost severance (∫ over Ω∖K); Ω = extraction region | $; set |
+| Core quantities | Aⱼ, τⱼ | commons category j; its scarcity threshold | —; category-dep |
+| Parameters | ρ | regeneration rate of stock | resource·time⁻¹ |
+| Parameters | λ | substitution rate (in S = S_max(1 − e^(−λ(t−t₀)))) | time⁻¹ |
+| Parameters | ς | Method-3 scarcity parameter (reserves-to-production-grounded) | dimensionless |
+| Parameters | α | Method-3 irreversibility probability ∈ [0,1] | dimensionless |
+| Parameters | ξ | cost-function curvature exponent (ξ ≥ 1) | dimensionless |
+| Parameters | η_S(A) | supply elasticity (→ 0 as A → τ⁺) | dimensionless |
+| Parameters | τ | scarcity threshold | category-dep |
+| Parameters | κ | discount-rate decay constant (§16.1; r(t) = (r₀ − r_min)·e^(−κt) + r_min) | time⁻¹ |
+| Parameters | ζ, ω | §16.2 innovation-suppression coefficients (local to §16.2; distinct from M3 α) | dimensionless |
+| Method-3 | RCV_M3 | Method-3 estimate = V_market × scarcity_multiplier(ς) × irreversibility_premium(α) | $·res⁻¹ |
+| Method-3 | V_market | resource's own market / underlying value (abundance baseline) | $ |
+| Method-3 | scarcity_multiplier(ς) | 1 + ln(1 + ς) × Hotelling_anchor | dimensionless |
+| Method-3 | irreversibility_premium(α) | 1 / (1 − α) | dimensionless |
+| Method-3 | Hotelling_anchor | ≈ 5%/yr Hotelling-rate proxy coefficient | ~rate |
+| Operators & proof | Σ | summation operator | — |
+| Operators & proof | Δ | change operator (ΔForeclosure_cost, ΔOption_value, …) | — |
+| Operators & proof | ∂U/∂Q | partial derivative (marginal utility wrt stock; < 0) | — |
+| Operators & proof | A, A(t), c(A), c₀ | abundance; cost function; cost scale (Theorem 10.3) | — |
+| Operators & proof | ε, δ | ε–δ analysis neighborhood variables (Theorem 10.3) | — |
+| Operators & proof | M, K, T | proof divergence bound; proof constant; threshold time (local to §10.3) | — |
+| Operators & proof | s | integration dummy (∫ r(s) ds) | — |
+| Operators & proof | (i)–(iv); (a)–(d) | enumerated assumption/premise labels; cost-function-property labels (§10) | — |
+| Operators & proof | ∎ | QED (end of proof) | — |
