@@ -422,7 +422,7 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
      The RCV of resource unit R, extracted at t₀, is the present value of all foregone intergenerational utility plus all ongoing externalities (per Definition 1.3, Q(t) = remaining in-situ stock at time t):
     </p>
     <p>
-     RCV(R, t₀) = &int;t₀&infin;&nbsp;{ [1 &minus; S(t | t₀)] &middot; U(R, t, Q(t)) + E(R, t) } &middot; D(t, t₀) dt
+     RCV(R, t₀) = &int;<sub>t₀</sub><sup>&infin;</sup>&nbsp;{ [1 &minus; S(t | t₀)] &middot; U(R, t, Q(t)) + E(R, t) } &middot; D(t, t₀) dt
     </p>
     <p>
      <strong>
@@ -730,7 +730,7 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
      &sect;3.1 &mdash; Core Formula (Term-by-Term Translation)
     </h3>
     <p>
-     RCV(R, t₀) = &int;t₀&infin;&nbsp;{ [1 &minus; S(t | t₀)] &middot; U(R, t, Q(t)) + E(R, t) } &middot; D(t, t₀) dt
+     RCV(R, t₀) = &int;<sub>t₀</sub><sup>&infin;</sup>&nbsp;{ [1 &minus; S(t | t₀)] &middot; U(R, t, Q(t)) + E(R, t) } &middot; D(t, t₀) dt
     </p>
     <p>
      Plain-language translation, term by term:
@@ -1545,21 +1545,20 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
     <table>
      <thead>
       <tr>
-       <td>
+       <th>
         <p>
          Abundance Dimension Stripped
         </p>
-       </td>
-       <td>
+       </th>
+       <th>
         <p>
          RCV Term Illuminated
         </p>
-       </td>
+       </th>
       </tr>
      </thead>
      <tbody>
-     </tbody>
-     <tr>
+<tr>
       <td>
        <p>
         Habitability
@@ -1679,6 +1678,7 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
        </p>
       </td>
      </tr>
+    </tbody>
     </table>
     <h3>
      &sect;6.4 &mdash; Two sub-forms
@@ -2647,123 +2647,123 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
     <table>
      <thead>
       <tr>
-       <td>
+       <th>
         <p>
          Term
         </p>
-       </td>
-       <td>
+       </th>
+       <th>
         <p>
          Units
         </p>
-       </td>
-       <td>
+       </th>
+       <th>
         <p>
          Notes
         </p>
-       </td>
+       </th>
       </tr>
       <tr>
-       <td>
+       <th>
         <p>
          [1 &minus; S(t | t₀)]
         </p>
-       </td>
-       <td>
+       </th>
+       <th>
         <p>
          dimensionless
         </p>
-       </td>
-       <td>
+       </th>
+       <th>
         <p>
          probability that no adequate substitute exists
         </p>
-       </td>
+       </th>
       </tr>
       <tr>
-       <td>
+       <th>
         <p>
          U(R, t, Q(t))
         </p>
-       </td>
-       <td>
+       </th>
+       <th>
         <p>
          $ &middot; res-unit⁻&sup1; &middot; time⁻&sup1;
         </p>
-       </td>
-       <td>
+       </th>
+       <th>
         <p>
          stock-dependent utility flow of retained resource
         </p>
-       </td>
+       </th>
       </tr>
       <tr>
-       <td>
+       <th>
         <p>
          E(R, t)
         </p>
-       </td>
-       <td>
+       </th>
+       <th>
         <p>
          $ &middot; res-unit⁻&sup1; &middot; time⁻&sup1;
         </p>
-       </td>
-       <td>
+       </th>
+       <th>
         <p>
          externality flow attributable to the extraction
         </p>
-       </td>
+       </th>
       </tr>
       <tr>
-       <td>
+       <th>
         <p>
          Cᵢ (candidate)
         </p>
-       </td>
-       <td>
+       </th>
+       <th>
         <p>
          $ &middot; res-unit⁻&sup1; &middot; time⁻&sup1;
         </p>
-       </td>
-       <td>
+       </th>
+       <th>
         <p>
          required for admission
         </p>
-       </td>
+       </th>
       </tr>
       <tr>
-       <td>
+       <th>
         <p>
          D(t, t₀)
         </p>
-       </td>
-       <td>
+       </th>
+       <th>
         <p>
          dimensionless
         </p>
-       </td>
-       <td>
+       </th>
+       <th>
         <p>
          discount factor (Weitzman-type under declining rate)
         </p>
-       </td>
+       </th>
       </tr>
       <tr>
-       <td>
+       <th>
         <p>
          &int; &middot; dt result
         </p>
-       </td>
-       <td>
+       </th>
+       <th>
         <p>
          $ &middot; res-unit⁻&sup1;
         </p>
-       </td>
-       <td>
+       </th>
+       <th>
         <p>
          RCV per resource unit
         </p>
-       </td>
+       </th>
       </tr>
      </thead>
     </table>
@@ -2783,7 +2783,7 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
      Formal statement.&nbsp;A candidate cost term Ci&nbsp;passes the boundedness gate if and only if the integral
     </p>
     <p>
-     &int;t₀&infin;&nbsp;Ci(R, t, Context) &middot; D(t, t₀) dt
+     &int;<sub>t₀</sub><sup>&infin;</sup>&nbsp;Ci(R, t, Context) &middot; D(t, t₀) dt
     </p>
     <p>
      converges to a finite value under the stated parameter assumptions for D and Ci.
@@ -2797,106 +2797,106 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
     <table>
      <thead>
       <tr>
-       <td>
+       <th>
         <p>
          Cᵢ asymptotic behavior
         </p>
-       </td>
-       <td>
+       </th>
+       <th>
         <p>
          Convergence under Weitzman D
         </p>
-       </td>
-       <td>
+       </th>
+       <th>
         <p>
          Admissibility
         </p>
-       </td>
+       </th>
       </tr>
       <tr>
-       <td>
+       <th>
         <p>
          decays to 0 (exponential or polynomial)
         </p>
-       </td>
-       <td>
+       </th>
+       <th>
         <p>
          yes
         </p>
-       </td>
-       <td>
+       </th>
+       <th>
         <p>
          admit
         </p>
-       </td>
+       </th>
       </tr>
       <tr>
-       <td>
+       <th>
         <p>
          bounded, approaches non-zero constant
         </p>
-       </td>
-       <td>
+       </th>
+       <th>
         <p>
          conditional (constant &times; asymptotic D integrated)
         </p>
-       </td>
-       <td>
+       </th>
+       <th>
         <p>
          admit under finite-horizon truncation + sensitivity
         </p>
-       </td>
+       </th>
       </tr>
       <tr>
-       <td>
+       <th>
         <p>
          grows polynomially
         </p>
-       </td>
-       <td>
+       </th>
+       <th>
         <p>
          depends on growth rate vs. D decay
         </p>
-       </td>
-       <td>
+       </th>
+       <th>
         <p>
          case-by-case; typically requires truncation
         </p>
-       </td>
+       </th>
       </tr>
       <tr>
-       <td>
+       <th>
         <p>
          grows exponentially
         </p>
-       </td>
-       <td>
+       </th>
+       <th>
         <p>
          typically diverges
         </p>
-       </td>
-       <td>
+       </th>
+       <th>
         <p>
          reject as proposed
         </p>
-       </td>
+       </th>
       </tr>
       <tr>
-       <td>
+       <th>
         <p>
          oscillates unboundedly
         </p>
-       </td>
-       <td>
+       </th>
+       <th>
         <p>
          diverges
         </p>
-       </td>
-       <td>
+       </th>
+       <th>
         <p>
          reject
         </p>
-       </td>
+       </th>
       </tr>
      </thead>
     </table>
@@ -2952,7 +2952,7 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
      Starting RCV (&sect;3.1 canonical):
     </p>
     <p>
-     RCVMcDowell&nbsp;= &int;1960&infin;&nbsp;{ [1 &minus; S(t | 1960)] &middot; U(R, t, Q(t)) + E(R, t) } &middot; D(t, 1960) dt
+     RCVMcDowell&nbsp;= &int;<sub>1960</sub><sup>&infin;</sup>&nbsp;{ [1 &minus; S(t | 1960)] &middot; U(R, t, Q(t)) + E(R, t) } &middot; D(t, 1960) dt
     </p>
     <p>
      Candidate:&nbsp;C3&nbsp;= community-transition-reserve cost.
@@ -2976,7 +2976,7 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
      Updated formula:
     </p>
     <p>
-     RCVMcDowell&nbsp;= &int;1960&infin;&nbsp;{ [1 &minus; S(t | 1960)] &middot; U(R, t, Q(t)) + E(R, t) + C3(R, t, Context) } &middot; D(t, 1960) dt
+     RCVMcDowell&nbsp;= &int;<sub>1960</sub><sup>&infin;</sup>&nbsp;{ [1 &minus; S(t | 1960)] &middot; U(R, t, Q(t)) + E(R, t) + C3(R, t, Context) } &middot; D(t, 1960) dt
     </p>
     <p>
      Numerical update.&nbsp;Present-value contribution of C3&nbsp;approximately $5&ndash;$10/ton. Against the Ch 6 framework-introduction figure of $449&ndash;$464/ton (national-bituminous-average heat-content basis; carbon term 2.32&nbsp;t CO&#8322; &times; SCC dominant), the updated RCV estimate is $454&ndash;$474/ton. Market price remains $4.71/ton (1960 historical) or $40&ndash;$140/ton (contemporary range by grade). The qualitative result CS &gt; 0 is preserved; the pricing gap widens slightly.
@@ -3170,36 +3170,35 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
     <table>
      <thead>
       <tr>
-       <td>
+       <th>
         <p>
          Case Study
         </p>
-       </td>
-       <td>
+       </th>
+       <th>
         <p>
          Damage Function (IPG)
         </p>
-       </td>
-       <td>
+       </th>
+       <th>
         <p>
          Real Options (IPG)
         </p>
-       </td>
-       <td>
+       </th>
+       <th>
         <p>
          RCV Model (IPG)
         </p>
-       </td>
-       <td>
+       </th>
+       <th>
         <p>
          Convergence
         </p>
-       </td>
+       </th>
       </tr>
      </thead>
      <tbody>
-     </tbody>
-     <tr>
+<tr>
       <td>
        <p>
         McDowell County Coal
@@ -3307,6 +3306,7 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
        </p>
       </td>
      </tr>
+    </tbody>
     </table>
     <p>
      All four cases produce IPG &gg; 1 across all three models. The ranges overlap within one order of magnitude in every case, consistent with 10.2 (Cross-Model Convergence). The carbon term dominates the Damage Function IPG for fossil fuels. No single model is uniformly highest or lowest across the four cases: the RCV model &mdash; which uses the Weitzman declining discount rate, weighting long-horizon costs heavily &mdash; gives the highest estimates in some cases, while the Real Options model &mdash; calibrated to market-derived volatility &mdash; reaches the highest upper bound in others. The load-bearing regularity is the order-of-magnitude overlap, not a fixed cross-model ordering.
@@ -6417,26 +6417,25 @@ boundary-awareness register (per &sect;12).
     <table>
      <thead>
       <tr>
-       <td>
+       <th>
         <p>
          existential substitutability gap Level
         </p>
-       </td>
-       <td>
+       </th>
+       <th>
         <p>
          Resource Examples
         </p>
-       </td>
-       <td>
+       </th>
+       <th>
         <p>
          Policy Response
         </p>
-       </td>
+       </th>
       </tr>
      </thead>
      <tbody>
-     </tbody>
-     <tr>
+<tr>
       <td>
        <p>
         existential substitutability gap &asymp; 0
@@ -6521,6 +6520,7 @@ boundary-awareness register (per &sect;12).
        </p>
       </td>
      </tr>
+    </tbody>
     </table>
     <h3>
      &sect;13.2 &mdash; The Insurance Cost Argument
@@ -7349,7 +7349,7 @@ boundary-awareness register (per &sect;12).
      &sect;16.1 &mdash; RCV with Variable Discount Rates (Weitzman Specification)
     </h3>
     <p>
-     RCV = &int;t₀&infin;&nbsp;{ [1 &minus; S(t)] &middot; U(R, t, Q(t)) + E(R, t) } &middot; exp(&minus;&int;t₀t&nbsp;r(u)du) dt
+     RCV = &int;<sub>t₀</sub><sup>&infin;</sup>&nbsp;{ [1 &minus; S(t)] &middot; U(R, t, Q(t)) + E(R, t) } &middot; exp(&minus;&int;t₀t&nbsp;r(u)du) dt
     </p>
     <p>
      where r(t) = (r₀ &minus; r_min) &middot; e&minus;&kappa;t&nbsp;+ r_min
@@ -7393,36 +7393,35 @@ boundary-awareness register (per &sect;12).
     <table>
      <thead>
       <tr>
-       <td>
+       <th>
         <p>
          Parameter
         </p>
-       </td>
-       <td>
+       </th>
+       <th>
         <p>
          Baseline
         </p>
-       </td>
-       <td>
+       </th>
+       <th>
         <p>
          Low Case
         </p>
-       </td>
-       <td>
+       </th>
+       <th>
         <p>
          High Case
         </p>
-       </td>
-       <td>
+       </th>
+       <th>
         <p>
          IPG Range
         </p>
-       </td>
+       </th>
       </tr>
      </thead>
      <tbody>
-     </tbody>
-     <tr>
+<tr>
       <td>
        <p>
         Discount rate r₀
@@ -7530,6 +7529,7 @@ boundary-awareness register (per &sect;12).
        </p>
       </td>
      </tr>
+    </tbody>
     </table>
     <p>
      Robustness finding:&nbsp;CS &gt; 0 across all parameter combinations tested. Even under the most conservative assumptions (high discount rate, high S_max, low SCC, short externality tail), the McDowell County IPG &ge; 5&times; &mdash; the market price covers at most 20% of the true cost. The central finding is robust to parameter uncertainty; only the magnitude varies.
@@ -7553,13 +7553,13 @@ boundary-awareness register (per &sect;12).
      The two-term RCV formula (&sect;3.1):
     </p>
     <p>
-     RCV(R, t₀) = &int;t₀&infin;&nbsp;{ [1 &minus; S(t | t₀)] &middot; U(R, t, Q(t)) + E(R, t) } &middot; D(t, t₀) dt
+     RCV(R, t₀) = &int;<sub>t₀</sub><sup>&infin;</sup>&nbsp;{ [1 &minus; S(t | t₀)] &middot; U(R, t, Q(t)) + E(R, t) } &middot; D(t, t₀) dt
     </p>
     <p>
      is replaced by the general sum-of-costs form:
     </p>
     <p>
-     RCV(R, t₀, Context) = &int;t₀&infin;&nbsp;{ &Sigma;i=1n&nbsp;Ci(R, t, Context) } &middot; D(t, t₀) dt
+     RCV(R, t₀, Context) = &int;<sub>t₀</sub><sup>&infin;</sup>&nbsp;{ &Sigma;i=1n&nbsp;Ci(R, t, Context) } &middot; D(t, t₀) dt
     </p>
     <p>
      where:
@@ -7589,7 +7589,7 @@ boundary-awareness register (per &sect;12).
      Proof.&nbsp;The integrand is a finite sum of functions, each of which yields a convergent integral under D by Gate 3 (&sect;7.3). By linearity of integration:
     </p>
     <p>
-     &int;t₀&infin;&nbsp;&Sigma;i=1n&nbsp;Ci(R, t, Context) &middot; D(t, t₀) dt = &Sigma;i=1n&nbsp;&int;t₀&infin;&nbsp;Ci(R, t, Context) &middot; D(t, t₀) dt
+     &int;<sub>t₀</sub><sup>&infin;</sup>&nbsp;&Sigma;i=1n&nbsp;Ci(R, t, Context) &middot; D(t, t₀) dt = &Sigma;i=1n&nbsp;&int;<sub>t₀</sub><sup>&infin;</sup>&nbsp;Ci(R, t, Context) &middot; D(t, t₀) dt
     </p>
     <p>
      Each term on the right is finite (Gate 3 passes individually). A finite sum of finite terms is finite. The integral of the sum converges. Q.E.D.
@@ -7643,7 +7643,7 @@ boundary-awareness register (per &sect;12).
      Starting from the generalized form:
     </p>
     <p>
-     RCV(R, t₀, Context) = &int;t₀&infin;&nbsp;{ &Sigma;i=1n&nbsp;Ci(R, t, Context) } &middot; D(t, t₀) dt
+     RCV(R, t₀, Context) = &int;<sub>t₀</sub><sup>&infin;</sup>&nbsp;{ &Sigma;i=1n&nbsp;Ci(R, t, Context) } &middot; D(t, t₀) dt
     </p>
     <p>
      Specify Context = &ldquo;standard fossil-fuel extraction with canonical externality profile&rdquo; and admit only the following two terms:
@@ -7694,7 +7694,7 @@ boundary-awareness register (per &sect;12).
      Substitution.&nbsp;With n = 2 and {C1, C2} as above:
     </p>
     <p>
-     RCV(R, t₀, Context) = &int;t₀&infin;&nbsp;{ [1 &minus; S(t | t₀)] &middot; U(R, t, Q(t)) + E(R, t) } &middot; D(t, t₀) dt
+     RCV(R, t₀, Context) = &int;<sub>t₀</sub><sup>&infin;</sup>&nbsp;{ [1 &minus; S(t | t₀)] &middot; U(R, t, Q(t)) + E(R, t) } &middot; D(t, t₀) dt
     </p>
     <p>
      This is the two-term formula from &sect;3.1. The canonical formula is the generalized formula under the specification (Context = standard-fossil-fuel, n = 2, {C1&nbsp;= foreclosure, C2&nbsp;= externality tail}). Q.E.D.
