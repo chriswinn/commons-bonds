@@ -1,6 +1,6 @@
 # TA §5.5 reverse-method upgrade — PROPOSED (2026-06-10)
 
-**Status: PROPOSED — awaiting author ratification. NO TA edits made.**
+**Status: RATIFIED 2026-06-10 + APPLIED (all five edits, incl. optional Edit 5). Coercion authorial note (proposal-§F lineage): DECLINED by author 2026-06-10 — CLOSED; the apparatus-side work is done by Edit 3's three-states discipline; the first-person material lives in Ch1:56 / Ch5 / the Atlantic essay.**
 **Branch:** `claude/ta-reverse-csd-260610-4fc8d1` (post-merge continuation; main at `261273e`).
 **What this is:** the prose that writes the reverse-CSD method into the TA. The model
 is already ratified in architecture (§3.4/§3.6/§15.1.3, merged 06-10) and implemented

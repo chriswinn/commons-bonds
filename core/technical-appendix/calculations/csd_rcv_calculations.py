@@ -14,9 +14,9 @@ Disciplines honored (per CLAUDE.md + session carry-forwards):
   * Reef backward-M3 is implemented as machinery but deliberately NOT
     evaluated for the reef ("bond only the unassailable floor",
     author decision 2026-06-08). The Open slot is a choice, not a gap.
-  * M2 is computed as the realized-Bond reading in both directions
-    (matches landed §11.5/§11.6; the §3.4/§3.6 relabel is pending the
-    author's architecture decision — the NUMBERS are identical either way).
+  * M2 is computed as the realized-Bond reading in both directions —
+    the "three ways count the identity" architecture, RATIFIED + applied
+    to §3.4/§3.6/§15.1.3/§5.5 (2026-06-10, merged to main).
 
 Outputs are grouped:
   [REPRODUCTION]   recomputes a landed TA number from its stated inputs;
