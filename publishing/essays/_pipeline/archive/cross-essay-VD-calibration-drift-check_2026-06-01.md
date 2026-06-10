@@ -376,7 +376,7 @@ The three portfolio-level findings surfaced in §8.3 are NOT NYRB-V-D-V2 drift b
 - v3.1 pipeline doctrine: `tools/memory/feedback_audience_aware_drafting_discipline.md`
 - No-invented-factual-claims rule: `tools/memory/feedback_no_invented_factual_claims_in_publisher_facing_prose.md`
 - Merge-on-ratification rule: `tools/memory/feedback_merge_on_ratification.md`
-- Pipeline-level cross-essay precedent: `publishing/essays/_pipeline/cross-essay-norway-consistency_2026-06-01.md`
+- Pipeline-level cross-essay precedent: `publishing/essays/_pipeline/archive/cross-essay-norway-consistency_2026-06-01.md`
 
 ---
 

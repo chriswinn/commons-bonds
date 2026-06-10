@@ -413,7 +413,7 @@ Per `CLAUDE.md`: Sessions completing author-ratified content changes auto-fast-f
 
 **Strategy artifacts:**
 - [`../../publishing/essays/_pipeline/june-2026-submission-schedule.md`](../../publishing/essays/_pipeline/june-2026-submission-schedule.md) — authoritative June cadence
-- [`../../publishing/essays/_pipeline/cascade-plan_2026-05-06.md`](../../publishing/essays/_pipeline/cascade-plan_2026-05-06.md) — full strategy (stale per author 2026-05-21; full refresh queued)
+- [`../../publishing/essays/_pipeline/archive/cascade-plan_2026-05-06.md`](../../publishing/essays/_pipeline/archive/cascade-plan_2026-05-06.md) — full strategy (stale per author 2026-05-21; full refresh queued)
 - [`../../publishing/essays/_pipeline/decisions-log.md`](../../publishing/essays/_pipeline/decisions-log.md) — append-only decision record
 - [`../../publishing/essays/_pipeline/cross-thread-todos.md`](../../publishing/essays/_pipeline/cross-thread-todos.md)
 

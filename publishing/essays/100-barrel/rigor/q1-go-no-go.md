@@ -23,7 +23,7 @@ Book-success criteria evaluated against:
 
 - **Source material:** `archive/_OneDayMaybe/withdrawn-essays/draft2_withdrawn-noema_2026-05-01.md` §III (lines 66–126), full §II–VII for surrounding context.
 - **Workstream handoff:** `tools/workstream-handoffs/100-barrel-essay-handoff_2026-05-11.md`.
-- **Cascade plan:** `publishing/essays/_pipeline/cascade-plan_2026-05-06.md` (12-month sequence; venue allocation; Wave 1 green-light rule; comp-titles).
+- **Cascade plan:** `publishing/essays/_pipeline/archive/cascade-plan_2026-05-06.md` (12-month sequence; venue allocation; Wave 1 green-light rule; comp-titles).
 - **Cross-thread state:** `publishing/essays/_pipeline/cross-thread-todos.md` (item #4 Atlantic Ideas vs. PW; item #1 Sarah Chalfant agent confirmation; item #7 GDPR / interview-protocol gaps).
 - **Framework apparatus inventory:** `core/terms/terms_index.md` §3 (Ring-1 7 terms; Ring-2 mechanism + measurement + sub-instruments; cost-component examples; methodological apparatus).
 - **FPD v1.0.0:** `alignment/commons_bonds_framework_positioning_disciplines_v1.0.0.md` (Goal alignment; success-criterion vocabulary-adoption-at-scale).
@@ -291,7 +291,7 @@ If either condition fails:
 
 - **Workstream handoff:** `tools/workstream-handoffs/100-barrel-essay-handoff_2026-05-11.md`
 - **Source material:** `archive/_OneDayMaybe/withdrawn-essays/draft2_withdrawn-noema_2026-05-01.md` §III (lines 66–126)
-- **Cascade plan:** `publishing/essays/_pipeline/cascade-plan_2026-05-06.md`
+- **Cascade plan:** `publishing/essays/_pipeline/archive/cascade-plan_2026-05-06.md`
 - **Cross-thread #4 (Atlantic Ideas vs. PW):** `publishing/essays/_pipeline/cross-thread-todos.md`
 - **Framework apparatus inventory:** `core/terms/terms_index.md` §3
 - **FPD v1.0.0:** `alignment/commons_bonds_framework_positioning_disciplines_v1.0.0.md`

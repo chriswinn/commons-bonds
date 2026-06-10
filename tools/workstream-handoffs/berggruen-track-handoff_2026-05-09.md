@@ -34,7 +34,7 @@ Draft and submit the Berggruen Prize essay. **AI-free writing required** per Ber
 ## Files to read first
 
 - `publishing/essays/berggruen-prize-2026/` (directory contents — seed materials; **do-not-edit via AI tools** per AI-free requirement)
-- `publishing/essays/_pipeline/cascade-plan_2026-05-06.md` (May A-track + Berggruen submission timing)
+- `publishing/essays/_pipeline/archive/cascade-plan_2026-05-06.md` (May A-track + Berggruen submission timing)
 - Berggruen Prize 2026 official rules (web; verify current AI-free language at session start)
 
 ## Constraints / disciplines

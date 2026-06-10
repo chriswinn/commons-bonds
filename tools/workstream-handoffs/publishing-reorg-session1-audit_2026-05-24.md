@@ -356,7 +356,7 @@ research/outreach/                             ← UNCHANGED (already the workin
 
 | Source | Destination |
 |---|---|
-| `publishing/essays/_pipeline/cascade-plan_2026-05-06.md` | `publishing/essays/_pipeline/cascade-plan_2026-05-06.md` |
+| `publishing/essays/_pipeline/archive/cascade-plan_2026-05-06.md` | `publishing/essays/_pipeline/archive/cascade-plan_2026-05-06.md` |
 | `publishing/essays/_pipeline/cascade-plan_v2_2026-05-24.md` | `publishing/essays/_pipeline/cascade-plan_v2_2026-05-24.md` |
 | `publishing/essays/_pipeline/june-2026-submission-schedule.md` | `publishing/essays/_pipeline/june-2026-submission-schedule.md` |
 | `publishing/essays/_pipeline/decisions-log.md` | `publishing/essays/_pipeline/decisions-log.md` |

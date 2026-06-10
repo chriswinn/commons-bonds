@@ -150,7 +150,7 @@ If FP accepts and Atlantic Ideas later revives interest in the original four-ste
 - Parent workstream: [`tools/workstream-handoffs/atlantic-ideas-essay-handoff_2026-05-19.md`](atlantic-ideas-essay-handoff_2026-05-19.md)
 - Atlantic Ideas Stage 1 brief (carries forward to FP cut): [`publishing/essays/atlantic-ideas-pricing-honestly/rigor/stage-1-brief.md`](../../publishing/essays/atlantic-ideas-pricing-honestly/rigor/stage-1-brief.md)
 - Source chapter: `manuscript/chapters/Chapter__9_PricingHonestly.md`
-- Cascade plan venue allocation: `publishing/essays/_pipeline/cascade-plan_2026-05-06.md` (Ch 9 row: Atlantic Ideas primary; Foreign Policy alternate)
+- Cascade plan venue allocation: `publishing/essays/_pipeline/archive/cascade-plan_2026-05-06.md` (Ch 9 row: Atlantic Ideas primary; Foreign Policy alternate)
 - Cross-thread item #4 resolution: `publishing/essays/_pipeline/cross-thread-todos.md`
 - FP submission portal: `foreignpolicy.submittable.com`
 - FP submission guidelines: `https://help.foreignpolicy.com/hc/en-us/articles/11732721893020-Submit-an-essay`

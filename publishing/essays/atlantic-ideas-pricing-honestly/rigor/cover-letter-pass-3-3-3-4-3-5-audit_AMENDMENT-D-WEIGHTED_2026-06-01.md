@@ -728,7 +728,7 @@ that workstream.
 - **Essay-side Pass 3.5 (developmental-edit):** [`pass-3-5-developmental-edit.md`](pass-3-5-developmental-edit.md).
 - **Stage 5 sign-off:** [`stage-5-signoff.md`](stage-5-signoff.md)
   (RATIFIED PASS 2026-05-27).
-- **Cascade plan:** `publishing/essays/_pipeline/cascade-plan_2026-05-06.md`
+- **Cascade plan:** `publishing/essays/_pipeline/archive/cascade-plan_2026-05-06.md`
   §2 W1.5 Atlantic Ideas submission window (late-June / early-July
   2026).
 - **No-invented-claims discipline:**

@@ -417,7 +417,7 @@ Per-prompt serial cadence per v2.0 Amendment B (preserved in v3.0). Each pass fi
 - **Named-subject consent discipline:** [`tools/memory/feedback_named_subject_consent.md`](../memory/feedback_named_subject_consent.md)
 - **Bibliography (canonical-facts grounding):** `research/literature/bibliography.md` (Hartwick, Stern, Nordhaus, Ostrom, Daly, Rawls, Hotelling, Solow, Ramsey, Weitzman entries)
 - **Norway canonical-facts grounding:** [`manuscript/chapters/Chapter__4_TheArchitectureItself__Draft.md`](../../manuscript/chapters/Chapter__4_TheArchitectureItself__Draft.md) (Ekofisk-1969 + 1990-fund + 2001-fiscal-rule + cross-coalition durability passages)
-- **Cascade plan venue allocation:** [`publishing/essays/_pipeline/cascade-plan_2026-05-06.md`](../../publishing/essays/_pipeline/cascade-plan_2026-05-06.md)
+- **Cascade plan venue allocation:** [`publishing/essays/_pipeline/archive/cascade-plan_2026-05-06.md`](../../publishing/essays/_pipeline/archive/cascade-plan_2026-05-06.md)
 - **Cross-thread item #4 (Atlantic Ideas vs. PW):** [`publishing/essays/_pipeline/cross-thread-todos.md`](../../publishing/essays/_pipeline/cross-thread-todos.md)
 
 ---

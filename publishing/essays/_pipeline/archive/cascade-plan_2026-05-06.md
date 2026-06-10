@@ -3,7 +3,7 @@
 **Date drafted:** 2026-05-06  ·  **Date modified:** 2026-05-10
 **Author:** Chris Winn  ·  **Book target:** 2026–2027
 
-> **🛑 SUPERSEDED 2026-05-24 (PROPOSED) by [`cascade-plan_v2_2026-05-24.md`](cascade-plan_v2_2026-05-24.md).**
+> **🛑 SUPERSEDED 2026-05-24 (PROPOSED) by [`cascade-plan_v2_2026-05-24.md`](../cascade-plan_v2_2026-05-24.md).**
 > This file is retained as historical record only. New canonical strategy
 > artifact: `publishing/essays/_pipeline/cascade-plan_v2_2026-05-24.md` (PROPOSED;
 > pending author ratification per Wave 2 Stage 0 batch ratification
@@ -28,12 +28,12 @@
 > substantially stale.
 >
 > **For June 2026 submission cadence:** see the focused successor artifact
-> [`publishing/essays/_pipeline/june-2026-submission-schedule.md`](june-2026-submission-schedule.md)
+> [`publishing/essays/_pipeline/june-2026-submission-schedule.md`](../june-2026-submission-schedule.md)
 > (drafted 2026-05-21) — refreshed against current essay-pipeline state +
 > v3.1 doctrine + per-batch readiness gates.
 >
 > **For cross-thread-todos current state:** see
-> [`publishing/essays/_pipeline/cross-thread-todos.md`](cross-thread-todos.md)
+> [`publishing/essays/_pipeline/cross-thread-todos.md`](../cross-thread-todos.md)
 > (2026-05-21 comprehensive refresh; commit `419f916` + `0113bc0` +
 > `545eede`).
 >
@@ -259,7 +259,7 @@ The 25-name list mix: ~60% econ/policy big-idea, ~25% narrative-nonfiction-with-
 - `research/literature/bibliography.md` (especially §13 — comp-aligned framework-adjacent entries; Mazzucato load-bearing + Pistor/Christophers/Susskind candidate, engagement pending)
 
 **Publishing strategy + agents (this branch):**
-- `publishing/essays/_pipeline/cascade-plan_2026-05-06.md` (this file)
+- `publishing/essays/_pipeline/archive/cascade-plan_2026-05-06.md` (this file)
 - `publishing/essays/_pipeline/decisions-log.md`
 - `publishing/essays/_pipeline/rights-register.md`
 - `publishing/book-proposal/02_comp-titles.md` (Tier 1/2/3 around bibliography ⊆ comps relationship)

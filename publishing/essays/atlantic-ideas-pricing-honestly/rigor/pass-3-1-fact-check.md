@@ -3,7 +3,7 @@
 **Date:** 2026-05-23 (PROPOSED); 2026-05-24 (RATIFIED via interactive author walk-through).
 **Status:** **RATIFIED** — per v3.1 Amendment C interactive ratification. All 20 findings dispositioned by author 2026-05-24 (see §3.5 Ratification record below). Spot-fix APPLICATION is a separate Phase C session per author direction (see §3.5 + §4 protocol notes).
 **Pass type:** Stage 3 Pass 3.1 — Fact-check (first of five passes per v3.1 doctrine).
-**Workstream:** Atlantic Ideas essay (Ch 9 → Atlantic Ideas cascade per [`publishing/essays/_pipeline/cascade-plan_2026-05-06.md`](../../publishing/essays/_pipeline/cascade-plan_2026-05-06.md)).
+**Workstream:** Atlantic Ideas essay (Ch 9 → Atlantic Ideas cascade per [`publishing/essays/_pipeline/archive/cascade-plan_2026-05-06.md`](../../publishing/essays/_pipeline/archive/cascade-plan_2026-05-06.md)).
 **Artifact audited:** [`publishing/essays/atlantic-ideas-pricing-honestly/essay.md`](../../publishing/essays/atlantic-ideas-pricing-honestly/essay.md) (Stage 2 audience-blind flow draft + author-ratified four-traditions diagnostic insertion; main HEAD `74f8c6c` at audit-fire time, current main `5f875a6` post coal-CO₂ cascade Phase C application).
 **Stage 1 brief (canonical-facts source):** [`publishing/essays/atlantic-ideas-pricing-honestly/rigor/stage-1-brief.md`](stage-1-brief.md) (RATIFIED v1.1.0 2026-05-21).
 **Methodology anchor:** v3.1 audience-aware drafting discipline (Stage 3 Pass 3.1 per parent doctrine; v3.1 Amendment C interactive-ratification per-finding format with Options + Recommendation + Reasoning).

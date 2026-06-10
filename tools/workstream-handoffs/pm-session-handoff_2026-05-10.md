@@ -39,7 +39,7 @@ When the user wants to add a task — capture, prioritize, flag dependencies.
 2. `tools/workstream-handoffs/README.md` — the index of all workstream handoffs.
 3. The two staleness-aware memory entries: `feedback_verify_stale_memory_claims.md` and `project_book1_state_2026-05-10.md`.
 4. `publishing/essays/_pipeline/cross-thread-todos.md` — items requiring another thread's action.
-5. `publishing/essays/_pipeline/cascade-plan_2026-05-06.md` — strategic cascade state.
+5. `publishing/essays/_pipeline/archive/cascade-plan_2026-05-06.md` — strategic cascade state.
 6. `publishing/essays/_pipeline/decisions-log.md` — strategic decisions history.
 
 You do NOT need to read the individual workstream handoffs unless the user asks for details on a specific one. Index-level knowledge is enough for coordination.
@@ -369,7 +369,7 @@ This file IS the PM session's working memory. Update it as state changes:
 **This handoff's index files:**
 - `tools/workstream-handoffs/README.md` — workstream handoff index
 - `publishing/essays/_pipeline/cross-thread-todos.md`
-- `publishing/essays/_pipeline/cascade-plan_2026-05-06.md`
+- `publishing/essays/_pipeline/archive/cascade-plan_2026-05-06.md`
 - `publishing/essays/_pipeline/decisions-log.md`
 
 **Memory entries (read MEMORY.md for full index):**

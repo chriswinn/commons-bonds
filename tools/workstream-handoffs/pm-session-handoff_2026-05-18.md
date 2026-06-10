@@ -33,7 +33,7 @@ You are the PM coordination session. Your job is to keep the *Commons Bonds* pro
    - `feedback_audit_recent_active_review_default.md` + `feedback_audit_open_illustrative_default.md`
    - `project_book1_state_2026-05-19.md` — refreshed 2026-05-19 (supersedes `_2026-05-18.md` + `_2026-05-10.md`); still verify time-sensitive claims per stale-memory discipline
 5. `publishing/essays/_pipeline/cross-thread-todos.md`
-6. `publishing/essays/_pipeline/cascade-plan_2026-05-06.md` + `publishing/essays/_pipeline/decisions-log.md`
+6. `publishing/essays/_pipeline/archive/cascade-plan_2026-05-06.md` + `publishing/essays/_pipeline/decisions-log.md`
 7. `CLAUDE.md` — canonical workflow doctrine; merge-to-main default extended to rigor-pass artifacts (`abccb43` + `3d52a0e`)
 8. `tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md` — pipeline doctrine ratified 2026-05-17
 
@@ -467,7 +467,7 @@ This file IS the PM session's working memory. Update in place as state changes. 
 **Index files:**
 - `tools/workstream-handoffs/README.md`
 - `publishing/essays/_pipeline/cross-thread-todos.md`
-- `publishing/essays/_pipeline/cascade-plan_2026-05-06.md`
+- `publishing/essays/_pipeline/archive/cascade-plan_2026-05-06.md`
 - `publishing/essays/_pipeline/decisions-log.md`
 - `CLAUDE.md` — workflow doctrine
 - `AGENTS.md` — canonical-state index (refreshed `ed5f6cf`)

@@ -34,7 +34,7 @@ Manage the Aeon pitch submission. Aeon's model: pitch-first via portal; if accep
 - `publishing/essays/aeon-mask-of-abundance/_archive/planning/aeon-submission-strategy_2026-05-08.md` — submission timing + fallback plan
 - `publishing/essays/aeon-mask-of-abundance/_archive/planning/aeon-essay-dunbar-aside-drafts_2026-05-08.md` — for post-acceptance phase
 - `publishing/essays/_shared/templates/ai-disclosure-paragraph.md` — Aeon master variant
-- `publishing/essays/_pipeline/cascade-plan_2026-05-06.md` (Aeon line in Current state + Critical files Aeon block)
+- `publishing/essays/_pipeline/archive/cascade-plan_2026-05-06.md` (Aeon line in Current state + Critical files Aeon block)
 
 ## Constraints / disciplines
 

@@ -3,7 +3,7 @@
 **Date:** 2026-05-23
 **Status:** **RATIFIED + APPLIED 2026-05-23** via author "as recommended" signal. All 9 ratified spot-fixes + 2 consistency-completion drops applied to draft, landed in commit `b31ee2d`. Pass 3.5 forward-pointers (F-3.2-3 + F-3.2-14) carried + resolved at Pass 3.5 (commit `18d8f56`). Header ratification flag added via author "(A)" signal 2026-05-23 (file-header hygiene pass). (Originally PROPOSED 2026-05-23 in commit `7cd4444`; v3.1 Amendment C interactive ratification cycle complete.)
 **Pass type:** Stage 3 Pass 3.2 — Voice-polish (second of five passes per v3.1 doctrine).
-**Workstream:** Boston Review essay (Ch 5 → BR cascade allocation per `publishing/essays/_pipeline/cascade-plan_2026-05-06.md`).
+**Workstream:** Boston Review essay (Ch 5 → BR cascade allocation per `publishing/essays/_pipeline/archive/cascade-plan_2026-05-06.md`).
 **Artifact audited:** [`publishing/essays/boston-review-accountability-gap/essay.md`](../../publishing/essays/boston-review-accountability-gap/essay.md) (Stage 2 audience-blind flow draft, POST-Pass-3.1-spot-fix-application state, ratified 2026-05-23 per commit `fda6500`).
 **Stage 1 brief (canonical voice register source):** [`publishing/essays/boston-review-accountability-gap/rigor/stage-1-brief.md`](stage-1-brief.md) (v1.0.1, ratified 2026-05-21; §7.9 amended 2026-05-23). §5 voice register + §8 apparatus exclusion + §13 Stage 3 protocol are load-bearing.
 **Methodology anchor:** v3.1 audience-aware drafting discipline (Stage 3 Pass 3.2 per parent doctrine; v3.1 Amendment C interactive-ratification per-finding format with Options + Recommendation + Reasoning). Polarity: **CUT** (opposite to Pass 3.5's RESTORATION polarity).

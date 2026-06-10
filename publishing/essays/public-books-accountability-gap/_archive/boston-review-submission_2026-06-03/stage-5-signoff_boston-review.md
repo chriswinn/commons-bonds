@@ -4,7 +4,7 @@
 **Status:** **RATIFIED 2026-05-23 — READY-TO-SUBMIT.** Author "(A)" signal 2026-05-23 selected Path A: ratify Stage 5 READY-TO-SUBMIT verdict + update file-header hygiene across 9 BR-essay artifacts. Stage 5 ratification gates cover-letter session (Decision #13) + author-offline Stage 4 rendering review + Submittable submission. (Originally PROPOSED 2026-05-23 in commit `5552eab`.)
 **Stage:** Stage 5 bookend pre-submission sign-off per Stage 1 brief v1.0.1 §14 + pipeline doctrine §3.6
 **Artifact under sign-off:** [`publishing/essays/boston-review-accountability-gap/essay.md`](../../../publishing/essays/boston-review-accountability-gap/essay.md) — POST-Stage-3-cycle state; 4,853w; commit `404222f` HEAD
-**Workstream:** Boston Review essay (Ch 5 *The Accountability Gap* → BR cascade allocation per `publishing/essays/_pipeline/cascade-plan_2026-05-06.md`)
+**Workstream:** Boston Review essay (Ch 5 *The Accountability Gap* → BR cascade allocation per `publishing/essays/_pipeline/archive/cascade-plan_2026-05-06.md`)
 
 ---
 

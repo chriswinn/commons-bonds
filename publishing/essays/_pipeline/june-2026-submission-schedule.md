@@ -4,7 +4,7 @@
 **Author:** Chris Winn
 **Purpose:** Captured June 2026 submission cadence for essay + pitch
 pipeline. Successor artifact to (stale)
-[`cascade-plan_2026-05-06.md`](cascade-plan_2026-05-06.md) §"June 2026"
+[`cascade-plan_2026-05-06.md`](archive/cascade-plan_2026-05-06.md) §"June 2026"
 section — refreshed against book-complete-drafting state (entire book
 drafted; iterating through interviews, citation approvals, fact-checks,
 prose review, audience-rigor testing per v3.1 pipeline doctrine).
@@ -193,7 +193,7 @@ Log location: per cascade plan §"Outreach" discipline — recommend either a de
 - **Op-eds:** `publishing/op-eds/norway-sovereign-wealth/op-ed.md` + `publishing/op-eds/mcdowell-county-true-cost/op-ed.md`
 - **Pipeline doctrine (v3.1 Amendment B + C):** `tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md` + `tools/memory/feedback_audience_aware_drafting_discipline.md`
 - **Cross-thread-todos (active):** `publishing/essays/_pipeline/cross-thread-todos.md`
-- **Cascade plan (stale per author 2026-05-21 — needs full refresh in separate session):** `publishing/essays/_pipeline/cascade-plan_2026-05-06.md`
+- **Cascade plan (stale per author 2026-05-21 — needs full refresh in separate session):** `publishing/essays/_pipeline/archive/cascade-plan_2026-05-06.md`
 
 ---
 

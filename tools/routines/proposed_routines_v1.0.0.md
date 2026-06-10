@@ -71,7 +71,7 @@ Steps:
    - tools/ (rigor passes, audits, routines)
 
 3. Scan for stale references in canonical living artifacts:
-   - publishing/essays/_pipeline/cascade-plan_2026-05-06.md
+   - publishing/essays/_pipeline/archive/cascade-plan_2026-05-06.md
    - publishing/essays/_pipeline/decisions-log.md
    - publishing/essays/_pipeline/rights-register.md
    - publishing/essays/_pipeline/cross-thread-todos.md

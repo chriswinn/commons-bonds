@@ -43,7 +43,7 @@ This AUDIT-3 is the tournament-winner determination across V-D / V-E-α / V-E-β
 13. [`pass-3-3-3-4-and-3-5-bundled_VERSION-D_INDEPENDENT-AUDIT-2_2026-05-28.md`](pass-3-3-3-4-and-3-5-bundled_VERSION-D_INDEPENDENT-AUDIT-2_2026-05-28.md) — AUDIT-2 (second chip; added Pass 3.5; recommended SHIP HYBRID-as-V-D).
 14. [`three-way-comparison_locked-vs-alt-no-em-vs-alt-norm-punct_2026-05-28.md`](three-way-comparison_locked-vs-alt-no-em-vs-alt-norm-punct_2026-05-28.md) — three-way preceding audit (locked / Alt-no-em / Alt-norm-punct).
 15. [`pass-3-1-verification_VERSION-D-backports_2026-06-01.md`](pass-3-1-verification_VERSION-D-backports_2026-06-01.md) — Pass 3.1 light verification on V-D's four backports (3 CLEAN; NBIM AR external lookup pending; V-E variants share the NBIM AR clause so lookup applies to all three).
-16. [`publishing/essays/_pipeline/cross-essay-norway-consistency_2026-06-01.md`](../../_pipeline/cross-essay-norway-consistency_2026-06-01.md) — cross-essay portfolio consistency (V-D = CLEAR).
+16. [`publishing/essays/_pipeline/archive/cross-essay-norway-consistency_2026-06-01.md`](../../_pipeline/archive/cross-essay-norway-consistency_2026-06-01.md) — cross-essay portfolio consistency (V-D = CLEAR).
 
 **Phase 1 — variant artifacts:**
 
@@ -405,7 +405,7 @@ If author elects, surface a Stage 5 pre-pub review queue note: "V-E-β Mazzucato
 - Pass 3.4 locked-cut RATIFIED ROBUST: [`pass-3-4-adversarial.md`](pass-3-4-adversarial.md)
 - Pass 3.5 locked-cut RATIFIED HOLD: [`pass-3-5-developmental-edit.md`](pass-3-5-developmental-edit.md)
 - Three-way comparison (locked / Alt-no-em / Alt-norm-punct): [`three-way-comparison_locked-vs-alt-no-em-vs-alt-norm-punct_2026-05-28.md`](three-way-comparison_locked-vs-alt-no-em-vs-alt-norm-punct_2026-05-28.md)
-- Cross-essay Norway consistency audit: [`../../_pipeline/cross-essay-norway-consistency_2026-06-01.md`](../../_pipeline/cross-essay-norway-consistency_2026-06-01.md)
+- Cross-essay Norway consistency audit: [`../../_pipeline/archive/cross-essay-norway-consistency_2026-06-01.md`](../../_pipeline/archive/cross-essay-norway-consistency_2026-06-01.md)
 - Amendment D doctrine: [`tools/drafting-templates/audience-pressure-test-construction.md`](../../../../tools/drafting-templates/audience-pressure-test-construction.md) §"Reception-chain audience weighting (Amendment D)"
 - v3.1 audience-aware drafting discipline (with Amendment D): [`tools/memory/feedback_audience_aware_drafting_discipline.md`](../../../../tools/memory/feedback_audience_aware_drafting_discipline.md)
 - Substrate-safety hard rule: [`tools/memory/feedback_no_invented_factual_claims_in_publisher_facing_prose.md`](../../../../tools/memory/feedback_no_invented_factual_claims_in_publisher_facing_prose.md)

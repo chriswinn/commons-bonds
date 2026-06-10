@@ -79,7 +79,7 @@ Draft an Atlantic Ideas pitch (concise pitch in the body of an email — see §"
 - `tools/workstream-handoffs/cross-chapter-rent-seeking-engagement-handoff_2026-05-17.md` — Ch 9 Public Choice section provenance; rent-seeking-engagement workstream is in-flight (feature branch `claude/rent-seeking-engagement-c9b34b`); if not yet ratified at essay-drafting time, treat Ch 9's Public Choice section as unstable scaffolding and do NOT load-bear the essay on it
 - `publishing/essays/_shared/templates/ai-disclosure-paragraph.md` — generic variant for Atlantic
 - `publishing/book-proposal/03_author-platform.md` — medium bio paragraph
-- `publishing/essays/_pipeline/cascade-plan_2026-05-06.md` — Atlantic Ideas / Foreign Policy timing + venue allocation (Ch 9 row)
+- `publishing/essays/_pipeline/archive/cascade-plan_2026-05-06.md` — Atlantic Ideas / Foreign Policy timing + venue allocation (Ch 9 row)
 - `publishing/essays/_pipeline/cross-thread-todos.md` — item #4 (RESOLVED 2026-05-19 — both fire)
 - `publishing/essays/_pipeline/rights-register.md` — confirm no Aeon / Boston Review / Noema / PW rights conflict with Ch 9 frame (different source chapter, different angle; new row to be added when this workstream lands a submission)
 - `tools/workstream-handoffs/boston-review-essay-handoff_2026-05-09.md` — sibling workstream model
@@ -167,7 +167,7 @@ No source-chapter conflict; no venue conflict; no rights conflict; no audience c
 ## Reference files
 
 - **Source material:** `manuscript/chapters/Chapter__9_PricingHonestly.md` (Pass 1 PROPOSED at commit `9720da0`; treat as draft-stable but unratified for derivative-essay purposes)
-- **Cascade plan venue allocation:** `publishing/essays/_pipeline/cascade-plan_2026-05-06.md` (Ch 9 row of Venue Allocation table)
+- **Cascade plan venue allocation:** `publishing/essays/_pipeline/archive/cascade-plan_2026-05-06.md` (Ch 9 row of Venue Allocation table)
 - **Cross-thread item #4 (RESOLVED 2026-05-19 — dual fire):** `publishing/essays/_pipeline/cross-thread-todos.md`
 - **Rights register:** `publishing/essays/_pipeline/rights-register.md` (new row to add when essay lands a submission)
 - **v2.0 discipline memory:** `/Users/c17n/.claude/projects/-Users-c17n-commons-bonds/memory/feedback_audience_aware_drafting_discipline.md` (mirrored at `tools/memory/feedback_audience_aware_drafting_discipline.md`)

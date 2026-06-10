@@ -3,7 +3,7 @@
 **Date:** 2026-06-01
 **Status:** **PROPOSED 2026-06-01.** Fresh independent (session-isolated) light Pass 3.3 re-fire on canonical `essay.md` at V-E surface state — promoted from LOCKED 2026-06-01 in commit `c1ad8e8` with three substrate-safe fixes (F-FCIC-FIX + F-FRESH-3.1-HAMILTON + F-3.5-FRESH-3) applied to the V-D hybrid spine. Awaits author verdict-level ratification.
 **Pass type:** Stage 3 Pass 3.3 — Audience-load acceptance, **LIGHT RE-FIRE** after V-D → V-E spot-fix application (per parent doctrine §3.6.4 cascade-routing protocol; same protocol as the 2026-05-23 LOCKED post-Pass-3.5 light re-fire).
-**Workstream:** Boston Review essay V-E surface confirmation (Ch 5 → BR cascade allocation per `publishing/essays/_pipeline/cascade-plan_2026-05-06.md`).
+**Workstream:** Boston Review essay V-E surface confirmation (Ch 5 → BR cascade allocation per `publishing/essays/_pipeline/archive/cascade-plan_2026-05-06.md`).
 **Artifact audited:** [`publishing/essays/boston-review-accountability-gap/essay.md`](../../publishing/essays/boston-review-accountability-gap/essay.md) at V-E surface state (commit `c1ad8e8`; ~4,858w body; 20 em-dashes via grep verification).
 **Stage 1 brief (audience set source):** [`publishing/essays/boston-review-accountability-gap/rigor/stage-1-brief.md`](../stage-1-brief.md) (v1.0.1, ratified 2026-05-21). §1 16-character BR-specific pressure-test set + §10 hard constraints (non-partisan-framing discipline) load-bearing for this pass.
 **Baseline:** [V-D fresh re-audit](../pass-3-3-3-4-3-5-bundled_VERSION-D_FRESH-RE-AUDIT_2026-05-28.md) — RATIFIED 2026-06-01 verdict pattern: **10 ✓✓✓ + 5 ✓✓ + 1 ✓ / 0 NEUTRAL / 0 EXCLUDE / 16/16 INCLUDE.**

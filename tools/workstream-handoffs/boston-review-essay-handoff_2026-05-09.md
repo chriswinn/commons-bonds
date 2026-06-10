@@ -64,7 +64,7 @@ Draft Boston Review pitch (~1pp mini-prospectus) + full essay (~4,500w from Ch 5
 - `manuscript/chapters/Chapter__5_THEACCOUNTABILITYGAP__Draft.md` — source chapter (~9,574w)
 - `publishing/essays/_shared/templates/ai-disclosure-paragraph.md` — generic variant for BR
 - `publishing/book-proposal/03_author-platform.md` — medium bio paragraph (drafted 2026-05-09)
-- `publishing/essays/_pipeline/cascade-plan_2026-05-06.md` — Boston Review timing + venue allocation
+- `publishing/essays/_pipeline/archive/cascade-plan_2026-05-06.md` — Boston Review timing + venue allocation
 - `publishing/essays/_pipeline/rights-register.md` — confirm no Aeon/Noema rights conflict with Ch 5 frame
 
 ## Constraints / disciplines

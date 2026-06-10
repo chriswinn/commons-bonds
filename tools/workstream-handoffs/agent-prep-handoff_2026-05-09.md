@@ -47,7 +47,7 @@ Realistic earliest Wave 1: late July / early August 2026 (post proposal sprint +
 - `publishing/agents/_shared/personalization-snippets.md` (Sarah Chalfant snippet as the model)
 - `publishing/book-proposal/02_comp-titles.md` (comp authors → agent leads via acknowledgments-page mining)
 - `publishing/essays/_pipeline/cross-thread-todos.md` (item #1: Chalfant acknowledgments check)
-- `publishing/essays/_pipeline/cascade-plan_2026-05-06.md` (Wave 1 timing + green-light rule)
+- `publishing/essays/_pipeline/archive/cascade-plan_2026-05-06.md` (Wave 1 timing + green-light rule)
 
 ## Constraints / disciplines
 

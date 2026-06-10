@@ -38,7 +38,7 @@ You are the PM coordination session. Your job is to keep the *Commons Bonds* pro
 2. `tools/workstream-handoffs/README.md` — the index of all workstream handoffs.
 3. The staleness-aware memory entries: `feedback_verify_stale_memory_claims.md`, `feedback_audit_recent_active_review_default.md`, `feedback_audit_open_illustrative_default.md`, `feedback_pm_dashboard_structure.md`, `project_book1_state_2026-05-10.md`.
 4. `publishing/essays/_pipeline/cross-thread-todos.md` — items requiring another thread's action.
-5. `publishing/essays/_pipeline/cascade-plan_2026-05-06.md` — strategic cascade state.
+5. `publishing/essays/_pipeline/archive/cascade-plan_2026-05-06.md` — strategic cascade state.
 6. `publishing/essays/_pipeline/decisions-log.md` — strategic decisions history.
 
 You do NOT need to read the individual workstream handoffs unless the user asks for details on a specific one. Index-level knowledge is enough for coordination.
@@ -378,7 +378,7 @@ This file IS the PM session's working memory. Update it as state changes:
 **Index files:**
 - `tools/workstream-handoffs/README.md` — workstream handoff index
 - `publishing/essays/_pipeline/cross-thread-todos.md`
-- `publishing/essays/_pipeline/cascade-plan_2026-05-06.md`
+- `publishing/essays/_pipeline/archive/cascade-plan_2026-05-06.md`
 - `publishing/essays/_pipeline/decisions-log.md`
 
 **Memory entries (read MEMORY.md for full index):**

@@ -37,7 +37,7 @@ the verdict; do NOT begin Stage 1 brief work.
 
 1. THIS paste (the framing).
 2. [WORKSTREAM HANDOFF PATH] (the workstream handoff PM session stood up).
-3. publishing/essays/_pipeline/cascade-plan_2026-05-06.md — especially
+3. publishing/essays/_pipeline/archive/cascade-plan_2026-05-06.md — especially
    §Strategic frame, §Venue allocation, §Risks + open decisions.
 4. publishing/essays/_pipeline/decisions-log.md — recent decisions about
    pipeline + venue allocation.

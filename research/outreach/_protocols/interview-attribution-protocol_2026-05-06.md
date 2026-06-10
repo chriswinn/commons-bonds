@@ -149,7 +149,7 @@ The verbal Q0(a) + Q0(b) + (for EU/UK) the privacy-notice acknowledgment are suf
 - `research/outreach/_protocols/pre-interview-privacy-notice-eu-uk_2026-05-10.md` — GDPR / UK GDPR template (Layer 3).
 - `research/outreach/_protocols/post-interview-confirmation-email-master-template_2026-05-10.md` — belt-and-suspenders post-call confirmation template with jurisdiction-variant + attribution-variant blocks.
 - `research/outreach/_pipeline/interview-outreach-drafts_2026-05-01.md` — outreach pipeline tracking; future interview prep should reference this protocol.
-- `publishing/essays/_pipeline/cascade-plan_2026-05-06.md` §"June 2026" — lawyer-consultation milestone (target late June 2026, before agent Wave 1).
+- `publishing/essays/_pipeline/archive/cascade-plan_2026-05-06.md` §"June 2026" — lawyer-consultation milestone (target late June 2026, before agent Wave 1).
 - `publishing/essays/_pipeline/cross-thread-todos.md` item #7 — protocol-gap inventory that drove this v2 extension.
 
 ## Update Log

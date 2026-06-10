@@ -110,7 +110,7 @@ Concrete suggested sequence:
 ## Reference files
 
 - **Source material:** `archive/_OneDayMaybe/withdrawn-essays/draft2_withdrawn-noema_2026-05-01.md` §III (line 67 onward)
-- **Cascade plan venue allocation:** `publishing/essays/_pipeline/cascade-plan_2026-05-06.md`
+- **Cascade plan venue allocation:** `publishing/essays/_pipeline/archive/cascade-plan_2026-05-06.md`
 - **Cross-thread item #4 (Atlantic Ideas vs. PW):** `publishing/essays/_pipeline/cross-thread-todos.md`
 - **v2.0 discipline memory:** `/Users/c17n/.claude/projects/-Users-c17n-commons-bonds/memory/feedback_audience_aware_drafting_discipline.md`
 - **Bond-defense + flagship-term model artifacts** (mirror methodology):

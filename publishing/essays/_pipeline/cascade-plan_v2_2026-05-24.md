@@ -3,7 +3,7 @@
 **Date drafted:** 2026-05-24
 **Date ratified:** 2026-06-01 (master ratification after 5 ratified amendments)
 **Status:** **RATIFIED 2026-06-01.** Successor to (stale) `cascade-plan_2026-05-06.md`. Master ratification covers initial draft (2026-05-24 PROPOSED state) + Amendments 1 + 2 + 3 + 4 + 5 (X1+X2+X3 fold-in) ratified 2026-05-31 through 2026-06-01; original Amendments 5 + 6 IRRECOVERABLE per §13 update log. **Amendment 6 (Wave 1 firing-window compression) ratified 2026-06-03 — see §1 point 6 + §10 + §11.** Canonical for Wave 2 + Wave 3 onward.
-**Supersedes:** `publishing/essays/_pipeline/cascade-plan_2026-05-06.md` (mark as superseded; do not delete).
+**Supersedes:** `publishing/essays/_pipeline/archive/cascade-plan_2026-05-06.md` (mark as superseded; do not delete).
 **Companion artifact:** `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-24_wave_2_derivative_planning_stage_0_v1.0.0.md` (Stage 0 batch verdicts for the four Wave 2 candidates; per-candidate RATIFICATION RECORD in §12; master ratification 2026-06-01 closes all surfaced cascade-plan-v2 amendments).
 **Extends but does NOT supersede:** `publishing/essays/_pipeline/june-2026-submission-schedule.md` (authoritative for June 2026 batches; this file extends the strategic frame to Q1 2027 and adds Wave 2 candidates).
 
@@ -453,7 +453,7 @@ Author-direct queries; optional agent representation post-Pipeline-A-offer if au
 ## 12. Cross-references
 
 **Strategy artifacts:**
-- `publishing/essays/_pipeline/cascade-plan_2026-05-06.md` — superseded predecessor (header now flags supersession).
+- `publishing/essays/_pipeline/archive/cascade-plan_2026-05-06.md` — superseded predecessor (header now flags supersession).
 - `publishing/essays/_pipeline/june-2026-submission-schedule.md` — authoritative June cadence (extends into June ops detail; this cascade plan v2 extends the strategic frame).
 - `publishing/essays/_pipeline/decisions-log.md` — append-only decision record.
 - `publishing/essays/_pipeline/cross-thread-todos.md` — active cross-thread coordination items.

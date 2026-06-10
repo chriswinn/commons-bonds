@@ -29,7 +29,7 @@
 
 **Files updated:**
 
-- `publishing/essays/_pipeline/cascade-plan_2026-05-06.md` — Current state Aeon line; outreach pipeline Colden + Moore bullets; interview-attribution protocol path; May A-track; August A-track Noema; Risks (Ch 3 stalls struck); Decisions due #1 (resolved); Abort/pivot Ch 3; Critical files Aeon block (Version C + Version A + submission strategy + Dunbar drafts) + outreach block (subjects/<subject>/ + _pipeline/ + _protocols/ + _templates/); Update log new 2026-05-09 entry.
+- `publishing/essays/_pipeline/archive/cascade-plan_2026-05-06.md` — Current state Aeon line; outreach pipeline Colden + Moore bullets; interview-attribution protocol path; May A-track; August A-track Noema; Risks (Ch 3 stalls struck); Decisions due #1 (resolved); Abort/pivot Ch 3; Critical files Aeon block (Version C + Version A + submission strategy + Dunbar drafts) + outreach block (subjects/<subject>/ + _pipeline/ + _protocols/ + _templates/); Update log new 2026-05-09 entry.
 - `publishing/essays/_pipeline/rights-register.md` — Aeon row updated (Version C ratified; Version A alt; Version B deleted; pitch-vs-essay distinction); Update log new 2026-05-09 entry.
 - `publishing/essays/_pipeline/decisions-log.md` — this entry; ~5 inline outreach-path updates in earlier 2026-05-08 entries (Colden unblock, De-risk Colden + Moore); Date modified bumped 2026-05-08 → 2026-05-09.
 
@@ -66,7 +66,7 @@
 **Updated artifacts in this commit:**
 - `publishing/essays/noema-commons-bonds/_archive/planning/noema-essay-drafting-plan_2026-05-08.md` — Section VI moved to Unblocked; Phase 3 expanded; Phase 4 shrunk; submission timeline notes updated.
 - `publishing/essays/noema-commons-bonds/_archive/planning/rewrite-plan_2026-05-01.md` REVISION 2026-05-08 — Section VI gating row updated; "What stays unchanged" third-anchor bullet rewritten as resolved.
-- `publishing/essays/_pipeline/cascade-plan_2026-05-06.md` — three Colden references updated (Outreach pipeline / August A-track / Decisions due #6); update log gains 2026-05-08 (Colden unblock) entry.
+- `publishing/essays/_pipeline/archive/cascade-plan_2026-05-06.md` — three Colden references updated (Outreach pipeline / August A-track / Decisions due #6); update log gains 2026-05-08 (Colden unblock) entry.
 
 **Cross-references.**
 - Source brief: `research/outreach/subjects/colden/background-brief_2026-05-08.md` (commits `0e83dc5` + `fffd202`; path post-2026-05-09 restructure)
@@ -101,7 +101,7 @@ The downside of skipping is losing Ch 3 and the Noema §V slot if both interview
 - Methodology pattern: `research/outreach/subjects/darity/background-brief_2026-05-06.md` + `subjects/darity/interview-prep_2026-05-06.md` + `subjects/darity/live-call-companion_2026-05-06.md` (HTML+MD).
 - Amsterdam DEAL parallel: `research/outreach/subjects/dagan/prereadbrief_2026-05-08.md` (template at `_templates/amsterdam-donut-prereadbrief_2026-05-06.md`).
 - Rewrite plan §V gating relaxed in `publishing/essays/noema-commons-bonds/_archive/planning/rewrite-plan_2026-05-01.md` REVISION 2026-05-08 section (this commit).
-- Cascade plan §V references updated at three locations (Outreach pipeline + August A-track + Decisions due #6) in `publishing/essays/_pipeline/cascade-plan_2026-05-06.md` (this commit).
+- Cascade plan §V references updated at three locations (Outreach pipeline + August A-track + Decisions due #6) in `publishing/essays/_pipeline/archive/cascade-plan_2026-05-06.md` (this commit).
 
 **Supersedes.** Prior gating language across the rewrite plan and cascade plan that treated Colden interview as a hard dependency for §V third-anchor and Ch 3 drafting.
 

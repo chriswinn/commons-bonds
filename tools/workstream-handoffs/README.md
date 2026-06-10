@@ -124,6 +124,6 @@ A separate session that coordinates across all the above workstreams — tracks 
 
 All workstreams should consult:
 - `publishing/essays/_pipeline/cross-thread-todos.md` — items requiring another thread's action
-- `publishing/essays/_pipeline/cascade-plan_2026-05-06.md` — cascade state + decisions due
+- `publishing/essays/_pipeline/archive/cascade-plan_2026-05-06.md` — cascade state + decisions due
 - `publishing/essays/_pipeline/decisions-log.md` — strategic decisions history
 - Routine 1' (cross-thread state-snapshot, every other day) will surface drift across workstreams once scheduled (per `tools/routines/proposed_routines_v1.0.0.md` v2.0.0)

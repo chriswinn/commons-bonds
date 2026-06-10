@@ -63,7 +63,7 @@ The 2026-05-01 plan anticipated Ch 1 would supply the vignette opener (Section I
 
 - Ch 1 draft: `manuscript/chapters/Chapter__1_TheQuietMath__Draft.md` (~3,400 words; tentatively final 2026-05-04)
 - AI-disclosure template: `publishing/essays/_shared/templates/ai-disclosure-paragraph.md` (Noema variant)
-- Cascade plan: `publishing/essays/_pipeline/cascade-plan_2026-05-06.md` (August A-track Noema rewrite gating)
+- Cascade plan: `publishing/essays/_pipeline/archive/cascade-plan_2026-05-06.md` (August A-track Noema rewrite gating)
 - v1.52.0 handoff §2.4 (Noema rewrite track; §V third-anchor gating)
 - Colden interview: `research/outreach/colden-prereadbrief_2026-05-06.md` + response thread (third-anchor gating)
 - Darity interview: 2026-05-12 @ 14:00 ET; pre-read brief at `research/outreach/darity-prereadbrief_2026-05-05.md` (Section V cross-history beat)

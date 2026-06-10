@@ -1303,7 +1303,7 @@ modify the submission gate.
   (14/14 INCLUDE preserved + strengthened; 1 uplift).
 - **Stage 5 sign-off:** [`stage-5-signoff.md`](../stage-5-signoff.md)
   (RATIFIED 2026-05-24; READY-TO-SUBMIT verdict).
-- **Cascade plan:** `publishing/essays/_pipeline/cascade-plan_2026-05-06.md`
+- **Cascade plan:** `publishing/essays/_pipeline/archive/cascade-plan_2026-05-06.md`
   + `publishing/essays/_pipeline/rights-register.md`.
 - **No-invented-claims discipline:**
   [`tools/memory/feedback_no_invented_factual_claims_in_publisher_facing_prose.md`](../../../../tools/memory/feedback_no_invented_factual_claims_in_publisher_facing_prose.md)

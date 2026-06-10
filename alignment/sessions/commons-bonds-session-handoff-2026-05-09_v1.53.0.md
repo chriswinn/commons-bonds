@@ -34,7 +34,7 @@
 - `research/outreach/_templates/` — reusable templates
 
 **Publishing-strategy artifacts** stood up 2026-05-06 → 2026-05-09 across:
-- `publishing/essays/_pipeline/cascade-plan_2026-05-06.md` — 12-month cascade strategy + decisions due + risks + verification + critical files (latest version on `claude/plan-publishing-strategy-9Yubv` branch)
+- `publishing/essays/_pipeline/archive/cascade-plan_2026-05-06.md` — 12-month cascade strategy + decisions due + risks + verification + critical files (latest version on `claude/plan-publishing-strategy-9Yubv` branch)
 - `publishing/essays/_pipeline/decisions-log.md` — append-only strategic-decisions history (latest on feature branch)
 - `publishing/essays/_pipeline/rights-register.md` — per-essay rights / exclusivity / overlap tracking (latest on feature branch)
 - `publishing/essays/_pipeline/cross-thread-todos.md` — single living source-of-truth for cross-thread coordination items (on feature branch; not yet on main)
@@ -174,7 +174,7 @@ Per author direction 2026-05-09, fresh sessions:
 2. **Read only the relevant workstream handoff** at `tools/workstream-handoffs/<workstream>-handoff_2026-05-09.md` + this session-handoff (v1.53.0 once landed on main).
 3. **Cross-coordination via:**
    - `publishing/essays/_pipeline/cross-thread-todos.md` — items requiring other threads' action
-   - `publishing/essays/_pipeline/cascade-plan_2026-05-06.md` — cascade state + decisions due
+   - `publishing/essays/_pipeline/archive/cascade-plan_2026-05-06.md` — cascade state + decisions due
    - `publishing/essays/_pipeline/decisions-log.md` — strategic-decisions history
    - Routine 1' state-snapshot (every other day) once scheduled
 4. **Operate within workstream scope.** Out-of-scope items either go to `cross-thread-todos.md` or are deferred.
@@ -200,7 +200,7 @@ Per author direction 2026-05-09, fresh sessions:
 
 **Publishing-strategy artifacts:**
 
-- `publishing/essays/_pipeline/cascade-plan_2026-05-06.md`
+- `publishing/essays/_pipeline/archive/cascade-plan_2026-05-06.md`
 - `publishing/essays/_pipeline/decisions-log.md`
 - `publishing/essays/_pipeline/rights-register.md`
 - `publishing/essays/_pipeline/cross-thread-todos.md` (NEW 2026-05-09; pending PR consolidation)

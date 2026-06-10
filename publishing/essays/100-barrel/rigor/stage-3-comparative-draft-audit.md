@@ -381,7 +381,7 @@ The user's second question: which essay is the better article, **and** does publ
 
 ### 7.1 The portfolio context
 
-Per [cascade plan](../../publishing/essays/_pipeline/cascade-plan_2026-05-06.md) + Stage 1 brief §13 + [cross-thread-todos](../../publishing/essays/_pipeline/cross-thread-todos.md):
+Per [cascade plan](../../publishing/essays/_pipeline/archive/cascade-plan_2026-05-06.md) + Stage 1 brief §13 + [cross-thread-todos](../../publishing/essays/_pipeline/cross-thread-todos.md):
 
 - The PW essay sits in **slot 3** of the essay portfolio (after Noema + Aeon). Firing the PW essay de facto resolves cross-thread item #4 (PW vs Atlantic Ideas for slot-3).
 - **Wave 1 platform paragraph** (late July / early August 2026 agent queries) cites essays in the form "under consideration at" or "published in" each venue. PW credit lands in the Wave 1 platform paragraph regardless of which draft ships.
@@ -500,7 +500,7 @@ Per the canonical pipeline doctrine (`tools/pipeline-doctrine/commons_bonds_pipe
 - **Workstream handoff:** [`tools/workstream-handoffs/100-barrel-essay-handoff_2026-05-11.md`](../workstream-handoffs/100-barrel-essay-handoff_2026-05-11.md)
 - **Audience pressure-test construction guide:** [`tools/drafting-templates/audience-pressure-test-construction.md`](../drafting-templates/audience-pressure-test-construction.md)
 - **v2.0 / v3.0 audience-aware drafting discipline:** [`tools/memory/feedback_audience_aware_drafting_discipline.md`](../memory/feedback_audience_aware_drafting_discipline.md)
-- **Cascade plan venue allocation:** [`publishing/essays/_pipeline/cascade-plan_2026-05-06.md`](../../publishing/essays/_pipeline/cascade-plan_2026-05-06.md)
+- **Cascade plan venue allocation:** [`publishing/essays/_pipeline/archive/cascade-plan_2026-05-06.md`](../../publishing/essays/_pipeline/archive/cascade-plan_2026-05-06.md)
 - **Cross-thread item #4 (Atlantic Ideas vs PW):** [`publishing/essays/_pipeline/cross-thread-todos.md`](../../publishing/essays/_pipeline/cross-thread-todos.md)
 
 ---

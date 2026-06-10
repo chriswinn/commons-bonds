@@ -910,7 +910,7 @@ Three sub-agents fired concurrently with this retrofit (background) to handle th
 
 1. **Pass 3.1 verification of V-D's four backport citations** (Hannesson 1909 + NBIM AR 2023 + Pistor paraphrase + Tooze paraphrase) — output at `publishing/essays/foreign-affairs-existence-proof/rigor/pass-3-1-verification_VERSION-D-backports_2026-06-01.md`. Phase C amendment to `essay.md` is GATED on this verification clearing.
 2. **V-E generation** (V-E-α Tooze §VI tightening + V-E-β Mazzucato explicit-attribution test) — output at `publishing/essays/foreign-affairs-existence-proof/_archive/parallel-drafts_2026-06-01/`. Tournament-audit V-D vs V-E-α vs V-E-β to follow.
-3. **Cross-essay Norway numerical-anchor consistency check** (BR Ch 5 + Atlantic Ideas Ch 9 + FA Ch 4 locked cut + FA Ch 4 V-D) — output at `publishing/essays/_pipeline/cross-essay-norway-consistency_2026-06-01.md`.
+3. **Cross-essay Norway numerical-anchor consistency check** (BR Ch 5 + Atlantic Ideas Ch 9 + FA Ch 4 locked cut + FA Ch 4 V-D) — output at `publishing/essays/_pipeline/archive/cross-essay-norway-consistency_2026-06-01.md`.
 
 ### §23.6 End-of-session one-liner (Amendment D retrofit)
 

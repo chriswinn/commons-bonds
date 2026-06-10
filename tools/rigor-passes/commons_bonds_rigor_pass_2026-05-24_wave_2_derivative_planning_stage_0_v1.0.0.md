@@ -33,7 +33,7 @@ A dimension that helps the piece land but hurts a book-success criterion tilts H
 - `tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md` (Stage 0–5 architecture; two-class cascade)
 - `tools/drafting-templates/stage-0-publishing-strategy-rigor-test.md`
 - `tools/workstream-handoffs/pm-session-handoff_2026-05-24.md` (current state; submission queue; ratification bandwidth analysis)
-- `publishing/essays/_pipeline/cascade-plan_2026-05-06.md` (stale predecessor — for context + supersession)
+- `publishing/essays/_pipeline/archive/cascade-plan_2026-05-06.md` (stale predecessor — for context + supersession)
 - `publishing/essays/_pipeline/june-2026-submission-schedule.md` (Wave 1 current cadence)
 - `publishing/essays/_pipeline/decisions-log.md` (esp. 2026-05-08 platform-paragraph floor; 2026-05-09 stale-reference cleanup)
 - `publishing/essays/_pipeline/cross-thread-todos.md` (active items through 2026-05-21)
@@ -398,7 +398,7 @@ Realistic — but **NOT compatible with Ch 8 firing as a Wave 2 candidate** (Pat
 - **Pipeline doctrine v1.0.0 + Amendments A/B/C:** `tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md` + `tools/memory/feedback_audience_aware_drafting_discipline.md` (v3.1).
 - **Stage 0 template:** `tools/drafting-templates/stage-0-publishing-strategy-rigor-test.md`.
 - **Stage 0 worked examples:** `publishing/essays/100-barrel/rigor/q1-go-no-go.md`; `publishing/essays/boston-review-accountability-gap/rigor/stage-0-publishing-strategy.md`.
-- **Strategy artifacts:** `publishing/essays/_pipeline/cascade-plan_2026-05-06.md` (stale predecessor; superseded by `cascade-plan_v2_2026-05-24.md` PROPOSED in this batch); `publishing/essays/_pipeline/june-2026-submission-schedule.md`; `publishing/essays/_pipeline/decisions-log.md`; `publishing/essays/_pipeline/cross-thread-todos.md`.
+- **Strategy artifacts:** `publishing/essays/_pipeline/archive/cascade-plan_2026-05-06.md` (stale predecessor; superseded by `cascade-plan_v2_2026-05-24.md` PROPOSED in this batch); `publishing/essays/_pipeline/june-2026-submission-schedule.md`; `publishing/essays/_pipeline/decisions-log.md`; `publishing/essays/_pipeline/cross-thread-todos.md`.
 - **PM dashboard:** `tools/workstream-handoffs/pm-session-handoff_2026-05-24.md`.
 - **Framework apparatus inventory:** `core/terms/terms_index.md` §3.
 - **FPD v1.0.0:** `alignment/commons_bonds_framework_positioning_disciplines_v1.0.0.md`.

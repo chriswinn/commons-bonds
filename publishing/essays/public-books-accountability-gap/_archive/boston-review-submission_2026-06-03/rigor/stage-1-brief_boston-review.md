@@ -142,7 +142,7 @@ The Stage 2 fresh session's source material is:
 
 - This Stage 1b brief (audience set + structure + voice register + canonical facts + length budget)
 - The carry-forward inventory (§7 below — the canonical factual ground truth per Amendment A)
-- `publishing/essays/_pipeline/cascade-plan_2026-05-06.md` (venue allocation context)
+- `publishing/essays/_pipeline/archive/cascade-plan_2026-05-06.md` (venue allocation context)
 - `publishing/essays/_pipeline/rights-register.md` (no-overlap verification with Aeon Ch 7 + Noema Ch 1 + Ch 10)
 - `publishing/book-proposal/03_author-platform.md` (medium bio paragraph for cover letter)
 - `publishing/essays/_shared/templates/ai-disclosure-paragraph.md` (generic variant for BR)
