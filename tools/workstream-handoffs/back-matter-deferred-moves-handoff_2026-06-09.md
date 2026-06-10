@@ -68,6 +68,23 @@ Per the consolidation ledger: "Abundance Dimension" is in glossary v3 but absent
 obvious rename. Confirm intentional (likely folded into the commons-categories + abundance-state
 framing) and record the disposition; not a reader-facing blocker (the glossary follows v4).
 
+## Deferred apparatus 7 — in-TA "Notation" section (technical-review window, NOT Wave 1)
+
+Author-confirmed direction (2026-06-10): symbols live in the TA PDF, so the reader-facing notation
+belongs **at the top of the TA itself** (same document as the formulas; anchored for flip-and-follow),
+separate from the Glossary, cross-linked on the ~9 dual entries (B, RCV, CSD, CS, S, E, IPG, CIT, SCS).
+Generate it from registry **Part 7** (the deduplicated canonical list) and insert near the TA top.
+Keep the standalone `manuscript/back-matter/symbol-registry.html` as a mirror. **Deferred:** not on the
+Wave-1 (literary-agent) path — the apparatus does not ship to agents; this serves the technical reviewer
++ eventual publisher. Render verified tofu-free 2026-06-10 (`tools/scripts/check-glyph-coverage.py`).
+
+## Deferred apparatus 8 — Part 7 completeness fold-in (~20 compound/subscripted symbols)
+
+Registry Part 7 currently bundles some compound forms. For an exhaustive notation key (any formula
+symbol findable), add the standalone subscripted/compound symbols: S_max, S_base(t), S_threshold, S*,
+Q_critical, t₀, t, r_min, r_∞, D_∞, A_ε, U₀, E₀, c₀, C(x,t), V(x,t), SW, g(t), k, m, x, n, i. Then
+re-run `gen-notation`. Pairs with item 7 (same technical-review window).
+
 ## Spawn-readiness check (run before executing moves 1–2)
 
 ```bash
