@@ -2,6 +2,8 @@
 
 **Date drafted:** 2026-06-03 · **Drafted by:** book-proposal-sprint session (branch `claude/book-proposal-sprint-260603-e402b7`)
 
+> **Figure-supersession note (2026-06-10).** The McDowell figures quoted below ($4.50 mine-mouth; $558/ton total) reflect the canonical state at drafting time and were superseded by the 2026-06-09 canonical-figure-ledger amendments: mine-mouth **$4.71**, carbon term **$496**, total **~$510**, and the bare "33–122×" IPG **retired** in favor of the lens-explicit set. Do not quote figures from this file; use `manuscript/_CANONICAL_FIGURE_LEDGER.md`. The priority-order and workflow recommendations are unaffected.
+
 **Status.** Working recommendation, surfaced to author at the §06 sample-chapter pause point in the book-proposal-sprint session. Author paused on the chip's recommended Ch 1 / Ch 5 / Ch 7 choice to ask which chapters should be submitted to a literary agent — author signaled an intent to do a citation-integration + smoothing redraft pass on the right chapters *before* they go into the proposal §06.
 
 **Purpose.** Single source of truth for "which chapters get the redraft pass first, and why" so the redraft session can pick this up cleanly without re-deriving the analysis. Captures the priority order, the sample-chapter convention reasoning, and the suggested redraft workflow.

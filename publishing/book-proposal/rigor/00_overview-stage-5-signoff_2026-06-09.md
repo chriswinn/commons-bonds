@@ -68,3 +68,4 @@ These three gates are external to the §00 prose itself; the prose is cleared.
 ## Update log
 
 - **2026-06-09.** Stage 5 sign-off RATIFIED. §00 prose cleared for proposal-package inclusion subject to the three external gates above. Pass 3.1 + 3.2 + 3.3 + 3.4 + 3.5 cumulative cascade complete (Stage 4 deferred to offline). 19 spot-fixes applied across the cascade; structural argument unchanged.
+- **2026-06-10.** Amendment 1: recascade applied after the TA closeout + canonical-figure-ledger amendments ([00_overview-and-summaries-recascade_2026-06-10.md](00_overview-and-summaries-recascade_2026-06-10.md)). 5 §00 fixes (coercion-deferral first-person-abstention register; shape-metaphor alignment; $4.71 / $510 / lens-explicit IPG). Sign-off remains in force; external gates unchanged.
