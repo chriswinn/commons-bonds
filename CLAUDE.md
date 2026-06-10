@@ -1,5 +1,22 @@
 # commons-bonds — project notes for Claude Code sessions
 
+## Orientation (added 2026-06-10 — read before searching the repo)
+
+**New or resuming session: read [`MAP.md`](MAP.md) (what lives where), then
+[`STATE.md`](STATE.md) (live status of every essay/op-ed/proposal/workstream).**
+Do not answer "what's the status of X?" from per-essay READMEs or old handoffs
+without checking STATE.md first; if you CHANGE a status, update its STATE.md
+line in the same commit.
+
+Doctrine routing (the four homes, canonical→summary):
+
+| Need | Canonical home |
+|---|---|
+| Pipeline stages + rigor passes | `tools/pipeline-doctrine/` (summary mirror: `tools/memory/feedback_audience_aware_drafting_discipline.md`) |
+| Status vocabulary + markers | `tools/conventions/status-markers.md` |
+| Archive/lifecycle rules | `tools/conventions/archival-policy.md` |
+| Session/branch/merge discipline | this file (below) |
+
 ## Workflow defaults
 
 ### Branch discipline + merge-to-main
