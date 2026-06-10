@@ -1882,6 +1882,10 @@ The pinnable primary-law / regulation / agency / named-report sources from the p
 
 - **Where cited:** Technical Appendix §18 (academic citation referenced inline). Folded from §18 into the master 2026-06-09.
 
+### Rosen, Sherwin. "Hedonic Prices and Implicit Markets: Product Differentiation in Pure Competition." *Journal of Political Economy* 82, no. 1 (1974): 34–55.
+
+- **Where cited:** Technical Appendix §3.4 (hedonic / revealed-valuation tradition note, ratified 2026-06-10 — distinct from Method 2's realized-bond reading; construct-not-calibration). Verified vs RePEc 2026-06-10.
+
 ### Rothstein, Richard. *The Color of Law: A Forgotten History of How Our Government Segregated America*. New York: Liveright, 2017.
 
 - **Where cited:** Technical Appendix §18 (academic citation referenced inline). Folded from §18 into the master 2026-06-09.
@@ -1941,6 +1945,10 @@ The pinnable primary-law / regulation / agency / named-report sources from the p
 ### Tuck, Eve, and K. Wayne Yang. "Decolonization Is Not a Metaphor." *Decolonization: Indigeneity, Education & Society* 1, no. 1 (2012): 1–40.
 
 - **Where cited:** Technical Appendix §18 (academic citation referenced inline). Folded from §18 into the master 2026-06-09.
+
+### Viscusi, W. Kip. "The Value of Risks to Life and Health." *Journal of Economic Literature* 31, no. 4 (1993): 1912–1946.
+
+- **Where cited:** Technical Appendix §3.4 (value-of-statistical-life wage-differential tradition note, ratified 2026-06-10 — available future RCV-side estimator under §17.7 generative posture; construct-not-calibration). Verified vs EconPapers 2026-06-10.
 
 ### Whyte, Kyle. *Indigenous Environmental Ethics* (collected works on indigenous environmental ethics + climate justice).
 
