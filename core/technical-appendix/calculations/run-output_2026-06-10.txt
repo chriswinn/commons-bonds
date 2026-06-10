@@ -1,0 +1,98 @@
+========================================================================
+PART 1 — FORWARD M3 PATH-A REPRODUCTIONS
+========================================================================
+[REPRODUCTION] Norway M3 central (ς=100, α=0.65, V=$80): 281.3 $/BOE (TA: 275-285) PASS
+[REPRODUCTION] Norway M3 low corner (ς=50, α=0.50, V=$40): 95.7 $/BOE (TA: 92-100) PASS
+[REPRODUCTION] Norway M3 high corner (ς=200, α=0.75, V=$120): 607.3 $/BOE (TA: 600-615) PASS
+[REPRODUCTION] McDowell M3 low corner (V=$40, mult=1.27, α=0.85): 338.7 $/ton (TA: 330-350) PASS
+[REPRODUCTION] McDowell M3 high corner (V=$140, mult=1.31, α=0.95): 3,668.0 $/ton (TA: 3,500-3,700) PASS
+[REPRODUCTION] McDowell M3 geometric center: 1,114.6 $/ton (TA: 1,080-1,150) PASS
+[REPRODUCTION] McDowell M3-IPG low (340/40): 8.5 x (TA: 8-9) PASS
+[REPRODUCTION] McDowell M3-IPG high (3670/140): 26.2 x (TA: 25-27) PASS
+[REPRODUCTION] McDowell M3-IPG center (geometric): 14.9 x (TA: 14-16) PASS
+[REPRODUCTION] Norway M3-IPG low (96/40): 2.4 x (TA: 2-2) PASS
+[REPRODUCTION] Norway M3-IPG high (610/120): 5.1 x (TA: 5-5) PASS
+
+========================================================================
+PART 2 — FORWARD M1 / M2 ANCHORS (sourced)
+========================================================================
+[REPRODUCTION] Norway M2 realized-B reading (GPFG-derived): 48.5 $/BOE (TA: 46-50) PASS
+[REPRODUCTION] Norway implied CS per BOE (M3-central − M2): 232.8 $/BOE (TA: 225-240) PASS
+[RECONSTRUCTION] Norway cumulative CS: $12.8T (§3.6 table says ~$12.5T; §11.6-region prose says $13-15T — computed 233 × 55B BOE; the two TA spots disagree with each other; flag for the §3.6 recompute)
+[REPRODUCTION] McDowell CS (M3 geo-center − realized B band) low: 1,026.6 $/ton (TA: 1,020-1,045) PASS
+[REPRODUCTION] McDowell CS (M3 geo-center − realized B band) high: 1,064.6 $/ton (TA: 1,045-1,070) PASS
+
+========================================================================
+PART 3 — FORWARD RCV INTEGRAL (Def 1.6) — RECONSTRUCTION
+========================================================================
+[RECONSTRUCTION] RCV integral @ r0=4% (baseline): $537/ton  (TA §11.1: $580-620/ton)
+[RECONSTRUCTION] RCV integral @ r0=1.4% (Stern): $526/ton
+[RECONSTRUCTION] RCV integral @ r0=5.5% (Nordhaus): $541/ton
+[RECONSTRUCTION] IPG integral-lens @ Stern: 112x ; @ Nordhaus: 115x  (TA §16.4: 67-134x)
+  NOTE: the reconstruction brackets the TA band only under the
+  labeled assumptions (U = r·P bound; SCC-as-pulse; 200-yr tail).
+  The TA does not document its integral calibration — finding for
+  the provenance pass: §11.1's $580-620 and §16.4's 67-134x need
+  a documented parameterization to be reproducible.
+
+[DEMO] Thm 10.4 knife-edge: with S_max<1 and r(s) summable
+  (∫r ds < ∞ → D_∞ > 0), the foreclosure integrand has a positive
+  floor forever → RCV diverges. Numerically: partial sums at
+    horizon    100 yr → partial RCV $29/ton (grows without bound)
+    horizon  1,000 yr → partial RCV $119/ton (grows without bound)
+    horizon 10,000 yr → partial RCV $1,010/ton (grows without bound)
+
+========================================================================
+PART 4 — REVERSE CSD MODEL + CHESAPEAKE REEF WORKED CASE
+========================================================================
+[REVERSE] Reef unit-cost: Great Wicomico realized ($907K/124ac): 7,314.5 $/ac (TA: 7,250-7,350) PASS
+[REVERSE] Reef CSD_M1 floor (realized basis): 20.0 $M (TA: 20-20) PASS
+[REVERSE] Reef CSD_M1 floor (forward-engineering headline): 37.0 $M (TA: 37-37) PASS
+[REVERSE] Reef CSD central (bay-wide average; robust, not the floor): 210.8 $M (TA: 210-212) PASS
+[REVERSE] Reef M2 unit-cost corroboration ($108M/1,900ac): 56,842.1 $/ac (TA: 56,000-58,000) PASS
+[REVERSE] M2 corroboration: $56,842/ac sits between the $13,500 floor and the $77,000 average → CORROBORATES the M1 unit-cost band
+[REVERSE] Realized B₁: >$92M (MD) / ~$115M (bay-wide itemized) — industry contribution $0. The bond exists, is large, and is mis-assigned to the public.
+[REVERSE] Reef CSD_M3 (foregone-fishery option value): OPEN slot —
+  admittable ceiling variable, deliberately not entered (author
+  decision 2026-06-08). The machinery above (csd_m3) is fully
+  specified; a party with reason to enter the slot can compute it.
+  Consequence (pure arithmetic): the computed CSD is a LOWER BOUND.
+  NOTE: the reef is restorable → low realized α → modest 1/(1−α);
+  backward-M3 does its real work on high-irreversibility legacy
+  cases, not here. Declining the figure costs the reef case little
+  and buys floor-anchored unassailability.
+
+[REVERSE] Reef CSD structured range (the §5.5 floor/ceiling form):
+    CSD_floor   = $20M-$37M (M1 cure-cost, basis-dependent)
+    CSD_central = ~$211M (bay-wide avg basis)
+    CSD_ceiling = floor + Σ(gate-admitted Cᵢ, incl. M3 option value)
+                  — moving ceiling; M3 slot OPEN by design
+    Realized B₁ = ~$115M, 100% public / $0 industry
+    The finding is MIS-ASSIGNMENT, not just magnitude: the public
+    has already posted more than the floor; the extractive industry
+    has posted nothing.
+
+========================================================================
+PART 5 — COST SEVERANCE DECOMPOSITION (both directions)
+========================================================================
+
+  total CS = (CSD − B₁) + (RCV − B₂)
+
+  Forward worked case (McDowell, per-ton):
+    RCV  = M1 ∩ M3 convergence (M3 geo-center ~$1,115/ton)
+    B₂   = realized forward instruments — M2 reads $50-88/ton societal
+    CS_forward ≈ $1,025-1,065/ton             [matches landed §11.6]
+
+  Backward worked case (Chesapeake reef, total):
+    CSD  = $20M-37M floor … ~$211M central … ceiling OPEN (M3 slot)
+    B₁   = ~$115M realized — public-paid; industry $0
+    CSD − B₁: vs the FLOOR, B₁ already exceeds it (restoration is
+    happening); vs the CENTRAL figure, ~$96M of severance remains
+    unrestituted even crediting every public dollar; and the
+    INSTRUMENT-ASSIGNMENT is inverted — B₁ should be industry-posted.
+
+  Same equation, same Three Ways, run in both temporal directions;
+  the backward range is wider (methodological-choice spread), the
+  convergence logic identical in kind (Thm 10.1b; §17.5).
+
+SUMMARY: 20 checked values, 0 mismatches.
