@@ -392,9 +392,97 @@ def cmd_gen_notation():
     print(f"wrote {out}  ({len(rows)} symbols)")
 
 
+import glob as _glob
+
+CXR_OUT = os.path.join(os.path.dirname(__file__), "citation-crossref-index.md")
+
+
+def search_key(e):
+    """Token to grep for in the corpus to detect a citation of this entry."""
+    c = re.sub(r"<[^>]+>", "", e["citation"]).strip().lstrip("*").strip()
+    if "," in c.split(".")[0] and e["kind"] == "scholarly":
+        return c.split(",")[0].strip()                  # clean author surname
+    m = re.search(r"\(([A-Z]{2,6})\)", c)               # institutional acronym e.g. (EIA)
+    return m.group(1) if m else None                     # None -> skip cross-ref (mark n/a)
+
+
+def load_surfaces():
+    surfaces = {}
+    # TA body, with §18 bibliography stripped (so entries don't 'match' themselves)
+    ta = open(TA_HTML, encoding="utf-8").read()
+    ta = re.sub(r'<section id="sec-18-bibliography">.*?</section>', "", ta, flags=re.S)
+    surfaces["TA"] = re.sub(r"<[^>]+>", " ", ta)
+    for p in sorted(_glob.glob(os.path.join(ROOT, "manuscript/chapters/Chapter*.md"))):
+        mnum = re.search(r"Chapter_+(\d+)", os.path.basename(p))
+        label = f"Ch{mnum.group(1)}" if mnum else os.path.basename(p)
+        surfaces[label] = open(p, encoding="utf-8").read()
+    for p in sorted(_glob.glob(os.path.join(ROOT, "publishing/essays/*/essay.md"))):
+        surfaces["essay:" + p.split("/essays/")[1].split("/")[0]] = open(p, encoding="utf-8").read()
+    for p in sorted(_glob.glob(os.path.join(ROOT, "publishing/op-eds/*/op-ed.md"))):
+        surfaces["oped:" + p.split("/op-eds/")[1].split("/")[0]] = open(p, encoding="utf-8").read()
+    return surfaces
+
+
+def cmd_crossref():
+    entries = parse_master_bib(BIB_MD)
+    # dedup same as gen-bib
+    seen, uniq = set(), []
+    for e in entries:
+        k = (slugify(e["surname"]), e["year"], title_sig(e["citation"]))
+        if k in seen:
+            continue
+        seen.add(k); uniq.append(e)
+    uniq.sort(key=lambda e: (slugify(e["surname"]), e["year"]))
+    surfaces = load_surfaces()
+    rows, orphans, na = [], [], []
+    for e in uniq:
+        key = search_key(e)
+        if not key:
+            na.append(e); continue
+        pat = re.compile(r"\b" + re.escape(key) + r"\b")
+        hits = [name for name, txt in surfaces.items() if pat.search(txt)]
+        label = f"{e['surname']}" + (f" {e['year']}" if e["year"] else "")
+        cited = ", ".join(hits) if hits else "—"
+        flag = "" if hits else " **← ORPHAN?**"
+        rows.append(f"| {label} | `{key}` | {len(hits)} | {cited}{flag} |")
+        if not hits:
+            orphans.append(e)
+    with open(CXR_OUT, "w", encoding="utf-8") as f:
+        f.write("# Citation cross-reference index — where each bibliography entry is cited\n\n")
+        f.write("**GENERATED** by `tools/back-matter/build.py crossref` "
+                "(2026-06-09). REVIEW AID, NOT authoritative.\n\n")
+        f.write("Method: for each unique bibliography entry, grep the author surname "
+                "(or institutional acronym) as a whole word across the corpus — TA body "
+                "(§18 bibliography excluded), 10 chapters, 9 essays, 2 op-eds. "
+                "**Fuzzy by design:** common-word surnames (Black, House, Stern, Klein) "
+                "over-match, so the index UNDER-reports orphans (the safe direction — it "
+                "will not wrongly recommend pruning a still-cited work). An **ORPHAN?** flag "
+                "means zero surface matched; verify by hand before pruning the entry.\n\n")
+        f.write(f"- entries cross-referenced: **{len(rows)}**\n")
+        f.write(f"- flagged ORPHAN? (zero matches — prune candidates, verify first): **{len(orphans)}**\n")
+        f.write(f"- not cross-referenced (no clean author/acronym key — mostly data/agency "
+                f"sources cited inline by name): **{len(na)}**\n\n")
+        if orphans:
+            f.write("## Prune candidates (ORPHAN? — zero corpus matches; verify by hand)\n\n")
+            for e in orphans:
+                f.write(f"- {e['surname']} {e['year']} — {re.sub(r'<[^>]+>','',e['citation'])[:110]}\n")
+            f.write("\n")
+        f.write("## Full index\n\n| Author / key | grep | #surfaces | cited in |\n|---|---|---|---|\n")
+        f.write("\n".join(rows) + "\n\n")
+        if na:
+            f.write(f"## Not cross-referenced ({len(na)} — data/agency/institutional sources)\n\n")
+            f.write("These are cited inline by agency/source name rather than author-surname; "
+                    "surname-grep does not apply. Orphan-check manually if pruning.\n\n")
+            for e in na:
+                f.write(f"- {re.sub(r'<[^>]+>','',e['citation'])[:120]}\n")
+    print(f"wrote {CXR_OUT}: {len(rows)} cross-referenced, {len(orphans)} ORPHAN?, {len(na)} n/a")
+
+
 def main():
     cmd = sys.argv[1] if len(sys.argv) > 1 else ""
-    if cmd == "fold-report":
+    if cmd == "crossref":
+        cmd_crossref()
+    elif cmd == "fold-report":
         cmd_fold_report()
     elif cmd == "fold-emit":
         cmd_fold_emit()
