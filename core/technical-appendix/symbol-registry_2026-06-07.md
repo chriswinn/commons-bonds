@@ -70,8 +70,9 @@
 | D(t,t₀), r(t), r₀, g(t) | discount factor; rate; initial rate; decline fn | (0,1]; rate; rate; — | D §1.5 (416) | Weitzman 2001 | ✓ | — |
 | RCV(R,t₀) | Residual Commons Value (the integral) | $·res⁻¹ | D §1.6 (425) | — | — | 🟢 (acronym collisions noted 427–445) |
 | B, B₁, B₂ | Accountability Bond; Restitution (backward); Foreclosure (forward) | $ | D §1.7, §2.1 (462,474) | Darity–Mullen 2020 (B₁); Hotelling/Hartwick (B₂) | — | 🔴 bare B vs "billion" suffix; 🟠 C₁ vs B₁ valence |
-| B̂_M2 | Method-2 **realized Bond** (observed internalization: fund accumulation + taxation capture + restitution paid + restraint exercised), per unit of extraction; sets the revealed lower bound RCV ≥ B̂_M2 | $·res⁻¹ | D §3.4 (~849; added 2026-06-10 reverse-CSD merge) | — | ✓ (hat = empirical estimate, standard) | 🟢 (hat distinguishes from posted-B; encoded `B&#770;`) |
+| B̂_M2 | Method-2 **realized-Bond reading** (observed internalization: fund accumulation + taxation capture + restitution paid + restraint exercised), per unit of extraction. A **strict lower bound on RCV (RCV ≥ B̂_M2), NOT an RCV estimator** — the two value-estimators are M1 + M3 (§3.6). Hat = "reading/estimate of," distinguishing it from the posted-instrument B of Def 1.7. | $·res⁻¹ | D §3.4 (~849; added 2026-06-10 reverse-CSD merge) | — | ✓ (hat = empirical estimate, standard) | 🟢 (hat distinguishes from posted-B; encoded `B&#770;`; author considered alternatives + KEPT the hat 2026-06-10) |
 | CS, CSD | Cost Severance (=RCV−B); Cost Severance Damages (backward) | $ | D §1.7, §2.1 (465,474) | — | — | — |
+| CSD_M3 | backward Method-3 composite: CSD_M3 = V_market × scarcity_multiplier(ς) × irreversibility_premium(α), with V_market in its **backward reading** (extinguished optionality / foregone service flow), ς the scarcity at the extraction moment, α the **realized** irreversibility. Carries the ex-post vs ex-ante valuation fork the framework exposes rather than settles. | $·res⁻¹ | D §5.5 (1397; added 2026-06-10 §5.5 reverse-method upgrade) | quasi-option value (Arrow–Fisher 1974; Henry 1974), run on realized parameters | — | 🟢 (subscript-disambiguated within the CS/CSD family) |
 | Aⱼ, τⱼ | commons category j; its scarcity threshold | —; category-dep | D §1.8 (485) | — | — | 🔴 τ (see Part 1); 🟠 A |
 | CIT | Commons Inversion Test | — | D §1.8 (477) | — | — | — |
 | IPG(R,t₀) | Intergenerational Pricing Gap = RCV/P | dimensionless (×) | D §3.2 (759) | — | — | — |
@@ -121,7 +122,7 @@
 
 ### Operators & units (catalogued; mostly standard)
 
-∫ dt ds · × − + = > < ≥ ≤ ≈ ≫ → ⇒ ⇔ ∀ ∃ ∈ ⊆ ∖ ∞ ± ∂ ∎ ✓ ↑ — all standard. Units: $·res⁻¹·time⁻¹ (integrand), $·res⁻¹ (integral result), BOE, ton, tCO₂, mmBtu, Sm³, km², NOK, %, dimensionless. The "×" and "→" dual-roles are flagged 🟠 above.
+∫ dt ds · × − + = > < ≥ ≤ ≈ ≫ → ⇒ ⇔ ∀ ∃ ∈ ⊆ ∖ ∩ ∞ ± ∂ ∎ ✓ ↑ — all standard (∩ added 2026-06-10: range-intersection in §3.6 "(M1 ∩ M3 convergence)"). Units: $·res⁻¹·time⁻¹ (integrand), $·res⁻¹ (integral result), BOE, ton, tCO₂, mmBtu, Sm³, km², NOK, %, dimensionless. The "×" and "→" dual-roles are flagged 🟠 above.
 
 ---
 
@@ -252,8 +253,9 @@ entries; the Latin framework variables and compound/subscripted forms are includ
 | Core quantities | D(t,t₀), r(t), r₀ | discount factor; discount rate; initial rate | (0,1]; rate; rate |
 | Core quantities | RCV(R,t₀) | Residual Commons Value (the integral) | $·res⁻¹ |
 | Core quantities | B, B₁, B₂ | Accountability Bond; Restitution Bond (backward); Foreclosure Bond (forward) | $ |
-| Core quantities | B̂_M2 | Method-2 realized Bond (observed internalization per unit of extraction; revealed lower bound RCV ≥ B̂_M2) | $·res⁻¹ |
+| Core quantities | B̂_M2 | Method-2 realized-Bond reading (observed internalization per unit of extraction); a strict lower bound on RCV (RCV ≥ B̂_M2), not an RCV estimator; the hat marks "reading/estimate of," distinct from the posted instrument B | $·res⁻¹ |
 | Core quantities | CS, CSD | Cost Severance (= RCV − B); Cost Severance Damages (backward-looking) | $ |
+| Core quantities | CSD_M3 | backward Method-3 composite: V_market × scarcity_multiplier(ς) × irreversibility_premium(α), with V_market in its backward reading (extinguished optionality / foregone service flow) and α the realized irreversibility | $·res⁻¹ |
 | Core quantities | IPG(R,t₀) | Intergenerational Pricing Gap (= RCV / P) | dimensionless |
 | Core quantities | CIT | Commons Inversion Test (the discovery method) | — |
 | Core quantities | Cᵢ, C₁…Cₙ₊₁ | indexed cost components admitted via the Four Gates | $ |
