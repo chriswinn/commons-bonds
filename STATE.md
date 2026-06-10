@@ -52,6 +52,7 @@ polish (redraft campaign) → agent-query Wave 1 fires ~Jun 24 – Jul 1 (cascad
 | Redraft-compare campaign | `claude/redraft-campaign-resume-260606-f8216d` | LIVE — owns `manuscript/` `_`-files + chapters + bibliography.md | 06-09 |
 | Book-proposal sprint | `claude/book-proposal-sprint-260603-e402b7` | LIVE — owns `publishing/book-proposal/` | 06-09 |
 | Back-matter + repo reorg | `claude/refactor-bib-consolidation-260609-23c283` | **CLOSED — ratified + MERGED to main 06-10** (navigation spine + archive sweep + back-matter set) | 06-10 |
+| **Framework-core revision** | (parallel session; branch TBD) | **Direction RATIFIED 06-10 (author report); merge to main pending.** On merge: re-run `tools/back-matter/build.py gen-all` (glossary/notation/bib track the core) + re-sync symbol registry + update this line. Gates the deferred apparatus items (in-TA Notation, Part 7 completeness, WS3 notation ratification, bib orphan-prune) — all already parked post-Wave-1. | 06-10 (author) |
 | PM session | `pm-portfolio-ratification-and-aeon-submission-260529-b4ac02` | Standing meta-tracker | 06-04 |
 | TA sessions (closeout cluster) | `ta-*` worktrees | **DONE — merged via closeout `fd12275`**; worktrees prunable | 06-09 |
 | ~30 essay-review worktrees dated 06-01 | various | Presumed closed (branches behind main) — PM verify + prune | 06-10 (listed) |
