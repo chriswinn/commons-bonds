@@ -1129,7 +1129,7 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
         $50&ndash;88/ton societally-paid; $8&ndash;15 industry-paid
        </td>
        <td>
-        ~$1,025&ndash;1,065/ton; IPG 8.5&ndash;26&times; (premium basis) rising to 67&ndash;134&times; (integral lens; &sect;11.11)
+        ~$1,025&ndash;1,065/ton; IPG 8.5&ndash;26&times; (premium basis) rising to 61&ndash;115&times; (integral lens; &sect;11.11)
        </td>
       </tr>
      </tbody>
@@ -3216,7 +3216,7 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
       </td>
       <td>
        <p>
-        67&ndash;134&times;
+        61&ndash;115&times;
        </p>
       </td>
       <td>
@@ -3260,17 +3260,17 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
       </td>
       <td>
        <p>
-        55&ndash;82&times;
+        65&ndash;100&times;
        </p>
       </td>
       <td>
        <p>
-        48&ndash;76&times;
+        57&ndash;93&times;
        </p>
       </td>
       <td>
        <p>
-        61&ndash;91&times;
+        72&ndash;111&times;
        </p>
       </td>
       <td>
@@ -3287,17 +3287,17 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
       </td>
       <td>
        <p>
-        12&ndash;35&times;
+        &mdash; (not computable on documented inputs; &sect;11.4)
        </p>
       </td>
       <td>
        <p>
-        18&ndash;48&times;
+        &mdash;
        </p>
       </td>
       <td>
        <p>
-        22&ndash;41&times;
+        &mdash;
        </p>
       </td>
       <td>
@@ -3309,7 +3309,7 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
     </tbody>
     </table>
     <p>
-     All four cases produce IPG &gg; 1 across all three models. The ranges overlap within one order of magnitude in every case, consistent with 10.2 (Cross-Model Convergence). The carbon term dominates the Damage Function IPG for fossil fuels. No single model is uniformly highest or lowest across the four cases: the RCV model &mdash; which uses the Weitzman declining discount rate, weighting long-horizon costs heavily &mdash; gives the highest estimates in some cases, while the Real Options model &mdash; calibrated to market-derived volatility &mdash; reaches the highest upper bound in others. The load-bearing regularity is the order-of-magnitude overlap, not a fixed cross-model ordering.
+     The three cases with computable IPGs produce IPG &gg; 1 across all three models, with ranges overlapping within one order of magnitude in every case, consistent with 10.2 (Cross-Model Convergence). Baotou&rsquo;s documented inputs support a remediation-only floor rather than a full IPG (&sect;11.4); that floor alone &mdash; the tailings liability equal to 1.2&ndash;7.5 years of total export revenue &mdash; independently implies CS &gt; 0. The carbon term dominates the Damage Function IPG for fossil fuels. No single model is uniformly highest or lowest across the four cases: the RCV model &mdash; which uses the Weitzman declining discount rate, weighting long-horizon costs heavily &mdash; gives the highest estimates in some cases, while the Real Options model &mdash; calibrated to market-derived volatility &mdash; reaches the highest upper bound in others. The load-bearing regularity is the order-of-magnitude overlap, not a fixed cross-model ordering.
     </p>
     <h3>
      &sect;9.6 &mdash; Backtesting Against Implicit Social Pricing
@@ -3948,10 +3948,13 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
      </li>
     </ul>
     <p>
-     RCV model estimate:&nbsp;$580&ndash;620/ton (using Weitzman declining rates, S_max &asymp; 0.85 for electricity generation)
+     RCV model estimate:&nbsp;$525&ndash;540/ton (using Weitzman declining rates, S_max &asymp; 0.85 for electricity generation; calibration documented below)
     </p>
     <p>
-     IPG:&nbsp;~8.5&ndash;26&times; on the conservative, price-independent foreclosure-premium basis, rising to 67&ndash;134&times; under the Weitzman RCV-integral lens (the full lens decomposition &mdash; and why a single bare multiple across mixed price bases misleads &mdash; is given in &sect;11.11); the without-carbon damage-floor ratio is under ~5&times;
+     <strong>Integral calibration (documented 2026-06-10).</strong> The level is computed by the labeled parameterization in <code>core/technical-appendix/calculations/csd_rcv_calculations.py</code> (Part 3): U(t) taken at Definition 1.3&rsquo;s lower bound r(t)&middot;P (conservative &mdash; the bound, not more); the $496/ton carbon term entering as a present-value pulse (not re-discounted); the non-carbon $8&ndash;22/ton damage-floor components spread over the 200-year externality tail (&sect;16.4); Weitzman decline from r&#8320; toward r_&infin; = 2% with a 50-year half-life. Reproduces: $526/ton (Stern, r&#8320; = 1.4%), $537 (r&#8320; = 4%), $541 (Nordhaus, r&#8320; = 5.5%). Sensitivity: the carbon pulse carries &asymp;92% of the level, so the conclusion &mdash; a double-digit-to-triple-digit multiple &mdash; survives any defensible discount schedule. (A previously printed band of $580&ndash;620/ton rested on an unrecorded parameterization; this documented calibration supersedes it.)
+    </p>
+    <p>
+     IPG:&nbsp;~8.5&ndash;26&times; on the conservative, price-independent foreclosure-premium basis, rising to 61&ndash;115&times; under the Weitzman RCV-integral lens (the full lens decomposition &mdash; and why a single bare multiple across mixed price bases misleads &mdash; is given in &sect;11.11); the without-carbon damage-floor ratio is under ~5&times;
     </p>
     <p>
      Observed cost severance:&nbsp;$3.7&ndash;$6 billion reclamation shortfall (publicly documented); population decline from approximately 100,000 to about 19,000; 13-year life expectancy gap vs. national average; highest per-capita opioid death rate in the United States.
@@ -4020,11 +4023,14 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
       Lost property values, economic disruption: estimated $500M+
      </li>
      <li>
-      Total documented: $4 billion+ (40:1 cost-to-revenue ratio, minimum)
+      Asbestos-related-disease mortality, monetized: 694 documented deaths through 2011 (Naik et al. 2017) &times; EPA VSL $7.4&ndash;11.0M &asymp; $5.1&ndash;7.6 billion (labeled estimate; mortality is ongoing, so this is a floor)
+     </li>
+     <li>
+      Documented-cash floor: &asymp;$1.35 billion committed + &asymp;$1.25 billion accrued monitoring (2000&ndash;2025 at $50M+/yr) &asymp; $2.6 billion &mdash; &asymp;26:1 against the ~$100M lifetime revenue (itself an industry estimate no primary source has confirmed; if true revenue were twice as high, the floor ratio is still &asymp;13:1). Mortality-inclusive total: &asymp;$6.5&ndash;10.2 billion.
      </li>
     </ul>
     <p>
-     IPG:&nbsp;55&ndash;82&times; (Damage Function) / 48&ndash;76&times; (Real Options) / 61&ndash;91&times; (RCV)
+     IPG:&nbsp;&asymp;65&ndash;100&times; (Damage Function; derived &mdash; VSL vintage dominates the sensitivity: 2006$ &rarr; 65&ndash;77&times;, updated &rarr; 78&ndash;102&times;) / &asymp;57&ndash;93&times; (Real Options) / &asymp;72&ndash;111&times; (RCV)
     </p>
     <p>
      Key CS feature:&nbsp;W.R. Grace knew about asbestos contamination from 1963 and concealed it for 27 years &mdash; a textbook case of Political Capture Cost. The concealment extended CS by three decades. The accountability bond B &asymp; 0 throughout the operating period because the externality was hidden.
@@ -4059,7 +4065,7 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
      </li>
     </ul>
     <p>
-     IPG:&nbsp;12&ndash;35&times; (Damage Function) / 18&ndash;48&times; (Real Options) / 22&ndash;41&times; (RCV)
+     IPG:&nbsp;not computable to this document&rsquo;s IPG form on documented inputs &mdash; the dominant local costs (cancer incidence, agricultural foreclosure, Yellow-River-basin groundwater, village relocation) have no credible external dollar estimates. What the documented inputs do support: the tailings-lake remediation liability alone ($5&ndash;15 billion; MIIT/Jiangxi cleanup-program anchor &asymp;$5.5 billion) equals <strong>1.2&ndash;7.5 years of the entire export revenue stream</strong> ($2&ndash;4 billion/year) &mdash; a lower bound on the severance, since it excludes every unquantified cost category above.
     </p>
     <p>
      CS structure:&nbsp;Global electronics consumers capture value; Baotou residents bear costs. This is the most explicit case of spatial cost severance operating at international scale &mdash; the geographic distance between beneficiary (Silicon Valley consumer) and cost-bearer (Inner Mongolian villager) is ~10,000 km. Cost severance scales with distance.
@@ -6290,7 +6296,7 @@ boundary-awareness register (per &sect;12).
       <strong>
        RCV-integral lens (&sect;9.5).
       </strong>
-      The Weitzman-discounted integral over the multi-generational horizon gives 67&ndash;134&times;.
+      The Weitzman-discounted integral over the multi-generational horizon gives 61&ndash;115&times; ($525&ndash;540/ton across the contemporary ~$8.66 and 1960 $4.71 price bases; calibration documented at &sect;11.1).
      </li>
     </ul>
     <p>
@@ -7444,7 +7450,7 @@ boundary-awareness register (per &sect;12).
       </td>
       <td>
        <p>
-        67&times; to 134&times;
+        61&times; to 115&times; (across the two price bases; the discount-rate spread itself is narrow, 112&ndash;115&times; on the 1960 basis, because the carbon pulse dominates the level &mdash; calibration at &sect;11.1)
        </p>
       </td>
      </tr>

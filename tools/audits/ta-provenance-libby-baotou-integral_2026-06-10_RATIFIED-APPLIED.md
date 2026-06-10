@@ -1,6 +1,6 @@
 # TA provenance: §11.3 Libby + §11.4 Baotou + RCV-integral calibration — derivations (PROPOSED)
 
-**Status: PROPOSED — derivations presented for ratification; NOTHING applied to the TA.**
+**Status: RATIFIED 2026-06-10 (author: "Apply 1, 2, 3 as recommended and proposed") + APPLIED same day.** Items 1, 2, and 3-Option-A applied to the TA incl. the §9.5 table cascade, §6.3/§11.11 ratio cascade, the §11.1 calibration note, and the calc-engine annotation sync (35/35 reproductions still PASS). Residual flagged, NOT in scope: §6.3's ~$1,025–1,065/ton cell level (same undocumented class; separate item) + `publishing/book-proposal/05_chapter-summaries.md` carries 67–134× (live-owned by the book-proposal sprint — routed there, not edited here).
 **Session:** `claude/ta-provenance-11-3-11-4-integral-260610-d22bed` (2026-06-10). Lineage: successor
 to `ta-number-provenance-ledger_2026-06-07.md` + `ta-method1-input-provenance_2026-06-06.md`; same
 defensibility classes (1 SOURCED / 2 DERIVED / 3 LABELED ASSUMPTION / 4 UNSUPPORTED) and the
@@ -73,7 +73,7 @@ revenue = 3 (labeled unverified, sensitivity given). The 40:1 line dies.
 
 No denominator or derivation is stated. The available documented pieces cannot produce it:
 remediation $5–15B (register: MIIT/Jiangxi $5.5B anchor; ">$100B" rejected as unverifiable) against
-annual export revenue $2–4B/yr gives **1.3–7.5** (a stock-vs-flow ratio, not an IPG); against any
+annual export revenue $2–4B/yr gives **1.2–7.5** (a stock-vs-flow ratio, not an IPG); against any
 cumulative-revenue basis the ratio falls below 1. The health, agricultural, groundwater, and
 relocation costs that would carry the triplet are listed but unquantified, and prior provenance
 passes located no credible external dollar estimates for them. **As written: class 4, and not
@@ -87,7 +87,7 @@ Replace the IPG line with a derived, conservative, honestly-typed statement:
 (cancer incidence, agricultural foreclosure, Yellow-River-basin groundwater, village relocation)
 have no credible external dollar estimates. What the documented inputs do support: the tailings-lake
 remediation liability alone ($5–15B; MIIT/Jiangxi cleanup-program anchor ≈$5.5B) equals
-**1.3–7.5 years of the entire export revenue stream** ($2–4B/yr) — a lower bound on the severance,
+**1.2–7.5 years of the entire export revenue stream** ($2–4B/yr) — a lower bound on the severance,
 since it excludes every unquantified cost category above."*
 
 **Class after fix:** 2 (derived from class-1/3 inputs, arithmetic shown). The case's narrative force

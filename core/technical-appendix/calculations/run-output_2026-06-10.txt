@@ -25,15 +25,13 @@ PART 2 — FORWARD M1 / M2 ANCHORS (sourced)
 ========================================================================
 PART 3 — FORWARD RCV INTEGRAL (Def 1.6) — RECONSTRUCTION
 ========================================================================
-[RECONSTRUCTION] RCV integral @ r0=4% (baseline): $537/ton  (TA §11.1: $580-620/ton)
+[RECONSTRUCTION] RCV integral @ r0=4% (baseline): $537/ton  (TA §11.1 adopted level: $525-540/ton)
 [RECONSTRUCTION] RCV integral @ r0=1.4% (Stern): $526/ton
 [RECONSTRUCTION] RCV integral @ r0=5.5% (Nordhaus): $541/ton
-[RECONSTRUCTION] IPG integral-lens @ Stern: 112x ; @ Nordhaus: 115x  (TA §16.4: 67-134x)
-  NOTE: the reconstruction brackets the TA band only under the
-  labeled assumptions (U = r·P bound; SCC-as-pulse; 200-yr tail).
-  The TA does not document its integral calibration — finding for
-  the provenance pass: §11.1's $580-620 and §16.4's 67-134x need
-  a documented parameterization to be reproducible.
+[RECONSTRUCTION] IPG integral-lens @ Stern: 112x ; @ Nordhaus: 115x  (TA adopted: 61-115x across price bases)
+  NOTE: this parameterization is the TA's ADOPTED calibration as of
+  2026-06-10 (§11.1 'Integral calibration' note). IPG on the two
+  price bases: 525/8.66 ≈ 61x ; 540/4.71 ≈ 115x.
 
 [DEMO] Thm 10.4 knife-edge: with S_max<1 and r(s) summable
   (∫r ds < ∞ → D_∞ > 0), the foreclosure integrand has a positive

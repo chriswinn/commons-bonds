@@ -213,3 +213,15 @@ Beyond "an authority is *named*," each remaining headline Class-1 anchor was con
 ---
 
 *End ledger. Companion decision memo carries the author-judgment items. No merge to main; author reviews the branch.*
+
+
+---
+
+## Addendum — 2026-06-10 session dispositions (Libby / Baotou / RCV-integral)
+
+Per `ta-provenance-libby-baotou-integral_2026-06-10_RATIFIED-APPLIED.md` (author-ratified 2026-06-10):
+
+- **§11.3 Libby "$4B+ (40:1)" total** — was class 4 (unreachable from its own components). NOW class 2/3: mortality line added (694 deaths, Naik et al. 2017 × EPA VSL $7.4–11.0M, labeled), documented-cash floor restated (≈$2.6B, ≈26:1 w/ revenue sensitivity), mortality-inclusive total ≈$6.5–10.2B; IPG triplet re-derived (DF ≈65–100×, RO ≈57–93×, RCV ≈72–111×) with VSL-vintage sensitivity. §9.5 cells cascaded.
+- **§11.4 Baotou IPG triplet (12–35/18–48/22–41)** — was class 4, not reconstructible. RETIRED; replaced with the derived remediation floor (tailings liability = 1.2–7.5 years of total export revenue). §9.5 cells retired to "— (not computable on documented inputs; §11.4)". Reinstating an IPG here requires commissioned per-category cost estimates (research task).
+- **§11.1/§16.4 integral lens ($580–620/ton; 67–134×)** — level was class 4 (unrecorded parameterization). NOW class 2: adopted the documented Part-3 calibration ($525–540/ton; $526 Stern / $537 4% / $541 Nordhaus), "Integral calibration" note added at §11.1; IPG restated 61–115× across the $8.66/$4.71 price bases; cascaded §3.6-line(§6.3 L1132)/§9.5/§11.11; calc-engine annotations synced (35/35 PASS unchanged).
+- **Residuals flagged, out of scope:** §6.3 ~$1,025–1,065/ton cell level (same undocumented class — next provenance item); `publishing/book-proposal/05_chapter-summaries.md` 67–134× (live-owned by the proposal sprint → routed).

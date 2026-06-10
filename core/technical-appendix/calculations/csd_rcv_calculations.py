@@ -169,9 +169,11 @@ check("McDowell CS (M3 geo-center − realized B band) high",
 #   RCV = ∫ {[1−S(t)]·U(R,t,Q) + E(R,t)} · D(t,t₀) dt
 #   S(t) = S_max·(1−e^{−λ(t−t₀)})          (Def 1.2 tractable form)
 #   D(t) = exp(−∫r(s)ds), r declining       (Def 1.5, Weitzman 2001)
-# Status: RECONSTRUCTION. The TA reports the integral-lens results
-# ($580-620/ton; IPG 67-134× across discount rates, §11.1/§16.4) but does
-# not document the full U/E calibration. Assumptions below are labeled.
+# Status: ADOPTED CALIBRATION (2026-06-10, author-ratified). The TA's
+# §11.1 integral-lens level is now THIS parameterization ($525-540/ton;
+# IPG 61-115× across the $8.66/$4.71 price bases). The previously printed
+# $580-620 band rested on an unrecorded parameterization and is superseded
+# (see §11.1 "Integral calibration" note). Assumptions below are labeled.
 # =====================================================================
 
 print()
@@ -217,23 +219,21 @@ def rcv_integral(r0, s_max=0.85, lam=0.05, u_flow0=None, p=75.0,
 
 rcv_4 = rcv_integral(r0=0.04)
 print(f"[RECONSTRUCTION] RCV integral @ r0=4% (baseline): "
-      f"${rcv_4:,.0f}/ton  (TA §11.1: $580-620/ton)")
+      f"${rcv_4:,.0f}/ton  (TA §11.1 adopted level: $525-540/ton)")
 rcv_14 = rcv_integral(r0=0.014)   # Stern
 rcv_55 = rcv_integral(r0=0.055)   # Nordhaus
 print(f"[RECONSTRUCTION] RCV integral @ r0=1.4% (Stern): ${rcv_14:,.0f}/ton")
 print(f"[RECONSTRUCTION] RCV integral @ r0=5.5% (Nordhaus): ${rcv_55:,.0f}/ton")
 
 # IPG under the integral lens, on the $4.71/ton 1960 mine-mouth basis
-# (§16.4 row 1: 67× to 134× across r0 1.4%-5.5%; re-derived on $4.71
-#  per commit c8080de)
+# (adopted 2026-06-10: 61-115× across the $8.66 contemporary / $4.71
+#  1960 price bases; level per the adopted calibration above)
 P_1960 = 4.71
 print(f"[RECONSTRUCTION] IPG integral-lens @ Stern: {rcv_14/P_1960:,.0f}x ; "
-      f"@ Nordhaus: {rcv_55/P_1960:,.0f}x  (TA §16.4: 67-134x)")
-print("  NOTE: the reconstruction brackets the TA band only under the")
-print("  labeled assumptions (U = r·P bound; SCC-as-pulse; 200-yr tail).")
-print("  The TA does not document its integral calibration — finding for")
-print("  the provenance pass: §11.1's $580-620 and §16.4's 67-134x need")
-print("  a documented parameterization to be reproducible.")
+      f"@ Nordhaus: {rcv_55/P_1960:,.0f}x  (TA adopted: 61-115x across price bases)")
+print("  NOTE: this parameterization is the TA's ADOPTED calibration as of")
+print("  2026-06-10 (§11.1 'Integral calibration' note). IPG on the two")
+print("  price bases: 525/8.66 ≈ 61x ; 540/4.71 ≈ 115x.")
 
 # Knife-edge demonstration (Thm 10.4 corollary): S_max<1, summable r → ∞
 print()
