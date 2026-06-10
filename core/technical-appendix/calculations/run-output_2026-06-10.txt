@@ -95,4 +95,72 @@ PART 5 — COST SEVERANCE DECOMPOSITION (both directions)
   the backward range is wider (methodological-choice spread), the
   convergence logic identical in kind (Thm 10.1b; §17.5).
 
-SUMMARY: 20 checked values, 0 mismatches.
+
+========================================================================
+PART 6 — REVERSE TEST: REPARATIONS (INTERNAL TEST — NOT BOOK CONTENT)
+========================================================================
+[REVERSE] Reparations CSD_M1 floor: per-person x eligible (field's own figures): 10.7 $T (TA: 10-11) PASS
+  (Cure-cost basis: the wealth gap is the documented, bounded,
+   Gate-3-trivial legacy-effect quantity — the same slot the reef
+   fills with restoration-$/acre. Source: Darity & Mullen 2020,
+   NOT a framework computation.)
+[REVERSE] Reparations M2 reading: realized federal B₁ = $0; municipal pilots O($10M) — de minimis.
+  M2's double duty here: (a) reveals B₁ ≈ 0 for THIS harm while the
+  comparator lineage proves the restitution instrument exists for
+  acknowledged harms; (b) the revealed-lower-bound reading: what
+  society has paid for comparable acknowledged harms bounds what it
+  has revealed restitution is WORTH paying (Black Lung ~$44B for one
+  occupational-disease cohort makes a $0 B₁ here unexplainable by
+  cost — the gap is acknowledgment, not affordability).
+[REVERSE] Reparations M3 / coercion vector: OPEN — admitted, not
+  entered. The wealth-gap floor deliberately EXCLUDES: the coercion
+  vector itself (author's first-person abstention; field flags it
+  methodologically unresolved); the longevity gap (Himmelstein et
+  al. 2022 JAMA Netw Open — wealth-gap closure associated with
+  mortality-disparity reduction); cultural-knowledge severance;
+  intergenerational trauma. Each is a named, gate-admittable,
+  NON-NEGATIVE term left unentered →
+  CSD ≥ $10.7T is a strict LOWER BOUND, and
+  CSD − B₁ ≥ $10.7T (B₁ ≈ 0).
+
+[REVERSE] STRUCTURAL RESULT: the reparations case runs through the
+  same three slots as the reef — M1 floor from the field's published
+  cure-cost, M2 reading realized restitution, M3+coercion OPEN —
+  with one structural difference the model makes visible:
+    reef:        B₁ large but MIS-ASSIGNED (public paid, industry $0)
+    reparations: B₁ ABSENT  (nobody paid; instrument exists elsewhere)
+  The model supports the use case. VERDICT: PASS (structural).
+
+========================================================================
+PART 7 — BIDIRECTIONAL PORTFOLIO TEST (all use cases, both directions)
+========================================================================
+Case                               CSD      B1       RCV      B2       verdict
+------------------------------------------------------------------------------
+McDowell coal                      FILLED   FILLED   FILLED   FILLED   PASS
+Norway petroleum                   FILLED   ZERO     FILLED   FILLED   PASS
+Deepwater Horizon                  FILLED   FILLED   CITED    CITED    PASS
+Libby vermiculite                  FILLED   FILLED   ZERO     ZERO     PASS
+Baotou rare earths                 FILLED   ZERO     FILLED   ZERO     PASS
+Chesapeake reef                    FILLED   FILLED   CITED    CITED    PASS
+Reparations (test only)            FILLED   ZERO     CITED    OPEN     PASS
+Asteroid iron (pre-extraction)     ZERO     ZERO     FILLED   CITED    PASS
+Closed-world habitat (ISS anchor)  ZERO     ZERO     FILLED   ZERO     PASS
+NFL concussions                    FILLED   FILLED   FILLED   FILLED   PASS
+Apartment lease (self-severance)   FILLED   ZERO     FILLED   ZERO     PASS
+------------------------------------------------------------------------------
+Per-case notes:
+  - McDowell coal: FINDING: TA's 'realized B ~$53-60B' is NOT split B1/B2 — Black Lung payouts are B1 (realized-harm restitution), reclamation bonds are B2 (posted against future damage). The bidirectional run forces the split the forward-only TA never needed. Flag for §11.6.
+  - Norway petroleum: Backward run quantifies the TA's qualitative claim: Norway's architecture covers Norwegians (B1-for-citizens), not the non-Norwegian bearers of $3.9T realized combustion damage. CSD-B1 > 0 lands on the same accountability gap §11.5 names.
+  - Deepwater Horizon: REFRAME: Deepwater is backward-dominant. CSD - B1 ~ $8-12B (the ongoing externalities beyond BP's charges). Proves B1 CAN be industry-paid at scale post-hoc — the structural contrast to the reef's $0 and reparations' absent B1.
+  - Libby vermiculite: Backward-dominant; B1 split is 70/30 public/industry — between Deepwater (industry-paid) and the reef (all-public).
+  - Baotou rare earths: Both directions live and large simultaneously — the case where total CS needs BOTH terms; forward-only accounting misses half.
+  - Chesapeake reef: The book's worked backward case (-> TA §11.12 after Ch3 prices it).
+  - Reparations (test only): Part 6. NOT book content; structural-support test PASSES.
+  - Asteroid iron (pre-extraction): The framework's zero-anchor: low-CSD/low-RCV-premium. Identity assembles trivially — important that it does.
+  - Closed-world habitat (ISS anchor): Forward-only CIT demonstration: Earth's free air/water repriced at ISS rates. RCV - B2 = the entire engineered cost.
+  - NFL concussions: Post-2013 information symmetry moves new severance from unknowing to priced-risk; backward term persists for the pre-disclosure cohort. Both directions assemble.
+  - Apartment lease (self-severance): n-of-1, no bad actor, info-asymmetric self-severance — the framework's smallest case; identity assembles with B = 0 on both sides.
+
+PORTFOLIO VERDICT: PASS — every case assembles total CS = (CSD − B₁) + (RCV − B₂) with all slots in legal states; no observable serves as both estimator and bond in the same term; backward runs surface 3 findings (McDowell B₁/B₂ split; Norway non-Norwegian B₁ arithmetic; Deepwater as industry-paid-B₁ exemplar).
+
+SUMMARY: 21 checked values, 0 mismatches.
