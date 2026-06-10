@@ -420,22 +420,31 @@ print("=" * 72)
 print("PART 6 — REVERSE TEST: REPARATIONS (INTERNAL TEST — NOT BOOK CONTENT)")
 print("=" * 72)
 
-# CSD_M1 (cost-to-cure floor) — THE FIELD'S OWN NUMBER:
-# Darity & Mullen 2020 'From Here to Equality': closing the Black-white
-# wealth gap requires ~$10.7T (~$267,000/person x ~40M eligible Black
-# descendants of US slavery; built on 2016 SCF mean household wealth gap
-# ~$795K; their stated program range $10-12T).
-# [Verified 2026-06-10: Brookings 'Black reparations and the racial
-#  wealth gap'; Roosevelt Institute 'Resurrecting the Promise of 40 Acres']
-DM_TOTAL = 10.7e12
-DM_PER_PERSON = 267_000
+# CSD_M1 (cost-to-cure floor) — THE FIELD'S OWN NUMBER, CURRENT EDITION:
+# Darity & Mullen, 'From Here to Equality' SECOND EDITION (UNC Press 2022)
+# + Darity, Mullen & Slaughter, 'The Cumulative Costs of Racism and the
+# Bill for Black Reparations,' J. Econ. Perspectives 36(2) 2022: closing
+# the Black-white wealth gap requires ~$14T (~$350,000/person x ~40M
+# eligible; built on 2019 SCF mean household wealth gap ~$840,900).
+# EDITION DISCIPLINE (author flag 2026-06-10): the FIRST edition (2020,
+# on 2016 SCF ~$795K gap) said ~$10.7T (~$267K/person); the repo bib
+# carries BOTH editions in one entry (L556) and a 2020-only entry (L903)
+# — cite the 2nd-ed/JEP-2022 figure as current; never mix editions.
+# [Verified 2026-06-10: CNBC 2023-01-28 interview; UNC Press 2nd-ed
+#  page; AEA JEP 36(2); first-ed figures per Brookings + Roosevelt Inst.]
+DM_TOTAL_2022 = 14.0e12       # 2nd ed / JEP 2022 (current)
+DM_PER_PERSON_2022 = 350_000
+DM_TOTAL_2020 = 10.7e12       # 1st ed (superseded; kept for trajectory)
 DM_ELIGIBLE = 40e6
-check("Reparations CSD_M1 floor: per-person x eligible (field's own figures)",
-      DM_PER_PERSON * DM_ELIGIBLE / 1e12, 10.5, 10.9, "$T", kind="REVERSE")
+check("Reparations CSD_M1 floor: per-person x eligible (2nd ed/JEP 2022)",
+      DM_PER_PERSON_2022 * DM_ELIGIBLE / 1e12, 13.5, 14.5, "$T", kind="REVERSE")
 print("  (Cure-cost basis: the wealth gap is the documented, bounded,")
 print("   Gate-3-trivial legacy-effect quantity — the same slot the reef")
-print("   fills with restoration-$/acre. Source: Darity & Mullen 2020,")
+print("   fills with restoration-$/acre. Source: Darity-Mullen-Slaughter,")
 print("   NOT a framework computation.)")
+print(f"  TRAJECTORY NOTE (framework-relevant): the field's own floor grew")
+print(f"  ${DM_TOTAL_2020/1e12:.1f}T (2016 SCF) -> ${DM_TOTAL_2022/1e12:.1f}T (2019 SCF) — an unpaid")
+print(f"  CSD accrues as the gap compounds; B₁ delay is not cost-neutral.")
 
 # CSD_M2 (revealed restitution — realized B₁ reading):
 # Federal reparations to Black descendants of US slavery: $0 (no program;
@@ -466,7 +475,7 @@ print("  al. 2022 JAMA Netw Open — wealth-gap closure associated with")
 print("  mortality-disparity reduction); cultural-knowledge severance;")
 print("  intergenerational trauma. Each is a named, gate-admittable,")
 print("  NON-NEGATIVE term left unentered →")
-csd_rep_floor = DM_TOTAL
+csd_rep_floor = DM_TOTAL_2022
 print(f"  CSD ≥ ${csd_rep_floor/1e12:.1f}T is a strict LOWER BOUND, and")
 print(f"  CSD − B₁ ≥ ${csd_rep_floor/1e12:.1f}T (B₁ ≈ 0).")
 print()

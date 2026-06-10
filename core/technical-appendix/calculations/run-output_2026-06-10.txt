@@ -99,11 +99,14 @@ PART 5 — COST SEVERANCE DECOMPOSITION (both directions)
 ========================================================================
 PART 6 — REVERSE TEST: REPARATIONS (INTERNAL TEST — NOT BOOK CONTENT)
 ========================================================================
-[REVERSE] Reparations CSD_M1 floor: per-person x eligible (field's own figures): 10.7 $T (TA: 10-11) PASS
+[REVERSE] Reparations CSD_M1 floor: per-person x eligible (2nd ed/JEP 2022): 14.0 $T (TA: 14-14) PASS
   (Cure-cost basis: the wealth gap is the documented, bounded,
    Gate-3-trivial legacy-effect quantity — the same slot the reef
-   fills with restoration-$/acre. Source: Darity & Mullen 2020,
+   fills with restoration-$/acre. Source: Darity-Mullen-Slaughter,
    NOT a framework computation.)
+  TRAJECTORY NOTE (framework-relevant): the field's own floor grew
+  $10.7T (2016 SCF) -> $14.0T (2019 SCF) — an unpaid
+  CSD accrues as the gap compounds; B₁ delay is not cost-neutral.
 [REVERSE] Reparations M2 reading: realized federal B₁ = $0; municipal pilots O($10M) — de minimis.
   M2's double duty here: (a) reveals B₁ ≈ 0 for THIS harm while the
   comparator lineage proves the restitution instrument exists for
@@ -120,8 +123,8 @@ PART 6 — REVERSE TEST: REPARATIONS (INTERNAL TEST — NOT BOOK CONTENT)
   mortality-disparity reduction); cultural-knowledge severance;
   intergenerational trauma. Each is a named, gate-admittable,
   NON-NEGATIVE term left unentered →
-  CSD ≥ $10.7T is a strict LOWER BOUND, and
-  CSD − B₁ ≥ $10.7T (B₁ ≈ 0).
+  CSD ≥ $14.0T is a strict LOWER BOUND, and
+  CSD − B₁ ≥ $14.0T (B₁ ≈ 0).
 
 [REVERSE] STRUCTURAL RESULT: the reparations case runs through the
   same three slots as the reef — M1 floor from the field's published
