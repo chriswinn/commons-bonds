@@ -1,6 +1,8 @@
 # Technical Appendix — Master Symbol Registry & Notation Audit (2026-06-07)
 
-**Status: PROPOSED working artifact.** Built from a 7-agent exhaustive catalog of every symbol in `TechnicalAppendix_v2.0.0.html` (lines 1–8041), consolidated + collision-swept + standard-notation-checked. Internal source-of-truth; the reader-facing Notation section is to be curated FROM this.
+**Status: SYNCED to merged TA (`origin/main` fd12275) 2026-06-09.** Built from a 7-agent exhaustive catalog of every symbol in `TechnicalAppendix_v2.0.0.html` (lines 1–8041), consolidated + collision-swept + standard-notation-checked. Internal source-of-truth; the reader-facing Notation section (`manuscript/back-matter/symbol-registry.html`) is curated FROM this.
+
+> **SYNC BANNER (2026-06-09, refactor-bib-consolidation session).** Every Batch I + Batch II rename and the closeout notation changes are now **verified APPLIED in the merged TA** (grep-confirmed, HTML-entity forms): δ-decay→**κ** (`&kappa;`×2, defined on first use L7299); §16.3 region E→**Ω** (`&Omega;`×6, L7320 w/ collision note); §16.2 innovation α→**ζ**, β→**ω** (`&zeta;`/`&omega;`×4, L7308, noted distinct from M3 α); σ→**ς** (`&sigmaf;`, 0 literal-σ stragglers); **log→ln** (0 residual `log(`); **V_option→V_market** (28/0); **τ overload RESOLVED** (`S(τ|t₀)`=0; substitutability written `S(t | t₀)`); **β fully removed** (0); **§10 A1–A4/P1–P4 relabeled to roman (i)–(iv) + (a)–(d)** (0 old labels; 12 `Assumption (i…)`), so the A/P collision is resolved by RENAME, not note. Remaining genuinely-open items routed to WS3 standard-notation pass: E externality-fn vs E[·] expectation; bare B vs "billion" suffix; M vs "million"; Theorem 10.3 (i)–(iv) used for both clauses + assumptions. The 2 residual `&delta;` (L3522) are the standard ε–δ analysis variable — correct, not a stray decay-δ.
 
 **Method:** 7 parallel catalog agents (one per line-range), each recording every symbol-occurrence (glyph · meaning · role · section · line · units · provenance) + within-range collisions + existing disambiguation notes. This file consolidates to distinct (symbol × meaning) pairs and flags cross-section collisions.
 
@@ -14,13 +16,13 @@
 
 | Glyph | Meaning A | Meaning B | Locations | Note |
 |---|---|---|---|---|
-| **α** | Method-3 **irreversibility probability** ∈[0,1] (§3.5, §11.5–11.8) | §16.2 **scarcity effect on innovation incentives** (coefficient >0) | A: 893–4, 4295ff, 5063ff · B: 7350, 7353 | Two unrelated quantities. §16.2 has no note. The framework's *best-grounded* parameter name is being reused for an unrelated extension coefficient. |
-| **β** | Method-3 **risk-posture exponent** in 1/(1−α)^β (§3.5, §11.8) | §16.2 **scarcity-elasticity exponent** on (Q_crit/Q) (innovation) | A: 897–8, 5350 · B: 7350, 7353 | Same pattern as α. |
-| **δ** | §16.1 **discount-rate decay constant** in r(t)=r₀·e^(−δt)+r_min | §10.3 proof **ε–δ neighborhood width** (standard analysis variable) | A: 7341 · B: 3520 | Plus: δ is **undefined on first use** at 7341 (prose names r₀, r_min, never δ). Plus LATENT: if M3 Path B adopts a Dixit–Pindyck δ (convenience yield), that's a THIRD δ. |
-| **τ** | **scarcity threshold** τ_j (§1.8 line 485; §10.3 lines 3440–3546, with a local "throughout this theorem" note) | §5.4 **future time** in S(τ\|t₀) (line 1348) | A: 485, 3488 · B: 1348 | §10.3 disambiguates τ *locally*, then §5.4 re-overloads it for a different meaning — the worst kind: the document shows it knows the symbol is contested and reuses it anyway. |
-| **E** | **externality-tail function** E(R,t) (§1.4, §16.1, §17) | §16.3 **extraction region** (spatial set) | A: 404, 7338, 7659 · B: 7362, 7365, 7368 | §16.3 disambiguates K-vs-C and V-vs-B in the SAME sentence but misses E(function)-vs-E(region). Also collides with the standard probability **expectation operator E[·]** (reader expectation). |
-| **P** | **market price** P / P(t) (§1.3, §10.5, §14.1) | §10 **Premise labels** P1–P4 | A: 371, 3692, 6542 · B: 3335–3357, 3688–3712 | Within §10, "P" the price and "P1–P4" the premises sit paragraphs apart. Also §10.3 uses P1–P4 AGAIN for abstract cost-function *properties* (line 3482) — a third P-labelling. |
-| **A** | **abundance** variable A(t) (§10.3, lines 3434–3552) | §10 **Assumption labels** A1–A4 | A: 3434ff · B: 3269, 3310ff | Abundance A and Assumption A1–A4 coexist within §10.3. Also §1.8 "Aⱼ" = commons category (third A). |
+| **α** | Method-3 **irreversibility probability** ∈[0,1] (§3.5, §11.5–11.8) | §16.2 **scarcity effect on innovation incentives** (coefficient >0) | A: 893–4, 4295ff, 5063ff · B: 7305ff | ✅ **RESOLVED** — §16.2 innovation-α renamed → **ζ** (`&zeta;`, noted distinct from M3 α at L7308). M3 α kept. |
+| **β** | Method-3 **risk-posture exponent** in 1/(1−α)^β (§3.5, §11.8) | §16.2 **scarcity-elasticity exponent** on (Q_crit/Q) (innovation) | A: — · B: 7305ff | ✅ **RESOLVED** — M3-β DROPPED (Path A; no free exponent); §16.2-β renamed → **ω** (`&omega;`). bare β = 0 in merged TA. |
+| **δ** | §16.1 **discount-rate decay constant** in r(t)=r₀·e^(−δt)+r_min | §10.3 proof **ε–δ neighborhood width** (standard analysis variable) | A: → κ (7296,7299) · B: 3522 | ✅ **RESOLVED** — decay δ renamed → **κ**, **defined on first use** (L7299). Only the standard ε–δ proof variable remains (L3522), which is correct. Path-B third-δ pre-empted. |
+| **τ** | **scarcity threshold** τ_j (§1.8 line 485; §10.3, with a local "throughout this theorem" note) | ~~§5.4 future time in S(τ\|t₀)~~ (RESOLVED) | A: 485, 3488 | ✅ **RESOLVED** — the §5.4 future-time overload fixed to `S(t\|t₀)`; `S(τ\|t₀)` = 0 in merged TA. τ is now scarcity-threshold only. |
+| **E** | **externality-tail function** E(R,t) (§1.4, §16.1, §17) | ~~§16.3 extraction region~~ → **Ω** (RESOLVED) | A: 404, 7338, 7659 · Ω: 7317,7320,7323 | ⚠️ **PARTIAL** — region E→**Ω** applied (`&Omega;`×6, L7320 note). **STILL OPEN (→WS3):** E(R,t) function vs standard expectation operator **E[·]** (reader-expectation collision). |
+| **P** | **market price** P / P(t) (§1.3, §10.5, §14.1) | ~~§10 Premise labels P1–P4~~ (RESOLVED) | A: 371, 3692, 6542 | ✅ **RESOLVED** — §10 Premise labels relabeled to roman **(i)–(iv)** (and cost-function properties → **(a)–(d)**); P1–P4 = 0 in merged TA. P is market-price only. |
+| **A** | **abundance** variable A(t) (§10.3, lines 3434–3552) | ~~§10 Assumption labels A1–A4~~ (RESOLVED) | A: 3434ff | ✅ **RESOLVED** — §10 Assumption labels relabeled to roman **(i)–(iv)**; A1–A4 = 0 in merged TA. Abundance A(t) and §1.8 commons-category Aⱼ remain (subscript-distinguished, benign). |
 | **B** (bare) | **Accountability Bond** ($ quantity) | **"billion"** magnitude suffix in worked numbers ("55B BOE", "$942B") | A: 462, 6633 · B: 4241, 4533, 4605 | The billion-suffix B in §11 worked calcs sits next to the bond variable B. Sloppy in exactly the quantitative passages a referee reads closely. |
 
 ### 🟠 MED — case- or subscript-distinguished, or single-section-local (lower risk, worth a note)
@@ -91,19 +93,19 @@
 
 | Glyph | Meaning | loc | Std-notation | Collision |
 |---|---|---|---|---|
-| A1–A4 | Assumption labels (content differs per theorem) | 3269ff | ✓ (labels) | 🔴 vs abundance A; label-content-reuse across theorems |
-| P1–P4 | Premise labels (also abstract properties in 10.3) | 3335ff, 3482 | ✓ | 🔴 vs price P |
+| (i)–(iv) [Assumptions] | Assumption labels, roman (relabeled off A1–A4) | 3269ff | ✓ (labels) | ✅ resolved vs abundance A |
+| (i)–(iv) [Premises] / (a)–(d) [cost-fn properties] | Premise + property labels, roman (relabeled off P1–P4) | 3335ff, 3482 | ✓ | ✅ resolved vs price P |
 | A, A(t) | abundance | 3434 | — | 🔴 |
 | c(A), c₀, ξ | cost function; scale; curvature exponent (ξ≥1) | 3440–3523 | ✓ (ξ local-noted) | 🟢 (3488 note) |
 | η_S(A) | supply elasticity (→0 as A→τ⁺) | 3455 | ✓ (η=elasticity standard) | 🟢 (unique glyph) |
-| τ | scarcity threshold | 3440ff | — | 🔴 (re-overloaded §5.4) |
-| ε, δ, M, A_ε | standard ε–δ analysis variables | 3499–3520 | ✓ | 🔴 δ vs §16.1 δ |
+| τ | scarcity threshold | 3440ff | — | ✅ resolved (§5.4 future-time overload fixed → `S(t\|t₀)`) |
+| ε, δ, M, A_ε | standard ε–δ analysis variables | 3499–3522 | ✓ | ✅ resolved (§16.1 decay δ→κ; only the standard proof δ remains) |
 | U,U₀,k / E,E₀,m | utility & externality polynomial-growth bounds | 3567–3573 | ✓ | 🟠 m/M, k/K |
 | S, s | substitutability map; integration dummy | 3577,3585 | ✓ | 🟠 |
 | D(t,t₀), exp, r(s), r_∞, D_∞ | discount machinery; long-run rate; limit | 3585–3661 | ✓ | — |
 | T, K | proof threshold time; proof constant | 3624–3630 | ✓ | 🟠 |
 | SW, ∂SW/∂U | social welfare; marginal SW | 3704 | ✓ | — |
-| P, Investment_cost, Path A/B, S* | price; substitute-investment cost; paths; substitute substitutability | 3692–3747 | ✓ | 🔴 P |
+| P, Investment_cost, Path A/B, S* | price; substitute-investment cost; paths; substitute substitutability | 3692–3747 | ✓ | ✅ resolved (Premise P1–P4 relabeled roman; P = price only) |
 | Δ(…) | change operators (ΔForeclosure_cost, ΔOption_value, …) | 3747–3766 | ✓ | 🟠 δ/Δ |
 | ∎ | QED | 3303ff | ✓ | — (but should NOT appear on Empirical Observations — see §10.1b item) |
 
@@ -111,9 +113,9 @@
 
 | Glyph | Meaning | loc | Collision |
 |---|---|---|---|
-| r(t), r₀, **δ**, r_min | declining-rate machinery; **decay constant δ (UNDEFINED)** | 7341–7344 | 🔴 δ |
-| S(t\|t₀,Q(t)), S_base(t), **α, β**, Q_critical | stock-dependent substitutability + **innovation coefficients α,β** | 7350–7356 | 🔴 α,β |
-| SCS, x, **E (region)**, K, E∖K, C(x,t), V(x,t) | spatial cost severance machinery | 7362–7368 | 🔴 E; 🟢 K,V (noted 7365) |
+| r(t), r₀, **κ**, r_min | declining-rate machinery; **decay constant κ** (defined on first use, L7299) | 7296–7299 | ✅ (δ→κ) |
+| S(t\|t₀,Q(t)), S_base(t), **ζ, ω**, Q_critical | stock-dependent substitutability + **innovation coefficients ζ,ω** (local to §16.2, distinct from M3 α) | 7305–7311 | ✅ (α,β→ζ,ω) |
+| SCS, x, **Ω (region)**, K, Ω∖K, C(x,t), V(x,t) | spatial cost severance machinery | 7317–7323 | ✅ (E-region→Ω, noted L7320) |
 | Σᵢ₌₁ⁿ, n, i, Cᵢ, C₁…Cₙ₊₁, Context | n-term generalization | 7548–7695 | 🟠 Cᵢ vs C(x,t) |
 
 ### Operators & units (catalogued; mostly standard)
@@ -144,16 +146,16 @@ Verified by a standard-notation agent against Black–Scholes (Columbia/Haugh), 
 
 | Symbol | Standard meaning (source) | Framework use | Deviation | Risk | Decision |
 |---|---|---|---|---|---|
-| **σ→ς** | **Volatility of the underlying** — universal in Black–Scholes & Dixit–Pindyck (HIGH conf.) | scarcity ratio | (was) direct conflict | (was) dismissal-grade | ✅ **RESOLVED 2026-06-08 — Path A: σ→ς applied** (final sigma; reserves-to-production-grounded). Residual σ stragglers pending M3 cleanup (TA 4295/4309/4314/4332/4338/6732). |
-| **δ** | **Convenience yield / payout rate** in Dixit–Pindyck (HIGH conf.) | §16.1 discount-rate decay constant (undefined on first use) | direct conflict (latent) | MED → HIGH if Path B adds DP δ | **RENAME now → κ** + define on first use. *M3-independent (§16.1).* |
+| **σ→ς** | **Volatility of the underlying** — universal in Black–Scholes & Dixit–Pindyck (HIGH conf.) | scarcity ratio | (was) direct conflict | (was) dismissal-grade | ✅ **DONE — σ→ς applied + stragglers cleaned.** Literal-σ = 0 in merged TA; ς present as `&sigmaf;`. |
+| **δ** | **Convenience yield / payout rate** in Dixit–Pindyck (HIGH conf.) | §16.1 discount-rate decay constant | direct conflict (latent) | (was) MED→HIGH | ✅ **DONE — renamed → κ, defined on first use (L7299).** Path-B third-δ pre-empted. Only the standard ε–δ proof variable remains (L3522). |
 | **β** | CAPM systematic risk + D–P fundamental-quadratic root (HIGH conf.) | (was) risk-posture exponent | — | — | ✅ **RESOLVED — DROPPED from M3 (Path A)**; no free exponent. |
 | **α** | no dominant conflicting convention; ∈[0,1] reads naturally (MED–HIGH) | irreversibility probability (M3) | none (external) | LOW ext. / MED internal | **keep** M3 α; rename the §16.2 innovation-α instead. |
-| **E** | **Expectation operator E[·]** (HIGH conf.) | externality fn E(R,t) + §16.3 extraction *region* | partial→direct | MED–HIGH | **RENAME region → Ω**; consider fn → ℰ/X. *M3-independent.* |
+| **E** | **Expectation operator E[·]** (HIGH conf.) | externality fn E(R,t) + §16.3 extraction *region* | partial→direct | MED–HIGH | ✅ region → **Ω** DONE (`&Omega;`×6). ⚠️ **STILL OPEN → WS3:** externality fn E(R,t) vs expectation E[·] (consider fn → ℰ/X). |
 | **r** | interest/discount rate — Hotelling (HIGH) | discount/interest rate | none | LOW | keep (preserve r-vs-R case discipline). |
 | **Q, S** | Hotelling q=flow; Dasgupta–Heal S=stock (HIGH) | Q=stock; S=substitutability (deliberate redefinitions) | partial (intentional) | LOW | keep — disambiguation already present & adequate; reproduce in reader Notation section. |
-| **log→ln** | `log(101)≈4.6` ⇒ natural log (HIGH — arithmetic) | unspecified-base log | ambiguity | LOW–MED | ✅ **ln applied in §3.5 (Path A)**; residual `log(` at TA 4314 pending M3 cleanup. |
+| **log→ln** | `log(101)≈4.6` ⇒ natural log (HIGH — arithmetic) | unspecified-base log | ambiguity | LOW–MED | ✅ **DONE — ln applied throughout; 0 residual `log(` in merged TA** (`ln(`×5). |
 
-**Verified bottom line:** σ is the one dismissal-grade problem (rename-blocking, but M3-coupled — Path B may vindicate it). δ is rename-now (D–P payout glyph; pre-empts the Path-B second-δ). β and E are real second-tier (rename-or-strong-note). log→ln is trivial but checkable arithmetic a referee will run. α/r/Q/S are defensible with their existing notes.
+**Verified bottom line (updated 2026-06-09 — all applied except the E-function residual):** σ→ς ✅ done (literal-σ=0); δ→κ ✅ done (defined L7299); β ✅ resolved (M3 drop + §16.2→ω); E-region→Ω ✅ done; log→ln ✅ done (0 residual). **The single remaining standard-notation item is the externality function E(R,t) vs the expectation operator E[·]** — routed to the WS3 standard-notation pass (propose→ratify→apply). α/r/Q/S remain defensible with their existing notes.
 
 ---
 
@@ -161,7 +163,7 @@ Verified by a standard-notation agent against Black–Scholes (Columbia/Haugh), 
 
 Free Greek letters (unused anywhere in the TA, per the completeness sweep): γ ζ θ ι κ μ ν π φ χ ψ ω (capitals aside). Used: α β δ Δ ε η λ ξ ρ σ Σ τ.
 
-### Batch I — M3-INDEPENDENT (✅ I-1/I-2/I-3/I-6 APPLIED 2026-06-07 to held branch; I-4/I-5 reclassified)
+### Batch I — M3-INDEPENDENT (✅ I-1/I-2/I-3 APPLIED + MERGED to `origin/main` fd12275 2026-06-09; I-6 SUPERSEDED by roman relabel; I-4 done; I-5 deferred→WS3)
 
 | # | Collision | Fix | Locations |
 |---|---|---|---|
@@ -170,7 +172,7 @@ Free Greek letters (unused anywhere in the TA, per the completeness sweep): γ �
 | I-3 | §16.2 innovation α,β vs Method-3 α,β | rename §16.2 α→**ζ**, β→**ω** (keep Method-3 α,β) + note | 7350, 7353, 7356 |
 | ~~I-4~~ | log base unspecified | ✅ **DONE via Path A (M3 session):** ln applied in §3.5; residual `log(` at TA 4314 pending M3 cleanup. | 896/904/4761/5245 ✓; 4314 pending |
 | ~~I-5~~ | bare B vs "billion" suffix | **DEFERRED:** ~50 occurrences, all sourced numbers owned by the provenance session (§6/§11/§15); coordinate with that session rather than unilaterally edit its lines. NOT applied. | §6/§11/§15 |
-| I-6 | §10 A1–A4 (Assumptions) vs A(t) abundance; P1–P4 (Premises) vs P price | add a one-line §10 local-notation note distinguishing labels from variables (no rename — labels entrenched) | §10.3 head |
+| ~~I-6~~ | §10 A1–A4 (Assumptions) vs A(t) abundance; P1–P4 (Premises) vs P price | ✅ **SUPERSEDED — closeout went further than the proposed note:** labels RENAMED to roman (i)–(iv) (Assumptions/Premises) + (a)–(d) (cost-function properties). A1–A4/P1–P4 = 0; collision removed by rename, not note. | §10 |
 | I-7 | registry completeness | add η_S (3455) ✓done; note integration dummies s (§10.3) / u (§16.1) | registry only |
 
 ### Batch II — M3-COUPLED — ✅ RESOLVED by Path A (2026-06-08, M3 session)
@@ -181,13 +183,13 @@ Free Greek letters (unused anywhere in the TA, per the completeness sweep): γ �
 | II-2 | **β** | ✅ **DROPPED from M3** (not renamed to ψ) — irreversibility_premium = 1/(1−α), no free exponent (§3.5 line 901). M3-side β collision gone. |
 | II-3 | **α** | ✅ kept; α-dominance narrative reframed to empirically-grounded + theorem-backed (§3.5 line 901) — substantially addresses correctness item #6 (verify the ~line 922 header still / no longer says "Sensitivity finding"). |
 
-**Cross-branch merge dependency:** Batch I I-3 (§16.2 α→ζ, β→ω) lives on the notation-sweep branch (`claude/ta-internal-fixes-260607-208b7b`), NOT yet on the M3/rigor-audit tree. Until the TA file from both branches merges, the M3-α / §16.2-α collision persists in any tree that has M3's α but not §16.2's ζ-rename. The TA-file merge (M3 §3.5 Path-A edits + notation-sweep §16/§10 Batch I edits — disjoint sections, low conflict) is the gating step.
+**Cross-branch merge dependency:** ✅ **RESOLVED.** The notation-sweep §16/§10 Batch I edits and the M3 §3.5 Path-A edits both landed in the TA closeout merged to `origin/main` fd12275 (2026-06-09). Both M3's α and §16.2's ζ-rename now coexist in one tree; the collision is gone (grep-verified).
 
 ### Sequencing
-1. Apply Batch I on author ratification (M3-independent, low-risk renames).
-2. Resolve M3 Path-A/B → then apply Batch II against the final §3.5/§11.8.
-3. Build the reader-facing Notation section from Part 2 AFTER Batch I + II land.
-4. Hand Part 3 bib gaps (Brennan–Schwartz, Black–Scholes, Knight) to the bib-consolidation session.
+1. ✅ Batch I applied + merged (fd12275).
+2. ✅ M3 Path-A resolved; Batch II applied + merged.
+3. **▶ IN PROGRESS (this session):** reader-facing Notation section built from Part 2 → `manuscript/back-matter/symbol-registry.html`.
+4. **▶ IN PROGRESS (this session):** Part 3 bib gaps (Brennan–Schwartz, Black–Scholes, Knight) folded into `research/literature/bibliography.md` (Step B).
 
 **Note:** the verified σ finding is a *third* reason to resolve the M3 Path-A/B question — the direction determines whether σ must be renamed (Path A) or is vindicated as proper volatility (Path B).
 
