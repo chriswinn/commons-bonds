@@ -33,7 +33,7 @@ Canonical pipeline doctrine: four files (v1.0.0 main + Stage 1 / Stage 4 / Stage
 
 ### `tools/rigor-passes/`
 
-Historical audit trail of rigor passes. ~260+ files spanning Stage 0 → Stage 5 work across chapters + essays. Naming pattern: `commons_bonds_rigor_pass_YYYY-MM-DD_<slug>_<stage>_v#_#_#.md`.
+Chapter-side + cross-essay rigor history (per-essay rigor lives with each essay since 2026-05-28). ~98 live files + ~97 April-era artifacts in `rigor-passes/archive/` (2026-06-10 era split). Naming pattern: `commons_bonds_rigor_pass_YYYY-MM-DD_<slug>_<stage>_v#_#_#.md`.
 
 **Migration queue (2026-05-28).** Per-essay rigor consolidation pattern ratified 2026-05-28 (see `publishing/essays/README.md` §Per-essay directory layout). Per-essay rigor artifacts (5 passes + Stage 1 brief + Stage 4 + Stage 5 + pre-pub-review-queue) are migrating into `publishing/essays/<venue>/rigor/` subdirs. After migration, `tools/rigor-passes/` will hold only:
 - Cross-essay rigor (e.g., Wave 2 derivative-planning Stage 0 batch covering Ch 2 + Ch 3 + Ch 4 + Ch 8)
@@ -42,7 +42,7 @@ Historical audit trail of rigor passes. ~260+ files spanning Stage 0 → Stage 5
 
 ### `tools/workstream-handoffs/`
 
-PM dashboards, per-workstream session handoffs, kick-off paste-texts, cross-essay portfolio reviews, parallel-session inventory snapshots. ~85+ files. Naming patterns: `pm-session-handoff_YYYY-MM-DD.md` (PM dashboards), `<workstream-slug>-handoff_YYYY-MM-DD.md` (workstream handoffs), `<workstream-slug>-paste-text_YYYY-MM-DD.md` (kick-off scaffolds). Index at [`workstream-handoffs/README.md`](workstream-handoffs/README.md).
+Live session coordination: ACTIVE/QUEUED handoffs + the CURRENT PM dashboard (~13 live files); ~98 closed handoffs in `workstream-handoffs/archive/` (2026-06-10 lifecycle split). Naming patterns: `pm-session-handoff_YYYY-MM-DD.md` (PM dashboards), `<workstream-slug>-handoff_YYYY-MM-DD.md` (workstream handoffs), `<workstream-slug>-paste-text_YYYY-MM-DD.md` (kick-off scaffolds). Index at [`workstream-handoffs/README.md`](workstream-handoffs/README.md).
 
 ### `tools/memory/`
 
