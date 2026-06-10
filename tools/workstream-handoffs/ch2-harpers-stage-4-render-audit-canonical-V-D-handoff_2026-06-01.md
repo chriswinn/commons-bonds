@@ -6,7 +6,7 @@
 
 ## Summary
 
-Stage 4 render audit fired against canonical V-D state (`origin/main` HEAD `0045952` 2026-06-01) per parent-session directive. Verdict: **CLEAN**. Audit artifact drafted at `/Users/c17n/commons-bonds/publishing/essays/harpers-the-miner/stage-4-render-audit_canonical-V-D_2026-06-01.md` (in the main checkout cwd).
+Stage 4 render audit fired against canonical V-D state (`origin/main` HEAD `0045952` 2026-06-01) per parent-session directive. Verdict: **CLEAN**. Audit artifact drafted at `/Users/c17n/commons-bonds/publishing/essays/harpers-the-miner/rigor/stage-4-render-audit_canonical-V-D_2026-06-01.md` (in the main checkout cwd).
 
 ## Findings (one-liner)
 
@@ -27,7 +27,7 @@ This subagent's cwd is `/Users/c17n/commons-bonds` (the main checkout), not the 
 ## Action for parent / next session
 
 1. From the parent's isolated worktree (`/Users/c17n/commons-bonds-ch2-harpers-audience-weighting-review-260601-ff7dac`):
-   - Pull/sync `publishing/essays/harpers-the-miner/stage-4-render-audit_canonical-V-D_2026-06-01.md` from the main-checkout location (the file is there; either `cp` or re-write equivalent content)
+   - Pull/sync `publishing/essays/harpers-the-miner/rigor/stage-4-render-audit_canonical-V-D_2026-06-01.md` from the main-checkout location (the file is there; either `cp` or re-write equivalent content)
    - Commit on the parent's isolated branch (`claude/ch2-harpers-audience-weighting-review-260601-ff7dac` per the worktree convention)
    - Push per merge-on-ratification scaffolding auto-merge default (rigor artifact = internal scaffolding; auto-merges at session close)
 

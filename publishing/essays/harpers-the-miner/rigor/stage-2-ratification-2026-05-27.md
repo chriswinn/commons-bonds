@@ -4,7 +4,7 @@
 **Ratification session:** Phase C ratification (agent-a3390c00c9b9a4df0 worktree)
 **Draft state:** PROPOSED commit `55842a3` → RATIFIED 2026-05-27 (no prose changes applied; ratify-as-proposed disposition)
 **Authority:** Author disposition 2026-05-27: *"ratify all as recommended and proposed; fire next phase/stage when ready"*
-**Cadence reference:** Amendment C Interactive Ratification Protocol + [`tools/memory/feedback_parallel_session_ratification_cadence.md`](../../../tools/memory/feedback_parallel_session_ratification_cadence.md) (single-batch disposition pattern; precedent at Atlantic Ideas Pass 3.3 commit `20e4316` + Pass 3.4 commit `6224af0`)
+**Cadence reference:** Amendment C Interactive Ratification Protocol + [`tools/memory/feedback_parallel_session_ratification_cadence.md`](../../../../tools/memory/feedback_parallel_session_ratification_cadence.md) (single-batch disposition pattern; precedent at Atlantic Ideas Pass 3.3 commit `20e4316` + Pass 3.4 commit `6224af0`)
 
 ---
 

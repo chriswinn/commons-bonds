@@ -17,7 +17,7 @@
 
 - Stage 2 draft + Pass 3.1 spot-fixes (input to Pass 3.2): `publishing/essays/harpers-the-miner/essay.md` (harness branch `worktree-agent-a12ed7f85945ace53`; post-Pass-3.1 state at the essay.md spot-fixes commit produced alongside this kickoff)
 - Stage 1 brief (audience set + voice-register anchor + apparatus discipline): `publishing/essays/harpers-the-miner/rigor/stage-1-brief.md` §5 voice register + §10 expository discipline + §16 hard constraints
-- PC-4 ratification artifact + Pass 3.1 carry-forward forward-flags: `publishing/essays/harpers-the-miner/stage-2-ratification-2026-05-27.md` §3 forward-flag inventory + §7 Pass 3.1 RATIFIED + APPLIED append
+- PC-4 ratification artifact + Pass 3.1 carry-forward forward-flags: `publishing/essays/harpers-the-miner/rigor/stage-2-ratification-2026-05-27.md` §3 forward-flag inventory + §7 Pass 3.1 RATIFIED + APPLIED append
 - Pass 3.1 artifact (immediate predecessor; carry-forward awareness items): `publishing/essays/harpers-the-miner/rigor/pass-3-1-fact-check.md` §6 forward-flag inventory
 - Em-dash discipline memory: `tools/memory/feedback_em_dash_overuse.md` 2026-05-21 RATIFIED — Pass 3.2 PRIMARY territory
 - Author substrate critical-editorial-input memory: `tools/memory/feedback_substrate_critical_editorial_input.md` 2026-05-21 RATIFIED
@@ -79,7 +79,7 @@ git -C $(pwd) fetch . refs/heads/worktree-agent-a12ed7f85945ace53:refs/heads/_pa
 After setup your worktree has:
 - `publishing/essays/harpers-the-miner/essay.md` (post-Pass-3.1 state; ~7,125w body)
 - `publishing/essays/harpers-the-miner/README.md` (Pass 3.1 RATIFIED + APPLIED state)
-- `publishing/essays/harpers-the-miner/stage-2-ratification-2026-05-27.md` (§7 Pass 3.1 RATIFIED + APPLIED append)
+- `publishing/essays/harpers-the-miner/rigor/stage-2-ratification-2026-05-27.md` (§7 Pass 3.1 RATIFIED + APPLIED append)
 - Pass 3.1 artifact + Stage 1 brief on origin/main (read-only)
 
 == Read in order ==
@@ -145,7 +145,7 @@ After setup your worktree has:
     (consolidated Pass 3.2 + Pass 3.5 forward-flags; carries forward
     PC-4 §3 inherited items + new application-time observations).
 
-11. **publishing/essays/harpers-the-miner/stage-2-ratification-2026-05-27.md**
+11. **publishing/essays/harpers-the-miner/rigor/stage-2-ratification-2026-05-27.md**
     — PC-4 + PC-5 + §7 Pass 3.1 RATIFIED + APPLIED append. §3
     forward-flag inventory + §3a PC-5 forward-flag dispositions
     (Ch 10 coherence-awareness routing + Atlantic Ideas numerical-

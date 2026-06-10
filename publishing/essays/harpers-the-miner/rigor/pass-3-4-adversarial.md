@@ -34,7 +34,7 @@ The audit is calibrated against the brief §13 + Pass 3.3 §0 disposition: the q
 7. **Stage 1 brief** [`stage-1-brief.md`](stage-1-brief.md): §1 adversarial-load characters A–G + §13 Pass 3.4 BY DEFAULT disposition + §16 hard constraints.
 8. **Pass 3.3 artifact** [`pass-3-3-audience-load.md`](pass-3-3-audience-load.md): RATIFIED PASS; §6.1 7 adversarial-character forward-flags A–G + per-character pre-disposition notes (load-bearing for Pass 3.4 calibration).
 9. **Pass 3.2 + Pass 3.1 artifacts:** RATIFIED + APPLIED 2026-05-27 (predecessor audits; essay.md state audited here inherits both).
-10. **PC-4 ratification artifact** [`publishing/essays/harpers-the-miner/stage-2-ratification-2026-05-27.md`](../../publishing/essays/harpers-the-miner/stage-2-ratification-2026-05-27.md).
+10. **PC-4 ratification artifact** [`publishing/essays/harpers-the-miner/rigor/stage-2-ratification-2026-05-27.md`](stage-2-ratification-2026-05-27.md).
 11. **Ch 2 chapter-level Pass 3.4 carry-forward** [`commons_bonds_rigor_pass_2026-05-24_ch2_the_miner_pass_3_4_audience_load_robustness_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-24_ch2_the_miner_pass_3_4_audience_load_robustness_v1.0.0.md) — RATIFIED ROBUST 2026-05-25 (chapter A1–A8 set + 8 threads T1–T8 + cross-pressure synthesis; essay-scope adversarial set narrows to A–G per brief §1).
 12. Format precedents: Ch 4 → Foreign Affairs Pass 3.4 2026-05-27 (closest temporal sibling); Ch 3 → Atlantic Main Pass 3.4 2026-05-27; Boston Review essay Pass 3.4 2026-05-22; Atlantic Ideas essay Pass 3.4 2026-05-26; $100 Barrel Pass 3.4 light 2026-05-23.
 13. Canonical thread-pull synthesis format: Ch 1 REAUDIT v3 §5.3.

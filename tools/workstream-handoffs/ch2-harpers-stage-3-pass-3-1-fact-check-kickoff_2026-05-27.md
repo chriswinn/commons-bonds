@@ -1,7 +1,7 @@
 # Ch 2 → Harper's Magazine — Stage 3 Pass 3.1 (fact-check) — kickoff paste-text
 
 **Date staged:** 2026-05-27
-**Predecessor:** Stage 2 audience-blind draft RATIFIED 2026-05-27 (Phase C ratification session at agent worktree `agent-a3390c00c9b9a4df0`); essay.md at commit `55842a3` on feature branch `worktree-agent-a3390c00c9b9a4df0`; Stage 1 brief RATIFIED at `origin/main` commit `be87926` with §18.4 ratification record + Stage 1a CLEAN BASELINE artifact at `tools/quality-gates/clean-baselines/ch2_harpers_stage1a_2026-05-27.md`; PC-4 ratification artifact + PC-5 forward-flag dispositions at `publishing/essays/harpers-the-miner/stage-2-ratification-2026-05-27.md` on feature branch.
+**Predecessor:** Stage 2 audience-blind draft RATIFIED 2026-05-27 (Phase C ratification session at agent worktree `agent-a3390c00c9b9a4df0`); essay.md at commit `55842a3` on feature branch `worktree-agent-a3390c00c9b9a4df0`; Stage 1 brief RATIFIED at `origin/main` commit `be87926` with §18.4 ratification record + Stage 1a CLEAN BASELINE artifact at `tools/quality-gates/clean-baselines/ch2_harpers_stage1a_2026-05-27.md`; PC-4 ratification artifact + PC-5 forward-flag dispositions at `publishing/essays/harpers-the-miner/rigor/stage-2-ratification-2026-05-27.md` on feature branch.
 **Status:** STAGED. Author fires Pass 3.1 in a fresh CC session by pasting the body block below.
 **Internal scaffolding** per CLAUDE.md merge-to-main policy — this paste-text file fast-forwards to main at session close (lands via temp-worktree cherry-pick alongside other scaffolding commits per the worked pattern from Phase C 2026-05-27 cited in `tools/memory/feedback_worktree_isolation_for_parallel_sessions.md` v1.0.1 empirical anchor).
 
@@ -19,7 +19,7 @@
   - Stage 2 audience-blind draft: `publishing/essays/harpers-the-miner/essay.md` (feature branch `worktree-agent-a3390c00c9b9a4df0` commit `55842a3`; 7,216w body; 8 sections per brief §4)
   - Stage 1 brief §7 canonical-facts inventory: `publishing/essays/harpers-the-miner/rigor/stage-1-brief.md` §7 (Amendment A canonical fact-ground; §7.1 Kennedy + §7.2 McDowell demographics + §7.3 Bailey + §7.4 Latusek + §7.5 Lilly+Hamby + §7.6 Black Lung Trust Fund + §7.7 SMCRA + §7.8 Purdue/Sackler/Big Three + §7.9 Mazzucato+Harvey + §7.10 regional-scholarship + §7.11 out-of-scope inventory)
   - Source chapter for fact-verification only (NOT for paraphrase per brief §6 Path B preemptive policy): `manuscript/chapters/Chapter__2_TheMiner.md`
-  - PC-4 ratification artifact (forward-flag inventory): `publishing/essays/harpers-the-miner/stage-2-ratification-2026-05-27.md` §3 + §3a (Pass-3.1-specific flags: §VI arithmetic-walk numerical anchors verification + §VII Purdue four-characteristic enumeration verification + Ch 10 RATIFIED-state §VIII coherence-awareness)
+  - PC-4 ratification artifact (forward-flag inventory): `publishing/essays/harpers-the-miner/rigor/stage-2-ratification-2026-05-27.md` §3 + §3a (Pass-3.1-specific flags: §VI arithmetic-walk numerical anchors verification + §VII Purdue four-characteristic enumeration verification + Ch 10 RATIFIED-state §VIII coherence-awareness)
 - **Methodology references:**
   - `tools/memory/feedback_audience_aware_drafting_discipline.md` v3.1 (Amendment A two-class cascade — Pass 3.1 is *automatic-on-edit* cascade; Amendment C Interactive Ratification Protocol — Pass 3.1 is prose-modifying so per-finding output uses Options + Recommendation + Reasoning, ratification + application combine in this same session)
   - `tools/memory/feedback_parallel_session_ratification_cadence.md` (one-finding-at-a-time presentation; status markers; end-of-session one-liner; ANTI-PATTERN A1 list-dump prohibition)
@@ -104,7 +104,7 @@ cherry-pick, your worktree has:
   pre-spot-fix; you'll modify this during Pass 3.1)
 - publishing/essays/harpers-the-miner/README.md (per-essay package
   status — update at session close with Pass 3.1 status)
-- publishing/essays/harpers-the-miner/stage-2-ratification-2026-05-27.md
+- publishing/essays/harpers-the-miner/rigor/stage-2-ratification-2026-05-27.md
   (PC-4/PC-5 ratification artifact — read for Pass-3.1-specific
   forward-flag inventory + §VI arithmetic-anchor verification list)
 
@@ -172,7 +172,7 @@ cherry-pick, your worktree has:
      only; Pass 3.1 does NOT re-litigate)
    - §16 hard constraints
 
-10. **publishing/essays/harpers-the-miner/stage-2-ratification-2026-05-27.md**
+10. **publishing/essays/harpers-the-miner/rigor/stage-2-ratification-2026-05-27.md**
     — **PC-4 + PC-5 RATIFICATION + FORWARD-FLAG INVENTORY.** Load-
     bearing sections for Pass 3.1:
     - §3 Pass-3.1-flagged items: §VI four-cost-component arithmetic

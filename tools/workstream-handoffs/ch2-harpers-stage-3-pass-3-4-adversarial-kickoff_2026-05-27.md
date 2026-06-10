@@ -108,7 +108,7 @@ git cherry-pick 706d3ef a602f79 c43b9da 6ae9af0 3cc8256
 After setup your worktree has:
 - `publishing/essays/harpers-the-miner/essay.md` (post-Pass-3.2 state; 7,017w)
 - `publishing/essays/harpers-the-miner/README.md`
-- `publishing/essays/harpers-the-miner/stage-2-ratification-2026-05-27.md`
+- `publishing/essays/harpers-the-miner/rigor/stage-2-ratification-2026-05-27.md`
 - Stage 1 brief + Pass 3.1 + Pass 3.2 + Pass 3.3 RATIFIED artifacts on origin/main (read-only)
 
 == Read in order ==
@@ -150,7 +150,7 @@ After setup your worktree has:
 9. **publishing/essays/harpers-the-miner/rigor/pass-3-2-voice-polish.md**
    + Pass 3.1 RATIFIED + APPLIED artifacts — predecessor audits.
 
-10. **publishing/essays/harpers-the-miner/stage-2-ratification-2026-05-27.md**
+10. **publishing/essays/harpers-the-miner/rigor/stage-2-ratification-2026-05-27.md**
     — PC-4 + PC-5 + §7 Pass 3.1 RATIFIED + APPLIED append +
     forward-flag inventory.
 

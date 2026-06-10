@@ -20,7 +20,7 @@
 - Pass 3.1 + Pass 3.2 artifacts (immediate predecessors):
   - `publishing/essays/harpers-the-miner/rigor/pass-3-1-fact-check.md`
   - `publishing/essays/harpers-the-miner/rigor/pass-3-2-voice-polish.md`
-- PC-4 + PC-5 ratification artifact (Stage 2 + Pass 3.1 dispositions): `publishing/essays/harpers-the-miner/stage-2-ratification-2026-05-27.md`
+- PC-4 + PC-5 ratification artifact (Stage 2 + Pass 3.1 dispositions): `publishing/essays/harpers-the-miner/rigor/stage-2-ratification-2026-05-27.md`
 - Wave 1 + Ch 4 → FA Pass 3.3 format precedents:
   - `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-22_boston_review_essay_stage3_pass_3_3_audience_load_v1.0.0.md` (long-form literary-and-institutional Pass 3.3 sibling)
   - `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-22_100_barrel_essay_stage3_pass_3_3_audience_load_v1.0.0.md` (literary-essay Pass 3.3 sibling)
@@ -156,7 +156,7 @@ After setup your worktree has:
    + §V Mazzucato + Harvey lineage paragraph HOLD per literary-
    essay-register justification).
 
-10. **publishing/essays/harpers-the-miner/stage-2-ratification-2026-05-27.md**
+10. **publishing/essays/harpers-the-miner/rigor/stage-2-ratification-2026-05-27.md**
     — PC-4 + PC-5 + §7 Pass 3.1 RATIFIED + APPLIED append +
     forward-flag inventory.
 
