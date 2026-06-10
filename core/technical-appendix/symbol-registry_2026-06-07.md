@@ -70,6 +70,7 @@
 | D(t,t₀), r(t), r₀, g(t) | discount factor; rate; initial rate; decline fn | (0,1]; rate; rate; — | D §1.5 (416) | Weitzman 2001 | ✓ | — |
 | RCV(R,t₀) | Residual Commons Value (the integral) | $·res⁻¹ | D §1.6 (425) | — | — | 🟢 (acronym collisions noted 427–445) |
 | B, B₁, B₂ | Accountability Bond; Restitution (backward); Foreclosure (forward) | $ | D §1.7, §2.1 (462,474) | Darity–Mullen 2020 (B₁); Hotelling/Hartwick (B₂) | — | 🔴 bare B vs "billion" suffix; 🟠 C₁ vs B₁ valence |
+| B̂_M2 | Method-2 **realized Bond** (observed internalization: fund accumulation + taxation capture + restitution paid + restraint exercised), per unit of extraction; sets the revealed lower bound RCV ≥ B̂_M2 | $·res⁻¹ | D §3.4 (~849; added 2026-06-10 reverse-CSD merge) | — | ✓ (hat = empirical estimate, standard) | 🟢 (hat distinguishes from posted-B; encoded `B&#770;`) |
 | CS, CSD | Cost Severance (=RCV−B); Cost Severance Damages (backward) | $ | D §1.7, §2.1 (465,474) | — | — | — |
 | Aⱼ, τⱼ | commons category j; its scarcity threshold | —; category-dep | D §1.8 (485) | — | — | 🔴 τ (see Part 1); 🟠 A |
 | CIT | Commons Inversion Test | — | D §1.8 (477) | — | — | — |
@@ -251,6 +252,7 @@ entries; the Latin framework variables and compound/subscripted forms are includ
 | Core quantities | D(t,t₀), r(t), r₀ | discount factor; discount rate; initial rate | (0,1]; rate; rate |
 | Core quantities | RCV(R,t₀) | Residual Commons Value (the integral) | $·res⁻¹ |
 | Core quantities | B, B₁, B₂ | Accountability Bond; Restitution Bond (backward); Foreclosure Bond (forward) | $ |
+| Core quantities | B̂_M2 | Method-2 realized Bond (observed internalization per unit of extraction; revealed lower bound RCV ≥ B̂_M2) | $·res⁻¹ |
 | Core quantities | CS, CSD | Cost Severance (= RCV − B); Cost Severance Damages (backward-looking) | $ |
 | Core quantities | IPG(R,t₀) | Intergenerational Pricing Gap (= RCV / P) | dimensionless |
 | Core quantities | CIT | Commons Inversion Test (the discovery method) | — |
