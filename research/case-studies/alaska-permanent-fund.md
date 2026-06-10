@@ -1,6 +1,6 @@
 # Case Study: Alaska Permanent Fund — US-Domestic Reachable Horizon
 
-**Created:** 2026-04-23 — reachable-horizon cluster anchor per `core/case-studies/commons_bonds_case_study_audit_v1.0.0.md` §5.4.
+**Created:** 2026-04-23 — reachable-horizon cluster anchor per `tools/audits/commons_bonds_case_study_audit_v1.0.0.md` §5.4.
 **Book home:** **Book 1 — Ch 9 (*The Renewable Imperative*) reachable-horizon anchor.** Pairs with `norway-swf.md` (international existence proof) to foreclose the "it could never work here" objection at US-domestic state scale.
 **Status:** Research file for Ch 9 integration. Not yet in any chapter draft.
 **Related cases:** `norway-swf.md` (international analog at national scale); `tax-tradeoff-us-sweden.md` (reachable-horizon cluster companion); `chattanooga-municipal-broadband.md`, `mondragon-cooperative.md`, `vienna-social-housing.md` (reachable-horizon cluster).

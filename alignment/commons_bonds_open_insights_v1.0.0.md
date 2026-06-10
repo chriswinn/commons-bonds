@@ -1225,7 +1225,7 @@ New insights automatically get added to the todo list in both states: one entry 
 
 **Broken-path fixes (post-iCloud-incident relocation + post-archive operations):**
 1. `tools/routines/proposed_routines_v1.0.0.md` — 4 instances of `/Users/c17n/Documents/___WorkingOn/commons-bonds` → `/Users/c17n/commons-bonds` (lines 31, 148, 254, 304; daily sentinel + weekly pre-submission audit + rigor pass tracker + open insights status sync prompts).
-2. `core/case-studies/commons_bonds_case_study_audit_v1.0.6.md` line 477 — `core/decomposition/eight-tier-v10.html` → `archive/decomposition/eight-tier-v10.html` with 8-tier RETIRED context note.
+2. `tools/audits/commons_bonds_case_study_audit_v1.0.6.md` line 477 — `core/decomposition/eight-tier-v10.html` → `archive/decomposition/eight-tier-v10.html` with 8-tier RETIRED context note.
 3. `alignment/patches/pending-framework-review/README.md` line 17 — `core/decomposition/` → `archive/decomposition/` with retirement context.
 4. `core/technical-appendix/TechnicalAppendix_v1.0.0.html` line 3007 — supplement reference → `core/technical-appendix/archive/...`
 5. `core/technical-appendix/empirical_sourcing_pass_2026-04-25.md` + `method3_sensitivity_analysis_2026-04-25.md` + `block4_validation_2026-04-25.md` — supplement references → archive path (3 files).
@@ -1236,7 +1236,7 @@ New insights automatically get added to the todo list in both states: one entry 
 8. `tools/README.md` line 65 — `commons_bonds_abundance_dimensions_v1_2_0.md` → `v1_3_0.md` (file listing).
 9. `research/case-studies/indigenous-land-dispossession.md` line 197 — v1_2_0 → v1_3_0 with Phase 3 absorption note.
 10. `research/literature/bibliography.md` line 935 — Tech Appendix v0.0.2 → v1.0.0 with Insight #60 note.
-11. `core/case-studies/commons_bonds_case_study_audit_v1.0.6.md` line 1562 — Tech Appendix v0.0.3 → v1.0.0 with archive note.
+11. `tools/audits/commons_bonds_case_study_audit_v1.0.6.md` line 1562 — Tech Appendix v0.0.3 → v1.0.0 with archive note.
 
 **Header-note additions (per refined WP#4 retention discipline):**
 12. `alignment/patches/canonical_term_regression_audit_2026-04-25.md` — header note added explaining v0.0.5 references describe historical state; current canonical is v1.0.0.

@@ -92,7 +92,7 @@ Based on the Tier 3 extension, here is the proposed classification for the Commo
 | `core/glossary/commons_bonds_updated_glossary_v3.html` | Current glossary. Reader-facing reference. Sweep. |
 | `core/technical-appendix/TechnicalAppendix_v1.0.0.html` | Current Tech Appendix. Reader-facing. Sweep. (Note: scheduled for v2.0.0 rebuild that will derive from terms_index, which is itself the cleanest sweep mechanism.) |
 | `research/case-studies/*.md` | Currently feeds chapter prose. Treat as Tier 1 because content flows to publisher-facing chapters. **Per-instance judgment required (Axis L2)** for lowercase descriptive uses. |
-| `core/case-studies/commons_bonds_case_study_audit_v1.0.6.md` | Active audit doc. **Per Principle #4 table = Tier 1.** Re-examined here: this is an author-facing scaffolding tool, but it's the document the author USES to audit case studies for current vocabulary. Decision: **stays Tier 1** because it should reflect current vocabulary — a future audit pass shouldn't see retired terms as "currently active." Historical references to retired terms (e.g., "previously called Value Capture") may be left if they preserve a reasoning chain; but pattern-match references should sweep. |
+| `tools/audits/commons_bonds_case_study_audit_v1.0.6.md` | Active audit doc. **Per Principle #4 table = Tier 1.** Re-examined here: this is an author-facing scaffolding tool, but it's the document the author USES to audit case studies for current vocabulary. Decision: **stays Tier 1** because it should reflect current vocabulary — a future audit pass shouldn't see retired terms as "currently active." Historical references to retired terms (e.g., "previously called Value Capture") may be left if they preserve a reasoning chain; but pattern-match references should sweep. |
 
 ### Tier 2 — Reader-facing archived / superseded versions — header-note annotation only
 
@@ -122,7 +122,7 @@ Based on the Tier 3 extension, here is the proposed classification for the Commo
 
 ### Edge cases / tier-judgment notes
 
-- **`core/case-studies/commons_bonds_case_study_audit_v1.0.6.md`** — placed in Tier 1 above with per-instance reasoning. Author's call.
+- **`tools/audits/commons_bonds_case_study_audit_v1.0.6.md`** — placed in Tier 1 above with per-instance reasoning. Author's call.
 - **`research/case-studies/*.md`** — placed in Tier 1; per-instance judgment for lowercase. Author's call.
 - **Mixed-content alignment files** — when a current alignment file (Tier 3) gets bumped to a new version, the old version moves to Tier 2 (archived). Standard versioning lifecycle.
 
@@ -139,7 +139,7 @@ Given the Tier classification and Axis-L2 lowercase discipline, here's the sweep
 | `manuscript/chapters/Chapter__4_THEEXISTENCEPROOF__Draft.md` | 1 | Sweep proper-noun → Value Extraction. |
 | `manuscript/chapters/Chapter__5_THEACCOUNTABILITYGAP__Draft.md` | 4 | Sweep proper-noun → Value Extraction; lowercase per-instance review. |
 | `core/glossary/commons_bonds_updated_glossary_v3.html` | 2 | One is Cost-Severance entry prose ("separates value capture from cost bearing") — sweep to "value extraction." Other is the standalone "Value Capture" term entry at line 337 — **remove or rewrite as RETIRED-pointer to Value Extraction**. (Glossary v4 rebuild will derive from terms_index cleanly; until then v3 patches.) |
-| `core/case-studies/commons_bonds_case_study_audit_v1.0.6.md` | 4 | Sweep proper-noun; lowercase per-instance review. |
+| `tools/audits/commons_bonds_case_study_audit_v1.0.6.md` | 4 | Sweep proper-noun; lowercase per-instance review. |
 | `research/case-studies/indigenous-land-dispossession.md` | 1 | Per-instance review. |
 | `research/case-studies/ancient-egypt-pyramids.md` | 1 | Per-instance review. |
 | `research/case-studies/mondragon-cooperative.md` | 1 | Per-instance review. |
@@ -263,7 +263,7 @@ Going forward, every retirement rigor pass invokes this Tier 3 framework. The re
 
 1. **`research/case-studies/*.md` Tier classification.** §3 places these in Tier 1 (reader-facing-adjacent because content flows to chapters). Alternative: Tier 3 if treated as raw research that gets quoted/paraphrased into chapters with author judgment per quote. Author's call.
 
-2. **`core/case-studies/commons_bonds_case_study_audit_v1.0.6.md` Tier classification.** §3 places in Tier 1 per existing Principle #4 table. Alternative: Tier 3 if treated as author-facing scaffolding for the case-study writing process. Author's call.
+2. **`tools/audits/commons_bonds_case_study_audit_v1.0.6.md` Tier classification.** §3 places in Tier 1 per existing Principle #4 table. Alternative: Tier 3 if treated as author-facing scaffolding for the case-study writing process. Author's call.
 
 3. **Should the Tier classification go in working_principles_v1.0.0 itself, or stay in this rigor pass?** §8 Phase 1 proposes adding a Tier 3 row to Principle #4's table; an alternative is to add the per-folder classification table inline to working_principles. Trade-off: inline = single-source; rigor-pass-only = principle stays compact + classification stays separately versionable. RECOMMENDED: inline the Tier-3 ROW to Principle #4 table; keep the per-folder classification in this rigor pass (which gets cross-referenced).
 

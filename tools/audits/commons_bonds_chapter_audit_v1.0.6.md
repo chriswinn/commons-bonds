@@ -13,7 +13,7 @@
 **Supersedes v1.0.1:** §2.6 rewritten against actual Ch 6 HTML draft read (corrects bottom-up totals to $8-$22 absent carbon, $550-570 with; identifies 2 counterarguments in draft vs. 6 in guidance — architectural compression, not oversight; cross-chapter counterargument distribution verified against Ch 9 + Ch 10); §2.9 updated to reflect completed reachable-horizon cluster integration (Alaska promoted to full anchor; Chattanooga + Mondragon + Vienna added as dedicated paragraphs in entering-wedges section); §1 cross-chapter table status updates.
 **Supersedes v1.0.0 partial** — replaces placeholder §§2.1, 2.3, 2.6, 2.7, 2.8, 2.9 with full profiles; re-verifies §§2.2, 2.4, 2.5, 2.10 against actual drafts; adds §§4 + 5.
 **Protocol applied:** `tools/commons_bonds_rigor_protocol_v2.2.0.md`.
-**Parallel to:** `core/dimensions/commons_bonds_abundance_dimensions_v1_2_0.md` (will bump to v1.3.0 under Phase A1 Task 3) + `core/case-studies/commons_bonds_case_study_audit_v1.0.5.md` (will bump to v1.0.6 under Phase A1 Task 2).
+**Parallel to:** `core/dimensions/commons_bonds_abundance_dimensions_v1_2_0.md` (will bump to v1.3.0 under Phase A1 Task 3) + `tools/audits/commons_bonds_case_study_audit_v1.0.5.md` (will bump to v1.0.6 under Phase A1 Task 2).
 
 ## §0.1a v1.0.6 change log — Path F reframing
 
@@ -967,7 +967,7 @@ Both extractions are Test 29 (scaffolding-vs-book-worthy) discipline applied to 
 
 ## §6. Cross-references (updated)
 
-- `core/case-studies/commons_bonds_case_study_audit_v1.0.1.md` — Session A case-study audit (parallel).
+- `tools/audits/commons_bonds_case_study_audit_v1.0.1.md` — Session A case-study audit (parallel).
 - `core/dimensions/commons_bonds_abundance_dimensions_v1_2_0.md` — canonical 10-dimension reference.
 - `tools/commons_bonds_rigor_protocol_v1.3.0.md` — protocol applied.
 - `tools/commons_bonds_book_scope_v1_0_3.md` — book scope.

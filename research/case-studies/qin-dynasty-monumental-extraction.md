@@ -62,7 +62,7 @@ For Ch 7's universality-test function — paired with the pyramids case — the 
 - `research/case-studies/ancient-egypt-pyramids.md` — paired Ch 7 anchor.
 - `research/case-studies/feudalism.md` — retained for Ch 7 + Ch 10 (different function — post-capitalist continuation).
 - `research/case-studies/appalachian-coal.md` — contemporary parallel (compressed-extraction case in the sense Qin was compressed-extraction; extraction pace outruns sustainability; community absorbs the collapse).
-- `core/case-studies/commons_bonds_case_study_audit_v1.0.4.md` — audit-level verdict + routing.
+- `tools/audits/commons_bonds_case_study_audit_v1.0.4.md` — audit-level verdict + routing.
 
 ---
 

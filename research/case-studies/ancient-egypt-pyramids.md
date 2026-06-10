@@ -60,7 +60,7 @@ For Ch 7's universality-test function, the pyramids demonstrate that the mechani
 - `research/case-studies/qin-dynasty-monumental-extraction.md` — paired Ch 7 anchor.
 - `research/case-studies/feudalism.md` — retained for Ch 7 + Ch 10 (different function — post-capitalist continuation).
 - `research/case-studies/appalachian-coal.md` — contemporary parallel (skilled labor, structurally foreclosed exit).
-- `core/case-studies/commons_bonds_case_study_audit_v1.0.4.md` — audit-level verdict + routing.
+- `tools/audits/commons_bonds_case_study_audit_v1.0.4.md` — audit-level verdict + routing.
 
 ---
 

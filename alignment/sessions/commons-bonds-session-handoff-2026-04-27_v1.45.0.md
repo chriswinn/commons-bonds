@@ -112,8 +112,8 @@ START THE NEXT SESSION BY: reading this handoff file (alignment/sessions/commons
 - Tier A live-doc reference updates (5 docs): chapter-title substitutions + Mars-colony→Mars-habitat substitutions
 - Tier A docs updated:
   - core/terms/terms_index.md
-  - core/chapters/commons_bonds_chapter_audit_v1.0.6.md
-  - core/case-studies/commons_bonds_case_study_audit_v1.0.6.md
+  - tools/audits/commons_bonds_chapter_audit_v1.0.6.md
+  - tools/audits/commons_bonds_case_study_audit_v1.0.6.md
   - core/methodology/cit_examples_v1_0_0.md
   - tools/commons_bonds_book_scope_v1_0_3.md
   - research/commons_bonds_stands_the_test_of_time_drafts_v1.0.0.md
@@ -125,7 +125,7 @@ START THE NEXT SESSION BY: reading this handoff file (alignment/sessions/commons
   - archive/_OneDayMaybe/* (Book 2/3 archived drafts)
   - alignment/decisions/april-19-* (date-specific historical decisions)
   - alignment/patches/cit_positioning_consistency_audit_2026-04-25.md (historical audit)
-  - core/chapters/commons_bonds_chapter_audit_v1.0.0.md (older version superseded)
+  - tools/audits/commons_bonds_chapter_audit_v1.0.0.md (older version superseded)
   - tools/rigor-passes/* (date-stamped historical rigor-pass snapshots)
   - core/technical-appendix/* (pending Insight #21 dedicated session)
 
@@ -287,8 +287,8 @@ Bibliography:
 
 Live working docs (Path C):
 - core/terms/terms_index.md
-- core/chapters/commons_bonds_chapter_audit_v1.0.6.md
-- core/case-studies/commons_bonds_case_study_audit_v1.0.6.md
+- tools/audits/commons_bonds_chapter_audit_v1.0.6.md
+- tools/audits/commons_bonds_case_study_audit_v1.0.6.md
 - core/methodology/cit_examples_v1_0_0.md
 - tools/commons_bonds_book_scope_v1_0_3.md
 - research/commons_bonds_stands_the_test_of_time_drafts_v1.0.0.md

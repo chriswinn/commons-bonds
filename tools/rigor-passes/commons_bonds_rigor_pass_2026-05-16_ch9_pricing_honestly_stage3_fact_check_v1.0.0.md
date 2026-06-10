@@ -554,7 +554,7 @@ The following claims were verified against canonical sources and require no spot
 | NEPA 1970 | Ch 9:221 | ✓ Signed January 1, 1970 |
 | EU ETS started ~2005 | Ch 9:233 (implicit) | ✓ Phase 1 began 1 January 2005 |
 | Annual global severed cost ($10-15T) | Ch 9:107 | ✓ per Ch 8:213 + cross-chapter inventory line 111 |
-| Four-step framework naming (Classify → Reserve → Invest → Reassess) | Ch 9:18 + section headers | ✓ consistent throughout Ch 9; matches canonical naming in `core/chapters/commons_bonds_chapter_audit_v1.0.6.md` |
+| Four-step framework naming (Classify → Reserve → Invest → Reassess) | Ch 9:18 + section headers | ✓ consistent throughout Ch 9; matches canonical naming in `tools/audits/commons_bonds_chapter_audit_v1.0.6.md` |
 | Existential substitutability gap (lowercase prose phrase) | Ch 9 (multiple) | ✓ consistent lowercase usage per cross-chapter inventory line 46 |
 | FMLA signed Feb 5, 1993; 12 weeks unpaid leave | Ch 9:140 (Public Choice insertion) | ✓ per US Department of Labor + Wikipedia + Federal Register |
 | Chamber of Commerce + business lobbies opposed FMLA + opposed paid version; final bill provided unpaid leave | Ch 9:140 (Public Choice insertion) | ✓ per Family Values @ Work + OAH historical record + Newsweek |

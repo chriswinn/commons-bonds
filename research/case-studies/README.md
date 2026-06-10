@@ -4,7 +4,7 @@
 
 ## Current state (status overview — see audit for authoritative detail)
 
-**Authoritative integration tracker:** [`core/case-studies/commons_bonds_case_study_audit_v1.0.6.md`](../../core/case-studies/commons_bonds_case_study_audit_v1.0.6.md) — per-case integration status, dimension activations, rigor-test verdicts, and chapter placements for all 18+ cases.
+**Authoritative integration tracker:** [`tools/audits/commons_bonds_case_study_audit_v1.0.6.md`](../../tools/audits/commons_bonds_case_study_audit_v1.0.6.md) — per-case integration status, dimension activations, rigor-test verdicts, and chapter placements for all 18+ cases.
 
 The folder now holds 22 standalone case-study writeups. Each case is at one of three integration states tracked in the audit:
 

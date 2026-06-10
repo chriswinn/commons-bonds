@@ -4,7 +4,7 @@
 **Date:** 2026-04-23
 **Status:** Partial draft — Session B companion to case-study audit. Skeleton complete; 4 full chapter profiles produced (Ch 2, Ch 4, Ch 5, Ch 10 — the chapters whose cases Session A audit examined in depth); 6 remaining chapter profiles (Ch 1, Ch 3, Ch 6, Ch 7, Ch 8, Ch 9) awaiting completion. Structural template is stable; remaining profiles can be produced against the same template without revisiting framework.
 **Protocol applied:** `tools/commons_bonds_rigor_protocol_v1.3.0.md`.
-**Parallel to:** `core/dimensions/commons_bonds_abundance_dimensions_v1_2_0.md` (10 dimensions), `core/case-studies/commons_bonds_case_study_audit_v1.0.1.md` (16 case studies). This document completes the audit trilogy — 10 chapters.
+**Parallel to:** `core/dimensions/commons_bonds_abundance_dimensions_v1_2_0.md` (10 dimensions), `tools/audits/commons_bonds_case_study_audit_v1.0.1.md` (16 case studies). This document completes the audit trilogy — 10 chapters.
 **Related:** All chapter drafts + guidance docs at `manuscript/chapters/`; case-study audit §3.2 provides the case-to-chapter map this audit verifies.
 
 ---
@@ -509,7 +509,7 @@ These remain as Chris's work + subsequent sessions' work.
 
 ## §6. Cross-references
 
-- `core/case-studies/commons_bonds_case_study_audit_v1.0.1.md` — Session A case-study audit.
+- `tools/audits/commons_bonds_case_study_audit_v1.0.1.md` — Session A case-study audit.
 - `core/dimensions/commons_bonds_abundance_dimensions_v1_2_0.md` — canonical 10-dimension reference.
 - `tools/commons_bonds_rigor_protocol_v1.3.0.md` — protocol applied.
 - `tools/commons_bonds_book_scope_v1_0_3.md` — book scope.

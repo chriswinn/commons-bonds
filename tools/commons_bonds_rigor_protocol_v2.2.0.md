@@ -2233,11 +2233,11 @@ SHOW-STOPPER: [Yes / No; if Yes, specify level]
 
 ### §18.5 Fifth worked example (v2.0.0) — case-study audit v1.0.5
 
-`core/case-studies/commons_bonds_case_study_audit_v1.0.5.md` — 18 cases profiled; per-case rigor + routing. This is the implicit M2 that v2.0.0 formalizes. Post-v2.0.0, case-study audits are explicit M2 runs with the module-level procedure documented.
+`tools/audits/commons_bonds_case_study_audit_v1.0.5.md` — 18 cases profiled; per-case rigor + routing. This is the implicit M2 that v2.0.0 formalizes. Post-v2.0.0, case-study audits are explicit M2 runs with the module-level procedure documented.
 
 ### §18.6 Sixth worked example (v2.0.0) — chapter audit v1.0.5
 
-`core/chapters/commons_bonds_chapter_audit_v1.0.5.md` — 10 chapter profiles + integration catalog. This draws from M3 + M4 + M5 + M6 (scattered across the audit's rigor applications). Post-v2.0.0, chapter audits draw from explicit module runs rather than implicit ones.
+`tools/audits/commons_bonds_chapter_audit_v1.0.5.md` — 10 chapter profiles + integration catalog. This draws from M3 + M4 + M5 + M6 (scattered across the audit's rigor applications). Post-v2.0.0, chapter audits draw from explicit module runs rather than implicit ones.
 
 ---
 
@@ -2382,8 +2382,8 @@ Full v1.3.0 change log preserved at `tools/archive/commons_bonds_rigor_protocol_
 - **Two-path source:** `alignment/patches/pending-framework-review/c2_scale_abstract_patch.md`, `...c3_mechanism_shield_patch.md`, `...c5_two_path_rigor.md` (preserved paths; c5 archived).
 - **Success criteria source:** `tools/commons_bonds_book_scope_v1_0_3.md` + `tools/commons_bonds_guiding_constraints_v1_0_0.md`.
 - **Scaffolding-vs-load-bearing canonical:** `alignment/patches/pending-framework-review/c9_ait_canonical_positioning_patch.md`.
-- **Case-study audit (M2 worked example):** `core/case-studies/commons_bonds_case_study_audit_v1.0.5.md`.
-- **Chapter audit (M3 + M4 worked example):** `core/chapters/commons_bonds_chapter_audit_v1.0.5.md`.
+- **Case-study audit (M2 worked example):** `tools/audits/commons_bonds_case_study_audit_v1.0.5.md`.
+- **Chapter audit (M3 + M4 worked example):** `tools/audits/commons_bonds_chapter_audit_v1.0.5.md`.
 - **Indigenous case sensitivity-reader protocol:** `research/case-studies/indigenous-land-dispossession.md` §7.1.
 - **Worked rigor-pass records:** `tools/rigor-passes/` (v1.0.1–v1.0.6).
 - **Superseded protocols:** v1.3.0 (archived at `tools/archive/`; mapping at §0.2). v2.0.0 (single-state-only; superseded by v2.1.0 next day; retired via git history). v2.1.0 (Path Comparison Mode without informational goals; superseded by v2.2.0 next day; retired via git history). v2.2.0 mapping back to v2.1.0 + v2.0.0 + v1.3.0 preserved.

@@ -797,8 +797,8 @@ Ordered per dependency. Conditions 1 + 2 are sequentially dependent (gates must 
 
 | # | Task | Location | Depends on | Est. effort | Lands in |
 |---|---|---|---|---|---|
-| 1 | **Phase A1: Chapter audit v1.0.6** — reframe per Path F | `core/chapters/commons_bonds_chapter_audit_v1.0.6.md` | — | 2-3 days | Phase A1 |
-| 2 | **Phase A1: Case-study audit v1.0.6** — cases-as-worked-examples-of-method | `core/case-studies/commons_bonds_case_study_audit_v1.0.6.md` | Task 1 | 2-3 days | Phase A1 |
+| 1 | **Phase A1: Chapter audit v1.0.6** — reframe per Path F | `tools/audits/commons_bonds_chapter_audit_v1.0.6.md` | — | 2-3 days | Phase A1 |
+| 2 | **Phase A1: Case-study audit v1.0.6** — cases-as-worked-examples-of-method | `tools/audits/commons_bonds_case_study_audit_v1.0.6.md` | Task 1 | 2-3 days | Phase A1 |
 | 3 | **Phase A1: Dimensions canonical doc v1.3.0** — reframe from canonical taxonomy to illustrative-variables | `core/dimensions/commons_bonds_abundance_dimensions_v1_3_0.md` | — (can parallel Tasks 1+2) | 1-2 days | Phase A1 |
 | 4 | **Phase A1: 8-tier decomposition reframing** — "one way to organize per-case accounting; other organizations possible" | `core/decomposition/eight-tier-v10.html` or new versioned doc | — (can parallel Tasks 1-3) | 1-2 days | Phase A1 |
 | 5 | **Phase A2: Four-gate formal specification** — Condition 1 | Technical Appendix v0.0.4 | Tasks 1-4 | 1 week | Phase A2 |

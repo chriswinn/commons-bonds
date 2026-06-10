@@ -1,6 +1,6 @@
 # Case Study: Chattanooga Municipal Broadband (EPB Fiber Optics) — Infrastructure-Commons at Municipal Scale
 
-**Created:** 2026-04-23 — reachable-horizon cluster per `core/case-studies/commons_bonds_case_study_audit_v1.0.0.md` §5.4.
+**Created:** 2026-04-23 — reachable-horizon cluster per `tools/audits/commons_bonds_case_study_audit_v1.0.0.md` §5.4.
 **Book home:** **Book 1 — Ch 9 reachable-horizon companion.** Brief anchor, not full-chapter case.
 **Status:** Research file for Ch 9 integration.
 **Related cases:** `alaska-permanent-fund.md` (cluster anchor at state scale); `tax-tradeoff-us-sweden.md`; `mondragon-cooperative.md`; `vienna-social-housing.md`.

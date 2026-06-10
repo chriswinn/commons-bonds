@@ -3,7 +3,7 @@
 **Version:** 1.0.0
 **Date:** 2026-04-23
 **Status:** Source-material drafts for chapter integration. Chris refines these into final chapter prose.
-**Protocol context:** Responds to `core/case-studies/commons_bonds_case_study_audit_v1.0.0.md` §6.3 — the additional disciplines required to move the book from "great" to "stands the test of time."
+**Protocol context:** Responds to `tools/audits/commons_bonds_case_study_audit_v1.0.0.md` §6.3 — the additional disciplines required to move the book from "great" to "stands the test of time."
 **Related:** Sociology-paper-source items 2, 4, 5 (contingency argument, steelman, reachable horizon); Ch 10 GuidanceDoc final-paragraph anchor; framework-integrity register-discipline note.
 
 ---
@@ -228,7 +228,7 @@ These can be drafted in a subsequent session when chapter-integration work begin
 
 ## §6. Cross-references
 
-- `core/case-studies/commons_bonds_case_study_audit_v1.0.0.md` — parent audit doc; §6 assessment defines the "stands the test of time" items this document drafts.
+- `tools/audits/commons_bonds_case_study_audit_v1.0.0.md` — parent audit doc; §6 assessment defines the "stands the test of time" items this document drafts.
 - `research/case-studies/indigenous-land-dispossession.md` — critical-develop case file (companion to this document's §2 final-paragraph register discipline).
 - `research/case-studies/alaska-permanent-fund.md` + Chattanooga + Mondragon + Vienna — reachable-horizon cluster (feeds this document's §3 Nordic-model steelman defeat).
 - `manuscript/chapters/Chapter__9___GuidanceDoc.md` — target chapter for §1 contingency argument + §3 steelman integration.

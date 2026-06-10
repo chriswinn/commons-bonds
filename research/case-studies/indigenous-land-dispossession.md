@@ -1,6 +1,6 @@
 # Case Study: Indigenous Land Dispossession
 
-**Created:** 2026-04-23 — replacing stub with substantial case-study development per `core/case-studies/commons_bonds_case_study_audit_v1.0.0.md` §2.16 CRITICAL-DEVELOP routing.
+**Created:** 2026-04-23 — replacing stub with substantial case-study development per `tools/audits/commons_bonds_case_study_audit_v1.0.0.md` §2.16 CRITICAL-DEVELOP routing.
 **Book home:** **Book 1 — Ch 10 load-bearing anchor.** Possibly Ch 2/3 section in support.
 **Status:** Substantial case-study file; NOT YET INTEGRATED into Ch 10 draft. Integration requires pre-drafting sensitivity review — see §7.
 **Related cases:** `appalachian-coal.md` (same structural mechanism operating on different commons); `chesapeake-fisheries.md` (Ecosystem + Kindred commons at different scale); `norway-swf.md` (the existence-proof that institutional architecture determines outcome — contrast case illuminating what the US chose not to build).
@@ -241,7 +241,7 @@ Specific register notes:
 
 ## §9. Cross-references
 
-- `core/case-studies/commons_bonds_case_study_audit_v1.0.0.md` §2.16 — audit-level verdict + routing.
+- `tools/audits/commons_bonds_case_study_audit_v1.0.0.md` §2.16 — audit-level verdict + routing.
 - `research/literature/bibliography.md` §14 — Kindred scholarship (contains most of §6.1 canonical references).
 - `alignment/patches/pending-framework-review/c3_mechanism_shield_patch.md` — mechanism/shield architectural distinction applicable to the legal-architectural shield type.
 - `manuscript/chapters/Chapter_10___GuidanceDoc.md` — proposed chapter home.
