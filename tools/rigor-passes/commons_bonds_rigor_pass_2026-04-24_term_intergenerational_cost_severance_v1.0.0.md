@@ -396,7 +396,7 @@ Wins on every module with meaningful signal. M1 and M7 indifferent (CORE and ori
 
 **Effort:** ~5 minutes.
 
-**Where:** `core/glossary/commons_bonds_updated_glossary_v2.html` → v3.
+**Where:** `core/glossary/archive/commons_bonds_updated_glossary_v2.html` → v3.
 
 ### Condition 2 — Ch 6 integration
 

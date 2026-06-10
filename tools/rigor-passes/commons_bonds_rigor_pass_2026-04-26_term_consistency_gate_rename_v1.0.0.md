@@ -496,7 +496,7 @@ Absent these triggers, verdict stands.
 - `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_vocabulary_footprint_meta_v1.0.0.md` — meta-pass §12.2 + §12.3 T2 decision (Units vs Dimensional).
 - `core/terms/terms_index.md` — Four Gates record + Units Consistency record.
 - `core/technical-appendix/TechnicalAppendix_v0.0.5_supplement.md` §6.2 — Four Gates admission apparatus operationalization.
-- `core/glossary/commons_bonds_updated_glossary_v3.html` — glossary entries for Four Gates terms.
+- `core/glossary/archive/commons_bonds_updated_glossary_v3.html` — glossary entries for Four Gates terms.
 - `alignment/commons_bonds_open_insights_v1.0.0.md` Insight #2 — gate-naming-cohort consistency.
 
 ---

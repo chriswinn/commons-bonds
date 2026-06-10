@@ -204,7 +204,7 @@ For each surface, the audit (a) reads current state via grep + targeted Read; (b
 
 ### §4.5 Glossary v3 entry
 
-**Current state:** `core/glossary/commons_bonds_updated_glossary_v3.html`:
+**Current state:** `core/glossary/archive/commons_bonds_updated_glossary_v3.html`:
 - Line 235-236: term entry titled "Three Ways of Counting" with definition that includes inline preserved-form *"described inline as 'the triangulated three-method range.'"*
 - Line 288: cross-reference under RCV — *"forward-looking; resource permanent-foreclosure; triangulated estimation; pairs with B2 (Foreclosure Bond)"* — uses "triangulated estimation" descriptively (legitimate).
 - Line 392: index entry — *"**Three Ways of Counting** — Ring 2 estimation methodology with three sub-methods (renamed 2026-04-28 from 'Triangulated RCV Estimation'; methodology unchanged)."*

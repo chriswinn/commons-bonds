@@ -9,7 +9,7 @@
 **Publisher-facing primary scope (12 files):**
 - 10 chapter drafts: `manuscript/chapters/Chapter_*Draft.md` + `Chapter__6_ThreeWaysofCounting__Draft.html` + `Chapter__6___SupplementaryDrafts_2026-04-24.md` (Note: Ch 3 has no draft, only a guidance doc.)
 - `core/technical-appendix/TechnicalAppendix_v1.0.0.html` (7,438 lines)
-- `core/glossary/commons_bonds_updated_glossary_v3.html` (406 lines)
+- `core/glossary/archive/commons_bonds_updated_glossary_v3.html` (406 lines)
 
 **Drafting scaffolding (separate aggregate counts only — no per-occurrence tables):**
 - 10 GuidanceDocs: `manuscript/chapters/Chapter_*___GuidanceDoc.md`
@@ -31,7 +31,7 @@
 | Ch9 draft | manuscript/chapters/Chapter__9_PricingHonestly__Draft.md |
 | Ch10 draft | manuscript/chapters/Chapter_10_CommonBonds__Draft.md |
 | TA | core/technical-appendix/TechnicalAppendix_v1.0.0.html |
-| Glossary v3 | core/glossary/commons_bonds_updated_glossary_v3.html |
+| Glossary v3 | core/glossary/archive/commons_bonds_updated_glossary_v3.html |
 | Ch_n_ guide | manuscript/chapters/Chapter__n___GuidanceDoc.md |
 
 ## Counting note

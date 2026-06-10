@@ -116,11 +116,11 @@ New insights automatically get added to the todo list in both states: one entry 
 - **Category:** vocabulary · craft
 - **Content:** "Foreclosure Cost" appeared twice in glossary v2: once under Mathematical and Measurement Terms, once as Tier 4. The duplicate resolved automatically when tier dissolution happened, but the original concern was broader: the glossary v2 → v3 bump might need more than a rename sweep — a full structural walk-through to catch other duplicates or stale entries.
 - **Closure (2026-04-26):** Closed via the cumulative work of:
-  - **M12 intellectual-honesty sweep** (`tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_m12_intellectual_honesty_sweep_v1.0.0.md`, commit `c07a7c1`) — comprehensive M12 sweep across **every term currently in `core/terms/terms_index.md` plus every term referenced in `core/glossary/commons_bonds_updated_glossary_v3.html`**. Each term verified against M12 Corollary D 7-level action ladder. Surfaced + corrected v1.43.0 misframing on CSG; comprehensive structural audit completed.
+  - **M12 intellectual-honesty sweep** (`tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_m12_intellectual_honesty_sweep_v1.0.0.md`, commit `c07a7c1`) — comprehensive M12 sweep across **every term currently in `core/terms/terms_index.md` plus every term referenced in `core/glossary/archive/commons_bonds_updated_glossary_v3.html`**. Each term verified against M12 Corollary D 7-level action ladder. Surfaced + corrected v1.43.0 misframing on CSG; comprehensive structural audit completed.
   - **Glossary v3 build** (commit `5123da6`) — glossary v3 was constructed from scratch with provenance discipline, not as a rename sweep over v2. Each entry was created with its current ratified status + rigor-pass cross-reference. The "structural walk-through" the original insight asked for IS the v3 build itself.
-  - **Glossary v2** (`core/glossary/commons_bonds_updated_glossary_v2.html`) — retired; preserved as lineage record. The Foreclosure Cost duplicate that triggered the insight is in v2 only and does not propagate to v3.
+  - **Glossary v2** (`core/glossary/archive/commons_bonds_updated_glossary_v2.html`) — retired; preserved as lineage record. The Foreclosure Cost duplicate that triggered the insight is in v2 only and does not propagate to v3.
 - **Glossary as of 2026-04-26:** v3 is current canonical (commit `5123da6`); covers Ring-1 / Ring-2 / Architecture / Commons Categories / Retired Terms with provenance per entry. Cross-checked by M12 sweep against terms_index. No outstanding structural-audit items.
-- **Dependencies / Links:** M12 sweep + glossary v3 build; `core/glossary/commons_bonds_updated_glossary_v3.html` (current canonical); `core/terms/terms_index.md` (cross-referenced by every glossary entry).
+- **Dependencies / Links:** M12 sweep + glossary v3 build; `core/glossary/archive/commons_bonds_updated_glossary_v3.html` (current canonical); `core/terms/terms_index.md` (cross-referenced by every glossary entry).
 - **Todo link:** N/A (closed).
 
 ### Insight #6 — Running 31 individual rigor passes may be the wrong structural approach
@@ -1023,7 +1023,7 @@ New insights automatically get added to the todo list in both states: one entry 
 - **Implementation pending:**
   - **`core/terms/terms_index.md` Externality Tail entry — insert §13.1 (a) Notational disambiguation subsection (~120 words).**
   - **Tech Appendix v1.0.0 HTML §B Definition A.4 (line 455) — replace with §13.1 (b) extended text.**
-  - **`core/glossary/commons_bonds_updated_glossary_v3.html` Externality Tail entry — append §13.1 (c) disambiguating sentence.**
+  - **`core/glossary/archive/commons_bonds_updated_glossary_v3.html` Externality Tail entry — append §13.1 (c) disambiguating sentence.**
   - **Bibliography expansion** — Mandelbrot 1963; Taleb 2007; Embrechts et al. 1997; Anderson 2006.
   - Same open question as Insights #35 + #38 + #40 + #47 + #48 + Phase 2 #8 Tech Appendix HTML edit timing: apply now to v1.0.0 vs batch into Phase 3 v2.0.0 rebuild.
   - **Pre-publication external review** (per Insight #39) — multi-disciplinary review (welfare economist + finance/risk practitioner or actuary).
@@ -1044,7 +1044,7 @@ New insights automatically get added to the todo list in both states: one entry 
 - **Implementation pending:**
   - **`core/terms/terms_index.md` Residual Commons Value entry — insert §13.1 (a) Notational disambiguation subsection (Ranked-Choice Voting first per §15 Q5) + §13.2 First-introduction discipline subsection.**
   - **Tech Appendix v1.0.0 HTML §B Definition A.6 (line 467) — add §13.1 (b) parenthetical note (Ranked-Choice Voting reorder applied).**
-  - **`core/glossary/commons_bonds_updated_glossary_v3.html` Residual Commons Value entry — append §13.1 (c) disambiguating sentence (Ranked-Choice Voting reorder applied).**
+  - **`core/glossary/archive/commons_bonds_updated_glossary_v3.html` Residual Commons Value entry — append §13.1 (c) disambiguating sentence (Ranked-Choice Voting reorder applied).**
   - **Bibliography expansion** — Reilly 2001; Insurance Information Institute; Basel Committee 2017.
   - Same open question as Insights #35 + #38 + #40 + #47 + #48 + #49 + Phase 2 #8 Tech Appendix HTML edit timing: apply now to v1.0.0 vs batch into Phase 3 v2.0.0 rebuild. **Recommended:** unified batch into v2.0.0 rebuild for all Phase 2 Tech Appendix changes.
   - **Pre-publication external review** (per Insight #39) — multi-perspective review (insurance-regulation + civic-engagement / electoral-policy + banking-finance practitioners).
@@ -1095,7 +1095,7 @@ New insights automatically get added to the todo list in both states: one entry 
   - **Tech Appendix v1.0.0 HTML §B Definition A.3 (line 432-449)** — expanded text per §13.1.
   - **Tech Appendix v1.0.0 HTML §10 Theorem E.4 statement (line 3285) + McDowell (line 2821) + §M.5 (line 6948 or 7020) + §F (line 2552) + §K (lines 1423/1447/1459)** — cross-reference parentheticals per §13.2.
   - **`core/terms/terms_index.md`** — Substitutability Function + Externality Tail + RCV integrand entries cross-reference parentheticals.
-  - **`core/glossary/commons_bonds_updated_glossary_v3.html`** — RCV entry cross-reference parenthetical.
+  - **`core/glossary/archive/commons_bonds_updated_glossary_v3.html`** — RCV entry cross-reference parenthetical.
   - **Bibliography expansion** — Pindyck 1978; Dasgupta-Heal 1979; Mussa-Rosen 1978; Slade-Thille 2009; Spence 1976; Tirole 1988 (overlaps with Insights #47 + P2#3.2 [E.3] absorbed once).
   - **terms_index** — append Phase 2 verdict entry; cross-reference to this rigor pass.
   - **Pre-publication external review** (per Insight #39) — resource-economist verifies Q-for-stock convention is stated with sufficient prominence to disambiguate at first formula encounter.
@@ -1384,7 +1384,7 @@ New insights automatically get added to the todo list in both states: one entry 
   - Routine 1 daily sentinel pattern #10 reserved-letter ledger updated 2026-04-30 with all codified letters.
 - **Category:** notation-discipline · academic-rigor · cross-document-sweep · pre-publication
 - **Content:** Comprehensive sweep of all variable letters/symbols + abbreviations across the framework's apparatus to identify undisclosed notation collisions. Scope:
-  - **Documents in scope:** Tech Appendix v1.0.0 HTML (all sections); terms_index.md (all entries); manuscript/chapters/Chapter_*Draft.{md,html} (all 10 chapters); core/glossary/commons_bonds_updated_glossary_v3.html.
+  - **Documents in scope:** Tech Appendix v1.0.0 HTML (all sections); terms_index.md (all entries); manuscript/chapters/Chapter_*Draft.{md,html} (all 10 chapters); core/glossary/archive/commons_bonds_updated_glossary_v3.html.
   - **Categories to check:**
     1. **Single-letter overloads** — A; B; C; D; E; P; Q; R; S; U; plus Greek letters α; β; γ; δ; ε; η; θ; λ; μ; ν; π; ρ; σ; τ; φ; ψ; ω. For each, identify all distinct semantic uses across the document set.
     2. **Multi-letter abbreviations** — RCV; CIT; CSD; ARR; IPG; CS; AIT (retired); FGC (retired); ESG (retired). For each, identify all distinct semantic uses.

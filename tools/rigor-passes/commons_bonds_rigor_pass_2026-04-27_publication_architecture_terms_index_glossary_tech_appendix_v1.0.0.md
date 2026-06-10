@@ -5,7 +5,7 @@
 **Protocol applied:** `tools/commons_bonds_rigor_protocol_v2.3.0.md` — full 12-module suite + §22 + §22.4 + all 6 Working Principles. Special focus on M3 (book content / artifact scope), M6 (academic), M8 (long-term / test-of-time), M10 (publishing), M11 (critic survival), M12 (intellectual honesty).
 **Scope:** Tests the publication architecture for the framework's three primary term-bearing artifacts:
 - `core/terms/terms_index.md` (1,796 lines, 147 KB) — internal source-of-truth carrying status indicators + rigor provenance + decision history + dependency graphs per framework term.
-- `core/glossary/commons_bonds_updated_glossary_v3.html` (406 lines, 39 KB) — reader-facing definitions.
+- `core/glossary/archive/commons_bonds_updated_glossary_v3.html` (406 lines, 39 KB) — reader-facing definitions.
 - `core/technical-appendix/TechnicalAppendix_v1.0.0.html` (7,438 lines, 302 KB) — currently dual-purpose: math + worked examples + scaffolding/rigor-trail mixed.
 
 Tests four interacting questions: (1) the architecture pattern (status quo vs upstream-source-of-truth vs merge); (2) per-term schema in terms_index; (3) synthesis-content boundary for Tech Appendix; (4) maintenance discipline (manual vs tooling). Per author directive 2026-04-27: *"It's probably time to make a task to merge the core/glossary and the core/terms/terms_index.md or perhaps the terms_index really needs to turn into the scaffolding for the technical appendix & the glossary?"* + ratified follow-up: *"the terms_index become the upstream source-of-truth that derives both Tech Appendix + glossary as downstream publication artifacts does seem to have a lot of merit if that's what you would suggest."*
@@ -136,7 +136,7 @@ Plus extended fields appearing on substantive entries: M12 lineage, Bibliography
 
 Per terms_index §2 (Integration with other framework docs):
 
-> *"Glossary (core/glossary/commons_bonds_updated_glossary_v2.html) is updated to short gloss entries that reference their full record in this index. **Glossary becomes the user-facing lookup; this index is the provenance source-of-truth.**"*
+> *"Glossary (core/glossary/archive/commons_bonds_updated_glossary_v2.html) is updated to short gloss entries that reference their full record in this index. **Glossary becomes the user-facing lookup; this index is the provenance source-of-truth.**"*
 
 **Finding:** the upstream-source-of-truth pattern is ALREADY ratified and documented for Glossary-vs-terms_index. The architecture rigor pass extends this established discipline to Tech Appendix.
 

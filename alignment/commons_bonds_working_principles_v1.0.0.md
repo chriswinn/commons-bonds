@@ -403,7 +403,7 @@ Articulated and ratified 2026-04-26 by Chris Winn, after a methodology critique 
 
 *Tier 1 publisher-facing artifacts subject to scrub:*
 - Chapter drafts (`manuscript/chapters/Chapter_*Draft.{md,html}`) at submission-readiness state
-- Current + future glossary (`core/glossary/commons_bonds_updated_glossary_v3.html` + future v4 derived from terms_index)
+- Current + future glossary (`core/glossary/archive/commons_bonds_updated_glossary_v3.html` + future v4 derived from terms_index)
 - Current + future Tech Appendix (`core/technical-appendix/TechnicalAppendix_v1.0.0.html` + future v2.0.0 derived from terms_index)
 - Research case-study writeups (`research/case-studies/*.md`) where they feed chapter prose
 

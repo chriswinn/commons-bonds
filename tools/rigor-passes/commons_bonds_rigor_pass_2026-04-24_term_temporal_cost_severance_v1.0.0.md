@@ -259,7 +259,7 @@ Option B (rename to capitalized "Intergenerational Cost Severance") is defensibl
 
 **Effort:** ~5 minutes.
 
-**Where:** `core/glossary/commons_bonds_updated_glossary_v2.html` → v3.
+**Where:** `core/glossary/archive/commons_bonds_updated_glossary_v2.html` → v3.
 
 ### Condition 2 — Chapter + case-study prose sweep
 

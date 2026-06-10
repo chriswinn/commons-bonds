@@ -422,7 +422,7 @@ Verdict is RETAIN. No sweep needed; current Tech Appendix supplement §6.2 + glo
 - `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_vocabulary_footprint_meta_v1.0.0.md` — meta-pass §12.3 T2 decision (Units vs Dimensional).
 - `core/terms/terms_index.md` — Four Gates record + Units Consistency record.
 - `core/technical-appendix/TechnicalAppendix_v0.0.5_supplement.md` §6.2 — Four Gates admission apparatus.
-- `core/glossary/commons_bonds_updated_glossary_v3.html` — gate term entries.
+- `core/glossary/archive/commons_bonds_updated_glossary_v3.html` — gate term entries.
 - `research/literature/bibliography.md` §16 (decision theory; Savage / Loomes-Sugden / vNM — relevant to internal-collision finding) + §13 (Anderson / Klinenberg) + §17 (Pigou / Nordhaus) + §18.5 (Darity-Mullen-Hamilton; relevant to reparations-economics persona) + §18.7 (Pettit-Skinner; relevant to autonomy-commons persona).
 - `alignment/commons_bonds_working_principles_v1.0.0.md` — proposed Working Principle #7 (pre-publication-state discipline) addition.
 - `alignment/commons_bonds_open_insights_v1.0.0.md` Insight #2 — closed-ratified 2026-04-26 (this supplement reinforces the closure with deeper M6).

@@ -10,7 +10,7 @@
 - `core/technical-appendix/TechnicalAppendix_v1.0.0.html` (7,412 lines)
 - `core/terms/terms_index.md` (2,109 lines)
 - `manuscript/chapters/Chapter_*Draft.{md,html}` (9 chapters)
-- `core/glossary/commons_bonds_updated_glossary_v3.html` (406 lines)
+- `core/glossary/archive/commons_bonds_updated_glossary_v3.html` (406 lines)
 
 Categories examined:
 1. Single-letter Latin variables (A, B, C, D, E, P, Q, R, S, U)
@@ -98,7 +98,7 @@ For each reserved letter/abbreviation in §13.2 ledger:
 | `core/technical-appendix/TechnicalAppendix_v1.0.0.html` | 7,412 | Primary mathematical-formal apparatus |
 | `core/terms/terms_index.md` | 2,109 | Term provenance index |
 | `manuscript/chapters/Chapter_*Draft.{md,html}` | ~52,000 words across 9 chapters | Chapter prose (mostly narrative, not technical) |
-| `core/glossary/commons_bonds_updated_glossary_v3.html` | 406 | Reader-facing glossary entries |
+| `core/glossary/archive/commons_bonds_updated_glossary_v3.html` | 406 | Reader-facing glossary entries |
 
 Chapter prose was scanned separately for Greek-letter and variable-letter usage. Result: minimal technical-variable usage in chapters (chapter register is narrative); no collisions detected. All collisions concentrate in Tech Appendix + terms_index.
 

@@ -622,7 +622,7 @@ This rigor pass does NOT replace external review; it produces the substrate that
 
 - `core/terms/terms_index.md` Externality Tail entry — insert §13.1 (a) Notational disambiguation subsection.
 - `core/technical-appendix/TechnicalAppendix_v1.0.0.html` §B Definition A.4 line 455 — replace with §13.1 (b) extended text.
-- `core/glossary/commons_bonds_updated_glossary_v3.html` Externality Tail entry — append §13.1 (c) disambiguating sentence.
+- `core/glossary/archive/commons_bonds_updated_glossary_v3.html` Externality Tail entry — append §13.1 (c) disambiguating sentence.
 - `core/technical-appendix/TechnicalAppendix_v1.0.0.html` bibliography section — Mandelbrot 1963; Taleb 2007; Embrechts et al. 1997; Anderson 2006 additions.
 - `core/terms/terms_index.md` — append Phase 2 verdict entry; cross-reference to this rigor pass.
 - `alignment/commons_bonds_open_insights_v1.0.0.md` — new Insight # closed-ratified capturing Phase 2 #5 verdict (number TBD).

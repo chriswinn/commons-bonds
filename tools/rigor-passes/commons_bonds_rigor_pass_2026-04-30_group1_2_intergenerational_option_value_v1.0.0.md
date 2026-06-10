@@ -337,7 +337,7 @@ Rationale:
 ### §11.2 Downstream artifacts (this pass would update on ratification)
 
 - `core/terms/terms_index.md` — new dedicated Ring-2 entry for Intergenerational Option Value; rendering fields per S1 schema.
-- `core/glossary/commons_bonds_updated_glossary_v3.html` — entry addition (Phase 4 v4 rebuild).
+- `core/glossary/archive/commons_bonds_updated_glossary_v3.html` — entry addition (Phase 4 v4 rebuild).
 - `core/technical-appendix/TechnicalAppendix_v1.0.0.html` — §L methodological footnote (Phase 3 v2.0.0 rebuild).
 - `manuscript/chapters/Chapter__4_THEEXISTENCEPROOF__Draft.md` — possibly minor prose work to clarify framework-specialization + lineage bridge.
 - `alignment/commons_bonds_open_insights_v1.0.0.md` — new Insight #57 closed-ratified.

@@ -129,7 +129,7 @@ Post-v1.48.0: All 8 Phase 2 flagged items resolved. All 3 Group 1 items resolved
 **Lead files (this thread owns):**
 - `core/terms/terms_index.md`
 - `core/technical-appendix/TechnicalAppendix_v1.0.0.html` → rebuild as `v2.0.0.html`
-- `core/glossary/commons_bonds_updated_glossary_v3.html` → rebuild as `v4`
+- `core/glossary/archive/commons_bonds_updated_glossary_v3.html` → rebuild as `v4`
 - `alignment/commons_bonds_vocabulary_strategy_v1.0.1.md` (§6 + §7 + §13 light-trace migration)
 - `alignment/commons_bonds_working_principles_v1.0.0.md` (body cleanup)
 - `archive/retirements/index.md` (additions as full traces migrate from terms_index)

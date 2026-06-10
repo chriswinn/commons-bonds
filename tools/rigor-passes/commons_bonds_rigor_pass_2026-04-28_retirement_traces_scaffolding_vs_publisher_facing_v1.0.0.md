@@ -89,7 +89,7 @@ Based on the Tier 3 extension, here is the proposed classification for the Commo
 | Path | Notes |
 |---|---|
 | `manuscript/chapters/*Draft.{md,html}` | The book itself. Reader-facing. Sweep retired terms. |
-| `core/glossary/commons_bonds_updated_glossary_v3.html` | Current glossary. Reader-facing reference. Sweep. |
+| `core/glossary/archive/commons_bonds_updated_glossary_v3.html` | Current glossary. Reader-facing reference. Sweep. |
 | `core/technical-appendix/TechnicalAppendix_v1.0.0.html` | Current Tech Appendix. Reader-facing. Sweep. (Note: scheduled for v2.0.0 rebuild that will derive from terms_index, which is itself the cleanest sweep mechanism.) |
 | `research/case-studies/*.md` | Currently feeds chapter prose. Treat as Tier 1 because content flows to publisher-facing chapters. **Per-instance judgment required (Axis L2)** for lowercase descriptive uses. |
 | `tools/audits/commons_bonds_case_study_audit_v1.0.6.md` | Active audit doc. **Per Principle #4 table = Tier 1.** Re-examined here: this is an author-facing scaffolding tool, but it's the document the author USES to audit case studies for current vocabulary. Decision: **stays Tier 1** because it should reflect current vocabulary — a future audit pass shouldn't see retired terms as "currently active." Historical references to retired terms (e.g., "previously called Value Capture") may be left if they preserve a reasoning chain; but pattern-match references should sweep. |
@@ -98,7 +98,7 @@ Based on the Tier 3 extension, here is the proposed classification for the Commo
 
 | Path | Notes |
 |---|---|
-| `core/glossary/commons_bonds_updated_glossary_v2.html` | Superseded prior glossary version. Header note pointing to v3 + terms_index. |
+| `core/glossary/archive/commons_bonds_updated_glossary_v2.html` | Superseded prior glossary version. Header note pointing to v3 + terms_index. |
 | `core/technical-appendix/archive/*.html` | Superseded Tech Appendix versions. Header note. |
 | `alignment/sessions/archive/*` | Archived session handoffs. Header note. |
 | `tools/archive/*` | Archived rigor protocol versions, etc. Header note. |
@@ -138,7 +138,7 @@ Given the Tier classification and Axis-L2 lowercase discipline, here's the sweep
 |---|---|---|
 | `manuscript/chapters/Chapter__4_THEEXISTENCEPROOF__Draft.md` | 1 | Sweep proper-noun → Value Extraction. |
 | `manuscript/chapters/Chapter__5_THEACCOUNTABILITYGAP__Draft.md` | 4 | Sweep proper-noun → Value Extraction; lowercase per-instance review. |
-| `core/glossary/commons_bonds_updated_glossary_v3.html` | 2 | One is Cost-Severance entry prose ("separates value capture from cost bearing") — sweep to "value extraction." Other is the standalone "Value Capture" term entry at line 337 — **remove or rewrite as RETIRED-pointer to Value Extraction**. (Glossary v4 rebuild will derive from terms_index cleanly; until then v3 patches.) |
+| `core/glossary/archive/commons_bonds_updated_glossary_v3.html` | 2 | One is Cost-Severance entry prose ("separates value capture from cost bearing") — sweep to "value extraction." Other is the standalone "Value Capture" term entry at line 337 — **remove or rewrite as RETIRED-pointer to Value Extraction**. (Glossary v4 rebuild will derive from terms_index cleanly; until then v3 patches.) |
 | `tools/audits/commons_bonds_case_study_audit_v1.0.6.md` | 4 | Sweep proper-noun; lowercase per-instance review. |
 | `research/case-studies/indigenous-land-dispossession.md` | 1 | Per-instance review. |
 | `research/case-studies/ancient-egypt-pyramids.md` | 1 | Per-instance review. |
@@ -164,7 +164,7 @@ Given the Tier classification and Axis-L2 lowercase discipline, here's the sweep
 
 | File | Status |
 |---|---|
-| `core/glossary/commons_bonds_updated_glossary_v2.html` | Has standalone "Value Capture" entry. Per Tier 2: keep entry intact + add header note to v2 file referencing v3 + terms_index. |
+| `core/glossary/archive/commons_bonds_updated_glossary_v2.html` | Has standalone "Value Capture" entry. Per Tier 2: keep entry intact + add header note to v2 file referencing v3 + terms_index. |
 | `alignment/sessions/archive/*` | Per Tier 2: header notes for retirement batch (already partially in place per Principle #4 ratification). |
 
 ### Estimated effort
@@ -185,7 +185,7 @@ Reframe routine 1's exclusion list from ad-hoc per-path entries to a principled 
 > *Exclusions (do NOT flag): terms_index.md SUPERSEDED+RETIRED records · tools/rigor-passes/* historical-record files · core/scaffolding/* · alignment/sessions/archive/* · core/decomposition/eight-tier-v10.html · glossary entries flagged with RETIRED status.*
 
 **Proposed reframed exclusions (Tier-aware):**
-> *Exclusions (do NOT flag): all Tier 3 scaffolding paths per `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-28_retirement_traces_scaffolding_vs_publisher_facing_v1.0.0.md` §3 — specifically: `core/terms/terms_index.md` · `tools/rigor-passes/*.md` · `tools/commons_bonds_rigor_protocol_v*.md` · `alignment/commons_bonds_working_principles_v*.md` · `alignment/commons_bonds_open_insights_v*.md` · `alignment/sessions/*.md` · `alignment/patches/*.md` · `tools/routines/*.md` · `core/scaffolding/*`. Tier 2 archived paths excluded: `alignment/sessions/archive/*` · `core/glossary/*v2*.html` · `core/technical-appendix/archive/*` · `tools/archive/*` · `core/decomposition/eight-tier-v10.html`. Sweep ONLY Tier 1 publisher-facing live docs: `manuscript/chapters/*Draft.{md,html}` · `core/glossary/commons_bonds_updated_glossary_v3.html` · `core/technical-appendix/TechnicalAppendix_v1.0.0.html` · `research/case-studies/*.md` · `core/case-studies/*current*.md`.*
+> *Exclusions (do NOT flag): all Tier 3 scaffolding paths per `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-28_retirement_traces_scaffolding_vs_publisher_facing_v1.0.0.md` §3 — specifically: `core/terms/terms_index.md` · `tools/rigor-passes/*.md` · `tools/commons_bonds_rigor_protocol_v*.md` · `alignment/commons_bonds_working_principles_v*.md` · `alignment/commons_bonds_open_insights_v*.md` · `alignment/sessions/*.md` · `alignment/patches/*.md` · `tools/routines/*.md` · `core/scaffolding/*`. Tier 2 archived paths excluded: `alignment/sessions/archive/*` · `core/glossary/*v2*.html` · `core/technical-appendix/archive/*` · `tools/archive/*` · `core/decomposition/eight-tier-v10.html`. Sweep ONLY Tier 1 publisher-facing live docs: `manuscript/chapters/*Draft.{md,html}` · `core/glossary/archive/commons_bonds_updated_glossary_v3.html` · `core/technical-appendix/TechnicalAppendix_v1.0.0.html` · `research/case-studies/*.md` · `core/case-studies/*current*.md`.*
 
 **Pattern additions:**
 Add `\bValue Capture\b` to retired-vocabulary patterns (proper-noun only — lowercase requires judgment per Axis L2; routine 1 should not flag lowercase "value capture" / "value captured").
