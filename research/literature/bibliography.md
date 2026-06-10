@@ -1656,6 +1656,296 @@ The pinnable primary-law / regulation / agency / named-report sources from the p
 
 ---
 
+## 25. Technical Appendix academic citations (folded from TA §18, 2026-06-09)
+
+**Added 2026-06-09 (back-matter consolidation).** These are the academic works cited inline in the Technical Appendix that had no entry in this master. Folding them here makes this file the single bibliographic source of truth; the TA's §18 list is regenerated from it. Discipline: cite the external source. Where-cited is recorded for orphan-detection; titles/venues are carried verbatim from §18.
+
+### Acemoglu, Daron, and James A. Robinson. *Why Nations Fail: The Origins of Power, Prosperity, and Poverty*. New York: Crown Business, 2012.
+
+- **Where cited:** Technical Appendix §18 (academic citation referenced inline). Folded from §18 into the master 2026-06-09.
+
+### Akerlof, George A. "The Market for 'Lemons': Quality Uncertainty and the Market Mechanism." *Quarterly Journal of Economics* 84, no. 3 (1970): 488–500.
+
+- **Where cited:** Technical Appendix §18 (academic citation referenced inline). Folded from §18 into the master 2026-06-09.
+
+### Anderson, Chris. *The Long Tail: Why the Future of Business Is Selling Less of More*. New York: Hyperion, 2006.
+
+- **Where cited:** Technical Appendix §18 (academic citation referenced inline). Folded from §18 into the master 2026-06-09.
+
+### Atkinson, Anthony B. "On the Measurement of Inequality." *Journal of Economic Theory* 2, no. 3 (1970): 244–263.
+
+- **Where cited:** Technical Appendix §18 (academic citation referenced inline). Folded from §18 into the master 2026-06-09.
+
+### Barnosky, Anthony D., et al. "Approaching a State Shift in Earth's Biosphere." *Nature* 486 (2012): 52–58.
+
+- **Where cited:** Technical Appendix §18 (academic citation referenced inline). Folded from §18 into the master 2026-06-09.
+
+### Basel Committee on Banking Supervision. *Basel III: Finalising Post-Crisis Reforms*. Bank for International Settlements, 2017.
+
+- **Where cited:** Technical Appendix §18 (academic citation referenced inline). Folded from §18 into the master 2026-06-09.
+
+### Benjamin, Ruha. *Race After Technology: Abolitionist Tools for the New Jim Code*. Cambridge: Polity Press, 2019.
+
+- **Where cited:** Technical Appendix §18 (academic citation referenced inline). Folded from §18 into the master 2026-06-09.
+
+### Bergson, Abram. "A Reformulation of Certain Aspects of Welfare Economics." *Quarterly Journal of Economics* 52, no. 2 (1938): 310–334.
+
+- **Where cited:** Technical Appendix §18 (academic citation referenced inline). Folded from §18 into the master 2026-06-09.
+
+### Black, Fischer, and Myron Scholes. "The Pricing of Options and Corporate Liabilities." *Journal of Political Economy* 81, no. 3 (1973): 637–654.
+
+- **Where cited:** Technical Appendix §18 (academic citation referenced inline). Folded from §18 into the master 2026-06-09.
+
+### Brennan, Michael J., and Eduardo S. Schwartz. "Evaluating Natural Resource Investments." *The Journal of Business* 58, no. 2 (1985): 135–157.
+
+- **Where cited:** Technical Appendix §18 (academic citation referenced inline). Folded from §18 into the master 2026-06-09.
+
+### Brown Weiss, Edith. *In Fairness to Future Generations: International Law, Common Patrimony, and Intergenerational Equity*. Dobbs Ferry, NY: Transnational Publishers, 1989.
+
+- **Where cited:** Technical Appendix §18 (academic citation referenced inline). Folded from §18 into the master 2026-06-09.
+
+### Brundtland, Gro Harlem (chair), World Commission on Environment and Development. *Our Common Future*. Oxford: Oxford University Press, 1987.
+
+- **Where cited:** Technical Appendix §18 (academic citation referenced inline). Folded from §18 into the master 2026-06-09.
+
+### Cobb, Charles W., and Paul H. Douglas. "A Theory of Production." *American Economic Review* 18, no. 1 (1928): 139–165.
+
+- **Where cited:** Technical Appendix §18 (academic citation referenced inline). Folded from §18 into the master 2026-06-09.
+
+### Coleman, James S. *Foundations of Social Theory*. Cambridge, MA: Harvard University Press, 1990.
+
+- **Where cited:** Technical Appendix §18 (academic citation referenced inline). Folded from §18 into the master 2026-06-09.
+
+### Costanza, Robert, et al. "Changes in the Global Value of Ecosystem Services." *Global Environmental Change* 26 (2014): 152–158.
+
+- **Where cited:** Technical Appendix §18 (academic citation referenced inline). Folded from §18 into the master 2026-06-09.
+
+### Coulthard, Glen Sean. *Red Skin, White Masks: Rejecting the Colonial Politics of Recognition*. Minneapolis: University of Minnesota Press, 2014.
+
+- **Where cited:** Technical Appendix §18 (academic citation referenced inline). Folded from §18 into the master 2026-06-09.
+
+### Crawford, Kate. *Atlas of AI: Power, Politics, and the Planetary Costs of Artificial Intelligence*. New Haven: Yale University Press, 2021.
+
+- **Where cited:** Technical Appendix §18 (academic citation referenced inline). Folded from §18 into the master 2026-06-09.
+
+### Daily, Gretchen C., ed. *Nature's Services: Societal Dependence on Natural Ecosystems*. Washington, DC: Island Press, 1997.
+
+- **Where cited:** Technical Appendix §18 (academic citation referenced inline). Folded from §18 into the master 2026-06-09.
+
+### Dasgupta, Partha, and Geoffrey M. Heal. *Economic Theory and Exhaustible Resources*. Cambridge: Cambridge University Press, 1979.
+
+- **Where cited:** Technical Appendix §18 (academic citation referenced inline). Folded from §18 into the master 2026-06-09.
+
+### Du Bois, W. E. B. *Black Reconstruction in America: 1860–1880*. New York: Harcourt, Brace, 1935.
+
+- **Where cited:** Technical Appendix §18 (academic citation referenced inline). Folded from §18 into the master 2026-06-09.
+
+### Embrechts, Paul, Claudia Klüppelberg, and Thomas Mikosch. *Modelling Extremal Events for Insurance and Finance*. Berlin: Springer, 1997.
+
+- **Where cited:** Technical Appendix §18 (academic citation referenced inline). Folded from §18 into the master 2026-06-09.
+
+### Federici, Silvia. *Caliban and the Witch: Women, the Body, and Primitive Accumulation*. New York: Autonomedia, 2004.
+
+- **Where cited:** Technical Appendix §18 (academic citation referenced inline). Folded from §18 into the master 2026-06-09.
+
+### Folland, Gerald B. *Real Analysis: Modern Techniques and Their Applications*. 2nd ed. New York: John Wiley & Sons, 1999.
+
+- **Where cited:** Technical Appendix §18 (academic citation referenced inline). Folded from §18 into the master 2026-06-09.
+
+### Habermas, Jürgen. *Theory of Communicative Action*. Translated by Thomas McCarthy. Boston: Beacon Press, 1981.
+
+- **Where cited:** Technical Appendix §18 (academic citation referenced inline). Folded from §18 into the master 2026-06-09.
+
+### Hamilton, James D. "Causes and Consequences of the Oil Shock of 2007–08." *Brookings Papers on Economic Activity* 2009, no. 1 (2009): 215–261.
+
+- **Where cited:** Technical Appendix §18 (academic citation referenced inline). Folded from §18 into the master 2026-06-09.
+
+### Hickel, Jason. *Less Is More: How Degrowth Will Save the World*. London: William Heinemann, 2020.
+
+- **Where cited:** Technical Appendix §18 (academic citation referenced inline). Folded from §18 into the master 2026-06-09.
+
+### Hong, Lu, and Scott E. Page. "Groups of Diverse Problem Solvers Can Outperform Groups of High-Ability Problem Solvers." *Proceedings of the National Academy of Sciences* 101, no. 46 (2004): 16385–16389.
+
+- **Where cited:** Technical Appendix §18 (academic citation referenced inline). Folded from §18 into the master 2026-06-09.
+
+### House, Kurt Zenz, Antonio C. Baclig, Manya Ranjan, Ernst A. van Nierop, Jennifer Wilcox, and Howard J. Herzog. "Economic and Energetic Analysis of Capturing CO2 from Ambient Air." *Proceedings of the National Academy of Sciences* 108, no. 51 (2011): 20428–20433.
+
+- **Where cited:** Technical Appendix §18 (academic citation referenced inline). Folded from §18 into the master 2026-06-09.
+
+### Howarth, Richard B., and Richard B. Norgaard. "Intergenerational Resource Rights, Efficiency, and Social Optimality." *American Economic Review* 80, no. 2 (1990): 473–477.
+
+- **Where cited:** Technical Appendix §18 (academic citation referenced inline). Folded from §18 into the master 2026-06-09.
+
+### Howarth, Richard B., and Richard B. Norgaard. "Environmental Valuation under Sustainable Development." *Environmental and Resource Economics* 2, no. 6 (1992): 583–596.
+
+- **Where cited:** Technical Appendix §18 (academic citation referenced inline). Folded from §18 into the master 2026-06-09.
+
+### Hyman, Louis. *Debtor Nation: The History of America in Red Ink*. Princeton: Princeton University Press, 2011.
+
+- **Where cited:** Technical Appendix §18 (academic citation referenced inline). Folded from §18 into the master 2026-06-09.
+
+### Insurance Information Institute. *Replacement Cost vs. Actual Cash Value* (consumer guide).
+
+- **Where cited:** Technical Appendix §18 (academic citation referenced inline). Folded from §18 into the master 2026-06-09.
+
+### Jacobs, Jane. *The Death and Life of Great American Cities*. New York: Random House, 1961.
+
+- **Where cited:** Technical Appendix §18 (academic citation referenced inline). Folded from §18 into the master 2026-06-09.
+
+### Kant, Immanuel. *Groundwork of the Metaphysics of Morals*. 1785. Translated by Mary Gregor and Jens Timmermann. Cambridge: Cambridge University Press, 2012.
+
+- **Where cited:** Technical Appendix §18 (academic citation referenced inline). Folded from §18 into the master 2026-06-09.
+
+### Keith, David W., Geoffrey Holmes, David St. Angelo, and Kenton Heidel. "A Process for Capturing CO2 from the Atmosphere." *Joule* 2, no. 8 (2018): 1573–1594.
+
+- **Where cited:** Technical Appendix §18 (academic citation referenced inline). Folded from §18 into the master 2026-06-09.
+
+### Kilian, Lutz. "Not All Oil Price Shocks Are Alike: Disentangling Demand and Supply Shocks in the Crude Oil Market." *American Economic Review* 99, no. 3 (2009): 1053–1069.
+
+- **Where cited:** Technical Appendix §18 (academic citation referenced inline). Folded from §18 into the master 2026-06-09.
+
+### Knight, Frank H. *Risk, Uncertainty and Profit*. Boston: Houghton Mifflin, 1921.
+
+- **Where cited:** Technical Appendix §18 (academic citation referenced inline). Folded from §18 into the master 2026-06-09.
+
+### Lenton, Timothy M., et al. "Tipping Elements in the Earth's Climate System." *Proceedings of the National Academy of Sciences* 105, no. 6 (2008): 1786–1793.
+
+- **Where cited:** Technical Appendix §18 (academic citation referenced inline). Folded from §18 into the master 2026-06-09.
+
+### Mandelbrot, Benoit. "The Variation of Certain Speculative Prices." *Journal of Business* 36, no. 4 (1963): 394–419.
+
+- **Where cited:** Technical Appendix §18 (academic citation referenced inline). Folded from §18 into the master 2026-06-09.
+
+### Mann, Michael. "The Autonomous Power of the State: Its Origins, Mechanisms and Results." *European Journal of Sociology* 25, no. 2 (1984): 185–213.
+
+- **Where cited:** Technical Appendix §18 (academic citation referenced inline). Folded from §18 into the master 2026-06-09.
+
+### Marshall, Alfred. *Principles of Economics*. London: Macmillan, 1890.
+
+- **Where cited:** Technical Appendix §18 (academic citation referenced inline). Folded from §18 into the master 2026-06-09.
+
+### Mill, John Stuart. *On Liberty*. London: John W. Parker and Son, 1859.
+
+- **Where cited:** Technical Appendix §18 (academic citation referenced inline). Folded from §18 into the master 2026-06-09.
+
+### Mosteller, Frederick, and John W. Tukey. *Data Analysis and Regression: A Second Course in Statistics*. Reading, MA: Addison-Wesley, 1977.
+
+- **Where cited:** Technical Appendix §18 (academic citation referenced inline). Folded from §18 into the master 2026-06-09.
+
+### Mussa, Michael, and Sherwin Rosen. "Monopoly and Product Quality." *Journal of Economic Theory* 18, no. 2 (1978): 301–317.
+
+- **Where cited:** Technical Appendix §18 (academic citation referenced inline). Folded from §18 into the master 2026-06-09.
+
+### O'Neil, Cathy. *Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy*. New York: Crown, 2016.
+
+- **Where cited:** Technical Appendix §18 (academic citation referenced inline). Folded from §18 into the master 2026-06-09.
+
+### Patel, Raj, and Jason W. Moore. *A History of the World in Seven Cheap Things: A Guide to Capitalism, Nature, and the Future of the Planet*. Berkeley: University of California Press, 2017.
+
+- **Where cited:** Technical Appendix §18 (academic citation referenced inline). Folded from §18 into the master 2026-06-09.
+
+### Pindyck, Robert S. "The Optimal Exploration and Production of Nonrenewable Resources." *Journal of Political Economy* 86, no. 5 (1978): 841–861.
+
+- **Where cited:** Technical Appendix §18 (academic citation referenced inline). Folded from §18 into the master 2026-06-09.
+
+### Pindyck, Robert S. "Volatility and Commodity Price Dynamics." *Energy Journal* 29, no. 1 (2008): 1–26.
+
+- **Where cited:** Technical Appendix §18 (academic citation referenced inline). Folded from §18 into the master 2026-06-09.
+
+### Putnam, Robert D. *Bowling Alone: The Collapse and Revival of American Community*. New York: Simon & Schuster, 2000.
+
+- **Where cited:** Technical Appendix §18 (academic citation referenced inline). Folded from §18 into the master 2026-06-09.
+
+### Realmonte, Giulia, Laurent Drouet, Ajay Gambhir, James Glynn, Adam Hawkes, Alexandre C. Köberle, and Massimo Tavoni. "An Inter-Model Assessment of the Role of Direct Air Capture in Deep Mitigation Pathways." *Nature Communications* 10 (2019): 3277.
+
+- **Where cited:** Technical Appendix §18 (academic citation referenced inline). Folded from §18 into the master 2026-06-09.
+
+### Reilly, Benjamin. *Democracy and Diversity: Political Engineering in the Asia-Pacific*. Oxford: Oxford University Press, 2001.
+
+- **Where cited:** Technical Appendix §18 (academic citation referenced inline). Folded from §18 into the master 2026-06-09.
+
+### Rennert, Kevin, Frank Errickson, Brian C. Prest, Lisa Rennels, Richard G. Newell, William Pizer, et al. "Comprehensive Evidence Implies a Higher Social Cost of CO2." *Nature* 610, no. 7933 (2022): 687–692.
+
+- **Where cited:** Technical Appendix §18 (academic citation referenced inline). Folded from §18 into the master 2026-06-09.
+
+### Rio Declaration on Environment and Development. United Nations Conference on Environment and Development, 1992. (Principle 15: Precautionary Approach.)
+
+- **Where cited:** Technical Appendix §18 (academic citation referenced inline). Folded from §18 into the master 2026-06-09.
+
+### Rockström, Johan, et al. "A Safe Operating Space for Humanity." *Nature* 461 (2009): 472–475.
+
+- **Where cited:** Technical Appendix §18 (academic citation referenced inline). Folded from §18 into the master 2026-06-09.
+
+### Rothstein, Richard. *The Color of Law: A Forgotten History of How Our Government Segregated America*. New York: Liveright, 2017.
+
+- **Where cited:** Technical Appendix §18 (academic citation referenced inline). Folded from §18 into the master 2026-06-09.
+
+### Royden, H. L. *Real Analysis*. 3rd ed. New York: Macmillan, 1988.
+
+- **Where cited:** Technical Appendix §18 (academic citation referenced inline). Folded from §18 into the master 2026-06-09.
+
+### Sen, Amartya. *Inequality Reexamined*. Cambridge, MA: Harvard University Press, 1992.
+
+- **Where cited:** Technical Appendix §18 (academic citation referenced inline). Folded from §18 into the master 2026-06-09.
+
+### Slade, Margaret E., and Henry Thille. "Whither Hotelling: Tests of the Theory of Exhaustible Resources." *Annual Review of Resource Economics* 1 (2009): 239–260.
+
+- **Where cited:** Technical Appendix §18 (academic citation referenced inline). Folded from §18 into the master 2026-06-09.
+
+### Spence, Michael. "Product Differentiation and Welfare." *American Economic Review Papers and Proceedings* 66, no. 2 (1976): 407–414.
+
+- **Where cited:** Technical Appendix §18 (academic citation referenced inline). Folded from §18 into the master 2026-06-09.
+
+### Steffen, Will, et al. "Planetary Boundaries: Guiding Human Development on a Changing Planet." *Science* 347, no. 6223 (2015): 1259855.
+
+- **Where cited:** Technical Appendix §18 (academic citation referenced inline). Folded from §18 into the master 2026-06-09.
+
+### Stigler, George J. "The Theory of Economic Regulation." *Bell Journal of Economics and Management Science* 2, no. 1 (1971): 3–21.
+
+- **Where cited:** Technical Appendix §18 (academic citation referenced inline). Folded from §18 into the master 2026-06-09.
+
+### Stiglitz, Joseph E. *Economics of the Public Sector*. 3rd ed. New York: W. W. Norton, 2000.
+
+- **Where cited:** Technical Appendix §18 (academic citation referenced inline). Folded from §18 into the master 2026-06-09.
+
+### Sugrue, Thomas J. *The Origins of the Urban Crisis: Race and Inequality in Postwar Detroit*. Princeton: Princeton University Press, 1996.
+
+- **Where cited:** Technical Appendix §18 (academic citation referenced inline). Folded from §18 into the master 2026-06-09.
+
+### Taleb, Nassim Nicholas. *The Black Swan: The Impact of the Highly Improbable*. New York: Random House, 2007.
+
+- **Where cited:** Technical Appendix §18 (academic citation referenced inline). Folded from §18 into the master 2026-06-09.
+
+### Taylor, Keeanga-Yamahtta. *Race for Profit: How Banks and the Real Estate Industry Undermined Black Homeownership*. Chapel Hill: University of North Carolina Press, 2019.
+
+- **Where cited:** Technical Appendix §18 (academic citation referenced inline). Folded from §18 into the master 2026-06-09.
+
+### Tilly, Charles. *Coercion, Capital and European States, AD 990–1990*. Cambridge, MA: Blackwell, 1990.
+
+- **Where cited:** Technical Appendix §18 (academic citation referenced inline). Folded from §18 into the master 2026-06-09.
+
+### Tirole, Jean. *The Theory of Industrial Organization*. Cambridge, MA: MIT Press, 1988.
+
+- **Where cited:** Technical Appendix §18 (academic citation referenced inline). Folded from §18 into the master 2026-06-09.
+
+### Tuan, Yi-Fu. *Space and Place: The Perspective of Experience*. Minneapolis: University of Minnesota Press, 1977.
+
+- **Where cited:** Technical Appendix §18 (academic citation referenced inline). Folded from §18 into the master 2026-06-09.
+
+### Tuck, Eve, and K. Wayne Yang. "Decolonization Is Not a Metaphor." *Decolonization: Indigeneity, Education & Society* 1, no. 1 (2012): 1–40.
+
+- **Where cited:** Technical Appendix §18 (academic citation referenced inline). Folded from §18 into the master 2026-06-09.
+
+### Whyte, Kyle. *Indigenous Environmental Ethics* (collected works on indigenous environmental ethics + climate justice).
+
+- **Where cited:** Technical Appendix §18 (academic citation referenced inline). Folded from §18 into the master 2026-06-09.
+
+### Wolfe, Patrick. *Settler Colonialism and the Transformation of Anthropology: The Politics and Poetics of an Ethnographic Event*. London: Cassell, 1999.
+
+- **Where cited:** Technical Appendix §18 (academic citation referenced inline). Folded from §18 into the master 2026-06-09.
+
+---
+
 ## Maintenance notes
 
 - **Adding new entries:** follow the template (citation / summary / relevance / support-or-contradict / chapter relevance / any framework-character note). Prefer consistency over exhaustiveness.
