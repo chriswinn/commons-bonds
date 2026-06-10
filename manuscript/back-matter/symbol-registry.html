@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Commons Bonds — Notation &amp; Symbols</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+            line-height: 1.6; max-width: 820px; margin: 0 auto; padding: 40px 20px;
+            color: #333; background-color: #fff; }
+        .header { text-align: center; margin-bottom: 36px; border-bottom: 2px solid #eee; padding-bottom: 18px; }
+        h1 { font-size: 28px; margin-bottom: 6px; color: #2c3e50; }
+        .subtitle { font-size: 16px; color: #666; font-style: italic; }
+        h2 { font-size: 20px; margin: 30px 0 12px 0; color: #34495e;
+            border-bottom: 2px solid #3498db; padding-bottom: 6px; }
+        ul.bib { list-style: none; padding-left: 0; }
+        ul.bib li { margin: 0 0 14px 0; padding-left: 1.6em; text-indent: -1.6em; }
+        ul.bib li:target { background: #fdf6e3; outline: 3px solid #fdf6e3; }
+        table.notation { border-collapse: collapse; width: 100%; }
+        table.notation th, table.notation td { border: 1px solid #ddd; padding: 7px 10px;
+            text-align: left; vertical-align: top; }
+        table.notation th { background: #f3f6f9; }
+        table.notation td.sym { font-weight: bold; white-space: nowrap; }
+        @media print { body { color: #000; background: #fff; } }
+    </style>
+</head>
+<body>
+  <div class="header">
+    <h1>Commons Bonds</h1>
+    <p class="subtitle">Notation &amp; Symbols</p>
+    <p class="subtitle">By Chris Winn</p>
+  </div>
+  <p>Symbols used in the Technical Appendix and the book&rsquo;s quantitative passages. Standard conventions are preserved where the framework follows them; deliberate redefinitions are noted in the meaning.</p>
+  <table class="notation">
+    <tr><th>Symbol</th><th>Meaning</th><th>Units</th></tr>
+    <tr><td class="sym">R</td><td>resource unit</td><td></td></tr>
+    <tr><td class="sym">𝒞 (script)</td><td>commons-territory set; R∈𝒞</td><td>set</td></tr>
+    <tr><td class="sym">Q, Q(t)</td><td>remaining in-situ stock</td><td>resource-class units</td></tr>
+    <tr><td class="sym">ρ</td><td>regeneration rate of stock</td><td>resource·time⁻¹</td></tr>
+    <tr><td class="sym">S(t|t₀), S_max</td><td>substitutability function; its ceiling</td><td>dimensionless [0,1]</td></tr>
+    <tr><td class="sym">λ</td><td>substitution rate (in S=S_max(1−e^(−λ(t−t₀))))</td><td>time⁻¹</td></tr>
+    <tr><td class="sym">U(R,t,Q(t))</td><td>stock-dependent utility flow</td><td>$·res⁻¹·time⁻¹</td></tr>
+    <tr><td class="sym">∂U/∂Q</td><td>marginal utility wrt stock (&lt;0)</td><td></td></tr>
+    <tr><td class="sym">P, P(t)</td><td>market price</td><td>$·res⁻¹</td></tr>
+    <tr><td class="sym">E(R,t)</td><td>externality-tail flow</td><td>$·res⁻¹·time⁻¹</td></tr>
+    <tr><td class="sym">D(t,t₀), r(t), r₀, g(t)</td><td>discount factor; rate; initial rate; decline fn</td><td>(0,1]; rate; rate; —</td></tr>
+    <tr><td class="sym">RCV(R,t₀)</td><td>Residual Commons Value (the integral)</td><td>$·res⁻¹</td></tr>
+    <tr><td class="sym">B, B₁, B₂</td><td>Accountability Bond; Restitution (backward); Foreclosure (forward)</td><td>$</td></tr>
+    <tr><td class="sym">CS, CSD</td><td>Cost Severance (=RCV−B); Cost Severance Damages (backward)</td><td>$</td></tr>
+    <tr><td class="sym">Aⱼ, τⱼ</td><td>commons category j; its scarcity threshold</td><td>—; category-dep</td></tr>
+    <tr><td class="sym">CIT</td><td>Commons Inversion Test</td><td></td></tr>
+    <tr><td class="sym">IPG(R,t₀)</td><td>Intergenerational Pricing Gap = RCV/P</td><td>dimensionless (×)</td></tr>
+    <tr><td class="sym">S_threshold, existential substitutability gap</td><td>criticality threshold; S_max(ind)−S_max(exist)</td><td>dimensionless</td></tr>
+    <tr><td class="sym">RCV_M3</td><td>Method-3 estimate = V_market × scarcity_multiplier(ς) × irreversibility_premium(α)</td><td>$·res⁻¹</td></tr>
+    <tr><td class="sym">V_market</td><td>resource&#x27;s own market / underlying value (abundance baseline; renamed from V_option under Path A — the premium emerges from the ς/α weights, not the base)</td><td>$</td></tr>
+    <tr><td class="sym">ς (final sigma)</td><td>M3 scarcity parameter (accessible-recoverable stock vs long-horizon demand; reserves-to-production-grounded)</td><td>dimensionless</td></tr>
+    <tr><td class="sym">α</td><td>irreversibility probability ∈[0,1]</td><td>dimensionless</td></tr>
+    <tr><td class="sym">scarcity_multiplier(ς)</td><td>1+ln(1+ς)×Hotelling_anchor</td><td>dimensionless</td></tr>
+    <tr><td class="sym">irreversibility_premium(α)</td><td>1/(1−α) (no free exponent — Path A)</td><td>dimensionless</td></tr>
+    <tr><td class="sym">Hotelling_anchor</td><td>~5%/yr Hotelling-rate proxy coefficient</td><td>~rate</td></tr>
+    <tr><td class="sym">(i)–(iv) [Assumptions]</td><td>Assumption labels, roman (relabeled off A1–A4)</td><td></td></tr>
+    <tr><td class="sym">(i)–(iv) [Premises] / (a)–(d) [cost-fn properties]</td><td>Premise + property labels, roman (relabeled off P1–P4)</td><td></td></tr>
+    <tr><td class="sym">A, A(t)</td><td>abundance</td><td></td></tr>
+    <tr><td class="sym">c(A), c₀, ξ</td><td>cost function; scale; curvature exponent (ξ≥1)</td><td></td></tr>
+    <tr><td class="sym">η_S(A)</td><td>supply elasticity (→0 as A→τ⁺)</td><td></td></tr>
+    <tr><td class="sym">τ</td><td>scarcity threshold</td><td></td></tr>
+    <tr><td class="sym">ε, δ, M, A_ε</td><td>standard ε–δ analysis variables</td><td></td></tr>
+    <tr><td class="sym">U,U₀,k / E,E₀,m</td><td>utility &amp; externality polynomial-growth bounds</td><td></td></tr>
+    <tr><td class="sym">S, s</td><td>substitutability map; integration dummy</td><td></td></tr>
+    <tr><td class="sym">D(t,t₀), exp, r(s), r_∞, D_∞</td><td>discount machinery; long-run rate; limit</td><td></td></tr>
+    <tr><td class="sym">T, K</td><td>proof threshold time; proof constant</td><td></td></tr>
+    <tr><td class="sym">SW, ∂SW/∂U</td><td>social welfare; marginal SW</td><td></td></tr>
+    <tr><td class="sym">P, Investment_cost, Path A/B, S*</td><td>price; substitute-investment cost; paths; substitute substitutability</td><td></td></tr>
+    <tr><td class="sym">Δ(…)</td><td>change operators (ΔForeclosure_cost, ΔOption_value, …)</td><td></td></tr>
+    <tr><td class="sym">∎</td><td>QED</td><td></td></tr>
+    <tr><td class="sym">r(t), r₀, κ, r_min</td><td>declining-rate machinery; decay constant κ (defined on first use, L7299)</td><td></td></tr>
+    <tr><td class="sym">S(t|t₀,Q(t)), S_base(t), ζ, ω, Q_critical</td><td>stock-dependent substitutability + innovation coefficients ζ,ω (local to §16.2, distinct from M3 α)</td><td></td></tr>
+    <tr><td class="sym">SCS, x, Ω (region), K, Ω∖K, C(x,t), V(x,t)</td><td>spatial cost severance machinery</td><td></td></tr>
+    <tr><td class="sym">Σᵢ₌₁ⁿ, n, i, Cᵢ, C₁…Cₙ₊₁, Context</td><td>n-term generalization</td><td></td></tr>
+  </table>
+</body>
+</html>
