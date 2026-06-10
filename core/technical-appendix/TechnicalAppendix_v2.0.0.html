@@ -407,7 +407,7 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
      <strong>
       Notational disambiguation ("tail" — temporal-persistence sense, not statistics-distribution-tail).
      </strong>
-     "Externality Tail" in this framework names the temporal-persistence dimension of an externality: damage that persists for many generations after extraction stops. The "tail" is in <em>time</em>, not in <em>probability distribution</em>. E(R, t) is a deterministic flow function, not a probability density's tail region. Readers approaching the framework from finance / actuarial / industrial-organization conventions may pattern-match "tail" to extreme-value-theory or fat-tailed distribution conventions (Mandelbrot 1963 <em>Journal of Business</em> on fat-tailed price distributions; Taleb 2007 <em>The Black Swan</em>; Embrechts, Kl&uuml;ppelberg &amp; Mikosch 1997 <em>Modelling Extremal Events</em>; Anderson 2006 <em>The Long Tail</em>); the framework's usage is distinct. The "runs on its own clock" rhetorical anchor (&sect;7 methodological framing) reinforces the temporal-persistence reading.
+     "Externality Tail" in this framework names the temporal-persistence dimension of an externality: damage that persists for many generations after extraction stops. The "tail" is in <em>time</em>, not in <em>probability distribution</em>. E(R, t) is a deterministic flow function, not a probability density's tail region. Readers approaching the framework from finance / actuarial / industrial-organization conventions may pattern-match "tail" to extreme-value-theory or fat-tailed distribution conventions (Mandelbrot 1963 <em>Journal of Business</em> on fat-tailed price distributions; Taleb 2007 <em>The Black Swan</em>; Embrechts, Kl&uuml;ppelberg &amp; Mikosch 1997 <em>Modelling Extremal Events</em>; Anderson 2006 <em>The Long Tail</em>); the framework's usage is distinct. The "runs on its own clock" rhetorical anchor (&sect;7 methodological framing) reinforces the temporal-persistence reading. Relatedly, the symbol E in E(R, t) denotes this externality-flow function, not the probability-theory expectation operator E[&middot;]; the framework takes no expectations in this notation.
     </p>
     <h3>
      Definition 1.5 (Social Discount Function)
@@ -856,7 +856,7 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
      <strong>
       Worked-example anchor:
      </strong>
-     Norway sovereign-wealth-fund + petroleum-conservation policy. Per &sect;11.5 numerical execution: GPFG ~$2.0T (end-2025; NOK 21,268B per NBIM &mdash; the FX-invariant anchor) at ~75% capture rate of net petroleum wealth implies ~$2.67T total petroleum wealth &divide; ~55 billion BOE cumulative production &asymp;
+     Norway sovereign-wealth-fund + petroleum-conservation policy. Per &sect;11.5 numerical execution: GPFG ~$2.0T (end-2025; NOK 21,268 billion per NBIM &mdash; the FX-invariant anchor) at ~75% capture rate of net petroleum wealth implies ~$2.67T total petroleum wealth &divide; ~55 billion BOE cumulative production &asymp;
      <strong>
       $48/BOE Method 2 anchor
      </strong>
@@ -3556,31 +3556,31 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
      <strong>
       Statement.
      </strong>
-     Under Assumptions (i)&ndash;(iv), for any non-renewable depletable commons with cost function c(A) per Assumption (ii):
+     Under Assumptions (i)&ndash;(iv), for any non-renewable depletable commons with cost function c(A) per Assumption (ii), conclusions (I)&ndash;(II) hold (uppercase roman marks the theorem's conclusions; lowercase roman marks its assumptions):
     </p>
     <ul>
      <li>
       <strong>
-       (i) As abundance A &rarr; &infin;, cost c(A) &rarr; 0; equivalently, for any &epsilon; &gt; 0 there exists A_&epsilon; such that c(A) &lt; &epsilon; for A &gt; A_&epsilon;
+       (I) As abundance A &rarr; &infin;, cost c(A) &rarr; 0; equivalently, for any &epsilon; &gt; 0 there exists A_&epsilon; such that c(A) &lt; &epsilon; for A &gt; A_&epsilon;
       </strong>
       &mdash; cost is masked by abundance to within any specified tolerance once abundance is sufficiently large relative to scarcity threshold.
      </li>
      <li>
       <strong>
-       (ii) As abundance A &rarr; &tau;⁺ (approaches scarcity threshold from above), cost c(A) &rarr; &infin;
+       (II) As abundance A &rarr; &tau;⁺ (approaches scarcity threshold from above), cost c(A) &rarr; &infin;
       </strong>
       &mdash; cost becomes visible and grows nonlinearly.
      </li>
     </ul>
     <p>
      <strong>
-      Proof of (i).
+      Proof of (I).
      </strong>
      By Assumption (ii), lim_{A &rarr; &infin;} c(A) = 0. Therefore for any &epsilon; &gt; 0, &exist; A_&epsilon; such that c(A) &lt; &epsilon; for A &gt; A_&epsilon;. In particular, when A is sufficiently large compared to &tau;, cost is masked by abundance to within any specified tolerance. ∎
     </p>
     <p>
      <strong>
-      Proof of (ii).
+      Proof of (II).
      </strong>
      By Assumption (ii), lim_{A &rarr; &tau;⁺} c(A) = &infin;. Therefore for any M &gt; 0, &exist; &delta; &gt; 0 such that c(A) &gt; M for &tau; &lt; A &lt; &tau; + &delta;. Equivalently, as abundance approaches scarcity threshold from above, cost grows without bound.
     </p>
