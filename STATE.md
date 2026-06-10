@@ -41,7 +41,7 @@ polish (redraft campaign) → agent-query Wave 1 fires ~Jun 24 – Jul 1 (cascad
 |---|---|---|---|
 | Chapters (10) | Content-complete; **redraft-compare campaign live** (Ch 1/2 working drafts `_Draft`; promote/fold-in verdicts per `manuscript/_REDRAFT-COMPARISON-SUMMARY_2026-06-06.md`) | 06-09 (kickoff) | Campaign resume → Ch 1 + Ch 5 polish for Wave-1 samples |
 | Technical Appendix | v2.0.0 closeout **merged to main `fd12275` 06-09**; internally consistent, invariants HIGH=0; render glyphs verified tofu-free 06-10 | 06-10 (this session) | Stage-4 PDF render audit before external circulation |
-| Back matter (bib/glossary/notation) | Generated clean set on branch `claude/refactor-bib-consolidation-260609-23c283` (**unmerged**, author review pending) | 06-10 (this session) | Author reviews diff → merge |
+| Back matter (bib/glossary/notation) | Generated clean set **MERGED to main 06-10** (author ratified); regenerate via `tools/back-matter/build.py gen-all` | 06-10 (this session) | In-TA Notation section + Part 7 completeness → technical-review window |
 | Bibliography master | Single source of truth (TA §18 folded in, 06-09); 41 orphan candidates flagged for prune review | 06-10 (this session) | Optional prune pass |
 
 ## Active workstreams (sessions/worktrees)
@@ -50,7 +50,7 @@ polish (redraft campaign) → agent-query Wave 1 fires ~Jun 24 – Jul 1 (cascad
 |---|---|---|---|
 | Redraft-compare campaign | `claude/redraft-campaign-resume-260606-f8216d` | LIVE — owns `manuscript/` `_`-files + chapters + bibliography.md | 06-09 |
 | Book-proposal sprint | `claude/book-proposal-sprint-260603-e402b7` | LIVE — owns `publishing/book-proposal/` | 06-09 |
-| Back-matter + repo reorg (this) | `claude/refactor-bib-consolidation-260609-23c283` | Active; unmerged, author review pending | 06-10 |
+| Back-matter + repo reorg | `claude/refactor-bib-consolidation-260609-23c283` | **CLOSED — ratified + MERGED to main 06-10** (navigation spine + archive sweep + back-matter set) | 06-10 |
 | PM session | `pm-portfolio-ratification-and-aeon-submission-260529-b4ac02` | Standing meta-tracker | 06-04 |
 | TA sessions (closeout cluster) | `ta-*` worktrees | **DONE — merged via closeout `fd12275`**; worktrees prunable | 06-09 |
 | ~30 essay-review worktrees dated 06-01 | various | Presumed closed (branches behind main) — PM verify + prune | 06-10 (listed) |
