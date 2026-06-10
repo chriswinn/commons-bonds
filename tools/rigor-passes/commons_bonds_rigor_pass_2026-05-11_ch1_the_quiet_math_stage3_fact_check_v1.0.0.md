@@ -14,7 +14,7 @@
 2. `manuscript/chapters/Chapter__1___GuidanceDoc.md` (internal scaffolding)
 3. `manuscript/chapters/_AUTHORSNOTE_ON_WINDTUNNELS_AND_AI.md` (canonical grandfather framing)
 4. `manuscript/chapters/Chapter_10_CommonBonds__Draft.md` (cross-chapter grandfather framing — lines 37, 39, 41, 137)
-5. `tools/workstream-handoffs/manuscript-stage-3-rigor-pass-handoff_2026-05-11.md` (workstream brief)
+5. `tools/workstream-handoffs/archive/manuscript-stage-3-rigor-pass-handoff_2026-05-11.md` (workstream brief)
 6. `tools/drafting-templates/stage-3-three-pass-rigor-audit.md` (template + audit-existing-prose mode)
 7. `publishing/essays/noema-commons-bonds/rigor/stage-3-comparison_2026-05-10.md` (Noema essay Stage-1 §7.1 reference + Ch 1 cross-reference)
 8. Memory: `project_authors_grandfather_nasa_inventor.md` (LaVern E. Winn patents; 2-patent verified ground)

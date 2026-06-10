@@ -5,7 +5,7 @@
 **Scope:** `manuscript/chapters/Chapter__6_ThreeWaysofCounting__Draft.md`
 **Base sha (chapter source):** `9ffad4e` (the canonical Ch 6 source content present at the remote-container baseline render; Ch 6 source has been modified post-`9ffad4e` only via `5569600` "Ch 6 line 21 — Black Lung Trust Fund → federal Program reframe" — see §6.3 below for the verbatim-content cross-check)
 **Session base sha:** `3582823` (worktree branch `claude/ch6-pipeline-retrofit-87233d`)
-**Workstream:** Ch 6 pipeline-retrofit (**third of 4** standardization-comparison-bed retrofits per [`tools/workstream-handoffs/render-pipeline-standardization-handoff_2026-05-17.md`](../workstream-handoffs/render-pipeline-standardization-handoff_2026-05-17.md))
+**Workstream:** Ch 6 pipeline-retrofit (**third of 4** standardization-comparison-bed retrofits per [`tools/workstream-handoffs/archive/render-pipeline-standardization-handoff_2026-05-17.md`](../workstream-handoffs/archive/render-pipeline-standardization-handoff_2026-05-17.md))
 **Stage:** 4 — render + character-integrity audit
 **Verdict status:** PROPOSED-pending-canonical-pipeline-decision (Option A/B/C — author ratifies after all 4 first-retrofit chapters' comparisons land + tuning rounds plateau, per standardization handoff §3.4)
 
@@ -351,9 +351,9 @@ The Ch 6 data continues to weigh **toward Option A** (tune-laptop-to-match-remot
 
 ## §12. Cross-references
 
-- Retrofit handoff stub: [`tools/workstream-handoffs/ch6-pipeline-retrofit-handoff_2026-05-17.md`](../workstream-handoffs/ch6-pipeline-retrofit-handoff_2026-05-17.md)
-- Retrofit template: [`tools/workstream-handoffs/pipeline-retrofit-template_2026-05-17.md`](../workstream-handoffs/pipeline-retrofit-template_2026-05-17.md)
-- Standardization workstream: [`tools/workstream-handoffs/render-pipeline-standardization-handoff_2026-05-17.md`](../workstream-handoffs/render-pipeline-standardization-handoff_2026-05-17.md)
+- Retrofit handoff stub: [`tools/workstream-handoffs/archive/ch6-pipeline-retrofit-handoff_2026-05-17.md`](../workstream-handoffs/archive/ch6-pipeline-retrofit-handoff_2026-05-17.md)
+- Retrofit template: [`tools/workstream-handoffs/archive/pipeline-retrofit-template_2026-05-17.md`](../workstream-handoffs/archive/pipeline-retrofit-template_2026-05-17.md)
+- Standardization workstream: [`tools/workstream-handoffs/archive/render-pipeline-standardization-handoff_2026-05-17.md`](../workstream-handoffs/archive/render-pipeline-standardization-handoff_2026-05-17.md)
 - Ch 1 comparison artifact (canonical first-retrofit format model): [`tools/rigor-passes/render_pipeline_comparison_ch1_2026-05-18.md`](render_pipeline_comparison_ch1_2026-05-18.md)
 - Pipeline doctrine: [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md`](../pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md)
 - Stage 4 doctrine: [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md`](../pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md)

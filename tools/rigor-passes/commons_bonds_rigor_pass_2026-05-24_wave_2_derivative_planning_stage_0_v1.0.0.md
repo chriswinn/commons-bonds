@@ -32,7 +32,7 @@ A dimension that helps the piece land but hurts a book-success criterion tilts H
 - `tools/memory/feedback_named_subject_consent.md` (living + deceased + public-record exception)
 - `tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md` (Stage 0–5 architecture; two-class cascade)
 - `tools/drafting-templates/stage-0-publishing-strategy-rigor-test.md`
-- `tools/workstream-handoffs/pm-session-handoff_2026-05-24.md` (current state; submission queue; ratification bandwidth analysis)
+- `tools/workstream-handoffs/archive/pm-session-handoff_2026-05-24.md` (current state; submission queue; ratification bandwidth analysis)
 - `publishing/essays/_pipeline/archive/cascade-plan_2026-05-06.md` (stale predecessor — for context + supersession)
 - `publishing/essays/_pipeline/june-2026-submission-schedule.md` (Wave 1 current cadence)
 - `publishing/essays/_pipeline/decisions-log.md` (esp. 2026-05-08 platform-paragraph floor; 2026-05-09 stale-reference cleanup)
@@ -399,7 +399,7 @@ Realistic — but **NOT compatible with Ch 8 firing as a Wave 2 candidate** (Pat
 - **Stage 0 template:** `tools/drafting-templates/stage-0-publishing-strategy-rigor-test.md`.
 - **Stage 0 worked examples:** `publishing/essays/100-barrel/rigor/q1-go-no-go.md`; `publishing/essays/boston-review-accountability-gap/rigor/stage-0-publishing-strategy.md`.
 - **Strategy artifacts:** `publishing/essays/_pipeline/archive/cascade-plan_2026-05-06.md` (stale predecessor; superseded by `cascade-plan_v2_2026-05-24.md` PROPOSED in this batch); `publishing/essays/_pipeline/june-2026-submission-schedule.md`; `publishing/essays/_pipeline/decisions-log.md`; `publishing/essays/_pipeline/cross-thread-todos.md`.
-- **PM dashboard:** `tools/workstream-handoffs/pm-session-handoff_2026-05-24.md`.
+- **PM dashboard:** `tools/workstream-handoffs/archive/pm-session-handoff_2026-05-24.md`.
 - **Framework apparatus inventory:** `core/terms/terms_index.md` §3.
 - **FPD v1.0.0:** `alignment/commons_bonds_framework_positioning_disciplines_v1.0.0.md`.
 - **Named-subject consent discipline:** `tools/memory/feedback_named_subject_consent.md`; Phat anonymization ratified worked example 2026-05-20 (in-memory record).

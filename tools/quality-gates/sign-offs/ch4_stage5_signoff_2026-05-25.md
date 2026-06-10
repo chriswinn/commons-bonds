@@ -21,7 +21,7 @@
 - Cross-chapter consistency-inventory: [`tools/audits/cross-chapter-consistency-inventory_2026-05-11.md`](../../audits/cross-chapter-consistency-inventory_2026-05-11.md) (linter-modified intentionally; Norway / GPFG rows need refresh per Stage 1c §3-cross-corpus disposition).
 - Pipeline doctrine v3.1: [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md`](../../pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md).
 - Stage 5 doctrine: [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md`](../../pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md).
-- Ch 4 pipeline-retrofit handoff: [`tools/workstream-handoffs/ch4-pipeline-retrofit-handoff_2026-05-17.md`](../../workstream-handoffs/ch4-pipeline-retrofit-handoff_2026-05-17.md).
+- Ch 4 pipeline-retrofit handoff: [`tools/workstream-handoffs/archive/ch4-pipeline-retrofit-handoff_2026-05-17.md`](../../workstream-handoffs/archive/ch4-pipeline-retrofit-handoff_2026-05-17.md).
 
 ---
 
@@ -50,7 +50,7 @@ This sign-off fires after a full Ch 4 pipeline-retrofit (Stages 1a + 1c + Passes
 | Pass 3.2 verify (retrofit) | 2026-05-25 | RATIFIED with refined recommendations | All 23 findings verified at remapped line offsets; F-V1 Option B + F-V2 Option D LOCKED; F-V3 refined Option B; MEDIUM-cluster refined recommendations; LOW concur hold-as-is | `7e390c8` |
 | Pass 3.3 acceptance | 2026-05-25 | INCLUDE — CHAPTER SHIPS | 25/25 INCLUDE (5 ✓✓✓ + 15 ✓✓ + 5 ✓); Tier 1 0 ⚠⚠⚠ NO SHIP BLOCK; Tier 2 + Tier 3 8/8 + 12/12 INCLUDE | `7e390c8` |
 | Pass 3.4 robustness | 2026-05-25 | ROBUST | 8 adversarial characters EXCLUDE-as-expected per verdict-floor; thread-pull synthesis surfaces T1-T7 load-bearing claims (chapter's structural disarms hold); no chapter-disqualifying threads chapter-disarmable | `3a5c03f` |
-| Pass 3.5 developmental-edit | NOT YET FIRED | DEFERRED | Pass 3.5 is explicit-gate per pipeline doctrine v3.1 Amendment B; flagged at Pass 3.4 T4 as candidate (lines 32-36 NBIM/transparency/ethics-council/Storting-consensus scene-anchor restoration); fires at author trigger via [developmental-edit workstream](../../workstream-handoffs/developmental-edit-workstream-handoff_2026-05-18.md) | (n/a) |
+| Pass 3.5 developmental-edit | NOT YET FIRED | DEFERRED | Pass 3.5 is explicit-gate per pipeline doctrine v3.1 Amendment B; flagged at Pass 3.4 T4 as candidate (lines 32-36 NBIM/transparency/ethics-council/Storting-consensus scene-anchor restoration); fires at author trigger via [developmental-edit workstream](../../workstream-handoffs/archive/developmental-edit-workstream-handoff_2026-05-18.md) | (n/a) |
 | Stage 4 render + character-integrity audit | 2026-05-25 | **RATIFIED as AUTHOR-COMPLETED-OFFLINE** per author 2026-05-25 direction; verdict CLEAN (matches Ch 1 + Ch 2 + Ch 6 patterns) | See §8 | (this artifact) |
 
 **Retrofit cascade COMPLETE for the in-scope 8 sub-steps** (1a + 1c + 3.1 verify + 3.2 verify + 3.3 + 3.4 + 4 + 5). Pass 3.5 developmental-edit remains DEFERRED per explicit-gate cascade discipline (not in retrofit scope; author triggers separately).
@@ -389,7 +389,7 @@ This sign-off artifact (§§0–§10) is RATIFIED 2026-05-25 in the same Phase C
   - Cross-chapter consistency inventory line 95 + 96 anchor refresh (inventory revision session).
   - Ch 6 line 537 anchor refresh ($1.8T → $2.0T) — route to Ch 6's next retrofit cycle.
   - Op-ed canonical-facts inventory refresh — depends on op-ed active/archived status.
-- **Optional Pass 3.5 developmental-edit** (DEFERRED per explicit-gate cascade; T4 thread flags lines 32-36 scene-anchor restoration crediting NBIM / transparency / ethics-council / Storting-consensus operational architecture). Author triggers separately via [developmental-edit workstream](../../workstream-handoffs/developmental-edit-workstream-handoff_2026-05-18.md) if warranted.
+- **Optional Pass 3.5 developmental-edit** (DEFERRED per explicit-gate cascade; T4 thread flags lines 32-36 scene-anchor restoration crediting NBIM / transparency / ethics-council / Storting-consensus operational architecture). Author triggers separately via [developmental-edit workstream](../../workstream-handoffs/archive/developmental-edit-workstream-handoff_2026-05-18.md) if warranted.
 - **Pre-publication-gate render verification** at submission time.
 
 ---

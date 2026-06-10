@@ -1,7 +1,7 @@
 # Stage-3 Pass 3.2 Verify — Ch 4 (The Existence Proof)
 
 **Date:** 2026-05-25
-**Workstream:** Ch 4 pipeline-retrofit (per [`tools/workstream-handoffs/ch4-pipeline-retrofit-handoff_2026-05-17.md`](../workstream-handoffs/ch4-pipeline-retrofit-handoff_2026-05-17.md))
+**Workstream:** Ch 4 pipeline-retrofit (per [`tools/workstream-handoffs/archive/ch4-pipeline-retrofit-handoff_2026-05-17.md`](../workstream-handoffs/archive/ch4-pipeline-retrofit-handoff_2026-05-17.md))
 **Chapter:** 4 — *The Existence Proof*
 **File audited:** [`manuscript/chapters/Chapter__4_TheExistenceProof.md`](../../manuscript/chapters/Chapter__4_TheExistenceProof.md) — **140 lines** (post-Pass-1 spot-fix state; post-2026-05-24 publishing-pipeline reorg rename)
 **Pass scope:** Pass 3.2 VERIFY of Pass 2 voice-polish findings PROPOSED 2026-05-15 at commit `3174cc8` (NOT YET RATIFIED + APPLIED), against current chapter state.

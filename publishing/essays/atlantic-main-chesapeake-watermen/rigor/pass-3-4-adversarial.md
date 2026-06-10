@@ -237,7 +237,7 @@ Brief §11 disarming moves do their work:
 
 Pass 3.5 (developmental-edit; restoration polarity per v3.1 Amendment B) fires fresh per per-pass per-session cadence. The Pass 3.5 kickoff paste-text is generated separately as a workstream-handoff artifact:
 
-[`tools/workstream-handoffs/ch3-atlantic-main-stage-3-pass-3-5-developmental-edit-kickoff_2026-05-27.md`](../workstream-handoffs/ch3-atlantic-main-stage-3-pass-3-5-developmental-edit-kickoff_2026-05-27.md) (STAGED at Pass 3.4 close; internal scaffolding — auto-fast-forwards to main with this artifact).
+[`tools/workstream-handoffs/archive/ch3-atlantic-main-stage-3-pass-3-5-developmental-edit-kickoff_2026-05-27.md`](../workstream-handoffs/archive/ch3-atlantic-main-stage-3-pass-3-5-developmental-edit-kickoff_2026-05-27.md) (STAGED at Pass 3.4 close; internal scaffolding — auto-fast-forwards to main with this artifact).
 
 Pass 3.5 scope: whole-chapter restoration-of-richness lens (scene-anchor density + sensory-detail restoration + voice-flow continuity + cumulative-LLM-cadence residue + reader-engagement at analytical pivots). Restoration polarity, NOT cutting. Per-finding interactive ratification per Amendment C.
 
@@ -263,4 +263,4 @@ STATE: Pass 3.4 RATIFIED ROBUST (thread-pull synthesis: 0 LANDS / 1 PARTIAL / 6 
 
 ---
 
-*End of Pass 3.4 artifact (RATIFIED ROBUST state). Pass 3.5 developmental-edit session fires fresh per v3.1 per-pass per-session cadence; Pass 3.5 kickoff paste-text staged at `tools/workstream-handoffs/ch3-atlantic-main-stage-3-pass-3-5-developmental-edit-kickoff_2026-05-27.md`.*
+*End of Pass 3.4 artifact (RATIFIED ROBUST state). Pass 3.5 developmental-edit session fires fresh per v3.1 per-pass per-session cadence; Pass 3.5 kickoff paste-text staged at `tools/workstream-handoffs/archive/ch3-atlantic-main-stage-3-pass-3-5-developmental-edit-kickoff_2026-05-27.md`.*

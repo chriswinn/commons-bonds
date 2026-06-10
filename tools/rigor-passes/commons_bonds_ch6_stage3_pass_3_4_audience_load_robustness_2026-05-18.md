@@ -1,7 +1,7 @@
 # Stage 3 Pass 3.4 — Audience-Load Robustness (Adversarial / Detractor Set) — Ch 6 (Three Ways of Counting) [PROPOSED]
 
 **Date:** 2026-05-18
-**Workstream:** Ch 6 pipeline-retrofit (third of 4 standardization-comparison-bed retrofits per [`tools/workstream-handoffs/ch6-pipeline-retrofit-handoff_2026-05-17.md`](../workstream-handoffs/ch6-pipeline-retrofit-handoff_2026-05-17.md))
+**Workstream:** Ch 6 pipeline-retrofit (third of 4 standardization-comparison-bed retrofits per [`tools/workstream-handoffs/archive/ch6-pipeline-retrofit-handoff_2026-05-17.md`](../workstream-handoffs/archive/ch6-pipeline-retrofit-handoff_2026-05-17.md))
 **Chapter:** 6 — *Three Ways of Counting*
 **File audited:** [`manuscript/chapters/Chapter__6_ThreeWaysofCounting__Draft.md`](../../manuscript/chapters/Chapter__6_ThreeWaysofCounting__Draft.md) — **338 lines** (post-Phase-C-α + Phase-C-β + Phase-C-γ + Phase-C-δ + `5569600` Program-reframe state)
 **Base sha:** `3582823` (worktree branch `claude/ch6-pipeline-retrofit-87233d`)
@@ -37,7 +37,7 @@ The full 10-character set covers the five §3.2 adversarial categories at the ch
 3. [`tools/rigor-passes/commons_bonds_ch1_stage_3_pass_3_audience_load_REAUDIT_2026-05-17_PROPOSED.md`](commons_bonds_ch1_stage_3_pass_3_audience_load_REAUDIT_2026-05-17_PROPOSED.md) §5.3 — canonical Pass 3.4 thread-pull synthesis format model.
 4. [`tools/rigor-passes/commons_bonds_ch6_stage_3_pass_1_fact_check_2026-05-13_PROPOSED.md`](commons_bonds_ch6_stage_3_pass_1_fact_check_2026-05-13_PROPOSED.md) — Pass 1 ratified + Phase C-α/β applied.
 5. [`tools/rigor-passes/commons_bonds_ch6_stage_3_pass_2_voice_polish_2026-05-14_PROPOSED.md`](commons_bonds_ch6_stage_3_pass_2_voice_polish_2026-05-14_PROPOSED.md) — Pass 2 ratified + Phase C-γ/δ applied.
-6. [`tools/workstream-handoffs/cross-chapter-rent-seeking-engagement-handoff_2026-05-17.md`](../workstream-handoffs/cross-chapter-rent-seeking-engagement-handoff_2026-05-17.md) — RATIFIED at `bc02767`; Ch 6 deliberately not touched per workstream §5.5.
+6. [`tools/workstream-handoffs/archive/cross-chapter-rent-seeking-engagement-handoff_2026-05-17.md`](../workstream-handoffs/archive/cross-chapter-rent-seeking-engagement-handoff_2026-05-17.md) — RATIFIED at `bc02767`; Ch 6 deliberately not touched per workstream §5.5.
 7. [`tools/quality-gates/coherence-checks/ch6_stage1c_2026-05-18.md`](../quality-gates/coherence-checks/ch6_stage1c_2026-05-18.md) — Stage 1c coherence verified; one Ch 6-side MEDIUM coherence-flag held for Phase C disposition.
 8. [`manuscript/chapters/Chapter__6_ThreeWaysofCounting__Draft.md`](../../manuscript/chapters/Chapter__6_ThreeWaysofCounting__Draft.md) — 338 lines at current canonical state.
 
@@ -303,8 +303,8 @@ Per Stage 3 template (v3.0) §"Pass 3.4: Audience-load (robustness)" verdict sca
 - Stage 3 template (Pass 3.4 spec): [`tools/drafting-templates/stage-3-three-pass-rigor-audit.md`](../drafting-templates/stage-3-three-pass-rigor-audit.md)
 - Audience-pressure-test construction (§3 adversarial set + §3.4 thread-pull synthesis format): [`tools/drafting-templates/audience-pressure-test-construction.md`](../drafting-templates/audience-pressure-test-construction.md)
 - Canonical Pass 3.4 format model: [`tools/rigor-passes/commons_bonds_ch1_stage_3_pass_3_audience_load_REAUDIT_2026-05-17_PROPOSED.md`](commons_bonds_ch1_stage_3_pass_3_audience_load_REAUDIT_2026-05-17_PROPOSED.md) §5.3
-- Cross-chapter rent-seeking workstream (RATIFIED): [`tools/workstream-handoffs/cross-chapter-rent-seeking-engagement-handoff_2026-05-17.md`](../workstream-handoffs/cross-chapter-rent-seeking-engagement-handoff_2026-05-17.md) + commit `bc02767`
-- Ch 6 retrofit handoff stub: [`tools/workstream-handoffs/ch6-pipeline-retrofit-handoff_2026-05-17.md`](../workstream-handoffs/ch6-pipeline-retrofit-handoff_2026-05-17.md)
+- Cross-chapter rent-seeking workstream (RATIFIED): [`tools/workstream-handoffs/archive/cross-chapter-rent-seeking-engagement-handoff_2026-05-17.md`](../workstream-handoffs/archive/cross-chapter-rent-seeking-engagement-handoff_2026-05-17.md) + commit `bc02767`
+- Ch 6 retrofit handoff stub: [`tools/workstream-handoffs/archive/ch6-pipeline-retrofit-handoff_2026-05-17.md`](../workstream-handoffs/archive/ch6-pipeline-retrofit-handoff_2026-05-17.md)
 - Ch 6 Stage 1a clean-baseline: [`tools/quality-gates/clean-baselines/ch6_stage1a_2026-05-18.md`](../quality-gates/clean-baselines/ch6_stage1a_2026-05-18.md)
 - Ch 6 Stage 1c coherence-check: [`tools/quality-gates/coherence-checks/ch6_stage1c_2026-05-18.md`](../quality-gates/coherence-checks/ch6_stage1c_2026-05-18.md)
 - Ch 6 Pass 1 fact-check: [`tools/rigor-passes/commons_bonds_ch6_stage_3_pass_1_fact_check_2026-05-13_PROPOSED.md`](commons_bonds_ch6_stage_3_pass_1_fact_check_2026-05-13_PROPOSED.md)

@@ -11,7 +11,7 @@
 - `research/case-studies/opioid-extraction-appalachia.md` (Ch 2's opioid-section brief)
 - `manuscript/chapters/Chapter__2___GuidanceDoc.md` (internal-scaffolding guidance, per-section staleness audit 2026-05-08)
 - Commit `8e61cd1` (Cost Severance defense paragraph inserted at line 141, ratified 2026-05-11)
-- `tools/workstream-handoffs/manuscript-stage-3-rigor-pass-handoff_2026-05-11.md` (workstream spec)
+- `tools/workstream-handoffs/archive/manuscript-stage-3-rigor-pass-handoff_2026-05-11.md` (workstream spec)
 
 ---
 
@@ -244,7 +244,7 @@ The chapter's argument, structure, and apparatus are intact. Findings cluster in
 - `research/case-studies/opioid-extraction-appalachia.md` — opioid-section brief
 - `research/literature/bibliography.md` §1, §2, §10, §13 — canonical-source verification
 - Commit `8e61cd1` — Cost Severance defense paragraph (ratified 2026-05-11)
-- `tools/workstream-handoffs/manuscript-stage-3-rigor-pass-handoff_2026-05-11.md` — Phase A spec + per-chapter table row for Ch 2
+- `tools/workstream-handoffs/archive/manuscript-stage-3-rigor-pass-handoff_2026-05-11.md` — Phase A spec + per-chapter table row for Ch 2
 - `tools/drafting-templates/stage-3-three-pass-rigor-audit.md` — three-pass discipline template (Pass 2 + Pass 3 to follow)
 
 ---

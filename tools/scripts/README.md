@@ -37,7 +37,7 @@ Four scripts work together to keep parallel-session worktree state clean. None o
 
 - **`session-end-worktree-cleanup.sh`** (G1) — auto-cleanup of completed top-level isolated worktrees. Same safety gates as the orphan-lock hook (ahead=0; dirty=0; not on §5.1 skip-list) plus honors `MERGE-HOLD:` / `MERGE-AFTER:` commit-body markers per CLAUDE.md merge-on-ratification policy. Dry-run by default; `COMMONS_BONDS_HOOK_DESTRUCTIVE=1` to actually remove.
 
-Empirical anchor: ~50-60 active worktrees per sprint day under sustained 20-35 parallel sessions (per the 2026-05-28 + 2026-05-30 cleanup sweeps; see [`../workstream-handoffs/git-cleanup-sweep_2026-05-28.md`](../workstream-handoffs/git-cleanup-sweep_2026-05-28.md) + [`../workstream-handoffs/git-cleanup-sweep-round-2_2026-05-30.md`](../workstream-handoffs/git-cleanup-sweep-round-2_2026-05-30.md)). The cluster eliminates the orphan-top-level-worktree accumulation pattern (G1) + the orphan-lock-from-killed-agent pattern (orphan-lock-recovery) + the duplicate-slug-spawn pattern (G4) — three of the most common failure modes from the cleanup-sweep audits.
+Empirical anchor: ~50-60 active worktrees per sprint day under sustained 20-35 parallel sessions (per the 2026-05-28 + 2026-05-30 cleanup sweeps; see [`../workstream-handoffs/archive/git-cleanup-sweep_2026-05-28.md`](../workstream-handoffs/archive/git-cleanup-sweep_2026-05-28.md) + [`../workstream-handoffs/archive/git-cleanup-sweep-round-2_2026-05-30.md`](../workstream-handoffs/archive/git-cleanup-sweep-round-2_2026-05-30.md)). The cluster eliminates the orphan-top-level-worktree accumulation pattern (G1) + the orphan-lock-from-killed-agent pattern (orphan-lock-recovery) + the duplicate-slug-spawn pattern (G4) — three of the most common failure modes from the cleanup-sweep audits.
 
 The `§5.1 contaminated-branch` skip-list is shared across all four scripts (kept in sync manually; canonical at git-cleanup-sweep_2026-05-28.md §5.1). All scripts refuse to act on contaminated branches without explicit per-branch detective triage.
 
@@ -122,7 +122,7 @@ For each match, the script reports a class:
 |---|---|
 | **STALE** | ahead=0 vs origin/main + clean (or no active worktree) + last commit ≥24h ago. Safe to clean up via `git worktree remove + git branch -D` before spawning. |
 | **ACTIVE** | Any of: ahead>0, dirty, or recent commit (<24h). Another session is plausibly working this slug — refine yours or attach to the existing worktree. |
-| **CONTAMINATED (§5.1 skip-list)** | Branch is on the canonical contaminated-branch list (per [git-cleanup-sweep_2026-05-28.md §5.1](../workstream-handoffs/git-cleanup-sweep_2026-05-28.md)). Cleanup-suggestion block is suppressed — these require detective triage, NOT automated cleanup. |
+| **CONTAMINATED (§5.1 skip-list)** | Branch is on the canonical contaminated-branch list (per [git-cleanup-sweep_2026-05-28.md §5.1](../workstream-handoffs/archive/git-cleanup-sweep_2026-05-28.md)). Cleanup-suggestion block is suppressed — these require detective triage, NOT automated cleanup. |
 
 ### Escape hatch
 
@@ -134,7 +134,7 @@ Unlike the orphan-lock-recovery + SessionEnd-cleanup hooks (which have a `COMMON
 
 ### Empirical anchor
 
-~50-60 active worktrees per sprint day under sustained 20-35 parallel sessions. Even with random harness IDs (16M possible per day), slug collisions happen at this volume — and *near-collisions* (e.g., `aeon-pitch-review` vs `aeon-pitch-final-review`) hide work fragmentation that the SessionStart isolation hook + the orphan-lock-recovery hook cannot catch. Resolves PM-handoff G4 (MED) per [`../workstream-handoffs/pm-session-handoff_2026-05-28.md`](../workstream-handoffs/pm-session-handoff_2026-05-28.md).
+~50-60 active worktrees per sprint day under sustained 20-35 parallel sessions. Even with random harness IDs (16M possible per day), slug collisions happen at this volume — and *near-collisions* (e.g., `aeon-pitch-review` vs `aeon-pitch-final-review`) hide work fragmentation that the SessionStart isolation hook + the orphan-lock-recovery hook cannot catch. Resolves PM-handoff G4 (MED) per [`../workstream-handoffs/archive/pm-session-handoff_2026-05-28.md`](../workstream-handoffs/archive/pm-session-handoff_2026-05-28.md).
 
 ---
 
@@ -330,7 +330,7 @@ When a new venue ships its first render, add the dir to the `.gitignore` allowli
 
 ## Render-toolchain canonical pipeline (Docker via Colima)
 
-Per pipeline doctrine Stage 4 §3.3 + the render-toolchain-containerization workstream ([`render-toolchain-containerization-handoff_2026-05-18.md`](../workstream-handoffs/render-toolchain-containerization-handoff_2026-05-18.md)), the canonical render pipeline is apt-installed pandoc + xelatex + wkhtmltopdf + EB Garamond + DejaVu Serif on Ubuntu 24.04. One installer ([`install-render-toolchain.sh`](install-render-toolchain.sh)) is consumed by three contexts:
+Per pipeline doctrine Stage 4 §3.3 + the render-toolchain-containerization workstream ([`render-toolchain-containerization-handoff_2026-05-18.md`](../workstream-handoffs/archive/render-toolchain-containerization-handoff_2026-05-18.md)), the canonical render pipeline is apt-installed pandoc + xelatex + wkhtmltopdf + EB Garamond + DejaVu Serif on Ubuntu 24.04. One installer ([`install-render-toolchain.sh`](install-render-toolchain.sh)) is consumed by three contexts:
 
 - **Laptop** via Docker (Colima runtime). This README's primary path.
 - **Remote-container** via `.claude/settings.json` SessionStart hook OR the Anthropic-web-UI setup script.

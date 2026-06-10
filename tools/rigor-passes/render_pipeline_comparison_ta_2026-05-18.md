@@ -5,7 +5,7 @@
 **Scope:** `core/technical-appendix/TechnicalAppendix_v2.0.0.html` (v2.1.0 dated 2026-05-14; 8,044 lines)
 **Base sha (chapter source):** `9ffad4e` (TA source content unchanged across tools-side commits since baseline pre-render; `tools/` advanced through `3582823` Ch 1 retrofit but TA source itself stable)
 **Session base sha:** `3582823` (post Ch 1 retrofit landing on main; Ch 5 + Ch 6 retrofits not yet fired)
-**Workstream:** TA pipeline-retrofit (**fourth and final** of 4 standardization-comparison-bed retrofits per [`tools/workstream-handoffs/render-pipeline-standardization-handoff_2026-05-17.md`](../workstream-handoffs/render-pipeline-standardization-handoff_2026-05-17.md))
+**Workstream:** TA pipeline-retrofit (**fourth and final** of 4 standardization-comparison-bed retrofits per [`tools/workstream-handoffs/archive/render-pipeline-standardization-handoff_2026-05-17.md`](../workstream-handoffs/archive/render-pipeline-standardization-handoff_2026-05-17.md))
 **Stage:** 4 — render + character-integrity audit
 **Verdict status:** **PROPOSED-pending-canonical-pipeline-decision (Option A/B/C ratifies after this comparison data lands; TA is the cumulative-diagnosis tipping point per handoff stub §1 row 4)**
 
@@ -307,9 +307,9 @@ Per Stage 4 doctrine §"Pre-publication review queue flags (carry forward to Sta
 
 ## §12. Cross-references
 
-- Retrofit handoff stub: [`tools/workstream-handoffs/ta-pipeline-retrofit-handoff_2026-05-17.md`](../workstream-handoffs/ta-pipeline-retrofit-handoff_2026-05-17.md)
-- Retrofit template: [`tools/workstream-handoffs/pipeline-retrofit-template_2026-05-17.md`](../workstream-handoffs/pipeline-retrofit-template_2026-05-17.md)
-- Standardization workstream: [`tools/workstream-handoffs/render-pipeline-standardization-handoff_2026-05-17.md`](../workstream-handoffs/render-pipeline-standardization-handoff_2026-05-17.md)
+- Retrofit handoff stub: [`tools/workstream-handoffs/archive/ta-pipeline-retrofit-handoff_2026-05-17.md`](../workstream-handoffs/archive/ta-pipeline-retrofit-handoff_2026-05-17.md)
+- Retrofit template: [`tools/workstream-handoffs/archive/pipeline-retrofit-template_2026-05-17.md`](../workstream-handoffs/archive/pipeline-retrofit-template_2026-05-17.md)
+- Standardization workstream: [`tools/workstream-handoffs/archive/render-pipeline-standardization-handoff_2026-05-17.md`](../workstream-handoffs/archive/render-pipeline-standardization-handoff_2026-05-17.md)
 - Pipeline doctrine: [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md`](../pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md)
 - Stage 4 doctrine: [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md`](../pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md) — §3.3 carries the wkhtmltopdf-vs-Chrome canonical-engine documentation that this TA Stage 4 confirms empirically
 - Ch 1 retrofit Stage 4 render comparison: [`tools/rigor-passes/render_pipeline_comparison_ch1_2026-05-18.md`](render_pipeline_comparison_ch1_2026-05-18.md) — the in-session patches landed during Ch 1's retrofit are the root cause of F-RP-TA-01

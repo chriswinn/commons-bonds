@@ -8,8 +8,8 @@ type: feedback
 
 **Date ratified:** PROPOSED 2026-06-01
 **Type:** feedback (operational discipline)
-**Origin:** Noema V-D second-independent audit 2026-05-28 surfaced findings that any two-audit subset would have missed; portfolio-scope codification 2026-06-01 per `tools/workstream-handoffs/portfolio-triangulation-discipline-handoff_2026-06-01.md`.
-**Canonical reference:** `tools/workstream-handoffs/portfolio-triangulation-discipline-handoff_2026-06-01.md` (full workstream-handoff with methodology spec + Wave 2 inventory + per-essay activation plan + PM-dashboard integration + cross-references).
+**Origin:** Noema V-D second-independent audit 2026-05-28 surfaced findings that any two-audit subset would have missed; portfolio-scope codification 2026-06-01 per `tools/workstream-handoffs/archive/portfolio-triangulation-discipline-handoff_2026-06-01.md`.
+**Canonical reference:** `tools/workstream-handoffs/archive/portfolio-triangulation-discipline-handoff_2026-06-01.md` (full workstream-handoff with methodology spec + Wave 2 inventory + per-essay activation plan + PM-dashboard integration + cross-references).
 **Layer:** scan-friendly summary; the canonical handoff carries the full architecture. Update the handoff when content changes; sync this summary via `tools/memory-updates/` spec for substantive amendments.
 
 ## Summary
@@ -64,8 +64,8 @@ Update the kickoff paste-text to require, at Stage 2 completion:
 ### When spawning the two independent audit chips
 
 Use the canonical paste-text templates at:
-- `tools/workstream-handoffs/portfolio-triangulation-discipline-handoff_2026-06-01.md` §4.4.1 (prior-independent)
-- `tools/workstream-handoffs/portfolio-triangulation-discipline-handoff_2026-06-01.md` §4.4.2 (fresh-second-independent)
+- `tools/workstream-handoffs/archive/portfolio-triangulation-discipline-handoff_2026-06-01.md` §4.4.1 (prior-independent)
+- `tools/workstream-handoffs/archive/portfolio-triangulation-discipline-handoff_2026-06-01.md` §4.4.2 (fresh-second-independent)
 
 Both fire with `run_in_background` from the PM session or the author's parallel-session-hop. Independence is preserved at the chip-paste-text level (explicit "do NOT read X until Phase 3" instructions).
 
@@ -119,7 +119,7 @@ Drafter's-self-audit on Noema V-D scored 7 ✓✓✓ + 5 ✓✓ + 2 ✓ at Pass 
 
 ## Where to read more
 
-- **Canonical handoff (full architecture):** `tools/workstream-handoffs/portfolio-triangulation-discipline-handoff_2026-06-01.md`
+- **Canonical handoff (full architecture):** `tools/workstream-handoffs/archive/portfolio-triangulation-discipline-handoff_2026-06-01.md`
 - **Methodological anchor:** `publishing/essays/noema-commons-bonds/rigor/pass-3-3-and-3-4-and-3-5-bundled_VERSION-D_SECOND-INDEPENDENT-AUDIT_2026-05-28.md` §12
 - **Format precedents:** Aeon V-D drafter's-self-audit + prior-independent; Noema V-D + Harper's V-D V2 + FA V-D V2 + NYRB V-D V2
 - **v3.1 pipeline doctrine:** `tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md`

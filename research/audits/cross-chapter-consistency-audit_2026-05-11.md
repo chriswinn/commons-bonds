@@ -1,6 +1,6 @@
 # Cross-Chapter Consistency — Drift-Findings Audit — 2026-05-11
 
-**Status:** ✅ **COMPLETE — all 10 findings ratified 2026-05-11; all 5 batches landed on `main`.** Companion to the canonical-terms inventory at `tools/audits/cross-chapter-consistency-inventory_2026-05-11.md`. Parent handoff: `tools/workstream-handoffs/cross-chapter-consistency-handoff_2026-05-10.md`.
+**Status:** ✅ **COMPLETE — all 10 findings ratified 2026-05-11; all 5 batches landed on `main`.** Companion to the canonical-terms inventory at `tools/audits/cross-chapter-consistency-inventory_2026-05-11.md`. Parent handoff: `tools/workstream-handoffs/archive/cross-chapter-consistency-handoff_2026-05-10.md`.
 
 **Final state:**
 - Batch 1 (high-severity stale cross-references: X-1, X-2, X-3) — commit `b645806`

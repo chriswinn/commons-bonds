@@ -33,7 +33,7 @@ A dimension that helps the piece land but hurts a book-success criterion tilts H
 - `tools/memory/feedback_named_subject_consent.md` (living + deceased + public-record exception; n/a here — review-essay subjects are published authors, public-record by definition)
 - `tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md` (Stage 0–5 + Amendments)
 - `tools/drafting-templates/stage-0-publishing-strategy-rigor-test.md`
-- `tools/workstream-handoffs/pm-session-handoff_2026-05-24.md` (current state; submission queue; ratification bandwidth analysis)
+- `tools/workstream-handoffs/archive/pm-session-handoff_2026-05-24.md` (current state; submission queue; ratification bandwidth analysis)
 - `publishing/essays/_pipeline/cascade-plan_v2_2026-05-24.md` (PROPOSED; companion to this artifact's Wave 2 batch sibling)
 - `publishing/essays/_pipeline/june-2026-submission-schedule.md` (Wave 1 current cadence; rate-limiting factors)
 - `publishing/essays/_pipeline/decisions-log.md` (recent decisions)
@@ -436,7 +436,7 @@ SEQUENCING DISCIPLINE: This Stage 0 fires per author interactive ratification pr
 - Patel & Moore — **NO bibliography entry** (grep verified 2026-05-24); referenced as proposal §02 Tier-3 round-out candidate in Darity bibliography entry comparison
 
 **PM dashboard:**
-- `tools/workstream-handoffs/pm-session-handoff_2026-05-24.md`
+- `tools/workstream-handoffs/archive/pm-session-handoff_2026-05-24.md`
 
 ---
 

@@ -1,7 +1,7 @@
 # *Pricing Honestly* — Atlantic Ideas submission package
 
 **Slug:** `atlantic-ideas-pricing-honestly`
-**Venue:** Atlantic Ideas (TBD; possibly Foreign Policy alternate per `tools/workstream-handoffs/foreign-policy-alternate-outline_2026-05-21.md`)
+**Venue:** Atlantic Ideas (TBD; possibly Foreign Policy alternate per `tools/workstream-handoffs/archive/foreign-policy-alternate-outline_2026-05-21.md`)
 **State:** RATIFIED-AWAITING-SUBMIT (Stage 5 sign-off RATIFIED 2026-05-27; full Stage 3 cascade + Stage 4 render audit COMPLETE; submission portal upload gated on author submission-window actions)
 **Last updated:** 2026-05-28
 
@@ -25,7 +25,7 @@ Rigor-pass artifacts at [`rigor/`](rigor/) — per-essay consolidation migrated 
 - **Stage 4 render audit** (author-offline; 2026-05-27) — [`rigor/stage-4-render-audit.md`](rigor/stage-4-render-audit.md)
 - **Pre-pub review queue** — [`rigor/pre-pub-review-queue.md`](rigor/pre-pub-review-queue.md)
 - **Stage 5 sign-off** (RATIFIED 2026-05-27) — [`rigor/stage-5-signoff.md`](rigor/stage-5-signoff.md) (consolidated into per-essay folder 2026-05-28 from `tools/quality-gates/sign-offs/atlantic_ideas_stage5_signoff_2026-05-27.md`)
-- **Atlantic Ideas Stage 2 paste-text** (2026-05-21) — [`tools/workstream-handoffs/atlantic-ideas-essay-stage-2-paste-text_2026-05-21.md`](../../../tools/workstream-handoffs/atlantic-ideas-essay-stage-2-paste-text_2026-05-21.md)
+- **Atlantic Ideas Stage 2 paste-text** (2026-05-21) — [`tools/workstream-handoffs/archive/atlantic-ideas-essay-stage-2-paste-text_2026-05-21.md`](../../../tools/workstream-handoffs/archive/atlantic-ideas-essay-stage-2-paste-text_2026-05-21.md)
 
 ## Title note
 

@@ -103,7 +103,7 @@ Stage-5-revert carry-forward (commit `6e27090`): two essay edits (line 9 thesis 
 
 1. **Center-right policy reader pressure-test** (brief §1 dispositive Tier 1 audience): RATIFIED HOLD per Pass 3.4. Essay's non-partisan-framing discipline + four-step mechanism-and-arithmetic register + Smith citation at §V ¶4 (rigged-price-vs-cost-of-production distinction) + asymmetric-regret-rule discipline carries Tier 1 audience. Acknowledged as load-bearing Stage 1 brief dispositive; external center-right policy reviewer + Public Choice tradition reviewer + climate-skeptical reviewer pressure-test recommended.
 2. **Atlantic Ideas section-editor profile pressure-test.** Section-editor identity not confirmed at Stage 5 (per §5 open externals below). External section-editor-fit verification at pitch / cover-letter drafting stage recommended.
-3. **Foreign Policy alternate audience.** If Atlantic Ideas declines, Foreign Policy alternate reframe outline ([`tools/workstream-handoffs/foreign-policy-alternate-outline_2026-05-21.md`](../workstream-handoffs/foreign-policy-alternate-outline_2026-05-21.md)) fires; external foreign-policy-audience pressure-test recommended at that hand-off point.
+3. **Foreign Policy alternate audience.** If Atlantic Ideas declines, Foreign Policy alternate reframe outline ([`tools/workstream-handoffs/archive/foreign-policy-alternate-outline_2026-05-21.md`](../workstream-handoffs/archive/foreign-policy-alternate-outline_2026-05-21.md)) fires; external foreign-policy-audience pressure-test recommended at that hand-off point.
 
 ### §2.4 Stage-5 cross-corpus consistency Pass 3.5 carry-forward
 

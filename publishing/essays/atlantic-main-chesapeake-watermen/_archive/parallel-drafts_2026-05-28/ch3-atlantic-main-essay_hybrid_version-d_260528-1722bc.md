@@ -41,7 +41,7 @@ methodological_caveat: |
   been used to keep the shape hidden") doing more book-success work than the existing LOCKED
   close. Independent verification recommended per v3.1 doctrine separation of drafting + audit
   phases. The independent-audit kickoff handoff for this verification is at
-  `tools/workstream-handoffs/ch3-atlantic-main-hybrid-version-d-independent-audit-kickoff_2026-05-28.md`.
+  `tools/workstream-handoffs/archive/ch3-atlantic-main-hybrid-version-d-independent-audit-kickoff_2026-05-28.md`.
 
   Downside-bound on independent audit: if the agent / acquisitions-editor STRONG upgrades are
   not confirmed, Version D = LOCKED at minimum (no EXCLUDE projected at any character at any

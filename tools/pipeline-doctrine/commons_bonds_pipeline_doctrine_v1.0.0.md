@@ -2,7 +2,7 @@
 
 **Date drafted:** 2026-05-17
 **Status:** PROPOSED — pending author ratification at session close.
-**Origin:** Pipeline-revision workstream (handoff at [`tools/workstream-handoffs/pipeline-revision-handoff_2026-05-17.md`](../workstream-handoffs/pipeline-revision-handoff_2026-05-17.md)); 11 decisions, 11 ratified at session start of 2026-05-17 (decisions #7 + #9 + #10 ratified within the originating brainstorm; decisions #1 + #2 + #3 + #4 + #5 + #6 + #8 + #11 ratified at the doctrine-session opening per author confirmation).
+**Origin:** Pipeline-revision workstream (handoff at [`tools/workstream-handoffs/archive/pipeline-revision-handoff_2026-05-17.md`](../workstream-handoffs/archive/pipeline-revision-handoff_2026-05-17.md)); 11 decisions, 11 ratified at session start of 2026-05-17 (decisions #7 + #9 + #10 ratified within the originating brainstorm; decisions #1 + #2 + #3 + #4 + #5 + #6 + #8 + #11 ratified at the doctrine-session opening per author confirmation).
 **Supersedes nothing.** Extends the existing v2.0 Amendment B of `feedback_audience_aware_drafting_discipline.md` (memory entry stays current with summary + pointer to this artifact per ratified decision #8 hybrid approach).
 **Canonical reference for:** all Phase A per-chapter rigor cycles + retrofit cycles + future drafting sessions for publisher-facing prose.
 
@@ -471,7 +471,7 @@ All chapters run through the new pipeline once the doctrine cluster lands. Retro
 - Stage 4 render + character-integrity audit.
 - Stage 5 academic-rigor + prose-quality sign-off + pre-publication review queue artifact generation.
 
-Per-chapter retrofit scope: see [`tools/workstream-handoffs/pipeline-revision-handoff_2026-05-17.md`](../workstream-handoffs/pipeline-revision-handoff_2026-05-17.md) §6.2.
+Per-chapter retrofit scope: see [`tools/workstream-handoffs/archive/pipeline-revision-handoff_2026-05-17.md`](../workstream-handoffs/archive/pipeline-revision-handoff_2026-05-17.md) §6.2.
 
 Retrofit sequencing: see same handoff §6.3.
 
@@ -520,7 +520,7 @@ This session ratified all 11 decisions; remaining open items (carry-forward from
 
 ## §13. References
 
-- [`tools/workstream-handoffs/pipeline-revision-handoff_2026-05-17.md`](../workstream-handoffs/pipeline-revision-handoff_2026-05-17.md) — the originating handoff
+- [`tools/workstream-handoffs/archive/pipeline-revision-handoff_2026-05-17.md`](../workstream-handoffs/archive/pipeline-revision-handoff_2026-05-17.md) — the originating handoff
 - [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_1_v1.0.0.md`](commons_bonds_pipeline_doctrine_stage_1_v1.0.0.md) — Stage 1 doctrine (three-step structure)
 - [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md`](commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md) — Stage 4 doctrine (render + character-integrity audit)
 - [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md`](commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md) — Stage 5 doctrine + pre-publication review queue template

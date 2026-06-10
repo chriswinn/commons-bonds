@@ -12,7 +12,7 @@
 **Apply Amendments A + B + C to local memory:** v3.1.0 memory entry should append "Amendment A" + "Amendment B" + "Amendment C" blocks from `tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md` §3.1-3.4 + §3.6 + §3.7 respectively, OR replace the v3.0-original cascade section with the new two-class five-pass interactive-ratification framework. Memory file remains a scan-friendly summary; canonical doctrine carries the full architecture.
 
 ---
-**Origin:** Pipeline-revision workstream (handoff at [`tools/workstream-handoffs/pipeline-revision-handoff_2026-05-17.md`](../workstream-handoffs/pipeline-revision-handoff_2026-05-17.md)).
+**Origin:** Pipeline-revision workstream (handoff at [`tools/workstream-handoffs/archive/pipeline-revision-handoff_2026-05-17.md`](../workstream-handoffs/archive/pipeline-revision-handoff_2026-05-17.md)).
 **Versioning approach:** hybrid per ratified decision #8 — this memory entry stays scan-friendly (summary + pointer); the full doctrine lives in `tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md`.
 **Applies to local memory file:** `/Users/c17n/.claude/projects/-Users-c17n-commons-bonds/memory/feedback_audience_aware_drafting_discipline.md`
 

@@ -132,7 +132,7 @@ These are pre-Stage-3 snapshots retained for traceability. None is the submissio
 | File | Reference |
 |---|---|
 | `publishing/essays/noema-commons-bonds/_archive/session-handoffs/noema-session-handoff_2026-05-10.md` | Lines 37, 80, 134 — handoff documentation for Stage 2 fresh session; cites the consent policy and the anonymized phrasing. |
-| `tools/workstream-handoffs/pm-session-handoff_2026-05-10.md` | §9 USER ACTION 1 + 2 — codifies the consent step as gating Noema submission. |
+| `tools/workstream-handoffs/archive/pm-session-handoff_2026-05-10.md` | §9 USER ACTION 1 + 2 — codifies the consent step as gating Noema submission. |
 | `/Users/c17n/.claude/projects/-Users-c17n-commons-bonds/memory/feedback_named_subject_consent.md` | The discipline file ratified 2026-05-09. Names Phat in the **Why:** paragraph as part of the case that produced the rule. |
 | `/Users/c17n/.claude/projects/-Users-c17n-commons-bonds/memory/MEMORY.md` | Index entry pointing to the discipline file. |
 

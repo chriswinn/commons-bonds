@@ -364,10 +364,10 @@ specification remains live within Stage 3's five-pass architecture.
 
 **v2.0 application targets (carry-forward).** Boston Review essay (long-form
 derived from Ch 5; clauses a + b + c all fire — see
-`tools/workstream-handoffs/boston-review-essay-handoff_2026-05-09.md`); Aeon
+`tools/workstream-handoffs/archive/boston-review-essay-handoff_2026-05-09.md`); Aeon
 post-acceptance essay (long-form derived from Ch 7 + Ch 8 + Ch 1; clauses a
 + b + c all fire — see
-`tools/workstream-handoffs/aeon-essay-post-acceptance-two-stage-handoff_2026-05-10.md`);
+`tools/workstream-handoffs/archive/aeon-essay-post-acceptance-two-stage-handoff_2026-05-10.md`);
 future long-form publisher-facing essays drafted without a strong iterated
 control (Atlantic, Harper's, NYRB, Phenomenal World).
 

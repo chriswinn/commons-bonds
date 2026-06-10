@@ -353,7 +353,7 @@ No living-private named subjects detected. No consent issue.
 - **Pass 1 + Pass 2 artifact:** [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-12_ch2_theminer_factcheck_only_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-12_ch2_theminer_factcheck_only_v1.0.0.md).
 - **Phase C spot-fix commits:** `5bc6edb` (Phase C-α + C-β: C-1 + C-2 + C-3 + C-4 + H-1 + H-3 = 6 fact-check spot-fixes); `fa08c10` (Phase C-γ: V-1 + V-2/H-2 + V-3 + V-4 + V-5 + V-6 + V-7 + V-10 = 8 voice-polish spot-fixes). Cumulative 14 spot-fixes applied.
 - **Cost Severance defense paragraph:** commit `8e61cd1` (ratified 2026-05-11; tightened in Pass 2 V-1 spot-fix per `fa08c10`).
-- **Workstream handoff:** [`tools/workstream-handoffs/manuscript-stage-3-rigor-pass-handoff_2026-05-11.md`](../workstream-handoffs/manuscript-stage-3-rigor-pass-handoff_2026-05-11.md) — Phase A spec + per-chapter table row for Ch 2.
+- **Workstream handoff:** [`tools/workstream-handoffs/archive/manuscript-stage-3-rigor-pass-handoff_2026-05-11.md`](../workstream-handoffs/archive/manuscript-stage-3-rigor-pass-handoff_2026-05-11.md) — Phase A spec + per-chapter table row for Ch 2.
 - **Stage-3 template:** [`tools/drafting-templates/stage-3-three-pass-rigor-audit.md`](../drafting-templates/stage-3-three-pass-rigor-audit.md) §Pass 3.
 - **Audience-set construction guide:** [`tools/drafting-templates/audience-pressure-test-construction.md`](../drafting-templates/audience-pressure-test-construction.md).
 - **Canonical 20-character book-audience set (adapted from):** [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-11_why_bonds_paragraph_include_vs_exclude_audience_load_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-11_why_bonds_paragraph_include_vs_exclude_audience_load_v1.0.0.md).

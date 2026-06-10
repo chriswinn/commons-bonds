@@ -40,7 +40,7 @@ Rename directory on state change via `git mv`. README.md state-field tracks fine
 
 ## Reorg origin
 
-This architecture was ratified 2026-05-24 in [`tools/workstream-handoffs/publishing-reorg-session1-audit_2026-05-24.md`](../tools/workstream-handoffs/publishing-reorg-session1-audit_2026-05-24.md) and applied via Phase C application 2026-05-24 / 2026-05-25 (Session 2).
+This architecture was ratified 2026-05-24 in [`tools/workstream-handoffs/archive/publishing-reorg-session1-audit_2026-05-24.md`](../tools/workstream-handoffs/archive/publishing-reorg-session1-audit_2026-05-24.md) and applied via Phase C application 2026-05-24 / 2026-05-25 (Session 2).
 
 The architecture extends the proven per-target-directory pattern from [`research/outreach/subjects/`](../research/outreach/subjects/) (8 source-subject directories) to three outbound publishing pipelines anticipating ~10 essays/op-eds + 50-100 literary agent outreaches at scale.
 

@@ -1,6 +1,6 @@
 # Cross-Chapter Path B Audit — 2026-05-11
 
-**Status:** Bundled execution of `tools/workstream-handoffs/path-b-audit-cross-chapter-handoff_2026-05-10.md` alongside the apparatus register sweep (chapter files overlap; bundling avoided merge conflicts). Two contaminations resolved; one verified clean; remaining priority pairs deferred to lower-priority status given diminishing returns.
+**Status:** Bundled execution of `tools/workstream-handoffs/archive/path-b-audit-cross-chapter-handoff_2026-05-10.md` alongside the apparatus register sweep (chapter files overlap; bundling avoided merge conflicts). Two contaminations resolved; one verified clean; remaining priority pairs deferred to lower-priority status given diminishing returns.
 
 **Triggering finding:** 2026-05-10 Noema essay audit identified ~14 verbatim sentences and 9 high-echo paragraphs cloned from Ch 1. Same close-paraphrasing dynamic was plausibly operating between chapter pairs within the manuscript. The Path B preemptive policy (no sentence-level reuse, no structural close-paraphrase) applies between chapters within the book, not just between chapters and essays.
 
@@ -130,8 +130,8 @@ Steps to add for the NEXT pass:
 
 - `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-11_apparatus_register_decision_v1.0.0.md` — companion apparatus register rigor pass (this audit's bundled twin)
 - `publishing/essays/noema-commons-bonds/rigor/early-audience-load_2026-05-09.md` — Noema rigor pass that triggered this cross-chapter audit
-- `tools/workstream-handoffs/path-b-audit-cross-chapter-handoff_2026-05-10.md` — parent handoff
-- `tools/workstream-handoffs/apparatus-register-sweep-handoff_2026-05-10.md` — bundled-twin parent handoff
+- `tools/workstream-handoffs/archive/path-b-audit-cross-chapter-handoff_2026-05-10.md` — parent handoff
+- `tools/workstream-handoffs/archive/apparatus-register-sweep-handoff_2026-05-10.md` — bundled-twin parent handoff
 
 ---
 

@@ -506,7 +506,7 @@ This artifact (internal scaffolding rigor-pass artifact) was fast-forwarded to `
 - No-invented-factual-claims rule: `tools/memory/feedback_no_invented_factual_claims_in_publisher_facing_prose.md`
 - Merge-on-ratification rule: `tools/memory/feedback_merge_on_ratification.md`
 - Rent-seeking-engagement cross-chapter workstream (Pass 3.4 thread #2 handoff): commit `bc02767`
-- Aeon submission workstream handoff: `tools/workstream-handoffs/aeon-submission-handoff_2026-05-09.md`
+- Aeon submission workstream handoff: `tools/workstream-handoffs/archive/aeon-submission-handoff_2026-05-09.md`
 
 ---
 

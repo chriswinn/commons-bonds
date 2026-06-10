@@ -558,7 +558,7 @@ applied to the pitch in this session per Pass 3.3 + 3.4 hard constraint
 - Audience pressure-test construction guide (Pass 3.4 adversarial-set §3): `tools/drafting-templates/audience-pressure-test-construction.md`
 - Canonical Pass 3.3 + 3.4 split example (Ch 1 REAUDIT v3 §5.3 thread-pull synthesis format model): `tools/rigor-passes/commons_bonds_ch1_stage_3_pass_3_audience_load_REAUDIT_2026-05-17_PROPOSED.md`
 - Rent-seeking-engagement cross-chapter workstream (Pass 3.4 thread #2 cross-chapter handoff): commit `bc02767` (2026-05-18 RATIFIED + APPLIED); cross-thread-todos #13 RESOLVED
-- Aeon submission workstream handoff: `tools/workstream-handoffs/aeon-submission-handoff_2026-05-09.md`
+- Aeon submission workstream handoff: `tools/workstream-handoffs/archive/aeon-submission-handoff_2026-05-09.md`
 - Discipline memory: `tools/memory/feedback_audience_aware_drafting_discipline.md`
 - Dual-audience-test memory: `tools/memory/feedback_dual_audience_test.md`
 

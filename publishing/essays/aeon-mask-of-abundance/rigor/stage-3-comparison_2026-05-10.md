@@ -317,7 +317,7 @@ Per the experimental protocol: this Stage 3 session produces a per-test verdict 
 - Stage 2 brief: `publishing/essays/aeon-mask-of-abundance/_archive/session-handoffs/aeon-session-handoff_2026-05-10.md`
 - Discipline memory: `feedback_audience_aware_drafting_discipline.md`
 - Title rigor pass (where *The Mask of Abundance* was ratified): `publishing/essays/aeon-mask-of-abundance/rigor/title-candidates_2026-05-08.md`
-- PM session handoff: `tools/workstream-handoffs/pm-session-handoff_2026-05-10.md`
+- PM session handoff: `tools/workstream-handoffs/archive/pm-session-handoff_2026-05-10.md`
 
 ---
 

@@ -3,7 +3,7 @@
 **Date drafted:** 2026-05-11
 **Pass type:** Q1 GO / NO-GO / CONDITIONAL meta-rigor pass on the $100 Barrel essay workstream stand-up (commit `d84b54b`)
 **Master criterion:** the book is the deliverable. Every dimension's HELPS / HURTS / NEUTRAL tilt is framed as net effect on book-success criteria 1–4 (NOT as net effect on the essay's own merits as a standalone publication). Tilt rule: helps-essay-but-hurts-book → HURTS; hurts-essay-but-helps-book → HELPS.
-**Status going in:** Workstream stood up 2026-05-11 per `tools/workstream-handoffs/100-barrel-essay-handoff_2026-05-11.md`. Author go/no-go pending. No Stage 1 brief, Stage 2 draft, or Stage 3 rigor pass yet.
+**Status going in:** Workstream stood up 2026-05-11 per `tools/workstream-handoffs/archive/100-barrel-essay-handoff_2026-05-11.md`. Author go/no-go pending. No Stage 1 brief, Stage 2 draft, or Stage 3 rigor pass yet.
 **Output:** verdict + per-dimension tilts + scope-adjustment conditions if CONDITIONAL.
 
 ---
@@ -22,7 +22,7 @@ Book-success criteria evaluated against:
 ## 1. Inputs reviewed
 
 - **Source material:** `archive/_OneDayMaybe/withdrawn-essays/draft2_withdrawn-noema_2026-05-01.md` §III (lines 66–126), full §II–VII for surrounding context.
-- **Workstream handoff:** `tools/workstream-handoffs/100-barrel-essay-handoff_2026-05-11.md`.
+- **Workstream handoff:** `tools/workstream-handoffs/archive/100-barrel-essay-handoff_2026-05-11.md`.
 - **Cascade plan:** `publishing/essays/_pipeline/archive/cascade-plan_2026-05-06.md` (12-month sequence; venue allocation; Wave 1 green-light rule; comp-titles).
 - **Cross-thread state:** `publishing/essays/_pipeline/cross-thread-todos.md` (item #4 Atlantic Ideas vs. PW; item #1 Sarah Chalfant agent confirmation; item #7 GDPR / interview-protocol gaps).
 - **Framework apparatus inventory:** `core/terms/terms_index.md` §3 (Ring-1 7 terms; Ring-2 mechanism + measurement + sub-instruments; cost-component examples; methodological apparatus).
@@ -289,7 +289,7 @@ If either condition fails:
 
 ## 10. Cross-references
 
-- **Workstream handoff:** `tools/workstream-handoffs/100-barrel-essay-handoff_2026-05-11.md`
+- **Workstream handoff:** `tools/workstream-handoffs/archive/100-barrel-essay-handoff_2026-05-11.md`
 - **Source material:** `archive/_OneDayMaybe/withdrawn-essays/draft2_withdrawn-noema_2026-05-01.md` §III (lines 66–126)
 - **Cascade plan:** `publishing/essays/_pipeline/archive/cascade-plan_2026-05-06.md`
 - **Cross-thread #4 (Atlantic Ideas vs. PW):** `publishing/essays/_pipeline/cross-thread-todos.md`

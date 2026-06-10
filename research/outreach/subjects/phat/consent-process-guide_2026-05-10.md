@@ -147,7 +147,7 @@ If Phat is alive but has had a major change of circumstances (illness, loss of c
 2. **Capture his print-form preference** for his name (full given name / short form *Phat* / with or without Vietnamese diacritic / full legal name as on ID). Note it on the signed-consent file. This is the form that gets applied to all edits in step 3 and step 4.
 3. **Apply the three edits to the *Noema* essay** per `phat-mentions-inventory_2026-05-10.md` "If consent signed — exact edit list" Edits 1-3. (Body line 137 + frontmatter line 9 + frontmatter line 4.)
 4. **Apply the two edits to Chapter 3** per the same inventory file, Edits 4-5. (HTML flag at line 131 + paragraph swaps at lines 132 and 140. Paragraphs 2-4 of the Phat portrait do not require change.)
-5. **Update PM dashboard §9** (`tools/workstream-handoffs/pm-session-handoff_2026-05-10.md`) — mark USER ACTION 1 + 2 complete with the signing date and a one-line evidence note pointing at the signed-consent file.
+5. **Update PM dashboard §9** (`tools/workstream-handoffs/archive/pm-session-handoff_2026-05-10.md`) — mark USER ACTION 1 + 2 complete with the signing date and a one-line evidence note pointing at the signed-consent file.
 6. **Update the named-subject-consent memory** (`/Users/c17n/.claude/projects/-Users-c17n-commons-bonds/memory/feedback_named_subject_consent.md`) — add a status note in the Why or How-to-apply section recording that Phat's consent landed on [DATE], so future sessions don't re-anonymize him.
 7. **Submit the *Noema* essay** to `edit@noemamag.com` per the submission window (late May / early June 2026).
 

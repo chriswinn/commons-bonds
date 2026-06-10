@@ -5,7 +5,7 @@
 **Scope:** `manuscript/chapters/Chapter__1_TheQuietMath__Draft.md`
 **Base sha (chapter source):** `9ffad4e` (same Ch 1 source content as the remote-container baseline; chapter content unchanged across the laptop-side commits since `9ffad4e`)
 **Session base sha:** `bc02767` (post-fast-forward into worktree at session-mid; remote-container baseline at `9ffad4e` predates by 5 commits, all `tools/`-side)
-**Workstream:** Ch 1 pipeline-retrofit (first of 4 standardization-comparison-bed retrofits per [`tools/workstream-handoffs/render-pipeline-standardization-handoff_2026-05-17.md`](../workstream-handoffs/render-pipeline-standardization-handoff_2026-05-17.md))
+**Workstream:** Ch 1 pipeline-retrofit (first of 4 standardization-comparison-bed retrofits per [`tools/workstream-handoffs/archive/render-pipeline-standardization-handoff_2026-05-17.md`](../workstream-handoffs/archive/render-pipeline-standardization-handoff_2026-05-17.md))
 **Stage:** 4 — render + character-integrity audit
 **Verdict status:** PROPOSED-pending-canonical-pipeline-decision (Option A/B/C — author ratifies after all 4 first-retrofit chapters' comparisons land + tuning rounds plateau, per standardization handoff §3.4)
 
@@ -224,9 +224,9 @@ The Ch 1 round-2 data weighs **toward Option A** (tune-laptop-to-match-remote-co
 
 ## §12. Cross-references
 
-- Retrofit handoff stub: [`tools/workstream-handoffs/ch1-pipeline-retrofit-handoff_2026-05-17.md`](../workstream-handoffs/ch1-pipeline-retrofit-handoff_2026-05-17.md)
-- Retrofit template: [`tools/workstream-handoffs/pipeline-retrofit-template_2026-05-17.md`](../workstream-handoffs/pipeline-retrofit-template_2026-05-17.md)
-- Standardization workstream: [`tools/workstream-handoffs/render-pipeline-standardization-handoff_2026-05-17.md`](../workstream-handoffs/render-pipeline-standardization-handoff_2026-05-17.md)
+- Retrofit handoff stub: [`tools/workstream-handoffs/archive/ch1-pipeline-retrofit-handoff_2026-05-17.md`](../workstream-handoffs/archive/ch1-pipeline-retrofit-handoff_2026-05-17.md)
+- Retrofit template: [`tools/workstream-handoffs/archive/pipeline-retrofit-template_2026-05-17.md`](../workstream-handoffs/archive/pipeline-retrofit-template_2026-05-17.md)
+- Standardization workstream: [`tools/workstream-handoffs/archive/render-pipeline-standardization-handoff_2026-05-17.md`](../workstream-handoffs/archive/render-pipeline-standardization-handoff_2026-05-17.md)
 - Pipeline doctrine: [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md`](../pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md)
 - Stage 4 doctrine: [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md`](../pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md)
 - Build-environment stamp: [`tools/quality-gates/render-baselines/build-environment.yaml`](../quality-gates/render-baselines/build-environment.yaml)

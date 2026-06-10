@@ -514,7 +514,7 @@ merge-to-main default.
 - Audit target (post-patch): `publishing/essays/aeon-mask-of-abundance/_archive/prior-versions/aeon-pitch-commons-bonds-winn_VERSION-C.md`
 - Stage 1 brief (post-patch; canonical-truth audit baseline): `publishing/essays/aeon-mask-of-abundance/rigor/stage-1-brief.md`
 - Prior Stage 3 comparison verdict (A wins; submit C as-is): `publishing/essays/aeon-mask-of-abundance/rigor/stage-3-comparison_2026-05-10.md`
-- Aeon submission workstream handoff: `tools/workstream-handoffs/aeon-submission-handoff_2026-05-09.md`
+- Aeon submission workstream handoff: `tools/workstream-handoffs/archive/aeon-submission-handoff_2026-05-09.md`
 - Stage 3 template (Pass 3.1 protocol): `tools/drafting-templates/stage-3-three-pass-rigor-audit.md`
 - Discipline memory: `tools/memory/feedback_audience_aware_drafting_discipline.md`
 - Named-subject consent memory: `tools/memory/feedback_named_subject_consent.md`

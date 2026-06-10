@@ -73,7 +73,7 @@ Per Stage 1c coherence-check verdict ([`tools/quality-gates/coherence-checks/ch1
 ### §1.4 Audience-load verification
 
 - **Pass 3.3 audience-load acceptance verdict:** ratified per REAUDIT v3 40-character set (30 acceptance + 10 adversarial). Acceptance verdict per character is recorded in [`tools/rigor-passes/commons_bonds_ch1_stage_3_pass_3_audience_load_REAUDIT_2026-05-17_PROPOSED.md`](../rigor-passes/commons_bonds_ch1_stage_3_pass_3_audience_load_REAUDIT_2026-05-17_PROPOSED.md).
-- **Pass 3.4 audience-load robustness verdict:** included in the REAUDIT v3 artifact's adversarial-set + thread-pull synthesis §5.3 (canonical Pass-3.4 diagnostic format model). Thread-pull synthesis surfaced the Public Choice rent-seeking-engagement thread (#33 adversarial character pulled by 5 chars), which became the cross-chapter rent-seeking-engagement workstream (see [`tools/workstream-handoffs/cross-chapter-rent-seeking-engagement-handoff_2026-05-17.md`](../workstream-handoffs/cross-chapter-rent-seeking-engagement-handoff_2026-05-17.md)). Ch 1 spot-fix not warranted (would damage acceptance verdicts); cross-chapter handoff is the disposition.
+- **Pass 3.4 audience-load robustness verdict:** included in the REAUDIT v3 artifact's adversarial-set + thread-pull synthesis §5.3 (canonical Pass-3.4 diagnostic format model). Thread-pull synthesis surfaced the Public Choice rent-seeking-engagement thread (#33 adversarial character pulled by 5 chars), which became the cross-chapter rent-seeking-engagement workstream (see [`tools/workstream-handoffs/archive/cross-chapter-rent-seeking-engagement-handoff_2026-05-17.md`](../workstream-handoffs/archive/cross-chapter-rent-seeking-engagement-handoff_2026-05-17.md)). Ch 1 spot-fix not warranted (would damage acceptance verdicts); cross-chapter handoff is the disposition.
 
 ### §1.5 Render integrity
 
@@ -157,7 +157,7 @@ Per author preference, rank-ordered for Ch 1 specifically:
 - Pass 3.3 audience-load acceptance + 3.4 robustness (combined per REAUDIT v3): [`tools/rigor-passes/commons_bonds_ch1_stage_3_pass_3_audience_load_REAUDIT_2026-05-17_PROPOSED.md`](../rigor-passes/commons_bonds_ch1_stage_3_pass_3_audience_load_REAUDIT_2026-05-17_PROPOSED.md)
 - Stage 4 render-integrity audit (PROPOSED-pending-canonical-pipeline-decision): [`tools/rigor-passes/render_pipeline_comparison_ch1_2026-05-18.md`](../rigor-passes/render_pipeline_comparison_ch1_2026-05-18.md)
 - Stage 5 sign-off: PENDING (deferred until Stage 4 verdict ratifies)
-- Cross-chapter workstream touching scope: [`tools/workstream-handoffs/cross-chapter-rent-seeking-engagement-handoff_2026-05-17.md`](../workstream-handoffs/cross-chapter-rent-seeking-engagement-handoff_2026-05-17.md) (rent-seeking-engagement workstream — surfaces from Ch 1 REAUDIT v3 Pass 3.4 #33 adversarial thread; substantive engagement lives in Ch 5 / Ch 9 / Tech Appendix, not in Ch 1)
+- Cross-chapter workstream touching scope: [`tools/workstream-handoffs/archive/cross-chapter-rent-seeking-engagement-handoff_2026-05-17.md`](../workstream-handoffs/archive/cross-chapter-rent-seeking-engagement-handoff_2026-05-17.md) (rent-seeking-engagement workstream — surfaces from Ch 1 REAUDIT v3 Pass 3.4 #33 adversarial thread; substantive engagement lives in Ch 5 / Ch 9 / Tech Appendix, not in Ch 1)
 
 ---
 

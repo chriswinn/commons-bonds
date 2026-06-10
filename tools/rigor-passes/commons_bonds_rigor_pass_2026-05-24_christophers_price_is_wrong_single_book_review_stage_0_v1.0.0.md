@@ -33,7 +33,7 @@ A dimension that helps the piece land but hurts a book-success criterion tilts H
 - `tools/memory/feedback_named_subject_consent.md` (n/a here — review-essay subject is published author Christophers, public-record by definition)
 - `tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md` (Stage 0–5 + Amendments)
 - `tools/drafting-templates/stage-0-publishing-strategy-rigor-test.md`
-- `tools/workstream-handoffs/pm-session-handoff_2026-05-24.md` (current state; submission queue; ratification bandwidth analysis)
+- `tools/workstream-handoffs/archive/pm-session-handoff_2026-05-24.md` (current state; submission queue; ratification bandwidth analysis)
 - `publishing/strategy/cascade-plan_v2_2026-05-24.md` (PROPOSED; Wave 2 architecture + cascade chains)
 - `publishing/strategy/june-2026-submission-schedule.md` (Wave 1 current cadence; rate-limiting factors)
 - `publishing/strategy/decisions-log.md` (recent decisions, esp. 2026-05-08 bibliography additions decision + Wave 1 timing recalibration)
@@ -591,7 +591,7 @@ SEQUENCING DISCIPLINE: When ALL three triggers fire, fire fresh Stage 0 re-test 
 - `manuscript/chapters/Chapter__5_TheAccountabilityGap.md` line 184 — secondary cross-reference
 
 **PM dashboard:**
-- `tools/workstream-handoffs/pm-session-handoff_2026-05-24.md`
+- `tools/workstream-handoffs/archive/pm-session-handoff_2026-05-24.md`
 
 ---
 

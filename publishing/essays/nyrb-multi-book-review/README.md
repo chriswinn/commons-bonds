@@ -74,7 +74,7 @@ Per Stage 5 sign-off §5: review-essay genre is **distinct from chapter-derivati
   - W2.2 Ch 2 → Harper's — Pass 3.5 PROPOSED 2026-05-27; Stage 5 imminent
   - W2.3 Ch 4 → Foreign Affairs (*The Existence Proof*) — RATIFIED READY-TO-SUBMIT 2026-05-27
   - W2.4 Ch 8 → NYRB (different Ch 8 long-arc essay; PM-recommended DEFER per cascade plan v2 §3 Path D-α)
-- **Cross-essay portfolio review:** [`tools/workstream-handoffs/cross-essay-portfolio-review_2026-05-27.md`](../../../tools/workstream-handoffs/cross-essay-portfolio-review_2026-05-27.md)
+- **Cross-essay portfolio review:** [`tools/workstream-handoffs/archive/cross-essay-portfolio-review_2026-05-27.md`](../../../tools/workstream-handoffs/archive/cross-essay-portfolio-review_2026-05-27.md)
 - **Cascade plan v2:** [`publishing/essays/_pipeline/cascade-plan_v2_2026-05-24.md`](../_pipeline/cascade-plan_v2_2026-05-24.md)
 
 ## Origin

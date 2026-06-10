@@ -1,7 +1,7 @@
 # Stage-3 Pass 3.3 Acceptance — Ch 4 (The Existence Proof)
 
 **Date:** 2026-05-25
-**Workstream:** Ch 4 pipeline-retrofit (per [`tools/workstream-handoffs/ch4-pipeline-retrofit-handoff_2026-05-17.md`](../workstream-handoffs/ch4-pipeline-retrofit-handoff_2026-05-17.md))
+**Workstream:** Ch 4 pipeline-retrofit (per [`tools/workstream-handoffs/archive/ch4-pipeline-retrofit-handoff_2026-05-17.md`](../workstream-handoffs/archive/ch4-pipeline-retrofit-handoff_2026-05-17.md))
 **Chapter:** 4 — *The Existence Proof*
 **File audited:** [`manuscript/chapters/Chapter__4_TheExistenceProof.md`](../../manuscript/chapters/Chapter__4_TheExistenceProof.md) — **140 lines** (post-Pass-1 spot-fix state; post-2026-05-24 publishing-pipeline reorg rename)
 **Pass scope:** Pass 3.3 (audience-load — acceptance) — **fresh, first-cycle** for Ch 4. Per pipeline doctrine §3.5 (Amendment A two-class cascade), Pass 3.3 fires in the explicit-gate cascade at first-cycle retrofit + venue-change + pre-publication; this retrofit is the explicit-gate trigger.

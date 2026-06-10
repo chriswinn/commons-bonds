@@ -1,6 +1,6 @@
 # Cross-Chapter Consistency — Canonical-Terms Inventory — 2026-05-11
 
-**Status:** Standing reference. Built during Phase 1 of the cross-chapter consistency audit workstream (parent handoff: `tools/workstream-handoffs/cross-chapter-consistency-handoff_2026-05-10.md`). Operates downstream of the apparatus register decision sweep (`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-11_apparatus_register_decision_v1.0.0.md`) and the Path B cross-chapter audit (`research/audits/cross-chapter-path-b-audit_2026-05-11.md`).
+**Status:** Standing reference. Built during Phase 1 of the cross-chapter consistency audit workstream (parent handoff: `tools/workstream-handoffs/archive/cross-chapter-consistency-handoff_2026-05-10.md`). Operates downstream of the apparatus register decision sweep (`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-11_apparatus_register_decision_v1.0.0.md`) and the Path B cross-chapter audit (`research/audits/cross-chapter-path-b-audit_2026-05-11.md`).
 
 **Scope.** Every load-bearing framework term, every named case, every recurring statistic, every retired term, every apparatus register decision, every recurring citation pattern. For each: canonical home chapter; canonical spelling/format; per-chapter use scope; cross-reference protocol where applicable.
 

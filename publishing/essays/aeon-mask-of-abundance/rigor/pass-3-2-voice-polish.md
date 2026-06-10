@@ -936,7 +936,7 @@ v3.1 Amendment C interactive ratification protocol).
 - Prior Stage 3 comparison (A wins; submit C as-is): `publishing/essays/aeon-mask-of-abundance/rigor/stage-3-comparison_2026-05-10.md`
 - Canonical Pass 3.2 artifact-format model: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-13_ch1_the_quiet_math_stage3_voice_polish_v1.0.0.md`
 - Stage 3 template (Pass 3.2 protocol): `tools/drafting-templates/stage-3-three-pass-rigor-audit.md`
-- Aeon submission workstream handoff: `tools/workstream-handoffs/aeon-submission-handoff_2026-05-09.md`
+- Aeon submission workstream handoff: `tools/workstream-handoffs/archive/aeon-submission-handoff_2026-05-09.md`
 - Discipline memory: `tools/memory/feedback_audience_aware_drafting_discipline.md`
 - Voice-polish memory: `tools/memory/feedback_voice_polish_pipeline.md`
 - Dual-audience-test memory: `tools/memory/feedback_dual_audience_test.md`

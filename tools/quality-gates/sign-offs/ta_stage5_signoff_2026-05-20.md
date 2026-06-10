@@ -248,10 +248,10 @@ The Σ1 cross-chapter rent-seeking thread is APPLIED at TA §1.10; no residual c
 - Pass 3.4 robustness: [`tools/rigor-passes/ta_stage3_pass_3_4_audience_load_robustness_2026-05-18.md`](../../rigor-passes/ta_stage3_pass_3_4_audience_load_robustness_2026-05-18.md)
 - Stage 4 render-integrity audit (RATIFIED 2026-05-20): [`tools/rigor-passes/render_pipeline_comparison_ta_2026-05-18.md`](../../rigor-passes/render_pipeline_comparison_ta_2026-05-18.md)
 - Pre-publication review queue (RATIFIED 2026-05-20): [`tools/pre-submission-reviews/ta_pre_pub_review_queue_v1.0.0.md`](../../pre-submission-reviews/ta_pre_pub_review_queue_v1.0.0.md)
-- Retrofit handoff stub: [`tools/workstream-handoffs/ta-pipeline-retrofit-handoff_2026-05-17.md`](../../workstream-handoffs/ta-pipeline-retrofit-handoff_2026-05-17.md)
-- Standardization workstream: [`tools/workstream-handoffs/render-pipeline-standardization-handoff_2026-05-17.md`](../../workstream-handoffs/render-pipeline-standardization-handoff_2026-05-17.md)
-- Render-toolchain-containerization workstream (canonical-pipeline-decision operationalization): [`tools/workstream-handoffs/render-toolchain-containerization-handoff_2026-05-18.md`](../../workstream-handoffs/render-toolchain-containerization-handoff_2026-05-18.md)
-- Cross-chapter rent-seeking workstream (Σ1 disposition): [`tools/workstream-handoffs/cross-chapter-rent-seeking-engagement-handoff_2026-05-17.md`](../../workstream-handoffs/cross-chapter-rent-seeking-engagement-handoff_2026-05-17.md)
+- Retrofit handoff stub: [`tools/workstream-handoffs/archive/ta-pipeline-retrofit-handoff_2026-05-17.md`](../../workstream-handoffs/archive/ta-pipeline-retrofit-handoff_2026-05-17.md)
+- Standardization workstream: [`tools/workstream-handoffs/archive/render-pipeline-standardization-handoff_2026-05-17.md`](../../workstream-handoffs/archive/render-pipeline-standardization-handoff_2026-05-17.md)
+- Render-toolchain-containerization workstream (canonical-pipeline-decision operationalization): [`tools/workstream-handoffs/archive/render-toolchain-containerization-handoff_2026-05-18.md`](../../workstream-handoffs/archive/render-toolchain-containerization-handoff_2026-05-18.md)
+- Cross-chapter rent-seeking workstream (Σ1 disposition): [`tools/workstream-handoffs/archive/cross-chapter-rent-seeking-engagement-handoff_2026-05-17.md`](../../workstream-handoffs/archive/cross-chapter-rent-seeking-engagement-handoff_2026-05-17.md)
 - Sandy-packet canonical-shipped artifacts: `research/outreach/subjects/darity/Technical_Appendix_Commons_Bonds_2026-05-14.{docx,pdf}`
 
 ---

@@ -1,6 +1,6 @@
 # Atlantic Ideas Essay — Pre-Draft Audience-and-Structure Rigor Pass v1.1.4 — 2026-05-19 (refresh 2026-05-21; §7 figure-currency amendments 2026-05-24)
 
-**Status:** Stage 1 deliverable. **v1.1.4 figure-currency refresh (2026-05-24)** applies four §7 amendments ratified at Pass 3.1 interactive ratification session 2026-05-24: §7.1 post-cascade McDowell floor; §7.6 Norway / Alaska / Mondragon current figures; §7.3 carbon pricing + Baotou tailings size; bibliography Marx entry added (separate housekeeping). **v1.1.0 refresh (2026-05-21)** brought the brief to canonical-doctrine parity per cross-thread #14 partially-resolved status + author ratification of D1–D7 brief-update items. Drives a fresh-session Stage 2 audience-blind flow draft of the Atlantic Ideas essay derived from Ch 9 *Pricing Honestly*. Stage 3 **five-pass** rigor (3.1 fact-check + 3.2 voice-polish + 3.3 audience-load acceptance + 3.4 audience-load robustness + 3.5 developmental-edit) fires on the Stage 2 output, followed by Stage 4 render + character-integrity audit + Stage 5 academic-rigor + prose-quality sign-off bookend with pre-publication review queue artifact. **Pass 3.1 fact-check RATIFIED + APPLIED 2026-05-24** ([`publishing/essays/atlantic-ideas-pricing-honestly/rigor/pass-3-1-fact-check.md`](pass-3-1-fact-check.md)). Workstream handoff at [`tools/workstream-handoffs/atlantic-ideas-essay-handoff_2026-05-19.md`](../workstream-handoffs/atlantic-ideas-essay-handoff_2026-05-19.md). Foreign Policy alternate reframe outline (fires only on Atlantic Ideas decline) at [`tools/workstream-handoffs/foreign-policy-alternate-outline_2026-05-21.md`](../workstream-handoffs/foreign-policy-alternate-outline_2026-05-21.md).
+**Status:** Stage 1 deliverable. **v1.1.4 figure-currency refresh (2026-05-24)** applies four §7 amendments ratified at Pass 3.1 interactive ratification session 2026-05-24: §7.1 post-cascade McDowell floor; §7.6 Norway / Alaska / Mondragon current figures; §7.3 carbon pricing + Baotou tailings size; bibliography Marx entry added (separate housekeeping). **v1.1.0 refresh (2026-05-21)** brought the brief to canonical-doctrine parity per cross-thread #14 partially-resolved status + author ratification of D1–D7 brief-update items. Drives a fresh-session Stage 2 audience-blind flow draft of the Atlantic Ideas essay derived from Ch 9 *Pricing Honestly*. Stage 3 **five-pass** rigor (3.1 fact-check + 3.2 voice-polish + 3.3 audience-load acceptance + 3.4 audience-load robustness + 3.5 developmental-edit) fires on the Stage 2 output, followed by Stage 4 render + character-integrity audit + Stage 5 academic-rigor + prose-quality sign-off bookend with pre-publication review queue artifact. **Pass 3.1 fact-check RATIFIED + APPLIED 2026-05-24** ([`publishing/essays/atlantic-ideas-pricing-honestly/rigor/pass-3-1-fact-check.md`](pass-3-1-fact-check.md)). Workstream handoff at [`tools/workstream-handoffs/archive/atlantic-ideas-essay-handoff_2026-05-19.md`](../workstream-handoffs/archive/atlantic-ideas-essay-handoff_2026-05-19.md). Foreign Policy alternate reframe outline (fires only on Atlantic Ideas decline) at [`tools/workstream-handoffs/archive/foreign-policy-alternate-outline_2026-05-21.md`](../workstream-handoffs/archive/foreign-policy-alternate-outline_2026-05-21.md).
 
 **v1.1.4 changelog (2026-05-24, Pass 3.1 figure-currency amendments):**
 - **§7.1 amendment** — Ch 8 coal-CO₂ cascade RATIFIED + APPLIED 2026-05-23 (commits `89c56e6` + `5f875a6`). Cross-thread #12 now RESOLVED. Ch 8 post-cascade state: conservative floor across four components = **$518–$532/ton**; total = **$524/ton**; carbon-tail alone = **$510/ton**. Essay hook range tightened from "$500–$600" to "$520–$600" to align lower bound with Ch 8 floor (cascade went the opposite direction from this brief's v1.1.0 anticipated drift to ~$400–500 floor — preserved McDowell-specific basis instead).
@@ -289,7 +289,7 @@ The fresh session's source material is:
 
 - This Stage 1 brief (audience set + structure + voice register + canonical-facts inventory + apparatus exclusion list)
 - The Stage 1 brief's carry-forward inventory (§7 above)
-- The workstream handoff at `tools/workstream-handoffs/atlantic-ideas-essay-handoff_2026-05-19.md`
+- The workstream handoff at `tools/workstream-handoffs/archive/atlantic-ideas-essay-handoff_2026-05-19.md`
 - The Path B preemptive policy itself
 
 **Ch 9 is thematic scaffolding, not source text.** The fresh session may verify a fact against Ch 9 if it absolutely must (a date, a number, a name not in §7) but should NOT read Ch 9's prose paragraphs and then attempt to "rephrase them differently." That move was tried in Noema Essay A and failed — produced ~14 verbatim sentences and 9 high-echo paragraphs that failed Path B audit.
@@ -472,8 +472,8 @@ If a Stage 0 pass is fired retrospectively (e.g., to surface a venue-fit concern
 
 ## 16. Cross-references (v1.1.0 refresh 2026-05-21)
 
-- **Workstream handoff:** `tools/workstream-handoffs/atlantic-ideas-essay-handoff_2026-05-19.md`
-- **Foreign Policy alternate reframe outline (NEW 2026-05-21):** `tools/workstream-handoffs/foreign-policy-alternate-outline_2026-05-21.md`
+- **Workstream handoff:** `tools/workstream-handoffs/archive/atlantic-ideas-essay-handoff_2026-05-19.md`
+- **Foreign Policy alternate reframe outline (NEW 2026-05-21):** `tools/workstream-handoffs/archive/foreign-policy-alternate-outline_2026-05-21.md`
 - **Source chapter:** `manuscript/chapters/Chapter__9_PricingHonestly.md` — **Pass 1 Phase C RATIFIED + APPLIED 2026-05-19 (commit `4c8bc02`); Pass 2 Phase C RATIFIED + APPLIED 2026-05-20 (commit `78a26c2`)** — sequencing gate "wait for Ch 9 Pass 2" satisfied.
 - **v3.1 discipline memory:** `/Users/c17n/.claude/projects/-Users-c17n-commons-bonds/memory/feedback_audience_aware_drafting_discipline.md` (mirrored at `tools/memory/feedback_audience_aware_drafting_discipline.md`) — v3.0 base + Amendment A; per cross-thread #14 partially-resolved, the memory file is 2+ days stale of canonical doctrine (Pass 3.5 + Amendment C codifications had not yet been synced to memory at the time of last update). **Authoritative canonical doctrine** lives at the pipeline doctrine artifacts below:
 - **v3.1 canonical doctrine artifacts:**
@@ -503,10 +503,10 @@ If a Stage 0 pass is fired retrospectively (e.g., to surface a venue-fit concern
   - `publishing/essays/noema-commons-bonds/rigor/stage-1-brief.md` (long-form model)
   - `publishing/essays/aeon-mask-of-abundance/rigor/stage-1-brief.md` (short-form model)
 - **Sibling workstream handoffs:**
-  - `tools/workstream-handoffs/boston-review-essay-handoff_2026-05-09.md` (Ch 5 / institutional-measurement frame)
-  - `tools/workstream-handoffs/100-barrel-essay-handoff_2026-05-11.md` (withdrawn-Noema §III + Ch 8 thread / oil-thought-experiment frame; parallel-fire partner per cross-thread #4 resolution)
-  - `tools/workstream-handoffs/aeon-essay-post-acceptance-two-stage-handoff_2026-05-10.md` (Ch 7 / Mars-closed-habitat frame)
-  - `tools/workstream-handoffs/cross-chapter-rent-seeking-engagement-handoff_2026-05-17.md` (Ch 9 Public Choice section provenance)
+  - `tools/workstream-handoffs/archive/boston-review-essay-handoff_2026-05-09.md` (Ch 5 / institutional-measurement frame)
+  - `tools/workstream-handoffs/archive/100-barrel-essay-handoff_2026-05-11.md` (withdrawn-Noema §III + Ch 8 thread / oil-thought-experiment frame; parallel-fire partner per cross-thread #4 resolution)
+  - `tools/workstream-handoffs/archive/aeon-essay-post-acceptance-two-stage-handoff_2026-05-10.md` (Ch 7 / Mars-closed-habitat frame)
+  - `tools/workstream-handoffs/archive/cross-chapter-rent-seeking-engagement-handoff_2026-05-17.md` (Ch 9 Public Choice section provenance)
 - **Apparatus-translation methodology:**
   - `tools/drafts/why-bonds-paragraph_2026-05-11_v1.0.0.md`
   - `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-11_why_bonds_paragraph_include_vs_exclude_audience_load_v1.0.0.md`

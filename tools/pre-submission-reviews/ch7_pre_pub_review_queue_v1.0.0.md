@@ -339,7 +339,7 @@ Ch 7 is publisher-ship-ready at the **strongest defensible publication-ready sta
 - Stage 4 re-ratification: §7 of [`tools/rigor-passes/ch7_stage_4_render_audit_2026-05-26.md`](../rigor-passes/ch7_stage_4_render_audit_2026-05-26.md) (this bundled commit)
 - Stage 5 re-sign-off: §11 of [`tools/quality-gates/sign-offs/ch7_stage5_signoff_2026-05-26.md`](../quality-gates/sign-offs/ch7_stage5_signoff_2026-05-26.md) (this bundled commit)
 - Ch 5 precedent (bundled-closure pattern): commit `3a4f774` Ch 5 Phase C complete bundle 2026-05-26
-- PM handoff (chapter-by-chapter best-possible-book review context): [`tools/workstream-handoffs/chapter-by-chapter-best-possible-book-review-handoff_2026-05-26.md`](../workstream-handoffs/chapter-by-chapter-best-possible-book-review-handoff_2026-05-26.md)
+- PM handoff (chapter-by-chapter best-possible-book review context): [`tools/workstream-handoffs/archive/chapter-by-chapter-best-possible-book-review-handoff_2026-05-26.md`](../workstream-handoffs/archive/chapter-by-chapter-best-possible-book-review-handoff_2026-05-26.md)
 
 ---
 

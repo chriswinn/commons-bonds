@@ -20,7 +20,7 @@
 2. `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-12_ch4_existence_proof_stage3_fact_check_v1.0.0.md` (Pass 1 artifact — context only; fact-check findings not re-litigated here)
 3. `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-13_ch1_the_quiet_math_stage3_voice_polish_v1.0.0.md` (Ch 1 Pass-2 artifact — canonical format model)
 4. `tools/drafting-templates/stage-3-three-pass-rigor-audit.md` §"Pass 2: Voice-polish" + §"Audit-existing-prose mode"
-5. `tools/workstream-handoffs/manuscript-stage-3-rigor-pass-handoff_2026-05-11.md` (per-chapter table; Ch 4 row line 66)
+5. `tools/workstream-handoffs/archive/manuscript-stage-3-rigor-pass-handoff_2026-05-11.md` (per-chapter table; Ch 4 row line 66)
 6. `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-11_apparatus_register_decision_v1.0.0.md` (apparatus register canonical decisions for the informal Pass-4 consistency check)
 7. `tools/audits/cross-chapter-consistency-inventory_2026-05-11.md` (canonical-terms inventory; Norway / GPFG / Cost Severance / Intergenerational Option Value cross-chapter rows)
 8. `core/terms/terms_index.md` (canonical-form check for apparatus terms in body prose)

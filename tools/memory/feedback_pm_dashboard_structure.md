@@ -4,7 +4,7 @@ description: Standard structure for PM session handoff dashboards — top-of-min
 type: feedback
 originSessionId: 52436a38-f724-4ccc-b29f-5fc316f7ef6a
 ---
-**Canonical full content:** `tools/workstream-handoffs/pm-session-handoff_2026-05-13.md`
+**Canonical full content:** `tools/workstream-handoffs/archive/pm-session-handoff_2026-05-13.md`
 **Layer:** scan-friendly summary; this file is the cross-session discipline pointer. Update the canonical artifact when content changes; sync this summary via `tools/memory-updates/` spec for substantive amendments.
 
 PM session handoff dashboards (`tools/workstream-handoffs/pm-session-handoff_<DATE>.md`) follow this structure, in order, top-of-page first. The structure is action-driving, not just reference-organized — the most-load-bearing question ("what do I do right now?") is answered without scrolling.
@@ -39,7 +39,7 @@ Re-evaluate priority on each refresh — a workstream's priority shifts as deadl
 - Priority assignments re-evaluated each refresh.
 - The PM-session-freshness section (§11) is mandatory — it tells the next session when to recommend wrapping.
 
-**Codified in:** `tools/workstream-handoffs/pm-session-handoff_2026-05-13.md` (after 2026-05-13 v2.0 reorganization).
+**Codified in:** `tools/workstream-handoffs/archive/pm-session-handoff_2026-05-13.md` (after 2026-05-13 v2.0 reorganization).
 
 **Emoji + status-marker conventions — authoritative source:** [`../conventions/status-markers.md`](../conventions/status-markers.md) (codified 2026-05-28 per project-review S7). It owns the priority emoji table (🔴 / 🟡 / 🟢 / 🔵 / 🟣 / ⏳ / ✅), the full status-marker reference (file-header `Status:` values, rigor-pass filenames, per-essay directory tags, commit-message escape-hatch markers like `MERGE-HOLD:` / `MERGE-AFTER:`), and the state-transition diagram for what status can transition to what. Reference that file before introducing a new marker or unclear status value in any PM dashboard; do not redefine conventions inline.
 

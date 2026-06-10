@@ -364,7 +364,7 @@ Aeon-overlap held passage at Ch 7:101 ("structural test the same" + "self-impose
 - Stage 4 re-ratification: §7 of [`tools/rigor-passes/ch7_stage_4_render_audit_2026-05-26.md`](../../rigor-passes/ch7_stage_4_render_audit_2026-05-26.md) (this bundled commit)
 - Pre-pub queue refresh: §10 of [`tools/pre-submission-reviews/ch7_pre_pub_review_queue_v1.0.0.md`](../../pre-submission-reviews/ch7_pre_pub_review_queue_v1.0.0.md) (this bundled commit)
 - Ch 5 precedent (bundled-closure pattern): commit `3a4f774` Ch 5 Phase C complete bundle 2026-05-26
-- PM handoff (chapter-by-chapter best-possible-book review context): [`tools/workstream-handoffs/chapter-by-chapter-best-possible-book-review-handoff_2026-05-26.md`](../../workstream-handoffs/chapter-by-chapter-best-possible-book-review-handoff_2026-05-26.md)
+- PM handoff (chapter-by-chapter best-possible-book review context): [`tools/workstream-handoffs/archive/chapter-by-chapter-best-possible-book-review-handoff_2026-05-26.md`](../../workstream-handoffs/archive/chapter-by-chapter-best-possible-book-review-handoff_2026-05-26.md)
 
 ---
 

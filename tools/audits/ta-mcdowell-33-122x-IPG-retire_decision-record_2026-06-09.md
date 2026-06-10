@@ -105,6 +105,6 @@ Both are table cells (a cell cannot be retired to nothing); both re-derived on r
 
 ## Cross-references
 - Whole-TA scaffolding findings (same session): `tools/audits/ta-whole-TA-internal-scaffolding-rescan_findings_2026-06-09.md`
-- Session-D closeout handoff: `tools/workstream-handoffs/ta-m3-pathA-SESSION-D-closeout-handoff_2026-06-09.md`
+- Session-D closeout handoff: `tools/workstream-handoffs/archive/ta-m3-pathA-SESSION-D-closeout-handoff_2026-06-09.md`
 - ta-internal-fixes provenance flag: `tools/workstream-handoffs/paste-to-IPG-owners_33-122x-provenance-flag_2026-06-09.md` (on the correctness-sweep held branch)
 - §11.11 (the replacement model): TA L6196–6222.

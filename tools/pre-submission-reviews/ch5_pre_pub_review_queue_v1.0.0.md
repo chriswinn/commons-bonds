@@ -262,7 +262,7 @@ Per author preference, rank-ordered for Ch 5 specifically:
 - Stage 4 render-integrity audit (RATIFIED 2026-05-26 as AUTHOR-COMPLETED-OFFLINE; CLEAN): [`tools/rigor-passes/ch5_stage_4_render_audit_2026-05-26.md`](../rigor-passes/ch5_stage_4_render_audit_2026-05-26.md) (supersedes [`render_pipeline_comparison_ch5_2026-05-18.md`](../rigor-passes/render_pipeline_comparison_ch5_2026-05-18.md), which carries forward as historical evidence-base record)
 - Stage 5 sign-off: PENDING (no longer Stage-4-blocked; fires after Pass 3.4 + Pass 3.3 light re-fire ratifications close — or concurrently in a single Phase C session)
 - Cross-chapter workstreams touching scope:
-  - Rent-seeking-engagement workstream (RATIFIED 2026-05-18; Ch 5 line 184 touch landed `a1e54d9`): [`tools/workstream-handoffs/cross-chapter-rent-seeking-engagement-handoff_2026-05-17.md`](../workstream-handoffs/cross-chapter-rent-seeking-engagement-handoff_2026-05-17.md)
+  - Rent-seeking-engagement workstream (RATIFIED 2026-05-18; Ch 5 line 184 touch landed `a1e54d9`): [`tools/workstream-handoffs/archive/cross-chapter-rent-seeking-engagement-handoff_2026-05-17.md`](../workstream-handoffs/archive/cross-chapter-rent-seeking-engagement-handoff_2026-05-17.md)
   - **Orthodox-Econ Engagement Workstream** (PROPOSED candidate per Pass 3.4 §5.2; PM disposition pending) — surfaced by Ch 5 Pass 3.4 §A5 thread α10 + α11.
   - **Agency-Conditional-on-Information Naming Workstream** (PROPOSED candidate per Pass 3.4 §5.2; PM disposition pending) — surfaced by Ch 5 Pass 3.4 §A9 thread α19.
 

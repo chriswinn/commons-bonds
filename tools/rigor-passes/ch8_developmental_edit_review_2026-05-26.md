@@ -1,7 +1,7 @@
 # Commons Bonds — Ch 8 *What Things Actually Cost* — Stage 3 Pass 3.5 (Developmental-Edit)
 
 **Date:** 2026-05-26
-**Workstream:** Developmental-Editing Workstream Class (per [`tools/workstream-handoffs/developmental-edit-workstream-handoff_2026-05-18.md`](../workstream-handoffs/developmental-edit-workstream-handoff_2026-05-18.md)) — Ch 8 per-chapter discovery session
+**Workstream:** Developmental-Editing Workstream Class (per [`tools/workstream-handoffs/archive/developmental-edit-workstream-handoff_2026-05-18.md`](../workstream-handoffs/archive/developmental-edit-workstream-handoff_2026-05-18.md)) — Ch 8 per-chapter discovery session
 **Chapter file:** [`manuscript/chapters/Chapter__8_WhatThingsActuallyCost.md`](../../manuscript/chapters/Chapter__8_WhatThingsActuallyCost.md) — current state, **243 lines / 6,421 words / 52 em-dashes** post Pass 1 + Pass 2 RATIFIED + APPLIED (commits `5fe6af6`, `275b75a`, `57575b1`, `9befb92`, `138aa7e`, `6589ca2`, `16554fa`) + Pass 3.3 RATIFIED HOLD + Pass 3.4 RATIFIED + APPLIED T3 D-3a MacLean-coherence sentence at line 122 (commit `6125a4e`, 2026-05-26) + Stage 4 author-completed-offline RATIFIED 2026-05-26 (commit `e36bdd6`).
 **Discipline:** v3.1 Amendment B 5-pass + Amendment A two-class cascade + Amendment C interactive ratification protocol. Pass 3.5 (developmental-edit; whole-chapter restoration-of-richness lens; restoration polarity, NOT cutting) per pipeline doctrine v1.0.0 §3.6 (Amendment B 2026-05-18 — Pass 3.5 codified) + §3.7 (Amendment C 2026-05-19 — interactive ratification protocol).
 **Mode:** audit-existing-prose, STOP at PROPOSED stage per session brief. Phase C-δ application is a separate combined ratification + application session per Amendment C.

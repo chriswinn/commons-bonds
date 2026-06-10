@@ -31,7 +31,7 @@ Pass 2 §6 forward-flagged eight items for Pass-3 disposition. A ninth item (the
 5. [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-11_ch1_the_quiet_math_stage3_fact_check_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-11_ch1_the_quiet_math_stage3_fact_check_v1.0.0.md) — Pass 1 doc; F-4 (Black American writing engagement) disposition context only; fact-check findings not re-litigated.
 6. [`tools/rigor-passes/commons_bonds_ch5_stage_3_pass_3_audience_load_2026-05-14_PROPOSED.md`](commons_bonds_ch5_stage_3_pass_3_audience_load_2026-05-14_PROPOSED.md) — structural mirror (9-character set; ratified 2026-05-14).
 7. [`tools/rigor-passes/commons_bonds_ch6_stage_3_pass_3_audience_load_2026-05-14_PROPOSED.md`](commons_bonds_ch6_stage_3_pass_3_audience_load_2026-05-14_PROPOSED.md) — structural mirror.
-8. [`tools/workstream-handoffs/manuscript-stage-3-rigor-pass-handoff_2026-05-11.md`](../workstream-handoffs/manuscript-stage-3-rigor-pass-handoff_2026-05-11.md) — workstream #20 brief.
+8. [`tools/workstream-handoffs/archive/manuscript-stage-3-rigor-pass-handoff_2026-05-11.md`](../workstream-handoffs/archive/manuscript-stage-3-rigor-pass-handoff_2026-05-11.md) — workstream #20 brief.
 9. Memory: `feedback_audience_aware_drafting_discipline.md` (v2.0 Amendment B — distinct passes; audience-load is Pass 3).
 10. Memory: `feedback_dual_audience_test.md` (every register decision tested against layman + specialist).
 11. Memory: `feedback_substance_drives_length.md` (no arbitrary word-count targets).

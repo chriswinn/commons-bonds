@@ -303,7 +303,7 @@ After Stage 5 ratification:
 - Pass 3.3 light re-fire post-D-3b: [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-25_pass_3_3_light_refire_ch5_ch9_ta_post_d3b_v1.0.0.md`](../../rigor-passes/commons_bonds_rigor_pass_2026-05-25_pass_3_3_light_refire_ch5_ch9_ta_post_d3b_v1.0.0.md) — ✓ ACCEPTANCE-TEST DEFENSIBLE
 - Pass 3.5 developmental-edit: [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-25_ch9_pricing_honestly_pass_3_5_developmental_edit_v1.0.0.md`](../../rigor-passes/commons_bonds_rigor_pass_2026-05-25_ch9_pricing_honestly_pass_3_5_developmental_edit_v1.0.0.md) — RATIFIED + APPLIED `1fe06c2` (F-DE-Ch9-1 Option A; F-DE-Ch9-2 HELD) + §9 Stage 4 author-offline marker
 - Pre-publication review queue (RATIFIED 2026-05-25): [`tools/pre-submission-reviews/ch9_pre_pub_review_queue_v1.0.0.md`](../../pre-submission-reviews/ch9_pre_pub_review_queue_v1.0.0.md)
-- Cross-chapter rent-seeking workstream: [`tools/workstream-handoffs/cross-chapter-rent-seeking-engagement-handoff_2026-05-17.md`](../../workstream-handoffs/cross-chapter-rent-seeking-engagement-handoff_2026-05-17.md) (RATIFIED `bc02767`)
+- Cross-chapter rent-seeking workstream: [`tools/workstream-handoffs/archive/cross-chapter-rent-seeking-engagement-handoff_2026-05-17.md`](../../workstream-handoffs/archive/cross-chapter-rent-seeking-engagement-handoff_2026-05-17.md) (RATIFIED `bc02767`)
 - Stage 5 doctrine: [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md`](../../pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md)
 - Stage 5 precedents: TA (`2d01407` 2026-05-20); Ch 6 (`533f4f6` 2026-05-25); Ch 1 (`906a204` 2026-05-25); Ch 2 (`cd2c76d` 2026-05-25)
 

@@ -19,7 +19,7 @@
 1. `manuscript/chapters/Chapter__1_TheQuietMath__Draft.md` (post-F-3 state; 111 lines)
 2. `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-11_ch1_the_quiet_math_stage3_fact_check_v1.0.0.md` (Pass 1 artifact — context only; fact-check findings not re-litigated here)
 3. `tools/drafting-templates/stage-3-three-pass-rigor-audit.md` §"Pass 2: Voice-polish" (LLM-tic inventory + severity scale)
-4. `tools/workstream-handoffs/manuscript-stage-3-rigor-pass-handoff_2026-05-11.md` (per-chapter table; Ch 1 voice-concern emphasis = memoir-register consistency + named-subject discipline)
+4. `tools/workstream-handoffs/archive/manuscript-stage-3-rigor-pass-handoff_2026-05-11.md` (per-chapter table; Ch 1 voice-concern emphasis = memoir-register consistency + named-subject discipline)
 5. Memory: `feedback_voice_polish_pipeline.md` (dump → sift → polish; active editorial work expected)
 6. Memory: `feedback_audience_aware_drafting_discipline.md` (v2.0 Amendment B — voice-polish is its own pass)
 7. Memory: `feedback_substance_drives_length.md` (no padding; no cutting to fit)

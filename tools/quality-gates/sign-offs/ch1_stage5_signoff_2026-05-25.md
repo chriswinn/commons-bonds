@@ -20,7 +20,7 @@ Per Ch 6 Stage 5 artifact's strategic recommendation §coordination-with-other-b
 - Stage 1a clean-baseline: [`tools/quality-gates/clean-baselines/ch1_stage1a_2026-05-18.md`](../clean-baselines/ch1_stage1a_2026-05-18.md) — CLEAN BASELINE (0 HIGH / 0 MEDIUM / 0 LOW; 78 patterns scanned).
 - Stage 1c cross-artifact coherence-check: [`tools/quality-gates/coherence-checks/ch1_stage1c_2026-05-18.md`](../coherence-checks/ch1_stage1c_2026-05-18.md) — COHERENCE VERIFIED (12 bibliography commitments inventoried; 4 REALIZED in prose + 1 REALIZED via methodology + 4 not-named-but-consistent + 2 MEDIUM bibliography-side flags; 4 AuthorsNote framings all REALIZED; 7 sibling-chapter cross-references — 6 REALIZED + 1 PARTIAL [Ch 6 line 251 "spouse recovering from dying"]).
 - Stage 4 render-audit disposition: AUTHOR-COMPLETED OFFLINE 2026-05-25 per author 2026-05-25 instruction; verdict CLEAN (matches Ch 2 + Ch 6 patterns); ratified in this artifact per Ch 6 / Ch 2 bundled-ratification precedent.
-- Cross-chapter rent-seeking workstream (Public Choice cross-chapter handoff RESOLVED): [`tools/workstream-handoffs/cross-chapter-rent-seeking-engagement-handoff_2026-05-17.md`](../../workstream-handoffs/cross-chapter-rent-seeking-engagement-handoff_2026-05-17.md) (RATIFIED `bc02767`).
+- Cross-chapter rent-seeking workstream (Public Choice cross-chapter handoff RESOLVED): [`tools/workstream-handoffs/archive/cross-chapter-rent-seeking-engagement-handoff_2026-05-17.md`](../../workstream-handoffs/archive/cross-chapter-rent-seeking-engagement-handoff_2026-05-17.md) (RATIFIED `bc02767`).
 - `__Draft` suffix dropped chapter-wide 2026-05-18 (commit `a09e319`).
 - Named-subject consent memory: [`tools/memory/feedback_named_subject_consent.md`](../../memory/feedback_named_subject_consent.md).
 - Author's grandfather memory (LaVern E. Winn — NASA Langley inventor; 2 patents verified ground): see project memory `project_authors_grandfather_nasa_inventor`.
@@ -530,7 +530,7 @@ After downstream chapter Stage 5 firings:
 - Stage 1a clean-baseline: [`tools/quality-gates/clean-baselines/ch1_stage1a_2026-05-18.md`](../clean-baselines/ch1_stage1a_2026-05-18.md)
 - Stage 1c coherence-check: [`tools/quality-gates/coherence-checks/ch1_stage1c_2026-05-18.md`](../coherence-checks/ch1_stage1c_2026-05-18.md)
 - Pre-publication review queue (RATIFIED 2026-05-25 via this Stage 5 sign-off): [`tools/pre-submission-reviews/ch1_pre_pub_review_queue_v1.0.0.md`](../../pre-submission-reviews/ch1_pre_pub_review_queue_v1.0.0.md)
-- Cross-chapter rent-seeking workstream (Public Choice thread RESOLVED): [`tools/workstream-handoffs/cross-chapter-rent-seeking-engagement-handoff_2026-05-17.md`](../../workstream-handoffs/cross-chapter-rent-seeking-engagement-handoff_2026-05-17.md) (commit `bc02767`)
+- Cross-chapter rent-seeking workstream (Public Choice thread RESOLVED): [`tools/workstream-handoffs/archive/cross-chapter-rent-seeking-engagement-handoff_2026-05-17.md`](../../workstream-handoffs/archive/cross-chapter-rent-seeking-engagement-handoff_2026-05-17.md) (commit `bc02767`)
 - Render pipeline comparison: [`tools/rigor-passes/render_pipeline_comparison_ch1_2026-05-18.md`](../../rigor-passes/render_pipeline_comparison_ch1_2026-05-18.md)
 - AuthorsNote canonical grandfather framing: [`manuscript/chapters/_AUTHORSNOTE_ON_WINDTUNNELS_AND_AI.md`](../../../manuscript/chapters/_AUTHORSNOTE_ON_WINDTUNNELS_AND_AI.md)
 - Ch 6 Stage 5 (canonical chapter-class template precedent): [`tools/quality-gates/sign-offs/ch6_stage5_signoff_2026-05-25.md`](ch6_stage5_signoff_2026-05-25.md)

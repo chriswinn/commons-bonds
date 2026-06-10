@@ -3,7 +3,7 @@
 **Date:** 2026-05-20
 **Workstream:** Ch 6 developmental-edit review — SIXTH per-chapter session of the
 developmental-editing workstream class (per the per-chapter sequencing plan at
-[`tools/workstream-handoffs/developmental-edit-workstream-handoff_2026-05-18.md`](../workstream-handoffs/developmental-edit-workstream-handoff_2026-05-18.md)
+[`tools/workstream-handoffs/archive/developmental-edit-workstream-handoff_2026-05-18.md`](../workstream-handoffs/archive/developmental-edit-workstream-handoff_2026-05-18.md)
 §1.3; Ch 1 PROPOSED 2026-05-18 + RATIFIED-and-APPLIED 2026-05-18 + revisited
 2026-05-19 is the precedent; Ch 2 through Ch 5 sessions pending).
 **Pass type:** Pass 3.5 — whole-chapter developmental edit (formally codified
@@ -55,7 +55,7 @@ ratification + application session per pipeline doctrine v1.0.0 Amendment C
    — Ch 1 dev-edit precedent; form-and-rigor model for per-finding format,
    severity tiers (HIGH / MEDIUM / LOW), and whole-chapter synthesis
    structure.
-3. [`tools/workstream-handoffs/developmental-edit-workstream-handoff_2026-05-18.md`](../workstream-handoffs/developmental-edit-workstream-handoff_2026-05-18.md)
+3. [`tools/workstream-handoffs/archive/developmental-edit-workstream-handoff_2026-05-18.md`](../workstream-handoffs/archive/developmental-edit-workstream-handoff_2026-05-18.md)
    — workstream class definition; per-finding format (F-DE-Ch<N>-K);
    per-chapter sequencing plan; cascade-per-Amendment-A explicit-gate
    pass; Amendment C interactive ratification protocol.
@@ -91,7 +91,7 @@ ratification + application session per pipeline doctrine v1.0.0 Amendment C
 10. [`tools/rigor-passes/commons_bonds_rigor_pass_2026-04-29_phase2_three_ways_of_counting_adoption_fit_v1.0.0.md`](commons_bonds_rigor_pass_2026-04-29_phase2_three_ways_of_counting_adoption_fit_v1.0.0.md)
     — earlier adoption-fit pass; background context for cumulative
     Ch 6 audit-history.
-11. [`tools/workstream-handoffs/ch6-pipeline-retrofit-handoff_2026-05-17.md`](../workstream-handoffs/ch6-pipeline-retrofit-handoff_2026-05-17.md)
+11. [`tools/workstream-handoffs/archive/ch6-pipeline-retrofit-handoff_2026-05-17.md`](../workstream-handoffs/archive/ch6-pipeline-retrofit-handoff_2026-05-17.md)
     — retrofit handoff; explains what landed in `5e08642`.
 12. CLAUDE.md — named-subject consent discipline (chapter has no
     living-private named subjects; named figures are public-record

@@ -305,7 +305,7 @@ All courtesy-notifications can be batched via single email to (a) Jessica Lilly 
 - **Pass 1 + Pass 2 artifact:** [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-12_ch2_theminer_factcheck_only_v1.0.0.md`](../../tools/rigor-passes/commons_bonds_rigor_pass_2026-05-12_ch2_theminer_factcheck_only_v1.0.0.md) — 14 prior spot-fixes context.
 - **Ch 2 case-study brief:** [`research/case-studies/appalachian-coal.md`](appalachian-coal.md) — verbatim source for chapter; pre-substitution candidate-integration sweep target.
 - **Named-subject consent memory:** `/Users/c17n/.claude/projects/-Users-c17n-commons-bonds/memory/feedback_named_subject_consent.md` — public-record exception (2026-05-12) governs.
-- **Workstream handoff:** [`tools/workstream-handoffs/manuscript-stage-3-rigor-pass-handoff_2026-05-11.md`](../../tools/workstream-handoffs/manuscript-stage-3-rigor-pass-handoff_2026-05-11.md) — Ch 2 row in per-chapter table.
+- **Workstream handoff:** [`tools/workstream-handoffs/archive/manuscript-stage-3-rigor-pass-handoff_2026-05-11.md`](../../tools/workstream-handoffs/archive/manuscript-stage-3-rigor-pass-handoff_2026-05-11.md) — Ch 2 row in per-chapter table.
 
 ---
 

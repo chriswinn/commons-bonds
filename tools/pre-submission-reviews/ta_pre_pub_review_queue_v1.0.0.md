@@ -272,7 +272,7 @@ Per author preference, rank-ordered for TA specifically:
 - Pass 3.4 audience-load robustness (this session): [`tools/rigor-passes/ta_stage3_pass_3_4_audience_load_robustness_2026-05-18.md`](../rigor-passes/ta_stage3_pass_3_4_audience_load_robustness_2026-05-18.md)
 - Stage 4 render-integrity audit (RATIFIED 2026-05-20 MEDIUM HOLD): [`tools/rigor-passes/render_pipeline_comparison_ta_2026-05-18.md`](../rigor-passes/render_pipeline_comparison_ta_2026-05-18.md)
 - Stage 5 sign-off (RATIFIED 2026-05-20 PASS): [`tools/quality-gates/sign-offs/ta_stage5_signoff_2026-05-20.md`](../quality-gates/sign-offs/ta_stage5_signoff_2026-05-20.md)
-- Cross-chapter workstream touching scope: [`tools/workstream-handoffs/cross-chapter-rent-seeking-engagement-handoff_2026-05-17.md`](../workstream-handoffs/cross-chapter-rent-seeking-engagement-handoff_2026-05-17.md) (rent-seeking-engagement workstream — substantive engagement lands in TA §5.5 or new section per workstream §0 framing)
+- Cross-chapter workstream touching scope: [`tools/workstream-handoffs/archive/cross-chapter-rent-seeking-engagement-handoff_2026-05-17.md`](../workstream-handoffs/archive/cross-chapter-rent-seeking-engagement-handoff_2026-05-17.md) (rent-seeking-engagement workstream — substantive engagement lands in TA §5.5 or new section per workstream §0 framing)
 - Sandy-Darity packet: `research/outreach/subjects/darity/Technical_Appendix_Commons_Bonds_2026-05-14.{docx,pdf}` (clean baseline; rendered before Ch 1 in-session patch)
 
 ---

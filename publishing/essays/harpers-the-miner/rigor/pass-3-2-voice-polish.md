@@ -776,7 +776,7 @@ Result: four-row "They did not / They did not / They did not / They did not" ana
 - Stage 2 essay draft (RATIFIED PC-4) + Pass 3.1 essay.md spot-fixes: harness branch `worktree-agent-a12ed7f85945ace53` head commit `05bf35f`; cherry-picked onto this Pass 3.2 worktree's harness branch.
 - Pass 3.1 RATIFIED + APPLIED artifact: origin/main commit `6b6b06d` (RATIFIED 2026-05-27).
 - Pass 3.2 PROPOSED artifact (this artifact): on Pass 3.2 worktree harness branch `claude/ch2-harpers-pass3-2-voicepolish-260527-52a7ec`; target push to origin/main per internal-scaffolding fast-forward at session close per CLAUDE.md merge-to-main policy.
-- Pass 3.3 kickoff paste-text (produced by this session): staged at `tools/workstream-handoffs/ch2-harpers-stage-3-pass-3-3-audience-load-kickoff_2026-05-27.md`; target push to origin/main with this artifact.
+- Pass 3.3 kickoff paste-text (produced by this session): staged at `tools/workstream-handoffs/archive/ch2-harpers-stage-3-pass-3-3-audience-load-kickoff_2026-05-27.md`; target push to origin/main with this artifact.
 
 ### §7.2 Next-pass anchor
 

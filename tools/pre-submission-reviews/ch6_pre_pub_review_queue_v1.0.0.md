@@ -301,7 +301,7 @@ Per author preference, rank-ordered for Ch 6 specifically:
 - Pass 3.3 light re-fire post-dev-edit (RATIFIED 2026-05-25): [`tools/rigor-passes/ch6_pass3_3_light_refire_post_devedit_2026-05-23.md`](../rigor-passes/ch6_pass3_3_light_refire_post_devedit_2026-05-23.md)
 - Stage 4 render-integrity audit (RATIFIED 2026-05-25 author-managed-offline disposition): see Pass 3.3 light re-fire §8 + pre-dev-edit baseline at [`tools/rigor-passes/render_pipeline_comparison_ch6_2026-05-18.md`](../rigor-passes/render_pipeline_comparison_ch6_2026-05-18.md) + canonical-pipeline closure `5e08642`
 - Stage 5 sign-off (RATIFIED 2026-05-25): [`tools/quality-gates/sign-offs/ch6_stage5_signoff_2026-05-25.md`](../quality-gates/sign-offs/ch6_stage5_signoff_2026-05-25.md)
-- Cross-chapter workstream touching scope: [`tools/workstream-handoffs/cross-chapter-rent-seeking-engagement-handoff_2026-05-17.md`](../workstream-handoffs/cross-chapter-rent-seeking-engagement-handoff_2026-05-17.md) (rent-seeking-engagement workstream RATIFIED `bc02767`; Ch 6 deliberately not touched per §5.5; engagement lives in Ch 5 + Ch 9 + TA §1.10 + Ch 8)
+- Cross-chapter workstream touching scope: [`tools/workstream-handoffs/archive/cross-chapter-rent-seeking-engagement-handoff_2026-05-17.md`](../workstream-handoffs/archive/cross-chapter-rent-seeking-engagement-handoff_2026-05-17.md) (rent-seeking-engagement workstream RATIFIED `bc02767`; Ch 6 deliberately not touched per §5.5; engagement lives in Ch 5 + Ch 9 + TA §1.10 + Ch 8)
 - New cross-chapter handoff recommendation (surfaced by Pass 3.4 #10 tort-reform thread): **Ch 9 implementation-vs-methodology clarification** for next Ch 9 rigor pass / pre-pub-review-queue cycle.
 
 ---

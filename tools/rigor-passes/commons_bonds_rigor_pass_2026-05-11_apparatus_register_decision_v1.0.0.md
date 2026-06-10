@@ -2,7 +2,7 @@
 
 **Status:** Ratified across 15 apparatus items + 2 Path B fixes + 3 adjacent-issue follow-ups, applied to `manuscript/chapters/`, `core/glossary/`, and `core/technical-appendix/`. Standing reference for future essay extractions and chapter polish work.
 
-**Methodology:** Bundled execution of the apparatus register sweep (`tools/workstream-handoffs/apparatus-register-sweep-handoff_2026-05-10.md`) and the cross-chapter Path B audit (`tools/workstream-handoffs/path-b-audit-cross-chapter-handoff_2026-05-10.md`) — the two workstreams overlap heavily in the chapter files they edit; bundling avoided merge conflicts.
+**Methodology:** Bundled execution of the apparatus register sweep (`tools/workstream-handoffs/archive/apparatus-register-sweep-handoff_2026-05-10.md`) and the cross-chapter Path B audit (`tools/workstream-handoffs/archive/path-b-audit-cross-chapter-handoff_2026-05-10.md`) — the two workstreams overlap heavily in the chapter files they edit; bundling avoided merge conflicts.
 
 **Audience-load discipline applied:** Each apparatus item was tested against the dual-audience layman+specialist test ratified mid-session (2026-05-11). The session caught a methodological failure mode in the original recommendations: defaulting to "shorter = trade-press-friendly" rather than asking what the substance actually requires. Substance-drives-length principle (per `feedback_substance_drives_length.md`) governs the final recommendations.
 
@@ -107,8 +107,8 @@ Specific items flagged:
 - `core/glossary/commons_bonds_updated_glossary_v4.html` — canonical glossary (updated for "central equation" standardization)
 - `core/technical-appendix/TechnicalAppendix_v2.0.0.html` — formal apparatus (updated for §7→§8 ARR reconciliation + "central equation" standardization; pending: parallel-numbering audit)
 - `publishing/essays/noema-commons-bonds/rigor/early-audience-load_2026-05-09.md` — Noema rigor pass (severity calibration framework + 14-character audience set)
-- `tools/workstream-handoffs/apparatus-register-sweep-handoff_2026-05-10.md` — parent handoff
-- `tools/workstream-handoffs/path-b-audit-cross-chapter-handoff_2026-05-10.md` — Path B parent handoff
+- `tools/workstream-handoffs/archive/apparatus-register-sweep-handoff_2026-05-10.md` — parent handoff
+- `tools/workstream-handoffs/archive/path-b-audit-cross-chapter-handoff_2026-05-10.md` — Path B parent handoff
 - `research/audits/cross-chapter-path-b-audit_2026-05-11.md` — companion audit document
 
 ---

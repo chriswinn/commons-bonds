@@ -409,7 +409,7 @@ If NO: drop lowest-priority RESTORE candidates until within cap.
 
 - Upstream audit: `publishing/essays/aeon-mask-of-abundance/rigor/evolution-audit_2026-05-27.md` (Phase B archaeology table sourced 8 candidates)
 - Aeon file-org remediation handoff (PRE-SUBMIT): audit §7.1 paste-text
-- Cross-essay corpus-hygiene handoff (POST-SUBMIT): `tools/workstream-handoffs/cross-essay-corpus-hygiene-spot-check_2026-05-27.md`
+- Cross-essay corpus-hygiene handoff (POST-SUBMIT): `tools/workstream-handoffs/archive/cross-essay-corpus-hygiene-spot-check_2026-05-27.md`
 - Submission source-of-truth: `publishing/essays/aeon-mask-of-abundance/submission-day-package_2026-05-31.md` §2
 - Current canonical Version C (or new essay.md if file-org fix fired): `publishing/essays/aeon-mask-of-abundance/_archive/prior-versions/aeon-pitch-commons-bonds-winn_VERSION-C.md` (or `publishing/essays/aeon-mask-of-abundance/essay.md`)
 - Pass 3.2 (voice-polish) source artifact: `publishing/essays/aeon-mask-of-abundance/rigor/pass-3-2-voice-polish.md`

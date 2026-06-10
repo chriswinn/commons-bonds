@@ -30,7 +30,7 @@
 8. [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-23_ch9_pricing_honestly_stage3_pass_3_4_audience_load_robustness_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-23_ch9_pricing_honestly_stage3_pass_3_4_audience_load_robustness_v1.0.0.md) — Ch 9 Pass 3.4 robustness artifact (analytical-policy register format model; most analogous to Ch 7's analytical-thought-experiment register; T1 + T2 + T7 cross-pressure synthesis is the load-bearing diagnostic carried forward to this session).
 9. [`tools/rigor-passes/ch4_existence_proof_stage3_pass_3_4_robustness_2026-05-25.md`](ch4_existence_proof_stage3_pass_3_4_robustness_2026-05-25.md) — Ch 4 Pass 3.4 robustness artifact (additional format model).
 10. [`tools/rigor-passes/commons_bonds_ch1_stage_3_pass_3_audience_load_REAUDIT_2026-05-17_PROPOSED.md`](commons_bonds_ch1_stage_3_pass_3_audience_load_REAUDIT_2026-05-17_PROPOSED.md) — Ch 1 REAUDIT v3 canonical 40-character set; §5.3 thread-pull synthesis is the original Pass-3.4 format model that surfaced the Public Choice rent-seeking-engagement thread.
-11. [`tools/workstream-handoffs/manuscript-stage-3-rigor-pass-handoff_2026-05-11.md`](../workstream-handoffs/manuscript-stage-3-rigor-pass-handoff_2026-05-11.md) — Ch 7 row at line 69; sample-chapter default per line 333; Aeon-thunder-stealing-protection note; existential-substitutability-gap Bostrom-lineage citation expectation.
+11. [`tools/workstream-handoffs/archive/manuscript-stage-3-rigor-pass-handoff_2026-05-11.md`](../workstream-handoffs/archive/manuscript-stage-3-rigor-pass-handoff_2026-05-11.md) — Ch 7 row at line 69; sample-chapter default per line 333; Aeon-thunder-stealing-protection note; existential-substitutability-gap Bostrom-lineage citation expectation.
 12. [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-11_apparatus_register_decision_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-11_apparatus_register_decision_v1.0.0.md) — apparatus register canonical decisions (do NOT re-litigate).
 13. [`tools/audits/cross-chapter-consistency-inventory_2026-05-11.md`](../audits/cross-chapter-consistency-inventory_2026-05-11.md) — canonical-terms inventory + flagship-term canonical forms.
 14. [`core/terms/terms_index.md`](../../core/terms/terms_index.md) — apparatus-term canonical-form spot-check.
@@ -732,7 +732,7 @@ All three edits intra-line; no line-count change (chapter remains 250 lines).
 
 ### §12.5 PM session note (chapter-by-chapter best-possible-book review)
 
-Per author direction 2026-05-26, the same reconsidered-context lens should be applied to all chapters with outstanding HOLD decisions on Pass 3.4 (or any other pass's §8 author-judgment items). PM-session handoff scheduled at `tools/workstream-handoffs/chapter-by-chapter-best-possible-book-review-handoff_2026-05-26.md` (forthcoming commit). Ch 7 is the worked-example precedent for the reconsideration discipline.
+Per author direction 2026-05-26, the same reconsidered-context lens should be applied to all chapters with outstanding HOLD decisions on Pass 3.4 (or any other pass's §8 author-judgment items). PM-session handoff scheduled at `tools/workstream-handoffs/archive/chapter-by-chapter-best-possible-book-review-handoff_2026-05-26.md` (forthcoming commit). Ch 7 is the worked-example precedent for the reconsideration discipline.
 
 ---
 

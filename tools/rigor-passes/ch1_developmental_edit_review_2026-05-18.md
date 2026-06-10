@@ -1456,7 +1456,7 @@ session (10 chapters × per-chapter findings + cross-chapter
 recurring-pattern observations + cumulative token-economy data).
 
 See the separate workstream-handoff artifact at
-[`tools/workstream-handoffs/developmental-edit-workstream-handoff_2026-05-18.md`](../workstream-handoffs/developmental-edit-workstream-handoff_2026-05-18.md)
+[`tools/workstream-handoffs/archive/developmental-edit-workstream-handoff_2026-05-18.md`](../workstream-handoffs/archive/developmental-edit-workstream-handoff_2026-05-18.md)
 for the workstream definition + doctrine-amendment candidate capture
 + per-chapter sequencing plan.
 

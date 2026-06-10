@@ -2,7 +2,7 @@
 
 **Status:** RATIFIED 2026-05-19 (see §15 below). Stage 1 deliverable under the v2.0 audience-aware drafting discipline (`feedback_audience_aware_drafting_discipline.md`; ratified 2026-05-10). Drives a Stage 2 audience-blind flow draft session. STOPS at the brief — no prose drafted in this artifact.
 
-**Workstream:** $100 Barrel essay (Workstream #16); derivative essay from withdrawn-Noema §III for Phenomenal World submission. Handoff: [`tools/workstream-handoffs/100-barrel-essay-handoff_2026-05-11.md`](../workstream-handoffs/100-barrel-essay-handoff_2026-05-11.md).
+**Workstream:** $100 Barrel essay (Workstream #16); derivative essay from withdrawn-Noema §III for Phenomenal World submission. Handoff: [`tools/workstream-handoffs/archive/100-barrel-essay-handoff_2026-05-11.md`](../workstream-handoffs/archive/100-barrel-essay-handoff_2026-05-11.md).
 
 **Stage 0 verdict carry-forward.** Q1 GO/NO-GO/CONDITIONAL rigor pass at [`publishing/essays/100-barrel/rigor/q1-go-no-go.md`](q1-go-no-go.md) returned CONDITIONAL, author-ratified 2026-05-11. Condition 1 (**non-partisan framing discipline**) carries forward into this brief as load-bearing pressure-test architecture; Condition 2 (apparatus-stability checkpoint) verified by PM Session 2026-05-19 ahead of session fire (rigor-pass artifact merge per CLAUDE.md default).
 
@@ -398,7 +398,7 @@ Per-prompt serial cadence per v2.0 Amendment B (preserved in v3.0). Each pass fi
 
 ## 14. Cross-references
 
-- **Workstream handoff:** [`tools/workstream-handoffs/100-barrel-essay-handoff_2026-05-11.md`](../workstream-handoffs/100-barrel-essay-handoff_2026-05-11.md)
+- **Workstream handoff:** [`tools/workstream-handoffs/archive/100-barrel-essay-handoff_2026-05-11.md`](../workstream-handoffs/archive/100-barrel-essay-handoff_2026-05-11.md)
 - **Q1 GO/NO-GO/CONDITIONAL rigor pass:** [`publishing/essays/100-barrel/rigor/q1-go-no-go.md`](q1-go-no-go.md) — Condition 1 carry-forward source
 - **Source material:** [`archive/_OneDayMaybe/withdrawn-essays/draft2_withdrawn-noema_2026-05-01.md`](../../archive/_OneDayMaybe/withdrawn-essays/draft2_withdrawn-noema_2026-05-01.md) §III (lines 66–126) + Stern-Nordhaus retrospective at line 131
 - **Stage 1 template:** [`tools/drafting-templates/stage-1-audience-aware-structure-pass.md`](../drafting-templates/stage-1-audience-aware-structure-pass.md)

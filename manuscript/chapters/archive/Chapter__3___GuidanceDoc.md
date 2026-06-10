@@ -177,13 +177,13 @@ Before the Stage 2 audience-blind drafting session fires:
 
 ## §9. Cross-references
 
-- [`../../tools/workstream-handoffs/pm-session-handoff_2026-05-18.md`](../../tools/workstream-handoffs/pm-session-handoff_2026-05-18.md) — PM dashboard.
+- [`../../tools/workstream-handoffs/archive/pm-session-handoff_2026-05-18.md`](../../tools/workstream-handoffs/archive/pm-session-handoff_2026-05-18.md) — PM dashboard.
 - [`../../tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md`](../../tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md) — pipeline doctrine.
 - [`../../tools/memory/feedback_audience_aware_drafting_discipline.md`](../../tools/memory/feedback_audience_aware_drafting_discipline.md) — v2.0 two-stage discipline.
 - [`../../tools/memory/feedback_named_subject_consent.md`](../../tools/memory/feedback_named_subject_consent.md) — consent discipline.
 - [`../../tools/memory/feedback_substance_drives_length.md`](../../tools/memory/feedback_substance_drives_length.md) — substance-drives-length rule.
 - [`../../research/outreach/subjects/cbf/live-call-companion_2026-05-21_thursday-meeting.html`](../../research/outreach/subjects/cbf/live-call-companion_2026-05-21_thursday-meeting.html) — full voices catalogue + meeting prep.
-- [`../../tools/workstream-handoffs/cross-chapter-rent-seeking-engagement-handoff_2026-05-17.md`](../../tools/workstream-handoffs/cross-chapter-rent-seeking-engagement-handoff_2026-05-17.md) — cross-chapter rent-seeking engagement (Ch 5 + Ch 8 + Ch 9 + TA).
+- [`../../tools/workstream-handoffs/archive/cross-chapter-rent-seeking-engagement-handoff_2026-05-17.md`](../../tools/workstream-handoffs/archive/cross-chapter-rent-seeking-engagement-handoff_2026-05-17.md) — cross-chapter rent-seeking engagement (Ch 5 + Ch 8 + Ch 9 + TA).
 - [`Chapter__3_TheWaterman.md`](Chapter__3_TheWaterman.md) — existing Ch 3 v1 draft (Pass 1 PROPOSED `2f76e37`).
 - [`archive/Chapter__3___GuidanceDoc.md`](archive/Chapter__3___GuidanceDoc.md) — superseded archive copy (audit trail).
 - [`../../tools/rigor-passes/commons_bonds_rigor_pass_2026-05-XX_ch3_thewaterman_factcheck.md`](../../tools/rigor-passes/) — Ch 3 Pass 1 PROPOSED `2f76e37` artifact (verify exact filename).

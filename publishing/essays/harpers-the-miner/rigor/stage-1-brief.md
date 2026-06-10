@@ -4,7 +4,7 @@
 
 **Workstream:** Wave 2, Candidate A — Ch 2 *The Miner* → Harper's Magazine derivative essay. Stage 0 batch ratification record at [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-24_wave_2_derivative_planning_stage_0_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-24_wave_2_derivative_planning_stage_0_v1.0.0.md) §12 Candidate A (RATIFIED 2026-05-25 commit `ba5e9f8`).
 
-**Kickoff paste-text source:** [`tools/workstream-handoffs/ch2-harpers-stage-1-brief-kickoff_2026-05-26.md`](../workstream-handoffs/ch2-harpers-stage-1-brief-kickoff_2026-05-26.md) (commit `7908b7b` 2026-05-26).
+**Kickoff paste-text source:** [`tools/workstream-handoffs/archive/ch2-harpers-stage-1-brief-kickoff_2026-05-26.md`](../workstream-handoffs/archive/ch2-harpers-stage-1-brief-kickoff_2026-05-26.md) (commit `7908b7b` 2026-05-26).
 
 **Methodology anchor.** v3.1 audience-aware drafting discipline ([`tools/memory/feedback_audience_aware_drafting_discipline.md`](../memory/feedback_audience_aware_drafting_discipline.md) — v2.0 Amendment B three-pass core + v3.0 four-pass split with Pass 3.4 adversarial + v3.1 Amendment B Pass 3.5 developmental-edit codification + v3.1 Amendment C per-finding-artifact interactive ratification). Canonical full doctrine: [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md`](../pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md). Stage 1 doctrine: [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_1_v1.0.0.md`](../pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_1_v1.0.0.md). Wave 1 brief precedents read for pattern: Aeon pitch brief 2026-05-10; Boston Review essay brief 2026-05-19; Atlantic Ideas essay brief 2026-05-19.
 
@@ -666,7 +666,7 @@ Per CLAUDE.md merge-to-main policy (extended 2026-05-24): Stage 1 brief artifact
 ## §19. Cross-references
 
 - **Stage 0 batch artifact + Candidate A ratification record:** [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-24_wave_2_derivative_planning_stage_0_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-24_wave_2_derivative_planning_stage_0_v1.0.0.md) §4.1 + §12 (RATIFIED 2026-05-25 commit `ba5e9f8`).
-- **Kickoff paste-text:** [`tools/workstream-handoffs/ch2-harpers-stage-1-brief-kickoff_2026-05-26.md`](../workstream-handoffs/ch2-harpers-stage-1-brief-kickoff_2026-05-26.md) (commit `7908b7b` 2026-05-26).
+- **Kickoff paste-text:** [`tools/workstream-handoffs/archive/ch2-harpers-stage-1-brief-kickoff_2026-05-26.md`](../workstream-handoffs/archive/ch2-harpers-stage-1-brief-kickoff_2026-05-26.md) (commit `7908b7b` 2026-05-26).
 - **Source chapter:** [`manuscript/chapters/Chapter__2_TheMiner.md`](../../manuscript/chapters/Chapter__2_TheMiner.md) — current state: full Stage 3 cascade closed (Pass 3.4 ROBUST + Pass 3.5 + Phase C-ζ applied + Pass 3.3 light re-fire RATIFIED) + Stage 4 author-offline marker set. 230 lines / ~5,367–5,434 words.
 - **Pass 3.4 adversarial-set precedent:** [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-24_ch2_the_miner_pass_3_4_audience_load_robustness_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-24_ch2_the_miner_pass_3_4_audience_load_robustness_v1.0.0.md) (RATIFIED 2026-05-25).
 - **Pass 3.3 light re-fire RATIFIED:** [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-24_ch2_the_miner_pass_3_3_light_refire_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-24_ch2_the_miner_pass_3_3_light_refire_v1.0.0.md).

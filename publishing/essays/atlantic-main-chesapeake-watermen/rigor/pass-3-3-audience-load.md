@@ -537,7 +537,7 @@ Pass 3.4 fire-when-ready per v3.1 per-pass per-session cadence; kickoff paste-te
 
 Pass 3.4 (adversarial robustness) fires fresh per v3.1 per-pass per-session cadence. The Pass 3.4 kickoff paste-text is generated separately as a workstream-handoff artifact:
 
-[`tools/workstream-handoffs/ch3-atlantic-main-stage-3-pass-3-4-adversarial-kickoff_2026-05-27.md`](../workstream-handoffs/ch3-atlantic-main-stage-3-pass-3-4-adversarial-kickoff_2026-05-27.md) (STAGED at Pass 3.3 close; internal scaffolding — auto-fast-forwards to main with this artifact).
+[`tools/workstream-handoffs/archive/ch3-atlantic-main-stage-3-pass-3-4-adversarial-kickoff_2026-05-27.md`](../workstream-handoffs/archive/ch3-atlantic-main-stage-3-pass-3-4-adversarial-kickoff_2026-05-27.md) (STAGED at Pass 3.3 close; internal scaffolding — auto-fast-forwards to main with this artifact).
 
 Pass 3.4 scope: apply Stage 1 brief §1 adversarial set A–G (7 adversarial characters) + thread-pull synthesis verdict (NOT pass/fail per character; the synthesis identifies which adversarial reads land vs. bounce off the essay's structural-not-partisan close + the cumulative-portrait architecture). Pass 3.4 verdict is ROBUST / VULNERABLE thread-pull synthesis (per parent doctrine §3.4). Spot-fixes apply only on VULNERABLE thread-pulls that compromise Tier 1 Atlantic editorial register.
 
@@ -557,4 +557,4 @@ STATE: Pass 3.3 RATIFIED PASS (all 18 acceptance characters INCLUDE/NEUTRAL; 3 d
 
 ---
 
-*End of Pass 3.3 artifact (RATIFIED PASS state). Pass 3.4 adversarial robustness session fires fresh per v3.1 per-pass per-session cadence; Pass 3.4 kickoff paste-text staged at `tools/workstream-handoffs/ch3-atlantic-main-stage-3-pass-3-4-adversarial-kickoff_2026-05-27.md`.*
+*End of Pass 3.3 artifact (RATIFIED PASS state). Pass 3.4 adversarial robustness session fires fresh per v3.1 per-pass per-session cadence; Pass 3.4 kickoff paste-text staged at `tools/workstream-handoffs/archive/ch3-atlantic-main-stage-3-pass-3-4-adversarial-kickoff_2026-05-27.md`.*

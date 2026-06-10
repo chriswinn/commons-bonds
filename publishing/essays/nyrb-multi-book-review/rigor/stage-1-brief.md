@@ -4,7 +4,7 @@
 
 **Workstream:** Wave 2, Candidate W2.5 — NYRB Multi-Book Review-Essay reviewing Mariana Mazzucato *The Value of Everything* (2018) + Katharina Pistor *The Code of Capital* (2019) + Brett Christophers *The Price Is Wrong* (2024) + Daniel Susskind *Growth: A Reckoning* (2024). Stage 0 ratification record at [`publishing/essays/nyrb-multi-book-review/rigor/stage-0-ratification.md`](stage-0-ratification.md) (RATIFIED 2026-05-24, commit `d1d3ce5`).
 
-**Kickoff paste-text source:** [`tools/workstream-handoffs/nyrb-multi-book-review-essay-stage-1-brief-kickoff_2026-05-26.md`](../workstream-handoffs/nyrb-multi-book-review-essay-stage-1-brief-kickoff_2026-05-26.md) (staged commit `baac816` 2026-05-26).
+**Kickoff paste-text source:** [`tools/workstream-handoffs/archive/nyrb-multi-book-review-essay-stage-1-brief-kickoff_2026-05-26.md`](../workstream-handoffs/archive/nyrb-multi-book-review-essay-stage-1-brief-kickoff_2026-05-26.md) (staged commit `baac816` 2026-05-26).
 
 **Methodology anchor.** v3.1 audience-aware drafting discipline ([`tools/memory/feedback_audience_aware_drafting_discipline.md`](../memory/feedback_audience_aware_drafting_discipline.md) — v2.0 Amendment B three-pass core + v3.0 four-pass split + v3.1 Amendment B Pass 3.5 + v3.1 Amendment C interactive ratification). Canonical full doctrine: [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md`](../pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md); Stage 1 doctrine: [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_1_v1.0.0.md`](../pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_1_v1.0.0.md). Wave 1 brief precedents read for pattern: Boston Review essay brief 2026-05-19 (closest fit for review-essay register); Atlantic Ideas brief 2026-05-19 (closest fit for long-form length envelope); Aeon pitch brief 2026-05-10 (literary-register precedent); Ch 2 Harpers brief 2026-05-26 (most recent Wave 2 structural pattern).
 
@@ -779,7 +779,7 @@ Findings tracked internally; presented one-at-a-time in §23 ratification sessio
 **Companion artifacts:**
 - Stage 0 RATIFIED: [`publishing/essays/nyrb-multi-book-review/rigor/stage-0-ratification.md`](stage-0-ratification.md) (commit `d1d3ce5` 2026-05-24)
 - Wave 2 derivative-planning Stage 0 PROPOSED §4.4 Ch 8 → NYRB context: [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-24_wave_2_derivative_planning_stage_0_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-24_wave_2_derivative_planning_stage_0_v1.0.0.md)
-- Kickoff paste-text: [`tools/workstream-handoffs/nyrb-multi-book-review-essay-stage-1-brief-kickoff_2026-05-26.md`](../workstream-handoffs/nyrb-multi-book-review-essay-stage-1-brief-kickoff_2026-05-26.md) (staged commit `baac816` 2026-05-26)
+- Kickoff paste-text: [`tools/workstream-handoffs/archive/nyrb-multi-book-review-essay-stage-1-brief-kickoff_2026-05-26.md`](../workstream-handoffs/archive/nyrb-multi-book-review-essay-stage-1-brief-kickoff_2026-05-26.md) (staged commit `baac816` 2026-05-26)
 - Cascade plan v2 PROPOSED (DSA-1 amendment pending): [`publishing/essays/_pipeline/cascade-plan_v2_2026-05-24.md`](../../publishing/essays/_pipeline/cascade-plan_v2_2026-05-24.md)
 - Blurb-network register: [`publishing/blurbs/blurb-network-register.md`](../../publishing/blurbs/blurb-network-register.md) (candidates #1+#2+#3+#4 + PM-tactical notes)
 

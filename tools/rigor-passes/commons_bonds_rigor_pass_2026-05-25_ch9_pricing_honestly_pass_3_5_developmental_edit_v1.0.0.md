@@ -464,7 +464,7 @@ Post-application sentence:
 - **Artifacts updated this commit:**
   - This Pass 3.5 artifact (header status PROPOSED → RATIFIED + APPLIED; §8 ratification record).
   - Pass 3.4 artifact §13 closure cascade note (Pass 3.5 complete; full Ch 9 Stage 3 + Stage 1c D-3 + Pass 3.5 all CLOSED).
-  - PM dashboard `tools/workstream-handoffs/manuscript-stage-3-rigor-pass-handoff_2026-05-11.md` Ch 9 row.
+  - PM dashboard `tools/workstream-handoffs/archive/manuscript-stage-3-rigor-pass-handoff_2026-05-11.md` Ch 9 row.
   - Cross-thread-todos update log entry.
 
 ### §8.4 Pass 3.5 closure + full Ch 9 Stage 3 closure

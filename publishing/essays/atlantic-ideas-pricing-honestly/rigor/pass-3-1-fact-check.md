@@ -24,7 +24,7 @@ Audience-pressure-test characters reading figure-precision tightly: the climate-
 1. THIS framing-paste (Pass 3.1 framing).
 2. Stage 2 audience-blind flow draft [`publishing/essays/atlantic-ideas-pricing-honestly/essay.md`](../../publishing/essays/atlantic-ideas-pricing-honestly/essay.md) — read in full (129 lines incl frontmatter), including the `author_ratified_additions` + `carry_forward_verifications` frontmatter fields.
 3. Stage 1 brief [`publishing/essays/atlantic-ideas-pricing-honestly/rigor/stage-1-brief.md`](stage-1-brief.md) — read in full (514 lines); §1 audience pressure-test, §3 comp-titles cluster, §4 structural decisions, §6 apparatus exclusion list, §7 canonical-facts inventory, §14 hard constraints.
-4. Workstream handoff [`tools/workstream-handoffs/atlantic-ideas-essay-handoff_2026-05-19.md`](../workstream-handoffs/atlantic-ideas-essay-handoff_2026-05-19.md) — context.
+4. Workstream handoff [`tools/workstream-handoffs/archive/atlantic-ideas-essay-handoff_2026-05-19.md`](../workstream-handoffs/archive/atlantic-ideas-essay-handoff_2026-05-19.md) — context.
 5. [`research/literature/bibliography.md`](../../research/literature/bibliography.md) — targeted greps for Hartwick / Daly / Marx / Olson / Smith / Coase / Pistor / Christophers / Susskind / Mazzucato / Darity / Mian-Sufi entries.
 6. [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md`](../pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md) — Stage 3 Pass 3.1 spec.
 7. Format-reference (NOT a fact-source): [`publishing/essays/boston-review-accountability-gap/rigor/pass-3-1-fact-check.md`](../../publishing/essays/boston-review-accountability-gap/rigor/pass-3-1-fact-check.md) — per-finding format model (v3.1 Amendment C interactive ratification).

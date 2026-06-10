@@ -58,7 +58,7 @@ This refresh:
 
 ## 2. Wave 1 — Active essay pipeline (state per 2026-05-24)
 
-Per PM dashboard `tools/workstream-handoffs/pm-session-handoff_2026-05-24.md` §6 + June schedule `publishing/essays/_pipeline/june-2026-submission-schedule.md`.
+Per PM dashboard `tools/workstream-handoffs/archive/pm-session-handoff_2026-05-24.md` §6 + June schedule `publishing/essays/_pipeline/june-2026-submission-schedule.md`.
 
 | # | Piece | Source ch | Primary venue | Pipeline stage | Submission window | Cascade chain (primary → alt) |
 |---|---|---|---|---|---|---|
@@ -485,8 +485,8 @@ Author-direct queries; optional agent representation post-Pipeline-A-offer if au
 - `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-24_wave_2_derivative_planning_stage_0_v1.0.0.md` — companion Wave 2 batch (PROPOSED).
 
 **PM dashboard:**
-- `tools/workstream-handoffs/pm-session-handoff_2026-05-24.md`.
-- `tools/workstream-handoffs/pm-mobile-todo-dashboard_2026-05-15.md` (stale; refresh after Wave 2 Stage 0 batch ratifies).
+- `tools/workstream-handoffs/archive/pm-session-handoff_2026-05-24.md`.
+- `tools/workstream-handoffs/archive/pm-mobile-todo-dashboard_2026-05-15.md` (stale; refresh after Wave 2 Stage 0 batch ratifies).
 
 **Wave 1 Stage 1 briefs + per-essay rigor (per essay):**
 - Aeon: `publishing/essays/aeon-mask-of-abundance/rigor/stage-1-brief.md`.

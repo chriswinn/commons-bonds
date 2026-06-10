@@ -74,7 +74,7 @@ No exclusivity collisions per cascade plan v2 §5. FA accepts standard first-pub
 - **Wave 1 apparatus-exclusion-list precedent:** [`publishing/essays/boston-review-accountability-gap/essay.md`](../boston-review-accountability-gap/essay.md) (Stage 5 RATIFIED 2026-05-23)
 - **Wave 2 W2.1 sibling pattern:** [`publishing/essays/atlantic-main-chesapeake-watermen/`](../atlantic-main-chesapeake-watermen/) (Stage 5 RATIFIED 2026-05-27)
 - **Wave 2 W2.2 sibling pattern (in flight):** Ch 2 → Harper's (Pass 3.4 RATIFIED ROBUST 2026-05-27; Pass 3.5 imminent)
-- **Cross-essay portfolio review:** [`tools/workstream-handoffs/cross-essay-portfolio-review_2026-05-27.md`](../../../tools/workstream-handoffs/cross-essay-portfolio-review_2026-05-27.md)
+- **Cross-essay portfolio review:** [`tools/workstream-handoffs/archive/cross-essay-portfolio-review_2026-05-27.md`](../../../tools/workstream-handoffs/archive/cross-essay-portfolio-review_2026-05-27.md)
 - **Cascade plan v2:** [`publishing/essays/_pipeline/cascade-plan_v2_2026-05-24.md`](../_pipeline/cascade-plan_v2_2026-05-24.md)
 
 ## Origin

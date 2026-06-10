@@ -21,7 +21,7 @@
 
 - **Isolation discipline:** physically separate working directory OR strict no-AI-tools discipline on this directory
 - **This session class does NOT edit Berggruen essay prose directly** — only coordinates / tracks / advises
-- Per [`tools/workstream-handoffs/berggruen-track-handoff_2026-05-09.md`](../../../tools/workstream-handoffs/berggruen-track-handoff_2026-05-09.md)
+- Per [`tools/workstream-handoffs/archive/berggruen-track-handoff_2026-05-09.md`](../../../tools/workstream-handoffs/archive/berggruen-track-handoff_2026-05-09.md)
 
 ## Cross-references
 

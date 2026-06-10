@@ -20,7 +20,7 @@
 6. [Ch 1 REAUDIT v3 §5.3](commons_bonds_ch1_stage_3_pass_3_audience_load_REAUDIT_2026-05-17_PROPOSED.md) — adversarial thread-pull synthesis canonical format model.
 7. [Stage-3 template](../drafting-templates/stage-3-three-pass-rigor-audit.md) §"Pass 3.4: Audience-load (robustness)" — verdict scale + thread-pull synthesis structure.
 8. [Audience-pressure-test construction](../drafting-templates/audience-pressure-test-construction.md) §3 — adversarial character types + selection methodology.
-9. [Manuscript Stage-3 rigor-pass handoff](../workstream-handoffs/manuscript-stage-3-rigor-pass-handoff_2026-05-11.md) — Ch 9 row.
+9. [Manuscript Stage-3 rigor-pass handoff](../workstream-handoffs/archive/manuscript-stage-3-rigor-pass-handoff_2026-05-11.md) — Ch 9 row.
 10. [feedback_audience_aware_drafting_discipline.md](../memory/feedback_audience_aware_drafting_discipline.md) v3.0 + Amendment B; [feedback_named_subject_consent.md](../memory/feedback_named_subject_consent.md) public-record exception; [feedback_verify_stale_memory_claims.md](../memory/feedback_verify_stale_memory_claims.md).
 
 Verification (per `feedback_verify_stale_memory_claims.md`):

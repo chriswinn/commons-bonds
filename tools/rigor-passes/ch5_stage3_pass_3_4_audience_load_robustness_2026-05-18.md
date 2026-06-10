@@ -1,7 +1,7 @@
 # Stage-3 Rigor Pass — Chapter 5 (The Accountability Gap) — Pass 3.4: Audience-load (robustness) [PROPOSED]
 
 **Date:** 2026-05-18
-**Workstream:** Ch 5 pipeline-retrofit (v3.0 doctrine, second of 4 standardization-comparison-bed retrofits per [`tools/workstream-handoffs/render-pipeline-standardization-handoff_2026-05-17.md`](../workstream-handoffs/render-pipeline-standardization-handoff_2026-05-17.md))
+**Workstream:** Ch 5 pipeline-retrofit (v3.0 doctrine, second of 4 standardization-comparison-bed retrofits per [`tools/workstream-handoffs/archive/render-pipeline-standardization-handoff_2026-05-17.md`](../workstream-handoffs/archive/render-pipeline-standardization-handoff_2026-05-17.md))
 **Chapter:** 5 — *The Accountability Gap*
 **File audited:** [`manuscript/chapters/Chapter__5_THEACCOUNTABILITYGAP__Draft.md`](../../manuscript/chapters/Chapter__5_THEACCOUNTABILITYGAP__Draft.md) — **255 lines**, post-Phase-C-β-follow-up + post-rent-seeking-workstream landing (`a1e54d9` 2026-05-17) state, base sha `bc02767`
 **Branch:** `claude/ch5-pipeline-retrofit-serene-hoover-c5b37d` (off `origin/main` `bc02767`)
@@ -34,7 +34,7 @@ Per retrofit handoff stub §3 chapter-specific notes, this pass specifically tes
 3. [`tools/rigor-passes/commons_bonds_ch1_stage_3_pass_3_audience_load_REAUDIT_2026-05-17_PROPOSED.md`](commons_bonds_ch1_stage_3_pass_3_audience_load_REAUDIT_2026-05-17_PROPOSED.md) §5.3 — canonical thread-pull synthesis diagnostic format.
 4. [`manuscript/chapters/Chapter__5_THEACCOUNTABILITYGAP__Draft.md`](../../manuscript/chapters/Chapter__5_THEACCOUNTABILITYGAP__Draft.md) — 255 lines, post-rent-seeking-section-landing state.
 5. [`tools/rigor-passes/commons_bonds_ch5_stage_3_pass_3_audience_load_2026-05-14_PROPOSED.md`](commons_bonds_ch5_stage_3_pass_3_audience_load_2026-05-14_PROPOSED.md) — original Pass 3 acceptance verdict (RATIFIED 9/9 INCLUDE 2026-05-14) carried forward unchanged.
-6. [`tools/workstream-handoffs/cross-chapter-rent-seeking-engagement-handoff_2026-05-17.md`](../workstream-handoffs/cross-chapter-rent-seeking-engagement-handoff_2026-05-17.md) — rent-seeking workstream RATIFIED 2026-05-18 (commit `bc02767`); Ch 5 line 184 touch landed via `a1e54d9`.
+6. [`tools/workstream-handoffs/archive/cross-chapter-rent-seeking-engagement-handoff_2026-05-17.md`](../workstream-handoffs/archive/cross-chapter-rent-seeking-engagement-handoff_2026-05-17.md) — rent-seeking workstream RATIFIED 2026-05-18 (commit `bc02767`); Ch 5 line 184 touch landed via `a1e54d9`.
 7. [`tools/quality-gates/coherence-checks/ch5_stage1c_2026-05-18.md`](../quality-gates/coherence-checks/ch5_stage1c_2026-05-18.md) — Stage 1c coherence-check (this session, verdict CLEAN).
 8. Memory: [`feedback_audience_aware_drafting_discipline.md`](/Users/c17n/.claude/projects/-Users-c17n-commons-bonds/memory/feedback_audience_aware_drafting_discipline.md) (v3.0 amendment).
 
@@ -298,8 +298,8 @@ These join the Sandy-Darity-tradition + Pistor-tradition + civic-republican-trad
 
 ## §9. Cross-references
 
-- Retrofit handoff stub: [`tools/workstream-handoffs/ch5-pipeline-retrofit-handoff_2026-05-17.md`](../workstream-handoffs/ch5-pipeline-retrofit-handoff_2026-05-17.md)
-- Retrofit template: [`tools/workstream-handoffs/pipeline-retrofit-template_2026-05-17.md`](../workstream-handoffs/pipeline-retrofit-template_2026-05-17.md)
+- Retrofit handoff stub: [`tools/workstream-handoffs/archive/ch5-pipeline-retrofit-handoff_2026-05-17.md`](../workstream-handoffs/archive/ch5-pipeline-retrofit-handoff_2026-05-17.md)
+- Retrofit template: [`tools/workstream-handoffs/archive/pipeline-retrofit-template_2026-05-17.md`](../workstream-handoffs/archive/pipeline-retrofit-template_2026-05-17.md)
 - Stage 1c coherence-check (this session): [`tools/quality-gates/coherence-checks/ch5_stage1c_2026-05-18.md`](../quality-gates/coherence-checks/ch5_stage1c_2026-05-18.md)
 - Stage 1a clean-baseline (this session): [`tools/quality-gates/clean-baselines/ch5_stage1a_2026-05-18.md`](../quality-gates/clean-baselines/ch5_stage1a_2026-05-18.md)
 - Pass 3.3 acceptance (carried forward unchanged, RATIFIED 2026-05-14): [`tools/rigor-passes/commons_bonds_ch5_stage_3_pass_3_audience_load_2026-05-14_PROPOSED.md`](commons_bonds_ch5_stage_3_pass_3_audience_load_2026-05-14_PROPOSED.md)
@@ -307,7 +307,7 @@ These join the Sandy-Darity-tradition + Pistor-tradition + civic-republican-trad
 - Stage 3 template (v3.0): [`tools/drafting-templates/stage-3-three-pass-rigor-audit.md`](../drafting-templates/stage-3-three-pass-rigor-audit.md)
 - Audience-pressure-test-construction (v3.0): [`tools/drafting-templates/audience-pressure-test-construction.md`](../drafting-templates/audience-pressure-test-construction.md)
 - Canonical 3.4 thread-pull synthesis format (Ch 1 REAUDIT v3 §5.3): [`tools/rigor-passes/commons_bonds_ch1_stage_3_pass_3_audience_load_REAUDIT_2026-05-17_PROPOSED.md`](commons_bonds_ch1_stage_3_pass_3_audience_load_REAUDIT_2026-05-17_PROPOSED.md)
-- Cross-chapter rent-seeking workstream (RATIFIED 2026-05-18): [`tools/workstream-handoffs/cross-chapter-rent-seeking-engagement-handoff_2026-05-17.md`](../workstream-handoffs/cross-chapter-rent-seeking-engagement-handoff_2026-05-17.md)
+- Cross-chapter rent-seeking workstream (RATIFIED 2026-05-18): [`tools/workstream-handoffs/archive/cross-chapter-rent-seeking-engagement-handoff_2026-05-17.md`](../workstream-handoffs/archive/cross-chapter-rent-seeking-engagement-handoff_2026-05-17.md)
 
 ---
 

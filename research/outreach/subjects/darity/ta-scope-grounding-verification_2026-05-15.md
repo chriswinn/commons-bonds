@@ -8,7 +8,7 @@
 
 ## Task
 
-Per `tools/workstream-handoffs/pm-session-handoff_2026-05-13.md` §2 (Wed May 13 row) + §9 (This week by Sun May 17):
+Per `tools/workstream-handoffs/archive/pm-session-handoff_2026-05-13.md` §2 (Wed May 13 row) + §9 (This week by Sun May 17):
 
 > Optional ~30min TA scope/grounding verification session — confirm Technical Appendix §1.10 names heterogeneous-stakeholder commons (MI-3) as in-scope alongside the coercion-vector legacy-effects pathway (MI-2 already cited), and confirm wherever the TA grounds the valuation methodology philosophically that it cites Sen's capability framework (SI-3) as Ch 6 line 250 now does. If both present: log + close. If either missing: small targeted paragraph addition; counts as "minor revisions since send" item Sandy should be told about when the Q0 note goes out (one combined Sandy outreach rather than two).
 
@@ -44,7 +44,7 @@ The proactive Q0 note already shipped 2026-05-15 (citations email); this verific
 
 ## Pipeline-tracker / handoff updates
 
-- `tools/workstream-handoffs/pm-session-handoff_2026-05-13.md` §9 "This week (by Sun May 17)" — TA verification row marked complete with cross-reference to this note.
+- `tools/workstream-handoffs/archive/pm-session-handoff_2026-05-13.md` §9 "This week (by Sun May 17)" — TA verification row marked complete with cross-reference to this note.
 - No further Sandy outreach generated (verification clean; no bundle needed).
 
 ---

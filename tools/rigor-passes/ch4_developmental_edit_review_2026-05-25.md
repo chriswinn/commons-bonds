@@ -1,7 +1,7 @@
 # Commons Bonds — Ch 4 *The Existence Proof* — Stage 3 Pass 3.5 (Developmental-Edit)
 
 **Date:** 2026-05-25
-**Workstream:** Developmental-Editing Workstream Class (per [`tools/workstream-handoffs/developmental-edit-workstream-handoff_2026-05-18.md`](../workstream-handoffs/developmental-edit-workstream-handoff_2026-05-18.md)) — Ch 4 per-chapter discovery session
+**Workstream:** Developmental-Editing Workstream Class (per [`tools/workstream-handoffs/archive/developmental-edit-workstream-handoff_2026-05-18.md`](../workstream-handoffs/archive/developmental-edit-workstream-handoff_2026-05-18.md)) — Ch 4 per-chapter discovery session
 **Chapter file:** [`manuscript/chapters/Chapter__4_TheExistenceProof.md`](../../manuscript/chapters/Chapter__4_TheExistenceProof.md) — current state, **141 lines** post-Pass-1 + Pass 2 + Pass 3.1 verify + Pass 3.2 verify Phase C ratify-and-apply complete (commit `97ba205`). All Pass 1 + Pass 3.1 verify (F-R-1 + F-R-2) ratified spot-fixes applied; F-V1 + F-V2 + F-V3 + F-V6 + F-V8 + F-V9 + F-V11 + F-V12 + F-V13 + F-V14 + F-V15 Pass 2 verify-refined spot-fixes applied.
 **Discipline:** v3.1 Amendment B 5-pass + Amendment A two-class cascade + Amendment C interactive ratification protocol. Pass 3.5 (developmental-edit; whole-chapter restoration-of-richness lens; restoration polarity, NOT cutting) per pipeline doctrine v1.0.0 §3.6 (Amendment B 2026-05-18 — Pass 3.5 codified) + §3.7 (Amendment C 2026-05-19 — interactive ratification protocol).
 **Mode:** audit-existing-prose, STOP at PROPOSED stage per session brief. Phase C application is a separate combined ratification + application session per Amendment C.
@@ -25,7 +25,7 @@
 | Pass 3.4 robustness | `tools/rigor-passes/ch4_existence_proof_stage3_pass_3_4_robustness_2026-05-25.md` | RATIFIED 2026-05-25 (8/8 EXCLUDE per template verdict-floor; thread-pull synthesis = chapter ROBUST; T3 + T4 explicit Pass 3.5 candidate flags) |
 | Stage 5 sign-off | `tools/quality-gates/sign-offs/ch4_stage5_signoff_2026-05-25.md` | RATIFIED (chapter READY-TO-SUBMIT; Pass 3.5 is optional polish, not a ship-blocker) |
 | Ch 9 Pass 3.5 (primary register-match) | `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-25_ch9_pricing_honestly_pass_3_5_developmental_edit_v1.0.0.md` | RATIFIED + APPLIED 2026-05-25 (Ch 9 = policy-analytical / institutional-architecture chapter; identical register) |
-| Workstream handoff | `tools/workstream-handoffs/developmental-edit-workstream-handoff_2026-05-18.md` | §1.1 per-finding format + §3.1 two-session (Amendment C) workflow |
+| Workstream handoff | `tools/workstream-handoffs/archive/developmental-edit-workstream-handoff_2026-05-18.md` | §1.1 per-finding format + §3.1 two-session (Amendment C) workflow |
 | Pipeline doctrine | `tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md` | §3.6 Amendment B Pass 3.5 codified + §3.7 Amendment C interactive ratification protocol |
 | Memory entries | (verified per discipline) | `feedback_audience_aware_drafting_discipline.md` v3.1 Amendment B + Amendment C; `feedback_named_subject_consent.md` public-record exception; `feedback_em_dash_overuse.md` calibration; `feedback_substance_drives_length.md` |
 
@@ -542,7 +542,7 @@ Pass 3.5 restoration proposals (F-DE-Ch4-1 Option A + F-DE-Ch4-2 Option A) opera
 - **Ch 1 dev-edit (2026-05-18):** [`tools/rigor-passes/ch1_developmental_edit_review_2026-05-18.md`](ch1_developmental_edit_review_2026-05-18.md) — workstream-defining session.
 - **Ch 3 dev-edit (2026-05-25):** [`tools/rigor-passes/ch3_developmental_edit_review_2026-05-25.md`](ch3_developmental_edit_review_2026-05-25.md) — most recent chapter-class precedent.
 - **Stage 5 sign-off:** [`tools/quality-gates/sign-offs/ch4_stage5_signoff_2026-05-25.md`](../quality-gates/sign-offs/ch4_stage5_signoff_2026-05-25.md) — chapter RATIFIED READY-TO-SUBMIT; Pass 3.5 is post-sign-off optional polish.
-- **Workstream handoff:** [`tools/workstream-handoffs/developmental-edit-workstream-handoff_2026-05-18.md`](../workstream-handoffs/developmental-edit-workstream-handoff_2026-05-18.md) §3.1 Session 2 (Amendment C interactive ratification + application).
+- **Workstream handoff:** [`tools/workstream-handoffs/archive/developmental-edit-workstream-handoff_2026-05-18.md`](../workstream-handoffs/archive/developmental-edit-workstream-handoff_2026-05-18.md) §3.1 Session 2 (Amendment C interactive ratification + application).
 
 ---
 

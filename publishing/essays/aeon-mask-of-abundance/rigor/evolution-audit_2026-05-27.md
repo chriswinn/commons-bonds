@@ -355,7 +355,7 @@ EXPECTED SESSION LENGTH: ~5-10K tokens; ~30 min wall clock.
 
 ### §7.2 Cross-essay corpus-hygiene spot-check handoff (post-Aeon-submission)
 
-(See `tools/workstream-handoffs/cross-essay-corpus-hygiene-spot-check_2026-05-27.md`
+(See `tools/workstream-handoffs/archive/cross-essay-corpus-hygiene-spot-check_2026-05-27.md`
 for the full handoff. Summary: scan every `publishing/essays/<venue>/essay.md`
 for the same loser-takes-canonical-slot pattern; apply fixes per
 venue; report findings.)
@@ -373,7 +373,7 @@ venue; report findings.)
 - Pipeline doctrine v3.1: `tools/memory/feedback_audience_aware_drafting_discipline.md`
 - Em-dash discipline: `tools/memory/feedback_em_dash_overuse.md`
 - Author hypothesis test reference (Wave 2 derivative planning): `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-24_wave_2_derivative_planning_stage_0_v1.0.0.md` §3
-- Cross-essay corpus-hygiene handoff: `tools/workstream-handoffs/cross-essay-corpus-hygiene-spot-check_2026-05-27.md`
+- Cross-essay corpus-hygiene handoff: `tools/workstream-handoffs/archive/cross-essay-corpus-hygiene-spot-check_2026-05-27.md`
 - Aeon file-org remediation paste-text: §7.1 above
 
 ---
