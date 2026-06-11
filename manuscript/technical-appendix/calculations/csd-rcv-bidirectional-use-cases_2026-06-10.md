@@ -666,9 +666,9 @@ not because the method is.
 
 ## Provenance + regeneration
 
-Computed values reproduce in `csd_rcv_calculations.py` (this directory;
-run output `run-output_2026-06-10.txt`: 21/21 reproduction checks PASS; 11/11 portfolio cases assemble
-the identity with all slots in legal states). TA references are to `TechnicalAppendix_v2.0.0.html`
+Computed values reproduce in `csd_rcv_calculations.py` (this directory); its run-output log
+(dated 2026-06-10) records 21/21 reproduction checks PASS and 11/11 portfolio cases assembling
+the identity with all slots in legal states. TA references are to `TechnicalAppendix_v2.0.0.html`
 as merged 2026-06-10. Case 11's Step-2v parameters and both Demonstrations are illustrative
 method demonstrations, not sourced figures. §11.12 (reef) merges to the TA only after a book
 chapter carries the priced claim (GATE 2). This `.md` is the canonical artifact (renders via

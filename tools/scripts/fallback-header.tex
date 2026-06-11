@@ -46,3 +46,12 @@
 % Surfaced 2026-06-10 on the same cheat-sheet render (glyph-gate --font
 % check vs EBGaramond08-Regular.otf; same family as the ≥ gap).
 \newunicodechar{→}{{\fallbackfont→}}
+
+% multiplication sign (U+00D7): EB Garamond 12 Bold lacks the glyph.
+% Surfaced 2026-06-11 on the bidirectional use-case cheat-sheet render
+% (× in 'scarcity × irreversibility' / 'acres × $/ac' bold table cells).
+\newunicodechar{×}{{\fallbackfont×}}
+
+% less-than-or-equal (U+2264): sibling of the ≥ gap above; same EB Garamond
+% Bold lacuna. Pre-empts the cheat-sheet's lone ≤ surfacing as tofu.
+\newunicodechar{≤}{{\fallbackfont≤}}
