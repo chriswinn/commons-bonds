@@ -40,3 +40,28 @@
 6. **At send (Jun 24 – Jul 1):** per-Wave platform refresh (components 4 + 9); execute the Darity confirmation email (dependency B-2); fire Wave-1 queries per `publishing/agents/_pipeline/targets.md`.
 
 **Bottleneck read:** nothing in the proposal itself blocks the window. The two long poles are the Ch 1 + Ch 5 parallel stream (samples) and the comp-verification decision. Everything else is short, ordered work.
+
+## D. Added 2026-06-11 (second pass) — orthodoxy positioning + use-cases companion
+
+1. **§00 orthodoxy-positioning paragraph — PROPOSED** (staged on the session branch).
+   Derived from the stolen-bicycle boundary analysis
+   (`manuscript/technical-appendix/calculations/csd-rcv-bidirectional-use-cases_2026-06-10.md`
+   line 665): the book's two independent anchors to orthodox theory — (a) the
+   third-party/standing axis ("standard welfare economics guarantees mutual gain
+   between the transacting parties and is silent on everyone else; the framework
+   prices the silence" — the Coase-failure region), and (b) the intertemporal
+   axis (the Hotelling Identity, already in §05's Ch 6 block). The bicycle
+   itself stays OUT of the proposal — it fails the CIT as an instance and in a
+   pitch invites the "theft with extra steps" misreading; only the positioning
+   it teaches goes in.
+2. **Use-cases companion file — routed POST-Wave-1** (Pipeline-B window, ~Aug
+   acquisitions editors + the peer-review stage; per the bibliography-refactor
+   session's suggestion to polish the cheat sheet into an end-reader/reviewer/
+   editor-facing companion). NOT Wave-1-blocking: literary agents get proposal +
+   samples; the companion's audience is editors and technical reviewers.
+   Content requirements carried forward to the polish session: (a) the
+   stolen-bicycle entry ships only as the flagged analogy with the standing
+   pivot ("remove Party C's ability to sue... that is where Cost Severance
+   lives") — never as a worked instance; (b) new end-reader-facing prose →
+   full Stage-3 cascade + no-scaffolding discipline; (c) align the case rows to
+   the settled §9.5 numbers (`ch6-rebuild-settled-numbers-handoff_2026-06-11.md`).
