@@ -75,3 +75,21 @@ Provenance source of truth: `tools/audits/corpus-primary-source-register_2026-06
 **Carbon cascade — canonical UNCHANGED, re-cascade still live.** carbon $496 / total $510 / floor $504–518 (J1/J6). Mechanical re-cascade still owed in the TA + Ch6 + Ch9 (README §B).
 
 *(The per-chapter citation corrections — Norway fiscal rule 2001@4%→2017@3%; Fed $16T = "cumulative"; Hendryx OR 2.03; menhaden cap 2017/2018 not 2006; Baotou $5–15B; Deepwater ">$150B" not NOAA; GoFundMe AJPH-2022/437,596; Tangier ~1.7 ft/yr exposed-max; Libby >70%-of-US; Norway per-capita ~$390k; foreclosures ~4.1M completed; reclamation-gap single figure; US-Steel "across the 1980s" — are chapter-level, not cross-chapter shared figures; they live in the reconciliation artifact + the per-chapter briefs.)*
+
+## Canonical set (Chesapeake reef / Restitution Bond) — ADDED 2026-06-10 (TA §11.12; status: DRAFT pending §11.12 ratification + Ch 3 chapter-side claim)
+
+Source of record: TA §11.12 (branch `claude/ta-reef-11-12-260610-27edac`, **MERGE-HOLD until Ch 3 prices the reef** — the TA never leads a number into print ahead of the book). Derivations reproduced in `core/technical-appendix/calculations/csd_rcv_calculations.py` Part 4 (run-output 2026-06-10, all checks PASS). Every figure external-sourced (Schulte 2017; NOAA per-tributary table Dec 31 2024; Great Wicomico Tributary Plan §5; MD DNR/Gov. Moore Aug 26 2025 — bib §25).
+
+| Figure | Canonical value (pinned label) |
+|---|---|
+| Foreclosed reef extent | **~2,738 acres** (James River high-quality oyster-rock, 7,047→4,309 ac, −38.9%, 1910→1981; Schulte 2017 citing Moore 1910 / Haven et al. 1981). **AREA basis only** — never build the dollar figure from shell volume; the Darling shell-mountain stays narrative, never a number. |
+| Restoration unit-costs | **~$7,300/ac** (Great Wicomico realized = $907,000÷124 ac) / **~$13,500/ac** (forward-engineering, construction-only, natural recruitment — GW Plan §5) / **~$77,000/ac** (bay-wide completed-program avg, construction + seeding) |
+| **Restitution Bond floor** | **$20M realized / $37M headline** ( = 2,738 × $7,300 / × $13,500). **Pins "$37M" = the headline floor** ("a conservative floor of roughly $20–37 million"). |
+| **CSD central (robust)** | **~$211M** ( = 2,738 × $77,000; precisely $210,826,000). Cherry-pick-proof center, NOT the floor. |
+| CSD ceiling | **Open by design** — Method-3 foregone-fishery option value admitted, named, deliberately not entered (strategic decline, "bond only the unassailable floor"; never show-then-flinch). NO foregone-fishery dollar figure anywhere in the corpus. |
+| **Realized B₁ (public restitution already posted)** | **>$92M Maryland** (MD DNR/Gov. Moore, 5 sanctuaries ~1,300 ac) / **~$115M bay-wide itemized PRIMARY** (NOAA: MD $93.52M + VA $21.77M); **~$108M program-level = rounding corroborator only** (MEDIUM confidence). Unit-cost corroboration: $108M÷1,900 ac ≈ **$57K/ac** (inside the M1 band). |
+| Industry contribution to B₁ | **$0** (all funders public: NOAA, USACE, MD DNR, VMRC). **The finding is MIS-ASSIGNMENT, not magnitude** — vs the floor, B₁ already exceeds it; vs the ~$211M central, ~$96M unrestituted. |
+| Measure hygiene | −38.9% = **areal** extent (the floor's basis). ~99% structure loss (Woods 2005: ~30 ac of >2,471 ac vertical relief) and ~99.7% abundance loss (Wilberg 2011, upper-Bay MD) are DIFFERENT measures — **never multiply a 99% figure by a per-acre cost.** |
+| Geography discipline | James River = the stated lower-Bay **proxy**; NO Hampton-Bar-specific acreage exists (Paxton 1858 is qualitative); NO NSA Hampton Roads dollar figure (qualitative only). |
+
+**Cascade:** Ch 3 restitution section carries the chapter-side claim (GATE 2 opener — pending with the Ch 3 drafting session); any reef-touching essay/op-ed inherits these pinned labels. TA §11.12 + §3.6 reef row + §10.2 census + §5.5/§1.7/§1.10/Thm 10.1b/§17.5/§11.7 reconciliations all ride the MERGE-HOLD branch.
