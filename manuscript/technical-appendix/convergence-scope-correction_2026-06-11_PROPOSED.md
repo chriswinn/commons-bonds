@@ -1,128 +1,109 @@
-# TA convergence-claim scope correction — PROPOSED 2026-06-11
+# TA §9 / §10.2 convergence-framing correction — PROPOSED 2026-06-11 (v2, Option-B-corrected)
 
 **Status:** PROPOSED (author ratification required — end-user-facing TA prose; NOT auto-applied)
 **Target file:** `manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html`
-**Base:** `origin/main` tip `f197c97` (post reef-migration)
-**Gate baseline (unchanged worktree):** `check-corpus-invariants.sh --severity HIGH` → exit 0; `csd_rcv_calculations.py` → 0 FAIL (21 values, 0 mismatches, PORTFOLIO VERDICT PASS)
-**Touches numbers?** Only descriptive *case-count* words (six → three, four → three). No computed dollar/IPG/parameter figure validated by `csd_rcv_calculations.py` is altered by any option below. The applying session should still re-run both gates per discipline.
+**Base:** `origin/main` tip `0b83257`
+**Gate baseline (unchanged worktree):** `check-corpus-invariants.sh --severity HIGH` → exit 0; `csd_rcv_calculations.py` → 0 FAIL (21 values, 0 mismatches)
+
+> **v2 supersedes v1.** v1 (this morning) narrowed the convergence *scope* ("six → three") but **preserved the convergence-as-validation framing and treated Method 2 as a co-equal counting method** — i.e. it regressed §9/§10.2 to the **Option-A** posture. Author correction (2026-06-11): (1) the framework does **not require or celebrate convergence** — three "independent" estimates *always* agreeing is a finger-on-the-scale tell, not validation; (2) **Method 2 is the realized bond / restitution term, not a counting method** — the counting is Method 1 + Method 3; M2 is the B you *subtract* (CS = RCV − B). Both corrections are already **ratified canon** elsewhere in the TA; §9 and §10.2 are the laggards.
 
 ---
 
-## 1. The tension (as flagged, verified against current tip)
+## 1. The correction is already canon — §9/§10.2 just never got it
 
-The §10.2 convergence census (Empirical Observation 10.2; search `tested calibration case landscape`) states:
+The 2026-06-10 reverse-CSD merge migrated the TA to Option B almost everywhere. The laggards are the cross-**model** apparatus in §9 and §10.2.
 
-> "…four forward empirical cases (McDowell coal; Norway oil; Deepwater Horizon; Libby vermiculite) plus two thought-experiment scenarios (asteroid mining; lunar regolith — §13) plus one backward calibration (Chesapeake oyster reef — §11.12): seven cases total — the Damage Function approach, Real Options approach, and RCV model produce IPG estimates within one order of magnitude **across the six forward cases**."
+**Already Option B (ratified, applied) — the model to bring §9/§10.2 into line with:**
 
-But the §9.5 "Three-Model Convergence Table" (search `Three-Model Convergence Table`) contains only **McDowell, Deepwater Horizon, Libby, Baotou** — and the paragraph immediately after it (search `three cases with computable IPGs`) states the three-model result holds for **three** cases (McDowell, Deepwater, Libby); Baotou supports "a remediation-only floor rather than a full IPG (§11.4)." Norway is **absent** from the §9.5 table — it lives in §11.5 as a *different* kind of calibration.
+- **§3.6 (lines 1129–1151) — the gold-standard statement.** "M1 prices *substitution* and M3 prices *option-bearing scarcity*: these are the two independent **RCV estimators**, and their convergence range is the well-supported RCV. M2 reads *revealed internalization*: the realized **Bond** term B … **not a third RCV estimator** — the same observable cannot serve as an estimate of RCV and as the B subtracted from it." Triangulation rule: "where they diverge widely, **the divergence itself is empirically informative** — surfacing what feature of the commons each method captures." Reporting discipline: report both estimators + range + the M2 realized-Bond reading + identified divergence sources.
+- **Symbol registry (2026-06-07, upd. 2026-06-10), line 73:** `B̂_M2` is "**a strict lower bound on RCV (RCV ≥ B̂_M2), NOT an RCV estimator — the two value-estimators are M1 + M3.**"
+- **§5.5 (line 1507):** "Methods 1 and 3 are the estimators and their convergence is a bound-range."
+- **§14/Darity (line 1377):** "two independent RCV estimators (Methods 1 + 3) whose convergence range is reported alongside the Method 2 realized-Bond reading."
+- **§11.5 Norway triangulation:** "M1 (full scope) and M3 mid-range estimates converge … M2 is the **OUTLIER LOWER-BOUND**."
 
-So "convergence … across the six forward cases" overstates the demonstrated result: the three-model convergence is shown for **3** cases, not 6. **Confirmed:** the reef migration did not introduce this — the loose scope predates it and was inherited verbatim.
+**Still Option A (residue — what this proposal fixes):**
+
+- **§9. "Three-Model Convergence Framework"** — frames model agreement as the result being demonstrated.
+- **§9.1 (line 3212):** "correlated measurement error would not consistently produce IPG estimates within one order of magnitude **across six tested cases**" — overstates scope *and* leans on an independence claim the next point undercuts.
+- **§9.5/§9.6 narrative** — convergence-ordering prose that contradicts the table (see audit B6).
+- **§10.2 "Empirical Observation 10.2 (Cross-Model Convergence)"** census (line 3546): "produce IPG estimates within one order of magnitude **across the six forward cases**," with Norway in the "empirical four" but absent from the §9.5 table.
+- **§11 intro (line 4002):** "**All four cases show IPG ≫ 1**" (Baotou's IPG isn't computable).
 
 ---
 
-## 2. Root cause — a two-sense terminology collision on "three"
+## 2. This terrain is already audited — reconcile, don't re-patch
 
-The TA carries **two distinct "three"-structured apparatuses** that the census sentence conflates:
+The held **2026-06-06 TA rigor-audit ledger** (`TA-rigor-audit-ledger_2026-06-06.md`, PROPOSED, on branch `claude/ta-rigor-audit-260606-f537b4`, **not yet applied to main**) already catalogs every piece of this, in the Option-B direction:
 
-| | **Three Ways of Counting** | **Three-Model Convergence** |
+| Audit ID | Finding | Maps to |
 |---|---|---|
-| Members | Method 1 (replacement-cost floor) / Method 2 (revealed-preference) / Method 3 (scarcity-adjusted option value) | Damage Function / Real Options / RCV model |
-| Scope | **RCV-internal** — three ways to price *one* model's RCV | **Cross-model** — three *independent* models cross-checked |
-| Where worked | Norway (§11.5), McDowell (§11.6), DAC/reef | §9.5 table + §11.1/11.2/11.3 |
-| Defined at | §3 / §5 | §9.1 (search `The three models are`) |
+| **E12** (n36) | §11.6 "three independent methods" overclaim — M2 is the realized-B comparator, not a third RCV estimator | Author Point 2 |
+| **E14** (n77/78) | §9.1 "six tested cases" overclaim — 4 empirical + 2 thought-experiments; **and all three models share the SCC input on fossil cases, qualifying the independence defense** | Author Point 1 (the shared-input artifact) |
+| **C1** (n3) | §10.2 case-set mismatch — Norway named in the "empirical four"; §9.5 table rows are McDowell/Deepwater/Libby/**Baotou** | the tension I was asked to investigate |
+| **B6** | §9.5/§9.6 convergence-ordering narrative contradicts the table | §9.5/§9.6 prose |
+| **B7** | §3.5 α-dominance "finding" is a property of the chosen functional form, not empirical | same finger-on-scale class |
 
-The census makes the **Three-Model** claim ("the Damage Function approach, Real Options approach, and RCV model produce IPG estimates within one order of magnitude") but scopes it across the **six forward cases** — a set whose members mostly do *not* carry a three-**model** IPG. Norway carries a three-**ways** triangulation; asteroid/lunar are single-model abundance calibrations; Baotou is a floor. Only McDowell, Deepwater, and Libby carry computable IPGs in all three *models*.
+**E12 appears already applied** (current §11.6 has no "three independent methods" phrase; grep-clean) — consistent with the 2026-06-10 reverse-CSD merge having picked up the M2-is-bond reframe. The convergence-framing findings (E14, C1, B6) are **not** applied on main.
 
----
-
-## 3. What each case actually demonstrates (verified)
-
-| Case | §  | Role in the apparatus | Three-MODEL IPG? |
-|---|---|---|---|
-| **McDowell coal** | 11.1 | Forward empirical; full three-model IPG | ✅ computable |
-| **Deepwater Horizon** | 11.2 | Forward empirical; "All three models agree within a factor of 1.5" (§11.2) | ✅ computable |
-| **Libby vermiculite** | 11.3 | Forward empirical; full three-model IPG | ✅ computable |
-| **Baotou rare earths** | 11.4 | In §9.5 table but **remediation-only floor**; IPG "not computable on documented inputs"; floor (tailings liability = 1.2–7.5 yrs export revenue) alone implies CS > 0 | ❌ floor only |
-| **Norway oil** | 11.5 | **Deep Three-Ways-of-Counting (M1/M2/M3) triangulation**; the "canonical-existing-B₂ exemplar" — CS reduced (α→0.50–0.75 via GPFG restoration optionality) but not eliminated (~$13–15T residual). NOT in the three-MODEL table. | ❌ different test |
-| **Asteroid iron / lunar** | 13, 11.8, 11.10 | **Thought-experiment / boundary calibrations**: RCV model in the abundance regime — asteroid iron returns RCV ≈ market (correct null); lunar helium-3 demonstrates the existential-substitutability gap. Not a three-model IPG comparison. | ❌ single-model calibration |
-| **Chesapeake reef** | 11.12 | Single **backward CSD** calibration (M1 floor / M2 corroboration; M3 Open). Already correctly carved out of the IPG comparison by the census parenthetical. | ❌ (correctly excluded) |
-
-**Accurate convergence scope:** the three-model convergence is demonstrated for **the three forward cases with computable three-model IPGs — McDowell, Deepwater Horizon, Libby.** This is exactly what the §9.5 paragraph already says; §10.2 (and two siblings) drift from it.
+**Note — the reef migration outdated C1's prescribed fix.** C1 said "swap Norway→Baotou" in the empirical four. Post-reef-migration the census now reads "four forward **empirical**" — and Norway *is* a real empirical case, so the simple swap is now wrong. The correct fix is no longer a name-swap but the **Option-B reframe below** (scope the cross-model claim to where it computes; name each case's actual role). The Option-B reframe supersedes the mechanical C1 swap.
 
 ---
 
-## 4. Every affected location (not just §10.2)
+## 3. What the corrected prose must do (Option B, mirroring §3.6)
 
-The sweep found the loose scope in **three** places, plus **one** sibling looseness. A coherent fix should address all four together (or the document will contradict itself line-to-line).
-
-| # | Line ~ | Section | Current text | Issue |
-|---|---|---|---|---|
-| **L1** | 3546 | §10.2 census | "…across the **six forward cases**." | **PRIMARY.** Three-model convergence shown for 3, not 6. |
-| **L2** | 3212 | §9.1 Model Independence Defense | "…IPG estimates within one order of magnitude **across six tested cases**." | Same overstatement, in the §9 setup. |
-| **L3** | 3552 | §10.2 supporting argument | "…within one order of magnitude **across the tested case landscape**." | Vaguer; not wrong, but should be made explicitly consistent with the corrected 3-case scope so it doesn't re-import the ambiguity. |
-| **L4** | 4002 | §11 intro | "validates the three-model convergence. **All four cases show IPG ≫ 1**…" | **SIBLING.** "Four" reads as the §9.5 table (incl. Baotou); Baotou's IPG is not computable, so "all four show IPG ≫ 1" overstates by one. |
-
-**Already-correct anchors (do NOT change — use as the model):** §9.5 paragraph "**The three cases with computable IPGs** produce IPG ≫ 1 across all three models" (line 3398); §11.2 "All three models agree within a factor of 1.5" (line 4084).
+1. **Demote convergence from validation to modest, qualified corroboration.** The result being demonstrated is *independent construction*, not agreement. Agreement where it occurs is corroboration; **divergence is informative, not failure** (§3.6 language).
+2. **State the independence limit honestly (E14 / Point 1).** On fossil cases the three models share the social-cost-of-carbon input, so agreement on the carbon-dominated term is a shared-input artifact, not independent confirmation. The genuine independence lives in the *non-overlapping* data sources (substitutability / market volatility / litigation-epidemiology). This is the framework naming its own finger-on-the-scale risk and refusing to lean on it.
+3. **Scope the cross-model claim to where all three models actually compute** — McDowell, Deepwater Horizon, Libby (§9.5). Do not assert it across six.
+4. **Name each other case's actual role (Point 2-aware):**
+   - **Norway (§11.5):** RCV bounded by its **two estimators, M1 (~$161–422/BOE) and M3 (~$96–610/BOE)**, against a **realized bond M2 (~$48/BOE)** — the canonical realized-B₂ exemplar; CS reduced (via irreversibility-reduction) but not eliminated. *(Not "Three Ways of Counting / Methods 1+2+3" — that phrasing re-imports M2 as a co-equal method.)*
+   - **Baotou (§11.4):** remediation-only floor, IPG not computable on documented inputs; floor alone implies CS > 0.
+   - **Asteroid iron / lunar (§13):** RCV integral exercised in the abundance regime (correctly returns RCV ≈ market price) — boundary calibration, not a cross-model IPG comparison.
+   - **Reef (§11.12):** the single backward CSD calibration (M1 floor / M2 corroboration; M3 Open).
 
 ---
 
-## 5. Wording options for the PRIMARY (§10.2 census, line 3546)
+## 4. Drafted replacement prose
 
-All options preserve the accurate **seven-case landscape census** (it is correct *as a census*); they differ in how they scope the **convergence claim** within it. HTML entities shown as they appear in-file.
+HTML entities shown as in-file. These are the **Tier 1** core edits (see §5 for scope tiers).
 
-### Option A — minimal scope-narrowing (smallest faithful edit)
-Keep the sentence structure; just correct the scope number and append the role distinction.
+### §10.2 census — replace the paragraph at line 3546
 
-Replace `across the six forward cases` with:
+> `The framework's tested calibration landscape spans seven cases &mdash; four forward empirical (McDowell coal; Norway oil; Deepwater Horizon; Libby vermiculite), two forward thought-experiment scenarios (asteroid mining; lunar regolith &mdash; &sect;13), and one backward calibration (Chesapeake oyster reef &mdash; &sect;11.12) &mdash; but the framework does not treat agreement among the models as the result being demonstrated. The cross-model check proper runs three independent estimating approaches &mdash; the Damage Function (bottom-up cost audit), Real Options (market-referenced option value), and the RCV integral &mdash; and all three are computable only for three of the forward cases: McDowell coal, Deepwater Horizon, and Libby vermiculite (&sect;9.5). For those three the estimates land within one order of magnitude. That consistency is a modest corroboration, not a validation, and the framework states its limit rather than leaning on it: on fossil cases the three approaches share the social-cost-of-carbon input, so agreement on the carbon-dominated term is a shared-input artifact rather than independent confirmation; the load-bearing independence is in the data sources that do not overlap &mdash; materials-science substitutability (RCV), market volatility (Real Options), and litigation-plus-epidemiology (Damage Function) &mdash; and where the approaches diverge, the divergence is treated as informative about what each captures rather than suppressed (&sect;3.6). The remaining cases corroborate along other axes rather than entering the cross-model comparison: Norway's RCV is bounded by its two estimators (Methods 1 and 3) against a far-lower realized bond (Method 2, ~$48/BOE) &mdash; the canonical realized-B&#8322; exemplar, where institutional architecture has reduced but not eliminated CS (&sect;11.5); Baotou's documented inputs support a remediation-only floor rather than a full IPG, and that floor alone implies CS &gt; 0 (&sect;11.4); the asteroid-iron and lunar scenarios exercise the RCV integral in the abundance regime, where it correctly returns RCV &asymp; market price (&sect;13); and the reef exercises the &sect;5.5 Method-1-floor / Method-2-corroboration form with Method 3 deliberately Open, demonstrating the apparatus's backward reach (&sect;11.12).`
 
-> `across the three forward cases that carry computable IPGs in all three models (McDowell coal, Deepwater Horizon, Libby vermiculite &mdash; &sect;9.5)`
+### §9.1 — replace the tail of line 3212 (from "correlated measurement error…")
 
-…and append before the closing sentence:
+> `correlated measurement error would not consistently produce IPG estimates within one order of magnitude across the three cases for which all three approaches are computable (McDowell, Deepwater Horizon, Libby; &sect;9.5). The independence is partial, and the framework states the limit rather than leaning on it: on fossil cases the three approaches share the social-cost-of-carbon input, so agreement on the carbon-dominated term is not independent confirmation; the genuine data-source independence is in the non-overlapping inputs &mdash; substitutability, market volatility, and litigation/epidemiology &mdash; and the cross-model claim rests on those.`
 
-> ` Norway enters the landscape as the deep Three-Ways-of-Counting calibration and realized-B&#8322; exemplar (&sect;11.5), and Baotou as a remediation-only floor rather than a full IPG (&sect;11.4); neither enters the three-model IPG comparison, and the asteroid and lunar scenarios exercise the RCV model in the abundance regime (&sect;13) rather than the cross-model test.`
+### §11 intro — replace the over-broad IPG clause at line 4002
 
-**Pro:** one-line scope fix + one clause; lowest disturbance. **Con:** the seven-vs-three distinction stays slightly buried in a long sentence.
+> `The three cases with computable IPGs show IPG &gg; 1; all four &sect;9.5-table cases show the same structural pattern (value dispersed, costs concentrated) and B &asymp; 0 relative to RCV, with Baotou entering on its remediation-only floor (&sect;11.4) rather than a full IPG.`
 
-### Option B — role-explicit single rewrite
-Rewrite the census sentence so each case's role is named inline, then state the convergence claim scoped to the three. (Full prose drafted in §6 of the file co-located note below; structurally similar to Option C but kept to one paragraph.)
-
-### Option C — two-move split (RECOMMENDED): census, then scoped claim
-Separate "what the landscape contains" from "what the cross-model test demonstrates." Replace the entire census paragraph (line 3546) with:
-
-> `The framework's tested calibration case landscape spans seven cases &mdash; four forward empirical (McDowell coal; Norway oil; Deepwater Horizon; Libby vermiculite), two forward thought-experiment scenarios (asteroid mining; lunar regolith &mdash; see &sect;13), and one backward calibration (Chesapeake oyster reef &mdash; &sect;11.12) &mdash; but they do not all enter the cross-model test in the same way. The three-model convergence claim proper &mdash; that the Damage Function approach, Real Options approach, and RCV model produce IPG estimates within one order of magnitude &mdash; is demonstrated for the three forward cases that carry computable IPGs in all three models: McDowell coal, Deepwater Horizon, and Libby vermiculite (&sect;9.5). The remaining cases corroborate the framework along other axes rather than entering that comparison: Norway is the deep Three-Ways-of-Counting calibration (Methods 1+2+3) and the canonical realized-B&#8322; exemplar, where institutional architecture has reduced but not eliminated CS (&sect;11.5); Baotou's documented inputs support a remediation-only floor rather than a full IPG, and that floor alone implies CS &gt; 0 (&sect;11.4); the asteroid-iron and lunar scenarios exercise the RCV model in the abundance regime, where it correctly returns RCV &asymp; market price (&sect;13, &sect;11.8); and the reef calibration exercises the &sect;5.5 Method-1-floor / Method-2-corroboration form with Method 3 deliberately Open, demonstrating the apparatus's backward reach rather than entering the three-approach IPG comparison (&sect;11.12). The convergence regularity &mdash; across the three computable cases &mdash; is consistent with the underlying cost severance structure being approximately characterized by all three approaches.`
-
-**Pro:** eliminates the collision at its source; the seven-case census survives intact and accurate; each case's role is explicit and matches §9.5/§11.x; reads as deliberate scoping discipline rather than a hedge. **Con:** longest (one short paragraph → one slightly longer paragraph); subsumes the existing reef parenthetical (folded in, not lost).
-
-### Companion edits (apply with whichever primary option is chosen)
-
-- **L2 (line 3212, §9.1):** replace `across six tested cases` → `across the three cases with computable three-model IPGs (&sect;9.5)`. (Keeps the Model Independence Defense's statistical-improbability argument scoped to the cases it actually rests on.)
-- **L3 (line 3552, §10.2 supporting argument):** replace `across the tested case landscape` → `across the three computable convergence cases`. (Optional but recommended for line-to-line consistency; current wording is not false, only vague.)
-- **L4 (line 4002, §11 intro):** replace `All four cases show IPG &gg; 1; all four show the same structural pattern (value dispersed, costs concentrated); all four involve B &asymp; 0 relative to RCV.` → `The three cases with computable IPGs show IPG &gg; 1; all four §9.5-table cases show the same structural pattern (value dispersed, costs concentrated) and B &asymp; 0 relative to RCV, with Baotou entering on its remediation-only floor (&sect;11.4) rather than a full IPG.` (Surgically separates the IPG claim, which is true of 3, from the structural-pattern claim, which is true of all 4.)
+### Do NOT change
+§3.6 (1129–1151), symbol registry, §5.5 (1507), §11.5 triangulation, the §9.5 post-table paragraph ("the three cases with computable IPGs…", line 3398), the §11.2 row ("All three models agree within a factor of 1.5", line 4084) — all already Option-B-correct; they are the model.
 
 ---
 
-## 6. Recommendation
+## 5. Scope tiers — author decision
 
-**Adopt Option C for the §10.2 census (L1), plus the L2 + L3 + L4 companion edits.**
+| Tier | Scope | Cascade / risk |
+|---|---|---|
+| **T1 (recommended floor)** | §10.2 census + §9.1 intro + §11-intro clause, in Option-B language (§4 above). Subsumes audit C1 + E14; adopts Point 1 + Point 2. | Low. Prose-only; no computed figure touched. Three localized paragraph edits. |
+| **T2 (+ narrative coherence)** | T1 + reconcile §9.5/§9.6 convergence-ordering narrative to the table (audit **B6**). | Low–med. One more paragraph; keeps §9 internally consistent. |
+| **T3 (+ structural reframe)** | T2 + retitle **§9 "Three-Model Convergence Framework"** and **Empirical Observation 10.2 "Cross-Model Convergence"** away from convergence-as-headline (e.g. "Three-Model Cross-Check" / "Cross-Model Consistency"), mirroring §3.6 throughout. | Med. Heading change cascades to TOC (line 237), the §10 theorem list (line 248), and any cross-refs ("Empirical Observation 10.2 (Cross-Model Convergence)" is cited by name). Author-voice-sensitive — naming call. |
 
-Rationale:
-1. The defect is a *scope* defect rooted in a terminology collision; Option C fixes it at the source by separating the **landscape census** (accurate at seven) from the **cross-model convergence claim** (accurate at three), so the two senses of "three" can no longer be conflated.
-2. It brings §10.2 into line with the already-correct §9.5 paragraph and §11.2 row — making the document internally consistent rather than self-contradicting line-to-line.
-3. It strengthens the claim for the adversarial/peer-review reader: a precisely-scoped "convergence across the three computable cases, with these other cases corroborating along other axes" is *more* defensible than a loosely-scoped "six," not less — it pre-empts the exact reviewer objection that the §9.5 table only shows three.
-4. The companion edits are required for coherence: fixing only §10.2 would leave §9.1 (L2) and §11 intro (L4) still asserting six/four.
+**Recommendation: T2.** T1 is the minimum that discharges your two corrections and the two unapplied audit findings (C1, E14); T2 adds the one extra paragraph (B6) needed so §9 doesn't contradict itself line-to-line. **T3 is a genuine naming/structure call I'd rather you make** — the word "convergence" is load-bearing in the headings and cross-referenced; reframing it is right in spirit but is a voice decision, and can be a clean follow-up.
 
-**If the author prefers minimal disturbance:** Option A (L1) + the L2/L4 companion edits is a sufficient and faithful fallback; L3 can be left as-is (vague but not false).
-
-**Do not change** the §9.5 paragraph (line 3398) or the §11.2 convergence row (line 4084) — they are already the correct model.
+**Open question for you — home of the fix.** Because C1/E14/B6 belong to the held 2026-06-06 audit pass, do you want these applied (a) here, as a standalone Option-B convergence-reframe commit, or (b) folded into that audit pass when it lands, so the convergence findings travel with the rest of the forward-fix batch? Either is clean; (a) ships the reframe now, (b) avoids two passes touching §9/§10.2.
 
 ---
 
-## 7. Application checklist (for the post-ratification session — NOT done here)
+## 6. Application checklist (post-ratification — NOT done here)
 
-1. Apply the ratified option to the four locations above.
-2. `bash tools/scripts/check-corpus-invariants.sh --scope manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html --severity HIGH` → confirm exit 0.
-3. `python3 manuscript/technical-appendix/calculations/csd_rcv_calculations.py` → confirm 0 FAIL (expected unchanged: no computed figure is touched; this is a prose-scope correction).
-4. Visually confirm no stray render-glyph regressions (em-dash / &asymp; / B&#8322; subscript) in the edited paragraphs.
-5. Merge-on-ratification per CLAUDE.md (end-user-facing TA prose): push the ratified commit to `origin/main` via the pre-push reconciliation pattern.
+1. Apply the ratified tier's edits.
+2. `check-corpus-invariants.sh --scope … --severity HIGH` → exit 0.
+3. `python3 …/csd_rcv_calculations.py` → 0 FAIL (no computed figure is touched; prose-scope/framing only).
+4. Confirm no render-glyph regressions (&mdash; / &asymp; / B&#8322;) in edited paragraphs.
+5. If T3: update TOC (line 237) + §10 list (line 248) + any "Cross-Model Convergence" name-cites; re-grep for the old heading text.
+6. Merge-on-ratification per CLAUDE.md (end-user-facing TA prose).
 
-**Until ratified, no change is applied to the TA HTML.** This file is the proposal only.
+**Until ratified, no change is applied to the TA HTML. This file is the proposal only.**
