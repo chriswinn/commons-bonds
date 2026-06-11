@@ -183,8 +183,8 @@ patterns:
       ratified: "2026-05-15"
     allowlist:
       - file: "manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html"
-        line: 2684
-        rationale: "Legitimate temporal meaning in the CIT formal statement, not the bureaucratic tic"
+        line: 2707
+        rationale: "Legitimate temporal meaning in the CIT formal statement, not the bureaucratic tic (re-pinned 2026-06-11 after §3.6 reef-row +23-line shift)"
 
   - id: regressed-declarative-three-negation-affirmation
     pattern: 'It (does not|is not) [^.]+\. It (is not|does not) [^.]+\. It is'
@@ -841,8 +841,8 @@ patterns:
     description: "Working label renamed to Restitution Bond (B1)"
     allowlist:
       - file: "manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html"
-        line: 1387
-        rationale: "SUBSTANTIVE naming-history: §5.1.2 explains why the working label was rejected for Restitution Bond"
+        line: 1410
+        rationale: "SUBSTANTIVE naming-history: §5.1.2 explains why the working label was rejected for Restitution Bond (re-pinned 2026-06-11 after §3.6 reef-row +23-line shift)"
 
   - id: regressed-term-resource-foreclosure-bond
     pattern: 'Resource-Foreclosure Bond'
@@ -852,17 +852,17 @@ patterns:
     description: "Working label renamed to Foreclosure Bond (B2)"
     allowlist:
       - file: "manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html"
-        line: 1373
-        rationale: "SUBSTANTIVE naming-history heading: Why Foreclosure Bond over Resource-Foreclosure Bond"
+        line: 1396
+        rationale: "SUBSTANTIVE naming-history heading: Why Foreclosure Bond over Resource-Foreclosure Bond (re-pinned 2026-06-11 after §3.6 reef-row +23-line shift)"
       - file: "manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html"
-        line: 1387
-        rationale: "SUBSTANTIVE naming-history: rejected working label reviewed against the live name"
+        line: 1410
+        rationale: "SUBSTANTIVE naming-history: rejected working label reviewed against the live name (re-pinned 2026-06-11 after §3.6 reef-row +23-line shift)"
       - file: "manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html"
-        line: 1405
-        rationale: "SUBSTANTIVE naming-history: rationale referencing the §5.1.2 note"
+        line: 1428
+        rationale: "SUBSTANTIVE naming-history: rationale referencing the §5.1.2 note (re-pinned 2026-06-11 after §3.6 reef-row +23-line shift)"
       - file: "manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html"
-        line: 7175
-        rationale: "SUBSTANTIVE §15.2 rename-candidates list: quoted as a rejected candidate"
+        line: 7412
+        rationale: "SUBSTANTIVE §15.2 rename-candidates list: quoted as a rejected candidate (re-pinned 2026-06-11 after §3.6 reef-row + §11.12 reef-block +237-line shift)"
 
   - id: regressed-term-reversibility-default
     pattern: 'Reversibility Default'
