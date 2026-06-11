@@ -74,7 +74,7 @@ Provenance source of truth: `tools/audits/corpus-primary-source-register_2026-06
 
 **Carbon cascade — canonical UNCHANGED, re-cascade still live.** carbon $496 / total $510 / floor $504–518 (J1/J6). Mechanical re-cascade still owed in the TA + Ch6 + Ch9 (README §B).
 
-*(The per-chapter citation corrections — Norway fiscal rule 2001@4%→2017@3%; Fed $16T = "cumulative"; Hendryx OR 2.03; menhaden cap 2017/2018 not 2006; Baotou $5–15B; Deepwater ">$150B" not NOAA; GoFundMe AJPH-2022/437,596; Tangier ~1.7 ft/yr exposed-max; Libby >70%-of-US; Norway per-capita ~$390k; foreclosures ~4.1M completed; reclamation-gap single figure; US-Steel "across the 1980s" — are chapter-level, not cross-chapter shared figures; they live in the reconciliation artifact + the per-chapter briefs.)*
+*(The per-chapter citation corrections — Norway fiscal rule 2001@4%→2017@3%; Fed $16T = "cumulative"; Hendryx OR 2.03; menhaden cap 2017/2018 not 2006; Baotou $5–15B; Deepwater ">$150B" not NOAA; GoFundMe AJPH-2022/437,596; Tangier ~1.7 ft/yr paper-avg, 15 ft/yr = exposed-shore max only — APPLIED to Ch 3 (RATIFIED 2026-06-11); Libby >70%-of-US; Norway per-capita ~$390k; foreclosures ~4.1M completed; reclamation-gap single figure; US-Steel "across the 1980s" — are chapter-level, not cross-chapter shared figures; they live in the reconciliation artifact + the per-chapter briefs.)*
 
 ## Canonical set (Chesapeake reef / Restitution Bond) — ADDED 2026-06-10 (TA §11.12; status: GATE 2 OPEN — Ch 3 carries the priced claim as of 2026-06-11, origin/main 0d2ddef; MERGE-HOLD now only on three author-ratification calls)
 

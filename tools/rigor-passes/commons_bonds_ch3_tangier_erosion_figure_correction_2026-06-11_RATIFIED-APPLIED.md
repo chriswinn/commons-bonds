@@ -1,7 +1,9 @@
 # Ch 3 Tangier erosion figure — one-finding ratification ask
 
-**Status:** PROPOSED
+**Status:** RATIFIED-APPLIED (author ratification 2026-06-11, in-chat: "ratify Option B")
 **Date:** 2026-06-11
+
+> **Ratification record (2026-06-11).** Author asked whether Option B is the only citable and defensibly honest option; clarified precisely: A and C2 are also citable/honest but lose the fifteen-feet figure — **B is the only citable, defensibly honest way to KEEP the fifteen-feet figure** (unqualified, it appears nowhere in the peer-reviewed record). Author ratified Option B. Phase C applied per the recommendation: **B at line 169** (dual-figure reframe, em-dash pair rendered as commas per the em-dash discipline) + **C1 at line 262** (numeral-free litany) + **"two square miles" → "a bit over a square mile."** Optional ledger-shorthand clarification also applied (`_CANONICAL_FIGURE_LEDGER.md` closing parenthetical). Automatic-on-edit cascade run: Pass 3.1 (every claim in the new sentences sourced above) + Pass 3.2 (commas over em-dashes; numerals as words per chapter style; short-sentence pivot matches chapter register) + Stage 1c-light (bibliography already carries Schulte 2015 at `tools/back-matter/sources/bibliography.md:1530` with the exposed-shore caveat; no other Ch 3 artifact carries the figure). Merged to main per merge-on-ratification.
 **Session branch:** `claude/ch3-tangier-erosion-figure-260611-8e148c`
 **Scope:** `manuscript/chapters/Chapter__3_TheWaterman.md` (promoted canonical assembly, 2026-06-11), lines 169 + 262
 **Trigger:** discrepancy between the promoted chapter ("about fifteen feet of shoreline a year," twice) and the canonical figure ledger's ratified per-chapter correction ("Tangier ~1.7 ft/yr exposed-max," from `tools/audits/corpus-primary-source-register_2026-06-08.md` §2.10)
