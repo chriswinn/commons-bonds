@@ -275,6 +275,26 @@ entries; the Latin framework variables and compound/subscripted forms are includ
 | Method-3 | scarcity_multiplier(ς) | 1 + ln(1 + ς) × Hotelling_anchor | dimensionless |
 | Method-3 | irreversibility_premium(α) | 1 / (1 − α) | dimensionless |
 | Method-3 | Hotelling_anchor | ≈ 5%/yr Hotelling-rate proxy coefficient | ~rate |
+| Compound & auxiliary | S_max | long-run substitutability ceiling (S → S_max as t → ∞) | dimensionless [0,1] |
+| Compound & auxiliary | S_base(t) | baseline substitutability path before stock-dependent suppression (§16.2) | dimensionless |
+| Compound & auxiliary | S_threshold | criticality threshold on substitutability (§1.9) | dimensionless |
+| Compound & auxiliary | S* | substitute-technology substitutability in the §10.5 investment comparison | dimensionless |
+| Compound & auxiliary | Q_critical | stock level at which scarcity becomes economically visible (§16.2) | resource units |
+| Compound & auxiliary | t, t₀ | time; analysis time (extraction moment) | time |
+| Compound & auxiliary | T | proof threshold time (local to §10.3) | time |
+| Compound & auxiliary | r_min, r_∞ | floor / long-run limit of the declining discount rate | rate |
+| Compound & auxiliary | D_∞ | limiting discount factor lim D(t,t₀) (positive iff ∫r ds < ∞; Thm 10.4) | (0,1] |
+| Compound & auxiliary | A_ε | abundance level beyond which c(A) < ε (Theorem 10.3 (I)) | resource units |
+| Compound & auxiliary | U₀, k | utility polynomial-growth bound constants (§10.4) | —; — |
+| Compound & auxiliary | E₀, m | externality polynomial-growth bound constants (§10.4) | —; — |
+| Compound & auxiliary | c₀ | cost-function scale constant in c(A) = c₀·(τ/(A−τ))^ξ | $ |
+| Compound & auxiliary | C(x,t) | spatial cost-burden density at location x, time t (§16.3) | $·area⁻¹·time⁻¹ |
+| Compound & auxiliary | V(x,t) | spatial value-received density (§16.3; distinct from Bond B) | $·area⁻¹·time⁻¹ |
+| Compound & auxiliary | x | geographic location (§16.3 spatial integrals) | location |
+| Compound & auxiliary | SW | social welfare (§10.5; ∂SW/∂U > 0) | welfare units |
+| Compound & auxiliary | g(t) | discount-rate decline function in r(t) (Def 1.5) | — |
+| Compound & auxiliary | n, i | index bound / index in the Σᵢ Cᵢ n-term generalization (§17) | — |
+| Compound & auxiliary | Investment_cost | substitute-development investment in the §10.5 comparison | $ |
 | Operators & proof | Σ | summation operator | — |
 | Operators & proof | Δ | change operator (ΔForeclosure_cost, ΔOption_value, …) | — |
 | Operators & proof | ∂U/∂Q | partial derivative (marginal utility wrt stock; < 0) | — |

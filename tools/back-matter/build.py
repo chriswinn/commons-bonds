@@ -570,9 +570,52 @@ def cmd_scan_symbols():
     print(f"\nNotation rows: {len(rows)}; exact-duplicate symbol cells: {dup or 'none'}")
 
 
+def cmd_gen_ta_notation():
+    """Generate the in-TA '§0 Notation & Symbols' section from registry Part 7 and splice it
+    into the TA between <main> and the first section (replacing any prior generated copy);
+    ensures a TOC entry. Re-run after any registry Part 7 change."""
+    rows = parse_registry_part7()
+    seen, uniq = set(), []
+    for r in rows:
+        if r[1] in seen:
+            continue
+        seen.add(r[1]); uniq.append(r)
+    parts, cur = [], None
+    for group, sym, meaning, units in uniq:
+        if group != cur:
+            cur = group
+            parts.append('     <tr><th colspan="3" style="text-align:left;">%s</th></tr>' % html.escape(group))
+        u = "" if units in ("\u2014", "") else units
+        parts.append('     <tr><td style="font-weight:bold; white-space:nowrap;">%s</td><td>%s</td><td>%s</td></tr>'
+                     % (html.escape(sym), html.escape(meaning), html.escape(u)))
+    section = (
+        '   <section id="sec-0-notation">\n'
+        '    <h2>\n     &sect;0. Notation &amp; Symbols\n    </h2>\n    <hr>\n'
+        '    <p>\n     Every symbol used in the formulas of this appendix, listed once. Standard '
+        'conventions are preserved where the framework follows them; deliberate redefinitions are '
+        'noted in the meaning. Uppercase roman (I)&ndash;(II) marks theorem conclusions; lowercase '
+        'roman (i)&ndash;(iv) marks assumptions (&sect;10).\n'
+        '     <!-- GENERATED from manuscript/technical-appendix/symbol-registry_2026-06-07.md Part 7 '
+        'via tools/back-matter/build.py gen-ta-notation; do not hand-edit this section. -->\n    </p>\n'
+        '    <table>\n     <tr><th>Symbol</th><th>Meaning</th><th>Units</th></tr>\n'
+        + "\n".join(parts) + '\n    </table>\n   </section>\n'
+    )
+    t = open(TA_HTML, encoding="utf-8").read()
+    t = re.sub(r'   <section id="sec-0-notation">.*?</section>\n', "", t, flags=re.S)
+    t = t.replace("  <main>\n", "  <main>\n" + section, 1)
+    if "#sec-0-notation" not in t:
+        toc = ('    <li>\n     <a href="#sec-0-notation">\n      &sect;0. Notation &amp; Symbols\n     </a>\n'
+               '     <div class="toc-annotation">\n      Every formula symbol, listed once (generated from the symbol registry).\n     </div>\n    </li>\n')
+        t = t.replace("   </ol>\n  </nav>", toc + "   </ol>\n  </nav>", 1)
+    open(TA_HTML, "w", encoding="utf-8").write(t)
+    print("spliced \u00a70 Notation into the TA (%d symbols; TOC entry ensured)" % len(uniq))
+
+
 def main():
     cmd = sys.argv[1] if len(sys.argv) > 1 else ""
-    if cmd == "scan-symbols":
+    if cmd == "gen-ta-notation":
+        cmd_gen_ta_notation()
+    elif cmd == "scan-symbols":
         cmd_scan_symbols()
     elif cmd == "crossref":
         cmd_crossref()

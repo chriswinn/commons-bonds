@@ -312,9 +312,96 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
       Full reference list.
      </div>
     </li>
+    <li>
+     <a href="#sec-0-notation">
+      &sect;0. Notation &amp; Symbols
+     </a>
+     <div class="toc-annotation">
+      Every formula symbol, listed once (generated from the symbol registry).
+     </div>
+    </li>
    </ol>
   </nav>
   <main>
+   <section id="sec-0-notation">
+    <h2>
+     &sect;0. Notation &amp; Symbols
+    </h2>
+    <hr>
+    <p>
+     Every symbol used in the formulas of this appendix, listed once. Standard conventions are preserved where the framework follows them; deliberate redefinitions are noted in the meaning. Uppercase roman (I)&ndash;(II) marks theorem conclusions; lowercase roman (i)&ndash;(iv) marks assumptions (&sect;10).
+     <!-- GENERATED from manuscript/technical-appendix/symbol-registry_2026-06-07.md Part 7 via tools/back-matter/build.py gen-ta-notation; do not hand-edit this section. -->
+    </p>
+    <table>
+     <tr><th>Symbol</th><th>Meaning</th><th>Units</th></tr>
+     <tr><th colspan="3" style="text-align:left;">Core quantities</th></tr>
+     <tr><td style="font-weight:bold; white-space:nowrap;">R</td><td>resource unit</td><td></td></tr>
+     <tr><td style="font-weight:bold; white-space:nowrap;">𝒞</td><td>commons-territory set (R ∈ 𝒞)</td><td>set</td></tr>
+     <tr><td style="font-weight:bold; white-space:nowrap;">Q, Q(t)</td><td>remaining in-situ stock</td><td>resource-class units</td></tr>
+     <tr><td style="font-weight:bold; white-space:nowrap;">S(t|t₀), S_max</td><td>substitutability function; its ceiling</td><td>dimensionless [0,1]</td></tr>
+     <tr><td style="font-weight:bold; white-space:nowrap;">U(R,t,Q(t))</td><td>stock-dependent utility flow</td><td>$·res⁻¹·time⁻¹</td></tr>
+     <tr><td style="font-weight:bold; white-space:nowrap;">P, P(t)</td><td>market price</td><td>$·res⁻¹</td></tr>
+     <tr><td style="font-weight:bold; white-space:nowrap;">E(R,t)</td><td>externality-tail flow (deterministic; not the expectation operator E[·])</td><td>$·res⁻¹·time⁻¹</td></tr>
+     <tr><td style="font-weight:bold; white-space:nowrap;">D(t,t₀), r(t), r₀</td><td>discount factor; discount rate; initial rate</td><td>(0,1]; rate; rate</td></tr>
+     <tr><td style="font-weight:bold; white-space:nowrap;">RCV(R,t₀)</td><td>Residual Commons Value (the integral)</td><td>$·res⁻¹</td></tr>
+     <tr><td style="font-weight:bold; white-space:nowrap;">B, B₁, B₂</td><td>Accountability Bond; Restitution Bond (backward); Foreclosure Bond (forward)</td><td>$</td></tr>
+     <tr><td style="font-weight:bold; white-space:nowrap;">B̂_M2</td><td>Method-2 realized-Bond reading (observed internalization per unit of extraction); a strict lower bound on RCV (RCV ≥ B̂_M2), not an RCV estimator; the hat marks &quot;reading/estimate of,&quot; distinct from the posted instrument B</td><td>$·res⁻¹</td></tr>
+     <tr><td style="font-weight:bold; white-space:nowrap;">CS, CSD</td><td>Cost Severance (= RCV − B); Cost Severance Damages (backward-looking)</td><td>$</td></tr>
+     <tr><td style="font-weight:bold; white-space:nowrap;">CSD_M3</td><td>backward Method-3 composite: V_market × scarcity_multiplier(ς) × irreversibility_premium(α), with V_market in its backward reading (extinguished optionality / foregone service flow) and α the realized irreversibility</td><td>$·res⁻¹</td></tr>
+     <tr><td style="font-weight:bold; white-space:nowrap;">IPG(R,t₀)</td><td>Intergenerational Pricing Gap (= RCV / P)</td><td>dimensionless</td></tr>
+     <tr><td style="font-weight:bold; white-space:nowrap;">CIT</td><td>Commons Inversion Test (the discovery method)</td><td></td></tr>
+     <tr><td style="font-weight:bold; white-space:nowrap;">Cᵢ, C₁…Cₙ₊₁</td><td>indexed cost components admitted via the Four Gates</td><td>$</td></tr>
+     <tr><td style="font-weight:bold; white-space:nowrap;">SCS, Ω</td><td>spatial cost severance (∫ over Ω∖K); Ω = extraction region</td><td>$; set</td></tr>
+     <tr><td style="font-weight:bold; white-space:nowrap;">Aⱼ, τⱼ</td><td>commons category j; its scarcity threshold</td><td>—; category-dep</td></tr>
+     <tr><th colspan="3" style="text-align:left;">Parameters</th></tr>
+     <tr><td style="font-weight:bold; white-space:nowrap;">ρ</td><td>regeneration rate of stock</td><td>resource·time⁻¹</td></tr>
+     <tr><td style="font-weight:bold; white-space:nowrap;">λ</td><td>substitution rate (in S = S_max(1 − e^(−λ(t−t₀))))</td><td>time⁻¹</td></tr>
+     <tr><td style="font-weight:bold; white-space:nowrap;">ς</td><td>Method-3 scarcity parameter (reserves-to-production-grounded)</td><td>dimensionless</td></tr>
+     <tr><td style="font-weight:bold; white-space:nowrap;">α</td><td>Method-3 irreversibility probability ∈ [0,1]</td><td>dimensionless</td></tr>
+     <tr><td style="font-weight:bold; white-space:nowrap;">ξ</td><td>cost-function curvature exponent (ξ ≥ 1)</td><td>dimensionless</td></tr>
+     <tr><td style="font-weight:bold; white-space:nowrap;">η_S(A)</td><td>supply elasticity (→ 0 as A → τ⁺)</td><td>dimensionless</td></tr>
+     <tr><td style="font-weight:bold; white-space:nowrap;">τ</td><td>scarcity threshold</td><td>category-dep</td></tr>
+     <tr><td style="font-weight:bold; white-space:nowrap;">κ</td><td>discount-rate decay constant (§16.1; r(t) = (r₀ − r_min)·e^(−κt) + r_min)</td><td>time⁻¹</td></tr>
+     <tr><td style="font-weight:bold; white-space:nowrap;">ζ, ω</td><td>§16.2 innovation-suppression coefficients (local to §16.2; distinct from M3 α)</td><td>dimensionless</td></tr>
+     <tr><th colspan="3" style="text-align:left;">Method-3</th></tr>
+     <tr><td style="font-weight:bold; white-space:nowrap;">RCV_M3</td><td>Method-3 estimate = V_market × scarcity_multiplier(ς) × irreversibility_premium(α)</td><td>$·res⁻¹</td></tr>
+     <tr><td style="font-weight:bold; white-space:nowrap;">V_market</td><td>resource&#x27;s own market / underlying value (abundance baseline)</td><td>$</td></tr>
+     <tr><td style="font-weight:bold; white-space:nowrap;">scarcity_multiplier(ς)</td><td>1 + ln(1 + ς) × Hotelling_anchor</td><td>dimensionless</td></tr>
+     <tr><td style="font-weight:bold; white-space:nowrap;">irreversibility_premium(α)</td><td>1 / (1 − α)</td><td>dimensionless</td></tr>
+     <tr><td style="font-weight:bold; white-space:nowrap;">Hotelling_anchor</td><td>≈ 5%/yr Hotelling-rate proxy coefficient</td><td>~rate</td></tr>
+     <tr><th colspan="3" style="text-align:left;">Compound &amp; auxiliary</th></tr>
+     <tr><td style="font-weight:bold; white-space:nowrap;">S_max</td><td>long-run substitutability ceiling (S → S_max as t → ∞)</td><td>dimensionless [0,1]</td></tr>
+     <tr><td style="font-weight:bold; white-space:nowrap;">S_base(t)</td><td>baseline substitutability path before stock-dependent suppression (§16.2)</td><td>dimensionless</td></tr>
+     <tr><td style="font-weight:bold; white-space:nowrap;">S_threshold</td><td>criticality threshold on substitutability (§1.9)</td><td>dimensionless</td></tr>
+     <tr><td style="font-weight:bold; white-space:nowrap;">S*</td><td>substitute-technology substitutability in the §10.5 investment comparison</td><td>dimensionless</td></tr>
+     <tr><td style="font-weight:bold; white-space:nowrap;">Q_critical</td><td>stock level at which scarcity becomes economically visible (§16.2)</td><td>resource units</td></tr>
+     <tr><td style="font-weight:bold; white-space:nowrap;">t, t₀</td><td>time; analysis time (extraction moment)</td><td>time</td></tr>
+     <tr><td style="font-weight:bold; white-space:nowrap;">T</td><td>proof threshold time (local to §10.3)</td><td>time</td></tr>
+     <tr><td style="font-weight:bold; white-space:nowrap;">r_min, r_∞</td><td>floor / long-run limit of the declining discount rate</td><td>rate</td></tr>
+     <tr><td style="font-weight:bold; white-space:nowrap;">D_∞</td><td>limiting discount factor lim D(t,t₀) (positive iff ∫r ds &lt; ∞; Thm 10.4)</td><td>(0,1]</td></tr>
+     <tr><td style="font-weight:bold; white-space:nowrap;">A_ε</td><td>abundance level beyond which c(A) &lt; ε (Theorem 10.3 (I))</td><td>resource units</td></tr>
+     <tr><td style="font-weight:bold; white-space:nowrap;">U₀, k</td><td>utility polynomial-growth bound constants (§10.4)</td><td>—; —</td></tr>
+     <tr><td style="font-weight:bold; white-space:nowrap;">E₀, m</td><td>externality polynomial-growth bound constants (§10.4)</td><td>—; —</td></tr>
+     <tr><td style="font-weight:bold; white-space:nowrap;">c₀</td><td>cost-function scale constant in c(A) = c₀·(τ/(A−τ))^ξ</td><td>$</td></tr>
+     <tr><td style="font-weight:bold; white-space:nowrap;">C(x,t)</td><td>spatial cost-burden density at location x, time t (§16.3)</td><td>$·area⁻¹·time⁻¹</td></tr>
+     <tr><td style="font-weight:bold; white-space:nowrap;">V(x,t)</td><td>spatial value-received density (§16.3; distinct from Bond B)</td><td>$·area⁻¹·time⁻¹</td></tr>
+     <tr><td style="font-weight:bold; white-space:nowrap;">x</td><td>geographic location (§16.3 spatial integrals)</td><td>location</td></tr>
+     <tr><td style="font-weight:bold; white-space:nowrap;">SW</td><td>social welfare (§10.5; ∂SW/∂U &gt; 0)</td><td>welfare units</td></tr>
+     <tr><td style="font-weight:bold; white-space:nowrap;">g(t)</td><td>discount-rate decline function in r(t) (Def 1.5)</td><td></td></tr>
+     <tr><td style="font-weight:bold; white-space:nowrap;">n, i</td><td>index bound / index in the Σᵢ Cᵢ n-term generalization (§17)</td><td></td></tr>
+     <tr><td style="font-weight:bold; white-space:nowrap;">Investment_cost</td><td>substitute-development investment in the §10.5 comparison</td><td>$</td></tr>
+     <tr><th colspan="3" style="text-align:left;">Operators &amp; proof</th></tr>
+     <tr><td style="font-weight:bold; white-space:nowrap;">Σ</td><td>summation operator</td><td></td></tr>
+     <tr><td style="font-weight:bold; white-space:nowrap;">Δ</td><td>change operator (ΔForeclosure_cost, ΔOption_value, …)</td><td></td></tr>
+     <tr><td style="font-weight:bold; white-space:nowrap;">∂U/∂Q</td><td>partial derivative (marginal utility wrt stock; &lt; 0)</td><td></td></tr>
+     <tr><td style="font-weight:bold; white-space:nowrap;">A, A(t), c(A), c₀</td><td>abundance; cost function; cost scale (Theorem 10.3)</td><td></td></tr>
+     <tr><td style="font-weight:bold; white-space:nowrap;">ε, δ</td><td>ε–δ analysis neighborhood variables (Theorem 10.3)</td><td></td></tr>
+     <tr><td style="font-weight:bold; white-space:nowrap;">M, K, T</td><td>proof divergence bound; proof constant; threshold time (local to §10.3)</td><td></td></tr>
+     <tr><td style="font-weight:bold; white-space:nowrap;">s</td><td>integration dummy (∫ r(s) ds)</td><td></td></tr>
+     <tr><td style="font-weight:bold; white-space:nowrap;">(i)–(iv); (a)–(d)</td><td>enumerated assumption/premise labels; cost-function-property labels (§10)</td><td></td></tr>
+     <tr><td style="font-weight:bold; white-space:nowrap;">∎</td><td>QED (end of proof)</td><td></td></tr>
+    </table>
+   </section>
    <section id="sec-1-foundations">
     <h2>
      &sect;1. Foundations &mdash; Formal Definitions and Primitives
@@ -3654,7 +3741,7 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
      <strong>
       Statement.
      </strong>
-     Under Assumptions (i)&ndash;(iv), the RCV integral RCV(R, t₀) = &int;_{t₀}^&infin; {[1 &minus; S(t)] &middot; U(R, t, Q(t)) + E(R, t)} &middot; D(t, t₀) dt converges (is finite) when at least one of the following sufficient conditions holds:
+     Under Assumptions (i)&ndash;(iv), the RCV integral RCV(R, t₀) = &int;<sub>t₀</sub><sup>&infin;</sup> {[1 &minus; S(t)] &middot; U(R, t, Q(t)) + E(R, t)} &middot; D(t, t₀) dt converges (is finite) when at least one of the following sufficient conditions holds:
     </p>
     <ul>
      <li>
@@ -3667,20 +3754,20 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
       <strong>
        (SC2) Sufficient substitutability convergence:
       </strong>
-      &int;_{t₀}^&infin; [1 &minus; S(t)] &middot; U(R, t, Q(t)) dt &lt; &infin; AND &int;_{t₀}^&infin; E(R, t) &middot; D(t, t₀) dt &lt; &infin;.
+      &int;<sub>t₀</sub><sup>&infin;</sup> [1 &minus; S(t)] &middot; U(R, t, Q(t)) dt &lt; &infin; AND &int;<sub>t₀</sub><sup>&infin;</sup> E(R, t) &middot; D(t, t₀) dt &lt; &infin;.
      </li>
     </ul>
     <p>
      <strong>
       Knife-edge divergence corollary.
      </strong>
-     RCV(R, t₀) = &infin; when S_max &lt; 1 AND &int;_{t₀}^&infin; r(s) ds &lt; &infin; AND &int;_{t₀}^&infin; [1 &minus; S_max] &middot; U(R, t, Q(t)) dt = &infin;. The summable-decay hypothesis &int; r(s) ds &lt; &infin; is strictly stronger than r_&infin; = 0; it guarantees D_&infin; = exp(&minus;&int;_{t₀}^&infin; r(s) ds) &gt; 0 (required for the lower bound used in the proof). Explicit cases satisfying the strengthened hypothesis include r(s) = 0 for s sufficiently large and r(s) integrable on [t₀, &infin;); the hypothesis excludes slow-decaying r such as r(s) = 1/s where r_&infin; = 0 but &int; r(s) ds = &infin; and D_&infin; = 0. Under the strengthened hypotheses, permanent non-substitutable foreclosure under summable discount-rate decay accumulates unbounded utility-weighted cost.
+     RCV(R, t₀) = &infin; when S_max &lt; 1 AND &int;<sub>t₀</sub><sup>&infin;</sup> r(s) ds &lt; &infin; AND &int;<sub>t₀</sub><sup>&infin;</sup> [1 &minus; S_max] &middot; U(R, t, Q(t)) dt = &infin;. The summable-decay hypothesis &int; r(s) ds &lt; &infin; is strictly stronger than r_&infin; = 0; it guarantees D_&infin; = exp(&minus;&int;<sub>t₀</sub><sup>&infin;</sup> r(s) ds) &gt; 0 (required for the lower bound used in the proof). Explicit cases satisfying the strengthened hypothesis include r(s) = 0 for s sufficiently large and r(s) integrable on [t₀, &infin;); the hypothesis excludes slow-decaying r such as r(s) = 1/s where r_&infin; = 0 but &int; r(s) ds = &infin; and D_&infin; = 0. Under the strengthened hypotheses, permanent non-substitutable foreclosure under summable discount-rate decay accumulates unbounded utility-weighted cost.
     </p>
     <p>
      <strong>
       Proof.
      </strong>
-     RCV(R, t₀) = &int;_{t₀}^&infin; f(t) dt where f(t) = {[1 &minus; S(t)] &middot; U(R, t, Q(t)) + E(R, t)} &middot; D(t, t₀) is non-negative under Assumptions (i), (ii), (iii) (S(t) &isin; [0, 1] &rArr; 1 &minus; S(t) &ge; 0; U &ge; 0 by Assumption (i); E &ge; 0 by Assumption (ii); D &gt; 0).
+     RCV(R, t₀) = &int;<sub>t₀</sub><sup>&infin;</sup> f(t) dt where f(t) = {[1 &minus; S(t)] &middot; U(R, t, Q(t)) + E(R, t)} &middot; D(t, t₀) is non-negative under Assumptions (i), (ii), (iii) (S(t) &isin; [0, 1] &rArr; 1 &minus; S(t) &ge; 0; U &ge; 0 by Assumption (i); E &ge; 0 by Assumption (ii); D &gt; 0).
     </p>
     <p>
      <strong>
@@ -3698,38 +3785,38 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
      f(t) &le; [U_0 &middot; (1 + t)^k + E_0 &middot; (1 + t)^m] &middot; K &middot; exp(&minus;(r_&infin;/2) &middot; (t &minus; T))
     </p>
     <p>
-     Polynomial growth dominated by exponential decay &rArr; integrand integrable on [T, &infin;). Continuous on [t₀, T] &rArr; integrable on [t₀, T]. Since the integrand is dominated by an integrable function, it is itself integrable (the domination/comparison criterion for Lebesgue integrability; Royden 1988 &sect;4.4; Folland 1999 &sect;2.4), so &int;_{t₀}^&infin; f(t) dt &lt; &infin;. ∎ Case SC1.
+     Polynomial growth dominated by exponential decay &rArr; integrand integrable on [T, &infin;). Continuous on [t₀, T] &rArr; integrable on [t₀, T]. Since the integrand is dominated by an integrable function, it is itself integrable (the domination/comparison criterion for Lebesgue integrability; Royden 1988 &sect;4.4; Folland 1999 &sect;2.4), so &int;<sub>t₀</sub><sup>&infin;</sup> f(t) dt &lt; &infin;. ∎ Case SC1.
     </p>
     <p>
      <strong>
       Case (SC2):
      </strong>
-     &int;_{t₀}^&infin; [1 &minus; S(t)] &middot; U(R, t, Q(t)) dt &lt; &infin; AND &int;_{t₀}^&infin; E(R, t) &middot; D(t, t₀) dt &lt; &infin; (the latter independent assumption since E's convergence does not depend on substitutability).
+     &int;<sub>t₀</sub><sup>&infin;</sup> [1 &minus; S(t)] &middot; U(R, t, Q(t)) dt &lt; &infin; AND &int;<sub>t₀</sub><sup>&infin;</sup> E(R, t) &middot; D(t, t₀) dt &lt; &infin; (the latter independent assumption since E's convergence does not depend on substitutability).
     </p>
     <p>
-     &int;_{t₀}^&infin; f(t) dt = &int;_{t₀}^&infin; [1 &minus; S(t)] &middot; U &middot; D dt + &int;_{t₀}^&infin; E &middot; D dt
+     &int;<sub>t₀</sub><sup>&infin;</sup> f(t) dt = &int;<sub>t₀</sub><sup>&infin;</sup> [1 &minus; S(t)] &middot; U &middot; D dt + &int;<sub>t₀</sub><sup>&infin;</sup> E &middot; D dt
     </p>
     <p>
-     Since D(t, t₀) &le; 1 (D is a decay factor), [1 &minus; S(t)] &middot; U &middot; D &le; [1 &minus; S(t)] &middot; U pointwise. By monotonicity of the Lebesgue integral for non-negative integrands and the pointwise bound, &int;_{t₀}^&infin; [1 &minus; S(t)] &middot; U &middot; D dt &le; &int;_{t₀}^&infin; [1 &minus; S(t)] &middot; U dt &lt; &infin; by the first SC2 hypothesis. The second SC2 hypothesis directly gives the second integral finite. Sum is finite. ∎ Case SC2.
+     Since D(t, t₀) &le; 1 (D is a decay factor), [1 &minus; S(t)] &middot; U &middot; D &le; [1 &minus; S(t)] &middot; U pointwise. By monotonicity of the Lebesgue integral for non-negative integrands and the pointwise bound, &int;<sub>t₀</sub><sup>&infin;</sup> [1 &minus; S(t)] &middot; U &middot; D dt &le; &int;<sub>t₀</sub><sup>&infin;</sup> [1 &minus; S(t)] &middot; U dt &lt; &infin; by the first SC2 hypothesis. The second SC2 hypothesis directly gives the second integral finite. Sum is finite. ∎ Case SC2.
     </p>
     <p>
      <strong>
       Knife-edge corollary proof.
      </strong>
-     Suppose S_max &lt; 1 and &int;_{t₀}^&infin; r(s) ds &lt; &infin;. Then:
+     Suppose S_max &lt; 1 and &int;<sub>t₀</sub><sup>&infin;</sup> r(s) ds &lt; &infin;. Then:
     </p>
     <ul>
      <li>
       1 &minus; S(t) &ge; 1 &minus; S_max &gt; 0 for all t &ge; t₀ (since S(t) &le; S_max).
      </li>
      <li>
-      D(t, t₀) &rarr; D_&infin; = exp(&minus;&int;_{t₀}^&infin; r(s) ds) &gt; 0 (from the summable-decay hypothesis &int; r(s) ds &lt; &infin;; this is strictly stronger than r_&infin; = 0 alone, which permits slow-decaying r such as r(s) = 1/s where D_&infin; = 0).
+      D(t, t₀) &rarr; D_&infin; = exp(&minus;&int;<sub>t₀</sub><sup>&infin;</sup> r(s) ds) &gt; 0 (from the summable-decay hypothesis &int; r(s) ds &lt; &infin;; this is strictly stronger than r_&infin; = 0 alone, which permits slow-decaying r such as r(s) = 1/s where D_&infin; = 0).
      </li>
      <li>
       Hence f(t) &ge; [1 &minus; S_max] &middot; U(R, t, Q(t)) &middot; D_&infin;.
      </li>
      <li>
-      If &int;_{t₀}^&infin; [1 &minus; S_max] &middot; U dt = &infin;, then &int;_{t₀}^&infin; f(t) dt &ge; D_&infin; &middot; [1 &minus; S_max] &middot; &int;_{t₀}^&infin; U dt = &infin;.
+      If &int;<sub>t₀</sub><sup>&infin;</sup> [1 &minus; S_max] &middot; U dt = &infin;, then &int;<sub>t₀</sub><sup>&infin;</sup> f(t) dt &ge; D_&infin; &middot; [1 &minus; S_max] &middot; &int;<sub>t₀</sub><sup>&infin;</sup> U dt = &infin;.
      </li>
     </ul>
     <p>
