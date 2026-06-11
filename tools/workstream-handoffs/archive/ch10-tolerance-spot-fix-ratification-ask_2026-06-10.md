@@ -1,9 +1,9 @@
 # Ch 10 wind-tunnel tolerance spot-fix — ratification ask (2026-06-10)
 
-**Status:** PROPOSED — prose edit applied on feature branch
-`claude/ch10-tolerance-fix-260610-2ca75e`, held with `MERGE-HOLD: pending author
-ratification` per the task direction to present end-user-facing prose edits for
-ratification. One author yes/no merges it.
+**Status:** RATIFIED + MERGED 2026-06-11 — author ratified Option A ("ratify
+and merge"); the `MERGE-HOLD` cleared and the prose commit merged to
+`origin/main` per merge-on-ratification. Handoff archived at workstream close.
+Sibling occurrences (§ below) remain open with their owning sessions.
 
 **Ruling being applied:** item G,
 [`research/story-drafts/ch1-bone-sense-moments_2026-06-04.md:123`](../../research/story-drafts/ch1-bone-sense-moments_2026-06-04.md)
