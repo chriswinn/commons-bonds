@@ -1,8 +1,8 @@
 # Author Platform
 
-**Date drafted:** 2026-05-06  ·  **Date modified:** 2026-05-09
+**Date drafted:** 2026-05-06  ·  **Date modified:** 2026-06-11
 
-**Status.** Polished bios drafted across three lengths 2026-05-09. Placements / interview record sections still building as the cascade lands material.
+**Status.** Polished bios drafted across three lengths 2026-05-09. Placements / interview record sections still building as the cascade lands material. Soft-clips + interview tables refreshed 2026-06-11 against STATE.md + the consent tracker.
 
 **Purpose.** The honest version of the author's platform paragraph. For a first-time author with no prior placements, the credible move is: lean into outsider-credibility, list what's actually placed/recorded, name interviewees with confirmed quote-permission. Pad nothing.
 
@@ -16,7 +16,7 @@ Three lengths cover the venue cascade. Pick the variant whose word count fits th
 
 > Chris Winn is a nursing student at Virginia Peninsula Community College and former healthcare-IT executive. His forthcoming book *Commons Bonds* develops a framework for pricing the intergenerational costs that resource extraction severs from those who bear them.
 
-### Medium (~85 words) — Boston Review, Phenomenal World, Noema cover note, agent queries
+### Medium (~85 words) — Phenomenal World, Public Books, Noema cover note, agent queries
 
 > Chris Winn is a nursing student at Virginia Peninsula Community College (Hampton, Virginia) and former healthcare-IT executive whose career spanned the National Institutes of Health during the Human Genome Project, federal research and consulting, and the CEO seat of a healthcare-IT firm. His forthcoming book *Commons Bonds* develops a formal framework for pricing the intergenerational costs that resource extraction systematically severs from the populations that bear them. He lives aboard a sailboat in Hampton.
 
@@ -70,7 +70,9 @@ These can be cited in pitches within the response window — real and current su
 
 | Date sent | Venue | Title | Status as of |
 |---|---|---|---|
-| (target 2026-06-01) | Aeon | "The Mask of Abundance" (pitch) | — |
+| 2026-06-03 | Phenomenal World | "The $100 Barrel" | Under consideration as of 2026-06-11 (4–8 wk response window) |
+
+Not yet citable (nothing else has actually been sent): Aeon (V-E canonical, portal-gated as of 2026-06-03); Foreign Affairs / Noema / Atlantic Ideas / Atlantic features / NYRB (ratified-awaiting-submit); Public Books (cascade from the Boston Review rejection 2026-06-03; cover letter in flight). Boston Review is REJECTED — never cite. Cite a venue here only after the submission fires, per the response-window discipline above.
 
 ---
 
@@ -80,7 +82,9 @@ These can be cited in pitches within the response window — real and current su
 
 | Date | Subject | Affiliation | Quote-permission | Where material is used |
 |---|---|---|---|---|
-| 2026-05-12 (scheduled) | William ("Sandy") Darity Jr. | Duke University | Pending | Noema essay §V (cross-history beat); Aeon essay revision (post-acceptance) |
+| 2026-05-13 (conducted, ~58 min) | William ("Sandy") Darity Jr. | Duke University (emeritus) | Pending written approval — citation packet sent 2026-05-15, response pending; Tier-S (spoken) quotes held from essays until approval | Ch 5 / Ch 6 / Ch 8 + TA references; Noema + Atlantic Ideas published-work references |
+
+Note (2026-06-11): the held post-interview confirmation email's "publisher-interest moment" trigger fires when agent engagement begins — execute it at or before Wave-1 query send (see consent tracker row + `research/outreach/subjects/darity/`). Day-45 fallback trigger: 2026-06-29.
 
 ---
 
