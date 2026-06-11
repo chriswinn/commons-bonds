@@ -5,7 +5,12 @@
 **Base:** `origin/main` tip `0b83257`
 **Gate baseline (unchanged worktree):** `check-corpus-invariants.sh --severity HIGH` → exit 0; `csd_rcv_calculations.py` → 0 FAIL (21 values, 0 mismatches)
 
-> **v2 supersedes v1.** v1 (this morning) narrowed the convergence *scope* ("six → three") but **preserved the convergence-as-validation framing and treated Method 2 as a co-equal counting method** — i.e. it regressed §9/§10.2 to the **Option-A** posture. Author correction (2026-06-11): (1) the framework does **not require or celebrate convergence** — three "independent" estimates *always* agreeing is a finger-on-the-scale tell, not validation; (2) **Method 2 is the realized bond / restitution term, not a counting method** — the counting is Method 1 + Method 3; M2 is the B you *subtract* (CS = RCV − B). Both corrections are already **ratified canon** elsewhere in the TA; §9 and §10.2 are the laggards.
+> **v2 supersedes v1.** v1 (this morning) narrowed the convergence *scope* ("six → three") but **preserved the convergence-as-validation framing and treated Method 2 as a co-equal RCV estimator** — i.e. it regressed §9/§10.2 to the **Option-A** posture. Author corrections (2026-06-11):
+>
+> 1. The framework does **not require or celebrate convergence** — three "independent" estimates *always* agreeing is a finger-on-the-scale tell, not validation.
+> 2. **Method 2 is a legitimate counting/valuation method** (bond, futures, options, and restitution valuation are established economics) — but it counts the **realized bond B: what has *actually been paid*** to repair the severance (reef rebuilt; reparations paid; McDowell restored), **not a third estimate of RCV** (what restoration actually requires). M1 + M3 estimate *what's needed*; M2 measures *what's been paid*; `CS = (M1∩M3, what's needed) − (M2, what's been paid)`, and that gap is the accountability story (reef: ~$110M paid, all public, $0 from the extractor). [Refines v2's earlier "not a counting method" shorthand — the symbol registry's exact word is "not an RCV **estimator**."]
+>
+> Both corrections are already **ratified canon** elsewhere in the TA; §9 and §10.2 are the laggards.
 
 ---
 
@@ -55,7 +60,7 @@ The held **2026-06-06 TA rigor-audit ledger** (`TA-rigor-audit-ledger_2026-06-06
 2. **State the independence limit honestly (E14 / Point 1).** On fossil cases the three models share the social-cost-of-carbon input, so agreement on the carbon-dominated term is a shared-input artifact, not independent confirmation. The genuine independence lives in the *non-overlapping* data sources (substitutability / market volatility / litigation-epidemiology). This is the framework naming its own finger-on-the-scale risk and refusing to lean on it.
 3. **Scope the cross-model claim to where all three models actually compute** — McDowell, Deepwater Horizon, Libby (§9.5). Do not assert it across six.
 4. **Name each other case's actual role (Point 2-aware):**
-   - **Norway (§11.5):** RCV bounded by its **two estimators, M1 (~$161–422/BOE) and M3 (~$96–610/BOE)**, against a **realized bond M2 (~$48/BOE)** — the canonical realized-B₂ exemplar; CS reduced (via irreversibility-reduction) but not eliminated. *(Not "Three Ways of Counting / Methods 1+2+3" — that phrasing re-imports M2 as a co-equal method.)*
+   - **Norway (§11.5):** *what's needed* estimated by its **two RCV estimators, M1 (~$161–422/BOE) and M3 (~$96–610/BOE)**, set against *what's been paid* — the **realized bond M2 (~$48/BOE)**, the canonical realized-B₂ exemplar; the gap is the residual CS (reduced via irreversibility-reduction, not eliminated). *(Not "Three Ways of Counting / Methods 1+2+3" — that phrasing re-imports M2 as a co-equal RCV estimator; M2 counts the paid side, M1+M3 estimate the needed side.)*
    - **Baotou (§11.4):** remediation-only floor, IPG not computable on documented inputs; floor alone implies CS > 0.
    - **Asteroid iron / lunar (§13):** RCV integral exercised in the abundance regime (correctly returns RCV ≈ market price) — boundary calibration, not a cross-model IPG comparison.
    - **Reef (§11.12):** the single backward CSD calibration (M1 floor / M2 corroboration; M3 Open).
