@@ -82,3 +82,19 @@ blocker — the reader-facing glossary follows v4 — but the lineage should rec
 `python3 tools/back-matter/build.py gen-glossary`
 → reads v4 → strips retired-section + version markers → injects `id="term-<slug>"` anchors
 → writes `manuscript/back-matter/glossary.html` (zero scaffolding).
+
+## Disposition closed 2026-06-10 — "Abundance Dimension" (deferred-verify 6)
+
+**RESOLVED — intentional drop, documented at source.** v3's own retired-section records:
+*"RETIRED 2026-04-24 as construct-label. The 10 are now framed as commons categories (examples
+not canonical) per Option C′ ratification + commons-as-structural-identity reframing. 'Abundance'
+preserved as state-name (abundant vs scarce — the state CIT inverts), not as the construct-label
+for the 10."* v4 omitting the entry entirely is the correct end-state (retired terms moved out of
+the reader-facing glossary per this ledger's design).
+
+**⚠ One flag for the author (NOT applied):** the TA's §6.2 is titled "The Seven Abundance
+Dimensions" (+ a table column "Abundance Dimension Stripped") — a DIFFERENT referent (the seven
+CIT inversion-walkthrough dimensions, not the retired ten-category construct-label), but it reuses
+the retired vocabulary. Author call whether §6.2 keeps the name (distinct local apparatus) or
+re-labels to avoid trading on a retired term. Routed to the next TA prose pass; no unilateral
+rename of publisher-facing headings.

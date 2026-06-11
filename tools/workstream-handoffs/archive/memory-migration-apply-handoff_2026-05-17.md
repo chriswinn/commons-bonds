@@ -1,7 +1,7 @@
 # Memory migration application — Handoff 2026-05-17
 
 **Status:** READY TO FIRE. All decisions ratified 2026-05-17 in the originating audit session (branch `claude/memory-consolidation-audit-0056b8`).
-**Origin:** Audit proposal at [`tools/memory-migration-proposal_2026-05-17.md`](../../memory-migration-proposal_2026-05-17.md) §7 ratification record.
+**Origin:** Audit proposal at [`tools/archive/memory-migration-proposal_2026-05-17.md`](../../archive/memory-migration-proposal_2026-05-17.md) §7 ratification record.
 **Branch:** `claude/memory-migration-apply-<harness-id>` from current `origin/main` per `tools/workstream-handoffs/README.md` branch discipline.
 **Merge discipline:** Pre-ratified change set per audit proposal §7 ratifications. Per CLAUDE.md merge-to-main default, this session is "similar work where the author has explicitly approved the change set ahead of the session" — qualifies for autonomous fast-forward merge to `main` at session close.
 
@@ -14,7 +14,7 @@ Apply the 14-file memory migration ratified per audit proposal §7. Single atomi
 ## Read in order
 
 1. This handoff.
-2. [`tools/memory-migration-proposal_2026-05-17.md`](../../memory-migration-proposal_2026-05-17.md) — §2 per-file table + §3 proposed CLAUDE.md block + §4 ARCHIVE log entry + §7 ratified decisions.
+2. [`tools/archive/memory-migration-proposal_2026-05-17.md`](../../archive/memory-migration-proposal_2026-05-17.md) — §2 per-file table + §3 proposed CLAUDE.md block + §4 ARCHIVE log entry + §7 ratified decisions.
 3. `CLAUDE.md` current state (target of step 5 edit).
 4. `~/.claude/projects/-Users-c17n-commons-bonds/memory/MEMORY.md` + each MIGRATE-verdict source file (per §2 table).
 
@@ -148,7 +148,7 @@ Use the §4 entry from the audit proposal verbatim. Single entry:
 
 ### 2026-05-17 — project_book1_state_2026-05-10.md
 
-[paste §4 first entry from tools/memory-migration-proposal_2026-05-17.md]
+[paste §4 first entry from tools/archive/memory-migration-proposal_2026-05-17.md]
 ```
 
 ### Step 5 — Edit `CLAUDE.md`
@@ -250,7 +250,7 @@ flag for multi-machine memory sync discipline (deferred WP amendment). KEEP-
 LOCAL file (grandfather) untouched per SENSITIVE flag.
 
 Pre-ratified change set per
-tools/memory-migration-proposal_2026-05-17.md §7. Autonomous fast-forward
+tools/archive/memory-migration-proposal_2026-05-17.md §7. Autonomous fast-forward
 merge to main per CLAUDE.md merge-to-main default.
 ```
 
@@ -280,4 +280,4 @@ When session closes, report:
 
 ---
 
-*Apply-session handoff — READY TO FIRE 2026-05-17. Originating audit + ratifications at [`tools/memory-migration-proposal_2026-05-17.md`](../../memory-migration-proposal_2026-05-17.md).*
+*Apply-session handoff — READY TO FIRE 2026-05-17. Originating audit + ratifications at [`tools/archive/memory-migration-proposal_2026-05-17.md`](../../archive/memory-migration-proposal_2026-05-17.md).*
