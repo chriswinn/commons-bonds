@@ -253,3 +253,42 @@ IPG framings) before its compare+promote; Ch 9 redraft-v1 vs 06-09 scope
 correction; Ch 3 FACT-CORRECTION application status; stale Ch 8 Stage-5
 sign-off; Sandy Darity HELD email (decommission candidate); `__Draft`
 suffixes Ch 1/2/5 (consent markers — verify tracker before Stage 5).
+
+---
+
+## 8. TA-collision audit results (06-10, workflow `wf_892a3672-269`)
+
+Author asked whether Ch 1/2/5 (recently promoted) escape the 06-08→06-10 TA
+changes (M3 Path-A; lens-explicit IPG retiring 33–122×/~50×/555×; §3.4
+M2=realized-Bond-reader merge; reverse-CSD/§5.5 three-states; scope
+correction; Norway irreversibility-reduction semantics; reef calibration).
+Nine-file collision audit (canonical Ch 1/2/5 + all six unpromoted redraft
+drafts; every checklist item verified by grep + full read, quoted with line
+numbers):
+
+| File | Verdict | Load-bearing findings |
+|---|---|---|
+| Ch 1 canonical | **CLEAN** | Zero TA numerals/method language; coercion beat = compliant first-person abstention ("the numbers are yours to enter" = invitation, not gatekeeping) |
+| Ch 2 canonical | **SPOT-FIX** (5 items) | Gary "1986/1,200 jobs" → "across the 1980s" (register: year unverifiable; adjacent 13%-income sentence rides along); "$44B" needs "through 2009 (GAO/CRS)" + $5.1B Sept-2024 debt; Ch3-handoff "renewable instead of finite... structure is the same" needs harvest-outpaces-restoration condition; ledger's open "Ch2 IPG framing" item verified ALREADY DEFUSED by the redraft → close it |
+| Ch 5 canonical | **TARGETED-CASCADE (light)** | Promoted 06-09, one day pre-framework-core: closing "Restitution and foreclosure" section (L174–196) states single-form CS = RCV − B and benchmarks the backward black-lung B₁ against RCV where merged §5.5 is bidirectional (backward face = CSD); L194 should cite §11.6's "mis-assigned, not absent" finding (strengthens the chapter). 3–4 clause edits in one section; figures all clean ($108T/$11T-Z.1/4.1M/AJPH all landed) |
+| Ch 3 draft v2 | **SPOT-FIX** | **GATE 2 ALREADY SATISFIED** — full Restitution-Bond reef section present (L152–182); floor "$20–37M" + MD ">$92M/~1,300 ac" match canonical; menhaden left unpriced first-person. Fixes: "toward two hundred million" → ~$211M; "$110M bay-wide" ×2 → ~$115M itemized (or keep ~$110M prose-rounding with the corroborator framing — author call); Tanya/Tonya O'Connor spelling vs consent tracker |
+| Ch 4 draft v1 | **TARGETED-CASCADE** | Chapter's Norway verdict runs through the DROPPED rent-capture mechanism (5 of 10 sections; "severed cost small BECAUSE bond large" + 3× "fund does nothing for foreclosure/option value" = inverse of canonical irreversibility-reduction — which STRENGTHENS the existence-proof thesis); RCV-gloss drift (L52 defines RCV as post-payment leftover = CS); fiscal-rule 2001@3% conflation; per-capita $360k→$390k; reef-bridge signpost must acknowledge Ch3's number once priced |
+| Ch 6 draft v1 | **WHOLE-CLOTH** (the only one) | The architecture IS the deleted claim: "three independent estimators converge" is the title conceit, the triangulation section, the 5-case table (M2 column as estimator), the anti-arbitrariness defense, and the closer — merged §3.4/§3.6 makes M2 the realized-Bond reader and convergence M1 ∩ M3 only. Plus retired 33–122×/~50× woven through (L18/197/199/277/373); old Dixit–Pindyck M3 $420–13,100/$2,500 (canonical $340–3,670/~$1,115); Norway backtest = rent-capture (canonical: α-reduction). Figures (coal/carbon/$44B) already canonical — the collision is the method spine, not numerals. Needs a rebuilt brief from the merged TA |
+| Ch 7 draft v1 | **TARGETED-CASCADE (light)** | 3 sentence-level scope-correction fixes ("a finite commons is being extracted" L193 = the load-bearing universality sentence; abundance-masking finiteness grounding L127–133; "restitution-bond logic" → "accountability-bond logic" L79) + verify Thm-10.3/S_max cross-refs against TA v2.0.0 |
+| Ch 8 draft v1 | **TARGETED-CASCADE (light)** | Bare 33–122× at L178 (named summary statistic) + L212 (global-extrapolation premise) → author lens choice among canonical lenses (in-file anchors exist); foreclosures "5M completed" → ~4.1M; $11T needs Fed Z.1 attribution. Everything else canonical (striking for an 06-06 draft) |
+| Ch 9 draft v1 | **SPOT-FIX** (3 sentences) | "repeats across every extraction the economy runs" → scope-corrected; Norway/Alaska SWF rent-capture bundling reword; $510 "on the conservative floor" vocab tighten |
+
+**Not audited: Ch 10 canonical** (no redraft exists; framework presence =
+six-patterns + mechanism vocabulary) — run the same checklist before
+assuming CLEAN. Canonical Ch 3/4/6/7/8/9 not separately audited
+(superseded on promote).
+
+**Plan deltas:** (1) The "whole-cloth Ch 3–4 + 6–10" assumption narrows to:
+ONE whole-cloth (Ch 6, rebuilt brief from the merged TA), THREE targeted
+(Ch 4, 7, 8 on their drafts; Ch 5 light on canonical), THREE spot-fix
+(Ch 3 draft, Ch 9 draft, Ch 2 canonical), Ch 1 untouched, Ch 10 pending
+audit. (2) Ch 3 draft v2 + spot-fixes → compare+promote is the GATE-2
+opener for the held TA §11.12 reef branch
+(`claude/ta-reef-11-12-260610-27edac`, MERGE-HOLD). (3) The 06-06 drafts
+were ledger-reconciled on figures; the residual collision load is
+concentrated in 06-10 method semantics — exactly where the audit looked.
