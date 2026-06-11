@@ -4,6 +4,8 @@
 
 **Disposition codes:** APPLIED (mechanical, skeptic-verified fix applied 2026-06-11) · PROPOSED (consolidation/content decision, awaiting author).
 
+**2026-06-11 update — ALL DISPOSITIONS CLOSED.** The 4 redundancy consolidations (#10, #11, #13, #14) were RATIFIED + APPLIED per the verified specs (one canonical home + cross-references; #14 single-site per the skeptic's load-bearing analysis). The two §15.2.2 content decisions resolved: (1) race-and-housing-economics scholarship — left out of the TA, recorded as a candidate beat for the Ch 5 pass (manuscript/ledgers/_CANDIDATE-BEATS-AND-DEVICES.md); (2) the 'load-bearing for Ch 9' claim re-pointed to Ch 5 (where first-mention + the bridge live). Nothing remains open from this sweep.
+
 ## 1. [MEDIUM] Civilizational Substitutability Gap (retired capitalized term) leads the Definition 1.9 body
 
 **Lines:** 703 · **Class:** retired-term

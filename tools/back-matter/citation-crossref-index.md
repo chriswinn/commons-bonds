@@ -5,7 +5,7 @@
 Method: for each unique bibliography entry, grep the author surname (or institutional acronym) as a whole word across the corpus — TA body (§18 bibliography excluded), 10 chapters, 9 essays, 2 op-eds. **Fuzzy by design:** common-word surnames (Black, House, Stern, Klein) over-match, so the index UNDER-reports orphans (the safe direction — it will not wrongly recommend pruning a still-cited work). An **ORPHAN?** flag means zero surface matched; verify by hand before pruning the entry.
 
 - entries cross-referenced: **207**
-- flagged ORPHAN? (zero matches — prune candidates, verify first): **41**
+- flagged ORPHAN? (zero matches — prune candidates, verify first): **40**
 - not cross-referenced (no clean author/acronym key — mostly data/agency sources cited inline by name): **74**
 
 ## Prune candidates (ORPHAN? — zero corpus matches; verify by hand)
@@ -42,7 +42,6 @@ Method: for each unique bibliography entry, grep the author surname (or institut
 - Schneider 1984 — Schneider, David M. *A Critique of the Study of Kinship.* University of Michigan Press, 1984. (Also: Carsten, 
 - Schröder 2008 — Schröder, Klaus-Peter, and Robert Connon Smith. "Distant future of the Sun and Earth revisited." *Monthly Noti
 - Sennett 1977 — Sennett, Richard. *The Fall of Public Man.* Knopf, 1977.
-- Sherfinski 2022 — Sherfinski, David. "As Sea Levels Rise, Can Chesapeake Bay's Tangier Island Survive?" *Thomson Reuters Foundat
 - Soja 2010 — Soja, Edward W. *Seeking Spatial Justice.* University of Minnesota Press, 2010.
 - Solomon 2009 — Solomon, Susan, Gian-Kasper Plattner, Reto Knutti, and Pierre Friedlingstein. "Irreversible Climate Change Due
 - Stacey 2011 — Stacey, Judith. *Unhitched: Love, Marriage, and Family Values from West Hollywood to Western China.* New York 
@@ -194,7 +193,7 @@ Method: for each unique bibliography entry, grep the author surname (or institut
 | Patel 2017 | `Patel` | 1 | TA |
 | Pearce 1993 | `Pearce` | 0 | — **← ORPHAN?** |
 | Pettit 1997 | `Pettit` | 5 | TA, Ch5, Ch6, essay:nyrb-multi-book-review, essay:public-books-accountability-gap |
-| Pigou 1920 | `Pigou` | 2 | TA, Ch6 |
+| Pigou 1920 | `Pigou` | 3 | TA, Ch2, Ch6 |
 | Piketty 2014 | `Piketty` | 1 | essay:nyrb-multi-book-review |
 | Piketty 2020 | `Piketty` | 1 | essay:nyrb-multi-book-review |
 | Pindyck 1978 | `Pindyck` | 2 | TA, Ch6 |
@@ -222,7 +221,7 @@ Method: for each unique bibliography entry, grep the author surname (or institut
 | Sen 1993 | `Sen` | 4 | TA, Ch6, Ch7, essay:nyrb-multi-book-review |
 | Sen 1999 | `Sen` | 4 | TA, Ch6, Ch7, essay:nyrb-multi-book-review |
 | Sennett 1977 | `Sennett` | 0 | — **← ORPHAN?** |
-| Sherfinski 2022 | `Sherfinski` | 0 | — **← ORPHAN?** |
+| Sherfinski 2022 | `Sherfinski` | 1 | Ch3 |
 | Skinner 1998 | `Skinner` | 5 | TA, Ch5, Ch6, essay:nyrb-multi-book-review, essay:public-books-accountability-gap |
 | Slade 2009 | `Slade` | 1 | TA |
 | Smith 2008 | `Smith` | 5 | Ch3, Ch9, essay:atlantic-ideas-pricing-honestly, essay:atlantic-main-chesapeake-watermen, essay:nyrb-multi-book-review |

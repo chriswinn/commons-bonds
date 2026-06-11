@@ -39,3 +39,11 @@ _**Framework-durability cluster** (Ch6 / Ch7 / Ch8 / TA below) — added 2026-06
 
 ## How this layer is worked
 Populated during the per-chapter + per-essay decision chats (the doctrine's decision phase) and via standalone brainstorming. A candidate runs IDEA → brainstorm options → whole-cloth DRAFT → assess how it lands → LOCK or DISCARD. Essays are useful low-stakes test beds for a book-wide device before it's committed.
+
+## Candidate beat (added 2026-06-11, from TA §15.2.2 correction): Ch 5 Foreclosure-Bond bridge — racial-extraction depth
+The TA formerly CLAIMED Ch 5's mortgage-foreclosure bridge "surfaces the race-and-housing-economics
+scholarship"; it does not (claim removed from the TA 2026-06-11). OPTION for the Ch 5 pass: one
+sentence deepening the 2008-foreclosure association into its racial-extraction dimension — Rothstein
+*The Color of Law* + Taylor *Race for Profit* are already in the unified bibliography — welding the
+bridge to the book's reparations thread (Darity & Mullen, B₁). Enrichment, not an obligation; the
+TA no longer promises it either way.

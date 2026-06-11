@@ -183,7 +183,7 @@ patterns:
       ratified: "2026-05-15"
     allowlist:
       - file: "manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html"
-        line: 2707
+        line: 2684
         rationale: "Legitimate temporal meaning in the CIT formal statement, not the bureaucratic tic"
 
   - id: regressed-declarative-three-negation-affirmation
@@ -280,7 +280,7 @@ patterns:
       commit: "(Phase C-γ for Ch 6; verify when applied)"
     allowlist:
       - file: "manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html"
-        line: 6815
+        line: 6761
         rationale: "Single TA use; the near-duplicate pattern targets chapter-side repetition"
 
   # ===========================================================
@@ -861,7 +861,7 @@ patterns:
         line: 1405
         rationale: "SUBSTANTIVE naming-history: rationale referencing the §5.1.2 note"
       - file: "manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html"
-        line: 7226
+        line: 7175
         rationale: "SUBSTANTIVE §15.2 rename-candidates list: quoted as a rejected candidate"
 
   - id: regressed-term-reversibility-default
