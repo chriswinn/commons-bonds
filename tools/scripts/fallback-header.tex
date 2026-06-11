@@ -36,3 +36,13 @@
 % approximately-equals (U+2248): EB Garamond Regular + Bold both lack the
 % glyph. Surfaced 2026-05-15 on Ch 5 + Ch 6 (commit d238f2c).
 \newunicodechar{≈}{{\fallbackfont≈}}
+
+% greater-than-or-equal (U+2265): EB Garamond 08 Regular/Italic lack the
+% glyph. Surfaced 2026-06-10 on the bidirectional use-case cheat-sheet
+% render (tofu before the $ in three bottom-line table cells).
+\newunicodechar{≥}{{\fallbackfont≥}}
+
+% rightwards arrow (U+2192): EB Garamond 08 Regular/Italic lack the glyph.
+% Surfaced 2026-06-10 on the same cheat-sheet render (glyph-gate --font
+% check vs EBGaramond08-Regular.otf; same family as the ≥ gap).
+\newunicodechar{→}{{\fallbackfont→}}
