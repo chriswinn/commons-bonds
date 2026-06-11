@@ -1,4 +1,9 @@
-# TA §9 / §10.2 convergence-framing correction — PROPOSED 2026-06-11 (v2, Option-B-corrected)
+# TA §9 / §10.2 convergence-framing correction — PROPOSED 2026-06-11 (v3 — unified-triple sunset; see §7)
+
+> **v3 supersedes v2's two-triples premise (2026-06-11, book-proposal-tier1 session; author-directed).** v2 treated the §9 model triple (DF/RO/RCV) and the §3 method triple (M1/M2/M3) as two different triples needing a naming-collision firewall. Author challenge + file verification settled it the other way: **they are one apparatus at two points in the framework's history.** Evidence: (1) the calculation engine (`calculations/csd_rcv_calculations.py`, 21/21) computes M1/M2/M3 only — no Real-Options computation exists anywhere; (2) §9.1/§9.3's "Real Options calibrates volatility from market data" contradicts the ratified 2026-06-08 M3 Path-A rework (Arrow–Fisher/Henry quasi-option; β retired; Dixit–Pindyck reading disclaimed); (3) §9.3's "Avoided Externalities" term consumed the same SCC the Damage Function priced — the old triple shared the carbon input across **all three** columns on fossil cases; (4) §11.2's "RCV model estimate ~17–18×" reproduces as the damage lens + $8–12B ongoing — the same computation, not a second model — making "all three models agree within a factor of 1.5" a biased-to-converge exhibit; (5) the §9.5 RO column (45–89× / 12–21× / 57–93×) and Libby/Deepwater RCV-column figures (72–111× / 17–18×-as-model) have **no recoverable derivation** in the corpus. Disposition: **S-full sunset** (author-ratified direction 2026-06-11): §9 rewritten in the unified architecture; §9.5 table recomputed and reshaped (engine extension `calculations/sec9_recompute_2026-06-11.py`, 24/24, 0 mismatches); v2's §4 drafted prose is superseded where it presents DF/RO/RCV as three live approaches. Full v3 edit set + settled numbers: **§7 below**.
+
+*(v2 header preserved below for the record:)*
+(v2, Option-B-corrected)
 
 **Status:** PROPOSED (author ratification required — end-user-facing TA prose; NOT auto-applied)
 **Target file:** `manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html`
@@ -112,3 +117,58 @@ HTML entities shown as in-file. These are the **Tier 1** core edits (see §5 for
 6. Merge-on-ratification per CLAUDE.md (end-user-facing TA prose).
 
 **Until ratified, no change is applied to the TA HTML. This file is the proposal only.**
+
+---
+
+## 7. v3 (2026-06-11) — unified-triple sunset: settled numbers + S-full edit set
+
+**Verification engine:** `calculations/sec9_recompute_2026-06-11.py` — 24 checked values, 0 mismatches; main engine baseline re-run, 21/21 intact. Every figure below is engine-reproduced from sourced/labeled inputs already in the TA, or explicitly marked retired-no-basis.
+
+### 7.1 The settled §9.5 replacement table
+
+| Case | Method 1 / damage lens (IPG) | Method 3 / premium lens (IPG; price-independent multiple) | RCV-integral lens (IPG) | Realized bond (M2 reading: who paid) |
+|---|---|---|---|---|
+| McDowell coal | **107–110×** ($504–518 4-component floor ÷ $4.71) | **8.5–26×** (center ~15×) | **61–115×** ($525–540 adopted calibration, across $8.66/$4.71 bases) | $50–88/ton societal vs $8–15/ton industry → **CS ≈ $1,025–1,065/ton** |
+| Deepwater Horizon | **~15–16×** documented ($61.6B ÷ ~$4B derived gain; 13–19× across the 40–60M-bbl reserve band); **~17–18×** with the $8–12B ongoing added — *same lens extended, not a second model* | **2.4–5.1×** (oil-class register per §11.5; class-level, not case-derived) | not computable on documented inputs | **$61.6B industry-paid** (litigation-forced) — largest realized industry-paid B₁ in the corpus; CSD − B₁ ≈ $8–12B |
+| Libby vermiculite | **≈26×** documented-cash floor ($2.6B ÷ ~$100M; ≈13× if true revenue were 2×); **65–102×** mortality-inclusive (694 deaths × EPA VSL $7.4–11.0M; vintage-labeled) | n/a — extraction ended 1990; forward foreclosure ≈ 0 | not computable on documented inputs | ~$600M Superfund (public) + ~$250M settlements (industry) ≈ 70/30 |
+| Baotou rare earths | not computable — remediation-only floor $5–15B (§11.4) | high-ς REE register, ongoing (§11.8); level not case-computable | not computable | ≈ $0 identified |
+
+**No "Convergence ✓" column.** The honest cross-check claims: (a) McDowell is the single case where every forward lens computes, and its lenses legitimately span an order of magnitude (8.5–26× premium vs 107–110× damage floor) because they measure different quantities; (b) no computed lens in any case returns IPG ≤ 1 — direction never flips; (c) Deepwater + Libby are backward-dominant (per the Part-7 bidirectional portfolio): the live quantities are realized damages and who paid; (d) the realized-bond column is the accountability story (industry-paid / 70-30 split / all-public / absent).
+
+**Retired figures (add to `tools/quality-gates/regressed-patterns.yaml`):** McDowell RO "45–89×"; Deepwater RO "12–21×"; Libby RO "57–93×"; Libby RCV-col "72–111×"; Deepwater "RCV model estimate" label on 17–18×; "All three models agree within a factor of 1.5"; "Three-Model Convergence" (post-apply); "across six tested cases" / "across the six forward cases" (scope overclaim).
+
+### 7.2 v3 TA edit set (supersedes v2 §4 where they conflict)
+
+| # | Site | Edit |
+|---|---|---|
+| E1 | §9 title (3191) + TOC (237, 240) | Retitle away from "Three-Model Convergence Framework" — author voice options in §7.3. TOC description → "Estimator architecture (M1 damage audit + M3 foreclosure premium); the RCV integral; per-case cross-check table; the realized-bond (M2) reading." |
+| E2 | §9.1 body (3198–3213) | Replace with the unified-architecture overview + the two-paragraph sunset note (history kept because the correction is instructive: DF = M1's earlier name; RO = pre-rework M3, market-volatility calibration superseded by Path-A, avoided-externalities term double-counted SCC; convergence demoted — "three estimates that always agree is a tell that inputs have been tuned to agree"; direction-never-flips is the claim; shared-SCC caveat (M1-carbon + integral share SCC; M3 contains no SCC and its multiple is price-basis-independent); divergence informative per §3.6; M2 outside the estimator set — RCV ≥ B̂_M2, same observable cannot be estimate and subtrahend). |
+| E3 | §9.2 (3215–3228) | Retitle "Method 1: The Damage-Function Audit (bottom-up)"; body stands (floor framing + CIT complement already correct); add "(= Method 1, §3.3)" linkage. |
+| E4 | §9.3 (3230–3246) | Retitle "From Real Options to Method 3: the Superseded Calibration"; body → short historical note (intuition survives in M3; volatility calibration + worked-example retired; SCC double-count named; cross-ref §3.5; Brennan & Schwartz kept as lineage). Structural-overlap defense paragraph (3245) deleted — it defends the retired calibration. |
+| E5 | §9.4 (3248–3252) | Keep; "The Damage Function and Real Options can capture this cost only approximately" → "Methods 1 and 3 capture this cost only approximately"; add adopted-calibration cross-ref ($525–540; 61–115×; §11.1 note). |
+| E6 | §9.5 (3254–3399) | Retitle "Per-Case Cross-Check Table"; replace table with §7.1; replace narrative paragraph (3398) with §7.1's claims (a)–(d). Discharges audit B6 fully (no ordering narrative remains). |
+| E7 | §9.6 (3401–3408) | Retitle "The Realized-Bond Reading (Method 2) as Back-Check"; body: what this section called "implicit social pricing" is the §3.4 M2 reading — strict lower bound, not a fourth estimator; selection-bias caveat stands; consistency with the M1 floors says the estimators are not overestimating by orders of magnitude. |
+| E8 | §10.2 census (3546) | v2 §4 draft, amended: full three-lens cross-check computes **only for McDowell**; Deepwater + Libby on the damage lens + realized-bond decomposition; Baotou floor-only; thought-experiments = boundary calibration; reef = backward calibration; shared-SCC + tuned-to-agree epistemics sentences retained from v2 draft. |
+| E9 | §10.2 independence paragraph (3552) | "Real Options from market volatility data" → unified inputs (M1: litigation/epidemiology/remediation; M3: R/P scarcity + irreversibility record; integral: materials-science substitutability); Hong & Page + Mosteller & Tukey kept, re-scoped to the non-overlapping inputs under partial independence. |
+| E10 | Empirical Observation 10.2 name (248 + in-section + any name-cites) | Rename away from "(Cross-Model Convergence)" — options in §7.3; grep all name-cites at apply. |
+| E11 | §11.2 (4078–4085) | Relabel "RCV model estimate: ~17–18×" → "Damage-function lens, extended (adding the $8–12B ongoing): ~17–18× — the same lens with ongoing costs added, not an independent model." Replace "Convergence: ✓ All three models agree within a factor of 1.5." → realized-bond statement (industry-paid B₁ $61.6B; CSD − B₁ ≈ $8–12B; oil-class premium register 2.4–5.1×; no case integral). |
+| E12 | §11.3 IPG line (4119) | → "≈26× on the documented-cash floor (≈13× if true revenue were twice the industry estimate); ≈65–102× mortality-inclusive (Damage Function; VSL vintage dominates: 2006$ → 65–77×, updated → 78–102×)." RO/RCV figures removed (no surviving derivation); headline aligned to its own sub-bands (65–102×). |
+| E13 | Gate hardening | Add §7.1 retired patterns to regressed-patterns.yaml. |
+| E14 | Exit gates | `check-corpus-invariants.sh --scope TA --severity HIGH` → 0; both calc scripts → 0 FAIL; glyph check on edited paragraphs; re-grep old heading text after retitles. |
+
+### 7.3 Title options (author voice call — pick at ratification)
+
+- **§9:** (a) "The Cross-Check Architecture" *(recommended)*; (b) "Cross-Checking the Estimate: Lenses and the Realized Bond"; (c) author phrasing.
+- **Empirical Observation 10.2:** (a) "Cross-Lens Consistency" *(recommended)*; (b) "Direction Invariance"; (c) "Cross-Model Consistency".
+
+### 7.4 Book-proposal side (Work Item B, unified architecture — final wording)
+
+- **§00 argument clause:** "that what restoration requires can be estimated two independent ways — from the documented damage record, and from the foreclosure premium on the options extraction closes — and read against the bonds actually posted; that the gap between the needed and the paid is large enough, across enough domains, to constitute a material claim about how the economy actually works"
+- **§00 Chapter-6 sentence:** "The book argues, and Chapter 6 demonstrates — estimating what restoration requires two independent ways and reading what has actually been paid off the record — that the gap between what extraction has cost and what has been paid runs an order of magnitude or more above the figures normally cited."
+- **§00 paragraph close:** end at "Direction never flips across the lenses." (the convergence-celebration sentence deletes).
+- **§05 Ch 6 block:** redraft on the same architecture (estimators + integral + realized bond; McDowell lens-explicit; no convergence celebration) — PROPOSED on the session branch.
+- **Ch 6 chapter rebuild:** the settled §7.1 numbers + this architecture hand off to the dashboard/plan session that owns the Ch 6 drafting agents (handoff artifact follows ratification).
+
+### 7.5 Downstream cascade (flag, not this session's scope unless routed)
+
+Ch 6 chapter title "Three Ways of Counting" can survive at reader level only if the chapter's triad becomes (two estimates of what restoration requires) + (the record of what was paid) — a Ch-6-rebuild-brief decision, routed to the dashboard session with the numbers handoff.
