@@ -124,7 +124,7 @@ empty slot; it says nothing about *why* it is empty or who should fill it.
    author's (or the framework's) to assert.
 2. **Gut the framework's usefulness** exactly where it matters most — a user with standing trying to
    price an irreplaceable harm would get a divide-by-zero "give up" instead of a usable high-magnitude slot.
-3. **Contradict the framework's own math** — Theorem 10.5 (Substitution Dominance), §13, and §14.6
+3. **Contradict the framework's own math** — Empirical Observation 10.5 (Substitution Dominance), §13, and §14.6
    already *price* low-substitutability resources, and price them *high*. Divergence as S_max → 0 means
    **"this cost dominates,"** not "this cannot be priced."
 

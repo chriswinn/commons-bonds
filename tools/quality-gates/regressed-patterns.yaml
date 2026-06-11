@@ -861,8 +861,8 @@ patterns:
         line: 1428
         rationale: "SUBSTANTIVE naming-history: rationale referencing the §5.1.2 note (re-pinned 2026-06-11 after §3.6 reef-row +23-line shift)"
       - file: "manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html"
-        line: 7412
-        rationale: "SUBSTANTIVE §15.2 rename-candidates list: quoted as a rejected candidate (re-pinned 2026-06-11 after §3.6 reef-row + §11.12 reef-block +237-line shift)"
+        line: 7418
+        rationale: "SUBSTANTIVE §15.2 rename-candidates list: quoted as a rejected candidate (re-pinned 2026-06-11 after §3.6 reef-row + §11.12 reef-block +237-line shift; +6 more after the 10.5 Categorization-note insertion)"
 
   - id: regressed-term-reversibility-default
     pattern: 'Reversibility Default'

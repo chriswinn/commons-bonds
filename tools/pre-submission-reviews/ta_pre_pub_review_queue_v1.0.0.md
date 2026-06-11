@@ -55,8 +55,8 @@ Per TA Pass 1 math/proof audit (PROPOSED `ab9fa22` 2026-05-13; Amendment 2026-05
   - Empirical Observation 10.2 (Cross-Model Convergence) — correctly self-categorized as observation rather than theorem.
   - Theorem 10.3 (Abundance Masking) — proof valid; F-8 statement-vs-proof bridge APPLIED.
   - Theorem 10.4 (RCV Integral Convergence; SC1 + SC2 + knife-edge corollary) — F-10 LDC simplification APPLIED; F-18 knife-edge corollary hypothesis-strengthening APPLIED (commit `0f62704`).
-  - Theorem 10.5 (Substitution Dominance) — F-2 P1 RCV-vs-CS equivocation cleanup APPLIED per Track 2 commit `0af3ff1`.
-  - Corollary 10.5.1 (Optimal Extraction Sequencing) — follows from Theorem 10.5 post-F-2 cleanup.
+  - Empirical Observation 10.5 (Substitution Dominance) — F-2 P1 RCV-vs-CS equivocation cleanup APPLIED per Track 2 commit `0af3ff1`.
+  - Corollary 10.5.1 (Optimal Extraction Sequencing) — follows from Empirical Observation 10.5 post-F-2 cleanup.
 - **Numerical-example verification** per Pass 1 §5:
   - §11.5 Norway Method 3 mid-range ($281/BOE), low ($72), high ($1,016) — arithmetic verified.
   - §11.6 McDowell Method 3 mid-range ($2,580/ton) — arithmetic verified.
@@ -64,7 +64,7 @@ Per TA Pass 1 math/proof audit (PROPOSED `ab9fa22` 2026-05-13; Amendment 2026-05
   - §11.5 Norway cumulative emissions — F-7 oil-vs-gas factor APPLIED (Path A units correction; 50/50 working assumption for cumulative split).
 - **Derivation-chain integrity** verified by author + Pass 1 + verification round + Stage 4 formula-integrity audit:
   - All theorem statements + proofs verified valid as derived.
-  - Theorem 10.5 substitution-dominance algebra cleaned per F-2.
+  - Empirical Observation 10.5 substitution-dominance algebra cleaned per F-2.
   - §16.3 Spatial Cost Severance formula restated per F-19 (now uses consumption-region letter K with R-2 ratification).
 
 ### §1.3 Cross-artifact coherence
