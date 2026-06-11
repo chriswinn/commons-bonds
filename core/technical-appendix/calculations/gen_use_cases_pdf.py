@@ -8,7 +8,7 @@ v3 format (2026-06-10, author feedback):
     M1 and M3 are never subtracted from each other.
   * Appraisers/receipts analogy on page 1.
   * Step "2v": the hedonic/VSL revealed-VALUATION estimator (Rosen 1974;
-    Viscusi 1993) demonstrated on a worked offshore-rig case (case 12),
+    Viscusi 1993) demonstrated on a worked offshore-rig case (case 11),
     with the why-it-is-useful box.
 
 Companion to csd_rcv_calculations.py — computed numbers trace to its verified
@@ -86,7 +86,7 @@ A(Preformatted("""
               their divergence is a diagnostic (which feature one appraiser cannot see).
   Step 2v  (where a behavioral observable exists) VALUATION ESTIMATOR from the cost-bearer's
            own behavior — hedonic / value-of-statistical-life (Rosen 1974; Viscusi 1993):
-              VSL = delta-wage / delta-risk     (a third appraiser; see case 12)
+              VSL = delta-wage / delta-risk     (a third appraiser; see case 11)
   Step 3   VALUE = the appraisals' overlap      forward: RCV   |   reverse: CSD
            (one appraiser only, or M3 Open  ->  VALUE = that appraisal, a LOWER BOUND)
   Step 4   M2 = READ THE RECEIPTS — the bond actually posted; never a third appraiser:
@@ -179,7 +179,7 @@ Step 5  GAP >= 1.35B - 0.85B = $0.5B+ on components alone; ratio check 1.35B/$10
      "shortfall is visible. IPG triplet (55-82x/48-76x/61-91x): no work shown — queued [verify]"),
     ("FORWARD", """
 Steps 1-5 ~ Zero (mine closed 1990; no forward instrument needed)""", None)],
-    "Epistemic-commons case: 27-year concealment held B ~ 0 while costs accrued. See case 12's "
+    "Epistemic-commons case: 27-year concealment held B ~ 0 while costs accrued. See case 11's "
     "asymmetry-measurement note — concealment also suppressed the workers' wage premium.")
 
 case("5. Baotou rare earths (both directions live and large simultaneously)", [
