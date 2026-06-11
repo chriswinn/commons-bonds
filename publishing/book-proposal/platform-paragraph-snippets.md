@@ -23,16 +23,20 @@
 
 ## Wave 1 essays — current pipeline (per cascade-plan v2 §2)
 
-### Boston Review — Ch 5-adjacent essay (SUBMITTED 2026-06-03; under consideration as of [SESSION DATE])
+### Boston Review — Ch 5-adjacent essay — ⛔ REJECTED 2026-06-03; DO NOT CITE
+
+**State change (2026-06-10 update):** Boston Review declined 2026-06-03; the essay is cascading to **Public Books** (cover letter in flight per STATE.md). Never cite a rejected submission in any platform paragraph. Use the Public Books section below once that submission fires.
+
+### Public Books — Ch 5-adjacent essay (cascade from Boston Review; cover letter in flight as of 2026-06-10)
 
 **(a) Under consideration:**
-> ...His essay on the accountability gap in extraction economies is currently under consideration at *Boston Review* (submitted June 2026).
+> ...His essay on the accountability gap in extraction economies is currently under consideration at *Public Books*.
 
 **(b) Forthcoming:**
-> ...His essay "[TITLE]" is forthcoming in *Boston Review* ([MONTH YYYY]).
+> ...His essay "[TITLE]" is forthcoming in *Public Books* ([MONTH YYYY]).
 
 **(c) Published:**
-> ...His essay "[TITLE]" appeared in *Boston Review* in [MONTH YYYY]: [BYLINE-URL].
+> ...His essay "[TITLE]" appeared in *Public Books* in [MONTH YYYY]: [BYLINE-URL].
 
 ### Phenomenal World — $100 Barrel / Ch 9-adjacent essay (SUBMITTED 2026-06-03)
 
@@ -187,3 +191,4 @@ If a Wave fires while a soft-clip claim sits beyond the venue's published respon
 ## Update log
 
 - **2026-06-09.** File created during book-proposal-sprint session per chip §02 spec. Initial snippets seeded for Wave 1 essays (Boston Review submitted; Phenomenal World submitted; Aeon / Noema / Atlantic Ideas per submission sprint), Berggruen parallel track, op-ed pipeline, and Wave 2 derivative essays. Anchored from `03_author-platform.md` via `PLATFORM-PARAGRAPH-UPDATE-ANCHOR` comment.
+- **2026-06-10.** Boston Review marked REJECTED 2026-06-03 / do-not-cite (state per STATE.md); Public Books cascade section added. §00's platform line updated in the same commit (the "editor-review across Boston Review and Phenomenal World" claim was stale).

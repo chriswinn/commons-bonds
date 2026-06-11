@@ -107,6 +107,7 @@ agent Wave 1 (~Jun 24–Jul 1).
 | 7 | Ch 4 decisions: D9 oyster-bridge; A0d macro-chapter depth; B-3 Valdez — **verify still-open against the 06-06 Ch 4 redraft draft before deciding** | May be absorbed by redraft | 🟡 with Ch 4 compare |
 | 8 | Ratify smoothing/Pass 3.6 design (§4.2) — now scoped to post-promotion residue only | Cheaper than v1 framing | 🟡 after promotions |
 | 9 | Atlantic Ideas closer fix (flag §A): drop final sentence vs first-person rewrite | First-person-abstention discipline | 🟡 before submit |
+| 10 | **Candidate 8 (rent-capture necessary-but-not-sufficient, Ch 4 + Ch 9)** — ratify into the Ch 4/Ch 9 redraft briefs at assembly | Logged PROPOSED+RECOMMENDED 06-10 per author direction; `book-amendment-candidates.md` #8 + action-list A6b | 🟡 with Ch 4 / Ch 9 compare+promote |
 
 ---
 
@@ -117,12 +118,12 @@ agent Wave 1 (~Jun 24–Jul 1).
 | 1 | The Quiet Math | 6,204 | 1 | **Redrafted + PROMOTED 06-05**; author redlines 06-09 (Tubman "shape", Underground Railroad) | Fable bake-off verdict; light 3.3 re-fire; Stage 4/5 at gate; Wave-1 sample |
 | 2 | The Miner | 6,486 | 1 | **Redrafted + PROMOTED 06-05** | Fable bake-off verdict; consent-status check (`__Draft`); Stage 4/5 |
 | 3 | The Waterman | 10,580 | 12 | **NOT redrafted** — canonical = 05-25/26 rigor lineage; v1/v2 drafts (06-05) unpromoted; father/boardwalk FACT-CORRECTION (06-08) application status UNVERIFIED | Compare+promote (v2 + Fable candidates); verify FACT-CORRECTION applied |
-| 4 | The Existence Proof | 4,168 | 58 | v1 redraft (06-06) awaiting compare | Compare+promote; D9/A0d/B-3 decisions ride compare |
+| 4 | The Existence Proof | 4,168 | 58 | v1 redraft (06-06) awaiting compare | Compare+promote; D9/A0d/B-3 decisions ride compare; **Candidate-8 rent-capture refinement (necessary-not-sufficient; Nigeria sharpening) rides the brief** |
 | 5 | The Accountability Gap | 13,369 | 0 | **Redrafted + PROMOTED 06-09** (Polanyi/Fraser/Sandel in; $108T out; Butler + abstention fixes in) | Light 3.3 re-fire + Stage 1c-light vs reverse-CSD merge (see note); Stage 4/5; Wave-1 sample |
 | 6 | Three Ways of Counting | 13,425 | 193 | v1 redraft (06-06) awaiting compare | **Most exposed to 06-10 framework-core merge**: M2 description (~line 141 "approximately fifty dollars"; §3.4 reader change), bidirectional triangulation passage (line ~145), IPG framings (lines ~185–191) — sweep + coherence check BEFORE compare+promote |
 | 7 | On Other Worlds | 9,264 | 114 | v1 redraft (06-06) awaiting compare | Compare+promote; coal-figure line rides sweep |
 | 8 | What Things Actually Cost | 6,495 | 51 | v1 redraft (06-06) awaiting compare | Compare+promote (supersedes v1's "spot-fix vs redraft" framing — a draft already exists); $496/$510/$524 reconciliation rides sweep |
-| 9 | Pricing Honestly | 11,307 | 145 | v1 redraft (06-06, 4,862w) awaiting compare; **pre-dates 06-09 scope correction** | Re-check v1 vs corrected cost-severance framing → compare+promote |
+| 9 | Pricing Honestly | 11,307 | 145 | v1 redraft (06-06, 4,862w) awaiting compare; **pre-dates 06-09 scope correction** | Re-check v1 vs corrected cost-severance framing → compare+promote; **Candidate-8 rent-capture refinement rides the brief (Hotelling Identity ¶ + sovereign-wealth prescriptions)** |
 | 10 | Common Bonds | 5,384 | 0 | No redraft needed (register model) | ~510w SAFE trims + line-94 fix; Stage 4/5 |
 | TA | Technical Appendix | — | — | **Closeout MERGED 06-09 + framework-core/reverse-CSD MERGED 06-10**; calc engine 21/21; glyphs verified tofu-free 06-10 | Stage-4 PDF render audit before external circulation; deferred apparatus items parked post-Wave-1 |
 
