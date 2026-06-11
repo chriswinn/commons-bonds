@@ -231,6 +231,8 @@ without an explicit author-ratified book-amendment session.
 
 ## Candidate 8 — Rent capture: state the necessary-but-not-sufficient refinement explicitly (Ch 4 / Ch 9)
 
+- **STATUS: RATIFIED 2026-06-11 (author).** Fold into the Ch 4 + Ch 9 redo compare fold-in lists (judges in flight 06-11); the necessary-but-not-sufficient refinement is stated doctrine: rent capture is necessary (the B-instrument exists and posts) but not sufficient (CS-reduction is the α-mechanism, irreversibility-reduction; the rent-flows quantity lives in the M2 realized-bond reading B̂_M2).
+
 - **Surfaced:** 2026-06-10, author pushback in the book-proposal-sprint session on the
   2026-06-09 closeout's retirement of the Norway rent-capture framing ("That seems like a
   natural thing that we should at least mention/acknowledge/address in this book"), reconciled

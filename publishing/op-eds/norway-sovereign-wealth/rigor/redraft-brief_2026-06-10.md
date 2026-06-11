@@ -132,3 +132,47 @@ Carry-forwards that earned their place in prior rigor passes (preserve unless th
 - Verified by count: current V-D' body ~1,014w (excl. header + bio), 3 em-dashes, 0 en-dashes.
 - Verified against TA v2.0.0 (current HTML): $48/BOE M2 derivation (GPFG $2.0T at ~75% → $2.67T ÷ 55B BOE); α 0.50–0.75; M3 $96–610/$281 central, M3-IPG 2.4–5.1x; per-citizen $356k–391k; NOK 21,268bn anchor; RCV-integral lens 61–115x (4 occurrences; no 67–134x in TA text).
 - Ch 4 verified: current framework section (lines ~40–56) still rent-capture-era; STATE.md (06-10) confirms Ch 4 TARGETED redraft pending (5/10 sections, Norway rent-capture → α-reduction re-derivation).
+
+---
+
+## ADDENDUM 2026-06-11 - author directive (lit-positioning primacy)
+
+**Status:** author-ratified 2026-06-11; appended without altering the sections above. Where this addendum and the 2026-06-10 body disagree, the addendum governs. Sources for the named-works table: §4 above; `manuscript/chapters/_BookLevelGuidance.md` (§2 villain-who-isn't-a-villain; §8 within-chapter comparative cases); per-venue rigor history at `_archive/parallel-drafts_2026-05-28/norway-op-ed_VERSION-D_INDEPENDENT-AUDIT_2026-05-28.md` (Pass 3.3/3.4 audience + adversarial verdicts on the literature-anchoring diffs).
+
+### A1. Literature positioning is the PRIMARY success criterion
+
+**Author directive (ratified 2026-06-11):** the piece must illustrate how the book supports, contradicts, and adds to the adjacent literature, with named works/authors. Beat-capture is secondary. §4 above is hereby upgraded from drafting guidance to the piece's primary acceptance test: a redraft that lands every §3 beat but reads positioning-free FAILS; a redraft that compresses or reorders §3 beats so the positioning lands SUCCEEDS.
+
+Named works this piece must position against, with the relation each carries:
+
+| # | Work / author | Relation | How it must show in the prose |
+|---|---|---|---|
+| 1 | **Sachs & Warner 1995**, *Natural Resource Abundance and Economic Growth* (NBER WP 5398) | **Supports (as the formulation), then extends** | Cite as the resource-curse formulation the piece argues WITH (§3 beat 8). The extension is built into the citation pair: naming the 1995 formulation alongside its refinement signals the author knows the unconditional curse result did not survive. Compressed author-year form per FT house style (the 2026-05-28 audit verified this lands at T1.1/T2.3 ✓✓✓ and flagged that full-citation density drifts toward PS-academic register). |
+| 2 | **Mehlum, Moene & Torvik 2006** (*Economic Journal* 116(508)) | **Supports + extends** | Supports: outcomes are conditional on institutions, which IS the piece's nut-graf claim, and it engages the Nordic-skeptic objection at literature level (audit thread A2). Extends (the book's novel contribution, §5 reframe): even the best institutional outcome banked only a fraction of full value; what strong institutions deepest-bought is reversibility, the compounding capacity to repair and substitute, not the rent share. The reframe beat (§3 beat 5) is where this extension must land in plain language. |
+| 3 | **Acemoglu & Robinson**, *Why Nations Fail* | **Contradicts (the fatalist path-dependence reading)** | The 2026-05-28 audit's A2 supply-side adversarial thread predicted this counter: institutions are deeply path-dependent, so "be like Norway" is non-replicable comfort. The piece's contradiction is concrete and dated: the 1971 ten-oil-commandments doctrine PRECEDED commercial production; the named-PM lineage (including the Conservative-led 2017 TIGHTENING, OC-5) shows the discipline held across coalitions, not because of one founding culture. Call graf: write the defenses into law before extraction begins; the architecture is engineerable. |
+| 4 | **Matthew Desmond**, *Evicted* | **Extends (register-level: structural-not-villain)** | Per `_BookLevelGuidance.md` §2, the *Evicted* model (no easy villains; the problem is a missing instrument, not bad people) is what keeps the piece readable across political lines, the venue's requirement. The piece extends that discipline to petro-states: Nigeria/Venezuela rendered as international revenue-flow architecture failure (§3 beat 6), never national character flaw. |
+| 5 | **Kate Raworth**, *Doughnut Economics* | **Parallels + extends (metric-critique move)** | Per `_BookLevelGuidance.md` §2, Raworth indicts the discipline's framing assumptions, not individual economists. The piece's reframe beat performs the same move on the Norway-model telling: the standard success metric (share of rent captured) measures the wrong thing; the barrel is still gone, the carbon still in the sky. What the fund bought is reversibility. That is the piece's addition to every "be like Norway" op-ed already published, including this op-ed's own prior V-D' framing. |
+| 6 | The conventional **"be like Norway" SWF-governance telling** (rent capture + Dutch-disease avoidance + fiscal rule) | **Contradicts / corrects** | Stated honestly and corrected: Norway did not "solve" resource wealth (retired framing, §7); the complacent reading is the piece's named target. Alaska stays a different, defensible dividend architecture, not a failure (the implicit correction of dividend-now populism, §4). |
+
+Boundary preserved: Public Choice / Austrian objections to state rent capture remain OUT of scope at op-ed scale (chapter-level engagement per the 2026-05-28 robustness audit; §4 above). Lit-positioning primacy does not mean engaging every adjacent literature; it means the six relations above must be FELT in the prose. All §7 bans hold: zero framework apparatus, so the positioning is carried in plain institutional-design language and named external works only.
+
+### A2. Anti-flatness
+
+**Author directive:** drafts must carry felt pressure. Concrete stakes; first-person investment where substrate licenses it. Affect-neutral competence is a failure mode. For this piece specifically:
+
+- Op-ed register licenses the bylined first person; use it where the substrate licenses it (author's stance toward what the frontier list is about to repeat is substrate-safe; NO invented biography, scenes, or encounters per §6.6, hard rule).
+- Substrate-safe pressure sources already in the brief: Ekofisk three days before Christmas with a nation of fewer than 4 million about to decide; the Ogoniland numbers (UNEP 2011: on the order of $1B just to BEGIN, 25 to 30 years, a fraction of the affected region); the frontier list (Greenland, Guyana, lithium triangle, deep-sea Pacific) as places where this exact decision is being made NOW, not as ornament; the reframe beat's loss ledger (the barrel gone, the carbon in the sky, the take a fraction of the worth).
+- Pressure comes from stakes and stance, not added rhetorical constructions: the §6 prose rules still bind (zero em/en dashes; at most ONE antithesis construction, OC-4; "the pattern targets vulnerability the way a market targets demand" as the single rhetorical peak, OC-3; some paragraphs simply end).
+
+### A3. Drafting greenlight (standing ratification)
+
+**Author directive:** drafting is GREENLIT the moment a brief is ready (standing ratification); author gates remain at promotion + submission. Applied here:
+
+- Sequence gate 1 above ("author ratification of this brief" before Stage 2 fires) is **SATISFIED by this standing ratification**. The Stage 2 redraft fires now, against TA canon, per OC-6's recommendation (the Ch 4 soft gate's Stage 1c-light re-check obligation after Ch 4 promotion is unchanged).
+- Open calls OC-1 through OC-5: the drafter proceeds on each stated recommendation as the default (qualitative-only captured-share; author picks OC-2 pairing at promotion, drafter defaults to the peak-anchored pairing for internal consistency; keep the iconic line; keep the nut-graf antithesis; name Solberg in one clause). Author may override any of these at promotion.
+- Gates that REMAIN author-controlled: **promotion** of the redraft over the current V-D' canonical `../op-ed.md`, and **submission/activation** (news-peg gate unchanged; lede swap + cover letter on trigger).
+
+### A4. Binding parameters restated
+
+- **α-reduction reframe per §5: the rent-capture framing is retired.** The reframe beat (§3 beat 5) is load-bearing. The 70 to 80 percent fiscal-capture fact survives as an input, never as the achievement; no sentence may equate fiscal capture with having priced the resource.
+- **The 750–900 word body band is HARD** (excluding bio line). Not a target with tolerance: over 900 or under 750 fails the brief. "Substance drives length" (§6.8) operates WITHIN the band, and lit-positioning primacy does not license band overrun; compress §3 beats before compressing the A1 positioning relations.

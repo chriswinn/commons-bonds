@@ -503,3 +503,102 @@ a-villain; the structural-not-partisan reach) and the chapter's seam map.
 from this brief after author ratification + GATE-1 (ch2-assembled fact-ground
 re-verification). Stage 3 five-pass cascade per the inherited §13 protocol; light
 re-verify of §2 against the assembled chapter at Pass 3.1.*
+
+---
+
+## ADDENDUM 2026-06-11 - author directive (lit-positioning primacy)
+
+**Status: author directive RATIFIED 2026-06-11.** Appended without alteration to
+the sections above. Where this addendum reorders emphasis relative to §3/§4, the
+addendum governs; nothing here relaxes §2 (fact ground), §6 (prose rules), or §7
+(bans).
+
+**Directive (verbatim, ratified 2026-06-11):** (1) Literature positioning is the
+PRIMARY success criterion - the piece must illustrate how the book supports,
+contradicts, and adds to the adjacent literature, with named works/authors;
+beat-capture is secondary. (2) Anti-flatness: drafts must carry felt pressure -
+concrete stakes, first-person investment where substrate licenses it;
+affect-neutral competence is a failure mode. (3) Drafting is GREENLIT the moment
+a brief is ready (standing ratification); author gates remain at promotion +
+submission.
+
+### A.1 Literature positioning is the PRIMARY success criterion (piece-specific)
+
+§4's positioning map and §3's beat table swap priority. The eight-section
+structure stands, but the draft is judged FIRST on whether a Harper's reader
+leaves able to say what the book supports, contradicts, and adds relative to the
+named shelf, and only SECOND on per-beat capture. A draft that captures every §3
+beat but leaves the shelf-relations illegible fails this brief.
+
+Named positioning obligations for THIS piece (relations per §4 of this brief,
+the inherited stage-1-brief §3 comp-title cluster, and
+`manuscript/chapters/_BookLevelGuidance.md`; the §2.9 one-prose-mention budget
+still applies, so positioning is carried by what the essay DOES, not by citation
+density):
+
+| Work / author | Relation | What the draft must make legible |
+|---|---|---|
+| Mariana Mazzucato, *The Value of Everything* (2018) | SUPPORTS + EXTENDS | The essay affirms the making-vs-taking / value-extraction diagnosis and extends it from finance and pharma into physical extraction, where the taking lands on specific bodies in specific places. This is the book's stated originality claim; keep the one originality sentence (§2.9). |
+| David Harvey, *The New Imperialism* (2003), ch. 4 | SUPPORTS + EXTENDS (operationalizes) | Accumulation by dispossession affirmed as lineage and operationalized through a named, accounted case (McDowell; Bailey; Latusek) rather than restated as theory. One-clause nod in continuity with Mazzucato. |
+| Caudill, *Night Comes to the Cumberlands* (1962); Eller, *Uneven Ground* (2008); Stoll, *Ramp Hollow* (2017); Catte, *What You Are Getting Wrong About Appalachia* (2018) | SUPPORTS + ADDS | The regional-decline lineage documented the harm; the essay adds what none of the four prices: the missing-instrument accounting frame (what an honest ledger would have charged, and who paid the difference). Crediting the lineage in its own register is the dignity move dispositive for Tier 3 #12 (skeptical Appalachian academic). |
+| The cultural-pathology frame (the contested *Hillbilly Elegy* reading of Appalachia) | CONTRADICTS | Refuted structurally, not polemically: the litigation record (Massachusetts v. Purdue; McKinsey documents) plus the peer-reviewed distress-geography research (Van Zee *AJPH* 2009; Alpert et al. *QJE* 2022; Monnat 2017) show the pattern attributed to culture following a documented sales strategy; the 141-per-100,000 figure read structurally. Regional dignity preserved; dispositive for Tier 3 #11 and #12. The refutation must be EARNED in the prose, not asserted. |
+| Keefe, *Empire of Pain* (2021); Hamby, *Soul Full of Coal Dust* (2020) | SUPPORTS (same shelf) + ADDS | Same documentary record, adjacent shelves; the essay credits both (Hamby acknowledgment ~30-50w at §VII per §3) and adds the cross-cycle ledger reading, coal and opioids as the same un-priced mechanism two cycles apart, which neither single-industry book carries. |
+| Desmond, *Evicted* (2016) | SUPPORTS (register parallel) | Structural harm carried by named people the reader follows, villains not required (per `_BookLevelGuidance.md`: the villain-who-isn't-a-villain; Desmond's Sherrena Tarver model). The essay must visibly belong on this shelf; mechanism-not-motive is the operative discipline. |
+| Coates, "The Case for Reparations" (*The Atlantic*, 2014) | PARALLELS (architecture only) | Name the mechanism, name the harm, name what an honest accounting would price. Parallel at the argument-architecture level only; NO coercion/reparations dollar figure enters (§7 hard ban stands in full). |
+
+Stage 3 consequence: Pass 3.3 / 3.4 add a positioning-legibility check. For each
+row above, can the dispositive audiences (Tier 1 Harper's editor/reader; Tier 3
+#11 + #12) state the relation after one read? Findings against this check are
+HIGH by default.
+
+### A.2 Anti-flatness (felt pressure is a requirement, not a decoration)
+
+Affect-neutral competence is a FAILURE MODE for this draft, not a passing grade.
+Concrete stakes must be felt on the page: the §VI columns read as what was taken
+from named people, not as a table rendered in prose; Bailey's drowning line and
+Latusek's knife-in-the-gut line land with the weight the record gives them; the
+Canton verbatim carries its indictment.
+
+First-person investment is licensed where the substrate licenses it and the
+Option B frame places it: §I arrival, §VIII return, occasional structural
+inflection (§1). Within that frame, the author's stake in the question is
+welcome on the page.
+
+Hard boundary unchanged: pressure comes from SUBSTRATE, never invention. §6 rule
+6 (NO INVENTED FACTS) is unmoved by this directive; the canonical violation
+anchors (diner-waitress encounter; Bailey-at-19 timeline; invented Welch
+specifics) remain the test cases. Where a substrate gap would flatten a section
+(F-3.5-H1 at §I / §IV), write the `<!-- structure-note: ... -->` slot AND carry
+the pressure through what IS licensed; do not pad the gap with affect-neutral
+exposition. Stage 3 Pass 3.5 adds an explicit flatness check: any section that
+reads as affect-neutral competence is a finding (restoration polarity).
+
+### A.3 Drafting greenlight (standing ratification)
+
+Drafting is GREENLIT the moment a brief is ready; this standing ratification
+satisfies the "after author ratification" condition in this brief's footer. The
+brief's PROPOSED status no longer gates Stage 2.
+
+- **GATE-1 substrate now EXISTS:** `research/story-drafts/ch2-assembled_2026-06-10.md`
+  landed 2026-06-11. Source = Ch 2; wherever this brief points at Ch 2 (the
+  canonical source-chapter state in GATE-1; the sibling-prose voice standard in
+  §1; the §2 fact-ground re-verification; the §3 structural carry-forwards; the
+  §5 chapter-state deltas), the assembled candidate is the PREFERRED prose
+  substrate, superseding `manuscript/chapters/Chapter__2_TheMiner_Draft.md` for
+  redraft purposes. The pre-Stage-2 §2 re-verification fires against it per
+  GATE-1.
+- **Path B discipline unchanged:** the Stage 2 drafter still does not open the
+  assembled chapter or the old essay.md as source texts (verbatim-quote
+  exceptions per §2 only). The assembled candidate is substrate for the §2
+  re-verification and for Phase C fold-ins, not a drafting source.
+- **Open calls do not re-gate Stage 2:** the §8 recommended dispositions apply
+  as defaults (C-1 Path A no multiple; C-2 Option B; C-3 draft with
+  structure-note slots; C-6 OMIT Fraser mirror; C-7 carry title + ornaments
+  forward). Author may override any of these at promotion.
+- **Author gates remain at promotion + submission (UNCHANGED):** promotion of
+  the Stage 2 draft to canonical `essay.md` and the submission act itself stay
+  author-gated. Nothing in this addendum changes the §7 bans, the consent
+  dispositions, or the submission boundary.
+
+*End of ADDENDUM 2026-06-11. Appended append-only; all sections above are
+unaltered.*

@@ -46,6 +46,18 @@ polish (redraft campaign) → agent-query Wave 1 fires ~Jun 24 – Jul 1 (cascad
 | Back matter (bib/glossary/notation) | Generated clean set **MERGED to main 06-10** (author ratified); regenerate via `tools/back-matter/build.py gen-all` | 06-10 (this session) | In-TA Notation section + Part 7 completeness → technical-review window |
 | Bibliography master | Single source of truth (TA §18 folded in, 06-09); 41 orphan candidates flagged for prune review | 06-10 (this session) | Optional prune pass |
 
+## PAUSED — token-conservation hold (author directive 2026-06-11; resume on Wave-1-out OR weekly token reset)
+
+| Paused item | Resume command / state |
+|---|---|
+| Essay redraft fleet (6 pieces + PB fix) | `Workflow({scriptPath: ".../essay-redraft-fleet-wf_64743ae8-516.js", resumeFromRunId: "wf_64743ae8-516"})` — landed pre-pause: 6 amended briefs, atlantic-ideas A+B, atlantic-main A+B, harpers A drafts; missing: harpers B, nyrb A/B, both op-eds A/B, 3 judges, PB fix-apply |
+| Noema redraft (path c ratified) | `Workflow({scriptPath: ".../noema-redraft-wf_9faefe26-a6c.js", resumeFromRunId: "wf_9faefe26-a6c"})` — nothing landed (brief+drafts all hit limit) |
+| Ch 4/6/7/8/9 redo promotions | All five compares PROPOSED on disk (verdicts: Ch4 A+foldin · Ch6 B+foldin · Ch7 B+foldin (A disqualified incomplete) · Ch8 A+foldin · Ch9 A+foldin; every canonical FAILS its gate) — author ratification queue, NOT Wave-1-blocking |
+| FA redraft brief | Fires on Ch 4 promotion (fork option c ratified) |
+| Reef §11.12 merge | Branch `claude/ta-reef-migration-260611-ae0141` (63e72f7) one-click mergeable; MERGE-HOLD = 3 author calls (Wilberg/Woods bib; §10.2 census; Thm 10.1b note) |
+
+**ACTIVE (Wave-1 critical path only):** Ch 1 + Ch 5 wrap-up (see dashboard) + book-proposal update session (spawned 06-11).
+
 ## Active workstreams (sessions/worktrees)
 
 | Workstream | Owner branch | State | Verified |

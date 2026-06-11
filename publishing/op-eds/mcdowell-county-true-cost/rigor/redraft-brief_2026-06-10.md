@@ -146,3 +146,50 @@ Op-ed register is deliberately apparatus-stripped, so positioning is implicit (c
 ---
 
 *Stage 1 brief only; the Stage 2 draft fires in its own session per the drafting-execution doctrine. Internal scaffolding per WP#10; merges at session close.*
+
+---
+
+## ADDENDUM 2026-06-11 - author directive (lit-positioning primacy)
+
+**Status:** RATIFIED 2026-06-11 (author directive; standing). Appended without alteration to §§1-8 above. Where this addendum and §4 conflict on the WEIGHT of positioning, the addendum wins; the §4 reserved-payoff list and the §7 apparatus-term bans are unchanged.
+
+### A. Literature positioning is the PRIMARY success criterion
+
+Author directive (ratified 2026-06-11): literature positioning is the PRIMARY success criterion. The piece must illustrate how the book supports, contradicts, and adds to the adjacent literature, with named works and authors; beat-capture (§3) is secondary. This RAISES §4 from its "positioning is implicit" posture to a primary, testable criterion. Positioning must be carried in plain op-ed language and named public-scholarship attribution, never in framework vocabulary (the §7 apparatus list stays banned; the §4 reserved payoffs - formula, title-pun, apparatus, reserve/restitution instrument, bare IPG magnitudes - stay reserved).
+
+The adjacent works this piece must position against, relation pinned for each. "Named in prose" = the author/work may appear by name in the op-ed (public-record attribution per the consent discipline). "Legible but unnamed" = the positioning work must be visible to a books-literate editor without the name appearing, per §4's reserved posture for the theoretical lineage.
+
+1. **J.D. Vance, *Hillbilly Elegy* (2016) - CONTRADICTS (the piece's principal foil; named in prose permitted).** This is the culture-not-structure reading of Appalachian decline that §4 already marks as the implicit contradiction target; the directive makes it explicit. The piece refutes by ledger, not by accusation: McDowell did not decline by habit or character; it financed the country's prosperity at terms no one read aloud (harvest line, §3.10). One clause setting the BEA/Census record against the culture-of-poverty reading satisfies this; no polemic, no demonization (book-level guidance §2, no villain who is a villain).
+
+2. **Elizabeth Catte, *What You Are Getting Wrong About Appalachia* (Belt, 2018) - SUPPORTS, and the book ADDS to it (named in prose permitted; already in this venue's citation roster, 2026-05-28 parallel-drafts archive).** Catte's corrective against the stereotype frame is the piece's regional-scholarship ally; the book supports her structural corrective and adds what it does not carry: an accounting mechanism and a number ($4.71 at the mine mouth vs $510 honest total).
+
+3. **Steven Stoll, *Ramp Hollow: The Ordeal of Appalachia* (2017) - SUPPORTS + EXTENDS (named in prose permitted; in the venue citation roster).** Stoll documents the dispossession; the book extends dispossession-history into ledger arithmetic: a second unpriced transaction running alongside the priced one, now stated per ton.
+
+4. **Ronald D. Eller, *Uneven Ground: Appalachia Since 1945* (2008) - SUPPORTS (named in prose permitted; in the venue citation roster).** Development-without-prosperity is Eller's arc; the McDowell record (98,887 to 19,111) is its sharpest instance. The book adds the per-ton honest price that makes the arc auditable.
+
+5. **Rennert et al. 2022 / EPA 2023 / Wagner, Anthoff, Cropper 2021 - SUPPORTS (parallels; naming REQUIRED per prose rule 5).** The piece rides the mainstream SCC literature as named authority and supports its measurement posture, lowballing deliberately ($190 is the government's own central estimate, §3.6). Attribution discipline per §2 stands: never attribute $190 to Rennert; the Wagner/Anthoff/Cropper inline citation earned a real defensive gain with the Pigouvian-orthodox adversarial reader at the 2026-05-28 Pass 3.3/3.4 audit - keep it.
+
+6. **Pigou, *The Economics of Welfare* (1920) - EXTENDS (legible but unnamed, per §4).** "Whoever creates a cost should bear it" rendered as folk wisdom; the book extends the externality intuition from the single taxable margin to the full eight-component ledger. Do not name Pigou; the extension must be legible from the structure (carbon is one column of eight).
+
+7. **Coase, "The Problem of Social Cost" (1960) - CONTRADICTS at the intergenerational margin (legible but unnamed; the §3.8(b) half-sentence is the carrier).** Bargaining cannot price a party who never sat at the table because they did not yet exist. This is the book's sharpest analytic ADD at op-ed scale; do not cut that half-sentence for length.
+
+8. **Polanyi, *The Great Transformation* (1944), with Fraser's extension - EXTENDS (legible but unnamed, per §4).** The fictitious-commodity intuition gestured, never named: the atmosphere does not send invoices; the county itself was drawn against.
+
+9. **Desmond, *Evicted* (2016) / Raworth, *Doughnut Economics* (2017) - SUPPORTS (method kinship, register-level only; from `_BookLevelGuidance.md` §1-2).** Structural mechanism without a villain, people-first. These govern HOW the piece argues, not what it cites; no naming needed.
+
+**Named-in-prose budget (register guard):** 750-900 words will not bear all nine. Required: the item-5 authorities (prose rule 5). Recommended: the item-1 foil named or unmistakably paraphrased, plus AT MOST one named regional ally from items 2-4. Items 6-8 stay structural. The positioning must survive the §1 register: reported-argument op-ed, zero apparatus.
+
+**Success test (binds Pass 3.3):** a books-literate op-ed editor must be able to answer, from the piece alone, "what does this argument add to Vance/Catte/Stoll/Eller, and to the SCC literature?" If the editor cannot, the draft FAILS the primary criterion regardless of beat coverage, and routes back to Stage 2.
+
+### B. Anti-flatness (affect-neutral competence is a failure mode)
+
+Author directive: drafts must carry felt pressure. Concrete stakes on the page: the men whose lungs the dated $44B is denominated in; a county of nearly a hundred thousand that now holds under twenty thousand; the receipt nobody read aloud. First-person investment where substrate licenses it: the op-ed arguer's first person (staking the claim, owning the arithmetic) is licensed and encouraged; the book's first-person memoir voice remains out of register per §1. Substrate-safe only, per prose rule 6 - invention stays banned; pressure comes from the verified record rendered close-up, not from manufactured scenes. The §3.10 harvest lines are the pressure register to match (mind the antithesis budget, §6.2). A draft that is accurate, compliant, and unfelt is a FAILED draft: route it back to Stage 2; do not promote it.
+
+### C. Drafting greenlight (standing ratification)
+
+Drafting is GREENLIT the moment a brief is ready - standing author ratification, 2026-06-11. For this piece: the Stage 2 draft fires NOW from this brief's §2 pinned canon. Open call #11 (fire timing) is resolved fire-now; the fire-time re-verify of §2 against `manuscript/ledgers/_CANONICAL_FIGURE_LEDGER.md` is still required, and figures come from §2 only, never from current Ch 8 prose (sequence gate 2). Author gates remain at PROMOTION (ratifying a draft as canonical `op-ed.md`) and SUBMISSION (unchanged hard gate; landing on main is not shipping).
+
+**Pinned at fire time (restated, hard):**
+
+- Figure canon per §2: **$496 = the carbon term ONLY** (2.61 t CO₂/short ton, Pocahontas-seam basis named, × $190 EPA 2023); **$510 = the eight-component honest TOTAL**, never the carbon term; **2.61** never 2.86. Any IPG multiple lens-explicit ONLY (recommend none, per open call #8).
+- **The 750-900 word band is HARD.** This hardens §1's recommendation and resolves open call #1: a draft outside the band does not promote. Stretch venues get the §3 restoration list, not a longer base draft.

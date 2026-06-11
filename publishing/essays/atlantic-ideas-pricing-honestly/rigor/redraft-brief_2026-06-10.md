@@ -455,3 +455,187 @@ register-model files (§6 rule 7) + the canonical figure ledger and merged TA
 for any figure question this brief does not answer. When in doubt about a
 number: omit, restructure, or leave a structure-note. Never invent. Both §
 gates must clear first.*
+
+---
+
+## ADDENDUM 2026-06-11 - author directive (lit-positioning primacy)
+
+**Author directive (ratified 2026-06-11).** Three parts, each made specific
+to this piece in §§A-C below; the submission-readiness spot-fix spec
+(`rigor/submission-readiness-spotfix_2026-06-10.md`) folds in at §D. Where
+this addendum conflicts with the SEQUENCE GATES section or §8 above, the
+addendum governs. Everything above it otherwise stands.
+
+> (1) Literature positioning is the PRIMARY success criterion - the piece
+> must illustrate how the book supports, contradicts, and adds to the
+> adjacent literature, with named works/authors; beat-capture is secondary.
+> (2) Anti-flatness: drafts must carry felt pressure - concrete stakes,
+> first-person investment where substrate licenses it; affect-neutral
+> competence is a failure mode. (3) Drafting is GREENLIT the moment a brief
+> is ready (standing ratification); author gates remain at promotion +
+> submission.
+
+### A. Literature positioning is the primary success criterion
+
+The redraft succeeds or fails on whether a reader fluent in the adjacent
+literature can see, from the body prose, where the book supports it, where
+it contradicts it, and what it adds. Beat-capture (§3) is secondary: a draft
+that hits every beat but positions against nobody fails; a draft that
+compresses a beat to make a positioning move land is making the right trade.
+
+Named positioning set for this piece (drawn from §4 above, the Stage 1
+brief §3 comp grid, the deep-pass relationship grid, and
+`manuscript/chapters/_BookLevelGuidance.md`):
+
+| Work / author | Relation | The move this piece must make |
+|---|---|---|
+| Ronald Coase, "The Problem of Social Cost" (1960) | SUPPORTS the insight; CONTRADICTS its sufficiency; EXTENDS | The piece's cleanest move (already in the body; sharpen, do not dilute). Supports the property-rights tradition's bargaining insight; contradicts its sufficiency because the parties who bear severed costs (downstream communities, the unborn future) cannot get to the table to bid; extends by accounting for what the absent parties would have bid. |
+| William Darity, Jr. & A. Kirsten Mullen, *From Here to Equality* (2nd ed.; $14T figure cited at the JEP 2022 vintage per §2) | SUPPORTS and EXTENDS | The piece's strongest adjacency. Supports their cumulative-deficit accounting as the backward ledger's most worked-out tradition; extends it by setting forward and backward accounting on a single ledger. The coercion column stays first-person-unfilled per §D item 2: the piece credits the field; it does not price for it. |
+| Karl Polanyi, *The Great Transformation* (1944) | ADDS TO | Four-traditions gloss (Polanyi/Ostrom/Daly/Hartwick; Polanyi-not-Marx ratified 2026-06-02, §7 ban 13). Polanyi diagnosed the fictitious-commodities problem; the piece adds the pricing instrument the diagnostic tradition never built. Daly and Hartwick ride in the same gloss. |
+| Mancur Olson, *The Logic of Collective Action* (1965) | SUPPORTS (applies) | The named engine of the politics-of-resistance section: concentrated vs. diffuse interest is why honest pricing has not happened. The piece applies Olson rather than amending him; the no-villain discipline (`_BookLevelGuidance.md` §2: structural mechanism, no bad actors required) is the register this application must keep. |
+| Elinor Ostrom, *Governing the Commons* (1990) | SUPPORTS and EXTENDS at a boundary | The entering-wedges cluster operates inside her design-principles vocabulary (supports). The extension is the renewable/non-renewable boundary: her commons govern regenerating resources; the piece prices the foreclosure of non-regenerating ones. §3 sharpening (ii) is now DEFAULT-IN per this directive. |
+| Katharina Pistor, *The Code of Capital* (2019) | SUPPORTS, with one objection answered | Supports: legal coding encodes capital while externalizing costs; the asymmetry has an architecture. The piece must answer the financialization objection in her own register: pricing the commons does not mean coding it into a new asset class. §3 sharpening (iii) is now DEFAULT-IN. |
+| David Harvey ("accumulation by dispossession") | ADDS TO | The best-positioned lineage move: Harvey named what is taken; the piece counts it. Measurement-not-diagnosis, stated declaratively (no self-narration, §6 rule 3). |
+| Atif Mian & Amir Sufi, *House of Debt* (2014) | SUPPORTS | The architecture-was-chosen reading of 2008. Scope them to the leverage/distribution/consumption analysis only; the ~$11T figure is the Fed's Z.1, never theirs (§D item 3, F2). |
+| Mariana Mazzucato, *The Value of Everything* (2018) | ADDS TO | Value-extraction diagnosis; the piece is the cost-accounting complement. §3 sharpening (v), one body sentence, is now DEFAULT-IN. |
+| Brett Christophers, *The Price is Wrong* (2024) | CONTRADICTS (answered) | Held out of the body by ratified decision (name stays in the cover-letter comp cluster unless the author elects body promotion at ratification). The substance must still land in the body: Christophers argues price signals alone will not drive the transition; the piece contradicts the inference that pricing is therefore the wrong lever - honest pricing is what makes the subsidy-and-rent architecture visible, the precondition for the investment response he calls for. |
+| Kate Raworth, *Doughnut Economics* (2017); Matthew Desmond, *Evicted*; Daniel Susskind, *Growth: A Reckoning* (2024) | PARALLELS (supports by family resemblance) | What-a-framework-does exemplars in the close; vocabulary-and-instrument register. |
+| Adam Smith, *The Wealth of Nations* (1776) | SUPPORTS (disarming) | Completion-of-the-market close: honest pricing is not a departure from Smith's market but the completion of it. Carries the thesis-turn; keep. |
+| Buchanan & Tullock / Public Choice tradition | SUPPORTS as complement | One light-touch paragraph, complement-not-camp; load-bearing for the Tier-1 center-right dispositive reader. |
+| Pigou | EXTENDS, unnamed | Concept present, never named (§4); keep unnamed. |
+
+Minimum bar: the Coase, Darity & Mullen, Polanyi, Olson, and Ostrom moves
+must each land legibly in the body; the Harvey, Pistor, Mazzucato, and
+Christophers-substance moves are default-in per the sharpening promotions
+above. Selective-deployment discipline holds (Stage 1 brief §1 character 1:
+each citation does one specific argumentative job; three names in a
+paragraph reads as showing off). Positioning-claim altitude is unchanged
+(§4): "noticing that these scattered working parts are versions of the same
+idea, and connecting them" - the apparatus-novelty claim stays in the book.
+
+### B. Anti-flatness
+
+Drafts must carry felt pressure. Affect-neutral competence is a failure
+mode for this redraft, not a safe harbor. Specific to this piece:
+
+- **The pressure source is the concrete ledger, not cadence.** The ton of
+  coal, black lung, orange streams, mountains cut to stumps, the children
+  in the cobalt pits, the river that runs orange: let the stakes carry the
+  affect. Felt pressure is NOT the antithesis metronome; §6 rule 2's budget
+  stands. Cutting epigrams and adding pressure are the same edit done
+  right.
+- **First-person investment where the substrate licenses it.** The
+  reparations-deferral passage's first-person abstention ("is not mine to
+  do, and I leave that work to those who are continuing it") is the
+  in-essay register model: personal, invested, on the record. Extend that
+  voice judiciously where the substrate licenses it; never invent biography
+  or scene (§6 rule 6 is unchanged and binding).
+- **Register models per §6 rule 7** (the Ch 10 harbor frame; the Ch 3
+  Biggie section) are the felt-pressure exemplars: read them before
+  drafting, for pressure as much as for diction.
+
+### C. Drafting greenlight (standing ratification)
+
+Drafting is GREENLIT the moment a brief is ready. This brief is ready; the
+redraft fires now. The SEQUENCE GATES section above is superseded as
+follows:
+
+- **Gate (a) reopen decision: RESOLVED by this directive.** The essay
+  reopens for redraft (§8 call #2 closed).
+- **Gate (b) Ch 9 promotion: no longer blocks drafting.** The Ch 9 redo is
+  in flight. The redraft drafts from the fact ground in THIS brief (§2) and
+  the §3 beats, NOT from the Ch 9 canonical register - neither the current
+  chapter file nor the in-flight redo. Where this brief is silent on a
+  figure, the canonical figure ledger + merged TA govern (§2); never the
+  chapter prose.
+- **Author gates remain at PROMOTION** (ratifying the redraft as canonical
+  `essay.md`; merge-on-ratification applies) **and SUBMISSION** (untouched;
+  author-only act).
+- **Open author calls (§8) no longer block drafting.** The draft fires with
+  the brief's recommended directions applied (call #1 per §D item 2; #5
+  minimal-recast; #6 USGS-pin-else-illustrative; #7 keep-with-pins; #9
+  qualitative); the author ratifies or redirects at promotion. Call #3
+  (length): the register-repair cuts buy room for the §A positioning moves;
+  substance drives length. Call #10 stays with the ledger/TA owner.
+
+### D. Submission-readiness spot-fix spec folded in
+
+The spot-fix spec (`rigor/submission-readiness-spotfix_2026-06-10.md`)
+routed its items to a line-edit cycle because no redraft session existed.
+The redraft is now the vehicle of record; the spec's items land here as
+brief requirements (its GATE/line-anchor machinery is superseded for the
+essay; the cover-letter task survives as the companion item):
+
+1. **Four-move enumeration internally consistent (spec E1; HIGH).** The
+   four ordered moves are **Classify / Hold back (Reserve) / Invest /
+   Adjust at the border**. Border = move 4. The check-and-start-again beat
+   is the LOOP after the four, not one of the four; the current
+   `essay.md:104` recap is the architecture model ("Classify... Reserve...
+   Invest... Adjust at the border so the cost travels with the good. Then
+   look at the result and start again."). This SUPERSEDES §3 beat 1's
+   thesis enumeration as written above ("Classify, Hold back, Invest,
+   Check and start again" omitted Border). Every "four moves" reference in
+   the draft must agree with this enumeration.
+2. **Coercion passage ends on the ledger sentence (spec A1/E2; HIGH;
+   resolves §8 call #1 as direction (a)).** The passage KEEPS "...is not
+   mine to do, and I leave that work to those who are continuing it." and
+   ENDS on "What the framework offers is the ledger." The final sentence
+   ("What belongs on it, looking backward, is theirs to enter.") is
+   DROPPED - first-person-abstention discipline; no standing-assignment
+   phrasing in any rewording (§7 ban 1). The Darity/Mullen/JAMA crediting
+   stays. **FLAG FOR AUTHOR CONFIRM at promotion:** direction (a) is
+   applied per this addendum; the author confirms when ratifying the
+   redraft. Post-draft grep: `theirs to enter` returns 0 hits.
+3. **Figure findings (spec F1/F2/F3/L1; restated from §2's drift table
+   with the spec's diction decision):**
+   - **F1 - 1960 coal price.** Every touchpoint of "four dollars and fifty
+     cents" / "four and a half dollars" / "the four-dollar price" / the
+     "four dollars and five hundred" gap phrasings updates to the $4.71
+     canon. Refrain diction per spec A2 recommendation (i): "just under
+     five dollars" long form; a five-dollar-anchored compressed refrain;
+     $4.71 wherever a point value shows. The opener and the closer echo
+     use identical diction. "The cost was more than a hundred times that."
+     stays unchanged (true on the $4.71 basis). Post-draft grep gate:
+     `grep -ni 'four dollars and fifty cents\|four and a half dollars\|four-dollar\|\$4\.50'`
+     returns 0 hits.
+   - **F2 - $11T household wealth.** Attribute to the Federal Reserve's
+     flow-of-funds (Z.1) accounts; never "by the standard reckonings."
+     Mian & Sufi stay scoped to the leverage/distribution/consumption
+     analysis (§A table).
+   - **F3 - Norway fiscal rule.** Never bind "three percent" to 2001:
+     either the 2017-revision-at-3% form (the 2001 original was 4%) or a
+     dateless current-cap phrasing. The $2.0T fund / ~$390k per-citizen
+     figures stand.
+   - **L1 - 16 Psyche.** Drop the bare "by the estimates" authority
+     gesture: either pin to the NASA Psyche mission's published
+     composition characterization (verify before writing; never fabricate
+     a citation) or keep the claim in the passage's declared speculative
+     register with no authority gesture. Update `source-manifest.md`
+     item-46 status either way. Post-draft grep: `standard reckonings` and
+     `by the estimates` each return 0 hits.
+4. **Spec M1 (antithesis variation) + M2 (self-narration) are absorbed**
+   by §3's register repair pass; the redraft re-executes these wholesale
+   rather than spot-varying. Spec A3's explicit KEEPs carry over: "One
+   protected balance sheets. One protected households." and the closing
+   modesty beat survive (the close's modesty IS the argument), subject to
+   §6 rule 2's overall budget.
+5. **Cover letter (spec C1 + §8 call #8): companion task, fires after the
+   redraft is promoted.** The letter must describe the FINAL essay:
+   four-move architecture per item 1 (delete "cross-cutting concern of the
+   four, not a fifth step"); hook figures per item 3 (never the "$520-600"
+   blend; "more than five hundred dollars" total with conservative-floor
+   framing); the longevity-gap beat DELETED from the hook (the JAMA
+   material belongs to the reparations passage, not the coal opener);
+   CRMA phrasing matched to the essay's own classification tiers; CBAM
+   "entering its operational compliance phase at the start of 2026"; the
+   real measured word count in the subject line; zero em-dashes.
+6. **Close-out bookkeeping carried over from the spec:** one-line RESOLVED
+   note on the §A flag file
+   (`tools/workstream-handoffs/redraft-coherence-flags-coercion-deferral-and-finite_2026-06-09.md`
+   §A) with the applying commit; the STATE.md "Pricing Honestly | Atlantic
+   Ideas" line updated in the same commit as the status change; package
+   README refresh; `tools/scripts/check-corpus-invariants.sh` clean on
+   both files; §6 rule 1 grep (zero em/en dashes) on everything new.
+
+*This addendum is append-only; no section above it was altered. The brief
+is now READY and drafting fires from it per §C.*
