@@ -1758,6 +1758,10 @@ The pinnable primary-law / regulation / agency / named-report sources from the p
 
 - **Where cited:** Technical Appendix §18 (academic citation referenced inline). Folded from §18 into the master 2026-06-09.
 
+### Great Wicomico River Oyster Restoration Tributary Plan, §5 Cost Estimate. Chesapeake Bay Program / restoration partners, 2020.
+
+- **Where cited:** Technical Appendix §11.12 (reef calibration). *Backs:* forward-engineering construction unit-cost ~$13,500/acre (light shell/stone on existing shell bottom, natural recruitment) — the §11.12 headline-floor basis. https://d18lev1ok5leia.cloudfront.net/chesapeakeprogress/OysterRestorationBlueprintGreatWicomicoDec20.pdf Confidence: HIGH (primary plan document). Added 2026-06-10 (reef calibration).
+
 ### Habermas, Jürgen. *Theory of Communicative Action*. Translated by Thomas McCarthy. Boston: Beacon Press, 1981.
 
 - **Where cited:** Technical Appendix §18 (academic citation referenced inline). Folded from §18 into the master 2026-06-09.
@@ -1830,6 +1834,10 @@ The pinnable primary-law / regulation / agency / named-report sources from the p
 
 - **Where cited:** Technical Appendix §18 (academic citation referenced inline). Folded from §18 into the master 2026-06-09.
 
+### Maryland Department of Natural Resources / Office of the Governor. "Governor Wes Moore Announces Completion of Maryland's Five Tributary-Scale Oyster Restoration Sanctuaries." August 26, 2025.
+
+- **Where cited:** Technical Appendix §11.12 (reef calibration). *Backs:* realized public restitution >$92M (Maryland state + federal) across ~1,300 acres / five sanctuaries — the §11.12 realized-B₁ single-state anchor. https://news.maryland.gov/dnr/2025/08/26/governor-wes-moore-announces-completion-of-marylands-five-tributary-scale-oyster-restoration-sanctuaries/ Confidence: HIGH (agency). Added 2026-06-10 (reef calibration).
+
 ### Mill, John Stuart. *On Liberty*. London: John W. Parker and Son, 1859.
 
 - **Where cited:** Technical Appendix §18 (academic citation referenced inline). Folded from §18 into the master 2026-06-09.
@@ -1841,6 +1849,10 @@ The pinnable primary-law / regulation / agency / named-report sources from the p
 ### Mussa, Michael, and Sherwin Rosen. "Monopoly and Product Quality." *Journal of Economic Theory* 18, no. 2 (1978): 301–317.
 
 - **Where cited:** Technical Appendix §18 (academic citation referenced inline). Folded from §18 into the master 2026-06-09.
+
+### NOAA Fisheries. "Oyster Reef Restoration in the Chesapeake Bay: We're Making Significant Progress" (per-tributary cost + acreage table, data as of December 31, 2024).
+
+- **Where cited:** Technical Appendix §11.12 (reef calibration); §3.6 worked-example table (reef row). *Backs:* realized restoration unit-costs (Great Wicomico ~$7,300/ac = $907,000 ÷ 124 ac; bay-wide completed-program average ~$77,000/ac = ~$92.82M ÷ 1,200 ac); bay-wide itemized public spend ~$115M (MD $93.52M + VA $21.77M) as the primary realized-B₁ reading, with the ~$108M ten-year program-level total as rounding corroborator. https://www.fisheries.noaa.gov/chesapeake-bay/oyster-reef-restoration-chesapeake-bay-were-making-significant-progress Confidence: HIGH (agency). Added 2026-06-10 (reef calibration).
 
 ### O'Neil, Cathy. *Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy*. New York: Crown, 2016.
 
@@ -1893,6 +1905,10 @@ The pinnable primary-law / regulation / agency / named-report sources from the p
 ### Royden, H. L. *Real Analysis*. 3rd ed. New York: Macmillan, 1988.
 
 - **Where cited:** Technical Appendix §18 (academic citation referenced inline). Folded from §18 into the master 2026-06-09.
+
+### Schulte, David M. "History of the Virginia Oyster Fishery, Chesapeake Bay, USA." *Frontiers in Marine Science* 4:127 (2017).
+
+- **Where cited:** Technical Appendix §11.12 (reef calibration); §3.6 worked-example table (reef row). *Backs:* foreclosed James River high-quality oyster-rock extent ~2,738 ac (7,047 ac → 4,309 ac, −38.9%, 1910→1981; citing Moore 1910 / Haven et al. 1981); Paxton 1858 qualitative Hampton-bars depletion; the areal-vs-structural-vs-abundance loss-measure distinctions the calibration's measure-hygiene note relies on. https://www.frontiersin.org/articles/10.3389/fmars.2017.00127/full Confidence: HIGH (peer-reviewed). Added 2026-06-10 (reef calibration).
 
 ### Sen, Amartya. *Inequality Reexamined*. Cambridge, MA: Harvard University Press, 1992.
 
@@ -1954,9 +1970,17 @@ The pinnable primary-law / regulation / agency / named-report sources from the p
 
 - **Where cited:** Technical Appendix §18 (academic citation referenced inline). Folded from §18 into the master 2026-06-09.
 
+### Wilberg, Michael J., Michelle E. Livings, Jodi S. Barkman, Brian T. Morris, and Jennifer M. Robinson. "Overfishing, Disease, Habitat Loss, and Potential Extirpation of Oysters in Upper Chesapeake Bay." *Marine Ecology Progress Series* 436 (2011): 131–144.
+
+- **Where cited:** Technical Appendix §11.12 (measure-hygiene note). *Backs:* bay-wide oyster abundance ~99.7% below early-1800s levels (upper-Bay Maryland) — an abundance/biomass measure, cited precisely so it is never conflated with the areal-extent figure the floor is built on. https://www.int-res.com/abstracts/meps/v436/meps09161 Confidence: HIGH (peer-reviewed). Added 2026-06-10 (reef calibration).
+
 ### Wolfe, Patrick. *Settler Colonialism and the Transformation of Anthropology: The Politics and Poetics of an Ethnographic Event*. London: Cassell, 1999.
 
 - **Where cited:** Technical Appendix §18 (academic citation referenced inline). Folded from §18 into the master 2026-06-09.
+
+### Woods, H., W. J. Hargis Jr., C. H. Hershner, and P. Mason. "Disappearance of the Natural Emergent 3-Dimensional Oyster Reef System of the James River, Virginia, 1871–1948." *Journal of Shellfish Research* (2005).
+
+- **Where cited:** Technical Appendix §11.12 (measure-hygiene note). *Backs:* ~99% loss of emergent three-dimensional reef structure in the James (~30 ac of vertical relief remain of >2,471 ac historical) — a structure measure, cited precisely so it is never conflated with the areal-extent figure the floor is built on. Figure as carried in Schulte 2017 (*Front. Mar. Sci.* 4:127). Confidence: HIGH (peer-reviewed; via Schulte 2017). Added 2026-06-10 (reef calibration).
 
 ---
 
