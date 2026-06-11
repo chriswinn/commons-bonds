@@ -16,7 +16,7 @@ follow-up session to execute once the blockers clear.
 - TA §18 — Himmelstein fix + unified-bib pointer.
 - `manuscript/technical-appendix/notation-alignment-proposal_2026-06-09_PROPOSED.md` — WS3 (apply nothing).
 
-## Deferred move 1 — relocate source-of-truth files into `tools/back-matter/`
+## Deferred move 1 — relocate source-of-truth files into `tools/back-matter/` — ✅ EXECUTED 2026-06-10 (bibliography.md + terms_index.md + glossary → tools/back-matter/sources/; pointer README at research/literature/)
 
 Currently the sources stay in their historical homes (many live references):
 `tools/back-matter/sources/bibliography.md`, `tools/back-matter/sources/terms_index.md`,
@@ -40,7 +40,7 @@ per-chapter `_CH*-COMPARISON`/`_CH*-COHERENCE` → per-chapter rigor or `archive
 `_REDRAFT-CAMPAIGN-RESUME`, `_REDRAFT-COMPARISON-SUMMARY`) → `tools/workstream-handoffs/` as record.
 Keep `_BOOK_MANIFEST.md` discoverable (it is the "what is the book" authority).
 
-## Deferred move 3 — execute the manifest's TA → `manuscript/technical-appendix/` relocation
+## Deferred move 3 — execute the manifest's TA → `manuscript/technical-appendix/` relocation — ✅ EXECUTED 2026-06-10 (render-toolchain audit complete per author; 380 refs rewritten; render smoke-tested at new path; core/ retired)
 
 `_BOOK_MANIFEST.md` already proposes relocating `manuscript/technical-appendix/` → `manuscript/`
 (currently a symlink points back). This needs a render-toolchain + rigor-artifact + README path
@@ -68,7 +68,7 @@ Per the consolidation ledger: "Abundance Dimension" is in glossary v3 but absent
 obvious rename. Confirm intentional (likely folded into the commons-categories + abundance-state
 framing) and record the disposition; not a reader-facing blocker (the glossary follows v4).
 
-## Deferred apparatus 7 — in-TA "Notation" section (technical-review window, NOT Wave 1)
+## Deferred apparatus 7 — in-TA "Notation" section — ✅ EXECUTED 2026-06-10 (§0 Notation spliced from registry Part 7 via build.py gen-ta-notation; TOC entry added)
 
 Author-confirmed direction (2026-06-10): symbols live in the TA PDF, so the reader-facing notation
 belongs **at the top of the TA itself** (same document as the formulas; anchored for flip-and-follow),
@@ -78,7 +78,7 @@ Keep the standalone `manuscript/back-matter/symbol-registry.html` as a mirror. *
 Wave-1 (literary-agent) path — the apparatus does not ship to agents; this serves the technical reviewer
 + eventual publisher. Render verified tofu-free 2026-06-10 (`tools/scripts/check-glyph-coverage.py`).
 
-## Deferred apparatus 8 — Part 7 completeness fold-in (~20 compound/subscripted symbols)
+## Deferred apparatus 8 — Part 7 completeness fold-in — ✅ EXECUTED 2026-06-10 (+20 compound/auxiliary rows; reader notation = 61 symbols)
 
 Registry Part 7 currently bundles some compound forms. For an exhaustive notation key (any formula
 symbol findable), add the standalone subscripted/compound symbols: S_max, S_base(t), S_threshold, S*,
