@@ -678,58 +678,68 @@ demand. Now stipulate that A stole the bike from Party C. The A-to-B sale
 still clears at the market price; nothing in it reveals C. A has captured the
 value; C carries the whole uncompensated cost. Is that Cost Severance?
 
-**Verdict: it holds as a structural analogy, not as an instance — and it fails
-on the framework's own first gate.** A bicycle is rivalrous, excludable,
-single-owner private property. The CIT's CAI sub-test ("is this cost claim
-commons-grounded at all?") returns *no*, so the framework routes the bike-theft
-to the private-property / tort regime, not to commons CS. As an *instance* the
-objection is fatal: a reviewer reads it and says "that's conversion — you have
-relabeled theft." The bike never enters the CS = RCV - B accounting.
+**My honest reaction:** the example holds up as a structural analogy — better
+than you might fear — but it does *not* hold up as a literal instance of Cost
+Severance, and it fails on the framework's own first gate. Both halves are
+worth saying.
 
-**But the severance *structure* it isolates is real — and tighter than the
-textbook externality.** Strip it to bones: (a) A takes directly — the taking
-IS the input to the sale, not a byproduct; (b) the A-to-B transaction prices
-clean — supply and demand clear normally, the price carries no signal of harm;
-(c) A pockets the proceeds, C bears the severed cost. That is exactly the shape
-of McDowell coal (case 1) or the foreclosed reef (case 6): a direct taking from
-a third party, sold at an honest-looking price, proceeds captured upstream, cost
-severed onto someone who was never at the table. It maps *more* tightly than a
-Pigouvian pollution example, because pollution is a byproduct of a legitimate
-transaction whereas the bike — like commons extraction — is a direct
-appropriation.
+**Run it through the CIT and it routes itself out.** A bicycle is rivalrous,
+excludable, single-owner private property. The CAI sub-test ("is this cost
+claim commons-grounded at all?") returns *no* — so by the Four Gates the
+bike-theft is a private-property taking, routed to the property / tort / Pigou
+regime, not to commons CS. A sharp reviewer reads the bike example and says:
+"That's conversion. You've relabeled theft and called it a framework." As an
+*instance*, that objection is fatal. The bike never gets admitted to the
+CS = RCV - B accounting.
 
-**The load-bearing catch (the most instructive thing in the example).** The one
-place the analogy breaks is the single variable the framework exists to handle:
-Party C's *standing*. The bike has an identifiable owner, clear title, and a
-full remedy (return it or its value; tort and criminal law already price this).
-That is precisely what genuine commons cases LACK — the atmosphere, future
-generations, the reef have no Party C who can sue, no title, no market, no
-remedy. So the bike is the case where Coase *works* (rights clear; bargain or
-enforcement available) and the framework is therefore *redundant*. The commons
-cases are the Coase-failure region where the cost stays severed because no one
-has standing to make whole. The example's very clarity comes from the one
-feature that makes the framework unnecessary for it.
+**But look at what the structure actually shares with a real commons case — it
+is tighter than the textbook externality.** Strip it to the bones:
 
-That is why it is a superb on-ramp and a dangerous load-bearer: used as an
-analogy it isolates the severance structure in a setting everyone already
-understands; leaned on as an instance it smuggles in the implication that Cost
-Severance is just theft-with-extra-steps, solvable by ordinary enforcement. If
-it goes in the book it must carry the disanalogy as its pivot: *"Now remove
-Party C's ability to sue. Make C diffuse, voiceless, or not yet born. The
-taking is identical; only the standing is gone — and that is where Cost
-Severance lives."*
+- A takes directly (not a byproduct — the taking is the input to the sale)
+- the A-to-B transaction prices clean; supply and demand clear normally;
+  nothing in the price reveals the harm
+- A pockets the proceeds; C carries the full uncompensated cost
 
-**On "an extension of the law of supply and demand."** Relocate the claim. It
-is not about the S/D curves; it is about the *boundary of who counts as a party
-to the transaction*. That boundary is the externality tradition (Pigou), the
+That is exactly the shape of coal at McDowell (case 1) or the foreclosed reef
+(case 6): a direct taking from a third party, sold at an honest-looking market
+price, proceeds captured upstream, cost severed onto someone who wasn't at the
+table. It is actually a closer map than a Pigouvian pollution example, because
+pollution is a byproduct of a legitimate transaction, whereas both the bike and
+the commons cases are direct appropriations. So the instinct that it is a clean
+simple case isn't wrong about the structure.
+
+**Here's the load-bearing catch — and it is the most instructive thing in the
+whole example.** The one place the analogy breaks is the single dimension the
+framework exists to handle: C's *standing*. The bike has an identifiable owner,
+a clear title, and a full remedy (return the bike or its value; tort and
+criminal law already price this). That is precisely what genuine commons cases
+lack — the atmosphere, future generations, the reef have no Party C who can sue,
+no title, no remedy, no market. So the bike is the case where Coase *works*
+(rights are clear, the bargain or the enforcement is available) and you
+therefore don't need the apparatus. The commons cases are the Coase-failure
+region where the cost stays severed because there is no one with standing to
+make whole.
+
+Which means: the example's clarity comes from the exact feature that makes it
+the one case the framework is *redundant* for. That's not a reason to drop it —
+it's a reason to use it deliberately as an on-ramp and then pivot on the
+disanalogy: *"Now remove Party C's ability to sue. Make C diffuse, voiceless,
+or not yet born. The taking is identical; only the standing is gone — and that
+is where Cost Severance lives."* The bike is the training-wheels case; the
+disanalogy is the handoff into the real domain. The danger is only if you let
+it carry weight as an instance, because then it smuggles in the implication that
+CS is just theft-with-extra-steps, solvable by ordinary enforcement.
+
+**On "an extension of the law of supply and demand" — relocate the claim.** It
+isn't really about the S/D curves; it's about the *boundary of who counts as a
+party to the transaction*. That's the externality tradition (Pigou), the
 bargaining-when-rights-are-clear tradition (Coase), and the title/standing
-principle (*nemo dat quod non habet* — you cannot sell what you do not own).
-Standard welfare economics already guarantees mutual gain *between the
-transacting parties* and is silent on everyone else; the framework's novelty is
-not noticing third-party cost (economics has known that for a century) but
-supplying the apparatus (CIT + Four Gates + RCV + Bond) to *price* severed cost
-where no market or property right exists to price it. The bike — which has a
-property right — is the one case that needs no such apparatus.
+principle (*nemo dat quod non habet* — you can't sell what you don't own). The
+novelty isn't noticing third-party cost — economics has known that for a
+century — it's the apparatus (CIT + RCV + Bond) for *pricing* severed cost
+where no property right or market exists to price it. So: standard welfare
+economics guarantees mutual gain *between the transacting parties* and is silent
+on everyone else; the framework prices the silence.
 
 **Note the axis.** This is a *different* contact point with orthodox theory than
 the Hotelling alignment. Hotelling is intertemporal scarcity rent — the
