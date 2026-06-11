@@ -4,12 +4,12 @@ description: For Commons Bonds publisher-facing material touching applied / deci
 type: reference
 originSessionId: 80ad4adb-2fd4-4856-a660-ec55f1ce325e
 ---
-**Canonical full content:** `core/methodology/decision_time_application_internal_v1.0.0.md` §3
+**Canonical full content:** `alignment/methodology/decision_time_application_internal_v1.0.0.md` §3
 **Layer:** scan-friendly summary; this file is the cross-session discipline pointer. Update the canonical artifact when content changes; sync this summary via `tools/memory-updates/` spec for substantive amendments.
 
 # Pattern 2 register for external-facing framework material
 
-**Where to find canonical analysis:** `core/methodology/decision_time_application_internal_v1.0.0.md` §3 — preserves the literature-pattern audit (Pattern 1 / 2 / 3) that grounds this register choice.
+**Where to find canonical analysis:** `alignment/methodology/decision_time_application_internal_v1.0.0.md` §3 — preserves the literature-pattern audit (Pattern 1 / 2 / 3) that grounds this register choice.
 
 ## Three structural patterns observed in comparable framework books
 
@@ -53,4 +53,4 @@ originSessionId: 80ad4adb-2fd4-4856-a660-ec55f1ce325e
 - Insight #9 closed-ratified 2026-04-30 — verdict (b) at external layer + rich internal scaffolding
 - Insight #14 closed-ratified 2026-04-30 by reference — Norway/Accountability Bond as mother case for "demonstrate, don't prescribe" register
 - Insight #25 closed-ratified 2026-04-28 — academic-trade hybrid audience choice (Mazzucato/Raworth/Anderson register)
-- `core/methodology/decision_time_application_internal_v1.0.0.md` — full literature-pattern analysis + worked-example seed material
+- `alignment/methodology/decision_time_application_internal_v1.0.0.md` — full literature-pattern analysis + worked-example seed material

@@ -232,7 +232,7 @@ The Dunbar resonance is real and must be addressed explicitly. Three configurati
 ## Cross-references
 
 - `publishing/essays/aeon-mask-of-abundance/_archive/prior-versions/aeon-pitch-commons-bonds-winn.md` — pitch (title applied 2026-05-08)
-- `research/literature/bibliography.md` §21 — Black literary tradition citations (added 2026-05-08)
+- `tools/back-matter/sources/bibliography.md` §21 — Black literary tradition citations (added 2026-05-08)
 - `research/outreach/subjects/darity/live-call-companion_2026-05-06.md` — Sandy mask-question pivot prepared (added 2026-05-08)
 - `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-04_ch1_title_candidates_v2.0.0.md` — methodology source (pressure-test character set)
 - `alignment/commons_bonds_open_insights_v1.0.0.md` — Insights #65 (open framing) + #66 (universality across cases)

@@ -142,7 +142,7 @@ Total ~3,700 words; inside Noema's 2,500–4,000 band.
 
 ## 2026-05-08 — Bibliography additions (Pistor + Christophers + Susskind); manuscript engagement queued for Ch 5 / Ch 9
 
-**Decision.** Add three entries to `research/literature/bibliography.md` §13 (Framework-adjacent) on substantive grounds, and queue the corresponding manuscript engagement work for the manuscript thread:
+**Decision.** Add three entries to `tools/back-matter/sources/bibliography.md` §13 (Framework-adjacent) on substantive grounds, and queue the corresponding manuscript engagement work for the manuscript thread:
 
 1. **Pistor, Katharina — *The Code of Capital* (2019)** — STRONG SUPPORT (candidate; engagement pending Ch 5 / Ch 9 paragraph integration). Structural-mechanism neighbor: Pistor names the legal-coding architecture that *produces* capital from things; Commons Bonds names the cost-severance architecture that *separates* value-capture from cost-bearing.
 2. **Christophers, Brett — *The Price is Wrong* (2024)** — STRONG SUPPORT (candidate; engagement pending Ch 9 paragraph integration). Direct mechanism-level engagement with how pricing fails — the same territory Commons Bonds enters with Residual Commons Value (RCV).
@@ -169,7 +169,7 @@ Until those engagements land, the new bibliography entries carry **"engagement p
 - Selection rule rewritten around bibliography-anchored leads + at most one Tier 3 round-out.
 
 **Cross-references.**
-- `research/literature/bibliography.md` §13 — new entries inserted after Mazzucato (line 511), before §14 (line 515 pre-insertion).
+- `tools/back-matter/sources/bibliography.md` §13 — new entries inserted after Mazzucato (line 511), before §14 (line 515 pre-insertion).
 - `publishing/book-proposal/02_comp-titles.md` — bibliography ⊆ comps relationship explicit; Cross-thread dependency section added pointing back at the queued manuscript work.
 - Author's stated decision: Option 2 (bibliography-first), with Pistor + Christophers + Susskind named as the additions.
 

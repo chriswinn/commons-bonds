@@ -64,13 +64,13 @@ This distinction matters because:
 
 | File | Issue | Status |
 |---|---|---|
-| `research/literature/bibliography.md` Ostrom entry | Listed only non-renewable examples | ✓ FIXED 2026-05-06 (both regimes named explicitly with example pairs) |
+| `tools/back-matter/sources/bibliography.md` Ostrom entry | Listed only non-renewable examples | ✓ FIXED 2026-05-06 (both regimes named explicitly with example pairs) |
 | `research/outreach/subjects/darity/prereadbrief_2026-05-05.md` framework paragraph | RCV defined only for non-renewable | ✓ FIXED 2026-05-06 (RCV definition expanded to both regimes; accounting-equation thesis sentence expanded) |
 | `research/outreach/_templates/amsterdam-donut-prereadbrief_2026-05-06.md` framework paragraph | RCV defined only for non-renewable | ✓ FIXED 2026-05-06 (RCV definition expanded to both regimes) |
 | `research/outreach/subjects/darity/interview-prep_2026-05-06.md` follow-up Q6 | RCV phrasing mismatch with corrected pre-read | ✓ FIXED 2026-05-06 |
 | `research/case-studies/chesapeake-fisheries.md` | Treats renewable-past-regen as a *boundary test* of a non-renewable formula, rather than a co-equal case the framework was built to cover. Pre-Path-F framing. | ⏳ Deferred to broader manuscript review session — flagged for treatment when chesapeake case study is developed past placeholder. |
 | `manuscript/technical-appendix/TechnicalAppendix_v1.0.0.html` (formal apparatus) | Worth a separate scope-explicitness review pass | ⏳ Deferred to v2.0.0 rebuild (already queued per AGENTS.md current state) |
-| `core/glossary/archive/commons_bonds_updated_glossary_v3.html` (RCV / cost-severance entries) | Worth a separate scope-explicitness review pass | ⏳ Deferred to v4 rebuild (already queued) |
+| `tools/back-matter/sources/glossary/archive/commons_bonds_updated_glossary_v3.html` (RCV / cost-severance entries) | Worth a separate scope-explicitness review pass | ⏳ Deferred to v4 rebuild (already queued) |
 | `manuscript/chapters/Chapter__6_ThreeWaysofCounting__Draft.html` (math-heavy chapter) | Worth a scope-explicitness pass when the chapter develops past placeholder math | ⏳ Deferred to chapter-development session |
 | `README.md` (publisher-facing) | Currently says "across extraction domains — coal mining, oil drilling, fisheries..." — fisheries are named so the renewable-past-regen case is implicitly included, but not framed as co-equal regime | ⏳ Worth reviewing in next manuscript-rigor pass |
 

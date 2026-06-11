@@ -207,7 +207,7 @@ For each test below, the audit (a) reads every appearance of "RCV" / "Residual C
 
 ### §4.1 Canonical definition (terms_index Residual Commons Value entry, lines 477-540)
 
-Comprehensive Tier-D treatment per `core/terms/terms_index.md`. Defines RCV as framework's central quantification with 729+ uses across 34 files; pairs with Accountability Bond B in CS = RCV − B equation; integrand-and-integral form admits new cost components per Four Gates discipline; semantic work per word ("Residual" / "Commons" / "Value" each load-bearing).
+Comprehensive Tier-D treatment per `tools/back-matter/sources/terms_index.md`. Defines RCV as framework's central quantification with 729+ uses across 34 files; pairs with Accountability Bond B in CS = RCV − B equation; integrand-and-integral form admits new cost components per Four Gates discipline; semantic work per word ("Residual" / "Commons" / "Value" each load-bearing).
 
 ### §4.2 Tech Appendix §B Definition A.6 (line 464-470)
 
@@ -500,7 +500,7 @@ The aggregate Phase 2 sweep produces a coordinated upgrade to the framework's ac
 
 **(a) terms_index Residual Commons Value entry — add new "Notational disambiguation" subsection:**
 
-Insert into `core/terms/terms_index.md` Residual Commons Value entry (between "Semantic work per word" and "Usage audit" subsections) the following ~110-word block:
+Insert into `tools/back-matter/sources/terms_index.md` Residual Commons Value entry (between "Semantic work per word" and "Usage audit" subsections) the following ~110-word block:
 
 > **Notational disambiguation.** The framework's **RCV = Residual Commons Value** is distinct from real-world RCV-acronym usages in adjacent domains:
 > - **Insurance "Replacement Cost Value"** (property and casualty insurance) — the cost to replace a damaged item with a new equivalent; vernacular in homeowners / renters / auto insurance policies (per Insurance Information Institute).
@@ -581,9 +581,9 @@ Three concrete enhancements:
 ### §14.5 Implementation pending after ratification
 
 If (a) full ratify:
-1. `core/terms/terms_index.md` Residual Commons Value entry — insert §13.1 (a) Notational disambiguation subsection (~110 words) + §13.2 First-introduction discipline subsection.
+1. `tools/back-matter/sources/terms_index.md` Residual Commons Value entry — insert §13.1 (a) Notational disambiguation subsection (~110 words) + §13.2 First-introduction discipline subsection.
 2. Tech Appendix v1.0.0 HTML §B Definition A.6 line 467 — add §13.1 (b) parenthetical note.
-3. `core/glossary/archive/commons_bonds_updated_glossary_v3.html` Residual Commons Value entry — append §13.1 (c) disambiguating sentence.
+3. `tools/back-matter/sources/glossary/archive/commons_bonds_updated_glossary_v3.html` Residual Commons Value entry — append §13.1 (c) disambiguating sentence.
 4. Bibliography expansion per §13.3 (Insurance Information Institute; Basel Committee 2017; Reilly 2001).
 5. terms_index — append Phase 2 verdict entry; cross-reference to this rigor pass.
 6. Open Insights — new Insight # closed-ratified entry capturing Phase 2 #4 verdict (number TBD; coordinate with sibling Phase 2 + theorem-rigor passes).
@@ -642,11 +642,11 @@ This rigor pass does NOT replace external review; it produces the substrate that
 
 ### §16.3 Downstream artifacts (this pass would update on ratification)
 
-- `core/terms/terms_index.md` Residual Commons Value entry — insert §13.1 (a) Notational disambiguation subsection + §13.2 First-introduction discipline subsection.
+- `tools/back-matter/sources/terms_index.md` Residual Commons Value entry — insert §13.1 (a) Notational disambiguation subsection + §13.2 First-introduction discipline subsection.
 - `manuscript/technical-appendix/TechnicalAppendix_v1.0.0.html` §B Definition A.6 (line 467) — add §13.1 (b) parenthetical note.
-- `core/glossary/archive/commons_bonds_updated_glossary_v3.html` Residual Commons Value entry — append §13.1 (c) disambiguating sentence.
+- `tools/back-matter/sources/glossary/archive/commons_bonds_updated_glossary_v3.html` Residual Commons Value entry — append §13.1 (c) disambiguating sentence.
 - `manuscript/technical-appendix/TechnicalAppendix_v1.0.0.html` bibliography section — Insurance Information Institute; Basel Committee 2017; Reilly 2001 (or FairVote.org).
-- `core/terms/terms_index.md` — append Phase 2 verdict entry; cross-reference to this rigor pass.
+- `tools/back-matter/sources/terms_index.md` — append Phase 2 verdict entry; cross-reference to this rigor pass.
 - `alignment/commons_bonds_open_insights_v1.0.0.md` — new Insight # closed-ratified capturing Phase 2 #4 verdict (number TBD).
 
 ### §16.4 Pre-publication external review (Insight #39)

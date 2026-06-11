@@ -891,7 +891,7 @@ This rigor pass does NOT replace external review.
 - Chapter prose retraining — Ch 5 line 99 + other inline references.
 - Case studies book-home pointers (~10-15 instances).
 - Bibliography chapter-relevance pointers (~3-5 instances).
-- `core/terms/terms_index.md` — append Phase 2 verdict entry; cross-reference to this rigor pass.
+- `tools/back-matter/sources/terms_index.md` — append Phase 2 verdict entry; cross-reference to this rigor pass.
 - `alignment/commons_bonds_open_insights_v1.0.0.md` — new Insight # closed-ratified capturing Phase 2 #3.3 verdict (number TBD).
 - Chapter 9 title: per Enhancement 2 author decision (recommend Option B split).
 

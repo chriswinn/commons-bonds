@@ -84,7 +84,7 @@ workstream completing per Condition NR-3.
 13. publishing/essays/_pipeline/rights-register.md (no rights conflict
     surfaces here — review-essay genre is distinct from chapter-
     derivative essays; verify and embed in brief)
-14. research/literature/bibliography.md §13 + nearby (per-author
+14. tools/back-matter/sources/bibliography.md §13 + nearby (per-author
     engagement state for Mazzucato + Pistor + Christophers + Susskind;
     each engaged at depth at chapter+bibliography level; this is the
     foundation reading-depth-deepening sub-workstream extends)
@@ -464,7 +464,7 @@ Stage 2 kickoff per the Wave 1 pattern).
 
 - Stage 0 RATIFIED artifact: `publishing/essays/nyrb-multi-book-review/rigor/stage-0-ratification.md` (commit `d1d3ce5` 2026-05-24)
 - Wave 2 batch Stage 0 (Ch 8 W2.4 contingency context): `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-24_wave_2_derivative_planning_stage_0_v1.0.0.md` §4.4
-- Reviewed-book bibliography entries: `research/literature/bibliography.md` lines 514 (Mazzucato VoE) + 522 (Pistor *Code*) + 530 (Christophers *TPIW*) + 538 (Susskind *Growth*) + Ch 5 + Ch 9 prose engagement
+- Reviewed-book bibliography entries: `tools/back-matter/sources/bibliography.md` lines 514 (Mazzucato VoE) + 522 (Pistor *Code*) + 530 (Christophers *TPIW*) + 538 (Susskind *Growth*) + Ch 5 + Ch 9 prose engagement
 - Stage 1 doctrine: `tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_1_v1.0.0.md`
 - Marketing-phase memory: `tools/memory/project_book_complete_marketing_phase.md` (load-bearing for this candidate's framing)
 - Cascade plan v2: `publishing/essays/_pipeline/cascade-plan_v2_2026-05-24.md`

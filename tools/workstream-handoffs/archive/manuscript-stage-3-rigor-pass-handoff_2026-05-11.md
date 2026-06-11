@@ -124,7 +124,7 @@ book-audience pressure-test set.
    (verification discipline).
 10. [FILE PATH] — the chapter under audit. Read in full.
 11. Canonical sources to verify against (fact-check pass):
-   - research/literature/bibliography.md §13 (comp + framework-adjacent
+   - tools/back-matter/sources/bibliography.md §13 (comp + framework-adjacent
      entries with engagement-state flags)
    - research/outreach/subjects/<subject>/background-brief_*.md (per
      named subject in the chapter — Darity / Colden / Moore / Dagan
@@ -263,7 +263,7 @@ Before asserting any time-sensitive claim:
 - Verify named-subject consent status against
   research/outreach/subjects/<subject>/ files (canonical).
 - Verify lineage / intellectual-history claims against
-  research/literature/bibliography.md §13.
+  tools/back-matter/sources/bibliography.md §13.
 - Verify apparatus register decisions against
   tools/rigor-passes/commons_bonds_rigor_pass_2026-05-11_apparatus_register_decision_v1.0.0.md.
 - If any cited file does not exist where claimed, stop and ask before
@@ -462,7 +462,7 @@ After commit lands on main: STOP. PM session auto-verifies.
 - `tools/audits/cross-chapter-consistency-inventory_2026-05-11.md` (canonical-terms inventory)
 - `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-11_apparatus_register_decision_v1.0.0.md` (apparatus decisions)
 - `research/audits/cross-chapter-path-b-audit_2026-05-11.md` (cross-chapter Path B baseline)
-- `research/literature/bibliography.md` §13 (engagement-flagged comp + framework-adjacent entries)
+- `tools/back-matter/sources/bibliography.md` §13 (engagement-flagged comp + framework-adjacent entries)
 - `alignment/commons_bonds_framework_positioning_disciplines_v1.0.0.md` (FPD)
 
 ---

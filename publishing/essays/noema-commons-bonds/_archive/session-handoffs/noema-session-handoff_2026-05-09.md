@@ -160,7 +160,7 @@ That was where I first learned that a particular kind of grinding — the willin
 - `publishing/essays/aeon-mask-of-abundance/_archive/prior-versions/aeon-pitch-commons-bonds-winn_VERSION-C.md` — Aeon pitch, ratified for Jun 1, 2026 submission. Different essay; different angle ("The Mask of Abundance"). Useful for cross-reference but DO NOT bleed Aeon framing into Noema essay.
 
 **Bibliography:**
-- `research/literature/bibliography.md` — comprehensive. §21 Black literary tradition (Dunbar / Du Bois / Fanon / Ellison) added 2026-05-08 if needed.
+- `tools/back-matter/sources/bibliography.md` — comprehensive. §21 Black literary tradition (Dunbar / Du Bois / Fanon / Ellison) added 2026-05-08 if needed.
 
 ---
 

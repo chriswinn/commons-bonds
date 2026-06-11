@@ -226,7 +226,7 @@ Per canonical Three Tiers template in `alignment/commons_bonds_framework_positio
 - Technical Appendix v1.0.0 — `manuscript/technical-appendix/TechnicalAppendix_v1.0.0.html`
 - Chapter 3 working draft (when ready) — `manuscript/chapters/` (not yet drafted at time of this prep doc)
 - Chapter 6 (Three Ways of Counting) draft — `manuscript/chapters/Chapter__6_ThreeWaysofCounting__Draft.html`
-- Bibliography §19.5 (Chesapeake fieldwork sources) — `research/literature/bibliography.md`
+- Bibliography §19.5 (Chesapeake fieldwork sources) — `tools/back-matter/sources/bibliography.md`
 - Specific case-study notes from `research/case-studies/`
 - Per-staff: for Goldsborough specifically, the cycle-comparison framework articulations (Hotelling + Ostrom in particular) may be of direct interest; offer Tech Appendix more proactively.
 
@@ -335,7 +335,7 @@ Per canonical Live-call setup template in `alignment/commons_bonds_framework_pos
 - CBF organizational brief (`research/outreach/subjects/cbf/organizational-brief_2026-05-06.md`)
 - Per-subject background brief if applicable: Colden / Moore / [other if newly created]
 - Tech Appendix v1.0.0 — accessible-but-not-script
-- Bibliography (`research/literature/bibliography.md`) §19.5
+- Bibliography (`tools/back-matter/sources/bibliography.md`) §19.5
 - Attribution protocol (`research/outreach/_protocols/interview-attribution-protocol_2026-05-06.md`)
 - FPD canonical articulations (`alignment/commons_bonds_framework_positioning_disciplines_v1.0.0.md`)
 
@@ -421,7 +421,7 @@ Customize once a specific interview is scheduled.
 
 1. **Within 24 hours:** transcribe (or notes if not recorded). Log subject's attribution preference + any modifications.
 2. **Within 48 hours:** thank-you email; include any artifacts agreed (Tech Appendix per Tier 2).
-3. **Update tracking:** `research/outreach/_pipeline/interview-outreach-drafts_2026-05-04_ch3-fieldwork.md`; `research/literature/bibliography.md` §19.5.
+3. **Update tracking:** `research/outreach/_pipeline/interview-outreach-drafts_2026-05-04_ch3-fieldwork.md`; `tools/back-matter/sources/bibliography.md` §19.5.
 4. **Decision points:**
    - Does subject's input warrant a per-subject background brief / interview prep stack of their own (analogous to Colden / Moore)? — for senior subjects (Falk / Prost / Goldsborough / Poston); not for working-waterfront.
    - Does subject's input warrant Noema essay §V third-anchor? — analogous to Colden decision.
@@ -441,5 +441,5 @@ Customize once a specific interview is scheduled.
 - `research/outreach/subjects/moore/response-draft_2026-05-06_via-sherfinski.md` — Sherfinski VA Comms gateway thread (live).
 - `research/outreach/_protocols/interview-attribution-protocol_2026-05-06.md` — Q0 verbal phrasing.
 - `alignment/commons_bonds_framework_positioning_disciplines_v1.0.0.md` — FPD canonical doc; §"Canonical interview-prep four-artifact stack"; §"Canonical framework articulations"; §FPD-5/-6/-7/-8/-9/-10/-11.
-- `research/literature/bibliography.md` §19.5 — Chesapeake fieldwork tentative sources.
+- `tools/back-matter/sources/bibliography.md` §19.5 — Chesapeake fieldwork tentative sources.
 - `research/outreach/_pipeline/interview-outreach-drafts_2026-05-04_ch3-fieldwork.md` — Ch 3 fieldwork outreach pipeline.

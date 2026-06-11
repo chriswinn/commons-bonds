@@ -211,7 +211,7 @@ Per author direction 2026-04-29: full-discipline rigor on Defer-4 items + ratifi
 
 ### §2.5 iCloud incident + project relocation (2026-04-29)
 
-Mid-session, the working tree at `/Users/c17n/Documents/___WorkingOn/commons-bonds` started exhibiting non-deterministic file existence: ~70 files (including `core/terms/terms_index.md` we were actively editing) appeared deleted from disk while remaining intact in HEAD + origin/main. Root cause: project was located under `~/Documents/`, which is iCloud-synced by default in macOS. Author had recently `rm`'d the local working folder + re-cloned from GitHub to the same path; iCloud's cached deletion-state from the prior folder applied to the new contents, partially-deleting files in real-time as iCloud reconciled.
+Mid-session, the working tree at `/Users/c17n/Documents/___WorkingOn/commons-bonds` started exhibiting non-deterministic file existence: ~70 files (including `tools/back-matter/sources/terms_index.md` we were actively editing) appeared deleted from disk while remaining intact in HEAD + origin/main. Root cause: project was located under `~/Documents/`, which is iCloud-synced by default in macOS. Author had recently `rm`'d the local working folder + re-cloned from GitHub to the same path; iCloud's cached deletion-state from the prior folder applied to the new contents, partially-deleting files in real-time as iCloud reconciled.
 
 **Resolution:** Author re-cloned the project to `/Users/c17n/commons-bonds` (outside iCloud-Documents-sync scope). All work-product is intact in origin/main; the new clone has full project state through commit `e2796c6`.
 

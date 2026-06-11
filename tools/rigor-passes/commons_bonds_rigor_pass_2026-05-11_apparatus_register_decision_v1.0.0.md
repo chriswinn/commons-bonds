@@ -1,6 +1,6 @@
 # Apparatus Register Decision Sweep — Rigor Pass v1.0.0 — 2026-05-11
 
-**Status:** Ratified across 15 apparatus items + 2 Path B fixes + 3 adjacent-issue follow-ups, applied to `manuscript/chapters/`, `core/glossary/`, and `manuscript/technical-appendix/`. Standing reference for future essay extractions and chapter polish work.
+**Status:** Ratified across 15 apparatus items + 2 Path B fixes + 3 adjacent-issue follow-ups, applied to `manuscript/chapters/`, `tools/back-matter/sources/glossary/`, and `manuscript/technical-appendix/`. Standing reference for future essay extractions and chapter polish work.
 
 **Methodology:** Bundled execution of the apparatus register sweep (`tools/workstream-handoffs/archive/apparatus-register-sweep-handoff_2026-05-10.md`) and the cross-chapter Path B audit (`tools/workstream-handoffs/archive/path-b-audit-cross-chapter-handoff_2026-05-10.md`) — the two workstreams overlap heavily in the chapter files they edit; bundling avoided merge conflicts.
 
@@ -104,7 +104,7 @@ Specific items flagged:
 ## Reference files for future sessions
 
 - `manuscript/chapters/Chapter*Draft*` — all 10 chapters (post-sweep state)
-- `core/glossary/commons_bonds_updated_glossary_v4.html` — canonical glossary (updated for "central equation" standardization)
+- `tools/back-matter/sources/glossary/commons_bonds_updated_glossary_v4.html` — canonical glossary (updated for "central equation" standardization)
 - `manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html` — formal apparatus (updated for §7→§8 ARR reconciliation + "central equation" standardization; pending: parallel-numbering audit)
 - `publishing/essays/noema-commons-bonds/rigor/early-audience-load_2026-05-09.md` — Noema rigor pass (severity calibration framework + 14-character audience set)
 - `tools/workstream-handoffs/archive/apparatus-register-sweep-handoff_2026-05-10.md` — parent handoff

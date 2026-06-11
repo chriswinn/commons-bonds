@@ -432,7 +432,7 @@ Placeholder schedule. Refine once Dagan accepts and a date is set.
 
 1. **Within 24 hours:** transcribe the conversation (or write up notes if not recorded). Include any modifications to attribution preferences agreed during the call. Otter.ai recommended for transcription with speaker diarization (per Sandy-Darity prep workflow).
 2. **Within 48 hours:** send Dagan a thank-you email; include any clarifying follow-up questions if needed; if he asked for transcript review, send the transcript. If Tier 2 artifacts (Tech Appendix; water-deal hypothetical full doc; Ch 9 excerpt) were requested, send them in this email.
-3. **Update tracking:** mark interview complete in `research/outreach/_pipeline/interview-outreach-drafts_2026-05-01.md` candidate #4 (Raworth track / Beth's warm-intro thread); update `research/literature/bibliography.md` if Dagan recommended specific reading; flag any framework-revision implications in the appropriate guidance docs.
+3. **Update tracking:** mark interview complete in `research/outreach/_pipeline/interview-outreach-drafts_2026-05-01.md` candidate #4 (Raworth track / Beth's warm-intro thread); update `tools/back-matter/sources/bibliography.md` if Dagan recommended specific reading; flag any framework-revision implications in the appropriate guidance docs.
 4. **Decision points:**
    - Does Dagan's input warrant adding him to the Noema essay §VI as an applied-implementation anchor (alongside Mondragon / Vienna / rights-of-nature)?
    - Did he surface a *real* Amsterdam deal-evaluation moment that should replace the water-deal hypothetical in Ch 9 *Pricing Honestly* entering-wedges?
@@ -453,7 +453,7 @@ Placeholder schedule. Refine once Dagan accepts and a date is set.
 - `research/outreach/subjects/dagan/live-call-companion_2026-05-08.md` + `.html` — moment-by-moment live-use reference; consolidates this prep doc + pre-read + background brief into the form needed in the moment.
 - `research/outreach/_protocols/interview-attribution-protocol_2026-05-06.md` — reusable attribution-handling protocol; live Q0 verbal phrasing.
 - `research/outreach/_pipeline/interview-outreach-drafts_2026-05-01.md` candidate #4 (Raworth track / Beth Ingledew warm intro) — outreach pipeline tracking.
-- `research/literature/bibliography.md` — particularly the entries on Raworth / Doughnut Economics, Mazzucato, Boyce, Polanyi.
+- `tools/back-matter/sources/bibliography.md` — particularly the entries on Raworth / Doughnut Economics, Mazzucato, Boyce, Polanyi.
 - `alignment/commons_bonds_framework_positioning_disciplines_v1.0.0.md` §"Canonical framework articulations" → Raworth / Doughnut Economics — drop-in lineage pivot for live use.
 - `alignment/commons_bonds_framework_positioning_disciplines_v1.0.0.md` §"Canonical framework one-paragraph summary" → applied-implementation variant — the variant pattern the pre-read brief uses.
 - `alignment/commons_bonds_framework_positioning_disciplines_v1.0.0.md` §"Canonical interview-prep four-artifact stack" — the stack contract this prep doc participates in.

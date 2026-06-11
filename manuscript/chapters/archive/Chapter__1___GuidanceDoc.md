@@ -4,7 +4,7 @@
 
 **Consolidated 2026-04-30** by Insight #37 separation pass (Thread β.1) — absorbs former temporary `Chapter__1___Scaffolding.md` content; folds extracted Draft annotations into the existing GuidanceDoc rather than maintaining two separate internal files per chapter.
 
-**Staleness disclaimer (2026-04-30):** This file accumulates content across **2026-04-22 → 2026-04-30**. Sections from earlier dates may reference **retired vocabulary** (8-tier scheme retired 2026-04-24 per Insight #21 + Insight #63; AIT renamed to CIT 2026-04-24; Dynastic Labor Cost renamed to Lineage Labor Cost 2026-04-30 per Insight #56; FGC retired; Universality Test retired; Value Capture retired in favor of Value Extraction; Spatial Cost Severance + Temporal Cost Severance reframed) or **superseded direction**. Verify against current state (`core/terms/terms_index.md` + `alignment/commons_bonds_open_insights_v1.0.0.md`) before applying.
+**Staleness disclaimer (2026-04-30):** This file accumulates content across **2026-04-22 → 2026-04-30**. Sections from earlier dates may reference **retired vocabulary** (8-tier scheme retired 2026-04-24 per Insight #21 + Insight #63; AIT renamed to CIT 2026-04-24; Dynastic Labor Cost renamed to Lineage Labor Cost 2026-04-30 per Insight #56; FGC retired; Universality Test retired; Value Capture retired in favor of Value Extraction; Spatial Cost Severance + Temporal Cost Severance reframed) or **superseded direction**. Verify against current state (`tools/back-matter/sources/terms_index.md` + `alignment/commons_bonds_open_insights_v1.0.0.md`) before applying.
 
 **[PER-SECTION STALENESS AUDIT 2026-05-08]**
 
@@ -47,7 +47,7 @@ Ch 1 GuidanceDoc is the largest of the 10 (597 lines). Multiple recent additions
 
 **Cross-references:**
 - `Chapter__1___Draft.md` — publisher-facing prose (currently ~620 publisher-facing words after #37 separation; target 5K-6K).
-- `core/methodology/decision_time_application_internal_v1.0.0.md` — Pattern 2 threading discipline + decision-time worked-example seed material (commute trade is the Ch 1 anchor per Insight #9 verdict 2026-04-30).
+- `alignment/methodology/decision_time_application_internal_v1.0.0.md` — Pattern 2 threading discipline + decision-time worked-example seed material (commute trade is the Ch 1 anchor per Insight #9 verdict 2026-04-30).
 - `alignment/commons_bonds_open_insights_v1.0.0.md` — Insight #36 (Ch 1 + Ch 3 conversational drafting session); Insight #9 (decision-time tooling Pattern 2 verdict ratified 2026-04-30); Insights #16, #17, #18 (CIT sub-forms / Option C' political-philosophical positioning / autonomy-as-commons placement).
 - `alignment/commons_bonds_personal_stories_candidates_v1.0.0.md` — Candidate #1 (commute-trade); Ch 1 anchor.
 - `alignment/commons_bonds_working_principles_v1.0.0.md` — WP#10 (Two-layer content origination discipline); WP#8 (publisher-facing scrubbed of scaffolding).
@@ -367,7 +367,7 @@ Section labels are scaffolding placeholders for the Insight #36 drafting session
 
 [*Per Insight #16 (two CIT sub-forms): commute-trade is paradigm Commons-Consumption Inversion. Per Personal Stories Candidates v1.0.0 §2 Candidate #1: Chris's IT-consulting commute that traded $300/month rent for 5 hours/day of commute, costing ~1800 hours/year. AUTHOR ZONE — Chris's voice. Suggested placement: alongside or following the 120-hour-week passage.*]
 
-[*Pattern 2 anchor (per Insight #9 verdict ratified 2026-04-30 + WP#10): commute-trade is the **opening external-layer demonstration anchor for decision-time tooling**. Personal story carries decision-time framing through demonstration, NOT through methodology codification — readers extract "the framework can be used at decision-time" by watching past-self get severed from future-self's outcome. See `core/methodology/decision_time_application_internal_v1.0.0.md` §3.2 (Pattern 2) + §5 (worked-example seed material) for register discipline.*]
+[*Pattern 2 anchor (per Insight #9 verdict ratified 2026-04-30 + WP#10): commute-trade is the **opening external-layer demonstration anchor for decision-time tooling**. Personal story carries decision-time framing through demonstration, NOT through methodology codification — readers extract "the framework can be used at decision-time" by watching past-self get severed from future-self's outcome. See `alignment/methodology/decision_time_application_internal_v1.0.0.md` §3.2 (Pattern 2) + §5 (worked-example seed material) for register discipline.*]
 
 [*Framework-connection guidance from Personal Stories Candidates §2 Candidate #1:*
 - *Audience-recognition bridge for knowledge-worker readers.*
@@ -424,9 +424,9 @@ Decision-time moments worth threading through Ch 1 prose (any of these, all of t
 - **The moment the framework was visible but not yet named** — the moment Chris's own observation crossed from "this work is expensive" to "the contract priced the billable time, not the displacement." Origin moment per lines 102-108.
 - **The pivot to nursing** — the decision moment when the cost-severance Chris had been bearing became visible enough to act on. Foreclosure-cost made personal: the version of the IT-consulting life that did not happen.
 
-Each of these is a moment where informal CIT + informal RCV (the two-step from `core/methodology/decision_time_application_internal_v1.0.0.md` §2) would surface costs the decision-maker would otherwise miss. **Do not name these costs in chapter prose using framework vocabulary.** Pure Register 1; the decision-time framing emerges from Chris's voice describing the choices he faced and what they cost.
+Each of these is a moment where informal CIT + informal RCV (the two-step from `alignment/methodology/decision_time_application_internal_v1.0.0.md` §2) would surface costs the decision-maker would otherwise miss. **Do not name these costs in chapter prose using framework vocabulary.** Pure Register 1; the decision-time framing emerges from Chris's voice describing the choices he faced and what they cost.
 
-**Worked-example seed material:** `core/methodology/decision_time_application_internal_v1.0.0.md` §5 carries decision-time worked-examples (apartment leases, employment, medical, housing, career pivots, consumer purchases) — Ch 1's commute-trade + 120-hour-week + nursing-pivot examples extend that catalog. Internal-layer; not for chapter prose; informs the conversational session's question shape.
+**Worked-example seed material:** `alignment/methodology/decision_time_application_internal_v1.0.0.md` §5 carries decision-time worked-examples (apartment leases, employment, medical, housing, career pivots, consumer purchases) — Ch 1's commute-trade + 120-hour-week + nursing-pivot examples extend that catalog. Internal-layer; not for chapter prose; informs the conversational session's question shape.
 
 ### Pointers to existing content (do not duplicate)
 

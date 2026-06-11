@@ -24,7 +24,7 @@ Concrete enhancements (each independently ratifiable):
 
 1. **Lineage citation expansion (M12 enhancement)** — add Coulthard 2014 (*Red Skin, White Masks*); Tuck & Yang 2012 ("Decolonization is not a metaphor"); Darity & Mullen 2020 (*From Here to Equality*); Anderson 2017 (*Private Government*); Patel & Moore 2017 (*A History of the World in Seven Cheap Things*); Federici 2004 (*Caliban and the Witch*). Currently terms_index Cost Severance entry cites Polanyi-tradition + employment-severance only.
 
-2. **Ch 1 Option C bridge prose extension** — currently invokes only the labor-severance register. Add the natural-resource *severance tax* register (severance taxes on oil/gas/mineral extraction in US state law: Texas, Alaska, Wyoming, North Dakota, etc.) and the colonial-severance register (severance of land from people, severance of generations from one another). The current canonical framing in [terms_index:283](core/terms/terms_index.md) is a single labor-register paragraph; the extended bridge would invoke three registers (labor + natural-resource + colonial) without bloating the chapter.
+2. **Ch 1 Option C bridge prose extension** — currently invokes only the labor-severance register. Add the natural-resource *severance tax* register (severance taxes on oil/gas/mineral extraction in US state law: Texas, Alaska, Wyoming, North Dakota, etc.) and the colonial-severance register (severance of land from people, severance of generations from one another). The current canonical framing in [terms_index:283](tools/back-matter/sources/terms_index.md) is a single labor-register paragraph; the extended bridge would invoke three registers (labor + natural-resource + colonial) without bloating the chapter.
 
 3. **Tech Appendix §L methodological footnote on cross-political-tradition lineage** — explicit acknowledgment of how the framework positions vis-à-vis (a) reparations economics tradition that uses dollar quantification, (b) decolonial-scholarship reading of severance-as-colonial-cutting, (c) commodification critiques of pricing-the-priceless, and the framework's M12 response (pricing-the-priceable-portion as more honest than ignoring it OR pretending it's totalizing).
 
@@ -106,7 +106,7 @@ This pass treats every cell as a genuine pass/fail test. Effort-to-repair (renam
 
 ### §2.4 What "Cost Severance" and "Severed Cost" name (definitional anchor)
 
-Per [terms_index:224-285](core/terms/terms_index.md):
+Per [terms_index:224-285](tools/back-matter/sources/terms_index.md):
 
 - **Cost Severance** — the structural mechanism by which extraction separates value capture from cost bearing. Process/mechanism noun. Middle position in causal chain *Value Extraction → Cost Severance → Severed Cost*. Subject of the framework's primitive equation: **CS = RCV − B**.
 
@@ -173,7 +173,7 @@ What lineages does the term sit alongside? Which are cited (per terms_index Rigo
 
 ### §3.5 Ch 1 bridge plan verification
 
-Per [collision pass §1](commons_bonds_rigor_pass_2026-04-24_term_cost_severance_collision_v1.0.0.md), Option C ratified 2026-04-24: KEEP Cost Severance + lean into HR-severance collision as rhetorical bridge in Ch 1. Canonical framing at [terms_index:283](core/terms/terms_index.md). This pass tests:
+Per [collision pass §1](commons_bonds_rigor_pass_2026-04-24_term_cost_severance_collision_v1.0.0.md), Option C ratified 2026-04-24: KEEP Cost Severance + lean into HR-severance collision as rhetorical bridge in Ch 1. Canonical framing at [terms_index:283](tools/back-matter/sources/terms_index.md). This pass tests:
 
 (a) Is the canonical framing prose actually adequate at Tier 2d depth?
 (b) Are there missing register-anchors (severance-tax; colonial-severance) that should extend the bridge?
@@ -191,7 +191,7 @@ Per [collision pass §1](commons_bonds_rigor_pass_2026-04-24_term_cost_severance
 
 This reader's HR-severance reflex is mild but present (most B-register readers have encountered employment-severance vocabulary). The reader is also primed to encounter framework-coined terms — this is the genre.
 
-**Bridge interaction:** the canonical Ch 1 bridge ([terms_index:283](core/terms/terms_index.md)) reads cleanly to this reader. *"Corporate America knows the word 'severance.'... Cost severance is the same move, applied differently"* lands as a teaching move, not as defensive disambiguation. The B-register reader actively appreciates the framework crediting their existing vocabulary.
+**Bridge interaction:** the canonical Ch 1 bridge ([terms_index:283](tools/back-matter/sources/terms_index.md)) reads cleanly to this reader. *"Corporate America knows the word 'severance.'... Cost severance is the same move, applied differently"* lands as a teaching move, not as defensive disambiguation. The B-register reader actively appreciates the framework crediting their existing vocabulary.
 
 **Severed Cost (companion term):** reads as a quantified-instance noun. Pattern-matches existing reader vocabulary (severed tie; severed connection). The reader follows the role-discipline (mechanism vs result) without effort.
 
@@ -562,7 +562,7 @@ The framework's vocabulary aligns. The concern is **commodification critique** (
 
 ### §5.1 Definitional precision
 
-Per [terms_index:226 + 234-242](core/terms/terms_index.md):
+Per [terms_index:226 + 234-242](tools/back-matter/sources/terms_index.md):
 
 - Cost Severance: defined as "the structural mechanism by which extraction separates value capture from cost bearing." Mechanism noun. Middle position in causal chain *Value Extraction → Cost Severance → Severed Cost*.
 - Severed Cost: defined as "a specific cost that has been severed; the result/quantity noun naming the quantified outcome of the Cost Severance mechanism."
@@ -594,7 +594,7 @@ Mathematical-role coherence is STRONG. The pair operates correctly under standar
 
 ### §5.4 Lineage citation completeness audit
 
-**Currently cited in [terms_index:242-253](core/terms/terms_index.md):**
+**Currently cited in [terms_index:242-253](tools/back-matter/sources/terms_index.md):**
 
 - Polanyi-tradition + employment-severance (M12 lineage)
 - CS-vs-SC triage rigor pass (2026-04-24)
@@ -956,7 +956,7 @@ The verdict structure is layered — author can ratify components independently:
 
 ### §13.2 Downstream artifacts (this pass would update on ratification)
 
-- `core/terms/terms_index.md` Cost Severance + Severed Cost entries — Rigor-provenance sections updated with Phase 2 lineage citations + verdict.
+- `tools/back-matter/sources/terms_index.md` Cost Severance + Severed Cost entries — Rigor-provenance sections updated with Phase 2 lineage citations + verdict.
 - `manuscript/chapters/Chapter__1___Draft.md` — bridge prose extension applied per §7.4 DRAFT (or author-revised version).
 - `manuscript/technical-appendix/TechnicalAppendix_v1.0.0.html` (or v2.0.0 if Phase 3 rebuild lands first) — §L methodological footnote on Cost Severance + Severed Cost commodification + decolonial framing.
 - `alignment/commons_bonds_open_insights_v1.0.0.md` — new closed-ratified Insight #35 capturing Phase 2 verdict.

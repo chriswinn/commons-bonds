@@ -109,7 +109,7 @@ These are referenced from `tools/` content but live elsewhere:
 | `core/` | Canonical framework content (eight-tier decomposition, glossary, technical appendix — math-heavy `.html` that stays `.html` per watch items). |
 | `manuscript/chapters/` | Chapter drafts + guidance docs. Uploaded on demand when drafting/revising. |
 | `research/case-studies/` | Standalone case study files (Appalachian coal, Norway SWF, Libby, Deepwater Horizon, opioid-extraction-Appalachia, 2008-financial-crisis, healthcare-end-of-life, housing-enforced-immobility, tax-tradeoff-US-Sweden). Uploaded on demand. |
-| `research/literature/bibliography.md` | Consolidated bibliography with support/contradict annotations. Upload when scholarly engagement is active. |
+| `tools/back-matter/sources/bibliography.md` | Consolidated bibliography with support/contradict annotations. Upload when scholarly engagement is active. |
 
 ---
 

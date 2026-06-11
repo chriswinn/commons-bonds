@@ -225,7 +225,7 @@ unambiguously yes.
 ## Recommended bibliography additions
 
 These are the genuinely on-point, web-verified sources currently ABSENT from
-`research/literature/bibliography.md`. (Bib grep 2026-06-07 confirms none of Palmer,
+`tools/back-matter/sources/bibliography.md`. (Bib grep 2026-06-07 confirms none of Palmer,
 Bernhardt, Lindberg, Solomon, Archer, or an IPCC AR6 WG1 SPM entry are present; only
 Nordhaus DICE, Stern, and the Rio precautionary-principle entry exist on the climate side.)
 

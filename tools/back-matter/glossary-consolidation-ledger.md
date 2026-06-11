@@ -8,7 +8,7 @@ open reconciliation items. The reader-facing glossary carries none of this.
 
 ## Canonicity decision (author-ratified 2026-06-09)
 
-**Source of truth going forward: `core/glossary/commons_bonds_updated_glossary_v4.html`.**
+**Source of truth going forward: `tools/back-matter/sources/glossary/commons_bonds_updated_glossary_v4.html`.**
 - v2 — SUPERSEDED 2026-04-29 (self-marked → v3). Archival.
 - v3 — self-declared "Canonical Vocabulary Glossary — v3" (2026-04-24, 28 terms).
 - v4 — latest (2026-05-02; +Ch2 severance term-choice note 2026-06-05), 39 terms, superset.
@@ -70,7 +70,7 @@ blocker — the reader-facing glossary follows v4 — but the lineage should rec
    reconciled against the v4 glossary term set. A future pass should confirm every TA-defined
    framework term has a matching glossary entry (and vice-versa) so the two agree. Low risk
    (the glossary is already curated reader prose); deferred for scope.
-2. **terms_index.md.** `core/terms/terms_index.md` (1,915-line internal term-provenance source)
+2. **terms_index.md.** `tools/back-matter/sources/terms_index.md` (1,915-line internal term-provenance source)
    is the deeper provenance layer behind the glossary. Not touched this session. If the glossary
    is ever regenerated from terms_index (rather than curated v4 prose), that is a separate workstream.
 3. **v2/v3 retirement.** Once v4 is confirmed canonical and the reader-facing glossary ships,

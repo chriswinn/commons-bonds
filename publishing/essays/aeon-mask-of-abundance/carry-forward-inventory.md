@@ -107,7 +107,7 @@ carry-forward inventory).
   - Pass 3.2 voice-polish: `publishing/essays/aeon-mask-of-abundance/rigor/pass-3-2-voice-polish.md`
   - Pass 3.3 + 3.4 bundled audience-load: `publishing/essays/aeon-mask-of-abundance/rigor/pass-3-3-and-3-4-bundled-audience-load.md`
 - **Source chapter:** `manuscript/chapters/Chapter__7_OnOtherWorlds__Draft.md`
-- **Cultural-engagement commitment paratext:** `research/literature/bibliography.md` §21 (Dunbar / Du Bois / Ellison / Fanon)
+- **Cultural-engagement commitment paratext:** `tools/back-matter/sources/bibliography.md` §21 (Dunbar / Du Bois / Ellison / Fanon)
 - **Pre-existing essay-related Aeon material:**
   - `publishing/essays/aeon-mask-of-abundance/_archive/planning/aeon-essay-dunbar-aside-drafts_2026-05-08.md` (cultural-engagement drafts; bibliography §21 connected)
 - **Pipeline doctrine (v3.1):** `tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md`

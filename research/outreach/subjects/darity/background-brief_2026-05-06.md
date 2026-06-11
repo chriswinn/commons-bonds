@@ -165,4 +165,4 @@ This is the framework the author should expect Sandy to use to interpret McDowel
 - `research/outreach/subjects/darity/interview-prep_2026-05-06.md` — internal interview prep doc; pivot anticipations + talking-point notes informed by this background brief (FPD-6).
 - `research/outreach/_protocols/interview-attribution-protocol_2026-05-06.md` — live Q0 phrasing (FPD-7).
 - `alignment/commons_bonds_framework_positioning_disciplines_v1.0.0.md` §FPD-9 — the discipline this brief instantiates.
-- `research/literature/bibliography.md` §18.5 — Hotelling / Hartwick / Solow / reparations-economics anchors (where Darity + Mullen + Hamilton-et-al sit in the project bibliography).
+- `tools/back-matter/sources/bibliography.md` §18.5 — Hotelling / Hartwick / Solow / reparations-economics anchors (where Darity + Mullen + Hamilton-et-al sit in the project bibliography).

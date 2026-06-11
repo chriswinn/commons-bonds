@@ -371,7 +371,7 @@ Refinements:
 
 - `alignment/commons_bonds_vocabulary_strategy_v1.0.1.md` — bumps to v1.0.1 with refinements (or v1.1.0 if Option 4 ratified)
 - `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-28_intergenerational_cluster_vocabulary_consolidation_v1.0.0.md` — references ratified shape in synthesis sections
-- `core/terms/terms_index.md` per-term records — cite ratified framework shape in Rigor-provenance sections
+- `tools/back-matter/sources/terms_index.md` per-term records — cite ratified framework shape in Rigor-provenance sections
 
 ---
 

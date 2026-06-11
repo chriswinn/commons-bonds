@@ -95,7 +95,7 @@ Coordinating with the Path B audit and apparatus register sweep: those workstrea
 - `manuscript/chapters/_BookLevelGuidance.md`
 - Glossary (location varies; check `manuscript/`)
 - Tech Appendix
-- `research/literature/bibliography.md`
+- `tools/back-matter/sources/bibliography.md`
 - `tools/workstream-handoffs/archive/manuscript-completion-handoff_2026-05-09.md` (overlapping bibliography flag-update workstream)
 
 ---

@@ -33,10 +33,10 @@ Original findings (HIGH-1 through LOW-4 + CC-1, CC-2) preserved with substance u
 
 1. [Chapter 8 — What Things Actually Cost](manuscript/chapters/Chapter__8_WhatThingsActuallyCost.md) — cross-chapter consistency baseline for $500-$600/ton coal arithmetic.
 2. [Chapter 5 — The Accountability Gap](manuscript/chapters/Chapter__5_THEACCOUNTABILITYGAP.md) — Pistor canonical citation site (~155w engagement).
-3. [research/literature/bibliography.md](research/literature/bibliography.md) §13 (lines 522, 530, 538) and §19 (lines 1000, 1008, 1016) — Pistor / Christophers / Susskind canonical entries.
+3. [tools/back-matter/sources/bibliography.md](tools/back-matter/sources/bibliography.md) §13 (lines 522, 530, 538) and §19 (lines 1000, 1008, 1016) — Pistor / Christophers / Susskind canonical entries.
 4. [tools/audits/cross-chapter-consistency-inventory_2026-05-11.md](tools/audits/cross-chapter-consistency-inventory_2026-05-11.md) — canonical-terms, named-cases, recurring-stats inventory.
 5. [tools/rigor-passes/commons_bonds_rigor_pass_2026-05-11_apparatus_register_decision_v1.0.0.md](tools/rigor-passes/commons_bonds_rigor_pass_2026-05-11_apparatus_register_decision_v1.0.0.md) — apparatus register canonical decisions.
-6. [core/terms/terms_index.md](core/terms/terms_index.md) — apparatus-term canonical-form check.
+6. [tools/back-matter/sources/terms_index.md](tools/back-matter/sources/terms_index.md) — apparatus-term canonical-form check.
 7. [tools/rigor-passes/commons_bonds_rigor_pass_2026-05-12_ch4_existence_proof_stage3_fact_check_v1.0.0.md](tools/rigor-passes/commons_bonds_rigor_pass_2026-05-12_ch4_existence_proof_stage3_fact_check_v1.0.0.md) — Ch 4 Pass 1 artifact (format model).
 8. External canonical sources (web-verified during this session):
    - USGS Mineral Commodity Summaries 2025 (phosphate rock; Morocco/Western Sahara reserves)
@@ -627,8 +627,8 @@ No living-private subjects named. Place names (Mondragon, Vienna, Chattanooga, B
 ### Flag CC-1: Bibliography internal disagreement — Susskind US publisher
 
 **Locations:**
-- [research/literature/bibliography.md:538](research/literature/bibliography.md:538) — Susskind §13 entry: "Belknap Press / Harvard University Press, 2024"
-- [research/literature/bibliography.md:1016](research/literature/bibliography.md:1016) — Susskind §19 entry: "Allen Lane / Harvard University Press, 2024"
+- [tools/back-matter/sources/bibliography.md:538](tools/back-matter/sources/bibliography.md:538) — Susskind §13 entry: "Belknap Press / Harvard University Press, 2024"
+- [tools/back-matter/sources/bibliography.md:1016](tools/back-matter/sources/bibliography.md:1016) — Susskind §19 entry: "Allen Lane / Harvard University Press, 2024"
 
 **Issue:** The bibliography has two entries for Susskind, *Growth: A Reckoning* with different publisher designations. The §13 entry uses "Belknap Press / Harvard University Press" (Belknap = Harvard UP US imprint); the §19 entry uses "Allen Lane / Harvard University Press" (Allen Lane = Penguin UK imprint).
 
@@ -785,6 +785,6 @@ Author ratification (2026-05-19 same-session, post-walkthrough):
 18. ✅ **CC-1 (bibliography §13 + §19 Susskind entries):** RATIFIED — Option B (dual-imprint format: "Allen Lane (UK) / Belknap Press of Harvard University Press (US), 2024"). Applied to both bibliography entries; preserves dual-edition reality + clarifies the Ch 9 UK-title usage.
 19. ✅ **CC-2 (cross-chapter consistency inventory §3 new row):** RATIFIED — Option A (added McDowell coal per-ton total floor row: $558 Ch 8 canonical / $500-$600 Ch 9:12 bracket / approximately $550 Ch 9:116 rhetorical anchor). Applied; closes the cross-chapter relationship for future audits.
 
-**Phase C application summary:** 12 prose edits applied to `manuscript/chapters/Chapter__9_PricingHonestly.md` (touching ~10 distinct paragraphs); 2 bibliography entry updates applied to `research/literature/bibliography.md` §13 + §19 Susskind entries; 1 new row added to `tools/audits/cross-chapter-consistency-inventory_2026-05-11.md` §3 Recurring statistics. Single atomic commit per CLAUDE.md author-ratified-content-changes merge-to-main discipline.
+**Phase C application summary:** 12 prose edits applied to `manuscript/chapters/Chapter__9_PricingHonestly.md` (touching ~10 distinct paragraphs); 2 bibliography entry updates applied to `tools/back-matter/sources/bibliography.md` §13 + §19 Susskind entries; 1 new row added to `tools/audits/cross-chapter-consistency-inventory_2026-05-11.md` §3 Recurring statistics. Single atomic commit per CLAUDE.md author-ratified-content-changes merge-to-main discipline.
 
 **Phase A status for Ch 9 Pass 1:** CLOSED. Pass 2 (Voice-polish) + Pass 3 (Audience-load) still required to complete Phase A coverage of this chapter; schedule per per-prompt serial cadence. The Public Choice insertion's voice-polish + audience-load coverage will be picked up by those subsequent passes per the change-cascade routing the rent-seeking-engagement commit set up.

@@ -273,7 +273,7 @@ Per Amendment A: load-bearing protection against Stage 2 factual drift. The Noem
 
 ### 7.10 Bibliography / engagement notes carried forward
 
-- Bibliography location: `research/literature/bibliography.md` §13 (comp-aligned framework-adjacent entries; Pistor + Christophers + Susskind engagement-pending status).
+- Bibliography location: `tools/back-matter/sources/bibliography.md` §13 (comp-aligned framework-adjacent entries; Pistor + Christophers + Susskind engagement-pending status).
 - Aeon Ch 7 framing: closed-habitat / six cost-hiding mechanisms / "mask of abundance" — **DO NOT borrow.** Confirmed no overlap with BR Ch 5 essay (rights register confirms low conflict).
 - Noema Ch 1 + Ch 10 framing: vignette-led / solutions cluster γ — **DO NOT borrow.** Different frame.
 

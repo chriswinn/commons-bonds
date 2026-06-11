@@ -606,7 +606,7 @@ This rigor pass does NOT replace external review; it produces the substrate that
 - `manuscript/technical-appendix/TechnicalAppendix_v1.0.0.html` §B Definition A.3 (line 432-449) — expanded text per §13.1.
 - `manuscript/technical-appendix/TechnicalAppendix_v1.0.0.html` §10 Theorem E.4 statement (line 3285) + McDowell (line 2821) + §M.5 (line 6948 or 7020) — cross-reference parentheticals per §13.2.
 - `manuscript/technical-appendix/TechnicalAppendix_v1.0.0.html` bibliography section — Pindyck 1978, Dasgupta-Heal 1979, Mussa-Rosen 1978, Slade-Thille 2009, Spence 1976, Tirole 1988 additions.
-- `core/terms/terms_index.md` — Phase 2 verdict entry; cross-reference to this rigor pass.
+- `tools/back-matter/sources/terms_index.md` — Phase 2 verdict entry; cross-reference to this rigor pass.
 - `alignment/commons_bonds_open_insights_v1.0.0.md` — new Insight # closed-ratified capturing Phase 2 #8 verdict (number TBD; coordinate with sibling theorem-rigor passes).
 
 ### §16.4 Pre-publication external review (Insight #39)

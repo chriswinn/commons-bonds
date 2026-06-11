@@ -209,7 +209,7 @@ Per-interview customization: each prep doc can add a Tier 1 + Tier 2 list specif
 - Pre-read brief (refer to questions verbatim if needed)
 - This interview prep doc (follow-up questions, talking-point notes, three tiers, pivot anticipations, contingency plan)
 - Tech Appendix v1.0.0 (`manuscript/technical-appendix/TechnicalAppendix_v1.0.0.html`) — accessible-but-not-script. Reference only if subject asks something specific about the math; do NOT walk through formulas verbally. Move is "I can email after the call."
-- Bibliography (`research/literature/bibliography.md`) — in case subject names a citation we need to look up.
+- Bibliography (`tools/back-matter/sources/bibliography.md`) — in case subject names a citation we need to look up.
 - Substantive background brief (FPD-9) for the specific subject — for last-second refresh on their positions.
 
 *Physical at hand:*

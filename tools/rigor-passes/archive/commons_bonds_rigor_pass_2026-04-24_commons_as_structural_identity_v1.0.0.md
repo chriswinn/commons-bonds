@@ -369,9 +369,9 @@ Both sub-forms should be named in the Tech Appendix methodology section. Ch 6 pr
 Files containing "AIT" or "Abundance Inversion Test" that need updating:
 
 1. **Core docs:**
-   - `core/glossary/archive/commons_bonds_updated_glossary_v2.html` → v3 with CIT entry
+   - `tools/back-matter/sources/glossary/archive/commons_bonds_updated_glossary_v2.html` → v3 with CIT entry
    - `core/dimensions/commons_bonds_abundance_dimensions_v1_3_0.md` → rename + sweep; possibly retitle
-   - `core/terms/terms_index.md` → Terms Index records for AIT → CIT (v1.1 bump)
+   - `tools/back-matter/sources/terms_index.md` → Terms Index records for AIT → CIT (v1.1 bump)
    - `manuscript/technical-appendix/TechnicalAppendix_v0.0.4.html` → methodology section
 
 2. **Chapter drafts (Manuscript):**

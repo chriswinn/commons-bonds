@@ -29,7 +29,7 @@
 8. [`tools/workstream-handoffs/archive/manuscript-stage-3-rigor-pass-handoff_2026-05-11.md`](../workstream-handoffs/archive/manuscript-stage-3-rigor-pass-handoff_2026-05-11.md) — Ch 7 row at line 69 (Aeon thunder-stealing protection; sample-chapter default per line 333; existential-substitutability-gap lineage citation).
 9. [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-11_apparatus_register_decision_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-11_apparatus_register_decision_v1.0.0.md) — apparatus register canonical decisions (Item 7 CIT-dropped; Item 14 RCV Sandel-hybrid; Item 15 Ch 7 six-pattern Ostrom-path framing).
 10. [`tools/audits/cross-chapter-consistency-inventory_2026-05-11.md`](../audits/cross-chapter-consistency-inventory_2026-05-11.md) — canonical-terms inventory.
-11. [`core/terms/terms_index.md`](../../core/terms/terms_index.md) — apparatus-term canonical-form spot-check (Substitutability Function S at line 689; Abundance Masking at line 120; existential substitutability gap with Bostrom-lineage citation requirement at line 683 verified).
+11. [`tools/back-matter/sources/terms_index.md`](../../tools/back-matter/sources/terms_index.md) — apparatus-term canonical-form spot-check (Substitutability Function S at line 689; Abundance Masking at line 120; existential substitutability gap with Bostrom-lineage citation requirement at line 683 verified).
 12. [`manuscript/essay/aeon/aeon-pitch-commons-bonds-winn_VERSION-C.md`](../../manuscript/essay/aeon/aeon-pitch-commons-bonds-winn_VERSION-C.md) — Aeon Version C pitch; Sun May 31 14:01 UTC fire window still active; verbatim-overlap held passage at Ch 7:101 verified intact in chapter.
 13. Memory: [`feedback_audience_aware_drafting_discipline.md`](/Users/c17n/.claude/projects/-Users-c17n-commons-bonds/memory/feedback_audience_aware_drafting_discipline.md) v3.1 (explicit-gate cascade for Pass 3.3/3.4/3.5); [`feedback_dual_audience_test.md`](/Users/c17n/.claude/projects/-Users-c17n-commons-bonds/memory/feedback_dual_audience_test.md) (layman + specialist test); [`feedback_verify_stale_memory_claims.md`](/Users/c17n/.claude/projects/-Users-c17n-commons-bonds/memory/feedback_verify_stale_memory_claims.md).
 
@@ -763,7 +763,7 @@ Verified per session hard constraint: chapter line 121 retains "Theorem 10.3 (Ab
 
 ### §5.6 Bostrom-lineage citation at Ch 7:141 — ✓ SATISFIES terms_index discipline
 
-Per `core/terms/terms_index.md` line 683: "Prose form **existential substitutability gap** requires Bostrom 2002 + Bostrom 2014 + MacAskill 2022 + Ord 2020 lineage citations on first chapter introduction (per Insight #33 disambiguation discipline)."
+Per `tools/back-matter/sources/terms_index.md` line 683: "Prose form **existential substitutability gap** requires Bostrom 2002 + Bostrom 2014 + MacAskill 2022 + Ord 2020 lineage citations on first chapter introduction (per Insight #33 disambiguation discipline)."
 
 Chapter line 141 satisfies: "the existential-risk economics lineage — Bostrom 2002 (the existential-risk concept's origination); Bostrom 2014 *Superintelligence*; MacAskill 2022 *What We Owe the Future*; Ord 2020 *The Precipice*; and the Future of Humanity Institute / Centre for the Study of Existential Risk literatures." ✓ All four required citations + FHI/CSER literature pointer present.
 

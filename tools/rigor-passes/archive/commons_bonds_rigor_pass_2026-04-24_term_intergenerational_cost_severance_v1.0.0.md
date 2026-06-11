@@ -396,7 +396,7 @@ Wins on every module with meaningful signal. M1 and M7 indifferent (CORE and ori
 
 **Effort:** ~5 minutes.
 
-**Where:** `core/glossary/archive/commons_bonds_updated_glossary_v2.html` → v3.
+**Where:** `tools/back-matter/sources/glossary/archive/commons_bonds_updated_glossary_v2.html` → v3.
 
 ### Condition 2 — Ch 6 integration
 
@@ -416,11 +416,11 @@ Wins on every module with meaningful signal. M1 and M7 indifferent (CORE and ori
 
 ### Condition 4 — Terms index provenance record
 
-**What:** Add provenance record to `core/terms/terms_index.md` §4 showing "intergenerational cost severance" as `CURRENT` prose-phrase with cross-reference to both parent concepts (intergenerational + Cost Severance).
+**What:** Add provenance record to `tools/back-matter/sources/terms_index.md` §4 showing "intergenerational cost severance" as `CURRENT` prose-phrase with cross-reference to both parent concepts (intergenerational + Cost Severance).
 
 **Effort:** ~10 minutes.
 
-**Where:** `core/terms/terms_index.md`.
+**Where:** `tools/back-matter/sources/terms_index.md`.
 
 ---
 
@@ -501,4 +501,4 @@ Absent these triggers, verdict stands.
 
 ---
 
-*End of Extreme-Rigor Pass v1.0.0. Option A (adopt "intergenerational cost severance" as book's standard prose phrase) PASSES-UNCONDITIONALLY. Completes the Option-C outcome from the Temporal-Cost-Severance rigor pass. Pending author ratification at §18. Provenance record at §17 ready for `core/terms/terms_index.md` §4.*
+*End of Extreme-Rigor Pass v1.0.0. Option A (adopt "intergenerational cost severance" as book's standard prose phrase) PASSES-UNCONDITIONALLY. Completes the Option-C outcome from the Temporal-Cost-Severance rigor pass. Pending author ratification at §18. Provenance record at §17 ready for `tools/back-matter/sources/terms_index.md` §4.*

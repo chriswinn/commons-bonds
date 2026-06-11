@@ -61,8 +61,8 @@ New insights automatically get added to the todo list in both states: one entry 
   - **Synthesis Ring-1 rigor pass** (`commons_bonds_rigor_pass_2026-04-24_synthesis_ring1_terms_v1.0.0.md`) — verdict: "All four standalone verdicts hold under synthesis. The Ring-1 vocabulary architecture is COHERENT and PASSES extreme rigor as an integrated whole"
   - **Ring-1 full integrated rigor pass** (`commons_bonds_rigor_pass_2026-04-24_ring1_full_integrated_v1.0.0.md`) — verdict: "ALL 7 RING-1 TERMS PASS INTEGRATED RIGOR UNCONDITIONALLY"
   - **Subsequent retirements** of Value Capture (→ Value Extraction; sweep executed 2026-04-26 commit `90f9c3f`); Spatial Cost Severance + Temporal Cost Severance (re-examined and reframed); CSG (parsimony retirement); FGC (8-tier-vintage retirement); Universality Test; AIT (→ CIT)
-- **Vocabulary footprint as of 2026-04-26:** 7 Ring-1 terms (Cost Severance · Severed Cost · Value Extraction · CIT · RCV · Cᵢ · Commons Bonds) + ~10-12 Ring-2 operational terms + retired-term provenance preserved in `core/terms/terms_index.md`. Footprint substantially reduced from original ~20+; rigor backing complete.
-- **Dependencies / Links:** vocabulary-footprint meta-pass + 7 Ring-1 individual passes + synthesis + integrated passes; `core/terms/terms_index.md` for current ring-membership provenance.
+- **Vocabulary footprint as of 2026-04-26:** 7 Ring-1 terms (Cost Severance · Severed Cost · Value Extraction · CIT · RCV · Cᵢ · Commons Bonds) + ~10-12 Ring-2 operational terms + retired-term provenance preserved in `tools/back-matter/sources/terms_index.md`. Footprint substantially reduced from original ~20+; rigor backing complete.
+- **Dependencies / Links:** vocabulary-footprint meta-pass + 7 Ring-1 individual passes + synthesis + integrated passes; `tools/back-matter/sources/terms_index.md` for current ring-membership provenance.
 - **Todo link:** N/A (closed).
 
 ### Insight #2 — Gate names are inconsistent in convention
@@ -106,7 +106,7 @@ New insights automatically get added to the todo list in both states: one entry 
 - **Content:** "Commons Bonds" is the book title and the framework's identifying name. It has been in use throughout the project but has not been run through the rigor protocol v2.2.0 suite. Given that (a) the framework's structure has materially resettled this session (Path F + tier dissolution + macro-grouping Option A), and (b) "Commons Bonds" is arguably the most load-bearing single vocabulary item (readers encounter it first; editors and librarians index against it), running rigor on the name itself is overdue.
 - **Why it matters:** If the name doesn't survive current-state rigor, changing it is cheaper now than after publication. If it survives cleanly, the rigor pass itself becomes publication-defense material.
 - **Resolution (2026-04-24):** Full extreme-rigor pass executed (`tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-24_term_commons_bonds_v1.0.0.md`, commit `be6646f`). Verdict: Option A PASSES UNCONDITIONALLY. Polysemy confirmed as load-bearing (three meanings: accountability bonds / relational bonds / structural bonds — each does framework-serving work). 7 rename candidates tested; none improves on decisive axes. Reinforced by full Ring-1 integrated rigor pass (commit `d4c4be4`) showing Commons Bonds pairs coherently with every other Ring-1 term. Batch-ratified 2026-04-24 by Chris Winn.
-- **Dependencies / Links:** Commons Bonds CURRENT Ring-1 record in `core/terms/terms_index.md` §4. Rigor passes at `tools/rigor-passes/`.
+- **Dependencies / Links:** Commons Bonds CURRENT Ring-1 record in `tools/back-matter/sources/terms_index.md` §4. Rigor passes at `tools/rigor-passes/`.
 - **Todo link:** N/A (closed).
 
 ### Insight #5 — Glossary v2 has a Foreclosure Cost duplicate (pre-existing hygiene issue)
@@ -116,11 +116,11 @@ New insights automatically get added to the todo list in both states: one entry 
 - **Category:** vocabulary · craft
 - **Content:** "Foreclosure Cost" appeared twice in glossary v2: once under Mathematical and Measurement Terms, once as Tier 4. The duplicate resolved automatically when tier dissolution happened, but the original concern was broader: the glossary v2 → v3 bump might need more than a rename sweep — a full structural walk-through to catch other duplicates or stale entries.
 - **Closure (2026-04-26):** Closed via the cumulative work of:
-  - **M12 intellectual-honesty sweep** (`tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-24_m12_intellectual_honesty_sweep_v1.0.0.md`, commit `c07a7c1`) — comprehensive M12 sweep across **every term currently in `core/terms/terms_index.md` plus every term referenced in `core/glossary/archive/commons_bonds_updated_glossary_v3.html`**. Each term verified against M12 Corollary D 7-level action ladder. Surfaced + corrected v1.43.0 misframing on CSG; comprehensive structural audit completed.
+  - **M12 intellectual-honesty sweep** (`tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-24_m12_intellectual_honesty_sweep_v1.0.0.md`, commit `c07a7c1`) — comprehensive M12 sweep across **every term currently in `tools/back-matter/sources/terms_index.md` plus every term referenced in `tools/back-matter/sources/glossary/archive/commons_bonds_updated_glossary_v3.html`**. Each term verified against M12 Corollary D 7-level action ladder. Surfaced + corrected v1.43.0 misframing on CSG; comprehensive structural audit completed.
   - **Glossary v3 build** (commit `5123da6`) — glossary v3 was constructed from scratch with provenance discipline, not as a rename sweep over v2. Each entry was created with its current ratified status + rigor-pass cross-reference. The "structural walk-through" the original insight asked for IS the v3 build itself.
-  - **Glossary v2** (`core/glossary/archive/commons_bonds_updated_glossary_v2.html`) — retired; preserved as lineage record. The Foreclosure Cost duplicate that triggered the insight is in v2 only and does not propagate to v3.
+  - **Glossary v2** (`tools/back-matter/sources/glossary/archive/commons_bonds_updated_glossary_v2.html`) — retired; preserved as lineage record. The Foreclosure Cost duplicate that triggered the insight is in v2 only and does not propagate to v3.
 - **Glossary as of 2026-04-26:** v3 is current canonical (commit `5123da6`); covers Ring-1 / Ring-2 / Architecture / Commons Categories / Retired Terms with provenance per entry. Cross-checked by M12 sweep against terms_index. No outstanding structural-audit items.
-- **Dependencies / Links:** M12 sweep + glossary v3 build; `core/glossary/archive/commons_bonds_updated_glossary_v3.html` (current canonical); `core/terms/terms_index.md` (cross-referenced by every glossary entry).
+- **Dependencies / Links:** M12 sweep + glossary v3 build; `tools/back-matter/sources/glossary/archive/commons_bonds_updated_glossary_v3.html` (current canonical); `tools/back-matter/sources/terms_index.md` (cross-referenced by every glossary entry).
 - **Todo link:** N/A (closed).
 
 ### Insight #6 — Running 31 individual rigor passes may be the wrong structural approach
@@ -150,7 +150,7 @@ New insights automatically get added to the todo list in both states: one entry 
   - **Value Extraction promoted to Ring 1**
   - **Mazzucato 2018 citation discipline + Harvey 2003 lineage** ratified per v1.1.0 addendum; canonical citation form drafted
 - **Why it matters:** This is the causal-event term in the framework's three-concept chain (Value Extraction → Cost Severance → Severed Cost). Decisive test was the causal-chain-bridge: extraction IS the severance mechanism (separation-from-source semantics pairs with Cost Severance's severance-from-capturer semantics); capture would have required reader inference to bridge.
-- **Sweep execution (2026-04-26):** Phase A3 sweep completed in commit `90f9c3f`. Chapter drafts (Ch 2 / Ch 4 / Ch 5 GuidanceDoc / Ch 7 draft + GuidanceDoc / Ch 10) + `core/methodology/cit_examples_v1_0_0.md` swept. Mazzucato + Harvey lineage citation paragraph added at Ch 2 first-use of Value Extraction (AUTHOR ZONE annotation; pending author register-review). Tech Appendix dedicated Mazzucato lineage footnote / §G subsection deferred to Insight #21 dedicated session per recommended workflow. Provenance preserved in `core/terms/terms_index.md` + retired glossary v2.
+- **Sweep execution (2026-04-26):** Phase A3 sweep completed in commit `90f9c3f`. Chapter drafts (Ch 2 / Ch 4 / Ch 5 GuidanceDoc / Ch 7 draft + GuidanceDoc / Ch 10) + `alignment/methodology/cit_examples_v1_0_0.md` swept. Mazzucato + Harvey lineage citation paragraph added at Ch 2 first-use of Value Extraction (AUTHOR ZONE annotation; pending author register-review). Tech Appendix dedicated Mazzucato lineage footnote / §G subsection deferred to Insight #21 dedicated session per recommended workflow. Provenance preserved in `tools/back-matter/sources/terms_index.md` + retired glossary v2.
 - **Dependencies / Links:** Relates to Insight #3 (severance cluster internal consistency) — the causal-event term resolution is now an INPUT to any cluster pass that runs, not an open question. Relates to Insight #21 (Tech Appendix dedicated session) for Mazzucato lineage footnote integration.
 - **Todo link:** N/A (closed; sweep executed).
 
@@ -163,23 +163,23 @@ New insights automatically get added to the todo list in both states: one entry 
 - **Why it matters:** (a) expands the book's practical reach substantially — most readers encounter cost severance from the OTHER side of the transaction (as consumers, employees, residents) more often than from the extractor side. Decision-time tooling is the application most readers can use. (b) Reinforces the "no villain" structural argument — the commute-story apartment manager wasn't the adversary; the information architecture was. Decision-time tooling is what closes the information gap. (c) Affects the framework's contribution-claim — the book offers not just a theory but a usable instrument. (d) Surfaced the meta-question that became Working Principle #10: what lives in internal scaffolding vs external publisher-facing artifacts, and how does that shape the discipline applied to each layer?
 - **Verdict (closed-ratified 2026-04-30):** **(b) — threaded at the external layer; rich internal scaffolding for everything else.**
   - **External layer (publisher-facing):** Pattern 2 / threaded — Ch 1 commute trade as opening decision-time anchor; Ch 3 waterman as second anchor when drafted; Ch 8 walkthrough integrates decision-time framing as the framework gets applied to McDowell / Deepwater / Libby + reader-side framings ("imagine the buyer / employee / resident asking..."); Ch 10 reflective close gestures at decision-time application as one of the framework's affordances. **No "how to apply" chapter or appendix; no prescribed decision-time methodology** — readers extract the methodology by watching the framework get used. Mirrors *Doughnut Economics* (Raworth 2017), *Mission Economy* (Mazzucato 2021), *Mine!* (Heller 2021) model.
-  - **Internal layer (scaffolding):** rich; preserves methodology notes, worked decision-time examples (apartment leases, employment offers, medical-treatment decisions, career pivots), literature-pattern audit (Pattern 1 / 2 / 3 from comparable books), Book 2 seed material. Canonical home: [`core/methodology/decision_time_application_internal_v1.0.0.md`](../core/methodology/decision_time_application_internal_v1.0.0.md) (created 2026-04-30 with this ratification).
+  - **Internal layer (scaffolding):** rich; preserves methodology notes, worked decision-time examples (apartment leases, employment offers, medical-treatment decisions, career pivots), literature-pattern audit (Pattern 1 / 2 / 3 from comparable books), Book 2 seed material. Canonical home: [`alignment/methodology/decision_time_application_internal_v1.0.0.md`](../alignment/methodology/decision_time_application_internal_v1.0.0.md) (created 2026-04-30 with this ratification).
   - **Cross-layer flow:** internal feeds external (worked examples can become chapter prose; literature audits inform chapter framing); external must NOT carry internal contamination (per WP#8 + WP#10); internal bridges to Book 2 / Book 3 (research not landing in Book 1 publisher-facing accumulates internally as seed material).
 - **Why this verdict (literature-pattern grounding):**
   - Pattern 1 (foregrounded "how to apply" chapter — *Nudge* / Thaler & Sunstein 2008) **strains framework thickness + author shield + Insight #13 register.** Framework is thick (5 theorems + 7 + 13 terms + Cᵢ); author shield is being-source-of-framework + Berggruen/Noema track + nursing career, not Sunstein-class institutional shield for prescription. Failure mode flagged by Insight #13.
   - Pattern 2 (threaded — *Doughnut* / *Mission Economy* / *Mine!*) **fits on every dimension** — framework thickness, author shield, audience choice (academic-trade hybrid + supplementary policy-practitioner per Insight #25), epistemic-humility discipline (Insight #14 Norway register), Book 1 vs Book 2 boundary (Insight #13), and the personal stories already in scope (commute trade; waterman).
   - Pattern 3 (ex-post only — *Capital in 21st Century* / *Governing the Commons*) **underclaims practical reach** for the chosen audience — Commons Bonds is closer to Raworth/Mazzucato register than Piketty/Ostrom register.
-  - Full literature-pattern analysis preserved in [`core/methodology/decision_time_application_internal_v1.0.0.md`](../core/methodology/decision_time_application_internal_v1.0.0.md) §3.
+  - Full literature-pattern analysis preserved in [`alignment/methodology/decision_time_application_internal_v1.0.0.md`](../alignment/methodology/decision_time_application_internal_v1.0.0.md) §3.
 - **Implementation:**
   - Working Principle #10 ratified same-day codifying the two-layer discipline as project-wide pattern (not just for #9 specifically)
-  - Internal scaffolding artifact created at `core/methodology/decision_time_application_internal_v1.0.0.md`
+  - Internal scaffolding artifact created at `alignment/methodology/decision_time_application_internal_v1.0.0.md`
   - Insight #36 (Ch 1 + Ch 3 conversational drafting) absorbs Pattern 2 threading discipline as part of natural drafting; no separate sub-task
   - Ch 8 + Ch 10 prose-sweep at next sweep cycle checks decision-time framing presence per Pattern 2 discipline
   - No new rigor pass required (this is scope/register discipline; literature-pattern analysis preserved internally)
 - **Dependencies / Links:**
   - Personal Stories Candidate #1 (commute trade) — opening external-layer demonstration anchor; already captured + tagged with framework connections
   - **Working Principle #10** (Two-layer content origination discipline; ratified 2026-04-30) — generalized from this verdict
-  - [`core/methodology/decision_time_application_internal_v1.0.0.md`](../core/methodology/decision_time_application_internal_v1.0.0.md) — internal-scaffolding canonical artifact
+  - [`alignment/methodology/decision_time_application_internal_v1.0.0.md`](../alignment/methodology/decision_time_application_internal_v1.0.0.md) — internal-scaffolding canonical artifact
   - Insight #13 (book-scope creep monitoring) — reinforced by WP#10
   - Insight #14 (Norway treatment + epistemic-humility discipline) — compatible Pattern 2 register
   - Insight #25 (academic-trade hybrid audience choice) — Pattern 2 fits this audience natively
@@ -306,7 +306,7 @@ New insights automatically get added to the todo list in both states: one entry 
   - **Tech Appendix supplement §6.1.1** (added 2026-04-25) — level-of-claim specification discipline (closes M11 Char 12 finding from academic-rigor full test); commit `b566d66`
   - **Tech Appendix supplement §6.1.2** (added 2026-04-25) — domain distinction (extraction commons vs coordination commons; CCI failure routes to Ostrom-tradition, not framework rejection); closes M11 Char 17 finding; commit `408a37d`
   - **Tech Appendix HTML partial integration block** — §6 included in commit `351817c` integration of supplement §2-§7
-  - **`core/methodology/cit_examples_v1_0_0.md`** — seven worked CIT applications through Four Gates with both sub-forms exercised
+  - **`alignment/methodology/cit_examples_v1_0_0.md`** — seven worked CIT applications through Four Gates with both sub-forms exercised
   - **Ch 6 supplementary drafts** §6.5 (Parfit) + §6.6 (CIT-vs-empirical falsifiability) + §6.7 (IPG reconciliation) + §6.8 (DAC three-horizon) + §6.9 (Ostrom-vs-extraction) + §6.10 (reparations-economics) + §6.11 (methodology defense consolidation) — chapter-prose-register treatments drafted, AUTHOR ZONE-flagged for register review pending Ch 6 finalization
 - **Chapter placement decisions made:** Ch 6 is primary placement (formal methodology + worked examples). Optional reflective companion in Ch 10 (per §6.5.3 draft). Ch 1 commute-story is paradigm Consumption-Inversion case if Chris's personal-stories drafting cycle integrates it. Ch 7 asteroid miner is paradigm Absence-Inversion. Cross-chapter framing flagged for Phase B chapter revision.
 - **Dependencies / Links:** CIT rename rigor pass (commit `b294c79`); commons-as-structural-identity rigor pass (commit `c4b09dc`); academic-rigor full test (commit `ae90800`) for M11 Char 12 + Char 17 findings; Ch 6 supplementary drafts file (multiple commits 2026-04-25 / 2026-04-26).
@@ -396,7 +396,7 @@ New insights automatically get added to the todo list in both states: one entry 
   - **Insight #25** (academic-trade hybrid audience; ratified 2026-04-28) — confirms Pattern 2 register fits the chosen audience natively
   - **Insight #15** (chapter revision discipline; OPEN) — operationalizes the 5-point implications during chapter revision; carries #14's discipline forward at the prose level
   - Routine 1 + 2 sentinel checks for vocabulary regression do not directly enforce #14 register (this is prose-level, not term-level), so chapter-by-chapter prose-sweep at Phase B / pre-submission editing remains the operational gate
-- **Dependencies / Links:** Accountability Bond rigor pass (Terms Index record); Open Insight #9 (closed-ratified 2026-04-30; same register applied to decision-time tooling); Open Insight #13 (book-scope creep; reinforced by WP#10); Open Insight #15 (chapter revision discipline; carries forward 5-point implications); Insight #25 (audience choice); **Working Principle #10** (`alignment/commons_bonds_working_principles_v1.0.0.md`); v1.0.3 book-scope doc; Norway case-study file; Ch 4 guidance; Ostrom-successor bibliography entries (Hess & Ostrom 2007 Knowledge Commons; Ostrom 1990 Governing the Commons — North 1990 institutional-economics); [`core/methodology/decision_time_application_internal_v1.0.0.md`](../core/methodology/decision_time_application_internal_v1.0.0.md) (companion Pattern 2 register documentation).
+- **Dependencies / Links:** Accountability Bond rigor pass (Terms Index record); Open Insight #9 (closed-ratified 2026-04-30; same register applied to decision-time tooling); Open Insight #13 (book-scope creep; reinforced by WP#10); Open Insight #15 (chapter revision discipline; carries forward 5-point implications); Insight #25 (audience choice); **Working Principle #10** (`alignment/commons_bonds_working_principles_v1.0.0.md`); v1.0.3 book-scope doc; Norway case-study file; Ch 4 guidance; Ostrom-successor bibliography entries (Hess & Ostrom 2007 Knowledge Commons; Ostrom 1990 Governing the Commons — North 1990 institutional-economics); [`alignment/methodology/decision_time_application_internal_v1.0.0.md`](../alignment/methodology/decision_time_application_internal_v1.0.0.md) (companion Pattern 2 register documentation).
 - **Todo link:** N/A (closed). Chapter-drafting application carried by Insight #15 todo + per-chapter prose-sweep cycles.
 
 ---
@@ -639,7 +639,7 @@ New insights automatically get added to the todo list in both states: one entry 
 
 ### Insight #27 — Vocabulary strategy scaffolding doc v1.0.1 — CLOSED-RATIFIED 2026-04-28
 
-- **Raised:** 2026-04-28 by collaborative drafting during cluster vocabulary rigor pass execution. Author articulation: *"let's capture the resulting solution/approach that we decide on in a scaffolding document like core/terms/terms_index.md."*
+- **Raised:** 2026-04-28 by collaborative drafting during cluster vocabulary rigor pass execution. Author articulation: *"let's capture the resulting solution/approach that we decide on in a scaffolding document like tools/back-matter/sources/terms_index.md."*
 - **Status:** **closed-ratified 2026-04-28 (Chris Winn) — v1.0.1 with refinements per Insight #26 applied.** The scaffolding document codifies the standing vocabulary discipline that flows from the ratified book-level audience (Insight #25) and the ratified four-move framework shape (Insight #26). Future framework vocabulary decisions inherit this discipline without re-running the audience or methodology rigor passes.
 - **Category:** vocabulary · method · scaffolding
 - **Content:** `alignment/commons_bonds_vocabulary_strategy_v1.0.1.md` (now v1.0.1 with refinements) is the standing source-of-truth for vocabulary decisions. Sits alongside `commons_bonds_working_principles_v1.0.0.md` as parallel discipline-record. Sections §1-§12 cover: scope; inherited audience input (B + supplementary D); four vocabulary moves (Tier A/B/C/D); decision rule + decision-tree supplement; D-modulation guidance + engineered-for-adoption-travel design intent; suffix-convention discipline; capitalization-discipline; cross-political-tradition robustness; decision-record format; worked examples (selection deferred per author 2026-04-28); versioning + revision triggers; cross-references.
@@ -701,7 +701,7 @@ New insights automatically get added to the todo list in both states: one entry 
 - **Category:** vocabulary · framework-discipline · publisher-facing · attribution
 - **Content:** Hotelling Identity is the framework's extension of Hotelling 1931, not a coinage. terms_index entry §1816-1822 is explicit on the attribution split (Hotelling's part vs framework's part). Tech Appendix §5.1/5.2/5.3 cleanly separates the two contributions. Hotelling rent appears ONLY in the bridging Identity (RCV − Hotelling rent = CS per unit), NOT in the primary CS = RCV − B equation — clean attribution. Chapter 6 HTML line 799 handles attribution discipline correctly.
 - **Cleanup applied 2026-04-28:**
-  1. Tech Appendix §4 attribution paragraph — removed "Source: Hotelling Identity individual rigor pass (commit `5b8ff42`); see `core/terms/terms_index.md`..." sentence + standalone "Source rigor pass: Hotelling Identity (commit 5b8ff42)." line (Working Principle #8 scrub).
+  1. Tech Appendix §4 attribution paragraph — removed "Source: Hotelling Identity individual rigor pass (commit `5b8ff42`); see `tools/back-matter/sources/terms_index.md`..." sentence + standalone "Source rigor pass: Hotelling Identity (commit 5b8ff42)." line (Working Principle #8 scrub).
   2. Renumbered §5.1/5.2/5.3 → §4.1/4.2/4.3 (mechanical fix).
   3. Reframed §4.3 (formerly §5.3) — removed "Per M12 module + Working Principle #6:" framing + meta-commentary closing line; replaced with reader-facing "Citation discipline. Anywhere the framework references the Hotelling Identity, the canonical attribution form is:" framing.
   4. Fixed line 638 cross-reference: "see §5 Hotelling Identity" → "see §4 Hotelling Identity".
@@ -1021,9 +1021,9 @@ New insights automatically get added to the todo list in both states: one entry 
 - **Pass-fail verdict on as-currently-written Externality Tail terminology:** ADEQUATE-WEAK — survives sympathetic-referee review on internal-coherence grounds but flagged on first-encounter misread risk for finance / IO / quant readers.
 - **Pass-fail verdict on enhanced Externality Tail per rigor pass §13:** STRONG — multi-audience misread risk closed for highest-exposure tiers.
 - **Implementation pending:**
-  - **`core/terms/terms_index.md` Externality Tail entry — insert §13.1 (a) Notational disambiguation subsection (~120 words).**
+  - **`tools/back-matter/sources/terms_index.md` Externality Tail entry — insert §13.1 (a) Notational disambiguation subsection (~120 words).**
   - **Tech Appendix v1.0.0 HTML §B Definition A.4 (line 455) — replace with §13.1 (b) extended text.**
-  - **`core/glossary/archive/commons_bonds_updated_glossary_v3.html` Externality Tail entry — append §13.1 (c) disambiguating sentence.**
+  - **`tools/back-matter/sources/glossary/archive/commons_bonds_updated_glossary_v3.html` Externality Tail entry — append §13.1 (c) disambiguating sentence.**
   - **Bibliography expansion** — Mandelbrot 1963; Taleb 2007; Embrechts et al. 1997; Anderson 2006.
   - Same open question as Insights #35 + #38 + #40 + #47 + #48 + Phase 2 #8 Tech Appendix HTML edit timing: apply now to v1.0.0 vs batch into Phase 3 v2.0.0 rebuild.
   - **Pre-publication external review** (per Insight #39) — multi-disciplinary review (welfare economist + finance/risk practitioner or actuary).
@@ -1042,9 +1042,9 @@ New insights automatically get added to the todo list in both states: one entry 
 - **Pass-fail verdict on as-currently-written RCV terminology:** ADEQUATE-WEAK — survives sympathetic-referee review on internal-coherence grounds but flagged on first-encounter misread risk for high-collision tiers.
 - **Pass-fail verdict on enhanced RCV terminology per rigor pass §13:** STRONG — multi-audience misread risk closed for highest-exposure tiers; first-introduction discipline codified; bibliography anchors disambiguation against established acronym-usages.
 - **Implementation pending:**
-  - **`core/terms/terms_index.md` Residual Commons Value entry — insert §13.1 (a) Notational disambiguation subsection (Ranked-Choice Voting first per §15 Q5) + §13.2 First-introduction discipline subsection.**
+  - **`tools/back-matter/sources/terms_index.md` Residual Commons Value entry — insert §13.1 (a) Notational disambiguation subsection (Ranked-Choice Voting first per §15 Q5) + §13.2 First-introduction discipline subsection.**
   - **Tech Appendix v1.0.0 HTML §B Definition A.6 (line 467) — add §13.1 (b) parenthetical note (Ranked-Choice Voting reorder applied).**
-  - **`core/glossary/archive/commons_bonds_updated_glossary_v3.html` Residual Commons Value entry — append §13.1 (c) disambiguating sentence (Ranked-Choice Voting reorder applied).**
+  - **`tools/back-matter/sources/glossary/archive/commons_bonds_updated_glossary_v3.html` Residual Commons Value entry — append §13.1 (c) disambiguating sentence (Ranked-Choice Voting reorder applied).**
   - **Bibliography expansion** — Reilly 2001; Insurance Information Institute; Basel Committee 2017.
   - Same open question as Insights #35 + #38 + #40 + #47 + #48 + #49 + Phase 2 #8 Tech Appendix HTML edit timing: apply now to v1.0.0 vs batch into Phase 3 v2.0.0 rebuild. **Recommended:** unified batch into v2.0.0 rebuild for all Phase 2 Tech Appendix changes.
   - **Pre-publication external review** (per Insight #39) — multi-perspective review (insurance-regulation + civic-engagement / electoral-policy + banking-finance practitioners).
@@ -1094,8 +1094,8 @@ New insights automatically get added to the todo list in both states: one entry 
 - **Implementation pending — BATCHED into Phase 3 v2.0.0 rebuild per author election Q5:**
   - **Tech Appendix v1.0.0 HTML §B Definition A.3 (line 432-449)** — expanded text per §13.1.
   - **Tech Appendix v1.0.0 HTML §10 Theorem E.4 statement (line 3285) + McDowell (line 2821) + §M.5 (line 6948 or 7020) + §F (line 2552) + §K (lines 1423/1447/1459)** — cross-reference parentheticals per §13.2.
-  - **`core/terms/terms_index.md`** — Substitutability Function + Externality Tail + RCV integrand entries cross-reference parentheticals.
-  - **`core/glossary/archive/commons_bonds_updated_glossary_v3.html`** — RCV entry cross-reference parenthetical.
+  - **`tools/back-matter/sources/terms_index.md`** — Substitutability Function + Externality Tail + RCV integrand entries cross-reference parentheticals.
+  - **`tools/back-matter/sources/glossary/archive/commons_bonds_updated_glossary_v3.html`** — RCV entry cross-reference parenthetical.
   - **Bibliography expansion** — Pindyck 1978; Dasgupta-Heal 1979; Mussa-Rosen 1978; Slade-Thille 2009; Spence 1976; Tirole 1988 (overlaps with Insights #47 + P2#3.2 [E.3] absorbed once).
   - **terms_index** — append Phase 2 verdict entry; cross-reference to this rigor pass.
   - **Pre-publication external review** (per Insight #39) — resource-economist verifies Q-for-stock convention is stated with sufficient prominence to disambiguate at first formula encounter.
@@ -1129,7 +1129,7 @@ New insights automatically get added to the todo list in both states: one entry 
   - **Chapter prose retraining** — Ch 5 line 99 + other inline references.
   - **Case studies book-home pointers** (~10-15 instances).
   - **Bibliography chapter-relevance pointers** (~3-5 instances).
-  - **`core/terms/terms_index.md`** — append Phase 2 verdict entry; cross-reference to this rigor pass.
+  - **`tools/back-matter/sources/terms_index.md`** — append Phase 2 verdict entry; cross-reference to this rigor pass.
   - **Provenance traces preserved:** older rigor passes + ratified-insight references retain "Renewable Imperative" historical naming per Working Principle #8 retirement-trace discipline parallel.
   - **Pre-publication external review** (per Insight #39) — multi-perspective review (welfare-economist + policy-economist + formal-methods reviewer).
 - **Dependencies / Links:** Phase 1 full framework audit §10 #8 (Renewable Imperative theorem flagged); E.4 rigor pass §16.3 (over-specified-scope flag for E.5); Insight #40 (Theorem E.4 RATIFIED — methodology template); Insight #51 (P2#3.4 [E.2] RATIFIED — sibling theorem categorization audit); Insights #35 + #38 (cross-political-tradition robustness discipline); Insight #25 (academic-trade hybrid press strategy — Mazzucato/Raworth/Anderson exemplar; register-splitting insight); Insight #39 (pre-publication external review; downstream gate); P2#3.2 [E.3] [PROPOSED] (sibling theorem audit; Pindyck 1978 + Dasgupta-Heal 1979 bibliography overlap); Hartwick 1977 + Solow 1974 (already in framework bibliography per Hotelling Identity §12); Weitzman 2001 (already per Insight #40); Dixit-Pindyck 1994 (already per Insight #47); Stern Review 2007 (already per Externality Tail M12 lineage / Insight #49); Stiglitz 2000 (likely already in framework bibliography). Chapter 9 draft at `manuscript/chapters/Chapter__9_PricingHonestly__Draft.md` — already retitled away from "Renewable Imperative."
@@ -1235,7 +1235,7 @@ New insights automatically get added to the todo list in both states: one entry 
 7. Root `README.md` — Tech Appendix entry "v0.0.4 canonical" → "v1.0.0 canonical" with Phase 3 v2.0.0 rebuild note; Glossary entry "v2 canonical" → "v3 canonical" with Phase 4 v4 rebuild note.
 8. `tools/README.md` line 65 — `commons_bonds_abundance_dimensions_v1_2_0.md` → `v1_3_0.md` (file listing).
 9. `research/case-studies/indigenous-land-dispossession.md` line 197 — v1_2_0 → v1_3_0 with Phase 3 absorption note.
-10. `research/literature/bibliography.md` line 935 — Tech Appendix v0.0.2 → v1.0.0 with Insight #60 note.
+10. `tools/back-matter/sources/bibliography.md` line 935 — Tech Appendix v0.0.2 → v1.0.0 with Insight #60 note.
 11. `tools/audits/commons_bonds_case_study_audit_v1.0.6.md` line 1562 — Tech Appendix v0.0.3 → v1.0.0 with archive note.
 
 **Header-note additions (per refined WP#4 retention discipline):**
@@ -1384,7 +1384,7 @@ New insights automatically get added to the todo list in both states: one entry 
   - Routine 1 daily sentinel pattern #10 reserved-letter ledger updated 2026-04-30 with all codified letters.
 - **Category:** notation-discipline · academic-rigor · cross-document-sweep · pre-publication
 - **Content:** Comprehensive sweep of all variable letters/symbols + abbreviations across the framework's apparatus to identify undisclosed notation collisions. Scope:
-  - **Documents in scope:** Tech Appendix v1.0.0 HTML (all sections); terms_index.md (all entries); manuscript/chapters/Chapter_*Draft.{md,html} (all 10 chapters); core/glossary/archive/commons_bonds_updated_glossary_v3.html.
+  - **Documents in scope:** Tech Appendix v1.0.0 HTML (all sections); terms_index.md (all entries); manuscript/chapters/Chapter_*Draft.{md,html} (all 10 chapters); tools/back-matter/sources/glossary/archive/commons_bonds_updated_glossary_v3.html.
   - **Categories to check:**
     1. **Single-letter overloads** — A; B; C; D; E; P; Q; R; S; U; plus Greek letters α; β; γ; δ; ε; η; θ; λ; μ; ν; π; ρ; σ; τ; φ; ψ; ω. For each, identify all distinct semantic uses across the document set.
     2. **Multi-letter abbreviations** — RCV; CIT; CSD; ARR; IPG; CS; AIT (retired); FGC (retired); ESG (retired). For each, identify all distinct semantic uses.

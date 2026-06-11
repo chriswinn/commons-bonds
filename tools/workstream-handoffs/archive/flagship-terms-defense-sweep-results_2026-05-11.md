@@ -177,7 +177,7 @@ Verified before assertion:
 - Ch 5 line ranges confirmed against current `manuscript/chapters/Chapter__5_THEACCOUNTABILITYGAP__Draft.md` (217 lines as of this session). Why-bonds paragraph at current line 192 verified. Restitution Bond lineage at current lines 194–198 verified. Foreclosure Bond lineage at current lines 200–202 verified.
 - Ch 2 line ranges confirmed against current `manuscript/chapters/Chapter__2_TheMiner.md`. Vocabulary subsection at lines 129–145 verified.
 - Ch 6 line ranges confirmed against current `manuscript/chapters/Chapter__6_ThreeWaysofCounting__Draft.html`. Pigou + Ostrom extension at line 724 + Hotelling Identity at line 733 verified.
-- Glossary employment-severance metaphor at lines 149–150 of `core/glossary/commons_bonds_updated_glossary_v4.html` verified.
+- Glossary employment-severance metaphor at lines 149–150 of `tools/back-matter/sources/glossary/commons_bonds_updated_glossary_v4.html` verified.
 
 ---
 

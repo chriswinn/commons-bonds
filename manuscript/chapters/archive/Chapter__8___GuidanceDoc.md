@@ -8,7 +8,7 @@
 
 **Status:** Stub pending full revision in the queued guidance-doc revision sweep.
 
-**Staleness disclaimer (2026-04-30):** This file accumulates content across earlier dates → 2026-04-30 — note specifically that the existing stub references "v1.28.0 dimension-rename" (the dimensions vocabulary itself was retired/reframed; current vocabulary lives in `core/terms/terms_index.md`) and the "8-tier framework" (RETIRED 2026-04-24 per Insight #21 + #63). Sections may also reference AIT (renamed to CIT 2026-04-24); Dynastic Labor Cost (renamed to Lineage Labor Cost 2026-04-30 per Insight #56); FGC (retired); Universality Test (retired); Value Capture (retired in favor of Value Extraction); Spatial Cost Severance + Temporal Cost Severance (reframed). The "Book One Recommendation (Focused)" + "Book Two Material" content below predates Insight #24 (Book 2 references removed from Book 1, ratified 2026-04-27) — verify framing before applying.
+**Staleness disclaimer (2026-04-30):** This file accumulates content across earlier dates → 2026-04-30 — note specifically that the existing stub references "v1.28.0 dimension-rename" (the dimensions vocabulary itself was retired/reframed; current vocabulary lives in `tools/back-matter/sources/terms_index.md`) and the "8-tier framework" (RETIRED 2026-04-24 per Insight #21 + #63). Sections may also reference AIT (renamed to CIT 2026-04-24); Dynastic Labor Cost (renamed to Lineage Labor Cost 2026-04-30 per Insight #56); FGC (retired); Universality Test (retired); Value Capture (retired in favor of Value Extraction); Spatial Cost Severance + Temporal Cost Severance (reframed). The "Book One Recommendation (Focused)" + "Book Two Material" content below predates Insight #24 (Book 2 references removed from Book 1, ratified 2026-04-27) — verify framing before applying.
 
 **[PER-SECTION STALENESS AUDIT 2026-05-08]**
 
@@ -24,7 +24,7 @@
 - `Chapter__8_WhatThingsActuallyCost_Draft.md` — publisher-facing prose.
 - `alignment/commons_bonds_working_principles_v1.0.0.md` — WP#10 + WP#8.
 - `alignment/commons_bonds_open_insights_v1.0.0.md` — current open insights + ratification log.
-- `core/terms/terms_index.md` — current canonical vocabulary.
+- `tools/back-matter/sources/terms_index.md` — current canonical vocabulary.
 
 ---
 

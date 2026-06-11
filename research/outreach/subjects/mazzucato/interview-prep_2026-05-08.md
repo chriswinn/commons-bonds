@@ -426,7 +426,7 @@ Per FPD-6 closing-block discipline:
 1. **Within 24 hours:** transcribe the conversation (or write up notes if not recorded). Include any modifications to attribution preferences agreed during the call. Send thank-you email to Mazzucato cc'ing Albrecht; include any artifacts agreed (Tech Appendix, Ch 9 draft, Bibliography §13 entry text).
 2. **Within 48 hours:** any clarifying follow-up questions if needed; if she asked for transcript review, send the transcript.
 3. **IIPP network follow-up:** if she offered warm intros, follow up within 48 hours with the actual ask.
-4. **Update tracking:** mark interview complete in `research/outreach/_pipeline/interview-outreach-drafts_2026-05-01.md` candidate #1; update `research/literature/bibliography.md` if she recommended specific reading; flag any framework-revision implications in the appropriate guidance docs (particularly bibliography §13 entry refinements based on her feedback).
+4. **Update tracking:** mark interview complete in `research/outreach/_pipeline/interview-outreach-drafts_2026-05-01.md` candidate #1; update `tools/back-matter/sources/bibliography.md` if she recommended specific reading; flag any framework-revision implications in the appropriate guidance docs (particularly bibliography §13 entry refinements based on her feedback).
 5. **Decision point:** does her input warrant adding her to the Noema essay §V or §VI as a third / fourth anchor (alongside Darity if accepted)? Decide based on the actual interview substance.
 
 ---
@@ -442,4 +442,4 @@ Per FPD-6 closing-block discipline:
 - `alignment/commons_bonds_framework_positioning_disciplines_v1.0.0.md` §"Why bonds (and not funds, accounts, trusts, or reserves)?" — load-bearing canonical articulation for Q4 financialisation defense.
 - `alignment/commons_bonds_vocabulary_strategy_v1.0.1.md` §6.5 — vocabulary strategy depth on bond-form choice.
 - `manuscript/technical-appendix/TechnicalAppendix_v1.0.0.html` §5 — Accountability Bond Decomposition (formal definitions of B = B₁ + B₂); §E.1 RCV-as-Hotelling-extension.
-- `research/literature/bibliography.md` §13 — *The Value of Everything* anchor cite; the framework's Ring-1 flagship entry where the precision-add positioning is captured.
+- `tools/back-matter/sources/bibliography.md` §13 — *The Value of Everything* anchor cite; the framework's Ring-1 flagship entry where the precision-add positioning is captured.

@@ -13,12 +13,12 @@ This document sits alongside `commons_bonds_working_principles_v1.0.0.md` as a p
 
 ## §0. Why this file exists
 
-Per author articulation 2026-04-28: *"let's capture the resulting solution/approach that we decide on in a scaffolding document like core/terms/terms_index.md"* — i.e., not just produce a one-off rigor-pass verdict but a standing reference that future vocabulary decisions inherit from. The intent: future framework vocabulary decisions answer the question *"what tier? what suffix? what register?"* by consulting this document, not by re-running the rigor-pass methodology each time.
+Per author articulation 2026-04-28: *"let's capture the resulting solution/approach that we decide on in a scaffolding document like tools/back-matter/sources/terms_index.md"* — i.e., not just produce a one-off rigor-pass verdict but a standing reference that future vocabulary decisions inherit from. The intent: future framework vocabulary decisions answer the question *"what tier? what suffix? what register?"* by consulting this document, not by re-running the rigor-pass methodology each time.
 
 The discipline operates at two levels:
 
 1. **Standing input.** The ratified book-audience (B + supplementary D) is the fixed input to every vocabulary decision. New terms, term renames, suffix questions, capitalization questions all evaluate against this single inherited audience profile.
-2. **Standing output.** Once a vocabulary decision is made under this discipline, the decision is recorded in `core/terms/terms_index.md` per the architecture-rigor-pass S1 schema (rendering fields per term). This document specifies the format + cross-references.
+2. **Standing output.** Once a vocabulary decision is made under this discipline, the decision is recorded in `tools/back-matter/sources/terms_index.md` per the architecture-rigor-pass S1 schema (rendering fields per term). This document specifies the format + cross-references.
 
 Failure mode this prevents: per-term audience juggling. Earlier methodology drafts treated audience as a per-term variable, which produced inconsistent vocabulary register across the book. The book-level-audience-first discipline (codified here) prevents that drift.
 
@@ -47,7 +47,7 @@ Failure mode this prevents: per-term audience juggling. Earlier methodology draf
 
 - `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-28_book_audience_choice_v1.0.0.md` — ratified book-level audience (the fixed input to this document)
 - `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-28_intergenerational_cluster_vocabulary_consolidation_v1.0.0.md` — applied rigor pass producing the per-term verdicts that this document distills into standing discipline
-- `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-27_publication_architecture_terms_index_glossary_tech_appendix_v1.0.0.md` — S1 schema for per-term records in `core/terms/terms_index.md`
+- `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-27_publication_architecture_terms_index_glossary_tech_appendix_v1.0.0.md` — S1 schema for per-term records in `tools/back-matter/sources/terms_index.md`
 - `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-24_term_value_capture_vs_extraction_v1.0.0.md` (and analogous per-term rigor passes) — historical record of past per-term decisions; cross-referenced from worked examples
 
 ---
@@ -110,7 +110,7 @@ Use when an existing academic-literature term is close-but-not-identical, where 
 *Examples (existing):* Externality Tail (Pigou 1920 + framework specialization on four axes — post-extraction persistence, substitutability-independence, time-indexed function form, "runs on its own clock" rhetorical anchor); Substitutability Function S (econometric substitutability literature + framework specialization as time-indexed probability function); Hotelling Identity (Hotelling 1931 + framework extension); Triangulated RCV Estimation (econometric triangulation literature + framework synthesis).
 
 **Tier C — Use descriptive prose adjective + noun (no proper-noun framework term).**
-Use when existing English vocabulary suffices in B-register chapter usage, no academic-literature exact-fit term applies, and the phrase doesn't recur frequently enough or with enough specificity to warrant proper-noun status. Track in `core/terms/terms_index.md` as a "preserved compositional phrase" if recurring across chapters; do not promote to proper-noun.
+Use when existing English vocabulary suffices in B-register chapter usage, no academic-literature exact-fit term applies, and the phrase doesn't recur frequently enough or with enough specificity to warrant proper-noun status. Track in `tools/back-matter/sources/terms_index.md` as a "preserved compositional phrase" if recurring across chapters; do not promote to proper-noun.
 
 *Examples (existing):* intergenerational cost severance (lowercase phrase composed from "intergenerational" adjective + Cost Severance Ring-1 term); temporal cost severance (lowercase); spatial cost severance (lowercase); the cost-bearer; the extractor; the framework's accounting.
 
@@ -422,7 +422,7 @@ Framework-technical terms (Ring-1 + Ring-2 ratified per terms_index) get proper-
 ### §7.3 When in doubt
 
 Default to lowercase descriptive prose unless the term meets all three criteria:
-1. The term is in `core/terms/terms_index.md` as a CURRENT Ring-1 or Ring-2 entry.
+1. The term is in `tools/back-matter/sources/terms_index.md` as a CURRENT Ring-1 or Ring-2 entry.
 2. The term has explicit framework specialization (Tier B or Tier D).
 3. The capitalized form is the form ratified in that terms_index entry.
 
@@ -466,7 +466,7 @@ The check does not require the term to be *neutral* across all positions — eve
 
 ### §9.1 Where decisions get recorded
 
-Every framework vocabulary decision lands in `core/terms/terms_index.md` per the architecture-rigor-pass S1 schema:
+Every framework vocabulary decision lands in `tools/back-matter/sources/terms_index.md` per the architecture-rigor-pass S1 schema:
 
 - **For Tier D (coinage)** — new entry with full record per S1 schema, including `glossary_definition` (~80 words, reader-register, one example) + `tech_appendix_definition` (~300 words, formal + lineage citations).
 - **For Tier B (academic + specialization)** — new entry with S1 fields; lineage citations cite the academic source + framework-specialization footnote.
@@ -503,7 +503,7 @@ Renamed per {rigor pass file} ratified {date} by {Chris Winn / collaborative}. N
 
 ### §9.5 Publisher-facing-scrubbing discipline (per Working Principle #8)
 
-The decision-record narrative formats above (§9.2 + §9.3 + §9.4) live in `core/terms/terms_index.md` Rigor-provenance sections (Tier 3 scaffolding per Working Principle #8). They DO NOT appear in publisher-facing artifacts — chapter drafts, glossary entries, Tech Appendix sections.
+The decision-record narrative formats above (§9.2 + §9.3 + §9.4) live in `tools/back-matter/sources/terms_index.md` Rigor-provenance sections (Tier 3 scaffolding per Working Principle #8). They DO NOT appear in publisher-facing artifacts — chapter drafts, glossary entries, Tech Appendix sections.
 
 **Specifically:**
 
@@ -637,7 +637,7 @@ The document is revised when:
 
 Whenever this document is revised:
 - Update `MEMORY.md` (project memory index) to reflect any change in vocabulary discipline that affects future sessions.
-- Update `core/terms/terms_index.md` §1 (template + integration notes) to reflect the current version.
+- Update `tools/back-matter/sources/terms_index.md` §1 (template + integration notes) to reflect the current version.
 - Update `tools/commons_bonds_rigor_protocol_v2.X.0.md` cross-reference if the protocol references vocabulary discipline.
 - Update Working Principles file if a new Principle emerges (e.g., possible Principle #7 codifying audience-discipline as standing commitment).
 
@@ -666,8 +666,8 @@ Whenever this document is revised:
 
 ### §12.4 Standing artifacts (this document feeds into)
 
-- `core/terms/terms_index.md` — every per-term record cites this discipline doc in its Rigor-provenance section
-- `core/glossary/commons_bonds_updated_glossary_v4.html` (when Phase 4 rebuild lands) — derived from terms_index per S1 schema
+- `tools/back-matter/sources/terms_index.md` — every per-term record cites this discipline doc in its Rigor-provenance section
+- `tools/back-matter/sources/glossary/commons_bonds_updated_glossary_v4.html` (when Phase 4 rebuild lands) — derived from terms_index per S1 schema
 - `manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html` (when Phase 3 rebuild lands) — derived from terms_index per S1 schema
 
 ---

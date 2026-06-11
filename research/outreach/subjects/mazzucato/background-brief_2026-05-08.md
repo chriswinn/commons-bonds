@@ -63,7 +63,7 @@ Mazzucato's project, across four landmark books and a forthcoming fifth, has bee
 
 **Core move — load-bearing for the framework.** A history of how economics measures *value* (from François Quesnay's Physiocrats through Smith / Ricardo / Marx to neoclassical marginalism), arguing that the modern conflation of *price* with *value* allowed actors to **portray themselves as value-creators while in reality they were extracting** rents from existing value, moving it around, or destroying it ([PublicAffairs page](https://www.publicaffairsbooks.com/titles/mariana-mazzucato/the-value-of-everything/9781610396745/); [LSE Review of Books](https://blogs.lse.ac.uk/lsereviewofbooks/2018/10/09/book-review-the-value-of-everything-making-and-taking-in-the-global-economy-by-mariana-mazzucato/)).
 
-**Defining quote (canonical for the framework's lineage citation):** *"activities focused on moving around existing resources and outputs, and gaining disproportionately from the ensuing trade"* — this is the framework's primary cite-form for "value extraction" (see `research/literature/bibliography.md` §13 entry for *The Value of Everything*).
+**Defining quote (canonical for the framework's lineage citation):** *"activities focused on moving around existing resources and outputs, and gaining disproportionately from the ensuing trade"* — this is the framework's primary cite-form for "value extraction" (see `tools/back-matter/sources/bibliography.md` §13 entry for *The Value of Everything*).
 
 **Targets.** Asset managers; pharma patent rentiers; hedge funds; Silicon Valley platform monopolies; financial-sector bonus extraction. Mazzucato's diagnosis is **rent-seeking inside financial capitalism**, primarily intangible / financial / IP rents.
 
@@ -255,7 +255,7 @@ This is the load-bearing section.
 
 ### A. *Cost severance* as precision-add on *value extraction* — does it do analytical work or duplicate?
 
-**Framework's positioning.** The framework's bibliography entry for *The Value of Everything* (`research/literature/bibliography.md` §13) and the canonical articulation in `alignment/commons_bonds_framework_positioning_disciplines_v1.0.0.md` §"Mazzucato (value-creation / value-extraction)" both position **cost severance as a precision-add on value extraction**, not a replacement:
+**Framework's positioning.** The framework's bibliography entry for *The Value of Everything* (`tools/back-matter/sources/bibliography.md` §13) and the canonical articulation in `alignment/commons_bonds_framework_positioning_disciplines_v1.0.0.md` §"Mazzucato (value-creation / value-extraction)" both position **cost severance as a precision-add on value extraction**, not a replacement:
 
 > *Mazzucato's distinction between value-creation and value-extraction in The Value of Everything is the clearest articulation of what economics has been refusing to name precisely. Cost severance is positioned as a precision-add on her value-extraction vocabulary — value-extraction is what the actor does; cost severance is what the actor does to the costs of doing it. The framework operationalizes the value-extraction frame at the transaction level by giving it a pricing instrument and a structural-mechanism vocabulary.*
 
@@ -470,6 +470,6 @@ This is the load-bearing section.
 - `alignment/commons_bonds_framework_positioning_disciplines_v1.0.0.md` §"Canonical framework articulations" → Mazzucato (value-creation / value-extraction) — the canonical articulation this brief operationalises.
 - `alignment/commons_bonds_framework_positioning_disciplines_v1.0.0.md` §"Why bonds (and not funds, accounts, trusts, or reserves)?" — the response to the financialisation-pushback Mazzucato is most likely to test.
 - `alignment/commons_bonds_working_principles_v1.0.0.md` WP#10 — Pattern 2 demonstration discipline; Mission Economy + Doughnut Economics + Mine! as canonical Pattern 2 exemplars.
-- `research/literature/bibliography.md` §13 (Mazzucato, *The Value of Everything*, 2018) — Ring-1 flagship "Value Extraction" anchor cite.
+- `tools/back-matter/sources/bibliography.md` §13 (Mazzucato, *The Value of Everything*, 2018) — Ring-1 flagship "Value Extraction" anchor cite.
 - `research/outreach/subjects/darity/background-brief_2026-05-06.md` — first FPD-9 instance; this brief's structural model.
 - `research/outreach/subjects/dagan/background-brief_2026-05-08.md` — second FPD-9 instance; depth-and-public-record-rich model.

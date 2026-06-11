@@ -7,7 +7,7 @@
 **This inventory does NOT re-litigate decisions** from the apparatus register sweep (#9) or Path B audit (#8). It records them as canonical and works downstream.
 
 **Source of truth precedence (highest → lowest):**
-1. `core/glossary/commons_bonds_updated_glossary_v4.html` (canonical lexicon, 2026-05-02)
+1. `tools/back-matter/sources/glossary/commons_bonds_updated_glossary_v4.html` (canonical lexicon, 2026-05-02)
 2. `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-11_apparatus_register_decision_v1.0.0.md` (register decisions, 2026-05-11)
 3. `research/audits/cross-chapter-path-b-audit_2026-05-11.md` (canonical-home assignments where Path B settled them)
 4. `manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html` (formal-register canonical forms)

@@ -241,7 +241,7 @@ Tier B docs deferred from earlier sessions:
 - research/case-studies/qin-dynasty-monumental-extraction.md
 - research/case-studies/tax-tradeoff-us-sweden.md
 - research/case-studies/indigenous-land-dispossession.md
-- research/literature/bibliography.md (verify all chapter-relevance refs current)
+- tools/back-matter/sources/bibliography.md (verify all chapter-relevance refs current)
 - alignment/commons_bonds_personal_stories_candidates_v1.0.0.md
 - core/dimensions/commons_bonds_abundance_dimensions_v1_3_0.md
 - tools/commons_bonds_rigor_protocol_v2.2.0.md

@@ -466,7 +466,7 @@ If she declines or doesn't engage, no follow-up; the cold outreach proceeds.
 
 1. **Within 24 hours:** transcribe the conversation (or write up notes if not recorded). Include any modifications to attribution preferences agreed during the call.
 2. **Within 48 hours:** send Colden a thank-you email; include any clarifying follow-up questions if needed; if she asked for transcript review, send the transcript.
-3. **Update tracking:** mark interview complete in `research/outreach/_pipeline/interview-outreach-drafts_2026-05-04_ch3-fieldwork.md` §18; update `research/literature/bibliography.md` §19.5 if Colden recommended specific reading or surfaced new sources; flag any framework-revision implications in the appropriate guidance docs.
+3. **Update tracking:** mark interview complete in `research/outreach/_pipeline/interview-outreach-drafts_2026-05-04_ch3-fieldwork.md` §18; update `tools/back-matter/sources/bibliography.md` §19.5 if Colden recommended specific reading or surfaced new sources; flag any framework-revision implications in the appropriate guidance docs.
 4. **Decision point — Noema essay §V third anchor.** The substitution-analysis verdict (background brief §10) already green-lit the third-anchor work from public-record material. This decision was deferred in the response-draft pending interview outcome; per the substitution verdict, the decision is now: **green-light the third-anchor work now, with the live interview functioning as future-augmentation.** Confirm post-interview based on actual interview substance.
 5. **Watermen warm-intro follow-up:** if Colden offered a path, follow up within 48 hours via her routing.
 6. **Lipcius warm-intro follow-up:** if Colden offered to flag the request, follow up within 48 hours.
@@ -483,6 +483,6 @@ If she declines or doesn't engage, no follow-up; the cold outreach proceeds.
 - `research/outreach/subjects/cbf/organizational-brief_2026-05-06.md` — CBF organizational map (warm-intro routing).
 - `research/outreach/_protocols/interview-attribution-protocol_2026-05-06.md` — reusable attribution-handling protocol; live Q0 verbal phrasing.
 - `research/outreach/_pipeline/interview-outreach-drafts_2026-05-04_ch3-fieldwork.md` §18 (Colden) — outreach pipeline tracking.
-- `research/literature/bibliography.md` §19.5 — Chesapeake fieldwork tentative sources; Colden public-record anchors.
+- `tools/back-matter/sources/bibliography.md` §19.5 — Chesapeake fieldwork tentative sources; Colden public-record anchors.
 - `alignment/commons_bonds_framework_positioning_disciplines_v1.0.0.md` §FPD-5/6/7/9/10/11; §"Canonical interview-prep four-artifact stack"; §"Canonical framework articulations"; §"Canonical framework one-paragraph summary".
 - `research/outreach/subjects/darity/interview-prep_2026-05-06.md` — first instance of FPD-6 prep doc; structural model for this artifact.

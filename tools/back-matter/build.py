@@ -5,9 +5,9 @@ Parses the internal, scaffolding-laden source-of-truth files and emits CLEAN,
 zero-scaffolding, per-entry-anchored reader-facing HTML into manuscript/back-matter/.
 
 Source-of-truth (current homes; relocation deferred per 2026-06-09 plan):
-  bibliography : research/literature/bibliography.md   (the SUPERSET master)
+  bibliography : tools/back-matter/sources/bibliography.md   (the SUPERSET master)
   TA §18 (in)  : manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html  (subset, for fold diff)
-  glossary     : core/glossary/commons_bonds_updated_glossary_v4.html
+  glossary     : tools/back-matter/sources/glossary/commons_bonds_updated_glossary_v4.html
   notation     : manuscript/technical-appendix/symbol-registry_2026-06-07.md
 
 Outputs (reader-facing, clean):
@@ -28,9 +28,9 @@ Stdlib only.
 import os, re, sys, html, unicodedata
 
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
-BIB_MD   = os.path.join(ROOT, "research/literature/bibliography.md")
+BIB_MD   = os.path.join(ROOT, "tools/back-matter/sources/bibliography.md")
 TA_HTML  = os.path.join(ROOT, "manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html")
-GLOSS_V4 = os.path.join(ROOT, "core/glossary/commons_bonds_updated_glossary_v4.html")
+GLOSS_V4 = os.path.join(ROOT, "tools/back-matter/sources/glossary/commons_bonds_updated_glossary_v4.html")
 REGISTRY = os.path.join(ROOT, "manuscript/technical-appendix/symbol-registry_2026-06-07.md")
 OUT_DIR  = os.path.join(ROOT, "manuscript/back-matter")
 

@@ -628,7 +628,7 @@ Three qualifications worth surfacing (delta vs V2 audit §8.3):
 
 2. **F-3.5-V3-M1 §VIII closing-list structural-choice question deserves author awareness.** The 5-fold anaphora is on-tradition (Vendler/Tooze) and the recommendation is KEEP, but the question of whether the closing-list compounds or crowds is a judgment call worth flagging for author consideration. KEEP-ALL-5 / TRIM-TO-3-or-4 / REVERT-TO-LOCKED-CUT options surfaced.
 
-3. **Bibliography line-verification deferred for §VI Polanyi (§13 line 96+ per V-D YAML) + Sen (§13 line 129+ per V-D YAML) attributions.** Paste-time pre-submission gate per V2 audit §8.4 conditional list; this audit does not open `research/literature/bibliography.md` (out of scope; PM-coordinated verification chip).
+3. **Bibliography line-verification deferred for §VI Polanyi (§13 line 96+ per V-D YAML) + Sen (§13 line 129+ per V-D YAML) attributions.** Paste-time pre-submission gate per V2 audit §8.4 conditional list; this audit does not open `tools/back-matter/sources/bibliography.md` (out of scope; PM-coordinated verification chip).
 
 ### §9.4 Conditions for submission verdict
 

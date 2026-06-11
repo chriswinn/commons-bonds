@@ -8,7 +8,7 @@
 
 ## Comps ⊆ Bibliography (with limited market-signal exceptions)
 
-The cleanest comps are books the manuscript already engages with substantively — i.e., entries in `research/literature/bibliography.md`. A comp that the framework cites and engages reads as intellectual honesty; a comp that's only positioning ("similar audience") reads as marketing-only and is weaker.
+The cleanest comps are books the manuscript already engages with substantively — i.e., entries in `tools/back-matter/sources/bibliography.md`. A comp that the framework cites and engages reads as intellectual honesty; a comp that's only positioning ("similar audience") reads as marketing-only and is weaker.
 
 **Rule of thumb:** lead with bibliography-anchored comps. At most 1, occasionally 2, market-signal-only comps are defensible — and only when explicitly framed as "audience overlap" rather than "intellectual neighbor."
 
@@ -52,7 +52,7 @@ If the final 5 lands as: Mazzucato + Pistor + Christophers + Susskind + (one Tie
 
 ## Cross-thread dependency
 
-Tier 1 entries 2 + 3 (Pistor + Christophers) and Tier 2 entry 5 (Susskind) were added to `research/literature/bibliography.md` §13 on 2026-05-08 with **engagement pending** flags. The manuscript thread needs to land:
+Tier 1 entries 2 + 3 (Pistor + Christophers) and Tier 2 entry 5 (Susskind) were added to `tools/back-matter/sources/bibliography.md` §13 on 2026-05-08 with **engagement pending** flags. The manuscript thread needs to land:
 
 - **Pistor** → Ch 5 (Accountability Gap) paragraph: institutional-architecture-of-accountability ↔ Pistor's legal-architecture-of-capital. Possibly secondary touch in Ch 9.
 - **Christophers** → Ch 9 (Pricing Honestly) paragraph: diagnosis-vs-prescription on pricing mechanics. Possibly secondary touch in Ch 5.
@@ -240,7 +240,7 @@ Until those engagements are written, the comp-list reads honestly as "candidates
 
 ### Lead 5. Raj Patel & Jason W. Moore — *A History of the World in Seven Cheap Things: A Guide to Capitalism, Nature, and the Future of the Planet* (2017)
 
-**Bibliographic anchor.** University of California Press. Hardcover ~328 pp; pb in wide distribution. **Not in `research/literature/bibliography.md` — comp by audience-overlap signal, not intellectual-neighbor signal.** Per Tier 3 framing in this file.
+**Bibliographic anchor.** University of California Press. Hardcover ~328 pp; pb in wide distribution. **Not in `tools/back-matter/sources/bibliography.md` — comp by audience-overlap signal, not intellectual-neighbor signal.** Per Tier 3 framing in this file.
 
 **Positioning.**
 - Shelf: history / political economy / climate (trade-academic crossover)
@@ -351,7 +351,7 @@ Until those engagements are written, the comp-list reads honestly as "candidates
 
 **Bibliographic anchor.** Belknap Press of Harvard University Press. Hardcover ~304 pp; pb available.
 
-**Positioning + sales arc (brief).** Belknap-Harvard list; moral-framing register; cross-disciplinary readability; durable academic-trade backlist. Decade-old now (2014) — sales arc mature. **Not in `research/literature/bibliography.md`** — comp by audience overlap, not intellectual neighbor.
+**Positioning + sales arc (brief).** Belknap-Harvard list; moral-framing register; cross-disciplinary readability; durable academic-trade backlist. Decade-old now (2014) — sales arc mature. **Not in `tools/back-matter/sources/bibliography.md`** — comp by audience overlap, not intellectual neighbor.
 
 **Agent intelligence.** Sassen at Columbia; trade-publishing agent identity `[verify]`.
 
@@ -365,7 +365,7 @@ Until those engagements are written, the comp-list reads honestly as "candidates
 
 **Bibliographic anchor.** Princeton University Press. Hardcover ~336 pp; pb available.
 
-**Positioning + sales arc (brief).** Princeton-UP serious-policy list; non-partisan posture; trade-economy-policy-curious general reader. **Not in `research/literature/bibliography.md`** — comp by audience-overlap and non-partisan-publisher-comfort signal.
+**Positioning + sales arc (brief).** Princeton-UP serious-policy list; non-partisan posture; trade-economy-policy-curious general reader. **Not in `tools/back-matter/sources/bibliography.md`** — comp by audience-overlap and non-partisan-publisher-comfort signal.
 
 **Agent intelligence.** Rodrik at Harvard Kennedy School; trade-publishing agent `[verify]`. Princeton-UP acquiring editor (overlapping w/ Pistor's Code of Capital): `[verify]`.
 

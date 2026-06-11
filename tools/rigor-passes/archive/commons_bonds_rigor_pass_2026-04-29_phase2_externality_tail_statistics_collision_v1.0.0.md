@@ -483,7 +483,7 @@ None. Phase 2 audit confirms the Phase 1 §9.4 disposition.
 
 **(a) terms_index Externality Tail entry — add new "Notational disambiguation" subsection:**
 
-Insert into `core/terms/terms_index.md` Externality Tail entry (between current "M12 lineage" subsection and "Term-spec version" line) the following ~120-word block:
+Insert into `tools/back-matter/sources/terms_index.md` Externality Tail entry (between current "M12 lineage" subsection and "Term-spec version" line) the following ~120-word block:
 
 > **Notational disambiguation.** The framework's "Externality Tail" refers to **temporal persistence of damage post-extraction** (the tail of the damage curve in time, per the rhetorical anchor "runs on its own clock"), not to the **statistical-distribution sense** of "tail" used in finance / actuarial / extreme-value-theory / risk-management literature (e.g., Mandelbrot 1963 fat-tailed price distributions; Taleb 2007 Black Swans; ruin-theory tail risk per Embrechts, Klüppelberg & Mikosch 1997; long-tail in business per Anderson 2006). The two senses share the underlying geometric intuition — tail = part far from the central mass — but the framework's domain is **time** (when does damage occur?) while statistics-distribution-tail's domain is **probability** (how extreme are the values?). E(R, t) is a deterministic time-indexed cost function, not a probability distribution; it does not exhibit extreme-value behavior in the statistics sense.
 
@@ -558,7 +558,7 @@ Two concrete enhancements:
 ### §14.5 Implementation pending after ratification
 
 If (a) full ratify:
-1. `core/terms/terms_index.md` Externality Tail entry — insert §13.1 (a) disambiguation note ~120 words.
+1. `tools/back-matter/sources/terms_index.md` Externality Tail entry — insert §13.1 (a) disambiguation note ~120 words.
 2. Tech Appendix v1.0.0 HTML §B Definition A.4 line 455 — replace with §13.1 (b) extended text.
 3. Glossary v3 entry — append §13.1 (c) disambiguating sentence.
 4. Bibliography expansion per §13.2 (Mandelbrot 1963; Taleb 2007; Embrechts et al. 1997; Anderson 2006).
@@ -620,11 +620,11 @@ This rigor pass does NOT replace external review; it produces the substrate that
 
 ### §16.3 Downstream artifacts (this pass would update on ratification)
 
-- `core/terms/terms_index.md` Externality Tail entry — insert §13.1 (a) Notational disambiguation subsection.
+- `tools/back-matter/sources/terms_index.md` Externality Tail entry — insert §13.1 (a) Notational disambiguation subsection.
 - `manuscript/technical-appendix/TechnicalAppendix_v1.0.0.html` §B Definition A.4 line 455 — replace with §13.1 (b) extended text.
-- `core/glossary/archive/commons_bonds_updated_glossary_v3.html` Externality Tail entry — append §13.1 (c) disambiguating sentence.
+- `tools/back-matter/sources/glossary/archive/commons_bonds_updated_glossary_v3.html` Externality Tail entry — append §13.1 (c) disambiguating sentence.
 - `manuscript/technical-appendix/TechnicalAppendix_v1.0.0.html` bibliography section — Mandelbrot 1963; Taleb 2007; Embrechts et al. 1997; Anderson 2006 additions.
-- `core/terms/terms_index.md` — append Phase 2 verdict entry; cross-reference to this rigor pass.
+- `tools/back-matter/sources/terms_index.md` — append Phase 2 verdict entry; cross-reference to this rigor pass.
 - `alignment/commons_bonds_open_insights_v1.0.0.md` — new Insight # closed-ratified capturing Phase 2 #5 verdict (number TBD).
 
 ### §16.4 Pre-publication external review (Insight #39)

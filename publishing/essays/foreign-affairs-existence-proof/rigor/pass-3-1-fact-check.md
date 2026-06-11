@@ -107,7 +107,7 @@ For Foreign Affairs specifically the regression is **more** load-bearing than fo
 
 **§7 canonical specification:** §7.9: "**Hartwick, John M. — 'Intergenerational Equity and the Investing of Rents from Exhaustible Resources.'** *American Economic Review* **67, no. 5 (1977): 972–974.** Bibliography §890 LOAD-BEARING entry... Institutional affiliation at time of publication: **Queen's University, Canada**. **Citation form: prose mention with year + journal + volume + page numbers (FA reader-pool expects verifiable specificity).**"
 
-**Corroborating bibliography commitment:** [`research/literature/bibliography.md`](../../research/literature/bibliography.md) §890 — Hartwick LOAD-BEARING entry confirms the full citation.
+**Corroborating bibliography commitment:** [`tools/back-matter/sources/bibliography.md`](../../tools/back-matter/sources/bibliography.md) §890 — Hartwick LOAD-BEARING entry confirms the full citation.
 
 **Issue:** The brief §7.9 explicitly specifies the citation form for Hartwick — **journal name + volume + issue + page numbers** — because the FA reader pool includes sovereign-wealth-fund-economics scholars (Tier 1 #3) and resource-economics academics (Tier 2 #8 Norway-cluster scholar) who treat citation specificity as a register-signal. The Stage 2 draft names only *American Economic Review* and "1977" — drops "67, no. 5" and "972–974." Compare to:
 - BR essay Pass 3.1 register precedent (institutional-measurement third-person): citation specificity at moderate-to-high depth.

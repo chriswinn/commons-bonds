@@ -259,7 +259,7 @@ Option B (rename to capitalized "Intergenerational Cost Severance") is defensibl
 
 **Effort:** ~5 minutes.
 
-**Where:** `core/glossary/archive/commons_bonds_updated_glossary_v2.html` → v3.
+**Where:** `tools/back-matter/sources/glossary/archive/commons_bonds_updated_glossary_v2.html` → v3.
 
 ### Condition 2 — Chapter + case-study prose sweep
 
@@ -274,11 +274,11 @@ Option B (rename to capitalized "Intergenerational Cost Severance") is defensibl
 
 ### Condition 3 — Terms index provenance record
 
-**What:** Add provenance record for the retirement to `core/terms/terms_index.md`. Record documents: retired status, rigor-pass reference, concept-continuation via prose.
+**What:** Add provenance record for the retirement to `tools/back-matter/sources/terms_index.md`. Record documents: retired status, rigor-pass reference, concept-continuation via prose.
 
 **Effort:** ~5 minutes.
 
-**Where:** `core/terms/terms_index.md` §4.
+**Where:** `tools/back-matter/sources/terms_index.md` §4.
 
 ---
 
@@ -353,4 +353,4 @@ Absent these triggers, the verdict stands.
 
 ---
 
-*End of Focused Rigor Pass v1.0.0. Option C (retire the capitalized term) recommended. Principle #3 variant-subtype check PASSES (this IS a genuine Cost Severance subtype) but subtype status does not require dedicated proper-noun vocabulary when prose composition works naturally. Principle #1 (effort-to-repair) holds — 15 minutes of sweep work is downstream scheduling, not verdict input. Pending author ratification at §12. Provenance record at §11 ready for `core/terms/terms_index.md` §4.*
+*End of Focused Rigor Pass v1.0.0. Option C (retire the capitalized term) recommended. Principle #3 variant-subtype check PASSES (this IS a genuine Cost Severance subtype) but subtype status does not require dedicated proper-noun vocabulary when prose composition works naturally. Principle #1 (effort-to-repair) holds — 15 minutes of sweep work is downstream scheduling, not verdict input. Pending author ratification at §12. Provenance record at §11 ready for `tools/back-matter/sources/terms_index.md` §4.*

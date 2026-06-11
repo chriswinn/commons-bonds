@@ -252,7 +252,7 @@ Per the ratified decision, all three placements integrate during this session's 
 - `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-24_three_ways_rcv_formal_model_v1.0.0.md` — methodology for B << RCV empirical-finding (the framework's existing claim that this addition extends).
 - Ch 9 draft (`manuscript/chapters/Chapter__9_TheRenewableImperative__Draft.md`) — recommended integration target.
 - Ch 8 draft (`manuscript/chapters/Chapter__8_WhatThingsActuallyCost_Draft.md`) — defensible secondary integration target.
-- Bibliography `research/literature/bibliography.md` — Mian & Sufi 2014 + Reinhart & Rogoff 2009 promotions if ratified.
+- Bibliography `tools/back-matter/sources/bibliography.md` — Mian & Sufi 2014 + Reinhart & Rogoff 2009 promotions if ratified.
 
 ---
 

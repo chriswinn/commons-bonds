@@ -65,7 +65,7 @@ book-audience pressure-test set.
 11. manuscript/chapters/Chapter__4___GuidanceDoc.md — internal-scaffolding
     guidance, per-section staleness audit.
 12. Canonical sources to verify against (fact-check pass):
-   - research/literature/bibliography.md §13 (comp + framework-adjacent
+   - tools/back-matter/sources/bibliography.md §13 (comp + framework-adjacent
      entries with engagement-state flags) — particularly Hartwick (1977)
      for B₂ Foreclosure Bond, Norway sources.
    - research/case-studies/norway-swf.md (Norway-as-canonical-B2; same
@@ -77,7 +77,7 @@ book-audience pressure-test set.
      (canonical-terms inventory + named-cases + recurring-stats)
    - research/audits/cross-chapter-path-b-audit_2026-05-11.md (cross-
      chapter Path B baseline)
-   - core/terms/terms_index.md (canonical-form check for any apparatus
+   - tools/back-matter/sources/terms_index.md (canonical-form check for any apparatus
      terms appearing in body prose)
    - **Op-ed pipeline Stage 3 rigor pass (commit `5167edd`, 2026-05-10)
      — caught GPFG founding-date conflation + Bondevik-coalition timing
@@ -250,7 +250,7 @@ Before asserting any time-sensitive claim:
   research/outreach/subjects/<subject>/ files (canonical) if any Ch 4
   subjects are interview targets.
 - Verify lineage / intellectual-history claims against
-  research/literature/bibliography.md §13.
+  tools/back-matter/sources/bibliography.md §13.
 - Verify apparatus register decisions against
   tools/rigor-passes/commons_bonds_rigor_pass_2026-05-11_apparatus_register_decision_v1.0.0.md.
 - Verify named-Norway-figure spellings + roles + dates against primary

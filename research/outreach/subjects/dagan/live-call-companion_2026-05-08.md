@@ -305,7 +305,7 @@ Less likely with Dagan than with a regulatory-side interlocutor; capture for com
 
 1. **Transcribe** the conversation (Otter.ai with speaker diarization recommended) or write notes if not recorded. Log Dagan's attribution preference + any modifications agreed during the call.
 2. **Send thank-you email within 48 hours** with any artifacts agreed (Tech Appendix, water-deal hypothetical, Ch 9 excerpt). If transcript review was requested, send the transcript.
-3. **Update tracking:** mark interview complete in `research/outreach/_pipeline/interview-outreach-drafts_2026-05-01.md` candidate #4 (Raworth track / Beth's warm-intro thread); note any reading recs in `research/literature/bibliography.md`; flag any framework-revision implications in the appropriate guidance docs.
+3. **Update tracking:** mark interview complete in `research/outreach/_pipeline/interview-outreach-drafts_2026-05-01.md` candidate #4 (Raworth track / Beth's warm-intro thread); note any reading recs in `tools/back-matter/sources/bibliography.md`; flag any framework-revision implications in the appropriate guidance docs.
 4. **Decision points:**
    - Does Dagan's input warrant adding him to the Noema essay §VI as an applied-implementation anchor (alongside Mondragon / Vienna / rights-of-nature)?
    - Did he surface a *real* Amsterdam deal-evaluation moment that should replace the water-deal hypothetical in Ch 9 entering-wedges?

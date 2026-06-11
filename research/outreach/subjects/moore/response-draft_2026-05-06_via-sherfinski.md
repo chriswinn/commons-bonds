@@ -148,4 +148,4 @@ Each of these is a potential Ch 3 voice. The strategic move is to give Sherfinsk
 - `research/outreach/_pipeline/interview-outreach-drafts_2026-05-04_ch3-fieldwork.md` §17 (Moore original outreach)
 - `research/outreach/subjects/colden/response-draft_2026-05-05_via-dimarzio.md` (parallel Maryland thread; same comms-manager-as-gatekeeper structure with DiMarzio)
 - `research/outreach/_pipeline/interview-outreach-drafts_2026-05-04_ch3-fieldwork.md` response-tracking table (this thread now logged on row #17)
-- `research/literature/bibliography.md` §19.5 (Chesapeake fieldwork tentative sources — could expand if Sherfinski-routed interviews materialize)
+- `tools/back-matter/sources/bibliography.md` §19.5 (Chesapeake fieldwork tentative sources — could expand if Sherfinski-routed interviews materialize)

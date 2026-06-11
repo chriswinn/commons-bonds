@@ -2,11 +2,11 @@
 
 **Header note (added 2026-04-30 per Insight #60 scaffolding cleanup pass):** This audit was performed against the framework's state on 2026-04-25, including references to `manuscript/technical-appendix/TechnicalAppendix_v0.0.5.html` — an interim Tech Appendix state that has since been superseded by v1.0.0 (current canonical) + v0.0.5_supplement.md (archived to `manuscript/technical-appendix/archive/`). References to v0.0.5.html in this audit's content describe what was true on 2026-04-25; per Working Principle #4 + Insight #59 retirement-trace discipline, this audit document preserves the historical state. Current Tech Appendix is `manuscript/technical-appendix/TechnicalAppendix_v1.0.0.html`; supplement at `manuscript/technical-appendix/archive/TechnicalAppendix_v0.0.5_supplement.md`.
 
-**Scope:** Repository-wide sweep across `research/`, `core/`, `manuscript/` for retired truth-claim usage of "canonical" per the discipline established in `core/terms/terms_index.md` lines 4–18 (canonical-as-truth-claim-about-taxonomy/finality retired in favor of provenance/current-state language; canonical-as-adjective-for-source/exemplar/case preserved).
+**Scope:** Repository-wide sweep across `research/`, `core/`, `manuscript/` for retired truth-claim usage of "canonical" per the discipline established in `tools/back-matter/sources/terms_index.md` lines 4–18 (canonical-as-truth-claim-about-taxonomy/finality retired in favor of provenance/current-state language; canonical-as-adjective-for-source/exemplar/case preserved).
 
 **Trigger:** User-flagged regression during 2026-04-25 session (`research/case-studies/README.md` line 7 use of "canonical case-study content"). Sweep extended at user direction to cover `core/` and `manuscript/` directories.
 
-**Discipline reference:** `core/terms/terms_index.md` §0 (lines 4–18) + Working Principle #2 (audit-concept-not-phrase).
+**Discipline reference:** `tools/back-matter/sources/terms_index.md` §0 (lines 4–18) + Working Principle #2 (audit-concept-not-phrase).
 
 ---
 

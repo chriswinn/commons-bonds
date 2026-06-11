@@ -190,7 +190,7 @@ For each surface, the audit (a) reads current state via grep + targeted Read; (b
 
 ### §4.4 terms_index entry
 
-**Current state:** `core/terms/terms_index.md` line 1930 onwards:
+**Current state:** `tools/back-matter/sources/terms_index.md` line 1930 onwards:
 
 > **### Three Ways of Counting (formerly "Triangulated RCV Estimation"; renamed 2026-04-28)**
 >
@@ -204,7 +204,7 @@ For each surface, the audit (a) reads current state via grep + targeted Read; (b
 
 ### §4.5 Glossary v3 entry
 
-**Current state:** `core/glossary/archive/commons_bonds_updated_glossary_v3.html`:
+**Current state:** `tools/back-matter/sources/glossary/archive/commons_bonds_updated_glossary_v3.html`:
 - Line 235-236: term entry titled "Three Ways of Counting" with definition that includes inline preserved-form *"described inline as 'the triangulated three-method range.'"*
 - Line 288: cross-reference under RCV — *"forward-looking; resource permanent-foreclosure; triangulated estimation; pairs with B2 (Foreclosure Bond)"* — uses "triangulated estimation" descriptively (legitimate).
 - Line 392: index entry — *"**Three Ways of Counting** — Ring 2 estimation methodology with three sub-methods (renamed 2026-04-28 from 'Triangulated RCV Estimation'; methodology unchanged)."*
@@ -259,7 +259,7 @@ Option A is cleanest and aligns most directly with the Insight #31 ratified disc
 
 ### §4.9 Bibliography references
 
-**Current state:** `research/literature/bibliography.md` lines 797, 802, 805, 811, 814, 829, 832, 838, 841 — all reference "Triangulated RCV Estimation rigor pass" by its historical 2026-04-24 file name.
+**Current state:** `tools/back-matter/sources/bibliography.md` lines 797, 802, 805, 811, 814, 829, 832, 838, 841 — all reference "Triangulated RCV Estimation rigor pass" by its historical 2026-04-24 file name.
 
 **Verdict:** ✓ **LEGITIMATE-HISTORICAL.** Bibliography entries cite the 2026-04-24 rigor pass file by its filename (`commons_bonds_rigor_pass_2026-04-24_term_triangulated_rcv_estimation_v1.0.0.md`) and reference the pass by its 2026-04-24 name. This is correct disciplinary practice — file references should reference by file-name-at-the-time, and bibliography provenance traces should reflect historical naming. No reader is misled because the bibliography itself is provenance-tracking.
 
@@ -366,7 +366,7 @@ This rigor pass does NOT replace external review; it produces the substrate that
 ### §7.3 Downstream artifacts (this pass would update on ratification)
 
 - `manuscript/technical-appendix/TechnicalAppendix_v1.0.0.html` lines 225 + 678 — section-title fix per §5.1 (single 2-line edit).
-- `core/terms/terms_index.md` — append Phase 2 verdict entry; cross-reference to this rigor pass.
+- `tools/back-matter/sources/terms_index.md` — append Phase 2 verdict entry; cross-reference to this rigor pass.
 - `alignment/commons_bonds_open_insights_v1.0.0.md` — new Insight # closed-ratified entry capturing Phase 2 #6 verdict (number TBD; coordinate with sibling passes).
 
 ### §7.4 Pre-publication external review (Insight #39)

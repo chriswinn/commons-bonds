@@ -165,12 +165,12 @@ The older document's historical content remains intact. Only the header note is 
 
 | Document type | Tier | Retirement treatment |
 |---|---|---|
-| **Terms Index** (`core/terms/terms_index.md` §4) | Tier 1 | Full RETIRED record with rigor-pass link + full reasoning (this is the authoritative retirement record — template established by Spatial Cost Severance entry 2026-04-24). |
+| **Terms Index** (`tools/back-matter/sources/terms_index.md` §4) | Tier 1 | Full RETIRED record with rigor-pass link + full reasoning (this is the authoritative retirement record — template established by Spatial Cost Severance entry 2026-04-24). |
 | **Glossary** (currently v2, bumping to v3) | Tier 1 | Sweep retired terms out in v3. The v3 → v2 supersession is the audit trail; v2 is preserved as an older doc. |
 | **Active chapter drafts** | Tier 1 | Sweep retired term to replacement where natural; where sweep would distort authorial voice, add footnote. |
 | **Active audit docs** (chapter audit v1.0.6, case-study audit v1.0.6) | Tier 1 | Sweep retired terms; bump to v1.0.7 at sweep-time. |
 | **Active Technical Appendix** (v0.0.4) | Tier 1 | Sweep retired terms; document gets a "Changes from v0.0.3 → v0.0.4" section (already has this for the dimension renames). |
-| **Archived session handoffs** | Tier 2 | Add single retirement-note header: *"Note: this handoff references terms subsequently retired (e.g., 'Spatial Cost Severance'). See `core/terms/terms_index.md` §4 for the retirement record and rigor-pass reasoning."* No sweep. |
+| **Archived session handoffs** | Tier 2 | Add single retirement-note header: *"Note: this handoff references terms subsequently retired (e.g., 'Spatial Cost Severance'). See `tools/back-matter/sources/terms_index.md` §4 for the retirement record and rigor-pass reasoning."* No sweep. |
 | **Archived rigor protocol versions** (`tools/archive/*.md`) | Tier 2 | Single retirement-note header; no sweep. |
 | **Archived rigor passes** (e.g., `tools/rigor-passes/*2026-04-22*.md`) | Tier 2 | Single retirement-note header; no sweep. Rigor passes from 2026-04-24 (Path F, tier-reframing, macro-grouping) get the existing `§ Subsequent developments` annotation pattern per prior ratification. |
 | **Superseded Technical Appendix versions** (v0.0.3) | Tier 2 | Single retirement-note header pointing to v0.0.4 + Terms Index. |
@@ -189,7 +189,7 @@ The principle covers two symmetric cases:
 
 Active documents (chapter drafts, current audits, Technical Appendix, glossary, guidance docs) include a *provenance pointer* — a short header note near the top of the document that points readers to the Terms Index for vocabulary provenance:
 
-> *"Framework vocabulary used in this document: provenance (rigor-pass support, ratification history, definition) tracked in `core/terms/terms_index.md`. See individual entries for reasoning chain."*
+> *"Framework vocabulary used in this document: provenance (rigor-pass support, ratification history, definition) tracked in `tools/back-matter/sources/terms_index.md`. See individual entries for reasoning chain."*
 
 This one-line note provides a single entry-point to the full audit trail without requiring per-term inline footnotes (which would clutter prose). The Terms Index records carry the detailed reasoning; the document's header note points to the Index.
 
@@ -403,12 +403,12 @@ Articulated and ratified 2026-04-26 by Chris Winn, after a methodology critique 
 
 *Tier 1 publisher-facing artifacts subject to scrub:*
 - Chapter drafts (`manuscript/chapters/Chapter_*Draft.{md,html}`) at submission-readiness state
-- Current + future glossary (`core/glossary/archive/commons_bonds_updated_glossary_v3.html` + future v4 derived from terms_index)
+- Current + future glossary (`tools/back-matter/sources/glossary/archive/commons_bonds_updated_glossary_v3.html` + future v4 derived from terms_index)
 - Current + future Tech Appendix (`manuscript/technical-appendix/TechnicalAppendix_v1.0.0.html` + future v2.0.0 derived from terms_index)
 - Research case-study writeups (`research/case-studies/*.md`) where they feed chapter prose
 
 *Tier 3 scaffolding documents preserving all traces:*
-- `core/terms/terms_index.md` (source-of-truth)
+- `tools/back-matter/sources/terms_index.md` (source-of-truth)
 - `tools/rigor-passes/*.md` (decision history)
 - `alignment/commons_bonds_working_principles_v*.md` + `commons_bonds_vocabulary_strategy_v*.md` + `commons_bonds_open_insights_v*.md` (standing disciplines)
 - `alignment/sessions/*.md` + `alignment/patches/*.md` (project state)
@@ -533,8 +533,8 @@ All new framework content is classified at origination as **internal-scaffolding
 
 | Layer | What lives here | Discipline |
 |---|---|---|
-| **Internal scaffolding** | `.claude/` · `tools/` · `core/methodology/` · `alignment/` · `research/` · `archive/` | Rich; preserves methodology notes, worked examples, research-grade depth, literature audits, audit trail, decision-time-application drafts, Book 2 / Book 3 seed material, framework-supporting material that doesn't need publisher-facing exposure |
-| **External publisher-facing** | `manuscript/chapters/*` · `core/glossary/*` · `manuscript/technical-appendix/*` · `publishing/essays/*` | Disciplined per WP#8 (scrubbed of audit-trail content) + Pattern 2 demonstration (threaded through cases rather than codified in dedicated how-to / methodology sections — the *Doughnut Economics* / *Mission Economy* / *Mine!* model) |
+| **Internal scaffolding** | `.claude/` · `tools/` · `alignment/methodology/` · `alignment/` · `research/` · `archive/` | Rich; preserves methodology notes, worked examples, research-grade depth, literature audits, audit trail, decision-time-application drafts, Book 2 / Book 3 seed material, framework-supporting material that doesn't need publisher-facing exposure |
+| **External publisher-facing** | `manuscript/chapters/*` · `tools/back-matter/sources/glossary/*` · `manuscript/technical-appendix/*` · `publishing/essays/*` | Disciplined per WP#8 (scrubbed of audit-trail content) + Pattern 2 demonstration (threaded through cases rather than codified in dedicated how-to / methodology sections — the *Doughnut Economics* / *Mission Economy* / *Mine!* model) |
 
 **Cross-layer flow:**
 
@@ -555,7 +555,7 @@ When in doubt, default to internal — it's easier to promote internal material 
 
 **Pattern 2 demonstration discipline (for external layer):**
 
-External-facing material that touches applied / decision-time / how-to registers should follow the **Pattern 2 / threaded** model documented in [`core/methodology/decision_time_application_internal_v1.0.0.md`](../core/methodology/decision_time_application_internal_v1.0.0.md):
+External-facing material that touches applied / decision-time / how-to registers should follow the **Pattern 2 / threaded** model documented in [`alignment/methodology/decision_time_application_internal_v1.0.0.md`](../alignment/methodology/decision_time_application_internal_v1.0.0.md):
 
 - Demonstrate the framework's affordance through case treatment (chapters; personal stories; cross-references)
 - Do NOT codify a methodology in publisher-facing prose (no "How to Apply" chapters; no prescribed two-step procedures)
@@ -581,7 +581,7 @@ External-facing material that touches applied / decision-time / how-to registers
 **Cross-references:**
 
 - Insight #9 closed-ratified 2026-04-30 (verdict (b) at external layer + rich-internal-scaffolding discipline) — WP#10 is generalized from this verdict
-- [`core/methodology/decision_time_application_internal_v1.0.0.md`](../core/methodology/decision_time_application_internal_v1.0.0.md) — internal scaffolding artifact preserving the literature-pattern analysis (Pattern 1 / 2 / 3) + two-layer framing rationale
+- [`alignment/methodology/decision_time_application_internal_v1.0.0.md`](../alignment/methodology/decision_time_application_internal_v1.0.0.md) — internal scaffolding artifact preserving the literature-pattern analysis (Pattern 1 / 2 / 3) + two-layer framing rationale
 - WP#4 (refined per Insight #59); WP#8; Insight #13; Insight #14; Insight #28; Insight #37
 - Session handoff v1.49.0 §4 — parallel-thread coordination discipline
 

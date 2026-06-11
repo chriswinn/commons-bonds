@@ -14,7 +14,7 @@
 - **Word-count resolution:** Per author directive ("let length follow substance vs. trying to hit arbitrary length targets"), no filler identified at 9,459 words. Substance allocation: 6 case studies + 6 counterargument-engagement subsections (4 in 2008 + 2 in Social Security) + Restitution/Foreclosure Bonds apparatus introduction (~1,800 words structural payoff naming the two-instrument response that anchors the rest of the book). All length earns its place.
 - **Cross-chapter flag (out of Ch 5 scope; for future β-thread sweep):** Ch 7 line 109 still uses capitalized `Community Transition Reserves` in policy-mechanism enumeration — Path-2-noncompliant residual from Insight #23 closure (which only covered Ch 2 + Ch 9 explicitly). Worth catching in next β-thread cross-chapter sweep.
 
-**Staleness disclaimer (2026-04-30; updated 2026-05-08):** This file accumulates content across earlier dates → 2026-04-30. **Case-list regressions RESOLVED 2026-05-08** — Exxon Valdez + SCC sections marked HISTORICAL inline; new CURRENT Ch 5 case-list ADDITIONS (2008 + Social Security + Healthcare + Restitution/Foreclosure two-instrument apparatus) added; counterarguments-handling note updated to reflect current 6-engagement-subsection structure. Sections from earlier dates may also reference **retired vocabulary** (8-tier scheme retired 2026-04-24 per Insight #21 + #63; AIT renamed to CIT 2026-04-24; Dynastic Labor Cost renamed to Lineage Labor Cost 2026-04-30 per Insight #56; FGC retired; Universality Test retired; Value Capture retired in favor of Value Extraction; Spatial Cost Severance + Temporal Cost Severance reframed) or **superseded direction**. Verify against current state (`core/terms/terms_index.md` + `alignment/commons_bonds_open_insights_v1.0.0.md`) before applying.
+**Staleness disclaimer (2026-04-30; updated 2026-05-08):** This file accumulates content across earlier dates → 2026-04-30. **Case-list regressions RESOLVED 2026-05-08** — Exxon Valdez + SCC sections marked HISTORICAL inline; new CURRENT Ch 5 case-list ADDITIONS (2008 + Social Security + Healthcare + Restitution/Foreclosure two-instrument apparatus) added; counterarguments-handling note updated to reflect current 6-engagement-subsection structure. Sections from earlier dates may also reference **retired vocabulary** (8-tier scheme retired 2026-04-24 per Insight #21 + #63; AIT renamed to CIT 2026-04-24; Dynastic Labor Cost renamed to Lineage Labor Cost 2026-04-30 per Insight #56; FGC retired; Universality Test retired; Value Capture retired in favor of Value Extraction; Spatial Cost Severance + Temporal Cost Severance reframed) or **superseded direction**. Verify against current state (`tools/back-matter/sources/terms_index.md` + `alignment/commons_bonds_open_insights_v1.0.0.md`) before applying.
 
 **[PER-SECTION STALENESS AUDIT 2026-05-08]**
 
@@ -37,7 +37,7 @@
 - `Chapter__5_THEACCOUNTABILITYGAP__Draft.md` — publisher-facing prose.
 - `alignment/commons_bonds_working_principles_v1.0.0.md` — WP#10 + WP#8.
 - `alignment/commons_bonds_open_insights_v1.0.0.md` — current open insights + ratification log.
-- `core/terms/terms_index.md` — current canonical vocabulary.
+- `tools/back-matter/sources/terms_index.md` — current canonical vocabulary.
 - Insight #14 (Norway canonical exemplar; closed-ratified 2026-04-30) — Ch 5 accountability-gap framing references Norway as strongest existing example approaching B ≈ RCV.
 
 ---

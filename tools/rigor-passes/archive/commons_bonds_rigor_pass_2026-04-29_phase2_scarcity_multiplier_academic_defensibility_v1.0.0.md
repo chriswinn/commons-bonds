@@ -688,7 +688,7 @@ This rigor pass does NOT replace external review; it produces the substrate that
 - `manuscript/technical-appendix/method3_sensitivity_analysis_2026-04-25.md` §2.1 — replace discipline-claim text per §13.2.
 - `manuscript/technical-appendix/method3_sensitivity_analysis_2026-04-25.md` §2.1.5 (new) — add alternative-form sensitivity table per §13.3.
 - `manuscript/technical-appendix/TechnicalAppendix_v1.0.0.html` bibliography section — Atkinson 1970, Cobb-Douglas 1928, Solow 1956, Bergson 1938 additions.
-- `core/terms/terms_index.md` — Phase 2 verdict entry; cross-reference to this rigor pass.
+- `tools/back-matter/sources/terms_index.md` — Phase 2 verdict entry; cross-reference to this rigor pass.
 - `alignment/commons_bonds_open_insights_v1.0.0.md` — new Insight # closed-ratified capturing Phase 2 #7 verdict (number TBD).
 
 ### §16.4 Pre-publication external review (Insight #39)

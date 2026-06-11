@@ -23,7 +23,7 @@
 5. `tools/workstream-handoffs/archive/manuscript-stage-3-rigor-pass-handoff_2026-05-11.md` (per-chapter table; Ch 4 row line 66)
 6. `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-11_apparatus_register_decision_v1.0.0.md` (apparatus register canonical decisions for the informal Pass-4 consistency check)
 7. `tools/audits/cross-chapter-consistency-inventory_2026-05-11.md` (canonical-terms inventory; Norway / GPFG / Cost Severance / Intergenerational Option Value cross-chapter rows)
-8. `core/terms/terms_index.md` (canonical-form check for apparatus terms in body prose)
+8. `tools/back-matter/sources/terms_index.md` (canonical-form check for apparatus terms in body prose)
 9. Memory: `feedback_voice_polish_pipeline.md` (dump → sift → polish; active editorial work expected)
 10. Memory: `feedback_audience_aware_drafting_discipline.md` (v2.0 Amendment B — voice-polish is its own pass)
 11. Memory: `feedback_substance_drives_length.md` (no padding; no cutting to fit)

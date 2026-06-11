@@ -590,7 +590,7 @@ Next expected rerun: at Phase B completion, verify vocabulary footprint held sta
 
 This pass does not produce a single-term provenance record (it's a meta-pass). It produces disposition recommendations for multiple terms + queue-reshaping recommendation + tiered-ring architecture. Each individual ratification from §13 generates its own downstream provenance record updates.
 
-Meta-pass impact on `core/terms/terms_index.md`:
+Meta-pass impact on `tools/back-matter/sources/terms_index.md`:
 - Ring-1 + Ring-2 terms acquire or update provenance records through their individual rigor passes.
 - Ring-3 terms acquire records showing their RETIRED or SUPERSEDED status with pointer to this meta-pass as justification.
 

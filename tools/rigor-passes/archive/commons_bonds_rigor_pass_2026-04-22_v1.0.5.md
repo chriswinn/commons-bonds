@@ -15,7 +15,7 @@
 
 **Companion output (if locks ratify):** minor refinements to `commons_bonds_abundance_dimensions_v1_2_0.md` §2.3 / §2.4 / §2.7 profiles if this pass surfaces gap-fills (education-availability-in-Epistemic pattern, where a case cluster was missing from the original profile).
 
-**Inputs used:** `commons_bonds_abundance_dimensions_v1_2_0.md` §2.3 / §2.4 / §2.7 (current rich profiles); `commons_bonds_rigor_pass_2026-04-22_v1_0_1.md` §3.3 / §3.4 / §3.7 (Part 2 Temporal / Institutional / Political findings); `commons_bonds_rigor_pass_2026-04-22_v1.0.4.md` (Priority-2 full rigor — sets the pattern for full-rigor-under-renamed-names analysis); `commons_bonds_rigor_protocol_v1.3.0.md` (protocol applied); `research/literature/bibliography.md` (scholarly-ancestor engagement — updated per Priority-2 commit with Anderson, Fricker, Klinenberg, Soja, etc.).
+**Inputs used:** `commons_bonds_abundance_dimensions_v1_2_0.md` §2.3 / §2.4 / §2.7 (current rich profiles); `commons_bonds_rigor_pass_2026-04-22_v1_0_1.md` §3.3 / §3.4 / §3.7 (Part 2 Temporal / Institutional / Political findings); `commons_bonds_rigor_pass_2026-04-22_v1.0.4.md` (Priority-2 full rigor — sets the pattern for full-rigor-under-renamed-names analysis); `commons_bonds_rigor_protocol_v1.3.0.md` (protocol applied); `tools/back-matter/sources/bibliography.md` (scholarly-ancestor engagement — updated per Priority-2 commit with Anderson, Fricker, Klinenberg, Soja, etc.).
 
 ---
 
@@ -409,7 +409,7 @@ These are **minor strengthenings** that sharpen case-cluster coverage without ch
 
 ### 10.2 Downstream
 
-5. **Naming cohort work CLOSED.** Next framework-level decisions: core/ vs. tools/ placement review for the dimensions doc (per Chris's earlier request — now timely since renaming passes are complete); coordinated methodology-doc revision sweep (core/decomposition, core/glossary, technical-appendix, alignment/patches dimension-name propagation); chapter-drafting integration of all 10 locked dimensions with rich profiles.
+5. **Naming cohort work CLOSED.** Next framework-level decisions: core/ vs. tools/ placement review for the dimensions doc (per Chris's earlier request — now timely since renaming passes are complete); coordinated methodology-doc revision sweep (core/decomposition, tools/back-matter/sources/glossary, technical-appendix, alignment/patches dimension-name propagation); chapter-drafting integration of all 10 locked dimensions with rich profiles.
 6. Priority queue shifts to: (a) placement review, (b) coordinated sweep, (c) rigor test on 5 resurfaced use cases per sociology-paper-to-book-transition §5, (d) Part 3 methodology audit, (e) chapter-drafting integration.
 
 ### 10.3 Completion criteria for this pass

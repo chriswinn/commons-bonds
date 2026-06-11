@@ -38,4 +38,4 @@ purpose: Every inline citation / factual claim in the essay → its source → v
 **Discipline notes:**
 - Do NOT append this (or any bibliography) to the published essay — magazine essays cite inline.
 - Keep this in sync with the essay as it changes; it is keyed to the canonical essay file.
-- Citations tracked here that are also book citations should reference the master `research/literature/bibliography.md` rather than restating its entries (avoid the per-essay/master drift the 2026-06-02 Marx-entry sync flagged).
+- Citations tracked here that are also book citations should reference the master `tools/back-matter/sources/bibliography.md` rather than restating its entries (avoid the per-essay/master drift the 2026-06-02 Marx-entry sync flagged).

@@ -178,7 +178,7 @@ This scoping is not passivity. It is structural humility about what a non-indige
 
 - **Robin Wall Kimmerer**, *Braiding Sweetgrass: Indigenous Wisdom, Scientific Knowledge, and the Teachings of Plants* (2013). Register anchor — the prose register of indigenous-voice non-academic writing that reaches general readers. Chapter-drafting prose should engage this register, not academic-only register.
 
-- **Vine Deloria Jr.**, *Custer Died for Your Sins* (1969) + later works. Foundational indigenous-political-theory; cited in `research/literature/bibliography.md` §14 Kindred scholarship.
+- **Vine Deloria Jr.**, *Custer Died for Your Sins* (1969) + later works. Foundational indigenous-political-theory; cited in `tools/back-matter/sources/bibliography.md` §14 Kindred scholarship.
 
 ### 6.2 Primary documents (to cite)
 
@@ -242,7 +242,7 @@ Specific register notes:
 ## §9. Cross-references
 
 - `tools/audits/commons_bonds_case_study_audit_v1.0.0.md` §2.16 — audit-level verdict + routing.
-- `research/literature/bibliography.md` §14 — Kindred scholarship (contains most of §6.1 canonical references).
+- `tools/back-matter/sources/bibliography.md` §14 — Kindred scholarship (contains most of §6.1 canonical references).
 - `alignment/patches/pending-framework-review/c3_mechanism_shield_patch.md` — mechanism/shield architectural distinction applicable to the legal-architectural shield type.
 - `manuscript/chapters/Chapter_10___GuidanceDoc.md` — proposed chapter home.
 

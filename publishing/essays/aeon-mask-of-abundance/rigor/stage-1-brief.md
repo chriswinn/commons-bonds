@@ -117,7 +117,7 @@ The fresh session may consult Ch 7 narrowly for fact verification (a date, a sce
 
 ### 7.3 Cultural-engagement commitment (load-bearing)
 
-The "*The Mask of X*" construction puts the framework structurally inside the **Dunbar / Du Bois / Ellison / Fanon** Black-literary lineage (the work of *unmasking systemic harm to reveal who bears cost*). The pitch itself does not need to cite the lineage explicitly — but the engagement commitment is load-bearing for the eventual essay (post-acceptance) and the broader book. Bibliography §21 (`research/literature/bibliography.md`) holds the citation set.
+The "*The Mask of X*" construction puts the framework structurally inside the **Dunbar / Du Bois / Ellison / Fanon** Black-literary lineage (the work of *unmasking systemic harm to reveal who bears cost*). The pitch itself does not need to cite the lineage explicitly — but the engagement commitment is load-bearing for the eventual essay (post-acceptance) and the broader book. Bibliography §21 (`tools/back-matter/sources/bibliography.md`) holds the citation set.
 
 The Stage 2 session should be aware of the commitment but should NOT attempt to fit a Dunbar/Du Bois/Fanon/Ellison reference into the 300-word pitch. The commitment is paratextual; it lives in the essay body and Ch 8 (McDowell coal miner) per the title rigor pass.
 

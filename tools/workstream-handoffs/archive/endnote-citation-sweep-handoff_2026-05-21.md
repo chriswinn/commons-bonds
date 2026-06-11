@@ -157,7 +157,7 @@ Per critical-path analysis from inventory:
 
 **Phase 3 — Wrap-up:**
 
-10. **Bibliography reconciliation.** Update `research/literature/bibliography.md` with all new primary sources surfaced (Darity expansion items; statutory citations; agency reports; primary-source archives). Est. 1 session.
+10. **Bibliography reconciliation.** Update `tools/back-matter/sources/bibliography.md` with all new primary sources surfaced (Darity expansion items; statutory citations; agency reports; primary-source archives). Est. 1 session.
 11. **Author-internal memoir-claim verification pass for Ch 1.** Single short author-confirmation pass against the Phase A §2 author-internal items. Est. 0.5 session.
 12. **Pre-publication date-refresh sweep.** All time-sensitive figures (GPFG AUM; SCC; DAC bands; trust-fund balances; longevity gaps) re-verified against most-recent agency / NBIM / FRED data ~2-4 weeks before submission. Est. 1 session at copyedit stage.
 
@@ -178,7 +178,7 @@ Per critical-path analysis from inventory:
 Each per-chapter sweep session produces:
 - **Endnote file** at `manuscript/endnotes/ch<N>-endnotes.md` (or chapter-end footnote-format inside the chapter file if author prefers — decision pending Ch 5 anchor session).
 - **Anchor IDs** tied to chapter prose paragraphs (e.g., `[^ch5-m1]` anchored to Coates 2014 reference at line 196).
-- **Bibliography update** at `research/literature/bibliography.md` — engagement-pending → engaged flag updates for any new primary sources.
+- **Bibliography update** at `tools/back-matter/sources/bibliography.md` — engagement-pending → engaged flag updates for any new primary sources.
 
 Per-session commit message format:
 > `Ch <N> endnote sweep — Phase 2 — RATIFIED + APPLIED <DATE>`

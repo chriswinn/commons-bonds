@@ -65,7 +65,7 @@ US-domestic companions exist at smaller scale: Cooperative Home Care Associates 
 - `research/case-studies/alaska-permanent-fund.md` — cluster anchor (extraction-layer).
 - `research/case-studies/chattanooga-municipal-broadband.md` — cluster companion (infrastructure-layer).
 - `research/case-studies/vienna-social-housing.md` — cluster companion (housing-layer).
-- `research/literature/bibliography.md` §14 (Cohesion and Kindred scholarship) — Mondragon's cultural-cohesion foundation relates to Cohesion dimension.
+- `tools/back-matter/sources/bibliography.md` §14 (Cohesion and Kindred scholarship) — Mondragon's cultural-cohesion foundation relates to Cohesion dimension.
 
 ---
 

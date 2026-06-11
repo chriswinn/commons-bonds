@@ -48,7 +48,7 @@ path_b_compliance:
     - Locked cut essay.md (read once for em-dash-count + structural reference; prose NOT paraphrased)
     - tools/memory/feedback_em_dash_overuse.md
     - tools/memory/feedback_no_invented_factual_claims_in_publisher_facing_prose.md
-    - research/literature/bibliography.md (Polanyi §13 line 96+; Sen §13 line 129+ verified for fair-use lineage attribution)
+    - tools/back-matter/sources/bibliography.md (Polanyi §13 line 96+; Sen §13 line 129+ verified for fair-use lineage attribution)
 new_citations_added:
   beyond_locked_cut:
     - Polanyi "fictitious commodities of land, labor, and money" (canonical concept attribution to The Great Transformation 1944

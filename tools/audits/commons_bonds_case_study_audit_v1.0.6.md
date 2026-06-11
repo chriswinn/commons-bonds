@@ -586,7 +586,7 @@ Each profile applies the v1.3.0 rigor protocol at full rigor with compressed ren
 2. Medical-bankruptcy recent data (Himmelstein et al.) — post-ACA rates.
 3. CPT code specific detail — $54 for a long conversation vs. $461 surgeon fee — verify these specific numbers are current (2024) or historical-anchor them.
 4. AARP / unpaid-caregiving value estimates ($470B+/year) — specific citation.
-5. Ly & Soman (2020) racial-disparity crowdfunding paper — locate in research/literature/bibliography.md and verify.
+5. Ly & Soman (2020) racial-disparity crowdfunding paper — locate in tools/back-matter/sources/bibliography.md and verify.
 
 **Pre-drafting items:**
 
@@ -705,7 +705,7 @@ Each profile applies the v1.3.0 rigor protocol at full rigor with compressed ren
 **Research gaps:**
 
 1. Purdue-target-county-level sales map specifics — US District Court SDOH MDL public record. Verify availability of the specific county-level target data.
-2. Keefe (2021) *Empire of Pain* — specific passages to cite; already in `research/literature/bibliography.md` or needs addition.
+2. Keefe (2021) *Empire of Pain* — specific passages to cite; already in `tools/back-matter/sources/bibliography.md` or needs addition.
 3. Case & Deaton *Deaths of Despair* (2020) — integration with the broader mortality data; already in bibliography.
 4. DuPont / C8 PFAS parallel (separate case potentially) — the "Dark Waters" Parkersburg contamination is a companion extractive-pattern case in the same geography but distinct industry; worth noting for future development.
 
@@ -1094,7 +1094,7 @@ Each profile applies the v1.3.0 rigor protocol at full rigor with compressed ren
 - **Test 7 (cross-spectrum):** **Critical.** Indigenous-rights discourse has partisan marking; framework must hold the structural line. Mitigation: cost-severance framing provides the structural container.
 - **Test 11 (legal exposure):** **LOW-MODERATE.** Specific contemporary tribal litigation could carry exposure; historical-anchored framing is safer.
 - **Test 17 (target reader recognition):** **Highest possible** for indigenous readers; universal recognition across audiences.
-- **Test 18 (competitor):** **HIGHEST.** Canonical scholarship exists: Dunbar-Ortiz *An Indigenous Peoples' History of the United States* (2014); Patrick Wolfe *Settler Colonialism and the Elimination of the Native*; Glen Coulthard *Red Skin, White Masks* (2014); Leanne Betasamosake Simpson *As We Have Always Done* (2017); Robin Wall Kimmerer *Braiding Sweetgrass* (2013); Vine Deloria Jr. (in `research/literature/bibliography.md` §14 Kindred scholarship).
+- **Test 18 (competitor):** **HIGHEST.** Canonical scholarship exists: Dunbar-Ortiz *An Indigenous Peoples' History of the United States* (2014); Patrick Wolfe *Settler Colonialism and the Elimination of the Native*; Glen Coulthard *Red Skin, White Masks* (2014); Leanne Betasamosake Simpson *As We Have Always Done* (2017); Robin Wall Kimmerer *Braiding Sweetgrass* (2013); Vine Deloria Jr. (in `tools/back-matter/sources/bibliography.md` §14 Kindred scholarship).
   **Framework integration cannot appear to reinvent or neutralize this scholarship.** It must engage it rigorously.
 - **Test 25 (steelmannability):** "Indigenous dispossession is unique historical injustice, not same-mechanism-as-other-cases" counter. Handle: the structural claim is the mechanism is the same; the magnitude and moral weight are not diminished by noting the mechanism's generality. In fact the mechanism's generality is what the indigenous case exposes at its most severe form.
 - **Test 27 (empirical grounding):** VERY HIGH — scholarship base is deep.
@@ -1122,7 +1122,7 @@ Each profile applies the v1.3.0 rigor protocol at full rigor with compressed ren
 
 **Research gaps — ALL ARE CRITICAL:**
 
-1. Dunbar-Ortiz (2014), Wolfe, Coulthard (2014), Simpson (2017), Kimmerer (2013), Vine Deloria Jr. — verify all are in `research/literature/bibliography.md` and cite specifically.
+1. Dunbar-Ortiz (2014), Wolfe, Coulthard (2014), Simpson (2017), Kimmerer (2013), Vine Deloria Jr. — verify all are in `tools/back-matter/sources/bibliography.md` and cite specifically.
 2. Decision: one specific treaty violation or tribal-experience exemplar (Lakota + Black Hills? Cherokee removal? Mohawk + Akwesasne? Hawaiian sovereignty?) or category-level treatment with multiple exemplars.
 3. Robin Wall Kimmerer's register anchor — consider a brief quoted passage with attribution.
 

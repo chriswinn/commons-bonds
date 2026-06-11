@@ -43,15 +43,15 @@ A dimension that helps the piece land but hurts a book-success criterion tilts H
 - `publishing/essays/100-barrel/rigor/q1-go-no-go.md` (Stage 0 canonical worked example)
 - `publishing/essays/boston-review-accountability-gap/rigor/stage-0-publishing-strategy.md` (recent Stage 0 worked example — fuller scope)
 - `alignment/commons_bonds_framework_positioning_disciplines_v1.0.0.md` (FPD-1 → FPD-11; vocabulary-adoption-at-scale anchor)
-- `core/terms/terms_index.md` §3 (apparatus inventory; Ring-1 7 terms + Ring-2 mechanism/measurement/instruments + decision rule + methodological + cost-component examples; ~30–35 named pieces)
-- `research/literature/bibliography.md` (Mazzucato + Pistor + Christophers + Susskind + Susskind 2020 — all engaged at depth; Sassen + Patel & Moore — NO bibliography entries as of 2026-05-24; reading-depth gap surfaced for source-material self-sufficiency dimension)
+- `tools/back-matter/sources/terms_index.md` §3 (apparatus inventory; Ring-1 7 terms + Ring-2 mechanism/measurement/instruments + decision rule + methodological + cost-component examples; ~30–35 named pieces)
+- `tools/back-matter/sources/bibliography.md` (Mazzucato + Pistor + Christophers + Susskind + Susskind 2020 — all engaged at depth; Sassen + Patel & Moore — NO bibliography entries as of 2026-05-24; reading-depth gap surfaced for source-material self-sufficiency dimension)
 - Chapter 5 + Chapter 9 prose (verified: each comp engaged at chapter level; Pistor at Ch 5 §Restitution + Foreclosure ~155w + Ch 9 cross-ref; Christophers at Ch 9 §Property rights + Ch 5 cross-ref; Susskind at Ch 9 §What a framework does + Ch 1 secondary register-exemplar)
 
 ---
 
 ## 2. Framework apparatus inventory (for dimension (a) reveal-% estimation)
 
-Per `core/terms/terms_index.md` §3:
+Per `tools/back-matter/sources/terms_index.md` §3:
 
 **Ring-1 (7 terms):** Commons Bonds · Cost Severance · Severed Cost · Value Extraction · Commons Inversion Test (CIT) · Residual Commons Value (RCV) · Cost (Cᵢ).
 
@@ -163,7 +163,7 @@ Per cascade plan v2 §11 comp-titles + agent profile:
 
 #### Two critique-registers (the load-bearing brief decision)
 
-**Register A — Signal-positioning critique (RECOMMENDED).** The essay positions each reviewed author's work as a *diagnostic foundation* that the framework's analytical move *extends* or *operationalizes*. The "what's missing" across the four books is framed not as critique-of-each-author but as **what no one has yet built across all four diagnoses cumulatively**: an accountability architecture that prices the severance the diagnoses identify. Each author's analysis is treated as load-bearing; the essay's contribution is to notice that the four diagnoses *cumulatively point at a corrective none of them constructs*. This is the **"diagnose-AND-price-AND-design"** posture explicitly recognized in the framework's Darity bibliography entry (`research/literature/bibliography.md` line 549) — Darity & Mullen exemplify it; the four reviewed books each do parts of it; none of them does all three.
+**Register A — Signal-positioning critique (RECOMMENDED).** The essay positions each reviewed author's work as a *diagnostic foundation* that the framework's analytical move *extends* or *operationalizes*. The "what's missing" across the four books is framed not as critique-of-each-author but as **what no one has yet built across all four diagnoses cumulatively**: an accountability architecture that prices the severance the diagnoses identify. Each author's analysis is treated as load-bearing; the essay's contribution is to notice that the four diagnoses *cumulatively point at a corrective none of them constructs*. This is the **"diagnose-AND-price-AND-design"** posture explicitly recognized in the framework's Darity bibliography entry (`tools/back-matter/sources/bibliography.md` line 549) — Darity & Mullen exemplify it; the four reviewed books each do parts of it; none of them does all three.
 
   - **Why this works for blurbing:** Each reviewed author can read the essay as a generous engagement that *positions their work as foundational to the constructive move the essay names*. Mazzucato's value-extraction critique becomes the platform the framework's pricing instrument stands on; Pistor's legal-architecture diagnosis becomes the institutional location the bonds attach to; Christophers' price-failure argument becomes the mechanism-level evidence the framework's RCV corrects; Susskind's growth-redirection becomes the macro analog of the framework's per-extraction-event redirection. Blurb path stays open — likely strengthened — because each author sees their work as part of the framework's intellectual ancestry.
 
@@ -421,17 +421,17 @@ SEQUENCING DISCIPLINE: This Stage 0 fires per author interactive ratification pr
 - `tools/memory/feedback_named_subject_consent.md` (n/a here)
 - `tools/memory/feedback_verify_stale_memory_claims.md`
 - `alignment/commons_bonds_framework_positioning_disciplines_v1.0.0.md` (FPD v1.0.0)
-- `core/terms/terms_index.md` §3 (apparatus inventory)
+- `tools/back-matter/sources/terms_index.md` §3 (apparatus inventory)
 
 **Stage 0 worked examples:**
 - `publishing/essays/100-barrel/rigor/q1-go-no-go.md` — canonical
 - `publishing/essays/boston-review-accountability-gap/rigor/stage-0-publishing-strategy.md` — fuller-scope worked example
 
 **Comp-titles material (chapter + bibliography engagement):**
-- Mazzucato — `research/literature/bibliography.md` §13 entry (line 514) + Ring-1 Value Extraction parent attribution in `core/terms/terms_index.md`
-- Pistor — `research/literature/bibliography.md` §13 entry (line 522) + `manuscript/chapters/Chapter__5_TheAccountabilityGap.md` §Restitution + Foreclosure
-- Christophers — `research/literature/bibliography.md` §13 entry (line 530) + `manuscript/chapters/Chapter__9_PricingHonestly.md` §Property rights
-- Susskind — `research/literature/bibliography.md` §13 entry (line 538) + `manuscript/chapters/Chapter__9_PricingHonestly.md` §What a framework does
+- Mazzucato — `tools/back-matter/sources/bibliography.md` §13 entry (line 514) + Ring-1 Value Extraction parent attribution in `tools/back-matter/sources/terms_index.md`
+- Pistor — `tools/back-matter/sources/bibliography.md` §13 entry (line 522) + `manuscript/chapters/Chapter__5_TheAccountabilityGap.md` §Restitution + Foreclosure
+- Christophers — `tools/back-matter/sources/bibliography.md` §13 entry (line 530) + `manuscript/chapters/Chapter__9_PricingHonestly.md` §Property rights
+- Susskind — `tools/back-matter/sources/bibliography.md` §13 entry (line 538) + `manuscript/chapters/Chapter__9_PricingHonestly.md` §What a framework does
 - Sassen — **NO bibliography entry** (grep verified 2026-05-24); not chapter-engaged
 - Patel & Moore — **NO bibliography entry** (grep verified 2026-05-24); referenced as proposal §02 Tier-3 round-out candidate in Darity bibliography entry comparison
 

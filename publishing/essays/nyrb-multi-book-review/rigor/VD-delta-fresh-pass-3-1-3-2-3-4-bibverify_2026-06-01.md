@@ -19,7 +19,7 @@
 6. `publishing/essays/nyrb-multi-book-review/rigor/stage-1-brief.md` (RATIFIED 2026-05-27)
 7. `publishing/essays/nyrb-multi-book-review/_archive/parallel-drafts_2026-05-28/nyrb-multi-book-essay_hybrid_best-of-both.md` (V-D; audit target)
 8. `publishing/essays/nyrb-multi-book-review/essay.md` (locked-cut baseline)
-9. `research/literature/bibliography.md` §2 line 96 (Polanyi entry) + §3 line 129 (Sen entry)
+9. `tools/back-matter/sources/bibliography.md` §2 line 96 (Polanyi entry) + §3 line 129 (Sen entry)
 
 V-D YAML frontmatter inspected for §13 line-reference claims (errors surfaced in §5 below).
 

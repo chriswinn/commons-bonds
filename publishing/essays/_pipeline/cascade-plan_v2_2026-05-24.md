@@ -472,7 +472,7 @@ Author-direct queries; optional agent representation post-Pipeline-A-offer if au
 - `tools/memory/feedback_git_workflow.md` (collapsed pointer-only entry; canonical content moved to CLAUDE.md §"Branch discipline + merge-to-main" + `feedback_worktree_isolation_for_parallel_sessions.md` + `feedback_merge_on_ratification.md`).
 - `tools/memory/project_book_complete_marketing_phase.md` (ratified 2026-05-25; book is content-complete; essays/op-eds are downstream marketing instruments — reframes Stage 0 dimensions + downstream calendar realism).
 - `alignment/commons_bonds_framework_positioning_disciplines_v1.0.0.md` (FPD v1.0.0).
-- `core/terms/terms_index.md` §3 (apparatus inventory).
+- `tools/back-matter/sources/terms_index.md` §3 (apparatus inventory).
 
 **Pipeline doctrine stage docs:**
 - `tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_1_v1.0.0.md`.

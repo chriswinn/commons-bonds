@@ -91,7 +91,7 @@ For each file where doctrine-side canonical exists, insert this block immediatel
 |---|---|
 | `feedback_audience_aware_drafting_discipline.md` | `tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md` |
 | `feedback_two_layer_content_discipline.md` | `alignment/commons_bonds_working_principles_v1.0.0.md` Principle #10 |
-| `reference_pattern_2_register.md` | `core/methodology/decision_time_application_internal_v1.0.0.md` §3 |
+| `reference_pattern_2_register.md` | `alignment/methodology/decision_time_application_internal_v1.0.0.md` §3 |
 | `reference_sandel_hybrid_pattern.md` | `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-11_apparatus_register_decision_v1.0.0.md` Item 14 + §"Reusable principles" item 3 |
 | `feedback_dual_audience_test.md` | `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-11_apparatus_register_decision_v1.0.0.md` §"Reusable principles" items 1-2 |
 | `feedback_grammatical_role_cross_references.md` | Apparatus Item 10 + Phase 5 of appendix-numbering-reconciliation workstream (see memory file's own footer for commit refs) |

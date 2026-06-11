@@ -11,7 +11,7 @@ metadata:
 
 - **`MAP.md` (root)** — THE orientation document: top-level taxonomy (what each dir IS and is NOT), "where do I find X" routing table, lifecycle conventions, live-session ownership warnings.
 - **`STATE.md` (root)** — THE live status surface: portfolio tables (essays/op-eds/proposal/agents/book/workstreams) with per-row verification dates. **Discipline: any session that changes a status updates its STATE.md line in the same commit; PM reconciles.** Supersedes the essays/README snapshot table.
-- **Archive sweep:** closed handoffs → `tools/workstream-handoffs/archive/` (98 files; top level = live only); April-2026 rigor era → `tools/rigor-passes/archive/` (97); glossary v2/v3 → `core/glossary/archive/`; `core/chapters`+`core/case-studies` (held audits, not content) → `tools/audits/`; `_pipeline` one-shots → `_pipeline/archive/`. Policy: `tools/conventions/archival-policy.md`.
+- **Archive sweep:** closed handoffs → `tools/workstream-handoffs/archive/` (98 files; top level = live only); April-2026 rigor era → `tools/rigor-passes/archive/` (97); glossary v2/v3 → `tools/back-matter/sources/glossary/archive/`; `core/chapters`+`core/case-studies` (held audits, not content) → `tools/audits/`; `_pipeline` one-shots → `_pipeline/archive/`. Policy: `tools/conventions/archival-policy.md`.
 - **Link gate:** `python3 tools/scripts/check-repo-links.py --summary` before/after any file move; zero NEW breaks (compare normalized).
 
 **Why:** 20–35 parallel sessions use the repo as shared memory; append-only sprawl buried live state under closed artifacts (112 handoffs / ~37 active).

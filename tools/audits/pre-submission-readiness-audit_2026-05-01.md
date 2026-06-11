@@ -82,7 +82,7 @@ Recommendation: author's call. Both defensible; (b) is more internally-consisten
 
 > *"... the foreclosure cost and the externality tail and the community cost and the political capture cost and the lineage labor cost and the acceleration cost ..."*
 
-Two cost-component names in the list don't appear in the current Cᵢ illustrative list per `core/terms/terms_index.md` §3:
+Two cost-component names in the list don't appear in the current Cᵢ illustrative list per `tools/back-matter/sources/terms_index.md` §3:
 - **"the community cost"** — framework has "Community Disruption Cost" and "Community Transition Reserve" but not "Community Cost." Possibly author's shorthand for one of those, or a third term not yet canonicalized.
 - **"the acceleration cost"** — not in the current Cᵢ illustrative list. Could be a cost-component Chris uses in chapter prose that hasn't been canonicalized in terms_index, or a deprecation-candidate.
 
@@ -170,7 +170,7 @@ This is in INTERNAL SCAFFOLDING (GuidanceDoc), not publisher-facing prose, so te
 ## Cross-references
 
 - Canonical retirement archive: [archive/retirements/index.md](../../archive/retirements/index.md)
-- Current canonical vocabulary: [core/terms/terms_index.md](../../core/terms/terms_index.md)
+- Current canonical vocabulary: [tools/back-matter/sources/terms_index.md](../../tools/back-matter/sources/terms_index.md)
 - Pattern 2 register discipline: Insight #9 (ratified 2026-04-30); WP#10 (ratified 2026-04-30)
 - WP#8 publisher-facing scrub: [alignment/commons_bonds_working_principles_v1.0.0.md](../../alignment/commons_bonds_working_principles_v1.0.0.md)
 - #37 separation pass that established baseline: commit `3db040a`

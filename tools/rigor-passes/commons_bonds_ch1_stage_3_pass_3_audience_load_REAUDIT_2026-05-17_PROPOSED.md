@@ -43,7 +43,7 @@ This re-audit therefore runs the full nine-character pressure-test set at the po
 2. [`manuscript/chapters/Chapter__1_TheQuietMath__Draft.md`](../../manuscript/chapters/Chapter__1_TheQuietMath__Draft.md) — 109 lines, post-applied state at origin/main `54709e7`.
 3. [`tools/drafting-templates/stage-3-three-pass-rigor-audit.md`](../drafting-templates/stage-3-three-pass-rigor-audit.md) §"Pass 3: Audience-load" — canonical scaffold.
 4. [`tools/drafting-templates/audience-pressure-test-construction.md`](../drafting-templates/audience-pressure-test-construction.md) — character-set construction discipline (specifically the "Trade-publisher acquiring editor" quick-start row + the venue-specific adaptation rows for Noema + Aeon + Boston Review + Phenomenal World).
-5. [`research/literature/bibliography.md`](../../research/literature/bibliography.md) §20 (NASA patent records — Hall/Tung/Winn 1972) + §21 (Black literary tradition — Dunbar 1896 + Du Bois 1903 with LOAD-BEARING Ch-1 chapter-relevance tagging).
+5. [`tools/back-matter/sources/bibliography.md`](../../tools/back-matter/sources/bibliography.md) §20 (NASA patent records — Hall/Tung/Winn 1972) + §21 (Black literary tradition — Dunbar 1896 + Du Bois 1903 with LOAD-BEARING Ch-1 chapter-relevance tagging).
 6. [`tools/rigor-passes/commons_bonds_ch5_stage_3_pass_3_audience_load_2026-05-14_PROPOSED.md`](commons_bonds_ch5_stage_3_pass_3_audience_load_2026-05-14_PROPOSED.md) §3 — structural mirror for character-set expansion to include publishing-pipeline characters.
 
 ---

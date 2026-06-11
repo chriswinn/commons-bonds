@@ -638,7 +638,7 @@ This rigor pass produces Claude's assessment of E.2 categorization. Per Insight 
 - `manuscript/technical-appendix/TechnicalAppendix_v1.0.0.html` §11 line 3234 + §D Section VIII line 3048 — cross-reference + case-count cleanup.
 - `manuscript/technical-appendix/TechnicalAppendix_v1.0.0.html` bibliography section — Hong & Page 2004 *PNAS* additions; (optional) Mosteller & Tukey 1977.
 - Chapter prose + case study cross-references — sweep for "Theorem E.2" / "Convergence Theorem"; replace.
-- `core/terms/terms_index.md` — append Phase 2 verdict entry; cross-reference to this rigor pass.
+- `tools/back-matter/sources/terms_index.md` — append Phase 2 verdict entry; cross-reference to this rigor pass.
 - `alignment/commons_bonds_open_insights_v1.0.0.md` — new Insight # closed-ratified capturing Phase 2 #3.4 verdict (number TBD).
 
 ### §17.4 Pre-publication external review (Insight #39)

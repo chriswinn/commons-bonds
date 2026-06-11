@@ -188,7 +188,7 @@ The Technical Appendix (`manuscript/technical-appendix/TechnicalAppendix_v2.0.0.
 
 ## KEY UNIFYING LANDING POINT — the commons is structural; the title resolves on the shared bond of the extracted-from (added 2026-06-04, author insight)
 
-The framework's object — "a commons" — is defined **structurally**, not by whether it is ecological. This is Polanyi's move (labor, land, money as **fictitious commodities**: treated as commodities though never produced for sale) and the book's own existing **"commons as structural identity" / "10-commons-list dissolution"** work. (Polanyi is already in the corpus — `core/terms/terms_index.md`, methodology, multiple rigor passes; Fraser / expropriation / social reproduction appears in the Ch2 + Ch4 rigor work.)
+The framework's object — "a commons" — is defined **structurally**, not by whether it is ecological. This is Polanyi's move (labor, land, money as **fictitious commodities**: treated as commodities though never produced for sale) and the book's own existing **"commons as structural identity" / "10-commons-list dissolution"** work. (Polanyi is already in the corpus — `tools/back-matter/sources/terms_index.md`, methodology, multiple rigor passes; Fraser / expropriation / social reproduction appears in the Ch2 + Ch4 rigor work.)
 
 **Consequence — supersedes the earlier "commons (reef) vs gap (McDowell/Darity)" distinction, which forgot this structural definition:** a community, its labor, a people's accumulated capacity is itself a commons. So:
 - The reef = a destroyed **ecological** commons.

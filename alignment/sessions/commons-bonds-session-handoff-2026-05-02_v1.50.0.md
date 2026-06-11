@@ -154,7 +154,7 @@ Top-level `archive/` for cross-domain retirement material; per-domain `<domain>/
 ### §3.3 Thread δ (discussion-surfacing) — COMPLETE
 
 **Insight #9 — Framework as decision-time severance-detection tool (closed-ratified 2026-04-30 verdict (b)):**
-Threaded Pattern 2 at external layer + rich internal scaffolding for everything else. Internal-scaffolding canonical artifact created at `core/methodology/decision_time_application_internal_v1.0.0.md`. Verdict generalized into Working Principle #10 (NEW same day).
+Threaded Pattern 2 at external layer + rich internal scaffolding for everything else. Internal-scaffolding canonical artifact created at `alignment/methodology/decision_time_application_internal_v1.0.0.md`. Verdict generalized into Working Principle #10 (NEW same day).
 
 **Insight #14 — Norway sovereign-fund canonical exemplar (closed-ratified 2026-04-30 by reference):**
 Norway's GPFG positioned as canonical existing exemplar of B₂ Foreclosure Bond (operationalizes Hartwick rule 1977 via sovereign-wealth-fund). Norwegian welfare-state is approximately B₁-for-Norwegian-citizens but does not extend to non-Norwegian populations affected by Norwegian oil's climate externalities. Insight #57 (Intergenerational Option Value Tier B promotion) co-references.
@@ -355,10 +355,10 @@ Plus various smaller commits per cross-thread log (outreach record updates; live
 - **Open insights log:** `alignment/commons_bonds_open_insights_v1.0.0.md` (5 OPEN; #13, #21, #36, #39, #63)
 - **Retirement archive:** `archive/retirements/index.md` (canonical retirement-archive per Insight #59; full traces for all retired vocabulary + methodology + file/artifact retirements)
 - **Vocabulary strategy:** `alignment/commons_bonds_vocabulary_strategy_v1.0.1.md` (§3.1 Tier disambiguation note 2026-04-30; §13.2 reserved-letter ledger)
-- **terms_index:** `core/terms/terms_index.md` (v1.0.0 with summary-level retirement traces; Phase 2 + Group 1 ratifications absorbed)
+- **terms_index:** `tools/back-matter/sources/terms_index.md` (v1.0.0 with summary-level retirement traces; Phase 2 + Group 1 ratifications absorbed)
 - **Tech Appendix:** `manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html` (post-Phase-α.2 rebuild)
-- **Glossary:** `core/glossary/commons_bonds_updated_glossary_v4.html` (post-Phase-α.3 rebuild)
-- **Internal-scaffolding methodology:** `core/methodology/decision_time_application_internal_v1.0.0.md` (NEW 2026-04-30; canonical artifact for Insight #9 verdict + WP#10 generalization)
+- **Glossary:** `tools/back-matter/sources/glossary/commons_bonds_updated_glossary_v4.html` (post-Phase-α.3 rebuild)
+- **Internal-scaffolding methodology:** `alignment/methodology/decision_time_application_internal_v1.0.0.md` (NEW 2026-04-30; canonical artifact for Insight #9 verdict + WP#10 generalization)
 
 ---
 

@@ -146,7 +146,7 @@ If the two-stage discipline validates at Stage 3 of the Noema/Aeon-pitch experim
 - `manuscript/chapters/Chapter__8_WhatThingsActuallyCost_Draft.md` (McDowell case)
 - `manuscript/chapters/Chapter__1_TheQuietMath__Draft.md` (commute case)
 - `feedback_audience_aware_drafting_discipline.md` (memory)
-- `research/literature/bibliography.md` §21 (Black literary tradition citations)
+- `tools/back-matter/sources/bibliography.md` §21 (Black literary tradition citations)
 - `publishing/essays/_shared/templates/ai-disclosure-paragraph.md`
 
 ---

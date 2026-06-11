@@ -9,7 +9,7 @@
 - Commons-as-structural-identity rigor pass `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-24_commons_as_structural_identity_v1.0.0.md`
 - CIT rename rigor pass `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-24_term_cit_rename_v1.0.0.md`
 - Personal Stories Candidates Candidate #1 (commute-trade)
-- `core/terms/terms_index.md` — CIT + Four Gates records.
+- `tools/back-matter/sources/terms_index.md` — CIT + Four Gates records.
 - `core/case-studies/` — per-case research material these examples reference.
 
 ---

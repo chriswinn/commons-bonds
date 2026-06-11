@@ -466,7 +466,7 @@ Document the role discipline so future chapter drafting maintains it.
 
 ### Condition 3 — Terms Index provenance records
 
-Add records for both Cost Severance and Severed Cost to `core/terms/terms_index.md` §4, documenting:
+Add records for both Cost Severance and Severed Cost to `tools/back-matter/sources/terms_index.md` §4, documenting:
 - Status `CURRENT` at Ring 1
 - Rigor provenance (this pass)
 - Role-discipline distinction

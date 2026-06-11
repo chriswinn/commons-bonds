@@ -377,7 +377,7 @@ If Sandy declines the warm intro, that's fine — the Mullen path was contingent
 
 1. **Within 24 hours:** transcribe the conversation (or write up notes if not recorded). Include any modifications to attribution preferences agreed during the call.
 2. **Within 48 hours:** send Sandy a thank-you email; include any clarifying follow-up questions if needed; if he asked for transcript review, send the transcript.
-3. **Update tracking:** mark interview complete in `research/outreach/_pipeline/interview-outreach-drafts_2026-05-01.md` candidate #2; update `research/literature/bibliography.md` if Sandy recommended specific reading; flag any framework-revision implications in the appropriate guidance docs.
+3. **Update tracking:** mark interview complete in `research/outreach/_pipeline/interview-outreach-drafts_2026-05-01.md` candidate #2; update `tools/back-matter/sources/bibliography.md` if Sandy recommended specific reading; flag any framework-revision implications in the appropriate guidance docs.
 4. **Decision point:** does Sandy's input warrant adding him to the Noema essay §V as a third anchor (per the parallel decision pending for Colden)? Decide based on the actual interview substance.
 
 ---
@@ -388,4 +388,4 @@ If Sandy declines the warm intro, that's fine — the Mullen path was contingent
 - `research/outreach/_protocols/interview-attribution-protocol_2026-05-06.md` — reusable attribution-handling protocol; live Q0 verbal phrasing.
 - `research/outreach/_pipeline/interview-outreach-drafts_2026-05-01.md` candidate #2 (Darity) — outreach pipeline tracking; original cold outreach + acceptance reply.
 - `research/outreach/_pipeline/interview-outreach-drafts_2026-05-01.md` candidate #3 (Mullen) — warm-intro path deferred to end of Darity interview.
-- `research/literature/bibliography.md` §18.5 — Hotelling / Hartwick / Solow / reparations-economics anchors (where Darity + Mullen + Hamilton-et-al sit).
+- `tools/back-matter/sources/bibliography.md` §18.5 — Hotelling / Hartwick / Solow / reparations-economics anchors (where Darity + Mullen + Hamilton-et-al sit).

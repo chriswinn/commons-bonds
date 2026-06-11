@@ -112,7 +112,7 @@ Per author direction 2026-04-29: pass/fail gate on each audience. Effort-to-repa
 
 ### §2.4 What "Foreclosure Bond" names (definitional anchor)
 
-Per [terms_index:2059-2076](core/terms/terms_index.md):
+Per [terms_index:2059-2076](tools/back-matter/sources/terms_index.md):
 
 - **Foreclosure Bond (B₂)** — Forward-looking accountability-instrument cluster that closes the RCV gap. Mechanisms internalizing resource permanent-foreclosure value: Hartwick savings (sovereign wealth funds; Norway = canonical existing exemplar), reclamation bonds, Environmental Impact Bonds, Pigouvian carbon taxes, cap-and-trade schemes, decommissioning bonds.
 - **Pairs with:** RCV (Ring 1); Foreclosure Cost C₁ (the term-pair coherence anchor); aggregate Accountability Bond (B = B₁ + B₂); Hotelling 1931 framing.
@@ -448,7 +448,7 @@ Multi-trauma-affect activation: race + housing-foreclosure (2008 crisis dispropo
 
 ### §5.1 Definitional precision
 
-Per [terms_index:2061](core/terms/terms_index.md): *"Forward-looking accountability-instrument cluster that closes the RCV gap. Mechanisms internalizing resource permanent-foreclosure value — Hartwick savings (sovereign wealth funds), reclamation bonds, Environmental Impact Bonds, Pigouvian carbon taxes, cap-and-trade schemes, decommissioning bonds. Pairs with RCV in two-instrument architecture."*
+Per [terms_index:2061](tools/back-matter/sources/terms_index.md): *"Forward-looking accountability-instrument cluster that closes the RCV gap. Mechanisms internalizing resource permanent-foreclosure value — Hartwick savings (sovereign wealth funds), reclamation bonds, Environmental Impact Bonds, Pigouvian carbon taxes, cap-and-trade schemes, decommissioning bonds. Pairs with RCV in two-instrument architecture."*
 
 Definitional precision is STRONG. Cluster framing is explicit; mathematical role (B₂ in B = B₁ + B₂) is clear; pair-with-RCV relationship is clear.
 
@@ -477,7 +477,7 @@ The framework's Foreclosure Bond is the **cluster-name** for forward-looking acc
 
 ### §5.4 Lineage citation completeness audit
 
-**Currently cited in [terms_index:2068-2073](core/terms/terms_index.md):**
+**Currently cited in [terms_index:2068-2073](tools/back-matter/sources/terms_index.md):**
 
 - Hotelling 1931 (foundational resource-economics; already in bibliography §18.5)
 - Hartwick 1977 (Hartwick rule; optional Tech Appendix addition)
@@ -833,7 +833,7 @@ Pattern suggests this is the **dominant verdict structure for vocabulary-collisi
 
 ### §13.2 Downstream artifacts (this pass would update on ratification)
 
-- `core/terms/terms_index.md` Foreclosure Bond entry — Rigor-provenance section updated with Phase 2 lineage citations + verdict.
+- `tools/back-matter/sources/terms_index.md` Foreclosure Bond entry — Rigor-provenance section updated with Phase 2 lineage citations + verdict.
 - `manuscript/chapters/Chapter__9_PricingHonestly__Draft.md` — bridge prose at Foreclosure Bond first-introduction per §7.3 DRAFT.
 - `manuscript/technical-appendix/TechnicalAppendix_v1.0.0.html` (or v2.0.0 if Phase 3 rebuild lands first) — §L methodological footnote on Foreclosure Bond housing-crisis-affect handling.
 - `alignment/commons_bonds_open_insights_v1.0.0.md` — new closed-ratified Insight #38 capturing Phase 2 verdict.

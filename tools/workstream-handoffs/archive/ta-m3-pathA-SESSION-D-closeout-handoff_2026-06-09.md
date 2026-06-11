@@ -38,7 +38,7 @@ items below are owned by other sessions + the closeout.
 - Proposal record: `tools/audits/ta-m3-pathA-core-rework_proposal-record_2026-06-08.md`
 - Symbol registry: `manuscript/technical-appendix/symbol-registry_2026-06-07.md` (V_market entry + Part 6)
 - Notation-leverage investigation: `tools/audits/notation-leverage-investigation_2026-06-08.md`
-- Bib: `research/literature/bibliography.md` §16.5 + §23.1
+- Bib: `tools/back-matter/sources/bibliography.md` §16.5 + §23.1
 
 ## Cross-session items + owners (Session D does NOT own these)
 1. **Coordinated closeout (Session E)** — the main-merge: sequential sub-branch reconciliation
@@ -48,7 +48,7 @@ items below are owned by other sessions + the closeout.
    in-text "Solow 1956" first); eyeball §23.1/§24 (3+ bib contributors).
 2. **Notation-sweep (ta-internal-fixes)** — §16.2 α→ζ/β→ω rename must reach the merged tree
    (clears the M3-α/§16.2-α collision). CORPUS-WIDE propagation of **V_option→V_market AND σ→ς**
-   into the reader-facing **glossary** (`core/glossary/`) + **terms_index** (`core/terms/`) — both
+   into the reader-facing **glossary** (`tools/back-matter/sources/glossary/`) + **terms_index** (`tools/back-matter/sources/terms_index.md`) — both
    still carry the old V_option + σ in their M3-parameters lines (left un-half-edited).
 3. **Correctness/IPG (Session C) + provenance (co-owned)** — IPG-apparatus relabel (memo Item 1:
    §9.5 12-cell table, §3.2 IPG=33, §16.4 — keep consistent with M3-IPG-as-premium-multiple);

@@ -61,7 +61,7 @@ The intro's unsupported $600–**1,200** / $**150–500** / $100–**200** bound
 - **Realmonte, Giulia, et al.** "An Inter-Model Assessment of the Role of Direct Air Capture in Deep Mitigation Pathways." *Nature Communications* 10 (2019): 3277. (DAC, cited §11.9)
 - **Rennert, Kevin, et al.** "Comprehensive Evidence Implies a Higher Social Cost of CO2." *Nature* 610, no. 7933 (2022): 687–692. (SCC, cited §11.9. **NB:** Rennert's figure is ~$185/ton; the TA's $190 is EPA 2023, not Rennert — a minor mis-attribution flagged in §23, out of DAC-cost scope, left for a parallel session.)
 
-### Bibliography (§23 repo `research/literature/bibliography.md`) — space-economics sources added
+### Bibliography (§23 repo `tools/back-matter/sources/bibliography.md`) — space-economics sources added
 NASA OSIRIS-REx/Bennu; KISS 2012 (with the mass/$-per-kg correction recorded); Colvin/Crane/Lal 2020; Falcon 9 price-verification note. All flagged "verified 2026-06-08 (this session)."
 
 ### Notation (HTML) — B-glyph collision

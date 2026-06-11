@@ -107,7 +107,7 @@ chip's denial — see [`pass-3-1-verification_VERSION-D-backports_2026-06-01.md`
    sub-claim (fund AUM) verified at a different reporting moment (early 2025,
    not fiscal 2023).
 9. Bibliography:
-   [`research/literature/bibliography.md`](../../../../research/literature/bibliography.md)
+   [`tools/back-matter/sources/bibliography.md`](../../../../tools/back-matter/sources/bibliography.md)
    — no bibliography entry for NBIM Annual Report; the NBIM AR 2023 is an
    essay-specific citation not previously bibliographically anchored.
 

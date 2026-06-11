@@ -632,7 +632,7 @@ This rigor pass produces the substrate; external review tests it.
 ### §16.2 Downstream artifacts (this pass would update on ratification)
 
 - `manuscript/technical-appendix/TechnicalAppendix_v1.0.0.html` §10 line 3249-3258 — restructured E.1a + E.1b per §13 (or Phase 3 v2.0.0 rebuild batch).
-- `core/terms/terms_index.md` Cost Severance + RCV entries — Phase 2 verdict entry.
+- `tools/back-matter/sources/terms_index.md` Cost Severance + RCV entries — Phase 2 verdict entry.
 - `alignment/commons_bonds_open_insights_v1.0.0.md` — new Insight #41 closed-ratified.
 - Bibliography expansion — Howarth + Norgaard 1990 (likely addition); possibly Solow 1974 explicit cite.
 - Cross-reference in other theorem proofs (E.5 uses CS > 0 from E.1; restructured E.5 proof cites E.1a).

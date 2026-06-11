@@ -104,7 +104,7 @@
 
 **Function:** Closes M6.2 GAP IDENTIFIED from 2026-04-24 academic-rigor full test (commit `ae90800`). Engages Derek Parfit's *Reasons and Persons* (1984) Part IV on obligations to future generations + the non-identity problem. Establishes that the framework operates within established moral-philosophy vocabulary for intergenerational moral status, rather than asserting intergenerational obligation as a free-standing premise.
 
-**Bibliography reference:** `research/literature/bibliography.md` §18.9 (Parfit *Reasons and Persons* 1984), added 2026-04-25.
+**Bibliography reference:** `tools/back-matter/sources/bibliography.md` §18.9 (Parfit *Reasons and Persons* 1984), added 2026-04-25.
 
 ### §6.5.1 Draft passage (~450 words; Ch 6 main-text register)
 
@@ -201,7 +201,7 @@ If Ch 10 incorporates a brief reflective return to the philosophical grounding (
 
 - **Recommended placement:** insert this passage in Ch 6's Method 1 Replacement Cost walkthrough, replacing the current "direct-air-capture cost per ton CO₂ at engineering scale" placeholder. The three-horizon framing lands first; the SCC-vs-DAC distinction follows as the closing methodological discipline.
 - **Convergence-table footnote:** add a footnote to the convergence table's "carbon term" column distinguishing SCC ($190/ton at 2% discount, damage-side) from any DAC anchor (substitution-side, Method 1).
-- **Cross-references to land:** `manuscript/technical-appendix/empirical_sourcing_pass_2026-04-25.md` §1 (full DAC sourcing); `research/literature/bibliography.md` §17 (Nordhaus DICE for SCC lineage; Stern Review for low-discount-rate framing); IEA *Direct Air Capture 2022* + IPCC AR6 Working Group III + US National Academies 2019 (the three-horizon-anchor literature).
+- **Cross-references to land:** `manuscript/technical-appendix/empirical_sourcing_pass_2026-04-25.md` §1 (full DAC sourcing); `tools/back-matter/sources/bibliography.md` §17 (Nordhaus DICE for SCC lineage; Stern Review for low-discount-rate framing); IEA *Direct Air Capture 2022* + IPCC AR6 Working Group III + US National Academies 2019 (the three-horizon-anchor literature).
 - **Phase B-blocker dependency:** none. This passage can land independently; it pairs naturally with §6.5 (Parfit) + §6.6 (CIT-vs-empirical falsifiability) as the Ch 6 methodology-grounding cluster.
 
 ---
@@ -241,7 +241,7 @@ If Ch 10 incorporates a brief reflective return to the philosophical grounding (
 - **Recommended Ch 6 placement:** after the existing CIT-introduction passage (§1 Passage A in this supplementary drafts file), before the Four Gates apparatus introduction. The placement establishes domain before procedure.
 - **Recommended Tech Appendix supplement placement:** new §6.1.2, immediately following §6.1.1 (level-of-claim specification). Both §6.1.* refinements pair as the M11-derived CIT formal spec clarifications.
 - **Cross-spectrum-tone discipline:** the passage explicitly positions framework as extending-rather-than-competing-with-Ostrom. Honors Ostrom-tradition without subordinating the framework to it. Most-load-bearing protection against M11 Char 17 (Ostrom-successor scholar reading framework as competitor).
-- **Cross-references to land:** Ostrom 1990 *Governing the Commons* + Hess & Ostrom 2007 *Understanding Knowledge as a Commons* (both in bibliography §1); CIT examples worked file (`core/methodology/cit_examples_v1_0_0.md`) — note: Ostrom-tradition cases (irrigation; small-scale fisheries) could be added to the worked examples specifically to demonstrate CIT-fail-at-coordination-commons routing.
+- **Cross-references to land:** Ostrom 1990 *Governing the Commons* + Hess & Ostrom 2007 *Understanding Knowledge as a Commons* (both in bibliography §1); CIT examples worked file (`alignment/methodology/cit_examples_v1_0_0.md`) — note: Ostrom-tradition cases (irrigation; small-scale fisheries) could be added to the worked examples specifically to demonstrate CIT-fail-at-coordination-commons routing.
 - **Phase B-blocker dependency:** none. This passage can land independently of other Phase B work items.
 
 ---
@@ -264,7 +264,7 @@ If Ch 10 incorporates a brief reflective return to the philosophical grounding (
 
 - **Recommended placement:** Ch 6 methodology section, in the B = B₁ + B₂ decomposition walkthrough. Lands at the Restitution Bond first-introduction point so the reparations-economics lineage is visible to the academic reviewer at first encounter rather than relegated to a footnote.
 - **Pairs with §6.5 Parfit engagement:** Parfit grounds the framework's intergenerational moral standing (B₂ Foreclosure Bond direction); Darity & Mullen ground the framework's already-realized-harm methodology (B₁ Restitution Bond direction). Both should appear in Ch 6's B-decomposition section so the philosophical + methodological lineage is paired and visible.
-- **Cross-references to land:** `research/literature/bibliography.md` §18.5 (Darity & Mullen + adjacent reparations-economics); supplement §4.1 (Restitution Bond record); Ch 5 draft's "Restitution and Foreclosure: Two Directions of Accountability" section (the empirical-engagement companion to this methodological-engagement passage).
+- **Cross-references to land:** `tools/back-matter/sources/bibliography.md` §18.5 (Darity & Mullen + adjacent reparations-economics); supplement §4.1 (Restitution Bond record); Ch 5 draft's "Restitution and Foreclosure: Two Directions of Accountability" section (the empirical-engagement companion to this methodological-engagement passage).
 - **Cross-spectrum-tone discipline:** the passage frames reparations-economics as scholarly methodology rather than political program. Honors the Darity-Mullen methodological contribution; positions the framework as extending their methodology into adjacent territory (extraction-community contexts) rather than competing with it. Same Option-C' political-philosophical-accommodation discipline that carried the Ostrom-vs-extraction-context distinction (§6.9).
 - **Phase B-blocker dependency:** none. This passage can land independently. Pairs naturally with §6.5 (Parfit) + §6.6 (CIT-vs-empirical falsifiability) + §6.9 (Ostrom-vs-extraction) as the Ch 6 academic-rigor-strengthening cluster.
 
@@ -340,6 +340,6 @@ These eight choices are alternative-tested at the level of what the framework re
 **Cross-references:**
 - `Chapter__6___GuidanceDoc.md` § "Commons-as-structural-identity reframing in Ch 6" — authoritative drafting direction.
 - Three commons-transition rigor passes (commits `c4b09dc` + `b294c79` + `e30087e`).
-- `core/terms/terms_index.md` — CIT record + Abundances v1.2 record + commons-governance citations.
+- `tools/back-matter/sources/terms_index.md` — CIT record + Abundances v1.2 record + commons-governance citations.
 - Open Insights #13 (scope-creep), #14 (Norway-as-canonical), #16 (two CIT sub-forms), #17 (Option C' political-philosophical), #18 (autonomy-as-commons placement).
 - Bibliography §1 (Ostrom + Hess) + §13 (Anderson + Klinenberg + Murthy) + §16 (Pigou + Yang & Davis + GAO + OSMRE) + §17 (Pigou + Nordhaus + Stern).

@@ -260,7 +260,7 @@ Two standing gates apply to **every** piece of content run through **any** modul
 
 1. **Identify the audience.** Readers encountering the framework → book-worthy. Future Claude instances, methodology contributors, rigor-pass writers, author-revisiting-decisions → scaffolding.
 2. **Check value location.** Is the content's value in-the-content (what it says, defines, teaches) → book-worthy? Or in-the-reasoning-trail (why we decided, what we rejected, what assumptions were made) → scaffolding?
-3. **Apply placement principle.** Scaffolding → `tools/` (active), `tools/archive/`, `alignment/decisions/`, `alignment/sessions/archive/`. Book-worthy → `core/`, `manuscript/chapters/`, `research/case-studies/`, `research/literature/bibliography.md`.
+3. **Apply placement principle.** Scaffolding → `tools/` (active), `tools/archive/`, `alignment/decisions/`, `alignment/sessions/archive/`. Book-worthy → `core/`, `manuscript/chapters/`, `research/case-studies/`, `tools/back-matter/sources/bibliography.md`.
 4. **Handle mixed content.** Many working documents contain both. Identify each section's type; extract or justify-keep-together.
 
 **Verdicts:**

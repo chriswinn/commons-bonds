@@ -410,7 +410,7 @@ No cross-pairing tension surfaces in this preview; the synthesis will formalize.
 
 ### Condition 1 — Terms Index provenance record
 
-Add AIT entry to `core/terms/terms_index.md` §4 as `CURRENT` at Ring 1 (methodology). Document name-mechanism-match, existing-usage scale, vocabulary-coherence-with-abundance-architecture, and adoption trajectory (academic citation, not flagship brief-phrase).
+Add AIT entry to `tools/back-matter/sources/terms_index.md` §4 as `CURRENT` at Ring 1 (methodology). Document name-mechanism-match, existing-usage scale, vocabulary-coherence-with-abundance-architecture, and adoption trajectory (academic citation, not flagship brief-phrase).
 
 **Effort:** ~10 minutes.
 

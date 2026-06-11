@@ -7,7 +7,7 @@ based_on:
   - publishing/essays/nyrb-multi-book-review/_archive/parallel-drafts_2026-05-28/nyrb-multi-book-essay_hybrid_best-of-both.md (V-D hybridization, 8,421w, 2026-05-28)
   - publishing/essays/nyrb-multi-book-review/rigor/VD-delta-fresh-pass-3-1-3-2-3-4-bibverify_2026-06-01.md (V-D delta three-pass audit RATIFIED-for-findings + PROPOSED-for-disposition 2026-06-01)
   - publishing/essays/nyrb-multi-book-review/rigor/stage-1-brief.md (RATIFIED 2026-05-27)
-  - research/literature/bibliography.md §2 line 96 (Polanyi) + §3 line 129 (Sen) — entries verified at file lines 96 + 129; §-labels corrected here vs V-D YAML (which incorrectly cited §13)
+  - tools/back-matter/sources/bibliography.md §2 line 96 (Polanyi) + §3 line 129 (Sen) — entries verified at file lines 96 + 129; §-labels corrected here vs V-D YAML (which incorrectly cited §13)
 
 discipline: |
   Write-then-cut (author-named 2026-06-01). The discipline is NOT compression-for-
@@ -206,7 +206,7 @@ path_b_compliance:
     - publishing/essays/nyrb-multi-book-review/essay.md (locked submission cut; backbone)
     - publishing/essays/nyrb-multi-book-review/_archive/parallel-drafts_2026-05-28/nyrb-multi-book-essay_hybrid_best-of-both.md (V-D; delta-site reference)
     - publishing/essays/nyrb-multi-book-review/rigor/VD-delta-fresh-pass-3-1-3-2-3-4-bibverify_2026-06-01.md (today's audit)
-    - research/literature/bibliography.md §2 line 96 (Polanyi entry) + §3 line 129 (Sen entry)
+    - tools/back-matter/sources/bibliography.md §2 line 96 (Polanyi entry) + §3 line 129 (Sen entry)
 
 voice_register_compliance: |
   NYRB reviewer-not-architect impersonal essayistic register sustained. Zero first-

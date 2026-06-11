@@ -20,7 +20,7 @@
 
 ### §0.1 Scope + procedure
 
-Per Stage 1 doctrine §1. The corpus locations that inform this brief: the four bibliography entries (Mazzucato + Pistor + Christophers + Susskind at `research/literature/bibliography.md` §13 + the secondary entries near line 1000) + Ch 5 §Restitution + Foreclosure (Pistor engagement) + Ch 9 §Property rights and their limits (Christophers engagement) + Ch 9 §What a framework does (Susskind engagement).
+Per Stage 1 doctrine §1. The corpus locations that inform this brief: the four bibliography entries (Mazzucato + Pistor + Christophers + Susskind at `tools/back-matter/sources/bibliography.md` §13 + the secondary entries near line 1000) + Ch 5 §Restitution + Foreclosure (Pistor engagement) + Ch 9 §Property rights and their limits (Christophers engagement) + Ch 9 §What a framework does (Susskind engagement).
 
 ### §0.2 Scan results
 
@@ -28,7 +28,7 @@ Ran `tools/scripts/check-corpus-invariants.sh` separately on each scope:
 
 | Scope | HIGH | MEDIUM | LOW | Disposition |
 |---|---|---|---|---|
-| `research/literature/bibliography.md` | 38 | 66 | 6 | **Allowlistable as research-tier content.** All HIGH findings are `scaffolding/scaffold-option-letter` pattern matches on research-history ratification notes ("Option A ratified by Chris Winn"; "ARP Option A ratified"; "S Option A ratified") inside the framework's internal-scaffolding bibliography file. These are CONTENT documenting framework-audit history, not draft-leakage. Per CLAUDE.md merge-to-main policy: `research/literature/` is internal scaffolding by classification. **Not blocking; allowlist entries may be added per-file at PM-session discretion.** |
+| `tools/back-matter/sources/bibliography.md` | 38 | 66 | 6 | **Allowlistable as research-tier content.** All HIGH findings are `scaffolding/scaffold-option-letter` pattern matches on research-history ratification notes ("Option A ratified by Chris Winn"; "ARP Option A ratified"; "S Option A ratified") inside the framework's internal-scaffolding bibliography file. These are CONTENT documenting framework-audit history, not draft-leakage. Per CLAUDE.md merge-to-main policy: `research/literature/` is internal scaffolding by classification. **Not blocking; allowlist entries may be added per-file at PM-session discretion.** |
 | `manuscript/chapters/Chapter__5_TheAccountabilityGap.md` | 0 | 1 | 0 | **False positive.** Single MEDIUM `scaffolding/scaffold-ratified` pattern match on "settlement-ratified" inside line 50's Deepwater accountability-gap paragraph — normal English usage of "ratified" inside publisher-facing prose ("the documented, court-validated, settlement-ratified empirical magnitude"); not pipeline-process scaffolding. Allowlist candidate; **not blocking.** |
 | `manuscript/chapters/Chapter__9_PricingHonestly.md` | 0 | 0 | 0 | **CLEAN.** |
 
@@ -648,7 +648,7 @@ Per Stage 1 doctrine §3.
 
 ### §18.1 Inventory
 
-**Bibliography commitments touching scope (research/literature/bibliography.md §13 + secondary entries):**
+**Bibliography commitments touching scope (tools/back-matter/sources/bibliography.md §13 + secondary entries):**
 
 | Bibliography entry | Commitment summary | Disposition in brief |
 |---|---|---|
@@ -793,10 +793,10 @@ Findings tracked internally; presented one-at-a-time in §23 ratification sessio
 - [`tools/memory/project_book_complete_marketing_phase.md`](../memory/project_book_complete_marketing_phase.md) (RATIFIED 2026-05-25; marketing-phase reframing)
 - [`tools/memory/feedback_named_subject_consent.md`](../memory/feedback_named_subject_consent.md) (n/a here — review subjects are published authors)
 - [`alignment/commons_bonds_framework_positioning_disciplines_v1.0.0.md`](../../alignment/commons_bonds_framework_positioning_disciplines_v1.0.0.md) (FPD v1.0.0)
-- [`core/terms/terms_index.md`](../../core/terms/terms_index.md) §3 (apparatus inventory)
+- [`tools/back-matter/sources/terms_index.md`](../../tools/back-matter/sources/terms_index.md) §3 (apparatus inventory)
 
 **Bibliography + chapter engagement:**
-- [`research/literature/bibliography.md`](../../research/literature/bibliography.md) §13 (Mazzucato line 514+; Pistor line 522+; Christophers line 530+; Susskind line 538+; Darity & Mullen line 549+; secondary entries near line 1000)
+- [`tools/back-matter/sources/bibliography.md`](../../tools/back-matter/sources/bibliography.md) §13 (Mazzucato line 514+; Pistor line 522+; Christophers line 530+; Susskind line 538+; Darity & Mullen line 549+; secondary entries near line 1000)
 - [`manuscript/chapters/Chapter__5_TheAccountabilityGap.md`](../../manuscript/chapters/Chapter__5_TheAccountabilityGap.md) §Restitution + Foreclosure (Pistor engagement) + §Pattern Made Visible (Christophers cross-reference)
 - [`manuscript/chapters/Chapter__9_PricingHonestly.md`](../../manuscript/chapters/Chapter__9_PricingHonestly.md) §Property rights and their limits (Christophers primary) + §What a framework does (Susskind primary; lineage list with Harvey/Ostrom/Raworth/Desmond)
 

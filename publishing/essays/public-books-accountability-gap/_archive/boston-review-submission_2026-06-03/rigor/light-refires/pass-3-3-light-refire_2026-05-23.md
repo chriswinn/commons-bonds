@@ -213,7 +213,7 @@ The light Pass 3.3 re-fire returns PASS with 16/16 INCLUDE (5 lifts, 11 holds, 0
 
 - **Stage 5 — Bookend pre-submission sign-off + AI-disclosure transparency** per brief §14. Fires explicit-gate at pre-Submittable submission. Light Stage 5 sign-off artifact at `publishing/essays/boston-review-accountability-gap/stage-5-signoff.md` carrying academic-rigor + prose-quality verification (per parent doctrine §6.2 checklist). Pre-publication review queue artifact deferred to book-submission workstream per brief §14 scope-note; the AI-disclosure paragraph (`publishing/essays/_shared/templates/ai-disclosure-paragraph.md` generic variant) carries the essay-scale transparency function.
 
-- **Cover letter** (Decision #13). Draft session per brief §10 hard-constraint discipline (generic AI-disclosure variant per `publishing/essays/_shared/templates/ai-disclosure-paragraph.md`; medium bio paragraph per `publishing/book-proposal/03_author-platform.md`; comp-titles cluster per `research/literature/bibliography.md` §13). Cover letter verifies BR co-editors-in-chief against current masthead at submission time.
+- **Cover letter** (Decision #13). Draft session per brief §10 hard-constraint discipline (generic AI-disclosure variant per `publishing/essays/_shared/templates/ai-disclosure-paragraph.md`; medium bio paragraph per `publishing/book-proposal/03_author-platform.md`; comp-titles cluster per `tools/back-matter/sources/bibliography.md` §13). Cover letter verifies BR co-editors-in-chief against current masthead at submission time.
 
 - **Submit** to Boston Review via Submittable.
 

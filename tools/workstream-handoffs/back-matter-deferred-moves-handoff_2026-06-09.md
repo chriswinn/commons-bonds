@@ -11,7 +11,7 @@ follow-up session to execute once the blockers clear.
 
 - `manuscript/back-matter/{bibliography,glossary,symbol-registry}.html` — clean reader-facing, generated.
 - `tools/back-matter/{build.py, citation-crossref-index.md, glossary-consolidation-ledger.md, README.md}`.
-- `research/literature/bibliography.md` — §25 fold-in (now the superset master).
+- `tools/back-matter/sources/bibliography.md` — §25 fold-in (now the superset master).
 - `manuscript/technical-appendix/symbol-registry_2026-06-07.md` — synced to merged TA.
 - TA §18 — Himmelstein fix + unified-bib pointer.
 - `manuscript/technical-appendix/notation-alignment-proposal_2026-06-09_PROPOSED.md` — WS3 (apply nothing).
@@ -19,12 +19,12 @@ follow-up session to execute once the blockers clear.
 ## Deferred move 1 — relocate source-of-truth files into `tools/back-matter/`
 
 Currently the sources stay in their historical homes (many live references):
-`research/literature/bibliography.md`, `core/terms/terms_index.md`,
-`manuscript/technical-appendix/symbol-registry_2026-06-07.md`, `core/glossary/...v4.html`.
+`tools/back-matter/sources/bibliography.md`, `tools/back-matter/sources/terms_index.md`,
+`manuscript/technical-appendix/symbol-registry_2026-06-07.md`, `tools/back-matter/sources/glossary/...v4.html`.
 **When safe:** move these under `tools/back-matter/sources/` (or co-locate), update `build.py`
 paths + every handoff/README/CLAUDE.md reference to the old paths, and re-run `gen-all` to confirm.
-Blast radius is wide (the redraft campaign + many handoffs cite `research/literature/bibliography.md`)
-— audit references first (`grep -rl 'research/literature/bibliography.md'`).
+Blast radius is wide (the redraft campaign + many handoffs cite `tools/back-matter/sources/bibliography.md`)
+— audit references first (`grep -rl 'tools/back-matter/sources/bibliography.md'`).
 
 ## Deferred move 2 — reorganize the `_`-prefixed scaffolding out of `manuscript/` — ✅ EXECUTED 2026-06-10 (campaign superseded; see manuscript/README.md for the ledgers/ + archive/ layout)
 
@@ -90,5 +90,5 @@ re-run `gen-notation`. Pairs with item 7 (same technical-review window).
 ```bash
 git -C /Users/c17n/commons-bonds worktree list | grep -iE "redraft-campaign|book-proposal"
 # Expect NO active redraft-campaign worktree before moving the _-prefixed manuscript files
-# or relocating research/literature/bibliography.md.
+# or relocating tools/back-matter/sources/bibliography.md.
 ```

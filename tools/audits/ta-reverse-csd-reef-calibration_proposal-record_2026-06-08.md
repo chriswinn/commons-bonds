@@ -581,7 +581,7 @@ as authorial-note placement); include or hold per author preference.
 
 ## G. BIBLIOGRAPHY ADDITIONS (reef figure-backing; verified)
 
-Add to `research/literature/bibliography.md` §23.1 (in-repo–vetted figure-backing). All verified in the
+Add to `tools/back-matter/sources/bibliography.md` §23.1 (in-repo–vetted figure-backing). All verified in the
 ch3-restitution-bond-numbers research pass; cite the external authority.
 
 ```markdown

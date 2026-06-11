@@ -261,7 +261,7 @@ If she offers, possible routing: **Port Isobel program manager** (Tangier); **Sm
 
 1. **Transcribe** the conversation (or write notes if not recorded). Log Colden's attribution preference + any modifications.
 2. **Send thank-you email** with any artifacts agreed (Ch 3 outline, one-pager, etc.). Light-touch pre-publication door if not already raised.
-3. **Update tracking:** mark interview complete in `research/outreach/_pipeline/interview-outreach-drafts_2026-05-04_ch3-fieldwork.md` §18; note any reading recs in `research/literature/bibliography.md` §19.5; flag any framework-revision implications.
+3. **Update tracking:** mark interview complete in `research/outreach/_pipeline/interview-outreach-drafts_2026-05-04_ch3-fieldwork.md` §18; note any reading recs in `tools/back-matter/sources/bibliography.md` §19.5; flag any framework-revision implications.
 4. **Watermen warm-intro follow-up:** if Colden offered a path, follow up within 48 hours via her routing.
 5. **Lipcius warm-intro follow-up:** if Colden offered to flag, follow up within 48 hours.
 6. **Decision point:** Noema essay §V third-anchor decision — substitution-analysis already green-lit it from public-record material; confirm post-interview based on actual interview substance.

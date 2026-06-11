@@ -124,7 +124,7 @@ Per-comp review-outlet rosters drive `publishing/book-proposal/04_marketing-plan
 - `publishing/agents/_shared/personalization-snippets.md`
 - `publishing/book-proposal/04_marketing-plan.md`
 - `publishing/essays/_pipeline/cross-thread-todos.md` (items #1 + #2 + #8)
-- `research/literature/bibliography.md` §13 (comp-title entries)
+- `tools/back-matter/sources/bibliography.md` §13 (comp-title entries)
 - `tools/workstream-handoffs/archive/comp-titles-deep-matrix-handoff_2026-05-10.md` (original handoff)
 - `tools/workstream-handoffs/archive/agent-prep-handoff_2026-05-09.md` (downstream consumer)
 

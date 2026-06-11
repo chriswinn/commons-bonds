@@ -71,7 +71,7 @@ Every Tier A/B/C/D verdict, every suffix-convention verdict, every per-usage rep
 
 ### §2.5 Out of scope
 
-- **Scaffolding documents (Tier 3 per proposed retirement-traces rigor pass)** — `core/terms/terms_index.md`, `tools/rigor-passes/*.md`, `alignment/sessions/*.md`, archived prior versions. Per-usage parsimony doesn't apply to these.
+- **Scaffolding documents (Tier 3 per proposed retirement-traces rigor pass)** — `tools/back-matter/sources/terms_index.md`, `tools/rigor-passes/*.md`, `alignment/sessions/*.md`, archived prior versions. Per-usage parsimony doesn't apply to these.
 - **Existing-term renames triggered by audience-aware verdicts** flow into per-term focused rigor passes downstream (per the standard project workflow); not in-scope for this rigor pass to draft individual-term-rename rigor passes for the (potentially many) terms that surface as RECONSIDER candidates.
 
 ---

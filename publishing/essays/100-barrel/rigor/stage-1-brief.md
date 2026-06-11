@@ -231,7 +231,7 @@ The apparatus-core that distinguishes the book from the essay portfolio stays in
 
 **7.1 Hartwick's rule**
 
-- Hartwick, John M. "Intergenerational Equity and the Investing of Rents from Exhaustible Resources." *American Economic Review* 67, no. 5 (1977): 972–974. (Bibliography entry verified at `research/literature/bibliography.md`.)
+- Hartwick, John M. "Intergenerational Equity and the Investing of Rents from Exhaustible Resources." *American Economic Review* 67, no. 5 (1977): 972–974. (Bibliography entry verified at `tools/back-matter/sources/bibliography.md`.)
 - John M. Hartwick is the economist; his institutional affiliation at time of publication was Queen's University (Canada). His subsequent career anchored resource economics at Queen's.
 - The rule: if the rent on a non-renewable resource is fully invested in reproducible capital, consumption can be sustained indefinitely.
 - Companion / adjacent: Hotelling 1931 ("The Economics of Exhaustible Resources," *Journal of Political Economy* 39(2): 137–175); Solow 1974 (maximin-consumption framework that Hartwick operationalizes). Ramsey 1928 ("A Mathematical Theory of Saving," *Economic Journal*) is the foundational intergenerational-discount-rate paper.
@@ -361,7 +361,7 @@ The apparatus-core that distinguishes the book from the essay portfolio stays in
 **Stage 2 session — Audience-Blind Flow Draft.**
 
 - Output file path: `publishing/essays/100-barrel/essay.md` (create the folder `publishing/essays/100-barrel/`).
-- Stage 2 does NOT read source §III's prose paragraphs. Stage 2 reads this Stage 1 brief + the canonical facts inventory in §7 + the bibliography entries for the named authors (`research/literature/bibliography.md`).
+- Stage 2 does NOT read source §III's prose paragraphs. Stage 2 reads this Stage 1 brief + the canonical facts inventory in §7 + the bibliography entries for the named authors (`tools/back-matter/sources/bibliography.md`).
 - If a fact-question surfaces during drafting: narrow fact-check against §7 canonical-facts inventory only; if the answer is not in §7, narrow fact-check against the bibliography entry; only as a last resort, narrow fact-check against source §III for a specific fact (a date, a number, a name) — and even then, do NOT read surrounding source prose paragraphs.
 - Branch discipline: Stage 2 session opens fresh feature branch from current origin/main per `tools/workstream-handoffs/README.md`. PROPOSED draft autonomously fast-forwards to main per CLAUDE.md rigor-pass-artifact merge-to-main default at session close. STOP after drafting; do not run Stage 3 in Stage 2 session.
 
@@ -415,7 +415,7 @@ Per-prompt serial cadence per v2.0 Amendment B (preserved in v3.0). Each pass fi
   - [`tools/drafts/abundance-masking-defense-paragraph_2026-05-11_v1.0.0.md`](../drafts/abundance-masking-defense-paragraph_2026-05-11_v1.0.0.md)
 - **v2.0 audience-aware drafting discipline (and v3.0 extension):** [`tools/memory/feedback_audience_aware_drafting_discipline.md`](../memory/feedback_audience_aware_drafting_discipline.md)
 - **Named-subject consent discipline:** [`tools/memory/feedback_named_subject_consent.md`](../memory/feedback_named_subject_consent.md)
-- **Bibliography (canonical-facts grounding):** `research/literature/bibliography.md` (Hartwick, Stern, Nordhaus, Ostrom, Daly, Rawls, Hotelling, Solow, Ramsey, Weitzman entries)
+- **Bibliography (canonical-facts grounding):** `tools/back-matter/sources/bibliography.md` (Hartwick, Stern, Nordhaus, Ostrom, Daly, Rawls, Hotelling, Solow, Ramsey, Weitzman entries)
 - **Norway canonical-facts grounding:** [`manuscript/chapters/Chapter__4_TheArchitectureItself__Draft.md`](../../manuscript/chapters/Chapter__4_TheArchitectureItself__Draft.md) (Ekofisk-1969 + 1990-fund + 2001-fiscal-rule + cross-coalition durability passages)
 - **Cascade plan venue allocation:** [`publishing/essays/_pipeline/archive/cascade-plan_2026-05-06.md`](../../publishing/essays/_pipeline/archive/cascade-plan_2026-05-06.md)
 - **Cross-thread item #4 (Atlantic Ideas vs. PW):** [`publishing/essays/_pipeline/cross-thread-todos.md`](../../publishing/essays/_pipeline/cross-thread-todos.md)

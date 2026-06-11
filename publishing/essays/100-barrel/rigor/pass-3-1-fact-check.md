@@ -4,7 +4,7 @@
 
 **Audit target:** [`publishing/essays/100-barrel/essay.md`](../../publishing/essays/100-barrel/essay.md) (Draft A; 4,078w; on `main` commit `74953b9` 2026-05-21).
 
-**Source of truth:** Stage 1 brief [`publishing/essays/100-barrel/rigor/stage-1-brief.md`](stage-1-brief.md) §7 canonical-facts inventory + [`research/literature/bibliography.md`](../../research/literature/bibliography.md). Per v2.0 Path B preemptive policy, withdrawn-Noema §III is NOT source-of-truth — the Stage 1 brief §7 is the single canonical baseline. Per v3.1 / Amendment B 2026-05-18, Stage 3 is a five-pass discipline (3.1 fact-check → 3.2 voice-polish → 3.3 audience-load acceptance → 3.4 audience-load robustness → 3.5 developmental-edit); this artifact is Pass 3.1.
+**Source of truth:** Stage 1 brief [`publishing/essays/100-barrel/rigor/stage-1-brief.md`](stage-1-brief.md) §7 canonical-facts inventory + [`tools/back-matter/sources/bibliography.md`](../../tools/back-matter/sources/bibliography.md). Per v2.0 Path B preemptive policy, withdrawn-Noema §III is NOT source-of-truth — the Stage 1 brief §7 is the single canonical baseline. Per v3.1 / Amendment B 2026-05-18, Stage 3 is a five-pass discipline (3.1 fact-check → 3.2 voice-polish → 3.3 audience-load acceptance → 3.4 audience-load robustness → 3.5 developmental-edit); this artifact is Pass 3.1.
 
 **Prior pass cross-reference:** Comparative draft audit [`stage-3-comparative-draft-audit.md`](stage-3-comparative-draft-audit.md) §8.4 enumerated four pre-flagged verification items: Norway fund size, Norway per-citizen figure, Niger Delta "more than thirty billion barrels," pump-price hook §I. This pass verifies each + surfaces net-new findings against the full essay text.
 
@@ -308,7 +308,7 @@ This pass surfaced **one** Stage 1 brief CTG (CTG-1, Norway fiscal-rule history)
 - **Stage 1 brief (source of truth):** [`publishing/essays/100-barrel/rigor/stage-1-brief.md`](stage-1-brief.md)
 - **Prior pass (comparative draft audit):** [`stage-3-comparative-draft-audit.md`](stage-3-comparative-draft-audit.md)
 - **Sibling Pass 3.1 (Noema; format precedent + parallel CTG-1):** [`pass-3-1-fact-check.md`](../../publishing/essays/noema-commons-bonds/rigor/pass-3-1-fact-check.md)
-- **Bibliography:** [`research/literature/bibliography.md`](../../research/literature/bibliography.md)
+- **Bibliography:** [`tools/back-matter/sources/bibliography.md`](../../tools/back-matter/sources/bibliography.md)
 - **v3.1 discipline reference:** [`tools/memory/feedback_audience_aware_drafting_discipline.md`](../memory/feedback_audience_aware_drafting_discipline.md)
 - **Pipeline doctrine (five-pass Stage 3 codification):** [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md`](../pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md) §3.6 Amendment B 2026-05-18
 

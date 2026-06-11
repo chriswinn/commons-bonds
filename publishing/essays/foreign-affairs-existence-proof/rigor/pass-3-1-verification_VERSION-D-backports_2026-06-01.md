@@ -54,7 +54,7 @@ In-repo:
    none of the four V-D backports were in scope at the locked-cut state (they were
    harvest additions from alt drafts).
 8. Bibliography:
-   [`research/literature/bibliography.md`](../../../../research/literature/bibliography.md)
+   [`tools/back-matter/sources/bibliography.md`](../../../../tools/back-matter/sources/bibliography.md)
    §531-535 + §1009-1013 (Pistor LOAD-BEARING entries: *Code of Capital* 2019
    bibliographic data + relevance + relationship + Ch 5 + Ch 9 engagement record
    established via commit `d78872e` 2026-05-08). No bibliography entry for Hannesson;
@@ -277,7 +277,7 @@ check by author or future-session.
 1. **Pistor + Code of Capital + Princeton 2019** — bibliographic anchor. (Verifiable:
    Katharina Pistor, *The Code of Capital: How the Law Creates Wealth and Inequality*,
    Princeton University Press, 2019 — confirmed in
-   [`research/literature/bibliography.md`](../../../../research/literature/bibliography.md)
+   [`tools/back-matter/sources/bibliography.md`](../../../../tools/back-matter/sources/bibliography.md)
    §531 + §1009 with full bibliographic + relevance + relationship + engagement
    record. **LOAD-BEARING entry per bibliography.** Public-record confirmed.)
 2. **"Reads the same architecture from the legal-engineering side"** — substantive
@@ -555,7 +555,7 @@ lookup as a 5-minute manual verification step before the citation-2 backport app
 
 **Bibliography corpus:**
 
-- [`../../../research/literature/bibliography.md`](../../../../research/literature/bibliography.md)
+- [`../../../tools/back-matter/sources/bibliography.md`](../../../../tools/back-matter/sources/bibliography.md)
   §531 + §1009 (Pistor LOAD-BEARING entries) — no current bibliography entry for
   Hannesson, Tooze *Shutdown* / *Chartbook*, or NBIM Annual Report; bibliography
   refresh recommended as a follow-up internal-scaffolding chip to integrate these

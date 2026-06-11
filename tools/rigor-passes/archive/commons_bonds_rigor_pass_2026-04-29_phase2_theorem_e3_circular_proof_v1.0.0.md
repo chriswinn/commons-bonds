@@ -746,7 +746,7 @@ This rigor pass does NOT replace external review; it produces the substrate that
 - `manuscript/technical-appendix/TechnicalAppendix_v1.0.0.html` §10 lines 3270-3276 — replace E.3 statement + proof per §13.1 + §13.2 + §13.3 + §13.5.
 - `manuscript/technical-appendix/TechnicalAppendix_v1.0.0.html` §B Definition A.8 (line 496-499) — add §13.4 clarifying paragraph.
 - `manuscript/technical-appendix/TechnicalAppendix_v1.0.0.html` bibliography section — Pindyck 1978; Dasgupta-Heal 1979; Barnosky et al. 2012; Lenton et al. 2008 (+ Royden 1988 / Folland 1999 already per Insight #40).
-- `core/terms/terms_index.md` — append Phase 2 verdict entry; cross-reference to this rigor pass.
+- `tools/back-matter/sources/terms_index.md` — append Phase 2 verdict entry; cross-reference to this rigor pass.
 - `alignment/commons_bonds_open_insights_v1.0.0.md` — new Insight # closed-ratified capturing Phase 2 #3.2 verdict (number TBD).
 
 ### §16.4 Pre-publication external review (Insight #39)

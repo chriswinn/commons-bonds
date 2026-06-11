@@ -26,7 +26,7 @@ Ch 5 also just received a new content addition — the **"Restitution and Forecl
 3. [research/case-studies/social-security.md](research/case-studies/social-security.md) — case-study brief (independent content; primary check for $108T claim).
 4. [research/case-studies/2008-financial-crisis.md](research/case-studies/2008-financial-crisis.md) — case-study brief (independent content; primary check for TARP/Fed-facility/foreclosure numbers).
 5. [research/case-studies/healthcare-end-of-life.md](research/case-studies/healthcare-end-of-life.md) — case-study brief (independent content; primary check for GoFundMe/Butler claims).
-6. [research/literature/bibliography.md](research/literature/bibliography.md) §13 — framework-adjacent literature (Coates 2014, Darity & Mullen 2020, Hamilton et al. 2015, Conley 1999, Pistor 2019, Christophers 2024, Hacker 2006, Butler 2010, Gawande 2014, Hartwick 1977, Parfit 1984, Pettit 1997, Mazzucato 2018, Ostrom 1990).
+6. [tools/back-matter/sources/bibliography.md](tools/back-matter/sources/bibliography.md) §13 — framework-adjacent literature (Coates 2014, Darity & Mullen 2020, Hamilton et al. 2015, Conley 1999, Pistor 2019, Christophers 2024, Hacker 2006, Butler 2010, Gawande 2014, Hartwick 1977, Parfit 1984, Pettit 1997, Mazzucato 2018, Ostrom 1990).
 7. [manuscript/chapters/Chapter__6_ThreeWaysofCounting__Draft.html](manuscript/chapters/Chapter__6_ThreeWaysofCounting__Draft.html) — canonical introduction of the four gates + the three approaches + Method 1/2/3.
 8. [manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html](manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html) — canonical Method names (Method 1: Replacement Cost; Method 2: Revealed Preference; Method 3: Scarcity-Adjusted Option Value) + §5 Accountability Bond Decomposition + numbering scheme post-#15 reconciliation (Scheme-4 cleanup #19 in flight in parallel).
 9. [tools/rigor-passes/commons_bonds_rigor_pass_2026-05-11_apparatus_register_decision_v1.0.0.md](tools/rigor-passes/commons_bonds_rigor_pass_2026-05-11_apparatus_register_decision_v1.0.0.md) — apparatus register canonical decisions.
@@ -341,7 +341,7 @@ If MUST-FIX-2 is resolved via Option B (replacing $108T with the Trustees-canoni
 **Chapter text:**
 > "Lawrence Mishel and Josh Bivens at the Economic Policy Institute have documented that the median U.S. wage tracked roughly with productivity growth from the late 1940s through the early 1970s, then decoupled — productivity continued to rise; the median wage stagnated in real terms for the next half century."
 
-**Canonical truth:** The productivity-pay decoupling finding is the canonical EPI Productivity-Pay Gap analysis, updated annually. The bibliography ([research/literature/bibliography.md:184](research/literature/bibliography.md:184)) carries Mishel & Bivens, *Identifying the Policy Levers Generating Wage Suppression and Wage Inequality* (EPI, 2021). The specific decoupling claim is also documented in Mishel et al., *Raising America's Pay* (EPI, 2015), and in the State of Working America series.
+**Canonical truth:** The productivity-pay decoupling finding is the canonical EPI Productivity-Pay Gap analysis, updated annually. The bibliography ([tools/back-matter/sources/bibliography.md:184](tools/back-matter/sources/bibliography.md:184)) carries Mishel & Bivens, *Identifying the Policy Levers Generating Wage Suppression and Wage Inequality* (EPI, 2021). The specific decoupling claim is also documented in Mishel et al., *Raising America's Pay* (EPI, 2015), and in the State of Working America series.
 
 **Why this is LOW-3:** Ch 5 attributes to EPI without specifying which paper. Defensible loose for trade prose. Could be tightened with a specific endnote citation.
 
@@ -451,13 +451,13 @@ The following claims were verified against canonical sources and require no spot
 | Racial disparity in campaign success (Ly & Soman 2020 JMR) | Ch 5:156 | ✓ per brief |
 | Butler's father pacemaker: $54 office visit, $461 implant, ~$12K hospital flat fee, ~$6K device manufacturer | Ch 5:160 | ✓ per brief; Butler 2010 NYT Magazine |
 | Butler's father 5+ years cognitive decline; 80-year-old wife (Butler's mother) 80-hour caregiving weeks | Ch 5:160 | ✓ per brief; Butler 2010 |
-| Gawande *Being Mortal* (2014) systemic-pattern extension | Ch 5:162 | ✓ per [bibliography.md:216](research/literature/bibliography.md:216) |
+| Gawande *Being Mortal* (2014) systemic-pattern extension | Ch 5:162 | ✓ per [bibliography.md:216](tools/back-matter/sources/bibliography.md:216) |
 | Hacker *The Great Risk Shift* (2006) | Ch 5:158 | ✓ per bibliography line 139 |
 
 ### Restitution and Foreclosure section (lines 184-230)
 | Claim | Location | Verification |
 |---|---|---|
-| Coates *Case for Reparations* Atlantic 2014 | Ch 5:196 | ✓ per [bibliography.md:830](research/literature/bibliography.md:830) |
+| Coates *Case for Reparations* Atlantic 2014 | Ch 5:196 | ✓ per [bibliography.md:830](tools/back-matter/sources/bibliography.md:830) |
 | Darity & Mullen *From Here to Equality* UNC Press 2020 | Ch 5:198 | ✓ per bibliography line 821 |
 | Hamilton et al. *Umbrellas Don't Make It Rain* 2015 | Ch 5:198 | ✓ per bibliography line 839 |
 | Conley *Being Black, Living in the Red* 1999 | Ch 5:198 | ✓ per bibliography line 848 |

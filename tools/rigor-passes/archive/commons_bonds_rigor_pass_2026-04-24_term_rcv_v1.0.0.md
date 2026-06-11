@@ -432,7 +432,7 @@ Standalone verdict: Option A. Final commitment after synthesis review confirms n
 
 ### Condition 1 — Terms Index provenance record
 
-Add RCV entry to `core/terms/terms_index.md` §4 as `CURRENT` at Ring 1 (quantification). Document name-quantity-match, each-word-semantic-work, equation-integration, and citation-anchor role.
+Add RCV entry to `tools/back-matter/sources/terms_index.md` §4 as `CURRENT` at Ring 1 (quantification). Document name-quantity-match, each-word-semantic-work, equation-integration, and citation-anchor role.
 
 **Effort:** ~10 minutes.
 

@@ -802,5 +802,5 @@ Specific recommendation:
 - `research/outreach/subjects/dagan/background-brief_2026-05-08.md` — second instance of FPD-9; this brief models its substitution-analysis-flag pattern (the §9 + §10 structure here is novel to this brief).
 - `research/outreach/_protocols/interview-attribution-protocol_2026-05-06.md` — Q0 attribution-preference protocol if Moore interview proceeds.
 - `alignment/commons_bonds_framework_positioning_disciplines_v1.0.0.md` §FPD-9 — the discipline this brief instantiates; canonical four-artifact stack.
-- `research/literature/bibliography.md` §19.5 — Chesapeake fieldwork tentative sources.
+- `tools/back-matter/sources/bibliography.md` §19.5 — Chesapeake fieldwork tentative sources.
 - `research/outreach/_pipeline/interview-outreach-drafts_2026-05-04_ch3-fieldwork.md` — Ch 3 fieldwork outreach pipeline (Lipcius, Mann, Moore, Colden); response-tracking table.

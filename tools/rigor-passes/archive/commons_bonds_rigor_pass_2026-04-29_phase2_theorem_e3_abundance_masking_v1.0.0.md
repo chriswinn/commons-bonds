@@ -580,7 +580,7 @@ For E.3 specifically: a reviewer with resource-economics + commodity-economics s
 
 - `manuscript/technical-appendix/TechnicalAppendix_v1.0.0.html` §10 line 3270-3276 — restructured E.3 per §13.
 - `manuscript/technical-appendix/TechnicalAppendix_v1.0.0.html` — sweep S → τ for scarcity threshold instances.
-- `core/terms/terms_index.md` — possibly update CIT entry to clarify CIT is methodology, not source of abundance-masking phenomenon.
+- `tools/back-matter/sources/terms_index.md` — possibly update CIT entry to clarify CIT is methodology, not source of abundance-masking phenomenon.
 - `alignment/commons_bonds_open_insights_v1.0.0.md` — new Insight #42 closed-ratified.
 - Bibliography expansion — Hamilton 2009; Kilian 2009; Pindyck 2008; supply-elasticity microeconomics text.
 

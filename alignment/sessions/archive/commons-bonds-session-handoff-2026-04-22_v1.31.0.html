@@ -37,7 +37,7 @@
 <body>
 
 <h1>Commons Bonds — Session Handoff</h1>
-<p class="meta">Date: 2026-04-22 · Version <span class="version">1.31.0</span> · Supersedes v1.30.0 · Same-day continuation. Two substantive pieces of work this delta: (1) <strong>Infrastructure batch completed</strong> — rigor protocol v1.2.1 → v1.2.2 (dimension terminology patch + dot-suffix filename), Technical Appendix v0.0.2 → v0.0.3 (terminology patch), core/glossary + core/decomposition files layer→dimension sweep, filename-reference updates across 10 active files. Commit <code>7fa0db3</code>. (2) <strong>Decision 1 in-progress with lock pending full rigor</strong> — absence-first framing showed the Demographic dimension prices "non-substitutable specific attachments to specific people / kin / cultures / origins"; Chris pushed back on "Kinship" as too familial (lay English defaults to blood relations); surfaced that chosen family must be in primary scope (Weston / Stacey / Nardi / Karner / Jones literature as sociological grounding); pivoted to <strong>Kindred</strong> as working recommendation (less familial, covers chosen family via "kindred spirits" usage, bilateral-independence-clean with Cohesion). <strong>Kindred has NOT been through the full 25-character rigor suite — that's the next-session starting task.</strong> Also evaluated Gemeinschaft/Gesellschaft as canonical names; verdict: methodology-appendix use only, fails Test 20/23/17/7. Chris paused to capture state before a meeting; this handoff is insurance against context loss.</p>
+<p class="meta">Date: 2026-04-22 · Version <span class="version">1.31.0</span> · Supersedes v1.30.0 · Same-day continuation. Two substantive pieces of work this delta: (1) <strong>Infrastructure batch completed</strong> — rigor protocol v1.2.1 → v1.2.2 (dimension terminology patch + dot-suffix filename), Technical Appendix v0.0.2 → v0.0.3 (terminology patch), tools/back-matter/sources/glossary + core/decomposition files layer→dimension sweep, filename-reference updates across 10 active files. Commit <code>7fa0db3</code>. (2) <strong>Decision 1 in-progress with lock pending full rigor</strong> — absence-first framing showed the Demographic dimension prices "non-substitutable specific attachments to specific people / kin / cultures / origins"; Chris pushed back on "Kinship" as too familial (lay English defaults to blood relations); surfaced that chosen family must be in primary scope (Weston / Stacey / Nardi / Karner / Jones literature as sociological grounding); pivoted to <strong>Kindred</strong> as working recommendation (less familial, covers chosen family via "kindred spirits" usage, bilateral-independence-clean with Cohesion). <strong>Kindred has NOT been through the full 25-character rigor suite — that's the next-session starting task.</strong> Also evaluated Gemeinschaft/Gesellschaft as canonical names; verdict: methodology-appendix use only, fails Test 20/23/17/7. Chris paused to capture state before a meeting; this handoff is insurance against context loss.</p>
 
 <div class="status">
 <strong>STATUS:</strong> Session v1.30.0 → v1.31.0 work: 2 commits (<code>7fa0db3</code> infrastructure + this handoff). Infrastructure batch patched ~17 files for dimension terminology. Decision 1 analysis: absence-first framing articulated "non-substitutable specific attachment" as what the dimension dissolves invisibility of; Chris's resistance to Kinship being too familial revealed a gap — lay English reads kinship = blood family, missing chosen family (Weston's canonical category from <em>Families We Choose</em> 1991 + extended literature). Kindred surfaced as alternative that covers chosen family via "kindred spirits" lay usage + preserves non-substitutability precision + less family-coded + clean bilateral independence with Cohesion. <strong>Immediate next task: run Kindred through full 25-character rigor suite per protocol §3.1 before locking.</strong> Chris's time-constrained meeting requires state capture now.
@@ -64,7 +64,7 @@ Current canonical state to verify:
   Geographic (Spatial leading), Informational (Evidentiary leading),
   Agency (Autonomy leading), Cohesion (Social-Fabric / Civic-Ties leading)
 - New default: when scholarly literature surfaces in discussion, default to adding
-  to research/literature/bibliography.md (confirm with Chris first)
+  to tools/back-matter/sources/bibliography.md (confirm with Chris first)
 - Naming convention: dots going forward (v1.2.2); historical files keep underscores
 
 Top priority this session (in order):
@@ -131,8 +131,8 @@ Additional thoughts for this session (Chris, fill in here before sending):
   <tbody>
     <tr><td>Protocol v1.2.1 → v1.2.2</td><td>Container-term rename "layer" → "dimension" throughout. Filename references (c5, c9) already updated to <code>alignment/patches/</code> path in prior session. New file: <code>tools/commons_bonds_rigor_protocol_v1.2.2.md</code> (first canonical tools/ file using dot-suffix). Archive predecessor via git rename.</td></tr>
     <tr><td>Technical Appendix v0.0.2 → v0.0.3</td><td>Terminology patch (single-line HTML; confirmed no CSS class / id collisions). Note: the "v0.0.2 metadata inconsistency fix" originally flagged in v1.28.0 deferred queue was NOT specifically identified; deferred to targeted pass.</td></tr>
-    <tr><td>core/glossary/archive/commons_bonds_updated_glossary_v2.html</td><td>Layer → dimension terminology patch (14 instances via sed). In place; no version bump.</td></tr>
-    <tr><td>core/glossary/commons-bonds-vocabulary-additions 13.html</td><td>Layer → dimension terminology patch (2 instances). Still flagged INVESTIGATE per housekeeping review §7.3 (unclear if content consumed into glossary v2).</td></tr>
+    <tr><td>tools/back-matter/sources/glossary/archive/commons_bonds_updated_glossary_v2.html</td><td>Layer → dimension terminology patch (14 instances via sed). In place; no version bump.</td></tr>
+    <tr><td>tools/back-matter/sources/glossary/commons-bonds-vocabulary-additions 13.html</td><td>Layer → dimension terminology patch (2 instances). Still flagged INVESTIGATE per housekeeping review §7.3 (unclear if content consumed into glossary v2).</td></tr>
     <tr><td>core/decomposition/eight-tier-v10.html</td><td>Layer → dimension terminology patch (24 instances). No version bump; decomposition content stable.</td></tr>
     <tr><td>core/decomposition/error-out-v10.html</td><td>Layer → dimension terminology patch (24 instances). No version bump.</td></tr>
     <tr><td>Filename-reference updates</td><td><code>commons_bonds_rigor_protocol_v1_2_1</code> → <code>commons_bonds_rigor_protocol_v1.2.2</code> across 10 active files (README.md, tools/README.md, abundance layers doc, guiding constraints, rigor pass v1_0_1, sociology-paper-transition, workstreams-superseded, housekeeping review, this session's handoffs, bibliography).</td></tr>
@@ -142,7 +142,7 @@ Additional thoughts for this session (Chris, fill in here before sending):
 
 <h2>New operating rule (v1.31.0): literature additions to bibliography</h2>
 <div class="info">
-<p><strong>Default:</strong> When scholarly literature surfaces in session discussion (cited by Chris or by Claude as part of a framework argument), default to adding it to <code>research/literature/bibliography.md</code> — <strong>but confirm with Chris first before adding</strong>.</p>
+<p><strong>Default:</strong> When scholarly literature surfaces in session discussion (cited by Chris or by Claude as part of a framework argument), default to adding it to <code>tools/back-matter/sources/bibliography.md</code> — <strong>but confirm with Chris first before adding</strong>.</p>
 <p><strong>Rationale:</strong> The bibliography is the canonical "which scholarship fed this project" record. Sources cited in reasoning should be captured; leaving them in chat-only form loses lineage. Confirmation ensures Chris catches cases where a citation is provisional / being considered-against / not actually load-bearing.</p>
 <p><strong>Queued for next session start:</strong> Add to bibliography —</p>
 <ul>
@@ -170,8 +170,8 @@ Additional thoughts for this session (Chris, fill in here before sending):
   <tbody>
     <tr><td><code>tools/commons_bonds_rigor_protocol_v1.2.2.md</code></td><td>NEW (renamed from v1_2_1). Terminology patch applied.</td></tr>
     <tr><td><code>manuscript/technical-appendix/TechnicalAppendix_v0.0.3.html</code></td><td>NEW (renamed from v0.0.2). Terminology patch applied.</td></tr>
-    <tr><td><code>core/glossary/archive/commons_bonds_updated_glossary_v2.html</code></td><td>Terminology patch (14 instances).</td></tr>
-    <tr><td><code>core/glossary/commons-bonds-vocabulary-additions 13.html</code></td><td>Terminology patch (2 instances).</td></tr>
+    <tr><td><code>tools/back-matter/sources/glossary/archive/commons_bonds_updated_glossary_v2.html</code></td><td>Terminology patch (14 instances).</td></tr>
+    <tr><td><code>tools/back-matter/sources/glossary/commons-bonds-vocabulary-additions 13.html</code></td><td>Terminology patch (2 instances).</td></tr>
     <tr><td><code>core/decomposition/eight-tier-v10.html</code></td><td>Terminology patch (24 instances).</td></tr>
     <tr><td><code>core/decomposition/error-out-v10.html</code></td><td>Terminology patch (24 instances).</td></tr>
     <tr><td><code>README.md</code> + <code>tools/README.md</code> + 8 others</td><td>Filename reference updates (v1_2_1 → v1.2.2).</td></tr>
@@ -209,7 +209,7 @@ Additional thoughts for this session (Chris, fill in here before sending):
 <div class="resume">
 <ol>
   <li>Read this handoff + <code>tools/README.md</code> + upload set listed in snippet. Note the protocol is now v1.2.2 (dimension terminology).</li>
-  <li><strong>First task: add queued bibliography entries.</strong> Confirm with Chris, then add Weston + Stacey + Nardi + Karner + Jones to <code>research/literature/bibliography.md</code>. Add as new section on chosen-family scholarship, likely between sections 4 (Inequality / Risk Shift) and 5 (Healthcare).</li>
+  <li><strong>First task: add queued bibliography entries.</strong> Confirm with Chris, then add Weston + Stacey + Nardi + Karner + Jones to <code>tools/back-matter/sources/bibliography.md</code>. Add as new section on chosen-family scholarship, likely between sections 4 (Inequality / Risk Shift) and 5 (Healthcare).</li>
   <li><strong>Second task: run Kindred through full rigor per §3.1.</strong> Full 25-character suite + Groups A-F. Produce rigor-pass record: <code>tools/rigor-passes/commons_bonds_rigor_pass_2026-04-XX_v1.0.2.md</code>.</li>
   <li><strong>If Kindred passes:</strong> lock as canonical name for the Demographic dimension. Update <code>core/dimensions/commons_bonds_abundance_dimensions_v1_2_0.md</code> §2.5 (Demographic) with new canonical name + rationale + supporting literature citations + chosen-family scope statement. Document why-Kindred-not-Kinship reasoning in the pass record for future revisitability.</li>
   <li><strong>If Kindred fails:</strong> re-open with fallback candidates (Attachment / Kindred-Bonds / Intimates-Ties / Belonging-with-scope-work / invented). Re-run rigor on selected.</li>
@@ -241,7 +241,7 @@ Additional thoughts for this session (Chris, fill in here before sending):
 </div>
 
 <p class="meta" style="margin-top:3em; border-top:1px solid #ccc; padding-top:1em;">
-End of session handoff <span class="version">v1.31.0</span>. <strong>Next immediate: (1) add bibliography entries (Weston + extended literature); (2) run Kindred through full rigor per §3.1; (3) if passes, lock as canonical name for Demographic dimension.</strong> Infrastructure batch complete (protocol v1.2.2, tech appendix v0.0.3, core/glossary + decomposition terminology patched). Framework state: 10 dimensions locked; Habitability + Ecosystem named; Kindred leading for Demographic, pending rigor.
+End of session handoff <span class="version">v1.31.0</span>. <strong>Next immediate: (1) add bibliography entries (Weston + extended literature); (2) run Kindred through full rigor per §3.1; (3) if passes, lock as canonical name for Demographic dimension.</strong> Infrastructure batch complete (protocol v1.2.2, tech appendix v0.0.3, tools/back-matter/sources/glossary + decomposition terminology patched). Framework state: 10 dimensions locked; Habitability + Ecosystem named; Kindred leading for Demographic, pending rigor.
 </p>
 
 </body>

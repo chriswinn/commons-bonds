@@ -8,7 +8,7 @@
 
 ## Sourcing approach
 
-- Mined acknowledgments pages of comp titles + agency client rosters (`research/literature/bibliography.md`) — agents routinely thanked or named in deals.
+- Mined acknowledgments pages of comp titles + agency client rosters (`tools/back-matter/sources/bibliography.md`) — agents routinely thanked or named in deals.
 - Cross-checked Publishers Marketplace, Publishers Weekly, The Bookseller deal listings tagged "big idea / economics" 2023–2026.
 - Looked up US + UK agents for Mazzucato, Pistor, Brett Christophers, Adam Tooze, Branko Milanović, Michael Sandel, Daniel Susskind, Raj Patel, Saskia Sassen, Dani Rodrik, Heather McGhee, Matthew Desmond, Anand Giridharadas, Naomi Klein, Walter Isaacson, Bill McKibben, Rebecca Solnit, Daron Acemoglu, Tyler Cowen, James K. Galbraith, Robert Reich, Anne Applebaum, Sarah Smarsh, Jessica Bruder.
 - **Avoid:** pure-literary agents, pure-academic agents, political-memoir agents, pure-celebrity / lifestyle / wellness agents.

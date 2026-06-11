@@ -29,7 +29,7 @@
 | Ch 3 dev-edit review | `tools/rigor-passes/ch3_developmental_edit_review_2026-05-25.md` | Referenced for restoration-polarity discipline + scene-anchor restoration patterns. |
 | Apparatus register decisions | `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-11_apparatus_register_decision_v1.0.0.md` | Items 7 (CIT dropped), 10 (named-Theorem cross-references), 12 (ARR full-name), 14 (RCV Sandel-hybrid), 15 (Ch 7 six-pattern Ostrom-path framing) — read to ensure no restoration regresses canonical decisions. |
 | Cross-chapter consistency inventory | `tools/audits/cross-chapter-consistency-inventory_2026-05-11.md` | Verified canonical-term register inventory. |
-| Terms index | `core/terms/terms_index.md` | Verified Substitutability Function S Title-case + Abundance Masking Title-case + existential substitutability gap lowercase prose phrase. |
+| Terms index | `tools/back-matter/sources/terms_index.md` | Verified Substitutability Function S Title-case + Abundance Masking Title-case + existential substitutability gap lowercase prose phrase. |
 | Aeon Version C pitch | `publishing/essays/aeon-mask-of-abundance/_archive/prior-versions/aeon-pitch-commons-bonds-winn_VERSION-C.md` | Read for verbatim-overlap held passage at Ch 7:101 ("structural test the same" + "self-imposed commute lease"). Fire window Sun May 31 14:01 UTC. |
 | Memory | `feedback_audience_aware_drafting_discipline.md` v3.1 Amendment B | Pass 3.5 restoration-polarity discipline + explicit-gate per Amendment A two-class cascade. |
 | Memory | `feedback_substance_drives_length.md` | Restoration recommendations must add substance, not pad for length. |

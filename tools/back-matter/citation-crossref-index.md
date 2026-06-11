@@ -4,7 +4,7 @@
 
 Method: for each unique bibliography entry, grep the author surname (or institutional acronym) as a whole word across the corpus — TA body (§18 bibliography excluded), 10 chapters, 9 essays, 2 op-eds. **Fuzzy by design:** common-word surnames (Black, House, Stern, Klein) over-match, so the index UNDER-reports orphans (the safe direction — it will not wrongly recommend pruning a still-cited work). An **ORPHAN?** flag means zero surface matched; verify by hand before pruning the entry.
 
-- entries cross-referenced: **205**
+- entries cross-referenced: **207**
 - flagged ORPHAN? (zero matches — prune candidates, verify first): **41**
 - not cross-referenced (no clean author/acronym key — mostly data/agency sources cited inline by name): **74**
 
@@ -211,6 +211,7 @@ Method: for each unique bibliography entry, grep the author surname (or institut
 | Reinhart 2009 | `Reinhart` | 0 | — **← ORPHAN?** |
 | Rennert 2022 | `Rennert` | 4 | TA, Ch6, Ch8, oped:mcdowell-county-true-cost |
 | Rockström 2009 | `Rockström` | 1 | TA |
+| Rosen 1974 | `Rosen` | 1 | TA |
 | Rothstein 2017 | `Rothstein` | 1 | TA |
 | Royden 1988 | `Royden` | 1 | TA |
 | Sackmann 1993 | `Sackmann` | 0 | — **← ORPHAN?** |
@@ -250,6 +251,7 @@ Method: for each unique bibliography entry, grep the author surname (or institut
 | U.S. Office of Surface | `OSMRE` | 1 | TA |
 | Unger 2018 | `Unger` | 0 | — **← ORPHAN?** |
 | Vance 2016 | `Vance` | 1 | TA |
+| Viscusi 1993 | `Viscusi` | 1 | TA |
 | Warner 1976 | `Warner` | 2 | essay:atlantic-main-chesapeake-watermen, oped:norway-sovereign-wealth |
 | Weitzman 2001 | `Weitzman` | 4 | TA, Ch10, Ch6, essay:100-barrel |
 | Weston 1991 | `Weston` | 1 | TA |

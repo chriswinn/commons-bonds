@@ -38,7 +38,7 @@ No Stage 4 render audit artifact for Atlantic main (Stage 4 RATIFIED offline; no
 | `publishing/essays/atlantic-main-chesapeake-watermen/README.md` | 8 | Full cross-reference block rewritten to point at `rigor/` |
 | `publishing/essays/atlantic-main-chesapeake-watermen/stage-5-signoff.md` | 3 | Mirror-back-pointer + 2 pre-pub-queue refs |
 | 8 artifacts now in `…/rigor/` | ~20 total | Intra-folder sibling refs flattened to bare basenames (`[\`pass-3-1-fact-check.md\`](pass-3-1-fact-check.md)`) |
-| `research/literature/bibliography.md` | 1 | §19.7 Chesapeake regional reportage status note |
+| `tools/back-matter/sources/bibliography.md` | 1 | §19.7 Chesapeake regional reportage status note |
 | 6 × `tools/workstream-handoffs/ch3-atlantic-main-stage-*-kickoff_2026-05-27.md` | ~37 total | Historical kickoff paste-texts; predecessor-pass references |
 | `tools/workstream-handoffs/archive/cross-essay-portfolio-review_2026-05-27.md` | 2 active links + 2 breadcrumb annotations | §1.4 portfolio status + §E.1 pre-pub-queue extraction-sweep note |
 

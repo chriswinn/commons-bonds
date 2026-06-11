@@ -50,7 +50,7 @@ Also: comp-titles work needs to be **fact-checked against current state of the p
 ## Methodology
 
 1. **Confirm the comp set.** Start from `publishing/book-proposal/02_comp-titles.md` Tier 1+2+3. The user may want to add or remove. Adjacent candidates from prior rigor passes: Mazzucato (Value of Everything + Mission Economy); Raworth (Doughnut Economics); Pistor (Code of Capital); Sandel (Tyranny of Merit); Christophers (Our Lives in Their Portfolios); Giridharadas (Winners Take All); Hickel (Less Is More); Darity & Mullen (From Here to Equality); Tooze (Crashed; Shutdown); MacAskill (What We Owe the Future); Mulgan (Future People); Susskind (Future of the Professions); Sassen (Expulsions); Patel & Moore (A History of the World in Seven Cheap Things); Rodrik (Has Globalization Gone Too Far?). Probably 10–15 actual comps in the matrix.
-2. **Per comp, populate the matrix.** Web research for each: publisher, agent, editor, reviews, blurbs. Cross-reference against `research/literature/bibliography.md` for citation entries already verified.
+2. **Per comp, populate the matrix.** Web research for each: publisher, agent, editor, reviews, blurbs. Cross-reference against `tools/back-matter/sources/bibliography.md` for citation entries already verified.
 3. **Rank for query-letter use.** Most query letters use 2–3 comps; pick the strongest 3.
 4. **Rank for proposal use.** The proposal's §02 supports 5–8 comps with substantive prose treatment.
 5. **Rank for agent-target prioritization.** The matrix's "Agent" column drives the `publishing/agents/_pipeline/targets.md` populating effort.
@@ -63,7 +63,7 @@ Also: comp-titles work needs to be **fact-checked against current state of the p
 
 - `publishing/book-proposal/02_comp-titles.md` — substantive (Tier 1/2/3; selection rule). ~80% of final per `book-proposal-handoff_2026-05-09.md`. **Does NOT have the deep matrix.** That's what this workstream produces.
 - `publishing/agents/_pipeline/targets.md` — 1/25 populated (Sarah Chalfant / Wylie). The agent column of the comp matrix feeds this.
-- `research/literature/bibliography.md` — verified citations for some but not all comp titles.
+- `tools/back-matter/sources/bibliography.md` — verified citations for some but not all comp titles.
 - Across rigor passes — comps named in Aeon title rigor pass, Noema audience-load pass, Aeon Stage 1 brief, Noema Stage 1 brief. Compile the union for the matrix.
 
 ---
@@ -110,7 +110,7 @@ Also: comp-titles work needs to be **fact-checked against current state of the p
 - `publishing/book-proposal/04_marketing-plan.md`
 - `publishing/agents/_pipeline/targets.md`
 - `publishing/agents/_shared/templates/query-letter-template.md`
-- `research/literature/bibliography.md`
+- `tools/back-matter/sources/bibliography.md`
 - `tools/workstream-handoffs/archive/book-proposal-handoff_2026-05-09.md` (overlapping workstream)
 - `tools/workstream-handoffs/archive/agent-prep-handoff_2026-05-09.md` (downstream consumer of agent intelligence)
 - All four rigor-pass files cited above

@@ -115,4 +115,4 @@ The brief surfaced two findings that warrant draft revision (one applied, one he
 - `research/outreach/subjects/moore/response-draft_2026-05-06_via-sherfinski.md` — in-flight response to Sherfinski; revised 2026-05-06 to add Port Isobel reference per finding #1 above.
 - `research/outreach/_pipeline/interview-outreach-drafts_2026-05-04_ch3-fieldwork.md` — Ch 3 fieldwork outreach pipeline (Lipcius, Mann, Moore, Colden).
 - `research/outreach/subjects/colden/response-draft_2026-05-05_via-dimarzio.md` — Maryland-thread parallel response.
-- `research/literature/bibliography.md` §19.5 — Chesapeake fieldwork tentative sources (Colden public record).
+- `tools/back-matter/sources/bibliography.md` §19.5 — Chesapeake fieldwork tentative sources (Colden public record).

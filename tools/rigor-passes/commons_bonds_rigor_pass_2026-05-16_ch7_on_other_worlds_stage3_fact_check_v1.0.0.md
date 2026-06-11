@@ -29,10 +29,10 @@
 14. Ogallala Aquifer history — Wikipedia, USGS, NPR StateImpact.
 15. Sun/Earth habitability timeline — Wikipedia *Future of Earth*; *The Conversation* (2015); peer-reviewed projections.
 16. Kimberley Process Certification Scheme — Wikipedia + Britannica.
-17. [research/literature/bibliography.md](research/literature/bibliography.md) §13 — comp + framework-adjacent entries (Hartwick line 881; Stern line 728; Nordhaus line 718; Ord line 755; Lehner line 328; Hawass line 335; Sima Qian line 342).
+17. [tools/back-matter/sources/bibliography.md](tools/back-matter/sources/bibliography.md) §13 — comp + framework-adjacent entries (Hartwick line 881; Stern line 728; Nordhaus line 718; Ord line 755; Lehner line 328; Hawass line 335; Sima Qian line 342).
 18. [tools/audits/cross-chapter-consistency-inventory_2026-05-11.md](tools/audits/cross-chapter-consistency-inventory_2026-05-11.md) — Mars colony canonical row (line 69); Europa/deep-sea biosphere row (line 70).
 19. [tools/rigor-passes/commons_bonds_rigor_pass_2026-05-11_apparatus_register_decision_v1.0.0.md](tools/rigor-passes/commons_bonds_rigor_pass_2026-05-11_apparatus_register_decision_v1.0.0.md) — Item 15 (Ostrom-path light-de-formalize; commit `b1c17d8`); Item 10 (Theorem cross-reference named-content; commit `16876a1`); Abundance Masking defense paragraph insertion (commit `2a7c336`).
-20. [core/terms/terms_index.md](core/terms/terms_index.md) — Abundance Masking canonical register; existential substitutability gap canonical lineage requirement (line 683).
+20. [tools/back-matter/sources/terms_index.md](tools/back-matter/sources/terms_index.md) — Abundance Masking canonical register; existential substitutability gap canonical lineage requirement (line 683).
 21. [publishing/essays/aeon-mask-of-abundance/_archive/prior-versions/aeon-pitch-commons-bonds-winn_VERSION-C.md](publishing/essays/aeon-mask-of-abundance/_archive/prior-versions/aeon-pitch-commons-bonds-winn_VERSION-C.md) — Aeon pitch v300w, ratified for Sun May 31 14:01 UTC submission.
 22. [manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html](manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html) — Theorem 10.3 (Abundance Masking) at TA line 3416; current canonical numbering.
 
@@ -109,7 +109,7 @@ near-term agenda...
 - Sima Qian (c. 145 BCE – c. 86 BCE) compiled the *Shiji* between ~109 BCE and ~91 BCE, with completion around 94 BCE.
 - Time elapsed: ~206 BCE → ~94 BCE = **~112 years**, not "less than a century."
 
-**Cross-corpus issue (bibliography §13 mirrors the same error):** [research/literature/bibliography.md:344](research/literature/bibliography.md:344) reads: *"Compiled less than a century after the Qin's fall, the *Shiji* is the foundational historiographical source..."* Identical wording. Resolution should be paired across both files.
+**Cross-corpus issue (bibliography §13 mirrors the same error):** [tools/back-matter/sources/bibliography.md:344](tools/back-matter/sources/bibliography.md:344) reads: *"Compiled less than a century after the Qin's fall, the *Shiji* is the foundational historiographical source..."* Identical wording. Resolution should be paired across both files.
 
 **Why this is the MEDIUM-1 finding:** A historian of early imperial China (and any well-read trade reader familiar with Qin/Han chronology) will catch the error immediately. "Less than a century" implies compilation before ~106 BCE; the *Shiji* was being compiled from ~109 BCE and the bulk of work + completion fell AFTER 106 BCE. The error is small and easily corrected with a phrase swap. MEDIUM not HIGH because the underlying point Ch 7 is making (Sima Qian as a foundational early historiographical source on Qin extraction) holds regardless of the exact century-count. MEDIUM not LOW because (a) the precision is the kind a fact-checker queries, (b) the error is replicated cross-corpus and benefits from paired-file fix, (c) the chapter is making a "still visible four and a half millennia / twenty-three hundred years later" deep-time argument and chronology precision is load-bearing for the rhetorical move.
 
@@ -137,7 +137,7 @@ Author judgment between A/B/C; whichever lands, mirror in bibliography §13 line
 
 The chapter attributes "Workers' Village" excavations to Hawass — but the Workers' Village (settlement) is the Lehner/AERA excavation site, NOT Hawass's. Hawass's contribution is the workers' cemetery / tombs, separate from the workers' village. Sources collapse the two in popular treatments but the archaeological literature distinguishes settlement (Lehner) from cemetery (Hawass) cleanly.
 
-**Cross-corpus issue (bibliography §13 mirrors the same loose attribution):** [research/literature/bibliography.md:340](research/literature/bibliography.md:340) reads: *"Chapter relevance: Ch 7 (line 191 inline citation — 'Zahi Hawass's Workers' Village excavations')."* Bibliography uses the same loose phrasing.
+**Cross-corpus issue (bibliography §13 mirrors the same loose attribution):** [tools/back-matter/sources/bibliography.md:340](tools/back-matter/sources/bibliography.md:340) reads: *"Chapter relevance: Ch 7 (line 191 inline citation — 'Zahi Hawass's Workers' Village excavations')."* Bibliography uses the same loose phrasing.
 
 **Why this is the MEDIUM-2 finding:** An Egyptology-literate reader will catch the misattribution. The substantive claim (paid laborers, not slaves; archaeological consensus revising Herodotus) is unaffected — both Lehner and Hawass contributed evidence — but the specific site-attribution is loose. Resolvable with a phrase swap that more accurately names what Hawass excavated.
 
@@ -517,7 +517,7 @@ Apparatus terms appearing in Ch 7 prose (all permitted per the apparatus registe
 **No apparatus regression detected.** Ch 7 satisfies all relevant apparatus register decisions ratified through 2026-05-11.
 
 **Cross-corpus consistency follow-on flag (NOT a Ch 7 finding, but worth noting):**
-- Per [core/terms/terms_index.md:683](core/terms/terms_index.md:683), the existential-substitutability-gap lineage-citation requirement applies "on first chapter introduction." Ch 7 satisfies. Per [Bash grep], Ch 9 also uses the term ([manuscript/chapters/Chapter__9_PricingHonestly__Draft.md](manuscript/chapters/Chapter__9_PricingHonestly__Draft.md)). Verify Ch 9 either (a) cites the lineage independently, (b) cross-references Ch 7's introduction, or (c) is in cross-corpus compliance some other way. **For Ch 9's Phase A Pass 1 session to verify.**
+- Per [tools/back-matter/sources/terms_index.md:683](tools/back-matter/sources/terms_index.md:683), the existential-substitutability-gap lineage-citation requirement applies "on first chapter introduction." Ch 7 satisfies. Per [Bash grep], Ch 9 also uses the term ([manuscript/chapters/Chapter__9_PricingHonestly__Draft.md](manuscript/chapters/Chapter__9_PricingHonestly__Draft.md)). Verify Ch 9 either (a) cites the lineage independently, (b) cross-references Ch 7's introduction, or (c) is in cross-corpus compliance some other way. **For Ch 9's Phase A Pass 1 session to verify.**
 
 ---
 
@@ -731,7 +731,7 @@ All LOW findings held as-is per recommendation; deferred to pre-publication refr
 
 ~7 file edits across:
 - `manuscript/chapters/Chapter__7_OnOtherWorlds.md` — 6 spot-fixes at lines 19, 33, 197, 213, 215, 241
-- `research/literature/bibliography.md` — 2 paired edits at §13:340 + §13:344
+- `tools/back-matter/sources/bibliography.md` — 2 paired edits at §13:340 + §13:344
 
 Plus consistency housekeeping on bibliography §13 chapter-line references (191/193 → current state) to match the post-rename + post-front-matter-render-fix line numbers.
 

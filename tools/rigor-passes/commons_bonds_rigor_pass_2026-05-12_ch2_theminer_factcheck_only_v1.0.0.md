@@ -6,7 +6,7 @@
 **Scope of this artifact:** Pass 1 (fact-check) + Pass 2 (voice-polish), fired same session 2026-05-12. Pass 3 (audience-load) deferred to a follow-up session. Filename retains `_factcheck_only_` slug for git-history continuity; when Pass 3 lands, the artifact will be renamed to `..._stage3_three_pass_v1.0.0.md` per workstream convention.
 **File audited:** `manuscript/chapters/Chapter__2_TheMiner.md` (217 lines, ~5,000w target)
 **Canonical sources cross-referenced:**
-- `research/literature/bibliography.md` §1, §2, §10, §13 (Harvey 2003, Mazzucato 2018, Keefe 2021, Case & Deaton 2020, Blackley et al. 2018, GAO reclamation reports)
+- `tools/back-matter/sources/bibliography.md` §1, §2, §10, §13 (Harvey 2003, Mazzucato 2018, Keefe 2021, Case & Deaton 2020, Blackley et al. 2018, GAO reclamation reports)
 - `research/case-studies/appalachian-coal.md` (Ch 2's case-study brief — verbatim source for much of the chapter prose)
 - `research/case-studies/opioid-extraction-appalachia.md` (Ch 2's opioid-section brief)
 - `manuscript/chapters/Chapter__2___GuidanceDoc.md` (internal-scaffolding guidance, per-section staleness audit 2026-05-08)
@@ -242,7 +242,7 @@ The chapter's argument, structure, and apparatus are intact. Findings cluster in
 - `manuscript/chapters/Chapter__2___GuidanceDoc.md` — internal-scaffolding guidance (per-section staleness audit 2026-05-08)
 - `research/case-studies/appalachian-coal.md` — verbatim-source case study (propagation target)
 - `research/case-studies/opioid-extraction-appalachia.md` — opioid-section brief
-- `research/literature/bibliography.md` §1, §2, §10, §13 — canonical-source verification
+- `tools/back-matter/sources/bibliography.md` §1, §2, §10, §13 — canonical-source verification
 - Commit `8e61cd1` — Cost Severance defense paragraph (ratified 2026-05-11)
 - `tools/workstream-handoffs/archive/manuscript-stage-3-rigor-pass-handoff_2026-05-11.md` — Phase A spec + per-chapter table row for Ch 2
 - `tools/drafting-templates/stage-3-three-pass-rigor-audit.md` — three-pass discipline template (Pass 2 + Pass 3 to follow)
@@ -333,7 +333,7 @@ Primary-source verification fired 2026-05-12. Findings:
 
 ## Pass 2: Voice-polish — findings
 
-**Pass 2 fired 2026-05-12 same session as Pass 1.** Applied the LLM-tic + voice-issue inventory from `tools/drafting-templates/stage-3-three-pass-rigor-audit.md` §Pass 2 + apparatus-residue check against `core/terms/terms_index.md` + apparatus register decisions (`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-11_apparatus_register_decision_v1.0.0.md`).
+**Pass 2 fired 2026-05-12 same session as Pass 1.** Applied the LLM-tic + voice-issue inventory from `tools/drafting-templates/stage-3-three-pass-rigor-audit.md` §Pass 2 + apparatus-residue check against `tools/back-matter/sources/terms_index.md` + apparatus register decisions (`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-11_apparatus_register_decision_v1.0.0.md`).
 
 ### HIGH
 
@@ -456,7 +456,7 @@ The shorter sentence makes the surprise the next sentence delivers ("rising fast
 **Chapter text:**
 > The architecture that would have closed the gap — capturing the rents at extraction, routing them to the bearers, holding them across the full life cycle of the externality tail — was never built.
 
-**Apparatus check.** "Externality Tail" is a canonical framework term (per `core/terms/terms_index.md` lines 120 + 360); the lowercase prose form is acceptable in body prose. Defense paragraph for the term lives in Ch 6 (per apparatus register decisions + commit `2a7c336`). However, Ch 2 line 97 is the term's *first appearance* in the manuscript reading order (Ch 1 → Ch 2 → ... → Ch 6), and the term appears without prior plain-prose grounding in Ch 2.
+**Apparatus check.** "Externality Tail" is a canonical framework term (per `tools/back-matter/sources/terms_index.md` lines 120 + 360); the lowercase prose form is acceptable in body prose. Defense paragraph for the term lives in Ch 6 (per apparatus register decisions + commit `2a7c336`). However, Ch 2 line 97 is the term's *first appearance* in the manuscript reading order (Ch 1 → Ch 2 → ... → Ch 6), and the term appears without prior plain-prose grounding in Ch 2.
 
 Per Phase B audit dimension (d) — "does each framework term land in plain language before formal apparatus appears?" — Ch 2 line 97 is the test. The phrase carries intuitively in context ("life cycle of the externality tail" reads as "extended-time tail of externalities"), but a careful reader might pause.
 

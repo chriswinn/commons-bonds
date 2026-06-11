@@ -39,7 +39,7 @@ A dimension that helps the piece land but hurts a book-success criterion tilts H
 - `publishing/essays/_pipeline/cross-thread-todos.md` (active items through 2026-05-21)
 - `publishing/essays/100-barrel/rigor/q1-go-no-go.md` (Stage 0 canonical worked example)
 - `publishing/essays/boston-review-accountability-gap/rigor/stage-0-publishing-strategy.md` (recent Stage 0 worked example — fuller scope)
-- `core/terms/terms_index.md` §3 (apparatus inventory)
+- `tools/back-matter/sources/terms_index.md` §3 (apparatus inventory)
 - **Source chapters (filename verified):**
   - `manuscript/chapters/Chapter__2_TheMiner.md` (~5,372 words; `__Draft` suffix dropped; Stage 3 Pass 1 ✅ + Pass 2 ✅ + Pass 3.3 ✅ rev `f4ee16b`; Pass 3.4 + 3.5 pending)
   - `manuscript/chapters/Chapter__3_TheWaterman.md` (~10,256 words; `__Draft` suffix dropped; Pass 1 ✅ + augmentation Stage 2 LANDED 11 named voices; Pass 2 ✅ Phase C applied `589ca05`; Pass 3.3/3.4 pending)
@@ -50,7 +50,7 @@ A dimension that helps the piece land but hurts a book-success criterion tilts H
 
 ## 2. Framework apparatus inventory (for dimension (a) reveal-% estimation)
 
-Per `core/terms/terms_index.md` §3 and recent ratification commits:
+Per `tools/back-matter/sources/terms_index.md` §3 and recent ratification commits:
 
 **Ring-1 (7 terms):** Commons Bonds · Cost Severance · Severed Cost · Value Extraction · Commons Inversion Test (CIT) · Residual Commons Value (RCV) · Cost (Cᵢ).
 
@@ -400,7 +400,7 @@ Realistic — but **NOT compatible with Ch 8 firing as a Wave 2 candidate** (Pat
 - **Stage 0 worked examples:** `publishing/essays/100-barrel/rigor/q1-go-no-go.md`; `publishing/essays/boston-review-accountability-gap/rigor/stage-0-publishing-strategy.md`.
 - **Strategy artifacts:** `publishing/essays/_pipeline/archive/cascade-plan_2026-05-06.md` (stale predecessor; superseded by `cascade-plan_v2_2026-05-24.md` PROPOSED in this batch); `publishing/essays/_pipeline/june-2026-submission-schedule.md`; `publishing/essays/_pipeline/decisions-log.md`; `publishing/essays/_pipeline/cross-thread-todos.md`.
 - **PM dashboard:** `tools/workstream-handoffs/archive/pm-session-handoff_2026-05-24.md`.
-- **Framework apparatus inventory:** `core/terms/terms_index.md` §3.
+- **Framework apparatus inventory:** `tools/back-matter/sources/terms_index.md` §3.
 - **FPD v1.0.0:** `alignment/commons_bonds_framework_positioning_disciplines_v1.0.0.md`.
 - **Named-subject consent discipline:** `tools/memory/feedback_named_subject_consent.md`; Phat anonymization ratified worked example 2026-05-20 (in-memory record).
 - **Source chapters:** `manuscript/chapters/Chapter__2_TheMiner.md`; `manuscript/chapters/Chapter__3_TheWaterman.md`; `manuscript/chapters/Chapter__4_TheExistenceProof.md`; `manuscript/chapters/Chapter__8_WhatThingsActuallyCost.md`.

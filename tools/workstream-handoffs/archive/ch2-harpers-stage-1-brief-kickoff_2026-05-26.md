@@ -148,7 +148,7 @@ render-safe convention.** The substantive brief work. Produce:
 against:
 - Ch 2 source chapter (current state on main; post-Phase-C-ζ)
 - Sibling-chapter bibliography (Mazzucato + Harvey citations; check
-  consistency with bibliography file at `research/literature/bibliography.md`)
+  consistency with bibliography file at `tools/back-matter/sources/bibliography.md`)
 - AuthorsNote (if relevant facts from Ch 2 are also cited there)
 - Ch 2 rigor-pass artifacts (Pass 3.4 ROBUST findings; Pass 3.5 Phase
   C-ζ restorations at lines 184/186; Pass 3.3 light re-fire post-Phase-

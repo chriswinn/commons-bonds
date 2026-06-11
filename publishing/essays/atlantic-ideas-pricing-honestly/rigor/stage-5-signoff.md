@@ -78,7 +78,7 @@ Stage 5 revert verdict: **APPLIED CLEAN.** Book-architecture restoration complet
 
 - **Cross-corpus four-step canonical architecture (Ch 9 line 18) ↔ essay §I thesis ✓ COHERENT** (post-revert).
 - **§7 canonical-facts inventory** (brief v1.1.4) preserved through Stage 3 five-pass + Stage 4 + Stage 5 revert. All factual claims in essay trace to brief §7 ratified inventory or primary sources logged in Pass 3.1 / 3.2 artifacts.
-- **Bibliography citations** (Marx 1867 + Daly 1977 + Hartwick 1977 + Ostrom 1990 + Coase 1960 + Olson 1965 + Smith 1776 + Mian & Sufi 2014 + Darity & Mullen 2020 + Mazzucato 2013 + Raworth 2017 + Pistor 2019 + Christophers 2024 + Harvey 2003+) all verifiable per `research/literature/bibliography.md`.
+- **Bibliography citations** (Marx 1867 + Daly 1977 + Hartwick 1977 + Ostrom 1990 + Coase 1960 + Olson 1965 + Smith 1776 + Mian & Sufi 2014 + Darity & Mullen 2020 + Mazzucato 2013 + Raworth 2017 + Pistor 2019 + Christophers 2024 + Harvey 2003+) all verifiable per `tools/back-matter/sources/bibliography.md`.
 - **Named-tradition engagement** preserved: four-traditions §I ¶3 with taxonomic-disarming gloss; Public Choice complementarity at §VI ¶2 (Olson 1965 + Buchanan + Tullock light-touch per brief §14); Adam Smith at §V ¶4 (rigged-price-vs-cost-of-production distinction).
 - **Comp-titles cluster at §VIII** (Harvey *The New Imperialism* 2003 + Ostrom Nobel 2009 + Raworth *Doughnut Economics* 2017 + Pistor *The Code of Capital* 2019 + Christophers *The Price is Wrong* 2024) all current and defensible.
 - **Ch 9 cross-corpus coherence ✓ FULLY RESTORED post-Stage-5-revert.** Four-step canonical architecture matches book; Border treated as discrete section with §V dedicated treatment but not numbered.

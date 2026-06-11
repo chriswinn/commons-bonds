@@ -29,7 +29,7 @@ holding only `chapters/` + `technical-appendix/` (+ the generated references at 
 **Why now (planning).** Editors will need a clean references version *well before* publication, as
 part of the editor-delivery / proposal package — not just at final assembly.
 
-**The two-artifact distinction.** The master `research/literature/bibliography.md` is an *annotated
+**The two-artifact distinction.** The master `tools/back-matter/sources/bibliography.md` is an *annotated
 internal tool* (per-entry summary / relevance / support-contradict / chapter-relevance / status /
 character-reader mappings). The shipped book + editor package need a **clean, reader-facing
 References / Works-Cited** *derived from* it — citations only, no annotations.

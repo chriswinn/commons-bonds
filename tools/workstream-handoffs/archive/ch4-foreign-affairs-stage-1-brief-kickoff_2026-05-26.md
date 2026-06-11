@@ -221,7 +221,7 @@ against:
   with TA canonical form)
 - Sibling-chapter bibliography (sovereign-wealth + UNEP 2011 + Saro-
   Wiwa citations; check consistency with bibliography file at
-  `research/literature/bibliography.md`)
+  `tools/back-matter/sources/bibliography.md`)
 - AuthorsNote (if relevant facts from Ch 4 are also cited there)
 - Ch 4 rigor-pass artifacts (full Stage 3 cascade artifacts in
   `tools/rigor-passes/`; especially the Pass 3.5 developmental-edit

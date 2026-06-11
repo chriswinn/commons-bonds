@@ -109,7 +109,7 @@ Default per policy: published books, articles, papers, and named institutional r
 
 The following living scholars + journalists + practitioners are cited from their published books, articles, papers, or named institutional reports. Public-record exception applies via the published-work citation; standard fair-use discipline holds; no per-subject outreach folder typically required.
 
-Cross-reference: most are tracked in `research/literature/bibliography.md` `(verify)`.
+Cross-reference: most are tracked in `tools/back-matter/sources/bibliography.md` `(verify)`.
 
 | Subject | Primary cited work | Artifacts citing |
 |---|---|---|
@@ -232,7 +232,7 @@ When updating this tracker, the source-of-truth files are (in priority order):
 4. **Pipeline coordination docs** under [`research/outreach/_pipeline/`](.) — cross-thread outreach planning (this folder)
 5. **Chapter-side named-subject context** — Ch 2 + Ch 3 (named-subject-dense chapters); inline HTML comments mark anonymization + courtesy-notify flags (e.g., Ch 3 line 50 + line 141)
 6. **Per-essay rigor artifacts** (Pass 3.1 fact-check pass + Stage 5 sign-off pre-publication review queue) at `tools/rigor-passes/` — surface citation-verification gaps
-7. **Bibliography** at `research/literature/bibliography.md` `(verify exists + is current)` — for published-work citation tracking
+7. **Bibliography** at `tools/back-matter/sources/bibliography.md` `(verify exists + is current)` — for published-work citation tracking
 
 If this tracker disagrees with any of the above, the above wins. Surface the contradiction to the author rather than overwriting either side.
 
@@ -274,7 +274,7 @@ Initial-creation pass (2026-05-28) surfaced 12 gaps; resolution pass (2026-05-30
 | 7 | Ch 2 + Ch 3 `__Draft` suffix memory staleness | **RESOLVED 2026-05-31** | `ls manuscript/chapters/` confirms no `__Draft` suffix on `Chapter__2_TheMiner.md` or `Chapter__3_TheWaterman.md`. Memory entry `project_chapter_draft_suffix_consent_marker.md` is in the user's local memory store (`~/.claude/projects/-Users-c17n-commons-bonds/memory/`), NOT mirrored in repo `tools/memory/`. Author should remove or supersede via `/remember` locally. |
 | 8 | Norwegian PM citation-notify convention | **RESOLVED 2026-05-30** | No special notify per FA editorial convention (author ratified). §C.2 rows updated. |
 | 9 | Lipcius + Mann re-outreach timing | **RESOLVED 2026-05-30 + EXECUTED 2026-05-31** | Follow-up authorized (author ratified 2026-05-30); follow-up drafts prepared 2026-05-31 at [`interview-outreach-followups_2026-05-31_vims-ch3.md`](interview-outreach-followups_2026-05-31_vims-ch3.md) and dispatched 2026-05-31 (queued for author send). §D.1 rows updated. Wait-window close ~2026-06-21; if no response by then, mark as quiet-decline. |
-| 10 | Rights-register + bibliography cross-check | **PARTIAL** | File-existence half resolved 2026-05-31: both `research/literature/bibliography.md` and `publishing/essays/_pipeline/rights-register.md` exist. Is-current half is deferrable maintenance — recommend at next pipeline-coordination session. |
+| 10 | Rights-register + bibliography cross-check | **PARTIAL** | File-existence half resolved 2026-05-31: both `tools/back-matter/sources/bibliography.md` and `publishing/essays/_pipeline/rights-register.md` exist. Is-current half is deferrable maintenance — recommend at next pipeline-coordination session. |
 | 11 | Mazzucato post-publication courtesy copy | **RESOLVED 2026-05-31** | Queued at [`publishing/book-proposal/_post-launch-courtesy-copies.md`](../../../publishing/book-proposal/_post-launch-courtesy-copies.md) with Adam Albrecht (UCL IIPP, 11 Montague Street, London WC1B 5BP) as routing path. |
 | 12 | Sandy Darity attribution-review packet | **RESOLVED 2026-05-31 — held-pending-trigger** | **Verify-stale-memory correction 2026-05-31 afternoon:** the "quote-review packet pending first-essay-use gate" framing in this row's prior state was wrong — the proactive Q0 citation packet was actually SENT 2026-05-15 02:31 AM ET (canonical record at [`post-citation-packet-email_2026-05-15.md`](../subjects/darity/post-citation-packet-email_2026-05-15.md)). The DRAFT-prefixed file at [`proactive-q0-citation-questions_DRAFT_2026-05-14.md`](../subjects/darity/proactive-q0-citation-questions_DRAFT_2026-05-14.md) was treated by multiple downstream artifacts as still-pending for 16 days post-actual-send. Corrected. **Confirmation email:** the 2026-05-30 "send proactively to preserve trust signal" ratification was made under the same incomplete picture; revisited by author 2026-05-31 afternoon. **New ratification:** HOLD the confirmation email; revisit at the earlier of (1) Day 45 from 2026-05-15 = **2026-06-29** OR (2) publisher-interest moment (agent/editor/publisher engagement begins; recording-handling documentation becomes load-bearing at permissions-review). Draft at [`post-interview-confirmation-email_2026-05-31.md`](../subjects/darity/post-interview-confirmation-email_2026-05-31.md) (marked HELD-pending-trigger; needs revision before any send — see file for specific lines that need rewriting). **Author action:** none required now; revisit at trigger fire. |
 
@@ -283,7 +283,7 @@ Initial-creation pass (2026-05-28) surfaced 12 gaps; resolution pass (2026-05-30
 - ~~Send polite follow-up emails to Rom Lipcius + Roger Mann (re: 2026-05-05 cold outreach).~~ **Drafts prepared 2026-05-31 at [`interview-outreach-followups_2026-05-31_vims-ch3.md`](interview-outreach-followups_2026-05-31_vims-ch3.md); queued for author send.** Wait-window close ~2026-06-21; if no response by then, mark §D.1 rows as quiet-decline.
 - ~~Send Sandy Darity post-interview confirmation email — DRAFT QUEUED 2026-05-31~~ **HELD-pending-trigger 2026-05-31 afternoon** per author ratification. Confirmation email at [`research/outreach/subjects/darity/post-interview-confirmation-email_2026-05-31.md`](../subjects/darity/post-interview-confirmation-email_2026-05-31.md) revisited at the earlier of (1) **2026-06-29** (Day 45 from 2026-05-15 citation packet send) OR (2) publisher-interest moment. NO send action required now. (Citation packet itself — at [`post-citation-packet-email_2026-05-15.md`](../subjects/darity/post-citation-packet-email_2026-05-15.md) — was already SENT 2026-05-15; the morning-of-2026-05-31 row state of "pending first-essay-use gate" was a verify-stale-memory artifact, corrected this afternoon.)
 - (Local memory housekeeping) Remove or supersede `project_chapter_draft_suffix_consent_marker.md` from `~/.claude/projects/-Users-c17n-commons-bonds/memory/`.
-- (Deferrable maintenance) Cross-check `research/literature/bibliography.md` + `publishing/essays/_pipeline/rights-register.md` for currency relative to the tracker's §D.2 + §E rows.
+- (Deferrable maintenance) Cross-check `tools/back-matter/sources/bibliography.md` + `publishing/essays/_pipeline/rights-register.md` for currency relative to the tracker's §D.2 + §E rows.
 
 ---
 

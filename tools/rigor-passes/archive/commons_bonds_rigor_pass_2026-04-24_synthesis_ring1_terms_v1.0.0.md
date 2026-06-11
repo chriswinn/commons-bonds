@@ -285,7 +285,7 @@ Response: full rigor pass addressed this — they're distinct grammatical forms 
 
 ## §9. Provenance records — batch deliverable
 
-Six Ring-1 provenance records ready for `core/terms/terms_index.md` §4 (records were individually drafted in their respective standalone passes; this synthesis gathers them for batch addition):
+Six Ring-1 provenance records ready for `tools/back-matter/sources/terms_index.md` §4 (records were individually drafted in their respective standalone passes; this synthesis gathers them for batch addition):
 
 1. **Cost Severance** (from CS-vs-SC pass §19) — process/mechanism name; Ring 1; 227 uses.
 2. **Severed Cost** (from CS-vs-SC pass §19) — result/quantity/flagship-adoption name; Ring 1; 37 uses.

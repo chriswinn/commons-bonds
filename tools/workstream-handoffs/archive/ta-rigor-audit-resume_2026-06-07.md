@@ -47,7 +47,7 @@
 - §11.10 Falcon 9 **$2,700→$3,245/kg** ($74M/22,800 kg, 2026) (item 5)
 - §11.8 V_option **$500–2,000→$50–500** (item 14) — ⚠ **SUPERSEDED by Path B; interim only, will be reworked**
 
-**Bibliography (`research/literature/bibliography.md`):** §23 figure-backing data sources (Census, Appalachian Voices 2021, BP/DOJ Deepwater, EPA AP-42, EPA-2023 SCC, Climeworks/IEA/IPCC/NAS, EIA coal price, SpaceX); §16 Arrow-Fisher 1974; §18.6 Weitzman 2001. §23.2 candidates to re-verify (Isle de Jean Charles, Pericak 2018, OSMRE/ARRI).
+**Bibliography (`tools/back-matter/sources/bibliography.md`):** §23 figure-backing data sources (Census, Appalachian Voices 2021, BP/DOJ Deepwater, EPA AP-42, EPA-2023 SCC, Climeworks/IEA/IPCC/NAS, EIA coal price, SpaceX); §16 Arrow-Fisher 1974; §18.6 Weitzman 2001. §23.2 candidates to re-verify (Isle de Jean Charles, Pericak 2018, OSMRE/ARRI).
 
 **Other committed:** durability beats cluster (`manuscript/ledgers/_CANDIDATE-BEATS-AND-DEVICES.md`); `manuscript/technical-appendix/` symlink → canonical TA; CSD spec; audit ledger; M3 Path-B proposal record; 5 research-agent audit files; structural TODOs.
 

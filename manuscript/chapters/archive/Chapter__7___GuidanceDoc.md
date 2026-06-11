@@ -45,7 +45,7 @@ Ch 7 GuidanceDoc is the largest of the 10 (553 lines) and received heavy framewo
 - `Chapter__7_OnOtherWorlds__Draft.md` — publisher-facing prose.
 - `alignment/commons_bonds_working_principles_v1.0.0.md` — WP#10 + WP#8.
 - `alignment/commons_bonds_open_insights_v1.0.0.md` — current open insights + ratification log.
-- `core/terms/terms_index.md` — current canonical vocabulary.
+- `tools/back-matter/sources/terms_index.md` — current canonical vocabulary.
 
 ---
 

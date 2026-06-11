@@ -111,10 +111,10 @@ START THE NEXT SESSION BY: reading this handoff file (alignment/sessions/commons
   - `Chapter__9_TheRenewableImperative__Draft.md` → `Chapter__9_PricingHonestly__Draft.md`
 - Tier A live-doc reference updates (5 docs): chapter-title substitutions + Mars-colony→Mars-habitat substitutions
 - Tier A docs updated:
-  - core/terms/terms_index.md
+  - tools/back-matter/sources/terms_index.md
   - tools/audits/commons_bonds_chapter_audit_v1.0.6.md
   - tools/audits/commons_bonds_case_study_audit_v1.0.6.md
-  - core/methodology/cit_examples_v1_0_0.md
+  - alignment/methodology/cit_examples_v1_0_0.md
   - tools/commons_bonds_book_scope_v1_0_3.md
   - research/commons_bonds_stands_the_test_of_time_drafts_v1.0.0.md
   - alignment/commons_bonds_open_insights_v1.0.0.md
@@ -207,7 +207,7 @@ Tier B docs deferred from Path C session:
 - research/case-studies/qin-dynasty-monumental-extraction.md
 - research/case-studies/tax-tradeoff-us-sweden.md
 - research/case-studies/indigenous-land-dispossession.md
-- research/literature/bibliography.md (verify all chapter-relevance refs current)
+- tools/back-matter/sources/bibliography.md (verify all chapter-relevance refs current)
 - alignment/commons_bonds_personal_stories_candidates_v1.0.0.md
 - core/dimensions/commons_bonds_abundance_dimensions_v1_3_0.md
 - tools/commons_bonds_rigor_protocol_v2.2.0.md
@@ -283,13 +283,13 @@ Candidate prose additions tracker:
 - alignment/patches/candidate_prose_additions_2026-04-26.md (Candidates #1-#8 status updates)
 
 Bibliography:
-- research/literature/bibliography.md (additions per §7)
+- tools/back-matter/sources/bibliography.md (additions per §7)
 
 Live working docs (Path C):
-- core/terms/terms_index.md
+- tools/back-matter/sources/terms_index.md
 - tools/audits/commons_bonds_chapter_audit_v1.0.6.md
 - tools/audits/commons_bonds_case_study_audit_v1.0.6.md
-- core/methodology/cit_examples_v1_0_0.md
+- alignment/methodology/cit_examples_v1_0_0.md
 - tools/commons_bonds_book_scope_v1_0_3.md
 - research/commons_bonds_stands_the_test_of_time_drafts_v1.0.0.md
 

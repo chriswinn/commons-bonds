@@ -506,7 +506,7 @@ Wins on every meaningful axis:
 
 ### Condition 1 — Terms Index provenance record
 
-Add Value Extraction record to `core/terms/terms_index.md` §4 as `CURRENT` at Ring 1 (promoted from Ring 2 per §17 recommendation — see §18b below). Document retirement of Value Capture as Option B's companion action.
+Add Value Extraction record to `tools/back-matter/sources/terms_index.md` §4 as `CURRENT` at Ring 1 (promoted from Ring 2 per §17 recommendation — see §18b below). Document retirement of Value Capture as Option B's companion action.
 
 **Effort:** ~10 minutes.
 

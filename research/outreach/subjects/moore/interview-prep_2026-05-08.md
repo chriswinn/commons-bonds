@@ -394,7 +394,7 @@ The closing block is where the watermen-voice routing happens. Don't compress th
 
 1. **Within 24 hours:** transcribe the conversation (or write up notes if not recorded). Include any modifications to attribution preferences agreed during the call.
 2. **Within 48 hours:** send Moore a thank-you email; include any clarifying follow-up questions if needed; if he asked for transcript review or paraphrase-review (Category 2 or 3), send the relevant material. Send any agreed Tier 2 artifacts (Tech Appendix, Ch 3 outline).
-3. **Update tracking:** mark interview complete in `research/outreach/_pipeline/interview-outreach-drafts_2026-05-04_ch3-fieldwork.md`; update `research/literature/bibliography.md` §19.5 if Moore recommended specific reading; flag any framework-revision implications in the appropriate guidance docs.
+3. **Update tracking:** mark interview complete in `research/outreach/_pipeline/interview-outreach-drafts_2026-05-04_ch3-fieldwork.md`; update `tools/back-matter/sources/bibliography.md` §19.5 if Moore recommended specific reading; flag any framework-revision implications in the appropriate guidance docs.
 4. **Watermen-voice routing follow-up.** If Moore offered specific watermen-voice routing, follow up within 48 hours with the appropriate next-step (warm intro request, direct outreach with Moore-references-as-context, etc.). The watermen-voice ask is the chapter's irreducible load; don't let it sit.
 5. **Decision point:** does Moore's input warrant promoting him to the Noema essay §V as the third anchor (alongside Darity / [Colden TBD]) ? Decide based on the actual interview substance and on what Colden's interview produces if it materializes.
 6. **Will Poston substitution decision.** If Moore declines framework-vocabulary engagement, evaluate whether to add Poston as the substitution voice for vocabulary calibration (and ask Sherfinski to facilitate that introduction).
@@ -412,5 +412,5 @@ The closing block is where the watermen-voice routing happens. Don't compress th
 - `research/outreach/subjects/darity/interview-prep_2026-05-06.md` — first instance of FPD-6 prep doc; this doc models its structure.
 - `research/outreach/_protocols/interview-attribution-protocol_2026-05-06.md` — Q0 attribution-preference protocol.
 - `research/outreach/_pipeline/interview-outreach-drafts_2026-05-04_ch3-fieldwork.md` §17 — outreach pipeline tracking; original cold outreach + Sherfinski thread.
-- `research/literature/bibliography.md` §19.5 — Chesapeake fieldwork tentative sources.
+- `tools/back-matter/sources/bibliography.md` §19.5 — Chesapeake fieldwork tentative sources.
 - `alignment/commons_bonds_framework_positioning_disciplines_v1.0.0.md` — framework positioning disciplines; canonical four-artifact stack; canonical lineage articulations; canonical framework one-paragraph; FPD-5/6/7/9/10/11 detail.

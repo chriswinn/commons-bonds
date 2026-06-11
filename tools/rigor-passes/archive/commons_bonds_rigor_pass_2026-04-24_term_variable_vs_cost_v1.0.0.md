@@ -564,11 +564,11 @@ Integrated into Phase A3 audit sweep. Adds minor scope beyond tier-dissolution +
 
 ### Condition 5 — Terms index record
 
-**What:** Add Cost record to `core/terms/terms_index.md` §4 (Established records) using the template in §1 of this pass and the Provenance Record at §17 below.
+**What:** Add Cost record to `tools/back-matter/sources/terms_index.md` §4 (Established records) using the template in §1 of this pass and the Provenance Record at §17 below.
 
 **Effort:** 0.1 day.
 
-**Where:** `core/terms/terms_index.md`.
+**Where:** `tools/back-matter/sources/terms_index.md`.
 
 ---
 
@@ -658,4 +658,4 @@ Absent these triggers, the verdict stands. Next expected rerun: at Phase B compl
 
 ---
 
-*End of Extreme-Rigor Pass v1.0.0. Option B (replace "variable" with "cost" as class term for Cᵢ) PASSES-UNCONDITIONALLY as recommended path. Option A defensible but weaker on 9 of 11 modules. Option C vocabulary-footprint burden without compensating benefit. Pending author ratification at §18. Provenance Record at §17 ready for `core/terms/terms_index.md` §4.*
+*End of Extreme-Rigor Pass v1.0.0. Option B (replace "variable" with "cost" as class term for Cᵢ) PASSES-UNCONDITIONALLY as recommended path. Option A defensible but weaker on 9 of 11 modules. Option C vocabulary-footprint burden without compensating benefit. Pending author ratification at §18. Provenance Record at §17 ready for `tools/back-matter/sources/terms_index.md` §4.*

@@ -191,7 +191,7 @@ Free Greek letters (unused anywhere in the TA, per the completeness sweep): γ �
 1. ✅ Batch I applied + merged (fd12275).
 2. ✅ M3 Path-A resolved; Batch II applied + merged.
 3. **▶ IN PROGRESS (this session):** reader-facing Notation section built from Part 2 → `manuscript/back-matter/symbol-registry.html`.
-4. **▶ IN PROGRESS (this session):** Part 3 bib gaps (Brennan–Schwartz, Black–Scholes, Knight) folded into `research/literature/bibliography.md` (Step B).
+4. **▶ IN PROGRESS (this session):** Part 3 bib gaps (Brennan–Schwartz, Black–Scholes, Knight) folded into `tools/back-matter/sources/bibliography.md` (Step B).
 
 **Note:** the verified σ finding is a *third* reason to resolve the M3 Path-A/B question — the direction determines whether σ must be renamed (Path A) or is vindicated as proper volatility (Path B).
 

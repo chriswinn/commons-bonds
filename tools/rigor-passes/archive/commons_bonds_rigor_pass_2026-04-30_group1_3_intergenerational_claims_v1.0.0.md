@@ -343,7 +343,7 @@ Rationale:
 
 ### §10.2 Downstream artifacts (this pass would update on ratification)
 
-- `core/terms/terms_index.md` cluster vocabulary §10.2 entry — add Hohfeldian-dual discipline note.
+- `tools/back-matter/sources/terms_index.md` cluster vocabulary §10.2 entry — add Hohfeldian-dual discipline note.
 - `alignment/commons_bonds_open_insights_v1.0.0.md` — new Insight #58 closed-ratified.
 - Bibliography expansion (if Hohfeld 1913 not yet in bibliography).
 

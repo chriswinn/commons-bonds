@@ -22,7 +22,7 @@ Current draft state:
 - **9 narrative chapters as `.md`**: Ch 1, 2, 3, 4, 5, 7, 8, 9, 10 + `_AUTHORSNOTE_ON_WINDTUNNELS_AND_AI.md` + `_Dedication.md` + `_BookLevelGuidance.md`
 - **Ch 6 as `.html`** (`Chapter__6_ThreeWaysofCounting__Draft.html`): formula-rendering rationale; conversion to `.md` is a separate companion workstream candidate
 - **Tech Appendix as styled HTML**: `manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html` (7,815 lines; canonical numbering landed today)
-- **Glossary as styled HTML**: `core/glossary/commons_bonds_updated_glossary_v4.html`
+- **Glossary as styled HTML**: `tools/back-matter/sources/glossary/commons_bonds_updated_glossary_v4.html`
 
 US trade publishing convention:
 - Agent/publisher submission: `.docx` manuscript-formatted (double-spaced, 12pt Times New Roman or Garamond, 1-inch margins, indented paragraphs, running header, new chapter on new page)

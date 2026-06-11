@@ -18,7 +18,7 @@
 4. [research/case-studies/nigeria-oil-contrast.md](research/case-studies/nigeria-oil-contrast.md) — Niger Delta contrast-case brief.
 5. [research/case-studies/alaska-permanent-fund.md](research/case-studies/alaska-permanent-fund.md) — Alaska Permanent Fund canonical brief.
 6. [research/case-studies/social-security.md](research/case-studies/social-security.md) — US Social Security case-study brief.
-7. [research/literature/bibliography.md](research/literature/bibliography.md) §13 — framework-adjacent literature (Hartwick, Mazzucato, Pistor, Christophers, Susskind, Darity & Mullen).
+7. [tools/back-matter/sources/bibliography.md](tools/back-matter/sources/bibliography.md) §13 — framework-adjacent literature (Hartwick, Mazzucato, Pistor, Christophers, Susskind, Darity & Mullen).
 8. [research/audits/cross-chapter-consistency-audit_2026-05-11.md](research/audits/cross-chapter-consistency-audit_2026-05-11.md) — Item N-1 (Norway SWF AUM drift; ratified 2026-05-11 with Ch 4 as canonical $1.9T).
 9. [tools/audits/cross-chapter-consistency-inventory_2026-05-11.md](tools/audits/cross-chapter-consistency-inventory_2026-05-11.md) — recurring-stats canonical row for Norway SWF AUM + per-citizen.
 

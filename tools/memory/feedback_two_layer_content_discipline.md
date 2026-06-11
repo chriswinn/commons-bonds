@@ -13,8 +13,8 @@ originSessionId: 80ad4adb-2fd4-4856-a660-ec55f1ce325e
 
 **Rule:** All new framework content is classified at origination as **internal-scaffolding** or **external-publisher-facing**. The two layers operate under different disciplines:
 
-- **Internal scaffolding** (`.claude/`, `tools/`, `core/methodology/`, `alignment/`, `research/`, `archive/`): rich; preserves methodology notes, worked examples, research-grade depth, literature audits, audit trail, decision-time-application drafts, Book 2 / Book 3 seed material.
-- **External publisher-facing** (`manuscript/chapters/*`, `core/glossary/*`, `manuscript/technical-appendix/*`, `publishing/essays/<venue>/essay.md`, `publishing/op-eds/<slug>/op-ed.md`, `publishing/book-proposal/*`): disciplined per WP#8 (scrubbed of audit-trail content) + Pattern 2 demonstration (threaded through cases rather than codified in dedicated how-to / methodology sections — the *Doughnut Economics* / *Mission Economy* / *Mine!* model).
+- **Internal scaffolding** (`.claude/`, `tools/`, `alignment/methodology/`, `alignment/`, `research/`, `archive/`): rich; preserves methodology notes, worked examples, research-grade depth, literature audits, audit trail, decision-time-application drafts, Book 2 / Book 3 seed material.
+- **External publisher-facing** (`manuscript/chapters/*`, `tools/back-matter/sources/glossary/*`, `manuscript/technical-appendix/*`, `publishing/essays/<venue>/essay.md`, `publishing/op-eds/<slug>/op-ed.md`, `publishing/book-proposal/*`): disciplined per WP#8 (scrubbed of audit-trail content) + Pattern 2 demonstration (threaded through cases rather than codified in dedicated how-to / methodology sections — the *Doughnut Economics* / *Mission Economy* / *Mine!* model).
 
 **Cross-layer flow:**
 - Internal CAN feed external (worked examples can become chapter prose; literature audits inform chapter framing)
@@ -31,5 +31,5 @@ originSessionId: 80ad4adb-2fd4-4856-a660-ec55f1ce325e
 - Mirror the Insight #14 epistemic-humility discipline: *"demonstrate the affordance; don't codify it"* (Norway/Accountability Bond is the mother case for this register).
 
 **Companion documents:**
-- `core/methodology/decision_time_application_internal_v1.0.0.md` — internal-scaffolding canonical reference (Pattern 1/2/3 literature analysis + worked-example seed material)
+- `alignment/methodology/decision_time_application_internal_v1.0.0.md` — internal-scaffolding canonical reference (Pattern 1/2/3 literature analysis + worked-example seed material)
 - `archive/retirements/index.md` — canonical retirement-archive (per WP#4 refinement, Insight #59)

@@ -153,7 +153,7 @@ Verified public-record material to use in Section VI species block:
 ### 7.6 Close — Black literary tradition
 
 - Dunbar / Du Bois / Fanon / Ellison — the lineage that has carried the work of *naming what hides behind a mask* for over a century. The framework extends the move into the pricing of commons; the pricing is new, the move is old. *It is for the ones who come after. It is for the costs we still have a chance to see.*
-- Bibliographic anchors for the polish pass: `research/literature/bibliography.md` §21 Black literary tradition citations.
+- Bibliographic anchors for the polish pass: `tools/back-matter/sources/bibliography.md` §21 Black literary tradition citations.
 
 ## 8. Title and subhead policy
 

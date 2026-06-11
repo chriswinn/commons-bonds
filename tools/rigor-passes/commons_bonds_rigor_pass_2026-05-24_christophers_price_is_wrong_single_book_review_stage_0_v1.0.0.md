@@ -44,15 +44,15 @@ A dimension that helps the piece land but hurts a book-success criterion tilts H
 - `publishing/essays/100-barrel/rigor/q1-go-no-go.md` (Stage 0 canonical worked example)
 - `publishing/essays/boston-review-accountability-gap/rigor/stage-0-publishing-strategy.md` (recent Stage 0 worked example — fuller scope)
 - `alignment/commons_bonds_framework_positioning_disciplines_v1.0.0.md` (FPD-1 → FPD-11; vocabulary-adoption-at-scale anchor)
-- `core/terms/terms_index.md` §3 via sibling §2 reproduction (apparatus inventory; ~30–35 named pieces)
-- `research/literature/bibliography.md` §13 entry (line 530) + §15 entry (line 1008) — Christophers DEEP engaged at bibliography level; both entries treat as STRONG SUPPORT comp candidate
+- `tools/back-matter/sources/terms_index.md` §3 via sibling §2 reproduction (apparatus inventory; ~30–35 named pieces)
+- `tools/back-matter/sources/bibliography.md` §13 entry (line 530) + §15 entry (line 1008) — Christophers DEEP engaged at bibliography level; both entries treat as STRONG SUPPORT comp candidate
 - Chapter prose verified: Ch 9 line 168 §Property rights and their limits (primary engagement, ~one paragraph: "profit, not price, is what reshapes the world" + public-purpose capital allocation); Ch 5 line 184 §Pattern Made Visible (secondary, one-sentence cross-reference)
 
 ---
 
 ## 2. Framework apparatus inventory (for dimension (a) reveal-% estimation)
 
-Per `core/terms/terms_index.md` §3 (reproduced from sibling artifact §2 to maintain parity):
+Per `tools/back-matter/sources/terms_index.md` §3 (reproduced from sibling artifact §2 to maintain parity):
 
 **Ring-1 (7 terms):** Commons Bonds · Cost Severance · Severed Cost · Value Extraction · Commons Inversion Test (CIT) · Residual Commons Value (RCV) · Cost (Cᵢ).
 
@@ -167,7 +167,7 @@ A single-book deep review concentrates blurber-engagement risk that the sibling 
 
 #### Two critique-registers (same architecture as sibling)
 
-**Register A — Signal-positioning critique (RECOMMENDED).** The essay positions Christophers' *The Price Is Wrong* as a **diagnostic foundation** that names the price-and-profit gap with precision and force. The "what's missing" punchline is framed not as critique-of-Christophers but as **what Christophers' diagnosis productively raises but does not fully construct**: an accountability architecture for internalizing the cost severance the price-and-profit gap creates. Christophers' analysis is treated as load-bearing; the essay's contribution is to notice that the diagnosis productively points at corrective-instrument design that Christophers' own analytical focus (climate-finance + asset-management capital allocation) leaves to others. **The framework's "diagnose-AND-price-AND-design" posture — explicitly recognized in the framework's Darity bibliography entry (`research/literature/bibliography.md` line 549) — is the reviewer's analytical signature.** Christophers exemplifies the "diagnose" component with rare clarity; the per-extraction-event mechanism-design question is the reviewer's natural extension. Plain-prose throughout.
+**Register A — Signal-positioning critique (RECOMMENDED).** The essay positions Christophers' *The Price Is Wrong* as a **diagnostic foundation** that names the price-and-profit gap with precision and force. The "what's missing" punchline is framed not as critique-of-Christophers but as **what Christophers' diagnosis productively raises but does not fully construct**: an accountability architecture for internalizing the cost severance the price-and-profit gap creates. Christophers' analysis is treated as load-bearing; the essay's contribution is to notice that the diagnosis productively points at corrective-instrument design that Christophers' own analytical focus (climate-finance + asset-management capital allocation) leaves to others. **The framework's "diagnose-AND-price-AND-design" posture — explicitly recognized in the framework's Darity bibliography entry (`tools/back-matter/sources/bibliography.md` line 549) — is the reviewer's analytical signature.** Christophers exemplifies the "diagnose" component with rare clarity; the per-extraction-event mechanism-design question is the reviewer's natural extension. Plain-prose throughout.
 
   - **Why this works for Christophers-as-blurber:** Christophers can read the essay as a generous engagement that positions *The Price Is Wrong* as foundational to the constructive move the essay names. The reviewer's depth-engagement (chapter-by-chapter on Christophers' case-material; specific attention to Christophers' political-economy-of-resistance argument; explicit acknowledgment of Christophers' constructive moves on public ownership + public investment + public-purpose capital allocation) demonstrates reading-acuity Christophers will recognize. Blurb path stays open — likely strengthened — because Christophers sees his work as load-bearing to the reviewer's argument.
 
@@ -196,8 +196,8 @@ This is the **single most load-bearing Stage 1 brief specification** for THIS ca
 
 | Asset | State | Reading-depth for single-book deep review (4,000–8,000w) |
 |---|---|---|
-| **`research/literature/bibliography.md` §13 entry (line 530)** | Christophers ENGAGED 2026-05-10; STRONG SUPPORT comp; signature-argument + chapter-engagement record | Concept + signature-argument depth |
-| **`research/literature/bibliography.md` §15.x entry (line 1008)** | Parallel entry (duplicate / cross-reference); confirms Tier-1 comp status | — |
+| **`tools/back-matter/sources/bibliography.md` §13 entry (line 530)** | Christophers ENGAGED 2026-05-10; STRONG SUPPORT comp; signature-argument + chapter-engagement record | Concept + signature-argument depth |
+| **`tools/back-matter/sources/bibliography.md` §15.x entry (line 1008)** | Parallel entry (duplicate / cross-reference); confirms Tier-1 comp status | — |
 | **Ch 9 line 168 §Property rights and their limits** | Primary chapter engagement: ~one paragraph on "profit, not price, is what reshapes the world" + public-purpose capital allocation + climate-finance critique | Signature-argument depth |
 | **Ch 5 line 184 §Pattern Made Visible** | Secondary cross-reference: one sentence directing reader to Ch 9 | — |
 | **Christophers' broader corpus** (*Banking Across Boundaries* 2013, *The Great Leveler* 2018, *Rentier Capitalism* 2020, *The New Enclosure* 2018, *Our Lives in Their Portfolios* 2023, *The Price Is Wrong* 2024) | NOT engaged in corpus | **GAP** — a single-book deep review register typically positions the book within the author's intellectual arc; Christophers' previous 5 books inform reception of *The Price Is Wrong* |
@@ -576,7 +576,7 @@ SEQUENCING DISCIPLINE: When ALL three triggers fire, fire fresh Stage 0 re-test 
 - `tools/memory/feedback_named_subject_consent.md` (n/a here — Christophers published-author public-record)
 - `tools/memory/feedback_verify_stale_memory_claims.md`
 - `alignment/commons_bonds_framework_positioning_disciplines_v1.0.0.md` (FPD v1.0.0)
-- `core/terms/terms_index.md` §3 (apparatus inventory)
+- `tools/back-matter/sources/terms_index.md` §3 (apparatus inventory)
 
 **Stage 0 worked examples:**
 - `publishing/essays/100-barrel/rigor/q1-go-no-go.md` — canonical
@@ -585,8 +585,8 @@ SEQUENCING DISCIPLINE: When ALL three triggers fire, fire fresh Stage 0 re-test 
 - `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-24_wave_2_derivative_planning_stage_0_v1.0.0.md` — Wave 2 batch (companion)
 
 **Christophers source material (verified 2026-05-24):**
-- `research/literature/bibliography.md` §13 entry (line 530) — STRONG SUPPORT; engagement RESOLVED 2026-05-10
-- `research/literature/bibliography.md` §15 entry (line 1008) — parallel STRONG SUPPORT entry
+- `tools/back-matter/sources/bibliography.md` §13 entry (line 530) — STRONG SUPPORT; engagement RESOLVED 2026-05-10
+- `tools/back-matter/sources/bibliography.md` §15 entry (line 1008) — parallel STRONG SUPPORT entry
 - `manuscript/chapters/Chapter__9_PricingHonestly.md` line 168 — primary engagement (~one paragraph; signature-argument depth)
 - `manuscript/chapters/Chapter__5_TheAccountabilityGap.md` line 184 — secondary cross-reference
 

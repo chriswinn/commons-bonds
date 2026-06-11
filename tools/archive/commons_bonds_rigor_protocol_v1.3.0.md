@@ -316,7 +316,7 @@ If a claim fails at any scale:
 
 1. **Identify the audience.** Who reads this content as primary audience? Readers encountering the framework → book-worthy. Future Claude instances / methodology contributors / rigor-pass writers / author-revisiting-decisions → scaffolding.
 2. **Check value location.** Is the content's value in-the-content (what it says, what it defines, what it teaches) → book-worthy? Or in-the-reasoning-trail (why we decided what we decided, what we tried and rejected, what assumptions we made) → scaffolding?
-3. **Apply placement principle.** Scaffolding lives in `tools/` (active), `tools/archive/`, `alignment/decisions/`, `alignment/sessions/archive/`. Book-worthy lives in `core/`, `manuscript/chapters/`, `research/case-studies/`, `research/literature/bibliography.md`.
+3. **Apply placement principle.** Scaffolding lives in `tools/` (active), `tools/archive/`, `alignment/decisions/`, `alignment/sessions/archive/`. Book-worthy lives in `core/`, `manuscript/chapters/`, `research/case-studies/`, `tools/back-matter/sources/bibliography.md`.
 4. **Handle mixed content.** Many working documents contain both scaffolding and book-worthy sections mixed together. Identify each section's type; extract book-worthy content to appropriate canonical location; retain scaffolding in working location; cross-reference as needed.
 
 **Verdicts:**

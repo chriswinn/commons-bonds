@@ -9,7 +9,7 @@
 - Substantive agent outreach (lives at `publishing/agents/<agent-slug>/`)
 - Comp-titles intellectual positioning (lives at `publishing/book-proposal/02_comp-titles.md`)
 - Interview-subject prep (lives at `research/outreach/subjects/<subject-slug>/`)
-- Bibliography engagement (lives at `research/literature/bibliography.md`)
+- Bibliography engagement (lives at `tools/back-matter/sources/bibliography.md`)
 
 This register coordinates ACROSS those — pulling in comp-title status, interview-subject relationships, and bibliography depth into a single PM-actionable view of "who endorses the book, when do we ask, and how warm is the path."
 
@@ -111,7 +111,7 @@ When PM-session fires the gated task (cross-thread-todos #20), surface these dec
 **Per-thread inputs the register pulls from:**
 - `publishing/essays/_pipeline/cascade-plan_v2_2026-05-24.md` §11 (comp-titles tier rankings; agent profile)
 - `publishing/essays/_pipeline/cross-thread-todos.md` #1 (Mazzucato/Chalfant acknowledgments check); #2 (Darity post-interview feedback pending); #15 (Darity framework-revision implications); **#16 (this register's gated PM-session task; created in this commit)**
-- `research/literature/bibliography.md` (per-author engagement state; load-bearing entries lines 514 / 522 / 530 / 538 / 549; Sassen + Patel & Moore have NO entries as of 2026-05-26)
+- `tools/back-matter/sources/bibliography.md` (per-author engagement state; load-bearing entries lines 514 / 522 / 530 / 538 / 549; Sassen + Patel & Moore have NO entries as of 2026-05-26)
 - `research/outreach/subjects/darity/` (full Darity relationship state + interview transcripts + packet correspondence)
 - `publishing/agents/_shared/post-darity-warm-intro-templates_2026-05-10.md` (Kendi + Mullen + Gates + Cook-Center colleagues template set)
 - `publishing/book-proposal/02_comp-titles.md` (proposal §02 — where blurb path interacts with comp-titles positioning)

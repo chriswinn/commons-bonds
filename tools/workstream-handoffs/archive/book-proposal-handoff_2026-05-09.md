@@ -41,13 +41,13 @@ Assemble the agent-facing book proposal — overview + market + comp titles + au
 - `manuscript/chapters/Chapter__N_*Draft.md` (source for chapter summaries; Ch 7 + Ch 5 for samples)
 - `publishing/essays/_pipeline/archive/cascade-plan_2026-05-06.md` (Decisions due section + sprint timing)
 - `publishing/essays/_pipeline/cross-thread-todos.md` (item #3: bibliography flag updates as engagement-pending → engaged)
-- `research/literature/bibliography.md` (§13 comp-title entries with engagement notes)
+- `tools/back-matter/sources/bibliography.md` (§13 comp-title entries with engagement notes)
 
 ## Constraints / disciplines
 
 - **Sprint target:** late June 2026 completion (~3-week focused effort).
 - **Chapter summaries source:** drafted chapters, NOT GuidanceDocs (resolved 2026-05-08 cleanup; reflected in `05_chapter-summaries.md` source-mapping table).
-- **Comp-titles aligned to bibliography:** Mazzucato + Pistor + Christophers + Susskind in `research/literature/bibliography.md` §13; Ch 5 + Ch 9 paragraph engagement landed (commit `d78872e`).
+- **Comp-titles aligned to bibliography:** Mazzucato + Pistor + Christophers + Susskind in `tools/back-matter/sources/bibliography.md` §13; Ch 5 + Ch 9 paragraph engagement landed (commit `d78872e`).
 - **Path B no-overlap discipline** if any prose paraphrases from chapter material.
 - **Bio variants:** use medium (~85w) for proposal-paragraph contexts; long (~135w) for the dedicated `03_author-platform.md` page.
 

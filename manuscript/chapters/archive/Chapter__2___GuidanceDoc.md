@@ -15,7 +15,7 @@ This GuidanceDoc predates the framework cascade applied 2026-05-04 (Insights #65
 
 See: `alignment/commons_bonds_open_insights_v1.0.0.md` Insights #65 + #66 for full record. Inline STALE markers below remain valid where they appear.
 
-**Staleness disclaimer (2026-04-30):** This file accumulates content across earlier dates → 2026-04-30. Sections from earlier dates may reference **retired vocabulary** (8-tier scheme retired 2026-04-24 per Insight #21 + #63; AIT renamed to CIT 2026-04-24; Dynastic Labor Cost renamed to Lineage Labor Cost 2026-04-30 per Insight #56; FGC retired; Universality Test retired; Value Capture retired in favor of Value Extraction; Spatial Cost Severance + Temporal Cost Severance reframed) or **superseded direction**. Verify against current state (`core/terms/terms_index.md` + `alignment/commons_bonds_open_insights_v1.0.0.md`) before applying.
+**Staleness disclaimer (2026-04-30):** This file accumulates content across earlier dates → 2026-04-30. Sections from earlier dates may reference **retired vocabulary** (8-tier scheme retired 2026-04-24 per Insight #21 + #63; AIT renamed to CIT 2026-04-24; Dynastic Labor Cost renamed to Lineage Labor Cost 2026-04-30 per Insight #56; FGC retired; Universality Test retired; Value Capture retired in favor of Value Extraction; Spatial Cost Severance + Temporal Cost Severance reframed) or **superseded direction**. Verify against current state (`tools/back-matter/sources/terms_index.md` + `alignment/commons_bonds_open_insights_v1.0.0.md`) before applying.
 
 **[PER-SECTION STALENESS AUDIT 2026-05-08]**
 
@@ -46,7 +46,7 @@ See: `alignment/commons_bonds_open_insights_v1.0.0.md` Insights #65 + #66 for fu
 - `Chapter__2_TheMiner.md` — publisher-facing prose.
 - `alignment/commons_bonds_working_principles_v1.0.0.md` — WP#10 (Two-layer content origination discipline); WP#8 (publisher-facing scrubbed of scaffolding).
 - `alignment/commons_bonds_open_insights_v1.0.0.md` — current open insights + ratification log.
-- `core/terms/terms_index.md` — current canonical vocabulary.
+- `tools/back-matter/sources/terms_index.md` — current canonical vocabulary.
 
 ---
 
@@ -69,7 +69,7 @@ See: `alignment/commons_bonds_open_insights_v1.0.0.md` Insights #65 + #66 for fu
 ### What the Ch 2 Draft locks in
 
 - Cost vocabulary introduced: cost severance, severed cost, value extraction.
-- Spatial cost severance established (distance as enabling mechanism). *[STALE 2026-04-30 — Spatial Cost Severance was reframed; verify current vocabulary in `core/terms/terms_index.md` before drafting follow-on chapters that reference this.]*
+- Spatial cost severance established (distance as enabling mechanism). *[STALE 2026-04-30 — Spatial Cost Severance was reframed; verify current vocabulary in `tools/back-matter/sources/terms_index.md` before drafting follow-on chapters that reference this.]*
 - Both counterarguments honored and addressed.
 - Carbon footnote planted for Ch 6 ("We'll return to that").
 - "Common bonds" theme planted in closing paragraphs (miner/waterman connection).

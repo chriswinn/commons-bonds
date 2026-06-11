@@ -19,7 +19,7 @@
 2. [Chapter__6_ThreeWaysofCounting__Draft.md](manuscript/chapters/Chapter__6_ThreeWaysofCounting__Draft.md) — canonical Black Lung per-ton arithmetic + SCC anchor + IPG triangulation methodology.
 3. [tools/audits/cross-chapter-consistency-inventory_2026-05-11.md](tools/audits/cross-chapter-consistency-inventory_2026-05-11.md) — canonical-terms / named-cases / recurring-stats inventory, especially §3 (recurring statistics: BLP $44B drift flag at line 85; McDowell IPG canonical 33–122× at line 89; Macondo lifetime 40–60M barrels at line 106; SCC anchor $190 at line 109; coal carbon-tail per ton ~$544 at line 110).
 4. [tools/rigor-passes/commons_bonds_rigor_pass_2026-05-11_apparatus_register_decision_v1.0.0.md](tools/rigor-passes/commons_bonds_rigor_pass_2026-05-11_apparatus_register_decision_v1.0.0.md) — Item 1 (inline integral strip Ch 8) + Item 14 (Cᵢ via Four Gates) canonical decisions.
-5. [research/literature/bibliography.md](research/literature/bibliography.md) §13 (Dunbar, Du Bois, Ellison, Fanon entries at lines 1148–1180; Mian-Sufi at line 277).
+5. [tools/back-matter/sources/bibliography.md](tools/back-matter/sources/bibliography.md) §13 (Dunbar, Du Bois, Ellison, Fanon entries at lines 1148–1180; Mian-Sufi at line 277).
 6. [tools/drafting-templates/stage-3-three-pass-rigor-audit.md](tools/drafting-templates/stage-3-three-pass-rigor-audit.md) — Pass 1 severity scale + finding format.
 7. [tools/rigor-passes/commons_bonds_rigor_pass_2026-05-12_ch4_existence_proof_stage3_fact_check_v1.0.0.md](tools/rigor-passes/commons_bonds_rigor_pass_2026-05-12_ch4_existence_proof_stage3_fact_check_v1.0.0.md) — canonical format model.
 8. Commits verified on `origin/main` at session start: `cacb82d` (2026-05-15 — Ch 2 + Ch 8 $44B Program-vs-Trust-Fund correction); `d1f6e2d` (Item 1 inline integral strip from Ch 8).
@@ -178,7 +178,7 @@ Deviations in the chapter's quotation:
 4. Lowercase "this" — canonical has capital "This" (start of poem's third line).
 5. Period after "guile" — canonical has semicolon (the poem continues; the line is the third of a six-line stanza, not the closing line).
 
-The chapter compresses the poem's first three lines into an inline italicized quote without preserving line breaks (defensible for inline citation), but also alters punctuation and capitalization in ways that don't reflect the canonical text. Bibliography entry at [research/literature/bibliography.md:1148](research/literature/bibliography.md) cites the Dodd, Mead 1896 *Lyrics of Lowly Life* edition as canonical source.
+The chapter compresses the poem's first three lines into an inline italicized quote without preserving line breaks (defensible for inline citation), but also alters punctuation and capitalization in ways that don't reflect the canonical text. Bibliography entry at [tools/back-matter/sources/bibliography.md:1148](tools/back-matter/sources/bibliography.md) cites the Dodd, Mead 1896 *Lyrics of Lowly Life* edition as canonical source.
 
 **Why this is the MEDIUM-1 finding:** This is a direct quote from a canonical poem in the Western literary record. Quoted material — especially from a poem with a well-known canonical text — should be verbatim, and the chapter's deviations (lowercase first letters of lines + altered closing punctuation) misrepresent the poem's actual form. A Black-Studies-resonance reader (the very audience the Dunbar engagement is meant to land for) will notice. The bibliography entry explicitly flags Ch 8 as the canonical-engagement chapter for the Dunbar tradition; the quotation should honor the canonical text.
 
@@ -362,7 +362,7 @@ The "$40 to $140 today, depending on grade" range covers most US thermal + lower
 **Chapter text:**
 > "Dunbar named the strategy of survival. **Du Bois named the structural condition that required it. Fanon extended the analysis into the colonial-economic register the framework's extraction-community cases sit closest to. Ellison gave the long-form narrative of life under the mask.** The framework adds the cost-accounting mechanism by which the mask remains structurally necessary."
 
-**Canonical truth:** Per [research/literature/bibliography.md](research/literature/bibliography.md) §13:
+**Canonical truth:** Per [tools/back-matter/sources/bibliography.md](tools/back-matter/sources/bibliography.md) §13:
 - Du Bois, *The Souls of Black Folk* (A. C. McClurg, 1903) — line 1157 canonical entry; double-consciousness as the structural-condition analog.
 - Fanon, *Black Skin, White Masks* (Éditions du Seuil, 1952; Markmann/Grove translation 1967) — line 1165 canonical entry; closest to the chapter's colonial-economic-register framing.
 - Ellison, *Invisible Man* (Random House, 1952) — line 1173 canonical entry; long-form narrative of life under the mask.
@@ -386,7 +386,7 @@ The "$40 to $140 today, depending on grade" range covers most US thermal + lower
 **Chapter text:**
 > "Paul Laurence Dunbar wrote *We Wear the Mask* in **1896**"
 
-**Canonical truth:** The poem first appeared in Dunbar's 1895 collection *Majors and Minors* and was later included in his 1896 breakthrough collection *Lyrics of Lowly Life* (Dodd, Mead and Company). The bibliography entry at [research/literature/bibliography.md:1148](research/literature/bibliography.md) cites the 1896 *Lyrics of Lowly Life* publication. Both "1895" (when the poem was written/first published) and "1896" (when it appeared in *Lyrics of Lowly Life*) are defensibly correct depending on which event is being dated.
+**Canonical truth:** The poem first appeared in Dunbar's 1895 collection *Majors and Minors* and was later included in his 1896 breakthrough collection *Lyrics of Lowly Life* (Dodd, Mead and Company). The bibliography entry at [tools/back-matter/sources/bibliography.md:1148](tools/back-matter/sources/bibliography.md) cites the 1896 *Lyrics of Lowly Life* publication. Both "1895" (when the poem was written/first published) and "1896" (when it appeared in *Lyrics of Lowly Life*) are defensibly correct depending on which event is being dated.
 
 **Why this is the LOW-2 finding:** A Dunbar specialist will note that the poem's actual composition year is 1895; the canonical 1896 date is the breakthrough-collection year. Defensible either way; not a publisher-fact-checker stop.
 
@@ -689,7 +689,7 @@ Audience pressure-test characters for Pass 3 future session. Pass 1 surfaced no 
   - Drug-rate multiplier row added per HIGH-4 ratification choice.
   - $44B Program-vs-Trust-Fund row drift status updated to mark Ch 8 fix intact (commit `cacb82d` 2026-05-15); flag remains for Ch 2 line 67 + Ch 6 line 148 per inventory line 85.
 - **Update Ch 2 or Ch 6** per HIGH-3 + HIGH-4 cross-chapter consequence (depending on author ratification).
-- **Update [research/literature/bibliography.md](research/literature/bibliography.md)** §13 if Du Bois / Ellison / Fanon citation expansions warrant any entry-text refinements (likely none).
+- **Update [tools/back-matter/sources/bibliography.md](tools/back-matter/sources/bibliography.md)** §13 if Du Bois / Ellison / Fanon citation expansions warrant any entry-text refinements (likely none).
 
 **For PM session (workstream #20 phasing):**
 - Pass 2 (Voice-polish) and Pass 3 (Audience-load) for Ch 8 still required to complete Phase A coverage of this chapter. Schedule per pacing plan.
@@ -759,7 +759,7 @@ Quick fact-check pass on the new paragraph (current line 122) is added here as a
 |---|---|
 | Coal-industry political-economic actor categories (operators, absentee-mineral-rights holders, industry trade associations) shaped the architecture generation after generation | ✓ Well-documented in WV historiography (Ronald Eller, Ronald Lewis, John Alexander Williams); West Virginia Coal Association lobbying record well-documented since early 20th c. |
 | Lobbying expenditure at WV statehouse + federal regulatory bodies is a "multi-generational matter of public record" | ✓ Defensible general claim; documented in WV state Ethics Commission filings + federal LDA lobbying disclosures + UMW historical records. |
-| Coates → reparations-economics | ✓ Per [research/literature/bibliography.md §18.5](research/literature/bibliography.md) line 178 — Coates 2014 *The Case for Reparations* (Atlantic). |
+| Coates → reparations-economics | ✓ Per [tools/back-matter/sources/bibliography.md §18.5](tools/back-matter/sources/bibliography.md) line 178 — Coates 2014 *The Case for Reparations* (Atlantic). |
 | Darity & Mullen → reparations-economics | ✓ Per bibliography line 179 — Darity & Mullen 2020 *From Here to Equality*. |
 | Hamilton → reparations-economics | ✓ Per bibliography line 848 — Hamilton, Darity, Price, Sridharan, Tippett 2015 *Umbrellas Don't Make It Rain*. |
 | Conley → reparations-economics | ⚠ See LOW-8 below — defensibly close but slightly looser grouping than the other four. |

@@ -50,7 +50,7 @@ V_option=$200, β=1) → ~$2,580/ton; sensitivity $420–$13,100/ton at β=1.
    output book-derived + footnoting inputs. Note: this report asserts the
    arithmetic "reproduces in-repo," which is true (the formula is deterministic
    given the parameters); it does NOT assert the parameter *values* are sourced.
-3. **`research/literature/bibliography.md`**: Dixit & Pindyck 1994 is in the bib
+3. **`tools/back-matter/sources/bibliography.md`**: Dixit & Pindyck 1994 is in the bib
    (line 695) but cited only as lineage for the Substitutability Function S(t|t₀),
    NOT for any irreversibility-fraction or option-value number. Hotelling 1931
    (line 831) is cited for the rent-path *identity* (RCV − Hotelling rent = Cost

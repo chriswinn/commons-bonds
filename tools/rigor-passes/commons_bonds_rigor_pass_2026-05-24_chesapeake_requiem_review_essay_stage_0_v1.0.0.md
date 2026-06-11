@@ -52,17 +52,17 @@ Author-leaning per task scope: Wave 2 or Wave 3 (open). Q2 sequencing classifica
 - `research/case-studies/chesapeake-fisheries.md` (boundary-test placeholder)
 - `research/outreach/subjects/phat/` directory (consent document + mentions inventory + ch3-preview-package + consent-process-guide; Phat anonymization ratified 2026-05-20)
 - `alignment/commons_bonds_framework_positioning_disciplines_v1.0.0.md` (FPD-1 → FPD-11)
-- `core/terms/terms_index.md` §3 (apparatus inventory)
+- `tools/back-matter/sources/terms_index.md` §3 (apparatus inventory)
 
 **Christophers single-book Stage 0 artifact:** present as untracked-on-disk during session; pending sibling-session ratification.
 
-**Earl Swift *Chesapeake Requiem* bibliography state:** NOT in `research/literature/bibliography.md` (grep verified 2026-05-24). Engagement-pending; bibliography entry build is part of Condition CR-3 reading-depth sub-workstream.
+**Earl Swift *Chesapeake Requiem* bibliography state:** NOT in `tools/back-matter/sources/bibliography.md` (grep verified 2026-05-24). Engagement-pending; bibliography entry build is part of Condition CR-3 reading-depth sub-workstream.
 
 ---
 
 ## 2. Framework apparatus inventory (for dimension (a) reveal-% estimation)
 
-Per `core/terms/terms_index.md` §3 + Wave 2 batch §2:
+Per `tools/back-matter/sources/terms_index.md` §3 + Wave 2 batch §2:
 
 - **Ring-1 (7 terms):** Commons Bonds · Cost Severance · Severed Cost · Value Extraction · Commons Inversion Test (CIT) · Residual Commons Value (RCV) · Cost (Cᵢ).
 - **Ring-2 mechanism / measurement:** Abundance Masking · Substitutability Function (S) · Externality Tail (E) · Intergenerational Pricing Gap (IPG) · CS = RCV − B equation · Cost Severance Damages (CSD) · Hotelling Identity · Three Ways of Counting · Intergenerational Option Value.
@@ -565,7 +565,7 @@ PM provisional response: author bandwidth + cumulative-reveal + substantive-doub
 - `tools/memory/feedback_verify_stale_memory_claims.md`
 - `tools/memory/feedback_git_workflow.md`
 - `alignment/commons_bonds_framework_positioning_disciplines_v1.0.0.md` (FPD-1 → FPD-11)
-- `core/terms/terms_index.md` §3
+- `tools/back-matter/sources/terms_index.md` §3
 
 **Source material:**
 - `manuscript/chapters/Chapter__3_TheWaterman.md` (10,256 words; full read confirmed collision §4.1)
@@ -576,7 +576,7 @@ PM provisional response: author bandwidth + cumulative-reveal + substantive-doub
 - `research/outreach/subjects/phat/consent-process-guide_2026-05-10.md`
 
 **Reviewed-book bibliography state:**
-- Earl Swift, *Chesapeake Requiem: A Year with the Watermen of Vanishing Tangier Island* (Dey Street / HarperCollins, 2018) — **NOT in `research/literature/bibliography.md`**; engagement-pending; bibliography entry build is part of Condition CR-3 reading-depth sub-workstream
+- Earl Swift, *Chesapeake Requiem: A Year with the Watermen of Vanishing Tangier Island* (Dey Street / HarperCollins, 2018) — **NOT in `tools/back-matter/sources/bibliography.md`**; engagement-pending; bibliography entry build is part of Condition CR-3 reading-depth sub-workstream
 
 ---
 

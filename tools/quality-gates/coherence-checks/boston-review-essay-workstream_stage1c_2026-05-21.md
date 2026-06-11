@@ -13,7 +13,7 @@
 
 ### Bibliography commitments touching Ch 5 scope
 
-Bibliography file: `research/literature/bibliography.md` (1328 lines as of 2026-05-21).
+Bibliography file: `tools/back-matter/sources/bibliography.md` (1328 lines as of 2026-05-21).
 
 | Entry | Section | Ch 5 commitment | Realized in BR brief? |
 |---|---|---|---|

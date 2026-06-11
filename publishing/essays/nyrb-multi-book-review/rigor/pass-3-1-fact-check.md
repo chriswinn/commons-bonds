@@ -222,7 +222,7 @@ SEQUENCING DISCIPLINE: Pass 3.1 spot-fixes committed on feature branch (end-user
 - v3.1 doctrine: [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md`](../pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md) + Amendments A + B + C
 - Cadence discipline: [`tools/memory/feedback_parallel_session_ratification_cadence.md`](../memory/feedback_parallel_session_ratification_cadence.md)
 - Em-dash discipline: [`tools/memory/feedback_em_dash_overuse.md`](../memory/feedback_em_dash_overuse.md)
-- Bibliography source-of-truth: [`research/literature/bibliography.md`](../../research/literature/bibliography.md) §13 (Mazzucato line 514+; Pistor line 522+; Christophers line 530+; Susskind line 538+) + secondary entries near line 1000
+- Bibliography source-of-truth: [`tools/back-matter/sources/bibliography.md`](../../tools/back-matter/sources/bibliography.md) §13 (Mazzucato line 514+; Pistor line 522+; Christophers line 530+; Susskind line 538+) + secondary entries near line 1000
 
 ---
 

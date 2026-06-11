@@ -11,7 +11,7 @@
 **Key reframings in v1.4.0:**
 - "Abundance Dimensions" → "Commons Categories" (file title; per-section headers; framing language). File-path retains `_v1_3_0` slug pending Phase B full-rewrite/rename — see §0.0 below.
 - "AIT" / "Abundance Inversion Test" / "Abundance Interference Taxonomy" → "CIT" / "Commons Inversion Test" throughout (per AIT→CIT rename rigor pass). CIT has two sub-forms: Commons-Absence Inversion (would extraction price differently if there were no commons claim?) + Commons-Consumption Inversion (would extraction price differently if the commons were inexhaustible?). The §2.N "What becomes visible under CIT inversion" subsections continue to apply; under v1.4.0 they read as commons-consumption-inversion worked-examples specifically.
-- "Abundance Dimension" (Ring 1) is retired (see `core/terms/terms_index.md`). The replacement structural primitive is "Commons" (the framework's structural identity per Option C'). Per-category rich profiles continue to function as pedagogical evidence.
+- "Abundance Dimension" (Ring 1) is retired (see `tools/back-matter/sources/terms_index.md`). The replacement structural primitive is "Commons" (the framework's structural identity per Option C'). Per-category rich profiles continue to function as pedagogical evidence.
 - 10-list completeness claims withdrawn; "complete for Book One" framing replaced by "examples surfaced across the 18 cases examined in this book's research, presented as illustrative not canonical."
 
 **Per-category content NOT changed in v1.4.0:** Rich profiles (§2.1–§2.10), case clusters, literature engagements, naming-cohort lock status, scope boundaries, distinctness analyses. These continue to do their pedagogical / methodological work unchanged.
@@ -52,7 +52,7 @@
 - Phase A2 methodology work (rigor pass §11.5 Tasks 5-10) will extend this further with the four-gate discipline + formula generalization published in Technical Appendix v0.0.4.
 - §0.1 NEW v1.3.0 change log.
 
-**References (v1.3.0):** `tools/commons_bonds_rigor_protocol_v2.2.0.md` (protocol applied); `tools/pre-submission-reviews/commons_bonds_pcr_2026-04-23_v1.1.0.md` (Path F decision); `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-24_path_f_variable_addability_v1.0.0.md` (extreme-rigor verification); historical rigor-pass records (preserved for lineage): `commons_bonds_rigor_pass_2026-04-22_v1_0_0.md`, `_v1_0_1.md`, `_v1.0.2.md`, `_v1.0.3.md`, `_v1.0.4.md`, `_v1.0.5.md`, `_v1.0.6.md`; `tools/commons_bonds_guiding_constraints_v1_0_0.md`; `tools/commons_bonds_book_scope_v1_0_3.md`; `research/literature/bibliography.md`.
+**References (v1.3.0):** `tools/commons_bonds_rigor_protocol_v2.2.0.md` (protocol applied); `tools/pre-submission-reviews/commons_bonds_pcr_2026-04-23_v1.1.0.md` (Path F decision); `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-24_path_f_variable_addability_v1.0.0.md` (extreme-rigor verification); historical rigor-pass records (preserved for lineage): `commons_bonds_rigor_pass_2026-04-22_v1_0_0.md`, `_v1_0_1.md`, `_v1.0.2.md`, `_v1.0.3.md`, `_v1.0.4.md`, `_v1.0.5.md`, `_v1.0.6.md`; `tools/commons_bonds_guiding_constraints_v1_0_0.md`; `tools/commons_bonds_book_scope_v1_0_3.md`; `tools/back-matter/sources/bibliography.md`.
 
 **References (v1.2.0 preserved for lineage):** `commons_bonds_rigor_protocol_v1.3.0.md`; `commons_bonds_rigor_pass_2026-04-22_v1_0_0.md` (Part 1); `commons_bonds_rigor_pass_2026-04-22_v1_0_1.md` (Part 2); `commons_bonds_rigor_pass_2026-04-22_v1.0.2.md` (Kindred lock pass); `commons_bonds_rigor_pass_2026-04-22_v1.0.3.md` (Priority-2 light-rigor — superseded); `commons_bonds_rigor_pass_2026-04-22_v1.0.4.md` (Priority-2 full-rigor pass).
 
@@ -584,7 +584,7 @@ Version numbering: v1.2.1 for clarifications and minor additions within the curr
 | `commons_bonds_book_scope_v1_0_3.md` | Book One scope; chapter-level case integration. |
 | `eight-tier-v10.html` | CIT precursor source (8-tier scheme retired; preserved for lineage). |
 | `alignment/patches/c9_ait_canonical_positioning_patch.md` | Scaffolding-vs-load-bearing reference (filename retains "ait_canonical" naming for lineage; AIT was renamed CIT 2026-04-24). |
-| `research/literature/bibliography.md` | Chosen-family scholarship section (Weston, Stacey, Nardi, Karner, Jones, Tönnies, Schneider/Carsten) added 2026-04-22 per Kindred lock; additional entries for Priority-2 locked dimensions (Anderson, Fricker, Sen, Hess & Ostrom, Klinenberg, Murthy, etc.) queued per v1.0.4 §12.1 step 7. |
+| `tools/back-matter/sources/bibliography.md` | Chosen-family scholarship section (Weston, Stacey, Nardi, Karner, Jones, Tönnies, Schneider/Carsten) added 2026-04-22 per Kindred lock; additional entries for Priority-2 locked dimensions (Anderson, Fricker, Sen, Hess & Ostrom, Klinenberg, Murthy, etc.) queued per v1.0.4 §12.1 step 7. |
 
 ---
 

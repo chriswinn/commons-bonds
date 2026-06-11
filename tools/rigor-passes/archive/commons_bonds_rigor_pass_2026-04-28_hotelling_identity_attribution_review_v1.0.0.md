@@ -22,7 +22,7 @@
 
 1. **Attribution discipline structure is sound.** Tech Appendix §5.1 ("Hotelling 1931 — the part that's Hotelling's") + §5.2 ("What the Commons Bonds framework adds") + §5.3 ("Citation discipline (M12 intellectual honesty)") cleanly separates Hotelling's foundational contribution from the framework's identity-articulation extension. The attribution paragraph at lines 1100-1124 is explicit. M12 lineage citation is correct. The terms_index entry at line 1812-1903 explicitly distinguishes Hotelling's part from framework's part with full §1816-1822 attribution discipline.
 2. **Three Working Principle #8 violations** in Tech Appendix §4 prose that were appropriate under prior discipline but need scrub now:
-   - Lines 1116-1124: *"Source: Hotelling Identity individual rigor pass (commit `5b8ff42`); see `core/terms/terms_index.md` Hotelling Identity record."* — rigor-pass commit reference + scaffolding cross-reference.
+   - Lines 1116-1124: *"Source: Hotelling Identity individual rigor pass (commit `5b8ff42`); see `tools/back-matter/sources/terms_index.md` Hotelling Identity record."* — rigor-pass commit reference + scaffolding cross-reference.
    - Lines 1126-1128: *"Source rigor pass: Hotelling Identity (commit 5b8ff42)."* — duplicate scaffolding annotation.
    - Lines 1171-1182 (§5.3): *"Per M12 module + Working Principle #6:..."* — Working Principle cross-reference; the citation-discipline blockquote itself is reader-facing and stays, but the framing reference scrubs.
 3. **Section numbering inconsistency.** §4 has sub-sections §5.1, §5.2, §5.3 (should be §4.1, §4.2, §4.3). Adjacent §5 ("Accountability Bond Decomposition") starts immediately after, creating numbering collision.
@@ -79,7 +79,7 @@ Per-finding verdict: KEEP / REVISE / SCRUB.
 **Current state:**
 - Section heading "§4. Hotelling Identity (extension of Hotelling 1931)" ✓ (clean attribution in heading)
 - Attribution discipline paragraph (lines 1100-1116) ✓ (explicit Hotelling-vs-framework attribution; cites bibliography section §18.5 implicitly)
-- Working Principle #8 violation: lines 1116-1124 contain *"Source: Hotelling Identity individual rigor pass (commit `5b8ff42`); see `core/terms/terms_index.md` Hotelling Identity record."* — rigor-pass commit reference + scaffolding cross-reference
+- Working Principle #8 violation: lines 1116-1124 contain *"Source: Hotelling Identity individual rigor pass (commit `5b8ff42`); see `tools/back-matter/sources/terms_index.md` Hotelling Identity record."* — rigor-pass commit reference + scaffolding cross-reference
 
 **Verdict:** REVISE to remove WP#8-violating sentence. The attribution paragraph stands; the rigor-pass-commit-and-terms_index-cross-reference comes out.
 
@@ -204,7 +204,7 @@ Replace §5.3 framing with: *"§4.3 Citation discipline. Anywhere the framework 
 **Edit 1 — Remove WP#8 violations from attribution paragraph (lines 1116-1128):**
 
 Cut the trailing two sentences:
-- *"Source: Hotelling Identity individual rigor pass (commit `5b8ff42`); see `core/terms/terms_index.md` Hotelling Identity record."*
+- *"Source: Hotelling Identity individual rigor pass (commit `5b8ff42`); see `tools/back-matter/sources/terms_index.md` Hotelling Identity record."*
 - *"Source rigor pass: Hotelling Identity (commit 5b8ff42)."*
 
 The attribution paragraph ends after *"...both contributions are clearly attributed below per intellectual-honesty discipline."*

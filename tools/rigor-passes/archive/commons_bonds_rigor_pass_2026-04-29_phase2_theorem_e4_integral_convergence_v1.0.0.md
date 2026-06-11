@@ -593,7 +593,7 @@ This rigor pass does NOT replace external review; it produces the substrate that
 ### §16.2 Downstream artifacts (this pass would update on ratification)
 
 - `manuscript/technical-appendix/TechnicalAppendix_v1.0.0.html` §10 line 3279-3285 — restructured E.4 text per §13 (or Phase 3 v2.0.0 rebuild batch).
-- `core/terms/terms_index.md` — Phase 2 verdict entry; cross-reference to this rigor pass.
+- `tools/back-matter/sources/terms_index.md` — Phase 2 verdict entry; cross-reference to this rigor pass.
 - `alignment/commons_bonds_open_insights_v1.0.0.md` — new Insight #40 closed-ratified.
 - Bibliography expansion — Royden 1988 / Folland 1999 / Rudin 1987 (real analysis); Weitzman 2001 (already in bibliography).
 

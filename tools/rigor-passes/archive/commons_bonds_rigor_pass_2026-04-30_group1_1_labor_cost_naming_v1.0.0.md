@@ -597,9 +597,9 @@ Rationale:
 
 ### §13.2 Downstream artifacts (this pass would update on ratification)
 
-- `core/terms/terms_index.md` Cᵢ entry illustrative list — replace Dynastic Labor Cost → Lineage Labor Cost; add cross-tradition lineage citation.
+- `tools/back-matter/sources/terms_index.md` Cᵢ entry illustrative list — replace Dynastic Labor Cost → Lineage Labor Cost; add cross-tradition lineage citation.
 - Chapter sweep: `manuscript/chapters/Chapter__1___Draft.md`; `Chapter__6_ThreeWaysofCounting__Draft.html`; `Chapter__8_WhatThingsActuallyCost_Draft.md` — replace "Dynastic Labor Cost" occurrences (~5+ instances).
-- `core/glossary/archive/commons_bonds_updated_glossary_v3.html` — if "Dynastic Labor Cost" appears.
+- `tools/back-matter/sources/glossary/archive/commons_bonds_updated_glossary_v3.html` — if "Dynastic Labor Cost" appears.
 - `tools/routines/proposed_routines_v1.0.0.md` Routine 1 — add retired-vocabulary regression pattern.
 - `alignment/commons_bonds_open_insights_v1.0.0.md` — new Insight #56 closed-ratified.
 

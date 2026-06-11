@@ -28,7 +28,7 @@
 6. `tools/workstream-handoffs/archive/manuscript-stage-3-rigor-pass-handoff_2026-05-11.md` (per-chapter table; Ch 7 row at line 69 — Aeon thunder-stealing protection; Abundance Masking defense paragraph; Item 15 Ostrom-path light-de-formalize).
 7. `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-11_apparatus_register_decision_v1.0.0.md` (canonical apparatus register: Item 7 CIT dropped; Item 10 named-Theorem cross-references; Item 12 ARR full-name; Item 14 RCV Sandel-hybrid; Item 15 Ch 7 six-pattern Ostrom-path framing).
 8. `tools/audits/cross-chapter-consistency-inventory_2026-05-11.md` (canonical-terms inventory + flagship-term canonical forms; Mars colony canonical row line 69; Europa / deep-sea biosphere row line 70; existential substitutability gap row at §9 line 243).
-9. `core/terms/terms_index.md` (apparatus-term canonical-form spot-check — Substitutability Function S Title-case; Abundance Masking Title-case framework term; existential substitutability gap lowercase prose phrase with Bostrom-lineage citation requirement on first chapter introduction per Insight #33).
+9. `tools/back-matter/sources/terms_index.md` (apparatus-term canonical-form spot-check — Substitutability Function S Title-case; Abundance Masking Title-case framework term; existential substitutability gap lowercase prose phrase with Bostrom-lineage citation requirement on first chapter introduction per Insight #33).
 10. `publishing/essays/aeon-mask-of-abundance/_archive/prior-versions/aeon-pitch-commons-bonds-winn_VERSION-C.md` (Aeon Version C pitch — verbatim-overlap protection at Ch 7:101).
 11. Memory: `feedback_voice_polish_pipeline.md` (dump → sift → polish; active editorial work expected).
 12. Memory: `feedback_audience_aware_drafting_discipline.md` (v2.0 Amendment B — voice-polish is its own pass).
@@ -350,7 +350,7 @@ Four instances of the "A [adjective] reader [verb]…" reader-engagement device 
 **Line 37:** *"The **substitutability function** for Mars water is approximately zero for the applications that matter most…"*
 **Line 139:** *"Per the framework's **Substitutability Function S**, this gap is the difference S_max(industrial) − S_max(existential)."*
 
-Per `core/terms/terms_index.md` + cross-chapter inventory line 37, "Substitutability Function (S)" is a Title-case framework term. The chapter uses lowercase "substitutability function" at line 37 (plain-prose first-mention as informal description of what the framework treats the term as) and Title-case "Substitutability Function S" at line 139 (formal definition site with S notation). Defensible as plain-prose introduction (line 37) → formal apparatus introduction (line 139), but strictly a terms-index discipline question — every appearance of a Title-case framework term should be Title-case.
+Per `tools/back-matter/sources/terms_index.md` + cross-chapter inventory line 37, "Substitutability Function (S)" is a Title-case framework term. The chapter uses lowercase "substitutability function" at line 37 (plain-prose first-mention as informal description of what the framework treats the term as) and Title-case "Substitutability Function S" at line 139 (formal definition site with S notation). Defensible as plain-prose introduction (line 37) → formal apparatus introduction (line 139), but strictly a terms-index discipline question — every appearance of a Title-case framework term should be Title-case.
 
 **Recommended spot-fix (optional):**
 

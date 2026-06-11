@@ -33,7 +33,7 @@ Manuscript-side work (Ch 3 drafting now complete):
 
 ## Current state — non-chapter manuscript work
 
-- **Bibliography (`research/literature/bibliography.md`)**: comprehensive (~18,312w; 156 sections); §13 has Mazzucato (load-bearing) + Pistor / Christophers / Susskind (added 2026-05-08; "engagement pending" flags pending update to "engaged in Ch X §Y" per cross-thread item #3)
+- **Bibliography (`tools/back-matter/sources/bibliography.md`)**: comprehensive (~18,312w; 156 sections); §13 has Mazzucato (load-bearing) + Pistor / Christophers / Susskind (added 2026-05-08; "engagement pending" flags pending update to "engaged in Ch X §Y" per cross-thread item #3)
 - **Tech Appendix Phase 3 v2.0.0 rebuild**: queued (~20–30 hrs estimated)
 - **Glossary v4 rebuild**: queued (post-Phase-3-Tech-Appendix)
 - **Insight #21**: closed 2026-05-04 (Ch 6 supplementary placement folded into Phase 3 rebuild)
@@ -50,11 +50,11 @@ Manuscript-side work (Ch 3 drafting now complete):
 
 ## Files to read first
 
-- `research/literature/bibliography.md` — especially §13 Pistor / Christophers / Susskind entries
+- `tools/back-matter/sources/bibliography.md` — especially §13 Pistor / Christophers / Susskind entries
 - `manuscript/chapters/Chapter__N_*Draft.md` — all 10 drafted chapters (9 MD + Ch 6 HTML)
 - `manuscript/chapters/Chapter__N___GuidanceDoc.md` — internal-scaffolding files (WP#10 layer-classification + staleness disclaimers)
 - `manuscript/technical-appendix/` — Phase 3 rebuild target
-- `core/glossary/` — Glossary v4 target
+- `tools/back-matter/sources/glossary/` — Glossary v4 target
 - `alignment/commons_bonds_open_insights_v1.0.0.md` — Insights #21 (closed), #39 (pending), #63 (queued)
 - `alignment/commons_bonds_working_principles_v1.0.0.md` — WP#10 layer-classification; WP#9 worktree-isolation
 

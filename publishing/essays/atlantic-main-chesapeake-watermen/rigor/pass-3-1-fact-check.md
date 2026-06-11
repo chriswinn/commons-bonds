@@ -1,7 +1,7 @@
 # Stage-3 Rigor Pass — Ch 3 → Atlantic main essay — Pass 3.1: Fact-check [RATIFIED + APPLIED]
 
 **Date:** 2026-05-27 (PROPOSED + RATIFIED + Phase C APPLIED same-day per Amendment C; author direction "ratify all as recommended and proposed; fire the next stage/phase when ready").
-**Status:** **RATIFIED (14 of 14 findings, all Option 1 or otherwise-recommended) + Phase C APPLIED** (10 essay-prose edits on Stage 2 feature branch commit `84d721f`; 3 bibliography additions on Pass 3.1 worktree at `research/literature/bibliography.md` §19.7; F-3.1-2 audit-error correction folded into apply discipline — see §2.F-3.1-2 correction notation below). 4 HIGH + 6 MEDIUM + 4 LOW = 14 findings; severity-strict HIGH → MED → LOW ordering; per-finding Options + Recommendation + Reasoning per v3.1 Amendment C interactive-ratification protocol. Pass 3.1 fires ALONE in this session; Pass 3.2 voice-polish advances in a separate fresh session per per-prompt serial cadence.
+**Status:** **RATIFIED (14 of 14 findings, all Option 1 or otherwise-recommended) + Phase C APPLIED** (10 essay-prose edits on Stage 2 feature branch commit `84d721f`; 3 bibliography additions on Pass 3.1 worktree at `tools/back-matter/sources/bibliography.md` §19.7; F-3.1-2 audit-error correction folded into apply discipline — see §2.F-3.1-2 correction notation below). 4 HIGH + 6 MEDIUM + 4 LOW = 14 findings; severity-strict HIGH → MED → LOW ordering; per-finding Options + Recommendation + Reasoning per v3.1 Amendment C interactive-ratification protocol. Pass 3.1 fires ALONE in this session; Pass 3.2 voice-polish advances in a separate fresh session per per-prompt serial cadence.
 
 **Ratification + Apply summary table:**
 
@@ -583,13 +583,13 @@ Both are LOW severity — convention preferences, not content divergences. A Sta
 
 **Issue:** Stage 2 audience-blind draft cites **all three** Chesapeake regional-scholarship comps in body prose. Per brief Finding 7 conditional-fire: bibliography additions for Warner + Swift + Horton fire as Pass 3.1 Phase-C housekeeping.
 
-This is not a fact-check error; it is a discipline-cascade trigger. The bibliography file ([`research/literature/bibliography.md`](../../research/literature/bibliography.md)) needs to receive three new entries under §[regional-place-writing] or equivalent section.
+This is not a fact-check error; it is a discipline-cascade trigger. The bibliography file ([`tools/back-matter/sources/bibliography.md`](../../tools/back-matter/sources/bibliography.md)) needs to receive three new entries under §[regional-place-writing] or equivalent section.
 
 **Resolution (verified):** All three comps cited in body; bibliography addition triggered per brief Finding 7 ratification.
 
 **Options:**
 
-- **Option 1: Apply bibliography additions in Phase C alongside other spot-fixes.** Add three one-line entries to [`research/literature/bibliography.md`](../../research/literature/bibliography.md) §[regional-place-writing] or appropriate section: Warner (1976) + Swift (2018) + Horton (1996). Cost: ~3 lines added to bibliography. Benefit: closes the conditional-fire flag; aligns bibliography to essay citations; cleans up Stage 5 pre-publication queue.
+- **Option 1: Apply bibliography additions in Phase C alongside other spot-fixes.** Add three one-line entries to [`tools/back-matter/sources/bibliography.md`](../../tools/back-matter/sources/bibliography.md) §[regional-place-writing] or appropriate section: Warner (1976) + Swift (2018) + Horton (1996). Cost: ~3 lines added to bibliography. Benefit: closes the conditional-fire flag; aligns bibliography to essay citations; cleans up Stage 5 pre-publication queue.
 
 - **Option 2: Defer bibliography additions to a separate housekeeping session post-Pass-3.1 ratification.** Allows Phase C to focus on essay-prose spot-fixes; bibliography fire is a different file and can batch with other bibliography additions. Cost: schedule overhead; bibliography stays out-of-sync with essay until housekeeping session fires. Benefit: cleaner Phase C scope.
 
@@ -652,7 +652,7 @@ This is not a fact-check error; it is a discipline-cascade trigger. The bibliogr
 - **Sibling Wave 1 + Wave 2 Pass 3.1 format-references:** [`publishing/essays/atlantic-ideas-pricing-honestly/rigor/pass-3-1-fact-check.md`](../../atlantic-ideas-pricing-honestly/rigor/pass-3-1-fact-check.md); [`publishing/essays/boston-review-accountability-gap/rigor/pass-3-1-fact-check.md`](../../boston-review-accountability-gap/rigor/pass-3-1-fact-check.md); [`publishing/essays/noema-commons-bonds/rigor/stage-3-comparison_2026-05-10.md`](../../noema-commons-bonds/rigor/stage-3-comparison_2026-05-10.md) (per-finding format-only reference).
 - **Outreach packets** (citation-accuracy verification anchors): [`research/outreach/subjects/colden/`](../../research/outreach/subjects/colden/); [`research/outreach/subjects/phat/`](../../research/outreach/subjects/phat/); [`research/outreach/subjects/biggie/`](../../research/outreach/subjects/biggie/); [`research/outreach/subjects/cbf/`](../../research/outreach/subjects/cbf/).
 - **Named-subject consent discipline:** [`tools/memory/feedback_named_subject_consent.md`](../memory/feedback_named_subject_consent.md); Phat anonymization ratified worked example 2026-05-20.
-- **Bibliography** (for F-3.1-14 conditional-fire): [`research/literature/bibliography.md`](../../research/literature/bibliography.md).
+- **Bibliography** (for F-3.1-14 conditional-fire): [`tools/back-matter/sources/bibliography.md`](../../tools/back-matter/sources/bibliography.md).
 - **Cascade plan + cross-thread-todos:** [`publishing/essays/_pipeline/cascade-plan_v2_2026-05-24.md`](../../publishing/essays/_pipeline/cascade-plan_v2_2026-05-24.md); [`publishing/essays/_pipeline/cross-thread-todos.md`](../../publishing/essays/_pipeline/cross-thread-todos.md).
 
 ---
@@ -674,7 +674,7 @@ This is not a fact-check error; it is a discipline-cascade trigger. The bibliogr
 ## §6. End-of-session status
 
 ```
-STATE: RATIFIED + APPLIED (14 of 14 findings: 4 HIGH + 6 MEDIUM + 4 LOW; all ratified Option 1 or otherwise-recommended 2026-05-27 via author direction "ratify all as recommended and proposed; fire the next stage/phase when ready"; Phase C apply complete same-session — 10 essay-prose edits on Stage 2 feature branch commit 84d721f + 3 bibliography additions at research/literature/bibliography.md §19.7 + 4 NO-CHANGE per disposition; F-3.1-2 audit-error correction documented in status-table notation)
+STATE: RATIFIED + APPLIED (14 of 14 findings: 4 HIGH + 6 MEDIUM + 4 LOW; all ratified Option 1 or otherwise-recommended 2026-05-27 via author direction "ratify all as recommended and proposed; fire the next stage/phase when ready"; Phase C apply complete same-session — 10 essay-prose edits on Stage 2 feature branch commit 84d721f + 3 bibliography additions at tools/back-matter/sources/bibliography.md §19.7 + 4 NO-CHANGE per disposition; F-3.1-2 audit-error correction documented in status-table notation)
 NEXT: Pass 3.2 voice-polish — fresh session per per-prompt serial cadence. Stage 2 essay file remains on feature branch claude/ch3-atlantic-main-stage2-draft-260527-9fddf1 (commit 84d721f) awaiting full Stage 3 cascade + author final ratification at sign-off gate per CLAUDE.md merge-to-main extended 2026-05-24 (end-user-facing prose stays on feature branch).
 AWAITING: Pass 3.2 voice-polish fresh-session firing (paste-text construction by PM session or author-direct; not gated by this artifact).
 ```

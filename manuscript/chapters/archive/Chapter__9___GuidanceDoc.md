@@ -4,7 +4,7 @@
 
 **Consolidated 2026-04-30** by Insight #37 separation pass (Thread β.1) — folds Draft scaffolding (closing meta-notes block from Claude to Chris) into the existing GuidanceDoc.
 
-**Staleness disclaimer (2026-04-30; updated 2026-05-08):** This file accumulates content across earlier dates → 2026-04-30. **Title regression RESOLVED 2026-05-08** — body content updated to "Chapter 9 (Pricing Honestly) [former working title: The Renewable Imperative]" + "CHAPTER 9: PRICING HONESTLY [former working title: THE RENEWABLE IMPERATIVE]" so historical provenance preserved while current chapter title (per Insight #22 ratification 2026-04-27) is accurate. Sections from earlier dates may also reference **retired vocabulary** (8-tier scheme retired 2026-04-24 per Insight #21 + #63; AIT renamed to CIT 2026-04-24; Dynastic Labor Cost renamed to Lineage Labor Cost 2026-04-30 per Insight #56; FGC retired; Universality Test retired; Value Capture retired in favor of Value Extraction; Spatial Cost Severance + Temporal Cost Severance reframed) or **superseded direction**. Per Insight #23: Community Transition Reserve mention in Ch 9 line 125 was integrated 2026-04-27 in Book-2-mention-free form per Insight #24 ratification. Verify against current state (`core/terms/terms_index.md` + `alignment/commons_bonds_open_insights_v1.0.0.md`) before applying.
+**Staleness disclaimer (2026-04-30; updated 2026-05-08):** This file accumulates content across earlier dates → 2026-04-30. **Title regression RESOLVED 2026-05-08** — body content updated to "Chapter 9 (Pricing Honestly) [former working title: The Renewable Imperative]" + "CHAPTER 9: PRICING HONESTLY [former working title: THE RENEWABLE IMPERATIVE]" so historical provenance preserved while current chapter title (per Insight #22 ratification 2026-04-27) is accurate. Sections from earlier dates may also reference **retired vocabulary** (8-tier scheme retired 2026-04-24 per Insight #21 + #63; AIT renamed to CIT 2026-04-24; Dynastic Labor Cost renamed to Lineage Labor Cost 2026-04-30 per Insight #56; FGC retired; Universality Test retired; Value Capture retired in favor of Value Extraction; Spatial Cost Severance + Temporal Cost Severance reframed) or **superseded direction**. Per Insight #23: Community Transition Reserve mention in Ch 9 line 125 was integrated 2026-04-27 in Book-2-mention-free form per Insight #24 ratification. Verify against current state (`tools/back-matter/sources/terms_index.md` + `alignment/commons_bonds_open_insights_v1.0.0.md`) before applying.
 
 **[PER-SECTION STALENESS AUDIT 2026-05-08]**
 
@@ -22,7 +22,7 @@
 - `Chapter__9_PricingHonestly__Draft.md` — publisher-facing prose.
 - `alignment/commons_bonds_working_principles_v1.0.0.md` — WP#10 + WP#8.
 - `alignment/commons_bonds_open_insights_v1.0.0.md` — Insight #22 (Ch 9 title rename to "Pricing Honestly"); Insight #23 (CTR Book-1-vs-Book-2 boundary, ratified 2026-04-27); Insight #24 (Book 2 references removed from Book 1, ratified 2026-04-27); Insight #38 (Phase 2 Foreclosure Bond housing-crisis collision, ratified 2026-04-29 — Ch 9 bridge prose at Foreclosure Bond first-introduction; v1 DRAFT awaits author voice refinement).
-- `core/terms/terms_index.md` — current canonical vocabulary.
+- `tools/back-matter/sources/terms_index.md` — current canonical vocabulary.
 
 ---
 

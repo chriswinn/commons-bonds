@@ -1,6 +1,6 @@
 # Technical Appendix v0.0.5 — Supplement (HISTORICAL RECORD — superseded by v1.0.0 in-HTML 2026-04-27)
 
-> **RETIREMENT NOTE (2026-04-27):** This supplement was superseded by `manuscript/technical-appendix/TechnicalAppendix_v1.0.0.html` (the v1.0.0 in-HTML rewrite per Open Insight #21 Path B). The supplement's §2–§7 new-section drafts have been integrated into the v1.0.0 HTML directly; this file is preserved as historical record per Principle #4 Tier-2 discipline. Its terminology (e.g., "canonical-source-of-truth pointer," "Canonical v10") reflects pre-2026-04-27 framing and should not be used as a current reference; for current vocabulary status see `core/terms/terms_index.md`. For current Tech Appendix content, see `manuscript/technical-appendix/TechnicalAppendix_v1.0.0.html`.
+> **RETIREMENT NOTE (2026-04-27):** This supplement was superseded by `manuscript/technical-appendix/TechnicalAppendix_v1.0.0.html` (the v1.0.0 in-HTML rewrite per Open Insight #21 Path B). The supplement's §2–§7 new-section drafts have been integrated into the v1.0.0 HTML directly; this file is preserved as historical record per Principle #4 Tier-2 discipline. Its terminology (e.g., "canonical-source-of-truth pointer," "Canonical v10") reflects pre-2026-04-27 framing and should not be used as a current reference; for current vocabulary status see `tools/back-matter/sources/terms_index.md`. For current Tech Appendix content, see `manuscript/technical-appendix/TechnicalAppendix_v1.0.0.html`.
 
 ---
 
@@ -35,7 +35,7 @@ The HTML file `TechnicalAppendix_v0.0.5.html` is `TechnicalAppendix_v0.0.4.html`
 | FGC | 15 | RETIRED (8-tier-vintage acronym) — context-meaning shifts per occurrence | NOT swept (passage rewrite required, not string substitution). Phase B Tech Appendix authoring pass — replace with Foreclosure Cost (C₁) or appropriate tier-name spelled out per local context. |
 | Universality Test | 1 | RETIRED — replaced by structural-vs-topical pairing diagnostic (no single named referent). | NOT swept (passage rewrite required). Phase B Tech Appendix authoring pass. See rigor pass `commons_bonds_rigor_pass_2026-04-24_term_universality_test_re_examination_v1.0.0.md`. |
 
-**Reading-discipline note for v0.0.5 HTML:** Wherever the HTML references FGC / "Universality Test", read those passages with the reader-correction in mind. Phase B authoring pass will rewrite the affected sections. CSG references have been swept inline as of M12 sweep. Until then, this supplement + `core/glossary/archive/commons_bonds_updated_glossary_v3.html` + `core/terms/terms_index.md` are canonical-source-of-truth.
+**Reading-discipline note for v0.0.5 HTML:** Wherever the HTML references FGC / "Universality Test", read those passages with the reader-correction in mind. Phase B authoring pass will rewrite the affected sections. CSG references have been swept inline as of M12 sweep. Until then, this supplement + `tools/back-matter/sources/glossary/archive/commons_bonds_updated_glossary_v3.html` + `tools/back-matter/sources/terms_index.md` are canonical-source-of-truth.
 
 ---
 
@@ -225,7 +225,7 @@ This positioning:
 **Source rigor passes:**
 - CIT rename: `commons_bonds_rigor_pass_2026-04-24_term_cit_rename_v1.0.0.md` (commit `b294c79`)
 - Four Gates cluster: `commons_bonds_rigor_pass_2026-04-24_four_gates_cluster_v1.0.0.md` (commit `d188e6f`)
-- Worked examples: `core/methodology/cit_examples_v1_0_0.md` (commit `9ab3dc2`)
+- Worked examples: `alignment/methodology/cit_examples_v1_0_0.md` (commit `9ab3dc2`)
 
 ### §6.1 Two sub-forms
 
@@ -287,7 +287,7 @@ Per the Four Gates cluster rigor pass, a commons-extraction-cost claim is admitt
 
 ### §6.3 Worked examples
 
-Seven canonical CIT applications worked end-to-end through the Four Gates are documented in `core/methodology/cit_examples_v1_0_0.md`:
+Seven canonical CIT applications worked end-to-end through the Four Gates are documented in `alignment/methodology/cit_examples_v1_0_0.md`:
 - McDowell coal (Spatial + Habitability + Ecosystem activations)
 - Commute trade (Temporal + Cohesion activations)
 - Norwegian oil (Habitability + Ecosystem; passes Hotelling-Identity test)
@@ -351,12 +351,12 @@ The framework's current **Open Insights** queue (in `alignment/commons_bonds_ope
 
 | Document | Relationship |
 |---|---|
-| `core/glossary/archive/commons_bonds_updated_glossary_v3.html` | Canonical glossary v3 (commit `5123da6`) — Ring 1 / Ring 2 / Architecture / Commons Categories / Retired Terms |
-| `core/terms/terms_index.md` | Provenance source-of-truth for every term's origin, status, retire/rename history |
+| `tools/back-matter/sources/glossary/archive/commons_bonds_updated_glossary_v3.html` | Canonical glossary v3 (commit `5123da6`) — Ring 1 / Ring 2 / Architecture / Commons Categories / Retired Terms |
+| `tools/back-matter/sources/terms_index.md` | Provenance source-of-truth for every term's origin, status, retire/rename history |
 | `core/dimensions/commons_bonds_abundance_dimensions_v1_3_0.md` | Methodology doc v1.4.0 (commit `00e877b`) — Tier-1 reframed for Option C' commons-as-structural-identity |
 | `tools/commons_bonds_rigor_protocol_v2.2.0.md` | Rigor protocol v2.4.0 (commit `4304cb5`) — AIT→CIT swept; M12 module preserved |
-| `core/methodology/cit_examples_v1_0_0.md` | Seven worked CIT examples through Four Gates |
-| `research/literature/bibliography.md` | Bibliography (commit `f96158a`) — load-bearing citations for all v0.0.5 new sections |
+| `alignment/methodology/cit_examples_v1_0_0.md` | Seven worked CIT examples through Four Gates |
+| `tools/back-matter/sources/bibliography.md` | Bibliography (commit `f96158a`) — load-bearing citations for all v0.0.5 new sections |
 | `alignment/commons_bonds_working_principles_v1.0.0.md` | Working Principles 1-6 |
 | `alignment/commons_bonds_open_insights_v1.0.0.md` | Open Insights queue (#10-#20) |
 | `alignment/sessions/commons-bonds-session-handoff-2026-04-24_v1.42.0.html` | Session handoff capturing the day's ~50+ commits |

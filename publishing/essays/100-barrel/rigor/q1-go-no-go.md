@@ -25,7 +25,7 @@ Book-success criteria evaluated against:
 - **Workstream handoff:** `tools/workstream-handoffs/archive/100-barrel-essay-handoff_2026-05-11.md`.
 - **Cascade plan:** `publishing/essays/_pipeline/archive/cascade-plan_2026-05-06.md` (12-month sequence; venue allocation; Wave 1 green-light rule; comp-titles).
 - **Cross-thread state:** `publishing/essays/_pipeline/cross-thread-todos.md` (item #4 Atlantic Ideas vs. PW; item #1 Sarah Chalfant agent confirmation; item #7 GDPR / interview-protocol gaps).
-- **Framework apparatus inventory:** `core/terms/terms_index.md` §3 (Ring-1 7 terms; Ring-2 mechanism + measurement + sub-instruments; cost-component examples; methodological apparatus).
+- **Framework apparatus inventory:** `tools/back-matter/sources/terms_index.md` §3 (Ring-1 7 terms; Ring-2 mechanism + measurement + sub-instruments; cost-component examples; methodological apparatus).
 - **FPD v1.0.0:** `alignment/commons_bonds_framework_positioning_disciplines_v1.0.0.md` (Goal alignment; success-criterion vocabulary-adoption-at-scale).
 - **Existing essay portfolio:**
   - Aeon Version C pitch (300w, Ch 7-derived): `publishing/essays/aeon-mask-of-abundance/_archive/prior-versions/aeon-pitch-commons-bonds-winn_VERSION-C.md`
@@ -42,7 +42,7 @@ Book-success criteria evaluated against:
 
 ## 2. Framework apparatus inventory (for dimension-(a) reveal-percentage estimation)
 
-Per `core/terms/terms_index.md` §3 and recent ratification commits:
+Per `tools/back-matter/sources/terms_index.md` §3 and recent ratification commits:
 
 **Ring-1 (7 terms):** Commons Bonds · Cost Severance · Severed Cost · Value Extraction · Commons Inversion Test (CIT) · Residual Commons Value (RCV) · Cost (Cᵢ).
 
@@ -293,7 +293,7 @@ If either condition fails:
 - **Source material:** `archive/_OneDayMaybe/withdrawn-essays/draft2_withdrawn-noema_2026-05-01.md` §III (lines 66–126)
 - **Cascade plan:** `publishing/essays/_pipeline/archive/cascade-plan_2026-05-06.md`
 - **Cross-thread #4 (Atlantic Ideas vs. PW):** `publishing/essays/_pipeline/cross-thread-todos.md`
-- **Framework apparatus inventory:** `core/terms/terms_index.md` §3
+- **Framework apparatus inventory:** `tools/back-matter/sources/terms_index.md` §3
 - **FPD v1.0.0:** `alignment/commons_bonds_framework_positioning_disciplines_v1.0.0.md`
 - **Existing essay portfolio:**
   - `publishing/essays/aeon-mask-of-abundance/_archive/prior-versions/aeon-pitch-commons-bonds-winn_VERSION-C.md`
