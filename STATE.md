@@ -52,7 +52,7 @@ polish (redraft campaign) → agent-query Wave 1 fires ~Jun 24 – Jul 1 (cascad
 |---|---|
 | Essay redraft fleet (6 pieces + PB fix) | `Workflow({scriptPath: ".../essay-redraft-fleet-wf_64743ae8-516.js", resumeFromRunId: "wf_64743ae8-516"})` — landed pre-pause: 6 amended briefs, atlantic-ideas A+B, atlantic-main A+B, harpers A drafts; missing: harpers B, nyrb A/B, both op-eds A/B, 3 judges, PB fix-apply |
 | Noema redraft (path c ratified) | `Workflow({scriptPath: ".../noema-redraft-wf_9faefe26-a6c.js", resumeFromRunId: "wf_9faefe26-a6c"})` — nothing landed (brief+drafts all hit limit) |
-| Ch 4/6/7/8/9 redo promotions | All five compares PROPOSED on disk (verdicts: Ch4 A+foldin · Ch6 B+foldin · Ch7 B+foldin (A disqualified incomplete) · Ch8 A+foldin · Ch9 A+foldin; every canonical FAILS its gate) — author ratification queue, NOT Wave-1-blocking |
+| Ch 4/6/7/8/9 redo promotions | All five compares PROPOSED on disk (verdicts: Ch4 A+foldin · Ch6 B+foldin · Ch7 B+foldin (A disqualified incomplete) · Ch8 A+foldin · Ch9 A+foldin; every canonical FAILS its gate) — author ratification queue, NOT Wave-1-blocking. **Ch 6 rebuild prerequisite READY 06-11:** unified-triple sunset ratified + §9.5 cross-check numbers settled (engine-verified 24/24); durable handoff at `tools/workstream-handoffs/ch6-rebuild-settled-numbers-handoff_2026-06-11.md` (author: Ch 6 work resumes post-Wave-1 or token reset) |
 | FA redraft brief | Fires on Ch 4 promotion (fork option c ratified) |
 | Reef §11.12 merge | Branch `claude/ta-reef-migration-260611-ae0141` (63e72f7) one-click mergeable; MERGE-HOLD = 3 author calls (Wilberg/Woods bib; §10.2 census; Thm 10.1b note) |
 
