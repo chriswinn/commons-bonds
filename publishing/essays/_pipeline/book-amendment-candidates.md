@@ -224,4 +224,69 @@ without an explicit author-ratified book-amendment session.
   = **"across the 1980s"** framing, hard year pending a primary source). **Cascade AUTHORIZED** to
   execute across the still-unfixed artifacts (Technical Appendix §11.1/§11.6/§9.5/§11.11, Ch6, Ch2,
   canonical `op-ed.md` [2.86 factor — highest exposure], 2026-05-11 consistency inventory, Ch8
-  pre-pub queue) as part of the book-redraft phase.
+  pre-pub queue) as part of the book-redraft phase. *(Note 2026-06-10: the IPG values in this
+  status line reflect the 2026-06-04 ratification and were themselves superseded 2026-06-09 —
+  "33–122×" retired → lens-explicit set; mine-mouth sharpened to $4.71. The ledger is the live
+  source of truth.)*
+
+## Candidate 8 — Rent capture: state the necessary-but-not-sufficient refinement explicitly (Ch 4 / Ch 9)
+
+- **Surfaced:** 2026-06-10, author pushback in the book-proposal-sprint session on the
+  2026-06-09 closeout's retirement of the Norway rent-capture framing ("That seems like a
+  natural thing that we should at least mention/acknowledge/address in this book"), reconciled
+  by session analysis against the closeout record + current TA text.
+- **What the closeout actually retired (narrow, and correct):** one attribution inside the
+  Method-3 backtest arithmetic — "Norway's CS-reduction = 16% / $48/BOE rent captured." The
+  re-derivation found the model-true mechanism is **irreversibility-reduction** (the GPFG
+  preserves restoration optionality; α moves from ~1 toward ~0.50–0.75). The rent-flows
+  quantity was **relocated, not deleted**: it is now the Method-2 realized-bond reading
+  (**B̂_M2**, TA §3.4, symbol registry 2026-06-10). Slot discipline per
+  `tools/memory/feedback_quantitative_apparatus_peer_review_defense.md` — capture-flows data
+  measures what was *posted*, not what the posting *does*.
+- **What survives in the TA already (verified 2026-06-10 against TA text):** the Hotelling
+  Identity (§4); "capture the rent appropriately (sovereign-fund accumulation; depletion-rate
+  discipline)"; "rent under honest accounting flows to B₂ instrument; Hartwick rule 1977 —
+  invest resource rents"; per-BOE rent-capture quantities (~$30–40/BOE current basis). The
+  machinery is intact; what is missing is the **explicit chapter-prose statement** of the
+  refinement.
+- **The candidate amendment:** the book should address rent capture *prominently* — standard
+  vocabulary (Hotelling rents; Hartwick's rule; the framework's own Hotelling Identity), as
+  the **enabling instrument** — and then state the framework's refinement as an explicit
+  claim: **rent capture is necessary but not sufficient.** Capture gets the money into public
+  hands; what discharges the severance is what the captured rent is *converted into* — a
+  reserved, compounding instrument posted against the future (the B₂ posting; the Hartwick
+  conversion; irreversibility-reduction in the model's terms). A state that captures 100% of
+  rents and spends them on current consumption leaves future generations with no resource AND
+  no fund — CS unchanged.
+- **The Nigeria sharpening (strengthens Ch 4's existence proof):** Nigeria's federation
+  captured substantial oil rent; it was dissipated rather than reserved, and the Delta
+  absorbed the externalities anyway. The Norway/Nigeria variable is not
+  capture-versus-no-capture; it is **capture-then-reserve versus capture-then-dissipate**
+  (plus externality internalization). The retired framing ("capture → CS reduced") would have
+  blurred the book's own central contrast; the refinement sharpens it.
+- **Why it matters:** economist reviewers think in Hotelling rents — a Norway treatment
+  without rent language reads as naivety; "capture is necessary but not sufficient, and here
+  is the case pair proving it" reads as a contribution. The Mazzucato comp lineage (rent
+  central to *The Value of Everything*) makes rent vocabulary load-bearing for positioning.
+  And the explicit statement inoculates against misreading the 2026-06-09 retirement as "the
+  framework ignores rent."
+- **Threshold assessment:**
+  - (a) Rigor + clarity gain: yes — sharpens the mechanism attribution (capture ≠ discharge)
+    and states a claim the framework already proves but does not say in trade register.
+  - (b) Does the book already convey it? Partially — Ch 4 walks the capture architecture and
+    Ch 9 carries Hartwick/sovereign-wealth prescriptions, but the
+    necessary-but-not-sufficient claim is not stated as such. Additive. (Verify Ch 4/Ch 9
+    current text at amendment time.)
+  - (c) Cross-chapter coherence: low risk — refines rather than moves the Ch 4 contrast;
+    aligns chapter prose with the already-ratified TA mechanism attribution.
+- **Book action (held):** Ch 4 (architecture walk — state the refinement where the
+  Norway/Nigeria contrast lands) + Ch 9 (Hotelling Identity paragraph + sovereign-wealth
+  prescriptions). **Also an input to the Stage 1 brief of the in-flight reverse-CSD chapter**
+  if it touches Norway (the B̂_M2 realized-bond reading is the natural place the refinement
+  becomes visible in the bidirectional identity). Proposal side: no change needed — §00
+  already carries the capture-then-reserve framing ("assets reserved from the country's oil
+  rents").
+- **Status:** LOGGED — **RECOMMENDED** (session analysis 2026-06-10) + **PROPOSED** (author
+  direction 2026-06-10: "please log as recommended and proposed"). Held for the
+  book-amendment session / chapter-redraft phase per the class-boundary flag
+  (chapter prose = merge-on-ratification).
