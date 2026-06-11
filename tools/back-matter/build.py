@@ -605,7 +605,7 @@ def cmd_gen_ta_notation():
     t = t.replace("  <main>\n", "  <main>\n" + section, 1)
     if "#sec-0-notation" not in t:
         toc = ('    <li>\n     <a href="#sec-0-notation">\n      &sect;0. Notation &amp; Symbols\n     </a>\n'
-               '     <div class="toc-annotation">\n      Every formula symbol, listed once (generated from the symbol registry).\n     </div>\n    </li>\n')
+               '     <div class="toc-annotation">\n      Every formula symbol, listed once.\n     </div>\n    </li>\n')
         t = t.replace("   </ol>\n  </nav>", toc + "   </ol>\n  </nav>", 1)
     open(TA_HTML, "w", encoding="utf-8").write(t)
     print("spliced \u00a70 Notation into the TA (%d symbols; TOC entry ensured)" % len(uniq))

@@ -12,7 +12,7 @@
 # fixed the pattern. Allowlists support per-file substantive-use exceptions.
 
 schema_version: "1.0.0"
-last_updated: "2026-05-17"
+last_updated: "2026-06-11"
 registry_type: "regressed"
 
 # Categories:
@@ -181,7 +181,10 @@ patterns:
       pass: "Ch 1 Pass 2 voice-polish (F-V13)"
       commit: "7b4aa92"
       ratified: "2026-05-15"
-    allowlist: []
+    allowlist:
+      - file: "manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html"
+        line: 2707
+        rationale: "Legitimate temporal meaning in the CIT formal statement, not the bureaucratic tic"
 
   - id: regressed-declarative-three-negation-affirmation
     pattern: 'It (does not|is not) [^.]+\. It (is not|does not) [^.]+\. It is'
@@ -275,7 +278,10 @@ patterns:
     origin:
       pass: "Ch 6 Pass 2 voice-polish (F-V5)"
       commit: "(Phase C-γ for Ch 6; verify when applied)"
-    allowlist: []
+    allowlist:
+      - file: "manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html"
+        line: 6815
+        rationale: "Single TA use; the near-duplicate pattern targets chapter-side repetition"
 
   # ===========================================================
   # Category 3: Cross-chapter consistency commitments (canonical numerical anchors)
@@ -763,6 +769,197 @@ patterns:
   # The per-chapter retrofit workstreams (per pipeline doctrine §9) include
   # registry expansion as a deliverable.
 
+
+  # ===========================================================
+  # Category: deprecated-term — retired framework vocabulary
+  # Origin: TA regression sweep 2026-06-11 (tools/audits/ta-regression-sweep_2026-06-11.md).
+  # The "Seven Abundance Dimensions" class: retired construct vocabulary
+  # smuggled forward as baggage. Glossary v4 retired-section is the authority.
+  # ===========================================================
+
+  - id: regressed-term-abundance-dimension
+    pattern: 'Abundance Dimension'
+    type: substring
+    severity: HIGH
+    category: deprecated-term
+    description: "Retired 2026-04-24 construct-label; live vocabulary = commons categories (abundance is a per-commons quantity, Def 1.1)"
+    allowlist: []
+
+  - id: regressed-term-dimensions-of-abundance
+    pattern: 'dimensions of abundance'
+    type: substring
+    severity: HIGH
+    category: deprecated-term
+    description: "Dimension-as-construct framing for commons; retired with the ten-dimensions framework"
+    allowlist: []
+
+  - id: regressed-term-csg
+    pattern: 'Civilizational Substitutability Gap'
+    type: substring
+    severity: HIGH
+    category: deprecated-term
+    description: "Retired capitalized term; live prose form = existential substitutability gap"
+    allowlist: []
+
+  - id: regressed-term-arp
+    pattern: '[Aa]symmetric [Rr]egret [Pp]rinciple'
+    type: regex
+    severity: HIGH
+    category: deprecated-term
+    description: "ARP superseded by Asymmetric Regret Rule (Principle overclaimed)"
+    allowlist: []
+
+  - id: regressed-term-triangulated-rcv
+    pattern: 'Triangulated RCV'
+    type: substring
+    severity: HIGH
+    category: deprecated-term
+    description: "Renamed to Three Ways of Counting"
+    allowlist: []
+
+  - id: regressed-term-dynastic-labor
+    pattern: 'Dynastic Labor'
+    type: substring
+    severity: HIGH
+    category: deprecated-term
+    description: "Renamed to Lineage Labor (class-connotation cleanup)"
+    allowlist: []
+
+  - id: regressed-term-knowledge-and-culture-cost
+    pattern: 'Knowledge and Culture Cost'
+    type: substring
+    severity: HIGH
+    category: deprecated-term
+    description: "Renamed to Knowledge and Cultural Cost"
+    allowlist: []
+
+  - id: regressed-term-reparations-bond
+    pattern: 'Reparations Bond'
+    type: substring
+    severity: HIGH
+    category: deprecated-term
+    description: "Working label renamed to Restitution Bond (B1)"
+    allowlist:
+      - file: "manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html"
+        line: 1387
+        rationale: "SUBSTANTIVE naming-history: §5.1.2 explains why the working label was rejected for Restitution Bond"
+
+  - id: regressed-term-resource-foreclosure-bond
+    pattern: 'Resource-Foreclosure Bond'
+    type: substring
+    severity: HIGH
+    category: deprecated-term
+    description: "Working label renamed to Foreclosure Bond (B2)"
+    allowlist:
+      - file: "manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html"
+        line: 1373
+        rationale: "SUBSTANTIVE naming-history heading: Why Foreclosure Bond over Resource-Foreclosure Bond"
+      - file: "manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html"
+        line: 1387
+        rationale: "SUBSTANTIVE naming-history: rejected working label reviewed against the live name"
+      - file: "manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html"
+        line: 1405
+        rationale: "SUBSTANTIVE naming-history: rationale referencing the §5.1.2 note"
+      - file: "manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html"
+        line: 7226
+        rationale: "SUBSTANTIVE §15.2 rename-candidates list: quoted as a rejected candidate"
+
+  - id: regressed-term-reversibility-default
+    pattern: 'Reversibility Default'
+    type: substring
+    severity: HIGH
+    category: deprecated-term
+    description: "Considered-and-reversed rename; final term = Asymmetric Regret Rule"
+    allowlist: []
+
+  - id: regressed-term-temporal-cost-severance
+    pattern: 'Temporal Cost Severance'
+    type: substring
+    severity: HIGH
+    category: deprecated-term
+    description: "Retired; intergenerational cost severance (lowercase) covers the cases"
+    allowlist: []
+
+  - id: regressed-term-eight-tier
+    pattern: '[Ee]ight-[Tt]ier'
+    type: regex
+    severity: HIGH
+    category: deprecated-term
+    description: "Eight-tier decomposition retired; live apparatus = Ci via Four Gates"
+    allowlist: []
+
+  - id: regressed-term-full-generational-cost
+    pattern: 'Full Generational Cost'
+    type: substring
+    severity: HIGH
+    category: deprecated-term
+    description: "FGC retired with the eight-tier decomposition"
+    allowlist: []
+
+  - id: regressed-term-cost-tiers
+    pattern: 'cost tiers?[ ]by[ ]tier|cost tiers|tier by tier'
+    type: regex
+    severity: MEDIUM
+    category: deprecated-term
+    description: "Tier vocabulary from the retired eight-tier era; live = cost components / categories"
+    allowlist: []
+
+  - id: regressed-figure-33-122
+    pattern: '33[–-]122|33&ndash;122'
+    type: regex
+    severity: HIGH
+    category: consistency-canon
+    description: "Bare IPG band RETIRED 2026-06-09; IPGs are lens-explicit (lens + price basis), never a bare multiple"
+    allowlist: []
+
+  - id: regressed-figure-50-555
+    pattern: '50[–-]555|50&ndash;555'
+    type: regex
+    severity: HIGH
+    category: consistency-canon
+    description: "DISOWNED era-mixing artifact; never use"
+    allowlist: []
+
+  - id: regressed-figure-67-134
+    pattern: '67[–-]134|67&ndash;134|67&times; to 134'
+    type: regex
+    severity: MEDIUM
+    category: consistency-canon
+    description: "Integral-lens band superseded 2026-06-10 -> 61-115x on 525ドル-540/ton (historical mentions must be explicitly labeled superseded)"
+    allowlist: []
+
+  - id: regressed-figure-580-620
+    pattern: '580[–-]620|580&ndash;620'
+    type: regex
+    severity: MEDIUM
+    category: consistency-canon
+    description: "Undocumented integral level superseded 2026-06-10 -> 525ドル-540/ton documented calibration (historical mentions must be labeled)"
+    allowlist: []
+
+  - id: regressed-meta-alternative-tested
+    pattern: 'alternative-tested'
+    type: substring
+    severity: MEDIUM
+    category: drafting-template-scaffolding
+    description: "Internal rigor-pass methodology vocabulary; reader prose says considered"
+    allowlist: []
+
+  - id: regressed-meta-academic-reviewer-depth
+    pattern: 'academic-reviewer depth'
+    type: substring
+    severity: MEDIUM
+    category: drafting-template-scaffolding
+    description: "Internal audience-register label; reader prose: the depth an academic reviewer expects"
+    allowlist: []
+
+  - id: regressed-meta-intellectual-honesty-discipline
+    pattern: 'intellectual-honesty discipline'
+    type: substring
+    severity: MEDIUM
+    category: drafting-template-scaffolding
+    description: "Internal pipeline-discipline name cited as authority in prose"
+    allowlist: []
+
 # ===== Scope configuration =====
 #
 # Same as scaffolding-patterns.yaml.
@@ -770,6 +967,7 @@ patterns:
 scope:
   include:
     - "manuscript/chapters/Chapter_*Draft*.md"
+    - "manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html"
     - "manuscript/chapters/_AUTHORSNOTE*.md"
     - "manuscript/chapters/_Dedication.md"
     # - "publishing/essays/*/essay.md"  # temporarily excluded (essay files mix audit-trail frontmatter with prose body; follow-up cleanup queued)
