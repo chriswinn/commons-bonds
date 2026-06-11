@@ -1559,7 +1559,7 @@ Version numbering:
 - **Pending-review queue:** `alignment/decisions/alternate-8-tier-individual-level-retired.md`, `alignment/decisions/ws12-ipg-data-table-for-reconciliation.md`, `alignment/decisions/april-19-*.md` (12 items).
 - **Pending canonical-file patches:** `alignment/patches/pending-framework-review/c2_scale_abstract_patch.md`, `c3_mechanism_shield_patch.md`, `c9_ait_canonical_positioning_patch.md`, `commons_bonds_rigor_vs_layers_triage_v1_0_0.md`, `commons_bonds_character_suite_vs_layers_triage_v1_0_0.md`.
 - **Chapter drafts:** `manuscript/chapters/Chapter__*_Draft.md` (8 drafted) + `Chapter__*___GuidanceDoc.md` (10 guidance docs).
-- **Technical Appendix:** `core/technical-appendix/TechnicalAppendix_v1.0.0.html` (path updated 2026-04-30 from stale v0.0.3 reference per Insight #60 scaffolding cleanup pass; v0.0.3 archived to `core/technical-appendix/archive/`).
+- **Technical Appendix:** `manuscript/technical-appendix/TechnicalAppendix_v1.0.0.html` (path updated 2026-04-30 from stale v0.0.3 reference per Insight #60 scaffolding cleanup pass; v0.0.3 archived to `manuscript/technical-appendix/archive/`).
 
 ---
 

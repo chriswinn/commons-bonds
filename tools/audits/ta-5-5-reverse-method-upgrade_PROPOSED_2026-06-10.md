@@ -4,7 +4,7 @@
 **Branch:** `claude/ta-reverse-csd-260610-4fc8d1` (post-merge continuation; main at `261273e`).
 **What this is:** the prose that writes the reverse-CSD method into the TA. The model
 is already ratified in architecture (§3.4/§3.6/§15.1.3, merged 06-10) and implemented
-computationally (`core/technical-appendix/calculations/`); §5.5 is where the backward
+computationally (`manuscript/technical-appendix/calculations/`); §5.5 is where the backward
 method gets *described*. **GATE-2-clean:** no reef numbers; no §11.12 reference as a
 computed case; the "forward by design" empirical-scope posture is untouched (the
 blast-radius reconciliation rides with §11.12 when it lands).

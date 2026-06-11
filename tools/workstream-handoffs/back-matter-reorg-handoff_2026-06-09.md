@@ -12,7 +12,7 @@
 ### Two bibliographies that diverge
 
 - **`research/literature/bibliography.md`** — standalone WORKING master (~24 sections, ~170 entries incl. agency sources §23/§24; heavy scaffolding: Status / Rigor-provenance / candidate-flags / character-notes / commit-refs). This is the SUPERSET.
-- **TA §18 Bibliography** — embedded INSIDE `core/technical-appendix/TechnicalAppendix_v2.0.0.html` (`<section id="sec-18-bibliography">`, ~180 lines, alphabetical-by-author, "academic citations only," ~3 agency mentions). Does NOT reference the standalone bib. Hand-maintained separately → drift. This is a SUBSET.
+- **TA §18 Bibliography** — embedded INSIDE `manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html` (`<section id="sec-18-bibliography">`, ~180 lines, alphabetical-by-author, "academic citations only," ~3 agency mentions). Does NOT reference the standalone bib. Hand-maintained separately → drift. This is a SUBSET.
 
 **Proof of drift (load-bearing):** the Darity longevity paper carries DIFFERENT author strings in each. The TA-provenance-resume session fixed the standalone bib to the correct **Himmelstein-lead** authorship, but **TA §18 still has the garbled "Bassett-Bell, Naa Oyo A. / David R. Williams / Darity" string.** Same error, two copies. See §Pre-reorg-divergence-flag below.
 
@@ -20,7 +20,7 @@
 
 - `core/terms/terms_index.md` (~1,915 lines) — internal term-provenance SOURCE.
 - `core/glossary/commons_bonds_updated_glossary_v{2,3,4}.html` — THREE reader-facing glossary versions (dedup to one).
-- `core/technical-appendix/symbol-registry_2026-06-07.md` — internal symbol/notation SOURCE (PROPOSED); states "the reader-facing Notation section is to be curated FROM this" — that reader-facing Notation section does NOT yet exist in the TA.
+- `manuscript/technical-appendix/symbol-registry_2026-06-07.md` — internal symbol/notation SOURCE (PROPOSED); states "the reader-facing Notation section is to be curated FROM this" — that reader-facing Notation section does NOT yet exist in the TA.
 
 ---
 
@@ -31,7 +31,7 @@ The repo already implies this pattern. Reader-facing back-matter cluster, curate
 | Order | Reader-facing output | Curated FROM (internal source) |
 |---|---|---|
 | A | Technical Appendix | (the artifact itself) |
-| B | Notation / Symbols | `core/technical-appendix/symbol-registry_2026-06-07.md` |
+| B | Notation / Symbols | `manuscript/technical-appendix/symbol-registry_2026-06-07.md` |
 | C | Glossary | `core/terms/terms_index.md` |
 | D | References / Bibliography | `research/literature/bibliography.md` (the SUPERSET — NOT the TA §18 subset) |
 

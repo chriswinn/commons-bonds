@@ -31,7 +31,7 @@ Surface-by-surface adoption check across all framework surfaces touching Three W
 5. **Glossary v3 entry** (publisher-facing glossary — term name + cross-references).
 6. **Tech Appendix v1.0.0 §3 section title** (TOC line 225 + section header line 678) — high-leverage academic-publisher-facing surface.
 7. **Tech Appendix v1.0.0 Block 4 + worked-example sections** (lines 1669, 3478, 3492, 3934, 3952, 4350, 4380) — body-text usage.
-8. **Block 4 validation document** (`core/technical-appendix/block4_validation_2026-04-25.md`) — methodological scaffolding doc.
+8. **Block 4 validation document** (`manuscript/technical-appendix/block4_validation_2026-04-25.md`) — methodological scaffolding doc.
 9. **Bibliography references** (rigor-pass file-name references using historical name — legitimate-historical, not adoption-gap).
 10. **Older rigor passes** (file-internal historical references — legitimate-historical, not adoption-gap).
 
@@ -215,7 +215,7 @@ For each surface, the audit (a) reads current state via grep + targeted Read; (b
 
 ### §4.6 Tech Appendix v1.0.0 §3 section title — ADOPTION GAP
 
-**Current state:** `core/technical-appendix/TechnicalAppendix_v1.0.0.html`:
+**Current state:** `manuscript/technical-appendix/TechnicalAppendix_v1.0.0.html`:
 
 - **Line 225 (TOC):** *"§3. RCV Quantification — Triangulated Estimation (Three Ways of Counting)"*
 - **Line 678 (section header H2):** *"§3. RCV Quantification — Triangulated Estimation (Three Ways of Counting)"*
@@ -247,7 +247,7 @@ Option A is cleanest and aligns most directly with the Insight #31 ratified disc
 
 ### §4.8 Block 4 validation document
 
-**Current state:** `core/technical-appendix/block4_validation_2026-04-25.md`:
+**Current state:** `manuscript/technical-appendix/block4_validation_2026-04-25.md`:
 - Line 1: *"# Block 4 validation — Norway + Appalachian coal Three Ways estimates + sensitivity"*
 - Line 12: *"## §1. Norway calibration — Three Ways of Counting executed"*
 - Line 105: *"## §2. Appalachian coal calibration — Three Ways of Counting executed"*
@@ -365,7 +365,7 @@ This rigor pass does NOT replace external review; it produces the substrate that
 
 ### §7.3 Downstream artifacts (this pass would update on ratification)
 
-- `core/technical-appendix/TechnicalAppendix_v1.0.0.html` lines 225 + 678 — section-title fix per §5.1 (single 2-line edit).
+- `manuscript/technical-appendix/TechnicalAppendix_v1.0.0.html` lines 225 + 678 — section-title fix per §5.1 (single 2-line edit).
 - `core/terms/terms_index.md` — append Phase 2 verdict entry; cross-reference to this rigor pass.
 - `alignment/commons_bonds_open_insights_v1.0.0.md` — new Insight # closed-ratified entry capturing Phase 2 #6 verdict (number TBD; coordinate with sibling passes).
 

@@ -1,6 +1,6 @@
 # Tech Appendix Scheme-4 Cleanup — Phase 1 Audit Inventory — 2026-05-13
 
-**Source file audited:** `core/technical-appendix/TechnicalAppendix_v2.0.0.html` (post-#15 numbering reconciliation; HEAD commit `8873347` on `origin/main` as of audit start)
+**Source file audited:** `manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html` (post-#15 numbering reconciliation; HEAD commit `8873347` on `origin/main` as of audit start)
 
 **Scope:** Locally-restarted §-symbol h4/h5 headers inside §6.6 (Worked Examples — Seven Walkthroughs) and §11.5–§11.11 (Empirical Validation Cases) + body cross-references that resolve to those local-restart labels rather than the canonical top-level §X.Y scheme.
 

@@ -10,7 +10,7 @@
 ## Framing / context
 
 - **Artifact:** Commons-definition disentanglement (TA §15.1.6 + §1.10 + light §5.5 alignment) + a reader-facing freedom-as-commons illustration (chapter, placement TBD — see §4).
-- **Destination:** `core/technical-appendix/TechnicalAppendix_v2.0.0.html` (structural treatment) + one chapter under `manuscript/chapters/` (illustration; recommendation in §4).
+- **Destination:** `manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html` (structural treatment) + one chapter under `manuscript/chapters/` (illustration; recommendation in §4).
 - **Why (book-success criterion):** Removes a months-old conflation that survived de-labeling (the "Option C/C′" scaffolding removed 2026-06-09, commit `35709f4`, left the *concepts* tangled). Peer-review integrity: the framework currently overstates its own stance ("does not define a commons") while shipping a definite ten-item list and a structural definition. Also surfaces a genuine contribution — freedom-as-commons under the same inversion logic, with a principled moral boundary on coercion-pricing.
 - **Audience:** dual — academic reviewer (economist + political philosopher) for the TA structural treatment; trade + specialist reader for the chapter illustration.
 - **Length:** TA §15.1.6 restructure ~350–550w; §1.10 reword ~150–250w; §5.5 touch minor; chapter illustration ~300–650w. Minimum floors only; substance drives length; no padding, no cutting to fit.

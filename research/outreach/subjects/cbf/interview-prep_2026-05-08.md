@@ -223,7 +223,7 @@ Per canonical Three Tiers template in `alignment/commons_bonds_framework_positio
 **Tier 1 (share freely):** Framework analytical contributions — *cost severance*, *RCV* (covers BOTH non-renewable AND renewable-past-regen — apply FPD-8 scope-explicitness consistently), two-instrument decomposition (Restitution Bond B₁ + Foreclosure Bond B₂), accounting equation Cost Severance = RCV − B, *Cost Severance Damages (CSD)* methodology, lineage extensions (Hotelling, Ostrom, Polanyi, Mazzucato, Boyce, Marx/Harvey/Klein, reparations-economics — canonical articulations in FPD doc §"Canonical framework articulations"). For CBF specifically: Ch 3 chapter scope (renewable-past-regeneration as Bay flagship); the regulatory-architecture-lagging-science thesis; the cost-bearing-paradox framing.
 
 **Tier 2 (share post-interview if asked; do NOT pre-send):**
-- Technical Appendix v1.0.0 — `core/technical-appendix/TechnicalAppendix_v1.0.0.html`
+- Technical Appendix v1.0.0 — `manuscript/technical-appendix/TechnicalAppendix_v1.0.0.html`
 - Chapter 3 working draft (when ready) — `manuscript/chapters/` (not yet drafted at time of this prep doc)
 - Chapter 6 (Three Ways of Counting) draft — `manuscript/chapters/Chapter__6_ThreeWaysofCounting__Draft.html`
 - Bibliography §19.5 (Chesapeake fieldwork sources) — `research/literature/bibliography.md`

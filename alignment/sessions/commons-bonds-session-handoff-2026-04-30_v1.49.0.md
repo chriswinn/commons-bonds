@@ -53,7 +53,7 @@ Read these to orient:
 
 THREAD β SCOPE: Insight #37 scaffolding-vs-publisher-facing separation pass first (~3-5 hrs; produces accurate publisher-facing word-count gaps). THEN Insight #36 Ch 1 + Ch 3 conversational drafting session (gated by #37 completion). THEN Ch 6 structural placement (Insight #21; ~13 placements; ~5,000 words). Ch 5 pre-submission review (FLAGGED) is a side-quest.
 
-DO NOT TOUCH (Thread α scope): core/terms/terms_index.md · core/glossary/* · core/technical-appendix/* (Tech Appendix v2.0.0 rebuild is α's batched scope; mid-stream chapter edits that cite Tech Appendix should reference current v1.0.0 not in-progress v2.0.0).
+DO NOT TOUCH (Thread α scope): core/terms/terms_index.md · core/glossary/* · manuscript/technical-appendix/* (Tech Appendix v2.0.0 rebuild is α's batched scope; mid-stream chapter edits that cite Tech Appendix should reference current v1.0.0 not in-progress v2.0.0).
 
 DO NOT TOUCH (Thread γ scope): README.md · archive/ folder structure.
 
@@ -79,7 +79,7 @@ Read these to orient:
 
 THREAD γ SCOPE: Two items — (i) Insight #61 README.md comprehensive update (full sweep beyond obvious-stale entries fixed in #60 follow-on; ~1-2 hrs); (ii) Insight #62 archive folder consolidation DECISION (decide strategy, optionally execute). Both can land in one session.
 
-DO NOT TOUCH (Thread α scope): core/terms/terms_index.md · core/glossary/* · core/technical-appendix/* · alignment/commons_bonds_working_principles_v1.0.0.md (Phase 3 + Phase 4 work) · alignment/commons_bonds_vocabulary_strategy_v1.0.1.md.
+DO NOT TOUCH (Thread α scope): core/terms/terms_index.md · core/glossary/* · manuscript/technical-appendix/* · alignment/commons_bonds_working_principles_v1.0.0.md (Phase 3 + Phase 4 work) · alignment/commons_bonds_vocabulary_strategy_v1.0.1.md.
 
 DO NOT TOUCH (Thread β scope): manuscript/chapters/* prose (drafting work).
 
@@ -128,7 +128,7 @@ Post-v1.48.0: All 8 Phase 2 flagged items resolved. All 3 Group 1 items resolved
 
 **Lead files (this thread owns):**
 - `core/terms/terms_index.md`
-- `core/technical-appendix/TechnicalAppendix_v1.0.0.html` → rebuild as `v2.0.0.html`
+- `manuscript/technical-appendix/TechnicalAppendix_v1.0.0.html` → rebuild as `v2.0.0.html`
 - `core/glossary/archive/commons_bonds_updated_glossary_v3.html` → rebuild as `v4`
 - `alignment/commons_bonds_vocabulary_strategy_v1.0.1.md` (§6 + §7 + §13 light-trace migration)
 - `alignment/commons_bonds_working_principles_v1.0.0.md` (body cleanup)
@@ -163,7 +163,7 @@ Post-v1.48.0: All 8 Phase 2 flagged items resolved. All 3 Group 1 items resolved
 
 **Success criteria:**
 - terms_index v1.0.0 committed (closes refined WP#4 implementation pending list)
-- Phase 3 commit lands `core/technical-appendix/TechnicalAppendix_v2.0.0.html` with all theorem restructures + notation discipline + §L footnotes + math apparatus integrated
+- Phase 3 commit lands `manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html` with all theorem restructures + notation discipline + §L footnotes + math apparatus integrated
 - Phase 4 commit lands `core/glossary/commons_bonds_updated_glossary_v4.html` with terms_index-derived structure
 - WP#4 implementation pending list per v1.48.0 §5.2 closes
 
@@ -204,7 +204,7 @@ Post-v1.48.0: All 8 Phase 2 flagged items resolved. All 3 Group 1 items resolved
 - Ch 2 interviews (3 INTERVIEW NEEDED placeholders) — author-only
 
 **Files NOT to touch (Thread α + γ scope):**
-- `core/terms/terms_index.md` · `core/glossary/*` · `core/technical-appendix/*` (Thread α)
+- `core/terms/terms_index.md` · `core/glossary/*` · `manuscript/technical-appendix/*` (Thread α)
 - `alignment/commons_bonds_working_principles_v1.0.0.md` · `alignment/commons_bonds_vocabulary_strategy_v1.0.1.md` (Thread α)
 - `README.md` · `archive/` folder structure (Thread γ)
 
@@ -244,7 +244,7 @@ Post-v1.48.0: All 8 Phase 2 flagged items resolved. All 3 Group 1 items resolved
 - DECISION first; execution gated by Phase 3 (α) completion
 
 **Files NOT to touch (Thread α + β scope):**
-- `core/terms/terms_index.md` · `core/glossary/*` · `core/technical-appendix/*` (Thread α)
+- `core/terms/terms_index.md` · `core/glossary/*` · `manuscript/technical-appendix/*` (Thread α)
 - `alignment/commons_bonds_working_principles_v1.0.0.md` · `alignment/commons_bonds_vocabulary_strategy_v1.0.1.md` (Thread α)
 - `manuscript/chapters/*` (Thread β)
 
@@ -312,7 +312,7 @@ Post-v1.48.0: All 8 Phase 2 flagged items resolved. All 3 Group 1 items resolved
 |---|---|---|
 | `core/terms/terms_index.md` | **α** | β/γ/δ: read-only |
 | `core/glossary/*` | **α** | β/γ/δ: read-only |
-| `core/technical-appendix/*` | **α** | β: read-only (chapter cross-references); γ/δ: read-only |
+| `manuscript/technical-appendix/*` | **α** | β: read-only (chapter cross-references); γ/δ: read-only |
 | `alignment/commons_bonds_working_principles_v1.0.0.md` | **α** | others: read-only |
 | `alignment/commons_bonds_vocabulary_strategy_v1.0.1.md` | **α** | others: read-only |
 | `archive/retirements/index.md` | **α** (additions) | γ: read-only |

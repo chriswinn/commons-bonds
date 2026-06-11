@@ -6,7 +6,7 @@
 
 **Author direction triggering this pass (2026-04-29 by Chris Winn):** confirmed (a) five separate rigor passes per Phase 2 sequence E.4 → E.1 → **E.3** → E.5 → E.2. Audit pattern confirmed by E.4 + E.1 ratifications (Insights #40 + #41).
 
-**Scope:** Phase 2 academic-rigor depth audit on **Theorem E.3 (Abundance Masking)** as currently stated in [Tech Appendix v1.0.0 §10 line 3270-3276](core/technical-appendix/TechnicalAppendix_v1.0.0.html). E.3 asserts that cost appears negligible when abundance is high but becomes visible and grows nonlinearly as abundance approaches scarcity threshold. This rigor pass tests the proof structure against academic-peer-review standards + identifies the formalization repair work required.
+**Scope:** Phase 2 academic-rigor depth audit on **Theorem E.3 (Abundance Masking)** as currently stated in [Tech Appendix v1.0.0 §10 line 3270-3276](manuscript/technical-appendix/TechnicalAppendix_v1.0.0.html). E.3 asserts that cost appears negligible when abundance is high but becomes visible and grows nonlinearly as abundance approaches scarcity threshold. This rigor pass tests the proof structure against academic-peer-review standards + identifies the formalization repair work required.
 
 **Status:** **RATIFIED 2026-04-29 by Chris Winn — verdict (a) Full ratify, expanded post-ratification 2026-04-29 to four enhancements (was three) per parallel-session findings integration:** formal mathematical derivation + notation disambiguation (S → τ) + domain restriction + citation expansion + **CIT-as-operational-corollary reframing** (parallel-session distinctive finding from `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-29_phase2_theorem_e3_circular_proof_v1.0.0.md`, retained as SUPPLEMENTARY to canonical Insight #42). Tech Appendix HTML edit timing — BATCHED into Phase 3 Tech Appendix v2.0.0 rebuild per shared open question with Insights #35 + #38 + #40 + #41 + #42 + #47 + #48 + #49 + #50 + #51 + #52 + #53. Tech Appendix-wide notation sweep (S → τ for scarcity-threshold instances) pending. See §17 for parallel-session findings integration detail.
 
@@ -578,8 +578,8 @@ For E.3 specifically: a reviewer with resource-economics + commodity-economics s
 
 ### §16.2 Downstream artifacts (this pass would update on ratification)
 
-- `core/technical-appendix/TechnicalAppendix_v1.0.0.html` §10 line 3270-3276 — restructured E.3 per §13.
-- `core/technical-appendix/TechnicalAppendix_v1.0.0.html` — sweep S → τ for scarcity threshold instances.
+- `manuscript/technical-appendix/TechnicalAppendix_v1.0.0.html` §10 line 3270-3276 — restructured E.3 per §13.
+- `manuscript/technical-appendix/TechnicalAppendix_v1.0.0.html` — sweep S → τ for scarcity threshold instances.
 - `core/terms/terms_index.md` — possibly update CIT entry to clarify CIT is methodology, not source of abundance-masking phenomenon.
 - `alignment/commons_bonds_open_insights_v1.0.0.md` — new Insight #42 closed-ratified.
 - Bibliography expansion — Hamilton 2009; Kilian 2009; Pindyck 2008; supply-elasticity microeconomics text.

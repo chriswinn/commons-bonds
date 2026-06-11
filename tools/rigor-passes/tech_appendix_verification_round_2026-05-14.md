@@ -4,7 +4,7 @@
 **Workstream:** Post-Phase-C verification of TA v2.1.0 calibration anchors against authoritative public sources
 **Trigger:** Author-requested verification round following Phase C session completion. Initial scope was F-7 Norway oil/gas split (flagged as a load-bearing working-assumption in the Phase C Track 3 commit `c5a8bf0` and reiterated as a residual judgment-call in the Phase C session-end report). Author then expanded scope: *"do a search and try to verify all questioned numbers against authoritative website public numbers."* — the same phrasing used to trigger the Ch 5 Amendment 2 + Ch 6 Amendment B verification rounds.
 
-**Target file:** [`core/technical-appendix/TechnicalAppendix_v2.0.0.html`](../../core/technical-appendix/TechnicalAppendix_v2.0.0.html) (v2.1.0, dated 2026-05-14)
+**Target file:** [`manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html`](../../manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html) (v2.1.0, dated 2026-05-14)
 
 **Outputs of this round:**
 - Verification verdicts for ten calibration anchors landed in Phase C (§11.5 Norway + §11.6 McDowell + §11.4 Baotou + §7 Gate 4 worked example) and the MEDIUM-11 coal-CO₂ cascade.
@@ -254,7 +254,7 @@ The verification methodology in this round mirrors the Ch 5 + Ch 6 Amendment B p
 
 ## §F. Block 4 validation file disposition
 
-The first-execution validation work-product [`block4_validation_2026-04-25.md`](../../core/technical-appendix/block4_validation_2026-04-25.md) was preserved per Ch 6 Pass 1 Amendment E MEDIUM-11 TA-side spec ITEM 3 path (b): **preserve historical record with caveat footnote**. Applied in commit `45eb6e3`.
+The first-execution validation work-product [`block4_validation_2026-04-25.md`](../../manuscript/technical-appendix/block4_validation_2026-04-25.md) was preserved per Ch 6 Pass 1 Amendment E MEDIUM-11 TA-side spec ITEM 3 path (b): **preserve historical record with caveat footnote**. Applied in commit `45eb6e3`.
 
 Path (b) was chosen over:
 - Path (a) — in-place figure update: would lose provenance and audit-trail value

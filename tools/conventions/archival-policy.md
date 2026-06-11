@@ -7,7 +7,7 @@ Nothing is ever deleted; archival is relocation for navigation's sake. Audit tra
 
 1. **Local `archive/` (or `_archive/`) subdir** — per-directory version history and closed
    artifacts that belong to that directory's story. Examples: `tools/workstream-handoffs/archive/`
-   (closed handoffs), `core/technical-appendix/archive/` (old TA versions),
+   (closed handoffs), `manuscript/technical-appendix/archive/` (old TA versions),
    `publishing/essays/<venue>/_archive/` (draft variants), `manuscript/chapters/archive/`
    (guidance docs, regressed drafts).
 2. **Central `/archive/`** — project-WIDE deferred or retired material that has no live home:

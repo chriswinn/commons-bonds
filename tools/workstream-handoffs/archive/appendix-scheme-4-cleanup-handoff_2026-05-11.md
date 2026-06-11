@@ -8,7 +8,7 @@
 
 ## The substantive issue
 
-The Tech Appendix at `core/technical-appendix/TechnicalAppendix_v2.0.0.html` runs a **fourth numbering scheme** at the h4 and h5 level *inside* §6.6 (Worked Examples — Seven Walkthroughs) and inside §11.5–§11.11 (Empirical Validation Cases — deep calibrations). The scheme **locally restarts the §-symbol at the start of each h3 block**, so:
+The Tech Appendix at `manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html` runs a **fourth numbering scheme** at the h4 and h5 level *inside* §6.6 (Worked Examples — Seven Walkthroughs) and inside §11.5–§11.11 (Empirical Validation Cases — deep calibrations). The scheme **locally restarts the §-symbol at the start of each h3 block**, so:
 
 - Inside §11.5 (Norway petroleum calibration): h4 reads `§1. Norway calibration`; h5s read `§1.1 Empirical anchors`, `§1.2 Method 1`, `§1.3 Method 2`, etc.
 - Inside §11.6 (Appalachian coal calibration): h4 reads `§2. Appalachian coal calibration`
@@ -131,7 +131,7 @@ Fresh feature branch `claude/appendix-scheme-4-cleanup-<harness-id>` from curren
 
 ## Reference files
 
-- `core/technical-appendix/TechnicalAppendix_v2.0.0.html` — target file
+- `manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html` — target file
 - `tools/workstream-handoffs/archive/appendix-numbering-audit-inventory_2026-05-11.md` — parent inventory (Scheme 4 documented as deferred there)
 - `tools/workstream-handoffs/archive/appendix-numbering-reconciliation-handoff_2026-05-11.md` — parent workstream handoff
 - Commits to reference: `b903f0f` (Phase 3A applied), `8f5c416` (Phase 3B Commit B with deferred-flag annotation)

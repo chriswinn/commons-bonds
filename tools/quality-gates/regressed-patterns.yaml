@@ -517,7 +517,7 @@ patterns:
       pass: "TA Pass 1 F-17"
       commit: "(pending pre-publication Pass 2 typography sweep)"
     allowlist:
-      - file: "core/technical-appendix/TechnicalAppendix_v2.0.0.html"
+      - file: "manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html"
         line: 0
         rationale: "TA §13 section-heading literal title use is canonical; LOW-severity flag is for body-text drift not heading-text"
 

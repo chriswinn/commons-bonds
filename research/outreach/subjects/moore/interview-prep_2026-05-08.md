@@ -174,7 +174,7 @@ Per the canonical Three Tiers template in `alignment/commons_bonds_framework_pos
 **Tier 1 (share freely):** Framework analytical contributions — *cost severance*, *RCV* (covering both non-renewable resources from the start AND renewable resources pushed past regenerative capacity per FPD-8 scope-explicitness), two-instrument decomposition (Restitution Bond B₁ + Foreclosure Bond B₂), accounting equation Cost Severance = RCV − B, *Cost Severance Damages (CSD)* methodology. **Lineage extensions** — keep the cross-system comparison sweep OFF the table with Moore (career-protection per §"Vocabulary discipline"). Specific lineage extensions safe to use if he asks: Hotelling, Ostrom, Boyce. Avoid Mazzucato/Marx/Harvey/Klein with Moore (they import the political-economy register that risks Soviet/socialist comparison). The Reparations-economics lineage is fine if it surfaces (Darity-Mullen mentioned by name only as part of Ch 5; not part of Ch 3).
 
 **Tier 2 (share post-interview if Moore asks; do NOT pre-send):**
-- Technical Appendix v1.0.0 — `core/technical-appendix/TechnicalAppendix_v1.0.0.html`
+- Technical Appendix v1.0.0 — `manuscript/technical-appendix/TechnicalAppendix_v1.0.0.html`
 - Chapter 3 §"Renewable past regeneration — Chesapeake fishery" excerpt (when in draft state)
 - Case-study notes from `research/case-studies/` if developed for the Chesapeake case
 - Framework one-page summary or chapter outline (offered explicitly in the Sherfinski response) — could send pre-call as a courtesy if Moore requests

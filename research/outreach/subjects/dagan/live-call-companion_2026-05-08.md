@@ -288,7 +288,7 @@ Less likely with Dagan than with a regulatory-side interlocutor; capture for com
 
 | Tier 1 — Share freely now | Tier 2 — Share post-call if Dagan asks | Tier 3 — Don't share at all |
 |---|---|---|
-| *cost severance* | Technical Appendix v1.0.0 (`core/technical-appendix/TechnicalAppendix_v1.0.0.html` — §5 Accountability Bond Decomposition is the relevant section) | Internal scaffolding (working notes, rigor passes, decision trackers, session handoffs) |
+| *cost severance* | Technical Appendix v1.0.0 (`manuscript/technical-appendix/TechnicalAppendix_v1.0.0.html` — §5 Accountability Bond Decomposition is the relevant section) | Internal scaffolding (working notes, rigor passes, decision trackers, session handoffs) |
 | *RCV* (covers non-renewable AND renewable past regen) | Chapter 9 *Pricing Honestly* draft excerpt — entering-wedges section | Other essay drafts in flight (Noema rewrite, Aeon, Berggruen) |
 | Two-instrument decomposition (B = B₁ + B₂) | **Water-deal hypothetical full doc** — `research/outreach/subjects/dagan/water-deal-hypothetical_2026-05-07.md` (heaviest artifact; likely Tier-2-share if he engages Q3 substantively) | The substantive background brief (`research/outreach/subjects/dagan/background-brief_2026-05-08.md`) — internal absorption only |
 | Accounting equation *Cost Severance = RCV − B* | ReFan / Klerenpartij comparison frame: Ch 9 + case-study notes from `research/case-studies/` if Q1 deepens | This live-call companion + the interview prep doc — internal scaffolding |

@@ -6,7 +6,7 @@
 
 **Author direction triggering this pass (2026-04-29 by Chris Winn):** confirmed (a) five separate rigor passes for the 5 theorems (E.1-E.5); sequence Claude-decided as **E.4 → E.1 → E.3 → E.5 → E.2** (lightest first as proof-of-concept; framework-central second; bigger lift third; scope-tightening fourth; categorization decision last). Insight #39 captures pre-publication external-review consideration as separate downstream gate.
 
-**Scope:** Phase 2 academic-rigor depth audit on **Theorem E.4 (Integral Convergence)** as currently stated in [Tech Appendix v1.0.0 §10 line 3279-3285](core/technical-appendix/TechnicalAppendix_v1.0.0.html). E.4 is the cleanest of the 5 theorems in current state per Phase 2 pre-audit assessment; this rigor pass tests that assessment + produces academic-peer-review-ready restatement.
+**Scope:** Phase 2 academic-rigor depth audit on **Theorem E.4 (Integral Convergence)** as currently stated in [Tech Appendix v1.0.0 §10 line 3279-3285](manuscript/technical-appendix/TechnicalAppendix_v1.0.0.html). E.4 is the cleanest of the 5 theorems in current state per Phase 2 pre-audit assessment; this rigor pass tests that assessment + produces academic-peer-review-ready restatement.
 
 **Status:** **RATIFIED 2026-04-29 by Chris Winn — verdict (a) Full ratify all three enhancements.** Tech Appendix HTML edit timing (apply restructure to v1.0.0 now vs batch into Phase 3 Tech Appendix v2.0.0 rebuild) — pending author choice on §15 Q1 (same open question as Insights #35 + #38; possibility of unified batch into v2.0.0 rebuild for all Phase 2 Tech Appendix changes).
 
@@ -592,7 +592,7 @@ This rigor pass does NOT replace external review; it produces the substrate that
 
 ### §16.2 Downstream artifacts (this pass would update on ratification)
 
-- `core/technical-appendix/TechnicalAppendix_v1.0.0.html` §10 line 3279-3285 — restructured E.4 text per §13 (or Phase 3 v2.0.0 rebuild batch).
+- `manuscript/technical-appendix/TechnicalAppendix_v1.0.0.html` §10 line 3279-3285 — restructured E.4 text per §13 (or Phase 3 v2.0.0 rebuild batch).
 - `core/terms/terms_index.md` — Phase 2 verdict entry; cross-reference to this rigor pass.
 - `alignment/commons_bonds_open_insights_v1.0.0.md` — new Insight #40 closed-ratified.
 - Bibliography expansion — Royden 1988 / Folland 1999 / Rudin 1987 (real analysis); Weitzman 2001 (already in bibliography).

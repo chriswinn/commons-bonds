@@ -21,7 +21,7 @@ This workstream builds a repeatable conversion pipeline so the question is answe
 Current draft state:
 - **9 narrative chapters as `.md`**: Ch 1, 2, 3, 4, 5, 7, 8, 9, 10 + `_AUTHORSNOTE_ON_WINDTUNNELS_AND_AI.md` + `_Dedication.md` + `_BookLevelGuidance.md`
 - **Ch 6 as `.html`** (`Chapter__6_ThreeWaysofCounting__Draft.html`): formula-rendering rationale; conversion to `.md` is a separate companion workstream candidate
-- **Tech Appendix as styled HTML**: `core/technical-appendix/TechnicalAppendix_v2.0.0.html` (7,815 lines; canonical numbering landed today)
+- **Tech Appendix as styled HTML**: `manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html` (7,815 lines; canonical numbering landed today)
 - **Glossary as styled HTML**: `core/glossary/commons_bonds_updated_glossary_v4.html`
 
 US trade publishing convention:

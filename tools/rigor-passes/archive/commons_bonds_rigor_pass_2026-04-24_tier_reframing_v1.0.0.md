@@ -315,7 +315,7 @@ Four conditions, each addressable in Phase A3 (a brief follow-on to Phase A2) or
 
 **Effort:** 2–3 days.
 
-**Where:** `core/technical-appendix/TechnicalAppendix_v0.0.4.html` Section C.4.
+**Where:** `manuscript/technical-appendix/TechnicalAppendix_v0.0.4.html` Section C.4.
 
 ### Condition 3 — Ch 8 draft restructure for variable walkthrough
 
@@ -339,7 +339,7 @@ Four conditions, each addressable in Phase A3 (a brief follow-on to Phase A2) or
 
 **Effort:** 0.5 day (decision + documentation).
 
-**Where:** `core/technical-appendix/TechnicalAppendix_v0.0.4.html` — Section L.4 (add to worked examples) and/or Section M (corollary).
+**Where:** `manuscript/technical-appendix/TechnicalAppendix_v0.0.4.html` — Section L.4 (add to worked examples) and/or Section M (corollary).
 
 ### Optional Condition 6 — Macro-grouping design decision (§5.5 side-question)
 
@@ -356,7 +356,7 @@ Four conditions, each addressable in Phase A3 (a brief follow-on to Phase A2) or
 ### §9.1 Already landed (Phase A1 / Phase A2)
 
 - `core/decomposition/eight-tier-v10.html` — Path F preamble callout landed Phase A1 Task 4 (2026-04-24, commit f227d08). Under dissolution, the doc is retired rather than strengthened.
-- `core/technical-appendix/TechnicalAppendix_v0.0.4.html` — Section C.4 currently v10-canonical. Under dissolution, restructured per Condition 2.
+- `manuscript/technical-appendix/TechnicalAppendix_v0.0.4.html` — Section C.4 currently v10-canonical. Under dissolution, restructured per Condition 2.
 - `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-24_path_f_variable_addability_v1.0.0.md` — the parallel dimension-level rigor pass that established the variable-and-gate framework this tier pass builds on.
 
 ### §9.2 Landed in this rigor pass
@@ -457,9 +457,9 @@ Ordered per dependency.
 | # | Task | Location | Depends on | Est. effort | Lands in |
 |---|---|---|---|---|---|
 | 1 | **Condition 1: Decomposition doc retirement** | `core/decomposition/eight-tier-v10.html` → archive or retirement banner | — | 0.5 day | Phase A3 |
-| 2 | **Condition 2: Section C.4 restructure** | `core/technical-appendix/TechnicalAppendix_v0.0.4.html` | — (can parallel Task 1) | 2–3 days | Phase A3 |
+| 2 | **Condition 2: Section C.4 restructure** | `manuscript/technical-appendix/TechnicalAppendix_v0.0.4.html` | — (can parallel Task 1) | 2–3 days | Phase A3 |
 | 3 | **Condition 4: Ch 6 minor update** | `manuscript/chapters/Chapter__6_ThreeWaysofCounting__Draft.html` | — (can parallel Tasks 1–2) | 0.25–0.5 day | Phase A3 |
-| 4 | **Optional Condition 5: Tier 6 / E overlap resolution** | `core/technical-appendix/TechnicalAppendix_v0.0.4.html` Section L.4 + M | Task 2 | 0.5 day | Phase A3 or deferred |
+| 4 | **Optional Condition 5: Tier 6 / E overlap resolution** | `manuscript/technical-appendix/TechnicalAppendix_v0.0.4.html` Section L.4 + M | Task 2 | 0.5 day | Phase A3 or deferred |
 | 5 | **Condition 3: Ch 8 restructure** | `manuscript/chapters/Chapter__8_WhatThingsActuallyCost_Draft.md` | Tasks 1–2 | 2–4 days | Phase A3 or Phase B Task 12 |
 | 6 | **Optional Condition 6: Macro-grouping mini-rigor-pass + multi-doc update** | Multiple docs | — (independent) | 3–5 days | Deferred unless ratified |
 

@@ -12,15 +12,15 @@ follow-up session to execute once the blockers clear.
 - `manuscript/back-matter/{bibliography,glossary,symbol-registry}.html` — clean reader-facing, generated.
 - `tools/back-matter/{build.py, citation-crossref-index.md, glossary-consolidation-ledger.md, README.md}`.
 - `research/literature/bibliography.md` — §25 fold-in (now the superset master).
-- `core/technical-appendix/symbol-registry_2026-06-07.md` — synced to merged TA.
+- `manuscript/technical-appendix/symbol-registry_2026-06-07.md` — synced to merged TA.
 - TA §18 — Himmelstein fix + unified-bib pointer.
-- `core/technical-appendix/notation-alignment-proposal_2026-06-09_PROPOSED.md` — WS3 (apply nothing).
+- `manuscript/technical-appendix/notation-alignment-proposal_2026-06-09_PROPOSED.md` — WS3 (apply nothing).
 
 ## Deferred move 1 — relocate source-of-truth files into `tools/back-matter/`
 
 Currently the sources stay in their historical homes (many live references):
 `research/literature/bibliography.md`, `core/terms/terms_index.md`,
-`core/technical-appendix/symbol-registry_2026-06-07.md`, `core/glossary/...v4.html`.
+`manuscript/technical-appendix/symbol-registry_2026-06-07.md`, `core/glossary/...v4.html`.
 **When safe:** move these under `tools/back-matter/sources/` (or co-locate), update `build.py`
 paths + every handoff/README/CLAUDE.md reference to the old paths, and re-run `gen-all` to confirm.
 Blast radius is wide (the redraft campaign + many handoffs cite `research/literature/bibliography.md`)
@@ -42,7 +42,7 @@ Keep `_BOOK_MANIFEST.md` discoverable (it is the "what is the book" authority).
 
 ## Deferred move 3 — execute the manifest's TA → `manuscript/technical-appendix/` relocation
 
-`_BOOK_MANIFEST.md` already proposes relocating `core/technical-appendix/` → `manuscript/`
+`_BOOK_MANIFEST.md` already proposes relocating `manuscript/technical-appendix/` → `manuscript/`
 (currently a symlink points back). This needs a render-toolchain + rigor-artifact + README path
 audit before executing (per the manifest). Independent of the back-matter work; sequence whenever.
 When done, the back-matter set could also sit under `manuscript/` as full book back matter (it

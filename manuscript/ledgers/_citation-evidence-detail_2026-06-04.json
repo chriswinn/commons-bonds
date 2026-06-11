@@ -645,7 +645,7 @@
   "unit": "Ch7",
   "existing_citations": [
    {
-    "source": "Commons Bonds Technical Appendix v2.0.0 (core/technical-appendix/TechnicalAppendix_v2.0.0.html), Theorem 10.3 (Abundance Masking)",
+    "source": "Commons Bonds Technical Appendix v2.0.0 (manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html), Theorem 10.3 (Abundance Masking)",
     "what_it_supports": "The claim that the framework formalizes abundance masking \u2014 the pattern by which a resource appearing unlimited goes unpriced while its borne costs flow continuously uncomputed (air, ocean fisheries, Ogallala aquifer, atmospheric carbon-absorbing capacity, soil regenerative capacity).",
     "quote_or_locator": "Ch7 line 121: 'The framework's mathematics formalizes this in Theorem 10.3 (Abundance Masking) of the Tech Appendix.' VERIFIED: TA HTML contains both 'Theorem 10.3' and 'Abundance Masking' (deep-pass memo \u00a79 item 13 confirms; independently grep-verified). This is the only verifiable inline citation in the chapter \u2014 an internal cross-reference, not an external public source."
    },

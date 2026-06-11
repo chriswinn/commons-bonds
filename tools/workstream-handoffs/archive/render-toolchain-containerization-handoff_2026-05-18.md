@@ -150,7 +150,7 @@ For HTML sources (TA), the same script handles it — wkhtmltopdf is automatical
 
 ```bash
 docker run --rm -v $(pwd):/work -w /work commons-bonds-render \
-  tools/scripts/build-derivatives-alt.sh core/technical-appendix/TechnicalAppendix_v2.0.0.html
+  tools/scripts/build-derivatives-alt.sh manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html
 ```
 
 Architecture pinning: `--platform=linux/amd64` ensures byte-level output reproducibility between local Docker + remote-container (which is x86_64). On Apple Silicon, runs under Rosetta with negligible CPU overhead (~5 seconds per render).

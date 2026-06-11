@@ -2,7 +2,7 @@
 
 **Created:** 2026-06-07 (Foundation session; work executed 2026-06-07 → 2026-06-08)
 **Branch:** `claude/ta-provenance-260607-ad2dfc` (off the HELD `claude/ta-rigor-audit-260606-f537b4`; **not merged to main** — author reviews).
-**Target file:** `core/technical-appendix/TechnicalAppendix_v2.0.0.html`
+**Target file:** `manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html`
 **Companion:** `tools/audits/ta-number-provenance-DECISION-MEMO_2026-06-07.md` (the author-judgment items NOT applied this session).
 
 ## Disciplines (carried from the resume doc + ratified this session)

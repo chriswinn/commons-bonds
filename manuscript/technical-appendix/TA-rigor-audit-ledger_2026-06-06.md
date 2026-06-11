@@ -1,7 +1,7 @@
 # Technical Appendix — Confirmed-Findings Ledger (2026-06-06)
 
 **Status: PROPOSED — no edits applied. For author review before any fix touches the file.**
-Branch `claude/ta-rigor-audit-260606-f537b4`, held from `main`. Review scope: `git diff origin/main -- core/technical-appendix/`.
+Branch `claude/ta-rigor-audit-260606-f537b4`, held from `main`. Review scope: `git diff origin/main -- manuscript/technical-appendix/`.
 
 **Method.** Loop-until-dry verification workflow (`tools/scripts/ta-rigor-verification-workflow.js`): 4 rounds, 9 diverse discovery lenses + completeness critic per round, adversarial confirm (every candidate re-derived at source / re-checked against live external source by a separate refuter). 130 agents, ~7.4M tokens. Raw: workflow `wb11ll6xt`.
 

@@ -186,7 +186,7 @@ The chapter is unusually citation-light for the density of empirical claims it m
 10. **Bostrom 2002 / 2014, MacAskill 2022, Ord 2020, FHI/CSER** (141): bibliographic citations needed.
 11. **Kimberley Process "conflict-free" premium does not reach miners** (221): needs a source for the empirical claim that the premium stays with retailer/certification infrastructure.
 12. **Ostrom's eight principles / Sen's ten capabilities / Rawls's primary goods** (109): standard, cite once.
-13. **Theorem 10.3 (Abundance Masking)** (121): cross-reference to TA — VERIFIED present in `core/technical-appendix/TechnicalAppendix_v2.0.0.html` (Theorem 10.3, Abundance Masking under Stock-Flow Framework). Clean cross-ref. CIT + ARR + Existential Substitutability Gap also confirmed present in TA. No broken-promise.
+13. **Theorem 10.3 (Abundance Masking)** (121): cross-reference to TA — VERIFIED present in `manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html` (Theorem 10.3, Abundance Masking under Stock-Flow Framework). Clean cross-ref. CIT + ARR + Existential Substitutability Gap also confirmed present in TA. No broken-promise.
 
 ---
 

@@ -193,7 +193,7 @@ For each test below, the audit (a) reads every appearance of "Externality Tail" 
 
 ### §4.1 Canonical definition (Tech Appendix §B Definition A.4)
 
-[Tech Appendix v1.0.0 line 452-455](core/technical-appendix/TechnicalAppendix_v1.0.0.html):
+[Tech Appendix v1.0.0 line 452-455](manuscript/technical-appendix/TechnicalAppendix_v1.0.0.html):
 
 > **Definition A.4 (Externality Tail)**
 >
@@ -621,9 +621,9 @@ This rigor pass does NOT replace external review; it produces the substrate that
 ### §16.3 Downstream artifacts (this pass would update on ratification)
 
 - `core/terms/terms_index.md` Externality Tail entry — insert §13.1 (a) Notational disambiguation subsection.
-- `core/technical-appendix/TechnicalAppendix_v1.0.0.html` §B Definition A.4 line 455 — replace with §13.1 (b) extended text.
+- `manuscript/technical-appendix/TechnicalAppendix_v1.0.0.html` §B Definition A.4 line 455 — replace with §13.1 (b) extended text.
 - `core/glossary/archive/commons_bonds_updated_glossary_v3.html` Externality Tail entry — append §13.1 (c) disambiguating sentence.
-- `core/technical-appendix/TechnicalAppendix_v1.0.0.html` bibliography section — Mandelbrot 1963; Taleb 2007; Embrechts et al. 1997; Anderson 2006 additions.
+- `manuscript/technical-appendix/TechnicalAppendix_v1.0.0.html` bibliography section — Mandelbrot 1963; Taleb 2007; Embrechts et al. 1997; Anderson 2006 additions.
 - `core/terms/terms_index.md` — append Phase 2 verdict entry; cross-reference to this rigor pass.
 - `alignment/commons_bonds_open_insights_v1.0.0.md` — new Insight # closed-ratified capturing Phase 2 #5 verdict (number TBD).
 

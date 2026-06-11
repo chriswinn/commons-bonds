@@ -6,7 +6,7 @@
 **Scope:** Tests the publication architecture for the framework's three primary term-bearing artifacts:
 - `core/terms/terms_index.md` (1,796 lines, 147 KB) — internal source-of-truth carrying status indicators + rigor provenance + decision history + dependency graphs per framework term.
 - `core/glossary/archive/commons_bonds_updated_glossary_v3.html` (406 lines, 39 KB) — reader-facing definitions.
-- `core/technical-appendix/TechnicalAppendix_v1.0.0.html` (7,438 lines, 302 KB) — currently dual-purpose: math + worked examples + scaffolding/rigor-trail mixed.
+- `manuscript/technical-appendix/TechnicalAppendix_v1.0.0.html` (7,438 lines, 302 KB) — currently dual-purpose: math + worked examples + scaffolding/rigor-trail mixed.
 
 Tests four interacting questions: (1) the architecture pattern (status quo vs upstream-source-of-truth vs merge); (2) per-term schema in terms_index; (3) synthesis-content boundary for Tech Appendix; (4) maintenance discipline (manual vs tooling). Per author directive 2026-04-27: *"It's probably time to make a task to merge the core/glossary and the core/terms/terms_index.md or perhaps the terms_index really needs to turn into the scaffolding for the technical appendix & the glossary?"* + ratified follow-up: *"the terms_index become the upstream source-of-truth that derives both Tech Appendix + glossary as downstream publication artifacts does seem to have a lot of merit if that's what you would suggest."*
 
@@ -102,7 +102,7 @@ Tests four interacting questions: (1) the architecture pattern (status quo vs up
 |---|---|---|---|---|
 | `terms_index.md` | core/terms/ | 1,796 lines / 147 KB | author + framework rigor process | active source-of-truth; per-term records well-structured |
 | `glossary_v3.html` | core/glossary/ | 406 lines / 39 KB | reader (general / pop) | current public-glossary; references terms_index implicitly |
-| `TechnicalAppendix_v1.0.0.html` | core/technical-appendix/ | 7,438 lines / 302 KB | academic reviewer / serious researcher | dual-purpose: math + scaffolding mixed |
+| `TechnicalAppendix_v1.0.0.html` | manuscript/technical-appendix/ | 7,438 lines / 302 KB | academic reviewer / serious researcher | dual-purpose: math + scaffolding mixed |
 
 ### §3.2 terms_index per-term template (current state)
 

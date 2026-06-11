@@ -2,7 +2,7 @@
 
 **Date:** 2026-05-18
 **Status:** PROPOSED — pending author ratification. **Amendment 2026-05-18 (post-session correction):** original verdict treated the cross-chapter rent-seeking workstream as "in flight" based on stale-memory framing in the retrofit handoff stub. Verification on 2026-05-18 (post-session) confirms: workstream **RATIFIED 2026-05-18** (commit `bc02767`) + substantive material **APPLIED to TA §1.10 line 608+** ("Scope: complementarity with Public Choice / rent-seeking analysis") via commit `a1e54d9` + parallel applications to Ch 5 line 184 + Ch 9 line 133 + Ch 8 line 123. Σ1 disposition updated from "in flight; substantive material awaits" to "APPLIED; framework's structural-disposition articulated at §1.10." T4 per-character verdict updated from ⚠⚠⚠ to ⚠⚠ (chapter-disqualifying → load-bearing-with-disposition). Overall verdict remains **CONDITIONALLY ROBUST** under strict reading of Stage 3 template Pass 3.4 verdict scale (Σ2-Σ6 + Σ9 remain common load-bearing threads). See §A Amendment block at end of artifact for full detail.
-**Scope:** `core/technical-appendix/TechnicalAppendix_v2.0.0.html` (v2.1.0 dated 2026-05-14; 8,044 lines)
+**Scope:** `manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html` (v2.1.0 dated 2026-05-14; 8,044 lines)
 **Base sha:** `3582823` (worktree branch `claude/ta-pipeline-retrofit-ecstatic-shannon-a17b5c`)
 **Workstream:** TA pipeline-retrofit (fourth and final of 4 standardization-comparison-bed retrofits)
 **Pass:** Stage 3 Pass 3.4 — Audience-Load Robustness (FIRST Pass 3.4 robustness test on TA under v3.0 framing per retrofit handoff stub §1)

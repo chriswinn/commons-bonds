@@ -26,7 +26,7 @@ originSessionId: appendix-numbering-reconciliation-2026-05-11
    - The number is part of the theorem's canonical identity, not parenthetical decoration. Math/econ writing has worked this way for a century.
 
 4. **For HTML-format chapters** (currently only Ch 6; Ch 6 → markdown conversion is a queued workstream) → **hyperlink named cross-references to appendix anchors**.
-   - Example: `<a href="../../core/technical-appendix/TechnicalAppendix_v2.0.0.html#sec-7-four-gates">Four Gates Admission Apparatus section</a>`
+   - Example: `<a href="../../manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html#sec-7-four-gates">Four Gates Admission Apparatus section</a>`
    - Zero body-prose cost; nice digital affordance. Print/PDF readers don't see it; digital readers click through.
 
 **Why.** Author asked the fresh-take question during the 2026-05-11 numbering reconciliation session: *"ignore prior ratifications; what's best for the book?"* The reasoning that emerged:
@@ -42,7 +42,7 @@ Cross-comp evidence: this is how Piketty's *Capital in the Twenty-First Century*
 
 - When writing or editing chapter prose, check the cross-reference's grammatical role: is the section name the **subject/object** of the sentence (noun → named only) or a **parenthetical pointer / "see X" construction** (citation → name + §)?
 - For theorems, lemmas, corollaries, definitions: always pair the number with the name on first use within a passage. Reuse the name alone afterward if context is clear; otherwise re-pair.
-- For HTML-format files: add hyperlinks to appendix anchors using relative paths (`../../core/technical-appendix/TechnicalAppendix_v2.0.0.html#sec-N-...`). Verify the anchor exists.
+- For HTML-format files: add hyperlinks to appendix anchors using relative paths (`../../manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html#sec-N-...`). Verify the anchor exists.
 - For markdown files: use markdown link syntax `[text](path#anchor)` if the downstream renderer supports it (Pandoc + HTML/DOCX targets do); otherwise plain text follows the same grammatical-role principle.
 - The principle applies book-wide. If a new chapter adds a cross-reference, check the grammatical role and format accordingly. If editing existing chapters and you spot a violation, normalize per this principle.
 

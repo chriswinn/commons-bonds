@@ -28,7 +28,7 @@ The scarcity_multiplier(σ) functional form is currently specified as:
 
 > scarcity_multiplier(σ) = 1 + log(1 + σ) × Hotelling_anchor
 
-[Tech Appendix v1.0.0 §10 line 866](core/technical-appendix/TechnicalAppendix_v1.0.0.html); [Method 3 sensitivity analysis 2026-04-25 §2.1](core/technical-appendix/method3_sensitivity_analysis_2026-04-25.md).
+[Tech Appendix v1.0.0 §10 line 866](manuscript/technical-appendix/TechnicalAppendix_v1.0.0.html); [Method 3 sensitivity analysis 2026-04-25 §2.1](manuscript/technical-appendix/method3_sensitivity_analysis_2026-04-25.md).
 
 It appears in Method 3 (Scarcity-Adjusted Option Value):
 
@@ -188,7 +188,7 @@ For each test below, the audit (a) reads the formula's current presentation acro
 
 ### §4.1 Canonical formal specification (Method 3 sensitivity analysis §2.1)
 
-[`core/technical-appendix/method3_sensitivity_analysis_2026-04-25.md` §2.1](core/technical-appendix/method3_sensitivity_analysis_2026-04-25.md):
+[`manuscript/technical-appendix/method3_sensitivity_analysis_2026-04-25.md` §2.1](manuscript/technical-appendix/method3_sensitivity_analysis_2026-04-25.md):
 
 > **§2.1 scarcity_multiplier(σ)**
 >
@@ -207,7 +207,7 @@ For each test below, the audit (a) reads the formula's current presentation acro
 
 ### §4.2 Tech Appendix specification (line 866)
 
-[Tech Appendix v1.0.0 §10 line 859-869](core/technical-appendix/TechnicalAppendix_v1.0.0.html):
+[Tech Appendix v1.0.0 §10 line 859-869](manuscript/technical-appendix/TechnicalAppendix_v1.0.0.html):
 
 > RCV_M3 = V_option × scarcity_multiplier(σ) × irreversibility_premium(α)
 >
@@ -623,8 +623,8 @@ Three enhancements + one correction:
 If (a) full ratify:
 1. Tech Appendix v1.0.0 HTML §10 line 866 — add §13.1 functional-form motivation note following the formula.
 2. Tech Appendix v1.0.0 HTML §10 — add §13.3 alternative-functional-form sensitivity table (new subsection within Method 3 specification).
-3. `core/technical-appendix/method3_sensitivity_analysis_2026-04-25.md` §2.1 — replace discipline-claim text per §13.2 Enhancement 2.
-4. `core/technical-appendix/method3_sensitivity_analysis_2026-04-25.md` §2.1.5 (new) — add alternative-form sensitivity table per §13.3.
+3. `manuscript/technical-appendix/method3_sensitivity_analysis_2026-04-25.md` §2.1 — replace discipline-claim text per §13.2 Enhancement 2.
+4. `manuscript/technical-appendix/method3_sensitivity_analysis_2026-04-25.md` §2.1.5 (new) — add alternative-form sensitivity table per §13.3.
 5. Bibliography expansion per §13.4 (Tech Appendix bibliography section).
 6. terms_index — add Phase 2 verdict entry; cross-reference to this rigor pass.
 7. Open Insights — new Insight # closed-ratified entry capturing Phase 2 #7 verdict (number TBD; coordinate with sibling Phase 2 + theorem-rigor passes).
@@ -666,7 +666,7 @@ This rigor pass does NOT replace external review; it produces the substrate that
 ### §16.1 Upstream rigor passes
 
 - [Phase 1 full framework audit §7.10 + §7.16 + §10 #6](commons_bonds_rigor_pass_2026-04-29_full_framework_audit_phase1_v1.0.0.md) — flagged scarcity_multiplier formula academic-defensibility for Phase 2 deeper-dive.
-- [Method 3 sensitivity analysis 2026-04-25 §2.1 + §3.4 + §6.4](core/technical-appendix/method3_sensitivity_analysis_2026-04-25.md) — current functional-form specification + sensitivity-robustness claim + open work item flag.
+- [Method 3 sensitivity analysis 2026-04-25 §2.1 + §3.4 + §6.4](manuscript/technical-appendix/method3_sensitivity_analysis_2026-04-25.md) — current functional-form specification + sensitivity-robustness claim + open work item flag.
 - [Phase 2 Theorem E.4 Integral Convergence](tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-29_phase2_theorem_e4_integral_convergence_v1.0.0.md) — RATIFIED 2026-04-29 (Insight #40); methodology template.
 - [P2#8 RCV integrand Q(t) notation-clarity](commons_bonds_rigor_pass_2026-04-29_phase2_rcv_integrand_q_notation_clarity_v1.0.0.md) — [PROPOSED] 2026-04-29; sibling Phase 2 audit; methodology-precedent.
 - [Phase 2 Foreclosure Bond housing-crisis collision](tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-29_phase2_foreclosure_bond_housing_crisis_collision_v1.0.0.md) — RATIFIED 2026-04-29 (Insight #38).
@@ -684,10 +684,10 @@ This rigor pass does NOT replace external review; it produces the substrate that
 
 ### §16.3 Downstream artifacts (this pass would update on ratification)
 
-- `core/technical-appendix/TechnicalAppendix_v1.0.0.html` §10 line 866 — add §13.1 functional-form motivation note + §13.3 alternative-form sensitivity table.
-- `core/technical-appendix/method3_sensitivity_analysis_2026-04-25.md` §2.1 — replace discipline-claim text per §13.2.
-- `core/technical-appendix/method3_sensitivity_analysis_2026-04-25.md` §2.1.5 (new) — add alternative-form sensitivity table per §13.3.
-- `core/technical-appendix/TechnicalAppendix_v1.0.0.html` bibliography section — Atkinson 1970, Cobb-Douglas 1928, Solow 1956, Bergson 1938 additions.
+- `manuscript/technical-appendix/TechnicalAppendix_v1.0.0.html` §10 line 866 — add §13.1 functional-form motivation note + §13.3 alternative-form sensitivity table.
+- `manuscript/technical-appendix/method3_sensitivity_analysis_2026-04-25.md` §2.1 — replace discipline-claim text per §13.2.
+- `manuscript/technical-appendix/method3_sensitivity_analysis_2026-04-25.md` §2.1.5 (new) — add alternative-form sensitivity table per §13.3.
+- `manuscript/technical-appendix/TechnicalAppendix_v1.0.0.html` bibliography section — Atkinson 1970, Cobb-Douglas 1928, Solow 1956, Bergson 1938 additions.
 - `core/terms/terms_index.md` — Phase 2 verdict entry; cross-reference to this rigor pass.
 - `alignment/commons_bonds_open_insights_v1.0.0.md` — new Insight # closed-ratified capturing Phase 2 #7 verdict (number TBD).
 

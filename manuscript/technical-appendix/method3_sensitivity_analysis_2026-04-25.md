@@ -214,9 +214,9 @@ This narrowing is itself a methodological contribution: by surfacing α-dominanc
 
 ## §7. Cross-references
 
-- `core/technical-appendix/archive/TechnicalAppendix_v0.0.5_supplement.md` §3.3 — Method 3 formal sketch (the spec this analysis evaluates).
-- `core/technical-appendix/archive/TechnicalAppendix_v0.0.5_supplement.md` §5 — Hotelling Identity (provides Hotelling_anchor for σ specification).
-- `core/technical-appendix/archive/TechnicalAppendix_v0.0.5_supplement.md` §7 — Asymmetric Regret Rule (companion-discipline to α-dominance finding).
+- `manuscript/technical-appendix/archive/TechnicalAppendix_v0.0.5_supplement.md` §3.3 — Method 3 formal sketch (the spec this analysis evaluates).
+- `manuscript/technical-appendix/archive/TechnicalAppendix_v0.0.5_supplement.md` §5 — Hotelling Identity (provides Hotelling_anchor for σ specification).
+- `manuscript/technical-appendix/archive/TechnicalAppendix_v0.0.5_supplement.md` §7 — Asymmetric Regret Rule (companion-discipline to α-dominance finding).
 - `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-24_three_ways_rcv_formal_model_v1.0.0.md` — Block 4 validation strategy (this sensitivity analysis is part of Block 4's specified workload).
 - `alignment/decisions/april-19-rcv-validation-strategy.md` — original validation-strategy spec.
 - `alignment/commons_bonds_open_insights_v1.0.0.md` Open Insight #20 — sensitivity-analysis execution (this document closes the analytical-sensitivity component; numerical-Monte-Carlo component remains pending under Block 4).

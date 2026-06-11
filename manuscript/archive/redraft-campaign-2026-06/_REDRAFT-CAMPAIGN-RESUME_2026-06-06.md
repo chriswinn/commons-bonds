@@ -41,4 +41,4 @@ canon ambiguity).
 5. **Critical path to literary agents:** finalize Ch1 (author redline pending) + Ch5 → the proposal/query agent (`publishing/book-proposal/`) can finally fire → first-wave reach-out. In parallel: revise the Boston-Review-rejected essay (Ch5-derived; repositioned to Public Books per the reveal snapshot) under the new pipeline → submit to next venue. Submission itself is author-gated.
 
 ## BRANCH NOTE
-Working branch: `claude/pipeline-prose-revision-corpus-audit-260602-6b5eda` (prose + scaffolding; auto-merges to main per policy). TA fixes only: `claude/ta-rigor-audit-260605` (held from main; path-scoped diff `git diff origin/main -- core/technical-appendix/` for clean author review).
+Working branch: `claude/pipeline-prose-revision-corpus-audit-260602-6b5eda` (prose + scaffolding; auto-merges to main per policy). TA fixes only: `claude/ta-rigor-audit-260605` (held from main; path-scoped diff `git diff origin/main -- manuscript/technical-appendix/` for clean author review).

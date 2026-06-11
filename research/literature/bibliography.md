@@ -1975,7 +1975,7 @@ The pinnable primary-law / regulation / agency / named-report sources from the p
 - `research/literature/commons_bonds_economic_theory_reference - consider including 6.html` — scholarly-background reference doc (complementary)
 - `tools/commons_bonds_rigor_protocol_v1.3.0.md` §11 — the 25-character pressure suite (several characters map to canonical readers from this bibliography: Character 17 Ostrom successor, Character 18 Harvey/Klein reader, Character 9 tenured economics chair, etc.)
 - `research/case-studies/` — all case study files reference this bibliography for their primary-source citations
-- `core/technical-appendix/TechnicalAppendix_v2.0.0.html` — technical appendix (scholarly engagement work happens here; path updated 2026-05-04 to current v2.0.0 filename per Phase α.2.7e rebuild commit `439b1e0`)
+- `manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html` — technical appendix (scholarly engagement work happens here; path updated 2026-05-04 to current v2.0.0 filename per Phase α.2.7e rebuild commit `439b1e0`)
 
 ---
 

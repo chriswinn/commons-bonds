@@ -166,7 +166,7 @@ The spine is sound and unusually well-engineered: a ten-chapter arc that moves f
 
 ## Technical Appendix — fold-in (2026-06-04)
 
-The Technical Appendix (`core/technical-appendix/TechnicalAppendix_v2.0.0.html`, 18 sections, ~8,000 lines) is the **formal backbone** the chapters point to: the symbol table, `CS = RCV − B` + the two-term forward/reverse form, the integral `RCV = ∫…`, IPG, the Hotelling-identity extension, B₁ (restitution) / B₂ (foreclosure) instruments, the Cᵢ components (10, illustrative), the Three Ways of Counting (triangulation), the Four Gates, theorems + proofs (10.1b structural cost severance, 10.3 abundance masking, 10.4 convergence), and worked validation (McDowell, Deepwater Horizon, Libby, Baotou, Norway).
+The Technical Appendix (`manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html`, 18 sections, ~8,000 lines) is the **formal backbone** the chapters point to: the symbol table, `CS = RCV − B` + the two-term forward/reverse form, the integral `RCV = ∫…`, IPG, the Hotelling-identity extension, B₁ (restitution) / B₂ (foreclosure) instruments, the Cᵢ components (10, illustrative), the Three Ways of Counting (triangulation), the Four Gates, theorems + proofs (10.1b structural cost severance, 10.3 abundance masking, 10.4 convergence), and worked validation (McDowell, Deepwater Horizon, Libby, Baotou, Norway).
 
 **Effect on landing-points:** several chapter-only "partial" points are MORE grounded once the appendix counts — the **two instruments**, the **three-convergent-measurement** claim, and "**honest accounting is a method, not an assertion**" are *discharged* here. Their status improves from "partial (chapters)" toward "grounded (with appendix)."
 

@@ -6,7 +6,7 @@
 
 **Author direction triggering this pass (2026-04-29 by Chris Winn):** *"Would it be possible for you to work on the other P2#3 items outside of P2#3.1 that is currently still running... Like e.g. 'Theorem E.2 Convergence of Independent Models'"* — sibling theorem-rigor session is running E.1 audit (~3 hours in at time of this pass start); reverse-priority Phase 2 sweep complete (Insights #47 + #48 + #49 + #50 ratified; P2#8 [Q(t)] [PROPOSED]); E.2 picked as parallel work because lightest of remaining theorems per E.4 rigor pass §16.3 estimate (~400-600 lines depending on Option A vs B).
 
-**Scope:** Phase 2 academic-rigor depth audit on **Theorem E.2 (Convergence of Independent Models)** as stated at [Tech Appendix v1.0.0 §10 lines 3261-3267](core/technical-appendix/TechnicalAppendix_v1.0.0.html). The audit's load-bearing decision per E.4 rigor pass §16.3: **categorization** — Option A (relabel as empirical observation) vs Option B (restructure as formal robustness theorem).
+**Scope:** Phase 2 academic-rigor depth audit on **Theorem E.2 (Convergence of Independent Models)** as stated at [Tech Appendix v1.0.0 §10 lines 3261-3267](manuscript/technical-appendix/TechnicalAppendix_v1.0.0.html). The audit's load-bearing decision per E.4 rigor pass §16.3: **categorization** — Option A (relabel as empirical observation) vs Option B (restructure as formal robustness theorem).
 
 **Status:** **RATIFIED 2026-04-29 by Chris Winn — verdict (a) Full ratify Option A (relabel as Empirical Observation E.2 (Cross-Model Convergence))** with three concrete repair enhancements per §14. Tech Appendix HTML edit timing pending author choice on §16 Q7 (same open question as Insights #35 + #38 + #40 + #47 + #48 + #49 + #50). Insight #51 closed-ratified entry added to `alignment/commons_bonds_open_insights_v1.0.0.md`.
 
@@ -634,9 +634,9 @@ This rigor pass produces Claude's assessment of E.2 categorization. Per Insight 
 
 ### §17.3 Downstream artifacts (this pass would update on ratification)
 
-- `core/technical-appendix/TechnicalAppendix_v1.0.0.html` §10 lines 3261-3267 — replace E.2 statement + proof per §14.1.
-- `core/technical-appendix/TechnicalAppendix_v1.0.0.html` §11 line 3234 + §D Section VIII line 3048 — cross-reference + case-count cleanup.
-- `core/technical-appendix/TechnicalAppendix_v1.0.0.html` bibliography section — Hong & Page 2004 *PNAS* additions; (optional) Mosteller & Tukey 1977.
+- `manuscript/technical-appendix/TechnicalAppendix_v1.0.0.html` §10 lines 3261-3267 — replace E.2 statement + proof per §14.1.
+- `manuscript/technical-appendix/TechnicalAppendix_v1.0.0.html` §11 line 3234 + §D Section VIII line 3048 — cross-reference + case-count cleanup.
+- `manuscript/technical-appendix/TechnicalAppendix_v1.0.0.html` bibliography section — Hong & Page 2004 *PNAS* additions; (optional) Mosteller & Tukey 1977.
 - Chapter prose + case study cross-references — sweep for "Theorem E.2" / "Convergence Theorem"; replace.
 - `core/terms/terms_index.md` — append Phase 2 verdict entry; cross-reference to this rigor pass.
 - `alignment/commons_bonds_open_insights_v1.0.0.md` — new Insight # closed-ratified capturing Phase 2 #3.4 verdict (number TBD).

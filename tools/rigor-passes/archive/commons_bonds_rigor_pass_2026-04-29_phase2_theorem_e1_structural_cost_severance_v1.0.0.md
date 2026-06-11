@@ -6,7 +6,7 @@
 
 **Author direction triggering this pass (2026-04-29 by Chris Winn):** confirmed (a) five separate rigor passes per Phase 2 sequence E.4 → **E.1** → E.3 → E.5 → E.2. E.1 is the framework's **central theorem** — the load-bearing claim every other theorem and instrument builds on. Phase 2 audit confirmed E.4 audit-pattern works; this rigor pass applies the pattern to substantively heavier substance.
 
-**Scope:** Phase 2 academic-rigor depth audit on **Theorem E.1 (Structural Cost Severance)** as currently stated in [Tech Appendix v1.0.0 §10 line 3249-3258](core/technical-appendix/TechnicalAppendix_v1.0.0.html). E.1 asserts the framework's foundational claim that cost severance occurs structurally (not just intentionally) under current institutions. This rigor pass tests the proof structure against academic-peer-review standards + identifies the formalization repair work required.
+**Scope:** Phase 2 academic-rigor depth audit on **Theorem E.1 (Structural Cost Severance)** as currently stated in [Tech Appendix v1.0.0 §10 line 3249-3258](manuscript/technical-appendix/TechnicalAppendix_v1.0.0.html). E.1 asserts the framework's foundational claim that cost severance occurs structurally (not just intentionally) under current institutions. This rigor pass tests the proof structure against academic-peer-review standards + identifies the formalization repair work required.
 
 **Status:** **RATIFIED 2026-04-29 by Chris Winn — verdict (a) Full ratify: split into E.1a + E.1b; adopt premises P1–P3; tighten scope; add citations.** Tech Appendix HTML edit timing (apply restructure to v1.0.0 now vs batch into Phase 3 Tech Appendix v2.0.0 rebuild) — pending author choice on §15 Q1 (same open question as Insights #35 + #38 + #40; possibility of unified batch into v2.0.0 rebuild for all Phase 2 Tech Appendix changes).
 
@@ -631,7 +631,7 @@ This rigor pass produces the substrate; external review tests it.
 
 ### §16.2 Downstream artifacts (this pass would update on ratification)
 
-- `core/technical-appendix/TechnicalAppendix_v1.0.0.html` §10 line 3249-3258 — restructured E.1a + E.1b per §13 (or Phase 3 v2.0.0 rebuild batch).
+- `manuscript/technical-appendix/TechnicalAppendix_v1.0.0.html` §10 line 3249-3258 — restructured E.1a + E.1b per §13 (or Phase 3 v2.0.0 rebuild batch).
 - `core/terms/terms_index.md` Cost Severance + RCV entries — Phase 2 verdict entry.
 - `alignment/commons_bonds_open_insights_v1.0.0.md` — new Insight #41 closed-ratified.
 - Bibliography expansion — Howarth + Norgaard 1990 (likely addition); possibly Solow 1974 explicit cite.

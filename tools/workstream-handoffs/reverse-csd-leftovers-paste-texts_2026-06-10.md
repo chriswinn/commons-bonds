@@ -4,7 +4,7 @@ Four self-contained kickoff texts. Each assumes a FRESH session with no memory o
 the originating conversation. The reverse-CSD/framework-core revision is MERGED to
 main as of 2026-06-10 (architecture "three ways count the identity"; §5.5 reverse
 method + §17.7 generativity applied; calc engine at
-`core/technical-appendix/calculations/`). Source session: `claude/ta-reverse-csd-260610-4fc8d1`.
+`manuscript/technical-appendix/calculations/`). Source session: `claude/ta-reverse-csd-260610-4fc8d1`.
 
 ---
 
@@ -28,11 +28,11 @@ READ FIRST (all on main):
    authorial note is DECLINED-CLOSED; its A1–A3 are SUPERSEDED by the applied §5.5.
 2. `tools/audits/ta-5-5-reverse-method-upgrade_PROPOSED_2026-06-10.md` — the applied
    §5.5 reverse method your §11.12 must exercise (RATIFIED+APPLIED status note).
-3. `core/technical-appendix/calculations/csd_rcv_calculations.py` Part 4 + its
+3. `manuscript/technical-appendix/calculations/csd_rcv_calculations.py` Part 4 + its
    run-output — every reef number, derivation shown, 20/20 checks PASS.
 4. `research/story-drafts/ch3-restitution-bond-numbers_2026-06-05.md` — sources +
    adversarial stress-tests.
-5. Current TA §5.5 + §11 (`core/technical-appendix/TechnicalAppendix_v2.0.0.html`).
+5. Current TA §5.5 + §11 (`manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html`).
 
 RATIFIED CONTENT DECISIONS (do not re-litigate):
 - Bond anchored at the M1 cure-cost floor ("bond only the unassailable floor"):
@@ -86,7 +86,7 @@ You are doing a small symbol-registry sync for the 2026-06-10 framework-core
 revision (merged to main). FIRST ACTION: worktree-isolate per
 `tools/drafting-templates/worktree-isolation-paste-text.md` with slug `ws2-registry-sync`.
 
-CONTEXT: WS2 last synced `core/technical-appendix/symbol-registry_2026-06-07.md` to
+CONTEXT: WS2 last synced `manuscript/technical-appendix/symbol-registry_2026-06-07.md` to
 the TA at commit `fd12275`. The framework-core revision then landed: §3.4 now defines
 **B̂_M2** (B-hat subscript M2 — the Method-2 realized-Bond reading; a strict lower
 bound on RCV, NOT an RCV estimator), and §5.5 now carries **CSD_M3** (backward
@@ -110,7 +110,7 @@ Internal scaffolding — merges to main at session close per CLAUDE.md.
 ## PASTE-TEXT 3 — Stage-4 TA markup sweep (technical-review window)
 
 You are doing a markup-hygiene-only pass on
-`core/technical-appendix/TechnicalAppendix_v2.0.0.html` (NO prose changes). FIRST
+`manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html` (NO prose changes). FIRST
 ACTION: worktree-isolate per `tools/drafting-templates/worktree-isolation-paste-text.md`
 with slug `ta-stage4-markup`.
 
@@ -163,7 +163,7 @@ THREE ITEMS:
 3. **§11.1 + §16.4 RCV-integral lens:** the $580–620/ton RCV-model estimate and the
    67–134× IPG range have NO documented calibration (U(R,t,Q) flow form, E(R,t)
    schedule, Weitzman decline path). A labeled-assumption reconstruction
-   (`core/technical-appendix/calculations/csd_rcv_calculations.py` Part 3 — read it)
+   (`manuscript/technical-appendix/calculations/csd_rcv_calculations.py` Part 3 — read it)
    reaches $526–541/ton, close but not matching. Either recover/document the original
    parameterization in the TA (a short "integral calibration" note), or re-derive the
    numbers from a documented one and cascade (§3.6 table + §9.5 + §16.4 + §11.11

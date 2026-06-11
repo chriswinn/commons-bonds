@@ -11,7 +11,7 @@ reader-facing outputs live in **`manuscript/back-matter/`** and are GENERATED fr
 INTERNAL source-of-truth (.md/.html, scaffolding kept)        →  generator  →  READER-FACING (.html, clean, anchored)
   research/literature/bibliography.md   (superset master)     →  gen-bib     →  manuscript/back-matter/bibliography.html
   core/glossary/...v4.html              (canonical glossary)  →  gen-glossary→  manuscript/back-matter/glossary.html
-  core/technical-appendix/symbol-registry_2026-06-07.md       →  gen-notation→  manuscript/back-matter/symbol-registry.html
+  manuscript/technical-appendix/symbol-registry_2026-06-07.md       →  gen-notation→  manuscript/back-matter/symbol-registry.html
 ```
 
 Reader-facing files carry **no** scaffolding: no SUPERSEDED/RETIRED/PROPOSED markers, no

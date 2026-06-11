@@ -958,7 +958,7 @@ The verdict structure is layered — author can ratify components independently:
 
 - `core/terms/terms_index.md` Cost Severance + Severed Cost entries — Rigor-provenance sections updated with Phase 2 lineage citations + verdict.
 - `manuscript/chapters/Chapter__1___Draft.md` — bridge prose extension applied per §7.4 DRAFT (or author-revised version).
-- `core/technical-appendix/TechnicalAppendix_v1.0.0.html` (or v2.0.0 if Phase 3 rebuild lands first) — §L methodological footnote on Cost Severance + Severed Cost commodification + decolonial framing.
+- `manuscript/technical-appendix/TechnicalAppendix_v1.0.0.html` (or v2.0.0 if Phase 3 rebuild lands first) — §L methodological footnote on Cost Severance + Severed Cost commodification + decolonial framing.
 - `alignment/commons_bonds_open_insights_v1.0.0.md` — new closed-ratified Insight #35 capturing Phase 2 verdict.
 
 ### §13.3 Sibling Phase 2 candidates (per Phase 1 §10)

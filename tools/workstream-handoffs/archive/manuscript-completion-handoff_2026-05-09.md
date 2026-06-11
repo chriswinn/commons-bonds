@@ -53,7 +53,7 @@ Manuscript-side work (Ch 3 drafting now complete):
 - `research/literature/bibliography.md` — especially §13 Pistor / Christophers / Susskind entries
 - `manuscript/chapters/Chapter__N_*Draft.md` — all 10 drafted chapters (9 MD + Ch 6 HTML)
 - `manuscript/chapters/Chapter__N___GuidanceDoc.md` — internal-scaffolding files (WP#10 layer-classification + staleness disclaimers)
-- `core/technical-appendix/` — Phase 3 rebuild target
+- `manuscript/technical-appendix/` — Phase 3 rebuild target
 - `core/glossary/` — Glossary v4 target
 - `alignment/commons_bonds_open_insights_v1.0.0.md` — Insights #21 (closed), #39 (pending), #63 (queued)
 - `alignment/commons_bonds_working_principles_v1.0.0.md` — WP#10 layer-classification; WP#9 worktree-isolation

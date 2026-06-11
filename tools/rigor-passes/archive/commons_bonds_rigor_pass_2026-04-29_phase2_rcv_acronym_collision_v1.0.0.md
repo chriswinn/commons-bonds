@@ -643,9 +643,9 @@ This rigor pass does NOT replace external review; it produces the substrate that
 ### §16.3 Downstream artifacts (this pass would update on ratification)
 
 - `core/terms/terms_index.md` Residual Commons Value entry — insert §13.1 (a) Notational disambiguation subsection + §13.2 First-introduction discipline subsection.
-- `core/technical-appendix/TechnicalAppendix_v1.0.0.html` §B Definition A.6 (line 467) — add §13.1 (b) parenthetical note.
+- `manuscript/technical-appendix/TechnicalAppendix_v1.0.0.html` §B Definition A.6 (line 467) — add §13.1 (b) parenthetical note.
 - `core/glossary/archive/commons_bonds_updated_glossary_v3.html` Residual Commons Value entry — append §13.1 (c) disambiguating sentence.
-- `core/technical-appendix/TechnicalAppendix_v1.0.0.html` bibliography section — Insurance Information Institute; Basel Committee 2017; Reilly 2001 (or FairVote.org).
+- `manuscript/technical-appendix/TechnicalAppendix_v1.0.0.html` bibliography section — Insurance Information Institute; Basel Committee 2017; Reilly 2001 (or FairVote.org).
 - `core/terms/terms_index.md` — append Phase 2 verdict entry; cross-reference to this rigor pass.
 - `alignment/commons_bonds_open_insights_v1.0.0.md` — new Insight # closed-ratified capturing Phase 2 #4 verdict (number TBD).
 

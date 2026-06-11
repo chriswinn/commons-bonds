@@ -214,7 +214,7 @@ Per the canonical Three Tiers template in `alignment/commons_bonds_framework_pos
 - Complementarity-at-different-scales framing (Doughnut as goal-state; Commons Bonds as action-level instrument operating within it).
 
 **Tier 2 (share post-interview if Dagan asks; do NOT pre-send):**
-- Technical Appendix v1.0.0 — `core/technical-appendix/TechnicalAppendix_v1.0.0.html` (Accountability Bond Decomposition §5 is the relevant section for any deal-pricing questions Dagan raises).
+- Technical Appendix v1.0.0 — `manuscript/technical-appendix/TechnicalAppendix_v1.0.0.html` (Accountability Bond Decomposition §5 is the relevant section for any deal-pricing questions Dagan raises).
 - Chapter 9 (*Pricing Honestly*) draft excerpt — entering-wedges section where Amsterdam sits alongside Mondragon / Vienna / Chattanooga / Alaska.
 - **The water-deal hypothetical full doc** — `research/outreach/subjects/dagan/water-deal-hypothetical_2026-05-07.md` — the step-by-step framework walkthrough. This is the heaviest artifact and likely Tier-2-share if he engages Q3 substantively and wants to see the apparatus in writing.
 - ReFan / Klerenpartij comparison frame: if Dagan engages the parallel-domain methodology question deeply and wants framework material that engages the textile / fashion supply-chain space specifically, share Ch 9 + any case-study notes from `research/case-studies/`.
@@ -309,7 +309,7 @@ Per the canonical Live-call setup template in `alignment/commons_bonds_framework
 - This interview prep doc
 - Dagan live-call companion (`research/outreach/subjects/dagan/live-call-companion_2026-05-08.md` or `.html`)
 - Water-deal hypothetical doc (`research/outreach/subjects/dagan/water-deal-hypothetical_2026-05-07.md`) — substrate for Q3
-- Tech Appendix v1.0.0 (`core/technical-appendix/TechnicalAppendix_v1.0.0.html`) — accessible, not script
+- Tech Appendix v1.0.0 (`manuscript/technical-appendix/TechnicalAppendix_v1.0.0.html`) — accessible, not script
 
 **Physical at hand:**
 - Pen + paper for note-taking
@@ -458,5 +458,5 @@ Placeholder schedule. Refine once Dagan accepts and a date is set.
 - `alignment/commons_bonds_framework_positioning_disciplines_v1.0.0.md` §"Canonical framework one-paragraph summary" → applied-implementation variant — the variant pattern the pre-read brief uses.
 - `alignment/commons_bonds_framework_positioning_disciplines_v1.0.0.md` §"Canonical interview-prep four-artifact stack" — the stack contract this prep doc participates in.
 - `manuscript/chapters/Chapter__9_PricingHonestly__Draft.md` — Ch 9 draft; entering-wedges section where Amsterdam material destinations.
-- `core/technical-appendix/TechnicalAppendix_v1.0.0.html` §5 — Accountability Bond Decomposition (formal definitions of B = B₁ + B₂; the formal apparatus the water-deal hypothetical operationalizes).
+- `manuscript/technical-appendix/TechnicalAppendix_v1.0.0.html` §5 — Accountability Bond Decomposition (formal definitions of B = B₁ + B₂; the formal apparatus the water-deal hypothetical operationalizes).
 - `research/outreach/subjects/darity/interview-prep_2026-05-06.md` — first instance of FPD-6; this prep doc models its structure.

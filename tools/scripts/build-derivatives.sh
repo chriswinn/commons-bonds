@@ -11,7 +11,7 @@
 #                      with any approved .docx — pandoc reads its styles section.)
 #
 #   .pdf from .html:   headless Chrome (preferred) or wkhtmltopdf (fallback)
-#                      HTML sources (e.g. core/technical-appendix/*.html) contain
+#                      HTML sources (e.g. manuscript/technical-appendix/*.html) contain
 #                      hand-tuned CSS: run-in bolded headings, italic emphasis,
 #                      list spacing, table styling, code-like terminology spans.
 #                      Both engines render the HTML *as styled* — preserving
@@ -48,7 +48,7 @@
 # Examples:
 #   tools/scripts/build-derivatives.sh manuscript/chapters/Chapter__5_*.md
 #   tools/scripts/build-derivatives.sh -o ~/sandy-packet manuscript/chapters/Chapter__6_*.md
-#   tools/scripts/build-derivatives.sh -f docx core/technical-appendix/TechnicalAppendix_v2.1.0.html
+#   tools/scripts/build-derivatives.sh -f docx manuscript/technical-appendix/TechnicalAppendix_v2.1.0.html
 #   tools/scripts/build-derivatives.sh -f pdf -r path/to/custom-reference.docx Chapter__5_*.md
 #
 # Inputs: .md or .html (or anything pandoc reads — pandoc auto-detects by extension).

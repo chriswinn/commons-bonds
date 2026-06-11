@@ -499,7 +499,7 @@ This produces an internal Ch 6 tension that may warrant a footnote at line
 343 noting that the McDowell-specific basis yields a higher figure. (See
 Option C in §6.1 below.)
 
-### §5.3 Technical Appendix — `core/technical-appendix/TechnicalAppendix_v2.0.0.html`
+### §5.3 Technical Appendix — `manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html`
 
 Current TA file: 8,044 lines (verified 2026-05-22).
 

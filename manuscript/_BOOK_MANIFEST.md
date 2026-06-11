@@ -30,8 +30,8 @@ doubt about "what is the book," this file is the authority.
 9. `Chapter__9_PricingHonestly.md`
 10. `Chapter_10_CommonBonds.md`
 
-### Technical Appendix (in `core/technical-appendix/` — OUTSIDE `manuscript/`)
-- `core/technical-appendix/TechnicalAppendix_v2.0.0.html` — **canonical**, ~376 KB (100+ pages).
+### Technical Appendix (in `manuscript/technical-appendix/` — OUTSIDE `manuscript/`)
+- `manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html` — **canonical**, ~376 KB (100+ pages).
   The formal backbone of the book: the full apparatus reserved from the essays (CS = RCV − B,
   the two-term forward/reverse form, the integral RCV(R, t₀) = ∫…, the Cᵢ components, the Four
   Gates), proofs, theorems, worked methods. Chapters 5, 6, and 10 reference it directly; it is a
@@ -50,9 +50,9 @@ doubt about "what is the book," this file is the authority.
 
 The Technical Appendix is part of the book but sits in `core/`, not `manuscript/`.
 
-**PROPOSED (not yet executed):** relocate `core/technical-appendix/` → `manuscript/technical-appendix/`
+**PROPOSED (not yet executed):** relocate `manuscript/technical-appendix/` → `manuscript/technical-appendix/`
 so `manuscript/` *is* the complete book. This is the cleaner end-state but is a **deliberate,
-audited workstream**, not a casual move: the path `core/technical-appendix/` is referenced by the
+audited workstream**, not a casual move: the path `manuscript/technical-appendix/` is referenced by the
 render toolchain, by rigor artifacts under `tools/rigor-passes/` and `tools/workstream-handoffs/`,
 and by the book-scope doc (`tools/commons_bonds_book_scope_v1_0_3.md`) and various READMEs. The
 move must (1) audit every reference to the old path, (2) update them, (3) verify the render

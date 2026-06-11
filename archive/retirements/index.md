@@ -24,7 +24,7 @@ The project uses a **hybrid archive structure**:
   - `archive/decomposition/` — retired methodologies surfaced from any domain (e.g. 8-tier decomposition)
   - `archive/_OneDayMaybe/` — Book 2 / Book 3 / satellite-essay seed material
 - **Per-domain `<domain>/archive/` — domain-specific historical predecessors kept adjacent to live work:**
-  - [`core/technical-appendix/archive/`](../../core/technical-appendix/archive/) — superseded TA versions + supplements
+  - [`manuscript/technical-appendix/archive/`](../../manuscript/technical-appendix/archive/) — superseded TA versions + supplements
   - [`manuscript/chapters/archive/`](../../manuscript/chapters/archive/) — Ch 6 supplementary drafts pending integration
   - [`tools/archive/`](../../tools/archive/) — superseded methodology versions
 

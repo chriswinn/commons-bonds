@@ -6,7 +6,7 @@
 
 **Author direction triggering this pass (2026-04-29 by Chris Winn):** *"Go ahead and start either E.3 or E.5 the other session is still spinning on E.1"* — sibling theorem-rigor session is running E.1 audit (~3 hours in at this pass start); E.3 picked over E.5 because (a) circular-proof concern is more contained than over-specified-scope concern; (b) audit task is structural-fix-driven with clear option-space; (c) E.3 doesn't depend on E.1 outcome.
 
-**Scope:** Phase 2 academic-rigor depth audit on **Theorem E.3 (Abundance Masking)** as stated at [Tech Appendix v1.0.0 §10 lines 3270-3276](core/technical-appendix/TechnicalAppendix_v1.0.0.html). Phase 1 §8.2 + E.4 rigor pass §16.3 flagged: *"E.3 (Abundance Masking) — circular proof; full formalization needed; ~700-900 lines."*
+**Scope:** Phase 2 academic-rigor depth audit on **Theorem E.3 (Abundance Masking)** as stated at [Tech Appendix v1.0.0 §10 lines 3270-3276](manuscript/technical-appendix/TechnicalAppendix_v1.0.0.html). Phase 1 §8.2 + E.4 rigor pass §16.3 flagged: *"E.3 (Abundance Masking) — circular proof; full formalization needed; ~700-900 lines."*
 
 **Status:** **SUPPLEMENTARY to canonical Insight #42** (other-session E.3 audit at `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-29_phase2_theorem_e3_abundance_masking_v1.0.0.md`, RATIFIED 2026-04-29 on main, commit `dcafa45`). Subject-collision resolution per author direction 2026-04-29: both audits independently arrived at the same load-bearing findings (circular proof; S → τ notation collision; functional-form derivation; domain-restriction; commodity-economics + supply-elasticity lineage). The other session's audit was ratified first (Insight #42); this rigor pass is preserved as supplementary perspective with distinctive contribution: **CIT-as-operational-corollary reframing** (§13.4 + §13.5 — explicit clarifying paragraph at Definition A.8 + backward-pointer at E.3 statement establishing E.3 as analytic theorem and CIT as operational corollary). The CIT-corollary structural refactor strengthens framework's logical organization beyond the canonical #42 verdict. Original PROPOSED Insight #54 retired in favor of canonical #42. Tech Appendix HTML edit timing: BATCH into Phase 3 v2.0.0 rebuild per shared open question with Insights #35 + #38 + #40 + #41 + #42 + #47 + #48 + #49 + #50 + #51 + #52 + #53. **No separate Insight # claimed** for this supplementary rigor pass — it operates under #42's umbrella.
 
@@ -743,9 +743,9 @@ This rigor pass does NOT replace external review; it produces the substrate that
 
 ### §16.3 Downstream artifacts (this pass would update on ratification)
 
-- `core/technical-appendix/TechnicalAppendix_v1.0.0.html` §10 lines 3270-3276 — replace E.3 statement + proof per §13.1 + §13.2 + §13.3 + §13.5.
-- `core/technical-appendix/TechnicalAppendix_v1.0.0.html` §B Definition A.8 (line 496-499) — add §13.4 clarifying paragraph.
-- `core/technical-appendix/TechnicalAppendix_v1.0.0.html` bibliography section — Pindyck 1978; Dasgupta-Heal 1979; Barnosky et al. 2012; Lenton et al. 2008 (+ Royden 1988 / Folland 1999 already per Insight #40).
+- `manuscript/technical-appendix/TechnicalAppendix_v1.0.0.html` §10 lines 3270-3276 — replace E.3 statement + proof per §13.1 + §13.2 + §13.3 + §13.5.
+- `manuscript/technical-appendix/TechnicalAppendix_v1.0.0.html` §B Definition A.8 (line 496-499) — add §13.4 clarifying paragraph.
+- `manuscript/technical-appendix/TechnicalAppendix_v1.0.0.html` bibliography section — Pindyck 1978; Dasgupta-Heal 1979; Barnosky et al. 2012; Lenton et al. 2008 (+ Royden 1988 / Folland 1999 already per Insight #40).
 - `core/terms/terms_index.md` — append Phase 2 verdict entry; cross-reference to this rigor pass.
 - `alignment/commons_bonds_open_insights_v1.0.0.md` — new Insight # closed-ratified capturing Phase 2 #3.2 verdict (number TBD).
 

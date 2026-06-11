@@ -65,7 +65,7 @@ The author ratified the recommended bundle from the parent reconciliation artifa
 
 **Footnote convention.** Ch 6 uses inline parenthetical disclosure (no markdown footnote syntax in the corpus); the basis-distinction "footnote" in the parent artifact is implemented as an inline parenthetical extension at line 42 + line 343 per chapter convention.
 
-### §2.3 — TA (`core/technical-appendix/TechnicalAppendix_v2.0.0.html`)
+### §2.3 — TA (`manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html`)
 
 **~9 line touches across 3 sections**:
 
@@ -126,7 +126,7 @@ Per `feedback_verify_stale_memory_claims.md`: every touch verified post-edit via
 | Ch 8 L238 | same | grep for "five hundred and fifty-eight" → 0 matches; "five hundred and twenty-four" → 1 match at L238 | ✓ |
 | Ch 6 L42 | manuscript/chapters/Chapter__6_ThreeWaysofCounting.md | grep for "Pocahontas-seam production-weighted" → 1 match at L42; canonical "2.32 tons" + "$441" preserved at L42 | ✓ |
 | Ch 6 L343 | same | grep for "$449 to $464 per ton of coal" → 1 match (the reference-to-framework-introduction phrase at L343); grep for "$518 to $532" → 1 match at L343; grep for "McDowell-specific Pocahontas-seam" → 1 match at L343 | ✓ |
-| TA §1.7 L2916 | core/technical-appendix/TechnicalAppendix_v2.0.0.html | grep for "$550&ndash;$570" → 0 matches; "$449&ndash;$464/ton" → 1 match at L2916; "$454&ndash;$474" → 1 match at L2916 | ✓ |
+| TA §1.7 L2916 | manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html | grep for "$550&ndash;$570" → 0 matches; "$449&ndash;$464/ton" → 1 match at L2916; "$454&ndash;$474" → 1 match at L2916 | ✓ |
 | TA §11.1 L3876 | same | grep for "~\$544/ton" → 0 matches; "~\$510/ton (McDowell-specific Pocahontas-seam basis" → 1 match at L3876 | ✓ |
 | TA §11.1 L3882 | same | grep for "\$552&ndash;566" → 0 matches; "\$518&ndash;532/ton" → 1 match at L3882 | ✓ |
 | TA §11.1 L3898 | same | grep for "\$544/ton carbon term" → 0 matches; "\$510/ton carbon term" → 1 match at L3898 | ✓ |

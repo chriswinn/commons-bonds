@@ -148,7 +148,7 @@ The parallel-session workstream (commits `be334f5` + `8ed36ac`) was running appr
 
 **Deliverables produced by this session (final):**
 - This findings note (commit `013abd4`): `tools/rigor-passes/ta_section_5_5_bidirectionality_proposal_2026-05-13.md` (PROPOSED).
-- §5.5 enhancements applied to `core/technical-appendix/TechnicalAppendix_v2.0.0.html` (this commit): four surgical additions per table above (PROPOSED).
+- §5.5 enhancements applied to `manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html` (this commit): four surgical additions per table above (PROPOSED).
 
 **Author action requested (residual, post-enhancements):**
 - Ratify the in-section B₁-companion coordination note as the operational resolution (Option (i) "log in-section"). If preferred, ratify Option (ii) §5.4 expansion or Option (iii) new §5.6 sibling for a follow-up session.

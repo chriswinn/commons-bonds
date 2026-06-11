@@ -34,7 +34,7 @@
 19. [tools/rigor-passes/commons_bonds_rigor_pass_2026-05-11_apparatus_register_decision_v1.0.0.md](tools/rigor-passes/commons_bonds_rigor_pass_2026-05-11_apparatus_register_decision_v1.0.0.md) — Item 15 (Ostrom-path light-de-formalize; commit `b1c17d8`); Item 10 (Theorem cross-reference named-content; commit `16876a1`); Abundance Masking defense paragraph insertion (commit `2a7c336`).
 20. [core/terms/terms_index.md](core/terms/terms_index.md) — Abundance Masking canonical register; existential substitutability gap canonical lineage requirement (line 683).
 21. [publishing/essays/aeon-mask-of-abundance/_archive/prior-versions/aeon-pitch-commons-bonds-winn_VERSION-C.md](publishing/essays/aeon-mask-of-abundance/_archive/prior-versions/aeon-pitch-commons-bonds-winn_VERSION-C.md) — Aeon pitch v300w, ratified for Sun May 31 14:01 UTC submission.
-22. [core/technical-appendix/TechnicalAppendix_v2.0.0.html](core/technical-appendix/TechnicalAppendix_v2.0.0.html) — Theorem 10.3 (Abundance Masking) at TA line 3416; current canonical numbering.
+22. [manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html](manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html) — Theorem 10.3 (Abundance Masking) at TA line 3416; current canonical numbering.
 
 ---
 

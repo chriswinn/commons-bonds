@@ -835,7 +835,7 @@ Pattern suggests this is the **dominant verdict structure for vocabulary-collisi
 
 - `core/terms/terms_index.md` Foreclosure Bond entry — Rigor-provenance section updated with Phase 2 lineage citations + verdict.
 - `manuscript/chapters/Chapter__9_PricingHonestly__Draft.md` — bridge prose at Foreclosure Bond first-introduction per §7.3 DRAFT.
-- `core/technical-appendix/TechnicalAppendix_v1.0.0.html` (or v2.0.0 if Phase 3 rebuild lands first) — §L methodological footnote on Foreclosure Bond housing-crisis-affect handling.
+- `manuscript/technical-appendix/TechnicalAppendix_v1.0.0.html` (or v2.0.0 if Phase 3 rebuild lands first) — §L methodological footnote on Foreclosure Bond housing-crisis-affect handling.
 - `alignment/commons_bonds_open_insights_v1.0.0.md` — new closed-ratified Insight #38 capturing Phase 2 verdict.
 
 ### §13.3 Sibling Phase 2 candidates (per Phase 1 §10)

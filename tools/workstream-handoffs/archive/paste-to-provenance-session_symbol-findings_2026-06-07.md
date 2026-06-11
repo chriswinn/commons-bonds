@@ -6,11 +6,11 @@
 
 **Symbol-sweep findings that land in your domain — please verify INDEPENDENTLY (re-derive / re-grep; do not take these on faith).**
 
-A notation/symbol-sweep ran on branch `claude/ta-internal-fixes-260607-208b7b` (off the held TA rigor-audit branch). It catalogued every symbol in `core/technical-appendix/TechnicalAppendix_v2.0.0.html` (7-agent exhaustive pass + adversarial completeness check). Three items belong to your number-provenance + bibliography pass. Supporting artifact on the branch: `core/technical-appendix/symbol-registry_2026-06-07.md` (Parts 1 & 3).
+A notation/symbol-sweep ran on branch `claude/ta-internal-fixes-260607-208b7b` (off the held TA rigor-audit branch). It catalogued every symbol in `manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html` (7-agent exhaustive pass + adversarial completeness check). Three items belong to your number-provenance + bibliography pass. Supporting artifact on the branch: `manuscript/technical-appendix/symbol-registry_2026-06-07.md` (Parts 1 & 3).
 
 **1. Bare `B` (Accountability Bond) collides with the "billion" suffix in worked numbers.**
 - The defined variable `B` (Accountability Bond) and the magnitude abbreviation "B" = billion (e.g. `55B BOE`, `$18.7B`, `$942B`) share the glyph, in exactly the quantitative passages a referee reads closely.
-- ~50 occurrences. Verify with: `grep -noE '[0-9][0-9.,]*B\b' core/technical-appendix/TechnicalAppendix_v2.0.0.html`. Sample lines: 859, 2265, 2340, 3892, 3904, 3911, 3914, 3917, 3920, 3958, 3974, 3993, 4118, 4150, 4160, 4170, 4184, 4241, 4245, 4432, 4533, 4543, 4603, 4605, 4617, 4619, 4631, 4633, 4651, 4666, 4693, 4696, 4699, 4702, 4706, 4712, 4719, 5935, 6040, 6100, 6136, 6155, 6196.
+- ~50 occurrences. Verify with: `grep -noE '[0-9][0-9.,]*B\b' manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html`. Sample lines: 859, 2265, 2340, 3892, 3904, 3911, 3914, 3917, 3920, 3958, 3974, 3993, 4118, 4150, 4160, 4170, 4184, 4241, 4245, 4432, 4533, 4543, 4603, 4605, 4617, 4619, 4631, 4633, 4651, 4666, 4693, 4696, 4699, 4702, 4706, 4712, 4719, 5935, 6040, 6100, 6136, 6155, 6196.
 - The sweep session did **NOT** edit these — they are your sourced-number lines, and unilateral edits would collide with your pass. **Recommendation:** as part of your number pass, spell out "billion" ("55 billion BOE") so `B` reads only as the bond variable. The number values don't change. Verify the collision is real, then decide.
 
 **2. Bibliography provenance gaps — cited inline, absent from §18.**

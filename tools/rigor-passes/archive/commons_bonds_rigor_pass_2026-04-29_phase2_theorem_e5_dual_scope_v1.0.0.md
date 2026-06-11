@@ -8,7 +8,7 @@
 
 **Author direction triggering this pass (2026-04-29 by Chris Winn):** *"My apologies, the P2#3.# section already ratified in the other session is 'Theorem E.4 Integral Convergence'... For P2#3.3 let me know how 'Substitution Dominance' would rank as compared to 'Substitution Imperative' [...] Start the full P2#3.3 [E.5] audit now with Substitution Dominance as recommended rename target + the proof-structure scope-tightening + practical-corollary separation work."* Author elevated SC8 (Substantive claim accuracy) to load-bearing criterion: theorem proves **weak dominance** (formal welfare-comparison result), not a moral **imperative**; "Substitution Dominance" matches what's proven, "Substitution Imperative" overclaims.
 
-**Scope:** Phase 2 academic-rigor depth audit on **Theorem E.5 (Renewable Imperative)** as stated at [Tech Appendix v1.0.0 §10 lines 3288-3294](core/technical-appendix/TechnicalAppendix_v1.0.0.html). Dual-scope: vocabulary collision (rename to Substitution Dominance) + proof-structure (over-specified universal quantifiers + practical-corollary separation). Phase 1 §10 #8 + E.4 rigor pass §16.3 flagged: *"Renewable Imperative — academic-rigor proof-structure audit ... over-specified scope; scope-tightening + practical-corollary separation; ~700-900 lines"*; vocabulary collision concern surfaced 2026-04-29 by author direction (Tier 2c policy-practitioner cross-political-tradition risk).
+**Scope:** Phase 2 academic-rigor depth audit on **Theorem E.5 (Renewable Imperative)** as stated at [Tech Appendix v1.0.0 §10 lines 3288-3294](manuscript/technical-appendix/TechnicalAppendix_v1.0.0.html). Dual-scope: vocabulary collision (rename to Substitution Dominance) + proof-structure (over-specified universal quantifiers + practical-corollary separation). Phase 1 §10 #8 + E.4 rigor pass §16.3 flagged: *"Renewable Imperative — academic-rigor proof-structure audit ... over-specified scope; scope-tightening + practical-corollary separation; ~700-900 lines"*; vocabulary collision concern surfaced 2026-04-29 by author direction (Tier 2c policy-practitioner cross-political-tradition risk).
 
 **Status:** **RATIFIED 2026-04-29 by Chris Winn — verdict (a) Full ratify Option α + β COMBINED** — rename to "Substitution Dominance" (not "Substitution Imperative"; SC8 substantive-claim accuracy weighted higher than Tier 1 + Tier 2c-climate-progressive bold-framing per multi-audience matrix scoring 8-2 in favor of Dominance) + premise enumeration P1–P4 + universal-quantifier scope-tightening + failure-mode acknowledgment + practical-corollary separation as Corollary E.5.1 + bibliography expansion. Chapter 9 title concern moot (already retitled "Pricing Honestly"). Tech Appendix HTML edit timing: BATCH into Phase 3 v2.0.0 rebuild per shared open question with Insights #35 + #38 + #40 + #47 + #48 + #49 + #50 + #51 + #52 + Phase 2 #3.2 [E.3]. Insight #53 closed-ratified entry added to `alignment/commons_bonds_open_insights_v1.0.0.md`.
 
@@ -886,8 +886,8 @@ This rigor pass does NOT replace external review.
 
 ### §18.3 Downstream artifacts (this pass would update on ratification)
 
-- `core/technical-appendix/TechnicalAppendix_v1.0.0.html` §10 lines 3288-3294 — replace E.5 statement + proof + corollary per §15.1.
-- `core/technical-appendix/TechnicalAppendix_v1.0.0.html` — Tech Appendix cross-references (~5-10 instances).
+- `manuscript/technical-appendix/TechnicalAppendix_v1.0.0.html` §10 lines 3288-3294 — replace E.5 statement + proof + corollary per §15.1.
+- `manuscript/technical-appendix/TechnicalAppendix_v1.0.0.html` — Tech Appendix cross-references (~5-10 instances).
 - Chapter prose retraining — Ch 5 line 99 + other inline references.
 - Case studies book-home pointers (~10-15 instances).
 - Bibliography chapter-relevance pointers (~3-5 instances).

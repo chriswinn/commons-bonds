@@ -26,7 +26,7 @@ Usage:
 import sys, os, re, glob, html as H, struct, subprocess, unicodedata
 
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
-DEFAULT_FILES = [os.path.join(ROOT, "core/technical-appendix/TechnicalAppendix_v2.0.0.html")] + \
+DEFAULT_FILES = [os.path.join(ROOT, "manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html")] + \
                 sorted(glob.glob(os.path.join(ROOT, "manuscript/back-matter/*.html")))
 IMAGE = "commons-bonds-render"
 

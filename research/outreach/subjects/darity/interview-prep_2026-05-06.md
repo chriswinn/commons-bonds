@@ -210,7 +210,7 @@ Per the canonical Three Tiers template in `alignment/commons_bonds_framework_pos
 **Tier 1 (share freely):** Framework analytical contributions — *cost severance*, *RCV* (covering both non-renewable resources from the start AND renewable resources pushed past regenerative capacity per FPD-8 scope-explicitness), two-instrument decomposition (Restitution Bond B₁ + Foreclosure Bond B₂), accounting equation Cost Severance = RCV − B, *Cost Severance Damages (CSD)* methodology, cross-system framing, specific empirical case-walks (McDowell / Libby / Niger Delta / opioid-Appalachia). Lineage extensions to Hotelling, Ostrom, Polanyi, Mazzucato, Boyce, Marx/Harvey/Klein, reparations economics: canonical articulations in FPD doc §"Canonical framework articulations" — drop-in language for live use.
 
 **Tier 2 (share post-interview if Sandy asks; do NOT pre-send):**
-- Technical Appendix v1.0.0 — `core/technical-appendix/TechnicalAppendix_v1.0.0.html`
+- Technical Appendix v1.0.0 — `manuscript/technical-appendix/TechnicalAppendix_v1.0.0.html`
 - Chapter 6 (Three Ways of Counting) draft — `manuscript/chapters/Chapter__6_ThreeWaysofCounting__Draft.html`
 - Chapter 5 §"Restitution and Foreclosure" excerpt
 - Case-study notes from `research/case-studies/`

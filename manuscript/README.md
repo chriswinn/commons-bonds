@@ -1,7 +1,7 @@
 # manuscript/ — the book
 
 **Authority on "what is the book": [`_BOOK_MANIFEST.md`](_BOOK_MANIFEST.md).** Any whole-book
-operation must include every component listed there (the TA lives in `core/technical-appendix/`,
+operation must include every component listed there (the TA lives in `manuscript/technical-appendix/`,
 symlinked at `technical-appendix/`).
 
 ## Layout
@@ -11,7 +11,7 @@ symlinked at `technical-appendix/`).
   guidance docs + regressed drafts.
 - `back-matter/` — GENERATED reader-facing bibliography / glossary / notation
   (`python3 tools/back-matter/build.py gen-all`; never hand-edit).
-- `technical-appendix/` — symlink to the canonical TA in `core/technical-appendix/`.
+- `technical-appendix/` — symlink to the canonical TA in `manuscript/technical-appendix/`.
 
 ## Layout of internal scaffolding (reorganized 2026-06-10)
 

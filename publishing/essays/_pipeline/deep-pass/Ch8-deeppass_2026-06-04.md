@@ -2,7 +2,7 @@
 
 **Date:** 2026-06-04
 **Source read in full:** `manuscript/chapters/Chapter__8_WhatThingsActuallyCost.md` (worktree copy; POST-FIX — carries $496 carbon / $510 total, matching the 2026-06-04 Canonical Figure Ledger)
-**Appendix:** read strategically via grep of `core/technical-appendix/TechnicalAppendix_v2.0.0.html`
+**Appendix:** read strategically via grep of `manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html`
 **Context ingested:** `_CANONICAL_FIGURE_LEDGER.md` (RATIFIED 2026-06-04), `_book-coherence-map_2026-06-04.md` (Ch8 block + cross-chapter threads), `_contribution-matrix-lens_2026-06-04.md` (A–P landing map + objection set)
 **Chapter length (est.):** ~5,600 words
 

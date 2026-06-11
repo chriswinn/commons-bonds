@@ -99,7 +99,7 @@ This session produced the following Ch 9-scoped artifacts (all on `origin/main`)
 **Chapter file modifications** (all author-ratified end-user-facing prose):
 - `manuscript/chapters/Chapter__9_PricingHonestly.md` — line 144 D-3a MacLean acknowledgment + line 202 Pass 3.5 F-DE-Ch9-1 Option A representative-class em-dash interjection (commits `8aa7dfb` + `1fe06c2`)
 - `manuscript/chapters/Chapter__5_TheAccountabilityGap.md` — line 202 D-3a MacLean acknowledgment + D-3b substantive paragraph-level realignment (commits `8aa7dfb` + `06eb1ea`)
-- `core/technical-appendix/TechnicalAppendix_v2.0.0.html` — §1.10 line 610 D-3a MacLean acknowledgment + D-3b single-clause replacement (commits `8aa7dfb` + `06eb1ea`)
+- `manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html` — §1.10 line 610 D-3a MacLean acknowledgment + D-3b single-clause replacement (commits `8aa7dfb` + `06eb1ea`)
 
 ---
 

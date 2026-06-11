@@ -204,18 +204,18 @@ You only need `xelatex` if you build `.md` PDFs; you only need `wkhtmltopdf` if 
 
 ```bash
 # Build .docx + .pdf for a single HTML source (e.g. the Technical Appendix)
-tools/scripts/build-derivatives.sh core/technical-appendix/TechnicalAppendix_v2.0.0.html
+tools/scripts/build-derivatives.sh manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html
 
 # Build .docx + .pdf for every Chapter 5 Markdown draft, output alongside the .md files
 tools/scripts/build-derivatives.sh manuscript/chapters/Chapter__5_*.md
 
 # Build into a separate folder (e.g. an outreach packet directory)
 tools/scripts/build-derivatives.sh -o research/outreach/subjects/darity \
-  core/technical-appendix/TechnicalAppendix_v2.0.0.html
+  manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html
 
 # Build .docx only (skip PDFs — useful if you don't have wkhtmltopdf or xelatex)
 tools/scripts/build-derivatives.sh -f docx \
-  core/technical-appendix/TechnicalAppendix_v2.0.0.html
+  manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html
 
 # Build .pdf only
 tools/scripts/build-derivatives.sh -f pdf manuscript/chapters/Chapter__6_*.md
@@ -224,7 +224,7 @@ tools/scripts/build-derivatives.sh -f pdf manuscript/chapters/Chapter__6_*.md
 tools/scripts/build-derivatives.sh -r path/to/custom-reference.docx Chapter__5_*.md
 
 # Verbose mode — prints which engine + reference is being used per file
-tools/scripts/build-derivatives.sh -v core/technical-appendix/TechnicalAppendix_v2.0.0.html
+tools/scripts/build-derivatives.sh -v manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html
 
 # Print full usage and exit
 tools/scripts/build-derivatives.sh -h
@@ -300,7 +300,7 @@ Quick sanity check that everything's wired up — should produce both outputs in
 ```bash
 mkdir -p /tmp/check && \
   tools/scripts/build-derivatives.sh -v -o /tmp/check \
-    core/technical-appendix/TechnicalAppendix_v2.0.0.html && \
+    manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html && \
   ls -la /tmp/check/
 ```
 
@@ -408,7 +408,7 @@ docker-render -o ../../research/outreach/subjects/colden Chapter__3_TheWaterman.
 docker-render \
   Chapter__5_*.md \
   Chapter__6_*.md \
-  ../../core/technical-appendix/TechnicalAppendix_v2.0.0.html
+  ../../manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html
 ```
 
 Output-path constraint: `-o` must be repo-relative or under `$HOME`. Colima only bind-mounts `$HOME` into the container by default; the wrapper adds the repo root. Absolute paths outside both areas (e.g., `/tmp` on macOS) are rejected up-front with a fix-it hint, rather than letting the bytes silently die when the `--rm` container exits.

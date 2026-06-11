@@ -290,6 +290,6 @@ let it be applied where it does real work" is correct, not a cop-out.
 ## Cross-references
 - Superseded: `tools/audits/ta-m3-pathB-rework_proposal-record_2026-06-07.md`
 - M3-rigor groundings: `tools/audits/ta-m3-{sigma,alpha,voption}-*_2026-06-07.md`
-- Symbol registry: `core/technical-appendix/symbol-registry_2026-06-07.md` (Parts 4–5)
+- Symbol registry: `manuscript/technical-appendix/symbol-registry_2026-06-07.md` (Parts 4–5)
 - Reverse-CSD draft (coordinate): `tools/audits/ta-reverse-csd-reef-calibration_proposal-record_2026-06-08.md`
-- TA: `core/technical-appendix/TechnicalAppendix_v2.0.0.html` (§3.5 L876, §11.6 L4733/4907, §11.8 L5063, §9/Obs10.2 L3041/3392, Thm 10.4 L3610/3677, §12 L6355)
+- TA: `manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html` (§3.5 L876, §11.6 L4733/4907, §11.8 L5063, §9/Obs10.2 L3041/3392, Thm 10.4 L3610/3677, §12 L6355)

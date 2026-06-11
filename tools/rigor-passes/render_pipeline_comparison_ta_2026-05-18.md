@@ -2,7 +2,7 @@
 
 **Date:** 2026-05-18
 **Status:** **RATIFIED 2026-05-20** — author "Ratify Stage 4 & Stage 5" signal 2026-05-20 confirms MEDIUM HOLD verdict (no HIGH-severity findings; all MEDIUM dispositioned via pre-pub-refresh route or canonical-pipeline-decision disposition; canonical pipeline RATIFIED 2026-05-19 via Docker containerization). Stage 5 sign-off fires per [`tools/quality-gates/sign-offs/ta_stage5_signoff_2026-05-20.md`](../quality-gates/sign-offs/ta_stage5_signoff_2026-05-20.md). Originally PROPOSED 2026-05-18.
-**Scope:** `core/technical-appendix/TechnicalAppendix_v2.0.0.html` (v2.1.0 dated 2026-05-14; 8,044 lines)
+**Scope:** `manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html` (v2.1.0 dated 2026-05-14; 8,044 lines)
 **Base sha (chapter source):** `9ffad4e` (TA source content unchanged across tools-side commits since baseline pre-render; `tools/` advanced through `3582823` Ch 1 retrofit but TA source itself stable)
 **Session base sha:** `3582823` (post Ch 1 retrofit landing on main; Ch 5 + Ch 6 retrofits not yet fired)
 **Workstream:** TA pipeline-retrofit (**fourth and final** of 4 standardization-comparison-bed retrofits per [`tools/workstream-handoffs/archive/render-pipeline-standardization-handoff_2026-05-17.md`](../workstream-handoffs/archive/render-pipeline-standardization-handoff_2026-05-17.md))
@@ -128,8 +128,8 @@ Both fail the Plane-1 character test; the laptop Qt 4.8.7 version exhibits the f
 **Finding ID:** F-RP-TA-04
 **Severity:** **MEDIUM**
 **Description:** Both pandoc invocations (laptop docx generation) emit two unclosed-div warnings:
-- *"Div at core/technical-appendix/TechnicalAppendix_v2.0.0.html **line 175** column 6 unclosed at … line 8047 column 1, closing implicitly."*
-- *"Div at core/technical-appendix/TechnicalAppendix_v2.0.0.html **line 1823** column 5 unclosed at … line 8047 column 1, closing implicitly."*
+- *"Div at manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html **line 175** column 6 unclosed at … line 8047 column 1, closing implicitly."*
+- *"Div at manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html **line 1823** column 5 unclosed at … line 8047 column 1, closing implicitly."*
 
 These are TA-source HTML-hygiene issues — the parser detects unclosed `<div>` tags at lines 175 + 1823 and closes them implicitly at file end. Renders work (browsers + Chrome + wkhtmltopdf all close implicitly the same way); pandoc warns explicitly.
 
@@ -264,7 +264,7 @@ The Stage 4 canonical-pipeline decision should land **before** Ch 5 + Ch 6 retro
 | ID | Spot-fix | Scope | Disposition |
 |---|---|---|---|
 | F-RP-TA-01 fix | Conditional `--from=markdown-yaml_metadata_block` (apply for `.md` only) | `tools/scripts/build-derivatives.sh` line 196 + `tools/scripts/build-derivatives-alt.sh` line 169 | DEFERRED to canonical-decision step (§3.5 of standardization handoff). One-line change per script (or merged canonical). |
-| F-RP-TA-04 fix | Close `<div>` at TA HTML lines 175 + 1823 | `core/technical-appendix/TechnicalAppendix_v2.0.0.html` | DEFERRED to Pass 2 typography / HTML-hygiene sweep at pre-publication refresh. |
+| F-RP-TA-04 fix | Close `<div>` at TA HTML lines 175 + 1823 | `manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html` | DEFERRED to Pass 2 typography / HTML-hygiene sweep at pre-publication refresh. |
 
 ---
 

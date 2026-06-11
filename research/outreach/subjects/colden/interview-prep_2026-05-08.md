@@ -241,7 +241,7 @@ Per the canonical Three Tiers template in `alignment/commons_bonds_framework_pos
 
 **Tier 2 (share post-interview if Colden asks; do NOT pre-send):**
 - Ch 3 outline (already offered in the questions-draft cover email) — `manuscript/chapters/Chapter__3_Watermen.md` if a current draft state is ready
-- Tech Appendix v1.0.0 — `core/technical-appendix/TechnicalAppendix_v1.0.0.html` (only if she goes deep into the math; unlikely given her register)
+- Tech Appendix v1.0.0 — `manuscript/technical-appendix/TechnicalAppendix_v1.0.0.html` (only if she goes deep into the math; unlikely given her register)
 - Bay-specific case-study notes from `research/case-studies/`
 - Handling per FPD-6 canonical Three Tiers template.
 

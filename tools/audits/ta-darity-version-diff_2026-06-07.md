@@ -39,7 +39,7 @@ since the Thursday packet were citation-form + two added paragraphs + one
 sentence rewrite, with **"no structural reorganization, no changes to
 case-study computations or apparatus."** That is the latest TA Darity holds.
 
-For each confirmed audit error (`core/technical-appendix/TA-rigor-audit-ledger_2026-06-06.md`)
+For each confirmed audit error (`manuscript/technical-appendix/TA-rigor-audit-ledger_2026-06-06.md`)
 this report determines whether it was **present in the second file** or
 **introduced later**, comparing the with-citations DOCX vs `origin/main`. *(The
 held branch's in-flight audit + M3 fixes — e.g. the carbon cluster `cefe5e4..4521e28`
@@ -247,6 +247,6 @@ Public Choice paragraph (`a1e54d9`).
 
 ### Verification artifacts
 - Second-file (with-citations) DOCX text: extracted via `pandoc -f docx -t plain` (provenance verified to `e6ddf92`/`cf24f57`-state three ways: file `git log --follow`; "(Darity 2026)" author-date citation form ×3; §18 interview bib + §5.4 Sen pairing present).
-- Complete change-set (second file → current): `git diff cf24f57 origin/main -- core/technical-appendix/TechnicalAppendix_v2.0.0.html` (6 commits; only `914addc` numeric).
+- Complete change-set (second file → current): `git diff cf24f57 origin/main -- manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html` (6 commits; only `914addc` numeric).
 - First→second file delta: `git diff 71fb076 cf24f57` (prose/citation/CSS only; zero numeric-bearing lines).
 - Per-commit TA stats: `a1e54d9` +6 (prose), `dd825f2` ±1 (anchor), `914addc` ±42 (carbon), `8aa7dfb`/`06eb1ea` ±2 each (citations), `389b773` −13/+? (citation deletion).

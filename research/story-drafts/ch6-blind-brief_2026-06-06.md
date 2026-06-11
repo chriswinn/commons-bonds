@@ -24,7 +24,7 @@
 > - M3 is the **quasi-option value of preservation (Arrow-Fisher 1974 / Henry 1974)**, NOT the Dixit-Pindyck investment-timing model.
 > - Irreversibility is **weighted because the empirical record + the Asymmetric Regret Rule say so** (IPCC AR6 SPM B.5; Bernhardt & Palmer 2011), NOT a "discovered α-dominance."
 >
-> **NOTATION** (only if the chapter ever introduces M3 parameters — it should not): V_market (not V_option), ς (not σ), irreversibility 1/(1−α) with NO β. Per `core/technical-appendix/symbol-registry_2026-06-07.md`.
+> **NOTATION** (only if the chapter ever introduces M3 parameters — it should not): V_market (not V_option), ς (not σ), irreversibility 1/(1−α) with NO β. Per `manuscript/technical-appendix/symbol-registry_2026-06-07.md`.
 >
 > **FLAG — NOT an M3 item, route to the correctness/IPG owner, do NOT fix blind:** the M1 column "$261–$2,412/ton" (table) vs the TA §11.6 M1 range "$290–$2,702" is a chapter↔TA Method-1 discrepancy needing separate reconciliation; the pending §11.9 DAC refresh will move the M1 conservative cap ~20%.
 

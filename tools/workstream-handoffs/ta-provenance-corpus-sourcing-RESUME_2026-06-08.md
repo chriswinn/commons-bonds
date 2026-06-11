@@ -7,7 +7,7 @@
 ---
 
 ## ARTIFACTS BUILT THIS SESSION (all on the branch)
-- `core/technical-appendix/TechnicalAppendix_v2.0.0.html` — applied: §11.10 space cluster, §11.9 DAC bands (source-confirmed + NAS fix), §18 bib gaps (7 entries), SCC attribution fix (§3.3+§11.9), B→billion spell-out, **self-citation wording kill (§11.6 IPG / §11.11 / §6.7 / §7.3 — "canonical/documented/terms_index" as justification removed, derivations shown, 0 numbers changed)**, + merged Session D's M3 Path-A rework.
+- `manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html` — applied: §11.10 space cluster, §11.9 DAC bands (source-confirmed + NAS fix), §18 bib gaps (7 entries), SCC attribution fix (§3.3+§11.9), B→billion spell-out, **self-citation wording kill (§11.6 IPG / §11.11 / §6.7 / §7.3 — "canonical/documented/terms_index" as justification removed, derivations shown, 0 numbers changed)**, + merged Session D's M3 Path-A rework.
 - `research/literature/bibliography.md` — §23.3 corpus-wide figure sources + §18 DAC/SCC papers + Darity-packet recoveries (Bassett-Bell/Darity JAMA 2022; Colden 2017 MEPS; etc.).
 - `tools/audits/ta-number-provenance-ledger_2026-06-07.md` — every TA number classified (sourced/derived/labeled-assumption/UNSUPPORTED) + value-verification sweep (Part 5b).
 - `tools/audits/ta-number-provenance-DECISION-MEMO_2026-06-07.md` — judgment items + owners (Items 1–9; ownership table).

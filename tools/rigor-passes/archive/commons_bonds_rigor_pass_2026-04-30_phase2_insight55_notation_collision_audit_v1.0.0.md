@@ -7,7 +7,7 @@
 **Author direction triggering this pass (2026-04-29 by Chris Winn):** *"implement 4 layers as you recommended"* — Insight #55 OPEN; one-time retroactive audit before Phase 3 Tech Appendix v2.0.0 rebuild.
 
 **Scope:** Comprehensive cross-document scan for notation collisions across:
-- `core/technical-appendix/TechnicalAppendix_v1.0.0.html` (7,412 lines)
+- `manuscript/technical-appendix/TechnicalAppendix_v1.0.0.html` (7,412 lines)
 - `core/terms/terms_index.md` (2,109 lines)
 - `manuscript/chapters/Chapter_*Draft.{md,html}` (9 chapters)
 - `core/glossary/archive/commons_bonds_updated_glossary_v3.html` (406 lines)
@@ -95,7 +95,7 @@ For each reserved letter/abbreviation in §13.2 ledger:
 
 | Document | Lines | Notes |
 |---|---|---|
-| `core/technical-appendix/TechnicalAppendix_v1.0.0.html` | 7,412 | Primary mathematical-formal apparatus |
+| `manuscript/technical-appendix/TechnicalAppendix_v1.0.0.html` | 7,412 | Primary mathematical-formal apparatus |
 | `core/terms/terms_index.md` | 2,109 | Term provenance index |
 | `manuscript/chapters/Chapter_*Draft.{md,html}` | ~52,000 words across 9 chapters | Chapter prose (mostly narrative, not technical) |
 | `core/glossary/archive/commons_bonds_updated_glossary_v3.html` | 406 | Reader-facing glossary entries |

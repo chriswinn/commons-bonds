@@ -10,7 +10,7 @@
 1. `core/glossary/commons_bonds_updated_glossary_v4.html` (canonical lexicon, 2026-05-02)
 2. `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-11_apparatus_register_decision_v1.0.0.md` (register decisions, 2026-05-11)
 3. `research/audits/cross-chapter-path-b-audit_2026-05-11.md` (canonical-home assignments where Path B settled them)
-4. `core/technical-appendix/TechnicalAppendix_v2.0.0.html` (formal-register canonical forms)
+4. `manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html` (formal-register canonical forms)
 5. Per-chapter GuidanceDocs (`Chapter__N___GuidanceDoc.md`) (per-chapter intent docs)
 
 ---

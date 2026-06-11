@@ -21,14 +21,14 @@ The proactive Q0 note already shipped 2026-05-15 (citations email); this verific
 ### Mirror 1 — MI-3 (heterogeneous-stakeholder commons / stratification economics)
 
 - **Ch 6 anchor:** `manuscript/chapters/Chapter__6_ThreeWaysofCounting__Draft.md:262`. Names the second break-point Ostrom's framework does not address; connects to *stratification economics (Darity, Hamilton, and collaborators)*. No inline `(Darity 2026)` citation in prose yet — pending Sandy Q0 ratification per the proactive citations email; not a defect of this verification scope.
-- **TA mirror:** `core/technical-appendix/TechnicalAppendix_v2.0.0.html:604`. §1.10 second scope-of-applicability boundary paragraph. Quoted verbatim of the load-bearing sentence: *"This break-point connects the framework to the analytical apparatus of stratification economics (Darity, Hamilton, and collaborators), which analyzes structural-extraction operating through hierarchical group-divisions of race, class, and ethnicity (Darity 2026)."*
+- **TA mirror:** `manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html:604`. §1.10 second scope-of-applicability boundary paragraph. Quoted verbatim of the load-bearing sentence: *"This break-point connects the framework to the analytical apparatus of stratification economics (Darity, Hamilton, and collaborators), which analyzes structural-extraction operating through hierarchical group-divisions of race, class, and ethnicity (Darity 2026)."*
 - **Attribution discipline:** `(Darity 2026)` present inline in the TA paragraph. Bibliographic entry confirmed at TA line 7792 (Chicago author-date interview form, post-`f6d6281` cite-form swap).
 - **Verdict:** ✓ PRESENT + ATTRIBUTED.
 
 ### Mirror 2 — SI-3 (Sen capability grounding for valuation methodology)
 
 - **Ch 6 anchor:** `manuscript/chapters/Chapter__6_ThreeWaysofCounting__Draft.md:250`. Sen paired with Parfit as philosophical grounding; Parfit grounds the *standing* question, Sen grounds the *valuation* question; RCV described in Sen's capability-set vocabulary. No inline `(Darity 2026)` citation in prose yet — same pending-Sandy-ratification status as MI-3.
-- **TA mirror:** `core/technical-appendix/TechnicalAppendix_v2.0.0.html:1342`. §5.4 (Intergenerational moral grounding). Quoted verbatim of the load-bearing sentence: *"The Parfit / Sen pairing — Parfit grounding the standing, Sen grounding the valuation — is what makes the framework's intergenerational-pricing claim defensible across the moral-philosophy and welfare-economics traditions simultaneously rather than within only one (Darity 2026)."*
+- **TA mirror:** `manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html:1342`. §5.4 (Intergenerational moral grounding). Quoted verbatim of the load-bearing sentence: *"The Parfit / Sen pairing — Parfit grounding the standing, Sen grounding the valuation — is what makes the framework's intergenerational-pricing claim defensible across the moral-philosophy and welfare-economics traditions simultaneously rather than within only one (Darity 2026)."*
 - **Attribution discipline:** `(Darity 2026)` present inline. Same bibliographic anchor as MI-3.
 - **Verdict:** ✓ PRESENT + ATTRIBUTED.
 
@@ -51,7 +51,7 @@ The proactive Q0 note already shipped 2026-05-15 (citations email); this verific
 
 ## Cross-references
 
-- `core/technical-appendix/TechnicalAppendix_v2.0.0.html` §1.10 (line 604) + §5.4 (line 1342) + §18 bibliography (line 7792)
+- `manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html` §1.10 (line 604) + §5.4 (line 1342) + §18 bibliography (line 7792)
 - `manuscript/chapters/Chapter__6_ThreeWaysofCounting__Draft.md` line 250 + line 262
 - `manuscript/chapters/Chapter__5_THEACCOUNTABILITYGAP__Draft.md` line 220 (`(informed by Darity 2026)` already present)
 - `research/outreach/subjects/darity/proactive-q0-citation-questions_2026-05-15.md` — the proactive Q0 note Sandy is responding to

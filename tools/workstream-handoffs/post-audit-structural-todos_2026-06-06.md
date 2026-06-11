@@ -48,7 +48,7 @@ package (`publishing/book-proposal/`). **The master STAYS in `research/literatur
 ## 3. TA symlink (DONE 2026-06-06)
 
 `manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html` is a **relative symlink** →
-`core/technical-appendix/TechnicalAppendix_v2.0.0.html`. Co-locates the TA under `manuscript/` for
+`manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html`. Co-locates the TA under `manuscript/` for
 assembly/editor discovery **without moving the canonical file** (which stays in `core/` until the
 item-1 folder-structure revision). Chosen specifically to avoid a mid-rigor-pass move that would
 scramble the held-branch `git diff origin/main` review.

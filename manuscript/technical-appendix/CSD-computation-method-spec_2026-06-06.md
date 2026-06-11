@@ -233,4 +233,4 @@ restorable; documented). Numbers from `research/story-drafts/ch3-restitution-bon
 - `manuscript/chapters/Chapter__3_TheWaterman.md` (the shipped reef case).
 - Chapters Ch1:56 / Ch5:234,240 / Atlantic:80 (the moral/standing beats — unchanged).
 - `reference_ostrom_illustrative_register.md` (the generative posture).
-- `core/technical-appendix/TA-rigor-audit-ledger_2026-06-06.md` (the forward-fix pass this sits behind).
+- `manuscript/technical-appendix/TA-rigor-audit-ledger_2026-06-06.md` (the forward-fix pass this sits behind).

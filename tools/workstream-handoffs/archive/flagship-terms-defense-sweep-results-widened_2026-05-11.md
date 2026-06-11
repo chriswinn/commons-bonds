@@ -249,7 +249,7 @@ Verified before assertion:
 - Ch 8 line ranges confirmed against current `manuscript/chapters/Chapter__8_WhatThingsActuallyCost_Draft.md`.
 - Ch 10 line ranges confirmed against current `manuscript/chapters/Chapter_10_CommonBonds__Draft.md`.
 - AuthorsNote line ranges confirmed against current `manuscript/chapters/_AUTHORSNOTE_ON_WINDTUNNELS_AND_AI.md`.
-- Tech Appendix references confirmed against current `core/technical-appendix/TechnicalAppendix_v2.0.0.html`.
+- Tech Appendix references confirmed against current `manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html`.
 - Author ratification of widening confirmed per framing paste at session start.
 
 ---

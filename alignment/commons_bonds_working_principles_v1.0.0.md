@@ -404,7 +404,7 @@ Articulated and ratified 2026-04-26 by Chris Winn, after a methodology critique 
 *Tier 1 publisher-facing artifacts subject to scrub:*
 - Chapter drafts (`manuscript/chapters/Chapter_*Draft.{md,html}`) at submission-readiness state
 - Current + future glossary (`core/glossary/archive/commons_bonds_updated_glossary_v3.html` + future v4 derived from terms_index)
-- Current + future Tech Appendix (`core/technical-appendix/TechnicalAppendix_v1.0.0.html` + future v2.0.0 derived from terms_index)
+- Current + future Tech Appendix (`manuscript/technical-appendix/TechnicalAppendix_v1.0.0.html` + future v2.0.0 derived from terms_index)
 - Research case-study writeups (`research/case-studies/*.md`) where they feed chapter prose
 
 *Tier 3 scaffolding documents preserving all traces:*
@@ -534,7 +534,7 @@ All new framework content is classified at origination as **internal-scaffolding
 | Layer | What lives here | Discipline |
 |---|---|---|
 | **Internal scaffolding** | `.claude/` · `tools/` · `core/methodology/` · `alignment/` · `research/` · `archive/` | Rich; preserves methodology notes, worked examples, research-grade depth, literature audits, audit trail, decision-time-application drafts, Book 2 / Book 3 seed material, framework-supporting material that doesn't need publisher-facing exposure |
-| **External publisher-facing** | `manuscript/chapters/*` · `core/glossary/*` · `core/technical-appendix/*` · `publishing/essays/*` | Disciplined per WP#8 (scrubbed of audit-trail content) + Pattern 2 demonstration (threaded through cases rather than codified in dedicated how-to / methodology sections — the *Doughnut Economics* / *Mission Economy* / *Mine!* model) |
+| **External publisher-facing** | `manuscript/chapters/*` · `core/glossary/*` · `manuscript/technical-appendix/*` · `publishing/essays/*` | Disciplined per WP#8 (scrubbed of audit-trail content) + Pattern 2 demonstration (threaded through cases rather than codified in dedicated how-to / methodology sections — the *Doughnut Economics* / *Mission Economy* / *Mine!* model) |
 
 **Cross-layer flow:**
 

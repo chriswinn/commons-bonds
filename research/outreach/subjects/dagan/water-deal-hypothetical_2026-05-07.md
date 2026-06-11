@@ -143,6 +143,6 @@ Option 2 is preferable if available; Option 1 is good fallback. Worth flagging f
 
 - `alignment/commons_bonds_framework_positioning_disciplines_v1.0.0.md` §"Canonical framework articulations" → Raworth / Doughnut Economics — the canonical articulation that this worked example illustrates.
 - `manuscript/chapters/Chapter__9_PricingHonestly__Draft.md` — Ch 9 draft; this worked example is candidate for incorporation in entering-wedges section.
-- `core/technical-appendix/TechnicalAppendix_v1.0.0.html` §5 — Accountability Bond Decomposition (formal definitions of B = B₁ + B₂; the formal apparatus this worked example operationalizes).
+- `manuscript/technical-appendix/TechnicalAppendix_v1.0.0.html` §5 — Accountability Bond Decomposition (formal definitions of B = B₁ + B₂; the formal apparatus this worked example operationalizes).
 - `research/literature/bibliography.md` §1 — Ostrom (sustained-yield governance; Commons Bonds extends to non-sustained-yield extraction).
 - Future Dagan interview prep doc (if Dagan accepts) — the hypothetical above as a priority question.

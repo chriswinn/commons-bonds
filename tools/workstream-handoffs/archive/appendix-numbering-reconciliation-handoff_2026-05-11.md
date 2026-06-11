@@ -10,7 +10,7 @@
 
 ## The substantive issue
 
-The Tech Appendix at `core/technical-appendix/TechnicalAppendix_v2.0.0.html` (7,817 lines) runs **two parallel section-numbering systems for the same content**:
+The Tech Appendix at `manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html` (7,817 lines) runs **two parallel section-numbering systems for the same content**:
 
 1. **Numeric sections** (§1, §2, …, §9) — used in the TOC (lines 144–204) + main section headers throughout.
 2. **Letter sections** (Section A, B, C, …, L, M) — used in body subsection structure with lettered sub-IDs (L.1, L.2, L.3, L.4 etc.).
@@ -139,7 +139,7 @@ Recommend single bundled session if the apparatus sweep #9 lands cleanly with no
 
 ## Reference files
 
-- `core/technical-appendix/TechnicalAppendix_v2.0.0.html` (7,817 lines as of 2026-05-11)
+- `manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html` (7,817 lines as of 2026-05-11)
 - `manuscript/chapters/Chapter__6_ThreeWaysofCounting__Draft.html` (lines 714, 788)
 - `manuscript/chapters/Chapter__7_OnOtherWorlds__Draft.md` (line 119)
 - `tools/workstream-handoffs/README.md` (branch discipline)

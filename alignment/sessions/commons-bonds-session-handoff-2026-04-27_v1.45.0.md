@@ -127,7 +127,7 @@ START THE NEXT SESSION BY: reading this handoff file (alignment/sessions/commons
   - alignment/patches/cit_positioning_consistency_audit_2026-04-25.md (historical audit)
   - tools/audits/commons_bonds_chapter_audit_v1.0.0.md (older version superseded)
   - tools/rigor-passes/* (date-stamped historical rigor-pass snapshots)
-  - core/technical-appendix/* (pending Insight #21 dedicated session)
+  - manuscript/technical-appendix/* (pending Insight #21 dedicated session)
 
 ---
 

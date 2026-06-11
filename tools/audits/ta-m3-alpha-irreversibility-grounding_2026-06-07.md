@@ -4,7 +4,7 @@
 **Workstream:** Commons Bonds "M3-rigor" — grounding Method-3 parameters in real evidence.
 **Parameter:** α (alpha), the IRREVERSIBILITY fraction (share of extraction loss
 that is irreversible). Currently POSITED at α ≈ 0.85–0.95 in
-`core/technical-appendix/TechnicalAppendix_v2.0.0.html` §3.5 (formula, ~line 889–897)
+`manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html` §3.5 (formula, ~line 889–897)
 + §11.6 McDowell-coal build (~line 4744) + §11.8 sensitivity (~lines 5233, 5258, 5283).
 **Stakes:** highest of the five M3 parameters. Output ∝ irreversibility_premium =
 1/(1−α)^β. At β=1: α=0.85 → premium 6.67; α=0.95 → premium 20 (a 3× swing across

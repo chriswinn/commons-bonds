@@ -1,7 +1,7 @@
 # TA Rigor-Audit CLOSEOUT — consolidation summary + pre-merge review queue (2026-06-09)
 
 **Branch:** `claude/ta-closeout-260607-92165f` (HELD — nothing merged to main).
-**Review surface:** `git diff origin/main -- core/technical-appendix/ research/literature/bibliography.md`
+**Review surface:** `git diff origin/main -- manuscript/technical-appendix/ research/literature/bibliography.md`
 **TA net:** 1 file, +367/−399 lines. **Gate:** author full-diff review → then merge to main (pre-push reconciliation). Submission remains a separate, author-only gate.
 
 ---

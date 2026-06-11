@@ -208,7 +208,7 @@ Per-interview customization: each prep doc can add a Tier 1 + Tier 2 list specif
 *Open in browser tabs:*
 - Pre-read brief (refer to questions verbatim if needed)
 - This interview prep doc (follow-up questions, talking-point notes, three tiers, pivot anticipations, contingency plan)
-- Tech Appendix v1.0.0 (`core/technical-appendix/TechnicalAppendix_v1.0.0.html`) — accessible-but-not-script. Reference only if subject asks something specific about the math; do NOT walk through formulas verbally. Move is "I can email after the call."
+- Tech Appendix v1.0.0 (`manuscript/technical-appendix/TechnicalAppendix_v1.0.0.html`) — accessible-but-not-script. Reference only if subject asks something specific about the math; do NOT walk through formulas verbally. Move is "I can email after the call."
 - Bibliography (`research/literature/bibliography.md`) — in case subject names a citation we need to look up.
 - Substantive background brief (FPD-9) for the specific subject — for last-second refresh on their positions.
 
@@ -619,7 +619,7 @@ Each alternative was evaluated against three tests: (a) does the suffix encode t
 - `alignment/commons_bonds_vocabulary_strategy_v1.0.1.md` §6.5 — sibling canonical home; integrates with the broader vocabulary-design discipline (Tier A/B/C/D ladder, suffix-convention table, cross-political-tradition robustness check)
 - `alignment/commons_bonds_vocabulary_strategy_v1.0.1.md` §6.1 — existing suffix-convention table
 - `alignment/commons_bonds_vocabulary_strategy_v1.0.1.md` §10.3 — Restitution Bond Tier D term-specific worked example
-- `core/technical-appendix/TechnicalAppendix_v1.0.0.html` §5 — Accountability Bond Decomposition (formal definitions of B = B₁ + B₂)
+- `manuscript/technical-appendix/TechnicalAppendix_v1.0.0.html` §5 — Accountability Bond Decomposition (formal definitions of B = B₁ + B₂)
 
 **Discipline note:** these articulations are the canonical versions. Per-interview prep docs (Darity, Amsterdam, Colden, Lipcius, Mann, future) should cross-reference this section rather than duplicating the language. Subject-specific pivots (e.g., the Foreclosure-Bond-license-to-extract critique handler for Darity) stay in the per-interview prep doc; lineage extensions live here.
 

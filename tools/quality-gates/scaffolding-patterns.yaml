@@ -164,7 +164,40 @@ patterns:
     severity: HIGH
     category: process-scaffolding
     description: "Process token 'Option [A-Z]' from rigor-pass spot-fix-selection menus"
-    allowlist: []
+    allowlist:
+      - file: "manuscript/chapters/archive/Chapter__6___SupplementaryDrafts_2026-04-24.md"
+        line: 19
+        rationale: "ARCHIVED supplementary-draft record (frozen audit trail; only path-rewrite touches it). Option C' is the SUBSTANTIVE framework term (political-philosophical-accommodation discipline, per the registry scope note) and the remaining hits are historical option menus that belong in archive files. Added 2026-06-10 (structural-debt closeout) when the TA path rewrite touched this file and brought it into hook scope."
+      - file: "manuscript/chapters/archive/Chapter__6___SupplementaryDrafts_2026-04-24.md"
+        line: 55
+        rationale: "ARCHIVED supplementary-draft record (frozen audit trail; only path-rewrite touches it). Option C' is the SUBSTANTIVE framework term (political-philosophical-accommodation discipline, per the registry scope note) and the remaining hits are historical option menus that belong in archive files. Added 2026-06-10 (structural-debt closeout) when the TA path rewrite touched this file and brought it into hook scope."
+      - file: "manuscript/chapters/archive/Chapter__6___SupplementaryDrafts_2026-04-24.md"
+        line: 57
+        rationale: "ARCHIVED supplementary-draft record (frozen audit trail; only path-rewrite touches it). Option C' is the SUBSTANTIVE framework term (political-philosophical-accommodation discipline, per the registry scope note) and the remaining hits are historical option menus that belong in archive files. Added 2026-06-10 (structural-debt closeout) when the TA path rewrite touched this file and brought it into hook scope."
+      - file: "manuscript/chapters/archive/Chapter__6___SupplementaryDrafts_2026-04-24.md"
+        line: 81
+        rationale: "ARCHIVED supplementary-draft record (frozen audit trail; only path-rewrite touches it). Option C' is the SUBSTANTIVE framework term (political-philosophical-accommodation discipline, per the registry scope note) and the remaining hits are historical option menus that belong in archive files. Added 2026-06-10 (structural-debt closeout) when the TA path rewrite touched this file and brought it into hook scope."
+      - file: "manuscript/chapters/archive/Chapter__6___SupplementaryDrafts_2026-04-24.md"
+        line: 85
+        rationale: "ARCHIVED supplementary-draft record (frozen audit trail; only path-rewrite touches it). Option C' is the SUBSTANTIVE framework term (political-philosophical-accommodation discipline, per the registry scope note) and the remaining hits are historical option menus that belong in archive files. Added 2026-06-10 (structural-debt closeout) when the TA path rewrite touched this file and brought it into hook scope."
+      - file: "manuscript/chapters/archive/Chapter__6___SupplementaryDrafts_2026-04-24.md"
+        line: 89
+        rationale: "ARCHIVED supplementary-draft record (frozen audit trail; only path-rewrite touches it). Option C' is the SUBSTANTIVE framework term (political-philosophical-accommodation discipline, per the registry scope note) and the remaining hits are historical option menus that belong in archive files. Added 2026-06-10 (structural-debt closeout) when the TA path rewrite touched this file and brought it into hook scope."
+      - file: "manuscript/chapters/archive/Chapter__6___SupplementaryDrafts_2026-04-24.md"
+        line: 297
+        rationale: "ARCHIVED supplementary-draft record (frozen audit trail; only path-rewrite touches it). Option C' is the SUBSTANTIVE framework term (political-philosophical-accommodation discipline, per the registry scope note) and the remaining hits are historical option menus that belong in archive files. Added 2026-06-10 (structural-debt closeout) when the TA path rewrite touched this file and brought it into hook scope."
+      - file: "manuscript/chapters/archive/Chapter__6___SupplementaryDrafts_2026-04-24.md"
+        line: 303
+        rationale: "ARCHIVED supplementary-draft record (frozen audit trail; only path-rewrite touches it). Option C' is the SUBSTANTIVE framework term (political-philosophical-accommodation discipline, per the registry scope note) and the remaining hits are historical option menus that belong in archive files. Added 2026-06-10 (structural-debt closeout) when the TA path rewrite touched this file and brought it into hook scope."
+      - file: "manuscript/chapters/archive/Chapter__6___SupplementaryDrafts_2026-04-24.md"
+        line: 310
+        rationale: "ARCHIVED supplementary-draft record (frozen audit trail; only path-rewrite touches it). Option C' is the SUBSTANTIVE framework term (political-philosophical-accommodation discipline, per the registry scope note) and the remaining hits are historical option menus that belong in archive files. Added 2026-06-10 (structural-debt closeout) when the TA path rewrite touched this file and brought it into hook scope."
+      - file: "manuscript/chapters/archive/Chapter__6___SupplementaryDrafts_2026-04-24.md"
+        line: 322
+        rationale: "ARCHIVED supplementary-draft record (frozen audit trail; only path-rewrite touches it). Option C' is the SUBSTANTIVE framework term (political-philosophical-accommodation discipline, per the registry scope note) and the remaining hits are historical option menus that belong in archive files. Added 2026-06-10 (structural-debt closeout) when the TA path rewrite touched this file and brought it into hook scope."
+      - file: "manuscript/chapters/archive/Chapter__6___SupplementaryDrafts_2026-04-24.md"
+        line: 344
+        rationale: "ARCHIVED supplementary-draft record (frozen audit trail; only path-rewrite touches it). Option C' is the SUBSTANTIVE framework term (political-philosophical-accommodation discipline, per the registry scope note) and the remaining hits are historical option menus that belong in archive files. Added 2026-06-10 (structural-debt closeout) when the TA path rewrite touched this file and brought it into hook scope."
 
   - id: scaffold-ratified
     pattern: '\bratified\b'
@@ -539,7 +572,7 @@ patterns:
 #   archive/**/*.md
 #
 # KNOWN COVERAGE GAP — Technical Appendix + core/ HTML artifacts (2026-06-09):
-#   core/technical-appendix/TechnicalAppendix_v*.html is end-user-facing prose
+#   manuscript/technical-appendix/TechnicalAppendix_v*.html is end-user-facing prose
 #   but is NOT in the include scope (scope is .md-focused; the TA is HTML).
 #   Category 8 patterns were added 2026-06-09 after a manual TA re-scan found
 #   chapter-author-instruction scaffolding in §11.11 that this gate missed.
@@ -551,7 +584,7 @@ patterns:
 #   for those substantive uses (or a TA-specific severity profile) before it
 #   can be added without auto-blocking every commit. Until that decision lands,
 #   scan the TA manually:
-#     check-corpus-invariants.sh --scope core/technical-appendix/TechnicalAppendix_v2.0.0.html --no-fail
+#     check-corpus-invariants.sh --scope manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html --no-fail
 
 scope:
   include:

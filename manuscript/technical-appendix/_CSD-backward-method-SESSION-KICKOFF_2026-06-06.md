@@ -11,9 +11,9 @@ FIRST, worktree-isolate per the session-start hook (create a `claude/ta-csd-back
 YOUR PROCESS: read the tentative brief, VALIDATE it (especially the one high-risk design point flagged below), generate your OWN refined section brief, then draft the Part.
 
 READ:
-- The tentative brief (your starting point, with all beats, the reef numbers, the design decisions, the coercion boundary, the seams): `core/technical-appendix/_CSD-backward-method-brief_2026-06-06.md`
+- The tentative brief (your starting point, with all beats, the reef numbers, the design decisions, the coercion boundary, the seams): `manuscript/technical-appendix/_CSD-backward-method-brief_2026-06-06.md`
 - The worked reef numbers: `research/story-drafts/ch3-restitution-bond-numbers_2026-06-05.md`
-- The current TA + its forward "Three Ways" (§3) and Two-Instrument Architecture (§2/§4 CSD, B₁): `core/technical-appendix/TechnicalAppendix_v2.0.0.html` (CONFIRM the editable source — HTML vs a markdown source it renders from — before drafting)
+- The current TA + its forward "Three Ways" (§3) and Two-Instrument Architecture (§2/§4 CSD, B₁): `manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html` (CONFIRM the editable source — HTML vs a markdown source it renders from — before drafting)
 - The TA rigor-audit ledger (PROPOSED), for findings E12 + D3: branch `claude/ta-rigor-audit-260606-f537b4`, file `…/TA-rigor-audit-ledger_2026-06-06.md`
 
 THE HIGH-RISK DESIGN POINT TO VALIDATE FIRST (do not skip): the audit's finding **E12** says the forward "three independent methods" is an overclaim — **M2 (Norway revealed-preference) is the realized-B comparator in CS = RCV − B, not a third RCV estimator.** Confirm this against the actual §3/§11.6 text, then build the backward structure on it:

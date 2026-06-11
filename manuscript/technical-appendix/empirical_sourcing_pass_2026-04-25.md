@@ -123,7 +123,7 @@ The Mars-colony water-extraction thought-experiment in Ch 7 does not depend on s
 
 ## §4. Cross-references
 
-- `core/technical-appendix/archive/TechnicalAppendix_v0.0.5_supplement.md` §3.1 — the Method 1 anchor location these figures populate.
+- `manuscript/technical-appendix/archive/TechnicalAppendix_v0.0.5_supplement.md` §3.1 — the Method 1 anchor location these figures populate.
 - `tools/audits/commons_bonds_case_study_audit_v1.0.6.md` — IPG reconciliation flag for Ch 6 convergence table.
 - `manuscript/chapters/Chapter__7_TheColonyAdministrator__Draft.md` — Ch 7 asteroid-iron / Mars-colony thought-experiment (lines 79, 163, etc.) — locations where §2 numerical-anchor footnotes would integrate.
 - `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-24_academic_rigor_full_test_v1.0.0.md` §M6.4 — the sourcing-pass-needed flag this document closes.

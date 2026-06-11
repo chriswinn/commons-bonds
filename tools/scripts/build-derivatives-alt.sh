@@ -51,7 +51,7 @@
 #
 # Examples:
 #   tools/scripts/build-derivatives-alt.sh manuscript/chapters/Chapter__5_*.md
-#   tools/scripts/build-derivatives-alt.sh -o ~/sandy-packet core/technical-appendix/TechnicalAppendix_v2.0.0.html
+#   tools/scripts/build-derivatives-alt.sh -o ~/sandy-packet manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html
 #   tools/scripts/build-derivatives-alt.sh -H "" Chapter__6_*.md          # disable fallback header
 #   tools/scripts/build-derivatives-alt.sh -H path/to/other.tex *.md       # custom header
 #

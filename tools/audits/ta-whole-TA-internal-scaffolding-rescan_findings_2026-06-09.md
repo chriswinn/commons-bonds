@@ -2,7 +2,7 @@
 
 **Session:** `claude/ta-m3-resume-260609-151562` (M3/integrity successor).
 **Scope:** the publisher-facing Technical Appendix
-`core/technical-appendix/TechnicalAppendix_v2.0.0.html` (8,007 lines).
+`manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html` (8,007 lines).
 **Trigger:** Session-D closeout flagged a SCAFFOLDING-CHECKER GAP — the corpus-invariant
 checker (`check-corpus-invariants.sh`) catches only the Option-letter / TODO / glyph
 families; it MISSES the class that leaks internal-audience / rigor-test / pipeline /

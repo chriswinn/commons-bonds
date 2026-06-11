@@ -36,7 +36,7 @@ items below are owned by other sessions + the closeout.
 
 ## Canonical artifacts
 - Proposal record: `tools/audits/ta-m3-pathA-core-rework_proposal-record_2026-06-08.md`
-- Symbol registry: `core/technical-appendix/symbol-registry_2026-06-07.md` (V_market entry + Part 6)
+- Symbol registry: `manuscript/technical-appendix/symbol-registry_2026-06-07.md` (V_market entry + Part 6)
 - Notation-leverage investigation: `tools/audits/notation-leverage-investigation_2026-06-08.md`
 - Bib: `research/literature/bibliography.md` §16.5 + §23.1
 

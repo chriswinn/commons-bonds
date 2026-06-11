@@ -3,7 +3,7 @@
 **Date:** 2026-05-20
 **Status:** **RATIFIED 2026-05-20** — author "Ratify Stage 4 & Stage 5" signal 2026-05-20 confirms PASS verdict. Sandy-Darity-shipped 2026-05-14 (packet); reply window opens 2026-05-21. (Originally PENDING per retrofit handoff stub §1; deferred until Stage 4 verdict ratified post canonical-pipeline decision; canonical decision RATIFIED 2026-05-19 → Stage 4 verdict RATIFIED 2026-05-20 → this Stage 5 sign-off fires.)
 **Stage:** Stage 5 bookend pre-publication sign-off (the symmetric pair to Stage 1 ready-to-draft ratification per pipeline doctrine §6).
-**Artifact under sign-off:** [`core/technical-appendix/TechnicalAppendix_v2.0.0.html`](../../../core/technical-appendix/TechnicalAppendix_v2.0.0.html) v2.1.0 dated 2026-05-14; 8,044 lines.
+**Artifact under sign-off:** [`manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html`](../../../manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html) v2.1.0 dated 2026-05-14; 8,044 lines.
 **Workstream:** TA pipeline-retrofit (fourth and final of the 4 standardization-comparison-bed retrofits; Ch 1 + Ch 5 + Ch 6 + TA per render-pipeline-standardization-handoff §3.4).
 **Rendered outputs audited:**
 - `tools/scripts/comparison-renders/ta_2026-05-17_9ffad4e/remote-container/TechnicalAppendix_v2.0.0.{docx, pdf}` (baseline; wkhtmltopdf Qt 5.15.13; canonical-pipeline-shipped artifact pattern)

@@ -48,7 +48,7 @@
 #   docker-render \
 #     manuscript/chapters/Chapter__5_*.md \
 #     manuscript/essay/aeon/pitch.md \
-#     core/technical-appendix/TechnicalAppendix_v2.0.0.html
+#     manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html
 #
 #   # Skip PDFs:
 #   docker-render -f docx Chapter__1_TheQuietMath.md

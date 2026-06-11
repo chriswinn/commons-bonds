@@ -35,7 +35,7 @@ Ten working principles (v1.0.0 canonical at [`alignment/commons_bonds_working_pr
 | Layer | What lives here | Discipline |
 |---|---|---|
 | **Internal scaffolding** | `.claude/` · `tools/` · `core/methodology/` · `alignment/` · `research/` · `archive/` · this `AGENTS.md` | Rich; preserves methodology, worked examples, audit trail, decision-time-application drafts, Book 2 / Book 3 seed material. Auto-merges to main at session close per `CLAUDE.md` §"Branch discipline + merge-to-main". |
-| **External publisher-facing** | `manuscript/chapters/*` · `core/glossary/*` · `core/technical-appendix/*` · `publishing/essays/<venue>/essay.md` · `publishing/op-eds/<slug>/op-ed.md` · `publishing/book-proposal/*` · `README.md` | WP#8 (scrubbed of audit-trail content) + Pattern 2 demonstration (threaded through cases rather than codified in dedicated how-to / methodology sections — the *Doughnut Economics* / *Mission Economy* / *Mine!* model). Auto-merges to main on author ratification (merge-on-ratification 2026-05-28). |
+| **External publisher-facing** | `manuscript/chapters/*` · `core/glossary/*` · `manuscript/technical-appendix/*` · `publishing/essays/<venue>/essay.md` · `publishing/op-eds/<slug>/op-ed.md` · `publishing/book-proposal/*` · `README.md` | WP#8 (scrubbed of audit-trail content) + Pattern 2 demonstration (threaded through cases rather than codified in dedicated how-to / methodology sections — the *Doughnut Economics* / *Mission Economy* / *Mine!* model). Auto-merges to main on author ratification (merge-on-ratification 2026-05-28). |
 
 **Default when uncertain:** classify new content as internal scaffolding. Easier to promote internal material to external (when it earns the slot via Pattern 2 demonstration) than to scrub publisher-facing artifacts of accumulated scaffolding.
 
@@ -55,7 +55,7 @@ The book is content-complete (all 10 chapters drafted + Tech Appendix + AuthorsN
 
 ### Archive convention (Insight #62 ratified 2026-04-30)
 
-Hybrid structure. Top-level `archive/` carries cross-domain retirement material + multi-book seed material. Per-domain `<domain>/archive/` carries domain-specific historical predecessors kept adjacent to live work (`core/technical-appendix/archive/`, `manuscript/chapters/archive/`, `tools/archive/`, per-essay `_archive/`). Single search location for retirement provenance: [`archive/retirements/index.md`](archive/retirements/index.md). Per-domain archives encode origin context next to live work per WP#10's "internal scaffolding can be rich" license.
+Hybrid structure. Top-level `archive/` carries cross-domain retirement material + multi-book seed material. Per-domain `<domain>/archive/` carries domain-specific historical predecessors kept adjacent to live work (`manuscript/technical-appendix/archive/`, `manuscript/chapters/archive/`, `tools/archive/`, per-essay `_archive/`). Single search location for retirement provenance: [`archive/retirements/index.md`](archive/retirements/index.md). Per-domain archives encode origin context next to live work per WP#10's "internal scaffolding can be rich" license.
 
 ## Operating rules
 

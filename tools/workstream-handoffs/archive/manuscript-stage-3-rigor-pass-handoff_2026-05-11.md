@@ -78,7 +78,7 @@ For Phase A sessions, use the table below to assemble each chapter's paste-text 
 | Artifact | File path | Audit emphasis |
 |---|---|---|
 | AuthorsNote | `manuscript/chapters/_AUTHORSNOTE_ON_WINDTUNNELS_AND_AI.md` | NASA-grandfather-LaVern-E.-Winn naming; AI disclosure register; book-positioning |
-| Tech Appendix | `core/technical-appendix/TechnicalAppendix_v2.0.0.html` | Numbering scheme post-#15 reconciliation; formal apparatus integrity; cross-references from chapters per Phase 4 |
+| Tech Appendix | `manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html` | Numbering scheme post-#15 reconciliation; formal apparatus integrity; cross-references from chapters per Phase 4 |
 | Glossary | (verify path) | v4 rebuild status (queued); coordinate with #9 apparatus register decisions |
 
 ---

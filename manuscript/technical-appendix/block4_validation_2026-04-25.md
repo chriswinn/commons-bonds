@@ -7,7 +7,7 @@
 
 > **Validation-record preservation note (added 2026-05-14).** This file documents the Block 4 validation work-product as of 2026-04-25 and is preserved here as the historical audit record from that date — *not* as a current canonical source. Several figures below have since been superseded by corpus-canonical updates landed in [`TechnicalAppendix_v2.0.0.html`](TechnicalAppendix_v2.0.0.html) v2.1.0 (2026-05-14) and the parallel Ch 6 Phase C-α + Phase C-β cascade (commits `6a5ee42` + `f6bb6ad`). The supersedences include: §2.1 Appalachian-coal carbon-intensity factor (~2.86 → ~2.32 mt CO₂/short ton per EPA AP-42 §1.1 bituminous-coal short-ton accounting, per Ch 6 Pass 1 Amendment E MEDIUM-11 / TA-side MEDIUM-11 cascade); §2.1 cumulative McDowell emissions (~1.7B → ~1.4B tons CO₂) and the downstream §2.2 Method 1 DAC band calculations; §1.1 Norway gas-emissions factor (~2.7 t CO₂/BOE-equivalent gas → ~0.31 t CO₂/BOE-equivalent gas per TA Phase C Track 3 F-7 Path A units correction); §1.1 cumulative Norwegian emissions (~21.5B → ~20.35B tons CO₂); §1.1 GPFG fund value ($1.9T → $2.0T end-2025; reached $2.2T peak); §1.1 cumulative oil + gas production (50B → 55B BOE through 2024); §1.1 per-citizen GPFG share ($340K → $380K–$400K); §2.1 Black Lung Trust Fund outstanding debt ($4.6B → $5.1B as of September 2024 per DOL OWCP). For corpus-canonical figures, consult the Tech Appendix HTML at v2.1.0 or later. This file's structural findings (relative ordering across methods; α-dominance pattern; CSD-RCV correlation direction) remain valid under the refreshed numerics.
 
-**Tooling caveat:** Analytical / spreadsheet-equivalent numerical work; not full Monte Carlo. Block 4 numerical Monte Carlo execution remains a Phase B item once Method 3 full derivation lands (see `core/technical-appendix/method3_sensitivity_analysis_2026-04-25.md`).
+**Tooling caveat:** Analytical / spreadsheet-equivalent numerical work; not full Monte Carlo. Block 4 numerical Monte Carlo execution remains a Phase B item once Method 3 full derivation lands (see `manuscript/technical-appendix/method3_sensitivity_analysis_2026-04-25.md`).
 
 ---
 
@@ -28,7 +28,7 @@
 
 ### §1.2 Method 1 — Replacement Cost (lower-bound floor for Habitability commons)
 
-**Logic:** Method 1 prices the engineering cost to replace the substitutable component of the commons. For Norwegian oil, the substitutable component on the Habitability axis is the atmospheric CO₂-removal function the natural sinks provide for free; the engineering substitute is direct-air-capture (DAC). Per `core/technical-appendix/empirical_sourcing_pass_2026-04-25.md` §1.3 three-horizon DAC range:
+**Logic:** Method 1 prices the engineering cost to replace the substitutable component of the commons. For Norwegian oil, the substitutable component on the Habitability axis is the atmospheric CO₂-removal function the natural sinks provide for free; the engineering substitute is direct-air-capture (DAC). Per `manuscript/technical-appendix/empirical_sourcing_pass_2026-04-25.md` §1.3 three-horizon DAC range:
 
 - **Conservative (current operational, first-of-a-kind DAC):** $600–$1,000/ton CO₂ × 21.5B tons = **$12.9–21.5T total atmospheric replacement cost** (oil-emissions only; gas adds ~15-30%).
 - **Mid-range (at-scale commercial within next decade):** $300–$600/ton × 21.5B tons = **$6.5–12.9T**.
@@ -252,7 +252,7 @@ This is actually structurally consistent with the framework: extraction does not
 
 ## §4. Sensitivity findings + α-dominance confirmation
 
-The §1 + §2 analyses confirm the §3.2 sensitivity finding from `core/technical-appendix/method3_sensitivity_analysis_2026-04-25.md`:
+The §1 + §2 analyses confirm the §3.2 sensitivity finding from `manuscript/technical-appendix/method3_sensitivity_analysis_2026-04-25.md`:
 
 | Case | σ | α | V_option | Dominant parameter | M3 RCV mid-range |
 |---|---|---|---|---|---|
@@ -306,11 +306,11 @@ The 2026-08-17 Berggruen submission window readiness was flagged in v1.44.0 hand
 
 ## §7. Cross-references
 
-- `core/technical-appendix/archive/TechnicalAppendix_v0.0.5_supplement.md` §2 (Two-Instrument Architecture) — CSD vs RCV distinction tested by §3 above.
-- `core/technical-appendix/archive/TechnicalAppendix_v0.0.5_supplement.md` §3 (Three Ways) — methods executed by §1 + §2 above.
-- `core/technical-appendix/archive/TechnicalAppendix_v0.0.5_supplement.md` §5 (Hotelling Identity) — provides per-case Hotelling_anchor input for Method 3.
-- `core/technical-appendix/method3_sensitivity_analysis_2026-04-25.md` — analytical sensitivity findings confirmed empirically here.
-- `core/technical-appendix/empirical_sourcing_pass_2026-04-25.md` — DAC + space-economics anchors used in Method 1 calculations.
+- `manuscript/technical-appendix/archive/TechnicalAppendix_v0.0.5_supplement.md` §2 (Two-Instrument Architecture) — CSD vs RCV distinction tested by §3 above.
+- `manuscript/technical-appendix/archive/TechnicalAppendix_v0.0.5_supplement.md` §3 (Three Ways) — methods executed by §1 + §2 above.
+- `manuscript/technical-appendix/archive/TechnicalAppendix_v0.0.5_supplement.md` §5 (Hotelling Identity) — provides per-case Hotelling_anchor input for Method 3.
+- `manuscript/technical-appendix/method3_sensitivity_analysis_2026-04-25.md` — analytical sensitivity findings confirmed empirically here.
+- `manuscript/technical-appendix/empirical_sourcing_pass_2026-04-25.md` — DAC + space-economics anchors used in Method 1 calculations.
 - `tools/rigor-passes/archive/commons_bonds_rigor_pass_2026-04-24_three_ways_rcv_formal_model_v1.0.0.md` Block 4 — the validation strategy this document executes.
 - `alignment/decisions/april-19-rcv-validation-strategy.md` — original Block 4 spec.
 - `alignment/commons_bonds_open_insights_v1.0.0.md` Open Insight #19 (CSD-RCV correlation hypothesis) + Open Insight #20 (sensitivity execution) + Open Insight #14 (Norway-as-canonical-B2 epistemic-humility).

@@ -37,7 +37,7 @@ deterministically verified data until it returns.
 **Gate status: CLEARED.** TA closeout merged 06-09; framework-core /
 reverse-CSD revision merged 06-10 (branch `claude/ta-reverse-csd-260610-4fc8d1`:
 §3.4 M2=realized-Bond reader + hedonic/VSL note; §3.6 logic/table recompute;
-§15.1.3; calc engine `core/technical-appendix/calculations/` with 21/21
+§15.1.3; calc engine `manuscript/technical-appendix/calculations/` with 21/21
 reproductions incl. reef + reparations-test + 11-case bidirectional
 portfolio; Darity figure → $14T 2nd-ed/JEP-2022). **The cross-corpus numeric
 sweep is UNBLOCKED and is now the first domino.**

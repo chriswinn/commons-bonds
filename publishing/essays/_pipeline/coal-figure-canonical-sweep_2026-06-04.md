@@ -8,7 +8,7 @@ inputs:
   - manuscript/chapters/Chapter__2_TheMiner.md
   - manuscript/chapters/Chapter__6_ThreeWaysofCounting.md
   - manuscript/chapters/Chapter__8_WhatThingsActuallyCost.md
-  - core/technical-appendix/TechnicalAppendix_v2.0.0.html (§3.6 / §9.5 convergence table, §7.4, §11.1, §11.6, §11.11)
+  - manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html (§3.6 / §9.5 convergence table, §7.4, §11.1, §11.6, §11.11)
   - publishing/essays/atlantic-ideas-pricing-honestly/essay.md
   - publishing/op-eds/mcdowell-county-true-cost/op-ed.md (NB: task named a "_archive/fresh-newpipe-draft_2026-06-03.md" that does not exist in this snapshot; swept the canonical op-ed.md instead)
   - publishing/essays/aeon-mask-of-abundance/essay.md (NB: task named a "_archive/aeon-final-candidate-assembled_2026-06-03.md" that does not exist in this snapshot; swept the canonical essay.md instead)
@@ -306,7 +306,7 @@ $190 × 2.61 = $496 / $190 × 2.32 = $441. Labels are PINNED so no string is amb
 | Artifact | Edits needed |
 |---|---|
 | **manuscript/chapters/Chapter__8_WhatThingsActuallyCost.md** | l.74/80/158: carbon term $510 → **$496**; l.82: "$518–532" → **"$504–518"**; l.168/242: total $524 → **$510** (and re-verify the bullet sum); l.24/40/64/170/242: "$4–5" → consider harmonizing to $4.50 (C1) |
-| **core/technical-appendix/TechnicalAppendix_v2.0.0.html** | §11.1 l.3876/3898: "~$510" → **$496**; l.3882 "$518–532" → **"$504–518"**; l.3892: "18,000" → **"~19,000"**; verify §11.6 / §9.5 columns inherit corrected carbon; §11.11: add note that 555× is an inflation-scale artifact not for standalone use |
+| **manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html** | §11.1 l.3876/3898: "~$510" → **$496**; l.3882 "$518–532" → **"$504–518"**; l.3892: "18,000" → **"~19,000"**; verify §11.6 / §9.5 columns inherit corrected carbon; §11.11: add note that 555× is an inflation-scale artifact not for standalone use |
 | **manuscript/chapters/Chapter__6_ThreeWaysofCounting.md** | l.343: "$518 to $532" → **"$504–518"** (McDowell basis); confirm "$449 to $464" national-average band is intended as carbon+heads and label it; l.42: "$441" is correct — keep |
 | **publishing/op-eds/mcdowell-county-true-cost/op-ed.md** | l.33: **2.86 → 2.61** mt CO₂; carbon **$544 → $496**; l.25: honest cost **$558 → $510** (or "$500–600" band); l.27: closure year "1990" → reconcile (J5); l.29: "$4.5B in 2021" → reconcile (J4). **HIGHEST PRIORITY — highest-exposure artifact.** |
 | **publishing/essays/atlantic-ideas-pricing-honestly/essay.md** | l.3: "$520 to $600" band — low end ($520) is now slightly above corrected $510 total. Recommend **"$500 to $600"** so the band cleanly contains the $510 floor and the $580–620 RCV band. "two orders of magnitude" (~100×) is within 33–122× — fine. |

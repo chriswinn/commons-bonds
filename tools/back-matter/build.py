@@ -6,9 +6,9 @@ zero-scaffolding, per-entry-anchored reader-facing HTML into manuscript/back-mat
 
 Source-of-truth (current homes; relocation deferred per 2026-06-09 plan):
   bibliography : research/literature/bibliography.md   (the SUPERSET master)
-  TA §18 (in)  : core/technical-appendix/TechnicalAppendix_v2.0.0.html  (subset, for fold diff)
+  TA §18 (in)  : manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html  (subset, for fold diff)
   glossary     : core/glossary/commons_bonds_updated_glossary_v4.html
-  notation     : core/technical-appendix/symbol-registry_2026-06-07.md
+  notation     : manuscript/technical-appendix/symbol-registry_2026-06-07.md
 
 Outputs (reader-facing, clean):
   manuscript/back-matter/bibliography.html
@@ -29,9 +29,9 @@ import os, re, sys, html, unicodedata
 
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 BIB_MD   = os.path.join(ROOT, "research/literature/bibliography.md")
-TA_HTML  = os.path.join(ROOT, "core/technical-appendix/TechnicalAppendix_v2.0.0.html")
+TA_HTML  = os.path.join(ROOT, "manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html")
 GLOSS_V4 = os.path.join(ROOT, "core/glossary/commons_bonds_updated_glossary_v4.html")
-REGISTRY = os.path.join(ROOT, "core/technical-appendix/symbol-registry_2026-06-07.md")
+REGISTRY = os.path.join(ROOT, "manuscript/technical-appendix/symbol-registry_2026-06-07.md")
 OUT_DIR  = os.path.join(ROOT, "manuscript/back-matter")
 
 # ---- scaffolding markers: a citation ends where the first of these begins ----

@@ -528,7 +528,7 @@ New insights automatically get added to the todo list in both states: one entry 
 - **Why dedicated session:** the work is large enough (~7 substantive tasks now; multi-cycle rigor) that batching it with other Phase B work fragments attention and risks the kind of partial-rewrite that creates new inconsistencies. A dedicated session can hold the Tech Appendix + Ch 6 in working memory, walk through each task with full structural awareness, and produce a clean v0.0.6 (or v1.0.0 if the rewrite is substantial enough to warrant the version bump) plus a properly-formatted Ch 6.
 - **Proposed resolution:** schedule a dedicated session for Tech Appendix v0.0.5 → v0.0.6 (or v1.0.0) + Chapter 6 full HTML rewrite, both in Option A pretty-printed semantic HTML. Session plan: walk each section in order; consolidate from supplement + integration block + Ch 6 supplementary drafts; reconcile IPG-table numerical anchors; produce clean canonical structure; commit per-section per push-cadence rule. Pre-session prep no longer needed (Option A confirmed; toolchain migration question resolved by Option A choice).
 - **Trigger condition for session start:** Chris signals readiness — likely after current Phase B Tier 1 + Tier 4 batch + chapter-by-chapter prose-sweep cycle lands (currently in progress in 2026-04-25/26 session), and either before or after the personal-stories drafting cycle depending on Chris's priority sequence.
-- **Dependencies / Links:** v1.44.0 session handoff (Phase B item: Tech Appendix v0.0.5 HTML integration of supplement §2-§7); commit `351817c` (2026-04-25 partial integration block); supplement file (`core/technical-appendix/archive/TechnicalAppendix_v0.0.5_supplement.md`); Block 4 validation work (`core/technical-appendix/block4_validation_2026-04-25.md`); Method 3 sensitivity analysis (`core/technical-appendix/method3_sensitivity_analysis_2026-04-25.md`); empirical sourcing pass (`core/technical-appendix/empirical_sourcing_pass_2026-04-25.md`); Ch 6 supplementary drafts §6.5–§6.10 (Phase B authoring passages with Tech Appendix companions); current Ch 6 HTML draft.
+- **Dependencies / Links:** v1.44.0 session handoff (Phase B item: Tech Appendix v0.0.5 HTML integration of supplement §2-§7); commit `351817c` (2026-04-25 partial integration block); supplement file (`manuscript/technical-appendix/archive/TechnicalAppendix_v0.0.5_supplement.md`); Block 4 validation work (`manuscript/technical-appendix/block4_validation_2026-04-25.md`); Method 3 sensitivity analysis (`manuscript/technical-appendix/method3_sensitivity_analysis_2026-04-25.md`); empirical sourcing pass (`manuscript/technical-appendix/empirical_sourcing_pass_2026-04-25.md`); Ch 6 supplementary drafts §6.5–§6.10 (Phase B authoring passages with Tech Appendix companions); current Ch 6 HTML draft.
 - **Todo link:** "Schedule dedicated session for Tech Appendix v0.0.5 + Ch 6 full HTML rewrite in Option A pretty-printed semantic HTML (Insight #21)."
 
 ---
@@ -986,8 +986,8 @@ New insights automatically get added to the todo list in both states: one entry 
 - **Pass-fail verdict on enhanced scarcity_multiplier per rigor pass §13:** STRONG — meets academic-peer-review standards. Functional choice motivated; discipline claim corrected; alternative-form sensitivity displayed; citations explicit.
 - **Implementation pending:**
   - **Tech Appendix v1.0.0 HTML §10 line 866 — add §13.1 functional-form motivation note + §13.3 alternative-functional-form sensitivity table.** Same open question as Insights #35 + #38 + #40 + Phase 2 #8 + Phase 2 #6 Tech Appendix HTML edit timing: apply now vs batch into Phase 3 Tech Appendix v2.0.0 rebuild. Possibility of unified batch into v2.0.0 rebuild for all Phase 2 Tech Appendix changes.
-  - **`core/technical-appendix/method3_sensitivity_analysis_2026-04-25.md` §2.1 — discipline-claim correction per §13.2.**
-  - **`core/technical-appendix/method3_sensitivity_analysis_2026-04-25.md` §2.1.5 (new) — alternative-form sensitivity table per §13.3.**
+  - **`manuscript/technical-appendix/method3_sensitivity_analysis_2026-04-25.md` §2.1 — discipline-claim correction per §13.2.**
+  - **`manuscript/technical-appendix/method3_sensitivity_analysis_2026-04-25.md` §2.1.5 (new) — alternative-form sensitivity table per §13.3.**
   - **Bibliography expansion** — Atkinson 1970; Cobb-Douglas 1928; Solow 1956; Bergson 1938.
   - **Pre-publication external review** (per Insight #39) — resource-economist + welfare-economics PhD verifies Hotelling-rent-path-conjugate motivation + alternative-form sensitivity coverage + Block 4 numerical Monte Carlo scoping. Downstream gate; this Phase 2 audit produces the substrate.
 - **Dependencies / Links:** Phase 1 full framework audit §7.10 + §10 #6; Method 3 sensitivity analysis 2026-04-25 §2.1 + §3.4 + §6.4; Insight #39 (pre-publication external review; downstream gate); Insights #35 + #38 + #40 + Phase 2 #8 [Q(t)] + Phase 2 #6 [TWoC-adoption] (verdict-pattern cross-reference; shared open question on Tech Appendix HTML edit timing); Hotelling 1931 (rent-path conjugate motivation); Atkinson 1970 + Cobb-Douglas 1928 (welfare-economics log-utility precedent); Dixit-Pindyck 1994 (option-value foundation, already in bibliography).
@@ -1173,7 +1173,7 @@ New insights automatically get added to the todo list in both states: one entry 
 - **Category:** project-hygiene · archive-discipline · directory-structure
 - **Content:** The project had 4+ archive locations:
   - `archive/` (top-level) — `_OneDayMaybe/` + `decomposition/` (post-Insight #55) + `retirements/` (per Insight #59)
-  - `core/technical-appendix/archive/` — superseded TA versions + supplements
+  - `manuscript/technical-appendix/archive/` — superseded TA versions + supplements
   - `manuscript/chapters/archive/` — Ch 6 supplementary drafts
   - `tools/archive/` — retired rigor protocols + old layer-tier-stress-test
 - **Decision questions tested:**
@@ -1227,8 +1227,8 @@ New insights automatically get added to the todo list in both states: one entry 
 1. `tools/routines/proposed_routines_v1.0.0.md` — 4 instances of `/Users/c17n/Documents/___WorkingOn/commons-bonds` → `/Users/c17n/commons-bonds` (lines 31, 148, 254, 304; daily sentinel + weekly pre-submission audit + rigor pass tracker + open insights status sync prompts).
 2. `tools/audits/commons_bonds_case_study_audit_v1.0.6.md` line 477 — `core/decomposition/eight-tier-v10.html` → `archive/decomposition/eight-tier-v10.html` with 8-tier RETIRED context note.
 3. `alignment/patches/pending-framework-review/README.md` line 17 — `core/decomposition/` → `archive/decomposition/` with retirement context.
-4. `core/technical-appendix/TechnicalAppendix_v1.0.0.html` line 3007 — supplement reference → `core/technical-appendix/archive/...`
-5. `core/technical-appendix/empirical_sourcing_pass_2026-04-25.md` + `method3_sensitivity_analysis_2026-04-25.md` + `block4_validation_2026-04-25.md` — supplement references → archive path (3 files).
+4. `manuscript/technical-appendix/TechnicalAppendix_v1.0.0.html` line 3007 — supplement reference → `manuscript/technical-appendix/archive/...`
+5. `manuscript/technical-appendix/empirical_sourcing_pass_2026-04-25.md` + `method3_sensitivity_analysis_2026-04-25.md` + `block4_validation_2026-04-25.md` — supplement references → archive path (3 files).
 6. `alignment/patches/cit_positioning_consistency_audit_2026-04-25.md` — supplement references → archive path.
 
 **Stale current-state claim fixes:**

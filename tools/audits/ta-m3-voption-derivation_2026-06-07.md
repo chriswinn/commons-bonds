@@ -420,5 +420,5 @@ and 2. Correcting it tightens convergence rather than breaking it.
   MIT Tech Review https://www.technologyreview.com/2015/02/25/169038/what-happened-to-the-rare-earths-crisis/ ;
   Project Blue https://projectblue.com/blue/opinion-pieces/439/
 - TA internal anchors: §3.3/§11.6 carbon $496 + M1 $1,595–2,702
-  (`core/technical-appendix/TechnicalAppendix_v2.0.0.html`, HTML lines ~3876,
+  (`manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html`, HTML lines ~3876,
   ~4674, ~4748, ~4827); D-P bibliography entry HTML line ~7807.

@@ -304,9 +304,9 @@ Confirmed-present bibliography references load-bearing for v1.0.0:
 ## §8. Files modified this session (working state)
 
 **Tech Appendix (Open Insight #21 Path B):**
-- `core/technical-appendix/TechnicalAppendix_v1.0.0.html` (renamed from v0.0.5; full restructure to v1.0.0 architecture)
-- `core/technical-appendix/archive/TechnicalAppendix_v0.0.3.html` (moved from technical-appendix/)
-- `core/technical-appendix/archive/TechnicalAppendix_v0.0.5_supplement.md` (moved from technical-appendix/; retirement note added)
+- `manuscript/technical-appendix/TechnicalAppendix_v1.0.0.html` (renamed from v0.0.5; full restructure to v1.0.0 architecture)
+- `manuscript/technical-appendix/archive/TechnicalAppendix_v0.0.3.html` (moved from technical-appendix/)
+- `manuscript/technical-appendix/archive/TechnicalAppendix_v0.0.5_supplement.md` (moved from technical-appendix/; retirement note added)
 
 **Chapter 6:**
 - `manuscript/chapters/Chapter__6_ThreeWaysofCounting__Draft.html` (format conversion + Phase B supplementary passages appended)

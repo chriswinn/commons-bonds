@@ -151,7 +151,7 @@ For each test below, the audit (a) reads every appearance of Q(t) across Tech Ap
 
 ### §4.1 Canonical definition (Tech Appendix §B Definition A.3)
 
-[Tech Appendix v1.0.0 line 432-449](core/technical-appendix/TechnicalAppendix_v1.0.0.html):
+[Tech Appendix v1.0.0 line 432-449](manuscript/technical-appendix/TechnicalAppendix_v1.0.0.html):
 
 > **Definition A.3 (Stock-Dependent Utility) — UPDATED per Ripple Effects 1.0**
 >
@@ -603,9 +603,9 @@ This rigor pass does NOT replace external review; it produces the substrate that
 
 ### §16.3 Downstream artifacts (this pass would update on ratification)
 
-- `core/technical-appendix/TechnicalAppendix_v1.0.0.html` §B Definition A.3 (line 432-449) — expanded text per §13.1.
-- `core/technical-appendix/TechnicalAppendix_v1.0.0.html` §10 Theorem E.4 statement (line 3285) + McDowell (line 2821) + §M.5 (line 6948 or 7020) — cross-reference parentheticals per §13.2.
-- `core/technical-appendix/TechnicalAppendix_v1.0.0.html` bibliography section — Pindyck 1978, Dasgupta-Heal 1979, Mussa-Rosen 1978, Slade-Thille 2009, Spence 1976, Tirole 1988 additions.
+- `manuscript/technical-appendix/TechnicalAppendix_v1.0.0.html` §B Definition A.3 (line 432-449) — expanded text per §13.1.
+- `manuscript/technical-appendix/TechnicalAppendix_v1.0.0.html` §10 Theorem E.4 statement (line 3285) + McDowell (line 2821) + §M.5 (line 6948 or 7020) — cross-reference parentheticals per §13.2.
+- `manuscript/technical-appendix/TechnicalAppendix_v1.0.0.html` bibliography section — Pindyck 1978, Dasgupta-Heal 1979, Mussa-Rosen 1978, Slade-Thille 2009, Spence 1976, Tirole 1988 additions.
 - `core/terms/terms_index.md` — Phase 2 verdict entry; cross-reference to this rigor pass.
 - `alignment/commons_bonds_open_insights_v1.0.0.md` — new Insight # closed-ratified capturing Phase 2 #8 verdict (number TBD; coordinate with sibling theorem-rigor passes).
 

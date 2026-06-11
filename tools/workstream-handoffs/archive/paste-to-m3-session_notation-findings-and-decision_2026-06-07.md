@@ -6,7 +6,7 @@
 
 **Notation findings that bear on the Method-3 formula + your Path-A/B decision — verify INDEPENDENTLY (against the cited sources + the file; do not take these on faith), then the direction call can be made.**
 
-A notation/symbol-sweep ran on branch `claude/ta-internal-fixes-260607-208b7b` (off the held TA rigor-audit branch). It verified items that touch your section. Supporting artifact: `core/technical-appendix/symbol-registry_2026-06-07.md` (Parts 4 & 5). Method-3 formula as it stands:
+A notation/symbol-sweep ran on branch `claude/ta-internal-fixes-260607-208b7b` (off the held TA rigor-audit branch). It verified items that touch your section. Supporting artifact: `manuscript/technical-appendix/symbol-registry_2026-06-07.md` (Parts 4 & 5). Method-3 formula as it stands:
 `RCV_M3 = V_option × scarcity_multiplier(σ) × irreversibility_premium(α)`, with `scarcity_multiplier(σ) = 1 + log(1+σ) × Hotelling_anchor` and `irreversibility_premium(α) = 1/(1−α)^β`.
 
 **A. The σ choice is dismissal-grade (verified against YOUR cited sources).**

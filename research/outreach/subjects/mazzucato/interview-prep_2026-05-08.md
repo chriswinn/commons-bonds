@@ -204,7 +204,7 @@ Per the canonical Three Tiers template in `alignment/commons_bonds_framework_pos
 **Tier 1 (share freely):** Framework analytical contributions — *cost severance*, *RCV* (covering both non-renewable resources from the start AND renewable resources pushed past regenerative capacity per FPD-8 scope-explicitness), two-instrument decomposition (Restitution Bond B₁ + Foreclosure Bond B₂), accounting equation Cost Severance = RCV − B, Cost Severance Damages (CSD) methodology, cross-system framing (capitalism / feudalism / colonialism / command economies), specific empirical case-walks (McDowell / Libby / Niger Delta / Norway / Amsterdam). Lineage extensions to Hotelling, Ostrom, Polanyi, Mazzucato, Boyce, Marx/Harvey/Klein, reparations economics, Raworth/Doughnut: canonical articulations in FPD doc §"Canonical framework articulations" — drop-in language for live use. **The "Why bonds (not funds / accounts / trusts / reserves)?" canonical articulation is Tier 1 — share freely if she presses.**
 
 **Tier 2 (share post-interview if she asks; do NOT pre-send):**
-- Technical Appendix v1.0.0 — `core/technical-appendix/TechnicalAppendix_v1.0.0.html` (formal apparatus where the math sits, including RCV-as-Hotelling-extension and B = B₁ + B₂ Accountability Bond Decomposition)
+- Technical Appendix v1.0.0 — `manuscript/technical-appendix/TechnicalAppendix_v1.0.0.html` (formal apparatus where the math sits, including RCV-as-Hotelling-extension and B = B₁ + B₂ Accountability Bond Decomposition)
 - Chapter 9 (Pricing Honestly) entering-wedges material — the deal-evaluation worked examples adjacent to *Mission Economy*'s share-risks-rewards pillar
 - Chapter 5 §"Restitution and Foreclosure" excerpt — naming *Mission Economy* as the desideratum the two-instrument decomposition operationalises
 - Bibliography §13 entry on *The Value of Everything* — the framework's Ring-1 flagship anchor cite for *value-extraction*; offer to send the entry text so she can review/refine the framework's positioning of her work
@@ -441,5 +441,5 @@ Per FPD-6 closing-block discipline:
 - `alignment/commons_bonds_framework_positioning_disciplines_v1.0.0.md` §"Canonical framework articulations" — drop-in oral-friendly versions for Hotelling, Ostrom, Polanyi, Mazzucato, Boyce, Marx/Harvey/Klein, reparations economics, Raworth/Doughnut.
 - `alignment/commons_bonds_framework_positioning_disciplines_v1.0.0.md` §"Why bonds (and not funds, accounts, trusts, or reserves)?" — load-bearing canonical articulation for Q4 financialisation defense.
 - `alignment/commons_bonds_vocabulary_strategy_v1.0.1.md` §6.5 — vocabulary strategy depth on bond-form choice.
-- `core/technical-appendix/TechnicalAppendix_v1.0.0.html` §5 — Accountability Bond Decomposition (formal definitions of B = B₁ + B₂); §E.1 RCV-as-Hotelling-extension.
+- `manuscript/technical-appendix/TechnicalAppendix_v1.0.0.html` §5 — Accountability Bond Decomposition (formal definitions of B = B₁ + B₂); §E.1 RCV-as-Hotelling-extension.
 - `research/literature/bibliography.md` §13 — *The Value of Everything* anchor cite; the framework's Ring-1 flagship entry where the precision-add positioning is captured.

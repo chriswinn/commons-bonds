@@ -68,7 +68,7 @@ Chris
 - **Three derivative artifacts will be attached to the actual email:**
   - Ch 5 .docx — [research/outreach/subjects/darity/Chapter_5_The_Accountability_Gap_2026-05-14.docx](research/outreach/subjects/darity/Chapter_5_The_Accountability_Gap_2026-05-14.docx) (finalized 2026-05-14, scanned + approved).
   - Ch 6 .docx — pending generation post-Pass-3.
-  - TA — format TBD (HTML source at `core/technical-appendix/TechnicalAppendix_v2.1.0.html` per the v2.1.0 publication state; PDF or .docx derivative likely preferable for academic-reader attachment).
+  - TA — format TBD (HTML source at `manuscript/technical-appendix/TechnicalAppendix_v2.1.0.html` per the v2.1.0 publication state; PDF or .docx derivative likely preferable for academic-reader attachment).
 
 - **Customization to consider before sending:**
   - **Subject line** — current draft is *"The materials we discussed — three pieces enclosed for your close read"*. If you want shorter or warmer, swap freely. Mirroring the 2026-05-13 email's "Thank you" tone is also defensible.

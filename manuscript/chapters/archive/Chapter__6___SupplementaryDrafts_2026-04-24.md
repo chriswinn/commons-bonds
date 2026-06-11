@@ -157,7 +157,7 @@ If Ch 10 incorporates a brief reflective return to the philosophical grounding (
 - **Recommended placement:** insert this passage after the existing Counterargument 4 / "model is unfalsifiable" response in the Ch 6 HTML draft + GuidanceDoc text. Specifically, after the Yeager-and-the-sound-barrier paragraph in the GuidanceDoc (around line 234-236) — its analog placement in the HTML draft.
 - **Length:** ~200 words; lands as one passage rather than restructuring existing prose.
 - **Cross-spectrum-tone discipline:** the passage stays methodologically careful — concedes that thought-experiments are not Popperian-falsifiable; positions empirical falsifiability at the appropriate layer; doesn't overclaim. Protects against M11 Char 18 attack vector by demonstrating the framework engages the strongest available challenge.
-- **Cross-references to land:** Block 4 validation work (`core/technical-appendix/block4_validation_2026-04-25.md`); Method 3 sensitivity analysis (`method3_sensitivity_analysis_2026-04-25.md`); CIT positioning consistency audit (`alignment/patches/cit_positioning_consistency_audit_2026-04-25.md`).
+- **Cross-references to land:** Block 4 validation work (`manuscript/technical-appendix/block4_validation_2026-04-25.md`); Method 3 sensitivity analysis (`method3_sensitivity_analysis_2026-04-25.md`); CIT positioning consistency audit (`alignment/patches/cit_positioning_consistency_audit_2026-04-25.md`).
 
 ---
 
@@ -187,7 +187,7 @@ If Ch 10 incorporates a brief reflective return to the philosophical grounding (
 
 **Placement:** Ch 6 methodology section, in the Method 1 Replacement Cost walkthrough where the Habitability commons anchor is introduced. Inserts the empirical-sourcing-pass three-horizon DAC range + the SCC-vs-DAC distinction discipline.
 
-**Function:** Closes the M6.4 sourcing-pass-needed flag for Tech Appendix supplement §3.1 (per `core/technical-appendix/empirical_sourcing_pass_2026-04-25.md` §1.3 recommendation). The Ch 6 main-text needs to (a) present DAC at three horizons rather than a single point estimate, (b) distinguish DAC (substitution-side; Method 1) from Social Cost of Carbon (damage-side; appears in convergence table) rather than conflating them.
+**Function:** Closes the M6.4 sourcing-pass-needed flag for Tech Appendix supplement §3.1 (per `manuscript/technical-appendix/empirical_sourcing_pass_2026-04-25.md` §1.3 recommendation). The Ch 6 main-text needs to (a) present DAC at three horizons rather than a single point estimate, (b) distinguish DAC (substitution-side; Method 1) from Social Cost of Carbon (damage-side; appears in convergence table) rather than conflating them.
 
 ### §6.8.1 Draft passage (~320 words; Ch 6 main-text register)
 
@@ -201,7 +201,7 @@ If Ch 10 incorporates a brief reflective return to the philosophical grounding (
 
 - **Recommended placement:** insert this passage in Ch 6's Method 1 Replacement Cost walkthrough, replacing the current "direct-air-capture cost per ton CO₂ at engineering scale" placeholder. The three-horizon framing lands first; the SCC-vs-DAC distinction follows as the closing methodological discipline.
 - **Convergence-table footnote:** add a footnote to the convergence table's "carbon term" column distinguishing SCC ($190/ton at 2% discount, damage-side) from any DAC anchor (substitution-side, Method 1).
-- **Cross-references to land:** `core/technical-appendix/empirical_sourcing_pass_2026-04-25.md` §1 (full DAC sourcing); `research/literature/bibliography.md` §17 (Nordhaus DICE for SCC lineage; Stern Review for low-discount-rate framing); IEA *Direct Air Capture 2022* + IPCC AR6 Working Group III + US National Academies 2019 (the three-horizon-anchor literature).
+- **Cross-references to land:** `manuscript/technical-appendix/empirical_sourcing_pass_2026-04-25.md` §1 (full DAC sourcing); `research/literature/bibliography.md` §17 (Nordhaus DICE for SCC lineage; Stern Review for low-discount-rate framing); IEA *Direct Air Capture 2022* + IPCC AR6 Working Group III + US National Academies 2019 (the three-horizon-anchor literature).
 - **Phase B-blocker dependency:** none. This passage can land independently; it pairs naturally with §6.5 (Parfit) + §6.6 (CIT-vs-empirical falsifiability) as the Ch 6 methodology-grounding cluster.
 
 ---

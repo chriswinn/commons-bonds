@@ -1,6 +1,6 @@
 # Deep Editorial Cut-and-Fix Memo — Technical Appendix (Commons Bonds)
 
-**Artifact:** `core/technical-appendix/TechnicalAppendix_v2.0.0.html` (376 KB; 8,044 lines; 18 sections + bibliography)
+**Artifact:** `manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html` (376 KB; 8,044 lines; 18 sections + bibliography)
 **Date:** 2026-06-04
 **Pass type:** Deep editorial cut-and-fix, read in full (strategic-grep + full reads of analytic spine §1–§17 + bibliography).
 **Lens:** Contribution-matrix (META-CLAIMS 1–3; A–P landing taxonomy; objection survival; canonical-figure drift).

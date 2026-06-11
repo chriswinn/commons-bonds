@@ -1,6 +1,6 @@
 # Commons Bonds — Commons Categories (10 examples, not canonical) — formerly "Abundance Dimensions"
 
-> **ARCHIVED 2026-05-02 (Phase α.2.7c).** Content absorbed into `core/technical-appendix/TechnicalAppendix_v2.0.0.html` §C.2 / §C.2.1 (per-category profiles). This source file remains as the historical-research-substrate record per Working Principle #4 Tier-2 discipline (header-note only; body content preserved unchanged). Current canonical state: Tech Appendix §C.2.1.
+> **ARCHIVED 2026-05-02 (Phase α.2.7c).** Content absorbed into `manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html` §C.2 / §C.2.1 (per-category profiles). This source file remains as the historical-research-substrate record per Working Principle #4 Tier-2 discipline (header-note only; body content preserved unchanged). Current canonical state: Tech Appendix §C.2.1.
 
 **Date:** 2026-04-24
 **Version:** 1.4.0 (Tier-1 update header per Working Principle #4)

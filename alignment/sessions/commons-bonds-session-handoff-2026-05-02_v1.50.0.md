@@ -356,7 +356,7 @@ Plus various smaller commits per cross-thread log (outreach record updates; live
 - **Retirement archive:** `archive/retirements/index.md` (canonical retirement-archive per Insight #59; full traces for all retired vocabulary + methodology + file/artifact retirements)
 - **Vocabulary strategy:** `alignment/commons_bonds_vocabulary_strategy_v1.0.1.md` (§3.1 Tier disambiguation note 2026-04-30; §13.2 reserved-letter ledger)
 - **terms_index:** `core/terms/terms_index.md` (v1.0.0 with summary-level retirement traces; Phase 2 + Group 1 ratifications absorbed)
-- **Tech Appendix:** `core/technical-appendix/TechnicalAppendix_v2.0.0.html` (post-Phase-α.2 rebuild)
+- **Tech Appendix:** `manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html` (post-Phase-α.2 rebuild)
 - **Glossary:** `core/glossary/commons_bonds_updated_glossary_v4.html` (post-Phase-α.3 rebuild)
 - **Internal-scaffolding methodology:** `core/methodology/decision_time_application_internal_v1.0.0.md` (NEW 2026-04-30; canonical artifact for Insight #9 verdict + WP#10 generalization)
 

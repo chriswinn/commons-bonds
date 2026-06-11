@@ -2,7 +2,7 @@
 
 **Trigger to resume:** "resume the TA rigor audit."
 **Branch:** `claude/ta-rigor-audit-260606-f537b4` — worktree `/Users/c17n/commons-bonds-ta-rigor-audit-260606-f537b4`.
-**HELD from main** (18+ commits ahead, NOTHING merged). Author reviews before merge. Path-scoped diff: `git diff origin/main -- core/technical-appendix/TechnicalAppendix_v2.0.0.html`.
+**HELD from main** (18+ commits ahead, NOTHING merged). Author reviews before merge. Path-scoped diff: `git diff origin/main -- manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html`.
 **Why this handoff:** session length started degrading rigor (twice cited our own table/ledger as "the authoritative source" — the self-citation trap; nearly applied a fix on an unverified number that the §11.10 agent then proved wrong). A fresh session + this doc + the disciplines below avoids that.
 
 > **⚠ SUPERSEDED — TA numeric work has moved to the M3 branch (noted 2026-06-09).**
@@ -28,7 +28,7 @@
 2. **Add the source to the bibliography the MOMENT it's verified** — stop the re-verify-then-lose cycle.
 3. **Verify before applying** any value-dependent fix. (The §11.10 agent proved this: the "$50–500/kg" I almost ratified is unverifiable.)
 4. **M3 = Path B** (full Dixit–Pindyck premium; drop the separate scarcity_multiplier + irreversibility_premium, which double-count). Supersedes item-14.
-5. **CSD method** = bounded range (provable M1+M2 floor + Ostrom-path generative, gate-disciplined ceiling); NO "standing" anywhere in the apparatus; NO unpriceability theorem; coercion handled by a first-person authorial note (chapters + TA). Spec: `core/technical-appendix/CSD-computation-method-spec_2026-06-06.md`.
+5. **CSD method** = bounded range (provable M1+M2 floor + Ostrom-path generative, gate-disciplined ceiling); NO "standing" anywhere in the apparatus; NO unpriceability theorem; coercion handled by a first-person authorial note (chapters + TA). Spec: `manuscript/technical-appendix/CSD-computation-method-spec_2026-06-06.md`.
 6. **M3 is a triangulation leg + the framework's core — make it SOLID (grounded), not hedged.** (Reverses an earlier wrong "demote M3 to qualitative" suggestion.)
 
 ---
@@ -65,8 +65,8 @@
 ---
 
 ## MASTER FILES
-- Finding list: `core/technical-appendix/TA-rigor-audit-ledger_2026-06-06.md` (81 confirmed → ~45 distinct)
-- CSD method spec: `core/technical-appendix/CSD-computation-method-spec_2026-06-06.md`
+- Finding list: `manuscript/technical-appendix/TA-rigor-audit-ledger_2026-06-06.md` (81 confirmed → ~45 distinct)
+- CSD method spec: `manuscript/technical-appendix/CSD-computation-method-spec_2026-06-06.md`
 - M3 Path-B proposal: `tools/audits/ta-m3-pathB-rework_proposal-record_2026-06-07.md`
 - M3-rigor research: `tools/audits/ta-m3-{sigma,alpha,voption}-*_2026-06-07.md`, `ta-method3-parameter-provenance_2026-06-06.md`
 - §11.6 input provenance: `tools/audits/ta-method1-input-provenance_2026-06-06.md`
@@ -79,11 +79,11 @@
 Branch is pushed: `origin/claude/ta-rigor-audit-260606-f537b4` (20 commits ahead of main; NOT merged). **Every session: branch off it, read THIS doc, stay in ONE cluster, do NOT merge to main, commit back; merge sub-branches sequentially to avoid the divergent-edit failure that forced the prior TA rewrite.**
 
 **FOUNDATION — do FIRST, largely solo (the rock-solidness guarantee before sharing):**
-- **Session A — Number-provenance sweep + bibliography consolidation.** Enumerate EVERY worked number in the TA; classify each **sourced / derived-with-work-shown / labeled-assumption / UNSUPPORTED(=defect)**; verify the external source for each; fold all into the bibliography. Absorbs the sourcing-dependent fixes: §11.10 cluster (Keck ~$5,200/kg error; Planetary Resources $50–500/kg UNVERIFIABLE → substitute Colvin/Crane/Lal 2020; Bennu-as-derivation; unit fix; Falcon Heavy), §11.6 M2 ($8–13 / $88–100), §3.4/3.6 Norway vintage, §11.6 Eco/Cohesion estimate-labels. **Start from the pre-existing `core/technical-appendix/empirical_sourcing_pass_2026-04-25.md` + `method3_sensitivity_analysis_2026-04-25.md`.**
+- **Session A — Number-provenance sweep + bibliography consolidation.** Enumerate EVERY worked number in the TA; classify each **sourced / derived-with-work-shown / labeled-assumption / UNSUPPORTED(=defect)**; verify the external source for each; fold all into the bibliography. Absorbs the sourcing-dependent fixes: §11.10 cluster (Keck ~$5,200/kg error; Planetary Resources $50–500/kg UNVERIFIABLE → substitute Colvin/Crane/Lal 2020; Bennu-as-derivation; unit fix; Falcon Heavy), §11.6 M2 ($8–13 / $88–100), §3.4/3.6 Norway vintage, §11.6 Eco/Cohesion estimate-labels. **Start from the pre-existing `manuscript/technical-appendix/empirical_sourcing_pass_2026-04-25.md` + `method3_sensitivity_analysis_2026-04-25.md`.**
 
 **PARALLEL-SAFE (read-only / additive — run anytime):**
 - **Session B — Darity version diff (read-only).** Compare current TA vs the 2026-05-14 version sent to Darity (`research/outreach/subjects/darity/Technical_Appendix_Commons_Bonds_2026-05-14.{docx,pdf}`); map each confirmed error to in-Darity? / introduced-later?; report. NB the sent PDF may be from a pre-rename source — archaeology required.
-- **Session F — CSD reverse model + reef worked case (additive).** Build the backward/restitution model + Chesapeake oyster-reef calibration per `core/technical-appendix/CSD-computation-method-spec_2026-06-06.md`. **Darity's version had NO reverse model — this is the addition to offer him.** Coordinate with the Ch3 chapter-drafting session.
+- **Session F — CSD reverse model + reef worked case (additive).** Build the backward/restitution model + Chesapeake oyster-reef calibration per `manuscript/technical-appendix/CSD-computation-method-spec_2026-06-06.md`. **Darity's version had NO reverse model — this is the addition to offer him.** Coordinate with the Ch3 chapter-drafting session.
 
 **SEQUENTIAL after Foundation (overlapping TA sections):**
 - **Session C — Internal-correctness sweep** (no external sourcing — fast ratifies): §16.1, §16.2, §9.5 ordering, §3.1 Def 1.3, §10.1b, §3.5 α-dominance, §11.5 M1 table, §3.6 McDowell M1, §14.6 Daly, §3.5 Solow.

@@ -109,7 +109,7 @@
 
 **What this is.** The backward/restitution counterpart to the forward RCV method, plus the worked Chesapeake
 oyster-reef calibration. **Darity's 2026-05-14 version had NO reverse model** — this is the addition to offer him.
-Built per the ratified spec `core/technical-appendix/CSD-computation-method-spec_2026-06-06.md`.
+Built per the ratified spec `manuscript/technical-appendix/CSD-computation-method-spec_2026-06-06.md`.
 
 **Disciplines honored.** Every number sourced / derived-with-work-shown / labeled assumption; cite the EXTERNAL
 authority, never our own table/ledger; no invented factual claims; sources added to the bib. NO "standing" in the
@@ -642,9 +642,9 @@ render clean (em-dash/entity tofu check, Stage 4).
 ---
 
 ## Cross-references
-- Spec: `core/technical-appendix/CSD-computation-method-spec_2026-06-06.md`
+- Spec: `manuscript/technical-appendix/CSD-computation-method-spec_2026-06-06.md`
 - Reef numbers + sources: `research/story-drafts/ch3-restitution-bond-numbers_2026-06-05.md`
 - M3 Path-B (Session D, not yet applied): `tools/audits/ta-m3-pathB-rework_proposal-record_2026-06-07.md`
 - Resume/handoff: `tools/workstream-handoffs/ta-rigor-audit-resume_2026-06-07.md`
-- TA: `core/technical-appendix/TechnicalAppendix_v2.0.0.html` (§5.4 L1325, §5.5 L1369, §11 L3845, §14.6 L6603, §17.7 L7689)
+- TA: `manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html` (§5.4 L1325, §5.5 L1369, §11 L3845, §14.6 L6603, §17.7 L7689)
 - Ch3: `manuscript/chapters/Chapter__3_TheWaterman.md`; figure ledger: `manuscript/ledgers/_CANONICAL_FIGURE_LEDGER.md`

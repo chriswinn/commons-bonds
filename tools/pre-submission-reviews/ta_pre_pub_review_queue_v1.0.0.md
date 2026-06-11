@@ -2,7 +2,7 @@
 
 **Date generated:** 2026-05-18
 **Status:** **RATIFIED 2026-05-20** — author "Ratify Stage 4 & Stage 5" signal 2026-05-20 confirms GENERATED verdict. Batch-ratified with Stage 4 verdict (RATIFIED 2026-05-20 post canonical-pipeline decision RATIFIED 2026-05-19). Originally PROPOSED-DEFERRED 2026-05-18.
-**Artifact:** Technical Appendix v2.1.0 (`core/technical-appendix/TechnicalAppendix_v2.0.0.html`; dated 2026-05-14; 8,044 lines)
+**Artifact:** Technical Appendix v2.1.0 (`manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html`; dated 2026-05-14; 8,044 lines)
 **Stage 5 sign-off commit:** [`tools/quality-gates/sign-offs/ta_stage5_signoff_2026-05-20.md`](../quality-gates/sign-offs/ta_stage5_signoff_2026-05-20.md) — RATIFIED 2026-05-20 PASS verdict
 **Rendered outputs (current baseline):** `tools/scripts/comparison-renders/ta_2026-05-17_9ffad4e/remote-container/TechnicalAppendix_v2.0.0.{docx,pdf}` (rendered 2026-05-17 against `9ffad4e`; laptop renders captured at this session per [`tools/rigor-passes/render_pipeline_comparison_ta_2026-05-18.md`](../rigor-passes/render_pipeline_comparison_ta_2026-05-18.md))
 **Sandy-packet artifacts (canonical-shipped):** `research/outreach/subjects/darity/Technical_Appendix_Commons_Bonds_2026-05-14.{docx,pdf}` (rendered via remote-container at commit `e6ddf92` 2026-05-14; clean prior to Ch 1 in-session patch)

@@ -1,6 +1,6 @@
 # Tech Appendix Numbering Audit Inventory — 2026-05-11
 
-**Source file audited:** `core/technical-appendix/TechnicalAppendix_v2.0.0.html` (7,817 lines as of HEAD commit `9db16ae`).
+**Source file audited:** `manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html` (7,817 lines as of HEAD commit `9db16ae`).
 
 **Read-only audit; no edits applied.** Author ratification gate required before Phase 3 application.
 

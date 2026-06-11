@@ -12,7 +12,7 @@ export const meta = {
 // ---- Inputs ----------------------------------------------------------------
 const TA = args && args.taPath
   ? args.taPath
-  : '/Users/c17n/commons-bonds-ta-rigor-audit-260606-f537b4/core/technical-appendix/TechnicalAppendix_v2.0.0.html'
+  : '/Users/c17n/commons-bonds-ta-rigor-audit-260606-f537b4/manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html'
 
 // Section → line map (from header scan) to give finders precise targeting.
 const SECTION_MAP = `

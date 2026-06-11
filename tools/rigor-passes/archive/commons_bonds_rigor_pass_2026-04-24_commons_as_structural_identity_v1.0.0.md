@@ -372,7 +372,7 @@ Files containing "AIT" or "Abundance Inversion Test" that need updating:
    - `core/glossary/archive/commons_bonds_updated_glossary_v2.html` → v3 with CIT entry
    - `core/dimensions/commons_bonds_abundance_dimensions_v1_3_0.md` → rename + sweep; possibly retitle
    - `core/terms/terms_index.md` → Terms Index records for AIT → CIT (v1.1 bump)
-   - `core/technical-appendix/TechnicalAppendix_v0.0.4.html` → methodology section
+   - `manuscript/technical-appendix/TechnicalAppendix_v0.0.4.html` → methodology section
 
 2. **Chapter drafts (Manuscript):**
    - Ch 2 / 5 / 6 / 7 / 8 / 9 / 10 drafts + guidance docs

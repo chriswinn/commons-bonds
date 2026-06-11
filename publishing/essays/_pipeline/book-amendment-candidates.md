@@ -207,7 +207,7 @@ without an explicit author-ratified book-amendment session.
   proper pass, not a hurried patch. Update only LIVE chapter prose + canonical/shipping artifacts;
   leave historical rigor records.
 - **NEW 2026-06-04 (appendix profiling, via the book-coherence-map run):** the **Technical
-  Appendix** (`core/technical-appendix/TechnicalAppendix_v2.0.0.html`) ALSO carries the old coal
+  Appendix** (`manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html`) ALSO carries the old coal
   figures and must be in the cascade — §11.1 reports carbon "$510" (but $190 × 2.61 = $496, the
   same slip fixed in Ch 8 today), **total $518–532**, and an **RCV-model estimate $580–620**;
   §11.11's "33–122×" IPG attribution to Ch 6/Ch 8 is now stale (chapters moved to ~120×); §7.4

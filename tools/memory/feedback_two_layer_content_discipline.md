@@ -14,7 +14,7 @@ originSessionId: 80ad4adb-2fd4-4856-a660-ec55f1ce325e
 **Rule:** All new framework content is classified at origination as **internal-scaffolding** or **external-publisher-facing**. The two layers operate under different disciplines:
 
 - **Internal scaffolding** (`.claude/`, `tools/`, `core/methodology/`, `alignment/`, `research/`, `archive/`): rich; preserves methodology notes, worked examples, research-grade depth, literature audits, audit trail, decision-time-application drafts, Book 2 / Book 3 seed material.
-- **External publisher-facing** (`manuscript/chapters/*`, `core/glossary/*`, `core/technical-appendix/*`, `publishing/essays/<venue>/essay.md`, `publishing/op-eds/<slug>/op-ed.md`, `publishing/book-proposal/*`): disciplined per WP#8 (scrubbed of audit-trail content) + Pattern 2 demonstration (threaded through cases rather than codified in dedicated how-to / methodology sections — the *Doughnut Economics* / *Mission Economy* / *Mine!* model).
+- **External publisher-facing** (`manuscript/chapters/*`, `core/glossary/*`, `manuscript/technical-appendix/*`, `publishing/essays/<venue>/essay.md`, `publishing/op-eds/<slug>/op-ed.md`, `publishing/book-proposal/*`): disciplined per WP#8 (scrubbed of audit-trail content) + Pattern 2 demonstration (threaded through cases rather than codified in dedicated how-to / methodology sections — the *Doughnut Economics* / *Mission Economy* / *Mine!* model).
 
 **Cross-layer flow:**
 - Internal CAN feed external (worked examples can become chapter prose; literature audits inform chapter framing)

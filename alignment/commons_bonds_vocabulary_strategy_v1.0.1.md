@@ -668,7 +668,7 @@ Whenever this document is revised:
 
 - `core/terms/terms_index.md` — every per-term record cites this discipline doc in its Rigor-provenance section
 - `core/glossary/commons_bonds_updated_glossary_v4.html` (when Phase 4 rebuild lands) — derived from terms_index per S1 schema
-- `core/technical-appendix/TechnicalAppendix_v2.0.0.html` (when Phase 3 rebuild lands) — derived from terms_index per S1 schema
+- `manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html` (when Phase 3 rebuild lands) — derived from terms_index per S1 schema
 
 ---
 

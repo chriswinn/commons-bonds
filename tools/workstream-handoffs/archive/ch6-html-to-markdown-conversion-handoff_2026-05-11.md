@@ -66,9 +66,9 @@ Manual cleanup on the Pandoc output:
 - etc.
 
 **Hyperlinks** — verify the appendix-anchor hyperlinks added in Phase 5 (commit `50ec90b`) survived conversion:
-- `[Four Gates Admission Apparatus section](../../../core/technical-appendix/TechnicalAppendix_v2.0.0.html#sec-7-four-gates)`
-- `[Formula Generalization section](../../../core/technical-appendix/TechnicalAppendix_v2.0.0.html#sec-17-formula-generalization)`
-- `[§8, Asymmetric Regret Rule](../../../core/technical-appendix/TechnicalAppendix_v2.0.0.html#sec-8-asymmetric-regret-rule)`
+- `[Four Gates Admission Apparatus section](../../../manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html#sec-7-four-gates)`
+- `[Formula Generalization section](../../../manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html#sec-17-formula-generalization)`
+- `[§8, Asymmetric Regret Rule](../../../manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html#sec-8-asymmetric-regret-rule)`
 
 **Inline emphasis** — verify `<strong>` → `**bold**` and `<em>` → `*italic*` round-tripped cleanly; manually fix any false positives.
 

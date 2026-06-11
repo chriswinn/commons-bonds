@@ -536,7 +536,7 @@ Integrated into Phase A3 audit sweep. Adds minor scope beyond tier-dissolution +
 
 **Effort:** 0.5–1 day. Mechanical sweep with contextual judgment.
 
-**Where:** `core/technical-appendix/TechnicalAppendix_v0.0.4.html` Sections L.0–L.7 and M.0–M.7.
+**Where:** `manuscript/technical-appendix/TechnicalAppendix_v0.0.4.html` Sections L.0–L.7 and M.0–M.7.
 
 ### Condition 2 — Ch 6 body coverage confirmation
 

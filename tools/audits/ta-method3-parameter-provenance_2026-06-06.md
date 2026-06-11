@@ -2,7 +2,7 @@
 
 **Date:** 2026-06-06
 **Scope:** Read-only provenance check on the five Method-3 input parameters in
-`core/technical-appendix/TechnicalAppendix_v2.0.0.html` §3.5 (formula defs,
+`manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html` §3.5 (formula defs,
 ~lines 875–930) + §11.6 McDowell-coal build (~lines 4738–4799).
 **Discipline:** HARD no-invented-claims. Only real sources with URLs cited
 below; where no defensible source exists, the verdict is "posited assumption —
@@ -28,7 +28,7 @@ V_option=$200, β=1) → ~$2,580/ton; sensitivity $420–$13,100/ton at β=1.
 
 ### In-repo provenance trail (what actually exists)
 
-1. **`core/technical-appendix/method3_sensitivity_analysis_2026-04-25.md`** is
+1. **`manuscript/technical-appendix/method3_sensitivity_analysis_2026-04-25.md`** is
    the canonical in-repo source for all three parameter ranges. It presents them
    explicitly as **analytical sensitivity ranges**, NOT empirically sourced
    values. Status header: "Analytical sensitivity (not full Monte Carlo) —

@@ -2,7 +2,7 @@
 
 **Date:** 2026-05-13
 **Workstream:** Tech Appendix Stage-3 Pass 1 (parallel to #20 Manuscript Stage-3 Rigor Pass)
-**Target file:** `core/technical-appendix/TechnicalAppendix_v2.0.0.html` (v2.0.0, dated 2026-05-02; 7,876 lines)
+**Target file:** `manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html` (v2.0.0, dated 2026-05-02; 7,876 lines)
 **Pass scope:** Math/proof audit ONLY — definition well-formedness, derivation correctness, theorem proof validity, corollary derivability, numerical-example arithmetic, external-citation accuracy, chapter↔appendix cross-reference verification (Ch 6 in particular), notation surface check.
 **Status:** PROPOSED, awaits ratification. Spot-fix application is Phase C (separate session per #20 discipline).
 

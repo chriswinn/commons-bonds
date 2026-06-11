@@ -111,7 +111,7 @@ Status legend:
 
 ### §3.2 Correction: Tech Appendix v0.0.5 supplement
 
-**File:** `core/technical-appendix/TechnicalAppendix_v0.0.5_supplement.md`
+**File:** `manuscript/technical-appendix/TechnicalAppendix_v0.0.5_supplement.md`
 
 **Stale content (current):** §1 "stale terms NOT swept" table lists `CSG (Cost Severance Gap)` × 22 with replacement note "Use the underlying primitive: CS = RCV − B. Don't name derivations of primitives."
 
@@ -140,7 +140,7 @@ Per terms_index ratification, the prose replacement for CSG is "industrial-exist
 **Sweep targets:**
 - `manuscript/chapters/Chapter__7_TheColonyAdministrator__Draft.md` — 8 CSG references
 - `manuscript/chapters/Chapter__9_TheRenewableImperative__Draft.md` — 18 CSG references (one is a meta-note in line 5: "CSG, not ESG. The acronym changed (Civilizational Substitutability Gap)." — this comment becomes obsolete and should be removed)
-- `core/technical-appendix/TechnicalAppendix_v0.0.5.html` — 22 CSG references (sed-swept via Bash)
+- `manuscript/technical-appendix/TechnicalAppendix_v0.0.5.html` — 22 CSG references (sed-swept via Bash)
 
 **Note on the broader Tech Appendix HTML retired-term sweep:** Beyond CSG, the HTML carries 15 FGC + 1 Universality Test references. These terms' retirement dispositions specify **passage rewrite**, not string substitution (FGC was an 8-tier acronym whose context-meaning shifts per occurrence; Universality Test was replaced by structural-vs-topical pairing diagnostic which doesn't have a single named referent). Those 16 references stay flagged for **Phase B passage-rewrite work**, not this M12 sweep. The CSG case is different because terms_index specified an explicit prose replacement.
 
@@ -154,7 +154,7 @@ Per terms_index ratification, the prose replacement for CSG is "industrial-exist
 
 ```bash
 sed -i 's/CSG/industrial-existential substitutability gap/g' \
-   core/technical-appendix/TechnicalAppendix_v0.0.5.html
+   manuscript/technical-appendix/TechnicalAppendix_v0.0.5.html
 ```
 
 After sweep: 0 CSG references remaining in HTML; 22 instances of "industrial-existential substitutability gap" present.

@@ -33,7 +33,7 @@ The quality bar is therefore higher than the standard Phase A bar.
 2. [Chapter__6___GuidanceDoc.md](manuscript/chapters/Chapter__6___GuidanceDoc.md) — guidance doc with per-section staleness audit dated 2026-05-08.
 3. [Chapter__5_THEACCOUNTABILITYGAP__Draft.md](manuscript/chapters/Chapter__5_THEACCOUNTABILITYGAP__Draft.md) — post-CSD-application section state (commit ccaac20).
 4. [Chapter_10_CommonBonds__Draft.md](manuscript/chapters/Chapter_10_CommonBonds__Draft.md) — closing-chapter state pre-insertion.
-5. [core/technical-appendix/TechnicalAppendix_v2.0.0.html](core/technical-appendix/TechnicalAppendix_v2.0.0.html) — canonical apparatus post-#15 reconciliation + post-#19 Scheme-4 cleanup (commit 2c880bc).
+5. [manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html](manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html) — canonical apparatus post-#15 reconciliation + post-#19 Scheme-4 cleanup (commit 2c880bc).
 6. [tools/rigor-passes/commons_bonds_ch5_stage_3_pass_1_fact_check_2026-05-13_PROPOSED.md](tools/rigor-passes/commons_bonds_ch5_stage_3_pass_1_fact_check_2026-05-13_PROPOSED.md) — Ch 5 Pass 1 (especially SHOULD-FIX-1 on Method-name vocabulary; closely related finding for Ch 6).
 7. Memory entries: feedback_verify_stale_memory_claims.md; feedback_audit_recent_active_review_default.md; feedback_audit_open_illustrative_default.md; feedback_grammatical_role_cross_references.md; reference_sandel_hybrid_pattern.md.
 
@@ -330,10 +330,10 @@ Per [feedback_grammatical_role_cross_references.md](/Users/c17n/.claude/projects
 **Why this is MEDIUM:** The missing hyperlinks are particularly notable because **TA §3** ("RCV Quantification — Three Ways of Counting") is the direct cross-reference target for MUST-FIX-1's canonical-naming finding. A reader who is confused by the shared title needs to be able to click to TA §3 from Ch 6's RCV section. Currently they cannot.
 
 **Recommended spot-fix:** Add four hyperlinks during the Phase C-α spot-fix application:
-- Near line 97 (RCV formula introduction): link "(see Technical Appendix [§3 RCV Quantification](../../core/technical-appendix/TechnicalAppendix_v2.0.0.html#sec-3-rcv-quantification))"
-- Near line 138 (convergence introduction): link "(formalized in Technical Appendix [§9 Three-Model Convergence](../../core/technical-appendix/TechnicalAppendix_v2.0.0.html#sec-9-three-model-convergence))"
-- Near line 131 (substitutability close): link "(formal specification in Technical Appendix [§13 Substitutability Function and Gap](../../core/technical-appendix/TechnicalAppendix_v2.0.0.html#sec-13-substitutability-function-and-gap))"
-- Near line 251 (CIT defense passage): link "(see Technical Appendix [§6 Commons Inversion Test](../../core/technical-appendix/TechnicalAppendix_v2.0.0.html#sec-6-commons-inversion-test))"
+- Near line 97 (RCV formula introduction): link "(see Technical Appendix [§3 RCV Quantification](../../manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html#sec-3-rcv-quantification))"
+- Near line 138 (convergence introduction): link "(formalized in Technical Appendix [§9 Three-Model Convergence](../../manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html#sec-9-three-model-convergence))"
+- Near line 131 (substitutability close): link "(formal specification in Technical Appendix [§13 Substitutability Function and Gap](../../manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html#sec-13-substitutability-function-and-gap))"
+- Near line 251 (CIT defense passage): link "(see Technical Appendix [§6 Commons Inversion Test](../../manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html#sec-6-commons-inversion-test))"
 
 **Severity rationale:** MEDIUM — not a fact-check failure, but a navigational gap that compounds MUST-FIX-1's canonical-naming confusion. Cheap to resolve.
 
@@ -574,7 +574,7 @@ Confirmed across:
 - Method 2 (Revealed Preference): walk McDowell coal via Norway-anchored revealed-preference (~$8–$88/ton per TA §3.6 Block 4); cite TA §3.4.
 - Method 3 (Scarcity-Adjusted Option Value): walk McDowell coal via Dixit-Pindyck option-value with scarcity + irreversibility weighting ($420–$13,100/ton; mid $2,500 per TA §3.6 Block 4); cite TA §3.5; flag α-dominance regime per TA §3.5 sensitivity table.
 - Connect the M1/M2/M3 walkthrough to the chapter's existing line 49 ("Approach 3's RCV Method 1") and to Ch 5's backward-direction application (line 214 informal labels resolve to canonical M1/M2/M3 names).
-- Add forward-reference: "(formal articulation in Technical Appendix [§3 RCV Quantification — Three Ways of Counting](../../core/technical-appendix/TechnicalAppendix_v2.0.0.html#sec-3-rcv-quantification); bidirectional applicability in [§5.5](../../core/technical-appendix/TechnicalAppendix_v2.0.0.html#sec-5-5-bidirectionality))" — verify anchor name for §5.5 against just-landed TA work.
+- Add forward-reference: "(formal articulation in Technical Appendix [§3 RCV Quantification — Three Ways of Counting](../../manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html#sec-3-rcv-quantification); bidirectional applicability in [§5.5](../../manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html#sec-5-5-bidirectionality))" — verify anchor name for §5.5 against just-landed TA work.
 
 ## MUST-FIX-2 — ratified resolution: rebuild convergence table as M1/M2/M3 columns per case
 
@@ -1107,11 +1107,11 @@ This is the working scope for the Phase C-α session. Edits ordered by line-of-o
 
 ### §B. RCV apparatus section (lines 77–131)
 
-8. **~Line 97 — TA §3 hyperlink (MEDIUM-4):** Add at the formula introduction: "(formal articulation in [Technical Appendix §3 — RCV Quantification — Three Ways of Counting](../../core/technical-appendix/TechnicalAppendix_v2.0.0.html#sec-3-rcv-quantification))"
+8. **~Line 97 — TA §3 hyperlink (MEDIUM-4):** Add at the formula introduction: "(formal articulation in [Technical Appendix §3 — RCV Quantification — Three Ways of Counting](../../manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html#sec-3-rcv-quantification))"
 
 9. **Line 128 — Smax wording (MEDIUM-1):** Replace "approaches some maximum Smax that may be less than one" with "approaches some asymptotic limit S(∞|t₀) ≤ 1"
 
-10. **~Line 131 — TA §13 hyperlink (MEDIUM-4):** Add at end of Substitutability Function section: "(formal specification in [Technical Appendix §13 — Substitutability Function and Gap](../../core/technical-appendix/TechnicalAppendix_v2.0.0.html#sec-13-substitutability-function-and-gap))"
+10. **~Line 131 — TA §13 hyperlink (MEDIUM-4):** Add at end of Substitutability Function section: "(formal specification in [Technical Appendix §13 — Substitutability Function and Gap](../../manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html#sec-13-substitutability-function-and-gap))"
 
 ### §C. M1/M2/M3 walkthrough sub-section (NEW — lands inside Approach 3, ~line 116)
 
@@ -1125,7 +1125,7 @@ This is the working scope for the Phase C-α session. Edits ordered by line-of-o
 
 ### §D. Convergence table + caption (lines 134–157)
 
-12. **~Line 138 — TA §9 hyperlink (MEDIUM-4):** Add at convergence introduction: "(formalized in [Technical Appendix §9 — Three-Model Convergence](../../core/technical-appendix/TechnicalAppendix_v2.0.0.html#sec-9-three-model-convergence))"
+12. **~Line 138 — TA §9 hyperlink (MEDIUM-4):** Add at convergence introduction: "(formalized in [Technical Appendix §9 — Three-Model Convergence](../../manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html#sec-9-three-model-convergence))"
 
 13. **Line 142 — Convergence-table rebuild (MUST-FIX-2):** Replace 2-column table (Damage-Function IPG | RCV Model IPG) with 3-column M1/M2/M3 per-case columns. Source numerics per TA §3.6 Block 4 for McDowell + Norway; derive Deepwater Horizon / Libby / Exxon Valdez from TA §3.3–§3.5 method specifications + Ch 5 per-case prose. Mark cells N/A with footnote where Method 3 (option-value) does not cleanly apply for one-event spill cases.
 
@@ -1147,9 +1147,9 @@ This is the working scope for the Phase C-α session. Edits ordered by line-of-o
 
 ### §H. Four Gates section (lines 235–263)
 
-19. **~Line 251 — TA §6 hyperlink (MEDIUM-4):** Add at CIT defense passage: "(see [Technical Appendix §6 — Commons Inversion Test](../../core/technical-appendix/TechnicalAppendix_v2.0.0.html#sec-6-commons-inversion-test))"
+19. **~Line 251 — TA §6 hyperlink (MEDIUM-4):** Add at CIT defense passage: "(see [Technical Appendix §6 — Commons Inversion Test](../../manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html#sec-6-commons-inversion-test))"
 
-20. **~Line 263 — TA §5.5 hyperlink (MEDIUM-4):** Add at apparatus-introduction reference (parallel to existing §7 + §17 hyperlinks): "(bidirectional applicability in [Technical Appendix §5.5](../../core/technical-appendix/TechnicalAppendix_v2.0.0.html#sec-5-5-bidirectionality))" — **anchor name verification required:** confirm exact anchor ID against just-landed TA §5.5 work (commit 013abd4b / d54bdfa) before adding.
+20. **~Line 263 — TA §5.5 hyperlink (MEDIUM-4):** Add at apparatus-introduction reference (parallel to existing §7 + §17 hyperlinks): "(bidirectional applicability in [Technical Appendix §5.5](../../manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html#sec-5-5-bidirectionality))" — **anchor name verification required:** confirm exact anchor ID against just-landed TA §5.5 work (commit 013abd4b / d54bdfa) before adding.
 
 ## Companion edits (NOT Ch 6 body, but Phase C-α scope)
 
@@ -1340,9 +1340,9 @@ Next phase: **Phase C-α single-session spot-fix application** per the ordered w
 | File | Line | Current state | Cascade direction |
 |---|---|---|---|
 | [Chapter__8_WhatThingsActuallyCost_Draft.md:73](manuscript/chapters/Chapter__8_WhatThingsActuallyCost_Draft.md:73) | 73 | "approximately 2.86 tons of carbon dioxide" + "approximately five hundred and forty-four dollars" | 2.86 → 2.32; $544 → $441 |
-| [TechnicalAppendix_v2.0.0.html:2808](core/technical-appendix/TechnicalAppendix_v2.0.0.html:2808) | 2808 | "E includes $190/ton CO2 × 2.86 tons CO2 per ton coal" (Gate 4 worked example) | 2.86 → 2.32 |
-| [TechnicalAppendix_v2.0.0.html:4465](core/technical-appendix/TechnicalAppendix_v2.0.0.html:4465) | 4465 | "~2.86 tons CO₂ per ton coal" (§11 McDowell case file) | 2.86 → 2.32 |
-| [core/technical-appendix/block4_validation_2026-04-25.md:114](core/technical-appendix/block4_validation_2026-04-25.md:114) | 114 | "Carbon intensity (combusted) | ~2.86 tons CO₂ per ton coal | EPA emissions factors" | Historical-at-validation-time; flag for caveat or update |
+| [TechnicalAppendix_v2.0.0.html:2808](manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html:2808) | 2808 | "E includes $190/ton CO2 × 2.86 tons CO2 per ton coal" (Gate 4 worked example) | 2.86 → 2.32 |
+| [TechnicalAppendix_v2.0.0.html:4465](manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html:4465) | 4465 | "~2.86 tons CO₂ per ton coal" (§11 McDowell case file) | 2.86 → 2.32 |
+| [manuscript/technical-appendix/block4_validation_2026-04-25.md:114](manuscript/technical-appendix/block4_validation_2026-04-25.md:114) | 114 | "Carbon intensity (combusted) | ~2.86 tons CO₂ per ton coal | EPA emissions factors" | Historical-at-validation-time; flag for caveat or update |
 
 **Authoritative-source verification anchor:** EPA AP-42 §1.1 documents 93.28 kg CO₂/mmBtu for bituminous coal; combined with EIA-published heat content of 24.93 mmBtu/short ton, the canonical short-ton accounting factor is approximately 2.32 mt CO₂/short ton. The "~2.86 tons" figure derives from metric-ton or high-rank-coal accounting and is high relative to the EPA's documented short-ton factor for the McDowell context. The Ch 6 Phase C-α SHOULD-FIX-3 Option A ratification adopted the EPA short-ton factor with explicit emission-factor citation; cross-corpus alignment requires the same cascade.
 
@@ -1466,9 +1466,9 @@ The four cross-corpus stale-cascade locations are surfaced to their respective w
 | Location | Routing | Status |
 |---|---|---|
 | [Chapter__8_WhatThingsActuallyCost_Draft.md:73](manuscript/chapters/Chapter__8_WhatThingsActuallyCost_Draft.md:73) ("approximately 2.86 tons" + "$544") | Ch 8 PM workstream; flag as known-fix-pending for eventual Ch 8 Pass 1 audit | **ROUTED** |
-| [TechnicalAppendix_v2.0.0.html:2808](core/technical-appendix/TechnicalAppendix_v2.0.0.html:2808) (Gate 4 worked example "$190/ton CO2 × 2.86 tons CO2 per ton coal") | TA PM workstream; flag as known-fix-pending for eventual TA Pass 1 audit | **ROUTED** |
-| [TechnicalAppendix_v2.0.0.html:4465](core/technical-appendix/TechnicalAppendix_v2.0.0.html:4465) (§11 case file "~2.86 tons CO₂ per ton coal") | TA PM workstream; same disposition | **ROUTED** |
-| [core/technical-appendix/block4_validation_2026-04-25.md:114](core/technical-appendix/block4_validation_2026-04-25.md:114) (validation record "~2.86 tons CO₂ per ton coal") | Author judgment between (a) update in-place with refresh note, (b) preserve historical-at-validation-time with caveat footnote, (c) leave as-is | **AUTHOR JUDGMENT — flagged for PM dashboard** |
+| [TechnicalAppendix_v2.0.0.html:2808](manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html:2808) (Gate 4 worked example "$190/ton CO2 × 2.86 tons CO2 per ton coal") | TA PM workstream; flag as known-fix-pending for eventual TA Pass 1 audit | **ROUTED** |
+| [TechnicalAppendix_v2.0.0.html:4465](manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html:4465) (§11 case file "~2.86 tons CO₂ per ton coal") | TA PM workstream; same disposition | **ROUTED** |
+| [manuscript/technical-appendix/block4_validation_2026-04-25.md:114](manuscript/technical-appendix/block4_validation_2026-04-25.md:114) (validation record "~2.86 tons CO₂ per ton coal") | Author judgment between (a) update in-place with refresh note, (b) preserve historical-at-validation-time with caveat footnote, (c) leave as-is | **AUTHOR JUDGMENT — flagged for PM dashboard** |
 
 ### Status after Amendment E ratification + Phase C-β application
 
