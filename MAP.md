@@ -15,7 +15,7 @@ the lifecycle rules this map assumes.
 
 | Directory | Purpose | Canonical content | What is NOT here |
 |---|---|---|---|
-| `manuscript/` | **The book.** Chapters + front matter + back matter. | `chapters/Chapter__1..10*.md`; `_BOOK_MANIFEST.md` (the authority on "what is the book"); `back-matter/` (generated reader-facing bib/glossary/notation) | The Technical Appendix body (lives in `core/`, symlinked here). The `_`-prefixed root files are redraft-campaign working state, not book content. |
+| `manuscript/` | **The book.** Chapters + front matter + back matter. | `chapters/Chapter__1..10*.md`; `_BOOK_MANIFEST.md` (the authority on "what is the book"); `back-matter/` (generated reader-facing bib/glossary/notation) | The Technical Appendix body (lives in `core/`, symlinked here). Internal drafting inputs live in `manuscript/ledgers/`; superseded campaign state in `manuscript/archive/`. |
 | `core/` | **The framework apparatus.** Technical Appendix + glossary + terms + methodology. | `core/technical-appendix/TechnicalAppendix_v2.0.0.html` (canonical TA, formulas live ONLY here); `core/glossary/commons_bonds_updated_glossary_v4.html` (canonical); `core/terms/terms_index.md`; `core/technical-appendix/symbol-registry_2026-06-07.md` (notation source of truth) | Chapters. (Historical chapter/case-study *audits* that used to sit in `core/chapters/` + `core/case-studies/` now live in `tools/audits/`.) |
 | `publishing/` | **Everything outbound.** Essays, op-eds, book proposal, agents, venues, blurbs. | `essays/<venue>/` packages (essay.md + cover-letter.md + rigor/); `op-eds/<slug>/`; `book-proposal/` (numbered prose sections); `essays/_pipeline/` (cascade plan, schedule, todos, decisions log) | Book chapters. Research substrate. Submission *status* (that's STATE.md). |
 | `research/` | **Source material.** Case studies, bibliography master, outreach, story substrate. | `research/literature/bibliography.md` (THE bibliographic source of truth, superset); `research/case-studies/` (17 case files); `research/outreach/subjects/<name>/` + consent tracker; `research/story-drafts/` (raw scene substrate) | Polished prose. The reader-facing bibliography (generated to `manuscript/back-matter/`). |
@@ -59,7 +59,7 @@ Check `git worktree list` + STATE.md §Workstreams before touching:
 
 ## Known deferred structural debt (tracked, intentional)
 
-- `manuscript/` `_`-file reorg + source-file relocations + TA→manuscript move: `tools/workstream-handoffs/back-matter-deferred-moves-handoff_2026-06-09.md`.
+- ~~`manuscript/` `_`-file reorg~~ **EXECUTED 2026-06-10** (fact-ground → `manuscript/ledgers/`; campaign state → `manuscript/archive/redraft-campaign-2026-06/`). Source-file relocations + TA→manuscript move remain deferred: `tools/workstream-handoffs/back-matter-deferred-moves-handoff_2026-06-09.md`.
 - Directory status tags (`_SUBMITTED-<date>` renames): deferred past Wave 1 (author call 2026-06-10); STATE.md serves the need meanwhile.
 - In-TA Notation section + symbol-registry Part 7 completeness: same deferred-moves handoff, items 7–8.
 - ~2.5k pre-existing broken path references in historical files (measured 2026-06-10): left as-is in audit-trail docs; gate is zero NEW breaks.

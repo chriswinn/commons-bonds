@@ -17,8 +17,8 @@ reader-facing content.
 **Action (later).** Move the `manuscript/_*` scaffolding to a proper internal home (e.g.
 `manuscript/_scaffolding/`, `research/manuscript-analysis/`, or `tools/`), leaving `manuscript/`
 holding only `chapters/` + `technical-appendix/` (+ the generated references at assembly).
-**Cascade:** many files cross-reference `manuscript/_CANONICAL_FIGURE_LEDGER.md`,
-`manuscript/_CANDIDATE-BEATS-AND-DEVICES.md`, etc. — update all references when moving.
+**Cascade:** many files cross-reference `manuscript/ledgers/_CANONICAL_FIGURE_LEDGER.md`,
+`manuscript/ledgers/_CANDIDATE-BEATS-AND-DEVICES.md`, etc. — update all references when moving.
 
 **Trigger.** Part of the folder-structure revision, after redrafts + TA audit.
 

@@ -26,7 +26,7 @@ paths + every handoff/README/CLAUDE.md reference to the old paths, and re-run `g
 Blast radius is wide (the redraft campaign + many handoffs cite `research/literature/bibliography.md`)
 — audit references first (`grep -rl 'research/literature/bibliography.md'`).
 
-## Deferred move 2 — reorganize the `_`-prefixed scaffolding out of `manuscript/`
+## Deferred move 2 — reorganize the `_`-prefixed scaffolding out of `manuscript/` — ✅ EXECUTED 2026-06-10 (campaign superseded; see manuscript/README.md for the ledgers/ + archive/ layout)
 
 ~35 underscore-prefixed files sit directly in `manuscript/`. ~30 are **REDRAFT-CAMPAIGN-WORKING
 (HIGH collision)** — moving them breaks campaign continuity. Safe-to-move-now subset (LOW collision):

@@ -6,8 +6,8 @@
 **Status:** Internal scaffolding (audit artifact); auto-merge on session close.
 
 **Sources consulted:**
-- `manuscript/_CITATION_EVIDENCE_LEDGER_2026-06-04.md` (Part 1 §A/§B; Part 2 Tier-1 "Ch10 (coda)"; Part 3)
-- `manuscript/_citation-evidence-detail_2026-06-04.json` (Ch10 entries: Sioux/Laramie/1877 Act/Camus/Weitzman/grandfather/Indigenous-scholars; needs-research §)
+- `manuscript/ledgers/_CITATION_EVIDENCE_LEDGER_2026-06-04.md` (Part 1 §A/§B; Part 2 Tier-1 "Ch10 (coda)"; Part 3)
+- `manuscript/ledgers/_citation-evidence-detail_2026-06-04.json` (Ch10 entries: Sioux/Laramie/1877 Act/Camus/Weitzman/grandfather/Indigenous-scholars; needs-research §)
 - `tools/audits/corpus-primary-source-register_2026-06-08.md` §1E (*US v. Sioux Nation*, 448 U.S. 371 (1980); ~$106M; escrow >$1.5B)
 - `research/citations/noema-indigenous-frame-citation-research_2026-06-01.md` — **NOT applicable to Ch10's named scholars.** That file covers Powhatan/Algonquian Chesapeake substrate (Rountree, Potter, Necotowance) for a Noema-essay Bay-coda insert; it does not treat Kimmerer/Simpson/Coulthard/Dunbar-Ortiz/Deloria. Ch10 scholar works supplied independently below (web-verified 2026-06-08).
 

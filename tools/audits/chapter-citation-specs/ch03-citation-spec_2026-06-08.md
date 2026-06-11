@@ -5,8 +5,8 @@
 **Class:** internal scaffolding (apply-spec only; the prose citation pass itself is end-user-facing and requires author ratification — do NOT edit the chapter unilaterally).
 
 **Inputs merged:**
-- `manuscript/_CITATION_EVIDENCE_LEDGER_2026-06-04.md` (Ch3 block, lines 53, 81, 121)
-- `manuscript/_citation-evidence-detail_2026-06-04.json` (unit "Ch3": existing_citations + supported_claims + needs_research)
+- `manuscript/ledgers/_CITATION_EVIDENCE_LEDGER_2026-06-04.md` (Ch3 block, lines 53, 81, 121)
+- `manuscript/ledgers/_citation-evidence-detail_2026-06-04.json` (unit "Ch3": existing_citations + supported_claims + needs_research)
 - `tools/audits/corpus-primary-source-register_2026-06-08.md` §1C (Chesapeake verified primaries), §2 (corrections), §6C (Colden/Moore/CBF folder mine)
 - `research/outreach/subjects/colden/pre-publication-citation-verification-packet_2026-05-13.md` (12-quote primary-URL packet)
 - `research/case-studies/chesapeake-fisheries.md`

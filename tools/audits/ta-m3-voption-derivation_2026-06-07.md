@@ -70,8 +70,8 @@ replacement-cost ceiling)**.
 ## 2. In-repo check (done first, per instructions)
 
 Searched `research/`, the bibliography, and the two deep-pass JSONs
-(`manuscript/_chapter-deeppass-summaries_2026-06-04.json`,
-`manuscript/_deep-source-detail_2026-06-04.json`) for any saved volatility or
+(`manuscript/ledgers/_chapter-deeppass-summaries_2026-06-04.json`,
+`manuscript/ledgers/_deep-source-detail_2026-06-04.json`) for any saved volatility or
 option-value figures.
 
 **Result: none found.** The repo contains:

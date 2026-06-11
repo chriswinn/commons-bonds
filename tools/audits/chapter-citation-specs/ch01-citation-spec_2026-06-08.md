@@ -2,7 +2,7 @@
 
 **Created:** 2026-06-08
 **Chapter prose (clean):** `/Users/c17n/commons-bonds-ta-provenance-260607-ad2dfc/manuscript/chapters/Chapter__1_TheQuietMath_Draft.md`
-**Sources merged:** `manuscript/_CITATION_EVIDENCE_LEDGER_2026-06-04.md` + `manuscript/_citation-evidence-detail_2026-06-04.json` (Ch1 unit) + `tools/audits/corpus-primary-source-register_2026-06-08.md`
+**Sources merged:** `manuscript/ledgers/_CITATION_EVIDENCE_LEDGER_2026-06-04.md` + `manuscript/ledgers/_citation-evidence-detail_2026-06-04.json` (Ch1 unit) + `tools/audits/corpus-primary-source-register_2026-06-08.md`
 **Method:** every empirical figure / externally-testable claim enumerated from the chapter prose, then merged against the existing ledger + this session's primary-source register and classified.
 
 ## Headline finding

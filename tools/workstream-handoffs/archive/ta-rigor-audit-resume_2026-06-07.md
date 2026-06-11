@@ -49,7 +49,7 @@
 
 **Bibliography (`research/literature/bibliography.md`):** §23 figure-backing data sources (Census, Appalachian Voices 2021, BP/DOJ Deepwater, EPA AP-42, EPA-2023 SCC, Climeworks/IEA/IPCC/NAS, EIA coal price, SpaceX); §16 Arrow-Fisher 1974; §18.6 Weitzman 2001. §23.2 candidates to re-verify (Isle de Jean Charles, Pericak 2018, OSMRE/ARRI).
 
-**Other committed:** durability beats cluster (`manuscript/_CANDIDATE-BEATS-AND-DEVICES.md`); `manuscript/technical-appendix/` symlink → canonical TA; CSD spec; audit ledger; M3 Path-B proposal record; 5 research-agent audit files; structural TODOs.
+**Other committed:** durability beats cluster (`manuscript/ledgers/_CANDIDATE-BEATS-AND-DEVICES.md`); `manuscript/technical-appendix/` symlink → canonical TA; CSD spec; audit ledger; M3 Path-B proposal record; 5 research-agent audit files; structural TODOs.
 
 ---
 
@@ -71,7 +71,7 @@
 - M3-rigor research: `tools/audits/ta-m3-{sigma,alpha,voption}-*_2026-06-07.md`, `ta-method3-parameter-provenance_2026-06-06.md`
 - §11.6 input provenance: `tools/audits/ta-method1-input-provenance_2026-06-06.md`
 - §11.10 sourcing: `tools/audits/ta-11.10-space-economics-sourcing_2026-06-07.md`
-- Single-source-of-truth figures: `manuscript/_CANONICAL_FIGURE_LEDGER.md`
+- Single-source-of-truth figures: `manuscript/ledgers/_CANONICAL_FIGURE_LEDGER.md`
 - Structural TODOs (deferred): `tools/workstream-handoffs/post-audit-structural-todos_2026-06-06.md`
 
 ## SESSION PLAN (spawned 2026-06-07 — RE-ORDERED: sourcing integrity FIRST)

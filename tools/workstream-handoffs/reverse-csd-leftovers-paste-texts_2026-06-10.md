@@ -74,7 +74,7 @@ never our own ledger); bib entries (Schulte 2017; NOAA per-tributary table; Grea
 Wicomico Tributary Plan §5; MD DNR/Gov. Moore 2025) go to
 `research/literature/bibliography.md` §25 AND re-run
 `tools/back-matter/build.py gen-all` (TA §18 + reader bib regenerate from the master);
-reconcile reef figures into `manuscript/_CANONICAL_FIGURE_LEDGER.md` + coordinate
+reconcile reef figures into `manuscript/ledgers/_CANONICAL_FIGURE_LEDGER.md` + coordinate
 with the Ch3 session (figure-cascade discipline). Per-prompt cadence: present for
 author ratification before applying. Never force-push main.
 

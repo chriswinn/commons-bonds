@@ -131,7 +131,7 @@ apparatus), not a formula term.
    before §11.12 applies.**
 2. **Coordinate with the Ch3 chapter-drafting session.** The reef numbers ($20–37M floor / ~$200M central / >$92M MD /
    ~$110M Bay-wide) are Ch3's. After ratification, reconcile against `manuscript/chapters/Chapter__3_TheWaterman.md`
-   and add to `manuscript/_CANONICAL_FIGURE_LEDGER.md` so TA ↔ Ch3 ↔ any reef-touching essay stay aligned (figure-cascade
+   and add to `manuscript/ledgers/_CANONICAL_FIGURE_LEDGER.md` so TA ↔ Ch3 ↔ any reef-touching essay stay aligned (figure-cascade
    discipline). This proposal does not yet touch the ledger or Ch3.
 3. **All reef figures trace to EXTERNAL authorities** (Schulte 2017; NOAA Fisheries per-tributary table; Great Wicomico
    Tributary Plan §5; MD DNR/Office of the Governor Aug 2025; program-level reporting), verified in
@@ -647,4 +647,4 @@ render clean (em-dash/entity tofu check, Stage 4).
 - M3 Path-B (Session D, not yet applied): `tools/audits/ta-m3-pathB-rework_proposal-record_2026-06-07.md`
 - Resume/handoff: `tools/workstream-handoffs/ta-rigor-audit-resume_2026-06-07.md`
 - TA: `core/technical-appendix/TechnicalAppendix_v2.0.0.html` (§5.4 L1325, §5.5 L1369, §11 L3845, §14.6 L6603, §17.7 L7689)
-- Ch3: `manuscript/chapters/Chapter__3_TheWaterman.md`; figure ledger: `manuscript/_CANONICAL_FIGURE_LEDGER.md`
+- Ch3: `manuscript/chapters/Chapter__3_TheWaterman.md`; figure ledger: `manuscript/ledgers/_CANONICAL_FIGURE_LEDGER.md`

@@ -3,7 +3,7 @@
 Distilled from the TA session's number-level reconciliation note. Provenance source of truth:
 `tools/audits/corpus-primary-source-register_2026-06-08.md` (§1 sourced / §2 the 14 corrections /
 §3 unverifiable) + `tools/audits/chapter-citation-specs/`. Shared figures are also in
-`manuscript/_CANONICAL_FIGURE_LEDGER.md` (AMENDED 2026-06-09 section).
+`manuscript/ledgers/_CANONICAL_FIGURE_LEDGER.md` (AMENDED 2026-06-09 section).
 
 **Discipline:** cite the EXTERNAL primary source, never our own ledger. Framework outputs
 (IPG / RCV / CS / M3) are "framework-computed, derivation shown" — no external cite.
@@ -16,7 +16,7 @@ Distilled from the TA session's number-level reconciliation note. Provenance sou
 - **§78 — foreclosures.** "roughly five million completed" → **~4.1 million completed through 2012 (CoreLogic)**; soften "ten million filings" (overstated). Fed $16T already correctly labeled "cumulative" — OK.
 - **VERIFY/align (grep before edit):** Baotou remediation ">$100B" → **$5–15B**; Libby "~80% of world vermiculite" → **">70% of US" (EPA)**; Deepwater ">$150B" must NOT be NOAA-attributed (NOAA NRDA = $8.8B) — find originating economic study or drop; GoFundMe (if present) → AJPH 2022 (Kenworthy/Igra et al.), 437,596 campaigns.
 - **Polanyi confirm:** Fraser is textually present (§156); confirm Polanyi gets equal textual presence.
-- These ARE the 4 must-fix flags + fold-ins already queued in `manuscript/_CH5-COMPARISON-BLIND_2026-06-09.md`.
+- These ARE the 4 must-fix flags + fold-ins already queued in `manuscript/archive/redraft-campaign-2026-06/_CH5-COMPARISON-BLIND_2026-06-09.md`.
 
 ## TARGET: Ch6 brief (M3 rework + coal cascade)
 - **M3 figures SUPERSEDED:** McDowell M3 ~$340–3,670/ton, center ~$1,115; M3-IPG 8.5–26× (center ~15×); the old "$420–13,100 / mid ~$2,500 / $13,100 ceiling" and the **50–555× triangulated IPG are GONE** (disowned). ς notation; 1/(1−α); quasi-option-value-of-preservation (Arrow–Fisher/Henry); irreversibility weighted by empirical record + ARR, NOT α-dominance. UNCHANGED: public IPG 33–122×; §9.5 67–134×.

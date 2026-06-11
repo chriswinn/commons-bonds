@@ -42,7 +42,7 @@ V_option=$200, β=1) → ~$2,580/ton; sensitivity $420–$13,100/ton at β=1.
    - NB drift: that file gives McDowell **V_option ≈ $500–$2,000/ton** (line 139);
      the TA §11.6 build uses **$50–500/ton**. The ranges do not match — neither is
      sourced, but they are internally inconsistent across the two in-repo artifacts.
-2. **`manuscript/_DEEP-SOURCE-REPORT_2026-06-04.md`** (¶64–66) classifies the
+2. **`manuscript/ledgers/_DEEP-SOURCE-REPORT_2026-06-04.md`** (¶64–66) classifies the
    Method-3 per-ton range as an **INTERNAL-DERIVATION**: "the output is the book's
    own computation … none should be expected" externally. It names candidate INPUT
    citations — "Dixit & Pindyck 1994 (real-options); Arrow-Fisher-Hanemann-Henry

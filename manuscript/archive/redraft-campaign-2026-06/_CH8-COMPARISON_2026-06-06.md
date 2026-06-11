@@ -86,4 +86,4 @@ That is the entire fold-in list. Compared to Ch1's five-scene recomposition burd
 
 ---
 
-*Comparison artifact for Ch8 redraft campaign. Format model: `manuscript/_CH1-COMPARISON_2026-06-04.md`. Drafts compared: `research/story-drafts/ch8-wholecloth-redraft-v1_2026-06-06.md` (NEW) vs `manuscript/chapters/Chapter__8_WhatThingsActuallyCost.md` (CURRENT).*
+*Comparison artifact for Ch8 redraft campaign. Format model: `manuscript/archive/redraft-campaign-2026-06/_CH1-COMPARISON_2026-06-04.md`. Drafts compared: `research/story-drafts/ch8-wholecloth-redraft-v1_2026-06-06.md` (NEW) vs `manuscript/chapters/Chapter__8_WhatThingsActuallyCost.md` (CURRENT).*

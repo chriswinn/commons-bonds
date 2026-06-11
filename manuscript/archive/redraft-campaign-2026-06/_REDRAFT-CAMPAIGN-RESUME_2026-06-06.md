@@ -24,7 +24,7 @@
 
 **[DONE 2026-06-06 resume session] Step-2 comparisons complete.** Six per-chapter
 artifacts `manuscript/_CH{4-9}-COMPARISON_2026-06-06.md` + consolidated
-`manuscript/_REDRAFT-COMPARISON-SUMMARY_2026-06-06.md`. Net: **5 of 6 PROMOTE-NEW-
+`manuscript/archive/redraft-campaign-2026-06/_REDRAFT-COMPARISON-SUMMARY_2026-06-06.md`. Net: **5 of 6 PROMOTE-NEW-
 AFTER-FOLDIN (Ch4/5/6/8/9); Ch7 KEEP-CURRENT-WITH-FIXES.** Promotion of canonical
 chapters is AWAITING AUTHOR RATIFICATION (see decision points in the summary:
 Ch5 Public Choice cut; Ch8 overturns spot-fix exception; coal $4.50-vs-$4.70

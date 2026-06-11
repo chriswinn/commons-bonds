@@ -1,4 +1,4 @@
-<!-- WORKING DRAFT (2026-06-09): Ch5 promoted from the gate-clean blind whole-cloth draft (research/story-drafts/ch5-blind-wholecloth-v1_2026-06-06.md) -- a genuine fresh take, not a paraphrase -- replacing the regressed prior version at archive/Chapter__5_TheAccountabilityGap_REGRESSED_2026-06-09.md. The comparison verdict and the pre-send fact-check/fold-in queue live in manuscript/_CH5-COMPARISON-BLIND_2026-06-09.md. "_Draft" = work-in-progress; drop the suffix when finalized and ratified. -->
+<!-- WORKING DRAFT (2026-06-09): Ch5 promoted from the gate-clean blind whole-cloth draft (research/story-drafts/ch5-blind-wholecloth-v1_2026-06-06.md) -- a genuine fresh take, not a paraphrase -- replacing the regressed prior version at archive/Chapter__5_TheAccountabilityGap_REGRESSED_2026-06-09.md. The comparison verdict and the pre-send fact-check/fold-in queue live in manuscript/archive/redraft-campaign-2026-06/_CH5-COMPARISON-BLIND_2026-06-09.md. "_Draft" = work-in-progress; drop the suffix when finalized and ratified. -->
 
 # Commons Bonds
 *By Chris Winn*

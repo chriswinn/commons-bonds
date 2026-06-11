@@ -221,7 +221,7 @@ restorable; documented). Numbers from `research/story-drafts/ch3-restitution-bon
   on a corrected TA.
 - **Figure-cascade coherence.** The reef numbers ($20–37M / ~$200M / $92M / ~$110M) join the cascade
   discipline; reconcile against Ch3 and add them to the canonical figure ledger
-  (`manuscript/_CANONICAL_FIGURE_LEDGER.md`) so TA ↔ Ch3 ↔ any reef-touching essay stay aligned.
+  (`manuscript/ledgers/_CANONICAL_FIGURE_LEDGER.md`) so TA ↔ Ch3 ↔ any reef-touching essay stay aligned.
 - **Final confirmation burst** should re-audit the new §11.x reef arithmetic + the §5.5/§14.6/§17.7 edits.
 
 ---

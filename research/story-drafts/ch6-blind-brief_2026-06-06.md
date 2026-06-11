@@ -8,11 +8,11 @@
 
 > ## ⚠ M3 FINAL OVERRIDE (Session D Method-3 Path-A rework, 2026-06-09 — SUPERSEDES the M3 / IPG / coal numbers and framing in the brief body below)
 >
-> The brief body below predates the finalized Method-3 rework. Where the body says Dixit-Pindyck, "α-dominance," "50–555×," "$420–13,100 / mid $2,500," "$4.70–4.85," or "ceiling," **use THIS instead.** The TA is canonical; these are final (no further drift).
+> The brief body below predates the finalized Method-3 rework. Where the body says Dixit-Pindyck, "α-dominance," "33–122×," "50–555×," "triangulated ~50×," "$420–13,100 / mid $2,500," "$4.70–4.85," or "ceiling," **use THIS instead.** The TA is canonical; these are final (no further drift).
 >
 > **Numbers (market-anchored Path-A M3, geometric center, convexity-aware):**
 > - **McDowell coal M3 = $340–3,670/ton, center ~$1,115/ton** (NOT "$420–13,100 / mid $2,500"; the $13,100 ceiling is gone).
-> - **M3-IPG (foreclosure-premium multiple) = 8.5–26×, center ~15×**, price-independent. The old **"50–555×" is DISOWNED** (era-mixing artifact). **Never use 50–555×.** The public headline IPG **33–122×** (Ch2-owned) is UNCHANGED; the cross-model §9.5 **67–134×** is UNCHANGED.
+> - **IPG — the bare "33–122×" is RETIRED (author-ratified 2026-06-09; it reproduced from no consistent input). The canonical IPG is now LENS-EXPLICIT** — cite the lens + the price basis, NEVER a bare single range: carbon-externality / Damage-Function **~107–110×** (÷ the $4.71 1960 price); RCV-integral **61–115×** (Weitzman; recalibrated 2026-06-10, see TA §11.1 calibration note); Method-3 foreclosure-premium **8.5–26× (center ~15×)**, price-independent (the most conservative lens). **"50–555×" is DISOWNED — never use it.** This supersedes EVERY "33–122×", "50–555×", and "triangulated ~50×" reference in the brief body below; do not reproduce them, and do not have Ch6 quote a bare IPG multiple.
 > - **1960 mine-mouth coal price = $4.71/ton** (1960, bituminous; EIA Total Energy T7.9). Use $4.71 as the point value (prose may still say "just under five dollars").
 > - **Norway M3 = $96–610/BOE, central ~$281/BOE; M3-IPG ~2.4–5.1×.** The Norway CS-reduction is **irreversibility-reduction** (GPFG restoration optionality moves α from ~1 toward ~0.50–0.75), **NOT rent-capture** — **do NOT carry "16% / $48/BOE rent captured / $300."**
 >
