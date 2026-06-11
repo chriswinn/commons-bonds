@@ -861,8 +861,8 @@ patterns:
         line: 1428
         rationale: "SUBSTANTIVE naming-history: rationale referencing the §5.1.2 note (re-pinned 2026-06-11 after §3.6 reef-row +23-line shift)"
       - file: "manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html"
-        line: 7418
-        rationale: "SUBSTANTIVE §15.2 rename-candidates list: quoted as a rejected candidate (re-pinned 2026-06-11 after §3.6 reef-row + §11.12 reef-block +237-line shift; +6 more after the 10.5 Categorization-note insertion)"
+        line: 7415
+        rationale: "SUBSTANTIVE §15.2 rename-candidates list: quoted as a rejected candidate (re-pinned 2026-06-11 again after the §9 convergence-sunset net -3-line shift)"
 
   - id: regressed-term-reversibility-default
     pattern: 'Reversibility Default'
@@ -997,5 +997,127 @@ scope:
     - "publishing/**/templates/**/*.md"
     - "publishing/**/_inventory_*.md"
     - "publishing/**/archive/**/*.md"
+
+  # ===========================================================
+  # Convergence-sunset retirements (2026-06-11)
+  # Origin: manuscript/technical-appendix/convergence-scope-correction_2026-06-11_PROPOSED.md §7
+  # (unified-triple sunset, author-ratified; applied to TA §9/§10.2/§11.2/§11.3)
+  # ===========================================================
+
+  - id: regressed-canon-three-model-convergence
+    pattern: 'Three-Model Convergence'
+    type: string
+    severity: HIGH
+    category: deprecated-term
+    description: |
+      Retired section/observation framing (2026-06-11 unified-triple sunset).
+      The DF/RO/RCV "three models" were the M1/M2/M3 apparatus at an earlier
+      stage; §9 is now "The Cross-Check Architecture" and Obs 10.2 is
+      "Cross-Lens Consistency". Convergence is never the result.
+    origin:
+      pass: "Convergence-sunset (spec §7, E1/E10)"
+      commit: "b34022d"
+      ratified: "2026-06-11"
+    allowlist:
+      - "manuscript/technical-appendix/convergence-scope-correction_*.md"
+      - "tools/audits/**/*.md"
+      - "tools/workstream-handoffs/**/*.md"
+      - "archive/**"
+
+  - id: regressed-canon-all-three-models-agree
+    pattern: 'All three models agree'
+    type: string
+    severity: HIGH
+    category: consistency-canon
+    description: |
+      Biased-to-converge exhibit retired 2026-06-11: the Deepwater "factor of
+      1.5" agreement counted one computation twice (the "RCV estimate" was the
+      damage lens + ongoing costs). Replaced by the realized-bond statement.
+    origin:
+      pass: "Convergence-sunset (spec §7, E11)"
+      commit: "b34022d"
+      ratified: "2026-06-11"
+    allowlist:
+      - "manuscript/technical-appendix/convergence-scope-correction_*.md"
+      - "tools/audits/**/*.md"
+      - "tools/workstream-handoffs/**/*.md"
+      - "archive/**"
+
+  - id: regressed-canon-converge-because-real
+    pattern: 'converge not because they were designed to'
+    type: string
+    severity: HIGH
+    category: consistency-canon
+    description: |
+      Convergence-celebration sentence retired 2026-06-11 ("...because the
+      thing they measure is real"). The defensible claim is direction-never-
+      flips with shared-input caveats; agreement is corroboration, not result.
+    origin:
+      pass: "Convergence-sunset (spec §7; proposal Ask B)"
+      commit: "b34022d"
+      ratified: "2026-06-11"
+    allowlist:
+      - "manuscript/technical-appendix/convergence-scope-correction_*.md"
+      - "tools/audits/**/*.md"
+      - "tools/workstream-handoffs/**/*.md"
+      - "archive/**"
+
+  - id: regressed-canon-six-tested-cases-scope
+    pattern: 'across (the )?six (tested|forward) cases'
+    type: regex
+    severity: HIGH
+    category: consistency-canon
+    description: |
+      Cross-check scope overclaim retired 2026-06-11: the full three-lens
+      cross-check computes only for McDowell; Deepwater + Libby compute on the
+      damage lens + realized-bond decomposition (backward-dominant).
+    origin:
+      pass: "Convergence-sunset (spec §7, E8/E9; audit E14)"
+      commit: "b34022d"
+      ratified: "2026-06-11"
+    allowlist:
+      - "manuscript/technical-appendix/convergence-scope-correction_*.md"
+      - "tools/audits/**/*.md"
+      - "tools/workstream-handoffs/**/*.md"
+      - "archive/**"
+
+  - id: regressed-canon-retired-ro-rcv-ipg-bands
+    pattern: '45(&ndash;|–|-)89(&times;|×)|57(&ndash;|–|-)93(&times;|×)|72(&ndash;|–|-)111(&times;|×)'
+    type: regex
+    severity: MEDIUM
+    category: consistency-canon
+    description: |
+      Pre-rework Real-Options / RCV-column IPG bands (McDowell 45-89x; Libby
+      57-93x / 72-111x) retired 2026-06-11 — no derivation survives in the
+      corpus. Settled values: spec §7.1 table (engine sec9_recompute, 24/24).
+    origin:
+      pass: "Convergence-sunset (spec §7.1)"
+      commit: "b34022d"
+      ratified: "2026-06-11"
+    allowlist:
+      - "manuscript/technical-appendix/convergence-scope-correction_*.md"
+      - "manuscript/technical-appendix/calculations/*.py"
+      - "tools/audits/**/*.md"
+      - "tools/workstream-handoffs/**/*.md"
+      - "archive/**"
+
+  - id: regressed-canon-rcv-model-estimate-label
+    pattern: 'RCV model estimate'
+    type: string
+    severity: MEDIUM
+    category: consistency-canon
+    description: |
+      Mislabel retired 2026-06-11: §11.2 used "RCV model estimate" for the
+      damage lens + ongoing costs. The RCV integral computes only where its
+      calibration is documented (McDowell) or insensitive (abundance regime).
+    origin:
+      pass: "Convergence-sunset (spec §7, E11)"
+      commit: "b34022d"
+      ratified: "2026-06-11"
+    allowlist:
+      - "manuscript/technical-appendix/convergence-scope-correction_*.md"
+      - "tools/audits/**/*.md"
+      - "tools/workstream-handoffs/**/*.md"
+      - "archive/**"
 
 # End of regressed-patterns.yaml

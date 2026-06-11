@@ -5,7 +5,7 @@
 *(v2 header preserved below for the record:)*
 (v2, Option-B-corrected)
 
-**Status:** PROPOSED (author ratification required — end-user-facing TA prose; NOT auto-applied)
+**Status:** **RATIFIED + APPLIED 2026-06-11** (author; Ask A ratified with one amendment: **no scaffolding in end-reader-facing prose** — the §9.1/§9.3 historical "instructive note" drafts were applied WITHOUT historical narration; this file is the sole home of the sunset history). Titles ratified: §9 "The Cross-Check Architecture"; Obs 10.2 "Cross-Lens Consistency". Gates at apply: corpus invariants HIGH = 0; engines 21/21 + 24/24, 0 mismatches.
 **Target file:** `manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html`
 **Base:** `origin/main` tip `0b83257`
 **Gate baseline (unchanged worktree):** `check-corpus-invariants.sh --severity HIGH` → exit 0; `csd_rcv_calculations.py` → 0 FAIL (21 values, 0 mismatches)
