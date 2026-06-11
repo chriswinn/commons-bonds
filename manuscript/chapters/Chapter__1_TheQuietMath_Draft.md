@@ -127,16 +127,12 @@ The house is not the thing I miss.
 
 ---
 
-<!-- RATIFY (proposal, not applied): closing-page grammar repair 1 of 2. "What the years finally gave me was not the satisfaction of righting the things that felt wrong, it was the ability to shine a light on them." is a comma splice. Minimal fix: end the first sentence at "felt wrong." and let "It was the ability to shine a light on them." stand as its own sentence. Alternative single-sentence fix: "...was not the satisfaction of righting the things that felt wrong but the ability to shine a light on them." Also, "To make the unseen, seen." places a comma between verb and complement; the minimal fix is "To make the unseen seen." (the author flagged this comma as an open stylistic choice on 2026-06-05, so it may be deliberate; confirm rather than assume). -->
-
-What the years finally gave me was not the satisfaction of righting the things that felt wrong, it was the ability to shine a light on them. To make the unseen, seen. It took me back to the morning that man greeted me in my mother's language, and it gave me the arithmetic that shows the system as it is, and that proves the decisions we made would not all have been the same if we had known the real cost.
+What the years finally gave me was not the satisfaction of righting the things that felt wrong. It was the ability to shine a light on them. To make the unseen seen. It took me back to the morning that man greeted me in my mother's language, and it gave me the arithmetic that shows the system as it is, and that proves the decisions we made would not all have been the same if we had known the real cost.
 
 This is an honest accounting. It does not undo the damage.
 
 The son I once held is somewhere in the world now. I do not know where. I wish I knew. We have no contact.
 
-<!-- RATIFY (proposal, not applied): closing-page grammar repair 2 of 2. In "I am writing for the ones still ahead of us, for the unseen costs of the decisions not yet made", the second "for" misattaches: it reads as writing on behalf of the costs rather than for the people. Minimal fix: change the second "for" to "about" ("I am writing for the ones still ahead of us, about the unseen costs of the decisions not yet made"). And "before the truth is too late to use" is muddled (the truth is not what is late; the chance to use it is). Two minimal options: "...so that we can see the true cost while there is still time to act on it" (echoes the wind-tunnel line earlier in the chapter) or "...so that we can see the true cost while there is still time to use it." Author to choose. -->
-
-I am writing for the ones still ahead of us, for the unseen costs of the decisions not yet made, so that we can see the true cost before the truth is too late to use.
+I am writing for the ones still ahead of us, about the unseen costs of the decisions not yet made, so that we can see the true cost while there is still time to act on it.
 
 This is the ledger. I can only point out the empty columns. The numbers are yours to enter.
