@@ -117,11 +117,11 @@ Then the leave ran out, and the deals had to close, and the mortgage had to be p
 
 The marriage did not make it through. I will only tell you my side of that, because the rest is not mine to tell, and I am going to hold that boundary as carefully as I held the boundary around the weights of slavery, because the same honesty is at stake. It did not make it through the distance and the trauma. There were other reasons. There always are. It would be a lie, and a kind of self-flattery dressed up as confession, to say the work alone ended it. It did not. But the distance and the trauma and the absence at the moment that most needed presence were in it, and in the end it did not make it through.
 
-The house is not the thing I miss.
-
 I had bought a beautiful house, and the beautiful house had a mortgage, and the mortgage had to be paid, and the only way to pay it was to keep doing the thing that pulled me away. I have thought, many times since, about the smaller life I did not choose. A tiny house on the coast. A cabin in the woods. A boat. Any of them would have cost so little to keep that I could have stopped working when it mattered most and stayed afloat for a while, long enough, maybe, to be where I was needed instead of on a plane. The beautiful house carried a cost that never appeared on the listing, the same kind of cost the cheaper apartment had carried, the kind nobody writes down, the kind that lands on a life and stays there. The house was a thing I had to keep feeding, and feeding it took the one thing it was supposed to shelter.
 
 And here is the harder number, the one that closes the door on the comfortable idea that I simply earned too little, that more money would have fixed it. In my best years, the peak of them, salary and commission together touched around four hundred thousand dollars. That was not a steady annual figure. It was the ceiling, the highest the earning ever reached, in the best years only. And even at that ceiling, even at the very top of everything my skill and my inheritance and my refusal to sleep could generate, it would not have been enough to cover the year and more of surgery and rehabilitation that life eventually required. Not at the peak. Not at the absolute top of what I could earn. The system that priced my labor so well, that rewarded the inherited pattern so handsomely, could not, at its most generous to me, cover the thing a life will eventually need covered. If it could not cover me at the ceiling, sit for a moment with what that means for everyone earning beneath it, which is to say almost everyone.
+
+The house is not the thing I miss.
 
 ---
 
