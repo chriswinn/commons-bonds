@@ -26,5 +26,11 @@ reduced/ambiguous forms ('d, 'll, double contractions), not the common ones.
 **How to apply:** In any mechanical/voice pass over publisher-facing prose,
 contractions are not a defect class. Flag one only if it is grammatically wrong
 in its sentence. When drafting fresh prose in the author's register, common
-contractions are permitted where they read naturally. Related:
+contractions are permitted where they read naturally.
+
+**Caveat (author, same day):** the rule is NOT "always leave them" — he can be
+sloppy with your/you're and its/it's. Homophone and apostrophe errors are
+plain errors: always fix (your/you're, its/it's, their/they're/there,
+whose/who's, plural-apostrophes like "coo's"). The protected class is the
+deliberate contraction, not the typo that looks like one. Related:
 [[feedback-author-redline-final-stage]], [[feedback-em-dash-overuse]].
