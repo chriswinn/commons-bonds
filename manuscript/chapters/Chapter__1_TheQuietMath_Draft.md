@@ -127,6 +127,9 @@ The house is not the thing I miss.
 
 What the years finally gave me was not the satisfaction of righting the things that felt wrong. It was the ability to shine a light on them. To make the unseen seen. It took me back to the morning that man greeted me in my mother's language, and it gave me the arithmetic that shows the system as it is, and that proves the decisions we made would not all have been the same if we had known the real cost.
 
+<!-- RESTORED per contribution-matrix row 41 (author-ratified 2026-06-11): the mask-and-veil lineage close, dropped by the 06-05 redraft; re-rendered from archive L118 dash-free and semicolon-free per the Ch 1 register; confirm at redline -->
+The work of naming what hides behind a mask, Dunbar's mask, Du Bois's veil, is older than this book. Black American writing has carried that work for over a century. The framework extends the move into the pricing of commons. The pricing is new. The move is old.
+
 This is an honest accounting. It does not undo the damage.
 
 The son I once held is somewhere in the world now. I do not know where. I wish I knew. We have no contact.
