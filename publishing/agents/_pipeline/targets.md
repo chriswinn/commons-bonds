@@ -326,13 +326,15 @@ Pipeline A waves fire against the priority ordering above:
 
 ---
 
-## Submission routes — Tier 1 Priority-A agencies (verified 2026-06-14)
+## Submission routes — Pipeline A agencies (verified 2026-06-14 → 06-15)
 
 **Purpose.** The agent rows above store the *verification/profile* URL for each
-agent, not the *query channel*. This section fills that gap for the Wave-1
-candidate pool (Tier 1 Priority-A), at the **agency** level (submission policy is
-set per agency; several route to per-agent forms). Every route below was
-web-verified 2026-06-14 against the agency's own site where possible; rows that
+agent, not the *query channel*. This section fills that gap for **every distinct
+agency across all tiers / all waves**, at the **agency** level (submission policy
+is set per agency; several route to per-agent forms/QueryManager). The first
+table is the Wave-1 pool (Tier 1 Priority-A); the second covers the remaining
+Tier 1 / Tier 2 / Tier 3 + UK / Canada agencies. Every route below was
+web-verified 2026-06-14/15 against the agency's own site where possible; rows that
 could not be verified to a primary-source standard are marked as gaps rather than
 guessed (no fabricated emails). **Discipline: re-confirm the live route on the
 agency page before sending** — open/closed status and QueryManager URLs change,
@@ -347,6 +349,8 @@ Lord.** The strongest-fit names that are **referral-only / closed** (need a warm
 intro, not a cold query): **Wylie, CAA, WME (per-agent only), Bennett (now at CAA,
 closed), Robbins, Brockman, Watkins/Loomis, Dijkstra/Capron, Chris Calhoun, Joy
 Harris.**
+
+### Tier 1 — Priority-A (US majors + top boutiques; the Wave-1 pool)
 
 | Agency (Tier-1 Priority-A agents) | Open to cold query? | Route + what to send | Source | Confidence |
 |---|---|---|---|---|
@@ -382,9 +386,70 @@ Harris.**
 | **Susan Rabiner Literary Agency** (Rabiner, Kramer) | **Yes** — email by agent | "Send all queries by e-mail." Per-agent: `susan@rabiner.net`, `sydellek@rabiner.net` (Kramer). One-page query + proposal; ~2-wk reply if it fits. *(Per-agent addresses confirmed via 3rd-party mirror — verify on rabinerlit.com before sending.)* | rabinerlit.com/about-us | Medium-high |
 | **Curtis Brown UK** (Geller) | **Yes** — portal | Online portal `submissions.curtisbrown.co.uk`; select an agent. NF: pitch letter + proposal (chapter outline + book summary + sample chapters), ~12k-word cap. *(JS-rendered; confirm exact NF cap on the upload form.)* | curtisbrown.co.uk submissions | Medium |
 
-**Status-change flags surfaced during verification (2026-06-14):**
+### Tier 2 / Tier 3 + UK / Canada agencies
+
+*US (Tier 2 / Tier 3):*
+
+| Agency (agents) | Open to cold query? | Route + what to send | Source | Confidence |
+|---|---|---|---|---|
+| **Park, Fine & Brower** (Fine, Maas) | **Yes** | `queries@parkfinebrower.com`; agent name + category in subject. NF = **query letter only** (no proposal/sample), all in body (attachments unopened). | parkfinebrower.com/about-us | High |
+| **Frances Goldin** (Geiger, Stoloff, Julien) | **Per-agent — your 3 are closed/unclear** | Per-agent `xx@goldinlit.com` (initials); query ONE. **Geiger + Stoloff currently closed; Julien unconfirmed.** Open Goldin agents (McGowan `mm@`, Eisenmann `ce@`, etc.) take query + first 10–15 pp in body; no AI; 6-wk pass. | goldinlit.com/submissions | High (status volatile) |
+| **Dunow, Carlson & Lerner** (Dunow, Carlson, E. Jackson, Vogel) | **Yes** | `mail@dclagency.com`; address to an agent (may query several — state which). Query + first 10 pp in body, **no attachments**. | dclagency.com/contact | High |
+| **McCormick Literary** (Orloff, McCormick) | **Yes** | `queries@mccormicklit.com`; agent in subject. Query + bio + optional first 10 pp, all in body. | mccormicklit.com/guidelines | High |
+| **The Stuart Agency** (A. Stuart) | **Yes** | Online form at stuartagency.com/submissions.html (per QueryTracker); per-agent emails (`christopher@`, `rob@stuartagency.com`) cited but **unverified — site unreachable at check**. NF = query + proposal. | querytracker.net/agent/392 | Low–med (verify live) |
+| **Folio Literary Management** (Sutherland Brown, Kleinman, Troha) | **Yes** — per-agent | `first@foliolit.com` (`jeff@`, `steve@`, `margaret@`); check the agent's page (some periodically closed). NF = full proposal + sample chapter; **one Folio agent at a time**. | foliolit.com/submit | Med–high |
+| **The Karpfinger Agency** (Karpfinger, Chidley) | **Yes** | Chidley: `sam@karpfinger.com` (body only). **Karpfinger: postal mail only.** NF = ≤10-pp proposal (overview + chapter summaries); 6-wk reply. | karpfinger.com/submissions | High |
+| **The Friedrich Agency** (Friedrich, Carson) | **Yes** | Molly Friedrich: `mfriedrich@friedrichagency.com`; "QUERY" + title in subject. Carson: QueryManager (**currently closed**). Query + 5 sample pp in body; one agent. | friedrichagency.com/submit | High |
+| **Susan Schulman** (Schulman) | **Yes** | Per-agent email (pick from profiles); general `queries@schulmanagency.com` **unverified**. NF = description + full outline + first 10 pp in body; **no AI**. | schulmanagency.com/submissions | Medium |
+| **The Garamond Agency** (Adams) | **Yes** | `query@garamondagency.com`; NF only (no memoir/fiction). Description in body, **no attachments**. | garamondagency.com/contact-us | High |
+| **Trellis Literary Management** (Hunter, Malecha) | **Yes** — QueryManager only | Per-agent QueryManager from trellisliterary.com/submissions; **no agency email**; one agent; 8–12-wk reply. (Hunter leans memoir/narrative; was closed through end-June 2026.) | trellisliterary.com/submissions | High (mechanism) |
+| **Enliven Endeavors** (Morgan) | **Yes (new agency)** | Per-agent `name@enlivenendeavors.com` (DeWitt `annie@` confirmed); **Morgan's exact address unverified — no submissions page live yet.** 3-paragraph query. | pw.org/literary_agents/annie_dewitt | Low–med |
+| **WLA Books** (*= Waxman Literary Agency*) (Canavan, Harbaugh) | **Yes** | `susan@wlabooks.com` (narrative NF) / `barry@wlabooks.com` (narrative NF + current events) / `submit@wlabooks.com` (else). Query + first 10 pp in body. | wlabooks.com/submit | High |
+| **Artists Literary Group** (Bartoli) | **Unclear — possibly defunct** | Site unreachable; no verifiable current route; founder left for Gersh years ago. Do not query until confirmed active. | 1000literaryagents (stale) | Low (gap) |
+| **Ayesha Pande Literary** (Pande) | **Web form; Pande referral/conference-only** | Web form `pandeliterary.com/queries-pandeliterary`. **`queries@pandeliterary.com` is a correspondence address, NOT the submission route** (corrects row T3-14). One agent; 6–8-wk. | pandeliterary.com/queries | High |
+
+*Canada:*
+
+| Agency (agents) | Open to cold query? | Route + what to send | Source | Confidence |
+|---|---|---|---|---|
+| **Westwood Creative Artists** (Wheeler) | **Yes (agency); Wheeler closed** | `submissions@wcaltd.com`; open agent's name in subject (**not Wheeler — closed**). Bio + synopsis + 10–20 pp in body; up to 6-mo reply. | wcaltd.com/submission-guidelines | High |
+| **CookeMcDermid** (Eckel, Harding) | **Yes** | Per-agent QueryManager from cookemcdermid.com/submissions; email only as accessibility (`admin@cookemcdermid.com`); one agent; 15-wk reply. | cookemcdermid.com/submissions | High |
+
+*UK:*
+
+| Agency (agents) | Open to cold query? | Route + what to send | Source | Confidence |
+|---|---|---|---|---|
+| **Peters Fraser + Dunlop (PFD)** (Michel, Bates, Chandley; Merullo *closed*) | **Yes** — per-agent | Michel `cmichelsubmissions@pfd.co.uk` · Bates `tbates@pfd.co.uk` · Chandley `dchandley@pfd.co.uk`. NF = proposal + personalised cover + CV; **one agent**; 8-wk (12-wk = pass). | petersfraserdunlop.com/submissions/books | High |
+| **David Higham Associates (DHA)** (Gordon, Baxter) | **Yes** | Central `submissions@davidhigham.co.uk` (or per-agent from agents page). NF = proposal + sample + credentials + cover; **AI disclosure required**; 12-wk. | davidhigham.co.uk/submissions | High (central) |
+| **United Agents** (Dawnay) | **Yes** | Dawnay via assistant: `EHorn@unitedagents.co.uk`, subject "FAO Caroline Dawnay". NF = cover + bio note + first 10,000 words. | unitedagents.co.uk (Dawnay page) | Med–high |
+| **Felicity Bryan Associates** (Holloway, Plitt, Clarke) | **Yes** — form only | Online form felicitybryan.com/submissions/submit-your-work; cover + synopsis/proposal (+ optional first 3–4 ch). 12-wk = pass. | felicitybryan.com/submissions | High |
+| **A.M. Heath** (Killingbeck, Thorneycroft, Hamilton) | **Yes** — form only | Form `submissions.amheath.com`; cover ≤500 w + synopsis ≤1,500 w + first 10,000 words; **no AI**. (`submissions@amheath.com` only for full-MS/offer follow-ups.) | amheath.com/submissions | High |
+| **Rogers, Coleridge & White (RCW)** (Straus, Waldie) | **Yes** | Per-agent email or general `submissions@rcwlitagency.com`; cover + NF proposal ≤20 pp; **one agent**; 6–8-wk. | rcwlitagency.com/submissions | High |
+| **Aitken Alexander** (C. Alexander) | **Yes** | `submissions@aitkenalexander.co.uk`, subject "for the attention of [agent]". Narrative NF = overview + ≤10,000 w; subject-led NF = ~5,000-w proposal + ≥5,000-w sample; 3-mo = pass. | aitkenalexander.co.uk/contact-us/submissions | High |
+| **C&W (Conville & Walsh)** (Lambert) | **Yes** — per-agent | Per-agent email on profile page (**Lambert's exact address unverified** — pull from cwagency.co.uk/agent/sophie-lambert). NF = 30-page proposal; one agent; Word only. | cwagency.co.uk/page/submissions | Medium |
+| **Greene & Heaton** (Topping, Murray) | **Yes** | `submissions@greeneheaton.co.uk`, agent in subject. Cover + 3 sample chapters/~50 pp + synopsis (Murray wants full MS); **no AI**; 8-wk. | greeneheaton.co.uk/submissions | High |
+| **The Soho Agency** (Clark, J. Alexander) | **Yes** | `sohoagencysubmissions@gmail.com`; cover (to agent) + synopsis + first 3 ch/30 pp. | thesohoagency.co.uk/literary-submissions | High |
+| **Antony Harwood Ltd** (Harwood, Gregory) | **Yes — UK residents only** | `mail@antonyharwood.com`; outline + first 3 chapters/~10,000 w. **Excludes non-UK-based authors + self-help.** | antonyharwood.com/submissions | High |
+| **International Creative Agency (ICA)** (*Mulcahy — moved from MMB Creative*) | **Yes** | QueryManager `QueryTracker.net/query/ivanmulcahy`; NF proposal ≤~20 pp; one agent; 6–8-wk. (MMB Creative's own submissions page is now down.) | internationalcreative.agency/submissions | High |
+| **PEW Literary** (Walsh) | **Yes** | `submissions@pewliterary.com`; NF = ~30-page proposal (overview + market + 1 sample chapter + chapter outline) + cover; 6-wk. | pewliterary.com/submitting | High |
+| **Rebecca Carter Literary** (*"RCL"; Carter — ex-Janklow; assoc. with PEW*) | **Yes** | `submissions@rebeccacarterliterary.com`, subject "Submission: [name] [TITLE]". NF = detailed proposal + sample; 1-mo = pass. | rebeccacarterliterary.com/submissions | High |
+| **Hardman & Swainson** (Hardman *closed*) | **Yes (agency)** | `submissions@hardmanswainson.com`, name an open agent (**Hardman herself closed**). NF = cover + proposal + sample chapter; 8-wk. | hardmanswainson.com/submissions | High |
+| **Bell Lomax Moreton** (Gourinchas) | **Yes** | `agency@belllomaxmoreton.co.uk`; synopsis + first 3 ch/≤50 pp + cover; **one agent**; 8–12-wk. | belllomaxmoreton.co.uk/submissions | Med–high |
+| **Andrew Nurnberg Associates** (R. Clarke) | **Yes** | `submissions@nurnberg.co.uk` (note domain), agent in subject. NF = cover + overview + chapter outlines + 3 sample chapters; 3-mo = pass. | andrewnurnberg.com/submissions | High |
+| **Northbank Talent** (Cole, Banks) | **Yes** | `nonfiction@northbanktalent.com`; cover + synopsis + first 3 chapters; ~2-wk reply. | northbanktalent.com/contact | High |
+| **The Robert Caskie Agency** (Caskie) | **Yes** | `submissions@robertcaskie.com`; NF = outline + sample chapter + intro email. | robertcaskie.com/submissions | High |
+| **Lutyens & Rubinstein** (Finigan) | **Yes** | `submissions@lutyensrubinstein.co.uk`; cover + synopsis + first 3 ch/~5,000 w. | lutyensrubinstein.co.uk/submissions | High |
+
+**Status-change flags surfaced during verification (2026-06-14 → 06-15):**
 
 - **Tina Bennett (#10)** wound down Bennett Literary and **moved to CAA (June 2025)**, where she is listed for nonfiction but **closed to unsolicited queries** — strongest single-agent reader-overlap, but referral-only.
+- **Rebecca Carter (#T1-A5; "RCL")** left Janklow & Nesbit and **founded Rebecca Carter Literary (2023)**, operating in association with PEW Literary — `submissions@rebeccacarterliterary.com`.
+- **Ivan Mulcahy (#153)** left MMB Creative (formerly Mulcahy Sweeney) and **founded International Creative Agency (ICA)**; query him via ICA's QueryManager. MMB Creative's submissions page is down.
+- **"WLA Books" (#T3-10/11) = the former Waxman Literary Agency** (Scott Waxman) — per-category emails at `wlabooks.com`.
+- **Ayesha Pande Literary (#T3-14):** the file's "queries@pandeliterary.com" is a **correspondence** address, not the query channel — use the **web form**; Pande herself is effectively referral/conference-only.
+- **Artists Literary Group (#122, Bartoli):** site unreachable, founder departed — **possibly defunct**; verify before querying.
+- **Frances Goldin (#86/87/T2-15):** all three named agents (Geiger, Stoloff, Julien) are currently **closed/unconfirmed**; other Goldin agents are open.
+- **Currently-closed individuals at otherwise-open agencies:** Meg Wheeler (Westwood), Annabel Merullo (PFD), Caroline Hardman (H&S), Lucy Carson (Friedrich) — route to an open colleague or wait.
 - **Kneerim & Williams (#52, Flynn) merged into Calligraph (2023)** — K&W is no longer a separate querying entity; Flynn (now Partner) and **Eric Lupfer (T2-06)** are the **same agency.** Consolidate the two rows.
 - **SKLA (Patterson #40, Brady Watson #41) merged into DeFiore (May 2026)** — intake still flowed through `skagency.com` at check; Brady Watson is closed. Confirm DeFiore migration before querying.
 - **Several Aevitas agents** show stale "closed" flags on third-party trackers (pre-2024) — the **live dropdown** at aevitascreative.com/contact is authoritative.
@@ -397,3 +462,4 @@ Harris.**
 - **2026-05-10** — Sarah Chalfant entry expanded with acknowledgments-page-check status.
 - **2026-06-03** — **EXHAUSTIVE LANE RESEARCH SWEEP.** ~188 verified Tier 1/2/3 agent rows added across US + UK universe per Pipeline A + B exhaustive lane research chip. Reconciled with **FOUR** parallel-session chips that landed on `origin/main` during this session's window: (a) commit `84547ee` Pipeline A Tier 3 chip — integrated 8 net-new agents (T3-05 Hunter, T3-06 Malecha, T3-08 Moldawer, T3-09 Morgan, T3-10 Canavan, T3-11 Harbaugh, T3-14 Pande, T3-15 Pagnamenta); (b) commit `9e9b46e` Pipeline B chip — integrated Grigory Tovbis as net-new HUP editor (Susskind acquirer) into companion file; (c) commit `claude/pipeline-a-tier-2-lane-research-260603-b0acd9` Tier 2 chip — integrated 9 net-new agents (T2-04 Kramer, T2-06 Lupfer, T2-09 Rabiner, T2-13 Adams, T2-15 Stoloff, T2-18 McCormick, T2-19 Stuart, T2-20 Flynn-Calligraph, T2-23 Lippincott); (d) commit `8b1ab52` Pipeline A Tier 1 chip — integrated 6 net-new agents (T1-A1 Geller, T1-A2 Michel, T1-A3 Parry, T1-A4 Storella, T1-A5 Carter, T1-A6 Kuhn). Remaining parallel-session entries deduplicated against existing exhaustive-sweep rows. Eight parallel general-purpose research agents canvassed: (A1) comp-author + warm-lineage; (A2) Wylie + Brockman + InkWell + WME + CAA + ICM + Trident + Janklow + Aevitas + Gernert; (A3) Folio + Foundry [DISSOLVED] + Krichevsky + Sterling Lord + DeFiore + Park & Fine + Dijkstra + LGR + Goldin + MMQ + Cheney + Robbins + Markson Thoma [DEFUNCT] + Weissman + Strothman [→ Aevitas] + Brandt & Hochman + Writers House + Friedrich; (A4) Susan Cohen + Wendy Schmalz + Karpfinger + Joy Harris + Ross Yoon [→ WME] + Anderson + Greenburger + Strothman + Borchardt + Dunow Carlson & Lerner + Hill Nadell + Westwood + CookeMcDermid + bonus finds (Tina Bennett, Neon Literary, The Book Group, Chris Calhoun, Larry Weissman, Edward Orloff at McCormick); (A5) UK trade — Wylie UK + A.M. Heath + Aitken Alexander + C&W + Curtis Brown UK + DHA + Felicity Bryan + Greene & Heaton + Janklow UK + PFD + RCW + United Agents + Antony Harwood + Mulcahy Sweeney + Hardman & Swainson + PEW + Bell Lomax Moreton + Andrew Nurnberg + Northbank + Robert Caskie + Lutyens & Rubinstein + Soho. **Citation discipline:** every row carries a verification source URL or named reference. Rows where verification couldn't resolve were OMITTED (not fabricated). Could-not-resolve list of comp authors documented above. Imprint-orientation veto flags applied. Companion Pipeline B file at `publishing/publishers/_pipeline/academic-trade-targets.md`.
 - **2026-06-14** — **SUBMISSION-ROUTES PASS (Tier 1 Priority-A).** Added the "Submission routes — Tier 1 Priority-A agencies" section above: agency-level query channel (email / form / portal / QueryManager), what-to-send, source URL, and confidence for the full Wave-1 candidate pool (~33 agencies). Filled the gap where agent rows stored only a profile/verification URL, not a query channel. Eight parallel research agents web-verified each agency against its own site 2026-06-14; unverifiable routes flagged as gaps, not fabricated. **Status-change findings:** Tina Bennett → CAA (closed to unsolicited); Kneerim & Williams merged into Calligraph (Flynn + Lupfer same firm — consolidate rows #52 + T2-06); SKLA → DeFiore merger (Patterson intake still via skagency.com; Brady Watson closed). Referral-only/closed at top of Tier 1: Wylie, CAA, WME (per-agent), Bennett, Robbins, Brockman, Watkins/Loomis, Dijkstra/Capron, Chris Calhoun, Joy Harris.
+- **2026-06-15** — **SUBMISSION-ROUTES PASS EXTENDED TO ALL TIERS / ALL WAVES.** Added the Tier 2 / Tier 3 + UK / Canada submission-routes table (~38 more agencies) so the section now covers every distinct agency in the list, not just the Wave-1 pool. Seven parallel research agents web-verified each agency against its own site 2026-06-15; unverifiable routes flagged (Stuart Agency, Enliven/Morgan, C&W/Lambert, Schulman), not fabricated. **Status-change findings:** Rebecca Carter ("RCL") → founded Rebecca Carter Literary (2023, assoc. PEW); Ivan Mulcahy → founded International Creative Agency (left MMB Creative); "WLA Books" = former Waxman Literary Agency; Pande's `queries@pandeliterary.com` is correspondence-only (use web form); Artists Literary Group possibly defunct; Frances Goldin's three listed agents all currently closed/unconfirmed. Companion Pipeline B per-press routes filled same day in `publishing/publishers/_pipeline/academic-trade-targets.md`.
