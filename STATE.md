@@ -21,10 +21,10 @@ polish (redraft campaign) → agent-query Wave 1 fires ~Jun 24 – Jul 1 (cascad
 | Existence Proof | Foreign Affairs | **RATIFIED READY-TO-SUBMIT**; cover letter DRAFTED 05-27 | 06-04 (PM) | **Ratify cover letter → submit (critical path)** |
 | Commons Bonds | Noema | RATIFIED-AWAITING-SUBMIT (05-24) — **AMBIGUOUS, PM verify:** V-D-prime cascade PROPOSED 06-01/02 not visibly closed | 06-04 (PM) | Author decides: submit ratified version vs close cascade |
 | Mask of Abundance | Aeon | V-E canonical; **portal-watch** (maintenance page seen 06-03); Jul 1–5 fallback | 06-04 (PM) | Submit on portal open |
-| Pricing Honestly | Atlantic Ideas | RATIFIED-AWAITING-SUBMIT (Amendment-D weighting 06-01) | 06-04 (PM) | Submit on author cadence |
-| What the Bay Knows | The Atlantic (features) | RATIFIED-AWAITING-SUBMIT; V-D hybrid canonical 06-01 | 06-04 (PM) | Submit on author cadence |
+| Pricing Honestly | Atlantic Ideas | RATIFIED-AWAITING-SUBMIT (Amendment-D weighting 06-01); **redraft judge 06-15: PROMOTE-A-WITH-FOLDIN (PROPOSED)** | 06-15 (essay session) | Author ratify redraft-A promotion + 4 fold-ins → submit on author cadence |
+| What the Bay Knows | The Atlantic (features) | RATIFIED-AWAITING-SUBMIT; V-D hybrid canonical 06-01; **redraft judge 06-15: PROMOTE-A-WITH-FOLDIN (PROPOSED)** | 06-15 (essay session) | Author ratify redraft-A promotion + fold-ins (+ em-dash-scrub confirm) → submit |
 | Architecture and Its Residue | NYRB | RATIFIED-AWAITING-SUBMIT; cover-letter chips in flight | 06-04 (PM) | Oct 8–Nov 15 window |
-| What McDowell County Paid | Harper's | V-D hybrid canonical 06-01; author-substrate items pending | 06-04 (PM) | Q4 2026 window |
+| What McDowell County Paid | Harper's | V-D hybrid canonical 06-01; author-substrate items pending; **redraft judge 06-15: PROMOTE-A-WITH-FOLDIN (PROPOSED)** | 06-15 (essay session) | Author ratify redraft-A promotion + 6 fold-ins → Q4 2026 window |
 | Berggruen Prize 2026 | Berggruen | Placeholder; offline AI-free drafting | 06-04 (PM) | Deadline 2026-08-17 |
 
 ## Portfolio — op-eds + proposal + agents

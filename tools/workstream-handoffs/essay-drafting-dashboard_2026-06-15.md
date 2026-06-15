@@ -58,9 +58,9 @@ What actually landed on disk:
 
 | Piece | Brief | Candidates on disk | Judge | Next action |
 |---|---|---|---|---|
-| **Harper's** (Ch 2) | ✅ +addendum | A (8,015w, 0 em) + B (6,557w, 0 em) | ❌ none | **JUDGE A vs B vs current** (positioning-first) |
-| **Atlantic Ideas** (Ch 9) | ✅ +addendum | A (4,998w, 0 em) + B (4,806w, 0 em) | ❌ none | **JUDGE.** Note: canonical §A closer already fixed; spotfix spec in rigor/ for figure items |
-| **Atlantic main** (Ch 3) | ✅ +addendum | A (7,830w, **5 em**) + B (9,437w, **5 em**) | ❌ none | **Em-dash scrub BOTH candidates first** (rule violation), then JUDGE. Ruth-quote fidelity per brief |
+| **Harper's** (Ch 2) | ✅ +addendum | A (8,015w, 0 em) + B (6,557w, 0 em) | ✅ **PROMOTE-A-WITH-FOLDIN** (PROPOSED 06-15; 6 fold-ins from B) | **AUTHOR: ratify promotion of A + fold-ins.** A 7/7 positioning legible · B 5/7 (drops Desmond+Coates as named obligations) · current 0/7 +5 hard-rule violations. Coherence note: promoted Ch2 cut Harvey; essay restores it → C-5 author/chapter call (not a blocker) |
+| **Atlantic Ideas** (Ch 9) | ✅ +addendum | A (4,998w, 0 em) + B (4,806w, 0 em) | ✅ **PROMOTE-A-WITH-FOLDIN** (PROPOSED 06-15; 4 fold-ins + 1 confirm) | **AUTHOR: ratify promotion of A + fold-ins.** A>B on Coase / Ostrom-boundary-twice / Christophers-substance; B's edges (Polanyi "fiction", Pistor "not a security", chest-pressure) all foldable. Both pass hard rules + all submission-blocking figure items. Author-confirm: coercion-closer dir (a) + source pins |
+| **Atlantic main** (Ch 3) | ✅ +addendum | A (7,830w, 0 em ✅scrubbed) + B (9,437w, 0 em ✅scrubbed) | ✅ **PROMOTE-A-WITH-FOLDIN** (PROPOSED 06-15; 4–5 fold-ins) | **AUTHOR: ratify promotion of A + fold-ins.** A>B decisively on Coates legibility (item 4 — B+current both OMIT) + Ostrom backward-commons (item 7). **AUTHOR-CONFIRM:** em-dash scrub (5 quote-internal → comma) departs from brief §6 source-punct exception — keep comma OR restore source em-dashes w/ Stage-4 render note |
 | **NYRB** | ✅ +addendum | **B only** (4,508w, 0 em) — A failed at limit | ❌ none | **Re-draft variant A** from brief, then judge. §VIII anchor author-call carried in brief |
 | **Norway op-ed** | ✅ +addendum | **A only** (1,026w, 0 em) — B failed; **A is OVER the 750–900 band** | ❌ none | **Re-draft B + trim A into band**, then judge. α-reduction reframe |
 | **McDowell op-ed** | ✅ +addendum | **none** — both failed at limit | ❌ none | **Draft A + B** from brief, then judge. Pinned $496/$510/2.61 + lens-explicit IPG |
