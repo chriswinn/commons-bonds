@@ -54,7 +54,10 @@ texts, cross-checked against the 2026-06-15 landing-point audit
   the Polanyi/Fraser anchor are FULLY worked only in Ch5 (L150-166 "The same
   object, named honestly"). Polanyi/Fraser remain MISSING from Ch1, Ch3, Ch6,
   Ch7, Ch8, Ch10 and (canonically) Ch9. This is still the book's single biggest
-  positioning gap by breadth, even though Ch5 now carries the marquee fill.**
+  positioning gap by breadth, even though Ch5 now carries the marquee fill.
+  ESSAY-SIDE UPDATE 2026-06-17: the $100 Barrel essay now SEEDS the same-object
+  unification (Polanyi 1944 + Fraser named in its close); apparatus-core stays
+  reserved.**
 
 - **CONFIGURATIONAL, NOT SINGLE-MOVE, NOVELTY.** The contribution is the
   integrated configuration applied to commons-extraction, not novelty in any one
@@ -75,7 +78,10 @@ texts, cross-checked against the 2026-06-15 landing-point audit
   apparatus (17/23 matrix points LANDED per audit); Ch9 carries the
   property-rights-limits + instrument-design assembly (10-11/16 LANDED). The
   NYRB four-thinker assembly remains an ESSAY-side articulation; Susskind is
-  MISSING from canonical chapter prose.**
+  MISSING from canonical chapter prose. ESSAY-SIDE UPDATE 2026-06-17: the $100
+  Barrel essay now surfaces the bidirectional Two-Instruments concept (damage
+  done / damage to come) without naming the bonds, the formula, or the Four
+  Gates.**
 
 - **MEASUREMENT, NOT NEW DIAGNOSIS — AND CONSERVATIVE BY CONSTRUCTION.**
   Against the critical/dispossession traditions (Harvey, Mazzucato, Federici,
@@ -119,8 +125,8 @@ draft; canonical may differ (see Reconciliation notes).
 | Brett Christophers — The Price Is Wrong (2024) | add-to (ally) | **Ch9** (canonical L168); foreshadow intended Ch5 | NYRB (mechanism of quartet); Public Books | Ch9 LANDED (canonical) · Ch5 MISSING (matrix-specified foreshadow dropped in redraft; stale "184" cite) |
 | Daniel Susskind — Growth: A Reckoning (2024) | parallel | **Ch9** "What a framework does" (intended, L132 quartet) | NYRB (metric of quartet) | Ch9 MISSING (drafting-miss: quartet written with Harvey/Ostrom/Raworth/Desmond; Susskind dropped) |
 | Public Choice — Buchanan & Tullock; Mancur Olson (1965) | parallel / add-to | **Ch5** "Architecture and rent-seeking"; **Ch9** (L146 cleanly); named **Ch8** (L~126/134) | Public Books; Atlantic Ideas | Ch5 LANDED · Ch9 LANDED · Ch8 PARTIAL (handled, theory-of-change thin) · Ch7 PARTIAL (cross-ref graft L174) |
-| Karl Polanyi — The Great Transformation (1944), fictitious commodities | extend-into-a-setting | **Ch5** (L150-166 FULLY worked) | TA bibliography (gap); Atlantic Ideas provenance | **Ch5 LANDED** · Ch1 MISSING · Ch3 MISSING · Ch6 MISSING · Ch7 MISSING · Ch8 MISSING · Ch9 MISSING (canonical; LANDED in redo †) · Ch10 MISSING |
-| Nancy Fraser — expropriation of social reproduction / nature (Cannibal Capitalism) | parallel (intended anchor) | **Ch5** (L150-166 FULLY worked); SEED **Ch2** (L199 named tag) | TA bibliography (gap) | **Ch5 LANDED** · Ch2 PARTIAL (named as one-sentence tag on litigation ledger; no exposition) · Ch1/Ch3/Ch6/Ch7/Ch8/Ch10 MISSING · Ch9 MISSING canonical (LANDED in redo †) |
+| Karl Polanyi — The Great Transformation (1944), fictitious commodities | extend-into-a-setting | **Ch5** (L150-166 FULLY worked) | TA bibliography (gap); Atlantic Ideas provenance; **$100 Barrel (essay-side SEED, close, 2026-06-17)** | **Ch5 LANDED** · Ch1 MISSING · Ch3 MISSING · Ch6 MISSING · Ch7 MISSING · Ch8 MISSING · Ch9 MISSING (canonical; LANDED in redo †) · Ch10 MISSING |
+| Nancy Fraser — expropriation of social reproduction / nature (Cannibal Capitalism) | parallel (intended anchor) | **Ch5** (L150-166 FULLY worked); SEED **Ch2** (L199 named tag) | TA bibliography (gap); **$100 Barrel (essay-side SEED, close, 2026-06-17)** | **Ch5 LANDED** · Ch2 PARTIAL (named as one-sentence tag on litigation ledger; no exposition) · Ch1/Ch3/Ch6/Ch7/Ch8/Ch10 MISSING · Ch9 MISSING canonical (LANDED in redo †) |
 | Darity & Mullen — From Here to Equality (2020); stratification economics (Darity, Hamilton); Conley 1999 | add-to / extend | **Ch5** (Restitution Bond lineage, 5 hits); **Ch6** (5 hits) | TA §15.1.2/15.2.1; Public Books; Atlantic Ideas; Foreign Affairs; Noema | Ch5 LANDED · Ch6 LANDED · Ch2 MISSING (backward-debt language L175 "settling of a debt"; reparations economists unnamed) · Ch3 MISSING (runs B₁ on reef; B₁ lineage silent) · Ch8 PARTIAL (vocabulary-credit) |
 | Ta-Nehisi Coates — The Case for Reparations (2014) | extend-into-a-setting | **Ch5** | — | Ch5 LANDED · Ch3 MISSING (B₁ on reef; Coates argument-architecture unnamed) |
 | Matthew Desmond — Evicted | parallel | **Ch9** "What a framework does" (L132) | — | Ch9 LANDED |
@@ -185,8 +191,8 @@ draft; canonical may differ (see Reconciliation notes).
 - Cost Severance: seeded narratively **Ch1** (L20/L24/L70), **Ch2** (term-coining), demonstrated **Ch3** (L197/L236), **Ch4 †**; term coined Ch2/Ch5.
 - Residual Commons Value (RCV): **Ch6** (full); run **Ch4 †** (Norway/Nigeria), **Ch8** (worked ton).
 - Commons Inversion Test: **Ch6** (CIT naming).
-- Two Instruments — forward Foreclosure Bond B₂ + backward Restitution Bond B₁: **Ch4 †** (B₂ "in working form" L55); **Ch3** (B₁ RUN on the reef, L220-246).
-- Structural commons identity: seeded **Ch1/Ch2/Ch3**; DEFINITION + Polanyi/Fraser anchor **Ch5** (L150-166).
+- Two Instruments — forward Foreclosure Bond B₂ + backward Restitution Bond B₁: **Ch4 †** (B₂ "in working form" L55); **Ch3** (B₁ RUN on the reef, L220-246); **$100 Barrel** (both directions surfaced as concept in the close, 2026-06-17 — instruments unnamed).
+- Structural commons identity: seeded **Ch1/Ch2/Ch3**; DEFINITION + Polanyi/Fraser anchor **Ch5** (L150-166); SEED **$100 Barrel** (Polanyi/Fraser close, 2026-06-17).
 - Title polysemy (accountability/relational/structural bonds): **Ch10**.
 
 **C — Objections-to-survive** (see objection table for full status). Financialization GAP now PARTIALLY closed: Ch5 rebuts (L164); Ch9 engages the terrain; **Ch10 still MISSING.**
@@ -227,7 +233,7 @@ draft; canonical may differ (see Reconciliation notes).
 **I — Audience-landing** — center-right/non-partisan + reparations scholar dispositive; AEI/Cato/Mercatus/GMU named; explicit-meta Condition-1 disarming recommended.
 
 **J — Citations / evidence + gaps**
-- GAP CLOSED IN Ch5: Polanyi + Fraser now worked (L150-166). Still ABSENT from Ch1/Ch3/Ch6/Ch7/Ch8/Ch10 and canonical Ch9.
+- GAP CLOSED IN Ch5: Polanyi + Fraser now worked (L150-166); essay-side SEED in **$100 Barrel** (close, 2026-06-17). Still ABSENT from Ch1/Ch3/Ch6/Ch7/Ch8/Ch10 and canonical Ch9.
 - GAP: Polanyi/Fraser not yet in TA v2.0.0 bibliography.
 - GAP: financialization objection — closed in Ch5/Ch9; **still MISSING Ch10**.
 - Pistor essay-side + Ch5/Ch9; absent from TA bibliography.
@@ -283,5 +289,8 @@ Phenomenal World rejection; author-ratified "Version 2" close). It now, on the
 
 This is a SEED, not the full Ch5 working — consistent with the seed-vs-full
 distinction the matrix already draws. Cumulative reveal stays well under the
-q1 50% thunder-stealing threshold. Cell-level fold-in deferred (low priority;
-does not change any verdict). Provenance: `publishing/essays/100-barrel/rigor/stage-0-venue-angle-reconfirm-american-prospect_2026-06-17.md` §7.
+q1 50% thunder-stealing threshold. **Cell-level fold-in APPLIED 2026-06-17
+(author ratified):** Polanyi row + Fraser row (essays/TA column), META-CLAIM 1
++ META-CLAIM 2 status lines, and Landing-points B (Two Instruments + structural
+commons identity) + J (citations) all updated to record the $100 Barrel
+essay-side seed. Provenance: `publishing/essays/100-barrel/rigor/stage-0-venue-angle-reconfirm-american-prospect_2026-06-17.md` §7.
