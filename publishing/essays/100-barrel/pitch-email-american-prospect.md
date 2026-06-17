@@ -33,3 +33,29 @@ The full essay is finished and I'd be glad to send it along; it's ready whenever
 Best regards,
 Chris Winn
 [contact details]
+
+---
+
+## Submittable form fields (American Prospect) — added 2026-06-17
+
+The fields below are the form-native versions of the pitch above. Paste each into the matching field; upload the rendered essay.
+
+### Article Summary (paste into "Article Summary"; limit 500 words)
+
+"The $100 Barrel" argues that economics systematically fails to price one specific thing: the worth of a finite resource's permanent absence to everyone who comes after it is gone. When a barrel of oil sells for a hundred dollars, that price is struck by and for the present. It cannot capture what the barrel's permanent foreclosure costs the people that worth is owed to, because they are not at the table and most are not yet born. The essay names that unpriced remainder the residual commons value and makes a structural claim about it: it sits entirely outside the discount-rate debate that has occupied climate economics for twenty years. Stern, Nordhaus, and Weitzman all price the damage flow from combustion, discounted to the present; none prices the resource's absence as such, and that absence survives even Stern's low rate, because it is not a future flow but a present fact.
+
+The contribution is the magnitude, not the mechanism. The diagnosis that extraction is unjust is a century old, and the essay walks the lineage that built it (Marx on the surplus, Ostrom on the renewable commons, Daly on throughput, Hartwick on reinvested rents) to show that each circled this gap without pricing it. It grounds the practical half in two oil economies that ran the same physical extraction through opposite institutional architectures: Norway, whose sovereign fund (now over two trillion dollars, more than $390,000 per citizen) converts a finite thing into something that outlasts it and has been defended across every government for a generation; and the Niger Delta, where the same act severed its costs onto people who could not bill anyone for them. The difference was not geology but a choice about who absorbs the remainder, and that choice was institutional, which means it was available to both.
+
+The piece is a political-economy story about who bears a cost and who escapes the bill. It is timely: this year's oil shock briefly sent crude past a hundred dollars before it eased back, and the windfall flowed once more to whoever owns the spigot, the question behind recent reporting on Guyana's resource fund. Meanwhile the energy transition has opened a new extraction frontier in lithium, cobalt, rare earths, and deep-sea mining, financed on the same accounting that left the oil column blank.
+
+It closes on the structure the argument rests on: the foreclosed barrel, the poisoned delta, the dispossessed community, and the unborn generation are one thing, not four, a shared inheritance the market treats as a commodity it was never made to be. That is what Polanyi, and Fraser after him, diagnosed but never priced. Two numbers are missing, not one: the cost of the damage already done, and the cost of the damage still to come. The first honest thing is to stop writing zero.
+
+### Relevant Experience (paste into "Relevant Experience")
+
+I am a nursing student at Virginia Peninsula Community College and a former healthcare-IT executive whose career spanned the National Institutes of Health during the Human Genome Project, federal research and consulting, and the CEO seat of a healthcare-IT firm. My forthcoming book, *Commons Bonds*, develops a formal framework for pricing the intergenerational costs that resource extraction severs from the populations that bear them: the framework this essay applies to oil. I live aboard a sailboat in Hampton, Virginia.
+
+*Disclosure (optional but recommended — keep, consistent with the PW submission and the essay's own honest-accounting argument):* The book this essay derives from was developed in collaboration with Claude (Anthropic) as a research and rigor-testing partner, across the framework's mathematical formalization, cross-scenario stress testing, and structural editing. The originating intuitions, the case selection, the framework's vocabulary, and the argumentative posture are mine; the collaboration is documented in a public Author's Note and Open Insights Log preserved alongside the manuscript.
+
+### Upload (PDF or DOCX)
+
+Render `essay.md` ("The $100 Barrel," ~4,660w, em-dash-free) to PDF/DOCX via the docker render pipeline (author, offline). The essay is final: Version-2 close applied + merged to main. Upload the essay only; the disclosure lives in the Relevant Experience field, not the manuscript.
