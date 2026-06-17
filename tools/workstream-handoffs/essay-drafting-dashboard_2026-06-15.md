@@ -66,7 +66,7 @@ What actually landed on disk:
 | **McDowell op-ed** | ✅ +addendum | **none** — both failed at limit | ❌ none | **Draft A + B** from brief, then judge. Pinned $496/$510/2.61 + lens-explicit IPG |
 | **Noema** (Ch 1/book-wide) | ✅ 06-11 (path-c) | **none** — drafts never fired | ❌ none | **Draft A + B** from brief, then judge. Historical-drift anchors (Pou/Pooh, hunting, cussing-at-self) MUST survive |
 | **Public Books** (Ch 5) | — (spotfix spec) | n/a (fix-apply, not redraft) | n/a | **Apply the fix bundle** F1–F7 + P1/P2 + draft the (nonexistent) PB cover letter + research venue norms. No external deadline — do it right |
-| **Foreign Affairs** (Ch 4) | spotfix applied | n/a | n/a | **GATED:** full redraft fires when Ch 4 promotes (fork option c). Canonical already has false-claim fixes. Window Nov–Feb, no rush |
+| **Foreign Affairs** (Ch 4) | spotfix applied; **whole-cloth redraft brief OWED** (gap list ready) | n/a | **WHOLE-CLOTH CONFIRMED 06-16** (vs promoted Ch4 + v2 matrix; diagnostic in rigor/) | Ch 4 now PROMOTED → redraft UNBLOCKED. Essay spine = retired rent-capture framing; §III re-derive. **Sequence:** amend brief from gap list → Ch4 final redline (F-A6) → fire Stage-2. HOLD: gated on matrix-amended brief; window Nov–Feb |
 | **Aeon** (pitch) | — | n/a | n/a | **SUBMIT-AS-IS** — portal-gated only. Courtesy email ready at `courtesy-email-READY_2026-06-11.md`. No drafting work |
 
 ---
