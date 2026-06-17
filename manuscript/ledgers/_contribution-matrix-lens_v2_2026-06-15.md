@@ -1,6 +1,6 @@
 # Commons Bonds — Contribution-Matrix Lens (v2)
 
-**Status: PROPOSED pending author ratification.**
+**Status: RATIFIED 2026-06-17** (author ratification). This v2 lens is now the authoritative contribution-matrix reference, superseding the 2026-06-04 lens. The three "Reconciliation notes (author action)" at the end remain OPEN — ratifying the lens does not auto-resolve them. One post-build delta logged: see "Ratification addendum (2026-06-17)" at the foot of this file.
 **Supersedes `_contribution-matrix-lens_2026-06-04.md`** (which carried a STALE
 chapter numbering predating the current 10-chapter structure — it assigned
 landing points only to Ch1/5/6/9/10 and gave Ch2/3/4/7/8 zero points).
@@ -257,3 +257,31 @@ draft; canonical may differ (see Reconciliation notes).
 1. **Ch4 claim set audited `research/story-drafts/ch4-redo-A_2026-06-10.md` (unpromoted).** The CANONICAL `Chapter__4_TheExistenceProof.md` differs: it runs the Norway/Nigeria differentiation (31 Norway hits) and does NOT name Hartwick (grep=0) or run the Alaska/Mondragon/Vienna/Chattanooga four-cases set or the named Norway-transferability four-sub-conditions rebuttal. Rows marked † reflect the redo draft. **Reconcile before treating Ch4's Hartwick / four-cases / transferability-rebuttal as canonically LANDED.**
 2. **Ch9 claim set + audit referenced `research/story-drafts/ch9-redo-A_2026-06-10.md` (unpromoted).** The CANONICAL `Chapter__9_PricingHonestly.md` has NO Polanyi/Fraser (grep=0) and NO Susskind, but DOES engage Pistor (L166) + Christophers (L168) + extensive financialization material. So: the canonical Ch9 already carries the financialization-terrain engagement, but the Polanyi/Fraser anchor the redo added is NOT in canonical Ch9. **Decide whether to promote the redo's Polanyi/Fraser paragraph into canonical Ch9.**
 3. The matrix-Ch10 ESG/reformist-capture point now appears near-verbatim in **Ch7** (L168/172) — a double-homed/migrated point. **Reconcile ownership** (the Europa non-denominable limit drifted the same way).
+
+---
+
+## Ratification addendum (2026-06-17)
+
+**Author ratified the v2 lens 2026-06-17.** Status flipped PROPOSED → RATIFIED.
+
+**One post-build delta to fold in (logged, not yet applied at cell level):** the
+$100 Barrel essay was revised 2026-06-17 (American Prospect cascade after the
+Phenomenal World rejection; author-ratified "Version 2" close). It now, on the
+**essay side**:
+
+- **SEEDS META-CLAIM 1** (structural-commons / fictitious-commodity): names
+  Polanyi (*The Great Transformation*, 1944, fictitious commodities) + Fraser
+  (widening to nature / social reproduction / futures) and the same-object
+  unification (foreclosed barrel = poisoned delta = dispossessed community =
+  unborn generation). Affected rows where `$100 Barrel` should be added on the
+  essays/TA side: Polanyi, Fraser; META-CLAIM 1 status line; Landing-point B
+  (structural commons identity) + J (citations).
+- **Surfaces the bidirectional Two-Instruments concept** (damage already done /
+  damage still to come) WITHOUT naming the bonds, the formula, the Four Gates,
+  or any canonical figure — apparatus-core stays reserved. Touches META-CLAIM 2
+  + Landing-point B (Two Instruments) on the essay side.
+
+This is a SEED, not the full Ch5 working — consistent with the seed-vs-full
+distinction the matrix already draws. Cumulative reveal stays well under the
+q1 50% thunder-stealing threshold. Cell-level fold-in deferred (low priority;
+does not change any verdict). Provenance: `publishing/essays/100-barrel/rigor/stage-0-venue-angle-reconfirm-american-prospect_2026-06-17.md` §7.
