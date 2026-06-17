@@ -16,7 +16,7 @@ polish (redraft campaign) → agent-query Wave 1 fires ~Jun 24 – Jul 1 (cascad
 
 | Unit | Venue | State | Verified | Next action |
 |---|---|---|---|---|
-| $100 Barrel | ~~Phenomenal World~~ → cascade TBD | **REJECTED 2026-06-17** (Glickman, managing editor — form decline, no feedback); SUBMITTED 06-03 | 06-17 | **Author venue decision:** American Prospect (alt) → RWER (tertiary) per cascade-plan v2 |
+| $100 Barrel | ~~Phenomenal World~~ → **American Prospect** (author choice 06-17) | REJECTED-PW 06-17 (form decline, no feedback) → re-targeting; **AP pitch PROPOSED 06-17** | 06-17 | Author ratify AP pitch → submit via Submittable (RWER tertiary fallback) |
 | Accountability Gap | ~~Boston Review~~ → Public Books | REJECTED 2026-06-03 → **cascading to Public Books**; cover letter in flight | 06-04 (PM) | Ratify PB cover letter → submit |
 | Existence Proof | Foreign Affairs | **RATIFIED READY-TO-SUBMIT**; cover letter DRAFTED 05-27 | 06-04 (PM) | **Ratify cover letter → submit (critical path)** |
 | Commons Bonds | Noema | RATIFIED-AWAITING-SUBMIT (05-24) — **AMBIGUOUS, PM verify:** V-D-prime cascade PROPOSED 06-01/02 not visibly closed | 06-04 (PM) | Author decides: submit ratified version vs close cascade |
