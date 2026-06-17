@@ -1,9 +1,9 @@
 # *$100 Barrel* — submission package
 
 **Slug:** `100-barrel`
-**Venue:** Phenomenal World (target; per cross-thread-todos #4 resolution)
-**State:** RATIFIED-AWAITING-SUBMIT (Stage 5 sign-off RATIFIED 2026-05-24)
-**Last updated:** 2026-05-25
+**Venue:** ~~Phenomenal World~~ → cascade pending (American Prospect alt → RWER tertiary per cascade-plan v2)
+**State:** REJECTED 2026-06-17 (Phenomenal World — Willa Glickman, managing editor; form decline, no feedback). SUBMITTED 2026-06-03 via emailed pitch (new-pipeline Stage 5 sign-off `rigor/stage-5-signoff-new-pipeline_2026-06-03.md`). Awaiting author cascade-venue decision; package preserved for re-target.
+**Last updated:** 2026-06-17
 
 ## Essay status
 
