@@ -16,7 +16,7 @@ polish (redraft campaign) → agent-query Wave 1 fires ~Jun 24 – Jul 1 (cascad
 
 | Unit | Venue | State | Verified | Next action |
 |---|---|---|---|---|
-| $100 Barrel | ~~Phenomenal World~~ → **American Prospect** (author choice 06-17) | REJECTED-PW 06-17 → re-targeting; **V2 Polanyi/Fraser close APPLIED 06-17** (author-ratified; cascade clean); AP pitch + Stage-0 PROPOSED (CLASH-BUT-SUBMITTABLE → submit) | 06-17 | Author ratify pitch + Stage-0 → submit via Submittable (RWER tertiary, also left) |
+| $100 Barrel | **American Prospect** | **SUBMITTED 2026-06-17** (via Submittable; "Success" confirmation) | 06-17 | Await decision (~3–6 wk; AP may not reply if declined). Cascade after PW reject 06-17. RWER tertiary (also left) |
 | Accountability Gap | ~~Boston Review~~ → Public Books | REJECTED 2026-06-03 → **cascading to Public Books**; cover letter in flight | 06-04 (PM) | Ratify PB cover letter → submit |
 | Existence Proof | Foreign Affairs | **Ch 4 PROMOTED 2026-06-16** (redo-A, PROMOTE-A-WITH-FOLDIN, mandatory fixes applied; flatness + best-of-B fold-ins deferred to author redline). Canonical FA essay already carries false-claim fixes (06-11). **Full redraft now UNBLOCKED** (fork option c) — fires from a matrix-amended brief. | 06-16 | Amend FA brief from matrix gap list → redraft (window Nov-Feb) |
 | Commons Bonds | Noema | RATIFIED-AWAITING-SUBMIT (05-24) — **AMBIGUOUS, PM verify:** V-D-prime cascade PROPOSED 06-01/02 not visibly closed | 06-04 (PM) | Author decides: submit ratified version vs close cascade |

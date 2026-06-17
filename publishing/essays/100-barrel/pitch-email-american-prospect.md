@@ -1,7 +1,7 @@
 ---
 artifact: $100 Barrel — The American Prospect pitch (Submittable editorial-submissions form; cascade target after Phenomenal World rejection 2026-06-17)
 date: 2026-06-17
-status: PROPOSED — author ratifies + submits; submission is author-controlled
+status: SUBMITTED 2026-06-17 via Submittable ("Success" confirmation); awaiting AP decision
 submit-via: The American Prospect "Editorial Submissions" form on Submittable (https://theamericanprospect.submittable.com/submit). NOT an emailed proposal — AP routes pitches through Submittable.
 essay: essay.md (~4,600w body, complete; the close now carries the Polanyi/Fraser structural-commons seed + bidirectional accounting — Version 2, author-ratified 2026-06-17 — beyond the PW-submitted draft)
 exclusivity: AP does NOT consider simultaneous submissions. PW has DECLINED (2026-06-17), so the essay is clear; confirm it is not under live consideration anywhere else before submitting.
