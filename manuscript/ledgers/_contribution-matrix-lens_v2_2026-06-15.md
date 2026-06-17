@@ -1,6 +1,6 @@
 # Commons Bonds — Contribution-Matrix Lens (v2)
 
-**Status: RATIFIED 2026-06-17** (author ratification). This v2 lens is now the authoritative contribution-matrix reference, superseding the 2026-06-04 lens. The three "Reconciliation notes (author action)" at the end remain OPEN — ratifying the lens does not auto-resolve them. One post-build delta logged: see "Ratification addendum (2026-06-17)" at the foot of this file.
+**Status: RATIFIED 2026-06-17** (author ratification). This v2 lens is now the authoritative contribution-matrix reference, superseding the 2026-06-04 lens. The three "Reconciliation notes (author action)" at the end remain OPEN — ratifying the lens does not auto-resolve them. **Ch4 reconciliation applied 2026-06-16** (Reconciliation note #1 RESOLVED against promoted-canonical Ch4; notes #2 + #3 remain OPEN). One post-build delta logged: see "Ratification addendum (2026-06-17)" at the foot of this file; see "Ch4 reconciliation APPLIED 2026-06-16" addendum for the Ch4 cell updates.
 **Supersedes `_contribution-matrix-lens_2026-06-04.md`** (which carried a STALE
 chapter numbering predating the current 10-chapter structure — it assigned
 landing points only to Ch1/5/6/9/10 and gave Ch2/3/4/7/8 zero points).
@@ -27,10 +27,16 @@ texts, cross-checked against the 2026-06-15 landing-point audit
    Norway is now load-bearing in Ch4 (the dedicated Norway chapter).
 4. **Two reconciliation flags** (see §Reconciliation notes below): the Ch4 and
    Ch9 claim sets audited *unpromoted redo drafts* (`ch4-redo-A_2026-06-10.md`,
-   `ch9-redo-A_2026-06-10.md`); the CANONICAL promoted Ch4/Ch9 differ on
-   several rows (canonical Ch4 does NOT name Hartwick and runs Norway/Nigeria
-   rather than the four-cases set; canonical Ch9 has NO Polanyi/Fraser but DOES
-   engage Pistor/Christophers/financialization). v2 records BOTH where they
+   `ch9-redo-A_2026-06-10.md`). **Ch4 flag RESOLVED 2026-06-16 against the
+   promoted-canonical chapter (`Chapter__4_TheExistenceProof.md`, PROMOTED
+   2026-06-16): the promoted Ch4 DOES name + extend Hartwick (L61) AND DOES run
+   the Alaska/Chattanooga/Mondragón/Vienna four-cases transferability set
+   (L103-111) AND ALSO runs the Norway/Nigeria differentiation (Nigeria L83-97);
+   the build-time assumption that canonical Ch4 ran Norway/Nigeria *instead of*
+   the four cases was incorrect — the promoted chapter carries both. Ch4 † rows
+   updated to canonical truth; see Reconciliation note #1 + the Ch4 reconciliation
+   addendum.** The Ch9 flag remains OPEN: canonical Ch9 has NO Polanyi/Fraser but
+   DOES engage Pistor/Christophers/financialization. v2 records BOTH where they
    diverge and flags the row for author reconciliation.
 
 ---
@@ -111,13 +117,13 @@ draft; canonical may differ (see Reconciliation notes).
 | A.C. Pigou — externality theory (1920) | extend-into-a-setting-they-could-not-reach | **Ch2** (named L139, externality-insufficiency); Ch6 "The Contribution" | TA §14 Theorem P2, §15.1.4 | Ch2 PARTIAL (named; extend-relation routed to TA/Ch6) · Ch6 LANDED · Ch8 MISSING (worked-ton chapter, Pigou never named) |
 | Ronald Coase — Problem of Social Cost (1960) / Theorem P1 | extend-into-a-setting-they-could-not-reach | **Ch9** (property-rights-and-limits); seeded narratively **Ch1** (L104 concession), **Ch2** (L69 "cannot raise a hand at the auction") | TA Theorem P1, §15.1.2; Atlantic Ideas opener | Ch9 LANDED · Ch1 PARTIAL (concession-half by design; rebuttal routed to Ch9) · Ch2 PARTIAL (P1 intuition shown, Coase unnamed) |
 | Harold Hotelling — Exhaustible Resources (1931) / Hotelling Identity | add-to / extend | **Ch6** (line ~331 bridge) | TA §4, §14.1; $100 Barrel "lineage of near-misses" | Ch6 LANDED · Ch8 MISSING (signature bridge absent from worked-ton chapter) |
-| John Hartwick — Hartwick's Rule (1977) | extend-into-a-setting / generalize | **Ch4 †** (redo L61 "Hartwick's rule made real... goes a step past"); **Ch6** (3 hits); Ch5 (1 hit) | TA §14.2, §5 B₂ lineage; $100 Barrel; Foreign Affairs §III | Ch4 LANDED-IN-REDO † / canonical Ch4 MISSING (Hartwick grep=0) — RECONCILE · Ch6 LANDED · Ch5 PARTIAL |
+| John Hartwick — Hartwick's Rule (1977) | extend-into-a-setting / generalize | **Ch4** (canonical L61 "Hartwick's rule made real at the scale of a nation... It also goes a step past the rule"; the reserve-keeps-substitution-open extension is the named go-past); **Ch6** (3 hits); Ch5 (1 hit) | TA §14.2, §5 B₂ lineage; $100 Barrel; Foreign Affairs §III | Ch4 LANDED (canonical L61 — Hartwick NAMED with *AER* 67, 1977 cite + extended; build-time "grep=0/MISSING" was against the unpromoted redo and is now FALSE) · Ch6 LANDED · Ch5 PARTIAL |
 | Herman Daly — ecological economics / strong sustainability | add-to / operationalize-quantitatively | Ch6 | TA §14.6; $100 Barrel; Atlantic Ideas | Ch6 LANDED · Ch8 MISSING (Daly "warning vs invoice" absent from worked-ton) |
-| Elinor Ostrom — Governing the Commons (1990) | parallel / extend-into-a-setting | **Ch6** "Two Kinds of Commons" (L198-200); renewable/non-renewable boundary SHOWN narratively in **Ch2** (L211), **Ch3** (L51-70), **Ch4** (L69 scope-note) | TA §14.5; $100 Barrel; Atlantic Ideas | Ch6 LANDED · Ch2 PARTIAL (boundary shown, Ostrom unnamed) · Ch3 PARTIAL (richest lived rendering, Ostrom unnamed) · Ch4 PARTIAL (scope-note, unnamed) |
+| Elinor Ostrom — Governing the Commons (1990) | parallel / extend-into-a-setting | **Ch6** "Two Kinds of Commons" (L198-200); renewable/non-renewable boundary SHOWN narratively in **Ch2** (L211), **Ch3** (L51-70), **Ch4** (canonical L69 scope-note) | TA §14.5; $100 Barrel; Atlantic Ideas | Ch6 LANDED · Ch2 PARTIAL (boundary shown, Ostrom unnamed) · Ch3 PARTIAL (richest lived rendering, Ostrom unnamed) · Ch4 PARTIAL (canonical L69 scope-note runs the non-renewable/renewable boundary incl. the oyster; Ostrom unnamed, grep=0) |
 | Garrett Hardin — Tragedy of the Commons | contradict | **Ch6** (L~279) | — | Ch6 LANDED · Ch3 MISSING (Fox Hill self-governance is the anti-Hardin material; never named/framed) |
 | Nordhaus (DICE) vs Stern; Ramsey 1928 | contradict-within-scope / adjudicate / parallel | **Ch6** "Substitutability Function"; **Ch10** (L76) | TA §14.3, §15.1.7; $100 Barrel | Ch6 LANDED · Ch10 PARTIAL (named as impasse; adjudicate/adopt relation dropped) |
 | Martin Weitzman — Gamma Discounting (2001); fat-tail (2009) | add-to / adopt-directly | **Ch6** (RCV formula); **Ch10** (L76) | TA §3, §14.3, §15 limit 6 | Ch6 LANDED · Ch10 PARTIAL (adopt-directly relation dropped) · Ch7 PARTIAL (substance present, Weitzman unnamed) · Ch8 MISSING |
-| Dixit & Pindyck (1994); Arrow-Fisher 1974; Henry 1974 — real options / irreversibility | add-to / extend | **Ch6** (Approach 2 + Method 3) | TA §15.1.2-3 | Ch6 LANDED · Ch4 PARTIAL † (IOV/irreversibility limit named, lineage unnamed) · Ch8 MISSING |
+| Dixit & Pindyck (1994); Arrow-Fisher 1974; Henry 1974 — real options / irreversibility | add-to / extend | **Ch6** (Approach 2 + Method 3) | TA §15.1.2-3 | Ch6 LANDED · Ch4 PARTIAL (canonical: irreversibility-reduction move run at L59 "lowers the effective irreversibility... buys back optionality"; IOV named as fourth gap L139; Dixit/Pindyck/Arrow-Fisher/Henry lineage unnamed, grep=0) · Ch8 MISSING |
 | Savage 1951 (minimax-regret); Loomes & Sugden; Knight 1921; Rio 15 | extend / specialize | **Ch6** (ARR naming, L359-361); applied **Ch9** (Step 2 + CCZ) | TA §15.1.7-9 | Ch6 PARTIAL (present as deferred-to-Ch9 clause) · Ch9 LANDED · Ch7 PARTIAL (ARR applied, Savage unnamed) |
 | David Lewis — Counterfactuals (1973) / Commons Inversion Test | extend / specialize | **Ch6** (CIT naming, L~303) | TA §15.1.1, 15.1.8-9 | Ch6 LANDED |
 | Costanza et al.; revealed-preference (Samuelson/Hicks/Bockstael-McConnell); Campbell & Fiske 1959 | add-to / use-as-estimation-input | **Ch6** (Three Ways) | TA §3, §15.1.1, 15.1.3 | Ch6 LANDED · Ch8 MISSING (Method 1/Method 3 gestured at L36, Costanza/Dixit-Pindyck unnamed) |
@@ -135,12 +141,12 @@ draft; canonical may differ (see Reconciliation notes).
 | David Harvey — accumulation by dispossession (2003) | add-to / parallel | **Ch9** (magnitude relation, L132 area); brief-specified one-clause nod intended **Ch2** | TA §14.7, 15.2.1; Atlantic Ideas; Harper's; NYRB | Ch9 PARTIAL (secondary "changed-the-conceivable" relation only; magnitude/number relation dropped) · Ch2 MISSING (brief L193 said keep "echoes accumulation-by-dispossession"; assembly cut Harvey) · Ch3 MISSING (number-on-diagnosis work done L240, Harvey unnamed) · Ch8 MISSING |
 | Mariana Mazzucato — The Value of Everything (2018) | add-to / specialize | **Ch2** (value-extraction term-coining, L141 — STRONGER landing than stale matrix recorded); **Ch6** (RCV-naming, L~325) | Noema §VI; NYRB; terms_index | Ch2 LANDED (add-to relation shown) · Ch6 PARTIAL (flattened to etymology; specialize relation not worked) · Ch3 MISSING (value-created-vs-captured arithmetic L234, Mazzucato unnamed) · Ch8 MISSING |
 | Katharina Pistor — The Code of Capital (2019) | extend-into-a-setting | **Ch5** (engaged at depth); **Ch9** (L166 names legal-architectural reason) | Public Books; NYRB; Foreign Affairs §IV; Harper's | Ch5 LANDED · Ch9 LANDED (canonical) · Ch3 MISSING (legal-modules diagnosis terrain, unnamed) · Ch8 MISSING |
-| Adam Smith — The Wealth of Nations | parallel / extend-into-a-setting | **Ch9** (completion-of-the-market); non-partisan disarm SHOWN **Ch4 †** (L119/L121, Smith unnamed) | Atlantic Ideas close | Ch9 LANDED · Ch4 PARTIAL † (disarm shown, Smith unnamed) |
+| Adam Smith — The Wealth of Nations | parallel / extend-into-a-setting | **Ch9** (completion-of-the-market); non-partisan disarm SHOWN **Ch4** (canonical L119 "the framework does not legislate"; reinforced L121 "an honest reprinting" of a bill that already arrives; Smith unnamed) | Atlantic Ideas close | Ch9 LANDED · Ch4 PARTIAL (canonical L119 disarm runs; Smith unnamed, grep=0) |
 | Marx — Capital Vol. 1 (surplus value) | contradict / parallel | (essay-primary) | $100 Barrel "lineage of near-misses"; Cost Severance Phase 2 | essay-side LANDED · chapters: not a named chapter assignment (Atlantic Ideas substitutes Polanyi for Marx) |
 | Federici (2004); Patel & Moore (2017); Hickel (degrowth) | parallel / lineage-cohort | (TA-primary; cohort present, Fraser-synthesis absent) | TA Kindred-commons lineage; §15.2.1 | TA PARTIAL (cohort present, synthesizing theorist Fraser missing) |
 | Decolonial / settler-colonial — Coulthard 2014, Tuck & Yang 2012, Wolfe 1999, Whyte; Kimmerer, Simpson, Deloria, Dunbar-Ortiz | parallel / explicitly out-of-reach | **Ch10** (Black Hills, L98-112; reading-list L108) | TA §15.1.6, 15.2.1 | Ch10 LANDED (flattening objection conceded honestly, not resolved) |
-| Norway GPFG (existence proof); Alaska dividend; Mondragon; Vienna housing; Chattanooga | parallel / demonstrate-affordance | **Ch4 (LOAD-BEARING Norway chapter)** — canonical runs Norway/Nigeria differentiation (31 Norway hits); redo † ran four-cases set (Alaska/Mondragon/Vienna/Chattanooga). First STAGED in **Ch3** close (L276). Reprised **Ch6** (backtest, 7 hits), **Ch9** (7 hits), **Ch5** (3) | Foreign Affairs §§I-VI; Norway op-ed; Public Books; Atlantic Ideas; Noema §VI; $100 Barrel | Ch4 LANDED · Ch3 PARTIAL (staged as existence proof + handoff; Hartwick/GPFG lineage stripped) · Ch6 LANDED (backtest) · Ch9 LANDED (floor-figure) · Reconcile canonical-vs-redo case set (four-cases NOT in canonical Ch4) |
-| Mian & Sufi (House of Debt); Hacker (Great Risk Shift); Gawande/Butler | add-to | **Ch5** (Healthcare Commons + 2008 scope-choice); **Ch9** (L124-130 Sweden counter-history); meta-claim via Social Security **Ch4 †** | Atlantic Ideas; Public Books; Foreign Affairs §V | Ch5 LANDED · Ch9 PARTIAL (full case deferred to Ch5; routing) · Ch4 PARTIAL † (Social Security lands the meta-claim; Mian/Sufi/Hacker/Gawande/Butler unnamed) |
+| Norway GPFG (existence proof); Alaska dividend; Mondragon; Vienna housing; Chattanooga | parallel / demonstrate-affordance | **Ch4 (LOAD-BEARING Norway chapter)** — canonical runs BOTH the Norway/Nigeria differentiation (Nigeria L83-97, 41 Norway hits) AND the Alaska/Chattanooga/Mondragón/Vienna four-cases transferability set (L103-111). The existence proof itself is the IRREVERSIBILITY-REDUCTION / optionality move (L59 "lowers the effective irreversibility... posts the bond, and it buys back optionality"), NOT the rent-capture share; the 70-80% fiscal-capture figure survives as the bond's *size* (L35/L55) but is explicitly NOT the achievement (L59 "subtler than capturing money... the heart of the existence proof"). First STAGED in **Ch3** close (L276). Reprised **Ch6** (backtest, 7 hits), **Ch9** (7 hits), **Ch5** (3) | Foreign Affairs §§I-VI; Norway op-ed; Public Books; Atlantic Ideas; Noema §VI; $100 Barrel | Ch4 LANDED (canonical existence-proof = alpha/irreversibility-reduction L59; four-cases set L103-111 IS canonical; Norway/Nigeria differentiation L83-97 IS canonical — both run in the promoted chapter) · Ch3 PARTIAL (staged as existence proof + handoff; Hartwick/GPFG lineage stripped) · Ch6 LANDED (backtest) · Ch9 LANDED (floor-figure) · RECONCILED 2026-06-16: the build-time "four-cases NOT in canonical Ch4" assumption was FALSE — promoted Ch4 carries the four cases AND Norway/Nigeria |
+| Mian & Sufi (House of Debt); Hacker (Great Risk Shift); Gawande/Butler | add-to | **Ch5** (Healthcare Commons + 2008 scope-choice); **Ch9** (L124-130 Sweden counter-history); meta-claim via Social Security **Ch4** (canonical L115-117, with Bismarck 1889 named as the funded-architecture counterfactual) | Atlantic Ideas; Public Books; Foreign Affairs §V | Ch5 LANDED · Ch9 PARTIAL (full case deferred to Ch5; routing) · Ch4 PARTIAL (canonical L115-117 Social Security lands the architecture-is-a-choice meta-claim; Mian/Sufi/Hacker/Gawande/Butler unnamed, grep=0) |
 | Albert Camus — Le Mythe de Sisyphe (1942) | parallel | **Ch10** close (L162-166) | — | Ch10 LANDED |
 | Eller; Hamby; Catte; Keefe (Empire of Pain) | add-to (regional/journalistic lineage) | (Harper's-primary; regional record under McDowell chapters Ch2) | Harper's "The Miner" lineage | essay-side LANDED |
 | John Rawls — A Theory of Justice + Just Savings | extend / operationalize | (TA + essay-primary) | TA §14.4, §15.1.6; $100 Barrel | TA/essay LANDED |
@@ -166,14 +172,14 @@ draft; canonical may differ (see Reconciliation notes).
 | ESG / reformist-capture | Marxist / radical-left ally | **Ch10** "the objection I find most serious" (L116-126); near-verbatim DRIFT into **Ch7** (L168/172) | Ch10 LANDED · Ch7 DRIFT-FLAG (matrix-Ch10 point double-homed/migrated without reconciliation) |
 | The numbers are invented (naming is not pricing) | empirical economist | **Ch6** Three Ways worked estimates; worked figures **Ch2/Ch3/Ch8** | Ch6 LANDED · Ch2/Ch3/Ch8 LANDED (each ties claim to a computed figure) |
 | Simon-Ehrlich substitution-optimism | free-market / resource-optimist economist | substance in **Ch6** substitutability function; named-wager intended **Ch6 or Ch7** | Ch6 PARTIAL (substance lands; named wager absent) · Ch7 PARTIAL (substitutability/discount dials run hardest here; Simon-Ehrlich unnamed) |
-| **Financialization / legal-coding (bonds extend the Code-of-Capital / fictitious-commodity logic)** | **Polanyi, Pistor, Christophers as OBJECTORS** | rebuttal intended **TA §15 + Ch9/Ch10**; rebutted **Ch5** (L164); **Ch9 canonical** plants the rebuttal-adjacent material (Pistor L166, Christophers L168) + Ch6 forwards to Ch9 (L222) | **Ch5 LANDED (rebutted L164)** · Ch9 PARTIAL-to-LANDED (canonical engages Pistor/Christophers as the financialization terrain; redo † added explicit L124 rebuttal) · **Ch10 MISSING** · Ch6 N/A (forwards to Ch9) · Ch1/Ch2/Ch3/Ch4/Ch7/Ch8 MISSING (out-of-reach where no bond apparatus; flagged downstream exposures) |
+| **Financialization / legal-coding (bonds extend the Code-of-Capital / fictitious-commodity logic)** | **Polanyi, Pistor, Christophers as OBJECTORS** | rebuttal intended **TA §15 + Ch9/Ch10**; rebutted **Ch5** (L164); **Ch9 canonical** plants the rebuttal-adjacent material (Pistor L166, Christophers L168) + Ch6 forwards to Ch9 (L222) | **Ch5 LANDED (rebutted L164)** · Ch9 PARTIAL-to-LANDED (canonical engages Pistor/Christophers as the financialization terrain; redo † added explicit L124 rebuttal) · **Ch10 MISSING** · Ch6 N/A (forwards to Ch9) · Ch4 MISSING (canonical Ch4 builds the bond apparatus [accountability bond L55] but does NOT rebut the financialization-as-objection; the transfer-pricing / secrecy-jurisdiction material at L87 is the Nigeria value-leakage mechanism, not a Code-of-Capital-objection rebuttal — reconciled 2026-06-16) · Ch1/Ch2/Ch3/Ch7/Ch8 MISSING (out-of-reach where no bond apparatus; flagged downstream exposures) |
 | Fraser-tradition absence (closest living anchor for the same-object meta-claim is nowhere) | critical-theory / Fraser tradition | **Ch5** (L150-166 closes it); add to TA bibliography | **Ch5 LANDED** · still MISSING in Ch1/Ch3/Ch6/Ch7/Ch8/Ch10 and canonical Ch9 |
 | Flattening the coercion vector | reparations economics (Darity) + decolonial | **Ch10** (structural-not-moral-equivalence, conceded); **TA** §1.10 + line 1425 | Ch10 LANDED (lands more strongly than stale matrix's cautious PARTIAL) · TA PARTIAL (conceded unpriced; first-person "not mine to do" deferral) |
 | Public-Choice / capture (naming a ledger does nothing) | Public Choice economist | **Ch5/Ch9** complement + Olson; named **Ch8** (L126) | Ch5 PARTIAL · Ch9 PARTIAL (theory-of-change thin) · Ch8 PARTIAL |
-| Just degrowth / left anti-market program | reactionary / center-right intellectual | structural-not-partisan close every essay; **Ch4 †** (L119 "the framework does not legislate"); **Ch8** (degrowth rebuttal) | essays LANDED · Ch4 PARTIAL † (disarm shown, degrowth unnamed) · Ch8 LANDED |
+| Just degrowth / left anti-market program | reactionary / center-right intellectual | structural-not-partisan close every essay; **Ch4** (canonical L119 "None of this says the United States should adopt Norway's architecture; the framework does not legislate"); **Ch8** (degrowth rebuttal) | essays LANDED · Ch4 PARTIAL (canonical L119 non-partisan disarm runs; "degrowth" not named as the objection) · Ch8 LANDED |
 | Too statist / too generous to institutional reform | conservative reader | named **Ch10** (L126) | Ch10 PARTIAL (named, not symmetrically rebutted the way the Marxist objection is) |
-| Norway is a small homogeneous high-trust windfall, not transferable | comparative-political-economy skeptic | **Ch4** (load-bearing Norway chapter — redo † rebutted via four cases L101-111); matrix-original home **Ch9** | Ch4 LANDED-IN-REDO † (four sub-conditions each met with a counter-case) / **Ch9 MISSING canonically** (redo-A reframed Norway as floor-figure; four sub-conditions gone) — RECONCILE |
-| International-macro (local optimum dependent on others not copying it) | international-macro economist | **Ch4 †** (L137 named as third gap); matrix-original home Foreign Affairs | Ch4 LANDED † · Foreign Affairs LANDED |
+| Norway is a small homogeneous high-trust windfall, not transferable | comparative-political-economy skeptic | **Ch4** (load-bearing Norway chapter — canonical rebuts via the four cases L101-111: objection's special conditions voiced at L101 [small/rich/homogeneous/high-trust/working-state], then Alaska/Chattanooga/Mondragón/Vienna answer them, closing L111 "Whatever explains Norway now has to explain Alaska and Chattanooga and Mondragón and Vienna too... Architecture, built on purpose, defended over time, in places that look nothing like each other"); matrix-original home **Ch9** | Ch4 LANDED (canonical L101-111 — the four-cases transferability rebuttal IS canonical, not redo-only; the structure is four cases at four scales rather than a mechanical one-case-per-sub-condition map, but it answers each named special condition) · **Ch9 MISSING canonically** (canonical Ch9 reframes Norway as the floor-figure; the four-cases rebuttal lives in Ch4, not Ch9) · RECONCILED 2026-06-16 |
+| International-macro (local optimum dependent on others not copying it) | international-macro economist | **Ch4** (canonical L137 named as the third of four gaps: "the fund works by compounding on the productive output of the rest of the world's economy... a local optimum... a thing the planet cannot adopt by copying"); matrix-original home Foreign Affairs | Ch4 LANDED (canonical L137) · Foreign Affairs LANDED |
 | Non-identity (how can extraction wrong people who don't yet exist?) | Parfit / population ethics | **Ch6** "What Is Owed" | Ch6 PARTIAL (conceded as a problem Parfit himself didn't solve; honest, unresolved) |
 | "Cost severance" borrows HR/severance-tax connotations | Tier-2d lived-oppression / heterodox-left reader | naming-justification **Ch5** | Ch5 PARTIAL (broad naming-justification present; the specific "severance"-word defense vs HR/commodifying-labor connotation did not survive the redraft) |
 
@@ -188,10 +194,10 @@ draft; canonical may differ (see Reconciliation notes).
 - "$100 Barrel lineage of near-misses": $100 Barrel essay.
 
 **B — Core conceptual claims**
-- Cost Severance: seeded narratively **Ch1** (L20/L24/L70), **Ch2** (term-coining), demonstrated **Ch3** (L197/L236), **Ch4 †**; term coined Ch2/Ch5.
-- Residual Commons Value (RCV): **Ch6** (full); run **Ch4 †** (Norway/Nigeria), **Ch8** (worked ton).
+- Cost Severance: seeded narratively **Ch1** (L20/L24/L70), **Ch2** (term-coining), demonstrated **Ch3** (L197/L236), **Ch4** (canonical: "Cost severance is a policy choice" L27/L147; severed-cost run on Norway L67 + Nigeria L93); term coined Ch2/Ch5.
+- Residual Commons Value (RCV): **Ch6** (full); run **Ch4** (canonical: RCV named + its three parts run at L57; applied to Norway L67 + Nigeria L93), **Ch8** (worked ton).
 - Commons Inversion Test: **Ch6** (CIT naming).
-- Two Instruments — forward Foreclosure Bond B₂ + backward Restitution Bond B₁: **Ch4 †** (B₂ "in working form" L55); **Ch3** (B₁ RUN on the reef, L220-246); **$100 Barrel** (both directions surfaced as concept in the close, 2026-06-17 — instruments unnamed).
+- Two Instruments — forward Foreclosure Bond B₂ + backward Restitution Bond B₁: **Ch4** (canonical: Norway's forward instrument RUN in working form as "a bond against the drawdown of a commons," given the formal name "accountability bond" L55; the forward/backward bidirectionality surfaces at L127 — the oyster "forward instrument" vs Ch3's "backward case" — but the B₂/B₁ / Foreclosure-Bond / Restitution-Bond LABELS are NOT used in canonical Ch4; reconciled 2026-06-16); **Ch3** (B₁ RUN on the reef, L220-246); **$100 Barrel** (both directions surfaced as concept in the close, 2026-06-17 — instruments unnamed).
 - Structural commons identity: seeded **Ch1/Ch2/Ch3**; DEFINITION + Polanyi/Fraser anchor **Ch5** (L150-166); SEED **$100 Barrel** (Polanyi/Fraser close, 2026-06-17).
 - Title polysemy (accountability/relational/structural bonds): **Ch10**.
 
@@ -203,12 +209,12 @@ draft; canonical may differ (see Reconciliation notes).
 - Cannot reach indigenous dispossession (Black Hills): **Ch10**.
 - Coercion vector conceded unpriced: **TA** §1.10; **Ch10**.
 - Non-identity inherited from Parfit, not solved: **Ch6**.
-- IOV / irreversibility limit: **Ch4 †** (named gaps one + four).
+- IOV / irreversibility limit: **Ch4** (canonical: first gap = permanent foreclosure still not fully priced L133; fourth gap = Intergenerational Option Value, the option value of the resource left in the ground, preserved only as a side-effect not priced deliberately, L139).
 
 **E — Worked-demonstrations**
 - McDowell County IPG ($518/$4.50; 33-122×): **Ch2** (from inside the hollow); reprised Ch9 (L12 $510/$4.71).
 - Oyster reef Restitution Bond ($20-37M floor; ~$211M center; vs ~$120M/yr, ~$7M dockside): **Ch3** (L220-246).
-- Norway GPFG ($2T / ~$390k per citizen): **Ch4** (canonical Norway/Nigeria); reprised Ch6 backtest, Ch9 floor.
+- Norway GPFG ($2T / ~$390k per citizen, canonical L33): **Ch4** (canonical runs Norway/Nigeria differentiation AND the Alaska/Chattanooga/Mondragón/Vienna four-cases transferability set L103-111; reconciled 2026-06-16); reprised Ch6 backtest, Ch9 floor.
 - Single worked 8-component ton: **Ch8**.
 - Healthcare commons + 2008 scope-choice + Sweden counter-history: **Ch5** + **Ch9** (L124-130).
 - Baotou / rare-earth for S_max<1: **Ch5** (section present L55-65 but NOT framed as S_max<1 — MISSING the substitutability-limit framing).
@@ -242,7 +248,7 @@ draft; canonical may differ (see Reconciliation notes).
 
 **L — Falsifiability** — triangulation surface **Ch6**; CS=0 reachable (S_max=1); **Ch8** return-zero surface REPAIRED (L88). WEAKNESS: explicit "what would show CS=0" still implicit.
 
-**M — Domain-of-applicability / boundary** — renewable coordination-commons routed OUT via CCI (**Ch6**); reaches non-renewable permanent-foreclosure + heterogeneous/divided-stakeholder commons; divided-stakeholder richly shown **Ch3** (upstream/downstream watershed L146-150); renewable/non-renewable scope-note **Ch4 †** (L69); out-of-reach (indigenous/non-denominable) **Ch10**.
+**M — Domain-of-applicability / boundary** — renewable coordination-commons routed OUT via CCI (**Ch6**); reaches non-renewable permanent-foreclosure + heterogeneous/divided-stakeholder commons; divided-stakeholder richly shown **Ch3** (upstream/downstream watershed L146-150); renewable/non-renewable scope-note **Ch4** (canonical L69 — "petroleum is the non-renewable case... a renewable commons severs costs the moment harvest outruns regeneration, and within restoration it severs nothing. The oyster, on home water, severs on exactly those terms"); out-of-reach (indigenous/non-denominable) **Ch10**.
 
 **N — Concealment-taxonomy (the covers)**
 - Market price as the cover (Dunbar/Du Bois): **Ch1** (L22/L38/L40).
@@ -260,7 +266,17 @@ draft; canonical may differ (see Reconciliation notes).
 
 ## Reconciliation notes (author action)
 
-1. **Ch4 claim set audited `research/story-drafts/ch4-redo-A_2026-06-10.md` (unpromoted).** The CANONICAL `Chapter__4_TheExistenceProof.md` differs: it runs the Norway/Nigeria differentiation (31 Norway hits) and does NOT name Hartwick (grep=0) or run the Alaska/Mondragon/Vienna/Chattanooga four-cases set or the named Norway-transferability four-sub-conditions rebuttal. Rows marked † reflect the redo draft. **Reconcile before treating Ch4's Hartwick / four-cases / transferability-rebuttal as canonically LANDED.**
+1. **RESOLVED 2026-06-16 (Ch4 promoted).** *What this note WAS (build-time, 2026-06-15, audit trail preserved):* "Ch4 claim set audited `research/story-drafts/ch4-redo-A_2026-06-10.md` (unpromoted). The CANONICAL `Chapter__4_TheExistenceProof.md` differs: it runs the Norway/Nigeria differentiation (31 Norway hits) and does NOT name Hartwick (grep=0) or run the Alaska/Mondragon/Vienna/Chattanooga four-cases set or the named Norway-transferability four-sub-conditions rebuttal. Rows marked † reflect the redo draft. Reconcile before treating Ch4's Hartwick / four-cases / transferability-rebuttal as canonically LANDED."
+
+   *RESOLUTION (verified by read + grep against the promoted `Chapter__4_TheExistenceProof.md`, STATUS: CANONICAL — PROMOTED 2026-06-16, author-ratified):* the build-time note was itself **partly incorrect** about the promoted text. Canonical findings:
+   - **Hartwick is NAMED and EXTENDED, not missing.** L61: "In 1977 the economist John Hartwick proved a careful version of half of this (*American Economic Review* 67, 1977)... The fund is Hartwick's rule made real at the scale of a nation. It also goes a step past the rule" — the go-past being the reserve-keeps-substitution-open move. The build-time "grep=0 / MISSING / RECONCILE" was against the redo and is FALSE for canonical Ch4. Hartwick row updated to **LANDED**.
+   - **The four-cases set IS canonical.** Alaska (L103), Chattanooga (L105), Mondragón (L107), Vienna (L109), summary L111. The build-time claim that canonical Ch4 ran Norway/Nigeria *instead of* the four cases was wrong: the promoted chapter carries **both** — the Norway/Nigeria differentiation (Nigeria L83-97) AND the four cases (L103-111).
+   - **The Norway-transferability rebuttal IS canonical** (L101-111): objection's special conditions voiced at L101 (small/rich/homogeneous/high-trust/working-state), then the four cases answer them, closing L111 ("Architecture, built on purpose, defended over time, in places that look nothing like each other"). It is structured as four cases at four scales rather than a mechanical one-case-per-sub-condition map, but it does rebut the named special conditions. Objection row updated to **LANDED**.
+   - **The existence proof is the IRREVERSIBILITY-REDUCTION / optionality move** (L59: "the architecture lowers the effective irreversibility of the extraction, and with it the premium that honest pricing charges for forever... It posts the bond, and it buys back optionality"), explicitly "subtler than capturing money... the heart of the existence proof." The 70-80% fiscal-capture figure SURVIVES as the bond's *size* (L35/L55) but is NOT the achievement.
+   - **Four named gaps mark work remaining** (L131-141): (1) permanent foreclosure not fully priced (L133); (2) the tail / carbon (L135); (3) scale / local-optimum-needs-an-outside (L137); (4) **Intergenerational Option Value** — the option value of the resource left in the ground, preserved only as a side-effect, not priced deliberately (L139). "Norway is the existence proof for the partial solution" (L141).
+   - **Unnamed-but-shown lineages remain PARTIAL** (verified grep=0 in canonical): Coase, Ostrom, Dixit/Pindyck/Arrow-Fisher/Henry, Adam Smith, and Mian/Sufi/Hacker/Gawande/Butler are NOT named; the substance (scope-note L69; non-partisan disarm L119; IOV-limit L139; Social Security meta-claim L115-117) runs unnamed. Those rows keep PARTIAL/MISSING per the promoted text, with the † dropped.
+
+   All Ch4 † markers cleared from the matrix; per-row line cites point to canonical Ch4. See the "Ch4 reconciliation APPLIED 2026-06-16" addendum at the foot for the cell-level changelog.
 2. **Ch9 claim set + audit referenced `research/story-drafts/ch9-redo-A_2026-06-10.md` (unpromoted).** The CANONICAL `Chapter__9_PricingHonestly.md` has NO Polanyi/Fraser (grep=0) and NO Susskind, but DOES engage Pistor (L166) + Christophers (L168) + extensive financialization material. So: the canonical Ch9 already carries the financialization-terrain engagement, but the Polanyi/Fraser anchor the redo added is NOT in canonical Ch9. **Decide whether to promote the redo's Polanyi/Fraser paragraph into canonical Ch9.**
 3. The matrix-Ch10 ESG/reformist-capture point now appears near-verbatim in **Ch7** (L168/172) — a double-homed/migrated point. **Reconcile ownership** (the Europa non-denominable limit drifted the same way).
 
@@ -294,3 +310,69 @@ q1 50% thunder-stealing threshold. **Cell-level fold-in APPLIED 2026-06-17
 + META-CLAIM 2 status lines, and Landing-points B (Two Instruments + structural
 commons identity) + J (citations) all updated to record the $100 Barrel
 essay-side seed. Provenance: `publishing/essays/100-barrel/rigor/stage-0-venue-angle-reconfirm-american-prospect_2026-06-17.md` §7.
+
+---
+
+## Ch4 reconciliation APPLIED 2026-06-16
+
+**Reconciliation note #1 (Ch4) RESOLVED + cell-level fold-in APPLIED
+2026-06-16**, against the promoted-canonical `Chapter__4_TheExistenceProof.md`
+(STATUS: CANONICAL — PROMOTED 2026-06-16, author-ratified; redo-A won
+PROMOTE-A-WITH-FOLDIN). The v2 lens was built 2026-06-15 against the *unpromoted*
+`ch4-redo-A_2026-06-10.md`, so its Ch4 rows carried a † and Reconciliation note
+#1 flagged them OPEN. Every Ch4 claim below was verified by read + grep against
+the promoted chapter before the cell was changed.
+
+**What was reconciled (Ch4 ONLY):**
+
+- **Hartwick row** (matrix table): was "LANDED-IN-REDO † / canonical Ch4 MISSING
+  (Hartwick grep=0) — RECONCILE." The build-time grep=0 was against the redo;
+  canonical Ch4 NAMES + EXTENDS Hartwick at L61 (with the *AER* 67, 1977 cite).
+  → **Ch4 LANDED**, † dropped.
+- **Norway/Alaska/Mondragon/Vienna/Chattanooga row**: was "canonical runs
+  Norway/Nigeria... redo † ran four-cases set... Reconcile (four-cases NOT in
+  canonical Ch4)." Canonical Ch4 runs **BOTH** — Norway/Nigeria differentiation
+  (Nigeria L83-97) AND the four-cases transferability set (L103-111). Existence
+  proof reframed to the **irreversibility-reduction / optionality** move (L59),
+  with the 70-80% capture figure kept as the bond's *size*, not the achievement.
+  → **Ch4 LANDED**, † dropped, four-cases reconciled as canonical.
+- **Norway-transferability objection row**: was "LANDED-IN-REDO † / Ch9 MISSING
+  canonically — RECONCILE." The four-cases rebuttal (L101-111) IS canonical in
+  Ch4. → **Ch4 LANDED**, † dropped (Ch9 status left unchanged; that is note #2's
+  territory, OPEN).
+- **International-macro objection row**: Ch4 LANDED † → **LANDED** (canonical
+  L137, third gap, local-optimum).
+- **Ostrom / Dixit-Pindyck / Smith / Mian-Sufi-Hacker / degrowth rows**: Ch4
+  PARTIAL † → **PARTIAL** (substance runs unnamed in canonical — scope-note L69,
+  IOV-limit + irreversibility L59/L139, disarm L119, Social Security meta-claim
+  L115-117; Coase/Ostrom/Dixit/Pindyck/Smith/Mian/Sufi/Hacker/Gawande/Butler all
+  grep=0). † dropped; PARTIAL retained honestly.
+- **Financialization objection row**: Ch4 pulled out of the "no bond apparatus"
+  MISSING group — canonical Ch4 HAS the bond apparatus (accountability bond L55)
+  but still does NOT rebut the financialization-as-objection; the transfer-pricing
+  / secrecy-jurisdiction material (L87) is the Nigeria value-leakage mechanism,
+  not a Code-of-Capital rebuttal. → **Ch4 MISSING** (for a corrected reason).
+- **Landing-points B, D, E, M**: Ch4 † cites replaced with canonical line cites
+  (Cost Severance L27/L67/L93/L147; RCV L57; Two Instruments — forward instrument
+  RUN as "accountability bond" L55, forward/backward at L127, but B₂/B₁ LABELS not
+  used in canonical Ch4; IOV/irreversibility gaps L133/L139; scope-note L69).
+  Landing-point K already carried no † and reads correctly post-resolution.
+- **Header status line** + **"What changed" item #4** updated to note the Ch4
+  reconciliation; **Reconciliation note #1** rewritten as RESOLVED with the
+  build-time text preserved as audit trail.
+
+**Residual / honest flags (no over-assertion):** the B₂/B₁ / Foreclosure-Bond /
+Restitution-Bond LABELS are NOT used in canonical Ch4 (it uses "accountability
+bond"); the Two-Instruments landing-point records this rather than asserting the
+labels landed. The transferability rebuttal is canonical but is structured as
+four cases at four scales, not a mechanical one-sub-condition-per-case map; the
+matrix records it that way rather than overclaiming the redo's "four
+sub-conditions" phrasing.
+
+**PRESERVED UNCHANGED (out of scope for this reconciliation):** Reconciliation
+note #2 (Ch9 Polanyi/Fraser) and note #3 (Ch10/Ch7 ESG drift) remain OPEN; the
+RATIFIED 2026-06-17 status; the 2026-06-17 ratification addendum content; and
+every non-Ch4 row + meta-claim. The two Ch9-redo † references inside the Polanyi
+and Fraser table rows (and the financialization row's Ch9 redo † note) are note
+#2's territory and were left intact. Provenance: promoted
+`manuscript/chapters/Chapter__4_TheExistenceProof.md` (PROMOTED 2026-06-16).

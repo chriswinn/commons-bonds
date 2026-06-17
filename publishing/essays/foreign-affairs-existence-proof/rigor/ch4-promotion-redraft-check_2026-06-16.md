@@ -191,7 +191,7 @@ in fact land on the essay's spine, not its surface. No challenge.
 | **alpha / IOV / irreversibility limit** (Dixit-Pindyck/Arrow-Fisher lineage) | L120 "Ch4 PARTIAL † (IOV/irreversibility limit named, lineage unnamed)" | **PARTIAL** — essay names option-value limit (L110) but NOT the *positive* irreversibility-reduction achievement; lineage reserved |
 | **Two Instruments — B₂ "in working form"** | L194 (Ch4 †) | **NO** as Ch4-homed; essay uses single accountability bond B at concept level (correct for FA apparatus budget) |
 | **International-macro / local-optimum objection** | L176 "Ch4 LANDED †... matrix-original home Foreign Affairs; Foreign Affairs LANDED" | **YES** — essay L108 carries a local-optimum ¶ (assessed in §3.3) |
-| **Norway-transferability objection** (small/homogeneous/high-trust/windfall) | L175 "Ch9 MISSING canonically... Ch4 LANDED-IN-REDO † via four cases" | **PARTIAL** — essay L96 rebuts transferability via the *selection-criterion* move (extraction preys on weak institutions) + McDowell, NOT via the four-cases set (which is NOT in canonical Ch4 either — see reconciliation note) |
+| **Norway-transferability objection** (small/homogeneous/high-trust/windfall) | L175 "Ch9 MISSING canonically... Ch4 LANDED-IN-REDO † via four cases" | **PARTIAL** — essay L96 rebuts transferability via the *selection-criterion* move (extraction preys on weak institutions) + McDowell, NOT via the four-cases set. **(2026-06-17 CORRECTION:** canonical Ch4 DOES carry an Alaska/Chattanooga/Mondragón/Vienna four-cases set at L101-111, verified by grep — the earlier "not in canonical Ch4" claim in this artifact was WRONG. The essay's leaner McDowell/selection-criterion move is an editorial choice to keep FA focused, not a canonicity constraint.) |
 | **Mian-Sufi / Hacker — Social Security engineered→re-engineerable meta-claim** | L143 "Ch4 PARTIAL † (Social Security lands the meta-claim; Mian/Sufi/Hacker/Gawande/Butler unnamed); Foreign Affairs §V" | **YES, framing** (essay §V, L88–94) — meta-claim lands; the named economists are (correctly) unnamed for FA |
 | **Smith / non-partisan disarm** | L138 (Ch4 † L119/L121) | **YES** — essay L94 "the framework does not legislate / structural not prescriptive" |
 | **Just-degrowth / left-program rebuttal** | L173 (Ch4 † L119) | **YES** — essay L94/L96 |
@@ -341,12 +341,12 @@ exists** — this gate is hard.
 - [ ] Ch4 final author redline applied (esp. F-A6 RCV-presentation; figure
       date-locks) — **recommended gate** (skippable only by accepting a §III
       re-sync; given the window, don't skip).
-- [ ] v2-matrix reconciliation note #1 acknowledged as **resolved by promotion**
-      (canonical Ch4 now names + extends Hartwick; the † four-cases set is NOT
-      canonical, so the FA redraft must NOT import Alaska/Mondragón/Vienna/
-      Chattanooga as if they were Ch4 material — the essay's existing
-      McDowell/selection-criterion transferability rebuttal is the canonical-Ch4-
-      aligned move).
+- [ ] v2-matrix reconciliation note #1 acknowledged as **RESOLVED by promotion** (matrix
+      reconciled 2026-06-17): canonical Ch4 now names + extends Hartwick (L61) AND runs
+      the Alaska/Chattanooga/Mondragón/Vienna four-cases set (L101-111) — BOTH verified
+      by grep. Whether to import any of the four cases into FA is an **editorial/author
+      call**, not a canonicity constraint; the brief's DEFAULT keeps the leaner
+      McDowell/selection-criterion transferability move to hold FA focused.
 - [ ] No clock pressure: submission window Nov–Feb confirmed; sequence for lowest
       rework, not speed.
 
