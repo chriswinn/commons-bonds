@@ -1,182 +1,234 @@
-# Commons Bonds
-*By Chris Winn*
+<!-- STATUS: CANONICAL PROMOTED 2026-06-17 | promoted from matrix-amended redo candidate B (2026-06-16) per PROMOTE-B-WITH-FOLDIN verdict; A->B fold-ins applied inline with ENHANCE markers -->
 
+# Chapter 10. Common Bonds
 
+It is a long time before sunrise. The first thing that comes is not light. It is the men going to work.
 
-## Chapter 10: Common Bonds
+A diesel coughs somewhere down the line of slips, catches, settles into its idle. A line that has been slapping a mast all night goes quiet. The sound travels to me across the water as if the water itself were carrying it, which in some way it is. The Fort is dark behind the slips. The Bay is one shade of gray opening, very slowly, into a slightly different gray. The channel marker blinks red on its own slow schedule, indifferent to whether anyone is watching. North of Newport News a tug is working. I hear it long before I will see it.
 
----
+I am on the deck of a sailboat, in a slip on the harbor side of Old Point Comfort, awake because the work boats are starting and there is no sleeping through them. I would not want to.
 
-A long time before the sun comes up at Old Point Comfort, the sound that arrives is not light but the sound of men going to work. A diesel coughs and settles. A line stops slapping. A man at the next pier says something to a man on a boat in a voice neither of them needs to raise, because at that hour sound travels across the water as if the water itself were carrying it. The Fort sits dark behind the slips. The mouth of the Bay is a single shade of gray opening into a slightly different shade of gray. The channel marker blinks red, on and off, on its own slow schedule. A tug somewhere north of Newport News is moving; you hear it before you can see anything that resembles it.
+This is the last chapter, and I have come out here to write it, the way I have come out here for years to do the things that matter most to me. The chapter is what I have to say. The morning is what I came here to listen to.
 
-I am on the deck of a sailboat in a slip on the harbor side. I am awake because the work boats are starting, and there is no sleeping through them. I would not want to sleep through them. I have been coming down to this dock at this hour for years now, and at some point along the way the hour stopped being something I had to set an alarm for and became something my body would not let me miss.
+## The sentence
 
-This is the chapter at the end of a book. It is also the morning of a day that will be made of the smaller days every morning is made of. The two are not at odds. The chapter is what I have to say. The morning is what I came here to listen to.
+Here is what the book has been about, in one sentence.
 
----
+Value leaves the place it comes from, and the costs of its leaving stay behind.
 
-I have spent nine chapters trying to name what happens to men like the ones I am listening to. The name I arrived at, after years of looking for it, is this: value leaves the place it comes from, and the costs of its leaving stay behind. That sentence is the framework, compressed into the shortest form it will carry. The book unfolds it slowly, against the coal of West Virginia, the oysters of the Chesapeake, the rare earths of Inner Mongolia, the oil of the North Sea and the Niger Delta, the water of the Ogallala, the water ice of Mars. The unfolding is not the framework. The sentence is.
+That is the whole of it. The nine chapters in front of this one are not the framework. They are the unfolding. The framework is the sentence.
 
-What I have wanted to do is make the sentence count.
+I have unfolded it against the coal of West Virginia. Against the oysters of the Chesapeake, half a mile from where I am sitting.
+<!-- ENHANCE-CANDIDATE 2026-06-17: Chesapeake distance, author adjudicate at redline: keep B's "half a mile from where I am sitting" (literally truer to Old Point Comfort on the Bay) or take variant A's "an hour from where I am sitting" (reads as drive-time to the oyster grounds); confirm or trim, not a graft. --> Against the rare earths of Inner Mongolia, the oil of the North Sea and the Niger Delta, the water of the Ogallala, the water ice of Mars. Different resources, different centuries, different oceans. The same sentence underneath all of them.
 
----
+What I have wanted to do is make the sentence count. To build it well enough that it would hold weight. Everything else has been in service of that.
 
-I came down to this harbor for several reasons that took me a long time to separate from each other. I will name them now without trying to rank them, because I do not think they were ranked when I was making the decisions that brought me here.
+## Why I came here to write it
 
-I spent twenty years inside institutions whose ledgers managed costs by passing them to others. Federal agencies. The medical-research and contractor ecosystems that surround them. Companies that bought and sold the systems those agencies depended on. The work I was hired to do was, considered narrowly, honest. The ledgers, considered honestly, were not. After enough years of working inside a ledger that does not tell the truth, you begin to feel the absence as something physical, a slight wrong pressure on the inside of your chest that you cannot place until you stop and listen for it.
+I did not set out to write a book. I set out, in middle age, to understand a few things that would not leave me alone.
 
-My parents are alive. They are in the Hampton area. They stand a little less straight than they used to. I wanted to be close to them for the years that are coming.
+There were the ledgers. Years of sitting in rooms where the numbers were honest about everything except the one thing that mattered, where a cost that landed on someone out of sight was simply not on the page, and the page balanced, and everyone agreed it balanced. I came to distrust a balanced page.
 
-I had almost lost my wife on an operating table. Her heart stopped for nearly twenty seconds. Two handfuls of seconds. She was never officially pronounced dead; the hospital was careful about the word. But the floor of every hour after that morning is a different floor than the floor of any hour before. She came back. She is here. The mark the morning made did not heal. I came down to the harbor in part because I wanted a shorter line between my work and my life. The wife who came back is part of what shortened the line, and part of what made the work I was doing feel like work that was happening too far from the rest of what mattered.
+There were my parents, in Hampton, getting older the way parents do, all at once and then steadily. There was the work of caring for them, which appears on no ledger I know of, and which is real labor all the same.
 
-There is one other reason, and it is the hardest to name without sounding sentimental about it. The men I had been watching get the short end of every accounting I had access to were not exceptions. They were the architecture. After enough years of seeing it, you cannot keep working as if the architecture is incidental and the accounting is the main thing. You have to turn around and try to look at the architecture itself.
+There was my wife, who nearly died, and the weeks at the hospital that taught me what the framework has nothing to teach anyone. The math does not reach the chair beside the bed.
 
-The framework in this book is what I built after turning around.
+And there was the architecture itself. At some point I understood that the dishonest ledgers and the uncounted care and the bill that very nearly came due in that hospital were not separate troubles. They were the same trouble, wearing different clothes. I had to turn around and look at it directly. This book is the looking.
 
----
+## The room
 
-When I sit with the framework long enough, the people the framework was built around begin to gather in the same room.
+If I let myself, I can put them all in one room.
 
-Somewhere under the ground in southern West Virginia, a man roughly my age is pulling on boots. He does not know me and will never meet me. I do not know his name. He has a daughter, I will assume; he has a wife or he does not; he has a brother who went to Charlotte for work and a cousin who stayed and took a job at the Dollar General when the last mine in the hollow closed. His lungs sound the way his father's lungs sounded. He has been told, in the way the industry tells men these things, that the dust is better now, that the regulations have tightened, that the technology has improved. He half believes it. The other half knows what he sees when the X-rays come back and what he has watched happen to men ten years older than him.
+A miner in southern West Virginia, pulling on his boots in the dark, a few hours before I pulled out of this slip. A waterman from the lower Bay, who has been crabbing since he was twelve and runs a mechanic shop in the afternoons because the water alone will not carry a family anymore. A woman in Baotou whose kitchen window looks out on a tailings pond. A fisherman in the Niger Delta whose son will not fish the creek. A farmer in the Texas Panhandle watching the irrigation pivots come off the field for the last time. A rural nurse. A warehouse worker on the third shift. A long-haul driver thirty nights from his own bed.
 
-Beside him, in the same room, are the others. A waterman on the Lower Bay who has been crabbing since he was twelve and who runs a mechanic shop in the afternoons because the math of the morning will no longer carry the family alone. A woman in Baotou whose kitchen window looks out, across a narrow band of houses, at the tailings pond from the rare-earth-processing facility that has been operating downwind of her family for thirty years. A fisherman in the Niger Delta whose grandfather fished the same creek and whose son will not. A farmer in the Texas Panhandle who is watching the irrigation pivots in the next county over come off the field one by one as the wells stop drawing what they used to draw.
+They do not know each other. Most of them would have nothing to say to each other if they met. The miner has never heard of Baotou. The waterman has no quarrel with the farmer.
 
-A nurse in a rural hospital that has not been able to keep an anesthesiologist on staff for two years. A warehouse worker on the third shift in a town where the warehouse is the only employer left. A long-haul driver who has not slept in his own bed for thirty nights and who will tell you, if you ask, that the math of his route is not what it used to be, either.
+But the mechanism that extracted from all of them is the same mechanism. The value each of them helped produce went somewhere else. The cost of producing it stayed where they are. None of them has been told that this is a thing they share. That is the unspoken kinship in the room, and the book exists to speak it.
 
-They do not know each other. They watch different news. They vote, when they vote, for different people, and the parties whose names appear on their ballots have spent a long time persuading each of them that the others are who they should be angry at. The mechanism that extracts from all of them is the same mechanism. It is the mechanism the book has been trying to name.
+I add one more person, because I have spent a chapter on Mars and I am not going to be coy about it now. A habitat administrator, ten thousand people in her charge, asked to accelerate the extraction of subsurface water to keep the settlement growing. Cost severance, on Mars, is not impossible. It is impossible to hide. In a sealed dome there is no away.
+<!-- ENHANCE 2026-06-17 BEGIN: Mars no-downwind/recycled-air intensifier (optional fold-in, verify/keep-trim-cut at redline) -->
+There is no downwind. There is no later generation in another country who will absorb the loss out of sight. Everyone who would bear the cost is in the room, breathing the same recycled air.
+<!-- ENHANCE 2026-06-17 END: Mars no-downwind/recycled-air intensifier -->
+Everyone breathes the same air; everyone drinks the same drawn-down water; the cost-bearer and the value-capturer are in the same room by physical necessity.
 
----
+On Earth the difference is only that the room is larger and the lighting in it is poor. That is the whole difference. Not the mechanism. The cover.
 
-Somewhere in the same room, sitting quietly, is the administrator of a habitat of ten thousand people on Mars, who has been asked to accelerate the extraction of the subsurface water her habitat depends on. Chapter 7 walked through what the framework says about her decision. She does not need the framework to tell her what to do. She lives in a system where the consequences of her decision are visible to her by tomorrow morning and lethal to her own children by some date she can name. Cost severance, on Mars, is not impossible. It is impossible to hide.
+## The covers
 
-The rest of the people in the room are living in the same system. The difference is the cover.
+There are six covers under which the severance is managed. I name six not because there are exactly six in the universe but because these are the six this book's cases surfaced often enough to earn a name. It is not a complete list. It is the list the work produced.
 
----
+Distance. The value goes to one place and the cost stays in another, far enough away that the two are never seen together.
 
-What hides the cost, on Earth, is a small set of arrangements the book has named carefully because the policy response depends on which one is doing the load-bearing work in any given case. There is distance, the gap between the place the value goes and the place the cost stays. There is time, the gap between the present generation that decides and the generations that absorb. There is information, the gap between what one side of a transaction knew and what the other side did not know in time. There is power, the gap between the parties who could refuse and the parties whose refusal was structurally foreclosed. There is routine, the slow normalization across decades by which a cost becomes invisible because it has been accepted for so long that no one any longer prices it as a cost. And there is abundance, the working illusion that the resource is unlimited, until one day the math turns and the illusion goes.
+Time. The present generation makes the decision and a later generation absorbs what it costs, long after the deciders are beyond reach.
 
-These are the six. They are not a complete list of every arrangement by which cost gets cut loose from value. They are the six this book's cases surfaced often enough to name. Most of the extractions the book examined operate through some combination of them. McDowell County coal moved primarily through distance and information. The 2008 housing crisis moved primarily through information. The pyramids moved through power. The "cost of doing business" pattern in modern industrial subsidy moves through routine. The atmosphere absorbed two centuries of combusted carbon under the cover of abundance.
+Information. One side knew what was happening and the other side did not know in time. The company measured the asbestos. The family breathed the dust.
 
-The policy response, where there has been one, has tried to collapse one or more of these gaps. Carbon pricing collapses part of the abundance gap. Border adjustment collapses part of the distance gap. Sovereign wealth funds, where they have been built, collapse part of the time gap. Disclosure requirements collapse part of the information gap. Each instrument reaches part of what the mechanism does. None of them reaches all of it.
+Power. The party who could refuse was refused the structural ability to refuse. Capital can move. A poisoned town cannot.
 
-The closer the cost-bearer and the value-capturer are brought to standing in the same room, the harder it becomes to maintain the severance. The room on Mars is the same room as the room on the Lower Bay. Earth's room is just larger, and the lighting in it is poor.
+Routine. A cost is normalized so slowly that it stops being priced as a cost at all. It becomes the way things are. It becomes the cost of doing business.
 
----
+Abundance. The working illusion that the resource is endless, which holds right up until the math turns over and it does not.
 
-My grandfather worked at NASA Langley, twelve miles up the road from where I am sitting. He was a model maker in the wind tunnels. It was work he was proud of. He built scale aircraft and spacecraft components out of wood and metal and resin, so that the tunnel would tell the truth about a full-size design that did not yet exist. His patented work extended the same discipline beyond the tunnel. The discipline had to function in spaceflight, where reality does not negotiate and the cost of being wrong is borne by people who cannot recover from the error.
+The cases ran on these, in their own combinations. McDowell County's coal moved out mostly through distance and information. The 2008 collapse ran on information above all. The pyramids ran on power. The "cost of doing business" subsidy ran on routine. The atmosphere absorbed two centuries of carbon under abundance, the longest-running illusion of them all.
 
-I think of him often in this harbor. He spent his career across the water, on the other side of the same Hampton Roads. The work he did was not visible from where I sit; the wind tunnels are behind a fence on a base. The discipline he practiced was visible in him, in the way he kept his shop, in the way his patents read, in the small repairs he undertook in the workshop behind his house with the kind of attention he had brought to the tunnels and never set down. The discipline was simple to state and hard to keep. Build it faithfully enough that reality will not lie when it is run against your work.
+And our instruments answer them one at a time. Carbon pricing collapses part of the abundance gap. A border adjustment collapses part of distance. A sovereign wealth fund collapses part of time. Disclosure requirements collapse part of information. Each of them is real. None of them reaches all of it. The honest thing is to say so.
 
-The framework in this book is a model. Like my grandfather's models, its value depends on whether it was built faithfully enough that the world will not lie when it is run against the framework. I have tried to build it that way. The book is the record of trying. I am the grandson of a model maker, working in a different shop, with different materials, on a different scale. The inheritance is what I have used to build it.
+The closer you can bring the cost-bearer and the value-capturer to standing in the same room, the harder the severance is to maintain. That is the whole strategy, stated plainly. Earth's room is just larger, and the lighting in it is poor.
 
----
+## The model maker
 
-The model cannot do everything.
+My grandfather was LaVern Winn, and he worked twelve miles up the road, at NASA Langley, as a model maker in the wind tunnels.
 
-It cannot, by itself, settle the discount rate, which is the question of how much weight the future carries against the present. The economists who have worked the question hardest, William Nordhaus on one side and Nicholas Stern on the other, have not converged across decades of careful work. Martin Weitzman, who proposed a declining-rate approach for the longest horizons, named a useful direction without ending the argument. The model is honest about this. It does not pretend to settle a question the discipline has not settled.
+He built scale aircraft and spacecraft out of wood and metal and resin, so that the tunnel would tell the truth about a full-size design that did not yet exist. His patented work extended the discipline past the tunnel itself. He did small repairs in the workshop behind his house, and I spent time there as a boy, watching a man make a small true thing stand in for a large one.
 
-It cannot price the things that are not denominated in any currency. The Europa ocean, if it harbors a biosphere, cannot be assigned a number that would let it be traded against a quarter's earnings. The model names this and stops naming it. It does not invent a number to maintain the appearance of completeness.
+The whole craft rests on a single demand. Build it faithfully enough that reality will not lie when it is run against your work. A model that flatters the designer is worse than no model at all, because it fails in the air, where reality does not negotiate and the cost of being wrong is borne by people who cannot recover from the error. A spacecraft does not grade on a curve.
 
-It cannot predict which substitutes will mature on which timelines. It cannot rule out the breakthrough that makes a high-existential-substitutability-gap resource less critical than today's parameters say it is. It can only weigh what we know now and reserve enough of what we cannot replace that our descendants are not foreclosed by our certainty.
+The framework in this book is a model in that lineage. I am the grandson of a model maker, working in a different shop, with different materials, on a different scale. The inheritance is what I have used to build it. I have tried to build it so that reality will not lie when it is run against my work.
 
-It cannot resolve the tension between the present need that is real and the future preservation that is also real. The model says count, not stop. Whether the count produces a continuation of an extraction at a lower rate, a managed transition to a substitute, a strategic reservation of the remaining stock, or some combination of all three, is a political question the model does not legislate.
+## What the model cannot do
 
-The model tells the truth about its own limits. Honesty about limits is part of what a faithful model is for.
+A faithful model is honest about its limits, and a model that will not name its limits is the kind that fails in the air. So let me name them.
 
----
+It cannot settle the discount rate. How much a cost falling on someone not yet born should weigh against a benefit landing today is a question the discipline has argued for decades without converging. Nordhaus discounts the future at a higher rate and gets a smaller number. Stern discounts it at a lower rate and gets a larger one. The model does not pretend to settle a fight the field has not settled.
 
-What the model can do is make visible what was invisible. It can name the second transaction running alongside the first one, the unpriced one, the one binding on parties who were never consulted. It can structure an honest accounting in a vocabulary the parties making the decisions can use. It can show, in case after case, that the cost of the insurance is small against the cost of having no insurance at all. Reserving a fraction of a high-existential-substitutability-gap resource costs the foregone revenue on the reserved fraction, and that revenue is a small slice of the resource's total. Capturing extraction rents in a sovereign fund costs the discipline to maintain the fund through every government that inherits it, which Norway has demonstrated is achievable. Border adjustment costs the administrative complexity of implementing it. None of these is large against the foreclosure they prevent.
+But it does not need to settle it. This is the part I left out for too long, and it matters. The result the framework reaches, that the severance is real and greater than zero, that a fraction of a hard-to-substitute resource is worth reserving, holds across the whole range from Nordhaus to Stern. You can discount the future at the steepest defensible rate and the conclusion still stands. The model does not have to win the discount-rate argument because its answer survives both sides of it. And where Weitzman proposed a declining rate for the longest horizons, the framework adopts that approach directly, which bends its own estimates downward. It takes the most conservative discounting it can defend and still finds the cost. The honesty and the robustness are the same fact seen twice.
 
-What the model can do is give the people who do the work a common language and a common instrument to do the work with. The work itself is not the framework's work. The political work, the institutional work, the long generational work of writing the laws and building the funds and maintaining them through every government and every crisis, belongs to the people who will do it. The framework's job is to make the work conceivable. The rest belongs to whoever picks up the instrument.
+It cannot price the things that are not denominated in any currency. The ocean under the ice of Europa. A sacred landscape. The model prices what can be priced and is honest that some things cannot be, and it never invents a number to keep up the appearance of completeness. A model that fakes a figure to look finished is the kind that fails in the air.
 
----
+It cannot predict when a substitute will arrive. It can say a resource is hard to substitute and that the gap is therefore costly to foreclose. It cannot tell you the year the lab solves it.
 
-The framework runs in reverse as well as forward. Chapter 5 introduced what an honest pricing of past extraction would look like; the Technical Appendix formalizes the same architecture for retrospective accounting. The choice to demonstrate the framework forward, on the extraction that has not yet been priced, the foreclosure that has not yet happened, the externality tail that is still ahead of us, is a choice about where the present-day decision-points sit. It is not a claim about the framework's reach. What was extracted from a community in 1860 or 1960 or 1995 can be priced by the same instrument that prices what will be extracted in 2027. Whether that pricing produces compensation, restitution, structural reform, or a different shape of acknowledgment is a question the framework does not answer. It only insists that the accounting has to be honest if any answer that follows is going to be honest.
+And it cannot resolve the tension between a present need and a future preservation. A community that needs the income now and a future that needs the resource intact are both making a real claim. The model can show you what each claim costs. It cannot tell you which one is right. That is a moral choice, and it stays a moral choice.
 
----
+## What the model can do
 
-There is one accounting the framework does not reach, and I want to set it down carefully before the chapter goes any further.
+What it can do is make the second transaction visible.
 
-The Lakota Sioux were guaranteed the Black Hills, Ȟe Sápa, by the Treaty of Fort Laramie in 1868. The treaty named the Great Sioux Reservation. The Black Hills were inside it. Six years later, the Custer expedition entered the Hills and found gold. Three years after that, in February 1877, an Act of Congress stripped the Hills from the reservation. The taking was not subtle. It was the formal severance of a sacred landscape from the people whose treaty had named it theirs.
+Every extraction is two transactions. There is the one on the page, the price paid for the coal or the fish or the ore. And there is the one off the page, the cost severed onto whoever could not refuse it. The model names the second transaction and gives it a number, in a vocabulary a person can actually use.
 
-In 1980 the Supreme Court ruled, in *United States v. Sioux Nation of Indians*, that the 1877 taking was unconstitutional. The Court awarded compensation: approximately seventeen and a half million dollars for the land's 1877 value, plus interest accumulated since 1877 at five percent. By 1980 the award amounted to roughly a hundred and six million dollars. The Lakota refused to accept it. The award has sat in escrow ever since. With continued interest, the trust account is now more than one and a half billion dollars. The Lakota have refused the payment for more than four decades and counting.
+And once it is visible, the arithmetic of prevention is not frightening. Reserving a fraction of a hard-to-substitute resource costs only the revenue foregone on the reserved fraction. Capturing the rents in a sovereign fund costs the discipline to maintain it, which Norway has demonstrated is a thing a country can actually do. A border adjustment costs administrative complexity. None of these is large set against the foreclosure it prevents.
 
-The reason is simple in a way the framework cannot reach. The land is not substitutable by money. Not at any amount. Not for any purpose. What was taken cannot be returned in dollars. The framework prices what can be priced; it is honest about the things it cannot price; and what was taken at the Black Hills is in the category the framework cannot price.
+The cost of the insurance is small against the cost of having no insurance at all. That is most of the argument, and it is not a hard argument once the second transaction is on the page.
 
-I want to be specific about what this means. I am a settler. The book is a book written by a settler. The framework is an instrument built within a tradition of accounting that itself sits on the land in question. I have tried to build the framework with the discipline my grandfather practiced, faithfully enough that the world will not lie when run against it. The framework operates inside a settlement whose original wound it cannot heal and does not pretend to. The mechanism the book names is structural, not moral, and naming the mechanism's generality is meant to clarify rather than to reduce. The miner in McDowell County and the waterman on the Lower Bay are not in the same position as the descendants of the people who held Ȟe Sápa under treaty before the gold was found. The framework prices a particular kind of mispricing. The taking of a sacred landscape is a different kind of harm and requires a different vocabulary.
+The framework's job is to make the work conceivable. The rest belongs to whoever picks up the instrument.
 
-The vocabulary exists. The work has been done by people who carry the tradition the framework cannot reach. A reader who wants to understand what the framework cannot reach should read Robin Wall Kimmerer (Citizen Potawatomi); Leanne Betasamosake Simpson (Michi Saagiig Nishnaabeg); Glen Coulthard (Yellowknives Dene); Roxanne Dunbar-Ortiz; and Vine Deloria Jr. (Standing Rock Sioux). The work they have done is not adjacent to the book. It is a different shape of the question the book is asking, and a deeper one in the places it goes.
+## It runs backward as well
 
-One specific objection deserves engagement before this section closes. The objection is that treating indigenous dispossession as one case among many in a framework that also prices coal mines and oil spills flattens what is being engaged. The framework's claim is structural, not a claim of moral equivalence. The mechanism, which extracts value through legal-and-political architecture constructed by the dispossessing party and leaves an externality tail measured in centuries, is the same mechanism that operates in McDowell County and Libby and Baotou. Naming the mechanism's generality does not reduce the severity. If anything, it clarifies it. What was done to indigenous peoples in North America was not an aberration of the American system. It was the American system operating as designed, visible at its most severe. The mechanism's name does not flatten the indigenous case. The absence of the mechanism's name is what permits the case to be treated as historical aberration rather than as the system's foundation.
+The instrument runs backward as well as forward.
 
-I name the limit at the front of the closing chapter because a framework that does not name its limits at the close has not done its work. The Black Hills account is the account that holds the framework honest.
+What was extracted from a community in 1860 or 1960 or 1995 can be priced by the same model that prices what will be extracted in 2027. The accounting does not care about the direction of time; it only cares whether the cost was severed.
 
----
+Whether that pricing should produce compensation, or restitution, or structural reform, or some different shape of acknowledgment, is a question the framework does not answer. It only insists that the accounting be honest, because no answer that follows can be honest if the accounting it rests on is not. The framework names the column. It does not fill it. There are harms I have no standing to price, and I leave the figure to those who do.
 
-There is one objection I want to engage before this section closes, because it is the objection I find most serious and because the people who make it are, in a real sense, my allies.
+## The account that does not reach
 
-The objection, made carefully, is that this book does not go far enough. That honest pricing of extraction, strategic reserves, accountability bonds, and universal floors will not save us from a system that is, by its internal logic, driven to extract until there is nothing left. That the critique I am making is a reformist critique, compatible with a capitalism that will swallow it, accommodate it, and continue. That the framework can be adopted by a carbon-neutral multinational and used to justify continued extraction at a slightly slower rate, which is not, in the end, a break from the logic of extraction. That what is needed is not a better price but a different relationship to the resource in the first place.
+There is one accounting the framework does not reach, and I want to be exact about it.
 
-I want to say, plainly, that I have thought about this objection, and that the people who make it are not wrong about what they see. The framework can be captured. It can be softened. It can be turned into an ESG slogan on a quarterly report. Any instrument can be used badly by the institution that adopts it. Carbon pricing has been, in many places. Sovereign wealth funds have been, in some places. Reclamation bonds have been, in almost all places. The certificate on a conflict-free diamond is a performance of accountability that delivers the premium to the retailer and nothing to the miner; the same move is available, in principle, for every accountability mechanism a policy regime produces. I have no illusions about this.
+The Lakota Sioux were guaranteed the Black Hills, Ȟe Sápa, by the Treaty of Fort Laramie in 1868. The Great Sioux Reservation named the Hills inside its boundary. Six years later the Custer expedition entered and found gold. Three years after that, in February of 1877, an Act of Congress stripped the Hills away. That was the formal severance of a sacred landscape.
 
-But I want to say something else too. The book is not an argument for capitalism. The book is not an argument against capitalism. The model measures what extraction costs. What any society does with the measurement is a political question the framework does not legislate. State-owned mines that sever costs are still severing costs. Worker cooperatives that sever costs are still severing costs. Feudal lords severed costs from value a thousand years before any of the institutions we currently argue about existed. The pharaohs did it earlier. The Qin emperors did it independently, on the other side of the world, with no Egyptian template to copy.
+In 1980 the Supreme Court ruled, in *United States v. Sioux Nation of Indians*, that the 1877 taking had been unconstitutional. The Court awarded roughly seventeen and a half million dollars, the land's 1877 value plus interest since 1877 at five percent. By 1980 the award had grown to something like a hundred and six million dollars. The Lakota refused it. The money sat in escrow, drawing interest, and the trust account is now more than one and a half billion dollars. It has been refused for more than four decades and counting.
 
-The mechanism is not a feature of any ownership structure. It is a feature of what happens when value extraction and cost bearing are separated by some combination of the six patterns the framework names. Capitalism is the current and most efficient delivery vehicle. It is not the cause. Treating it as the cause has, in practice, the same effect as treating it as the cure: it pulls the conversation away from the structural mechanism toward the political vocabulary of one side or another, and the mechanism continues operating undisturbed under whichever vocabulary wins.
+The framework cannot reach this. The land is not substitutable by money. Not at any amount. Not for any purpose. The framework prices what can be priced and is honest about what it cannot, and the Black Hills sits in the category it cannot price. It does not assign a number to that taking, and I do not, and I do not say who else may.
 
-I have friends on the political left who will read the book and find me too modest about the institutional reform the framework implies. I have parents whose conservative friends will read it and find me too generous to the institutional reform the framework implies. Both readings are misreadings of the same mistake, the mistake of asking the framework to take a political side it is not built to take. The framework is an instrument. What gets done with it is the work of coalitions the framework does not legislate, and is not the work of this book.
+I am a settler. This is a book written by a settler. The framework operates inside a settlement whose original wound it cannot heal and does not pretend to. The miner pulling on his boots and the waterman in his shop are not in the same position as the descendants of the people who held Ȟe Sápa under treaty before the gold was found. To say so is not to rank the harms. It is to be accurate about them.
 
----
+A reader who wants to understand what the framework cannot reach should read the people whose question it is. Robin Wall Kimmerer, of the Citizen Potawatomi. Leanne Betasamosake Simpson, of the Michi Saagiig Nishnaabeg. Glen Coulthard, of the Yellowknives Dene. Roxanne Dunbar-Ortiz. Vine Deloria Jr., of the Standing Rock Sioux. They are asking a different shape of the question this book is asking, and a deeper one.
 
-The chapter is also a generation's chapter, and I want to say a word about which generation.
+There is an objection here, and it is a fair one. To set indigenous dispossession alongside a fishery's collapse and a mine's tailings, as cases of one mechanism, risks flattening a thing that should not be flattened. I take the risk seriously. The framework's claim is structural, not a claim of moral equivalence. What was done to indigenous peoples in North America was not an aberration of the American system. It was the American system operating as it was designed to operate, visible at its most severe. Naming the generality of the mechanism does not reduce the particular wound. It clarifies what kind of wound it is. The Black Hills account is the account that holds the framework honest.
 
-We are the first generation with the knowledge to understand that the resources we have been treating as inexhaustible are finite. We are the first generation with the technology to develop substitutes for most of the resources whose finiteness now matters. We are the first generation with the institutional capacity, scattered and partial as it is, to build strategic reserves, sovereign funds, border adjustments, and the rest of the apparatus an honest accounting would require.
+## The objections I take most seriously
 
-We are probably also the last generation with meaningful leverage on the window. The carbon clock is the most legible version of the constraint; it is not the only one. Aquifer drawdown, fishery collapse, soil loss, the cumulative depletion of the high-existential-substitutability-gap resources the renewable transition itself depends on: all of these have horizons inside the lifetimes of people now alive. The decision points are not in the next century. They are in this one. The leverage is here. The leverage will not always be here.
+Out here, before light, with no one to perform for, I find I can hear the objections more clearly than I can at a desk. There are three I want to take all the way through, because each of them, taken seriously, is a real attack on the thing I have built.
 
-I do not know how the window closes. I do not know whether we walk through it. The framework does not tell which way it will go. Both futures are still available. We are at the hinge. The hinge is what makes the work worth doing, and what makes the work urgent.
+The first comes from my allies, which is what makes it sharp.
 
----
+A reader on the left, who sees what I see in these cases, will tell me the book does not go far enough. Honest pricing, strategic reserves, accountability bonds, universal floors, none of it will save us, because the system whose logic drives it to extract until nothing is left will simply absorb the reform and keep extracting, a little more slowly, with a cleaner conscience. The framework, this reader says, is exactly the kind of thing a carbon-neutral multinational adopts to justify continuing. What is needed is not a better price. It is a different relationship to the resource.
 
-The title of the book has two meanings, and they are the same meaning.
+The people who say this are not wrong about what they see. The framework can be captured. It can be softened into an ESG line on a quarterly report. Carbon pricing has been. Sovereign wealth funds have been. Reclamation bonds have been, in almost every place they exist. The conflict-free certificate that delivers the premium to the retailer and nothing to the miner is the pattern, and I have watched it run.
 
-*Commons Bonds*, on one reading, names the obligations a participant owes to the commons. What was drawn from the shared stock carries a debt to the stock and to the future stewards of it. The bond is the account that keeps the debt visible until it is paid.
+But the book is not an argument for capitalism, and it is not an argument against it. The model measures what extraction costs. What a society does with the measurement is a political question the framework does not legislate. A state-owned mine that severs costs is still severing costs. A worker cooperative that severs costs is still severing costs. Feudal lords severed costs. The pharaohs severed costs to raise the pyramids. The Qin emperors severed costs. The mechanism is not a feature of any one ownership structure, and it predates the structure my critic wants to indict. Capitalism is the current delivery vehicle, and the most efficient one yet built. It is not the cause. Treating it as the cause does the same damage as treating it as the cure. Both pull the conversation toward political vocabulary while the mechanism keeps running, undisturbed underneath the argument.
 
-On a second reading, *common bonds* are the bonds among the people who have been extracted from. The structural kinship between the miner and the waterman and the woman in Baotou and the farmer in the Panhandle is real, even when none of them has been told they share it. The bonds of a class-position they did not choose are still bonds.
+The second objection runs deeper than capture, and it is the hardest thing a reader could say to me. I have turned it over more than any other.
 
-The two readings are one reading. You cannot honor the first without making visible the second. The bond owed to the commons is, on the ledger, a bond owed to the people who have been carrying the unpaid balance. You cannot make the second visible without beginning to honor the first. Once you can see the kinship across the figures, you have already begun the work of pricing what the kinship has been costing them.
+It says the instrument is the disease. By pricing the commons, by bonding it, by writing the obligation down as an account that has to be paid, I am not refusing commodification at all. I am extending it. I am taking land and nature and a generation's inheritance and turning each into one more priced and tradable thing, the next asset class, the commons repackaged for the market that did the original harm. Polanyi named the fictitious commodity: labor, land, money, treated as if produced for sale when none of them was. To a reader who has Polanyi in hand, pricing the commons looks like manufacturing one more fictitious commodity. Pistor showed that capital is a legal artifact, assembled from modules, property, collateral, trust, the corporate veil. A bond is precisely such a module, and coding the commons as a bond, to a reader who has Pistor in hand, is coding it as capital.
+<!-- ENHANCE 2026-06-17 BEGIN: Pistor friend-turned-objector line (optional fold-in, verify/keep-trim-cut at redline) -->
+I met Pistor earlier in the book as a friend, a diagnostician on my side. The honest thing is to admit that the same diagnosis can be turned around and aimed at me.
+<!-- ENHANCE 2026-06-17 END: Pistor friend-turned-objector line -->
+Christophers traced the asset economy, the rentier turn in which everything depended-upon becomes a thing to be owned and charged for, and bonding the commons, to him, just hands the rentier one more asset to capture.
 
-The title is the framework, compressed into two words that reverse into each other.
+I take this all the way in, because it is aimed at exactly the move the title of this book makes. And then I give the answer it has taken me the whole book to be able to give.
 
----
+Accounting a cost is not coding an asset. They are opposite operations that happen to share the word price. Pistor's modules code assets, things made to be owned and traded. This book accounts costs. The bond does not create a thing to own. It records a debt that has to be paid, and keeps that debt visible until it is. Pricing-to-sell turns a forest into board feet. Pricing-to-reserve names what the forest is worth so that its destruction can no longer be booked as free. The whole polarity of the instrument runs the other way from the one the objection fears.
 
-The first gray is coming now, from the east, behind the Fort. The channel marker is still blinking but it is starting to lose its color against the brightening water. A work boat is hosing down at the end of the pier; someone has come in empty, or has come in to load gear, or has come in for some other reason a slip-watcher would not know. The boats that left at four are out at the mouth of the Bay. The boats that have not left yet will leave in the next twenty minutes.
+And the lineage is the proof of it. To stand with Polanyi and Fraser, the very people who diagnosed commodification as a harm, is to mark the difference, not to betray it. Polanyi's double movement, a society pushing to re-embed in social obligation a thing the market had stripped out, is precisely what the bond is. The double movement, which in Polanyi was a tendency he could only point to and name, here becomes an instrument. The tradition I am standing in is the one that refused the asset frame. A framework built inside it is using their refusal, not abandoning it.
 
-I go back below to put on the kettle. The galley is small. The dog hears me move and rises from her place on the cushion, with the slight stiffness of a dog who has been awake since before I have, but who does not believe in making a show of it. She follows me down.
+I will concede the honest residue, the same residue I conceded to the first objection. A "commons bond" could in principle be rebranded into something tradable by an institution that wanted to do that, the way carbon credits were. The defense is not that misuse is impossible. The defense is that the design polarity is reserve, not sell, and the lineage is the refusal of the asset frame. To "any instrument can be captured" the answer is the one I gave before. The design and the lineage are the guard. The politics is the work.
 
-The day will include the things a day in my life includes. Coursework in the evening hours when the schedule allows; I am studying nursing, late in a working life, with the long discipline of a degree I should have begun twenty years earlier. Hours at the hospital where I have started learning the bedside work the framework has nothing to teach me about. Desk work on this book. A call to my parents, who will pick up on the first ring or the second. An hour at the tutoring office, where the first-generation college students I work with will arrive with the kinds of questions that begin with one thing and turn out to be about another. Late in the afternoon, an hour on the foredeck with a book.
+There is a near cousin to this objection, and the man who states it best is Michael Sandel, who is my ally everywhere else in the book and an objector here. To put a number on the priceless, Sandel warns, on a sacred landscape, a reef, a community, a generation, is already to concede the extractor's frame. Once a thing has a price it can be set against a quarter's earnings, and the act of pricing it, however well meant, has performed the very reduction the extractor wanted. The framework's number, on this reading, is the extractor's victory in a moral disguise.
 
-The day will be made out of those hours. The hours will be made out of the small attentions a person can offer when the line between their work and their life has been shortened enough that the attentions stay attached to the people they were meant for.
+This is the worry closest to my own about the whole project, which is why I will not wave it off. But the choice is not what it appears to be. It is not a choice between a sacred thing left unpriced and a sacred thing reduced to a number. It is a choice between two numbers, because the thing already has a number, and that number is zero. Zero is what the extractive accounting already assigned to the reef and the community and the future. Zero is the number that made the extraction profitable. Pricing-to-reserve refuses that zero. Naming what a thing is worth, so that its destruction can no longer be booked as free, is not the commodification Sandel fears. It is the refusal of the commodification the zero already performed. And where a thing genuinely cannot be denominated, the Europa ocean, the Black Hills, the model says so and invents nothing. Sandel's boundary and the framework's own non-denominable limit are the same line, seen from the two sides of it.
 
----
+The third objection comes from the other direction, from my parents' world, from the conservative friends they have in Hampton whose objection I respect because they are real people and not a strawman.
 
-Camus closed *Le Mythe de Sisyphe* in 1942 with a sentence I have carried around for most of my adult life: *Il faut imaginer Sisyphe heureux.* One must imagine Sisyphus happy. He argues that the boulder, and the mountain, and the eternal return of the boulder to the base of the mountain, do not defeat a man who has understood his work. The man is not happy because the work is complete. The man is happy because the work is his. He has chosen it. He has not been tricked into it. He walks back down the mountain seeing the stones, knowing the weight, feeling the muscle, and at the foot of the slope he puts his shoulder to the boulder again, and pushes.
+The framework, this reader says, is a Trojan horse for the state. Accountability bonds, strategic reserves, sovereign wealth funds, border adjustments, universal floors, all of it is a vast new apparatus of government control over private extraction, a central planner's wish list dressed up as accounting. Price every externality and you have written a license for unlimited government reach. "Honest accounting" is the thin edge of a wedge that ends with the state owning the commons it claimed only to be measuring. The framework is too statist, too generous to the regulatory apparatus, and it will be captured by the same agencies whose capture the book itself documents.
 
-The framework in this book is not the boulder. It is also not the hill. It does not flatten the slope. It does not lighten the load. It does not grant Sisyphus rest. What it does is tell him where north is.
+I owe this objection the same full answer I gave the first, and here it is.
 
-A compass is not the journey. A compass is the instrument by which a person who must keep walking can know whether the direction they are walking matters. The framework is a compass. Its honesty does not lift the work. It tells the walker that the work, when it is done, will have been the work in the right direction.
+The framework legislates nothing. Just as the model does not argue for capitalism or against it, it does not argue for the state or against it. It measures what extraction costs. What a society does with that measurement, whether it builds a tax, or a bond posted to a private trustee, or a market in tradable reserve credits, or a contract between private parties, or a sovereign fund, or nothing at all, is a political question the framework does not decide. An honest number is not a statist number. A conservative can take the same figure and argue for a market instrument that a progressive takes to argue for a public fund. The number does not pick.
 
----
+And honest accounting is a conservative value before it is anyone else's. A sound balance sheet requires that a cost be priced honestly. A hidden liability is a fraud whether the entity hiding it is a government or a firm. The framework hands the center-right reader an instrument that is, on its own terms, a demand for honest books, which is exactly the discipline conservatives ask of the state and of companies alike. The instrument is available to a market answer, not only a public one.
 
-The men going out before dawn on this harbor are, in their own way, holding compasses. They know honest weather from weather that lies. They know which day the sky is telling the truth about and which day it is not. They carry the compasses in their hands when they need them and in their bodies when they do not, and they do not make large claims about any of it, and they get up in the dark, and they go.
+The capture point cuts both ways, and I concede it both ways. Yes, the apparatus can be captured by the regulatory state, the way it can be softened into an ESG slogan. The conflict-free certificate is the left's example of capture. The captured minerals agency, the regulator owned by the industry it was built to watch, is the right's. The answer to both is identical. The framework is an instrument. Capture is a risk every instrument runs. The guard is the design, account costs, do not code assets, and the politics, which the framework does not legislate.
 
-There is no large claim worth making, at the close of a book, that is not also visible on the deck of a working boat at four in the morning. The men did not need the framework before the framework existed, and they will not need it after it is gone. What the framework gives the rest of us is the chance to see what the men on the dock have been seeing for as long as they have been on the water, and the chance to do something about it.
+So I have friends on the left who will find me too modest about institutional reform, and parents whose conservative friends will find me too generous to it. Now that I have given each side a real answer and not a wave, I can say plainly that both readings are misreadings of the same mistake, which is the mistake of asking the framework to take a political side it was not built to take. The model measures. The taking of sides is the reader's, and the work.
 
----
+## The generation's chapter
 
-Naming them is the beginning. There is no other beginning available, because the costs that have not been named will continue to be borne by the people who have always borne them, and no accounting that has not first named what it is counting can produce an honest sum.
+Step back far enough and a thing becomes clear about the moment we are standing in.
 
-Naming them is also not the end. After the naming comes the long, slow work of putting one foot in front of the other in the direction the compass shows. The work is institutional. The work is generational. The work will not be finished by any of the people I have named in this chapter, and probably not by any of the people any one of us could name today. The work is not, for any of that, less worth doing.
+We are the first generation to know, with the numbers in hand, that the resources are finite. We are the first to have the technology for substitutes, however partial. We are the first with the institutional capacity to do something, scattered and incomplete as it is. And we are very likely the last generation with meaningful leverage on the window, before the costs harden into facts that no instrument can soften.
 
-The morning is coming. The boats are going out. The dog is at the foot of the companionway, waiting for me to bring the kettle up and to begin the day she has decided is, like every day, a perfectly ordinary one to be alive for.
+The carbon clock is the most legible version of the constraint. It is not the only one. The aquifer drawdown is a clock. The fishery collapse is a clock. Soil loss is a clock. So is the depletion of the hard-to-substitute resources that the renewable transition itself depends on. The decision points are not somewhere out in the next century. They are in this one. They are, several of them, in this decade.
+
+We are at the hinge. That is not a rhetorical figure. It is a description of where the leverage is, and of how briefly it will last.
+
+## Two readings that are one reading
+
+The title has two readings, and they turn out to be the same reading.
+
+*Commons Bonds.* The obligations a participant owes to the commons. The bond is the account that keeps the debt visible until it is paid. That is the instrument the book has built.
+
+*Common bonds.* The bonds among the people who have been extracted from. The miner and the waterman and the woman in Baotou and the farmer watching the pivots come off the field share the structural kinship none of them was told about. They did not choose the class position the mechanism put them in. The bonds of a position you did not choose are bonds all the same.
+
+The two readings are one reading. The obligation owed to the commons and the kinship among the extracted-from are the same fact, named once from the side of what is owed and once from the side of who was made to pay. The title is the framework, compressed into two words that reverse into each other.
+
+## The morning
+
+The first gray is in the sky now. The channel marker has stopped blinking, or rather it goes on blinking and the dawn has caught up to it.
+
+Below, the dog stirs at the foot of the companionway, lifts her head, decides it is not yet time, and puts it back down.
+
+There is a kettle to put on. There is a day after that, and the day is made of small things. There is nursing coursework, taken up late in a working life, that I will sit with at the table. There are hours at the hospital, learning the bedside work the framework has nothing to teach me about. There is desk work on the book. There is the call to my parents, who pick up on the first ring or the second. There is the tutoring office and the first-generation college students who come through it, who remind me what a window opening looks like from the inside. And there is an hour on the foredeck with a book, if the day allows it.
+
+The line between the work and the life has gotten shorter over the years. I have tried to keep it short enough that the attentions stay attached to the people they were meant for. That is most of what I have learned about how to live, and the framework taught me none of it.
+
+## The compass
+
+Camus closed *Le Mythe de Sisyphe*, in 1942, with a sentence I have carried for a long time. *Il faut imaginer Sisyphe heureux.* One must imagine Sisyphus happy.
+
+Happy not because the work is finished, because it is never finished, the stone always rolls back down. Happy because the work is his. He has chosen it. He walks back down the hill seeing the stones, knowing the weight, and he puts his shoulder to the boulder again.
+
+The framework is not the boulder and it is not the hill. It does not flatten the slope. It does not lighten the load. It does not grant rest. What it does is tell the walker where north is. A compass is not the journey. It is the instrument by which a person who has to keep walking can know whether the direction is the right one. The framework's honesty does not lift the work. It tells the walker that the work, when it is done, will have been the work in the right direction. That is all a compass promises, and it is not nothing.
+
+The men out in the slips already hold compasses. Not the framework, which they have never needed and never read. Something older. They know honest weather from weather that lies. They carry it in their hands when they need it and in their bodies when they do not. They did not need the framework before the framework existed, and they will not need it after it is gone. What the framework offers the rest of us is the chance to see what the men on the dock have been seeing all along, and the chance to do something with it.
+
+## Let us begin
+
+Naming a thing is the beginning. It is not the end.
+
+The work that follows the naming is long. It is institutional, and it is generational, and most of it will be done by people I will never meet, after instruments I will never see have replaced the ones I have described. The book does not finish the work. It only insists that the accounting be honest, so that whatever follows can be honest too.
+
+The light is full enough now to see the far shore. The work boats are out past the marker. Somewhere down the line a man I will never meet is hauling pots in water my grandfather might have known.
+
+The kettle is on. The dog is up. The day is made of small attentions, and they are waiting.
 
 Let us begin.
