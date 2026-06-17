@@ -16,7 +16,7 @@ polish (redraft campaign) → agent-query Wave 1 fires ~Jun 24 – Jul 1 (cascad
 
 | Unit | Venue | State | Verified | Next action |
 |---|---|---|---|---|
-| $100 Barrel | ~~Phenomenal World~~ → **American Prospect** (author choice 06-17) | REJECTED-PW 06-17 → re-targeting; **AP pitch + Stage-0 re-confirm PROPOSED 06-17** (verdict CLASH-BUT-SUBMITTABLE → submit; essay matrix-aligned) | 06-17 | Author ratify pitch + Stage-0 (incl. Lever-2: seed Polanyi/Fraser beat or submit as-is) → Submittable (RWER tertiary) |
+| $100 Barrel | ~~Phenomenal World~~ → **American Prospect** (author choice 06-17) | REJECTED-PW 06-17 → re-targeting; **V2 Polanyi/Fraser close APPLIED 06-17** (author-ratified; cascade clean); AP pitch + Stage-0 PROPOSED (CLASH-BUT-SUBMITTABLE → submit) | 06-17 | Author ratify pitch + Stage-0 → submit via Submittable (RWER tertiary, also left) |
 | Accountability Gap | ~~Boston Review~~ → Public Books | REJECTED 2026-06-03 → **cascading to Public Books**; cover letter in flight | 06-04 (PM) | Ratify PB cover letter → submit |
 | Existence Proof | Foreign Affairs | **RATIFIED READY-TO-SUBMIT**; cover letter DRAFTED 05-27 | 06-04 (PM) | **Ratify cover letter → submit (critical path)** |
 | Commons Bonds | Noema | RATIFIED-AWAITING-SUBMIT (05-24) — **AMBIGUOUS, PM verify:** V-D-prime cascade PROPOSED 06-01/02 not visibly closed | 06-04 (PM) | Author decides: submit ratified version vs close cascade |

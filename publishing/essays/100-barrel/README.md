@@ -2,7 +2,7 @@
 
 **Slug:** `100-barrel`
 **Venue:** ~~Phenomenal World~~ → **American Prospect** (author cascade choice 2026-06-17; RWER tertiary fallback per cascade-plan v2)
-**State:** Re-targeting to American Prospect. Was REJECTED 2026-06-17 by Phenomenal World (Willa Glickman, managing editor; form decline, no feedback); SUBMITTED there 2026-06-03 via emailed pitch. Essay body unchanged (no editorial feedback to revise against). **AP pitch PROPOSED 2026-06-17** — [`pitch-email-american-prospect.md`](pitch-email-american-prospect.md); awaiting author ratification → submit via Submittable.
+**State:** Re-targeting to American Prospect. Was REJECTED 2026-06-17 by Phenomenal World (form decline, no feedback); SUBMITTED there 2026-06-03. **Essay close revised 2026-06-17 — Version-2 Polanyi/Fraser structural-commons seed + bidirectional accounting (author-ratified); cascade clean.** Stage-0 venue-angle re-confirm: CLASH-BUT-SUBMITTABLE → SUBMIT. **AP pitch + Stage-0 re-confirm PROPOSED** — [`pitch-email-american-prospect.md`](pitch-email-american-prospect.md) + [`rigor/stage-0-venue-angle-reconfirm-american-prospect_2026-06-17.md`](rigor/stage-0-venue-angle-reconfirm-american-prospect_2026-06-17.md); awaiting author ratification → submit via Submittable. (Version 1 non-partisan-safe close preserved in the Stage-0 artifact.)
 **Last updated:** 2026-06-17
 
 ## Essay status
