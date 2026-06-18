@@ -33,6 +33,13 @@
 #   Uses a flat-record awk parser. Schema assumes each pattern is a
 #   top-level list entry under `patterns:` with consistent indentation.
 #   Do not change registry schema without updating this parser.
+#
+# Note on essay frontmatter (2026-06-18):
+#   publishing/essays/<venue>/essay.md files are scanned BODY-ONLY — their
+#   audit-trail frontmatter (leading YAML, HTML-comment blocks, and the
+#   aeon-style dossier wrapper) is stripped before pattern-matching, so the
+#   process vocabulary in that frontmatter does not false-positive. See the
+#   "Essay frontmatter-aware scanning" block below for the recognized shapes.
 
 set -euo pipefail
 
@@ -223,12 +230,15 @@ if [[ "$STAGED_ONLY" -eq 1 ]]; then
       manuscript/chapters/_AUTHORSNOTE*.md) echo "$f" ;;
       manuscript/chapters/_BookLevelGuidance.md) echo "$f" ;;
       manuscript/chapters/_Dedication.md) echo "$f" ;;
-      # publishing/essays/*/essay.md) echo "$f" ;;  # temporarily excluded pending follow-up
-      # cleanup: existing essay files mix audit-trail frontmatter with prose body;
-      # separating those is queued as a follow-up workstream after publishing-pipeline
-      # reorg Session 2 lands. Re-enable after frontmatter-aware scan or per-file
-      # allowlist entries are added. See tools/workstream-handoffs/
-      # publishing-reorg-session1-audit_2026-05-24.md §14 deferred-follow-up.
+      # essay.md re-enabled 2026-06-18 with frontmatter-aware scanning: the
+      # audit-trail frontmatter is stripped before pattern-matching (see the
+      # "Essay frontmatter-aware scanning" block further below). Exclude the
+      # internal-scaffolding subtrees first (archived parallel drafts), then
+      # match the live per-venue essay.md. Mirrors the default-scope block +
+      # the YAML scope.include list.
+      publishing/essays/*/_archive/*) ;;   # archived essay variants — excluded
+      publishing/essays/_archive/*) ;;     # archived essays — excluded
+      publishing/essays/*/essay.md) echo "$f" ;;
       publishing/op-eds/*/op-ed.md) echo "$f" ;;
     esac
   done > "$SCOPE_FILES"
@@ -259,11 +269,15 @@ else
     # producing hundreds of spurious HIGH matches on internal scaffolding.
     find publishing/op-eds -type f -name 'op-ed.md' 2>/dev/null \
       | grep -vE '/_archive/|/_pipeline/|/_shared/' || true
-    # publishing/essays/<venue>/essay.md is intentionally NOT scanned here yet
-    # (essay files mix audit-trail frontmatter with prose body; a frontmatter-
-    # aware scan is a queued follow-up). Keep this block in sync with the
-    # --staged include block above and the YAML scope.include list when essays
-    # are re-enabled.
+    # End-user essay drafts (one essay.md per venue dir). Re-enabled 2026-06-18
+    # with frontmatter-aware scanning: each essay.md's audit-trail frontmatter
+    # (leading YAML block, HTML-comment blocks anywhere, and the aeon-style
+    # dossier wrapper) is stripped before pattern-matching, so only the prose
+    # body is scanned (see the "Essay frontmatter-aware scanning" block below).
+    # Exclude the internal-scaffolding subtrees, same as op-eds. Keep in sync
+    # with the --staged include block above + the YAML scope.include list.
+    find publishing/essays -type f -name 'essay.md' 2>/dev/null \
+      | grep -vE '/_archive/|/_pipeline/|/_shared/' || true
   } > "$SCOPE_FILES"
 fi
 
@@ -288,13 +302,121 @@ if [[ "$SCOPE_COUNT" -eq 0 ]]; then
   exit 0
 fi
 
+# ===== Essay frontmatter-aware scanning =====
+#
+# publishing/essays/<venue>/essay.md files co-locate audit-trail frontmatter
+# (pipeline status, rigor-pass history, version pedigree) with the publisher-
+# facing prose body. That frontmatter is dense in process vocabulary
+# ("Pass 3.3", "RATIFIED", "Option A", INCLUDE/EXCLUDE glyphs, ...) which is
+# exactly what the scaffolding/regressed registries flag — so scanning the
+# whole file false-positives. We want to scan only the PROSE BODY.
+#
+# Rather than rewrite the grep pipeline, we precompute the set of audit-trail
+# line numbers per essay and skip any match landing on one (same mechanism as
+# the per-pattern allowlist, just global to essay files). Skipping by line —
+# instead of feeding grep a stripped copy — keeps the reported file:line
+# numbers pointing at the real on-disk lines.
+#
+# Three frontmatter shapes occur across the live essays (verified 2026-06-18);
+# the stripper recognizes all three and leaves no-frontmatter essays untouched:
+#   (A) HTML-comment blocks  <!-- ... -->  anywhere in the file
+#       (foreign-affairs: a leading block + a trailing Stage-status block).
+#   (B) A leading YAML block  ---<newline>...<newline>---  (atlantic-ideas,
+#       atlantic-main, public-books).
+#   (C) The aeon-style "dossier wrapper": the file opens with an H1 meta-title
+#       immediately followed by **bold-label** lines, and the submission prose
+#       is fenced between the first `---` horizontal rule and the next one
+#       (everything outside that fence — the leading dossier and the trailing
+#       "Rigor-pass application history" — is audit-trail).
+# A no-frontmatter essay (opens straight into prose; e.g. 100-barrel, harpers,
+# noema, nyrb) contributes no skip lines and is scanned in full.
+
+# True for live per-venue essay packages; false for archived variants + the
+# _pipeline/_shared scaffolding (those are kept out of scope upstream anyway).
+is_essay_scope_file() {
+  case "$1" in
+    publishing/essays/*/_archive/*|publishing/essays/_archive/*) return 1 ;;
+    publishing/essays/*/essay.md) return 0 ;;
+    *) return 1 ;;
+  esac
+}
+
+# awk: prints the 1-based line numbers of audit-trail / frontmatter lines in an
+# essay.md (prose body = every line NOT printed). See the shape notes above.
+FM_SKIP_AWK='
+  { line[NR] = $0 }
+  END {
+    n = NR
+    first = 0
+    for (i = 1; i <= n; i++) { if (line[i] !~ /^[[:space:]]*$/) { first = i; break } }
+
+    yaml_mode = (first > 0 && line[first] ~ /^---[[:space:]]*$/)
+
+    dossier_mode = 0
+    if (first > 0 && line[first] ~ /^# /) {
+      for (j = first + 1; j <= n; j++) {
+        if (line[j] !~ /^[[:space:]]*$/) { if (line[j] ~ /^\*\*/) dossier_mode = 1; break }
+      }
+    }
+
+    # (A) HTML comment blocks, anywhere
+    in_comment = 0
+    for (i = 1; i <= n; i++) {
+      L = line[i]
+      if (in_comment) { skip[i] = 1; if (L ~ /-->/) in_comment = 0; continue }
+      if (L ~ /<!--/) { skip[i] = 1; if (L !~ /-->/) in_comment = 1 }
+    }
+
+    # (B) leading YAML block
+    if (yaml_mode) {
+      skip[first] = 1
+      for (i = first + 1; i <= n; i++) { skip[i] = 1; if (line[i] ~ /^---[[:space:]]*$/) break }
+    }
+
+    # (C) dossier wrapper: body strictly between the 1st and 2nd horizontal
+    # rule (or after the 1st to EOF if there is no 2nd). If a dossier-mode file
+    # somehow has no rule, nothing is skipped here (fail toward a visible
+    # false-positive, never a silent miss).
+    if (dossier_mode) {
+      hr1 = 0; hr2 = 0
+      for (i = 1; i <= n; i++) {
+        if (line[i] ~ /^-{3,}[[:space:]]*$/) {
+          if (hr1 == 0) hr1 = i; else { hr2 = i; break }
+        }
+      }
+      if (hr1 > 0) {
+        for (i = 1; i <= hr1; i++) skip[i] = 1
+        if (hr2 > 0) for (i = hr2; i <= n; i++) skip[i] = 1
+      }
+    }
+
+    for (i = 1; i <= n; i++) if (skip[i]) print i
+  }
+'
+
+# Build the global essay frontmatter skip-set: one "file:line" key per audit-
+# trail line, checked in the match loop below (alongside the allowlist check).
+ESSAY_SKIP_KEYS=$(mktemp)
+trap 'rm -f "$PATTERN_RECORDS" "$SCOPE_FILES" "$SCOPE_VALID" "$ESSAY_SKIP_KEYS"' EXIT
+while read -r f; do
+  [[ -z "$f" ]] && continue
+  is_essay_scope_file "$f" || continue
+  awk "$FM_SKIP_AWK" "$f" | while read -r ln; do
+    [[ -n "$ln" ]] && echo "${f}:${ln}"
+  done
+done < "$SCOPE_VALID" >> "$ESSAY_SKIP_KEYS"
+
+if [[ "$VERBOSE" -eq 1 ]]; then
+  echo "[corpus-invariants] Essay frontmatter skip-lines: $(wc -l < "$ESSAY_SKIP_KEYS" | tr -d ' ')" >&2
+fi
+
 # ===== Run pattern matches =====
 
 HIGH_COUNT=0
 MEDIUM_COUNT=0
 LOW_COUNT=0
 FINDINGS_REPORT=$(mktemp)
-trap 'rm -f "$PATTERN_RECORDS" "$SCOPE_FILES" "$SCOPE_VALID" "$FINDINGS_REPORT"' EXIT
+trap 'rm -f "$PATTERN_RECORDS" "$SCOPE_FILES" "$SCOPE_VALID" "$ESSAY_SKIP_KEYS" "$FINDINGS_REPORT"' EXIT
 
 severity_in_filter() {
   local sev="$1"
@@ -332,6 +454,14 @@ while IFS=$'\t' read -r REG ID PATTERN PTYPE SEVERITY CATEGORY ALLOWLIST; do
     match_file=$(echo "$match_line" | cut -d: -f1)
     match_lineno=$(echo "$match_line" | cut -d: -f2)
     match_key="${match_file}:${match_lineno}"
+
+    # Essay frontmatter-aware skip: drop matches that land on an audit-trail
+    # line of an essay.md (precomputed above). The prose body still scans.
+    if [[ -s "$ESSAY_SKIP_KEYS" ]] && is_essay_scope_file "$match_file"; then
+      if grep -qxF -- "$match_key" "$ESSAY_SKIP_KEYS"; then
+        continue
+      fi
+    fi
 
     # Allowlist check
     if [[ -n "$ALLOWLIST" && "$ALLOWLIST" != "[]" ]]; then

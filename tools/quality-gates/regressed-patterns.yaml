@@ -165,7 +165,19 @@ patterns:
       pass: "Ch 1 Pass 2 voice-polish (F-V10)"
       commit: "7b4aa92"
       ratified: "2026-05-15"
-    allowlist: []
+    allowlist:
+      - file: "publishing/essays/noema-commons-bonds/essay.md"
+        line: 55
+        rationale: |
+          PROVISIONAL hold (2026-06-18, essay-scope re-enable). Surfaced by
+          bringing essay.md into scope: noema closes its FMLA paragraph with
+          "The architecture was the architecture." — the exact tic Ch 1 F-V10
+          cut. This is a GENUINE prose-body true-positive (the gate working),
+          NOT a frontmatter false-positive. Allowlisted only to keep the gate
+          green on first essay-scope enable; flagged to the author to confirm-
+          revise (preferred, per F-V10 precedent) or ratify-as-deliberate-
+          refrain. De-allowlist + revise in one step if revised. Line may need
+          re-pinning if noema/essay.md is edited.
 
   - id: regressed-bureaucratic-at-this-time
     pattern: '\bat this time\b'
@@ -1161,7 +1173,7 @@ scope:
     - "manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html"
     - "manuscript/chapters/_AUTHORSNOTE*.md"
     - "manuscript/chapters/_Dedication.md"
-    # - "publishing/essays/*/essay.md"  # temporarily excluded (essay files mix audit-trail frontmatter with prose body; follow-up cleanup queued)
+    - "publishing/essays/*/essay.md"  # re-enabled 2026-06-18; scanned body-only via frontmatter-aware stripping in check-corpus-invariants.sh
     - "publishing/op-eds/*/op-ed.md"
   exclude:
     - "tools/**/*.md"
