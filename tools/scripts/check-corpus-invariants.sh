@@ -251,13 +251,19 @@ else
     ls manuscript/chapters/Chapter_*Draft*.md 2>/dev/null || true
     ls manuscript/chapters/_AUTHORSNOTE*.md 2>/dev/null || true
     ls manuscript/chapters/_Dedication.md 2>/dev/null || true
-    find publishing/essay-drafts -type f -name '*.md' 2>/dev/null \
-      | grep -v '/archive/' \
-      | grep -v '/templates/' \
-      | grep -v '/_inventory_' || true
-    find publishing/op-eds -type f -name '*.md' 2>/dev/null \
-      | grep -v '/archive/' \
-      | grep -v '/_inventory_' || true
+    # Canonical end-user op-ed drafts only (mirror the --staged include set):
+    # one op-ed.md per directory. Exclude internal-scaffolding subtrees
+    # (_archive/, _pipeline/, _shared/) + per-op-ed rigor briefs / READMEs.
+    # NB: the prior `grep -v '/archive/'` did NOT exclude `_archive/` dirs and
+    # scanned every op-ed *.md (rigor briefs, READMEs, archived parallel drafts),
+    # producing hundreds of spurious HIGH matches on internal scaffolding.
+    find publishing/op-eds -type f -name 'op-ed.md' 2>/dev/null \
+      | grep -vE '/_archive/|/_pipeline/|/_shared/' || true
+    # publishing/essays/<venue>/essay.md is intentionally NOT scanned here yet
+    # (essay files mix audit-trail frontmatter with prose body; a frontmatter-
+    # aware scan is a queued follow-up). Keep this block in sync with the
+    # --staged include block above and the YAML scope.include list when essays
+    # are re-enabled.
   } > "$SCOPE_FILES"
 fi
 
