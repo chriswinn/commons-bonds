@@ -115,14 +115,21 @@ in any prose** until the TA session confirms empirical content.
 
 These are not open questions. The author ruled on each against the text on `main`.
 
-- **(a) HELD** — "aggregate B < aggregate RCV is a THEOREM" + "Hotelling Identity
-  bridges to standard theory" = possible definitional tautology. Gated on the TA
-  verification task (§5). Add/keep a `TAUTOLOGY-RISK; TA §4/§14.1 verification
-  PENDING; do NOT assert theorem in any prose until confirmed` caveat. **Do not
-  resolve either way.**
-- **(b) RETRACT/NARROW** — the broad "extends Pigou + Ostrom into a setting NEITHER
-  addressed" is FALSE. Narrow to the instrument-form-and-level claim. (See §2
-  MUST-NOW.)
+- **(a) RESOLVED 2026-06-17** (handoff updated 2026-06-18) — the TA verification
+  ran (commits `16475be6` / `9c829a89`, author-ratified): "aggregate B < aggregate
+  RCV" and the "Hotelling Identity" are **NOT tautologies**. B < RCV is an
+  **empirical observation** (TA Emp. Obs. 10.1b); the only theorem nearby is the
+  trivial sign-identity CS > 0 ⇔ B < RCV (Theorem 10.1a); the Identity was
+  hardened. **Keep both claims; never call either a "theorem" in any prose.** TA
+  already fixed; chapters/essays/proposal verified CLEAN of the false "theorem"
+  wording 2026-06-18. See `tools/audits/ta-tautology-verification_2026-06-17.md`.
+- **(b) RETRACT/NARROW — ⚠ CONFIRMED LIVE ON `main` (verified 2026-06-18):** the
+  broad "extends Pigou + Ostrom into a setting NEITHER addressed" is FALSE **and
+  STILL SHIPPING** at **Ch6 L323** (the TA-tautology session did NOT touch it). It
+  also self-contradicts the book: Ch4 L61 + Ch5 L206 credit **Hartwick** with
+  addressing exactly this drawn-down-extraction setting. FIX NOW — narrow to the
+  instrument-form-and-level claim; the proposal §00 (`00_overview.md` L57) already
+  models the defensible version. (See the Ch6 row for the exact one-line spec.)
 - **(c) KEEP** — "Harvey diagnoses; RCV measures" IS true and DOES land (TA §14.7
   verbatim + Ch2 L122). Keep the claim. The **only** action is to LAND it in the
   Ch3 reef narrative where the number-work currently runs Harvey-unnamed (a
@@ -188,7 +195,7 @@ its prose.)
 | Work / move | Relation | WHY (one line) | Tag |
 |---|---|---|---|
 | **Broome** (*Climate Matters* 2012; *Counting the Cost* 1992; "Discounting the Future" 1994) | extends / ally — the framework PRICES and RESERVES the duty Broome named; **co-grounds the forward arm** (the §3(e) re-assignment) | The book's three central philosophical moves are his, uncited, and it named the instrument *Restitution* Bond. Co-locate with Parfit (L259–273). Reinforces the civic-republican forward grounding rather than replacing it. | **MUST-NOW** |
-| **(b) Narrow "extends Pigou + Ostrom"** in the prose | TRUTH-FIX | Make the narrow (instrument-form-and-level) version consistently; the broad "neither addressed" version is false against Hartwick/Dasgupta/Ostrom-CPR. | **MUST-NOW** |
+| **(b) Narrow "extends Pigou + Ostrom"** — ⚠ **CONFIRMED LIVE at Ch6 L323** (verified 2026-06-18; the TA-tautology session did NOT fix it) | TRUTH-FIX — **false claim, still shipping in the book** | **Current (L323):** "extends two intellectual traditions — Pigouvian externality theory and Ostrom-lineage commons governance — *into a setting neither addressed*: extraction contexts where commons are drawn down…" **Exact one-line fix:** replace "into a setting neither addressed" with the instrument-form claim, e.g. "*into the drawn-down extraction setting, where commons are consumed rather than managed-in-place — and adds what neither built there:* a measurement methodology, a quantification (RCV), and a pricing instrument sized to the residual commons value." WHY: "neither addressed" is FALSE against Hartwick (the book leans on it, Ch4 L61 / Ch5 L206), Dasgupta, and Ostrom-CPR — a self-contradiction a resource economist catches. Model the defensible version on proposal §00 (`00_overview.md` L57). | **MUST-NOW — confirmed-live false claim** |
 | **Solow 1974 → into the S_max<1 prose** (already in TA L7001/L8295) | STRENGTHEN / surface existing | Ch6 takes the bounded-substitutability side of the weak-vs-strong-sustainability debate without naming the debate or the benchmark it departs from; Solow lives in the TA only. | **BOOK-2/3** (cheap surface) |
 | **Shue** subsistence-vs-luxury emissions | add-to / supports | Supplies the equity-of-incidence principle the heterogeneous-stakeholder design implicitly needs; McDowell miner = subsistence-emitter. Co-locate with Sen/Nussbaum/Rawls. | **BOOK-2/3** |
 | **Dasgupta 2021 Review** (distinct from the 1979 D&H already cited) | add-to / extend — instrument-vs-national-wealth-accounting differentiator | One-paragraph distinction inoculates cheaply against "doesn't know its field"; the broad version of that charge is false (D&H 1979 is cited ×3). | **BOOK-2/3** |
