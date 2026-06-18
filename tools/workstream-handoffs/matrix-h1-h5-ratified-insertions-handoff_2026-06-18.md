@@ -94,5 +94,80 @@ lineage-of-near-misses — handled in the essay session, not here.
 
 ---
 
+## H1 — Bidirectional atmospheric-climate-debt (RATIFIED as scoped 2026-06-18: credit-the-field + macro-vs-micro distinction in book prose)
+
+**Relation:** add-to / parallel — concede macro-priority, claim per-event micro-operationalization.
+**⚠ Coercion flag — credit-the-field only, NO figure.** The drafts name the scholars/programs
+and what *they* argue/compute and stake a *methodological* (grain-of-instrument) distinction;
+they produce **no atmospheric/climate-reparations dollar figure** and take no who-owes-whom
+position — fully inside the standing first-person abstention (Ch5 L210; TA §1.10). Register is
+**concede-first** (the field reached the bidirectional atmospheric commons first; the framework
+claims only the per-event grain), per author ratification.
+**Consistency note:** the micro-vs-macro phrasing ("not the idea but the grain") is the *same*
+differentiator as the L323 Pigou/Ostrom "neither addressed" fix now in flight — keep the two
+consistent at redline.
+
+### Insertion C — Ch5, new paragraph after L208 (the reparations-economics lineage), before L210 (the coercion-abstention boundary)
+
+`manuscript/chapters/Chapter__5_TheAccountabilityGap.md` — insert as a new paragraph after the
+"The backward instrument's lineage runs through the reparations tradition…" paragraph (L208)
+and before "A boundary has to be drawn honestly here…" (L210).
+
+> The backward lineage has a second tributary, and it is the one that, like the framework's own
+> apparatus, runs forward as well. A contemporary program in climate economics already prices an
+> atmospheric commons as a debt in both directions: Andrew Fanning and Jason Hickel's analysis of
+> compensation for atmospheric appropriation, the reparatory-justice plan advanced by CARICOM,
+> and the Loss and Damage Fund established at the 2022 United Nations climate conference and
+> operationalized the following year all treat the atmosphere as a commons over-appropriated by
+> some and foreclosed against others, with the debt running backward to historical emissions and
+> forward to the foreclosure of a stable climate, costed on the same social-cost-of-carbon spine
+> this book uses. The framework concedes the priority: that program reached the bidirectional
+> atmospheric commons first, and it argues the debt at the scale the problem is usually argued at,
+> the national aggregate, who owes whom across a global carbon budget. What the framework adds is
+> not the idea but the grain. It prices a single extraction event rather than a national balance,
+> and it reserves against that event rather than netting one nation's account against another's.
+> The atmospheric-debt program is the macro-accounting of the same commons the framework meters
+> one ton at a time.
+
+*Why here:* the racial-wealth-gap reparations tradition in the prior paragraph is backward-only;
+the atmospheric program is the one external field that, like the book's own two-instrument
+apparatus, runs *both* directions on a social-cost spine — so it bridges naturally from the
+backward lineage and sets up the bidirectional novelty claim. *Render:* zero em-dashes in the
+prose block by design.
+
+### Insertion D — TA §5.5, new lineage entry parallel to the Darity-Mullen entry (TA L1565)
+
+`manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html` §5.5 — add as a sibling lineage
+entry beside the existing "*The racial wealth gap as legacy-effect pricing*" (Darity & Mullen)
+block at L1565. **(TA-session note: encode em-dashes as `&mdash;` etc. per TA convention; the
+draft below is deliberately em-dash-free so it is render-safe either way.)**
+
+> *The atmospheric commons as bidirectional climate debt.* Fanning & Hickel 2023 ("Compensation
+> for atmospheric appropriation," *Nature Sustainability*), the CARICOM reparatory-justice plan,
+> and the Loss and Damage Fund (UN climate conferences, 2022 and 2023) price an over-appropriated
+> atmospheric commons as a debt running both backward (historical emissions) and forward
+> (foreclosed climate stability) on a social-cost-of-carbon spine. It is the contemporary
+> literature's most developed bidirectional commons-pricing program. It relates to the framework
+> as macro to micro: it accounts the atmospheric debt at national-aggregate scale, in allocations
+> across a global carbon budget, whereas the framework's apparatus prices and reserves against a
+> single extraction event. The framework concedes the program's priority at the
+> bidirectional-atmospheric level and claims only the per-event micro-operationalization.
+> Consistent with §1.10's first-person abstention, the framework supplies the ledger structure
+> for this direction and does not itself assign a coercion- or reparations-scale dollar figure to
+> the atmospheric debt.
+
+**Bibliography action (TA session + master):** add **Fanning, Andrew L., and Jason Hickel.
+"Compensation for atmospheric appropriation." *Nature Sustainability* 6 (2023): 1077–1086.**
+(verify volume/pages at insertion) to the TA bibliography and `tools/back-matter/sources/bibliography.md`.
+CARICOM plan + Loss and Damage Fund are programs/institutions, cited inline; add to bibliography
+only if the TA's citation style lists institutional sources.
+
+**Essay carry (essay & op-ed session's domain):** Fanning-Hickel/L&D → **Foreign Affairs**
+(international-macro + climate-economics readers) and **$100 Barrel** (add the climate-debt
+near-miss to its Polanyi/Fraser lineage), per the scoping plan §1 H1.
+
+---
+
 *PROPOSED 2026-06-18. Findings append to this artifact as the author ratifies them one at a
-time. Next in the recommended queue: H1 (atmospheric climate-debt, credit-the-field).*
+time. Recorded so far: **H2a (Broome)**, **H1 (atmospheric climate-debt)**. Next in the
+recommended queue: **H2b (Nozick / Lockean proviso)**.*
