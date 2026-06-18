@@ -95,7 +95,13 @@ texts, cross-checked against the 2026-06-15 landing-point audit
   "Mazzucato names the extraction; the framework adds the accounting" / "Harvey
   diagnoses; RCV measures." Conservative posture: Weitzman declining discount
   rates bias RCV downward; CS > 0 robust across the Nordhaus-to-Stern range;
-  aggregate B < aggregate RCV is a theorem.
+  aggregate B < aggregate RCV is an **empirical observation** (TA Empirical
+  Observation 10.1b), NOT a theorem — it holds because the *independently-
+  estimated* RCV exceeds the *independently-observed* posted bond B, not by
+  definition. The only theorem in the neighborhood is the trivial sign-identity
+  CS > 0 ⇔ B < RCV (TA Theorem 10.1a). The instrument's downward bias is
+  "conservative by construction"; B < RCV itself is not "by construction." (See
+  `tools/audits/ta-tautology-verification_2026-06-17.md`.)
   **CURRENT STATUS (v2): the measurement-not-diagnosis posture is ENACTED most
   fully in Ch2 (L173/L183/L185 "the missing instrument") and Ch8 (the single
   worked 8-component ton) — but in BOTH, the named critical-tradition thinkers
@@ -114,8 +120,8 @@ draft; canonical may differ (see Reconciliation notes).
 
 | Work | Relationship | Where (v2) — chapters | Where (v2) — essays/TA | Status |
 |---|---|---|---|---|
-| A.C. Pigou — externality theory (1920) | extend-into-a-setting-they-could-not-reach | **Ch2** (named L139, externality-insufficiency); Ch6 "The Contribution" | TA §14 Theorem P2, §15.1.4 | Ch2 PARTIAL (named; extend-relation routed to TA/Ch6) · Ch6 LANDED · Ch8 MISSING (worked-ton chapter, Pigou never named) |
-| Ronald Coase — Problem of Social Cost (1960) / Theorem P1 | extend-into-a-setting-they-could-not-reach | **Ch9** (property-rights-and-limits); seeded narratively **Ch1** (L104 concession), **Ch2** (L69 "cannot raise a hand at the auction") | TA Theorem P1, §15.1.2; Atlantic Ideas opener | Ch9 LANDED · Ch1 PARTIAL (concession-half by design; rebuttal routed to Ch9) · Ch2 PARTIAL (P1 intuition shown, Coase unnamed) |
+| A.C. Pigou — externality theory (1920) | extend-into-a-setting-they-could-not-reach | **Ch2** (named L139, externality-insufficiency); Ch6 "The Contribution" | TA §14 / Emp. Obs. 10.1b Premise (ii) (Pigou), §15.1.4 | Ch2 PARTIAL (named; extend-relation routed to TA/Ch6) · Ch6 LANDED · Ch8 MISSING (worked-ton chapter, Pigou never named) |
+| Ronald Coase — Problem of Social Cost (1960) / Emp. Obs. 10.1b Premise (i) | extend-into-a-setting-they-could-not-reach | **Ch9** (property-rights-and-limits); seeded narratively **Ch1** (L104 concession), **Ch2** (L69 "cannot raise a hand at the auction") | TA Emp. Obs. 10.1b Premise (i) (Coase), §15.1.2; Atlantic Ideas opener | Ch9 LANDED · Ch1 PARTIAL (concession-half by design; rebuttal routed to Ch9) · Ch2 PARTIAL (P1 intuition shown, Coase unnamed) |
 | Harold Hotelling — Exhaustible Resources (1931) / Hotelling Identity | add-to / extend | **Ch6** (line ~331 bridge) | TA §4, §14.1; $100 Barrel "lineage of near-misses" | Ch6 LANDED · Ch8 MISSING (signature bridge absent from worked-ton chapter) |
 | John Hartwick — Hartwick's Rule (1977) | extend-into-a-setting / generalize | **Ch4** (canonical L61 "Hartwick's rule made real at the scale of a nation... It also goes a step past the rule"; the reserve-keeps-substitution-open extension is the named go-past); **Ch6** (3 hits); Ch5 (1 hit) | TA §14.2, §5 B₂ lineage; $100 Barrel; Foreign Affairs §III | Ch4 LANDED (canonical L61 — Hartwick NAMED with *AER* 67, 1977 cite + extended; build-time "grep=0/MISSING" was against the unpromoted redo and is now FALSE) · Ch6 LANDED · Ch5 PARTIAL |
 | Herman Daly — ecological economics / strong sustainability | add-to / operationalize-quantitatively | Ch6 | TA §14.6; $100 Barrel; Atlantic Ideas | Ch6 LANDED · Ch8 MISSING (Daly "warning vs invoice" absent from worked-ton) |
@@ -161,8 +167,8 @@ draft; canonical may differ (see Reconciliation notes).
 
 | Objection | Source | Where (v2) — chapters | Status |
 |---|---|---|---|
-| Coasean/voluntary-trades ("a free-market economist would say I made voluntary trade-offs — and I did") | property-rights / free-market-environmental; center-right reader | **Ch9** (rebuttal via Theorem P1); concession-half **Ch1** (L104), **Ch2** (L69), **Ch3** (L242/L266), **Ch5** | Ch9 LANDED · Ch1 PARTIAL (concession by design) · Ch2 PARTIAL (engaged in substance, not framed as the objection) · Ch3 PARTIAL (no-villain shown, objection not steelmanned) · Ch5 PARTIAL · Ch6 PARTIAL |
-| Double-counting / just-Pigou | mainstream resource/environmental economists | **TA** (Theorem P2 + Hotelling Identity); **Ch6** "The Contribution" | TA LANDED · Ch6 LANDED · Ch8 MISSING (prices 8 residual components; just-Pigou attack never raised/answered) |
+| Coasean/voluntary-trades ("a free-market economist would say I made voluntary trade-offs — and I did") | property-rights / free-market-environmental; center-right reader | **Ch9** (rebuttal via the intergenerational-incompleteness argument, L160; TA Emp. Obs. 10.1b Premise (i), Coase extension); concession-half **Ch1** (L104), **Ch2** (L69), **Ch3** (L242/L266), **Ch5** | Ch9 LANDED · Ch1 PARTIAL (concession by design) · Ch2 PARTIAL (engaged in substance, not framed as the objection) · Ch3 PARTIAL (no-villain shown, objection not steelmanned) · Ch5 PARTIAL · Ch6 PARTIAL |
+| Double-counting / just-Pigou | mainstream resource/environmental economists | **TA** (Emp. Obs. 10.1b Premise (ii) [Pigou] + Hotelling Identity); **Ch6** "The Contribution" | TA LANDED · Ch6 LANDED · Ch8 MISSING (prices 8 residual components; just-Pigou attack never raised/answered) |
 | Just-rebranded-externality-theory | law-and-economics / Coasean readers | essays (Public Books distinction); port into chapters | essay LANDED · Ch8 MISSING |
 | Discount-rate fight (pick Nordhaus 5.5% and the multiples collapse) | integrated-assessment economists | **TA** §14.3 + §15 limit 6; **Ch6**; **Ch10** (L76 named) | TA LANDED · Ch6 LANDED · Ch10 PARTIAL |
 | Ostrom already governed commons without pricing; the bond is the commodifying move | commons-governance / Ostrom tradition | **Ch6** "Two Kinds of Commons" coordination-vs-extraction | Ch6 LANDED |

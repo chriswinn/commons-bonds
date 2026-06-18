@@ -1,6 +1,6 @@
 # TA Tautology Verification — B vs RCV + the Hotelling Identity
 
-**Status: VERIFICATION COMPLETE (findings RATIFIED-as-fact); WORDING FIXES PROPOSED (author-gated).**
+**Status: VERIFICATION COMPLETE (findings RATIFIED-as-fact); WORDING FIXES APPLIED (author-ratified 2026-06-17 — see "APPLIED" section at end).**
 **Date: 2026-06-17**
 **Trigger:** `tools/audits/matrix-independent-verification_2026-06-17.md` §3 #1 / §4 #3 — the
 single finding the matrix-independent synthesis "could not verify either way," flagged as the
@@ -193,6 +193,34 @@ definitional-truth connotation.
 "No chapter or essay asserts 'theorem' for B < RCV or the Hotelling Identity." Currently true.
 Recommend adding it as a `tools/quality-gates/regressed-patterns.yaml` guard so a future
 drafting session pulling from the matrix can't reintroduce it.
+
+---
+
+## APPLIED 2026-06-17 (author-ratified)
+
+FIX 1 (apply now) + FIX 2 (clarifying sentence, no rename) ratified and applied this session.
+
+- **FIX 1 — drafting-source corrections (internal scaffolding):** the "B < RCV is/as a
+  theorem" over-claim removed and the "Theorem P1/P2" / "Theorem 10.1b/Thm 10.1b" drift labels
+  retired in the *live and superseded matrix + its build-records + live ideas/figure sources*
+  only — `_contribution-matrix-lens_v2_2026-06-15.md`, `_contribution-matrix-lens_2026-06-04.md`,
+  `_contribution-matrix-reads_2026-06-04.json`, `_chapter-deeppass-summaries_2026-06-04.json`,
+  `_CANDIDATE-BEATS-AND-DEVICES.md`, `_CANONICAL_FIGURE_LEDGER.md`. "Theorem P1/P2" → "Emp. Obs.
+  10.1b Premise (i)/(ii)"; "Theorem/Thm 10.1b" → "Empirical Observation 10.1b".
+- **FIX 2 — TA §4.2 (publisher-facing prose, merge-on-ratification):** added an
+  "Independent-measurement note (why this is not a definitional tautology)" paragraph naming the
+  two independently-measured inputs and disambiguating the shared "CS" symbol. The "Identity"
+  label was retained (rename to "Bridge" declined this round; the §4.2 prose now calls it a
+  *bridge* in-line, which carries the disambiguation without the rippling rename).
+
+**Deliberately NOT rewritten (audit-trail preservation):** the period-correct "Theorem 10.1b" /
+"Thm 10.1b" / "Theorem P1/P2" labels in *historical rigor-pass, audit, sign-off, pre-submission-
+review, handoff, and code-comment records* — e.g. `tools/audits/ta-internal-correctness-sweep_2026-06-07.md`
+(which itself records the "Theorem 10.1b → Empirical Observation 10.1b" relabel decision),
+`manuscript/technical-appendix/TA-rigor-audit-ledger_2026-06-06.md` (the B1/B2 findings),
+`tools/rigor-passes/*`, and the calc-file comments. Those legitimately preserve the label as it
+stood at their date; rewriting them would corrupt the rigor audit trail. `STATE.md`'s
+reef-migration MERGE-HOLD line is owned by a different workstream and left untouched.
 
 ---
 
