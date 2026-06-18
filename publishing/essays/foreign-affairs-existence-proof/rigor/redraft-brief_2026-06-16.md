@@ -161,6 +161,7 @@ L120, L126, L137, L144, L149, L176, L181, L182) + the gap list §3.2.
 | **Norway-transferability objection** (small/homogeneous/high-trust/windfall) | **PARTIAL — DEFAULT: keep the essay's selection-criterion move; four cases canonical + available (author call to import)** | The essay rebuts transferability via the **selection-criterion move** (the mechanism "preys on weakness"; that is its selection criterion) + the McDowell baseline (Ch 4 L73-79). Canonical Ch 4 ALSO runs an Alaska/Chattanooga/Mondragón/Vienna four-cases set (L101-111) — **available substrate**; the brief's DEFAULT keeps the leaner FA-scope move, but the author may elect to import one/some at ratification. | matrix L181 (Ch4 LANDED via four cases); gap-list checklist; §3.1 below |
 | **Mazzucato — *The Value of Everything* (2018)** | **add-to / SUPPORTS (register comp; one prose mention if §III/§V requires)** | The framework extends Mazzucato's value-extraction diagnosis into the physical-resource + sovereign-wealth domain. Inherited §3/§7.11. **Ch 4 chapter prose does not name Mazzucato**; this is an essay-register comp, not a Ch4-homed relation — one prose mention only if the analytical move requires it; not load-bearing. | matrix L142 (Ch2/Ch6 homes; FA essay-side); inherited §7.11 |
 | **Pistor — *The Code of Capital* (2019)** | **extend-into-a-setting; KEPT ON THE NIGERIA SIDE ONLY** | Pistor stays where the essay already has her: the **Nigeria legal-engineering side** (essay L74; Ch 4 L87 transfer-pricing / secrecy-jurisdiction / pre-independence concession-inheritance = the value-leakage mechanism). **Do NOT route Pistor into a financialization-as-objection rebuttal in FA** (see §3.1). | matrix L143 (Foreign Affairs §IV); Ch 4 L87; §3.1 below |
+| **Fanning & Hickel 2023, "Compensation for atmospheric appropriation" (*Nature Sustainability*) + CARICOM reparations plan + COP27/28 Loss & Damage Fund** | **parallel / concede-macro-priority, claim per-event micro-operationalization (CREDIT-THE-FIELD; NO coercion figure)** | **NEW — folded 2026-06-18 per matrix-independent-verification §1 H1 + §2 #1 (MUST-NOW land-triage).** This is the single most dangerous *genuine* grep=0 gap because it sits at the book's exact configurational-novelty joint: Fanning-Hickel / CARICOM / the L&D Fund already price an atmospheric commons as a debt running **both** forward (foreclosing future foreclosure) and **backward** (historical emissions owed), on an SCC spine — precisely the "one apparatus, both directions" claim the framework stakes. An FA reader steeped in international-macro + climate-economics is the *exact* reader who knows this program; the unanswered reviewer line is **"what does the Foreclosure + Restitution pair add to SCC-based climate-debt accounting beyond renaming it?"** The redraft must make the differentiator legible: the framework's contribution is **per-extraction-event micro-instrument operationalization vs. national-aggregate macro-accounting** (concede the macro-priority to Fanning-Hickel/CARICOM; claim the per-event instrument form + the reserve-as-optionality move). **One prose mention**, credit-the-field exactly as Darity-Mullen is credited; **NO coercion / reparations dollar figure** (CLAUDE.md §coercion-pricing first-person abstention). Natural home: **§IV (Nigeria / the international architecture)** where the macro-scale climate-debt program is the live comparator, or **§III** where the both-margins instrument is built. See §3.1 route-IN decision C-1b. | matrix-verification §1 H1 / §2 #1 (HIGH; flag: credit-the-field, no figure); grep=0 corpus-wide (Fanning / CARICOM / loss-and-damage / atmospheric-appropriation all 0; Hickel present only as degrowth) |
 
 **Stage 3 consequence:** Pass 3.3 / 3.4 add a positioning-legibility check. For
 each row, can the dispositive audiences (Tier 1 FA editor; Tier 1 #3 SWF
@@ -184,6 +185,20 @@ positioning moves most at risk of being lost in the reframe; weight them.
 - **Pistor → Nigeria side ONLY.** Pistor stays the Nigeria legal-engineering
   attribution (essay L74). She does NOT migrate into a financialization-objection
   rebuttal. (Consistent with the route-out above.)
+- **Fanning-Hickel / CARICOM / L&D → ROUTED IN (NEW, folded 2026-06-18).** This is
+  the inverse of the financialization route-OUT: the bidirectional-atmospheric-debt
+  program is **NOT a financialization objection** — it is the **nearest-kin priced
+  instrument at the book's novelty joint**, and leaving it unengaged in an FA essay
+  is the highest-confidence forever-miss for this venue (the FA reader knows the L&D
+  Fund + CARICOM plan by name). Decision: **FA SEEDS the differentiator** — concede
+  the macro-aggregate priority to Fanning-Hickel/CARICOM/L&D, claim the per-event
+  micro-instrument operationalization + reserve-as-optionality. **One prose mention,
+  credit-the-field, NO coercion/reparations figure.** This rides the existing §IV
+  international-architecture machinery (the climate-debt program is the macro
+  comparator to Norway's per-jurisdiction bond), so it is a **fold into existing
+  scaffolding, not a new section.** It does NOT reopen the financialization route-OUT
+  (different literature, different move). Author confirms or overrides at ratification
+  (new call C-1b, §7).
 - **Four-cases set — editorial/author call (DEFAULT: keep FA lean).** The Alaska /
   Chattanooga / Mondragón / Vienna four-cases transferability set IS canonical in
   promoted Ch 4 (L101-111) and is therefore **available substrate** for the redraft.
@@ -386,6 +401,16 @@ passing grade — even in FA's third-person institutional register.
   bars Polanyi/Fraser import (v2 homes them Ch5/Ch9/TA; Ch4 out-of-reach). The
   gap-list flagged this as a P2 decision for the brief to MAKE; the brief makes it
   (route OUT). Author confirms or overrides at ratification.
+- **C-1b — Fanning-Hickel / CARICOM / L&D route-IN (NEW, folded 2026-06-18; confirm
+  at ratification).** §3 adds the bidirectional-atmospheric-debt program as a
+  positioning row and §3.1 routes it IN (concede macro-priority, claim per-event
+  micro-operationalization; one prose mention; credit-the-field; NO coercion figure).
+  Rationale: matrix-independent-verification §1 H1 / §2 #1 ranks this the single most
+  dangerous *genuine* grep=0 gap, sitting at the book's exact novelty joint, and the
+  FA reader is the one most likely to know the L&D Fund + CARICOM plan. Folded into
+  §IV's existing international-architecture machinery (not a new section). Author
+  confirms or overrides; if overridden, the reviewer line "isn't this the climate-debt
+  program renamed?" goes unanswered on the page for the FA audience specifically.
 - **C-2 — Pistor-Nigeria-only.** §3.1 keeps Pistor on the Nigeria legal-engineering
   side only (essay L74); she does not migrate to a financialization rebuttal.
   Confirm.

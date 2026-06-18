@@ -1,6 +1,16 @@
 # Commons Bonds — Contribution-Matrix Lens (v2)
 
-**Status: RATIFIED 2026-06-17** (author ratification). This v2 lens is now the authoritative contribution-matrix reference, superseding the 2026-06-04 lens. The three "Reconciliation notes (author action)" at the end remain OPEN — ratifying the lens does not auto-resolve them. **Ch4 reconciliation applied 2026-06-16** (Reconciliation note #1 RESOLVED against promoted-canonical Ch4; notes #2 + #3 remain OPEN). One post-build delta logged: see "Ratification addendum (2026-06-17)" at the foot of this file; see "Ch4 reconciliation APPLIED 2026-06-16" addendum for the Ch4 cell updates.
+**Status: RATIFIED 2026-06-17 · TARGET-POSITIONING REFRAME + FINDINGS FOLD-IN APPLIED 2026-06-17.** This v2 lens is now the authoritative contribution-matrix reference, superseding the 2026-06-04 lens. The three "Reconciliation notes (author action)" at the end remain OPEN — ratifying the lens does not auto-resolve them. **Ch4 reconciliation applied 2026-06-16** (Reconciliation note #1 RESOLVED against promoted-canonical Ch4; notes #2 + #3 remain OPEN). One post-build delta logged: see "Ratification addendum (2026-06-17)" at the foot of this file; see "Ch4 reconciliation APPLIED 2026-06-16" addendum for the Ch4 cell updates. **Target-positioning reframe + independent-verification findings folded in 2026-06-17: see "Target-positioning reframe + findings fold-in APPLIED 2026-06-17" addendum at the foot.**
+
+## How to read this lens — TARGET positioning, not a claim inventory (framing note, 2026-06-17)
+
+**This lens describes the TARGET positioning — what the book SHOULD argue to land — and the Status column tracks how far the draft on `main` has gotten toward that target.** Per the author-ratified governing rule of 2026-06-17 (judge every claim by TRUTH + defensibility + strategic value, not by what the current draft contains):
+
+- A `MISSING` / `TO-ADD` status is **a target the draft has not yet reached — NOT a claim to drop.** If the work is true and makes the book stronger, the action is to STRENGTHEN it (do the work / add the citation / land it in the narrative), not to subtract it. Retraction is reserved for the narrow set of claims that are *false or indefensible*; those are marked explicitly as TRUTH-NARROWING below.
+- TO-ADD rows are tagged with a priority bucket: **[MUST-NOW]** = land-deciding or a forever-following miss (a published book lands or it doesn't; a catchable miss follows the book permanently), vs **[BOOK-2/3 / cheap-optional]** = real but not land-deciding. Do not present [BOOK-2/3] items as must-haves.
+- Where a status was stale (the matrix said MISSING but the prose already engages), the cell is CORRECTED to PRESENT with the verified cite — the draft is further toward target than the 2026-06-15 build recorded.
+
+Provenance for the reframe + the verified corpus states quoted in the TO-ADD rows: `tools/audits/matrix-independent-verification_2026-06-17.md` (independent grep-verified synthesis of four literature-cluster lens reviews against the 10 canonical chapters + TA, 2026-06-17).
 **Supersedes `_contribution-matrix-lens_2026-06-04.md`** (which carried a STALE
 chapter numbering predating the current 10-chapter structure — it assigned
 landing points only to Ch1/5/6/9/10 and gave Ch2/3/4/7/8 zero points).
@@ -73,12 +83,28 @@ texts, cross-checked against the 2026-06-15 landing-point audit
   forward; Darity-Mullen backward), the Hotelling Identity (RCV − Hotelling rent
   = CS per unit) bridges to standard resource economics, Option C′ accommodates
   political-philosophical diversity, and ARR (Savage) handles irreversibility.
-  The framework EXTENDS its two parent traditions — Pigouvian externality theory
-  and Ostrom commons-governance — into a setting neither addressed. The NYRB
-  four-thinker synthesis is the crispest articulation: Pistor names the
-  location, Mazzucato the activity, Christophers the mechanism, Susskind the
-  metric — none operationalize the corrective at the per-extraction-event level;
-  "what remains is the assembly."
+  **The framework's parent-tradition relation, NARROWED to the defensible
+  version (TRUTH-NARROWING (b), 2026-06-17):** the new contribution is the
+  **INSTRUMENT FORM** — a per-extraction-event, bidirectional, reserve-against
+  instrument, and its level — NOT the idea of pricing natural capital or
+  governing depletable-stock commons. The broad "EXTENDS Pigou + Ostrom into a
+  setting NEITHER addressed" claim is **FALSE and must NOT be asserted**: Hartwick
+  1977 (which the book itself leans on at Ch5 L206) and the Dasgupta tradition
+  already priced the drawn-down resource commons, and Ostrom's CPR work covers
+  appropriation-from-depletable-stock (groundwater). State only the
+  instrument-form-and-level version consistently. The NYRB four-thinker synthesis
+  is the crispest articulation: Pistor names the location, Mazzucato the activity,
+  Christophers the mechanism, Susskind the metric — none operationalize the
+  corrective at the per-extraction-event level; "what remains is the assembly."
+  **(a) RESOLVED 2026-06-17 (supersedes the earlier tautology-risk HOLD):** the
+  TA-owning session verified the Hotelling Identity (RCV − Hotelling rent = CS per
+  unit) and aggregate-B < aggregate-RCV against the canonical TA — they are NOT
+  definitional tautologies. RCV and the posted bond B are independently
+  estimated/observed, so B < RCV is an **empirical observation** (TA Emp. Obs.
+  10.1b); the only theorem nearby is the trivial sign-identity CS > 0 ⇔ B < RCV
+  (TA Theorem 10.1a), and the Identity bridge was hardened. Keep both moves; but
+  **never call B < RCV or the Hotelling Identity a "theorem" in prose.** See
+  `tools/audits/ta-tautology-verification_2026-06-17.md`.
   **CURRENT STATUS (v2): the configurational spine is delivered across the
   formal-economics chapters — Ch6 carries the full Three Ways + Four Gates
   apparatus (17/23 matrix points LANDED per audit); Ch9 carries the
@@ -93,21 +119,38 @@ texts, cross-checked against the 2026-06-15 landing-point audit
   Against the critical/dispossession traditions (Harvey, Mazzucato, Federici,
   Patel & Moore, Coates) the value-add is the MAGNITUDE, not the mechanism:
   "Mazzucato names the extraction; the framework adds the accounting" / "Harvey
-  diagnoses; RCV measures." Conservative posture: Weitzman declining discount
-  rates bias RCV downward; CS > 0 robust across the Nordhaus-to-Stern range;
-  aggregate B < aggregate RCV is an **empirical observation** (TA Empirical
-  Observation 10.1b), NOT a theorem — it holds because the *independently-
-  estimated* RCV exceeds the *independently-observed* posted bond B, not by
-  definition. The only theorem in the neighborhood is the trivial sign-identity
-  CS > 0 ⇔ B < RCV (TA Theorem 10.1a). The instrument's downward bias is
-  "conservative by construction"; B < RCV itself is not "by construction." (See
-  `tools/audits/ta-tautology-verification_2026-06-17.md`.)
+  diagnoses; RCV measures." **(c) Harvey relation KEEPS (verified sound,
+  2026-06-17):** "Harvey diagnoses; RCV measures" IS true and DOES land (TA §14.7
+  verbatim + Ch2 L122) — keep the claim. The only draft-progress action is to
+  LAND it in the Ch3 reef narrative, where the number-work currently runs
+  Harvey-unnamed (an attribution-distribution strengthen/ADD, NOT a claim change;
+  see TO-ADD row + §H5 attribution-distribution pull-up). **(d) Reparations
+  economics is CARVED OUT of this meta-claim (TRUTHFUL DESCRIPTION, 2026-06-17):**
+  Darity & Mullen did NOT merely diagnose — they already did the accounting (the
+  *From Here to Equality* wealth-gap + longevity-gap computation). The true
+  relation is **METHOD-PORT / specialize** ("apply their backward-pricing method
+  to extraction communities"), NOT "they diagnosed, we add the magnitude they
+  lacked." The Mazzucato/Harvey "magnitude is the value-add" framing must NOT be
+  generalized onto a tradition that already priced. Conservative posture: Weitzman
+  declining discount rates bias RCV downward; CS > 0 robust across the
+  Nordhaus-to-Stern range; **aggregate B < aggregate RCV is an empirical
+  observation (TA Empirical Observation 10.1b), NOT a theorem — RESOLVED
+  2026-06-17 (supersedes the earlier (a) tautology-risk HOLD): it holds because
+  the *independently-estimated* RCV exceeds the *independently-observed* posted
+  bond B, not by definition. The only theorem in the neighborhood is the trivial
+  sign-identity CS > 0 ⇔ B < RCV (TA Theorem 10.1a). The instrument's downward
+  bias is "conservative by construction"; B < RCV itself is not "by
+  construction." Never call B < RCV or the Hotelling Identity a "theorem" in
+  prose. See `tools/audits/ta-tautology-verification_2026-06-17.md`.**
   **CURRENT STATUS (v2): the measurement-not-diagnosis posture is ENACTED most
   fully in Ch2 (L173/L183/L185 "the missing instrument") and Ch8 (the single
   worked 8-component ton) — but in BOTH, the named critical-tradition thinkers
   (Harvey, Mazzucato, Pistor) are absent from running prose ("matrix work with
   zero attribution"). The attribution lands in Ch5/Ch6/Ch9; the magnitude-work
-  lands in Ch2/Ch3/Ch8.**
+  lands in Ch2/Ch3/Ch8. This attribution-distribution gap is the highest-yield
+  / lowest-cost TARGET below: pull the TA's EXISTING citations (Harvey→Ch3 reef,
+  Solow→Ch6 substitutability, SCC/Rennert + Costanza/Hotelling→Ch8 worked ton) up
+  into the narrative where the stance is taken (§H5 / TO-ADD pull-up row).**
 
 ---
 
@@ -120,9 +163,9 @@ draft; canonical may differ (see Reconciliation notes).
 
 | Work | Relationship | Where (v2) — chapters | Where (v2) — essays/TA | Status |
 |---|---|---|---|---|
-| A.C. Pigou — externality theory (1920) | extend-into-a-setting-they-could-not-reach | **Ch2** (named L139, externality-insufficiency); Ch6 "The Contribution" | TA §14 / Emp. Obs. 10.1b Premise (ii) (Pigou), §15.1.4 | Ch2 PARTIAL (named; extend-relation routed to TA/Ch6) · Ch6 LANDED · Ch8 MISSING (worked-ton chapter, Pigou never named) |
+| A.C. Pigou — externality theory (1920) | extend-into-a-setting-they-could-not-reach **[NARROWED (b) 2026-06-17: the new contribution is the INSTRUMENT FORM (per-event, bidirectional, reserve-against) + level, NOT the idea of pricing externalities/natural capital — Pigou/Hartwick/Dasgupta already priced it; do NOT assert "a setting neither addressed"]** | **Ch2** (named L139, externality-insufficiency); Ch6 "The Contribution" | TA §14 / Emp. Obs. 10.1b Premise (ii) (Pigou), §15.1.4 | Ch2 PARTIAL (named; extend-relation routed to TA/Ch6) · Ch6 LANDED · Ch8 MISSING (worked-ton chapter, Pigou never named) |
 | Ronald Coase — Problem of Social Cost (1960) / Emp. Obs. 10.1b Premise (i) | extend-into-a-setting-they-could-not-reach | **Ch9** (property-rights-and-limits); seeded narratively **Ch1** (L104 concession), **Ch2** (L69 "cannot raise a hand at the auction") | TA Emp. Obs. 10.1b Premise (i) (Coase), §15.1.2; Atlantic Ideas opener | Ch9 LANDED · Ch1 PARTIAL (concession-half by design; rebuttal routed to Ch9) · Ch2 PARTIAL (P1 intuition shown, Coase unnamed) |
-| Harold Hotelling — Exhaustible Resources (1931) / Hotelling Identity | add-to / extend | **Ch6** (line ~331 bridge) | TA §4, §14.1; $100 Barrel "lineage of near-misses" | Ch6 LANDED · Ch8 MISSING (signature bridge absent from worked-ton chapter) |
+| Harold Hotelling — Exhaustible Resources (1931) / Hotelling Identity | add-to / extend **[(a) RESOLVED 2026-06-17 (supersedes the tautology-risk HOLD): the "RCV − Hotelling rent = CS per unit" Identity is NOT a definitional tautology — verified + hardened against the TA (`ta-tautology-verification_2026-06-17.md`). Keep the bridge; but never call it a "theorem" in prose.]** | **Ch6** (line ~331 bridge) | TA §4, §14.1; $100 Barrel "lineage of near-misses" | Ch6 LANDED · Ch8 MISSING (signature bridge absent from worked-ton chapter) |
 | John Hartwick — Hartwick's Rule (1977) | extend-into-a-setting / generalize | **Ch4** (canonical L61 "Hartwick's rule made real at the scale of a nation... It also goes a step past the rule"; the reserve-keeps-substitution-open extension is the named go-past); **Ch6** (3 hits); Ch5 (1 hit) | TA §14.2, §5 B₂ lineage; $100 Barrel; Foreign Affairs §III | Ch4 LANDED (canonical L61 — Hartwick NAMED with *AER* 67, 1977 cite + extended; build-time "grep=0/MISSING" was against the unpromoted redo and is now FALSE) · Ch6 LANDED · Ch5 PARTIAL |
 | Herman Daly — ecological economics / strong sustainability | add-to / operationalize-quantitatively | Ch6 | TA §14.6; $100 Barrel; Atlantic Ideas | Ch6 LANDED · Ch8 MISSING (Daly "warning vs invoice" absent from worked-ton) |
 | Elinor Ostrom — Governing the Commons (1990) | parallel / extend-into-a-setting | **Ch6** "Two Kinds of Commons" (L198-200); renewable/non-renewable boundary SHOWN narratively in **Ch2** (L211), **Ch3** (L51-70), **Ch4** (canonical L69 scope-note) | TA §14.5; $100 Barrel; Atlantic Ideas | Ch6 LANDED · Ch2 PARTIAL (boundary shown, Ostrom unnamed) · Ch3 PARTIAL (richest lived rendering, Ostrom unnamed) · Ch4 PARTIAL (canonical L69 scope-note runs the non-renewable/renewable boundary incl. the oyster; Ostrom unnamed, grep=0) |
@@ -135,16 +178,17 @@ draft; canonical may differ (see Reconciliation notes).
 | Costanza et al.; revealed-preference (Samuelson/Hicks/Bockstael-McConnell); Campbell & Fiske 1959 | add-to / use-as-estimation-input | **Ch6** (Three Ways) | TA §3, §15.1.1, 15.1.3 | Ch6 LANDED · Ch8 MISSING (Method 1/Method 3 gestured at L36, Costanza/Dixit-Pindyck unnamed) |
 | Kate Raworth — Doughnut Economics | parallel | **Ch9** "What a framework does" (L132) | Atlantic Ideas; NYRB | Ch9 LANDED |
 | Brett Christophers — The Price Is Wrong (2024) | add-to (ally) | **Ch9** (canonical L168); foreshadow intended Ch5 | NYRB (mechanism of quartet); Public Books | Ch9 LANDED (canonical) · Ch5 MISSING (matrix-specified foreshadow dropped in redraft; stale "184" cite) |
+| Brett Christophers — **Rentier Capitalism (2020)** [distinct from *The Price Is Wrong* 2024, the only Christophers book currently engaged] | claimed-ally that is substantially a THREAT to rebut (a bond over a natural asset = the rentier move) — naming it + showing the bond lacks convertibility/transferability converts the Ch5 L172 financialization *assertion* into a *demonstration* | **Ch9** (financialization terrain, beside Pistor L166 / Christophers L168); **Ch5** L172 strengthen | NYRB (reviews Christophers — the quartet's "mechanism") | **TO-ADD [BOOK-2/3 / cheap-optional — BUT NYRB-essay-MUST]** (book-incremental; *Rentier Capitalism* = **only 1 essay corpus-wide**, 0 chapters; for NYRB it is essay-must because NYRB reviews Christophers) · relation = threat-to-rebut, not ally |
 | Daniel Susskind — Growth: A Reckoning (2024) | parallel | **Ch9** "What a framework does" (intended, L132 quartet) | NYRB (metric of quartet) | Ch9 MISSING (drafting-miss: quartet written with Harvey/Ostrom/Raworth/Desmond; Susskind dropped) |
 | Public Choice — Buchanan & Tullock; Mancur Olson (1965) | parallel / add-to | **Ch5** "Architecture and rent-seeking"; **Ch9** (L146 cleanly); named **Ch8** (L~126/134) | Public Books; Atlantic Ideas | Ch5 LANDED · Ch9 LANDED · Ch8 PARTIAL (handled, theory-of-change thin) · Ch7 PARTIAL (cross-ref graft L174) |
 | Karl Polanyi — The Great Transformation (1944), fictitious commodities | extend-into-a-setting | **Ch5** (L150-166 FULLY worked) | TA bibliography (gap); Atlantic Ideas provenance; **$100 Barrel (essay-side SEED, close, 2026-06-17)** | **Ch5 LANDED** · Ch1 MISSING · Ch3 MISSING · Ch6 MISSING · Ch7 MISSING · Ch8 MISSING · Ch9 MISSING (canonical; LANDED in redo †) · Ch10 MISSING |
 | Nancy Fraser — expropriation of social reproduction / nature (Cannibal Capitalism) | parallel (intended anchor) | **Ch5** (L150-166 FULLY worked); SEED **Ch2** (L199 named tag) | TA bibliography (gap); **$100 Barrel (essay-side SEED, close, 2026-06-17)** | **Ch5 LANDED** · Ch2 PARTIAL (named as one-sentence tag on litigation ledger; no exposition) · Ch1/Ch3/Ch6/Ch7/Ch8/Ch10 MISSING · Ch9 MISSING canonical (LANDED in redo †) |
-| Darity & Mullen — From Here to Equality (2020); stratification economics (Darity, Hamilton); Conley 1999 | add-to / extend | **Ch5** (Restitution Bond lineage, 5 hits); **Ch6** (5 hits) | TA §15.1.2/15.2.1; Public Books; Atlantic Ideas; Foreign Affairs; Noema | Ch5 LANDED · Ch6 LANDED · Ch2 MISSING (backward-debt language L175 "settling of a debt"; reparations economists unnamed) · Ch3 MISSING (runs B₁ on reef; B₁ lineage silent) · Ch8 PARTIAL (vocabulary-credit) |
+| Darity & Mullen — From Here to Equality (2020); stratification economics (Darity, Hamilton); Conley 1999 | **METHOD-PORT / specialize [(d) TRUTHFUL DESCRIPTION 2026-06-17: NOT "they diagnosed, we add the magnitude" — Darity & Mullen ALREADY did the accounting (the wealth-gap + longevity-gap computation). The true relation is applying their BACKWARD-PRICING METHOD to extraction communities. Carve reparations OUT of the magnitude-not-mechanism meta-claim]** | **Ch5** (Restitution Bond lineage, 5 hits); **Ch6** (5 hits, "methodological specialization") | TA §15.1.2/15.2.1; Public Books; Atlantic Ideas; Foreign Affairs; Noema | Ch5 LANDED (method-port relation already correct in prose) · Ch6 LANDED · Ch2 MISSING (backward-debt language L175 "settling of a debt"; reparations economists unnamed) · Ch3 MISSING (runs B₁ on reef; B₁ lineage silent) · Ch8 PARTIAL (vocabulary-credit) |
 | Ta-Nehisi Coates — The Case for Reparations (2014) | extend-into-a-setting | **Ch5** | — | Ch5 LANDED · Ch3 MISSING (B₁ on reef; Coates argument-architecture unnamed) |
 | Matthew Desmond — Evicted | parallel | **Ch9** "What a framework does" (L132) | — | Ch9 LANDED |
 | Du Bois (veil/double-consciousness) & Dunbar ("We Wear the Mask") | extend-into-a-setting / parallel | **Ch1 close** (L128 "the pricing is new; the move is old") | Noema close | Ch1 LANDED (restored 2026-06-11; flagged graft-seam — only external-thinker name-drop in the chapter) |
 | Fanon, Ellison (split from the Du Bois/Dunbar row) | extend-into-a-setting / parallel | **Ch8** (literary-lineage block L102-108) | — | Ch8 LANDED · Ch1 N/A (grep Fanon=0, Ellison=0 — these members land in Ch8, NOT Ch1) |
-| David Harvey — accumulation by dispossession (2003) | add-to / parallel | **Ch9** (magnitude relation, L132 area); brief-specified one-clause nod intended **Ch2** | TA §14.7, 15.2.1; Atlantic Ideas; Harper's; NYRB | Ch9 PARTIAL (secondary "changed-the-conceivable" relation only; magnitude/number relation dropped) · Ch2 MISSING (brief L193 said keep "echoes accumulation-by-dispossession"; assembly cut Harvey) · Ch3 MISSING (number-on-diagnosis work done L240, Harvey unnamed) · Ch8 MISSING |
+| David Harvey — accumulation by dispossession (2003) | add-to / parallel **[(c) KEEP 2026-06-17: "Harvey diagnoses; RCV measures" IS true and lands (TA §14.7 verbatim + Ch2 L122); this is NOT a claim change. ACTION is a draft-progress ADD: LAND it in the Ch3 reef narrative where the number-work currently runs Harvey-unnamed]** | **Ch9** (magnitude relation, L132 area); brief-specified one-clause nod intended **Ch2** | TA §14.7 (verbatim), 15.2.1; Atlantic Ideas; Harper's; NYRB | Ch2 L122 LANDED (verified) · Ch9 PARTIAL (secondary "changed-the-conceivable" relation only; magnitude/number relation dropped) · Ch2 PARTIAL (brief L193 said keep "echoes accumulation-by-dispossession"; assembly cut the one-clause nod) · **Ch3 TO-ADD [MUST-NOW] (number-on-diagnosis work done L240, Harvey unnamed — pull the TA's existing Harvey cite up into the reef narrative; attribution-distribution fix)** · Ch8 MISSING |
 | Mariana Mazzucato — The Value of Everything (2018) | add-to / specialize | **Ch2** (value-extraction term-coining, L141 — STRONGER landing than stale matrix recorded); **Ch6** (RCV-naming, L~325) | Noema §VI; NYRB; terms_index | Ch2 LANDED (add-to relation shown) · Ch6 PARTIAL (flattened to etymology; specialize relation not worked) · Ch3 MISSING (value-created-vs-captured arithmetic L234, Mazzucato unnamed) · Ch8 MISSING |
 | Katharina Pistor — The Code of Capital (2019) | extend-into-a-setting | **Ch5** (engaged at depth); **Ch9** (L166 names legal-architectural reason) | Public Books; NYRB; Foreign Affairs §IV; Harper's | Ch5 LANDED · Ch9 LANDED (canonical) · Ch3 MISSING (legal-modules diagnosis terrain, unnamed) · Ch8 MISSING |
 | Adam Smith — The Wealth of Nations | parallel / extend-into-a-setting | **Ch9** (completion-of-the-market); non-partisan disarm SHOWN **Ch4** (canonical L119 "the framework does not legislate"; reinforced L121 "an honest reprinting" of a bill that already arrives; Smith unnamed) | Atlantic Ideas close | Ch9 LANDED · Ch4 PARTIAL (canonical L119 disarm runs; Smith unnamed, grep=0) |
@@ -155,11 +199,44 @@ draft; canonical may differ (see Reconciliation notes).
 | Mian & Sufi (House of Debt); Hacker (Great Risk Shift); Gawande/Butler | add-to | **Ch5** (Healthcare Commons + 2008 scope-choice); **Ch9** (L124-130 Sweden counter-history); meta-claim via Social Security **Ch4** (canonical L115-117, with Bismarck 1889 named as the funded-architecture counterfactual) | Atlantic Ideas; Public Books; Foreign Affairs §V | Ch5 LANDED · Ch9 PARTIAL (full case deferred to Ch5; routing) · Ch4 PARTIAL (canonical L115-117 Social Security lands the architecture-is-a-choice meta-claim; Mian/Sufi/Hacker/Gawande/Butler unnamed, grep=0) |
 | Albert Camus — Le Mythe de Sisyphe (1942) | parallel | **Ch10** close (L162-166) | — | Ch10 LANDED |
 | Eller; Hamby; Catte; Keefe (Empire of Pain) | add-to (regional/journalistic lineage) | (Harper's-primary; regional record under McDowell chapters Ch2) | Harper's "The Miner" lineage | essay-side LANDED |
-| John Rawls — A Theory of Justice + Just Savings | extend / operationalize | (TA + essay-primary) | TA §14.4, §15.1.6; $100 Barrel | TA/essay LANDED |
-| Derek Parfit — Reasons and Persons (1984) | add-to / parallel / moral-grounding | **Ch6** "What Is Owed" (L184-188) | TA §5 B₂, §15.1.2; $100 Barrel; Public Books | Ch6 LANDED (non-identity conceded-unsolved) |
-| Michael Sandel — moral limits of markets | parallel (used as ally) | intended dedicated steelman **Ch6 or Ch10** | $100 Barrel | Ch6 MISSING (matrix said "build dedicated steelman in Ch6 or Ch10"; grep sandel/commodif=0) · Ch10 PARTIAL (ally-not-objector; dedicated steelman never built) |
+| John Rawls — A Theory of Justice + Just Savings | **parallel / list-precedent / shares-the-intuition [(f) SOFTENED 2026-06-17: Rawls is used as LIST-PRECEDENT (primary goods) in the chapters, not just-savings "operationalize" — the bond does not derive or implement a just-savings savings-RATE, it shares the intuition. Do NOT code "operationalize." FLAG: confirm vs TA before any stronger coding — if the TA shows the bond rate IS a just-savings rate, that is a real contribution and the relation can strengthen back; until then keep parallel/list-precedent]** | (TA + essay; chapter-side list-precedent via Sen/Nussbaum/Rawls in Ch6 L194 + Ch7) | TA §14.4, §15.1.6; $100 Barrel | TA/essay LANDED (relation softened to parallel pending TA confirm) |
+| Derek Parfit — Reasons and Persons (1984) | add-to / parallel / moral-grounding | **Ch6** "What Is Owed" (L184-188); **non-identity ANSWERED Ch6 L259-273** (impersonal-outcomes + Sen valuation, honestly bounded) | TA §5 B₂, §15.1.2; $100 Barrel; Public Books | **Ch6 LANDED — KEEP ((g) 2026-06-17): non-identity is ANSWERED on main (L259-273: impersonal-outcomes + Sen valuation, honestly bounded), NOT merely "conceded-unsolved." Do NOT weaken. Meyer/Page threshold-route is an OPTIONAL future strengthen only (see [BOOK-2/3] TO-ADD row), not a hole.** |
+| Michael Sandel — moral limits of markets | **named OBJECTOR, steelmanned + answered** (not merely "ally") | **Ch5 L164/L172/L178** (steelman built + answered) | $100 Barrel | **Ch5 LANDED (CORRECTED 2026-06-17 — status was stale): the steelman IS built explicitly at L164 ("Michael Sandel has stated the serious version of it as well as anyone... This worry has to be taken on directly and answered here") and answered L172/L178. The prior "Ch6 MISSING / Ch10 PARTIAL, dedicated steelman never built" cell was a stale grep=0; it would have sent a session to build a steelman that already exists. Do NOT treat as missing.** · Ch6 N/A · Ch10 N/A |
 | Sen (Development as Freedom) & Nussbaum — capabilities | add-to / parallel / list-precedent | **Ch6** (L194); list-precedent **Ch7** (Ostrom/Nussbaum/Rawls) | TA §15.1.6 | Ch6 LANDED · Ch7 LANDED (one clean list-precedent beat) |
-| Civic-republican — Pettit (1997), Skinner (1998), Anderson (2017) | parallel / extend | **Ch6** (autonomy-commons, L178); **Ch5** | TA §15.1.6, 15.1.9, 15.2.1; Public Books; NYRB | Ch6 LANDED · Ch5 LANDED |
+| Civic-republican — Pettit (1997), Skinner (1998), Anderson (2017) | parallel / extend **[(e) KEEP 2026-06-17: civic-republican forward grounding is a deliberate, hedged move — keep. REINFORCE by ADDING Broome as a CO-grounding for the forward/intergenerational arm (non-domination is strong for within-generation extraction but thin as the forward grounding; Broome/Meyer/just-savings carry the forward load — see Broome TO-ADD [MUST-NOW])]** | **Ch6** (autonomy-commons, L178); **Ch5** | TA §15.1.6, 15.1.9, 15.2.1; Public Books; NYRB | Ch6 LANDED · Ch5 LANDED · **forward-grounding co-anchor Broome = TO-ADD [MUST-NOW]** |
+
+### Status-correction rows (CORRECTED 2026-06-17 — the draft is further toward target than the 2026-06-15 build recorded; these are PRESENT, prior cells were stale)
+
+These works were under-reported as absent/missing; direct grep against the corpus (provenance: `tools/audits/matrix-independent-verification_2026-06-17.md`) confirms they are PRESENT. The remaining work, where any, is a *surfacing* (pull the TA cite up into the prose where the stance is taken), NOT an "engage from scratch."
+
+| Work | Relationship | Where (v2) | Status — CORRECTED |
+|---|---|---|---|
+| Robert Solow — 1974 *Rev. Econ. Stud.* 41 (weak-sustainability / intergenerational equity) | extends (name the benchmark the framework departs from) | **TA** (named in the intergenerational-equity lineage beside Hartwick, full bibliography entry **TA L8295**; ×7 in TA + 1 essay) | **TA PRESENT (CORRECTED — was stale "absent"). 0 chapters: relocation, not new engagement.** Live gap is surfacing Solow into the **Ch6 S_max<1 prose** where the bounded-substitutability stance is *taken* (the weak-vs-strong-sustainability debate the stance enters is unnamed in chapter prose) — see TO-ADD [MUST-NOW] pull-up. |
+| Dasgupta & Heal 1979 (depletable-resource theory) | parent-tradition lineage (the drawn-down resource commons WAS priced — anchors the (b) narrowing) | **TA** (cited ×3 incl. bibliography, **TA L478/L3684/L8091/L8295**) | **TA PRESENT (CORRECTED — the "doesn't know its field" charge is FALSE for the 1979 theorist). NB: the 2021 Dasgupta Review is genuinely absent — that is the real gap (TO-ADD below), distinct from this.** |
+| Hess & Ostrom — Understanding Knowledge as a Commons (2007) | commons-taxonomy apparatus | **TA** (cited ×3 incl. bibliography, **TA L8133**) | **TA PRESENT (CORRECTED — "knowledge-commons taxonomy unengaged" was stale at TA level). Real residual is chapter-prose-side rivalry/excludability framing, not ignorance.** |
+| EPA 2023 Social Cost of Carbon ($190/ton) + Rennert ~$185 estimate | carbon-benchmark triangulation (damage-side SCC distinguished from substitution-side DAC; both routed into the Ch6 convergence table) | **TA L907** (names the figure, distinguishes, routes) | **TA PRESENT (CORRECTED — "prices carbon in a vacuum / never triangulates SCC" was an OVER-REACH). Residual is cosmetic: cite the moving number more visibly + name Rennert in bibliography + surface SCC/Rennert into the Ch8 worked-ton prose (attribution-distribution).** |
+
+### TO-ADD rows — TARGET works the draft has not yet reached (ADD/strengthen, do NOT drop)
+
+Each row is a TARGET, tagged with its **priority bucket** ([MUST-NOW] = land-deciding or forever-following miss; [BOOK-2/3 / cheap-optional] = real but not land-deciding — do NOT treat as a must-have), its **home**, its **relation**, the one-line **WHY**, and the **verified corpus status** (provenance: `tools/audits/matrix-independent-verification_2026-06-17.md`, grep-verified 2026-06-17). Coercion/reparations-adjacent rows carry **credit-the-field, no coercion figure** per the first-person abstention (CLAUDE.md §coercion-pricing).
+
+| # | Work | Bucket | Relation | Home | WHY (one line) | Verified corpus status |
+|---|---|---|---|---|---|---|
+| T1 | **Fanning & Hickel 2023, "Compensation for atmospheric appropriation" (*Nature Sustainability*) + CARICOM plan + COP27/28 Loss & Damage Fund** | **[MUST-NOW]** | add-to / parallel (concede macro-priority, claim per-event micro-operationalization) | **Ch5** + **TA §5.5** + **Foreign Affairs / $100 Barrel** | The novelty JOINT: this program already prices an atmospheric commons bidirectionally on an SCC spine — defuses "isn't this the climate-debt program renamed?"; no answer on the page today. | **=0 corpus-wide** (Fanning / CARICOM / loss-and-damage / atmospheric-appropriation all 0). **Hickel-the-author is in TA ONLY** (degrowth / *Less Is More* 2020, row 140) — the atmospheric-appropriation PROGRAM is absent. **FLAG: credit-the-field, NO coercion figure** (cite exactly as Darity-Mullen is credited). |
+| T2 | **John Broome — *Climate Matters* (2012); *Counting the Cost of Global Warming* (1992); "Discounting the Future" (1994)** | **[MUST-NOW]** | extends / ally + CO-grounding for the forward arm (the framework PRICES and RESERVES the duty Broome named) | **Ch6 "What Is Owed"** + forward grounding (co-anchor with civic-republican per (e)) | Uncited reinvention: the instrument is literally named the **Restitution Bond**, and the book's discount-is-moral / no-pure-time-preference / restitution-owed moves are Broome's — a philosophy reviewer reads it as under-read in its home field. | **=0 corpus-wide.** Highest-confidence, cleanest-to-fix absence in the verification. |
+| T3 | **Robert Nozick — *Anarchy, State, and Utopia* (1974): entitlement + Lockean proviso** | **[MUST-NOW]** | extends / turns-against-itself (the Lockean proviso is violated exactly at permanent foreclosure — claim Nozick's own proviso as the book's license) | **Ch9** + **Atlantic Ideas** (center-right disarm) | The book engages the Marxist flank (Ch10) but leaves the libertarian RIGHTS flank open — a catchable left-lean for a book that markets itself as center-right-disarming. **Also an objector-flank → objection table.** | **=0 corpus-wide** (Nozick + Lockean proviso both). |
+| T4 | **Stephen Gardiner — *A Perfect Moral Storm* (2011)** | **[MUST-NOW]** (borderline-must — theory-of-change threat) | engage-as-threat first, then partial institutional answer (vulnerability → the bond as a precommitment device; Norway/Ch4 is the empirical counter) | **Ch9** + **Ch10** (honest objections) | Tyranny-of-the-contemporary: the generation that would post the forward bond decides whether to post it, with no reciprocal sanction — the deepest threat to the theory of change. **Also an objector-flank → objection table.** | **=0 corpus-wide.** |
+| T5 | **ATTRIBUTION-DISTRIBUTION pull-up (Harvey→Ch3 reef; Solow→Ch6 substitutability; SCC/Rennert + Costanza/Hotelling→Ch8 worked ton)** | **[MUST-NOW]** | strengthen / surface (pull the TA's EXISTING citations up into the narrative where the stance is TAKEN) | **Ch2 / Ch3 / Ch8** (and Ch6 for Solow) | The magnitude lands in Ch2/Ch3/Ch8 with the informing thinkers UNNAMED; a reviewer reading one magnitude chapter sees uncredited application. Highest-yield, lowest-cost fix surface — not a new citation, a relocation. | **TA-PRESENT / chapter-MISSING** for each (Harvey TA×6 / Ch2 L122 present, Ch3 reef unnamed; Solow TA-only; SCC/Costanza/Hotelling TA-present, Ch8 prose unnamed). |
+| T6 | **(b) Pigou+Ostrom meta-claim TRUTH-FIX** | **[MUST-NOW]** | narrow to instrument-form-is-new | meta-claim 2 + Pigou/Ostrom/Hartwick rows + every essay that states the broad version | The broad "extends Pigou + Ostrom into a setting NEITHER addressed" is FALSE (Hartwick/Dasgupta priced it; Ostrom governed depletable stock) — a Dasgupta/Ostrom-literate reviewer rejects it. State only the instrument-form-and-level version. | Applied in meta-claim above; sweep essays/chapters for the broad phrasing. |
+| T7 | **(d) Reparations method-port TRUTH-FIX** | **[MUST-NOW]** | carve reparations OUT of magnitude-not-mechanism → method-port/specialize | meta-claim 3 + Darity-Mullen row | Darity & Mullen ALREADY did the accounting; "they diagnosed, we add the magnitude" is the wrong relation. **FLAG: credit-the-field, no coercion figure.** | Applied in meta-claim + Darity row above. |
+| T8 | **Partha Dasgupta — *The Economics of Biodiversity: The Dasgupta Review* (HM Treasury, 2021)** | **[BOOK-2/3 / cheap-optional]** | add-to / extend (instrument-vs-national-wealth-accounting differentiator) | **Ch6** + **TA §14** + Foreign Affairs / Atlantic Ideas | The field's most visible recent statement of pricing the natural commons; a one-paragraph "per-transaction instrument vs macro inclusive-wealth accounting" distinction inoculates cheaply. NOT land-deciding (the 1979 theorist IS cited). | **2021 Review absent corpus-wide.** Dasgupta & Heal **1979 IS in TA (×3)** — distinct work; do not conflate. |
+| T9 | **Henry Shue — "Subsistence vs. Luxury Emissions" (1993); *Climate Justice* (2014)** | **[BOOK-2/3 / cheap-optional]** | add-to / supports (equity-of-incidence the bond's heterogeneous-stakeholder design implicitly needs; the McDowell miner is a subsistence-emitter in his terms) | **Ch6** + **TA §15.1.6** + Harper's "The Miner" | Bridges climate-ethics to the reparations arm; flank-closer a sub-field gatekeeper expects, not a hole a reviewer attacks. | **=0 corpus-wide.** |
+| T10 | **Mehrsa Baradaran — *The Color of Money* (2017)** | **[BOOK-2/3 / cheap-optional]** | add-to / parallel (bridges Pistor general → Darity magnitude; the racial-wealth-gap-specific version of "law codes capital") | **Ch5** + **Ch9** | Conspicuous omission in an otherwise-complete stratification roster (Darity/Hamilton/Conley/Coates all present); cheap, high-credibility. **Reparations-adjacent: credit-only, no figure.** | **=0 corpus-wide.** |
+| T11 | **Gabriel Zucman (*Hidden Wealth of Nations* 2015) + Ndikumana & Boyce (Nigeria capital flight)** | **[BOOK-2/3 / cheap-optional]** | add-to / empirical input | **Ch4** (Nigeria L83-97) + **Foreign Affairs §IV** + TA bibliography | Ch4 runs a Nigeria value-leakage mechanism the field has MEASURED, citing no one — awkward for a book whose value-add is "measurement, not diagnosis." | **Zucman = 1 essay only; Ndikumana & Boyce = 0 corpus-wide.** |
+| T12 | **Christophers — *Rentier Capitalism* (2020)** | **[BOOK-2/3 / cheap-optional — BUT NYRB-essay-MUST]** | claimed-ally that is substantially a threat to rebut | **Ch9** + **Ch5 L172 strengthen** + **NYRB** | Book-incremental, but essay-MUST for NYRB (which reviews Christophers); naming it + showing the bond lacks convertibility/transferability converts the Ch5 financialization assertion into a demonstration. | **Rentier Capitalism = 1 essay only** (Christophers otherwise well-engaged: 3 chapters + 3 essays via *The Price Is Wrong*). |
+| T13 | **Meyer (SEP "Intergenerational Justice") + Page (2006) — threshold route** | **[BOOK-2/3 / cheap-optional]** | add-to (OPTIONAL strengthen of the Parfit answer — NOT a hole; non-identity is already answered, (g)) | **Ch6 "What Is Owed"** + TA §5/§15.1.6 | Would upgrade the forward bond's grounding from "impersonal+Sen, honestly bounded" to a threshold route; a strengthen, not a fix. | Parfit non-identity already ANSWERED on main (Ch6 L259-273); Meyer/Page = optional. |
+
+**Filtered OUT (named, not silently dropped — below the cut for the target table):** Piketty / Stiglitz-rent-seeking (one-sentence positioning nod at most); Sassen *Expulsions* (cheap ally, non-load-bearing); Caney / Scanlon / Jamieson (bibliography-tier flank-closers); Heal / Pearce-Markandya-Barbier / IAM-skeptic Pindyck (2013/2017) / NOAA stated-preference (TA-bibliography-tier; note Pindyck the Dixit-Pindyck author IS already cited ×16); Bittker→Randall-Robinson debt-accounting lineage + Hamilton-Darity baby bonds + Brophy/de Greiff (cheap Ch5 footnotes; reparations-adjacent — credit-only, no figures).
 
 ---
 
@@ -172,13 +249,13 @@ draft; canonical may differ (see Reconciliation notes).
 | Just-rebranded-externality-theory | law-and-economics / Coasean readers | essays (Public Books distinction); port into chapters | essay LANDED · Ch8 MISSING |
 | Discount-rate fight (pick Nordhaus 5.5% and the multiples collapse) | integrated-assessment economists | **TA** §14.3 + §15 limit 6; **Ch6**; **Ch10** (L76 named) | TA LANDED · Ch6 LANDED · Ch10 PARTIAL |
 | Ostrom already governed commons without pricing; the bond is the commodifying move | commons-governance / Ostrom tradition | **Ch6** "Two Kinds of Commons" coordination-vs-extraction | Ch6 LANDED |
-| Sandel/commodification (pricing the priceless concedes the extractor's frame) | Sandel; critical/decolonial/Marxist-feminist | intended dedicated steelman **Ch6 or Ch10** | PARTIAL/MISSING — Ch6 MISSING · Ch10 PARTIAL (Sandel ally-not-objector; dedicated steelman never built) |
+| Sandel/commodification (pricing the priceless concedes the extractor's frame) | Sandel; critical/decolonial/Marxist-feminist | **Ch5 L164/L172/L178** (steelman built + answered) | **Ch5 LANDED (CORRECTED 2026-06-17 — was stale "PARTIAL/MISSING, steelman never built"): the steelman IS built at L164 and answered L172/L178, consolidated with financialization + flattening "from one position, the position Polanyi and Fraser built" (L178). Do NOT send a session to build it.** |
 | Overcounting / choose-your-own-adventure | skeptical quantitative methodologist | **Ch6** (Four Gates + Three Ways triangulation) | Ch6 LANDED |
 | Unfalsifiable (always finds extraction underpriced) | philosopher of science | **Ch6** (triangulation as falsification surface); **Ch8** (return-zero surface L88) | Ch6 LANDED · Ch8 LANDED (falsifiability surface REPAIRED in redraft, brief v2 §1.3.7) |
 | ESG / reformist-capture | Marxist / radical-left ally | **Ch10** "the objection I find most serious" (L116-126); near-verbatim DRIFT into **Ch7** (L168/172) | Ch10 LANDED · Ch7 DRIFT-FLAG (matrix-Ch10 point double-homed/migrated without reconciliation) |
 | The numbers are invented (naming is not pricing) | empirical economist | **Ch6** Three Ways worked estimates; worked figures **Ch2/Ch3/Ch8** | Ch6 LANDED · Ch2/Ch3/Ch8 LANDED (each ties claim to a computed figure) |
 | Simon-Ehrlich substitution-optimism | free-market / resource-optimist economist | substance in **Ch6** substitutability function; named-wager intended **Ch6 or Ch7** | Ch6 PARTIAL (substance lands; named wager absent) · Ch7 PARTIAL (substitutability/discount dials run hardest here; Simon-Ehrlich unnamed) |
-| **Financialization / legal-coding (bonds extend the Code-of-Capital / fictitious-commodity logic)** | **Polanyi, Pistor, Christophers as OBJECTORS** | rebuttal intended **TA §15 + Ch9/Ch10**; rebutted **Ch5** (L164); **Ch9 canonical** plants the rebuttal-adjacent material (Pistor L166, Christophers L168) + Ch6 forwards to Ch9 (L222) | **Ch5 LANDED (rebutted L164)** · Ch9 PARTIAL-to-LANDED (canonical engages Pistor/Christophers as the financialization terrain; redo † added explicit L124 rebuttal) · **Ch10 MISSING** · Ch6 N/A (forwards to Ch9) · Ch4 MISSING (canonical Ch4 builds the bond apparatus [accountability bond L55] but does NOT rebut the financialization-as-objection; the transfer-pricing / secrecy-jurisdiction material at L87 is the Nigeria value-leakage mechanism, not a Code-of-Capital-objection rebuttal — reconciled 2026-06-16) · Ch1/Ch2/Ch3/Ch7/Ch8 MISSING (out-of-reach where no bond apparatus; flagged downstream exposures) |
+| **Financialization / legal-coding (bonds extend the Code-of-Capital / fictitious-commodity logic)** | **Polanyi, Pistor, Christophers as OBJECTORS** | rebuttal intended **TA §15 + Ch9/Ch10**; **rebutted Ch5 (L172 "Accounting a cost is not coding an asset. Pistor's modules code assets; this book accounts costs") + consolidated L178**; **Ch9 canonical** plants the rebuttal-adjacent material (Pistor L166, Christophers L168) + Ch6 forwards to Ch9 (L222) | **Ch5 LANDED (CORRECTED — engaged + answered at L172/L178, NOT missing).** Residual is **strengthen, not build**: TARGET = name Pistor's four attributes (priority/durability/universality/convertibility) + show the bond deliberately lacks transferability/convertibility (turns assertion → demonstration), + cite *Rentier Capitalism* 2020 (see T12). · Ch9 PARTIAL-to-LANDED (canonical engages Pistor/Christophers as the financialization terrain; redo † added explicit L124 rebuttal) · **Ch10 MISSING** · Ch6 N/A (forwards to Ch9) · Ch4 MISSING (canonical Ch4 builds the bond apparatus [accountability bond L55] but does NOT rebut the financialization-as-objection; the transfer-pricing / secrecy-jurisdiction material at L87 is the Nigeria value-leakage mechanism, not a Code-of-Capital-objection rebuttal — reconciled 2026-06-16) · Ch1/Ch2/Ch3/Ch7/Ch8 MISSING (out-of-reach where no bond apparatus; flagged downstream exposures) |
 | Fraser-tradition absence (closest living anchor for the same-object meta-claim is nowhere) | critical-theory / Fraser tradition | **Ch5** (L150-166 closes it); add to TA bibliography | **Ch5 LANDED** · still MISSING in Ch1/Ch3/Ch6/Ch7/Ch8/Ch10 and canonical Ch9 |
 | Flattening the coercion vector | reparations economics (Darity) + decolonial | **Ch10** (structural-not-moral-equivalence, conceded); **TA** §1.10 + line 1425 | Ch10 LANDED (lands more strongly than stale matrix's cautious PARTIAL) · TA PARTIAL (conceded unpriced; first-person "not mine to do" deferral) |
 | Public-Choice / capture (naming a ledger does nothing) | Public Choice economist | **Ch5/Ch9** complement + Olson; named **Ch8** (L126) | Ch5 PARTIAL · Ch9 PARTIAL (theory-of-change thin) · Ch8 PARTIAL |
@@ -188,6 +265,8 @@ draft; canonical may differ (see Reconciliation notes).
 | International-macro (local optimum dependent on others not copying it) | international-macro economist | **Ch4** (canonical L137 named as the third of four gaps: "the fund works by compounding on the productive output of the rest of the world's economy... a local optimum... a thing the planet cannot adopt by copying"); matrix-original home Foreign Affairs | Ch4 LANDED (canonical L137) · Foreign Affairs LANDED |
 | Non-identity (how can extraction wrong people who don't yet exist?) | Parfit / population ethics | **Ch6** "What Is Owed" | Ch6 PARTIAL (conceded as a problem Parfit himself didn't solve; honest, unresolved) |
 | "Cost severance" borrows HR/severance-tax connotations | Tier-2d lived-oppression / heterodox-left reader | naming-justification **Ch5** | Ch5 PARTIAL (broad naming-justification present; the specific "severance"-word defense vs HR/commodifying-labor connotation did not survive the redraft) |
+| **Libertarian RIGHTS objection (the bond violates entitlement / property rights)** | **Nozick; property-rights reviewer (AEI/Cato/GMU Condition-1 audience)** | TARGET **Ch9** (symmetric to the Coase/P1 efficiency objection the book DOES answer) + **Atlantic Ideas** | **TO-ADD [MUST-NOW] — objector-flank empty (Nozick=0 corpus-wide).** The book answers the Coasean *efficiency* objection (Ch9/P1) and the Marxist objection (Ch10) but leaves the libertarian *rights* objection undefended — a catchable asymmetry/left-lean. WINNABLE: the Lockean proviso ("enough and as good left for others") is violated exactly at permanent foreclosure → claim Nozick's own proviso as the book's license. |
+| **Tyranny-of-the-contemporary (the generation that posts the forward bond decides whether to post it; no reciprocal sanction)** | **Gardiner (*A Perfect Moral Storm*)** | TARGET **Ch9** (theory-of-change) + **Ch10** (honest objections); Norway/Ch4 as empirical counter | **TO-ADD [MUST-NOW, borderline-must] — objector-flank empty (Gardiner=0 corpus-wide).** Deepest threat to the theory of change; the no-villain/voluntary-trade-off concession is adjacent but does not engage the intergenerational power-asymmetry mechanism. Engaging it reframes the bond as a precommitment device (vulnerability → design rationale). |
 
 ---
 
@@ -382,3 +461,90 @@ every non-Ch4 row + meta-claim. The two Ch9-redo † references inside the Polan
 and Fraser table rows (and the financialization row's Ch9 redo † note) are note
 #2's territory and were left intact. Provenance: promoted
 `manuscript/chapters/Chapter__4_TheExistenceProof.md` (PROMOTED 2026-06-16).
+
+---
+
+## Target-positioning reframe + findings fold-in APPLIED 2026-06-17
+
+**This lens was reframed 2026-06-17 to describe the TARGET positioning** (what the
+book SHOULD argue to land) **with the Status column tracking how far the draft on
+`main` has gotten toward it**, per the author-ratified governing rule of 2026-06-17
+(judge every claim by TRUTH + defensibility + strategic value, NOT by what the
+current draft contains — STRENGTHEN good-but-thin claims, RETRACT only false or
+indefensible ones). The independent-verification findings were folded in.
+Provenance: `tools/audits/matrix-independent-verification_2026-06-17.md`
+(grep-verified synthesis of four literature-cluster lens reviews against the 10
+canonical chapters + TA, 2026-06-17).
+
+**What changed:**
+
+- **HOW-TO-READ framing note added at the head** — `MISSING`/`TO-ADD` = a target
+  the draft has not yet reached, NOT a claim to drop; TO-ADD rows tagged
+  [MUST-NOW] vs [BOOK-2/3 / cheap-optional].
+
+- **TRUTH-NARROWINGS (false/indefensible claims only — the only retractions):**
+  - **(b)** the meta-claim "extends Pigou + Ostrom into a setting NEITHER
+    addressed" is FALSE (Hartwick 1977 — leaned on at Ch5 L206 — and Dasgupta
+    priced the drawn-down resource commons; Ostrom's CPR work covers depletable
+    stock). Narrowed to the defensible **instrument-form-is-new** version
+    (per-extraction-event, bidirectional, reserve-against + level). Applied to
+    meta-claim 2 + the Pigou/Hotelling rows + flagged for an essay/chapter sweep
+    (T6).
+  - **(a) RESOLVED 2026-06-17** (supersedes the tautology-risk HOLD): TA
+    verification confirmed B < RCV and the Hotelling Identity are NOT tautologies
+    (B < RCV is an empirical observation, TA Emp. Obs. 10.1b; the Identity was
+    hardened). Keep both moves; **never call either a "theorem" in prose**
+    (meta-claims 2 + 3, Hotelling row). See `ta-tautology-verification_2026-06-17.md`.
+
+- **TRUTHFUL DESCRIPTIONS (corrections of a stated relation, not retractions):**
+  - **(d)** reparations economics (Darity & Mullen) carved OUT of the
+    magnitude-not-mechanism meta-claim → **method-port/specialize** (they already
+    did the accounting; apply their backward-pricing method to extraction
+    communities). Credit-the-field, no coercion figure.
+  - **(f)** Rawls row softened from "operationalize" → **parallel/list-precedent**
+    (primary-goods list-precedent in the chapters; flag: confirm vs TA before any
+    stronger coding).
+
+- **KEEPS made explicit (already sound; do NOT weaken):**
+  - **(c)** "Harvey diagnoses; RCV measures" stands (TA §14.7 verbatim + Ch2 L122);
+    the only action is a draft-progress ADD — LAND it in the Ch3 reef narrative
+    (T5).
+  - **(g)** Parfit non-identity stays **ANSWERED** (Ch6 L259-273: impersonal +
+    Sen, honestly bounded); Meyer/Page is an OPTIONAL strengthen only (T13).
+  - **(e)** civic-republican forward grounding stays (deliberate, hedged);
+    reinforced by **Broome as a co-grounding TO-ADD** (T2).
+
+- **TO-ADD rows added** (full table above) for every [MUST-NOW] (T1 Fanning &
+  Hickel / CARICOM / L&D Fund — credit-the-field, no coercion figure; T2 Broome;
+  T3 Nozick + Lockean proviso; T4 Gardiner; T5 attribution-distribution pull-up;
+  T6 (b)-fix; T7 (d)-fix) and [BOOK-2/3 / cheap-optional] (T8 Dasgupta 2021
+  Review; T9 Shue; T10 Baradaran; T11 Zucman/Ndikumana-Boyce; T12 Christophers
+  *Rentier Capitalism* 2020 — book-incremental / **NYRB-essay-must**; T13
+  Meyer/Page). **Nozick (T3) + Gardiner (T4) also added to the objection table**
+  as objector-flanks. Filtered-OUT works named, not silently dropped.
+
+- **STALE-STATUS CORRECTIONS (draft is further toward target than the build
+  recorded — these ARE present):** Sandel steelman = **Ch5 LANDED** (L164/L172/
+  L178; matrix table + objection table both corrected from "never built");
+  financialization rebuttal = **Ch5 LANDED** (L172/L178; residual is
+  strengthen-not-build); EPA SCC + Rennert = **TA L907 PRESENT**;
+  Solow 1974 / Dasgupta & Heal 1979 / Hess & Ostrom 2007 = **TA PRESENT** (new
+  status-correction rows; Solow is relocation-into-prose work, not new
+  engagement; the 2021 Dasgupta Review is the genuine absence, distinct from the
+  1979 textbook).
+
+- **Header status line** updated to record the reframe.
+
+**Verified corpus data used (not re-derived):** Broome / Fanning / Nozick /
+Gardiner / Shue / Baradaran / Ndikumana / Boyce / CARICOM / Loss&Damage / Lockean
+all = 0 across chapters + TA + essays. Hickel-the-author appears in TA only
+(degrowth) — the atmospheric-appropriation PROGRAM is absent. Solow = 7 in TA + 1
+essay, 0 chapters (relocation). Dasgupta & Heal 1979 in TA (×3); 2021 Review
+absent. Christophers well-engaged (3 chapters, 3 essays) but *Rentier Capitalism*
+2020 in 1 essay only. Zucman in 1 essay only.
+
+**PRESERVED UNCHANGED:** the Ch4 reconciliation (Reconciliation note #1 RESOLVED +
+its 2026-06-16 addendum); Reconciliation note #2 (Ch9) + note #3 (Ch10/Ch7) remain
+OPEN; the 2026-06-17 ratification addendum; and every row not named above. The
+HELD (a) tautology question is NOT resolved by this pass — it remains pending the
+TA §4/§14.1 verification task.
