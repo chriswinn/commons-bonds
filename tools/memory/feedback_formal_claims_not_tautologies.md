@@ -40,5 +40,10 @@ Hotelling Identity a "theorem" or "near-theorem." Say "empirical observation" / 
 framework's bridge." "Conservative by construction" (the estimate is biased *down*) is
 fine; never slide it into "CS>0 by construction" (the tautology charge). When drafting
 from the contribution matrix, trust the canonical TA labels over any stale ledger cell.
+A pre-commit guard (`regressed-patterns.yaml`: `regressed-canon-*-theorem*`, HIGH) now
+blocks affirmative "theorem" over-claims in staged chapter-Draft/op-ed prose — but
+`publishing/essays/<venue>/essay.md` is **not yet in gate scope**, so essays still rely on
+this discipline. (2026-06-18: also fixed a parser bug that had silently disabled 6 ratified
+convergence-sunset guards; `scope:` must stay at end-of-file in that YAML.)
 Related: [[feedback_quantitative_apparatus_peer_review_defense]],
 [[feedback_no_invented_factual_claims_in_publisher_facing_prose]].

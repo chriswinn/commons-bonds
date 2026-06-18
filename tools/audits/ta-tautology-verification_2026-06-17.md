@@ -222,6 +222,42 @@ review, handoff, and code-comment records* — e.g. `tools/audits/ta-internal-co
 stood at their date; rewriting them would corrupt the rigor audit trail. `STATE.md`'s
 reef-migration MERGE-HOLD line is owned by a different workstream and left untouched.
 
+### FIX 3 — APPLIED 2026-06-18 (regressed-pattern guard + parser-bug fix)
+
+Author asked to wire the standing constraint into the existing invariant-gate infrastructure
+(`tools/quality-gates/regressed-patterns.yaml` + `tools/scripts/check-corpus-invariants.sh`,
+run by the installed `.git/hooks/pre-commit` on `--staged --severity HIGH`).
+
+- **Added 3 HIGH `consistency-canon` guards** to `regressed-patterns.yaml`:
+  `regressed-canon-near-theorem-overclaim`, `regressed-canon-hotelling-identity-as-theorem`,
+  `regressed-canon-b-lt-rcv-as-theorem`. Patterns are **affirmative-phrasing only** (`<subject>
+  is/as a theorem`, `near-theorem`, `theorem that <B<RCV>`), so a correct disclaimer ("is **not**
+  a theorem but an empirical observation") and legitimate capitalized refs ("Theorem 10.3") do
+  **not** trip them — verified by positive/negative regex tests + a synthetic-file integration
+  test (2 HIGH correctly raised). Canonical staged-scope files (op-eds, AuthorsNote, Dedication)
+  scan clean.
+- **Fixed a pre-existing parser bug (incidental, high-value).** The awk parser stops reading
+  patterns at the first column-0 `scope:` key. The `scope:` block had been placed *mid-file*
+  (≈line 967), so **6 ratified `consistency-canon` guards appended after it (the 2026-06-11
+  convergence-sunset retirements — "Three-Model Convergence", "All three models agree",
+  "converge not because…", "six tested cases", retired RO/RCV IPG bands, "RCV model estimate")
+  were silently never loaded.** Relocated `scope:` to end-of-file; parser now loads **71**
+  patterns (was 62), re-activating those 6 guards. Verified clean against the canonical
+  staged-scope corpus.
+
+**Infra findings flagged, NOT changed this pass (need a decision):**
+- **Default-scope archive leak (real bug).** `check-corpus-invariants.sh`'s *default* (no-arg)
+  scope filters with `grep -v '/archive/'`, which does **not** exclude `_archive/` dirs, so a
+  full manual scan pulls in op-ed `_archive/` drafts and reports ~655 spurious HIGH matches.
+  The **pre-commit `--staged` gate is unaffected** (its scope is the narrow canonical-file list),
+  so enforcement is fine — but `check-corpus-invariants.sh` with no args is currently unusable.
+- **`essay.md` not in scope** (frontmatter follow-up, pre-existing): matrix→`publishing/essays/<venue>/essay.md`
+  propagation is **not** gated by the hook. The new guard covers chapter Drafts + `op-ed.md` +
+  AuthorsNote/Dedication only. Until the essay-scope re-enable lands, matrix→essay relies on
+  drafting discipline (the corrected matrix + the always-load memory).
+- **YAML `scope.include` vs script hardcoded scope diverge** (YAML lists the TA html; the script's
+  default/staged scope does not scan it) — documentation/behavior drift, low priority.
+
 ---
 
 ## Verification provenance

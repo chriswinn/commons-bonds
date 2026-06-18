@@ -960,44 +960,6 @@ patterns:
     description: "Internal pipeline-discipline name cited as authority in prose"
     allowlist: []
 
-# ===== Scope configuration =====
-#
-# Same as scaffolding-patterns.yaml.
-
-scope:
-  include:
-    - "manuscript/chapters/Chapter_*Draft*.md"
-    - "manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html"
-    - "manuscript/chapters/_AUTHORSNOTE*.md"
-    - "manuscript/chapters/_Dedication.md"
-    # - "publishing/essays/*/essay.md"  # temporarily excluded (essay files mix audit-trail frontmatter with prose body; follow-up cleanup queued)
-    - "publishing/op-eds/*/op-ed.md"
-  exclude:
-    - "tools/**/*.md"
-    - "alignment/**/*.md"
-    - "publishing/essays/_pipeline/**/*.md"
-    - "publishing/essays/_shared/**/*.md"
-    - "publishing/essays/_archive/**/*.md"
-    - "publishing/essays/**/_archive/**/*.md"
-    - "publishing/op-eds/_shared/**/*.md"
-    - "publishing/op-eds/_pipeline/**/*.md"
-    - "publishing/op-eds/_archive/**/*.md"
-    - "publishing/op-eds/**/_archive/**/*.md"
-    - "publishing/agents/**/*.md"
-    - "publishing/book-proposal/**/*.md"
-    - "publishing/README.md"
-    - "publishing/**/README.md"
-    - "publishing/essays/**/cover-letter.md"
-    - "publishing/essays/**/stage-5-signoff.md"
-    - "publishing/essays/**/submission-day-package*.md"
-    - "publishing/essays/**/carry-forward-inventory.md"
-    - "archive/**/*.md"
-    - "**/*GuidanceDoc*.md"
-    - "manuscript/chapters/_BookLevelGuidance.md"
-    - "publishing/**/templates/**/*.md"
-    - "publishing/**/_inventory_*.md"
-    - "publishing/**/archive/**/*.md"
-
   # ===========================================================
   # Convergence-sunset retirements (2026-06-11)
   # Origin: manuscript/technical-appendix/convergence-scope-correction_2026-06-11_PROPOSED.md §7
@@ -1119,5 +1081,112 @@ scope:
       - "tools/audits/**/*.md"
       - "tools/workstream-handoffs/**/*.md"
       - "archive/**"
+
+  # ===========================================================
+  # Tautology-charge guard (2026-06-17 — TA tautology verification)
+  # Origin: tools/audits/ta-tautology-verification_2026-06-17.md. Verified
+  # against the canonical TA: B<RCV is Empirical Observation 10.1b (NOT a
+  # theorem); only the sign-identity CS>0 <=> B<RCV is Theorem 10.1a; the
+  # Hotelling Identity is a bridge; the identity RHS is Cost Severance, not
+  # consumer surplus. Patterns are AFFIRMATIVE-phrasing only, so a correct
+  # disclaimer ("is not a theorem but an empirical observation") does NOT
+  # trip them. Escape hatch: per-file allowlist, or --no-verify with author
+  # direction. Note: enforced by the pre-commit hook only on its --staged
+  # scope (chapter Drafts + op-ed.md + AuthorsNote/Dedication); essay.md is
+  # not yet in scope (frontmatter follow-up), so matrix->essay propagation
+  # still relies on drafting discipline until that scope re-enables.
+  # ===========================================================
+
+  - id: regressed-canon-near-theorem-overclaim
+    pattern: 'near.?theorem'
+    type: regex
+    severity: HIGH
+    category: consistency-canon
+    description: |
+      "near-theorem" escalation for the cost-severance / Hotelling-Identity
+      claims. In publisher-facing prose these are an Empirical Observation
+      (10.1b) + a bridge, not (near-)theorems. Use "empirical observation" /
+      "the framework's bridge."
+    origin:
+      pass: "TA tautology verification 2026-06-17 (FIX 3)"
+      commit: "16475be6"
+      ratified: "2026-06-17"
+    allowlist: []
+
+  - id: regressed-canon-hotelling-identity-as-theorem
+    pattern: '([Hh]otelling [Ii]dentity|[Cc]ost [Ss]everance|[Rr]esidual [Cc]ommons [Vv]alue|aggregate [Bb]ond)[^.]{0,45}(is|as) a (near.?)?theorem'
+    type: regex
+    severity: HIGH
+    category: consistency-canon
+    description: |
+      Affirmatively calling the Hotelling Identity / Cost Severance / RCV /
+      aggregate Bond "a theorem" invites the definitional-tautology charge.
+      The Hotelling Identity is a bridge between two independently-measured
+      quantities; B<RCV is Empirical Observation 10.1b. Re-word "theorem" ->
+      "empirical observation" / "the framework's bridge". Disclaiming usage
+      ("is not a theorem") does not match this affirmative pattern.
+    origin:
+      pass: "TA tautology verification 2026-06-17 (FIX 3)"
+      commit: "16475be6"
+      ratified: "2026-06-17"
+    allowlist: []
+
+  - id: regressed-canon-b-lt-rcv-as-theorem
+    pattern: '(B *< *(aggregate )?RCV|[Bb]ond[^.]{0,30}less than[^.]{0,40}[Rr]esidual [Cc]ommons [Vv]alue)[^.]{0,40}(is|as) a (near.?)?theorem|\btheorem that\b[^.]{0,70}(B *< *(aggregate )?RCV|[Bb]ond[^.]{0,30}less than[^.]{0,40}residual commons value)'
+    type: regex
+    severity: HIGH
+    category: consistency-canon
+    description: |
+      B < RCV (cost severance > 0) is Empirical Observation 10.1b, NOT a
+      theorem: RCV (the integral, triangulated) and the posted bond B are
+      independently estimated, so the result is empirical, not definitional.
+      Only the sign-identity CS>0 <=> B<RCV is Theorem 10.1a. Re-word.
+      Disclaiming usage does not match this affirmative pattern.
+    origin:
+      pass: "TA tautology verification 2026-06-17 (FIX 3)"
+      commit: "16475be6"
+      ratified: "2026-06-17"
+    allowlist: []
+
+# ===== Scope configuration =====
+#
+# Same as scaffolding-patterns.yaml. (Relocated to end-of-file 2026-06-17: the
+# YAML parser in check-corpus-invariants.sh stops reading patterns at the first
+# column-0 `scope:` key, so any pattern entries placed after the scope block
+# were silently never loaded. Keeping scope last keeps every pattern active.)
+
+scope:
+  include:
+    - "manuscript/chapters/Chapter_*Draft*.md"
+    - "manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html"
+    - "manuscript/chapters/_AUTHORSNOTE*.md"
+    - "manuscript/chapters/_Dedication.md"
+    # - "publishing/essays/*/essay.md"  # temporarily excluded (essay files mix audit-trail frontmatter with prose body; follow-up cleanup queued)
+    - "publishing/op-eds/*/op-ed.md"
+  exclude:
+    - "tools/**/*.md"
+    - "alignment/**/*.md"
+    - "publishing/essays/_pipeline/**/*.md"
+    - "publishing/essays/_shared/**/*.md"
+    - "publishing/essays/_archive/**/*.md"
+    - "publishing/essays/**/_archive/**/*.md"
+    - "publishing/op-eds/_shared/**/*.md"
+    - "publishing/op-eds/_pipeline/**/*.md"
+    - "publishing/op-eds/_archive/**/*.md"
+    - "publishing/op-eds/**/_archive/**/*.md"
+    - "publishing/agents/**/*.md"
+    - "publishing/book-proposal/**/*.md"
+    - "publishing/README.md"
+    - "publishing/**/README.md"
+    - "publishing/essays/**/cover-letter.md"
+    - "publishing/essays/**/stage-5-signoff.md"
+    - "publishing/essays/**/submission-day-package*.md"
+    - "publishing/essays/**/carry-forward-inventory.md"
+    - "archive/**/*.md"
+    - "**/*GuidanceDoc*.md"
+    - "manuscript/chapters/_BookLevelGuidance.md"
+    - "publishing/**/templates/**/*.md"
+    - "publishing/**/_inventory_*.md"
+    - "publishing/**/archive/**/*.md"
 
 # End of regressed-patterns.yaml
