@@ -97,3 +97,46 @@ handling at L16), turning the proviso in the framework's favor. No retraction;
 over-claim scan clean; the four-traditions gloss (L18) is already the correct
 narrow version and must NOT be weakened. PROPOSED spec only; `essay.md` untouched
 until author ratifies.
+
+## READY-TO-APPLY carry prose (PROPOSED 2026-06-18)
+
+**Status: PROPOSED 2026-06-18 (carry-fold-in, RATIFIED move per CARRY).** The
+author accepted the Nozick rights-flank move; the ratified recommendation is to
+fold this into the PENDING redraft-A promotion, NOT into the current `essay.md`.
+The drafted paragraph below is end-user prose and is therefore PROPOSED for the
+author's redline (the redline is the final stage). It is NOT applied to
+`essay.md` or to any candidate file by this note.
+
+**Placement instruction:** fold into the promoted redraft-A, after L82 (the
+Public Choice / Buchanan-Tullock paragraph), at promotion. It completes the
+rights-axis symmetry with the Coase efficiency-objection handling at L16.
+
+**Constraints honored:** plain language; no apparatus; no coercion/reparations
+dollar figure (the Darity first-person abstention at L80 governs and is
+untouched); the narrow four-traditions gloss at L18 is not touched or weakened;
+permanent foreclosure is used as the cleanest *case* of a proviso violation, not
+as a scope limit on the framework. The only named work is Nozick's *Anarchy,
+State, and Utopia* and the Lockean proviso it imports, both matters of public
+philosophical record.
+
+**Drafted paragraph (PROPOSED, for author redline):**
+
+> There is an objection from the other flank, and it is the sharper one to meet,
+> because a property-rights reader will raise it first. Pricing the commons and
+> requiring a bond, the objection runs, is itself a taking: a coercive
+> redistribution that violates the entitlement a just acquisition confers. Robert
+> Nozick gave that intuition its most rigorous form in *Anarchy, State, and
+> Utopia*, where a holding is just if it was justly acquired and justly
+> transferred, and the state has no standing to reach in and reprice it after the
+> fact. But Nozick's own theory carries a condition he did not invent and could
+> not discard, the Lockean proviso, which permits an original acquisition only so
+> long as there is "enough, and as good, left in common for others." That clause
+> is where the objection turns against itself. The permanent foreclosure of a
+> non-renewable resource is the cleanest case there is of the proviso violated:
+> when an aquifer is mined dry or a deposit burned, there is precisely not enough,
+> and not as good, left for the people downstream and the people not yet born. An
+> acquisition that fails the proviso was never fully just to begin with, on
+> Nozick's own terms. Honest pricing is not the taking; the foreclosure was.
+> Pricing the residual and posting the bond is what restores the entitlement the
+> proviso requires, the share owed to everyone the acquisition left out. The
+> argument is won on the libertarian's own ground, not against it.

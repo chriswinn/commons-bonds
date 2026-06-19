@@ -91,3 +91,65 @@ existing Christophers section + land the lacks-convertibility/transferability
 demonstration (connects L23 + L57–L73; no new apparatus). One optional sharpen
 (Polanyi double-movement). Pistor-modules directive already satisfied (L23). This
 stays a PROPOSED spec until the author ratifies; `essay.md` is untouched.
+
+## READY-TO-APPLY carry prose (PROPOSED 2026-06-18)
+
+**Status: PROPOSED — end-user-facing prose, drafted for the author's redline (the
+redline is the final stage). Do NOT finalize; do NOT edit `essay.md` or any
+candidate.** This is the ready-to-apply Christophers-section fold for the PENDING
+NYRB redraft promotion (the author ACCEPTED folding *Rentier Capitalism* (2020)
+into the promoted version), NOT the current `essay.md`.
+
+**Placement instruction.** Fold into the *promoted* NYRB version, inside the
+existing Christophers / *The Price Is Wrong* section (currently ~L57–L73 of
+`essay.md`), as ONE short paragraph. Do NOT add a fifth book-list header line;
+preserve the four-books architecture — engage *Rentier Capitalism* as
+Christophers's *other* book *within* the Christophers section. Recommended seat:
+after the section's asset-managers-as-rational-agents close (the L73 paragraph in
+the current file), where the section is already turning to what a structural
+alternative would and would not be; the rebuttal lands as the section steps from
+Christophers's *other* diagnosis to what separates the corrective from the move
+he indicts. No new apparatus: the passage connects two things already on the page,
+Pistor's convertibility attribute (named at L23) and the Christophers rentier
+critique.
+
+**Drafted prose (4 sentences, one paragraph):**
+
+> Christophers's other book sharpens the question rather than softening it.
+> *Rentier Capitalism* (2020) is the more direct threat to any architecture of
+> the kind these four diagnoses make legible, because its thesis is that the
+> defining move of the contemporary economy is precisely the wrapping of an
+> asset, often a natural or infrastructural one, in a financial claim from which
+> a holder can draw a return without producing anything; and an accountability
+> instrument posted over a natural asset can, at first glance, look like exactly
+> that move. The honest statement of the worry is that pricing a commons in order
+> to hold someone to its cost might be financialization wearing the costume of
+> accountability, the rentier structure *Rentier Capitalism* indicts arriving
+> under a public-interest name. The answer is not a denial but a structural
+> difference that can be read directly off Pistor's own list of attributes. Of
+> the four properties that turn a coded thing into capital, the decisive one here
+> is convertibility, the capacity to be sold on, securitized, and turned into
+> liquid money; an instrument built to register a cost rather than to code an
+> asset is one the holder cannot sell, cannot bundle, and cannot convert, and a
+> claim that can never be transferred or liquidated is the one thing a rentier
+> position cannot be, which is what separates accounting a cost from coding an
+> asset and places the instrument on the opposite side of the line from the
+> structure Christophers's earlier book describes.
+
+**Substrate-safety + constraint confirms.**
+- *Rentier Capitalism: Who Owns the Economy, and Who Pays for It?* (Verso, 2020)
+  is a real Christophers work; the paragraph characterizes only its on-record
+  thesis (rentier income = return from owning/controlling scarce assets rather
+  than producing) and invents no specifics, no quotations, no scene.
+- No coercion/reparations dollar figure; no figures of any kind (figure-ledger
+  constraint trivially satisfied — passage is non-numerical).
+- Em-dash count: 0 (matches `essay.md`, which is em-dash-free).
+- No new apparatus: connects L23 (convertibility attribute, already named) to the
+  Christophers rentier critique. The book's own anchor backs the move
+  (Ch5 L172 "Accounting a cost is not coding an asset. Pistor's modules code
+  assets; this book accounts costs"; Ch5 L175 names Christophers and defers the
+  fuller engagement; Ch10 L160 "Pistor's modules code assets, things made to be
+  owned and traded... The bond does not create a thing to own"). The essay
+  *demonstrates* the lacks-convertibility distinction rather than asserting it.
+- Voice match: long measured sentences, no em-dashes, "the instrument"/"the
+  framework" register, demonstration-not-assertion close.

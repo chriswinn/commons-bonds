@@ -162,6 +162,8 @@ L120, L126, L137, L144, L149, L176, L181, L182) + the gap list §3.2.
 | **Mazzucato — *The Value of Everything* (2018)** | **add-to / SUPPORTS (register comp; one prose mention if §III/§V requires)** | The framework extends Mazzucato's value-extraction diagnosis into the physical-resource + sovereign-wealth domain. Inherited §3/§7.11. **Ch 4 chapter prose does not name Mazzucato**; this is an essay-register comp, not a Ch4-homed relation — one prose mention only if the analytical move requires it; not load-bearing. | matrix L142 (Ch2/Ch6 homes; FA essay-side); inherited §7.11 |
 | **Pistor — *The Code of Capital* (2019)** | **extend-into-a-setting; KEPT ON THE NIGERIA SIDE ONLY** | Pistor stays where the essay already has her: the **Nigeria legal-engineering side** (essay L74; Ch 4 L87 transfer-pricing / secrecy-jurisdiction / pre-independence concession-inheritance = the value-leakage mechanism). **Do NOT route Pistor into a financialization-as-objection rebuttal in FA** (see §3.1). | matrix L143 (Foreign Affairs §IV); Ch 4 L87; §3.1 below |
 | **Fanning & Hickel 2023, "Compensation for atmospheric appropriation" (*Nature Sustainability*) + CARICOM reparations plan + COP27/28 Loss & Damage Fund** | **parallel / concede-macro-priority, claim per-event micro-operationalization (CREDIT-THE-FIELD; NO coercion figure)** | **NEW — folded 2026-06-18 per matrix-independent-verification §1 H1 + §2 #1 (MUST-NOW land-triage).** This is the single most dangerous *genuine* grep=0 gap because it sits at the book's exact configurational-novelty joint: Fanning-Hickel / CARICOM / the L&D Fund already price an atmospheric commons as a debt running **both** forward (foreclosing future foreclosure) and **backward** (historical emissions owed), on an SCC spine — precisely the "one apparatus, both directions" claim the framework stakes. An FA reader steeped in international-macro + climate-economics is the *exact* reader who knows this program; the unanswered reviewer line is **"what does the Foreclosure + Restitution pair add to SCC-based climate-debt accounting beyond renaming it?"** The redraft must make the differentiator legible: the framework's contribution is **per-extraction-event micro-instrument operationalization vs. national-aggregate macro-accounting** (concede the macro-priority to Fanning-Hickel/CARICOM; claim the per-event instrument form + the reserve-as-optionality move). **One prose mention**, credit-the-field exactly as Darity-Mullen is credited; **NO coercion / reparations dollar figure** (CLAUDE.md §coercion-pricing first-person abstention). Natural home: **§IV (Nigeria / the international architecture)** where the macro-scale climate-debt program is the live comparator, or **§III** where the both-margins instrument is built. See §3.1 route-IN decision C-1b. | matrix-verification §1 H1 / §2 #1 (HIGH; flag: credit-the-field, no figure); grep=0 corpus-wide (Fanning / CARICOM / loss-and-damage / atmospheric-appropriation all 0; Hickel present only as degrowth) |
+| **John Broome — *Climate Matters: Ethics in a Warming World* (2012); *Counting the Cost of Global Warming* (1992); "Discounting the Future" (*Philosophy & Public Affairs* 23, 1994)** | **SUPPORTS / GROUNDS-THE-NAMING — the discount rate is a MORAL not technical choice + the duty of restitution (LAND/NO-LAND = author-call; TO-ADD)** | **NEW — TO-ADD positioning row, folded 2026-06-18 (CARRY directive).** Broome's load-bearing result for the framework: **the discount rate applied to future harms is a moral choice, not a technical one** ("Discounting the Future" 1994), and individual high emitters owe a **duty of restitution** for the harm their emissions do (*Climate Matters* 2012). The framework names its forward instrument the **Restitution Bond for exactly that reason** — the naming encodes the moral-not-technical reading of the discount that Broome made the case for; this is the *grounds-the-naming* relation, not a generic citation. **BUT the FA register is third-person institutional-policy** (no first-person memoir; apparatus-reveal concept-level only): Broome can enter only as a **one-mention positioning anchor for the discounting ethics**, NOT a philosophy-seminar passage; a sustained Broome treatment is a **book / Ch 6 move**, not an FA move. **LAND/NO-LAND is an explicit author call** — Broome **strengthens** the positioning where the redraft touches the discount-rate / forever-premium concept (it gives the moral-not-technical reading a named authority), but it may be more economical to reserve him for the book and keep FA on the institutional spine. Flag at ratification: does FA carry Broome at all, or is the discounting-ethics anchor better left implicit at this venue? **One prose mention max if landed; credit-the-field; no figure.** | CARRY directive 2026-06-18 (author-flagged); ties to D2 "the premium honest pricing charges for forever" + the Restitution Bond naming; relation: SUPPORTS / grounds-the-naming |
+| **Gabriel Zucman — *The Hidden Wealth of Nations* (2015); Léonce Ndikumana & James K. Boyce — *Africa's Odious Debts* (2011) / the capital-flight measurement program** | **SUPPORTS / CREDITS-THE-MEASUREMENT — the field that measured the value-leakage §IV already runs (TO-ADD; Book-2/3-ish, author-call)** | **NEW — TO-ADD positioning row, folded 2026-06-18 (CARRY directive).** §IV already runs the Nigeria value-leakage mechanism (Sachs / CCSI on the extraction side; Pistor on the legal-engineering side). Zucman (offshore-wealth / tax-haven measurement) and Ndikumana & Boyce (Africa capital-flight measurement) are **the field that measured exactly that leakage** — they put numbers on the wealth that left the jurisdiction through the secrecy-jurisdiction / transfer-pricing architecture §IV describes. Relation: **credit-the-measurement** — one citation, **measurement-posture** (the framework names the value that leaked; this field measured how much and by what route), no claim to have out-measured them. **No figure beyond what is already sourced** in §IV (no new dollar number enters on the strength of this row). **LAND/NO-LAND author-call, leaning Book-2/3-ish:** the capital-flight measurement field is a richer fit for a later book / a dedicated international-architecture treatment than for this FA essay's lean §IV; the redraft may credit the field in one mention if §IV's leakage paragraph earns the attribution, or reserve it. Tag: **author-call** (vs Broome's strengthens-but-author-call; Zucman/Ndikumana leans hold-for-later). **One prose mention max if landed; credit-the-field; no figure beyond sourced.** | CARRY directive 2026-06-18 (author-flagged); ties to §IV Nigeria value-leakage (Sachs/CCSI + Pistor already present); relation: SUPPORTS / credits-the-measurement |
 
 **Stage 3 consequence:** Pass 3.3 / 3.4 add a positioning-legibility check. For
 each row, can the dispositive audiences (Tier 1 FA editor; Tier 1 #3 SWF
@@ -199,6 +201,30 @@ positioning moves most at risk of being lost in the reframe; weight them.
   scaffolding, not a new section.** It does NOT reopen the financialization route-OUT
   (different literature, different move). Author confirms or overrides at ratification
   (new call C-1b, §7).
+- **Broome → TO-ADD, author-call whether FA carries him at all (NEW, folded
+  2026-06-18).** Broome grounds the *moral-not-technical discount-rate* reading that
+  the Restitution-Bond naming encodes (the duty of restitution he named). This
+  **strengthens** the positioning wherever the redraft touches the discount /
+  forever-premium concept (D2). BUT the FA register is third-person institutional-
+  policy with concept-level apparatus only, so Broome can land only as a **one-mention
+  anchor for the discounting ethics, not a philosophy-seminar passage**; a sustained
+  Broome treatment is a **book / Ch 6 move.** Decision the brief MAKES: Broome is a
+  **TO-ADD row tagged LAND-strengthens-but-author-call** — the redraft may carry one
+  mention if §III's forever-premium concept earns the named authority, but the author
+  decides at ratification whether FA carries Broome at all given the venue (it may be
+  more a book move). If NO-LAND: the discounting-ethics anchor stays implicit at FA;
+  no reviewer-line cost (Broome closes no grep=0 reviewer gap the way Fanning-Hickel
+  does — he strengthens, not patches). New call C-1c, §7.
+- **Zucman / Ndikumana & Boyce → TO-ADD, author-call leaning Book-2/3-ish (NEW,
+  folded 2026-06-18).** The capital-flight / offshore-wealth measurement field
+  measured the very value-leakage §IV runs (alongside Sachs/CCSI + Pistor already
+  present). Relation is **credit-the-measurement**: one citation, measurement-posture,
+  **no figure beyond what §IV already sources.** Decision the brief MAKES: a **TO-ADD
+  row tagged author-call-leaning-hold-for-later** — the field is a richer fit for a
+  dedicated international-architecture treatment (Book 2/3) than this lean FA §IV; the
+  redraft may credit the field in one mention if §IV's leakage paragraph earns it, or
+  reserve it. Like Broome, NO-LAND carries no reviewer-line cost (credits-the-field,
+  not patches-a-gap). New call C-1d, §7.
 - **Four-cases set — editorial/author call (DEFAULT: keep FA lean).** The Alaska /
   Chattanooga / Mondragón / Vienna four-cases transferability set IS canonical in
   promoted Ch 4 (L101-111) and is therefore **available substrate** for the redraft.
@@ -411,6 +437,30 @@ passing grade — even in FA's third-person institutional register.
   §IV's existing international-architecture machinery (not a new section). Author
   confirms or overrides; if overridden, the reviewer line "isn't this the climate-debt
   program renamed?" goes unanswered on the page for the FA audience specifically.
+- **C-1c — Broome route-IN (NEW, folded 2026-06-18; LAND/NO-LAND author-call).** §3
+  adds Broome (*Climate Matters* 2012 / *Counting the Cost* 1992 / "Discounting the
+  Future" 1994) as a TO-ADD positioning row: the discount rate is a moral, not a
+  technical, choice, and the duty of restitution Broome named is the reason the
+  framework calls its forward instrument the Restitution Bond (grounds-the-naming).
+  This **strengthens** the §III forever-premium / discount positioning. BUT the FA
+  register is third-person institutional-policy with concept-level apparatus, so
+  Broome can be only a one-mention anchor for the discounting ethics, not a
+  philosophy-seminar passage; a sustained treatment is a book / Ch 6 move. **Author
+  call whether FA carries Broome at all given the venue** (it may be more a book move
+  than an FA move). Unlike C-1b, NO-LAND carries no reviewer-line cost (Broome closes
+  no grep=0 gap; he strengthens, not patches). Default: leave to the author at
+  ratification; recommended lean is that Broome is a stronger book/Ch 6 anchor than an
+  FA anchor, so NO-LAND for FA is defensible.
+- **C-1d — Zucman / Ndikumana & Boyce route-IN (NEW, folded 2026-06-18; author-call
+  leaning hold-for-later).** §3 adds Zucman (*The Hidden Wealth of Nations* 2015) +
+  Ndikumana & Boyce (Africa's capital-flight measurement) as a TO-ADD row crediting
+  the field that **measured** the §IV value-leakage (Sachs/CCSI + Pistor already
+  carry the leakage mechanism). Relation: credit-the-measurement, one citation,
+  measurement-posture, **no figure beyond what §IV already sources.** Author call;
+  recommended lean is **Book-2/3-ish** (the capital-flight field is a richer fit for a
+  dedicated international-architecture treatment than this lean FA §IV). Like C-1c,
+  NO-LAND carries no reviewer-line cost. Default: leave to the author; lean reserve
+  for a later book unless §IV's leakage paragraph earns the one-mention credit.
 - **C-2 — Pistor-Nigeria-only.** §3.1 keeps Pistor on the Nigeria legal-engineering
   side only (essay L74); she does not migrate to a financialization rebuttal.
   Confirm.
