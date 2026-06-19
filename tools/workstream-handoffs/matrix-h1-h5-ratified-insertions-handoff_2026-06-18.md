@@ -388,8 +388,110 @@ session); Solow is a chapter-only move.
 
 ---
 
-*PROPOSED 2026-06-18. Findings append to this artifact as the author ratifies them one at a
-time. Recorded so far: **H2a (Broome)**, **H1 (atmospheric climate-debt)**, **H2b (Nozick)**,
-**H2c (Gardiner)**, **H4 (Pistor four-attributes + *Rentier Capitalism* 2020)**, **H3 (Solow +
-Dasgupta-2021 finish)**. Next, and last, in the recommended queue: **H5** (Ch8 Costanza/Hotelling
-pull-up; Ch4 Zucman/Ndikumana; + verify the already-landed Ch3 Harvey/Mazzucato beats at redline).*
+## H5 — Attribution-distribution pull-up (RATIFIED 2026-06-18: Ch8 Costanza/Hotelling + Ch4 Zucman/Ndikumana; Ch3 verify-at-redline)
+
+**Relation:** strengthen / surface-existing-lineage. **Coercion flag:** none. **Discipline:**
+attribute the *method/lineage* only — the book's worked numbers are its own computation, NOT
+sourced from these authors. **Re-verification:** Costanza = 0 book-wide; Hotelling = 0 in Ch8
+(present in Ch6); Zucman/Ndikumana = 0 in Ch4. The audit's "Nigeria leakage L83–97" cite was
+stale — the actual value-leakage passage is **L103–105** (transfer pricing + secrecy
+jurisdictions + capital flight + elite capture).
+
+### Ch3 — verify-at-redline ONLY (no draft)
+The flagship Harvey→reef + Mazzucato "gives it a number" beats are already landed (Ch3 L247,
+ADDED 06-17) and the reparations-economics lineage at Ch3 L259. **Action: verify flow at the
+author redline; do NOT re-scope or rebuild.**
+
+### Insertion K — Ch8 L78, append a lineage sentence to the option-value-foreclosure paragraph
+
+`manuscript/chapters/Chapter__8_WhatThingsActuallyCost.md` — append after the "Add to that the
+option-value foreclosure…" paragraph (L78).
+
+> This is the scarcity-rent logic Harold Hotelling formalized in 1931: a non-renewable left in the
+> ground carries a user cost equal to the future value its extraction forecloses. The worked floor
+> above reads that user cost forward, as the option value lost when a carbon resource is burned for
+> electricity before its irreplaceable metallurgical and chemical uses, and the uses no one has yet
+> imagined, can ever be served.
+
+*Why:* audit H5 — the option-value component runs Hotelling's scarcity-rent idea unnamed (Hotelling
+is in Ch6 but not here). **HELD-gate note:** this attributes Hotelling's 1931 *economics*
+(scarcity rent / user cost); it does NOT call anything a "theorem," "identity," or "bridge," so it
+stays clear of the (a) Hotelling-Identity theorem-wording gate (TaskList #13). Zero em-dashes.
+
+### Insertion L — Ch8 L80, light clause naming Costanza (LIGHTEST attribution — cut if it reads forced)
+
+`manuscript/chapters/Chapter__8_WhatThingsActuallyCost.md` L80. Within "…before ecosystem service
+losses from atmospheric warming…", name the tradition that prices that category:
+
+> …before the ecosystem-service losses from atmospheric warming that Robert Costanza's
+> ecosystem-services valuation work prices…
+
+*Why:* credits the ecosystem-services-valuation method for a category the worked ton flags but
+does not fully count (honest — it's an acknowledged-uncounted item, not an overclaim). **Lightest
+of the H5 attributions; redline may cut if it reads forced.** No em-dashes added.
+
+### Insertion M — Ch4 L105, name the measured-leakage scholars
+
+`manuscript/chapters/Chapter__4_TheExistenceProof.md` — append to the "Where Norway built a fund,
+the value left…" paragraph (L105), after the transfer-pricing / secrecy-jurisdictions / elite-
+capture sentences.
+
+> These are not impressionistic mechanisms; the field has measured them. Gabriel Zucman's work on
+> secrecy jurisdictions in *The Hidden Wealth of Nations* quantifies the offshore stock that
+> transfer pricing and tax havens hold beyond the reach of the countries the value came from, and
+> Léonce Ndikumana and James Boyce have measured the capital flight drained from African oil
+> economies, Nigeria foremost among them. The leakage is not a metaphor for what honest accounting
+> would have caught; it is a figure other economists have already put on the page.
+
+*Why:* audit H5 / measurement-posture — the Nigeria value-leakage runs citing no one in a book
+whose value-add is "measurement, not diagnosis." BOOK-2/3 but on-brand; pre-positions the Foreign
+Affairs essay. Zero em-dashes.
+
+**Bibliography actions (TA + master):** add **Hotelling, Harold. "The Economics of Exhaustible
+Resources." *Journal of Political Economy* 39, no. 2 (1931): 137–175** (verify pages; may already
+be in TA via the §6 Hotelling material); **Costanza, Robert, et al. "The Value of the World's
+Ecosystem Services and Natural Capital." *Nature* 387 (1997): 253–260**; **Zucman, Gabriel. *The
+Hidden Wealth of Nations*. University of Chicago Press, 2015**; **Ndikumana, Léonce, and James K.
+Boyce. *Africa's Odious Debts*. London: Zed Books, 2011** (verify which Ndikumana-Boyce title to
+cite for the Nigeria capital-flight figure).
+
+**Essay carry (essay session):** Zucman/Ndikumana → Foreign Affairs §IV per scoping plan §1 H5.
+
+---
+
+## QUEUE COMPLETE — all of H1–H5 ratified + drafted (2026-06-18)
+
+| Finding | Status | Insertions | Coercion |
+|---|---|---|---|
+| **H2a Broome** | RATIFIED + drafted | A (Ch6 after L273), B (Ch5 L206 re-assign) | — |
+| **H1 atmospheric climate-debt** | RATIFIED + drafted | C (Ch5 after L208), D (TA §5.5) | **credit-only, no figure** |
+| **H2b Nozick** | RATIFIED + drafted | E (Ch9 after L164) | — |
+| **H2c Gardiner** | RATIFIED + drafted | F (Ch9 after L276) | — |
+| **H4 Pistor / Rentier Capitalism** | RATIFIED + drafted | G (Ch5 L172), H (Ch9 after L168) | — |
+| **H3 Solow + Dasgupta-2021** | RATIFIED + drafted | I (Ch6 after L157), J (Ch6 L323 finish + bib) | — |
+| **H5 attribution pull-up** | RATIFIED + drafted | K (Ch8 L78), L (Ch8 L80), M (Ch4 L105); Ch3 verify-only | — |
+
+**For the new book-drafting dashboard + plan session:** insertions A–M are PROPOSED, author-ratified
+*engagement* moves — place them and let the author redline (the redline is the final quality stage).
+All prose blocks are em-dash-free by design; all attributions are substrate-safe (real cited works,
+no invented facts); the one coercion-flagged item (H1) is credit-the-field with no dollar figure.
+Coordinate Insertion J with the L323 session (touches their just-merged sentence). Fold alongside
+the full per-chapter/TA assignment at `matrix-findings-chapter-TA-update-handoff_2026-06-17.md`.
+Bibliography actions consolidated per finding above.
+
+**⚠ Consistency flag (author refinement 06-18) — "permanent foreclosure" is scope-over-narrowing.**
+The author removed "permanent foreclosure" from the Ch6 contribution claim because it over-narrows
+the framework's scope: the framework prices the **full spectrum**, including CS≈0 sustainable
+harvest. The Ostrom-axis delta is now framed as the **power/incentive asymmetry** (value-capturer
+vs cost-bearer who are not coequal shared-stakeholders, whether absent OR present-but-dominated;
+aligned with Ch6 L281). Implication for these insertions: **Insertion E (Nozick)** uses "permanent
+foreclosure" as the Lockean-proviso paradigm — that is the proviso's *cleanest case*, NOT a scope
+claim, so it is consistent; but at redline ensure it does not read as limiting the framework to
+permanent foreclosure (soften toward "foreclosure or unsustainable drawdown" if it does). The
+"foreclosing/foreclosed" language in Insertions C/D (H1 climate-debt program) and F (Gardiner,
+"Foreclosure Bond" = the instrument's name) describes programs/instruments, not framework scope —
+consistent as written.
+
+*PROPOSED 2026-06-18. All five headline findings (H1–H5) from the matrix independent verification
+are ratified one-at-a-time and drafted. The (a) tautology sub-finding stays HELD (TaskList #13);
+the (b) "neither addressed" over-claim was RESOLVED + MERGED by the L323 session 06-18.*
