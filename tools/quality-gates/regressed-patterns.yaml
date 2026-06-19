@@ -994,17 +994,23 @@ patterns:
       - "tools/workstream-handoffs/**/*.md"
       - "archive/**"
       # PROVISIONAL hold (2026-06-18, chapter-scope re-enable). Surfaced by
-      # bringing chapters into scope: Ch 6 cross-references the Technical
-      # Appendix as "§9 — Three-Model Convergence", but §9 was RENAMED to
-      # "The Cross-Check Architecture" in the 2026-06-11 convergence-sunset
-      # (this very pattern's origin commit b34022d). GENUINE deprecated-term
-      # occurrence, NOT a false positive — the gate working. The anchor
-      # (#sec-9-three-model-convergence) still resolves, so the LINK is not
-      # broken; only the displayed §9 title is the retired name. Allowlisted
-      # only to keep the gate green on first chapter-scope enable; flagged to
-      # the author to revise the link title "Three-Model Convergence" ->
-      # "The Cross-Check Architecture" at the Ch 6 redline (preferred).
-      # De-allowlist + revise in one step. Re-pin if Ch 6 shifts.
+      # bringing chapters into scope: Ch 6 still carries the RETIRED three-
+      # estimator-convergence method spine (sunset 2026-06-11, this pattern's
+      # origin commit b34022d). GENUINE + KNOWN-PENDING, NOT a false positive —
+      # the gate working. This is not a one-line title typo: per STATE.md, Ch 6
+      # is the single "WHOLE-CLOTH" rebuild in the chapter audit ("method spine
+      # = retired three-estimator convergence; rebuilt brief needed"); the
+      # rebuild prerequisite is READY (handoff ch6-rebuild-settled-numbers-
+      # handoff_2026-06-11.md; unified-triple sunset ratified + §9.5 cross-check
+      # numbers engine-verified). The line:167 hit (a cross-ref still titled
+      # "§9 — Three-Model Convergence"; the anchor #sec-9-three-model-convergence
+      # still resolves, so the LINK is not broken) is one symptom of that spine.
+      # Per author decision (essay-scope handoff 2026-06-18): provisionally
+      # allowlist NOW so the other 9 chapters get under the gate green, rather
+      # than gating all chapter-enablement on the Ch 6 rebuild. DO NOT treat as
+      # benign. The Ch 6 whole-cloth rebuild RESOLVES it — de-allowlist this
+      # entry when the rebuild lands (the retired spine, and this line, go away).
+      # Re-pin if Ch 6 shifts before then.
       # (NB: the bare-glob entries above are inert — the registry parser only
       # reads file:/line: tuples — but those paths are out of scope anyway.)
       - file: "manuscript/chapters/Chapter__6_ThreeWaysofCounting.md"
