@@ -10,7 +10,7 @@ the adjacent literature, and what exactly is the author ratifying?"
 [`tools/audits/matrix-independent-verification_2026-06-17.md`](matrix-independent-verification_2026-06-17.md)
 (RATIFIED 2026-06-17, §1 H1–H5 + §2 ranked-13 table).
 **Operationalized by (does NOT supersede):**
-[`tools/workstream-handoffs/matrix-findings-chapter-TA-update-handoff_2026-06-17.md`](../workstream-handoffs/matrix-findings-chapter-TA-update-handoff_2026-06-17.md)
+[`tools/workstream-handoffs/matrix-findings-chapter-TA-update-handoff_2026-06-19.md`](../workstream-handoffs/matrix-findings-chapter-TA-update-handoff_2026-06-19.md)
 (PROPOSED 2026-06-17 — the per-chapter/TA assignment table + author's settled §3 verdicts).
 **Already resolved, do NOT reopen:**
 [`tools/audits/ta-tautology-verification_2026-06-17.md`](ta-tautology-verification_2026-06-17.md)

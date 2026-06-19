@@ -39,7 +39,7 @@ under-review, feature-freeze + the author may approach the editor; if published,
 - **H1–H5 engagement scoping (per-finding home/relation; re-greped vs main 06-18):**
   `tools/audits/matrix-h1-h5-engagement-scoping_2026-06-18.md`.
 - **Per-chapter/TA assignment + the (b) "neither addressed" fix + MUST-NOW vs Book-2/3:**
-  `tools/workstream-handoffs/matrix-findings-chapter-TA-update-handoff_2026-06-17.md`.
+  `tools/workstream-handoffs/matrix-findings-chapter-TA-update-handoff_2026-06-19.md`.
 
 **HARD RULES (all essay prose):** zero em-dashes; NO invented facts (real cited works +
 on-record material only; structure-note any gap, never fill it with invention); **NEVER a
@@ -51,6 +51,8 @@ on-main essay or another venue's text. The **author's redline is the final stage
 **promotion + submission are author-gated** — produce PROPOSED artifacts, bring verdicts back,
 never self-promote. Branch discipline: internal scaffolding auto-merges; end-user prose
 merges on author ratification; never force-push main; never skip hooks.
+
+**OSTROM POSITIONING — corrected axis (use wherever your piece positions against Ostrom; book-wide, author-ratified 2026-06-19).** Ostrom's design principles assume **homogeneity of interest** across the appropriator community. The framework prices the commons where that homogeneity **fails**: where the value-capturer sits *outside* the community entirely, **or** the community is internally stratified and a dominant party draws the commons down against a dominated one — in either case a counterparty holding both the *power and the incentive* to draw the commons down against the cost-bearer. Put another way: Ostrom governs a commons whose appropriators **share its fate** (one community that captures its value and bears the cost of its decline, bound to the resource and to one another over time); the framework prices the commons where that **shared fate breaks** (the value-capturer outside the community that bears the cost). This is the **move**, not verbatim prose — render it in your venue's register, the lived material earning it. Do **NOT** use the retired "drawn-down vs managed-in-place" axis (false — groundwater is both) or "permanent foreclosure" as a scope gate. (Aligned with the Ch 6 (b) fix + the contribution matrix.)
 
 ---
 

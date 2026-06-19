@@ -8,7 +8,7 @@ book-drafting dashboard + plan session**. Author direction 2026-06-18 (supersede
 the essay & op-ed session; the new book-drafting dashboard + plan session it spawns should fold
 them in alongside **all other chapter and TA matrix-findings updates** — the full per-chapter
 Ch1–10 + TA assignment at
-[`matrix-findings-chapter-TA-update-handoff_2026-06-17.md`](matrix-findings-chapter-TA-update-handoff_2026-06-17.md),
+[`matrix-findings-chapter-TA-update-handoff_2026-06-19.md`](matrix-findings-chapter-TA-update-handoff_2026-06-19.md),
 "if any."* **This session drafts; it does NOT insert into the chapter files.**
 
 > **Routing note for the new book-drafting session:** these are PROPOSED, author-ratified
@@ -476,7 +476,7 @@ cite for the Nigeria capital-flight figure).
 All prose blocks are em-dash-free by design; all attributions are substrate-safe (real cited works,
 no invented facts); the one coercion-flagged item (H1) is credit-the-field with no dollar figure.
 Coordinate Insertion J with the L323 session (touches their just-merged sentence). Fold alongside
-the full per-chapter/TA assignment at `matrix-findings-chapter-TA-update-handoff_2026-06-17.md`.
+the full per-chapter/TA assignment at `matrix-findings-chapter-TA-update-handoff_2026-06-19.md`.
 Bibliography actions consolidated per finding above.
 
 **⚠ Consistency flag (author refinement 06-18) — "permanent foreclosure" is scope-over-narrowing.**
