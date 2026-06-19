@@ -492,6 +492,35 @@ permanent foreclosure (soften toward "foreclosure or unsustainable drawdown" if 
 "Foreclosure Bond" = the instrument's name) describes programs/instruments, not framework scope —
 consistent as written.
 
+**⚠ Version anchor (read before placing).** Every insertion A–M is anchored to the **canonical
+chapter versions on `origin/main` as of commit `e70ea0d0` (2026-06-18)** — verified: this scoping
+session's worktree is identical to `origin/main`, and all 11 anchor sentences exist exactly once in
+those files. The *engagement* (the move, the cited works, the argument) is **version-independent**;
+only the line/sentence anchor is version-bound. **STATE.md flags whole-cloth redo-promotion
+candidates pending for Ch4/Ch6/Ch7/Ch8/Ch9** (paused under the token-conservation hold) — four of
+the six target chapters. If the book-drafting session promotes a new whole-cloth version of any
+target chapter, **re-home that chapter's insertion by content** (the named anchor sentence/concept),
+not by line number; if the anchor sentence was rewritten away, place the engagement at the
+equivalent passage. Place each insertion against **whatever version you are promoting**, not a stale
+main snapshot. When in doubt on a chapter's current version, confirm with this session before placing.
+
+**Anchor map (chapter · sentence the insertion attaches to):** A Ch6 "…rather than within only one."
+· B Ch5 "…one strong grounding among several." · C Ch5 "The backward instrument's lineage runs
+through the reparations tradition…" · D TA §5.5 (beside the Darity-Mullen entry) · E Ch9 "The third
+is information asymmetry at civilizational scale…" · F Ch9 "…the question every generation answers
+for the one that follows." · G Ch5 "Pistor's modules code assets; this book accounts costs." · H Ch9
+"Brett Christophers' *The Price is Wrong*… (2024)…" · I Ch6 "The substitutability function has four
+natural properties…" · J Ch6 "locates its contribution precisely against each" (L323) · K Ch8 "Add
+to that the option-value foreclosure…" · L Ch8 "before ecosystem service losses from atmospheric
+warming" · M Ch4 "Where Norway built a fund, the value left."
+
+**On the H2b (Nozick) justification (corrected 2026-06-18):** the book-chapter rationale is
+**argumentative completeness** — the book answers the left/Marxist objection and the statism
+objection but leaves the deontological *rights* objection unanswered, a gap any rigorous reader
+notices. It is **NOT** justified by courting "a named center-right audience"; that framing belongs to
+the *Atlantic Ideas essay*'s Condition-1 audience (essay-side), not the chapter. The drafted
+Insertion E prose is already audience-agnostic.
+
 *PROPOSED 2026-06-18. All five headline findings (H1–H5) from the matrix independent verification
 are ratified one-at-a-time and drafted. The (a) tautology sub-finding stays HELD (TaskList #13);
 the (b) "neither addressed" over-claim was RESOLVED + MERGED by the L323 session 06-18.*

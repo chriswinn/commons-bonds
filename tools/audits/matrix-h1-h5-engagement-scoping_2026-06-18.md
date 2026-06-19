@@ -116,7 +116,12 @@ confirmed **0 everywhere**. No coercion flag on any of the three.
   - **Relation:** extends / turns-against-itself.
   - **Engagement:** Add the libertarian **rights-flank** objection via **Robert Nozick**
     (*Anarchy, State, and Utopia* 1974) — the flank the book currently leaves empty while
-    engaging the Marxist one, an asymmetry a property-rights reviewer reads as a left lean.
+    engaging the left/Marxist objection (Ch10) and the statism objection (Ch10). The
+    justification is **argumentative completeness, not audience-courting**: a book that
+    answers two major objections to an instrument but is silent on the third, deepest one
+    (the deontological claim of right) has an unanswered-objection gap any rigorous reader
+    notices, regardless of politics. (The "center-right reviewer reads it as a left lean"
+    framing belongs to the *Atlantic Ideas essay*'s Condition-1 audience, not the book chapter.)
     State it at full strength (the bond burdens legitimately-held entitlement), then win it
     on Nozick's own ground: the **Lockean proviso** licenses appropriation only when "enough
     and as good" is left for others, and permanent foreclosure of a commons is exactly the
@@ -259,7 +264,8 @@ strengthen/verify) toward the end.
    pure ally-credit; fixes the "embarrassing" absence. Best momentum-builder.
 2. **H1 — atmospheric climate-debt.** Top-ranked vulnerability; carries the coercion nuance,
    so it wants the author's explicit sign-off on the credit-the-field framing.
-3. **H2b — Nozick.** Rights-flank / center-right disarm; winnable via the proviso.
+3. **H2b — Nozick.** Closes the unanswered rights-flank (completeness, not audience-courting);
+   winnable via the proviso. (Essay-side center-right disarm is the Atlantic Ideas carry only.)
 4. **H2c — Gardiner.** Theory-of-change threat → precommitment device.
 5. **H4 — Pistor four attributes + *Rentier Capitalism* 2020.** Strengthen existing.
 6. **H3 — Dasgupta 2021 + Solow-into-prose.** Two cheap Ch6 surfaces.
