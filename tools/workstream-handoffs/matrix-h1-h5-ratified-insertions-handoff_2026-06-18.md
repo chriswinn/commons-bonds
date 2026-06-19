@@ -264,7 +264,75 @@ framing). Per scoping plan, no dedicated essay home assigned.
 
 ---
 
+## H4 — Code-of-Capital / rentier (RATIFIED 2026-06-18: both strengthen-moves; BOOK-2/3 for chapters, *Rentier Capitalism* also NYRB-essay MUST)
+
+**Relation:** strengthen existing — convert assertion into demonstration. **Coercion flag:** none.
+**No invented-fact risk** (Pistor's + Christophers' published positions only). **Priority:** BOOK-2/3
+for the chapters (the existing Ch5/Ch9/Ch10 answer already defends the book); Move 2's *Rentier
+Capitalism* treatment is the MUST for the **NYRB essay** (essay session). Both moves share one
+demonstration: the bond is engineered to lack convertibility and transferability.
+
+### Insertion G — Ch5 L172, add to the financialization rebuttal (after "Pistor's modules code assets; this book accounts costs.")
+
+`manuscript/chapters/Chapter__5_TheAccountabilityGap.md` — insert these sentences into the
+existing L172 paragraph immediately after "…Pistor's modules code assets; this book accounts
+costs." and before "The whole point of standing in the Polanyi-Fraser tradition…".
+
+> Pistor names the legal attributes that turn an ordinary asset into capital: priority, durability,
+> universality, and convertibility, the coding that lets a claim rank ahead of others, hold its
+> rank over time, bind the whole world, and be cashed back into state money. An accountability
+> bond is engineered to lack the two that let capital circulate. It is not convertible: it cannot
+> be redeemed for money or for any claim other than the discharge of the specific liability it
+> records. And it is not transferable: it cannot be sold, traded, or repackaged into a marketable
+> security. A debt that can only be paid, never traded, is the opposite of a coded asset. That is
+> the difference between coding an asset and accounting a cost, shown in the code's own terms
+> rather than asserted against them.
+
+*Why:* audit H4 — the rebuttal currently *asserts* "this book accounts costs"; naming Pistor's
+four attributes and showing the bond fails convertibility + transferability turns it into a
+*demonstration against Pistor's own criteria*. Zero em-dashes in the prose block. (Attribute
+glosses verified against *The Code of Capital*: priority / durability / universality /
+convertibility.)
+
+### Insertion H — Ch9, new paragraph after L168 (the *Price Is Wrong* paragraph)
+
+`manuscript/chapters/Chapter__9_PricingHonestly.md` — insert as a new paragraph after the
+"Brett Christophers' *The Price is Wrong*… (2024)…" paragraph (L168). This delivers the fuller
+engagement the Ch5 L175 foreshadow promised ("the fuller engagement with his specific argument
+waits for a later chapter").
+
+> Christophers' earlier book poses the sharper threat, the one aimed not at markets in general but
+> at this instrument in particular. *Rentier Capitalism*, from 2020, traces the economy's drift
+> toward rentierism, the extraction of income from the mere ownership and control of scarce assets
+> rather than from making anything, and a bond posted over a natural asset is, on its face,
+> precisely the rentier move: enclose the commons, title it, and collect. The answer is the one
+> Chapter 5 makes in the code's own terms. A rentier asset must be ownable, tradable, and
+> convertible into a stream of income; the accountability bond is built to be none of these. It
+> cannot be owned as property, sold into a market, or converted into a yield. It records a debt to
+> be discharged, not an asset to be held, and a thing that produces no rent cannot be the
+> rentier's prize. Naming the residual commons value does not hand the rentier a new asset to
+> capture; it names a cost the rentier has been externalizing, which is the opposite operation.
+
+*Why:* audit H4 / P2 — the book engages the congenial *Price Is Wrong* (2024) but not *Rentier
+Capitalism* (2020), the book that actually threatens a bond-over-a-natural-asset. This names and
+rebuts it (same non-transferability/non-convertibility demonstration as Move 1) and pays off the
+Ch5 L175 foreshadow. Zero em-dashes in the prose block.
+
+*Redline option (not ratified, flagged):* the Ch5 L175 Christophers foreshadow could optionally be
+upgraded to name *Rentier Capitalism* by title; left as-is here (the title lands at the fuller Ch9
+engagement, which is what the foreshadow promises). Author/redline call.
+
+**Bibliography action (TA + master):** add **Christophers, Brett. *Rentier Capitalism: Who Owns
+the Economy, and Who Pays for It?* London: Verso, 2020.** (verify subtitle/publisher at insertion).
+
+**Essay carry (essay & op-ed session's domain):** *Rentier Capitalism* + the strengthened
+non-transferability distinction → **NYRB** (where Christophers is the review quartet's "mechanism")
+— this is the MUST-tier home, per scoping plan §1 H4 + handoff §2.
+
+---
+
 *PROPOSED 2026-06-18. Findings append to this artifact as the author ratifies them one at a
 time. Recorded so far: **H2a (Broome)**, **H1 (atmospheric climate-debt)**, **H2b (Nozick)**,
-**H2c (Gardiner)**. Next in the recommended queue: **H4 (Pistor four-attributes + *Rentier
-Capitalism* 2020)**, then **H3** (re-verify vs the L323 Dasgupta pre-emption), then **H5**.*
+**H2c (Gardiner)**, **H4 (Pistor four-attributes + *Rentier Capitalism* 2020)**. Next in the
+recommended queue: **H3** (Dasgupta 2021 + Solow — re-verify vs the L323 Dasgupta pre-emption),
+then **H5** (Ch8 Costanza/Hotelling; Ch4 Zucman/Ndikumana).*
