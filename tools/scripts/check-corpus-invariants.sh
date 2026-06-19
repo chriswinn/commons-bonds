@@ -3,7 +3,7 @@
 # check-corpus-invariants.sh — invariant-gate corpus-hygiene scan
 #
 # Runs scaffolding-pattern scan + regressed-pattern scan against scope
-# (default: manuscript/chapters/Chapter_*Draft*.md + AuthorsNote +
+# (default: manuscript/chapters/Chapter_*.md + AuthorsNote +
 # essay-drafts + op-eds). Exits non-zero on HIGH-severity match.
 # Reports MEDIUM-severity findings for review. LOW logged only.
 #
@@ -226,7 +226,12 @@ if [[ "$STAGED_ONLY" -eq 1 ]]; then
     # (not _archive/ historical drafts, cover letters, sign-offs, READMEs —
     # which are internal-scaffolding-adjacent and have their own discipline).
     case "$f" in
-      manuscript/chapters/*Draft*.md) echo "$f" ;;
+      # Chapters dropped the legacy __Draft suffix during the promotion
+      # campaign (2026-06); scope now matches Chapter_*.md. The leading
+      # `Chapter_` anchor keeps _AUTHORSNOTE/_Dedication out of this branch
+      # (handled below) and the case `*` does not cross into archive/ (the
+      # path segment after manuscript/chapters/ is `archive/`, not `Chapter`).
+      manuscript/chapters/Chapter_*.md) echo "$f" ;;
       manuscript/chapters/_AUTHORSNOTE*.md) echo "$f" ;;
       manuscript/chapters/_BookLevelGuidance.md) echo "$f" ;;
       manuscript/chapters/_Dedication.md) echo "$f" ;;
@@ -258,7 +263,12 @@ else
   # Hardcoded here to match the YAML; if YAML scope changes, update here too.
   cd "$REPO_ROOT"
   {
-    ls manuscript/chapters/Chapter_*Draft*.md 2>/dev/null || true
+    # Chapters dropped the legacy __Draft suffix during the 2026-06 promotion
+    # campaign; the glob is now Chapter_*.md (matches Chapter_10_* + the
+    # double-underscore Chapter__1_*…Chapter__9_*). The leading `Chapter_`
+    # anchor excludes _AUTHORSNOTE*/_Dedication (globbed separately below) and
+    # the non-recursive ls does not descend into archive/.
+    ls manuscript/chapters/Chapter_*.md 2>/dev/null || true
     ls manuscript/chapters/_AUTHORSNOTE*.md 2>/dev/null || true
     ls manuscript/chapters/_Dedication.md 2>/dev/null || true
     # Canonical end-user op-ed drafts only (mirror the --staged include set):
@@ -302,7 +312,7 @@ if [[ "$SCOPE_COUNT" -eq 0 ]]; then
   exit 0
 fi
 
-# ===== Essay frontmatter-aware scanning =====
+# ===== Frontmatter / comment-aware scanning =====
 #
 # publishing/essays/<venue>/essay.md files co-locate audit-trail frontmatter
 # (pipeline status, rigor-pass history, version pedigree) with the publisher-
@@ -311,11 +321,30 @@ fi
 # exactly what the scaffolding/regressed registries flag — so scanning the
 # whole file false-positives. We want to scan only the PROSE BODY.
 #
+# The same problem appears in CHAPTER files (and op-eds): the working drafts
+# carry HTML-comment editorial annotations — STATUS/lineage headers, BEAT-rank
+# markers, ENHANCE / RESTORED / contribution-matrix notes, "keep/trim/cut at
+# redline" instructions — that never render but are dense in the same process
+# vocabulary. Brought into scope 2026-06-18 (chapters dropped the __Draft
+# suffix, so the gate had been silently scanning ZERO chapters), they would
+# false-positive on every such comment. So every scope file gets HTML-comment
+# stripping; essays additionally get the YAML-block + dossier-wrapper stripping.
+#
 # Rather than rewrite the grep pipeline, we precompute the set of audit-trail
-# line numbers per essay and skip any match landing on one (same mechanism as
-# the per-pattern allowlist, just global to essay files). Skipping by line —
-# instead of feeding grep a stripped copy — keeps the reported file:line
-# numbers pointing at the real on-disk lines.
+# line numbers per file and skip any match landing on one (same mechanism as
+# the per-pattern allowlist, just global). Skipping by line — instead of
+# feeding grep a stripped copy — keeps the reported file:line numbers pointing
+# at the real on-disk lines.
+#
+# CHAPTER/OP-ED comment stripping is deliberately CONSERVATIVE: it skips a line
+# only when the line is WHOLLY comment (nothing but a block comment, possibly
+# spanning multiple lines). A line that mixes prose with an inline `<!-- … -->`
+# marker is NOT skipped — its prose stays under the scan (the inline comment's
+# own process vocabulary surfaces only as non-blocking MEDIUM/LOW, which clears
+# when the author resolves the marker at redline). This trades a little comment-
+# noise for never silently dropping prose coverage on a redlined paragraph. (The
+# essay stripper below is whole-line because essay audit-trail is block-shaped,
+# not inline.)
 #
 # Three frontmatter shapes occur across the live essays (verified 2026-06-18);
 # the stripper recognizes all three and leaves no-frontmatter essays untouched:
@@ -394,20 +423,57 @@ FM_SKIP_AWK='
   }
 '
 
-# Build the global essay frontmatter skip-set: one "file:line" key per audit-
-# trail line, checked in the match loop below (alongside the allowlist check).
-ESSAY_SKIP_KEYS=$(mktemp)
-trap 'rm -f "$PATTERN_RECORDS" "$SCOPE_FILES" "$SCOPE_VALID" "$ESSAY_SKIP_KEYS"' EXIT
+# awk: prints the 1-based line numbers of WHOLLY-COMMENT lines (chapters, op-eds,
+# AuthorsNote/Dedication). A line is skipped only if, after removing every
+# <!-- … --> span (comments may span multiple lines), nothing but whitespace
+# remains. A line that still carries prose outside its inline comment is left in
+# scope. See the conservative-stripping note above.
+COMMENT_SKIP_AWK='
+  BEGIN { in_comment = 0 }
+  {
+    L = $0
+    rebuilt = ""
+    n = length(L)
+    i = 1
+    while (i <= n) {
+      if (in_comment) {
+        p = index(substr(L, i), "-->")
+        if (p > 0) { in_comment = 0; i = i + p + 2 } else { i = n + 1 }
+      } else {
+        p = index(substr(L, i), "<!--")
+        if (p > 0) {
+          rebuilt = rebuilt substr(L, i, p - 1)
+          in_comment = 1
+          i = i + p + 3
+        } else {
+          rebuilt = rebuilt substr(L, i)
+          i = n + 1
+        }
+      }
+    }
+    if (L !~ /^[[:space:]]*$/ && rebuilt ~ /^[[:space:]]*$/) print NR
+  }
+'
+
+# Build the global skip-set: one "file:line" key per audit-trail / wholly-comment
+# line, checked in the match loop below (alongside the allowlist check). Essays
+# get the full frontmatter stripper (A: HTML comments + B: YAML + C: dossier);
+# every other scope file gets HTML-comment-only stripping.
+SKIP_KEYS=$(mktemp)
+trap 'rm -f "$PATTERN_RECORDS" "$SCOPE_FILES" "$SCOPE_VALID" "$SKIP_KEYS"' EXIT
 while read -r f; do
   [[ -z "$f" ]] && continue
-  is_essay_scope_file "$f" || continue
-  awk "$FM_SKIP_AWK" "$f" | while read -r ln; do
+  if is_essay_scope_file "$f"; then
+    awk "$FM_SKIP_AWK" "$f"
+  else
+    awk "$COMMENT_SKIP_AWK" "$f"
+  fi | while read -r ln; do
     [[ -n "$ln" ]] && echo "${f}:${ln}"
   done
-done < "$SCOPE_VALID" >> "$ESSAY_SKIP_KEYS"
+done < "$SCOPE_VALID" >> "$SKIP_KEYS"
 
 if [[ "$VERBOSE" -eq 1 ]]; then
-  echo "[corpus-invariants] Essay frontmatter skip-lines: $(wc -l < "$ESSAY_SKIP_KEYS" | tr -d ' ')" >&2
+  echo "[corpus-invariants] Frontmatter/comment skip-lines: $(wc -l < "$SKIP_KEYS" | tr -d ' ')" >&2
 fi
 
 # ===== Run pattern matches =====
@@ -416,7 +482,7 @@ HIGH_COUNT=0
 MEDIUM_COUNT=0
 LOW_COUNT=0
 FINDINGS_REPORT=$(mktemp)
-trap 'rm -f "$PATTERN_RECORDS" "$SCOPE_FILES" "$SCOPE_VALID" "$ESSAY_SKIP_KEYS" "$FINDINGS_REPORT"' EXIT
+trap 'rm -f "$PATTERN_RECORDS" "$SCOPE_FILES" "$SCOPE_VALID" "$SKIP_KEYS" "$FINDINGS_REPORT"' EXIT
 
 severity_in_filter() {
   local sev="$1"
@@ -455,12 +521,12 @@ while IFS=$'\t' read -r REG ID PATTERN PTYPE SEVERITY CATEGORY ALLOWLIST; do
     match_lineno=$(echo "$match_line" | cut -d: -f2)
     match_key="${match_file}:${match_lineno}"
 
-    # Essay frontmatter-aware skip: drop matches that land on an audit-trail
-    # line of an essay.md (precomputed above). The prose body still scans.
-    if [[ -s "$ESSAY_SKIP_KEYS" ]] && is_essay_scope_file "$match_file"; then
-      if grep -qxF -- "$match_key" "$ESSAY_SKIP_KEYS"; then
-        continue
-      fi
+    # Frontmatter / comment-aware skip: drop matches that land on a precomputed
+    # audit-trail or wholly-comment line (essays: frontmatter; chapters/op-eds:
+    # HTML comments). The skip-set is keyed by file:line, so the membership test
+    # alone is authoritative — no per-file-type guard needed. Prose still scans.
+    if [[ -s "$SKIP_KEYS" ]] && grep -qxF -- "$match_key" "$SKIP_KEYS"; then
+      continue
     fi
 
     # Allowlist check

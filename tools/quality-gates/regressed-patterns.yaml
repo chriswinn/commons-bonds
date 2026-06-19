@@ -97,9 +97,9 @@ patterns:
       commit: "7b4aa92"
       ratified: "2026-05-15"
     allowlist:
-      - file: "manuscript/chapters/Chapter__6_ThreeWaysofCounting__Draft.md"
-        line: 158
-        rationale: "legitimate table headers — M1/M2/M3 column labels use em-dash as column-name separator, not as connective-tissue prose"
+      - file: "manuscript/chapters/Chapter__6_ThreeWaysofCounting.md"
+        line: 171
+        rationale: "legitimate table headers — M1/M2/M3 column labels use em-dash as column-name separator, not as connective-tissue prose (de-suffixed + re-pinned 158 → 171 on 2026-06-18 chapter-scope re-enable)"
 
   - id: regressed-declarative-three-in-a-row-negation
     pattern: 'He did not [a-z]+\. He did not [a-z]+\. The'
@@ -145,10 +145,12 @@ patterns:
       pass: "Ch 1 Pass 2 voice-polish (F-V9)"
       commit: "7b4aa92"
       ratified: "2026-05-15"
-    allowlist:
-      - file: "manuscript/chapters/Chapter__1_TheQuietMath__Draft.md"
-        line: 67
-        rationale: "deliberate four-times anaphora with ellipsis-pause; author-ratified Phase C disposition (post-F-V1/V10 cuts shifted line 69 → 67)"
+    # 2026-06-18 (chapter-scope re-enable): the F-V9 four-times anaphora this
+    # once held (Chapter__1_TheQuietMath__Draft.md:67) was removed in the
+    # 2026-06 Ch 1 redraft — the pattern no longer matches anywhere in Ch 1
+    # (grep-verified). Allowlist emptied rather than re-pinned; restore a
+    # file:line entry only if the construct (or a new defensible one) returns.
+    allowlist: []
 
   - id: regressed-tautological-x-was-x
     pattern: 'The [a-z]+ was the [a-z]+\.'
@@ -204,10 +206,14 @@ patterns:
       pass: "Ch 1 Pass 2 voice-polish (F-V14)"
       commit: "7b4aa92"
       ratified: "2026-05-15"
-    allowlist:
-      - file: "manuscript/chapters/Chapter__1_TheQuietMath__Draft.md"
-        line: 101
-        rationale: "framework-naming moment (F-V14 held); negation-negation-affirmation rhetorically earned per Phase C disposition (post-F-V1/V10 cuts shifted line 103 → 101)"
+    # 2026-06-18 (chapter-scope re-enable): the F-V14 negation-negation-
+    # affirmation construct this once held (Chapter__1_TheQuietMath__Draft.md:101)
+    # was removed in the 2026-06 Ch 1 redraft — the pattern no longer matches
+    # any chapter (it now only fires on harpers/essay.md:133, a MEDIUM left for
+    # that essay's review). The Ch 2 / Ch 10 occurrences cited in the
+    # description above are likewise gone post-redraft. Allowlist emptied rather
+    # than re-pinned; restore a file:line entry only if a defensible one returns.
+    allowlist: []
 
   # ===========================================================
   # Category 2: Named LLM tics (from Ch 5 + Ch 6 Pass 2 voice-polish)
@@ -261,9 +267,9 @@ patterns:
       pass: "Ch 6 Pass 2 voice-polish (F-V5)"
       commit: "(Phase C-γ for Ch 6; verify when applied)"
     allowlist:
-      - file: "manuscript/chapters/Chapter__6_ThreeWaysofCounting__Draft.md"
-        line: 45
-        rationale: "first use of damage-vs-substitution distinction; held per Phase C-γ Option A consolidation (line 49 verbatim-repeat dropped)"
+      - file: "manuscript/chapters/Chapter__6_ThreeWaysofCounting.md"
+        line: 58
+        rationale: "first use of damage-vs-substitution distinction; held per Phase C-γ Option A consolidation (de-suffixed + re-pinned 45 → 58 on 2026-06-18). NB a second occurrence now exists at Chapter__6_ThreeWaysofCounting.md:265 ('…on opposite sides of it', the reparations-vs-environmental-bond comparison) — left UN-allowlisted as a MEDIUM flag for author review per the pattern's new-occurrence discipline; reads as a deliberate thematic callback, but the author should confirm keep vs consolidate at redline."
 
   - id: regressed-expository-flatness-one-distinction-matters
     pattern: 'One distinction matters here'
@@ -842,6 +848,9 @@ patterns:
       - file: "manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html"
         line: 1410
         rationale: "SUBSTANTIVE naming-history: §5.1.2 explains why the working label was rejected for Restitution Bond (re-pinned 2026-06-11 after §3.6 reef-row +23-line shift)"
+      - file: "manuscript/chapters/Chapter__5_TheAccountabilityGap.md"
+        line: 202
+        rationale: "SUBSTANTIVE naming-discipline exposition — the chapter twin of the TA §5.1.2 entry above. The paragraph explains why the instrument is NOT called the 'Reparations Bond' ('would be to narrow the umbrella to one historically specific application'), the single intentional use of the deprecated label to reject it. Not a regression. Added 2026-06-18 on chapter-scope re-enable; re-pin if Ch 5 shifts."
 
   - id: regressed-term-resource-foreclosure-bond
     pattern: 'Resource-Foreclosure Bond'
@@ -984,6 +993,22 @@ patterns:
       - "tools/audits/**/*.md"
       - "tools/workstream-handoffs/**/*.md"
       - "archive/**"
+      # PROVISIONAL hold (2026-06-18, chapter-scope re-enable). Surfaced by
+      # bringing chapters into scope: Ch 6 cross-references the Technical
+      # Appendix as "§9 — Three-Model Convergence", but §9 was RENAMED to
+      # "The Cross-Check Architecture" in the 2026-06-11 convergence-sunset
+      # (this very pattern's origin commit b34022d). GENUINE deprecated-term
+      # occurrence, NOT a false positive — the gate working. The anchor
+      # (#sec-9-three-model-convergence) still resolves, so the LINK is not
+      # broken; only the displayed §9 title is the retired name. Allowlisted
+      # only to keep the gate green on first chapter-scope enable; flagged to
+      # the author to revise the link title "Three-Model Convergence" ->
+      # "The Cross-Check Architecture" at the Ch 6 redline (preferred).
+      # De-allowlist + revise in one step. Re-pin if Ch 6 shifts.
+      # (NB: the bare-glob entries above are inert — the registry parser only
+      # reads file:/line: tuples — but those paths are out of scope anyway.)
+      - file: "manuscript/chapters/Chapter__6_ThreeWaysofCounting.md"
+        line: 167
 
   - id: regressed-canon-all-three-models-agree
     pattern: 'All three models agree'
@@ -1090,10 +1115,12 @@ patterns:
   # consumer surplus. Patterns are AFFIRMATIVE-phrasing only, so a correct
   # disclaimer ("is not a theorem but an empirical observation") does NOT
   # trip them. Escape hatch: per-file allowlist, or --no-verify with author
-  # direction. Note: enforced by the pre-commit hook only on its --staged
-  # scope (chapter Drafts + op-ed.md + AuthorsNote/Dedication); essay.md is
-  # not yet in scope (frontmatter follow-up), so matrix->essay propagation
-  # still relies on drafting discipline until that scope re-enables.
+  # direction. Note: enforced by the pre-commit hook on its --staged scope,
+  # which now covers chapters (Chapter_*.md — the __Draft suffix was dropped
+  # in the 2026-06 promotion campaign; chapter scope re-enabled 2026-06-18),
+  # op-ed.md, AuthorsNote/Dedication, AND essay.md (re-enabled 2026-06-18 with
+  # frontmatter-aware body-only scanning), so the matrix->essay and
+  # matrix->chapter propagation paths are both under the gate.
   # ===========================================================
 
   - id: regressed-canon-near-theorem-overclaim
@@ -1156,7 +1183,10 @@ patterns:
 
 scope:
   include:
-    - "manuscript/chapters/Chapter_*Draft*.md"
+    # Chapters dropped the legacy __Draft suffix in the 2026-06 promotion
+    # campaign; glob is now Chapter_*.md (excludes _AUTHORSNOTE*/_Dedication,
+    # which start with "_"; non-recursive, so archive/ copies stay out).
+    - "manuscript/chapters/Chapter_*.md"
     - "manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html"
     - "manuscript/chapters/_AUTHORSNOTE*.md"
     - "manuscript/chapters/_Dedication.md"

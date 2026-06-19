@@ -206,9 +206,19 @@ patterns:
     category: process-scaffolding
     description: Process token from author-ratification workflow
     allowlist:
-      - file: "manuscript/chapters/Chapter__5_THEACCOUNTABILITYGAP__Draft.md"
-        line: 48
-        rationale: "legitimate substantive use — 'settlement-ratified empirical magnitude'"
+      # Re-pointed 2026-06-18 (chapter-scope re-enable). The old entry held a
+      # Ch 5 "settlement-ratified empirical magnitude" use that the 2026-06
+      # redraft removed. The live substantive prose use is now in Ch 4:
+      - file: "manuscript/chapters/Chapter__4_TheExistenceProof.md"
+        line: 121
+        rationale: "legitimate substantive use — Alaska 'ratified a constitutional amendment' / 'voter-ratified', not the process-token sense"
+      # NB: Ch 5 still shows MEDIUM scaffold-ratified hits at lines 25, 53, 184 —
+      # these are 'author-ratified' / 'RESTORED…ratified' inside INLINE HTML
+      # comments sharing a line with prose, so the conservative comment-stripper
+      # cannot drop them without dropping the paragraph. Left as non-blocking
+      # MEDIUM noise; they clear when the author resolves the inline BEAT/RESTORED
+      # markers at redline. Not allowlisted (line-pinning inline markers through
+      # active redline would churn).
 
   - id: scaffold-phase-c
     pattern: '\bPhase C[-\s]'
@@ -558,7 +568,8 @@ patterns:
 # ===== Scope configuration =====
 #
 # By default, scaffolding scan runs against:
-#   manuscript/chapters/Chapter_*Draft*.md
+#   manuscript/chapters/Chapter_*.md  (was Chapter_*Draft*.md until 2026-06-18;
+#     chapters dropped the __Draft suffix in the 2026-06 promotion campaign)
 #   manuscript/chapters/_AUTHORSNOTE*.md
 #   manuscript/chapters/_BookLevelGuidance.md
 #   manuscript/chapters/_Dedication.md
@@ -588,7 +599,10 @@ patterns:
 
 scope:
   include:
-    - "manuscript/chapters/Chapter_*Draft*.md"
+    # Chapters dropped the legacy __Draft suffix in the 2026-06 promotion
+    # campaign; glob is now Chapter_*.md (excludes _AUTHORSNOTE*/_Dedication,
+    # which start with "_"; non-recursive, so archive/ copies stay out).
+    - "manuscript/chapters/Chapter_*.md"
     - "manuscript/chapters/_AUTHORSNOTE*.md"
     - "manuscript/chapters/_Dedication.md"
     - "publishing/essays/*/essay.md"  # re-enabled 2026-06-18; scanned body-only via frontmatter-aware stripping in check-corpus-invariants.sh
