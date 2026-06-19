@@ -168,6 +168,55 @@ near-miss to its Polanyi/Fraser lineage), per the scoping plan §1 H1.
 
 ---
 
+## H2b — Nozick / Lockean proviso (RATIFIED as scoped 2026-06-18: full turns-against-itself)
+
+**Relation:** extends / turns-against-itself. **Coercion flag:** none. **No invented-fact risk**
+(cites Nozick's published positions only).
+**Verification refinement (vs the audit's "Marxist-vs-libertarian asymmetry"):** confirmed
+against `main` — the book already engages TWO property-rights-tradition objections: the
+*efficiency* claim (Ch9 L152–166, Coase) and the *statism* / state-overreach worry (Ch10 L170–174,
+"Trojan horse for the state," from "conservative friends"). The genuine gap is the *deontological
+rights* objection — the bond as an unjust taking regardless of efficiency or statism — which
+neither reaches. The draft maps all three (efficiency→this section; statism→final chapter;
+rights→Nozick), which is stronger and more accurate than a blunt asymmetry claim.
+
+### Insertion E — Ch9, new paragraph after L164 (the third efficiency-domain), before L166 ("This is not a refutation…")
+
+`manuscript/chapters/Chapter__9_PricingHonestly.md` — insert after the "The third is information
+asymmetry at civilizational scale…" paragraph (L164) and before "This is not a refutation of
+property rights…" (L166).
+
+> There is a second version of the objection from the property rights tradition, and it is the
+> deeper one, because it does not turn on efficiency at all. Robert Nozick's *Anarchy, State, and
+> Utopia*, from 1974, grounds the entitlement theory of justice: a holding is just if it was
+> justly acquired and justly transferred, and no calculation of efficiency or need licenses a
+> third party to override it. On this view the bond is not merely unnecessary but illegitimate, a
+> coercive charge laid on holdings their owners came by honestly. This is a different objection
+> from the efficiency claim answered above, and different again from the worry about state
+> overreach taken up in the final chapter; it is the tradition's deepest one, the claim of right,
+> and a framework that answers the other two while ignoring this one has not been honest about
+> where it stands. The answer, though, is in Nozick's own theory. Just acquisition, in his
+> account, is bounded by the Lockean proviso: one may take from the common stock only where
+> enough and as good is left for others. Permanent foreclosure is the case the proviso was
+> written for. When a finite, non-substitutable stock is drawn down to depletion, there is not
+> enough and as good left for the others who come after; the proviso is violated absolutely, not
+> at the margin. An acquisition that fails the proviso is not, in Nozick's own terms, a just
+> acquisition, and the entitlement it generates is not the clean title the objection assumes. The
+> bond is the price of the proviso, the charge that makes an otherwise-unjust appropriation just
+> by accounting for what it leaves the others. Far from overriding Nozick's framework, the
+> framework enforces the boundary Nozick himself drew.
+
+*Redline notes:* (1) L166's existing close ("an identification of the domain within which they
+are complete and the domain within which they are not") now caps both the efficiency three-domains
+AND the Nozick proviso argument — apt, but verify the flow reads that way. (2) Drafted measured,
+no triumphalism, per the ratification. (3) Zero em-dashes in the prose block by design.
+(4) Statism reference points to Ch10 L170–174; pin the cross-reference at redline.
+
+**Essay carry (essay & op-ed session's domain):** Nozick / Lockean proviso → **Atlantic Ideas**
+center-right disarm, per scoping plan §1 H2b.
+
+---
+
 *PROPOSED 2026-06-18. Findings append to this artifact as the author ratifies them one at a
-time. Recorded so far: **H2a (Broome)**, **H1 (atmospheric climate-debt)**. Next in the
-recommended queue: **H2b (Nozick / Lockean proviso)**.*
+time. Recorded so far: **H2a (Broome)**, **H1 (atmospheric climate-debt)**, **H2b (Nozick)**.
+Next in the recommended queue: **H2c (Gardiner — tyranny of the contemporary)**.*
