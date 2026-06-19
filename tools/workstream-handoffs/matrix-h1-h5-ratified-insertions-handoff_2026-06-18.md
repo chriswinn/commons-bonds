@@ -331,8 +331,65 @@ non-transferability distinction → **NYRB** (where Christophers is the review q
 
 ---
 
+## H3 — Dasgupta 2021 + Solow-into-prose (RATIFIED 2026-06-18: both; cheap, BOOK-2/3; do NOT dramatize)
+
+**Relation:** Solow = extends / surface-existing-TA-citation; Dasgupta = citation finish on the
+L323 sentence. **Coercion flag:** none. **No invented-fact risk** (Solow/Daly/Dasgupta published
+positions; book's own non-substitutable examples reused, not invented).
+**Re-verification (post-L323):** the L323 fix already made the Dasgupta instrument-vs-national-
+wealth-accounting distinction in Ch6 prose ("Dasgupta's inclusive-wealth accounting books them at
+the scale of a nation"), so the Dasgupta paragraph the audit imagined is **already substantively
+landed** — what remains is only naming/dating the 2021 Review + a bib entry (the tracked T8). Solow
+is still **0 in chapters** and is the real remaining move.
+
+### Insertion I — Ch6, new paragraph after L157 (the four-properties paragraph), before L159 ("The critic's objection is fair")
+
+`manuscript/chapters/Chapter__6_ThreeWaysofCounting.md` — insert after the "The substitutability
+function has four natural properties…" paragraph (L157, which states S(∞|t₀) ≤ 1) and before "The
+critic's objection is fair…" (L159).
+
+> That asymptotic limit below one is where the framework takes a side in an old argument, and the
+> argument is worth naming. Resource economics has long divided over substitutability. The
+> weak-sustainability position, associated with Robert Solow's 1974 work on intergenerational
+> equity and exhaustible resources, holds that with enough substitution one input can stand in for
+> another almost without limit, so that a depleted stock need not constrain future welfare as long
+> as the proceeds are reinvested. The strong-sustainability position, associated with Herman Daly's
+> ecological economics, holds that some natural capital has no substitute at any price, and that
+> treating it as replaceable is the central error of the standard accounting. The substitutability
+> function's S(∞|t₀) ≤ 1 is a deliberate step toward the strong pole. It allows substitution to
+> approach completeness for some resources while holding that for others the ceiling sits below one
+> and the gap never closes: helium in cryogenic uses, fossil aquifer water, a stable climate. The
+> framework does not settle the debate in the abstract; it makes the position empirical, resource
+> by resource, which is the move the abstract debate could never make.
+
+*Why:* audit H3 — the S_max<1 stance is *taken* at L157 without naming the weak-vs-strong-
+sustainability debate it enters; this surfaces Solow (already in the TA, L7001/L8295) and Daly
+where the stance lands, earning the "step past Hartwick." Non-substitutable examples (helium /
+fossil aquifer water / climate) are the book's own (Ch6 L100). Zero em-dashes in the prose block.
+*Bibliography:* Solow 1974 is already in the TA bib; confirm it carries to the reader-facing bib if
+the chapter now cites it. Add **Daly** if not present (e.g., *Beyond Growth*, 1996, or
+*Steady-State Economics*) — verify at insertion.
+
+### Insertion J — Ch6 L323, Dasgupta-2021 citation finish (LIGHT touch on the L323 session's just-merged sentence — COORDINATE)
+
+`manuscript/chapters/Chapter__6_ThreeWaysofCounting.md` L323. **⚠ This touches the sentence the
+L323 ("neither addressed") session ratified + merged on 2026-06-18 (commits `f1fd6801`/`5cd59a12`).
+Coordinate — the book-drafting session may prefer the L323 owner apply it.** Minimal in-text change:
+after "Dasgupta's inclusive-wealth accounting" insert a naming gloss, e.g. **"Dasgupta's
+inclusive-wealth accounting, set out in the 2021 *Economics of Biodiversity* review,"**. Primary
+action is the bibliography entry.
+
+**Bibliography action (TA + master) — closes STATE's tracked T8:** add **Dasgupta, Partha. *The
+Economics of Biodiversity: The Dasgupta Review*. London: HM Treasury, 2021.** (The 1979 Dasgupta &
+Heal entry stays — distinct work.)
+
+**Essay carry:** Dasgupta 2021 → Foreign Affairs / Atlantic Ideas per scoping plan §1 H3 (essay
+session); Solow is a chapter-only move.
+
+---
+
 *PROPOSED 2026-06-18. Findings append to this artifact as the author ratifies them one at a
 time. Recorded so far: **H2a (Broome)**, **H1 (atmospheric climate-debt)**, **H2b (Nozick)**,
-**H2c (Gardiner)**, **H4 (Pistor four-attributes + *Rentier Capitalism* 2020)**. Next in the
-recommended queue: **H3** (Dasgupta 2021 + Solow — re-verify vs the L323 Dasgupta pre-emption),
-then **H5** (Ch8 Costanza/Hotelling; Ch4 Zucman/Ndikumana).*
+**H2c (Gardiner)**, **H4 (Pistor four-attributes + *Rentier Capitalism* 2020)**, **H3 (Solow +
+Dasgupta-2021 finish)**. Next, and last, in the recommended queue: **H5** (Ch8 Costanza/Hotelling
+pull-up; Ch4 Zucman/Ndikumana; + verify the already-landed Ch3 Harvey/Mazzucato beats at redline).*
