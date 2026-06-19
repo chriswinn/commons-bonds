@@ -84,12 +84,16 @@ Re-draft min-only (the 750–900 band is a LATER hand-edit, NOT a drafting ceili
 prior error). **α-reduction / irreversibility-reduction reframe, NOT rent-capture** (the 70–80%
 fiscal-capture fact survives but is not the achievement). Then judge.
 
-### McDowell op-ed (op-eds/mcdowell-county-true-cost) — **HAND-EDIT to venue + redline**
+### McDowell op-ed (op-eds/mcdowell-county-true-cost) — **HAND-EDIT to The Guardian + redline**
 FIVE drafts exist; the 5-way compare is `rigor/redraft-compare_2026-06-18.md`. **min-800
-(`rigor/redraft-candidate-min800_2026-06-18.md`) is the master** (richest, not padded). Awaiting
-the author's venue/limit pick (Project Syndicate/Bloomberg ~750–900, stretch ~900–1,100, or
-long). Once chosen: hand-edit the master DOWN collaboratively (the brief's open-call menu is the
-cut-list), surface the cut-list for sign-off, then redline. Pinned figures $4.71/2.61/$496/$510.
+(`rigor/redraft-candidate-min800_2026-06-18.md`) is the master** (richest, not padded; ~1,588w).
+**VENUE DECIDED (author 2026-06-19): THE GUARDIAN** — the longer/stretch band, so most of the
+master survives. **Verify The Guardian's current Comment/Opinion word limit first** (the brief's
+stretch group was ~900–1,100; Guardian opinion often runs ~1,000–1,200 — confirm at the portal,
+do NOT assume a tight 750–900). Then hand-edit the master DOWN to that limit collaboratively (the
+brief's open-call menu is the cut-list — defer the lightest beats first), surface the cut-list for
+author sign-off, then redline. Pinned figures $4.71/2.61/$496/$510 (no retired forms). Per the
+min-only rule, length was never a drafting bound — the Guardian limit is this hand-edit's target.
 
 ### Public Books — Accountability Gap (essays/public-books-accountability-gap) — **FIX + COVER**
 Apply the spotfix bundle (F1–F7 + P1/P2; spec in `rigor/`) + draft the (nonexistent) PB cover
