@@ -18,7 +18,7 @@ V-D; RATIFIED-READY-TO-SUBMIT; false-claim fixes — supermajority, Støre
 coalition, GPFG figure — applied + author-ratified 06-11) builds its thesis on
 the now-retired **rent-capture** framing. Its single most load-bearing sentence
 (essay L62: "*That is the existence proof*") equates the 70–80% fiscal capture
-WITH the existence proof. Promoted Ch 4 (CANONICAL, PROMOTED 2026-06-16)
+WITH the existence proof. Promoted Ch 4 (on `origin/main`, PROMOTED 2026-06-16)
 **explicitly retires that equation** and relocates the existence proof to the
 **irreversibility-reduction / buys-back-optionality** move (Ch 4 L59: the fund is
 "doing something subtler than capturing money, and the subtler thing is the heart
@@ -37,7 +37,7 @@ this a redraft, not a spot-fix. Full diagnostic:
   the Stage-2 redraft fires. The redraft is brief-driven (audience-blind from this
   brief, V-D lineage), so the draft cannot fire before the brief exists and
   ratifies. This brief itself is NOT gated by Ch 4's redline; the spine reframe is
-  already canonical in the promoted chapter (L59, L67) and the ledger (L64), so the
+  already on `origin/main` in the promoted chapter (L59, L67) and the ledger (L64), so the
   brief can ratify now.
 - **GATE-B (DRAFT gate, recommended-not-hard):** Ch 4's **final author redline**,
   in particular **F-A6** (Beat-5 RCV-gloss flatness: route the three parts of
@@ -96,17 +96,17 @@ author gates remain at promotion + submission regardless.
 
 ---
 
-## §2. Canonical fact ground — DELTAS from promoted Ch 4
+## §2. Fact ground (the version on main) — DELTAS from promoted Ch 4
 
-The drafter works from the inherited old-brief §7 canonical-facts inventory PLUS
-the deltas below. Every number traces to promoted Ch 4, the canonical figure
+The drafter works from the inherited old-brief §7 facts inventory PLUS
+the deltas below. Every number traces to promoted Ch 4, the figure
 ledger, or the v2 matrix; a fact not anchored in those does not enter the essay
 without a `<!-- structure-note: ... -->` flag for Pass 3.1. Path B holds: the
 drafter does NOT open Ch 4 or the old `essay.md` as source texts.
 
 ### §2.1 The reframe deltas (load-bearing — these change what the facts PROVE)
 
-| # | Item | Promoted Ch 4 (canonical) | Disposition for the redraft |
+| # | Item | Promoted Ch 4 (on main) | Disposition for the redraft |
 |---|---|---|---|
 | D1 | **Existence-proof referent** | The proof is the collapse of the honest-vs-actual gap on **BOTH margins at once — the bond AND the finality** (L67), with the **reversibility / irreversibility margin named as the deeper one** (L59 "more than the sheer size of the bond"). | **REBUILD §III around this.** The 70–80% capture is the bond's *size*, NOT the proof. Retire essay L62 "[capture] is the existence proof." See §4. |
 | D2 | **The alpha / effective-irreversibility apparatus (CONCEPT LEVEL ONLY)** | L59: "the architecture lowers the **effective irreversibility** of the extraction, and with it the **premium that honest pricing charges for forever**." Ledger L64: the CS-reduction is irreversibility-reduction (GPFG restoration optionality moves α from ~1 toward ~0.50–0.75), NOT rent-capture. | **ADD as concept, NO NUMBER.** Surface "effective irreversibility" / "the premium honest pricing charges for forever" in plain prose. **The α-number (~1 → ~0.50–0.75) STAYS RESERVED TO THE TA** per the apparatus budget (§5). No α, no Greek letter, no interval in the essay. |
@@ -134,7 +134,7 @@ false-claim fixes already cleared the discrete errors). The divergences are
 **omission + reframe**, not error. The drafter is rebuilding the spine, not
 correcting numbers — but the GPFG AUM figure refresh against the current Norges
 Bank Investment Management figure at draft date carries forward (old brief §18.3
-item 7; Ch 4 canonical states "$2 trillion" + "~$390,000 per citizen" per L33,
+item 7; Ch 4 on main states "$2 trillion" + "~$390,000 per citizen" per L33,
 NBIM Annual Report 2025).
 
 ---
@@ -154,11 +154,11 @@ L120, L126, L137, L144, L149, L176, L181, L182) + the gap list §3.2.
 
 | Work / author | Relation | What the redraft must make legible | Matrix / Ch4 cite |
 |---|---|---|---|
-| **John Hartwick — "Intergenerational Equity and the Investing of Rents from Exhaustible Resources" (*AER* 67, 1977)** | **SUPPORTS + GENERALIZE-PAST-THE-RULE** (now CANONICAL, † dropped) | The fund is "Hartwick's rule made real at the scale of a nation," and it **goes a step past the rule**: Hartwick's result leans on capital substituting for the resource; Norway's answer is **the reserve itself** — hold the wealth permanently and the substitution question **stays open rather than being settled against the future by default** (Ch 4 L61). The essay currently lands only the "operates on consumption, not the stock" half (essay L64); the redraft must land the **step-past**. The "step past" rhymes with the new reversibility spine. | matrix L120 (Ch4 LANDED, *AER* 67 1977 cite); Ch 4 L61; gap-list P2 |
+| **John Hartwick — "Intergenerational Equity and the Investing of Rents from Exhaustible Resources" (*AER* 67, 1977)** | **SUPPORTS + GENERALIZE-PAST-THE-RULE** (now on main, † dropped) | The fund is "Hartwick's rule made real at the scale of a nation," and it **goes a step past the rule**: Hartwick's result leans on capital substituting for the resource; Norway's answer is **the reserve itself** — hold the wealth permanently and the substitution question **stays open rather than being settled against the future by default** (Ch 4 L61). The essay currently lands only the "operates on consumption, not the stock" half (essay L64); the redraft must land the **step-past**. The "step past" rhymes with the new reversibility spine. | matrix L120 (Ch4 LANDED, *AER* 67 1977 cite); Ch 4 L61; gap-list P2 |
 | **Mian & Sufi (*House of Debt*); Hacker (*Great Risk Shift*)** | **engineered → re-engineerable META-CLAIM, via Social Security; named economists CORRECTLY UNNAMED in FA register** | §V lands the **architecture-is-a-choice** meta-claim through the Social Security 1935 pay-as-you-go vs Norway-funded contrast + **Bismarck 1889** as the funded-architecture counterfactual (Ch 4 L115-117). The meta-claim lands; **Mian/Sufi/Hacker/Gawande/Butler stay UNNAMED for FA** (matrix L143: no gap to close on attribution; confirm the redraft keeps them reserved). The "re-engineerable" close must be **re-pointed so it rhymes with *reversibility* (the new spine), not only with *engineered-choice*.** | matrix L143 (Ch4 PARTIAL, economists unnamed); Ch 4 L115-119; gap-list P2 |
 | **Adam Smith — *The Wealth of Nations*** | **non-partisan DISARM; Smith UNNAMED** | The structural-not-prescriptive disarm runs at Ch 4 L119 ("None of this says the United States should adopt Norway's architecture; **the framework does not legislate**") reinforced L121 ("an honest reprinting" of a bill that already arrives). **Smith stays unnamed** (matrix L144: Ch4 PARTIAL, grep=0). The disarm IS the venue-aligned move for FA's dispositively-non-partisan editorial brain; carry it at §V close. | matrix L144 (Ch4 PARTIAL, Smith unnamed); Ch 4 L119/L121 |
 | **International-macro / local-optimum objection** (international-macro economist) | **LANDED — preserve + sharpen** | The essay ALREADY lands this (essay L108: "If every resource-rich country had built a Norway-sized sovereign-wealth fund… there would not be enough external economic activity to absorb the aggregate investment. The Norwegian model is a local optimum, not a universal template"). It is faithful to Ch 4 L137. **Do NOT rebuild it** — preserve it through the redraft and **sharpen toward the chapter's "a thing the planet cannot adopt by copying… the global version of the problem is still unsolved, and it is the version that matters most"** (Ch 4 L137). The essay's "narrower than the case sometimes appears" is slightly weaker on *why it matters most*. Polish, not gap. | matrix L182 (Ch4 LANDED + Foreign Affairs LANDED); Ch 4 L137; check §3.3 |
-| **Norway-transferability objection** (small/homogeneous/high-trust/windfall) | **PARTIAL — DEFAULT: keep the essay's selection-criterion move; four cases canonical + available (author call to import)** | The essay rebuts transferability via the **selection-criterion move** (the mechanism "preys on weakness"; that is its selection criterion) + the McDowell baseline (Ch 4 L73-79). Canonical Ch 4 ALSO runs an Alaska/Chattanooga/Mondragón/Vienna four-cases set (L101-111) — **available substrate**; the brief's DEFAULT keeps the leaner FA-scope move, but the author may elect to import one/some at ratification. | matrix L181 (Ch4 LANDED via four cases); gap-list checklist; §3.1 below |
+| **Norway-transferability objection** (small/homogeneous/high-trust/windfall) | **PARTIAL — DEFAULT: keep the essay's selection-criterion move; four cases on main + available (author call to import)** | The essay rebuts transferability via the **selection-criterion move** (the mechanism "preys on weakness"; that is its selection criterion) + the McDowell baseline (Ch 4 L73-79). Ch 4 on main ALSO runs an Alaska/Chattanooga/Mondragón/Vienna four-cases set (L101-111) — **available substrate**; the brief's DEFAULT keeps the leaner FA-scope move, but the author may elect to import one/some at ratification. | matrix L181 (Ch4 LANDED via four cases); gap-list checklist; §3.1 below |
 | **Mazzucato — *The Value of Everything* (2018)** | **add-to / SUPPORTS (register comp; one prose mention if §III/§V requires)** | The framework extends Mazzucato's value-extraction diagnosis into the physical-resource + sovereign-wealth domain. Inherited §3/§7.11. **Ch 4 chapter prose does not name Mazzucato**; this is an essay-register comp, not a Ch4-homed relation — one prose mention only if the analytical move requires it; not load-bearing. | matrix L142 (Ch2/Ch6 homes; FA essay-side); inherited §7.11 |
 | **Pistor — *The Code of Capital* (2019)** | **extend-into-a-setting; KEPT ON THE NIGERIA SIDE ONLY** | Pistor stays where the essay already has her: the **Nigeria legal-engineering side** (essay L74; Ch 4 L87 transfer-pricing / secrecy-jurisdiction / pre-independence concession-inheritance = the value-leakage mechanism). **Do NOT route Pistor into a financialization-as-objection rebuttal in FA** (see §3.1). | matrix L143 (Foreign Affairs §IV); Ch 4 L87; §3.1 below |
 | **Fanning & Hickel 2023, "Compensation for atmospheric appropriation" (*Nature Sustainability*) + CARICOM reparations plan + COP27/28 Loss & Damage Fund** | **parallel / concede-macro-priority, claim per-event micro-operationalization (CREDIT-THE-FIELD; NO coercion figure)** | **NEW — folded 2026-06-18 per matrix-independent-verification §1 H1 + §2 #1 (MUST-NOW land-triage).** This is the single most dangerous *genuine* grep=0 gap because it sits at the book's exact configurational-novelty joint: Fanning-Hickel / CARICOM / the L&D Fund already price an atmospheric commons as a debt running **both** forward (foreclosing future foreclosure) and **backward** (historical emissions owed), on an SCC spine — precisely the "one apparatus, both directions" claim the framework stakes. An FA reader steeped in international-macro + climate-economics is the *exact* reader who knows this program; the unanswered reviewer line is **"what does the Foreclosure + Restitution pair add to SCC-based climate-debt accounting beyond renaming it?"** The redraft must make the differentiator legible: the framework's contribution is **per-extraction-event micro-instrument operationalization vs. national-aggregate macro-accounting** (concede the macro-priority to Fanning-Hickel/CARICOM; claim the per-event instrument form + the reserve-as-optionality move). **One prose mention**, credit-the-field exactly as Darity-Mullen is credited; **NO coercion / reparations dollar figure** (CLAUDE.md §coercion-pricing first-person abstention). Natural home: **§IV (Nigeria / the international architecture)** where the macro-scale climate-debt program is the live comparator, or **§III** where the both-margins instrument is built. See §3.1 route-IN decision C-1b. | matrix-verification §1 H1 / §2 #1 (HIGH; flag: credit-the-field, no figure); grep=0 corpus-wide (Fanning / CARICOM / loss-and-damage / atmospheric-appropriation all 0; Hickel present only as degrowth) |
@@ -181,7 +181,7 @@ positioning moves most at risk of being lost in the reframe; weight them.
   transfer-pricing material is the Nigeria value-leakage mechanism, NOT a
   Code-of-Capital rebuttal).** Decision: **FA does NOT seed or resolve the
   financialization-as-objection.** Keep apparatus-core reserved; the FA essay is
-  not obligated to carry it. **Polanyi and Fraser are NOT in canonical Ch 4**
+  not obligated to carry it. **Polanyi and Fraser are NOT in Ch 4 on main**
   (matrix L134/L135 Ch4 MISSING) and **must NOT be imported into FA.** (This names
   the decision the gap list flagged as P2-author-call; the route-OUT is the call.)
 - **Pistor → Nigeria side ONLY.** Pistor stays the Nigeria legal-engineering
@@ -226,14 +226,14 @@ positioning moves most at risk of being lost in the reframe; weight them.
   reserve it. Like Broome, NO-LAND carries no reviewer-line cost (credits-the-field,
   not patches-a-gap). New call C-1d, §7.
 - **Four-cases set — editorial/author call (DEFAULT: keep FA lean).** The Alaska /
-  Chattanooga / Mondragón / Vienna four-cases transferability set IS canonical in
+  Chattanooga / Mondragón / Vienna four-cases transferability set IS in
   promoted Ch 4 (L101-111) and is therefore **available substrate** for the redraft.
   The brief's DEFAULT is to keep the essay's existing **McDowell / selection-criterion**
   transferability rebuttal (leaner, FA-scope-aligned) rather than import the four
   cases, which would bloat a focused essay. This is an editorial choice, NOT a
   canonicity bar: the author may elect at ratification to bring in one or some of
   the four cases. The v2 matrix reconciliation note #1 is RESOLVED-by-promotion (Ch 4
-  DOES name + extend Hartwick AND DOES run the four cases); "canonical in the chapter"
+  DOES name + extend Hartwick AND DOES run the four cases); “present in the chapter on main”
   does not *compel* "in scope for this essay," but it does make the cases usable if
   the author wants them.
 
@@ -360,7 +360,7 @@ order:
 2. **NO invented facts.** Per the hard rule (`feedback_no_invented_factual_claims…`
    + CLAUDE.md "No invented factual claims"). Every biographical detail, scene
    element, quoted speech, number, date, name from this brief / the inherited §7 /
-   the canonical record only. Gaps get `<!-- structure-note: ... -->`, never
+   the on-main record only. Gaps get `<!-- structure-note: ... -->`, never
    invention. This brief generates **no illustrative essay prose**; positioning is
    specified by relation, not by writing sample.
 3. **Every figure traces to the ledger / Ch 4 / inherited §7.** No posited number
@@ -489,7 +489,7 @@ passing grade — even in FA's third-person institutional register.
   lane; Atlantic Ideas Ch9 + BR Ch5 Norway references — verify no numerical-anchor
   drift at Stage 2). Carried, not resolved here.
 - **C-9 — GPFG AUM refresh.** Refresh the AUM + per-citizen figure against the
-  current NBIM figure at draft date (inherited §18.3 item 7); Ch 4 canonical states
+  current NBIM figure at draft date (inherited §18.3 item 7); Ch 4 on main states
   "$2 trillion" + "~$390,000" (NBIM Annual Report 2025).
 
 ---
@@ -509,8 +509,8 @@ passing grade — even in FA's third-person institutional register.
   2026-06-01).
 - **Promoted source chapter (the new spine; fact-ground):**
   [`../../../../manuscript/chapters/Chapter__4_TheExistenceProof.md`](../../../../manuscript/chapters/Chapter__4_TheExistenceProof.md)
-  (CANONICAL, PROMOTED 2026-06-16; redline deferred per header L1).
-- **Canonical figure ledger (irreversibility-reduction / α apparatus; drop the old
+  (on main, PROMOTED 2026-06-16; redline deferred per header L1).
+- **Figure ledger (irreversibility-reduction / α apparatus; drop the old
   rent-capture framing):** `manuscript/ledgers/_CANONICAL_FIGURE_LEDGER.md` L64.
 - **Current essay (the V-D to be replaced):**
   [`../essay.md`](../essay.md) (Stage-2 V-D; spine = retired capture framing; L34 /

@@ -16,9 +16,9 @@ side is at STATE.md; this file is the essay-side operating surface.
    secondary. Judges score positioning FIRST, then flatness, then prose.
 2. **Blind-draft-from-brief-only discipline** (the integrity rule the
    author re-affirmed 2026-06-15): fresh drafters read the brief + its
-   ADDENDUM + named substrate ONLY — never the canonical essay or another
+   ADDENDUM + named substrate ONLY — never the version on main or another
    venue's text. A missed beat is a BRIEF failure → amend the brief and
-   re-draft; do NOT graft canonical prose (grafting is the seam-clunk the
+   re-draft; do NOT graft on-main prose (grafting is the seam-clunk the
    author rejected). Cross-variant A↔B fold-ins are fine (same brief register).
 3. **Flatness watch:** an accurate-but-flat draft does not promote without a
    named remedy; the author's redline is the codified final stage.
@@ -48,9 +48,9 @@ What actually landed on disk:
   "promoted." The chapter-side verdicts do NOT exist here yet.
 - **Submission-readiness verdicts** (separate `wf_52e17340-1e0`, complete):
   Aeon SUBMIT-AS-IS · Atlantic Ideas + Noema SPOT-FIX · FA + Public Books
-  UPDATE-FIGURES. FA spot-fixes already APPLIED to canonical (false
+  UPDATE-FIGURES. FA spot-fixes already APPLIED to the version on main (false
   supermajority + Støre + GPFG, commit `d1b5df2`). Atlantic Ideas §A closer
-  ("theirs to enter" dropped) already APPLIED to canonical.
+  ("theirs to enter" dropped) already APPLIED to the version on main.
 
 ---
 
@@ -66,7 +66,7 @@ What actually landed on disk:
 | **McDowell op-ed** | ✅ +addendum | **none** — both failed at limit | ❌ none | **Draft A + B** from brief, then judge. Pinned $496/$510/2.61 + lens-explicit IPG |
 | **Noema** (Ch 1/book-wide) | ✅ 06-11 (path-c) | **none** — drafts never fired | ❌ none | **Draft A + B** from brief, then judge. Historical-drift anchors (Pou/Pooh, hunting, cussing-at-self) MUST survive |
 | **Public Books** (Ch 5) | — (spotfix spec) | n/a (fix-apply, not redraft) | n/a | **Apply the fix bundle** F1–F7 + P1/P2 + draft the (nonexistent) PB cover letter + research venue norms. No external deadline — do it right |
-| **Foreign Affairs** (Ch 4) | spotfix applied; **whole-cloth redraft brief OWED** (gap list ready) | n/a | **WHOLE-CLOTH CONFIRMED 06-16** (vs promoted Ch4 + v2 matrix; diagnostic in rigor/) | Ch 4 now PROMOTED → redraft UNBLOCKED. Essay spine = retired rent-capture framing; §III re-derive. Matrix Ch4 note#1 RESOLVED 06-17; FA redraft-brief_2026-06-16.md WRITTEN (PROPOSED; four cases ARE canonical — author call to import). **Sequence:** ratify brief → Ch4 final redline (F-A6) → fire Stage-2. HOLD; window Nov–Feb |
+| **Foreign Affairs** (Ch 4) | spotfix applied; **whole-cloth redraft brief OWED** (gap list ready) | n/a | **WHOLE-CLOTH CONFIRMED 06-16** (vs promoted Ch4 + v2 matrix; diagnostic in rigor/) | Ch 4 now PROMOTED → redraft UNBLOCKED. Essay spine = retired rent-capture framing; §III re-derive. Matrix Ch4 note#1 RESOLVED 06-17; FA redraft-brief_2026-06-16.md WRITTEN (PROPOSED; four cases ARE on main — author call to import). **Sequence:** ratify brief → Ch4 final redline (F-A6) → fire Stage-2. HOLD; window Nov–Feb |
 | **Aeon** (pitch) | — | n/a | n/a | **SUBMIT-AS-IS** — portal-gated only. Courtesy email ready at `courtesy-email-READY_2026-06-11.md`. No drafting work |
 
 ---

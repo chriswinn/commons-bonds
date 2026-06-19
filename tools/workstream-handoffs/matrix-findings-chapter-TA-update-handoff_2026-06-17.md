@@ -18,7 +18,7 @@ This handoff operationalizes the independent verification at
 the v2 contribution matrix
 (`manuscript/ledgers/_contribution-matrix-lens_v2_2026-06-15.md`, RATIFIED
 2026-06-17) and **verified every presence/absence claim by direct grep** against
-the canonical corpus (10 chapters + `TechnicalAppendix_v2.0.0.html`) before
+the corpus on main (10 chapters + `TechnicalAppendix_v2.0.0.html`) before
 ranking. The headline meta-finding of that audit: **the matrix is stale relative
 to the prose on several load-bearing "absence" claims** — so this handoff routes
 only the gaps that survived the corpus check, and the over-claim fixes the author
@@ -160,7 +160,7 @@ These are not open questions. The author ruled on each against the text on `main
 
 ## 4. PER-CHAPTER ASSIGNMENT (Ch1–Ch10)
 
-Chapter-number → title map (canonical filenames):
+Chapter-number → title map (filenames):
 Ch1 *The Quiet Math* · Ch2 *The Miner* · Ch3 *The Waterman* · Ch4 *The Existence
 Proof* · Ch5 *The Accountability Gap* · Ch6 *Three Ways of Counting* · Ch7 *On
 Other Worlds* · Ch8 *What Things Actually Cost* · Ch9 *Pricing Honestly* · Ch10
@@ -263,7 +263,7 @@ one finding the verification could not adjudicate. (Tracked as TaskList #13
 | **Broome** | TA §14.3/§14.4 (discounting-as-moral-choice lineage) + bibliography. | **MUST-NOW** |
 | **Dasgupta 2021 Review** | TA §14 + bibliography (distinct entry from D&H 1979, which stays). | **BOOK-2/3** |
 | **Solow-into-Ch6** is a **chapter** move (TA §14.2 already done) | The TA already cites Solow 1974 (L7001/L8295). The action is **prose-side** (Ch6) — flagged here so the TA session does not re-add it to the TA. | reference |
-| **Attribution-distribution pull-up — TA is the SOURCE** | The TA is where the strongest citations already live (Harvey §14.7 verbatim; SCC/Rennert L907; Solow; Costanza/Hotelling; Hess-Ostrom; Dasgupta & Heal). The chapter sessions pull these UP into Ch2/Ch3/Ch8 narrative. **TA action: confirm the canonical §-anchors the chapter sessions cite back to** (esp. §14.7 for the Harvey→Ch3-reef flagship). | **MUST-NOW** (enabling) |
+| **Attribution-distribution pull-up — TA is the SOURCE** | The TA is where the strongest citations already live (Harvey §14.7 verbatim; SCC/Rennert L907; Solow; Costanza/Hotelling; Hess-Ostrom; Dasgupta & Heal). The chapter sessions pull these UP into Ch2/Ch3/Ch8 narrative. **TA action: confirm the §-anchors on main the chapter sessions cite back to** (esp. §14.7 for the Harvey→Ch3-reef flagship). | **MUST-NOW** (enabling) |
 
 ### Priority 2 — matrix meta-claim alignment (TA/matrix-side, mirrors §3)
 
@@ -280,7 +280,7 @@ one finding the verification could not adjudicate. (Tracked as TaskList #13
 The book session should **not** spend a pass "adding" any of these. They are in the
 corpus; several "gaps" the lenses flagged were matrix-staleness artifacts. Treat the
 **prose/TA over the matrix status column** wherever they conflict (the matrix is a
-2026-06-15 build behind the canonical chapters).
+2026-06-15 build behind the chapters on main).
 
 | Work | Where it already is | Do NOT |
 |---|---|---|
