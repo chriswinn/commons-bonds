@@ -165,19 +165,6 @@ patterns:
       pass: "Ch 1 Pass 2 voice-polish (F-V10)"
       commit: "7b4aa92"
       ratified: "2026-05-15"
-    allowlist:
-      - file: "publishing/essays/noema-commons-bonds/essay.md"
-        line: 55
-        rationale: |
-          PROVISIONAL hold (2026-06-18, essay-scope re-enable). Surfaced by
-          bringing essay.md into scope: noema closes its FMLA paragraph with
-          "The architecture was the architecture." — the exact tic Ch 1 F-V10
-          cut. This is a GENUINE prose-body true-positive (the gate working),
-          NOT a frontmatter false-positive. Allowlisted only to keep the gate
-          green on first essay-scope enable; flagged to the author to confirm-
-          revise (preferred, per F-V10 precedent) or ratify-as-deliberate-
-          refrain. De-allowlist + revise in one step if revised. Line may need
-          re-pinning if noema/essay.md is edited.
 
   - id: regressed-bureaucratic-at-this-time
     pattern: '\bat this time\b'
