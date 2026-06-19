@@ -217,6 +217,54 @@ center-right disarm, per scoping plan §1 H2b.
 
 ---
 
+## H2c — Gardiner / tyranny of the contemporary (RATIFIED as scoped 2026-06-18: engage-as-threat → precommitment device, Ch9 primary)
+
+**Relation:** engage-as-threat → precommitment-device design rationale; Norway (Ch4) is the
+empirical counter. **Coercion flag:** none. **No invented-fact risk** (Gardiner's published
+position + Norway facts already established in the corpus: Ch6 L219–221, Ch4).
+**Anchor rationale:** Ch9's theory-of-change section closes at L276 with "Whether the work gets
+done is the question every generation answers for the one that follows" — a line that sets up
+Gardiner directly. The Nordic-objection section (L174–190) is a cross-polity *replicability*
+objection, not the intergenerational threat, so Gardiner does NOT go there.
+
+### Insertion F — Ch9, new paragraph after L276, before the L278 section break (`---`)
+
+`manuscript/chapters/Chapter__9_PricingHonestly.md` — insert after "…the question every
+generation answers for the one that follows." (L276) and before the `---` at L278 (so the
+Gardiner→Norway beat becomes the final note of the theory-of-change section before the closing
+transition).
+
+> There is a reason to fear that the answer is, by default, no, and the philosopher Stephen
+> Gardiner has named it. In *A Perfect Moral Storm*, from 2011, Gardiner describes what he calls
+> the tyranny of the contemporary: the generation with the power to act is never the generation
+> that bears the cost of failing to, and the generations who would hold it to account do not yet
+> exist to do so. Every forward-looking obligation runs into this asymmetry. The generation that
+> would post a Foreclosure Bond decides whether to post it, pays for it if it does, and faces no
+> sanction from the future if it does not. The framework's own no-villain reading names the
+> absence of a malefactor; Gardiner names something harder, a structural temptation to defer that
+> survives even the best intentions. The honest response is not to deny the asymmetry but to
+> design against it. A Foreclosure Bond is, in this light, a precommitment device, the
+> intergenerational cousin of a constitutional limit or a fiscal rule, a way for a generation to
+> bind itself in advance against its own temptation to pass the cost forward. And the device is
+> not hypothetical. Norway built one. Its sovereign wealth fund, its spending rule, and its
+> carbon tax at extraction are exactly a polity binding its present self on behalf of citizens
+> not yet born, and they have held across the political cycles of three decades. Gardiner
+> diagnoses why the future is usually sacrificed to the present; Norway demonstrates that a
+> present can choose not to.
+
+*Redline notes:* (1) the paragraph becomes the last beat before the `---` → closing transition;
+verify it lands the section rather than blunting L276's existing closer (it is written to *earn*
+L276, not replace it). (2) Norway facts are corpus-established (Ch6 L219–221; Ch4) — no new
+specifics introduced. (3) Zero em-dashes in the prose block by design. (4) Borderline-MUST per
+handoff; ratified.
+
+**Essay carry (essay & op-ed session's domain):** Gardiner is primarily a chapter move; if an
+essay wants the theory-of-change beat, the Norway op-ed is the natural carrier (precommitment
+framing). Per scoping plan, no dedicated essay home assigned.
+
+---
+
 *PROPOSED 2026-06-18. Findings append to this artifact as the author ratifies them one at a
-time. Recorded so far: **H2a (Broome)**, **H1 (atmospheric climate-debt)**, **H2b (Nozick)**.
-Next in the recommended queue: **H2c (Gardiner — tyranny of the contemporary)**.*
+time. Recorded so far: **H2a (Broome)**, **H1 (atmospheric climate-debt)**, **H2b (Nozick)**,
+**H2c (Gardiner)**. Next in the recommended queue: **H4 (Pistor four-attributes + *Rentier
+Capitalism* 2020)**, then **H3** (re-verify vs the L323 Dasgupta pre-emption), then **H5**.*
