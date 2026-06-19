@@ -130,9 +130,11 @@ These are not open questions. The author ruled on each against the text on `main
   setting). Ch6 L323 now (i) retracts the false breadth, (ii) concedes Pigou priced
   extraction externalities + Ostrom governed depletable stocks (groundwater), and
   (iii) lands the defensible claim on the correct axes: instrument-form-and-level —
-  reserve-against-full-RCV vs single time-of-damage externality (Pigou); non-co-present
-  future/diffuse stakeholders facing permanent foreclosure, no seat at the table
-  (Ostrom); micro per-extraction-event bond vs macro savings-rule/national inclusive-
+  reserve-against-full-RCV vs single time-of-damage externality (Pigou); power/incentive
+  asymmetry — value-capturer vs cost-bearer who are NOT coequal shared-stakeholders,
+  absent OR present-but-dominated (aligned w/ Ch6 L281; "permanent foreclosure" removed
+  06-18 as scope-over-narrowing — framework prices the full spectrum incl. CS≈0
+  sustainable harvest, per author + Ch6 L207) (Ostrom); micro per-extraction-event bond vs macro savings-rule/national inclusive-
   wealth accounting (Hartwick/Dasgupta named). Models proposal §00 (`00_overview.md`
   L57). Bibliography follow-up (T8, cheap-optional): confirm a Dasgupta inclusive-
   wealth entry (2021 Review absent corpus-wide; Dasgupta & Heal 1979 ≠ inclusive wealth).
