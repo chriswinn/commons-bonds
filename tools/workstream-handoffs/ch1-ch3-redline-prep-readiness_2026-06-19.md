@@ -71,3 +71,34 @@ grep -c $'—' …Chapter__1….md   # 0
 grep -c $'—' …Chapter__3….md   # 0
 # Tangier Option A present / 15ft absent; reef GATE-2 markers present; ADDED beats 4-paired; Harvey concept-name x1, no magnitude dup — all verified
 ```
+
+---
+
+## Continued prep — addendum (2026-06-19): mechanical/render scan + number & cross-ref integrity
+
+Second prep pass, deeper than the gate. Still PREP-only; everything below is recommend-not-impose.
+
+### Mechanical / render-safety (both chapters) — CLEAN, internally consistent
+- **Pure ASCII, both chapters.** Zero non-ASCII characters — no smart-quote tofu risk, no stray `≈`/`—`/`…`. This is a deliberate render-safe register and it is held consistently.
+- **Quote style consistent.** All rendered speech is set in *italics*; no curly quotes anywhere. The only rendered straight double-quotes are the conventional nickname `James "Ooker" Eskridge` (Ch3 L179) — standard and fine. (Every other `"` in either file sits inside an HTML comment and will not render.)
+- **No double-spaces, no trailing whitespace, headings well-formed.**
+
+### Ch 3 — one real defensibility snag worth fixing in the redline (RECOMMEND)
+- **Reef center figure vs stated acreage.** Prose says "the James lost **about 2,700 acres**" (L234), then "the same acreage … at about **$77,000 an acre** … comes to **roughly $211 million**" (L238). But **2,700 × $77,000 = $207.9M (~$208M)**, not $211M. The $211M reconciles only to the precise **2,738 acres** the calibration used (structure-note L225: "2,738 ac James River loss, Schulte 2017"). A reviewer who recomputes from the stated 2,700 lands on ~$208M and may flag the gap.
+  - *The floor is unaffected:* 2,700 × $7,300 = ~$20M and 2,700 × $13,500 = ~$36M, so the lead figure "$20 million to $37 million" reproduces cleanly from the stated 2,700. Only the subordinated $211M center has the mismatch.
+  - *Options for the author (pick one):* (a) state the acreage as "about **2,740** acres" (honest round of 2,738; reconciles to $211M); or (b) soften the center to "roughly **$210 million**" / "a bit over $200 million"; or (c) leave a footnote that the precise James figure is 2,738 ac. Author's call — flagging because it is a cheap redline fix and otherwise an easy critic gotcha.
+
+### Ch 3 — minor consistency note (RECOMMEND, low priority)
+- **Quote-editing marks mix styles.** L105 uses a square-bracket elision `[...]` (omission within the Goldsborough quote); L179 uses parentheses `(a) way of life` for an editorial insertion into the Eskridge quote. Convention is square brackets for *both* elision and editorial insertion — `(a)` inside a quote can read as part of what the speaker actually said. Consider `[a] way of life` for consistency with L105. Trivial; copyedit-level.
+
+### Ch 3 — two pre-submission dependencies (NOT redline items; flagged so they aren't lost)
+- **Moore quote (L99):** the structure-note at L98 records that the **Moore citation-verification packet is still owed pre-submission** (P-6; route via Sherfinski). The quote stays as drafted for the redline; the verification is a separate pre-submission step.
+- (Ch 1's L120 endnote citation-pin, already noted above, is the parallel item on the Ch 1 side.)
+
+### Cross-reference integrity (Ch 3) — CONFIRMED SOUND
+- "The chapter on McDowell County …" and "what this book refused to leave undone for the miner" → **Ch 2 *The Miner*** (the McDowell coal chapter), which precedes Ch 3. Backward reference points backward. ✓
+- "The chapter that follows asks whether the instrument … could … be built for the Bay" → **Ch 4 *The Existence Proof*** (Norway), which follows. ✓
+- All 10 chapters present on main (Ch 10 = `Chapter_10_CommonBonds.md`, the known single-underscore filename); book is complete. No dangling chapter reference in Ch 3.
+
+### Net
+No change to the readiness verdicts above. Ch 1 stays clean/redline-ready. Ch 3 stays redline-ready; the reef-center acreage/figure reconciliation (L234↔L238) is the single item I would put at the top of the Ch 3 redline alongside Beat 4's seam, both cheap fixes. Nothing here is load-bearing for the floor argument or the reef GATE-2 section.
