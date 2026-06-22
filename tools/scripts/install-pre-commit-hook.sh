@@ -15,7 +15,9 @@ set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 REPO_ROOT="$(cd "${SCRIPT_DIR}/../.." && pwd)"
-HOOKS_DIR="${REPO_ROOT}/.git/hooks"
+# Use the COMMON git dir so this works from linked worktrees too (where
+# <worktree>/.git is a file, not a dir). All worktrees share these hooks.
+HOOKS_DIR="$(cd "$(git -C "$REPO_ROOT" rev-parse --git-common-dir)" && pwd)/hooks"
 HOOK_FILE="${HOOKS_DIR}/pre-commit"
 
 FORCE=0
@@ -34,9 +36,11 @@ HOOK_CONTENT='#!/usr/bin/env bash
 # Installed by tools/scripts/install-pre-commit-hook.sh per pipeline
 # doctrine §2.4.
 #
-# Runs HIGH-severity scan against staged files. Refuses commit on HIGH
-# match. To bypass for an explicit exception, use --no-verify (but per
-# CLAUDE.md, do not bypass hooks without explicit author direction).
+# Runs (1) the HIGH-severity corpus-invariants scan and (2) the prose-clarity
+# regression gate against staged files. Refuses commit on a HIGH invariant
+# match or a HIGH prose-clarity regression. To bypass for an explicit
+# exception, use --no-verify (but per CLAUDE.md, do not bypass hooks without
+# explicit author direction).
 
 set -e
 
@@ -45,10 +49,18 @@ SCRIPT="${REPO_ROOT}/tools/scripts/check-corpus-invariants.sh"
 
 if [[ ! -x "$SCRIPT" ]]; then
   echo "[pre-commit] WARN: $SCRIPT not found or not executable; skipping invariant scan."
-  exit 0
+else
+  "$SCRIPT" --staged --severity HIGH
 fi
 
-"$SCRIPT" --staged --severity HIGH
+# Prose-clarity regression gate (tools/conventions/prose-clarity-contract.md):
+# blocks ONLY a HIGH-clunk regression in a baselined file. Regression-only
+# (pre-existing clunk does not block) and fail-safe (any error / missing
+# baseline / unbaselined file -> exit 0, never blocks).
+PROSE="${REPO_ROOT}/tools/scripts/check-prose-clarity.py"
+if [[ -f "$PROSE" ]]; then
+  python3 "$PROSE" --check-staged
+fi
 '
 
 # Check existing hook
@@ -69,7 +81,8 @@ chmod +x "$HOOK_FILE"
 
 echo "Pre-commit hook installed at $HOOK_FILE"
 echo ""
-echo "The hook will run HIGH-severity invariant-gate scans against staged files."
+echo "The hook runs the HIGH-severity invariant-gate scan and the prose-clarity"
+echo "regression gate against staged files."
 echo "To verify: stage a file with a HIGH-severity pattern (e.g., 'TODO') and try to commit."
 echo "To temporarily bypass for legitimate exceptions: git commit --no-verify"
 echo "Per CLAUDE.md: do not bypass hooks without explicit author direction."
