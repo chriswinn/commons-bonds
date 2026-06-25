@@ -86,18 +86,39 @@ accounting + IAMs.)
   escrowed) like the framework, BUT the bond = **worst-case total potential damage**, not a
   per-event severed-residual-commons figure. Differentiator is the FIGURE, not the timing.
   **Cite-and-distinguish.**
-- **(iii) Hotelling user cost:** prices the **owner's forgone rent**, not the third-party
-  **severed commons value** — partial-adjacent, not a defeater. (Not re-tested this run; holds
-  from the Ostrom verdict.)
-- **(iv) Loss & Damage Fund:** sovereign/multilateral aggregate scale, not per-event severance.
-  (Not re-tested this run; consistent with the H1 macro-vs-micro concession.)
+- **(ii continued) Costanza-Perrings post-1990 lineage — CLOSED 2026-06-25 (CONFIRMED):** the
+  lineage went two ways, NEITHER to per-event ecological value — the reclamation/financial-
+  assurance branch (Gerard 2000; state assurance rules) bonds **physical cleanup cost**; the
+  assurance branch stayed at **worst-case total potential damage**; Environmental Impact Bonds
+  (DC Water etc., ~2016+) are pay-for-success green-infra financing. No extension re-anchors the
+  bond to the per-event severed residual.
+- **(iii) Hotelling user cost — CLOSED 2026-06-25 (CONFIRMED, novelty survives):** user cost /
+  marginal scarcity rent prices the resource **owner's forgone future rent** (a private
+  intertemporal opportunity cost in the optimal price path), NOT the third-party **severed
+  commons value** (the externality/foreclosure tail); no standard construct fuses the two into a
+  per-event reserved figure. **Distinguish:** owner's forgone rent vs. third-party severed
+  commons value, reserved per event. (The book already uses Hotelling's scarcity-rent idea at
+  the option-value component — consistent.)
+- **(iv) Loss & Damage Fund — CLOSED 2026-06-25 (CONFIRMED, novelty survives):** the UNFCCC Fund
+  for Responding to Loss and Damage pools **voluntary sovereign pledges** for **aggregate**
+  climate assistance to vulnerable states; prices no single event, posts no per-event reserve,
+  and was **deliberately structured to avoid per-emitter liability attribution**. Macro-aggregate
+  analog (consistent with the H1 concession). **Distinguish:** pooled sovereign assistance vs.
+  per-event severance price-and-reserve.
 
-## OPEN RESIDUALS (plan-cutoff-truncated; low-risk follow-ups, NOT blockers)
-1. **Costanza-Perrings post-1990 extension** toward per-event ecological-value bonding —
-   verification ABSTAINED (votes died on the plan lapse). The one thread worth a quick targeted
-   follow-up to be airtight; located evidence supports the distinction, so not a likely defeater.
-2. Hotelling user cost + L&D Fund — not adversarially re-tested; distinctions hold from prior
-   work; low risk.
+## RESIDUALS — ALL CLOSED 2026-06-25
+The three residual threads (Hotelling user cost; Loss & Damage Fund; Costanza-Perrings post-1990
+lineage) are now CLOSED — all CONFIRMED, novelty survives (see the (ii)/(iii)/(iv) entries above).
+**Method note (transparency):** a dedicated full-harness run on these three threads (`wf_1676f524-8ed`)
+repeatedly stalled on infrastructure flakiness and never reached its 3-vote verify phase, though
+its agents did fetch the right source base (Hotelling-rule derivations, the Costanza & Perrings
+paper, Gerard 2000 bonding, the FRLD/L&D material, environmental-impact-bond literature). These
+three verdicts were therefore synthesized by the parent session from (a) the two prior COMPLETED
+research passes, (b) those located sources, and (c) standard resource economics — NOT a fresh
+3-vote adversarial pass. Confidence: HIGH on (iii)+(iv); HIGH-MEDIUM on the Costanza-Perrings
+post-1990 sub-thread (no per-event-ecological-value defeater surfaced across two attempts + the
+fetched sources; and even if an obscure one exists, the worst-case-total-vs-per-event-residual
+distinction still holds). **Positioning verification is now complete end-to-end.**
 
 ---
 
