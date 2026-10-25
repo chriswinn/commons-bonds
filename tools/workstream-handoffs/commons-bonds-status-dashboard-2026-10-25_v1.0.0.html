@@ -1,0 +1,251 @@
+<title>Commons Bonds Status</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: single reading column; summary strip → deadlines → portfolio table → book → new essay → order of work */
+:root{
+  --bg:#f3f5f4; --surface:#ffffff; --ink:#18232a; --muted:#56656d; --line:#d6dedc;
+  --bay:#1f5f6b; --bay-soft:#e1eef0;
+  --ok:#2f6b3a; --ok-soft:#e3f0e4; --warn:#8a5a00; --warn-soft:#f8ecd2; --bad:#9b2c2c; --bad-soft:#f6e1e0; --idle:#5b6670; --idle-soft:#e7ebee;
+  --display:"Newsreader",Georgia,"Times New Roman",serif;
+  --body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#121a1e; --surface:#1a252a; --ink:#e3eaec; --muted:#9aabb2; --line:#2e3d43;
+  --bay:#7cc0cc; --bay-soft:#1d3539;
+  --ok:#8fcf98; --ok-soft:#1d3322; --warn:#e6bb62; --warn-soft:#3a2e14; --bad:#f09a94; --bad-soft:#3d1f1e; --idle:#a4b0b8; --idle-soft:#273238;
+  color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#121a1e; --surface:#1a252a; --ink:#e3eaec; --muted:#9aabb2; --line:#2e3d43;
+  --bay:#7cc0cc; --bay-soft:#1d3539;
+  --ok:#8fcf98; --ok-soft:#1d3322; --warn:#e6bb62; --warn-soft:#3a2e14; --bad:#f09a94; --bad-soft:#3d1f1e; --idle:#a4b0b8; --idle-soft:#273238;
+  color-scheme:dark}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.55;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:32px 64px}
+.wrap{max-width:980px;margin:0 auto;display:grid;gap:40px}
+h1,h2,h3{font-family:var(--display);font-weight:600;text-wrap:balance;margin:0;line-height:1.2}
+h1{font-size:2.1rem}
+h2{font-size:1.45rem;padding-bottom:8px;border-bottom:1px solid var(--line)}
+h3{font-size:1.1rem}
+p{margin:0}
+.prose{max-width:68ch;display:grid;gap:12px}
+.eyebrow{font-family:var(--mono);font-size:.75rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.mono{font-family:var(--mono);font-variant-numeric:tabular-nums}
+.muted{color:var(--muted)}
+section{display:grid;gap:16px}
+header{display:grid;gap:10px}
+a{color:var(--bay)}
+code{font-family:var(--mono);font-size:.85em;background:var(--idle-soft);padding:1px 4px;border-radius:3px;word-break:break-word}
+
+/* summary tiles */
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px}
+.tile{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:14px 16px;display:grid;gap:4px;min-width:0}
+.tile b{font-family:var(--display);font-size:1.6rem;font-weight:600;line-height:1.1}
+.tile span{font-size:.85rem;color:var(--muted)}
+
+/* chips */
+.chip{display:inline-block;font-family:var(--mono);font-size:.7rem;letter-spacing:.04em;text-transform:uppercase;padding:2px 7px;border-radius:999px;white-space:nowrap;font-weight:500}
+.c-ok{background:var(--ok-soft);color:var(--ok)}
+.c-warn{background:var(--warn-soft);color:var(--warn)}
+.c-bad{background:var(--bad-soft);color:var(--bad)}
+.c-idle{background:var(--idle-soft);color:var(--idle)}
+.c-bay{background:var(--bay-soft);color:var(--bay)}
+
+/* deadline list */
+.dl{display:grid;gap:0;background:var(--surface);border:1px solid var(--line);border-radius:6px}
+.dl-row{display:grid;grid-template-columns:120px 1fr;gap:16px;padding:12px 16px;border-top:1px solid var(--line);border-left:4px solid transparent}
+.dl-row:first-child{border-top:0}
+.dl-row.past{border-left-color:var(--idle)}
+.dl-row.now{border-left-color:var(--bad)}
+.dl-row.soon{border-left-color:var(--warn)}
+.dl-row.later{border-left-color:var(--bay)}
+.dl-row > div{min-width:0;display:grid;gap:3px}
+.dl-date{font-family:var(--mono);font-size:.85rem;font-variant-numeric:tabular-nums}
+@media (max-width:560px){.dl-row{grid-template-columns:1fr;gap:4px}}
+
+/* tables */
+.tbl{overflow-x:auto;background:var(--surface);border:1px solid var(--line);border-radius:6px}
+table{border-collapse:collapse;width:100%;min-width:720px;font-size:.9rem}
+th,td{text-align:left;vertical-align:top;padding:10px 12px;border-top:1px solid var(--line)}
+th{font-family:var(--mono);font-size:.7rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-weight:500;border-top:0;background:var(--bg)}
+td:first-child{font-weight:600}
+
+/* two-column lists */
+.cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:16px 18px;display:grid;gap:10px;align-content:start;min-width:0}
+.panel ul,.panel ol{margin:0;padding-left:20px;display:grid;gap:8px}
+.panel.keep{border-top:3px solid var(--bad)}
+.panel.use{border-top:3px solid var(--ok)}
+.note{background:var(--bay-soft);border-radius:6px;padding:14px 16px;font-size:.92rem}
+ol.steps{margin:0;padding-left:22px;display:grid;gap:12px;max-width:72ch}
+ol.steps li::marker{font-family:var(--mono);color:var(--bay);font-weight:500}
+footer{font-size:.82rem;color:var(--muted);border-top:1px solid var(--line);padding-top:16px;display:grid;gap:6px}
+</style>
+
+<div class="wrap">
+
+<header>
+  <span class="eyebrow">Project status · as of <span class="mono">25 Oct 2026</span></span>
+  <h1>Commons Bonds: where things stand</h1>
+  <p class="prose muted">Built from the repository: STATE.md, every essay package, the book proposal, the agent tracker and the git history. The last commit landed <span class="mono">25 Jun 2026</span>, so everything below reflects June state unless I could check it more recently. Anything you did outside the repo since then, like a submission or an email, won't show here. Those items are marked <span class="chip c-warn">Confirm</span>.</p>
+</header>
+
+<section>
+  <div class="tiles">
+    <div class="tile"><b>10 / 10</b><span>chapters content-complete (~90k words) plus Technical Appendix v2.0</span></div>
+    <div class="tile"><b>0</b><span>agent queries sent. Wave 1 was planned for Jun 24 – Jul 1 and hasn't gone out.</span></div>
+    <div class="tile"><b>8</b><span>essays and op-eds ready or nearly ready but not submitted</span></div>
+    <div class="tile"><b>1</b><span>submission possibly still open: <i>$100 Barrel</i> at the American Prospect, now 18 weeks out</span></div>
+  </div>
+  <div class="prose">
+    <p><b>In one paragraph:</b> the book is written. The proposal is close but still needs your voice pass on the overview and your redline of the Chapter 5 sample. Nothing has gone to agents. Three essays went out this year: Boston Review declined, Phenomenal World declined, and <i>$100 Barrel</i> went to the American Prospect. Most other essays are finished and signed off but waiting on a decision from you. The work doesn't need rebuilding, only a few calls from you. One window is open right now and closes in three weeks.</p>
+  </div>
+</section>
+
+<section>
+  <h2>Dates that matter</h2>
+  <div class="dl">
+    <div class="dl-row past"><span class="dl-date">29 Jun 2026</span><div><b>Darity follow-up email: day-45 fallback passed</b><span class="muted">A post-interview confirmation email was held for the "publisher interest" moment, with this date as the fallback. You need written consent before the Darity attribution can go into the proposal. <span class="chip c-warn">Confirm</span> whether it was sent.</span></div></div>
+    <div class="dl-row past"><span class="dl-date">17 Aug 2026</span><div><b>Berggruen Prize deadline passed</b><span class="muted">That track was AI-free by design, so the repo never tracked the draft. <span class="chip c-warn">Confirm</span> whether you submitted, so it can be logged.</span></div></div>
+    <div class="dl-row soon"><span class="dl-date">early Dec 2026</span><div><b>Darity package, part 1: corrected Technical Appendix + Chapter 1</b><span class="muted">Top priority. He asked for the corrected appendix plus any two chapters; you chose 1 and 5. He said the writing matters as much as the math, and he's the best route to Duke University Press. Chapter 5 follows on Jan 4–5, and agent queries wait for his read. Most fixes landed in June, and the calculation engines re-ran clean on 25 Oct (21/21 and 24/24). Still to do: apply the June positioning findings, 3 reef calls, a render check, and a changelog against the version he has from 15 May.</span></div></div>
+    <div class="dl-row now"><span class="dl-date">15 Nov 2026</span><div><b>NYRB window closes in 21 days</b><span class="muted"><i>The Architecture and Its Residue</i> (~8,300 words) is signed off on main, and the required <i>Rentier Capitalism</i> mention is already in it. A redraft variant was optional. This is the cheapest real submission you have: read it once and send it.</span></div></div>
+    <div class="dl-row soon"><span class="dl-date">Oct – Nov 2026</span><div><b>Harper's Q4 window</b><span class="muted"><i>What McDowell County Paid</i>: the V-D version on main is submittable. A redraft judged better (PROMOTE-A, six fold-ins) is waiting on your ratification. Four optional scene restorations depend on material only you can supply. Choose: send V-D as is, or ratify A first.</span></div></div>
+    <div class="dl-row later"><span class="dl-date">Nov 2026 – Feb 2027</span><div><b>Foreign Affairs window</b><span class="muted">Blocked. The essay needs a full redraft because its spine uses the retired rent-capture framing. That needs you to ratify the redraft brief and redline Chapter 4 first. Realistic to defer.</span></div></div>
+    <div class="dl-row later"><span class="dl-date">mid-Jan 2027</span><div><b>Virginia General Assembly convenes</b><span class="muted">The natural news peg for a data-center op-ed (see below). <span class="chip c-warn">Verify</span> the exact date.</span></div></div>
+  </div>
+</section>
+
+<section>
+  <h2>Essays and op-eds</h2>
+  <div class="tbl"><table>
+    <thead><tr><th>Piece</th><th>Venue</th><th>State</th><th>Smallest next step</th></tr></thead>
+    <tbody>
+      <tr><td><i>$100 Barrel</i></td><td>American Prospect</td><td><span class="chip c-warn">Submitted 17 Jun</span></td><td>Check Submittable. AP said 3–6 weeks and may not reply to declines, so treat silence as a pass. Fallback venue: RWER.</td></tr>
+      <tr><td><i>The Architecture and Its Residue</i></td><td>NYRB</td><td><span class="chip c-ok">Ready</span></td><td>Read it and submit by 15 Nov.</td></tr>
+      <tr><td><i>What McDowell County Paid</i></td><td>Harper's</td><td><span class="chip c-ok">Ready</span></td><td>Pick V-D as is, or ratify redraft A, then submit this quarter.</td></tr>
+      <tr><td><i>The Mask of Abundance</i> (pitch)</td><td>Aeon</td><td><span class="chip c-bad">Stalled</span></td><td>The portal hasn't opened since May, and the July fallback passed. See the Aeon note below.</td></tr>
+      <tr><td><i>Commons Bonds</i></td><td>Noema</td><td><span class="chip c-ok">Ready</span></td><td>The version on main is signed off. A redraft was delegated in June and never landed. Submit the version on main or drop the redraft.</td></tr>
+      <tr><td><i>Pricing Honestly</i></td><td>Atlantic Ideas</td><td><span class="chip c-idle">Your call</span></td><td>Ratify redraft A plus 4 fold-ins, or send the version on main.</td></tr>
+      <tr><td><i>What the Bay Knows</i></td><td>The Atlantic</td><td><span class="chip c-idle">Your call</span></td><td>Ratify redraft A plus fold-ins. Make your plain-figure call on the Tangier erosion passage.</td></tr>
+      <tr><td><i>Accountability Gap</i></td><td>Public Books</td><td><span class="chip c-idle">Your call</span></td><td>Boston Review declined 3 Jun. The Public Books cover letter was never finished. Write it, then submit.</td></tr>
+      <tr><td><i>Existence Proof</i></td><td>Foreign Affairs</td><td><span class="chip c-bad">Blocked</span></td><td>Needs a full redraft. Defer.</td></tr>
+      <tr><td>McDowell op-ed</td><td>The Guardian</td><td><span class="chip c-idle">Your call</span></td><td>Your redline and a trim to 1,000–1,100 words, then wait for a news peg.</td></tr>
+      <tr><td>Norway op-ed</td><td>FT / Bloomberg / PS</td><td><span class="chip c-idle">Parked</span></td><td>Needs a news peg. A min-only redraft was delegated and never landed.</td></tr>
+    </tbody>
+  </table></div>
+  <div class="note"><b>Aeon.</b> I couldn't reach aeon.co from this sandbox, so I can't say whether pitching has reopened. Five months closed suggests a process change rather than a missed window. Look at their pitch guidelines page once rather than checking the portal daily. If it's still closed, set a stop date. The cascade plan's fallbacks have a problem: it routes a declined Aeon pitch to a Noema reframe or Public Books, and both slots now hold other Commons Bonds essays. The pitch may need a new venue entirely.</div>
+</section>
+
+<section>
+  <h2>Book and proposal</h2>
+  <div class="cols">
+    <div class="panel">
+      <h3>Before agent queries can go out</h3>
+      <ol>
+        <li><b>Voice redline of the proposal overview</b> (§00). The airlock-first hook was ratified 24 Jun. This is the final stage.</li>
+        <li><b>Chapter 5 sample.</b> You decided on 19 Jun to rebuild it from scratch, and that never ran. So it needs a rebuild and then your redline. It's locked in as the second sample (your call, 25 Oct); the current version competes in the judging so the rebuild can't make it weaker. Chapter 1 is ready and already in the sample folder.</li>
+        <li><b>Small decisions:</b> where the AI-disclosure goes; a comp-titles refresh, now four months older; confirming Chapters 7 and 9 don't overclaim; the coal-first vs airlock-first opening per agent segment.</li>
+        <li><b>At assembly:</b> re-stamp the NOK→USD exchange rate, do a PDF render check, and refresh the bio. Nursing school has started, so the bio should say so.</li>
+        <li><b>Then Wave 1:</b> 8 queries from <code>publishing/agents/_pipeline/targets.md</code>. The query letter is ratified.</li>
+      </ol>
+    </div>
+    <div class="panel">
+      <h3>Chapters at a glance</h3>
+      <ul>
+        <li><b>Done:</b> Chapter 1.</li>
+        <li><b>Your redline only:</b> Chapters 2, 3, 4 and 10. They're promoted, with the suggested changes marked inline.</li>
+        <li><b>Full rebuild, then your redline:</b> Chapters 5, 6, 7, 8 and 9. Briefs exist; the drafting runs never happened.</li>
+        <li>The positioning check (Ostrom, Polanyi/Fraser, novelty) finished 24–25 Jun: <b>novelty holds.</b></li>
+      </ul>
+    </div>
+  </div>
+  <div class="tbl"><table>
+    <thead><tr><th>Ch</th><th>State on main</th><th>What it still needs</th><th>When</th></tr></thead>
+    <tbody>
+      <tr><td>1 · The Quiet Math</td><td><span class="chip c-ok">Ready</span> Redlined 11 Jun; in the sample folder</td><td>A reread at assembly</td><td>Winter</td></tr>
+      <tr><td>2 · The Miner</td><td><span class="chip c-bay">Promoted 17 Jun</span></td><td>Your redline: 3 marked items. Then an optional second sample for narrative-heavy trade agents, chosen per agent.</td><td>Summer</td></tr>
+      <tr><td>3 · The Waterman</td><td><span class="chip c-bay">Promoted 11 Jun</span> Full version with the priced reef section</td><td>Your redline of 8 added beats; 3 calls to release the reef merge</td><td>Summer</td></tr>
+      <tr><td>4 · The Existence Proof</td><td><span class="chip c-bay">Promoted 16 Jun</span></td><td>Your redline: 13 marked items; place Insertion M. This also unblocks the Foreign Affairs redraft.</td><td>Summer</td></tr>
+      <tr><td>5 · The Accountability Gap</td><td><span class="chip c-bad">Rebuild</span> Working draft from 9 Jun</td><td>New brief (with the grounding test: every step up in scale tied to a real person or place) → 2 blind drafts → judged against the current version → your pick → your redline. <b>The sample for Darity and agents, no fallback.</b></td><td>Fall (session) → winter (you)</td></tr>
+      <tr><td>6 · Three Ways of Counting</td><td><span class="chip c-bad">Rebuild</span> Built on the retired three-estimator frame</td><td>Rebuild from the amended brief (numbers settled); Insertions A/I/J</td><td>Spring (session) → summer (you)</td></tr>
+      <tr><td>7 · On Other Worlds</td><td><span class="chip c-bad">Rebuild</span> Old version</td><td>Rebuild from the amended brief</td><td>Spring → summer</td></tr>
+      <tr><td>8 · What Things Actually Cost</td><td><span class="chip c-bad">Rebuild</span> Old version</td><td>Rebuild from the amended brief; Insertion K</td><td>Spring → summer</td></tr>
+      <tr><td>9 · Pricing Honestly</td><td><span class="chip c-bad">Rebuild</span> Old version</td><td>Rebuild from the amended brief; Insertions E/F/H</td><td>Spring → summer</td></tr>
+      <tr><td>10 · Common Bonds</td><td><span class="chip c-bay">Promoted 17 Jun</span></td><td>Your redline: 5 marked items; cross-reference to the Ch 9 Nozick insertion after the Ch 9 rebuild</td><td>Summer</td></tr>
+    </tbody>
+  </table></div>
+  <p class="prose muted">Housekeeping: STATE.md still describes June, two paused workflows (the essay redraft fleet and the Noema redraft) can lapse, and about 15 old branches can be pruned. None of this is urgent.</p>
+</section>
+
+<section>
+  <h2>New idea: the true cost of an AI data center</h2>
+  <div class="prose">
+    <p>This fits the framework and your history unusually well. Virginia is the largest data-center market in the world, you live in Hampton, and you spent a career in IT, NIH and healthcare IT, in and around data centers. Most writers on this beat are reporters or activists. An insider who has crawled through server rooms and can price the cost honestly is a different voice. The topic is also live this fall. <span class="chip c-warn">Verify each of these before using it</span>: JLARC's December 2024 report on data centers in Virginia, Dominion's data-center-driven rate request, 2026 bills such as HB 503 on keeping data-center transmission costs off residential bills, Governor Spanberger's data-center framework and AI task force, and an October 2026 Senate report on what the AI build-out costs ratepayers.</p>
+    <p>The strategic point that answers your worry about giving away the book: <b>use the lens on a new case and keep the book's cases out.</b> A piece that runs the framework on something the book doesn't cover shows the method works on the biggest 2026 headline without spending any chapter. It also gives the proposal a timely line for its platform section.</p>
+  </div>
+  <div class="cols">
+    <div class="panel use">
+      <h3>Safe to use</h3>
+      <ul>
+        <li>The term <i>cost severance</i> and its one-sentence definition. Both are already public in your pitches.</li>
+        <li>The stance: no villain, the price is honest about everything except what it leaves out, and the benefits go on the same ledger as the costs. Your benefits-vs-costs framing is exactly the book's posture.</li>
+        <li>The idea of a forward-posted bond, at concept level only. Mine reclamation bonds give you a precedent outside the book. Keep it to one paragraph, because <i>Pricing Honestly</i> (Atlantic Ideas) relies on it.</li>
+        <li>Your own data-center scenes: the cable-station "rat's nest" and the mainframe walled into drywall after a flood. They're in your May session notes and appear in no chapter.</li>
+        <li>A rough cost count of your own from public numbers (rate filings, JLARC, county tax data), presented as illustration, not as the TA method.</li>
+      </ul>
+    </div>
+    <div class="panel keep">
+      <h3>Keep for the book</h3>
+      <ul>
+        <li>The airlock and the Commons Inversion Test. That's the proposal's opening hook and the Aeon pitch.</li>
+        <li>The McDowell ton walk ($4.71 → $510) and the Four Gates (Chapter 8). It's already spent in the Harper's piece and the op-ed.</li>
+        <li>RCV, the formulas, and the Chapter 6 counting architecture (Technical Appendix).</li>
+        <li>Norway as the existence proof (Chapter 4, Foreign Affairs).</li>
+        <li>Chapter 9's four-step program.</li>
+        <li>Chapter 1's workplace story (the H-1B colleague).</li>
+      </ul>
+    </div>
+  </div>
+  <div class="panel">
+    <h3>Before drafting: run your two-path test</h3>
+    <ul>
+      <li><b>Path 1, allocation:</b> value goes to the operators and to AI users everywhere. Costs land on local ratepayers (transmission and generation build-out), neighbors (noise, diesel backup generators), watersheds, and whoever is left holding the grid build-out and shells when hardware turns over.</li>
+      <li><b>Path 2, shield and distance:</b> candidate evidence includes geographic distance (users worldwide, costs in Loudoun and Prince William), time (rate-base costs recovered over decades on equipment with short service lives) and institutional distance (rate classes, nondisclosure on water use). You should judge whether both paths hold. If they hold only partly, that's an honest finding and arguably a better essay.</li>
+      <li><b>The benefit side:</b> county tax revenue, the small number of permanent jobs, and real uses of AI. Your healthcare and nursing perspective can speak to clinical AI without overclaiming. Per the no-invented-facts rule, every figure here needs a source before it goes into prose.</li>
+      <li><b>Book decision, later:</b> data centers aren't a case in the book yet. Keep it out of the Ch 5 rebuild. Consider one sentence in the proposal overview this winter, and decide on a short prospective case in Chapter 9 next summer, after the essay has an outcome.</li>
+    </ul>
+  </div>
+  <div class="tbl"><table>
+    <thead><tr><th>Venue</th><th>Form</th><th>Why</th><th>Watch out for</th></tr></thead>
+    <tbody>
+      <tr><td>Virginian-Pilot / Richmond Times-Dispatch / Virginia Mercury / Cardinal News</td><td>Op-ed, 750–900 words</td><td>Hampton Roads resident, Virginia stakes, General Assembly peg. Fast and cheap, and it builds platform.</td><td>Exclusivity rules. Check each outlet's current op-ed guidelines.</td></tr>
+      <tr><td>MIT Technology Review</td><td>Essay or feature</td><td>Technical readers who already cover AI energy. Your insider-IT angle stands out there.</td><td>Pitch-first. Check current guidelines.</td></tr>
+      <tr><td>Wired (Ideas)</td><td>Essay</td><td>Same insider angle, broader readership.</td><td>Check current guidelines.</td></tr>
+      <tr><td><i>Issues in Science and Technology</i></td><td>Policy essay</td><td>Readers who care about cost accounting and policy instruments. The bond idea fits.</td><td>Longer lead times.</td></tr>
+      <tr><td>Heatmap / Grist / The New Republic</td><td>Essay or feature</td><td>Energy and climate desks, ratepayer framing.</td><td>The beat is crowded, so the full-ledger angle has to be the hook.</td></tr>
+      <tr><td><s>The Atlantic, Noema, American Prospect</s></td><td>—</td><td>Natural fits on paper.</td><td>You already have pieces waiting at these venues. Don't double-book.</td></tr>
+    </tbody>
+  </table></div>
+  <p class="prose"><b>Suggested shape:</b> a Virginia op-ed first, pegged to the General Assembly session. It's a small time commitment, it tests the argument in public, and a placed op-ed strengthens the pitch for a longer piece at Technology Review or Wired.</p>
+</section>
+
+<section>
+  <h2>The plan through next summer</h2>
+  <p class="prose muted">Full week-by-week detail, with a kickoff line for each session, is in <code>commons_bonds_work-plan_2026-10_to_2027-08_v1.0.6.md</code>. Break dates are assumed; check them against the VPCC calendar.</p>
+  <div class="dl">
+    <div class="dl-row now"><span class="dl-date">Fall · 1–2 h/wk</span><div><b>Two submissions, and the appendix + Chapter 1 to Darity</b><span class="muted">W1: status check, the $4.71 fix, and approving the Ch 5 rebuild brief. W2: submit to NYRB. W3: submit V-D to Harper's and do a final read of Chapter 1. W4: appendix calls (reef, positioning edits). W5: off (Thanksgiving). W6: send the appendix and Chapter 1 to Darity. W7: off (finals).</span></div></div>
+    <div class="dl-row soon"><span class="dl-date">Winter break · full</span><div><b>Chapter 5 to Darity on Jan 4–5</b><span class="muted">Weeks A–B: pick the Ch 5 winner, then your hand redline and the polish. Week C: proposal overview redline, decisions and assembly. Week D: send Chapter 5. Agent queries are ready but held for his read. The data-center op-ed and pitch go in if there's energy left.</span></div></div>
+    <div class="dl-row later"><span class="dl-date">Spring · 1–2 h/wk</span><div><b>Darity's response decides the route</b><span class="muted">An introduction to a press → go through him and hold agents. Comments only → apply them, then send Wave 1. No reply by mid-February → send Wave 1 anyway. Meanwhile: Answer agent requests within 48 hours, check trackers for 15 minutes a week, approve the Ch 6–9 rebuilds one at a time (sessions do the drafting), Wave 1 retro in late February, Wave 2 in March. If the Atlantic accepts the pitch, ask for summer delivery.</span></div></div>
+    <div class="dl-row later"><span class="dl-date">Summer · full</span><div><b>Whatever spring unlocked</b><span class="muted">Agent revisions if you're signed. Then redlining Chapters 2, 3, 4, 6–10, the long data-center essay, the Foreign Affairs redraft, and Berggruen 2027 if it runs.</span></div></div>
+  </div>
+  <p class="prose muted">Everything else can stay paused. The manuscript, the signed-off essays and the doctrine haven't gone stale. What has aged since June is dates, comp titles, the bio, exchange-rate figures and news pegs, and those are quick to refresh.</p>
+</section>
+
+<footer>
+  <span>Sources in the repo: <code>STATE.md</code>, <code>publishing/essays/*/README.md</code>, <code>publishing/essays/_pipeline/cascade-plan_v2_2026-05-24.md</code>, <code>publishing/book-proposal/00_overview.md</code> and <code>05_chapter-summaries.md</code>, <code>publishing/agents/_pipeline/query-tracker.md</code>, <code>research/story-drafts/_session-answers_2026-05-03.md</code>, git log through a4b9763 (25 Jun 2026).</span>
+  <span>The data-center context comes from a web search on 25 Oct 2026 (Bay Journal on the JLARC report, NCSL, WJLA, and a Senate report PDF from Oct 2026). These are leads, not verified facts.</span>
+</footer>
+
+</div>
