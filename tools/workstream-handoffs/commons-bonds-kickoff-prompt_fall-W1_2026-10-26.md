@@ -1,6 +1,6 @@
 Fall plan W1 — Commons Bonds restart after a 4-month pause.
 
-READ FIRST, in this order: MAP.md → STATE.md (note: it is stale since late June) → tools/workstream-handoffs/commons_bonds_work-plan_2026-10_to_2027-08_v1.0.6.md (THE plan; follow it) → tools/pipeline-doctrine/commons_bonds_rigor-pipeline-value-review_v1.0.1.md (RATIFIED 2026-10-25; this is the process now). Optional context: tools/workstream-handoffs/commons-bonds-status-dashboard-2026-10-25_v1.0.0.html.
+READ FIRST, in this order: MAP.md → STATE.md (note: it is stale since late June) → tools/workstream-handoffs/commons_bonds_work-plan_2026-10_to_2027-08_v1.0.7.md (THE plan; follow it) → tools/pipeline-doctrine/commons_bonds_rigor-pipeline-value-review_v1.0.1.md (RATIFIED 2026-10-25; this is the process now). Optional context: tools/workstream-handoffs/commons-bonds-status-dashboard-2026-10-25_v1.0.0.html.
 
 OPERATING MODE (ratified 2026-10-25):
 - I have 1–2 hours a week until winter break. This is the ONLY active session: one branch, no parallel or delegated sessions, no workflow fleets. Treat every June delegation, paused workflow (essay redraft fleet wf_64743ae8-516, Noema redraft wf_9faefe26-a6c) and the 06-18 Ch 6–9 rebuild handoff as superseded by the plan. Don't resume them.
@@ -37,10 +37,14 @@ THIS SESSION, IN ORDER:
    - canonical figures only;
    - min-only length, with no maximum;
    - THE GROUNDING TEST:
-     (1) First map each step up in scale (Libby → Deepwater/Valdez → Baotou → 2008 → Social Security → the single dying body) to a named person, place or documented scene in the canonical record. Where the record has none, FLAG it for me as a gap. Never invent one.
-     (2) Tell each case section through its anchor, not as a systems summary.
-     (3) In the argument sections (the pattern made visible, the same object named honestly, who shaped the system, restitution and foreclosure), allow no more than about 3 paragraphs (~400 words) of argument before returning to a named case already in the chapter.
-     (4) The judge scores all three candidates on the longest ungrounded stretch and the number of unanchored steps, and also penalizes a mechanical story-then-lecture rhythm.
+     (1) Map each step up in scale (Libby → Deepwater/Valdez → Baotou → 2008 → Social Security → the single dying body) to a real anchor. Three kinds count:
+         (a) MY first-person experience, written only from material I give you. Never compose my memories.
+         (b) A documented public account of a named person, citable from a published source and rendered strictly within what it says.
+         (c) A documented place or scene from the canonical record.
+     (2) Keep Katy Butler's published account of her father's pacemaker as the dying-body anchor; it's already in the current Ch 5 and research/case-studies/healthcare-end-of-life.md.
+     (3) For 2008 (only a generic "envelope" beat now) and Social Security/time (no anchor now), DON'T invent. Give me 2–3 short questions about my own experience, which I can answer by voice note. Propose documented candidates (e.g. Ida May Fuller, the first recurring Social Security beneficiary), each with its source, and verify every figure against the primary source (SSA history pages) before it enters the brief.
+     (4) Tell each case section through its anchor, not as a systems summary. In the argument sections (the pattern made visible, the same object named honestly, who shaped the system, restitution and foreclosure), allow no more than about 3 paragraphs (~400 words) of argument before returning to a named case already in the chapter. Use first person sparingly (one or two steps), so the chapter doesn't become memoir.
+     (5) The judge scores all three candidates on the longest ungrounded stretch and the number of unanchored steps, and also penalizes a mechanical story-then-lecture rhythm.
 
    Show me the brief. After I approve it, draft 2 blind variants. Then judge three candidates: the 2 variants plus the CURRENT Ch 5 as candidate C, which can win. Judge on fidelity, positioning, voice, non-regression and the grounding test, then fact-check the winner against the ledger. Stop there; I pick the winner in December. Chapter 5 goes to Darity on Jan 4–5 as one of his two requested sample chapters (with Ch 1 and the corrected Technical Appendix), so it's the most important artifact in the plan.
 5. Don't start W2+ items (NYRB, Harper's, TA work) unless I ask.
