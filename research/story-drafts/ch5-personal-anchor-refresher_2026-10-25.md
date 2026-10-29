@@ -71,6 +71,45 @@ They're where the book's **Goal 2** happens: a reader recognizes their own life 
 
 ---
 
+## What personal material is (and isn't) needed
+
+A refresher for when you sit down to answer the questions above. **You need much less than you might think:** one moment per setting, not a life story.
+
+### What's needed
+- **One scene or moment** where a cost landed on you while the value or the price was set somewhere else.
+- **One or two concrete details you saw, did or felt yourself:** the envelope, the phone call, the form, the hour of the night.
+- **Roughly when and where:** a year range and your role or setting ("running a healthcare-IT company", "as a federal contractor"), not company names covered by the NDA.
+- **What you understood afterward,** in a sentence. The chapter supplies the framework; you supply the recognition.
+- **Two or three settings at most.** One or two first-person moments is the target. The documented cases carry the rest.
+
+### What isn't needed (leave it out)
+- **Dollar figures from your own finances.** "Years of savings" or "a third of it" works better in prose anyway.
+- **Anyone else's private health information,** even a family member's, even if you lived through it beside them. That means diagnosis, symptoms, treatment, behavior and prognosis. The book's medical side is carried by published, citable accounts (Katy Butler's, Gawande's), so it never depends on private material.
+- **Names or identifying details of private individuals.**
+- **Patient information from nursing school,** including anything a patient could recognize as themselves. General observations of how the system works are fine; check your program's confidentiality rules first.
+- **Employer specifics under the CEO-era NDA,** and vendor names.
+- **The full backstory.** One scene is enough; context can be a single sentence.
+
+### The test: is this story mine to tell?
+A story is yours if all three hold:
+1. **It's about what happened to you:** your hours, work, money, decisions or understanding.
+2. **It reveals nothing private about another person:** their health, finances or behavior.
+3. **Someone who knows you couldn't learn something private about a third person from it,** including by connecting it to other parts of the book.
+
+**If a story fails the test,** use one of these instead:
+- **Keep only your own ledger and drop the rest:** "I spent a year of nights on hold with insurers" says nothing about whose care it was.
+- **Use your professional vantage:** "I've seen this from the billing side" puts you in the story without anyone else in it.
+- **Let a documented public account carry that part,** with you as the narrator who recognizes it.
+
+**If you're unsure, leave it out.** The chapter works without any single personal moment. It doesn't work if a passage costs someone their privacy.
+
+### How to give it
+- **A voice note of 2–5 minutes per question.** Rough and rambling is fine.
+- **The session drafts from only what you said,** then runs the privacy checks above and the fact-check.
+- **You redline it.** Nothing personal enters the chapter without your explicit OK.
+
+---
+
 ## How the next session uses this
 
 The Ch 5 rebuild brief sends you the questions for whichever settings still lack an anchor; you can answer by voice note. Your answers become first-person material, written only from what you said, then fact-checked and privacy-checked (no financial figures, no NDA material, no identifiable patients, and no family members' private matters) before anything reaches the draft.
