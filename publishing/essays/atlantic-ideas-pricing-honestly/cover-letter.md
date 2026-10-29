@@ -9,7 +9,7 @@ Pitch body word count: ~382w (within brief §11 250-400w band).
 Invented-factual-claim audit (tools/memory/feedback_no_invented_factual_claims_in_publisher_facing_prose.md, hard rule ratified 2026-05-28): all factual claims trace to brief §7 RATIFIED canonical inventory or Stage 5 sign-off §6 named-subject list. One conflation caught + fixed pre-commit: original draft "Vienna's Gemeindebau, housing sixty percent of the city since 1919" implied the 60% share dated to 1919 (conflated current-share figure with founding date); corrected to "founded in 1919 and housing sixty percent of the city today" — the essay carries the two facts separately at line 89.
 
 Brief §11 compliance:
-  ¶1 hook (~109w): McDowell coal $4.50/ton 1960 → $520-600 honest cost; four-move claim stated.
+  ¶1 hook (~109w): McDowell coal $4.71/ton 1960 (corrected 2026-10-29 to the ledger J3 EIA figure) → $520-600 honest cost; four-move claim stated.
   ¶2 mechanism (~95w): Classify → Reserve → Invest → Reassess sequence (Ch 9 line 18 canonical, post-Stage-5-revert four-step architecture). Border as cross-cutting concern, NOT fifth step.
   ¶3 cases (~70w): Mondragon / Vienna / Chattanooga / Norway / Alaska entering-wedges; Olson 1965 + Mian & Sufi 2014 political-economy register.
   ¶4 bio + comp-titles + close (~75w): medium-bio paragraph excerpt (~85w canonical, compressed); Mazzucato / Christophers / Pistor / Susskind cluster; "Full essay available on request."
@@ -35,7 +35,7 @@ Status: PROPOSED — author final-ratification required before merge to origin/m
 
 Dear Editors,
 
-A ton of McDowell County coal sold at the mine mouth in 1960 for four dollars and fifty cents. Counting every cost that ton produced — the miner's scarred lungs, the carbon released over the next century, the streams that ran orange for fifty miles, the longevity gap that opened between McDowell residents and the American median — the honest price was somewhere between five hundred and twenty and six hundred dollars. The price was wrong by two orders of magnitude. It is wrong now, for coal and for almost everything else. A society that decided to count what the current price misses would have four moves to make, in order.
+A ton of McDowell County coal sold at the mine mouth in 1960 for four dollars and seventy-one cents. Counting every cost that ton produced — the miner's scarred lungs, the carbon released over the next century, the streams that ran orange for fifty miles, the longevity gap that opened between McDowell residents and the American median — the honest price was somewhere between five hundred and twenty and six hundred dollars. The price was wrong by two orders of magnitude. It is wrong now, for coal and for almost everything else. A society that decided to count what the current price misses would have four moves to make, in order.
 
 The moves are classification, reservation, investment, and reassessment. Classify what cannot be replaced — the European Union's Critical Raw Materials Act, passed in 2023, lists thirty-four such irreplaceables; phosphorus and fossil aquifers belong on the same list. Reserve a fraction of them, on the cheap-insurance logic the Strategic Petroleum Reserve already applies to oil. Invest in substitutes, and in alternative sources the price signal alone will not fund. Reassess as the underlying science moves. Border-adjustment — which the EU's CBAM became fully operational in 2026 to prove — runs as a cross-cutting concern of the four, not as a fifth step.
 

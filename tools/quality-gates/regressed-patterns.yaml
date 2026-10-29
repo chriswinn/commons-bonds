@@ -12,7 +12,7 @@
 # fixed the pattern. Allowlists support per-file substantive-use exceptions.
 
 schema_version: "1.0.0"
-last_updated: "2026-06-11"
+last_updated: "2026-10-29"
 registry_type: "regressed"
 
 # Categories:
@@ -1180,12 +1180,53 @@ patterns:
       ratified: "2026-06-17"
     allowlist: []
 
+  - id: regressed-consistency-coal-1960-price-4-50
+    pattern: '\$4\.50([^0-9]|$)|four dollars and fifty cents|four and a half dollars|about \$4\.5([^0-9]|$)'
+    type: regex
+    severity: HIGH
+    category: consistency-canon
+    description: |
+      Retired 1960 McDowell mine-mouth coal price. Canonical is $4.71/ton
+      (EIA Total Energy Table 7.9, bituminous; ledger J3, author-ratified
+      2026-06-04); prose may say "just under five dollars". The 06-04
+      amendment never got a gate pattern, so $4.50 survived in live prose
+      until 2026-10-29 (lean-pipeline review v1.0.1 finding). Allowlisted
+      lines are the Ch 6 and Ch 9 canonicals queued for full rebuild, which
+      take the figure from the ledger; remove these allowlist pins when
+      those rebuilds land.
+    origin:
+      pass: "Lean-pipeline value review 2026-10-25 (RATIFIED)"
+      commit: "Atlantic Ideas essay + cover letter corrected 2026-10-29"
+    allowlist:
+      - file: "manuscript/chapters/Chapter__6_ThreeWaysofCounting.md"
+        line: 38
+        rationale: "queued Ch 6 whole-cloth rebuild; remove pin when it lands"
+      - file: "manuscript/chapters/Chapter__6_ThreeWaysofCounting.md"
+        line: 44
+        rationale: "queued Ch 6 whole-cloth rebuild; remove pin when it lands"
+      - file: "manuscript/chapters/Chapter__6_ThreeWaysofCounting.md"
+        line: 80
+        rationale: "queued Ch 6 whole-cloth rebuild; remove pin when it lands"
+      - file: "manuscript/chapters/Chapter__6_ThreeWaysofCounting.md"
+        line: 173
+        rationale: "queued Ch 6 whole-cloth rebuild; remove pin when it lands"
+      - file: "manuscript/chapters/Chapter__9_PricingHonestly.md"
+        line: 12
+        rationale: "queued Ch 9 whole-cloth rebuild; remove pin when it lands"
+      - file: "publishing/book-proposal/chapter-redraft-priority_2026-06-03.md"
+        line: 5
+        rationale: "historical figure-supersession note quoting the retired figure"
+      - file: "publishing/book-proposal/chapter-redraft-priority_2026-06-03.md"
+        line: 55
+        rationale: "historical June planning note; not proposal prose"
+
 # ===== Scope configuration =====
 #
 # Same as scaffolding-patterns.yaml. (Relocated to end-of-file 2026-06-17: the
 # YAML parser in check-corpus-invariants.sh stops reading patterns at the first
 # column-0 `scope:` key, so any pattern entries placed after the scope block
 # were silently never loaded. Keeping scope last keeps every pattern active.)
+
 
 scope:
   include:
