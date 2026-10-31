@@ -7,6 +7,13 @@
 
 This file is a **READ AGGREGATOR** — it reflects state captured from policy memory + per-essay README named-subject inventories + per-subject outreach folders. It does NOT set policy or change consent state for any subject; updates flow FROM those sources TO this tracker, not the other way around. Contradictions surface to the author for resolution rather than being silently reconciled here.
 
+> **▸ STANDING RULE (2026-10-31): no held or queued email auto-sends.** Every outbound email tracked
+> here or elsewhere — interview confirmations, citation-accuracy notifies, courtesy copies, submission
+> cover letters, agent queries — is **author-sent**. A held email's trigger firing is a prompt to
+> **surface it to the author for review** (still useful? relevant? revise / send / decommission?),
+> **never** a send authorization. Sessions draft and flag; the author decides and sends. Canonical
+> rule: [`../../../tools/memory/feedback_no_autosend_outbound_email.md`](../../../tools/memory/feedback_no_autosend_outbound_email.md).
+
 ## How to use this tracker
 
 - **"Where are we with subject X today?"** — look up the subject in §A–§F below. Each row is one subject; the columns capture working-draft state, outreach status, restoration condition, and which artifacts reference the subject.

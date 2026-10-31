@@ -1,5 +1,12 @@
 # Post-interview confirmation email — Darity Jr. (2026-05-31 draft, HELD)
 
+> **⚠ DO NOT AUTO-SEND (standing rule 2026-10-31).** This draft is author-sent only. The triggers
+> below are **prompts to surface it to the author for review** — "the trigger has fired; still
+> useful? revise, send, or decommission?" — **never** a send authorization. Trigger (2)
+> "publisher-interest" may now be live (Darity hinted at a possible publishing path, 2026-10-31):
+> that means SURFACE for review, not send. Canonical rule:
+> [`../../../../tools/memory/feedback_no_autosend_outbound_email.md`](../../../../tools/memory/feedback_no_autosend_outbound_email.md).
+
 **Status:** **HELD-pending-trigger 2026-05-31.** Drafted 2026-05-31 morning under the assumption (which proved wrong) that the proactive Q0 citation packet at [`proactive-q0-citation-questions_DRAFT_2026-05-14.md`](proactive-q0-citation-questions_DRAFT_2026-05-14.md) was still pending send. Verify-stale-memory pass surfaced (2026-05-31 afternoon) that the citation packet had actually been SENT 2026-05-15 02:31 AM ET (canonical record at [`post-citation-packet-email_2026-05-15.md`](post-citation-packet-email_2026-05-15.md)). The 2026-05-30 author ratification ("send confirmation proactively to preserve trust signal at 2.5+ weeks post-interview") was made under the same incomplete picture; the rationale weakens significantly given that Sandy is currently silent for 16+ days on TWO substantive asks (the 2026-05-14 chapter packet + the 2026-05-15 citation packet).
 
 **Held-trigger gate (author ratified 2026-05-31 afternoon, replacing the 2026-05-30 ratification):**
