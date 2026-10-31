@@ -1220,6 +1220,85 @@ patterns:
         line: 55
         rationale: "historical June planning note; not proposal prose"
 
+  # ===== 3b ledger-amendment gate audit (lean-pipeline value review, 2026-10-31) =====
+  # Audited _CANONICAL_FIGURE_LEDGER.md for ratified amendments whose retired
+  # value had no gate pattern. Already covered before today: 33–122× and 50–555×
+  # IPG bands; 67–134× / 580–620 superseded integral bands; the b<RCV-as-theorem
+  # over-claim; and the coal $4.50→$4.71 fix (added 2026-10-29). Newly added below:
+  # the disavowed $108T Social Security figure and the retired coal $524 total /
+  # $518–532 floor.
+  # Considered and DELIBERATELY NOT gated (recorded so the audit is complete):
+  #   - "$48/BOE" — NOT retired. It is a LIVE Method-2 realized-bond anchor in the
+  #     TA (GPFG = realized B₂, ~$48/BOE against RCV ~$300/BOE). The retired item is
+  #     the Norway "rent-capture" FRAMING (16% rent captured), which survives only in
+  #     the pending Ch 6 rebuild (L174 backtest row) and clears at that rebuild.
+  #     Gating "$48/BOE" would fire on ~10 correct TA uses. No clean pattern.
+  #   - "$449–464" Ch 6 national band — a relabel-to-$441-basis item, not a hard
+  #     retirement; confined to the pending Ch 6 rebuild (L343); cleared there.
+  #   - McDowell population "18,000" — too generic to gate without false positives.
+  #   - SCC $190=EPA-2023-not-Rennert; 2.61=AP-42×Pocahontas-heat — these are
+  #     attribution/sourcing disciplines, not retired figures; not simple patterns.
+
+  - id: regressed-figure-108-trillion-social-security
+    pattern: '108[ -]?trillion|one hundred and eight trillion|hundred-and-eight-trillion|\$108 ?[Tt]\b|\$108 ?[Tt]rillion'
+    type: regex
+    severity: MEDIUM
+    category: consistency-canon
+    description: |
+      The "$108 trillion foregone Social Security returns" figure is DISAVOWED as
+      the dishonest version (ledger; Ch 5-landed 2026-06-09). The honest foregone
+      return is "a few trillion, not a hundred" (investable base ~$2.7T surplus
+      peak); the ~$22.6T 75-yr actuarial shortfall is a DISTINCT quantity. $108T
+      must never appear as a REAL magnitude of severed cost. Ch 5 names it only to
+      REJECT it, so Ch 5 is allowlisted; the gate guards Ch 8 / Ch 9 / essays
+      against reintroducing it as real. MEDIUM (not HIGH) because Ch 5 legitimately
+      contains the string AND is itself being rebuilt (line numbers will move) —
+      re-pin the Ch 5 allowlist by content after the rebuild lands.
+    origin:
+      pass: "Lean-pipeline value review 3b ledger-amendment gate audit 2026-10-31"
+      ratified: "2026-06-04 ledger $108T disavowal (Ch 5-landed 2026-06-09)"
+    allowlist:
+      - file: "manuscript/chapters/Chapter__5_TheAccountabilityGap.md"
+        line: 110
+        rationale: "Ch 5 names $108T only to reject it as the dishonest figure; re-pin by content at the Ch 5 rebuild"
+
+  - id: regressed-figure-524-coal-total
+    pattern: '\$524\b'
+    type: regex
+    severity: HIGH
+    category: consistency-canon
+    description: |
+      Retired 8-component honest McDowell coal TOTAL. Canonical total is $510/ton
+      (ledger J1, author-ratified 2026-06-04); the label-pinning discipline holds
+      "$510" = the TOTAL and "$496" = the carbon term. The old $524 total is
+      retired. No current in-scope hits; this guards the label-pinning discipline
+      against reintroduction in the Darity-package artifacts (TA, Ch 1, Ch 5) and
+      the essays.
+    origin:
+      pass: "Lean-pipeline value review 3b ledger-amendment gate audit 2026-10-31"
+      ratified: "2026-06-04 ledger J1 / label-pinning"
+    allowlist: []
+
+  - id: regressed-figure-518-532-pigou-floor
+    pattern: '518 ?(to|[–-]|&ndash;) ?\$?532|\$532/ton|\$532 per ton'
+    type: regex
+    severity: MEDIUM
+    category: consistency-canon
+    description: |
+      Retired 4-component Pigouvian floor. Canonical floor is ~$504–518 ($496 +
+      ~$8–22 non-carbon heads; ledger 2026-06-04). The old $518–532 is retired.
+      Live only at Ch 6 L343 (McDowell-specific Pocahontas-seam basis), queued for
+      whole-cloth rebuild — allowlisted until that lands; remove the pin when the
+      Ch 6 rebuild promotes. MEDIUM; guards TA / Ch 1 / Ch 5 / essays against
+      reintroduction.
+    origin:
+      pass: "Lean-pipeline value review 3b ledger-amendment gate audit 2026-10-31"
+      ratified: "2026-06-04 ledger 4-component floor correction"
+    allowlist:
+      - file: "manuscript/chapters/Chapter__6_ThreeWaysofCounting.md"
+        line: 343
+        rationale: "queued Ch 6 whole-cloth rebuild; retired $518–532 McDowell band; remove pin when it lands"
+
 # ===== Scope configuration =====
 #
 # Same as scaffolding-patterns.yaml. (Relocated to end-of-file 2026-06-17: the

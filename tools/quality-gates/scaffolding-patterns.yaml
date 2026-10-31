@@ -212,6 +212,12 @@ patterns:
       - file: "manuscript/chapters/Chapter__4_TheExistenceProof.md"
         line: 121
         rationale: "legitimate substantive use — Alaska 'ratified a constitutional amendment' / 'voter-ratified', not the process-token sense"
+      # Plain-English prose use, not the process token (3c false-positive fix,
+      # lean-pipeline value review 2026-10-31). Re-pin by content if the FA
+      # essay redraft moves the line.
+      - file: "publishing/essays/foreign-affairs-existence-proof/essay.md"
+        line: 52
+        rationale: "plain-English 'each generation of Norwegian voters has, in effect, ratified the choice' — political-ratification sense, not the author-ratification process token"
       # NB: Ch 5 still shows MEDIUM scaffold-ratified hits at lines 25, 53, 184 —
       # these are 'author-ratified' / 'RESTORED…ratified' inside INLINE HTML
       # comments sharing a line with prose, so the conservative comment-stripper
