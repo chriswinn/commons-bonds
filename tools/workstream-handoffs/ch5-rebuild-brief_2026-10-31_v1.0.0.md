@@ -30,11 +30,12 @@ These are the only things that need you. Everything else is legwork I'll carry.
 | **D5** | **Length.** Min-only, no maximum (anchoring may lengthen it). | **Accept no ceiling.** The chapter earns its length by never running argument far from a case. | Confirms the drafting rule. |
 
 **Smaller things to be aware of (no action unless you disagree):**
-- The Social Security figures for Ida May Fuller **can't be verified from here** — `www.ssa.gov` is
-  blocked in this environment (same wall that stopped the data-center sources). They go into the
-  brief as *candidate figures with the SSA source named and flagged for verification*, and they do
-  **not** enter a draft until SSA is reachable (allow `ssa.gov` in the session network settings, or
-  drop the SSA history PDF into the repo). No invented numbers, ever.
+- The Social Security figures for Ida May Fuller still **can't be verified against the primary
+  source** — `www.ssa.gov` remains network-blocked (confirmed 2026-10-31). A web cross-check agrees on
+  the first check ($22.54) and lifetime total (~$22,888.92) but **conflicts on what she paid in**
+  ($24.75 vs $25.75), the one load-bearing number — so no Fuller figure enters a draft until the SSA
+  page is reachable (allow `ssa.gov` in the session network settings, or drop the SSA page/PDF into
+  `research/case-studies/`). No invented numbers, ever.
 - Insertion B forward-points to **Chapter 6's** discounting-ethics (Broome). Ch 6 isn't rebuilt
   until spring, but the cross-reference is conceptual and Darity isn't receiving Ch 6, so it's safe
   to place now; I'll keep the pointer accurate to what Ch 6 argues.
@@ -238,11 +239,15 @@ collected for decades, which is exactly the generational-promise image the secti
 extracted by one cohort's promise, funded by cohorts to come.
 **Source:** SSA History, "The First Social Security Beneficiary" (`ssa.gov/history`). Deceased and on
 the public record → **no consent gate**.
-**⚠ FIGURES NOT YET VERIFIED.** `www.ssa.gov` is blocked in this environment, so the exact amounts
-(first-check amount, total paid in, total collected, dates) are **not** in this brief and will **not**
-enter a draft until verified against the SSA history page itself. No figure for Fuller gets written
-from memory. *(To unblock: allow `ssa.gov` in the session network settings, or drop the SSA history
-page/PDF into `research/case-studies/`.)*
+**⚠ FIGURES NOT YET VERIFIED AGAINST THE PRIMARY SOURCE.** `www.ssa.gov` is still blocked in this
+environment (confirmed 2026-10-31), so the exact amounts are **not** in this brief and will **not**
+enter a draft until verified against the SSA history page itself. A web-search cross-check (2026-10-31)
+is consistent on the first check (**$22.54**, dated Jan 31 1940, check no. 00-000-001) and the lifetime
+total (**~$22,888.92**), and on the ~3-years-of-work / Ludlow VT details — but **secondary sources
+disagree on the load-bearing number, what she paid in** ($24.75 vs $25.75), which is exactly why the
+primary source is required before any figure ships. No figure for Fuller gets written from memory.
+*(To unblock: allow `ssa.gov` in the session network settings — see the network-settings card — or
+drop the SSA history page/PDF into `research/case-studies/`.)*
 **First-person alternative (if you'd rather anchor time itself yourself):** have you read your own
 Social Security statement, including the line about benefits payable if the trust fund runs short —
 and what did you think? Did the accident, or starting nursing school mid-career, change how you think
