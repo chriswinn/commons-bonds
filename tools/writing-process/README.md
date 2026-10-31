@@ -3,6 +3,16 @@
 **Date created:** 2026-05-19
 **Status:** Living folder. These documents capture writing and audit disciplines developed during the *Commons Bonds* book project that are **portable** — designed to be lift-and-reused across other projects or extracted to their own standalone repositories with light editing.
 
+> **▸ Current Commons Bonds process (2026-10-25): the LEAN pipeline.** For the live
+> project, the six-stage five-pass pipeline described in these portable overviews was
+> **slimmed** on 2026-10-25 (value review `../pipeline-doctrine/commons_bonds_rigor-pipeline-value-review_v1.0.1.md`):
+> the acceptance panels, convergence/repeat runs, and post-spot-fix re-fires were
+> retired; the core loop (gates → fact-check against the figure ledger → one
+> strongest-critic read → author hand redline → grammar polish) was kept. These
+> overviews still describe the **full** pipeline as a portable reference for other
+> projects; a future portable extract will carry the lean variant and the "which layers
+> earned their cost" review alongside it.
+
 ---
 
 ## Why this folder exists

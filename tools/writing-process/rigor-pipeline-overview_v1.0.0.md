@@ -4,6 +4,18 @@
 **Status:** Living document. Captures the current state of a six-stage rigor pipeline developed for long-form publisher-facing writing (book manuscripts; long-form essays; whitepapers; reports).
 **Portability:** Designed to be lift-and-reused. Lightly edit the project-specific examples and cross-references and this becomes a standalone writing-process reference for other projects. Could be extracted to its own repository as the process matures.
 
+> **▸ Commons Bonds project update (2026-10-25).** On the live project this six-stage,
+> five-pass pipeline was **slimmed to a lean loop** after a cost-vs-value review
+> (`../pipeline-doctrine/commons_bonds_rigor-pipeline-value-review_v1.0.1.md`): under
+> ~1–2 author hours a week, the acceptance panels (Pass 3.3), convergence/repeat runs,
+> and post-spot-fix re-fires were **retired** as low-value; the layers that caught the
+> errors that mattered — automated gates, fact-check against a canonical figure ledger,
+> external positioning verification, one adversarial "strongest critic" read — were
+> **kept**, with the author's hand redline as the final voice stage and a mechanical
+> grammar polish after it. This overview keeps the full architecture as a portable
+> reference; the review itself is a useful companion read on *which* layers earn their
+> cost when author time is scarce.
+
 ---
 
 ## §0. What this is + who it's for

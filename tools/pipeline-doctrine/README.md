@@ -2,6 +2,19 @@
 
 Canonical full doctrine for the Commons Bonds publishing pipeline (v1.0.0 ratified 2026-05-17, with Amendments A + B + C ratified 2026-05-18 / 19). Four files split by scope: an architecture-wide main doctrine plus three per-stage deep-dives. Promoted from `tools/` top-level into this subdir 2026-05-28 (S6 of the project-review structure-cleanup-followup session).
 
+> **▸ CURRENT PROCESS (RATIFIED 2026-10-25): the LEAN pipeline.** The default for new
+> work is now [`commons_bonds_rigor-pipeline-value-review_v1.0.1.md`](commons_bonds_rigor-pipeline-value-review_v1.0.1.md),
+> which **supersedes** the six-stage five-pass v3.1 doctrine in the four files below.
+> The lean loop: automated gates → fact-check against the canonical figure ledger →
+> one strongest-critic read → the author's hand redline → grammar-and-punctuation
+> polish; chapters run 2 redraft variants plus the current version as a third judged
+> candidate. **Dropped:** Pass 3.3 acceptance panels, convergence/repeat runs,
+> re-firing passes after spot-fixes. **Kept:** gates, fact-check, external positioning
+> verification (book-level claims), one adversarial read, Stage-4 render, and the
+> pre-pub review queue (book proposal). One session at a time. The v3.1 files below are
+> **historical reference** — read them to understand a stage or pass, not as the loop
+> to run for new work.
+
 ## When to read which
 
 | File | Read when |

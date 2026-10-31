@@ -7,6 +7,32 @@ originSessionId: 6a97b0f9-c18b-4992-8bf6-b2bbf9c60acf
 **Canonical full content:** `tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md`
 **Layer:** scan-friendly summary; this file is the cross-session discipline pointer. Update the canonical artifact when content changes; sync this summary via `tools/memory-updates/` spec for substantive amendments.
 
+> ## ▸ SUPERSEDED 2026-10-25 — the process is now the LEAN pipeline
+>
+> The current process is the value review **RATIFIED 2026-10-25**:
+> [`../pipeline-doctrine/commons_bonds_rigor-pipeline-value-review_v1.0.1.md`](../pipeline-doctrine/commons_bonds_rigor-pipeline-value-review_v1.0.1.md).
+> It **replaces** the six-stage, five-pass v3.1 architecture described below as the
+> default for new work. The v3.1 content is retained as historical reference — read it
+> to understand what each pass did, not as the loop to run.
+>
+> **The lean loop.** Chapters: full redraft from an updated brief (2 blind variants
+> **plus the current version as a third candidate**, judged) → fact-check against
+> `manuscript/ledgers/_CANONICAL_FIGURE_LEDGER.md` → one strongest-critic read →
+> (optional) a developmental read framed as questions → **the author's hand redline**
+> → grammar-and-punctuation polish (mechanical, every change listed). Essays run the
+> same loop once; no second round without a trigger (rejection-with-feedback, a retired
+> figure, or a venue change).
+>
+> **KEEP:** automated gates; fact-check (+ external positioning verification for
+> book-level claims); one adversarial "strongest critic" read (old Pass 3.4, once,
+> never on spot-fixes); Stage-4 render; the pre-pub review queue for the book proposal.
+> **RETIRED:** Pass 3.3 acceptance panels; convergence/repeat runs; re-firing passes
+> after spot-fixes; redrafting signed-off work without a trigger. Encode every ledger
+> amendment as a gate pattern in the same commit.
+>
+> **One session at a time** — no parallel or delegated sessions, no workflow fleets.
+> End every session with three lines (done · waiting on the author · next paste line).
+
 # feedback_audience_aware_drafting_discipline (v3.0)
 
 **Date:** 2026-05-17

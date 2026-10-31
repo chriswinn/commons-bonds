@@ -8,11 +8,45 @@ Do not answer "what's the status of X?" from per-essay READMEs or old handoffs
 without checking STATE.md first; if you CHANGE a status, update its STATE.md
 line in the same commit.
 
+## ▸ CURRENT OPERATING MODE (RATIFIED 2026-10-25) — read before any drafting or rigor work
+
+Two standing changes govern every session. They **supersede** the heavier
+machinery described later in this file; where the two conflict, this banner wins.
+
+**1. The lean pipeline replaces the five-pass v3.1 default.** The process is now the
+value review ratified 2026-10-25:
+[`tools/pipeline-doctrine/commons_bonds_rigor-pipeline-value-review_v1.0.1.md`](tools/pipeline-doctrine/commons_bonds_rigor-pipeline-value-review_v1.0.1.md).
+Chapters get the **proven loop**: full redraft from an updated brief (2 blind
+variants **plus the current version as a third candidate**, judged) → fact-check
+against `manuscript/ledgers/_CANONICAL_FIGURE_LEDGER.md` → one strongest-critic read
+→ (chapters, optional) a developmental read framed as questions → **the author's
+line-by-line hand redline** → Claude's grammar-and-punctuation polish (mechanical
+only, every change listed). Essays run the same loop once; don't start a second
+round without a real trigger (a rejection with feedback, a retired figure, or a
+venue change). **KEEP:** the automated gates; the fact-check (+ external positioning
+verification for book-level claims); one adversarial "strongest critic" read (the
+old Pass 3.4, run **once**, never on spot-fixes); Stage-4 render; the pre-publication
+review queue for the book proposal. **RETIRED:** the Pass 3.3 acceptance panels;
+convergence and repeat runs; re-firing passes after spot-fixes; redrafting signed-off
+work without a trigger. Encode every ledger amendment as a gate pattern in the same
+commit.
+
+**2. One session at a time.** This is the only active session: one branch, no
+parallel or delegated sessions, no workflow fleets. The parallel-session machinery
+below — worktree isolation for "20-35+ concurrent sessions," the SessionEnd
+branch-delete hook, orphan-lock recovery — is **historical**; it is not operative
+under this mode. Treat every June delegation, paused workflow (`wf_64743ae8-516`,
+`wf_9faefe26-a6c`) and the 06-18 Ch 6–9 rebuild handoff as **superseded by the
+plan**; do not resume them. End every session with three lines: what got done ·
+what's waiting on the author · the exact next paste line.
+
+Live plan: [`tools/workstream-handoffs/commons_bonds_work-plan_2026-10_to_2027-08_v1.0.7.md`](tools/workstream-handoffs/commons_bonds_work-plan_2026-10_to_2027-08_v1.0.7.md).
+
 Doctrine routing (the four homes, canonical→summary):
 
 | Need | Canonical home |
 |---|---|
-| Pipeline stages + rigor passes | `tools/pipeline-doctrine/` (summary mirror: `tools/memory/feedback_audience_aware_drafting_discipline.md`) |
+| Pipeline stages + rigor passes | **Current = the lean pipeline** [`tools/pipeline-doctrine/commons_bonds_rigor-pipeline-value-review_v1.0.1.md`](tools/pipeline-doctrine/commons_bonds_rigor-pipeline-value-review_v1.0.1.md) (RATIFIED 2026-10-25). The six-stage five-pass v3.1 (`tools/pipeline-doctrine/` + summary mirror `tools/memory/feedback_audience_aware_drafting_discipline.md`) is **historical** — read it to learn what a pass was, not as the default. |
 | Status vocabulary + markers | `tools/conventions/status-markers.md` |
 | Archive/lifecycle rules | `tools/conventions/archival-policy.md` |
 | Session/branch/merge discipline | this file (below) |
@@ -25,6 +59,13 @@ Each workstream operates on a dedicated feature branch
 (`claude/<workstream>-<harness-id>`) branched from current
 `origin/main`. See `tools/workstream-handoffs/README.md` for the
 canonical branch-discipline reference.
+
+> **One-session mode (2026-10-25).** There is one active session on one branch at a
+> time (see the CURRENT OPERATING MODE banner). The merge-to-main defaults below
+> still hold — internal scaffolding merges at session close, publisher-facing prose
+> on author ratification — but the parallel-session rationale and machinery they were
+> tuned for (20-35+ concurrent sessions) is historical: read it as background, not as
+> a live expectation.
 
 **Merge-to-main default (established 2026-05-16 by author
 direction; extended to rigor-pass artifacts 2026-05-16; extended
@@ -192,6 +233,13 @@ amend a commit already on `origin/main`; never skip hooks
 (`--no-verify`) without explicit author direction.
 
 ### Three-pass rigor discipline
+
+> **SUPERSEDED 2026-10-25 by the lean pipeline** (see the CURRENT OPERATING MODE
+> banner above). Fact-check is kept and made cheaper (check every draft against the
+> ledger; encode each amendment as a gate pattern). Voice-polish is **merged** — its
+> mechanical half is now the gate, its judgment half is the author's redline. The
+> acceptance panels are **dropped**; one adversarial "strongest critic" read survives,
+> run once. The rest of this section is retained as historical reference.
 
 v2.0 Amendment B: fact-check + voice-polish + audience-load are
 three DISTINCT passes, not bundled. Per-prompt serial cadence
