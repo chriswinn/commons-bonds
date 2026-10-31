@@ -1,0 +1,78 @@
+<title>Commons Bonds Handoff Oct 31</title>
+<style>
+:root{--bg:#f6f7f6;--fg:#1b2428;--muted:#56656d;--line:#d5dddb;--accent:#1f5f6b;--done:#2f6b3a;--todo:#8a5a00}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#131a1d;--fg:#e2e9eb;--muted:#9aabb2;--line:#2e3d43;--accent:#7cc0cc;--done:#8fcf98;--todo:#e6bb62;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#131a1d;--fg:#e2e9eb;--muted:#9aabb2;--line:#2e3d43;--accent:#7cc0cc;--done:#8fcf98;--todo:#e6bb62;color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font:15px/1.55 system-ui,-apple-system,"Segoe UI",sans-serif;max-width:860px;margin:0 auto;padding-block:28px 56px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+h1{font-size:1.6rem;margin:0 0 4px}h2{font-size:1.2rem;border-bottom:1px solid var(--line);padding-bottom:6px;margin-top:32px}
+code{font:0.85em ui-monospace,Menlo,monospace;word-break:break-word}
+.muted{color:var(--muted)}.done{color:var(--done);font-weight:600}.todo{color:var(--todo);font-weight:600}
+li{margin:4px 0}table{border-collapse:collapse;width:100%;font-size:.9rem}td,th{border-top:1px solid var(--line);padding:6px 8px;text-align:left;vertical-align:top}
+.wrap{overflow-x:auto}
+</style>
+
+<h1>Commons Bonds: session handoff, 25–31 Oct 2026</h1>
+<p class="muted">Restart session after the author's four-month pause (accident recovery and nursing school). Everything listed as done is on <code>origin/main</code> (last commit <code>032c0a2d</code>). Addressed to the next Claude instance; the author reads it too.</p>
+
+<h2>Resume instructions for the next session</h2>
+<ol>
+<li>Read, in order: <code>MAP.md</code> → <code>STATE.md</code>, which is stale since June; its top pointer says so → <code>tools/workstream-handoffs/commons_bonds_work-plan_2026-10_to_2027-08_v1.0.7.md</code> (THE plan) → <code>tools/pipeline-doctrine/commons_bonds_rigor-pipeline-value-review_v1.0.1.md</code> (the ratified process) → this file.</li>
+<li>Then run the Fall-plan W1 kickoff at <code>tools/workstream-handoffs/commons-bonds-kickoff-prompt_fall-W1_2026-10-26.md</code>, <b>skipping the items marked done below</b>.</li>
+<li>Operating mode: one session at a time; the lean pipeline only; sessions commit and push themselves (author-confirmed); end every session with three lines: done · waiting on the author · next paste line.</li>
+<li>Open by telling the author what was accomplished and what is outstanding (sections below). Then ask for the four status answers if they weren't given in the paste.</li>
+</ol>
+
+<h2>Accomplished this session</h2>
+<ul>
+<li><span class="done">Done</span> Full project review and status dashboard: <code>tools/workstream-handoffs/commons-bonds-status-dashboard-2026-10-25_v1.0.0.html</code>; private artifact copy at https://claude.ai/artifact/1unMhndPexFuHKiraYaKhJ.</li>
+<li><span class="done">Done</span> Work plan Oct 2026 – Aug 2027 (v1.0.7): 1–2 h/week in fall and spring, full time over winter break and summer, weekly paste lines.</li>
+<li><span class="done">Done</span> Process review <b>RATIFIED</b> (v1.0.1). Core loop: full redraft → the author's hand redline → grammar and punctuation polish. Kept: gates, fact-check, one strongest-critic read. Retired: acceptance panels, convergence runs, redrafting signed-off work.</li>
+<li><span class="done">Done</span> Top priority set: the <b>Darity package</b>. He asked for the corrected Technical Appendix plus any two chapters; the author chose Ch 1 and Ch 5. The TA and Ch 1 go in early December; Ch 5 goes Jan 4–5. Agent queries are held for his read. A foreword is asked about only if he raises publishers himself.</li>
+<li><span class="done">Done</span> Chapter states verified. Ch 1 is ready. Ch 2, 3, 4 and 10 need the author's redline only. Ch 5–9 need a full rebuild first.</li>
+<li><span class="done">Done</span> Ch 5 <b>grounding test</b> defined. Each step up in scale ties to (a) the author's own experience, (b) a documented public account, or (c) a documented place; gaps become questions to the author. Notes: <code>research/story-drafts/ch5-personal-anchor-refresher_2026-10-25.md</code>, which includes the "what personal material is and isn't needed" guide; family medical matters are deliberately excluded.</li>
+<li><span class="done">Done</span> TA calculation engines re-run 2026-10-25: 21/21 and 24/24 values reproduce.</li>
+<li><span class="done">Done</span> <b>$4.71 coal fix</b> (author OK): <i>Pricing Honestly</i> essay lines 14 and 106 plus the cover-letter hook. New HIGH gate pattern <code>regressed-consistency-coal-1960-price-4-50</code>, self-tested, with the Ch 6/9 lines allowlisted until their rebuilds. Full gate HIGH = 0. (W1 items 3a and 3d.)</li>
+<li><span class="done">Done</span> AI data-center <b>op-ed and Atlantic Ideas pitch drafts</b> plus a lead-level fact base in <code>research/story-drafts/datacenter/</code>. <b>Not submittable</b>: the [V1]–[V10] figures are unverified because the network blocked every source page. The README has the checklist and the author decisions.</li>
+<li><span class="done">Done</span> The author updated their personal preferences in Claude: sessions commit and push, plus capacity, process and the Darity priority.</li>
+</ul>
+
+<h2>Outstanding: this week (Fall plan W1, Oct 26 – Nov 1)</h2>
+<ol>
+<li><span class="todo">To do</span> <b>Make the process stick:</b> update <code>CLAUDE.md</code> and the always-loaded <code>tools/memory/feedback_audience_aware_drafting_discipline.md</code> to the lean pipeline and one-session mode, cascading to all three doctrine homes. (W1 item 1)</li>
+<li><span class="todo">To do</span> <b>Reconcile STATE.md</b> to today, using the author's four status answers: the American Prospect reply, Berggruen submitted?, the Darity email or note, VPCC break dates. (W1 item 2)</li>
+<li><span class="todo">To do</span> Gate follow-ups: audit the ledger for other ratified amendments that never got a gate pattern (3b), and fix the false positive on plain-English "ratified" in essay prose, e.g. the Foreign Affairs essay L52 (3c).</li>
+<li><span class="todo">To do</span> <b>Ch 5 rebuild brief</b> for the author's approval (this week's main author slot). After approval: 2 blind variants plus the current Ch 5 as a third candidate, a judge including the grounding test, and a ledger fact-check of the winner. Stop there; the author picks the winner in December. (W1 item 4)</li>
+<li><span class="todo">Author</span> Start reading the NYRB essay; it's submitted in W2. <b>The window closes Nov 15.</b></li>
+</ol>
+
+<h2>Outstanding: rest of fall (see the plan)</h2>
+<ul>
+<li>W2: NYRB submission. W3: submit Harper's (V-D as is) and do the Ch 1 final read (after the session fact-checks and polishes it).</li>
+<li>W4: TA for Darity, part 1. Apply the 06-24 positioning findings (none are in the TA yet), make the 3 reef calls, close the §6.3/§6.2 loose ends. W5: render, changelog vs his 05-15 copy, list of his call material for approval. W6: send the TA and Ch 1 to Darity.</li>
+<li>Data-center pieces: verify V1–V10, then the author's redline and decisions (two-path test, sequencing, AI disclosure, "forthcoming" in the bio). Planned for winter break; the op-ed is pegged to the January General Assembly session.</li>
+</ul>
+
+<h2>Open decisions and watch items</h2>
+<div class="wrap"><table>
+<tr><th>Item</th><th>Owner / when</th></tr>
+<tr><td>Send the Darity package all at once (Jan 4–5) or staggered (TA and Ch 1 in Dec, Ch 5 in Jan)? The plan defaults to staggered.</td><td>Author, by the Nov 30 week</td></tr>
+<tr><td>A personal note to Darity (five months of silence), in the author's own words.</td><td>Author, anytime</td></tr>
+<tr><td><i>Pricing Honestly</i> cover letter still says "$520–600" honest cost; the ledger floor is $510.</td><td>Author OK needed</td></tr>
+<tr><td>Where <i>Pricing Honestly</i> goes if the data-center piece takes the Atlantic Ideas slot (Foreign Policy is the listed fallback).</td><td>Winter break</td></tr>
+<tr><td>Aeon: one check of the pitch-guidelines page; set a stop date (e.g. Dec 31). aeon.co is unreachable from this environment.</td><td>Author</td></tr>
+<tr><td>Network: allow jlarc.virginia.gov, www.sec.gov, loudoun.gov, opc.maryland.gov, scc.virginia.gov, uscode.house.gov, law.lis.virginia.gov, deq.virginia.gov (needed for V1–V10), or save the PDFs into the datacenter folder.</td><td>Author (environment settings)</td></tr>
+<tr><td>Superseded June items must not be resumed: paused workflows <code>wf_64743ae8-516</code> and <code>wf_9faefe26-a6c</code>, the per-essay session delegations, and the 06-18 Ch 6–9 rebuild handoff.</td><td>Next session: mark them in STATE.md</td></tr>
+<tr><td>The fuller refresher draft with family sections exists only in the old session's scratchpad; it is not in the repo.</td><td>No action</td></tr>
+</table></div>
+
+<h2>Files from this session</h2>
+<ul>
+<li><code>tools/workstream-handoffs/commons_bonds_work-plan_2026-10_to_2027-08_v1.0.7.md</code>: the plan</li>
+<li><code>tools/pipeline-doctrine/commons_bonds_rigor-pipeline-value-review_v1.0.1.md</code>: the ratified process</li>
+<li><code>tools/workstream-handoffs/commons-bonds-kickoff-prompt_fall-W1_2026-10-26.md</code>: the W1 instructions</li>
+<li><code>tools/workstream-handoffs/commons-bonds-status-dashboard-2026-10-25_v1.0.0.html</code>: the dashboard</li>
+<li><code>research/story-drafts/ch5-personal-anchor-refresher_2026-10-25.md</code>: Ch 5 anchor notes</li>
+<li><code>research/story-drafts/datacenter/</code>: op-ed draft, pitch draft, fact base, README checklist</li>
+<li><code>tools/quality-gates/regressed-patterns.yaml</code>: the new $4.50 pattern</li>
+<li><code>STATE.md</code>: restart pointer at the top only</li>
+</ul>
