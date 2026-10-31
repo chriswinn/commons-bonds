@@ -19,21 +19,24 @@ family members' private matters; no NDA/employer/vendor names).
   "isn't going to be relatable at all to readers," so the proposed **middle way** is to composite
   several threads into the universal 401(k) realization + its cascade.
 
-## Proposed cascade threads (⚠ CONFIRM each: did this actually happen to you, or is it illustrative?)
+## Cascade threads — CONFIRMED ALL REAL (author, 2026-10-31)
 
-The author listed these as the cascade after the 401(k) realization. Per the no-invented-facts rule,
-first-person material is **only what actually happened to the author** — we do not composite a
-representative-but-fictional version of the author's own life. Before any of these enters a draft,
-confirm for each: **real-to-you** (use it) or **illustrative** (leave it out):
+The author confirmed every thread actually happened and added one: **the company the author was at
+failed, forcing a self-funded move to another city to find work.** Author's editorial call: **the
+specifics are not needed** — compress to the general nouns, let the accumulation do the work, and end
+on the reset. Author's own framing: *a costly healthcare emergency, a car breaking down, a forced
+move to find work, the crisis tanking the portfolio, and early-withdrawal penalties — which together
+essentially reset me to starting over financially.*
 
-1. A **medical emergency**. ⚠ If this is a **family member's** health, it is **excluded** per the
-   standing rule (no family medical matters; family medical is already deliberately out of Ch 5, and
-   Ch 1 carries the family-illness material). If it is the author's **own** and the author is willing,
-   only the **financial** side is usable (no health details, no figures).
-2. A **car breaking down**, replaced by **drawing on retirement savings with early-withdrawal tax
-   penalties**. (On-mechanism if real — the risk-shift biting.)
-3. **Home ownership postponed again.**
-4. **Retirement pushed back a decade (minimum).**
+All real; render **compactly**, no per-item detail:
+1. A **costly healthcare emergency** — render as the **financial** hit on the author's own ledger
+   only; **no medical detail, and do not tie it to the Ch 1 family-illness thread** (keeps family
+   medical out per the standing rule, whoever's emergency it was).
+2. **Car breaking down** → replaced by **tapping retirement savings early, with the tax penalties**
+   that punish exactly that (on-mechanism — the risk-shift biting).
+3. The **company failed** → a **forced, self-funded move** to a city with work.
+4. **Home ownership postponed; retirement pushed back ~a decade.**
+5. Net: **reset to starting over financially** — the beat's payoff and its tie to the thesis.
 
 ## Privacy / discipline flags for the drafter
 
@@ -52,3 +55,10 @@ than "I was already struggling." Recommended shape: **lead with the universal 40
 beat** (the pension→401(k) risk-shift embodied — directly on the chapter's thesis), then a **trimmed**
 version of the sales vantage (the economy freezing, seen from inside a pipeline) as the distinctive
 texture and the no-alibi turn. Keep the "doing well" frame, drop any figures.
+
+**Cascade = compress, don't detail (author call 2026-10-31).** List the pile-up in a tight,
+accumulating rhythm (healthcare emergency · car · company failed · forced move · portfolio gone ·
+early-withdrawal penalties) and land on **"reset to starting over."** The power is the accumulation,
+not any single item; per-item detail would slow the beat and risk privacy. End the rung on the reset
+because that is where it meets the thesis: a pension pooled these risks; the 401(k) handed them all
+to the individual, so one bad year could erase a life's savings in a way a pension never would.
