@@ -1,8 +1,10 @@
 # Post-interview confirmation email — Darity Jr. (2026-05-31 draft, HELD)
 
 > **⚠ DO NOT AUTO-SEND (standing rule 2026-10-31).** This draft is author-sent only. The triggers
-> below are **prompts to surface it to the author for review** — "the trigger has fired; still
-> useful? revise, send, or decommission?" — **never** a send authorization. Trigger (2)
+> below are **prompts to surface it to the author for review with a recommendation** — "the trigger
+> has fired; my recommendation is [revise and/or send / hold / decommission], to whom, how, and why" —
+> **never** a send authorization; the author decides whether it is still useful and sends if
+> appropriate. Trigger (2)
 > "publisher-interest" may now be live (Darity hinted at a possible publishing path, 2026-10-31):
 > that means SURFACE for review, not send. Canonical rule:
 > [`../../../../tools/memory/feedback_no_autosend_outbound_email.md`](../../../../tools/memory/feedback_no_autosend_outbound_email.md).

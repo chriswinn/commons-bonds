@@ -10,8 +10,9 @@ This file is a **READ AGGREGATOR** — it reflects state captured from policy me
 > **▸ STANDING RULE (2026-10-31): no held or queued email auto-sends.** Every outbound email tracked
 > here or elsewhere — interview confirmations, citation-accuracy notifies, courtesy copies, submission
 > cover letters, agent queries — is **author-sent**. A held email's trigger firing is a prompt to
-> **surface it to the author for review** (still useful? relevant? revise / send / decommission?),
-> **never** a send authorization. Sessions draft and flag; the author decides and sends. Canonical
+> **surface it to the author for review with a recommendation** (revise and/or send? to whom, how, and
+> why?), **never** a send authorization. Sessions draft, recommend, and flag; the author decides
+> whether it is still useful and sends it if appropriate. Canonical
 > rule: [`../../../tools/memory/feedback_no_autosend_outbound_email.md`](../../../tools/memory/feedback_no_autosend_outbound_email.md).
 
 ## How to use this tracker

@@ -10,11 +10,12 @@ This covers all outbound email without exception: interview confirmation / recor
 emails, citation-accuracy notifies, courtesy notifications and post-launch courtesy copies,
 submission cover letters and pitch emails, agent query letters, and any outreach or follow-up.
 
-A held or queued email's **"trigger" firing is a prompt to SURFACE it to the author for review** —
-*"this trigger has fired; here is the draft and where it lives; is it still useful / relevant?
-revise, send, or decommission?"* — and is **never** a send authorization. The session drafts and
-flags; the author reviews, decides relevance, and sends (from their own client, or by an explicit,
-in-session "send this specific message" instruction).
+A held or queued email's **"trigger" firing is a prompt to SURFACE it to the author for review WITH
+a recommendation** — *"this trigger has fired; here is the draft and where it lives; my
+recommendation is [revise and/or send / keep holding / decommission], to [whom], [how], because
+[why]"* — and is **never** a send authorization. The session drafts, **recommends**, and flags; the
+author reviews, decides whether it is still useful / relevant, and sends it **if appropriate** (from
+their own client, or by an explicit, in-session "send this specific message" instruction).
 
 This extends the long-standing submission-is-author-gated discipline (CLAUDE.md: "SUBMISSION
 itself… emailing the editor… requires explicit author action") to **all** outbound email, including
@@ -34,8 +35,10 @@ re-checked at trigger time, never assumed (verify-stale-memory discipline applie
 - **Never** call a send tool (`mcp__Gmail__send_message` / reply / forward, or any other outbound
   send) for correspondence without an explicit, in-session author "send it" for that specific
   message. Drafting, saving, and surfacing are fine; sending is not.
-- When a held email's trigger fires, or a pre-submission notify is due, **surface it**: name the
-  email, its path, what triggered it, and ask the author to decide (send / revise / decommission).
+- When a held email's trigger fires, or a pre-submission notify is due, **surface it with a
+  recommendation**: name the email, its path, what triggered it, and recommend whether it should be
+  revised and/or sent — to whom, how, and why — then let the author decide whether it is still useful
+  and send it if appropriate.
 - Re-verify a held draft before any send (stale figures, closed windows, changed framing).
 
 ## Held-email inventory — snapshot 2026-10-31 (live home: `../../research/outreach/_pipeline/consent-tracker.md`)
