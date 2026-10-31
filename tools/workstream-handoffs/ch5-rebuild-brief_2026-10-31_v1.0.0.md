@@ -26,7 +26,7 @@ These are the only things that need you. Everything else is legwork I'll carry.
 | **D1** | **The 2008 anchor.** It's the one unanchored *national-economy* step. Supply a short first-person moment, or let a documented account carry it? | **First-person (one voice note).** Your 2008 vantage is entirely yours, needs no one else's privacy, and bookends Ch 1. Questions in §6. | Only you have it; it sets how much of *you* is in the chapter. |
 | **D2** | **The Social Security anchor.** Currently *no* anchor — the hardest gap. | **Documented: Ida May Fuller**, the first recurring Social Security beneficiary (1940). Keeps first person to one step (2008) so Ch 5 doesn't tip into memoir. First-person option in §6 if you'd rather. | You decide whether time-itself is carried by a stranger's record or by you. |
 | **D3** | **How much is a rebuild vs. a polish.** The current Ch 5 is strong and already carries the positioning spine, the Darity-aware restitution/foreclosure section, and the targets for Insertions B/C/G. | Treat the rebuild as **anchoring (D1/D2) + folding B/C/G, not reinvention.** The current version competes as candidate C and may well win. | Calibrates how hard the drafting pushes, and your expectations in December. |
-| **D4** | **Darity review of call-derived material.** Anything from the 2026-05-13 call needs his review before use (Tier S). | **Confirm the chapter engages only his *published* work + field-level facts** (my read: it does — see §4). If so, no separate Tier-S gate blocks the send, and sending him the chapter is itself the review. | It's your relationship and his one hard constraint. |
+| **D4** | **Darity review of call-derived material.** Anything from the 2026-05-13 call needs his review before use (Tier S). | **Inventory Darity Tier-S material against the rebuilt chapter** (the consent tracker flags a Ch 5 citation-form item from the 2026-05-15 citation packet, so don't assume Ch 5 is Tier-S-clean). Confirm each Darity reference is either his *published* work (Tier W) or already covered by the May 15 citation packet / flagged for his review. Since he's the recipient awaiting this chapter, the send is itself the review — so no separate gate blocks it, but the inventory is explicit. | It's your relationship and his one hard constraint. |
 | **D5** | **Length.** Min-only, no maximum (anchoring may lengthen it). | **Accept no ceiling.** The chapter earns its length by never running argument far from a case. | Confirms the drafting rule. |
 
 **Smaller things to be aware of (no action unless you disagree):**
@@ -155,10 +155,13 @@ fact-check must **confirm the Tier-W/Tier-S line** (D4).
 
 **Substrate check (for the fact-check step):** the chapter cites *From Here to Equality*,
 *Umbrellas Don't Make It Rain*, Conley, Coates — all **published** (Tier W). The MI-1/MI-2 moves are
-written as engagements with his **published** framework and as field-level facts, not as attributed
-paraphrases of the call. Confirm no sentence attributes to Darity anything that exists only in the
-call transcript; if one does, flag it for his review in the Jan cover note (and since he's the
-recipient, the send *is* the review).
+written as engagements with his **published** framework and as field-level facts. **But do not assume
+the chapter is Tier-S-clean:** the consent tracker (§D.1 Darity) flags call-derived (Tier-S)
+instances across the book/TA, including a **Ch 5 citation-form item raised in the 2026-05-15 citation
+packet**. So the fact-check step **inventories every Darity reference in the rebuilt Ch 5** and
+confirms each is either Tier W (published) or already covered by the 2026-05-15 citation packet /
+otherwise flagged for his review. Since Sandy is the package recipient and is awaiting exactly this
+chapter, the send is itself the review — but the inventory is explicit, not assumed.
 
 ---
 
