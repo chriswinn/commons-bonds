@@ -1,83 +1,125 @@
 # STATE.md — live project status (single source for "where does X stand?")
 
 **Discipline.** Any session that *changes* a status below updates that one line (with the date)
-in the same commit. The PM session reconciles this file against per-unit READMEs + the newest
-PM dashboard on each PM pass. Detail layer: newest `tools/workstream-handoffs/pm-session-handoff_<date>.md`
-(currently **2026-06-10** — includes the book-completion plan + per-chapter table + author decision queue).
-This file supersedes the snapshot table in `publishing/essays/README.md` as the live surface.
-Status vocabulary: `tools/conventions/status-markers.md`. Orientation: [MAP.md](MAP.md).
+in the same commit. Status vocabulary: `tools/conventions/status-markers.md`. Orientation:
+[MAP.md](MAP.md). Process + operating mode: see CLAUDE.md's **CURRENT OPERATING MODE** banner
+(lean pipeline, one session at a time, RATIFIED 2026-10-25).
 
-**▸ RESTART 2026-10-25 (after a 4-month pause).** This file is stale from late June. The live plan is [`tools/workstream-handoffs/commons_bonds_work-plan_2026-10_to_2027-08_v1.0.7.md`](tools/workstream-handoffs/commons_bonds_work-plan_2026-10_to_2027-08_v1.0.7.md) (top priority: the Darity package of Ch 1 + Ch 5 + corrected TA; agent queries held for his read). The process is now the lean pipeline, RATIFIED 2026-10-25: [`tools/pipeline-doctrine/commons_bonds_rigor-pipeline-value-review_v1.0.1.md`](tools/pipeline-doctrine/commons_bonds_rigor-pipeline-value-review_v1.0.1.md). Kickoff prompt: [`tools/workstream-handoffs/commons-bonds-kickoff-prompt_fall-W1_2026-10-26.md`](tools/workstream-handoffs/commons-bonds-kickoff-prompt_fall-W1_2026-10-26.md). Session handoff (what's done and what's outstanding): [`tools/workstream-handoffs/commons-bonds-session-handoff-2026-10-31_v1.0.0.html`](tools/workstream-handoffs/commons-bonds-session-handoff-2026-10-31_v1.0.0.html). Full reconciliation of the rows below is Fall-plan W1 item 2. Until then, trust the plan's chapter table over this file's chapter rows.
+**▸ RECONCILED 2026-10-31** (Fall-plan W1 item 2) — this file was stale from late June; it is now
+current as of today, built from the plan's verified chapter table + the 2026-10-31 session handoff
++ the author's W1 status answers. The governing plan is
+[`tools/workstream-handoffs/commons_bonds_work-plan_2026-10_to_2027-08_v1.0.7.md`](tools/workstream-handoffs/commons_bonds_work-plan_2026-10_to_2027-08_v1.0.7.md).
+For the detailed June snapshot (audit trail) see the 2026-06-10 PM dashboard + git history; this
+file is the live surface and supersedes the June rows.
 
-**Wave-1 critical path (target: late June 2026):** book-proposal finalization → Ch 1 + Ch 5
-polish (redraft campaign) → agent-query Wave 1 fires ~Jun 24 – Jul 1 (cascade plan v2 Amendment 6).
+**Capacity:** ~1–2 hrs/week in semester; full-time over winter break (≈ Dec 14 – Jan 10, author-confirmed
+2026-10-31) and summer 2027.
+
+---
+
+## ▸ TOP PRIORITY — the Darity package (Ch 1 + Ch 5 + corrected Technical Appendix)
+
+Sandy Darity asked for the corrected TA plus any two chapters; the author chose **Ch 1 and Ch 5**.
+**Author status (2026-10-31):** the relationship is warm — emails have been exchanged and Darity
+knows about the author's accident, recovery, and nursing-school focus. **He is waiting on the
+revised Ch 1, Ch 5, and corrected Technical Appendix.** He has **hinted at a possible path to
+publish**, contingent on reading the sample chapters + TA ("to see if I can write"). His candor is
+the asset; the foreword/publisher question waits until he raises it himself.
+
+- **Agent queries (Wave 1): HELD for his read** (up to ~mid-February), then the route is chosen
+  (his introduction → university-press path; or comments-only → fire Wave 1 ± Pipeline B).
+- **Schedule:** TA + Ch 1 → early December (plan W6); **Ch 5 → Jan 4–5**.
+- The handoff's "five-months-silence / personal note" watch item is **RESOLVED** by the author's
+  answer: contact is active and he is aware of the circumstances; the next contact is the Dec send.
+
+| Piece | State (2026-10-31) | Still needs before it goes |
+|---|---|---|
+| **Technical Appendix** | v2.0.0 on main; calc engines re-ran clean 2026-10-25 (21/21, 24/24) | Apply 06-24 positioning findings (none in it yet); 3 reef §11.12 calls; §6.3/§6.2 loose ends; render check; changelog vs his 05-15 copy; list of his call-material for approval |
+| **Chapter 1** | Ready to ship since 06-11 (touched 06-17 by a mechanical fix) | Fact-check vs ledger + grammar polish + author final read |
+| **Chapter 5** | Working draft (06-09) + fills; **rebuild brief PROPOSED 2026-10-31** (`tools/workstream-handoffs/ch5-rebuild-brief_2026-10-31_v1.0.0.md`) awaiting author approval | Approve brief → 2 blind variants + current as candidate C → judge (incl. grounding test) → author picks (Dec) → hand redline → polish |
+
+---
+
+## Book — chapters (verified against git 2026-10-25, per the plan's table)
+
+Ch 1 ready; **Ch 2, 3, 4, 10 need only the author's redline**; **Ch 5–9 need a full rebuild first**
+(Ch 5 is urgent — the second Wave-1 sample; Ch 6–9 rebuild through spring, redline in summer).
+
+| Ch | Title | State on main | Still needs | Who |
+|---|---|---|---|---|
+| 1 | The Quiet Math | **Ready to ship** (redline applied 06-11; sample copied into proposal) | A quick reread at assembly | — |
+| 2 | The Miner | **Promoted 06-17** (redo B); positioning check cleared its Fraser use | Author **redline**: 2 enhancement candidates + 1 fold-out | Author |
+| 3 | The Waterman | **Promoted 06-11** (incl. priced reef section; 8 ADDED beats 06-17) | Author **redline** of the 8 beats + **3 calls** releasing the held TA §11.12 reef merge | Author |
+| 4 | The Existence Proof | **Promoted 06-16** (redo A) | Author **redline**: 10 enhancements + 3 candidates; place **Insertion M** (Zucman/Ndikumana-Boyce); this also unblocks the FA redraft | Author, then a session |
+| 5 | The Accountability Gap | Working draft + fills; **rebuild brief PROPOSED 2026-10-31** | Approve brief → rebuild (grounding test) → judge → pick (Dec) → redline → polish. **Wave-1 critical path.** | Session + author |
+| 6 | Three Ways of Counting | Old version (method on the retired three-estimator frame; L323 positioning fixed 06-18) | **Full rebuild** from the amended v3 brief (needs 06-24 positioning folded in); Insertions A/I/J; numbers settled | Session + author |
+| 7 | On Other Worlds | Old version (fails its gate) | **Full rebuild** from amended v3 brief; no insertions | Session + author |
+| 8 | What Things Actually Cost | Old version (fails its gate) | **Full rebuild** from amended v3 brief; Insertion K | Session + author |
+| 9 | Pricing Honestly | Old version (fails its gate) | **Full rebuild** from amended v3 brief; Insertions E/F/H | Session + author |
+| 10 | Common Bonds | **Promoted 06-17** (redo B) | Author **redline**: 4 enhancements + 1 candidate; Ch 9 Nozick cross-ref once Ch 9 rebuilt | Author |
+
+**Technical Appendix + back matter:** TA v2.0.0 on main, internally consistent, invariants HIGH=0,
+glyphs tofu-free; engines re-ran clean 2026-10-25. Back matter is generated
+(`tools/back-matter/build.py gen-all`). TA pre-Darity work is plan W4–W5 (see the Darity section).
 
 ---
 
 ## Portfolio — essays
 
-**2026-06-19 — FULLY DELEGATED:** every essay + op-ed now owns its own session (per `tools/workstream-handoffs/per-essay-session-kickoff_2026-06-19.md`; min-only drafting rule, updated TA + contribution matrix, A–M + H1–H5 findings, Ostrom corrected axis, per-venue register dials). Essay-side detail: refreshed `tools/workstream-handoffs/essay-drafting-dashboard_2026-06-15.md`. Author-gated: 3 promotions (Harper's/At. Ideas/At. main), **McDowell venue = The Guardian (decided)**, FA brief + Ch 4 redline.
+Lean pipeline: essays run the loop **once**; no second round without a trigger (rejection-with-
+feedback, a retired figure, or a venue change). The June per-essay session delegations are
+**SUPERSEDED** (one-session mode) — see below.
 
-| Unit | Venue | State | Verified | Next action |
-|---|---|---|---|---|
-| $100 Barrel | **American Prospect** | **SUBMITTED 2026-06-17** (via Submittable; "Success" confirmation) | 06-17 | Await decision (~3–6 wk; AP may not reply if declined). Cascade after PW reject 06-17. RWER tertiary (also left) |
-| Accountability Gap | ~~Boston Review~~ → Public Books | REJECTED 2026-06-03 → **cascading to Public Books**; cover letter in flight | 06-04 (PM) | Ratify PB cover letter → submit |
-| Existence Proof | Foreign Affairs | **Ch 4 PROMOTED 2026-06-16** (redo-A, PROMOTE-A-WITH-FOLDIN, mandatory fixes applied; flatness + best-of-B fold-ins deferred to author redline). The FA essay on main already carries false-claim fixes (06-11). **Full redraft UNBLOCKED** (fork option c). **WHOLE-CLOTH CONFIRMED 06-16** (essay session): essay spine = retired rent-capture framing (L62 "captured 70-80%... That is the existence proof"); Ch4 relocates the proof to irreversibility-reduction/buys-back-optionality; §III must be re-derived. Gap list + sequencing at `publishing/essays/foreign-affairs-existence-proof/rigor/ch4-promotion-redraft-check_2026-06-16.md`. | 06-16 (essay session) | Matrix Ch4 note#1 RESOLVED 06-17 + FA redraft-brief_2026-06-16.md WRITTEN (PROPOSED). Sequence: author ratify brief → Ch4 final redline (esp. F-A6) → fire Stage-2 (window Nov-Feb). HOLD: gated on brief ratification |
-| Commons Bonds | Noema | V-D-prime on main (RATIFIED-AWAITING-SUBMIT 05-24); **path-c REDRAFT DELEGATED** to Noema session 06-19 (confident-structural dial; FMLA-correction constraint + Ostrom axis; floor ~2,500 NO max) | 06-19 (essay session) | Session: draft path-c (min-only) + judge vs on-main; true FMLA paragraph + drift anchors (Pou/Pooh, hunting, cussing-at-self) MUST survive |
-| Mask of Abundance | Aeon | V-E on main; **portal-watch** (maintenance page seen 06-03); Jul 1–5 fallback | 06-04 (PM) | Submit on portal open |
-| Pricing Honestly | Atlantic Ideas | RATIFIED-AWAITING-SUBMIT (Amendment-D weighting 06-01); **redraft judge 06-15: PROMOTE-A-WITH-FOLDIN (PROPOSED)** | 06-15 (essay session) | Author ratify redraft-A promotion + 4 fold-ins → submit on author cadence |
-| What the Bay Knows | The Atlantic (features) | RATIFIED-AWAITING-SUBMIT; V-D hybrid on main 06-01; **redraft judge 06-15: PROMOTE-A-WITH-FOLDIN (PROPOSED)** | 06-15 (essay session) | Author ratify redraft-A promotion + fold-ins (+ em-dash-scrub confirm) → submit |
-| Architecture and Its Residue | NYRB | RATIFIED-AWAITING-SUBMIT (on main); B-redraft drafted, A owed; **Rentier Capitalism 2020 carry drafted**; **DELEGATED** to NYRB session 06-19 | 06-19 (essay session) | Session: draft variant A + judge; apply carry at promotion. Window Oct 8–Nov 15 |
-| What McDowell County Paid | Harper's | V-D hybrid on main 06-01; author-substrate items pending; **redraft judge 06-15: PROMOTE-A-WITH-FOLDIN (PROPOSED)** | 06-15 (essay session) | Author ratify redraft-A promotion + 6 fold-ins → Q4 2026 window |
-| Berggruen Prize 2026 | Berggruen | Placeholder; offline AI-free drafting | 06-04 (PM) | Deadline 2026-08-17 |
+| Unit | Venue | State (2026-10-31) | Next action |
+|---|---|---|---|
+| $100 Barrel | American Prospect | **SUBMITTED 2026-06-17** (Submittable); **no reply as of 2026-10-31 → presumed pass** (author checked) | Cascade closed unless pursued (RWER was the noted tertiary). Low priority. |
+| Architecture and Its Residue | **NYRB** | RATIFIED-AWAITING-SUBMIT on main (`publishing/essays/nyrb-multi-book-review/essay.md`, ~8,300w; cover letter ratified); carries the *Rentier Capitalism* H4 carry | **W2 SUBMIT — window closes Sun Nov 15.** Session preps the submit package (confirm NYRB's current method). |
+| What McDowell County Paid | Harper's | V-D on main; June redraft-A promotion **SUPERSEDED** (no 2nd round w/o trigger) | **W3 submit the V-D version as-is** (~20 min). |
+| Commons Bonds | Noema | V-D-prime on main (RATIFIED-AWAITING-SUBMIT); June path-c redraft delegation **SUPERSEDED** | Submit over winter break (plan Window 2 Week D). |
+| Mask of Abundance | Aeon | V-E on main; portal-watch (aeon.co unreachable from this environment) | Author: one check of the pitch-guidelines page + set a stop date (Dec 31 suggested). |
+| Pricing Honestly | Atlantic Ideas | On main; coal **$4.71** fix applied 2026-10-29 | Cover letter still says "$520–600" honest cost vs ledger floor **$510** (author OK open). May yield the Ideas slot to the data-center pitch (winter decision; Foreign Policy is the listed fallback). |
+| What the Bay Knows | The Atlantic (features) | RATIFIED-AWAITING-SUBMIT (V-D hybrid on main) | Spring: decide when to send (after the Ideas pitch has an answer, so the Atlantic isn't sent two things at once). |
+| Existence Proof | Foreign Affairs | Ch 4 promoted 06-16; FA whole-cloth redraft **HELD** on brief ratification + Ch 4 redline | Summer 2027 (window Nov 2027–Feb 2028): ratify brief → Ch 4 redline → draft. |
+| Accountability Gap | Public Books | Cascading from BR reject (06-03); cover letter in flight (06-04) — **stale, verify at next essay slot** | Low priority; ratify PB cover letter → submit if pursued. |
+| Berggruen Prize 2026 | Berggruen | **NOT submitted; 2026 window closed** (deadline Aug 17, during the pause; author confirmed 2026-10-31) | Berggruen **2027** scheduled for summer (verify deadline; drafting must be AI-free + offline) if the prize runs. |
+
+---
 
 ## Portfolio — op-eds + proposal + agents
 
-| Unit | State | Verified | Next action |
-|---|---|---|---|
-| Norway op-ed (FT/Bloomberg/PS) | V-D′ on main; A-trim + B drafts banked 06-15 (band-era — REDO min-only); **DELEGATED** to Norway session 06-19 | 06-19 (essay session) | Session: draft B min-only + judge (α-reduction); news-peg activation author's |
-| McDowell op-ed (**→ The Guardian**) | **op-ed.md PROMOTED 06-19** to the Guardian-redline working canonical (min-450 blind draft + author-flagged edits + tightenings; body 1,263w; canon figures $4.71/2.61/$496/$510; zero dashes); V-D HYBRID (stale figures + stale venue framing) archived. Venue cascade Guardian→NYT→PS→Bloomberg→WaPo (author 06-19; WaPo deprioritized on editorial-fit). 3 sibling blind drafts (min300/450/600) + annotated REDLINE in rigor/ | 06-19 (McDowell session) | **Author redline + band-trim to ~1,000–1,100w on main** (2 micro-calls open) → news-peg activation → submit (author-gated) |
-| **Book proposal** | 00_overview **RATIFIED 06-09** (Stage 5); §00 + §05 recascaded to TA closeout figures 06-10; routed 67–134× residual RESOLVED (→ ≈61–115× per provenance Item 3) + stale BR "editor-review" platform claim fixed (BR REJECTED 06-03 → PW + ratified-queue framing) 06-10; Candidate 8 (rent-capture) logged + routed to action-list A6b + dashboard decision #10; **06-11 update session:** §00 line-65 invented-tolerance REMOVED (item-G ruling applied, merged) + §03 platform tables refreshed (PW soft clip; Darity conducted/pending) + proposal-master samples corrected to Ch 1 + Ch 5 — merged; **second recascade RATIFIED + MERGED 06-11** (Decisions 1/1R/2–4 + Ask B all author-ratified this session): Ch 2 + Ch 3 promotion-aligned summary blocks (Ch 3 reef/Restitution-Bond); §00 + §05 Ch 6 on the unified cross-check architecture (two needed-side estimators read against the realized bond; no convergence celebration); Norway re-anchored NOK 21,268B end-2025 / >$2T USD gloss + standing FX re-stamp step (Stage-5 gate 3 closed); Ch 5 first-naming fix; Ch 4 irreversibility clause; **+ §00 orthodoxy-positioning paragraph RATIFIED 06-11** (contribution-matrix-aligned: Pigou/Coase silence-priced + Ostrom extraction-commons boundary + Hotelling Identity bridge; author-redlined; bicycle case stays out of the pitch per gap-list §D); gap list at `tools/workstream-handoffs/book-proposal-tier1-gaps_2026-06-11.md`. **06-24: §00 fork RESOLVED — author ratified the airlock-first hook; v3 synthesis PROMOTED to canonical `00_overview.md` + MERGED** (scaffolding stripped, liter/Favorite fixed, coal-first fork preserved as comment, Darity placeholder held, gate HIGH=0). Query letter + pre-pub review queue RATIFIED + merged 06-11. Editor research done (UNC→Kinney, Duke→Wissoker/Berger, HUP→Tovbis). | 06-24 (this session) | **§00 author VOICE REDLINE** (final stage, as for samples) + open decisions (AI-disclosure placement; §02 comps refresh; Ch7/9 no-overclaim confirm) → **Ch 5 author redline + sample** (last manuscript long pole) → assembly. Wave-1 window OPEN (Jun 24–Jul 1) |
-| Agent pipeline (Wave 1) | Scaffolded, **0 queries sent**; targets list at `publishing/agents/_pipeline/targets.md` | 06-04 (PM) | Fires ~Jun 24 – Jul 1 after proposal + Ch 1/5 |
-
-## Book
-
-**▸ Positioning VERIFIED 2026-06-24** — the Ostrom + meta-claims #1/#2 adversarial verification is COMPLETE; the corrected, reviewer-proof positioning + required framings + cite-and-distinguish list (TEEB/TCA, Costanza & Perrings 1990, NRDA) live at [`tools/workstream-handoffs/verified-positioning-findings_2026-06-24.md`](tools/workstream-handoffs/verified-positioning-findings_2026-06-24.md). **Supersedes the pre-verdict Ostrom propagation `694e2eba`.** Any session touching positioning (book rebuild briefs, TA §14.5/§00 mirror, essays) should rebase + apply it. Ch2 redline-prep + Ch5 whole-cloth rebuild sessions spawned 2026-06-24.
-
-| Unit | State | Verified | Next action |
-|---|---|---|---|
-| Chapters (10) | Content-complete. **Ch 2 + Ch 3 PROMOTED 2026-06-11** (author-ratified assemblies; Ch 3 carries the priced Restitution-Bond reef section — **GATE 2 OPEN**; Ch 2 RATIFY calls resolved: $5.1B debt, Purdue names kept, Pigou named; old canonicals → archive/_REGRESSED_2026-06-11). Ch 1 Movement-4 button moved after the ceiling (author-ratified); Ch 1 redline application green-lit. Earlier promotions: Ch 1 + Ch 2 (06-05), Ch 5 (06-09). **TA-collision audit DONE 06-10** (`wf_892a3672-269`; dashboard 2026-06-10 §8): Ch 1 CLEAN · Ch 2 SPOT-FIX (Gary year, $44B dating, Ch3-handoff condition) · Ch 5 light TARGETED (closing section vs merged bidirectional §5.5; cite "mis-assigned, not absent") · Ch 3 draft-v2 SPOT-FIX (**GATE-2 reef section already present**; $211M/$115M roundings; O'Connor spelling) · Ch 4 TARGETED (Norway rent-capture → α-reduction re-derivation, 5/10 sections) · **Ch 6 WHOLE-CLOTH** (only one — method spine = retired three-estimator convergence; rebuilt brief needed) · Ch 7 + Ch 8 light TARGETED · Ch 9 SPOT-FIX (3 sentences) · Ch 10 audited 06-11: **CLEAN** (audit map complete Ch 1–10); Ch 10 item-G invented-tolerance spot-fix **RATIFIED + MERGED 06-11** (hold cleared on author ratification; handoff archived at `tools/workstream-handoffs/archive/ch10-tolerance-spot-fix-ratification-ask_2026-06-10.md`; same tolerance still live in `_AUTHORSNOTE` line 13 + book-proposal `00_overview.md` line 65, flagged to owning sessions — task chip surfaced). **Fable bake-off Ch 1–3 COMPLETE 06-10** (compare artifacts in research/story-drafts/): Ch 1 KEEP-CANONICAL (apply pending 06-05 redline instead — captures ~90% of variant freshness; + Movement-4 button placement decision) · Ch 2 PROMOTE-A-WITH-FOLDIN (8 fold-ins incl. staccato restores + semicolon sweep; retires 5 redline-precision items) · Ch 3 PROMOTE-B-WITH-FOLDIN (recommended assembly: B chassis + 4 A-only brief beats + v2 reef section recalibrated ~$211M/~$115M + NAME the Restitution Bond → closes SG-1 + opens reef GATE 2; v2 carries the falsified boardwalk beat — do not promote v2 whole). All 6 Fable drafts passed the no-invented-facts gate. Coverage audits vs briefs + BookLevelGuidance done: Moore thesis-anchor quote missing in ALL Ch 3 texts; Ch 2 Pigou/externality inoculation missing everywhere (pre-existing). Numeric sweep UNBLOCKED. **Ch 1 READY-TO-SHIP 2026-06-11** (author redline `0fca446` + mechanical pass + prose ratifications + percentile-register w/ endnote citation-pin; final review verdict: ready; sample copied comment-free to `publishing/book-proposal/06_sample-chapters/`) | 06-11 (Ch 1; rest 06-10 PM) | Ch 3 fix+promote (opens reef GATE 2) → Ch 6 rebuilt brief → targeted/spot fixes → compare+promote → Ch 1 + Ch 5 Wave-1 samples. **2026-06-17: matrix-findings chapter+TA update assignment WRITTEN (PROPOSED)** — per-chapter (Ch1–10) + TA works-to-engage + over-claim truth-fixes, MUST-NOW vs BOOK-2/3 triage, at `tools/workstream-handoffs/matrix-findings-chapter-TA-update-handoff_2026-06-19.md` (source: `tools/audits/matrix-independent-verification_2026-06-17.md`). MUST-NOW: Broome→Ch6, Fanning-Hickel/CARICOM/L&D→Ch5+TA§5.5 (credit-only, no figure), Nozick/Lockean→Ch9, Harvey→Ch3-reef attribution pull-up, Gardiner→Ch9/10, (b)/(d) truth-fixes. **GATES theorem-wording on the (a) B<RCV/Hotelling tautology TA-verification (HELD; TaskList #13).** **2026-06-18: H1–H5 engagement-scoping plan WRITTEN (PROPOSED)** at `tools/audits/matrix-h1-h5-engagement-scoping_2026-06-18.md` — per-finding home/relation/one-paragraph engagement + §2 13-works crosswalk + coercion sweep, for one-at-a-time author ratification. Re-grep vs `main` 06-18 corrected the audit/handoff snapshot: **Harvey→Ch3-reef LANDED** (Ch3:247, ADDED 06-17, verify-at-redline) · **Ch8 already names SCC/Rennert** (Ch8:74) → H5 narrows to Costanza/Hotelling · Christophers rentier concept foreshadowed Ch5:175 (06-16) but Pistor-four-attributes + *Rentier Capitalism* 2020 still 0 (H4 open) · H1/H2/H3 confirmed genuinely 0 corpus-wide. Recommended ratification order: H2a-Broome → H1 → H2b-Nozick → H2c-Gardiner → H4 → H3 → H5. **H2a-Broome + H1 RATIFIED 06-18** (H2a as scoped: Ch6 co-grounding + §3(e) Ch5 re-assignment; H1 as scoped: Ch5 backward-lineage paragraph + TA §5.5 entry crediting Fanning-Hickel/CARICOM/L&D, concede-first macro-vs-micro distinction, credit-only no figure). Drafted prose at `tools/workstream-handoffs/matrix-h1-h5-ratified-insertions-handoff_2026-06-18.md`, **routed to the dedicated essay & op-ed drafting session** (author 06-18) to fold into the new book-drafting dashboard+plan session it is spawning, alongside the full matrix-findings chapter/TA assignment. **H2b-Nozick RATIFIED 06-18** (full turns-against-itself: Ch9 rights-flank paragraph after L164, win via Lockean proviso; verification refined the asymmetry — book already engages efficiency (Ch9) + statism (Ch10), Nozick fills the deontological-rights gap). **H2c-Gardiner RATIFIED 06-18** (engage-as-threat → precommitment device, Ch9 primary after L276, Norway as empirical counter). **H4 RATIFIED 06-18** (both strengthen-moves: Ch5:172 name Pistor's four attributes + show bond lacks convertibility/transferability; Ch9:168 name *Rentier Capitalism* 2020 + same rebuttal; BOOK-2/3 for chapters, *Rentier Capitalism* = NYRB-essay MUST). **H3 RATIFIED 06-18** (Solow weak-vs-strong-sustainability surface at Ch6:157 [Solow already in TA]; Dasgupta-2021 now only a citation finish on the L323-merged sentence + bib entry, closes T8 — re-verify caught the L323 fix already made the macro-vs-micro distinction). **H5 RATIFIED 06-18** (Ch8:78 Hotelling scarcity-rent at option-value + Ch8:80 Costanza ecosystem-services [lightest, redline-optional]; Ch4:105 Zucman + Ndikumana/Boyce at the measured Nigeria leakage [audit's L83-97 cite was stale → real home L103-105]; Ch3 Harvey/Mazzucato beats = verify-at-redline, already landed). **QUEUE COMPLETE: all H1–H5 ratified one-at-a-time + drafted as insertions A–M in the ratified-insertions handoff, routed to the essay & op-ed session for the new book-drafting dashboard+plan to place + author to redline.** (b) "neither addressed" over-claim **✅ RESOLVED + MERGED 06-18** (Ch6 L323 narrowed + strengthened + Ostrom clause re-axised; commits `f1fd6801` + `5cd59a12` + Ostrom-re-axis 06-18 on `origin/main`): false breadth retracted, defensible instrument-form-and-level claim landed on correct axes (reserve-against-full-RCV vs single time-of-damage externality / Pigou; **power/incentive asymmetry — value-capturer vs cost-bearer who are not coequal shared-stakeholders, absent OR present-but-dominated; aligned w/ Ch6 L281; "permanent foreclosure" removed as scope-over-narrowing per author 06-18 (framework prices the full spectrum incl. CS≈0 sustainable harvest)** / Ostrom; micro per-extraction-event bond vs macro savings-rule/inclusive-wealth / Hartwick+Dasgupta named); models proposal §00 L57; matrix-findings handoff (b) marked RESOLVED. Bibliography follow-up T8 (cheap-optional): confirm Dasgupta inclusive-wealth entry. |
-| **TA regression sweep (2026-06-11)** | this row | **SWEPT + HARDENED**: 5-lens full-TA scan, 38 agents, 33 raw → 25 adversarially-confirmed findings; 21 mechanical fixes APPLIED (retired terms: CSG, ARP×2, tiers×2, Political-Capture-Cost caps, dimensions-stragglers×3; Norway fiscal-rule vintage; 5 meta-language leaks incl. 2 HIGH false in-book claims at §15.2 corrected to manuscript-true; 5 architecture contradictions vs the three-ways-identity reframe; + gate-caught DISOWNED 50–555× survivor retired). GATE HARDENED: +21 retired-vocabulary/figure patterns in regressed-patterns.yaml, TA brought under scan scope (HIGH=0 clean). ALL CLOSED 06-11: 4 redundancy consolidations RATIFIED+APPLIED (canonical homes: Four Gates → §7; CAI/CCI → §6.4; DAC bands → §3.3; case-roster single-site fix per skeptic analysis); §15.2.2 decisions resolved (scholarship → Ch 5 candidate beat; Ch 9 claim re-pointed to Ch 5). Findings: tools/audits/ta-regression-sweep_2026-06-11.md | 06-11 |
-| Technical Appendix | v2.0.0 closeout **merged to main `fd12275` 06-09**; internally consistent, invariants HIGH=0; render glyphs verified tofu-free 06-10; **convergence-sunset APPLIED + MERGED 06-11** (author-ratified, no-scaffolding amendment: §9 → "The Cross-Check Architecture" on the unified M-triple — DF/RO/RCV retired as the pre-rework apparatus; §9.5 recomputed per-case table w/ realized-bond column (engine `sec9_recompute_2026-06-11.py` 24/24); Obs 10.2 → "Cross-Lens Consistency"; §9.6 = M2 reading; §11.2/§11.3 relabeled honest-basis; +6 gate patterns; decision record = `convergence-scope-correction_2026-06-11_PROPOSED.md` §7 RATIFIED+APPLIED) | 06-11 (book-proposal-tier1 session) | Stage-4 PDF render audit before external circulation |
-| Back matter (bib/glossary/notation) | Generated clean set **MERGED to main 06-10** (author ratified); regenerate via `tools/back-matter/build.py gen-all` | 06-10 (this session) | In-TA Notation section + Part 7 completeness → technical-review window |
-| Bibliography master | Single source of truth (TA §18 folded in, 06-09); 41 orphan candidates flagged for prune review | 06-10 (this session) | Optional prune pass |
-
-## PAUSED — token-conservation hold (author directive 2026-06-11; resume on Wave-1-out OR weekly token reset)
-
-| Paused item | Resume command / state |
-|---|---|
-| Essay redraft fleet (6 pieces + PB fix) | `Workflow({scriptPath: ".../essay-redraft-fleet-wf_64743ae8-516.js", resumeFromRunId: "wf_64743ae8-516"})` — landed pre-pause: 6 amended briefs, atlantic-ideas A+B, atlantic-main A+B, harpers A drafts; missing: harpers B, nyrb A/B, both op-eds A/B, 3 judges, PB fix-apply |
-| Noema redraft (path c ratified) | `Workflow({scriptPath: ".../noema-redraft-wf_9faefe26-a6c.js", resumeFromRunId: "wf_9faefe26-a6c"})` — nothing landed (brief+drafts all hit limit) |
-| Ch 4/6/7/8/9 redo promotions | All five compares PROPOSED on disk (verdicts: Ch4 A+foldin · Ch6 B+foldin · Ch7 B+foldin (A disqualified incomplete) · Ch8 A+foldin · Ch9 A+foldin; every canonical FAILS its gate) — author ratification queue, NOT Wave-1-blocking. **Ch 6 rebuild prerequisite READY 06-11:** unified-triple sunset ratified + §9.5 cross-check numbers settled (engine-verified 24/24); durable handoff at `tools/workstream-handoffs/ch6-rebuild-settled-numbers-handoff_2026-06-11.md` (author: Ch 6 work resumes post-Wave-1 or token reset) |
-| FA redraft brief | Fires on Ch 4 promotion (fork option c ratified) |
-| Reef §11.12 merge | Branch `claude/ta-reef-migration-260611-ae0141` (63e72f7) one-click mergeable; MERGE-HOLD = 3 author calls (Wilberg/Woods bib; §10.2 census; Thm 10.1b note) |
-
-**ACTIVE (Wave-1 critical path only):** Ch 1 + Ch 5 wrap-up (see dashboard) + book-proposal update session (spawned 06-11).
-
-## Active workstreams (sessions/worktrees)
-
-| Workstream | Owner branch | State | Verified |
-|---|---|---|---|
-| Redraft-compare campaign | `claude/redraft-campaign-resume-260606-f8216d` | **SUPERSEDED-CLOSED 06-10** (author: chapters get whole-cloth redo). Working state archived to `manuscript/archive/redraft-campaign-2026-06/`; fact-ground ledgers relocated to `manuscript/ledgers/`; stray newer ch6-blind-brief rescued from its worktree (33–122× retirement preserved + integral lens updated to 61–115×); worktree prunable (branch never pushed) | 06-10 |
-| Book-proposal sprint | `claude/book-proposal-sprint-260603-e402b7` | LIVE — owns `publishing/book-proposal/` | 06-09 |
-| **Structural-debt closeout** | `claude/structural-debt-closeout-260610-3c7eaa` | **EXECUTED + MERGED 06-10** (author: "knock all of that out"): TA → `manuscript/technical-appendix/` (render-audit gate cleared; smoke-tested); sources → `tools/back-matter/sources/` (bibliography/terms/glossary); methodology → `alignment/`; **`core/` RETIRED** (six top-level dirs); in-TA §0 Notation (61 symbols, generated) + Part 7 complete; §10 integrals typeset; Abundance-Dimension disposition closed (⚠ TA §6.2 'Seven Abundance Dimensions' vocabulary flag → next TA prose pass); ~45 dead worktrees pruned (16 remain). STILL OPEN by design: dir status tags (author-deferred past Wave 1), bib orphan-prune (post-campaign), §6.3 ~$1,025–1,065 level (next provenance item), proposal 67–134× (routed to sprint), §23.3 source-format normalization | 06-10 |
-| Back-matter + repo reorg | `claude/refactor-bib-consolidation-260609-23c283` | **CLOSED — ratified + MERGED to main 06-10** (navigation spine + archive sweep + back-matter set) | 06-10 |
-| **Framework-core revision** | `claude/ta-reverse-csd-260610-4fc8d1` | **MERGED to main 06-10 (author ratification + push authorization).** Architecture "three ways count the identity" applied (§3.4 M2=realized-Bond reader + §3.6 logic/table recompute + §15.1.3) + correctness pass (Himmelstein cite, §17 case-census, Def 1.7/§5.1 posted-vs-owed typing, §3.3 per-unit M1, §9 softening + Model renames, theorem-heading markup, V_option residues, +12 more) + ratified §3.4 hedonic/VSL note (Rosen 1974 + Viscusi 1993 → TA §18 + master §25) + calc engine `manuscript/technical-appendix/calculations/` (21/21 reproductions; reef + reparations-test + 11-case bidirectional portfolio PASS). `gen-all` re-run ✓ (bib 281; ISS parking refiled §23.2 out of reader bib). Symbol registry: SYNCED 2026-06-10 (ws2-registry-sync) — B̂_M2 row enriched (strict lower bound, NOT an estimator; hat = reading-of, author kept over alternatives), CSD_M3 (§5.5) + ∩ (§3.6) added; section sweep §3.3/3.4/3.6/5.5/15.1.3/17.7 found no other gaps; gen-all clean (41 symbols); ς render-covered. §5.5 reverse-method prose + §17.7 generativity RATIFIED+APPLIED 06-10; coercion authorial note DECLINED-CLOSED. Leftover handoffs: 3 of 4 CLOSED 06-10 — WS2 registry rows (merged 18a3503), Stage-4 markup sweep (ratified+merged dc83644), Libby/Baotou/RCV-integral provenance (RATIFIED+APPLIED 471f19a; see tools/audits/ta-provenance-libby-baotou-integral_2026-06-10_RATIFIED-APPLIED.md; residuals: §6.3 ~$1,025–1,065/ton level undocumented → next provenance item; §10 LaTeX-ish integral forms queued; book-proposal 05_chapter-summaries 67–134× → ROUTED to the live proposal sprint, **RESOLVED 06-10** (≈61–115×)). Remaining: §11.12 reef [GATE-2] only — ROUTED to the book-completion plan/dashboard session (author direction 06-10): wire the trigger 'Ch3 restitution section RATIFIED → launch reverse-csd-leftovers PASTE-TEXT 1'; the Ch3 whole-cloth redraft brief should include the restitution-section pricing (using the merged backward apparatus: CSD_M3 + realized-B₁ reading) as a named deliverable, making the redraft itself the GATE-2 key; close with a Ch3 ↔ §11.12 consistency check. Reverse-CSD method itself: COMPLETE in TA prose. | 06-10 (this merge) |
-| PM session | `claude/pm-book-completion-260610-07b75f` | Standing meta-tracker (dashboard 06-10 **v2** = detail layer; Fable bake-off Ch 1–3 + prose-findings verification workflows in flight) | 06-10 |
-| **Ch 3 Tangier erosion figure** | `claude/ch3-tangier-erosion-figure-260611-8e148c` | **RATIFIED + APPLIED + MERGED 06-11 — final: Option A** (author ratified B, then redirected same day: plain paper figure, no qualified shock-rhetoric — register principle memorialized at `tools/memory/feedback_plain_figure_register_over_qualified_shock.md`). Primary source verified (Schulte et al. 2015 via PMC full text): ~1.7 ft/yr avg Tangier proper / 66.75% lost since 1850 / ~1.2 sq mi remaining; NO 15 ft/yr in the paper (= USACE-via-press exposed-shore max). Ch 3:169 now "nearly two feet a year on the long-term average" + "a bit over a square mile"; :262 litany numeral-free; press 15-ft figure dropped entirely; ledger clarified; cascade (3.1 + 3.2 + 1c-light) clean. Artifact: `tools/rigor-passes/commons_bonds_ch3_tangier_erosion_figure_correction_2026-06-11_RATIFIED-APPLIED.md`. **⚠ Atlantic redraft candidates A+B carry the B-style dual-figure construction for the same passage — author's register call should inform that ratification** | 06-11 (this session) |
-| TA sessions (closeout cluster) | `ta-*` worktrees | **DONE — merged via closeout `fd12275`**; worktrees prunable | 06-09 |
-| ~30 essay-review worktrees dated 06-01 | various | Presumed closed (branches behind main) — PM verify + prune | 06-10 (listed) |
+| Unit | State (2026-10-31) | Next action |
+|---|---|---|
+| Norway op-ed (FT/Bloomberg/PS) | V-D′ on main; June delegation **SUPERSEDED** | News-peg activation is the author's call; otherwise hold. |
+| McDowell op-ed (**→ The Guardian**) | op-ed.md promoted 06-19 (body ~1,263w; canon figures $4.71/2.61/$496/$510; zero dashes); venue cascade Guardian→NYT→PS→Bloomberg→WaPo | Author redline + band-trim to ~1,000–1,100w (2 micro-calls open) → news-peg → submit (author-gated). |
+| **Data-center** op-ed (Virginia) + Atlantic Ideas pitch | Drafts + lead-level fact base in `research/story-drafts/datacenter/` (PROPOSED 2026-10) | **NOT submittable:** [V1]–[V10] figures unverified (network blocked every source page). README has the checklist + author decisions. **Winter break;** op-ed pegged to the January General Assembly session. |
+| **Book proposal** | §00 overview RATIFIED + merged 06-24; query letter + pre-pub review queue ratified; editor research done (UNC→Kinney, Duke→Wissoker/Berger, HUP→Tovbis) | **Winter break (Window 2 Week C):** author voice redline of §00 + open decisions (AI-disclosure placement; §02 comps refresh; Ch 7/9 no-overclaim; airlock-vs-coal-first); bio → nursing program; assembly (NOK→USD re-stamp, PDF render, Darity attribution placeholder). |
+| Agent pipeline (Wave 1) | Scaffolded, **0 queries sent**; targets at `publishing/agents/_pipeline/targets.md` | **HELD for Darity's read** (up to ~mid-Feb), then route chosen. Proposal finished over break regardless (a press needs it too). |
 
 ---
-*Created 2026-06-10 (repo-reorg session), seeded from the 2026-06-04 PM dashboard + per-file
-verification noted per row. Rows marked "(PM)" inherit the dashboard's 06-04 verification.*
+
+## SUPERSEDED — do not resume (one-session mode + the plan)
+
+These June artifacts are retired by the plan and the CURRENT OPERATING MODE banner. Do not resume them.
+
+- Essay redraft fleet **`wf_64743ae8-516`**; Noema redraft **`wf_9faefe26-a6c`** (paused workflows).
+- The per-essay session delegations (2026-06-19) and the "FULLY DELEGATED" essay posture.
+- The 06-18/06-19 Ch 6–9 rebuild / book-drafting dashboard delegation.
+- The 2026-06-11 token-conservation PAUSED hold — its live items are folded into the plan's windows
+  (Ch 6 rebuild prerequisites remain valid as inputs to the spring rebuilds).
+
+Chapter rebuilds (Ch 5–9) run **one session at a time** under the plan, not as a fleet.
+
+---
+
+## Author status answers captured (W1, 2026-10-31)
+
+1. **American Prospect / $100 Barrel:** no reply on Submittable → treat as a pass.
+2. **Berggruen Prize 2026:** not submitted; the 2026 window closed during the pause → skip to 2027.
+3. **Darity:** in active email contact; he knows about the accident and the recovery/school focus;
+   he is awaiting the revised Ch 1 + Ch 5 + corrected TA; he has hinted at a possible publishing path
+   contingent on seeing the samples + TA. (Agent queries held for his read.)
+4. **VPCC winter break:** ≈ Dec 14 – Jan 10 (the plan's assumption holds).
+
+---
+*Reconciled 2026-10-31 (Fall-plan W1 item 2) from the work plan v1.0.7 + the 2026-10-31 handoff +
+the author's W1 answers. Next PM reconciliation: at the next status change, per the discipline above.*
