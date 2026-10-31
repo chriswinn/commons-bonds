@@ -36,7 +36,7 @@ the asset; the foreword/publisher question waits until he raises it himself.
 |---|---|---|
 | **Technical Appendix** | v2.0.0 on main; calc engines re-ran clean 2026-10-25 (21/21, 24/24) | Apply 06-24 positioning findings (none in it yet); 3 reef §11.12 calls; §6.3/§6.2 loose ends; render check; changelog vs his 05-15 copy; list of his call-material for approval |
 | **Chapter 1** | Ready to ship since 06-11 (touched 06-17 by a mechanical fix) | Fact-check vs ledger + grammar polish + author final read |
-| **Chapter 5** | Working draft (06-09) + fills; **rebuild brief PROPOSED 2026-10-31** (`tools/workstream-handoffs/ch5-rebuild-brief_2026-10-31_v1.0.0.md`) awaiting author approval | Approve brief → 2 blind variants + current as candidate C → judge (incl. grounding test) → author picks (Dec) → hand redline → polish |
+| **Chapter 5** | **Rebuild brief APPROVED 2026-10-31** (`tools/workstream-handoffs/ch5-rebuild-brief_2026-10-31_v1.0.0.md`): A/B/C variants, 1972 SS anchor, grounding = diagnostic, 2008 first-person substrate captured | Draft Variant A (scale-narrative, out-and-back) + Variant B (grounded-scatter) + current as C → judge → fact-check winner → author picks (Dec) → hand redline → polish. Drafting background, **starts next session** (SSA-gated for the SS rung) |
 
 ---
 
@@ -51,7 +51,7 @@ Ch 1 ready; **Ch 2, 3, 4, 10 need only the author's redline**; **Ch 5–9 need a
 | 2 | The Miner | **Promoted 06-17** (redo B); positioning check cleared its Fraser use | Author **redline**: 2 enhancement candidates + 1 fold-out | Author |
 | 3 | The Waterman | **Promoted 06-11** (incl. priced reef section; 8 ADDED beats 06-17) | Author **redline** of the 8 beats + **3 calls** releasing the held TA §11.12 reef merge | Author |
 | 4 | The Existence Proof | **Promoted 06-16** (redo A) | Author **redline**: 10 enhancements + 3 candidates; place **Insertion M** (Zucman/Ndikumana-Boyce); this also unblocks the FA redraft | Author, then a session |
-| 5 | The Accountability Gap | Working draft + fills; **rebuild brief PROPOSED 2026-10-31** | Approve brief → rebuild (grounding test) → judge → pick (Dec) → redline → polish. **Wave-1 critical path.** | Session + author |
+| 5 | The Accountability Gap | Working draft + fills; **rebuild brief APPROVED 2026-10-31** (A/B/C variants; 1972 SS anchor; grounding = diagnostic; 2008 first-person substrate captured) | Drafting (Variant A scale-narrative out-and-back + Variant B grounded-scatter + current as candidate C) is background work, **starts next session** (SSA-gated for the 1972 SS rung); judged recommendation before winter break; **author picks in Dec**. **Wave-1 critical path.** | Session + author |
 | 6 | Three Ways of Counting | Old version (method on the retired three-estimator frame; L323 positioning fixed 06-18) | **Full rebuild** from the amended v3 brief (needs 06-24 positioning folded in); Insertions A/I/J; numbers settled | Session + author |
 | 7 | On Other Worlds | Old version (fails its gate) | **Full rebuild** from amended v3 brief; no insertions | Session + author |
 | 8 | What Things Actually Cost | Old version (fails its gate) | **Full rebuild** from amended v3 brief; Insertion K | Session + author |
@@ -61,6 +61,27 @@ Ch 1 ready; **Ch 2, 3, 4, 10 need only the author's redline**; **Ch 5–9 need a
 **Technical Appendix + back matter:** TA v2.0.0 on main, internally consistent, invariants HIGH=0,
 glyphs tofu-free; engines re-ran clean 2026-10-25. Back matter is generated
 (`tools/back-matter/build.py gen-all`). TA pre-Darity work is plan W4–W5 (see the Darity section).
+
+**Redlined vs promoted — the distinction that matters:** "promoted" = a session's whole-cloth redraft
+landed on main; "redlined" = the author's hand pass applied. **Only Ch 1 has been author-redlined.**
+Ch 2/3/4/10 are promoted drafts **awaiting the author's redline**; Ch 5 is in rebuild (brief approved);
+Ch 6–9 are old versions needing a rebuild before any redline.
+
+### Book-wide consistency (the "change it everywhere, all at once" discipline)
+
+The lists that track book-wide drift and enforce one-change-everywhere:
+
+- **Canonical figure ledger** — [`manuscript/ledgers/_CANONICAL_FIGURE_LEDGER.md`](manuscript/ledgers/_CANONICAL_FIGURE_LEDGER.md).
+  THE single source of truth for shared figures; every chapter, the TA, and every essay/op-ed must match
+  it. It carries the per-figure **cascade-targets ("still needs editing") list**.
+- **Automated gates** — `tools/quality-gates/regressed-patterns.yaml` + `scaffolding-patterns.yaml`, run
+  by `tools/scripts/check-corpus-invariants.sh` on every commit (HIGH=0 blocks). **Every ratified ledger
+  amendment gets a gate pattern in the same commit** so a retired figure can never silently return
+  (e.g., the 2026-10 coal $4.71 fix + the 3b retired-figure gates).
+- **Verified positioning findings** — [`tools/workstream-handoffs/verified-positioning-findings_2026-06-24.md`](tools/workstream-handoffs/verified-positioning-findings_2026-06-24.md).
+  Book-wide positioning to apply across chapters/TA/essays as each is touched.
+- **Matrix insertions H1–H5 / A–M** — [`tools/workstream-handoffs/matrix-h1-h5-ratified-insertions-handoff_2026-06-18.md`](tools/workstream-handoffs/matrix-h1-h5-ratified-insertions-handoff_2026-06-18.md).
+  Ratified cross-chapter engagement additions, placed at each chapter's rebuild/redline (Ch 5 gets B/C/G).
 
 ---
 
