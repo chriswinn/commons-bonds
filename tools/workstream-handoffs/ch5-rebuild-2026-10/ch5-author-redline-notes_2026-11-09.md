@@ -65,7 +65,16 @@ Caution: "throughout human history" outruns the chapter's evidence (cases run 19
 
 - **Roadmap first is out.** The opening list "landed flat": a long, seemingly disconnected catalogue
   presented with no reason to keep reading and no understanding of what the reader was looking at, so
-  it didn't grab attention. General lesson for every chapter and essay: **don't open on an unmotivated
-  list or catalogue.** Give the reader a reason, meaning a scene or stakes, before any preview of where
-  the piece is going.
+  it didn't grab attention. **Corrected by the author the same day:** the list itself wasn't the problem.
+  An opening list works when it is **framed to raise a question** and **builds toward something
+  personal**; an unframed catalogue lands flat. Don't turn this into a ban on opening lists.
+- Author's example of a list that pulls the reader in:
+  > "Once you have noticed a pattern, you start seeing it everywhere it repeats. Imagine a pattern that
+  > shows up in places seemingly unrelated such as a Montana mining town, on an oil rig in the Gulf of
+  > Mexico, at a rare-earth plant in Inner Mongolia, in a retirement account, on a pay stub, in a
+  > hospital room with your loved ones sitting as an unannounced and uninvited guest."
+
+  Why it works: "seemingly unrelated" turns the list into a puzzle (what could connect these?);
+  "Imagine" invites the reader in; and the last item turns from places to the reader's own family,
+  with the pattern as an uninvited guest. Candidate opening material for whichever version wins.
 - Author is re-reading **Out and back** and **Earned roadmap** to decide which grabs attention most.
