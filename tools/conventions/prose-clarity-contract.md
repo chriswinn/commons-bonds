@@ -20,6 +20,8 @@ the detector + gate are the regression-proofing. Fixes therefore *stick*.
 | **Em-dashes per paragraph** | ≤1; each justified, not default punctuation | 3–4 | **≥5** |
 | **Sentence length (words)** | <35 | 46–60 | **>60** |
 | **Noun-pile compounds** (3+ hyphenated-word chains, e.g. `legacy-effects pricing pathway`) | none — define jargon in plain words | ≥3 in a paragraph | — (advisory) |
+| **Interrupted clause** (an insertion splits "that/which/who" from its clause, e.g. "a pattern that, once you have seen it, you…") | none | any | — |
+| **Comma-stacked sentence** (4+ commas in a sentence of 35+ words) | none — use parentheses, a colon, or split | any | — |
 
 Plus two non-mechanical principles (reviewer-checked, not gated):
 - **Plain-language register.** Prefer verbs over nominalizations — "X is disrupted," not "the disruption of X."
@@ -27,7 +29,12 @@ Plus two non-mechanical principles (reviewer-checked, not gated):
 
 Em-dashes are not banned — they do real work occasionally — but **≥3 in one
 paragraph is a reliable splicing signal, and ≥5 is always clutter** (the worst
-TA paragraph carried 11). Default to commas, colons, periods, or restructuring.
+TA paragraph carried 11). Default to colons, periods, parentheses, or restructuring.
+
+**Amended 2026-11-09 (author):** commas are **not** a drop-in replacement for em-dashes. A comma
+pair only works when the insertion lifts out cleanly and contains no commas of its own. The target
+is one-pass readability, not zero dashes; see the amendment in
+`tools/memory/feedback_em_dash_overuse.md`.
 
 ## The detector
 

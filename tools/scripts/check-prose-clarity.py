@@ -6,13 +6,18 @@ Flags the measurable tics that survive subjective "smooth it" passes:
   - em-dash density per paragraph   (overuse / clause-splicing)
   - over-long sentences             (clause-stacking)
   - noun-pile compounds             (3+ hyphenated-word chains; advisory)
+  - interrupted clauses             ("that, once you have seen it, you..." -- a clause split
+                                     at its joint by an insertion; added 2026-11-09)
+  - comma-stacked sentences         (>=4 commas in a sentence of >=35 words -- stacked
+                                     insertions/appositive lists; added 2026-11-09)
 
 Enforces the testable rules in tools/conventions/prose-clarity-contract.md.
 NOT a redrafter — it produces a ranked worklist and a regression gate.
 
 Severity (HIGH is the only gating tier; conservative by design -> ~0 false positives):
   HIGH    em-dashes >= 5 in a paragraph, OR any sentence > 60 words
-  MEDIUM  em-dashes 3-4, OR a sentence 46-60 words, OR >= 3 noun-piles
+  MEDIUM  em-dashes 3-4, OR a sentence 46-60 words, OR >= 3 noun-piles,
+          OR any interrupted clause, OR any comma-stacked sentence
   LOW     em-dashes == 2, OR >= 1 noun-pile
 
 Usage:
@@ -39,6 +44,10 @@ NOUNPILE_ALLOW = {
     "show-then-flinch", "lower-bound", "real-cost-of-value", "three-states",
 }
 NOUNPILE_RE = re.compile(r"\b[A-Za-z]+(?:-[A-Za-z]+){2,}\b")
+# One-pass readability (author rule 2026-11-09): a relative pronoun split from its own clause
+# by a comma insertion ("a pattern that, once you have seen it clearly, you cannot stop seeing").
+INTERRUPT_RE = re.compile(r"\b(?:that|which|who|whom|whose)\s*,\s", re.I)
+STACK_COMMAS, STACK_WORDS = 4, 35
 SENT_SPLIT = re.compile(r"(?<=[.!?])\s+(?=[A-Z(“\"])|\s+[-–]\s+")  # sentence-enders + inline dash-bullets
 
 
@@ -81,15 +90,18 @@ def analyze_paragraph(text):
     sents = SENT_SPLIT.split(text)
     max_sent = max((len(s.split()) for s in sents), default=0)
     npiles = [t for t in NOUNPILE_RE.findall(text) if t.lower() not in NOUNPILE_ALLOW]
+    interrupted = len(INTERRUPT_RE.findall(text))
+    stacked = sum(1 for s in sents if s.count(",") >= STACK_COMMAS and len(s.split()) >= STACK_WORDS)
     if em >= 5 or max_sent > SENT_HIGH:
         sev = "HIGH"
-    elif em >= 3 or max_sent > SENT_MED or len(npiles) >= 3:
+    elif em >= 3 or max_sent > SENT_MED or len(npiles) >= 3 or interrupted or stacked:
         sev = "MEDIUM"
     elif em == 2 or npiles:
         sev = "LOW"
     else:
         sev = "CLEAN"
-    return {"em": em, "max_sent": max_sent, "npiles": npiles, "sev": sev}
+    return {"em": em, "max_sent": max_sent, "npiles": npiles, "sev": sev,
+            "interrupted": interrupted, "stacked": stacked}
 
 
 def analyze_file(path):
@@ -187,7 +199,8 @@ def main():
             rows.sort(key=lambda r: (-order[r["sev"]], -r["em"], -r["max_sent"]))
             for r in (rows[:args.top] if args.top else rows):
                 print(f"  [{r['sev']:6}] L{r['line']:<5} em={r['em']} maxSent={r['max_sent']} "
-                      f"npile={len(r['npiles'])}  {r['snippet']}...")
+                      f"npile={len(r['npiles'])} intr={r['interrupted']} stack={r['stacked']}  "
+                      f"{r['snippet']}...")
         grand.extend(rows)
     g = {s: sum(1 for r in grand if r["sev"] == s) for s in ("HIGH", "MEDIUM", "LOW")}
     print(f"\nTOTAL  HIGH={g['HIGH']} MEDIUM={g['MEDIUM']} LOW={g['LOW']}  across {len(files)} file(s)")

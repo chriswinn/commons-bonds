@@ -1,6 +1,6 @@
 ---
 name: Em-dashes as Claude-prose crutch — calibrate critically when drafting + auditing
-description: Author flagged 2026-05-21 that em-dashes are becoming a Claude-prose crutch. Default toward smoother prose with commas, periods, or restructure; treat em-dash use as a flag requiring active justification rather than a default punctuation choice.
+description: Author flagged 2026-05-21 that em-dashes are a Claude-prose crutch. AMENDED 2026-11-09 by the author's redline — the goal is one-pass readability, not a dash count. Never swap a dash for commas that can't carry the structure; restructure instead. At most one dash pair per paragraph.
 type: feedback
 ---
 
@@ -28,3 +28,31 @@ This is broader feedback than the single sentence. It applies across all prose C
 
 **Empirical anchor:**
 - Ch 3 line 38 (2026-05-21 ratification): "Take some — leave the rest — let the rest spawn — come back next year." → "Take some, leave the rest to spawn, and come back next year." Pass 3.2 artifact had recommended PRESERVE-AS-IS based on Ch 1 F-V7 cadence-enactive precedent; author overrode toward smoother prose with em-dash removal. This is the canonical empirical example of the rule.
+
+---
+
+## AMENDED 2026-11-09 — the goal is one-pass readability, not a dash count (author)
+
+**What went wrong.** The original rule said: try a comma or period, and if that doesn't work,
+restructure. Drafting did the first half only. Em-dashes were swapped for commas even where commas
+can't show where an insertion starts and ends. By 2026-11 every chapter had zero em-dashes, and the
+Ch 5 rebuild drafts read badly. The author's anchor (redline of the Variant B printout, p. 1,
+2026-11-09): "There is a pattern that, once you have seen it clearly, you cannot stop seeing" breaks
+the reading thread, even though it is grammatical.
+
+**The rule now (supersedes "default toward commas"):**
+
+1. Every sentence must be readable in one pass.
+2. Never split a clause at its joint with an insertion: not between subject and verb, and not between
+   "that/which/who" and the rest of its clause. Put the insertion first or last, or give it its own
+   sentence. The author's model fix: "Once you have seen a pattern, you start noticing it everywhere."
+3. An insertion set off by commas must lift out cleanly and must not contain commas itself. A list
+   inside an insertion gets parentheses or a colon, or becomes its own sentence.
+4. Em-dashes are allowed when they are the clearest choice: at most one pair per paragraph, never
+   three close together (the gate still flags that). The crutch warning stands.
+5. Never fix a dash by swapping in commas. Restructure, and when in doubt, split the sentence.
+6. Prefer sentences under 35 words. Over 45 is a flag; over 60 is HIGH.
+
+**Checks.** `tools/scripts/check-prose-clarity.py` now flags interrupted clauses (`intr`) and
+comma-stacked sentences (`stack`: 4+ commas in a sentence of 35+ words). Run it on every draft
+before it reaches the author. Target: `intr=0`, no HIGH, and every remaining `stack` hit reviewed.
