@@ -1,4 +1,8 @@
-# Chapter 5 rebuild — round 2 (2026-11-09)
+# Chapter 5 rebuild — round 2 (2026-11-09) · SUPERSEDED
+
+> **Superseded the same day by round 3** (`../round-3_2026-11-09/`). Round 2 was drafted toward the
+> checker's sentence-length flags and came out clipped (14-word average); the author asked for a full
+> redraft with no length target. Its readability table wrongly treated short sentences as a gain.
 
 Three fresh versions, drafted after the author's redline of the round-1 printouts. They follow the
 round-2 amendment in `tools/workstream-handoffs/ch5-rebuild-brief_2026-10-31_v1.0.0.md` and the

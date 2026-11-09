@@ -52,3 +52,11 @@ whole society and down through its history." (2) "…everywhere. Especially one 
 entire society, generation after generation." (3) "Once you see a pattern, you start noticing it
 everywhere. This one really is everywhere." (Claude's lean: #3, which hands off to the first scene.)
 Caution: "throughout human history" outruns the chapter's evidence (cases run 1960s–now).
+
+## Later the same day (author)
+
+- **No sentence-length rule.** The 14-word round-2 average came from drafting toward the checker's
+  length flags, a length constraint the author never asked for (removed from the rule).
+- **No rhythm model.** Don't model sentence shape on Ch 1; it could itself be smoother. Aim for smooth,
+  one-pass-readable prose on its own terms.
+- **Round 3 is a full redraft** with each version's cases written fresh.

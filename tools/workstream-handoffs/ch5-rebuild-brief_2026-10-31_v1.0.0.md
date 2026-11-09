@@ -39,6 +39,14 @@
 > **Process:** the author reads all three (openings side by side first), redlines the one that stands
 > out, and gives a pick. Claude seals its own pick in a committed file before hearing the author's.
 > Files: `ch5-rebuild-2026-10/round-2_2026-11-09/`.
+>
+> **Round 3 (author, 2026-11-09).** Round 2 was drafted toward the prose-clarity checker's
+> sentence-length flags and came out clipped (14-word average). Round 3 is a **full redraft, not a
+> rhythm pass**, with **no length target in either direction** and **no rhythm model** (the author: don't
+> model on Ch 1, which could itself be smoother). The only hard rules: no clause split by an insertion,
+> and no insertion containing its own commas. **Each version's case-walk is written fresh** to fit its
+> structure; argument passages (the closing sections, the 2008 objections, the Social Security numbers)
+> stay shared so facts and comparison stay constant. Files: `ch5-rebuild-2026-10/round-3_2026-11-09/`.
 
 **Why this chapter, why now:** Chapter 5 is the second Wave-1 sample and one of Darity's two requested
 chapters (with Ch 1 and the corrected TA). It goes to him **Jan 4–5**. It is the most abstract ground
