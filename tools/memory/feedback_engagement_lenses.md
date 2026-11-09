@@ -37,8 +37,10 @@ flowing prose that compels them to keep reading once they have started," with go
 7. **Pull beats polish, so do both, separately.** Pull carries a reader over small rough spots, but
    polish cannot rescue a passage with no pull. Draft for pull; polish for grammar afterward.
 
-**A reader's test:** at the end of each paragraph, ask whether you want to know what comes next, and
-whether you know why. Where the answer is no, that's usually where the chunkiness is.
+**A reader's test:** at the end of each paragraph, ask whether you want to know what comes next.
+Where the answer is no, that's usually where the chunkiness is. (The author dropped a second half,
+"and do you know why," on 2026-11-09: it could push drafting toward explaining or signposting why
+the reader should keep reading, which is the announcing problem this file warns against.)
 
 ## Safeguard for the grammar and punctuation polish
 
