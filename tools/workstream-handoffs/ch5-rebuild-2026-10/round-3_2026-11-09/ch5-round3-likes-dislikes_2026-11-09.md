@@ -87,4 +87,8 @@ section. These are observations to weigh during drafting, not rules.
 
 ## Author's responses
 
-*(to be added)*
+- **Mailbox (2026-11-09):** "The mailbox is where you start paying" was clever but feels dated; the author
+  has paid every bill and received every pay stub online, paperless, for years. **Lesson for bridges:** the
+  object has to be in the reader's life now, or the bridge breaks and the line reads as a device. Out and
+  back has no paper-era props (checked). If the pull pass adds a bridge for Social Security, tie it to the
+  deduction from every paycheck, not to a paper stub or a statement in the mail.

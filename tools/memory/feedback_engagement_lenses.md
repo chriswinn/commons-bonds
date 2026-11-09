@@ -50,7 +50,9 @@ another only where it's earned, and a bridge where a distant cost needs bringing
   author's example: start at the villages near Baotou, then the phone in the reader's pocket. Including
   the writer ("in your pocket, and in mine") shares the implication rather than pointing at the
   reader, which fits the chapter's no-villain reading. Bridge only where the connection is real and
-  documented, and not in every case, or the bridge becomes the formula.
+  documented, and not in every case, or the bridge becomes the formula. Use objects that are in the reader's
+  life now: the phone in a pocket works, but a quarterly statement in the mailbox reads as dated to a
+  reader who has paid bills and received pay stubs online for years (author, 2026-11-09).
 - **The aim is less flat, not more vivid:** fix order and presence, never add color or invented detail.
 
 The book's own reason: the framework is about costs cut loose from the people who bear them, and
