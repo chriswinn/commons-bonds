@@ -1,4 +1,10 @@
-# Chapter 5 rebuild — 2026-10-31 session output (drafted + judged; author picks in December)
+# Chapter 5 rebuild — round 1 (2026-10-31) · SUPERSEDED
+
+> **Superseded 2026-11-09 by round 2:** see `round-2_2026-11-09/`. The author's redline of the round-1
+> printouts found the prose hard to follow and the "scatter" structure flat; round 2 redrafts all three
+> versions under the one-pass readability rule. Round-1 files below are kept for the record. Note two
+> round-1 errors corrected in round 2: "atonement" in the ARC framework, and the 1977 Social Security
+> claim (see the corrected item 6 in `ch5-ssa-1972-verification_2026-10-31.md`).
 
 **What this folder is.** The Fall-plan W1 Chapter 5 rebuild, fired inline in one session per the lean
 pipeline. The approved brief is `tools/workstream-handoffs/ch5-rebuild-brief_2026-10-31_v1.0.0.md`;

@@ -36,11 +36,16 @@ I did **not** spoof a browser user-agent to get around it (that was blocked as a
    ("double indexing" / "coupling") **over-adjusted** initial benefits, pushing replacement rates
    **above ~50%** against a congressional intent of roughly 40%. *(CRS "Social Security: The Notch
    Issue," RS22678; SSA notch files.)*
-6. **The 1977 correction fixed the formula but left the long-run shortfall largely unfunded.**
-   The 1977 amendments corrected the benefit-formula flaw (wage-indexing the initial benefit) — the
-   source of the "Notch" — **while, per the critical literature, leaving the long-run financing
-   deficits largely untouched and declining to impose the payroll taxes needed to fund the automatic
-   increases.** *(CRS RS22678; Cato; Concord Coalition.)*
+6. **CORRECTED 2026-11-09.** The original item 6 here ("the 1977 correction ... declining to impose
+   the payroll taxes needed") came from critics' characterizations (Cato, Concord Coalition) and is
+   **wrong as a statement of fact**. SSA's own history: the **1977 amendments raised taxes and scaled
+   back benefits** (SSB v70n3, "The Development of Social Security in America"). Economic conditions in
+   the late 1970s still exposed their near-term weakness, and by the early 1980s estimates had the
+   retirement (OASI) trust fund running out as early as **August 1983** (SSA, Greenspan Commission
+   report page). The **1983 amendments**, signed April 20, 1983, balanced further tax increases with
+   benefit reductions (CRS R47040, TE10083). Round-1 Variants A and B repeated the wrong version; the
+   round-2 drafts use this corrected sequence (1972 promise → 1977 taxes up, benefits trimmed → 1983
+   rescue), which shows the deferred bill coming due on later workers.
 
 ## NOT CONFIRMED — do NOT assert from memory
 
@@ -62,8 +67,8 @@ Render the SS severance on the **confirmed** facts only:
 - the 20% increase + automatic COLA enacted in an election year, **effective September 1972 with
   checks arriving the first week of October — a month before the November election**;
 - the **payroll-tax funding deferred past the election**;
-- the **over-indexing** flaw and the **1977 partial fix** (formula corrected, long-run shortfall
-  left largely unfunded);
+- the **over-indexing** flaw, the **1977 correction** (taxes raised, benefits trimmed) and the
+  **1983 rescue** (see corrected item 6);
 - the deterioration of the worker-to-retiree ratio as a **decades-visible demographic certainty**
   (the baby-boom cohort was, by 1972, a known and countable population whose retirement timing was
   arithmetic) — WITHOUT putting a specific "named the deficit window" claim in the 1972 Trustees'

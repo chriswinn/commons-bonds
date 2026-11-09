@@ -46,7 +46,19 @@ NOUNPILE_ALLOW = {
 NOUNPILE_RE = re.compile(r"\b[A-Za-z]+(?:-[A-Za-z]+){2,}\b")
 # One-pass readability (author rule 2026-11-09): a relative pronoun split from its own clause
 # by a comma insertion ("a pattern that, once you have seen it clearly, you cannot stop seeing").
-INTERRUPT_RE = re.compile(r"\b(?:that|which|who|whom|whose)\s*,\s", re.I)
+INTERRUPT_RE = re.compile(r"(\w+)\s+(?:that|which|who|whom|whose)\s*,\s", re.I)
+# "that" used as a pronoun after a preposition/verb ("After that, ...", "is that, ...") is not a
+# split relative clause; skip it so the check stays near-zero false positives.
+INTERRUPT_SKIP_PREV = {
+    "after", "before", "like", "with", "for", "of", "to", "in", "on", "by", "about", "beyond",
+    "despite", "besides", "than", "from", "into", "upon", "under", "over", "at", "and", "but",
+    "or", "not", "just", "even", "all", "is", "was", "are", "were", "be", "do", "did", "does",
+}
+
+
+def count_interrupted(text):
+    return sum(1 for m in INTERRUPT_RE.finditer(text)
+               if m.group(1).lower() not in INTERRUPT_SKIP_PREV)
 STACK_COMMAS, STACK_WORDS = 4, 35
 SENT_SPLIT = re.compile(r"(?<=[.!?])\s+(?=[A-Z(“\"])|\s+[-–]\s+")  # sentence-enders + inline dash-bullets
 
@@ -90,7 +102,7 @@ def analyze_paragraph(text):
     sents = SENT_SPLIT.split(text)
     max_sent = max((len(s.split()) for s in sents), default=0)
     npiles = [t for t in NOUNPILE_RE.findall(text) if t.lower() not in NOUNPILE_ALLOW]
-    interrupted = len(INTERRUPT_RE.findall(text))
+    interrupted = count_interrupted(text)
     stacked = sum(1 for s in sents if s.count(",") >= STACK_COMMAS and len(s.split()) >= STACK_WORDS)
     if em >= 5 or max_sent > SENT_HIGH:
         sev = "HIGH"
