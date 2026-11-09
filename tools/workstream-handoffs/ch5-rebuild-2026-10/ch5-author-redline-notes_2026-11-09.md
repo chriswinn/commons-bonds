@@ -35,3 +35,20 @@ carry into the redraft as *patterns and line edits*, not as edits to B's text.
 - **"Scatter" is retired** as a word and as a structure.
 - **Mark 5 caution:** keep the verb concrete without implying bad faith (e.g. "cashed out"), so it
   doesn't cut against the chapter's no-villain reading. Author's call.
+
+## Author's opening direction (2026-11-09, chat)
+
+Author's proposed first sentence (verbatim, offered as "something like…"):
+
+> "Once you have seen a pattern, you start noticing it everywhere. Especially if that pattern is
+> repeated again and again throughout society & human history."
+
+**Why it works:** leads with the condition, so no clause is interrupted; opens on the reader's own
+experience instead of an abstract thesis; it's the author's voice. **Use it as the opening direction
+in the redraft.** Final wording at the author's redline.
+
+Tightenings Claude offered (not ratified): (1) "…everywhere, especially one that repeats across a
+whole society and down through its history." (2) "…everywhere. Especially one that repeats across an
+entire society, generation after generation." (3) "Once you see a pattern, you start noticing it
+everywhere. This one really is everywhere." (Claude's lean: #3, which hands off to the first scene.)
+Caution: "throughout human history" outruns the chapter's evidence (cases run 1960s–now).
