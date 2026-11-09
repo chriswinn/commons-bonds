@@ -37,6 +37,20 @@ flowing prose that compels them to keep reading once they have started," with go
 7. **Pull beats polish, so do both, separately.** Pull carries a reader over small rough spots, but
    polish cannot rescue a passage with no pull. Draft for pull; polish for grammar afterward.
 
+**Candidate lens 8 (Claude's diagnosis, 2026-11-09; awaiting the author's confirmation): every case
+enters as a scene, wherever it falls in the chapter.** People and place first, then what is happening to
+them, then the system, then the numbers as the answer to the question the scene raised. The anchor is
+Ch 5 round 3: the case each version opened on (Baotou in Earned roadmap, Butler in Out and back) was
+written as a scene and read well. The case reached mid-chapter was written as a step in the argument
+and read flat: it led with the scale or the mechanism, put statistics before people and arrived after a
+page of numbers. A scene buys the reader's patience for the explanation that follows; explanation
+before any scene spends patience the reader hasn't given yet. Scene mode never means invented detail.
+It is an ordering of documented facts. **Process notes stay out of the prose:** sourcing rules ("it
+should be rendered strictly within what she wrote"), corrections of claims the reader never made ("the
+accurate statement, then, is not…") and announced hedges ("honesty requires a word…") turn the reader
+from witness into auditor. Keep the discipline, drop the announcement, and state the narrower claim
+plainly.
+
 **A reader's test:** at the end of each paragraph, ask whether you want to know what comes next.
 Where the answer is no, that's usually where the chunkiness is. (The author dropped a second half,
 "and do you know why," on 2026-11-09: it could push drafting toward explaining or signposting why

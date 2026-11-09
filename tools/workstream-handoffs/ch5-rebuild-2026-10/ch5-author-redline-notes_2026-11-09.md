@@ -78,3 +78,34 @@ Caution: "throughout human history" outruns the chapter's evidence (cases run 19
   "Imagine" invites the reader in; and the last item turns from places to the reader's own family,
   with the pattern as an uninvited guest. Candidate opening material for whichever version wins.
 - Author is re-reading **Out and back** and **Earned roadmap** to decide which grabs attention most.
+
+## Baotou vs Butler (author's observation, Claude's diagnosis, 2026-11-09)
+
+**Author:** the Baotou and Butler scenes read dramatically differently between Out and back and Earned
+roadmap. In one version Baotou reads flat; in the other, Butler does.
+
+**Claude's reading (direction to confirm):** each version's *opening* case reads well and its
+*mid-chapter* case reads flat. So Baotou is flat in Out and back and Butler is flat in Earned roadmap.
+The facts are the same; the order differs.
+
+1. **First sentence.** Earned's Baotou opens on homes beside waste ponds. Out and back's Baotou opens
+   "the people who pay drop out of sight entirely," then defines rare earths. Earned's Butler opens "the
+   mechanism can be seen in a single family," which makes the family an exhibit.
+2. **People before numbers.** Earned's Baotou paragraph ends on illness and soil that won't grow food.
+   Out and back's runs phone → definition → 60 percent → a correction → chemistry, and the villagers
+   arrive in the last two sentences of the third paragraph. In both versions Butler's payment figures
+   ($54 / $461 / ~$12,000) come before the father's decline and the mother's 80-hour weeks, so the
+   numbers answer a question the reader hasn't been given yet.
+3. **Process notes in the prose.** "It should be rendered strictly within what she wrote, with nothing
+   added" (Butler's second sentence, both versions); "The accurate statement, then, is not…" (corrects a
+   claim the reader never made); "Honesty requires a word…" / "that should be said plainly" (announced
+   hedges).
+4. **What comes right before.** Earned's Butler arrives after a page of crowdfunding statistics,
+   Mishel–Bivens and Hacker, under a heading that promises a hospital room.
+5. **A scene buys patience.** Earned's Baotou section is as statistic-heavy as Out and back's (same 60
+   percent passage, same evidence paragraph), but it follows the scene the reader has just seen.
+
+**Carries into the pull pass:** write every case as a scene first (people → what happens to them →
+system → numbers); take the process notes out of the prose; in Earned's "A hospital room," consider
+opening on Butler's father and letting the crowdfunding evidence show it is not one family. Captured as
+candidate lens 8 in `tools/memory/feedback_engagement_lenses.md`.

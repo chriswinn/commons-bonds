@@ -308,6 +308,20 @@ You should see `TechnicalAppendix_v2.0.0.docx` (~130 KB) and `TechnicalAppendix_
 
 ---
 
+## `marginalia-pdf/build.sh`
+
+Double-spaced read-through PDF with a wide right margin for the author's handwritten marginalia
+(Letter, Georgia 13pt, line-height 2.0, 52 mm right margin, header label and "Page X / Y" footer).
+Uses pandoc plus the container's pre-installed Playwright/Chromium; the stock wkhtmltopdf here is
+unpatched-qt and drops headers and footers.
+
+```bash
+tools/scripts/marginalia-pdf/build.sh <input.md> <output.pdf> "<header label>" "<cover title>" "<cover subtitle>"
+```
+
+Write outputs to the session scratchpad and deliver them to the author; read-through PDFs are not
+committed.
+
 ## Render-output policy
 
 Ratified 2026-05-19. Renders (`.docx` + `.pdf`) are **derived artifacts** — markdown sources stay the source of truth. The discipline:
