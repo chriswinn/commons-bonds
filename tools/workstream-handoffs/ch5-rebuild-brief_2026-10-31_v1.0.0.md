@@ -1,9 +1,44 @@
 # Chapter 5 rebuild brief — *The Accountability Gap*
 
-**Date drafted:** 2026-10-31 · **Status:** ✅ **APPROVED (author, 2026-10-31)**
+**Date drafted:** 2026-10-31 · **Date modified:** 2026-11-09 (round-2 amendment) · **Status:** ✅ **APPROVED (author, 2026-10-31); AMENDED 2026-11-09 (author)**
 **Target file:** `manuscript/chapters/Chapter__5_TheAccountabilityGap.md`
 **Owner:** this (single) session, lean pipeline — drafted **inline, one session** (no delegated/parallel sessions, per the ratified operating mode)
 **Changelog:** v1.0.0 PROPOSED 2026-10-31 → **APPROVED same day** with four changes: (1) the rebuild runs **three candidates** — Variant A *scale-narrative* + Variant B *grounded scattered-cases* + the current Ch 5 as candidate C; (2) the Social Security anchor is the **documented 1972 benefit expansion**, not Ida May Fuller; (3) **grounding is the judge's diagnostic, not a per-rung mandate**; (4) the **2008 anchor is first-person** (author substrate captured). Variant A zoom direction = **out-and-back** (author deferred the call).
+
+> ## ▸ AMENDED 2026-11-09 (author) — round 2: three fresh versions
+>
+> **Why.** The author's redline of the round-1 printouts found the prose hard to follow (comma
+> insertions that split clauses; the opening sentence; repetition) and the "scatter" structure flat.
+> Root cause: the em-dash rule had been applied as a dash-to-comma swap, and round 1 carried sentences
+> over from the current chapter. Round-1 Variants A and B are **superseded** (kept for the record).
+>
+> **The three versions** (all fresh from the facts, not from the old chapter's sentences):
+>
+> | Version | Opening | Body | Ends on |
+> |---|---|---|---|
+> | **Out and back** | Starts in Butler's father's room; no roadmap | Outward by scale, turn into time, back; light "camera" narration | The same room |
+> | **Roadmap first** | Author's sentence + a concrete preview | **The house:** each case enters through an object in the reader's home | The reader at home |
+> | **Earned roadmap** | Baotou scene, then the author's sentence + roadmap | **The distance closes:** cost-bearers get closer to the reader case by case | The reader |
+>
+> **Author's line decisions (apply in all three):** open from "Once you have seen a pattern, you start
+> noticing it everywhere" (placed differently in each version); keep "did not produce"; "the bill comes
+> due" (no "always"); "cashed out" for "retired"; "left standing"; no repeated image within a page;
+> "scatter" retired as word and structure. Notes: `ch5-rebuild-2026-10/ch5-author-redline-notes_2026-11-09.md`.
+>
+> **Readability rule:** one-pass readability (amended `tools/memory/feedback_em_dash_overuse.md`).
+> Every draft runs `tools/scripts/check-prose-clarity.py` before delivery: `intr=0`, no HIGH, every
+> `stack` hit reviewed.
+>
+> **Held constant across versions:** the seven cases, every figure, the four argument sections, the
+> non-regression list, Insertions B/C/G (moves ratified; wording rewritten for readability, author
+> redlines), the first-person 2008 beat, the documented 1972 Social Security record. **Correction:**
+> Darity & Mullen's framework is **ARC: Acknowledgment, Redress, Closure** (round 1 wrongly added
+> "atonement"). Roadmap-first and Earned-roadmap share the argument sections word for word (marked);
+> Out-and-back weaves the same material into its zoom.
+>
+> **Process:** the author reads all three (openings side by side first), redlines the one that stands
+> out, and gives a pick. Claude seals its own pick in a committed file before hearing the author's.
+> Files: `ch5-rebuild-2026-10/round-2_2026-11-09/`.
 
 **Why this chapter, why now:** Chapter 5 is the second Wave-1 sample and one of Darity's two requested
 chapters (with Ch 1 and the corrected TA). It goes to him **Jan 4–5**. It is the most abstract ground
