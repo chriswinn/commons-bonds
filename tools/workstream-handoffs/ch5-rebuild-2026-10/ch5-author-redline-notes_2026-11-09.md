@@ -117,3 +117,10 @@ enters as a scene is probably too broad and could read as contrived in a book th
 **Result:** lens 8 narrowed to "name who pays before explaining how" (scene, anchor sentence or straight
 argument, chosen per passage), plus no process notes in prose. The pull pass leaves the two working
 openings alone apart from process notes and fixes the two flat cases by order and presence, not color.
+
+**Author's refinement (2026-11-09):** start with one scene, then another only "when and where it makes
+sense and makes an impact… where it's earned." The Baotou sentence works because it "brings a personal
+connection to a very distant cost that the reader has likely never thought of." Option: start at the
+village, then make the connection to the phone in the reader's (or writer's) pocket. Lens 8 updated to
+match: one opening scene, earned scenes only, and a bridge from the distant cost to the reader's life
+where the connection is real.

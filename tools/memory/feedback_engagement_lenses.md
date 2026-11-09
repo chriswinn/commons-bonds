@@ -37,24 +37,34 @@ flowing prose that compels them to keep reading once they have started," with go
 7. **Pull beats polish, so do both, separately.** Pull carries a reader over small rough spots, but
    polish cannot rescue a passage with no pull. Draft for pull; polish for grammar afterward.
 
-**Candidate lens 8 (Claude's diagnosis, 2026-11-09, narrowed the same day after the author's concern;
-awaiting confirmation): name who pays before explaining how.** Where a new case begins, put the people
-who bear the cost on the page before the mechanism, the statistics or the scale, in a sentence if not a
-scene. This is a check, not a template. The author's concern: a scene for every case would start to read as
-contrived, and a book that introduces a framework can't bury the framework under stories. So use a dial: a
-full scene at a chapter's opening and at the one or two places where the reader has to feel the stakes; an
-anchor sentence where any other case begins; straight argument where the reader already holds the people.
-The book's own reason for the check: the framework is about costs cut loose from the people who bear them,
-so prose that leads with the mechanism and leaves the people for later does on the page what the chapter
-says distance does in the world. The aim is less flat, not more vivid: the fix is order and presence, never
-added color or invented detail. Anchor: Ch 5 round 3. Baotou reads well as Earned roadmap's opening scene
+**Candidate lens 8 (developed with the author, 2026-11-09; awaiting confirmation): one scene to open,
+another only where it's earned, and a bridge where a distant cost needs bringing home.**
+
+- **One scene to open the chapter.** After that, a second scene only where it lands with real impact,
+  usually where the chapter has been walking toward it (the closest case, or the return at the end). A
+  scene for every case would read as contrived and would bury the framework under stories.
+- **Elsewhere, name who pays before explaining how**, in a sentence or two, before the mechanism, the
+  statistics or the scale.
+- **Where the cost is far away, bridge it to the reader.** Start at the distant place, then connect it
+  to something in the reader's own life, so the reader learns where they stand last (lens 3). The
+  author's example: start at the villages near Baotou, then the phone in the reader's pocket. Including
+  the writer ("in your pocket, and in mine") shares the implication rather than pointing at the
+  reader, which fits the chapter's no-villain reading. Bridge only where the connection is real and
+  documented, and not in every case, or the bridge becomes the formula.
+- **The aim is less flat, not more vivid:** fix order and presence, never add color or invented detail.
+
+The book's own reason: the framework is about costs cut loose from the people who bear them, and
+distance is what shields the beneficiary. Prose that leads with the mechanism and leaves the people for
+later does on the page what the chapter says distance does in the world; a bridge undoes it. Anchor: Ch 5
+round 3. Baotou reads well as Earned roadmap's opening scene (villages, then "within arm's reach of you")
 and flat mid-chapter in Out and back, where its first sentence says "the people who pay drop out of sight
 entirely." Butler reads well as Out and back's opening and flat late in Earned roadmap, where it opens on
-"the mechanism" after a page of statistics (both confirmed by the author). **Process notes stay out of the
-prose:** sourcing rules ("it should be rendered strictly within what she wrote"), corrections of claims the
-reader never made ("the accurate statement, then, is not…") and announced hedges ("honesty requires a
-word…") turn the reader from witness into auditor. Keep the discipline, drop the announcement, and state
-the narrower claim plainly.
+"the mechanism" after a page of statistics (both confirmed by the author).
+
+**Process notes stay out of the prose:** sourcing rules ("it should be rendered strictly within what she
+wrote"), corrections of claims the reader never made ("the accurate statement, then, is not…") and
+announced hedges ("honesty requires a word…") turn the reader from witness into auditor. Keep the
+discipline, drop the announcement, and state the narrower claim plainly.
 
 **A reader's test:** at the end of each paragraph, ask whether you want to know what comes next.
 Where the answer is no, that's usually where the chunkiness is. (The author dropped a second half,
