@@ -108,4 +108,12 @@ section. These are observations to weigh during drafting, not rules.
   by Butler's related published essay; **$461**, **~$12,000** and the mother's age still need checking against
   her *New York Times Magazine* essay "What Broke My Father's Heart" (June 2010) or *Knocking on Heaven's
   Door* (2013). Verify before the author's redline; the age also appears in the chapter's closing section.
+- **Relationships before objects (2026-11-09):** "how many of the target readers are going to have a typical
+  house, with an attic, mailbox, physical paystub, etc.? … as long as humans exist we will always have
+  parents, loved ones, and a community. Regardless if we are here or have moved out into the stars." Added
+  to lens 8. **For the pull pass:** bridge through relationships where the substrate already carries them.
+  Butler: a daughter, her father and a wife at his side, in a room most families sit in sooner or later.
+  Social Security: parents' benefits and children's taxes. Baotou: the villagers report birth defects, so
+  their children are the stake. Keep the phone only as Baotou's literal link to the reader. This also
+  explains part of the pick: Out and back's frame is a family, while Roadmap first's frame was a house.
 
