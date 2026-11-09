@@ -124,3 +124,12 @@ connection to a very distant cost that the reader has likely never thought of." 
 village, then make the connection to the phone in the reader's (or writer's) pocket. Lens 8 updated to
 match: one opening scene, earned scenes only, and a bridge from the distant cost to the reader's life
 where the connection is real.
+
+## Pick (author, 2026-11-09)
+
+**Out and back.** Claude's sealed pick (committed before the author read round 3) was Roadmap first,
+then Earned roadmap, with Out and back third. Claude weighted best single lines and structural turns,
+and marked down Out and back's reported first sentence and its Medicare figures. The author read for
+whether the pages kept turning. The out-and-back frame opens a question in the room that the return
+answers, and the author's read put that pull ahead of everything Claude weighted. Lesson for judging
+candidates: score the whole read, not the best lines.
