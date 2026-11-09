@@ -36,6 +36,12 @@ pair only works when the insertion lifts out cleanly and contains no commas of i
 is one-pass readability, not zero dashes; see the amendment in
 `tools/memory/feedback_em_dash_overuse.md`.
 
+**Sentence length is not a drafting target (author, 2026-11-09).** The sentence-length thresholds
+above were set for the Technical Appendix cleanup (2026-06-22) and were never author-ratified for
+chapter or essay prose. Use them only to *locate* a tangle in finished prose, never as a cap while
+drafting (Amendment E: no maximum reaches the drafter). The comma-stacked count is the same: a
+locating aid, not a target.
+
 ## The detector
 
 ```

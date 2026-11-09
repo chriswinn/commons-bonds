@@ -51,8 +51,14 @@ the reading thread, even though it is grammatical.
 4. Em-dashes are allowed when they are the clearest choice: at most one pair per paragraph, never
    three close together (the gate still flags that). The crutch warning stands.
 5. Never fix a dash by swapping in commas. Restructure, and when in doubt, split the sentence.
-6. Prefer sentences under 35 words. Over 45 is a flag; over 60 is HIGH.
 
-**Checks.** `tools/scripts/check-prose-clarity.py` now flags interrupted clauses (`intr`) and
-comma-stacked sentences (`stack`: 4+ commas in a sentence of 35+ words). Run it on every draft
-before it reaches the author. Target: `intr=0`, no HIGH, and every remaining `stack` hit reviewed.
+**No sentence-length rule (corrected 2026-11-09, author).** An earlier draft of this amendment
+added "prefer sentences under 35 words." The author never asked for that, and it was removed. Drafting
+to it produced round-2 Ch 5 drafts averaging 14 words a sentence with zero sentences over 35 words,
+clipped against the author's own Ch 1 (18 average, 44 over 35). This is the same failure Amendment E
+names: a maximum that reaches the drafter manufactures compression. **Long sentences are fine. What
+the rule forbids is splitting a clause with an insertion, or an insertion containing its own commas.**
+
+**Checks.** `tools/scripts/check-prose-clarity.py` flags interrupted clauses (`intr`). Its
+sentence-length and `stack` counts are after-the-fact editing aids for locating tangles, never a
+drafting target. Do not draft toward zero on them.
