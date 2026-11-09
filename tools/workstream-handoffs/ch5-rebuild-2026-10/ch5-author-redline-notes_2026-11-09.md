@@ -60,3 +60,12 @@ Caution: "throughout human history" outruns the chapter's evidence (cases run 19
 - **No rhythm model.** Don't model sentence shape on Ch 1; it could itself be smoother. Aim for smooth,
   one-pass-readable prose on its own terms.
 - **Round 3 is a full redraft** with each version's cases written fresh.
+
+## Round 3 read (author, 2026-11-09)
+
+- **Roadmap first is out.** The opening list "landed flat": a long, seemingly disconnected catalogue
+  presented with no reason to keep reading and no understanding of what the reader was looking at, so
+  it didn't grab attention. General lesson for every chapter and essay: **don't open on an unmotivated
+  list or catalogue.** Give the reader a reason, meaning a scene or stakes, before any preview of where
+  the piece is going.
+- Author is re-reading **Out and back** and **Earned roadmap** to decide which grabs attention most.
