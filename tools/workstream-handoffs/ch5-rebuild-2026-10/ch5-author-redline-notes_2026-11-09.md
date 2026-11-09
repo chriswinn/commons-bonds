@@ -133,3 +133,23 @@ and marked down Out and back's reported first sentence and its Medicare figures.
 whether the pages kept turning. The out-and-back frame opens a question in the room that the return
 answers, and the author's read put that pull ahead of everything Claude weighted. Lesson for judging
 candidates: score the whole read, not the best lines.
+
+## Out and back printout, page 1 (author's redline, 2026-11-09)
+
+Transcribed by Claude from the author's photo. Readings marked **[?]** await the author's correction.
+
+| # | Draft text | Author's mark | Reading |
+|---|---|---|---|
+| 1 | "Butler later published an account of those years, and it should be rendered strictly within what she wrote, with nothing added." | Clause struck; an interlinear attempt ("it shows it's heart breaking" **[?]**) also struck; margin: "that families journey is heart breaking." | Replace the sourcing note: "…an account of those years, and that family's journey is heartbreaking." Final wording at redline; if a quotation from Butler carries the heartbreak, the line may not be needed (author's call). |
+| 2 | "Medicare would have paid her father's doctor $54 for a long conversation about whether an intervention was wise." | "$54" and the phrase underlined, "wise" wavy; right margin: "Double check that # & what it claims the article says. I can't recall if that detail was in the article or was a detail added by my ethics professor." Left margin: "Let's be careful & be sure if we are quoting an article does it say 'wise'?" | Verify the figure, what it paid for and the wording against Butler's article. Anything not in the article stays out until its source is found. |
+| 3 | "The unpaid work of caring for him fell on his wife. At seventy-seven, Butler's mother…" | "mother" underlined: "? mother (or) wife?" | Pick one consistent reference for the same person. |
+
+**Author's direction (same day):** the Ch 5 drafting work should read the Butler article and decide what to
+quote, and how much, so the story resonates. Split into a prep session (find, read and verify the source;
+choose quotes) and a writing session (the pull pass).
+
+**Source located (Claude, 2026-11-09):** the article is not in the repository. It is in the author's Google
+Drive as `Pacemaker.pdf` (folder "Readings 2", file id `1fj8J0QJFtJQ2DxeuJe5t2Isc9JF1YkYy`; duplicate
+`1_IRIZwFR79XVlb_jtiZo9L4KSjHwDv7H`): Katy Butler, "What Broke My Father's Heart," *New York Times
+Magazine*, dated June 18, 2010 on the printout, 11 pages. It opens on her mother's request to have the
+pacemaker turned off. The copy is marked for personal, noncommercial use, so it stays out of the repo.
