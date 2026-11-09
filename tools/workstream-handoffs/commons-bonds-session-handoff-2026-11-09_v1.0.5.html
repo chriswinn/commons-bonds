@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Commons Bonds Handoff Nov 9 (v1.0.5)</title>
+<style>
+:root{--bg:#f6f7f6;--fg:#1b2428;--muted:#56656d;--line:#d5dddb;--accent:#1f5f6b;--done:#2f6b3a;--todo:#8a5a00}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#131a1d;--fg:#e2e9eb;--muted:#9aabb2;--line:#2e3d43;--accent:#7cc0cc;--done:#8fcf98;--todo:#e6bb62;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#131a1d;--fg:#e2e9eb;--muted:#9aabb2;--line:#2e3d43;--accent:#7cc0cc;--done:#8fcf98;--todo:#e6bb62;color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font:15px/1.55 system-ui,-apple-system,"Segoe UI",sans-serif;max-width:860px;margin:0 auto;padding-block:28px 56px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+h1{font-size:1.6rem;margin:0 0 4px}h2{font-size:1.2rem;border-bottom:1px solid var(--line);padding-bottom:6px;margin-top:32px}
+h3{font-size:1.02rem;margin-top:20px}
+code{font:0.85em ui-monospace,Menlo,monospace;word-break:break-word}
+.muted{color:var(--muted)}.done{color:var(--done);font-weight:600}.todo{color:var(--todo);font-weight:600}
+li{margin:4px 0}
+blockquote{margin:8px 0;padding:4px 12px;border-left:3px solid var(--line);color:var(--muted)}
+</style>
+</head>
+<body>
+
+<h1>Commons Bonds: session handoff, 9 Nov 2026 (v1.0.5)</h1>
+<p class="muted">Closes the long session that began 2026-10-31 (Fall-plan W1) and ran through 2026-11-09. Its
+context was compacted once. Everything is merged to <code>main</code>. Addressed to the next Claude
+instance; the author reads it too.</p>
+<p><b>v1.0.5 supersedes v1.0.4 and earlier.</b> Changes made with the author on 2026-11-09, in order:
+(1) the pull pass covers Chapter 5 only, with Ch 1 dropped (see the watch item on rerunning all chapters);
+(2) the flat cases were confirmed as Baotou in Out and back and Butler in Earned roadmap, and what is working
+stays; (3) lens 8 became "one scene to open, another only where earned, and a bridge from distant costs to
+the reader"; (4) <b>the author picked Out and back</b> ("I think I like the out and back the best"), so the pull
+pass covers Out and back only. The sealed assessment is open: Claude's pick was Roadmap first, with Out and back
+third. (5) The author's responses to Claude's works/doesn't notes are in
+<code>ch5-rebuild-2026-10/round-3_2026-11-09/ch5-round3-likes-dislikes_2026-11-09.md</code>: the mailbox
+lesson, and <b>the Butler opening needs a real revision</b>. The sourcing note "makes it completely
+forgettable." (6) A fact flag on the mother's age (below).</p>
+
+<h2>Resume instructions for the next session</h2>
+<ol>
+<li>Base your branch on current <code>origin/main</code>. Read <code>MAP.md</code> → <code>STATE.md</code> →
+<code>tools/workstream-handoffs/commons_bonds_work-plan_2026-10_to_2027-08_v1.0.7.md</code> → this file.</li>
+<li>Then read the three files that govern the pull pass:
+<code>tools/memory/feedback_engagement_lenses.md</code> (seven lenses plus candidate lens 8; <b>guidelines,
+never targets or checker rules</b>),
+<code>tools/workstream-handoffs/ch5-rebuild-2026-10/ch5-author-redline-notes_2026-11-09.md</code> (the
+author's marks, opening direction and the Baotou/Butler diagnosis) and
+<code>tools/memory/feedback_em_dash_overuse.md</code> (the punctuation rule).</li>
+<li><b>Operating mode:</b> lean pipeline, one session, drafted inline (no delegated or parallel sessions),
+no queued email sends. End with three lines: done · waiting on the author · next paste line.</li>
+<li>The author has picked <b>Out and back</b>; the sealed assessment is open and discussed.</li>
+</ol>
+
+<h2>Top priority: the low-effort pull and pacing pass</h2>
+<p>The author asked: "rerun the draft of two I'm currently reading… with the thought of keeping the pull or
+pacing up/high… Consider it a low effort spot check." Then, the same day: "Just focus on Chapter 5 for now
+as we might revise the drafting process again and we might as well rerun all chapter drafts once we get
+Chapter 5 at a good spot." After the author picked Out and back, the pass covers <b>Out and back only</b>; Earned roadmap is a source
+of optional borrowings. This is a spot
+check, not a fourth round. The author wants to see what comes out; nothing gets promoted from it without the author's
+redline.</p>
+
+<h3>Ground rules</h3>
+<ul>
+<li><b>New files only.</b> Do not edit the round-3 files the author is reading, and do not touch any
+other chapter. Write to a new
+folder: <code>tools/workstream-handoffs/pull-pass_2026-11/</code>.</li>
+<li><b>Facts identical.</b> No new facts, figures, quotes or scenes. Butler stays strictly inside her
+published account. The author's 2008 first-person material (the <code>round-3_2026-11-09/_shared-author-2008.md</code>
+text inside each draft) stays as written; reorder for end-weight only if it helps.</li>
+<li><b>No length target, no rhythm model</b> (don't copy Ch 1's sentence shape). The only hard sentence rules
+are the author's two: no clause split by an insertion, and no insertion carrying its own commas. Dashes at
+most one pair per paragraph; never swap dashes for commas.</li>
+<li><b>Light touch:</b> openings, section first sentences, paragraph last sentences, list framing, the
+joints between sentences, and the mid-chapter cases. Leave the shared argument sections alone unless a
+first or last sentence is plainly flat.</li>
+</ul>
+
+<h3>Workflow</h3>
+<ol>
+<li>Copy <code>round-3_2026-11-09/ch5-out-and-back_2026-11-09.md</code> into
+<code>tools/workstream-handoffs/pull-pass_2026-11/</code> as <code>ch5-out-and-back_pull_&lt;date&gt;.md</code>.</li>
+<li>Edit each copy. <b>Keep what is working:</b> the out-and-back frame stays. <b>The Butler opening does not</b>:
+rewrite it (see the moves below). Apply lens 8 <b>as developed with the author</b>:
+the existing opening scene is the chapter's one scene; a second scene goes in only where it is earned and
+lands with impact (the natural candidate is the return to one body at the close, which the frame has been
+walking toward). Elsewhere, where a new case begins, name who pays before explaining how. Where
+the cost is far away, bridge it: start at the distant place, then connect it to the reader's own life
+(Out and back's Baotou is the clear case). Bridge only where the connection is real and documented, and
+not in every case. The aim for the two flat cases is <b>less flat, not more vivid</b>: fix the order and
+put the people back on the page, without adding color or detail. Then the other lenses.</li>
+<li>Write <code>pull-pass_2026-11/CHANGES.md</code>: every change as before → after → which lens, grouped by file.
+End it with a short note on what the pass taught about drafting for pull, since the author may revise the
+drafting process before all chapters are rerun.</li>
+<li><b>Before drafting the Butler opening,</b> check the Butler facts against her published account: the
+<i>New York Times Magazine</i> essay "What Broke My Father's Heart" (June 2010) or <i>Knocking on Heaven's
+Door</i> (2013). Check the mother's age (the drafts say seventy-seven; the case-study file says 80), $461,
+~$12,000 and the "nearly half to the device maker" share. $54 is supported by her related published essay.
+Use primary text only and no figures from memory. If a source won't load, tell the author.</li>
+<li>Verify: (a) the set of figures is identical before and after in each file (extract every number,
+dollar amount and percentage and diff); (b) re-run the 35-item fact list from round 3 (in
+<code>round-3_2026-11-09/README.md</code>) on the copy; (c) <code>tools/scripts/check-prose-clarity.py</code>
+shows zero interrupted clauses and zero comma-stacked sentences; (d) <code>tools/scripts/check-corpus-invariants.sh</code>
+on the new files shows only the three known items (below).</li>
+<li>Render double-spaced PDFs to the scratchpad with
+<code>tools/scripts/marginalia-pdf/build.sh</code> and send them to the author.</li>
+<li>Then the lean pipeline's <b>one strongest-critic read</b> on the pulled Out and back (round 3 has not had
+one), written as a short findings file. The author's hand redline comes after that.</li>
+<li>Commit, push, fast-forward <code>main</code> (internal scaffolding; pre-push: <code>git fetch origin main</code>
+then confirm <code>origin/main</code> is an ancestor of HEAD).</li>
+</ol>
+
+<h3>Specific moves already worked out (starting points, not requirements)</h3>
+<ul>
+<li><b>Butler opening (rewrite):</b> the author: the sourcing note "takes a heartwrenching story and makes
+it completely forgettable and reduces it until it's hard to follow." The paragraph keeps Butler's
+<i>mechanism</i> and drops her <i>story</i>. Remove the sourcing note. Give her father the action rather than a
+passive verb, and bring the mother's eighty-hour weeks into the first paragraph. Let the payment figures
+arrive as the answer to why it went that way, and cut the abstraction "a single body sitting inside a system
+of payment." Two options, the author's call: <b>(a)</b> reorder the facts already in the draft;
+<b>(b)</b> add one or two beats of her published story, verified against her text (her story turns on the
+family's struggle over the device, not on the fee schedule). If the author hasn't chosen, draft (a) and
+show (b) as an alternative paragraph. Not more vivid, just the story back in its own order.</li>
+<li><b>Baotou (flat, "A supply chain"):</b> cut "the people who pay drop out of sight entirely."
+Use a bridge, village first and the reader's pocket last (the author's direction), with the illness and
+abandoned farmland before the 60 percent statistics. State the narrower 60 percent claim directly instead of
+correcting a claim the reader never made ("The accurate statement, then, is not…"). Illustration of the
+register: <blockquote>Near Baotou, in Inner Mongolia, villages sit beside the waste ponds of one of the
+largest rare-earth processing complexes on earth. The people who live there report raised rates of cancer,
+and some of the farmland around them has gone out of use because the soil will no longer grow food. Some of
+the elements refined beside those villages may well be in the phone in your pocket, and in mine.</blockquote>
+"And in mine" is the author's option ("the reader's (or writer's) pocket"); it shares the implication
+instead of pointing at the reader. It uses only facts already in the drafts.</li>
+<li><b>Evidence paragraph:</b> keep every hedge and every source; drop the announcements ("Honesty
+requires a word…", "that should be said plainly").</li>
+<li><b>Optional borrowings from Earned roadmap:</b> its Baotou opening paragraph is the source text for the
+bridge above; its line that the unborn are "farther away than Baotou, in time rather than space" could
+serve Out and back's "The unborn" section. Borrow only where it helps; list each borrowing as a change.</li>
+<li><b>Section openers with a question in them:</b> town ("a piece of a small Montana town may be over your
+head right now," only if the substrate supports it; check the Libby case text first); coast (the polluter
+paid more than any other in the book and still left the coast short); time (the most surprising case sits in
+a program people think of as the opposite of extraction).</li>
+</ul>
+
+<h2>Session summary (2026-10-31 → 2026-11-09)</h2>
+<ul>
+<li><span class="done">Done</span> 1972 Social Security verification (SSA-sourced; ssa.gov blocked WebFetch).
+Corrected: 1977 raised taxes and trimmed benefits; 1983 brought the rescue.</li>
+<li><span class="done">Done</span> Round 1 (Variants A and B), judged with the current chapter. The author's
+redline found it hard to read. Root cause: dashes swapped for commas, which produced interrupted clauses.
+The punctuation rule was rewritten and <code>check-prose-clarity.py</code> now flags interrupted and
+comma-stacked sentences.</li>
+<li><span class="done">Done</span> Round 2 (three versions). Superseded: I had added a sentence-length target
+the author never asked for, and the drafts came out clipped. The rule was removed.</li>
+<li><span class="done">Done</span> Round 3: Out and back, Roadmap first, Earned roadmap, cases written fresh, no
+length target, 35/35 facts. The author has ruled out Roadmap first and is reading the other two.</li>
+<li><span class="done">Done</span> Engagement lenses captured as guidelines, plus a polish safeguard. Candidate
+lens 8 added from the Baotou/Butler diagnosis, then narrowed after the author's concern to "name who pays
+before explaining how" (a dial of scene, anchor sentence and straight argument) plus "no process notes in
+prose."</li>
+<li><span class="done">Done</span> NYRB cover letter fixed (agent-status clause dropped). Read-through PDFs
+delivered for all drafts, Ch 1 and NYRB. PDF recipe committed as <code>tools/scripts/marginalia-pdf/</code>.</li>
+<li><span class="todo">Partial</span> Local-folder cleanup: 25 worktrees removed and 4 laptop-only branches
+pushed. Group C (dirty-file dumps) still awaited.</li>
+</ul>
+
+<h2>Open decisions and watch items</h2>
+<ul>
+<li><b>Drafting process may change again (author, 2026-11-09).</b> Once Ch 5 is in a good spot, the author
+expects to rerun all chapter drafts under whatever process gets Ch 5 there. Until then, no pull work on any
+other chapter. Watch: Ch 1 and the Technical Appendix are due to Darity in early December; if Ch 1 is to be
+rerun before that send, the schedule needs the author's call.</li>
+<li><b>Author:</b> whether narrowed lens 8 becomes a lens (direction of the flat cases confirmed 2026-11-09).</li>
+<li><b>Author:</b> Butler opening, option (a) reorder only, or (b) one or two verified beats from her
+published story.</li>
+<li><b>Fact flag:</b> Butler's mother's age (seventy-seven in the drafts and the current chapter, 80 in
+<code>research/case-studies/healthcare-end-of-life.md</code>; neither is in the ledger). Also used in the
+closing section. Verify before redline.</li>
+<li><b>Author:</b> picked Out and back (2026-11-09). Next: read the pulled version and the critic findings, then
+the hand redline. Sealed assessment opened; Claude's pick was Roadmap first, Out and back third.</li>
+<li><b>NYRB:</b> window closes <b>Sun Nov 15</b>; decide by Thu Nov 12. Option on the table: a narrow fix of its
+three interrupted clauses only, no shortening. The session preps the submit package; the author submits.</li>
+<li><b>Fact flags (not blocking):</b> ledger "NRDA ≈ $17B" vs TA §11.2 $18.7B; the Mexico "comparable lengths
+of damaged coastline" comparison is carried, not ledgered (verify at redline); the $44B program-vs-trust-fund
+label (MEDIUM, review only). If the current chapter (C) were ever used, soften "every actuarial report named
+the deficit window" (unconfirmed).</li>
+<li><b>Known gate items on Ch 5 drafts:</b> HIGH <code>regressed-term-reparations-bond</code> (legitimate
+name-and-reject passage; re-pin the allowlist at promotion), MEDIUM
+<code>regressed-consistency-44b-trust-fund-framing</code>, MEDIUM
+<code>regressed-figure-108-trillion-social-security</code>.</li>
+<li><b>Promotion (after the pick and redline):</b> copy the winner into
+<code>manuscript/chapters/Chapter__5_TheAccountabilityGap.md</code>, re-pin the allowlist, run the gate to
+HIGH=0.</li>
+<li><b>Darity package schedule</b> (per STATE): TA and Ch 1 early December; Ch 5 Jan 4–5.</li>
+<li><b>Local cleanup:</b> awaiting the author's group C output; then get the laptop's main checkout back onto
+<code>main</code> and prune <code>.claude/worktrees/agent-*</code>.</li>
+</ul>
+
+<h2>File inventory</h2>
+<ul>
+<li><code>tools/workstream-handoffs/ch5-rebuild-2026-10/round-3_2026-11-09/</code>: the three round-3 drafts,
+four <code>_shared-*.md</code> sections, <code>README.md</code> (35-fact list), the sealed assessment.</li>
+<li><code>tools/workstream-handoffs/ch5-rebuild-2026-10/ch5-author-redline-notes_2026-11-09.md</code>: author
+marks, opening direction, round-3 read, Baotou/Butler diagnosis.</li>
+<li><code>tools/workstream-handoffs/ch5-rebuild-brief_2026-10-31_v1.0.0.md</code>: brief with round-2 and round-3
+amendments.</li>
+<li><code>tools/workstream-handoffs/ch5-rebuild-2026-10/ch5-ssa-1972-verification_2026-10-31.md</code>.</li>
+<li>Superseded: round-1 files in <code>ch5-rebuild-2026-10/</code> and the <code>round-2_2026-11-09/</code> folder.</li>
+<li><code>tools/memory/feedback_engagement_lenses.md</code>, <code>tools/memory/feedback_em_dash_overuse.md</code>,
+<code>tools/conventions/prose-clarity-contract.md</code>, <code>tools/scripts/check-prose-clarity.py</code>,
+<code>tools/scripts/marginalia-pdf/</code>.</li>
+<li><code>publishing/essays/nyrb-multi-book-review/</code>: essay and cover letter, RATIFIED-AWAITING-SUBMIT.</li>
+</ul>
+
+</body>
+</html>

@@ -92,3 +92,20 @@ section. These are observations to weigh during drafting, not rules.
   object has to be in the reader's life now, or the bridge breaks and the line reads as a device. Out and
   back has no paper-era props (checked). If the pull pass adds a bridge for Social Security, tie it to the
   deduction from every paycheck, not to a paper stub or a statement in the mail.
+- **Butler opening (2026-11-09):** agreed the sourcing note must go: "It takes a heartwrenching story and
+  makes it completely forgettable and reduces it until it's hard to follow and doesn't really have any
+  meaningful impact." **So the opening needs a real revision, not a one-sentence cut.** Claude's reading of
+  why: the paragraph keeps Butler's *mechanism* (payment figures, liability) and drops her *story*. The
+  father is the object of a passive verb ("was given a pacemaker"), the sourcing note breaks in at
+  sentence two, an abstraction follows ("a single body sitting inside a system of payment"), and the
+  numbers arrive before the reader knows why they matter. The mother's eighty-hour weeks come only in
+  paragraph two. **Origin:** the sourcing note leaked from an earlier drafting instruction into the current
+  chapter (`Chapter__5_TheAccountabilityGap.md`, the Butler paragraph) and every round inherited it. Briefs
+  should keep sourcing constraints in a block marked for the drafter only.
+- **Fact flag found while checking (2026-11-09):** the drafts say Butler's mother was **seventy-seven**
+  (carried from the current chapter); `research/case-studies/healthcare-end-of-life.md` says **80**. Neither
+  age is in the canonical ledger, so round 3's 35/35 check did not cover it. The **$54** figure is supported
+  by Butler's related published essay; **$461**, **~$12,000** and the mother's age still need checking against
+  her *New York Times Magazine* essay "What Broke My Father's Heart" (June 2010) or *Knocking on Heaven's
+  Door* (2013). Verify before the author's redline; the age also appears in the chapter's closing section.
+
