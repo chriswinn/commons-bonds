@@ -47,17 +47,17 @@ another only where it's earned, and a bridge where a distant cost needs bringing
   statistics or the scale.
 - **Where the cost is far away, bridge it to the reader.** Start at the distant place, then connect it
   to something in the reader's own life, so the reader learns where they stand last (lens 3). The
-  author's example: start at the villages near Baotou, then the phone in the reader's pocket. Including
+  author's example: start at the villages near Baotou, then the cellphone in the reader's pocket. Including
   the writer ("in your pocket, and in mine") shares the implication rather than pointing at the
   reader, which fits the chapter's no-villain reading. Bridge only where the connection is real and
   documented, and not in every case, or the bridge becomes the formula. Use objects that are in the reader's
-  life now: the phone in a pocket works, but a quarterly statement in the mailbox reads as dated to a
+  life now: the cellphone in a pocket works, but a quarterly statement in the mailbox reads as dated to a
   reader who has paid bills and received pay stubs online for years (author, 2026-11-09).
 - **Bridge through relationships before objects (author, 2026-11-09).** Not every reader has a house with
   an attic, a mailbox or a paper pay stub, and objects date. But "as long as humans exist we will always
   have parents, loved ones, and a community. Regardless if we are here or have moved out into the stars."
   So bridge through the people every reader has: parents, children, whoever cares for them at the end, a
-  community. Use an object only where the object is itself the case's link (rare earths in a phone) and is
+  community. Use an object only where the object is itself the case's link (rare earths in a cellphone) and is
   current. Relationships also hold over the book's horizon (the reader thirteen-plus years out, and
   Chapter 7's other worlds), and they are the framework's own subject: costs passed between generations.
 - **The aim is less flat, not more vivid:** fix order and presence, never add color or invented detail.

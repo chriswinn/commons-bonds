@@ -114,6 +114,9 @@ section. These are observations to weigh during drafting, not rules.
   to lens 8. **For the pull pass:** bridge through relationships where the substrate already carries them.
   Butler: a daughter, her father and a wife at his side, in a room most families sit in sooner or later.
   Social Security: parents' benefits and children's taxes. Baotou: the villagers report birth defects, so
-  their children are the stake. Keep the phone only as Baotou's literal link to the reader. This also
+  their children are the stake. Keep the cellphone only as Baotou's literal link to the reader. This also
   explains part of the pick: Out and back's frame is a family, while Roadmap first's frame was a house.
+- **"Cellphone" (2026-11-09):** agreed the phone stays only as Baotou's literal link to the reader, but call
+  it a **cellphone**: most people in developed countries have one at this point in history. Keep the hedge
+  ("may well be"); the claim is about where the elements may have been refined, not about every device.
 
