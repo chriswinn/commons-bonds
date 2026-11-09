@@ -84,7 +84,7 @@ Caution: "throughout human history" outruns the chapter's evidence (cases run 19
 **Author:** the Baotou and Butler scenes read dramatically differently between Out and back and Earned
 roadmap. In one version Baotou reads flat; in the other, Butler does.
 
-**Claude's reading (direction to confirm):** each version's *opening* case reads well and its
+**Claude's reading (confirmed by the author the same day):** each version's *opening* case reads well and its
 *mid-chapter* case reads flat. So Baotou is flat in Out and back and Butler is flat in Earned roadmap.
 The facts are the same; the order differs.
 
@@ -109,3 +109,11 @@ The facts are the same; the order differs.
 system → numbers); take the process notes out of the prose; in Earned's "A hospital room," consider
 opening on Butler's father and letting the crowdfunding evidence show it is not one family. Captured as
 candidate lens 8 in `tools/memory/feedback_engagement_lenses.md`.
+
+**Author's follow-up (2026-11-09):** confirmed the direction (Baotou flat in Out and back, Butler flat in
+Earned roadmap). "There has to be a way to write it so they aren't so flat without making [them] so
+vivid." Run with what is working; the earlier versions stay in git. A rule that every case in the book
+enters as a scene is probably too broad and could read as contrived in a book that introduces a framework.
+**Result:** lens 8 narrowed to "name who pays before explaining how" (scene, anchor sentence or straight
+argument, chosen per passage), plus no process notes in prose. The pull pass leaves the two working
+openings alone apart from process notes and fixes the two flat cases by order and presence, not color.

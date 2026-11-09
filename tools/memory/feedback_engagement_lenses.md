@@ -37,19 +37,24 @@ flowing prose that compels them to keep reading once they have started," with go
 7. **Pull beats polish, so do both, separately.** Pull carries a reader over small rough spots, but
    polish cannot rescue a passage with no pull. Draft for pull; polish for grammar afterward.
 
-**Candidate lens 8 (Claude's diagnosis, 2026-11-09; awaiting the author's confirmation): every case
-enters as a scene, wherever it falls in the chapter.** People and place first, then what is happening to
-them, then the system, then the numbers as the answer to the question the scene raised. The anchor is
-Ch 5 round 3: the case each version opened on (Baotou in Earned roadmap, Butler in Out and back) was
-written as a scene and read well. The case reached mid-chapter was written as a step in the argument
-and read flat: it led with the scale or the mechanism, put statistics before people and arrived after a
-page of numbers. A scene buys the reader's patience for the explanation that follows; explanation
-before any scene spends patience the reader hasn't given yet. Scene mode never means invented detail.
-It is an ordering of documented facts. **Process notes stay out of the prose:** sourcing rules ("it
-should be rendered strictly within what she wrote"), corrections of claims the reader never made ("the
-accurate statement, then, is not…") and announced hedges ("honesty requires a word…") turn the reader
-from witness into auditor. Keep the discipline, drop the announcement, and state the narrower claim
-plainly.
+**Candidate lens 8 (Claude's diagnosis, 2026-11-09, narrowed the same day after the author's concern;
+awaiting confirmation): name who pays before explaining how.** Where a new case begins, put the people
+who bear the cost on the page before the mechanism, the statistics or the scale, in a sentence if not a
+scene. This is a check, not a template. The author's concern: a scene for every case would start to read as
+contrived, and a book that introduces a framework can't bury the framework under stories. So use a dial: a
+full scene at a chapter's opening and at the one or two places where the reader has to feel the stakes; an
+anchor sentence where any other case begins; straight argument where the reader already holds the people.
+The book's own reason for the check: the framework is about costs cut loose from the people who bear them,
+so prose that leads with the mechanism and leaves the people for later does on the page what the chapter
+says distance does in the world. The aim is less flat, not more vivid: the fix is order and presence, never
+added color or invented detail. Anchor: Ch 5 round 3. Baotou reads well as Earned roadmap's opening scene
+and flat mid-chapter in Out and back, where its first sentence says "the people who pay drop out of sight
+entirely." Butler reads well as Out and back's opening and flat late in Earned roadmap, where it opens on
+"the mechanism" after a page of statistics (both confirmed by the author). **Process notes stay out of the
+prose:** sourcing rules ("it should be rendered strictly within what she wrote"), corrections of claims the
+reader never made ("the accurate statement, then, is not…") and announced hedges ("honesty requires a
+word…") turn the reader from witness into auditor. Keep the discipline, drop the announcement, and state
+the narrower claim plainly.
 
 **A reader's test:** at the end of each paragraph, ask whether you want to know what comes next.
 Where the answer is no, that's usually where the chunkiness is. (The author dropped a second half,
