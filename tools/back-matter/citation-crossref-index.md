@@ -4,9 +4,9 @@
 
 Method: for each unique bibliography entry, grep the author surname (or institutional acronym) as a whole word across the corpus — TA body (§18 bibliography excluded), 10 chapters, 9 essays, 2 op-eds. **Fuzzy by design:** common-word surnames (Black, House, Stern, Klein) over-match, so the index UNDER-reports orphans (the safe direction — it will not wrongly recommend pruning a still-cited work). An **ORPHAN?** flag means zero surface matched; verify by hand before pruning the entry.
 
-- entries cross-referenced: **207**
+- entries cross-referenced: **211**
 - flagged ORPHAN? (zero matches — prune candidates, verify first): **40**
-- not cross-referenced (no clean author/acronym key — mostly data/agency sources cited inline by name): **74**
+- not cross-referenced (no clean author/acronym key — mostly data/agency sources cited inline by name): **76**
 
 ## Prune candidates (ORPHAN? — zero corpus matches; verify by hand)
 
@@ -119,6 +119,7 @@ Method: for each unique bibliography entry, grep the author surname (or institut
 | Fricker 2007 | `Fricker` | 1 | TA |
 | Gawande 2014 | `Gawande` | 1 | Ch5 |
 | Georgescu-Roegen 1971 | `Georgescu-Roegen` | 0 | — **← ORPHAN?** |
+| Great Wicomico River Oyster Restoration Tributary Plan 2020 | `Great Wicomico River Oyster Restoration Tributary Plan` | 1 | TA |
 | Habermas 1981 | `Habermas` | 1 | TA |
 | Hacker 2006 | `Hacker` | 1 | Ch5 |
 | Hafner 2025 | `Hafner` | 0 | — **← ORPHAN?** |
@@ -217,6 +218,7 @@ Method: for each unique bibliography entry, grep the author surname (or institut
 | Savage 1951 | `Savage` | 2 | TA, Ch6 |
 | Schneider 1984 | `Schneider` | 0 | — **← ORPHAN?** |
 | Schröder 2008 | `Schröder` | 0 | — **← ORPHAN?** |
+| Schulte 2017 | `Schulte` | 2 | TA, Ch3 |
 | Sen 1992 | `Sen` | 4 | TA, Ch6, Ch7, essay:nyrb-multi-book-review |
 | Sen 1993 | `Sen` | 4 | TA, Ch6, Ch7, essay:nyrb-multi-book-review |
 | Sen 1999 | `Sen` | 4 | TA, Ch6, Ch7, essay:nyrb-multi-book-review |
@@ -256,14 +258,16 @@ Method: for each unique bibliography entry, grep the author surname (or institut
 | Weston 1991 | `Weston` | 1 | TA |
 | Wheeler 2026 | `Wheeler` | 0 | — **← ORPHAN?** |
 | Whyte | `Whyte` | 1 | TA |
+| Wilberg 2011 | `Wilberg` | 1 | TA |
 | Willis 2026 | `Willis` | 0 | — **← ORPHAN?** |
 | Winegrad 2024 | `Winegrad` | 0 | — **← ORPHAN?** |
 | Winn 1972 | `Winn` | 15 | TA, Ch10, Ch1, Ch2, Ch3, Ch4, Ch5, Ch6, Ch7, Ch8, Ch9, essay:aeon-mask-of-abundance, essay:harpers-the-miner, oped:mcdowell-county-true-cost, oped:norway-sovereign-wealth |
 | Wolfe 1999 | `Wolfe` | 1 | TA |
+| Woods 1871 | `Woods` | 1 | TA |
 | Yang 2021 | `Yang` | 1 | TA |
 | Zuboff 2019 | `Zuboff` | 0 | — **← ORPHAN?** |
 
-## Not cross-referenced (74 — data/agency/institutional sources)
+## Not cross-referenced (76 — data/agency/institutional sources)
 
 These are cited inline by agency/source name rather than author-surname; surname-grep does not apply. Orphan-check manually if pruning.
 
@@ -301,12 +305,14 @@ These are cited inline by agency/source name rather than author-surname; surname
 - *J.S. Darling and Son Oyster Company* historical marker, Hampton, Virginia. The Historical Marker Database (HMDB.org), m
 - Jones, Harry W. "The Recent Large Reduction in Space Launch Cost." 48th International Conference on Environmental System
 - Kecoughtan (Algonquian village, mouth of the Hampton River) — cite via Rountree 1989 + William & Mary Center for Archaeo
+- Maryland Department of Natural Resources / Office of the Governor. "Governor Wes Moore Announces Completion of Maryland'
 - Mian, Atif, Kamalesh Rao, and Amir Sufi. "Household Balance Sheets, Consumption, and the Economic Slump." *Quarterly Jou
 - Michelle Wilde Anderson. "The New Minimal Cities." *Yale Law Journal* 123 (2014): 1118.
 - Mondragón Corporation. *Annual Report 2023.*.
 - Naegele, Helene. "Where Does the Fair Trade Money Go? How Much Consumers Pay Extra for Fair Trade Coffee and How This Va
 - NASA — OSIRIS-REx / asteroid Bennu.
 - National Research Council. *Hidden Costs of Energy: Unpriced Consequences of Energy Production and Use.* National Academ
+- NOAA Fisheries. "Oyster Reef Restoration in the Chesapeake Bay: We're Making Significant Progress" (per-tributary cost +
 - Norwegian Ministry of Finance / Norwegianpetroleum.no — petroleum tax + government take.
 - Norwegian Ministry of Finance. *St.meld. nr. 25 (1973–74)* (petroleum-policy "moderate pace" white paper).
 - Norwegian Offshore Directorate / Norwegianpetroleum.no — cumulative petroleum production.
