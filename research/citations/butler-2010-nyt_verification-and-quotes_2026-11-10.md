@@ -139,16 +139,16 @@ the answer to *why it went that way*. It uses no dashes and no comma-bounded ins
 > His decline had begun with a stroke in 2001 that left him unable to finish a sentence. Butler's mother
 > became his caregiver, and by the next year, at seventy-seven, she was on duty more than eighty hours a week.
 > That winter a cardiologist would not clear him for hernia surgery unless he had a pacemaker. Before the
-> stroke he had turned the same device down on the advice of his internist, who thought it was overtreatment.
+> stroke he had turned the same device down on the advice of their trusted primary-care doctor, who thought it was overtreatment.
 > Now he could no longer weigh the choice, so it fell to Butler's mother. Exhausted from caring for him, she
 > said yes, and the decision took minutes. The pacemaker kept his heart going while the rest of him failed. In 2006 she wrote in her journal: "My life is in ruins. This is horrible, and I have
 > lasted for five years."
 >
-> Nothing in the system had pushed the other way. The internist still opposed the device, and he was never
+> Nothing in the system had pushed the other way. Their doctor still opposed the device, and he was never
 > consulted. A meeting with him could have covered what the choice meant: that the battery would last ten years,
 > whether Butler's father wanted to live to eighty-nine "in his nearly mute and dependent state," and the option
 > of a temporary external pacemaker that could have seen him safely through the surgery. Medicare would have
-> paid the internist its standard office-visit rate of $54 for what would certainly have been a long meeting,
+> paid him its standard office-visit rate of $54 for what would certainly have been a long meeting,
 > and nothing for the phone calls needed to work out a plan with the other doctors. For the permanent device,
 > it paid the surgeon $461 and the hospital a flat fee of about $12,000, of which an estimated $7,500 went to
 > the company that made it. Butler believed her father's doctors did their best. No one in the system was paid
@@ -189,7 +189,15 @@ true once the device's last pulse is on the page. It probably does: the device d
 
 ---
 
-## 4. The author's reference question: "mother (or) wife?"
+## 4. The author's reference questions
+
+**The family's doctor (author, 2026-11-10):** call him "their trusted primary-care doctor" at first mention,
+then "their doctor" or "he." Not "internist" (Butler's word once, p. 2, but it reads as jargon), not "PCP"
+(insider shorthand), and not his name (Dr. Robert Fales is a living private individual; naming him needs the
+author's confirmation under the named-subject rule). "Trusted" is Butler's word (p. 2); "primary-care" is
+supported by p. 5 ("what primary-care doctors have long bemoaned," with Fales among "physicians like Fales").
+
+**"Mother (or) wife?"**
 
 **Use "Butler's mother" (or "her mother") throughout, for the same person, in both the opening and the
 close.** The account is a daughter's, and every mention in the article is "my mother." "His wife" switches
@@ -218,7 +226,7 @@ temporary external pacemaker, which was never presented. The author's reason: bo
 the story and show a system that rewards the most profitable option regardless of the patient's wellbeing.
 
 **What the article supports (use):**
-- The meeting with the internist never happened. Butler says it could have covered: "the pacemaker's battery
+- The meeting with the family's primary-care doctor never happened. Butler says it could have covered: "the pacemaker's battery
   would last 10 years"; "whether my father wanted to live to be 89 in his nearly mute and dependent state";
   and "the option of using a temporary external pacemaker that, I later learned, could have seen my dad
   safely through surgery" (p. 4).
