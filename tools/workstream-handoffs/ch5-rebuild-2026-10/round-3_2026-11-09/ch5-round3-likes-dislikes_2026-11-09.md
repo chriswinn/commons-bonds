@@ -207,3 +207,39 @@ chain") and then steps back down to the nation (2008) before turning to time.
   distance"; Ch 7 and Ch 10 say the pyramids ran on power with zero geographic distance. Check that Ch 5's
   "distance" is meant broadly, or adjust the line.
 
+## Author, 2026-11-10 (later): Earned roadmap's stop point, and the rings shape
+
+- **Earned roadmap's Baotou also fell flat after page one:** "the prose was a bit clunky and it didn't have
+  any pacing that made me want to keep reading beyond the first page. The transition after the first scene
+  had me naturally stop reading on two separate read throughs." Claude's earlier claim that Earned's opening
+  "works" is withdrawn. The stop point is the turn from the scene into the roadmap list and the abstract
+  thesis ("It works like this…"). **Lesson:** after an opening scene, don't halt the momentum with a roadmap
+  and a thesis. Carry the reader into the next case with a question, and name the pattern later (the author's
+  own first-redline direction: show, then name).
+- **The author's shape:** "starting at a connection to one's family. Then community. Then country. Then world
+  only to bring it back to something in your pocket showing you how it's all connected." Stakes rising toward
+  the reader also appeals.
+- **Claude's read: this beats both B and H as framed ("R", for rings).** The rings are the reader's circles of
+  belonging, not geographic scale, so the stakes stay tied to the reader at every step ("your" family,
+  community, country, world). That fixes B's falling stakes and keeps Out and back's whole opening scene. The
+  pocket is the climax and a turn: the reader has paid or watched their community pay in every ring, and the
+  cellphone shows they also benefit. No alibi, no villain. It hands off directly to "The pattern, named,"
+  which answers "how it's all connected."
+- **R in order (proposed; the author confirms):**
+  1. **Family:** Butler's room, told whole (Session 1's quotes and rewrite). End on a question, not a thesis.
+     Name the pattern in a sentence or two at most, and move the full statement (the author's lines "cashed
+     out," "left standing," "the bill comes due") to "The pattern, named."
+  2. **Community:** a family that can't pay asks its community (crowdfunding, short; nine in ten fall short;
+     the thinnest networks get the least); Libby (the dust on work clothes, in kitchens, on children's laps;
+     no attic); the fishing communities of the Gulf and Prince William Sound (the season stopped arriving).
+  3. **Country:** 2008 ("the alibi fails"; the author's own 2008; Mishel–Bivens and Hacker's risk shift
+     move here); Social Security (the compact between generations: parents' benefits, children's taxes).
+  4. **World:** Baotou (villages first: illness, birth defects, farmland).
+  5. **The pocket:** the cellphone in your pocket, and in mine. It's all connected.
+  6. **The pattern, named,** then the argument sections ("Who shaped the system?" opening on the chute line).
+  7. **Close:** the outermost ring is family again: the unborn, our descendants, "farther away than Baotou,
+     in time rather than space." A brief return to the room is optional. End on the bond question.
+- **Care points:** the opening needs a puzzle that the pocket answers, about the pattern, not a material
+  link (don't imply rare earths in pacemakers). The refrain can name the rings. The back half follows the
+  climax, so the argument sections still need the section-ending and opener fixes.
+
