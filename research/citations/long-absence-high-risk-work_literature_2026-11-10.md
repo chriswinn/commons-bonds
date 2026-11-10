@@ -128,3 +128,33 @@ work only by analogy; the hostile/non-hostile split suggests danger and absence 
 - Kahneman, Wakker & Sarin 1997: https://repub.eur.nl/pub/23011/QJE_1997_112_375.pdf
 - Wilson & Gilbert overview: https://www.danielgilbert.com
 - IZA dp16716: https://docs.iza.org/dp16716.pdf · EPA-hosted paper on job-risk measurement: https://www.epa.gov/sites/production/files/2014-12/documents/on_the_measurement_of_job_risk_in_hedonic_wage_models.pdf
+
+## 6. Traveling sales and business travel (added 2026-11-10, third pass)
+
+**No study of traveling salespeople specifically was found.** The nearest research is on frequent business travel
+and on long commutes. Abstract and press-summary level only.
+
+| Source | Finding | Check |
+|---|---|---|
+| Rundle et al. 2018, *Journal of Occupational and Environmental Medicine* (18,328 employees, cross-sectional) | Mental-health and behavioral outcomes worsened as nights away rose. 14+ nights a month scored worse on nearly every measure; at 21+ nights, depression was about 2.3 times and anxiety about 1.7 times as common as at 1–6 nights. | Associations, not causes. Read the paper for the exact ratios. |
+| Espino, Sundstrom, Frick, Jacobs & Peters 2002, *Occupational and Environmental Medicine* 59(5): 309–322 (World Bank staff and spouses) | Long and frequent trips and short-notice date changes harmed spouses and children; female spouses, spouses with children and younger spouses reported more stress. Same group: about half of spouses reported high or very high stress from the travel. | A press report adds "three times as likely to have mental health problems"; that may come from a companion paper. Do not use without checking. |
+| Sandow 2014, "Til Work Do Us Part: The Social Fallacy of Long-distance Commuting," *Urban Studies* 51(3): 526–543 (Swedish register data, 1995–2005) | Couples with a long-distance commuter (about 45 minutes or more each way) separated more often: about 14% against 10%, a 40% higher relative risk. Risk was highest in the first years and, for men, when the commuting was temporary; couples who commuted long-term (5+ years) did better. | Separation, not only divorce. The long-term effect is probably partly selection. |
+
+## 7. What is actually useful for the book
+
+Four findings carry the argument. The rest is context.
+
+1. **The cost falls hardest on those who did not see it coming.** Negrusa et al. 2014: couples married before 9/11
+   were hit harder. Sandow 2014: risk was highest early on, and for men when the arrangement was meant to be
+   temporary. This is the strongest support for "priced with the cost in view": the cost is largest where it was
+   least expected at signing.
+2. **The cost grows with time away.** Divorce risk per month deployed (Negrusa); mental health per night away
+   (Rundle); separation with commute length (Sandow). A cost that scales with exposure is a quantity, not an
+   anecdote, which is what a per-unit account needs.
+3. **The cost lands on the person at home.** Espino et al. 2002 and the rotation-work reviews: spouses carry the
+   stress, most of all with young children. Same shape as Butler's mother in Ch 5.
+4. **The danger is priced; the absence is not.** BLS and NIOSH show the danger; the wage literature finds a premium
+   for fatal risk; no study found tests pay for absence.
+
+**Not useful, or not yet:** effects on children (small on average); seafarer depression (causal evidence thin);
+FIFO divorce (no evidence); the "three times" spouse figure (unverified).

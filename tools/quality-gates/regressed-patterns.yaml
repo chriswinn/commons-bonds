@@ -1254,6 +1254,9 @@ patterns:
       against reintroducing it as real. MEDIUM (not HIGH) because Ch 5 legitimately
       contains the string AND is itself being rebuilt (line numbers will move) —
       re-pin the Ch 5 allowlist by content after the rebuild lands.
+      UPDATE 2026-11-10: the Ch 5 rings redraft drops the figure entirely (author
+      direction). At its promotion, REMOVE the Ch 5 allowlist entry and raise this
+      pattern to HIGH so the figure cannot return anywhere.
     origin:
       pass: "Lean-pipeline value review 3b ledger-amendment gate audit 2026-10-31"
       ratified: "2026-06-04 ledger $108T disavowal (Ch 5-landed 2026-06-09)"
