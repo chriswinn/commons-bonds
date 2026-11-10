@@ -1349,6 +1349,11 @@ patterns:
 # YAML parser in check-corpus-invariants.sh stops reading patterns at the first
 # column-0 `scope:` key, so any pattern entries placed after the scope block
 # were silently never loaded. Keeping scope last keeps every pattern active.)
+#
+# Since 2026-11-10 the parser skips comment and blank lines, so a column-0
+# `# ...` comment inside the patterns list no longer drops the entries below it.
+# A column-0 YAML KEY still ends the list, and the gate now warns whenever the
+# loaded count differs from the number of `  - id:` entries defined here.
 
 
 scope:

@@ -66,6 +66,14 @@ tools/scripts/check-corpus-invariants.sh --scope manuscript/chapters/Chapter__1_
 tools/scripts/check-corpus-invariants.sh --staged --severity HIGH
 ```
 
+### Registry format note (2026-11-10)
+
+Comment lines (`# ...`, at any indentation) and blank lines inside a registry's `patterns:` list are
+skipped. Before this fix, a comment at column 0 ended the list and silently dropped every entry after it.
+A column-0 YAML **key** (such as `scope:`) still ends the list, so keep `scope:` last. On every run the
+gate compares the number of `  - id:` entries in each registry with the number it loaded, and prints a
+`WARNING` to stderr if they differ.
+
 ### Allowlist mechanism
 
 Each pattern entry in the YAML registries supports a `allowlist:` list of `file: + line: + rationale:` tuples for known-legitimate substantive uses (e.g., `pressure-test` as a legitimate substantive verb in Ch 9 line 165; `settlement-ratified` in Ch 5 line 48).

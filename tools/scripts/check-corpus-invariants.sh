@@ -98,6 +98,8 @@ fi
 # Uses awk to extract from the flat YAML structure. Assumes:
 #   - Each pattern entry begins with `  - id: ...`
 #   - Indented fields follow until next `  - id:` or end of `patterns:` list
+#   - Comment lines (`#`, any indentation) and blank lines are skipped; only a
+#     column-0 YAML key (e.g. `scope:`) ends the `patterns:` list
 #   - Allowlist is captured as a JSON-ish array of strings (or [] empty).
 
 parse_yaml() {
@@ -112,6 +114,11 @@ parse_yaml() {
       allowlist = ""
     }
     /^patterns:/ { in_patterns = 1; next }
+    # Comment and blank lines are skipped, never treated as the end of the
+    # patterns list. (Before 2026-11-10 a column-0 `# ...` comment matched the
+    # top-level-key rule below and silently dropped every entry after it.)
+    /^[[:space:]]*#/ { next }
+    /^[[:space:]]*$/ { next }
     /^scope:/ {
       if (in_entry) {
         print REG "\t" id "\t" pattern "\t" ptype "\t" severity "\t" category "\t" allowlist
@@ -204,6 +211,24 @@ if [[ "$REGISTRY_TYPE" == "scaffolding" || "$REGISTRY_TYPE" == "both" ]]; then
 fi
 if [[ "$REGISTRY_TYPE" == "regressed" || "$REGISTRY_TYPE" == "both" ]]; then
   parse_yaml "$REGRESSED_YAML" "regressed" >> "$PATTERN_RECORDS"
+fi
+
+# Guard against silent drops: every `  - id:` entry defined in a registry must
+# load. A mismatch means the parser stopped early (e.g. a stray column-0 key).
+check_loaded_count() {
+  local yaml_file="$1" tag="$2" defined loaded
+  defined=$(grep -c '^  - id:' "$yaml_file" || true)
+  loaded=$(awk -F'\t' -v T="$tag" '$1==T' "$PATTERN_RECORDS" | wc -l | tr -d ' ')
+  if [[ "$defined" != "$loaded" ]]; then
+    echo "WARNING: $yaml_file defines $defined patterns but only $loaded loaded." >&2
+    echo "         Look for a column-0 YAML key inside the patterns: list." >&2
+  fi
+}
+if [[ "$REGISTRY_TYPE" == "scaffolding" || "$REGISTRY_TYPE" == "both" ]]; then
+  check_loaded_count "$SCAFFOLDING_YAML" "scaffolding"
+fi
+if [[ "$REGISTRY_TYPE" == "regressed" || "$REGISTRY_TYPE" == "both" ]]; then
+  check_loaded_count "$REGRESSED_YAML" "regressed"
 fi
 
 PATTERN_COUNT=$(wc -l < "$PATTERN_RECORDS" | tr -d ' ')
