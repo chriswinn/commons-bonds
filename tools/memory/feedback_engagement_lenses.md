@@ -37,7 +37,7 @@ flowing prose that compels them to keep reading once they have started," with go
 7. **Pull beats polish, so do both, separately.** Pull carries a reader over small rough spots, but
    polish cannot rescue a passage with no pull. Draft for pull; polish for grammar afterward.
 
-**Candidate lens 8 (developed with the author, 2026-11-09; awaiting confirmation): one scene to open,
+**Lens 8 (developed with the author, 2026-11-09; confirmed 2026-11-10): one scene to open,
 another only where it's earned, and a bridge where a distant cost needs bringing home.**
 
 - **One scene to open the chapter.** After that, a second scene only where it lands with real impact,

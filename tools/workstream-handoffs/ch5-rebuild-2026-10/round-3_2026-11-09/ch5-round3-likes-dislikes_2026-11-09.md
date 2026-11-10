@@ -249,3 +249,11 @@ chain") and then steps back down to the nation (2008) before turning to time.
 above: family, community, country, world, the pocket, then the pattern named, the argument sections and the
 close on the unborn. B and H are set aside.
 
+## Locked (author, 2026-11-10): "let's lock in your suggestions"
+
+All of Claude's proposed defaults above are accepted for Session 2, with structure R, lens 8 confirmed and
+the pace strategy ratified for the Ch 5 pilot. One addition: the line "The diagnosis is old; the
+contribution is the price" (in "The pattern, named") "doesn't resonate… we can do better." Keep the idea and
+rewrite it. The Session 2 paste text is
+`tools/workstream-handoffs/ch5-session2-kickoff_2026-11-10.md`.
+
