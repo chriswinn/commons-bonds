@@ -16,9 +16,9 @@ The American healthcare system has, over the past two decades, evolved a set of 
 
 2. **The racial-disparity layer within crowdfunding** — campaigns organized by individuals with distinctively African American or Hispanic surnames raise significantly less and are less likely to meet their goals than those with names perceived as white, even after controlling for location and time period.
 
-3. **End-of-life extraction** (Butler/pacemaker case) — the Medicare reimbursement structure pays $54 for a long conversation about treatment alternatives and $461 (plus ~$12,000 hospital flat fee) for pacemaker implantation. The liability architecture makes the procedure defensive; declining creates malpractice exposure. Both incentives point toward the procedure. Cost severance operating on the dying body.
+3. **End-of-life extraction** (Butler/pacemaker case) — Medicare would have paid the family's internist (who opposed the device) a standard office-visit rate of $54 for a long meeting and nothing for the phone calls; it paid $461 to the implanting surgeon plus a ~$12,000 hospital flat fee, of which an estimated $7,500 went to the device maker. Cost severance operating on the dying body. *(Corrected 2026-11-10 against the article; the earlier liability/malpractice claim is NOT in Butler's article. See `research/citations/butler-2010-nyt_verification-and-quotes_2026-11-10.md`.)*
 
-**The framework implication:** the healthcare-commons case is cost severance operating on individual medical and end-of-life vulnerability. Value captured by providers, hospitals, and device manufacturers. Cost externalized onto patients, families, unpaid caregivers (the 80-hour-week elderly-wife pattern the Butler case documents), and the public-health systems that absorb the downstream disability and distress.
+**The framework implication:** the healthcare-commons case is cost severance operating on individual medical and end-of-life vulnerability. Value captured by providers, hospitals, and device manufacturers. Cost externalized onto patients, families, unpaid caregivers (the 80-hour-week elderly-spouse pattern the Butler case documents), and the public-health systems that absorb the downstream disability and distress.
 
 ## The GoFundMe economy as structural indicator
 
@@ -45,22 +45,22 @@ This is cost severance operating through a second layer: the system that should 
 
 ## The end-of-life extraction case (Butler/pacemaker)
 
-This is the individual-scale illustration the sociology-paper source identifies as Tier 1 material. Reconstruction from the source, citing Katy Butler's 2010 reporting on her father's care:
+This is the individual-scale illustration the sociology-paper source identifies as Tier 1 material. Reconstruction from the source, citing Katy Butler's 2010 reporting on her father's care. **Verified against the article 2026-11-10; corrections are inline and the full fact table is in `research/citations/butler-2010-nyt_verification-and-quotes_2026-11-10.md`.**
 
 **The reimbursement architecture:**
-- Medicare reimbursement for a long office visit to discuss alternatives: **$54**
+- Medicare's standard office-visit rate, which it would have paid the internist for what would have been a long meeting (the meeting never happened); nothing for the phone calls to plan with the other doctors: **$54**
 - Surgeon fee for pacemaker implant: **$461**
-- Hospital flat fee for implant: **~$12,000** (nearly half to the device manufacturer)
+- Hospital flat fee for implant: **~$12,000**, of which an estimated **$7,500** went to the device maker, St. Jude Medical (about 62%; corrected 2026-11-10 from "nearly half")
 
-**The liability architecture:** performing the procedure protects from malpractice exposure; declining the procedure creates malpractice exposure. Both incentives point toward the procedure.
+**The liability architecture:** NOT IN BUTLER'S ARTICLE (checked 2026-11-10). The sociology-paper source's claim that performing the procedure protects against malpractice exposure needs its own citation and must not be attributed to Butler. What Butler documents is financial: "nobody makes money when medical interventions are declined" (p. 4); "The system rewarded nobody for saying 'no' or even 'wait'" (p. 5).
 
-**The outcome:** Butler's father spent 5+ years in profound cognitive decline with the pacemaker still functioning. His 80-year-old wife provided 80-hour weeks of unpaid caregiving — labor for which no compensation exists and no market instrument captures. The device manufacturer received approximately $6,000. The conversation that might have prevented the procedure was reimbursed at $54.
+**The outcome:** Butler's father lived about five more years after the implant (Jan. 2003 to April 2008) in deepening decline with the pacemaker still functioning. His decline began with a stroke in Nov. 2001, before the device. At 77 (in 2002, before the implant), Butler's mother was on duty more than 80 hours a week (corrected 2026-11-10 from "80-year-old"); a hired aide helped with showers. The device maker received an estimated $7,500 (corrected from "approximately $6,000"). The conversation that might have prevented the procedure never took place; it would have been paid at the $54 standard office-visit rate.
 
 From Butler's own account:
 
-> My parents had lost control of their lives to a set of perverse financial incentives — for cardiologists, hospitals, and especially the manufacturers of advanced medical devices — skewed to promote maximum treatment.
+> Even so, I watched them lose control of their lives to a set of perverse financial incentives — for cardiologists, hospitals and especially the manufacturers of advanced medical devices — skewed to promote maximum treatment. (p. 2; misquotation corrected 2026-11-10)
 
-**The structural argument:** The extraction does not stop at the grave. The system is organized around reaching into it. This is cost severance operating on the dying body: profit captured by the cardiologist, hospital, and device manufacturer; cost externalized onto the family as unpaid caregiving labor that appears on no ledger, onto the patient as prolonged decline, and onto the 80-year-old spouse as 80-hour caregiving weeks.
+**The structural argument:** The extraction does not stop at the grave. The system is organized around reaching into it. This is cost severance operating on the dying body: profit captured by the cardiologist, hospital, and device manufacturer; cost externalized onto the family as unpaid caregiving labor that appears on no ledger, onto the patient as prolonged decline, and onto his spouse (77 when the 80-hour weeks are documented) as 80-hour caregiving weeks.
 
 **The Quill distinction (1991, *NEJM*).** Timothy Quill's 1991 article articulates the distinction the financial system suppresses: the difference between prolonging *life* and prolonging *dying*. The reason this conversation remains structurally marginalized is not ethical — polling shows majority public support for end-of-life autonomy. The reason is financial: discussing withdrawal of treatment means discussing not billing for something the system is organized to bill for.
 
@@ -70,7 +70,7 @@ This is the medical-commons equivalent of the coal-dust-regulation resistance do
 
 ### Three tiers visible in the case set
 
-**Tier 1 (Lifetime Survival)** — visible in the end-of-life extraction case. Butler's father's 5+ years of cognitive decline under an unnecessary pacemaker are Tier 1 at the final phase of a lifetime rather than the extractive phase.
+**Tier 1 (Lifetime Survival)** — visible in the end-of-life extraction case. Butler's father's ~5 years of deepening decline under a pacemaker his internist considered overtreatment are Tier 1 at the final phase of a lifetime rather than the extractive phase.
 
 **Tier 3 (Lineage Labor) at the caregiver scale** — Butler's mother's 80-hour caregiving weeks are Tier 3 operating in reverse-direction across a generation. The pattern the Appalachian coal case documented at the workforce-formation level (children paying the lineage cost of parents' extraction-community collapse) operates here in the opposite direction: an elderly spouse absorbing the care cost of a medical decision that served the providers and the device manufacturer. [Renamed from "Dynastic Labor" → "Lineage Labor" 2026-04-30 per Insight #56 RATIFIED.]
 
