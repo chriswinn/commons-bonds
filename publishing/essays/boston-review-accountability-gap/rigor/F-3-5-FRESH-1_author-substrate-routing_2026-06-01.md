@@ -126,6 +126,35 @@ If author selects HOLD path:
 
 ---
 
-*End of F-3.5-FRESH-1 author-substrate routing artifact — PROPOSED-FOR-AUTHOR-DECISION 2026-06-01.*
+---
+
+## §6. Amendment D UPGRADE NOTE — 2026-06-02
+
+**Amendment D reweighting upgrades this finding's priority from LOW (cost-constrained framing) to MEDIUM (Amendment-D-weighted framing).** Source: [`pass-3-5_V-E_FRESH_AMENDMENT-D_2026-06-02.md`](pass-3-5_V-E_FRESH_AMENDMENT-D_2026-06-02.md) (Pass 3.5 Amendment-D-weighted fresh re-fire on V-E surface).
+
+### §6.1 Why the upgrade
+
+Pre-Amendment-D, the §V SCF + DFA spot-graft (F-3.5-FRESH-3) was the MEDIUM-priority Pass 3.5 finding because it lifted C-10 Stone Center reviewer ✓✓→✓✓✓. Under Amendment D, **C-10 is a PROJECTED-DOWNSTREAM (LOWER) reader; its weighted lift is smaller than the un-weighted lift suggested.** Meanwhile F-3.5-FRESH-1 §I Schneider sensory expansion lifts C-1 BR editorial brain (CONSULTANT — HIGH weight) + C-13 extraction-affected reader (DIRECT — HIGHEST weight) + C-16 EJ-movement reader (DIRECT — HIGHEST weight). Under reception-chain weighting, this is the highest-leverage marginal Pass 3.5 restoration available on V-E surface.
+
+### §6.2 The discipline-paradox this finding now exposes
+
+The highest-leverage marginal restoration available on V-E is **gated on author substrate access**, not on Claude generation. The substrate-safety discipline ([`feedback_no_invented_factual_claims_in_publisher_facing_prose.md`](../../../../tools/memory/feedback_no_invented_factual_claims_in_publisher_facing_prose.md)) binds the same way it did pre-Amendment-D — Claude cannot generate Libby-family vignettes or Schneider-newsroom scenes. Amendment D's reweighting simply makes the *value* of the substrate-safe author-authored expansion higher than my prior framing reflected.
+
+### §6.3 Re-recommendation under Amendment D
+
+Default recommendation is now **AUTHOR-AUTHORS-IF-FEASIBLE** rather than **HOLD-AT-V-E-AS-DEFAULT**. The trade matrix changes:
+
+- Under cost-constrained framing: marginal benefit was modest (LOW-priority lift); substrate-verification cost was meaningful; default = HOLD.
+- Under Amendment-D framing: marginal benefit is meaningful (MEDIUM-priority lift; CONSULTANT + 2 DIRECT readers); substrate-verification cost is unchanged; default shifts to AUTHOR-AUTHORS-IF-FEASIBLE.
+
+The if-feasible clause still binds on (a) author substrate access (the actual 1999 SP-I reporting + Schneider+McCumber 2006 *An Air That Kills*), (b) author's editorial-discipline judgment about whether §I needs the deepening, and (c) author's time-budget calculation about whether one more iteration cycle fits the BR submission window.
+
+### §6.4 Discipline lesson surfaced by the upgrade
+
+The same Pass 3.5 finding flipped MEDIUM → LOW (F-3.5-FRESH-3) and LOW → MEDIUM (F-3.5-FRESH-1) under the same Amendment D reweighting. Per-finding leverage assessment is **artifact-class-class + reception-chain-weight dependent**, not absolute. The pre-Amendment-D V-D fresh re-audit prioritized findings correctly under its (now-superseded) framework; the Amendment-D re-audit re-prioritizes correctly under the current doctrine. Neither is wrong; they reflect the framework state at the time each fired.
+
+---
+
+*End of F-3.5-FRESH-1 author-substrate routing artifact — Amendment D UPGRADE NOTE appended 2026-06-02.*
 
 **STATE: F-3.5-FRESH-1 §I Schneider sensory expansion ROUTED-TO-AUTHOR-AS-STRUCTURE-ONLY-FINDING; NEXT: author-decision-AUTHOR-AUTHORS-vs-HOLD-AT-V-E; AWAITING: author-confirmation**
