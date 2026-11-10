@@ -172,3 +172,38 @@ chain") and then steps back down to the nation (2008) before turning to time.
   mother's eighty-hour weeks), not "benefits from the dead," which would cut against the no-villain reading.
   Time and the unborn have no natural place in a zoom inward.
 
+## Author, 2026-11-10: B picked; then a clarification that reopens it (discussion in progress)
+
+- **Author picked B.** Then clarified: "I didn't pass over the spine because of the spine. I passed over
+  [it] because I live on a boat and you drafted it as though everyone lives in a house and it felt foreign &
+  contrived to me. The flow however was my favorite part of the other version." So Claude's objection to C
+  ("you've already passed over this spine") was wrong, and the house assumption is the real lesson (see lens
+  8, relationships before objects). Out and back's town section still opens on the attic; replace it.
+- **Claude's synthesis (H), offered for the author's choice between B and H:** open in the room with the
+  question only (the mother's request, "Please help me get Jeff's pacemaker turned off"); jump to the farthest
+  place (Baotou: villages, then the cellphone); come closer case by case (coasts, Libby: the reader benefits
+  at a distance); turn at 2008 (now the reader pays); Social Security (parents' benefits, children's taxes);
+  arrive back in the room with the answer (what happened, the fees, the eighty hours, her own words); then
+  the crowdfunding evidence as the generalization ("rooms like it are in every town"); the argument sections;
+  close on the one distance that can't close, the unborn ("farther away than Baotou, in time rather than
+  space"), and the bond question. It keeps Out and back's opening, Earned roadmap's closing-distance flow and
+  Roadmap first's turn from benefiting to paying, with no house. Stakes rise at every step. Risk: a bigger
+  restructure than a pull pass, and the opening must hold back the answer without feeling coy.
+- **Page-two drop (discussion):** right after the heartbreak, "A household" changes the subject from one
+  family to fundraising platforms, opens on a scale announcement and runs ~500 words through six sources with
+  no person. Statistics generalize a story, so they belong after the story they generalize, and short. Under
+  H the problem goes away (crowdfunding follows the completed Butler story). Under B: open on community (a
+  family that can't pay asks the people who know it), give the outcomes as the punch, and keep it short.
+  Either way, move Mishel–Bivens and Hacker's risk shift to the 2008 section, where the draft itself says the
+  risk shift "will turn up again."
+- **"Who shaped the system?" (discussion):** as drafted it asks who wrote today's rules that sent the cost
+  where it went (lobbying and captured regulators: Libby, the Minerals Management Service, the 1999–2000
+  deregulation, the Medicare drug-price ban). It is the book's bridge to Public Choice readers. The deep
+  history the author remembers (the pharaohs and the pyramids, the Qin emperor and the Great Wall) lives in
+  Ch 7 and Ch 10, where it shows the severance itself is ancient and can run on power with no distance at all.
+  Claude's recommendation: keep the history there; open the section on its own best line, now buried third:
+  "The ledger shows where the cost landed, but it does not show who built the chute it slid down."
+- **Cross-chapter coherence flag for Session 2's critic read:** Ch 5 says the mechanism "needs only
+  distance"; Ch 7 and Ch 10 say the pyramids ran on power with zero geographic distance. Check that Ch 5's
+  "distance" is meant broadly, or adjust the line.
+
