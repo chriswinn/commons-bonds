@@ -16,16 +16,24 @@ The evidence is **more mixed than the intuition**. It supports a narrow claim we
   more psychological distress than comparable workers; separation from family is the stressor seafarers rank
   first; partners at home are lonelier and sleep worse while the worker is away; the people hit hardest are those
   new to the arrangement and those with young children.
-- **Not supported:** that these jobs reliably damage marriages or children. The largest reviews call the effect on
-  partners and children "unclear." One classic study concluded the effects "have been exaggerated." Reviews found
-  no good evidence of higher family breakdown. Military-deployment meta-analyses find small or negligible average
-  effects on children.
+- **Supported for military deployment (REVISED 2026-11-10, second pass):** damage to marriages. A study of about
+  462,000 enlisted service members found each additional month deployed raised the risk of divorce, more so for
+  hostile deployments, and more so for couples who married before 9/11 and expected far less deployment than they got.
+- **Unclear for civilian rotation work:** the reviews of offshore, mining and seafaring families call the effect on
+  partners and children "unclear"; one classic study said effects "have been exaggerated"; reviews found no good
+  evidence of higher family breakdown. These are mostly small surveys of people still in the job, which misses
+  those who left or whose marriages had already ended.
+- **Small on average:** effects on children in military-deployment meta-analyses.
 - **Not found:** any study that measures whether the wage premium in these jobs pays for the family cost. The
   wage literature measures pay for fatal risk. It does not measure pay for absence.
 
-So the defensible statement is not "these jobs wreck families." It is: **the wage is known to price the danger;
-whether it prices the absence has not been measured; the family cost is real for some, uneven, and hard for an
-individual to predict before living it.**
+So the defensible statement is: **the wage is known to price the danger; whether it prices the absence has not
+been measured; long, dangerous absence measurably raises divorce in the one large records-based study (military);
+the cost grows with time away and falls harder on those who could not see it coming; civilian evidence is too thin
+to show it either way.**
+
+**Correction note.** The first pass of this note (earlier the same day) searched military deployment for children's
+outcomes only and so understated the evidence on marriages. The author's challenge prompted the second pass.
 
 ## 1. How dangerous the work is
 
@@ -64,6 +72,13 @@ matters: "deadliest job" is truer of the 1990s crab fleet than of today's.
 | Zvonkovic, Solomon, Humble & Manoogian 2005, *Family Relations* 54(3): 411–422 | Qualitative study of families of men whose jobs require travel. **Sample occupations not confirmed by search** (believed to include commercial fishermen and long-haul truckers; check the paper). |
 | Card et al. 2011, *Journal of Family Psychology* (meta-analysis, 16 studies, military deployment) | Small to negligible association between a parent's deployment and children's adjustment; strongest in middle childhood. |
 | 2019 meta-analysis (military deployment) | More problem behavior in children of deployed parents; effect sizes small. |
+| **Negrusa, Negrusa & Hosek 2014**, "Gone to war: have deployments increased divorces?" *Journal of Population Economics* 27(2): 473–496 (administrative records, about 462,000 enlisted members, 1999–2008) | Each additional month deployed raised the divorce hazard. Larger for hostile deployments, for female service members and for dual-military couples. **Larger for couples married before 9/11**, which the authors tie to their lower expectation of deployment. Lower risk in families with children (per RAND's release). |
+| Karney & Crown 2007, *Families Under Stress* (RAND; 1996–2005 data) | Earlier, opposite finding: in most cases deployed members had a lower later risk of ending their marriages. Dissolution rates rose after 2001. Superseded for the long-war period by the 2014 study. |
+
+**Weighting.** The 2014 study is the strongest single source in this note: largest sample, records not surveys,
+and it measures divorce itself. Its pre-9/11 result is direct evidence that a cost falls harder on people who did
+not expect it when they committed. **Caution:** deployment adds combat exposure, so apply it to fishing or offshore
+work only by analogy; the hostile/non-hostile split suggests danger and absence each matter.
 
 ## 4. Why a person cannot price it in advance
 
@@ -105,6 +120,8 @@ matters: "deadliest job" is truer of the 1990s crab fleet than of today's.
 - Clover Taylor & Simmonds 2009 (FIFO family roles): https://groups.psychology.org.au/Assets/Files/Taylor-21(2)-2009.pdf
 - Seafarers' wives (Norway): https://journals.viamedica.pl/international_maritime_health/article/download/26295/21089
 - Zvonkovic et al. 2005: https://ec.msvu.ca/items/a571ae41-036d-43ba-bf06-0c1016b01076/full
+- Negrusa, Negrusa & Hosek 2014: https://econpapers.repec.org/RePEc:spr:jopoec:v:27:y:2014:i:2:p:473-496 · RAND release: https://www.rand.org/news/press/2013/09/03.html
+- Karney & Crown 2007 (catalog record): https://libcat.library.tamu.edu/Record/in00003894745
 - Card et al. 2011 (record): https://bvbvf1.bib-bvb.de/vufind/PrimoRecord/cdi_proquest_miscellaneous_884121730 · 2019 meta-analysis: https://www.pubmed.gov/31249614/
 - Mathony & Messerli 2023 (on Paul): https://link.springer.com/article/10.1007/s10670-022-00523-z
 - Loewenstein, O'Donoghue & Rabin 2003: https://econpapers.repec.org/RePEc:oup:qjecon:v:118:y:2003:i:4:p:1209-1248.
