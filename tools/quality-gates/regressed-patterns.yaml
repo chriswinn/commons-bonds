@@ -849,8 +849,8 @@ patterns:
         line: 1416
         rationale: "SUBSTANTIVE naming-history: §5.1.2 explains why the working label was rejected for Restitution Bond (re-pinned 2026-06-11 after §3.6 reef-row +23-line shift)"
       - file: "manuscript/chapters/Chapter__5_TheAccountabilityGap.md"
-        line: 202
-        rationale: "SUBSTANTIVE naming-discipline exposition — the chapter twin of the TA §5.1.2 entry above. The paragraph explains why the instrument is NOT called the 'Reparations Bond' ('would be to narrow the umbrella to one historically specific application'), the single intentional use of the deprecated label to reject it. Not a regression. Added 2026-06-18 on chapter-scope re-enable; re-pin if Ch 5 shifts."
+        line: 253
+        rationale: "SUBSTANTIVE naming-discipline exposition — the chapter twin of the TA §5.1.2 entry above. The paragraph explains why the instrument is NOT called the 'Reparations Bond' ('would narrow that umbrella to one historically specific application'), the single intentional use of the deprecated label to reject it. Not a regression. Added 2026-06-18; RE-PINNED 2026-06-25 (was line 202) for the rebuild-staged Ch5 whole-cloth draft. RE-PIN AGAIN after author redline shifts lines / when the REBUILD-STAGED marker comment is removed at finalization."
 
   - id: regressed-term-resource-foreclosure-bond
     pattern: 'Resource-Foreclosure Bond'
