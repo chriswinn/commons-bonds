@@ -243,3 +243,9 @@ chain") and then steps back down to the nation (2008) before turning to time.
   link (don't imply rare earths in pacemakers). The refrain can name the rings. The back half follows the
   climax, so the argument sections still need the section-ending and opener fixes.
 
+## Decision (author, 2026-11-10): structure R (rings)
+
+"I think rings does the work the chapter needs to do." Session 2 restructures Out and back to R as outlined
+above: family, community, country, world, the pocket, then the pattern named, the argument sections and the
+close on the unborn. B and H are set aside.
+
