@@ -7,7 +7,7 @@ sample was edited.
 
 **Author's protection rule (2026-11-10):** every quotation, the father's sayings, and all facts and numbers
 stay as they are; everything else is open for pace. I also held the grandfather's, the colleague's, the
-nurses', the children's and the nephew's words verbatim. No fact, scene or memory was added.
+children's and the nephew's words verbatim. The nurses' request is the author's paraphrase, so it was split for pace (L10). No fact, scene or memory was added.
 
 ## Question map
 
@@ -38,6 +38,7 @@ nurses', the children's and the nephew's words verbatim. No fact, scene or memor
 | L7 | **Lists build without "and" where it adds momentum:** the smaller lives ("a tiny house on the coast, a cabin in the woods, a boat"), the options a coal miner lacks. | Lens 5 |
 | L8 | **One added framing line, no new fact:** "The apartment and the house both looked like good deals on paper. Each time, the question I failed to ask was the simplest one: is this the full accounting?" It plants the book's running test (pace strategy) right before "This is an honest accounting." **Author's call: keep or cut.** | Pace (book question) |
 | L9 | "The man my own son would never meet was my grandfather" flattened to "My son would never meet my grandfather." The nickname aside moves into the same sentence. | Lens 6 |
+| L10 | **The nurses' request, split** (author, 2026-11-10: it was paraphrased, so use judgment). The single 61-word sentence becomes three, ending on their question: "…so many babies and so few of them. Could I come and lie back in the chair beside his bed and let them set him on my chest?" | Lens 3; checker HIGH cleared |
 
 ## Checks
 
@@ -45,8 +46,8 @@ nurses', the children's and the nephew's words verbatim. No fact, scene or memor
   All present and unchanged. One I had reordered (the station worker's storm line) was restored.
 - **Figures:** the same 25 distinct figures as the current chapter, with none added or dropped. A few repeats
   ("thirty-six hundred dollars" twice) now appear once.
-- **check-prose-clarity.py:** **0 interrupted clauses**. One HIGH and one comma-stacked flag remain, and
-  both are the nurses' words, a protected 61-word sentence the current chapter has too.
+- **check-prose-clarity.py:** **HIGH 0, 0 interrupted clauses, 0 comma-stacked** (current chapter: 3 HIGH,
+  16 MEDIUM).
 - **check-corpus-invariants.sh:** clean on both versions (123 patterns loaded, no warning).
 - **Reuse:** about 20 percent of the redraft's words match the current chapter sentence for sentence. Most
   of that is the protected sayings and short factual sentences.
