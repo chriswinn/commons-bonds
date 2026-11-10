@@ -428,4 +428,4 @@ The V-D HYBRID submission cut clears Pass 3.2 voice-polish single-site light re-
 
 ---
 
-**STATE: ch3-atlantic-main-V-D-pass-3-2-single-site-light-re-fire RATIFIED + APPLIED 2026-06-01 (verdict PASS; 0 HIGH / 0 MEDIUM / 7 LOW findings — all 7 LOW recommend PRESERVE V-D; zero spot-fix application required; ratified as-PASS per author standing ratification 2026-06-01 + publication-probability-as-only-optimization framing); NEXT: parent-commits-+-pushes-+-stage-5-light-re-sign-off; AWAITING: parent-confirmation-of-stage-5-spawn**
+**STATE: ch3-atlantic-main-V-D-pass-3-2-single-site-light-re-fire PROPOSED (verdict PASS; 0 HIGH / 0 MEDIUM / 7 LOW findings — all PRESERVE V-D); NEXT: parent-commits-+-pushes-+-stage-5-light-re-sign-off; AWAITING: parent-confirmation**
