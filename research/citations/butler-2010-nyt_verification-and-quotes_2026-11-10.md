@@ -145,11 +145,17 @@ the answer to *why it went that way*. It uses no dashes and no comma-bounded ins
 > lasted for five years."
 >
 > Nothing in the system had pushed the other way. The internist still opposed the device, and he was never
-> consulted. Had Butler's mother sat down with him, Medicare would have paid him its standard office-visit rate
-> of $54 for what would certainly have been a long meeting, and nothing for the phone calls needed to work out
-> a plan with the other doctors. For the implant, it paid the surgeon $461 and the hospital a flat fee of about
-> $12,000, of which an estimated $7,500 went to the company that made the device. Butler believed her father's
-> doctors did their best. No one in the system was paid to say wait.
+> consulted. A meeting with him could have covered what the choice meant: that the battery would last ten years,
+> whether Butler's father wanted to live to eighty-nine "in his nearly mute and dependent state," and the option
+> of a temporary external pacemaker that could have seen him safely through the surgery. Medicare would have
+> paid the internist its standard office-visit rate of $54 for what would certainly have been a long meeting,
+> and nothing for the phone calls needed to work out a plan with the other doctors. For the permanent device,
+> it paid the surgeon $461 and the hospital a flat fee of about $12,000, of which an estimated $7,500 went to
+> the company that made it. Butler believed her father's doctors did their best. No one in the system was paid
+> to say wait.
+
+*(Third paragraph revised 2026-11-10 per the author's §6 decision: adds the meeting's content and the
+temporary external pacemaker. Adds a fourth quotation, 7 words; total quoted 39.)*
 
 Then the existing Gawande paragraph follows unchanged. Its "how a room like this gets produced" still reads
 correctly. In the next paragraph, "A cost came with it, in years of decline and in a caregiver's exhausted
@@ -195,8 +201,58 @@ because "her mother" anchors the sentences on both sides.
 
 ## 5. Hand-off to Session 2
 
-- Use only the facts in §1 marked "In the article," with the corrections in rows 3, 6, 7, 9 and 11.
-- Quotations: Q1–Q3, or swap one for an alternate. Keep the total quoted words at 45 or fewer.
+- Use only the facts in §1 marked "In the article," with the corrections in rows 3, 6, 7, 9 and 11, **plus the
+  two facts the author approved in §6.** This is the one sanctioned exception to "no new facts" for Butler.
+- Quotations: Q1–Q3, plus Q4 ("in his nearly mute and dependent state," 7 words) if §6's paragraph is used.
+  Keep the total quoted words at 45 or fewer.
 - Reference: "her mother."
 - §3 is a starting point under the usual pull-pass rules (one-pass readability; at most one dash pair per
   paragraph). The author's redline governs.
+
+---
+
+## 6. Author decision (2026-11-10): two facts added to the Butler story
+
+**Approved for Session 2 (author):** (1) the $54 conversation, told by what it would have covered, and (2) the
+temporary external pacemaker, which was never presented. The author's reason: both are directly relevant to
+the story and show a system that rewards the most profitable option regardless of the patient's wellbeing.
+
+**What the article supports (use):**
+- The meeting with the internist never happened. Butler says it could have covered: "the pacemaker's battery
+  would last 10 years"; "whether my father wanted to live to be 89 in his nearly mute and dependent state";
+  and "the option of using a temporary external pacemaker that, I later learned, could have seen my dad
+  safely through surgery" (p. 4).
+- The permanent device is the option that was paid: $461 to the surgeon and about $12,000 to the hospital,
+  of which an estimated $7,500 went to the device maker (pp. 4–5).
+
+**What the article does not support (keep out of the prose):**
+- **That the temporary pacemaker would have satisfied a surgeon's legal liability.** Butler never mentions
+  liability; she says only "safely through surgery."
+- **That the permanent device paid "way more" than the temporary one.** The article gives no cost for the
+  temporary option. The prose may set the paid option beside the undiscussed one; it may not claim a cost
+  comparison.
+- **"Pushed by the surgeon."** The cardiologist (Dr. Rogan) refused to clear him for surgery without a
+  pacemaker; the general surgeon implanted it. "I later learned" means the article doesn't say whether any
+  doctor weighed the temporary option and withheld it.
+- **"Completely dependent."** Butler's words are "nearly mute and dependent."
+
+**On intent ("a system intentionally designed to take as much profit as possible").** Butler writes that her
+father's doctors "did their best within a compartmentalized and time-pressured medical system" (p. 4), and
+the chapter's Gawande paragraph holds that no clinician has to choose extraction. Making the bedside
+decision malicious would contradict both. The article locates intent elsewhere:
+- Dr. Ted Epperly (board chairman, American Academy of Family Physicians): the incentives for overtreatment
+  continue "because those who profit from them — specialists, hospitals, drug companies and the
+  medical-device manufacturers — spend money lobbying Congress and the public to keep it that way" (p. 5).
+- The 2009 House health-reform bill included "much better payments for such conversations," and the
+  provision was dropped after it "was distorted as reimbursement for 'death panels'" (p. 4).
+
+**Optional line (author's call; would add the Epperly fact):** the decent-people framing stays at the bedside
+and the intent goes where the record puts it. For example: *The doctors in that room did their best. The
+incentives in front of them are kept in place by those who profit from them, who spend money lobbying to keep
+it that way.* (The second sentence paraphrases Epperly; attribute it to him if used.) This fits the
+framework's distinction: structural allocation is the mechanism, and it doesn't need anyone at the bedside
+to intend it.
+
+**Not adopted, for the record:** Medicare began paying for advance-care-planning conversations in 2016. That
+comes from general knowledge, not the article; source it independently before any use (the natural home is
+the restitution section, not the opening).
