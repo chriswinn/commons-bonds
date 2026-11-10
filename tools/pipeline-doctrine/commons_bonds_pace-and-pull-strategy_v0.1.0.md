@@ -1,6 +1,6 @@
 # Pace and pull: a book-wide strategy (v0.1.0)
 
-**Status:** PROPOSED (Claude, 2026-11-10), from a discussion with the author. Awaiting the author's reaction.
+**SUPERSEDED by `commons_bonds_pace-and-pull-strategy_v0.1.1.md`.** **Status:** PROPOSED (Claude, 2026-11-10), from a discussion with the author. Awaiting the author's reaction.
 Ch 5 is the pilot. If it holds, this goes into the drafting process before all chapters are rerun.
 Companion to `tools/memory/feedback_engagement_lenses.md` (the lenses handle sentences and paragraphs;
 this handles sections, chapters and the book). Guidelines, not rules or targets.
