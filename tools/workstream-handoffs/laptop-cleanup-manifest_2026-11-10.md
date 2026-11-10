@@ -54,17 +54,26 @@ The local branches these worktrees were on (both rescue branches and the two
 original feature branches) still exist locally and on origin; none were
 deleted.
 
-## 3. Left in place — NOT removed (blocked by the no-`--force`/no-`git clean` rules)
+## 3. Removed in follow-up (author-approved, 2026-11-10) — all 17 dirty worktrees + 1 empty orphan
 
-All of these are dirty, so `git worktree remove` refuses them without `--force`
-or `git clean`. Their content is fully saved on origin, so removal would lose
-nothing — it is purely a mechanism choice awaiting the author's decision.
+After the initial 11-worktree batch, the author approved removing all remaining
+dirty folders. Each was removed WITHOUT `--force` and WITHOUT `git clean`: every
+dirty file was re-verified safe on origin (identical to `origin/main`, or captured
+in `claude/rescue-agent-worktrees-20261110`, or `__pycache__` junk), then the
+confirmed-safe files were cleared (`git restore` for tracked mods; literal-path
+`rm` for untracked; tolerance via `git rebase --abort`) and the worktree dropped
+with plain `git worktree remove` (no `--force`).
 
-| Folder | Why left | Content status |
+| Folder | How removed | Content status |
 |---|---|---|
-| commons-bonds-ta-bibconsol-21deaf | Dirty: leftover `tools/back-matter/__pycache__/build.cpython-314.pyc` (junk) | Real file rescued (`fb256fe6`); only junk remains |
-| commons-bonds-tolerance-spot-fix-260611-2c3b1b | Mid-rebase (interactive; replaying `be373a7b` onto `c7c133bb`, conflict in `STATE.md`) | Unpushed commit rescued (`be373a7b`); `onto` base `c7c133bb` already on origin/main |
-| `.claude/worktrees/agent-*` (15 worktrees) | Dirty: untracked rigor/draft files | 12 files already byte-identical to origin/main; 8 differing/new files rescued (`053a90dd`) |
+| `.claude/worktrees/agent-*` (15 worktrees) | cleared confirmed-safe files, then `git worktree remove` | 12 untracked files already identical to origin/main; 8 rescued (`053a90dd`) |
+| commons-bonds-ta-bibconsol-21deaf | removed `__pycache__/.pyc` junk, then `git worktree remove` | Real file rescued (`fb256fe6`) |
+| commons-bonds-tolerance-spot-fix-260611-2c3b1b | `git rebase --abort` (→ `be373a7b`, clean), then `git worktree remove` | Unpushed commit rescued (`be373a7b`) |
+| `.claude/worktrees/exciting-heyrovsky-327780` | `rmdir` (empty skeleton, 0 files) | Nothing to save — empty leftover dirs from May 26 |
+
+Local branch refs for these worktrees were NOT deleted (branch pruning deferred —
+see §7). Final worktree state: only the main checkout at
+`/Users/c17n/commons-bonds` remains.
 
 ## 4. Agent-worktree rescue detail (§1 branch `claude/rescue-agent-worktrees-20261110`)
 
@@ -98,14 +107,14 @@ clean. Note: `origin/main` advanced during the session (observed
 
 ## 7. Not done — waiting on the author
 
-- **Dirty-but-safe folders (§3):** decide leave / `rm` only the already-saved
-  files then remove (no `--force`) / `--force` these specific folders.
-- **tolerance-spot-fix:** decide leave as-is / abort the rebase then remove /
-  `--force` remove. (Work already saved as `be373a7b`.)
-- **Local branch pruning:** 60+ stale `claude/*` branches remain. `git branch -d`
-  would safely delete those fully on origin and refuse any with unpushed commits
-  (several exist, e.g. `book-proposal-tier1` +87, `atlantic-ideas-package-ratification`
-  +39). Not run — treat as its own reviewed batch.
+- **Dirty-but-safe folders + tolerance-spot-fix:** DONE — all removed in the
+  author-approved follow-up (see §3). Final worktree state: only the main
+  checkout at `/Users/c17n/commons-bonds` remains.
+- **Local branch pruning:** 60+ stale `claude/*` branches remain (including the
+  13 `claude/rescue-*-20261110` snapshots). `git branch -d` would safely delete
+  those fully on origin and refuse any with unpushed commits (several exist,
+  e.g. `book-proposal-tier1` +87, `atlantic-ideas-package-ratification` +39).
+  Not run — treat as its own reviewed batch.
 
 ---
 Rescue branches are preservation snapshots, not merge requests. Decide per
