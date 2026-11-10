@@ -132,7 +132,7 @@ These are credibility risks where the source says something materially different
 - **Libby 80% world vermiculite / Zonolite 35M homes / Grace knew 1963** — EPA Superfund Site Profile; EPA vermiculite page; DOJ. ⚠ "$100M lifetime revenue" UNSOURCED (see §4); "35M homes" = EPA estimate, phrase "as many as."
 - **Deepwater Horizon BP ~$60-65B / $20B settlement** — BP final estimate $61.6B (June 2016); DOJ $20.8B (April 2016). ⚠ "$60B Gulf revenue / Macondo 40-60M bbl $3-4B" sub-figures UNSOURCED.
 - **DWH 4.9M barrels / 87 days / 11 killed** — U.S. federal estimate; NOAA. Fully corroborated.
-- **DWH BP-Mexico ~$25M (2018)** — BuzzFeed News; Vice ($25.5M). ⚠ "per mile of coastline" is author's framing; journalistic sources.
+- **DWH BP-Mexico ~$25M (2018)** — BuzzFeed News; Vice ($25.5M). ⚠ "per mile of coastline" was an earlier Claude drafting session's framing, not the author's (corrected 2026-11-10); journalistic sources.
 - **2008: TARP $700B / HAMP GAO criticism** — EESA 2008; GAO-10-531 etc. ⚠ Completed foreclosures usually ~4M (book says ~5M); pin CoreLogic/RealtyTrac + name specific GAO HAMP reports (GAO-12-783/SIGTARP).
 - **GoFundMe 438K campaigns / >$2B / 21.7M donations / <12% met goals / 16% zero** — Kenworthy & Igra, *AJPH* 112(3):491-498 (2022); KFF Health News 2024 (25× growth). Precise. Pin CEO quote to specific interview.
 - **GoFundMe racial disparity** — *Health Affairs Scholar* 2(3):qxae027 (2024); Saleh et al. *JMIR* 2023; Silver et al. *Soc Sci Med* 2023. Robust; confirm which paper author intends for surname method.
