@@ -61,6 +61,12 @@
 |---|---|---|
 | **Render-toolchain containerization** — **COMPLETED 2026-05-18.** Produced the canonical apt-based installer ([`install-render-toolchain.sh`](../scripts/install-render-toolchain.sh)) + Dockerfile ([`Dockerfile.render`](../scripts/Dockerfile.render)) + SessionStart hook ([`.claude/settings.json`](../../.claude/settings.json)) + CI render-verify workflow ([`render-verify.yml`](../../.github/workflows/render-verify.yml)) + fixtures. Resolves Stage 4 doctrine §3.3 canonical-pipeline OPEN flag: Docker (laptop via Colima) + remote-container (Anthropic cloud) share one apt-installed canonical toolchain. Chrome intentionally NOT installed (wkhtmltopdf canonical for HTML→PDF per Sandy packet `e6ddf92`). Strict `--platform=linux/amd64` pinning. | [`render-toolchain-containerization-handoff_2026-05-18.md`](render-toolchain-containerization-handoff_2026-05-18.md) | `claude/render-toolchain-containerization-` |
 
+### Added 2026-06-01 (portfolio triangulation discipline)
+
+| Workstream | Handoff file | Recommended branch prefix |
+|---|---|---|
+| **Portfolio triangulation discipline** — PROPOSED 2026-06-01. Codifies three-audit triangulation (drafter's-self-audit + prior-independent + fresh-second-independent) as the default discipline for Wave 2+ derivative essays at the Pass 3.3 + 3.4 + 3.5 explicit-gate cascade. Wave 2 portfolio inventory + per-essay activation plan + PM-dashboard-integration spec + memory-entry draft at [`../memory/feedback_portfolio_triangulation_discipline.md`](../memory/feedback_portfolio_triangulation_discipline.md). Empirical anchor: Noema V-D second-independent audit 2026-05-28. Awaits author ratification. | [`portfolio-triangulation-discipline-handoff_2026-06-01.md`](portfolio-triangulation-discipline-handoff_2026-06-01.md) | `claude/noema-portfolio-triangulation-scaffolding-` |
+
 ### Pipeline-doctrine retrofit workstreams (post-2026-05-17 pipeline-revision)
 
 Per ratified decision #9 (2026-05-17 brainstorm), all chapters run through the new pipeline once the doctrine cluster lands on `main`. The retrofit workstreams below apply the new-to-the-pipeline elements (Stage 1a invariant scan + Stage 1c cross-artifact coherence + Pass 3.4 audience-load robustness + Stage 4 render-integrity + Stage 5 sign-off + pre-pub review queue) to existing chapters. Per-chapter retrofit scope is detailed in [`pipeline-revision-handoff_2026-05-17.md`](pipeline-revision-handoff_2026-05-17.md) §6.2.
