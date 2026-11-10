@@ -125,11 +125,12 @@ section. These are observations to weigh during drafting, not rules.
 The author agrees "Step back" could be smoother but would need time to find a fix, so these are offered as
 defaults that Session 2 drafts and the author judges on paper.
 
-1. **"Step back":** keep it twice, where it earns its place: once at the end of "One body" to set up the map,
-   and once at the turn into time ("Step back past the nation, and distance stops being a matter of space"),
-   where the distance changes kind. The other sections open on their own hook and let the headings carry the
-   scale. Don't rotate synonyms ("widen the view," "farther out"): that is the same tic in disguise. The
-   "what is being drawn on is…" openers go with it.
+1. **"Step back" (revised 2026-11-10 after the author's question):** the repeated zoom is not the problem,
+   and Claude's earlier "keep it twice" default is withdrawn. A refrain works when it is a deliberate signal
+   and each step lands somewhere new (the Eames film *Powers of Ten* is the model: the same motion at every
+   step, gripping because every landing surprises). What read as a tic was the sentence after the verb: "Step
+   back again, and what is being drawn on is…" announces the mechanism instead of showing what is new at
+   that scale. Keep the refrain if it serves the spine; make each landing a person, a place or a surprise.
 2. **Page-two drop:** open "A household" on the relationship (a family that can't pay asks the people who
    know it, which is what a fundraising page is), then the outcomes as the punch (nearly nine in ten fell
    short; about one in six got nothing). Lighten the run of citations.
@@ -146,4 +147,28 @@ defaults that Session 2 drafts and the author judges on paper.
 8. **Fact flag for Session 2:** the BP–Mexico comparison in "A coast" ("Measured against comparable lengths
    of damaged coastline…") isn't in the ledger. Verify it or soften it to what the sources support. It is not
    in the NYRB essay (checked).
+
+## Structure question (author, 2026-11-10; awaiting the author's choice)
+
+The author asked whether the zoom should run pacemaker → bigger and bigger → Baotou, then tie Baotou back to
+the cellphone in the reader's pocket (ending there or elsewhere); or run Baotou → smaller and smaller → the
+pacemaker, then jump: the device maker benefits from the dying the way we benefit from the villagers, and the
+cellphone puts the reader among those benefiting.
+
+Claude's observation: the current Out and back zoom wobbles. It peaks at the planet (Baotou, "A supply
+chain") and then steps back down to the nation (2008) before turning to time.
+
+- **A. As drafted:** room → household → town → coast → supply chain → nation → time → unborn → argument →
+  room.
+- **B. Claude's recommendation:** room → household → town → coast → nation (2008: the reader *paid*) → planet
+  (Baotou: the reader *benefits*, and the cellphone collapses the farthest distance into the reader's pocket)
+  → time → unborn → argument → room. It fixes the scale order, puts the bridge at the apex of the zoom, and
+  puts the reader on both sides of the mechanism (honest accounting, no villain). The nation section's "alibi"
+  sentence drops its supply-chain item. The close can gather both ends: the room most families will sit in,
+  and the cellphone in the reader's pocket.
+- **C. The author's second option:** Baotou → in → the pacemaker → back out to Baotou and the cellphone. It is
+  close to Earned roadmap's spine, which the author passed over, and it ends on the reader's complicity. The
+  jump needs care: the article supports an asymmetry (about $7,500 to the device maker, nothing for the
+  mother's eighty-hour weeks), not "benefits from the dead," which would cut against the no-villain reading.
+  Time and the unborn have no natural place in a zoom inward.
 
