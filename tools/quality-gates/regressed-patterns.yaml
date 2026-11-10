@@ -1343,6 +1343,35 @@ patterns:
       commit: "2026-11-10 ledger amendment"
     allowlist: []
 
+  - id: regressed-figure-libby-nine-or-ten-to-one
+    pattern: 'nine or ten to one'
+    type: substring
+    severity: MEDIUM
+    category: figure-canon
+    description: |
+      Libby ratio retired 2026-11-10. The Technical Appendix (§11.3) controls:
+      documented-cash floor about $2.6B, about 26:1 against the ~$100M revenue
+      estimate (about 13:1 if revenue were double). See the canonical ledger,
+      Ch 5 case figures.
+    origin:
+      pass: "Ch 5 Session 3 TA alignment (item 16)"
+      commit: "2026-11-10 ledger amendment"
+    allowlist: []
+
+  - id: regressed-figure-libby-900m-to-1b
+    pattern: '$900 million to $1 billion'
+    type: substring
+    severity: MEDIUM
+    category: figure-canon
+    description: |
+      Libby public-spend figure retired 2026-11-10 in favor of the TA §11.3
+      documented-cash floor (about $2.6B). See the canonical ledger, Ch 5
+      case figures.
+    origin:
+      pass: "Ch 5 Session 3 TA alignment (item 16)"
+      commit: "2026-11-10 ledger amendment"
+    allowlist: []
+
 # ===== Scope configuration =====
 #
 # Same as scaffolding-patterns.yaml. (Relocated to end-of-file 2026-06-17: the
