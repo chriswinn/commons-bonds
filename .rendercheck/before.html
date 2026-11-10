@@ -1,0 +1,908 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8"><style>
+   :root {
+  --ink: #222;
+  --paper: #fff;
+  --accent: #2a5a8c;
+  --accent-bg: #f0f4f8;
+  --rule: #ccc;
+  --code-bg: #f5f5f5;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body {
+  font-family: Georgia, 'Times New Roman', 'STIX Two Math', STIXGeneral, serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--ink);
+  background: var(--paper);
+  max-width: 920px;
+  margin: 2em auto;
+  padding: 0 1.5em 4em;
+}
+header.doc-header {
+  border-bottom: 3px double var(--accent);
+  padding-bottom: 1.5em;
+  margin-bottom: 2em;
+}
+header.doc-header h1 {
+  font-size: 2.2em;
+  color: var(--accent);
+  margin: 0 0 0.4em 0;
+  font-weight: normal;
+}
+header.doc-header .byline {
+  font-style: italic;
+  color: #555;
+  margin: 0.2em 0;
+}
+header.doc-header .version {
+  font-size: 0.95em;
+  color: #555;
+}
+.status-block {
+  background: var(--accent-bg);
+  border-left: 4px solid var(--accent);
+  padding: 1em 1.5em;
+  margin: 1.5em 0;
+  font-size: 0.95em;
+}
+.status-block p { margin: 0.5em 0; }
+nav.toc {
+  background: var(--accent-bg);
+  border: 1px solid var(--rule);
+  padding: 1em 2em;
+  margin: 2em 0;
+  border-radius: 4px;
+}
+nav.toc h2 {
+  font-size: 1.2em;
+  color: var(--accent);
+  margin: 0 0 0.5em 0;
+  border: none;
+}
+nav.toc ol { padding-left: 1.5em; margin: 0; }
+nav.toc li { margin: 0.6em 0; }
+nav.toc a { color: var(--accent); text-decoration: none; font-weight: 500; }
+nav.toc a:hover { text-decoration: underline; }
+nav.toc .toc-annotation {
+  font-size: 0.88em;
+  color: #555;
+  font-style: italic;
+  margin: 0.15em 0 0 0;
+  line-height: 1.4;
+}
+section { margin-top: 2.5em; }
+h2 {
+  font-size: 1.5em;
+  color: var(--accent);
+  border-bottom: 2px solid var(--accent);
+  padding-bottom: 0.3em;
+  margin-top: 2em;
+  margin-bottom: 0.8em;
+  font-weight: normal;
+}
+h3 {
+  font-size: 1.2em;
+  color: var(--accent);
+  margin-top: 1.6em;
+  margin-bottom: 0.5em;
+  font-weight: normal;
+}
+h4 {
+  font-size: 1.05em;
+  color: var(--accent);
+  margin-top: 1.2em;
+  margin-bottom: 0.4em;
+  font-weight: bold;
+}
+p { margin: 0.7em 0; }
+ul, ol { padding-left: 1.8em; }
+li { margin: 0.3em 0; }
+blockquote {
+  border-left: 3px solid var(--accent);
+  margin: 1em 0;
+  padding: 0.4em 1em;
+  color: #444;
+  background: var(--accent-bg);
+}
+code, pre {
+  font-family: 'SFMono-Regular', 'Consolas', 'Liberation Mono', monospace;
+  font-size: 0.93em;
+}
+code {
+  background: var(--code-bg);
+  padding: 0.1em 0.3em;
+  border-radius: 2px;
+}
+pre {
+  background: var(--code-bg);
+  border-left: 4px solid var(--accent);
+  padding: 1em;
+  overflow-x: auto;
+  white-space: pre;
+}
+pre code { background: transparent; padding: 0; }
+table {
+  border-collapse: collapse;
+  margin: 1em 0;
+  font-size: 0.95em;
+}
+th, td {
+  border: 1px solid var(--rule);
+  padding: 0.5em 0.8em;
+  text-align: left;
+  vertical-align: top;
+}
+th { background: var(--accent-bg); font-weight: bold; }
+hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
+.formula { font-family: 'Cambria Math', 'Times New Roman', serif; font-style: italic; }
+@page { size: letter; margin: 1in; }
+@media print {
+  pre {
+    font-size: 0.78em;
+    white-space: pre-wrap;
+    word-break: break-word;
+  }
+}
+  </style></head><body><p><b>table #2</b></p><table>
+     <thead>
+      <tr>
+       <td>
+        <p>
+         Abundance Dimension Stripped
+        </p>
+       </td>
+       <td>
+        <p>
+         RCV Term Illuminated
+        </p>
+       </td>
+      </tr>
+     </thead>
+     <tbody>
+     </tbody>
+     <tr>
+      <td>
+       <p>
+        Habitability
+       </p>
+      </td>
+      <td>
+       <p>
+        E(R, t) &mdash; atmospheric externality component
+       </p>
+      </td>
+     </tr>
+     <tr>
+      <td>
+       <p>
+        Spatial
+       </p>
+      </td>
+      <td>
+       <p>
+        Cost Severance integral (&sect;16.3)
+       </p>
+      </td>
+     </tr>
+     <tr>
+      <td>
+       <p>
+        Temporal
+       </p>
+      </td>
+      <td>
+       <p>
+        [1 &minus; S(t)] &middot; U(R, t, Q(t)) &mdash; foreclosure component
+       </p>
+      </td>
+     </tr>
+     <tr>
+      <td>
+       <p>
+        Institutional
+       </p>
+      </td>
+      <td>
+       <p>
+        B term in CS = RCV &minus; B
+       </p>
+      </td>
+     </tr>
+     <tr>
+      <td>
+       <p>
+        Kindred
+       </p>
+      </td>
+      <td>
+       <p>
+        U(R, t, Q(t)) &mdash; option value and knowledge component
+       </p>
+      </td>
+     </tr>
+     <tr>
+      <td>
+       <p>
+        Ecosystem
+       </p>
+      </td>
+      <td>
+       <p>
+        U(R, t, Q(t)) &mdash; ecological function component; E(R,t) &mdash; remediation tail
+       </p>
+      </td>
+     </tr>
+     <tr>
+      <td>
+       <p>
+        Political
+       </p>
+      </td>
+      <td>
+       <p>
+        B term in CS = RCV &minus; B &mdash; political capture suppresses B toward zero; also E(R,t) &mdash; costs of institutional corrosion are externality tail items
+       </p>
+      </td>
+     </tr>
+     <tr>
+      <td>
+       <p>
+        Cohesion
+       </p>
+      </td>
+      <td>
+       <p>
+        E(R, t) &mdash; civic-trust-erosion and coordination-capacity costs as externality-tail items (Definition 1.10 Cohesion profile)
+       </p>
+      </td>
+     </tr>
+     <tr>
+      <td>
+       <p>
+        Epistemic
+       </p>
+      </td>
+      <td>
+       <p>
+        B term &mdash; epistemic-asymmetry-as-shield suppresses accountability instruments (concealment cases: Libby, &sect;11.3); also E(R, t) where information suppression extends the damage interval
+       </p>
+      </td>
+     </tr>
+     <tr>
+      <td>
+       <p>
+        Autonomy
+       </p>
+      </td>
+      <td>
+       <p>
+        Backward-direction Cᵢ via the &sect;5.5 backward application (coercion costs; named at Definition 1.10's scope-of-applicability boundary)
+       </p>
+      </td>
+     </tr>
+    </table>
+<hr>
+<p><b>table #4</b></p><table>
+     <thead>
+      <tr>
+       <td>
+        <p>
+         Term
+        </p>
+       </td>
+       <td>
+        <p>
+         Units
+        </p>
+       </td>
+       <td>
+        <p>
+         Notes
+        </p>
+       </td>
+      </tr>
+      <tr>
+       <td>
+        <p>
+         [1 &minus; S(t | t₀)]
+        </p>
+       </td>
+       <td>
+        <p>
+         dimensionless
+        </p>
+       </td>
+       <td>
+        <p>
+         probability that no adequate substitute exists
+        </p>
+       </td>
+      </tr>
+      <tr>
+       <td>
+        <p>
+         U(R, t, Q(t))
+        </p>
+       </td>
+       <td>
+        <p>
+         $ &middot; res-unit⁻&sup1; &middot; time⁻&sup1;
+        </p>
+       </td>
+       <td>
+        <p>
+         stock-dependent utility flow of retained resource
+        </p>
+       </td>
+      </tr>
+      <tr>
+       <td>
+        <p>
+         E(R, t)
+        </p>
+       </td>
+       <td>
+        <p>
+         $ &middot; res-unit⁻&sup1; &middot; time⁻&sup1;
+        </p>
+       </td>
+       <td>
+        <p>
+         externality flow attributable to the extraction
+        </p>
+       </td>
+      </tr>
+      <tr>
+       <td>
+        <p>
+         Cᵢ (candidate)
+        </p>
+       </td>
+       <td>
+        <p>
+         $ &middot; res-unit⁻&sup1; &middot; time⁻&sup1;
+        </p>
+       </td>
+       <td>
+        <p>
+         required for admission
+        </p>
+       </td>
+      </tr>
+      <tr>
+       <td>
+        <p>
+         D(t, t₀)
+        </p>
+       </td>
+       <td>
+        <p>
+         dimensionless
+        </p>
+       </td>
+       <td>
+        <p>
+         discount factor (Weitzman-type under declining rate)
+        </p>
+       </td>
+      </tr>
+      <tr>
+       <td>
+        <p>
+         &int; &middot; dt result
+        </p>
+       </td>
+       <td>
+        <p>
+         $ &middot; res-unit⁻&sup1;
+        </p>
+       </td>
+       <td>
+        <p>
+         RCV per resource unit
+        </p>
+       </td>
+      </tr>
+     </thead>
+    </table>
+<hr>
+<p><b>table #5</b></p><table>
+     <thead>
+      <tr>
+       <td>
+        <p>
+         Cᵢ asymptotic behavior
+        </p>
+       </td>
+       <td>
+        <p>
+         Convergence under Weitzman D
+        </p>
+       </td>
+       <td>
+        <p>
+         Admissibility
+        </p>
+       </td>
+      </tr>
+      <tr>
+       <td>
+        <p>
+         decays to 0 (exponential or polynomial)
+        </p>
+       </td>
+       <td>
+        <p>
+         yes
+        </p>
+       </td>
+       <td>
+        <p>
+         admit
+        </p>
+       </td>
+      </tr>
+      <tr>
+       <td>
+        <p>
+         bounded, approaches non-zero constant
+        </p>
+       </td>
+       <td>
+        <p>
+         conditional (constant &times; asymptotic D integrated)
+        </p>
+       </td>
+       <td>
+        <p>
+         admit under finite-horizon truncation + sensitivity
+        </p>
+       </td>
+      </tr>
+      <tr>
+       <td>
+        <p>
+         grows polynomially
+        </p>
+       </td>
+       <td>
+        <p>
+         depends on growth rate vs. D decay
+        </p>
+       </td>
+       <td>
+        <p>
+         case-by-case; typically requires truncation
+        </p>
+       </td>
+      </tr>
+      <tr>
+       <td>
+        <p>
+         grows exponentially
+        </p>
+       </td>
+       <td>
+        <p>
+         typically diverges
+        </p>
+       </td>
+       <td>
+        <p>
+         reject as proposed
+        </p>
+       </td>
+      </tr>
+      <tr>
+       <td>
+        <p>
+         oscillates unboundedly
+        </p>
+       </td>
+       <td>
+        <p>
+         diverges
+        </p>
+       </td>
+       <td>
+        <p>
+         reject
+        </p>
+       </td>
+      </tr>
+     </thead>
+    </table>
+<hr>
+<p><b>table #6</b></p><table>
+     <thead>
+      <tr>
+       <td>
+        <p>
+         Case Study
+        </p>
+       </td>
+       <td>
+        <p>
+         Damage Function (IPG)
+        </p>
+       </td>
+       <td>
+        <p>
+         Real Options (IPG)
+        </p>
+       </td>
+       <td>
+        <p>
+         RCV Model (IPG)
+        </p>
+       </td>
+       <td>
+        <p>
+         Convergence
+        </p>
+       </td>
+      </tr>
+     </thead>
+     <tbody>
+     </tbody>
+     <tr>
+      <td>
+       <p>
+        McDowell County Coal
+       </p>
+      </td>
+      <td>
+       <p>
+        107&ndash;110&times;
+       </p>
+      </td>
+      <td>
+       <p>
+        45&ndash;89&times;
+       </p>
+      </td>
+      <td>
+       <p>
+        67&ndash;134&times;
+       </p>
+      </td>
+      <td>
+       <p>
+        &checkmark;
+       </p>
+      </td>
+     </tr>
+     <tr>
+      <td>
+       <p>
+        Deepwater Horizon
+       </p>
+      </td>
+      <td>
+       <p>
+        ~15&ndash;16&times;
+       </p>
+      </td>
+      <td>
+       <p>
+        12&ndash;21&times;
+       </p>
+      </td>
+      <td>
+       <p>
+        ~17&ndash;18&times;
+       </p>
+      </td>
+      <td>
+       <p>
+        &checkmark;
+       </p>
+      </td>
+     </tr>
+     <tr>
+      <td>
+       <p>
+        Libby, Montana
+       </p>
+      </td>
+      <td>
+       <p>
+        55&ndash;82&times;
+       </p>
+      </td>
+      <td>
+       <p>
+        48&ndash;76&times;
+       </p>
+      </td>
+      <td>
+       <p>
+        61&ndash;91&times;
+       </p>
+      </td>
+      <td>
+       <p>
+        &checkmark;
+       </p>
+      </td>
+     </tr>
+     <tr>
+      <td>
+       <p>
+        Baotou Rare Earths
+       </p>
+      </td>
+      <td>
+       <p>
+        12&ndash;35&times;
+       </p>
+      </td>
+      <td>
+       <p>
+        18&ndash;48&times;
+       </p>
+      </td>
+      <td>
+       <p>
+        22&ndash;41&times;
+       </p>
+      </td>
+      <td>
+       <p>
+        &checkmark;
+       </p>
+      </td>
+     </tr>
+    </table>
+<hr>
+<p><b>table #18</b></p><table>
+     <thead>
+      <tr>
+       <td>
+        <p>
+         existential substitutability gap Level
+        </p>
+       </td>
+       <td>
+        <p>
+         Resource Examples
+        </p>
+       </td>
+       <td>
+        <p>
+         Policy Response
+        </p>
+       </td>
+      </tr>
+     </thead>
+     <tbody>
+     </tbody>
+     <tr>
+      <td>
+       <p>
+        existential substitutability gap &asymp; 0
+       </p>
+      </td>
+      <td>
+       <p>
+        Coal, sand, iron ore, common stone
+       </p>
+      </td>
+      <td>
+       <p>
+        Price externalities; no strategic reserve
+       </p>
+      </td>
+     </tr>
+     <tr>
+      <td>
+       <p>
+        Low existential substitutability gap
+       </p>
+      </td>
+      <td>
+       <p>
+        Conventional oil, copper, zinc
+       </p>
+      </td>
+      <td>
+       <p>
+        Full externality pricing; moderate reserve consideration
+       </p>
+      </td>
+     </tr>
+     <tr>
+      <td>
+       <p>
+        Moderate existential substitutability gap
+       </p>
+      </td>
+      <td>
+       <p>
+        Uranium, lithium, cobalt
+       </p>
+      </td>
+      <td>
+       <p>
+        Externality pricing + strategic reserve assessment
+       </p>
+      </td>
+     </tr>
+     <tr>
+      <td>
+       <p>
+        High existential substitutability gap
+       </p>
+      </td>
+      <td>
+       <p>
+        Rare earth elements, platinum group metals
+       </p>
+      </td>
+      <td>
+       <p>
+        Mandatory strategic reserves; export controls; substitution investment
+       </p>
+      </td>
+     </tr>
+     <tr>
+      <td>
+       <p>
+        Conditionally High existential substitutability gap
+       </p>
+      </td>
+      <td>
+       <p>
+        Helium-3, phosphorus, fossil aquifers
+       </p>
+      </td>
+      <td>
+       <p>
+        Preserve pending technology development; reassess on defined schedule
+       </p>
+      </td>
+     </tr>
+    </table>
+<hr>
+<p><b>table #19</b></p><table>
+     <thead>
+      <tr>
+       <td>
+        <p>
+         Parameter
+        </p>
+       </td>
+       <td>
+        <p>
+         Baseline
+        </p>
+       </td>
+       <td>
+        <p>
+         Low Case
+        </p>
+       </td>
+       <td>
+        <p>
+         High Case
+        </p>
+       </td>
+       <td>
+        <p>
+         IPG Range
+        </p>
+       </td>
+      </tr>
+     </thead>
+     <tbody>
+     </tbody>
+     <tr>
+      <td>
+       <p>
+        Discount rate r₀
+       </p>
+      </td>
+      <td>
+       <p>
+        4%
+       </p>
+      </td>
+      <td>
+       <p>
+        1.4% (Stern)
+       </p>
+      </td>
+      <td>
+       <p>
+        5.5% (Nordhaus)
+       </p>
+      </td>
+      <td>
+       <p>
+        67&times; to 134&times;
+       </p>
+      </td>
+     </tr>
+     <tr>
+      <td>
+       <p>
+        S_max (electricity)
+       </p>
+      </td>
+      <td>
+       <p>
+        0.85
+       </p>
+      </td>
+      <td>
+       <p>
+        0.95
+       </p>
+      </td>
+      <td>
+       <p>
+        0.70
+       </p>
+      </td>
+      <td>
+       <p>
+        &plusmn;20%
+       </p>
+      </td>
+     </tr>
+     <tr>
+      <td>
+       <p>
+        Carbon SCC
+       </p>
+      </td>
+      <td>
+       <p>
+        $190/ton CO₂ (EPA)
+       </p>
+      </td>
+      <td>
+       <p>
+        $51 (conservative)
+       </p>
+      </td>
+      <td>
+       <p>
+        $300+ (damage function)
+       </p>
+      </td>
+      <td>
+       <p>
+        &plusmn;60%
+       </p>
+      </td>
+     </tr>
+     <tr>
+      <td>
+       <p>
+        Externality tail length
+       </p>
+      </td>
+      <td>
+       <p>
+        200 years
+       </p>
+      </td>
+      <td>
+       <p>
+        100 years
+       </p>
+      </td>
+      <td>
+       <p>
+        Indefinite
+       </p>
+      </td>
+      <td>
+       <p>
+        &plusmn;15%
+       </p>
+      </td>
+     </tr>
+    </table></body></html>
