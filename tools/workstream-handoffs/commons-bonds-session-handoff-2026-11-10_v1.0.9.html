@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Session Handoff v1.0.9</title>
+<style>
+:root{--bg:#fff;--fg:#1d1d1f;--mut:#555;--rule:#ddd;--acc:#0b5394}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#161618;--fg:#ececec;--mut:#aaa;--rule:#333;--acc:#8ab4f8}}
+:root[data-theme="dark"]{--bg:#161618;--fg:#ececec;--mut:#aaa;--rule:#333;--acc:#8ab4f8}
+body{background:var(--bg);color:var(--fg);font:16px/1.55 Georgia,serif;max-width:760px;margin:0 auto;padding:24px 16px}
+h1{font-size:1.5em}h2{font-size:1.15em;border-bottom:1px solid var(--rule);padding-bottom:4px;margin-top:1.8em}
+code{font-size:.88em;word-break:break-all}li{margin:.3em 0}.mut{color:var(--mut)}
+</style></head><body>
+<h1>Commons Bonds: session handoff, 2026-11-10 (v1.0.9)</h1>
+<p class="mut">Internal. Session: Ch 5 Session 2 + Ch 1 pace redraft + gate fix. Branch <code>claude/elegant-hopper-nydd1y</code>; everything is merged to <code>main</code> (last: <code>b1611f9</code>).</p>
+
+<h2>To the next Claude instance: resume here</h2>
+<ol>
+<li>Read <code>MAP.md</code>, <code>STATE.md</code>, then this file. One session at a time; lean pipeline.</li>
+<li><b>Top priority:</b> apply the author's hand redline to <code>tools/workstream-handoffs/pull-pass_2026-11/ch5-rings-redraft_2026-11-10.md</code> (the author redlines the latest PDF on 2026-11-11), then the mechanical grammar-and-punctuation polish with every change listed. Check each polish change against <code>tools/memory/feedback_engagement_lenses.md</code>.</li>
+<li>Before applying, ask the author the one open Darity question below (the "reparations bond" sentence), unless the redline already answers it.</li>
+<li>Rules that bit this session: never invent first-person detail (Claude slipped once: "Mine is in my pocket as I write this," caught and removed); never attribute an earlier Claude session's framing to the author; a figures rule protects numbers, not prose; restructuring is not redrafting.</li>
+</ol>
+
+<h2>What got done</h2>
+<ul>
+<li><b>Ch 5 full rings redraft</b> (<code>ch5-rings-redraft_2026-11-10.md</code>, about 11,700 words) with <code>question-map.md</code>, <code>CHANGES.md</code> (plus a later addendum) and <code>critic-read.md</code>. The first attempt <code>ch5-rings_2026-11-10.md</code> is SUPERSEDED (it kept about 70 percent of the base's sentences). Checks: figures = base + Butler corrections + BP–Mexico ledger entries; 46/46 facts; 0 interrupted, 0 comma-stacked; gate = two known MEDIUM items only.</li>
+<li><b>Butler:</b> the family's doctor is "their trusted primary-care doctor," then "their doctor" (another session's commit <code>7762ff2</code>, applied here).</li>
+<li><b>BP–Mexico</b>, from the ledger: the $25.5M settlement (Feb 2018; $15.3M costs, $10.2M programs; nothing for communities; BP released from damage in Mexican waters); 22 studies withheld, 20 released after the deal, 2 classified; about 25,000 fishermen's US class action (2015). The funding-cut claim is left out (one researcher's account). The coastline-normalization comparison is dropped and gated; it was an earlier Claude session's framing, not the author's (research ledger corrected).</li>
+<li><b>Darity passage</b> ("Restitution and foreclosure"): the Restitution Bond is placed <i>inside</i> Darity–Mullen ARC (MI-1, Option 1), quoting the FHTE definition and "Redress is the act of restitution…" (Darity et al. 2024, <i>RSF</i>). New paragraph "The method belongs to them as well…" with the author's line: he presents as a white man, and it isn't his place to put a dollar figure on what is owed for slavery. No claim of Darity's endorsement (Tier S). Citation note: <code>research/citations/darity-mullen-arc-quotes_2026-11-10.md</code>.</li>
+<li><b>Ledger and gate:</b> new "Ch 5 case figures (Butler; BP–Mexico)" section in <code>manuscript/ledgers/_CANONICAL_FIGURE_LEDGER.md</code>; 3 MEDIUM patterns (Butler "nearly half," Butler malpractice, coastline normalization).</li>
+<li><b>Gate parser fix</b> in <code>tools/scripts/check-corpus-invariants.sh</code>: comment and blank lines no longer end a registry's <code>patterns:</code> list, and a loaded-vs-defined count warning was added. Verified.</li>
+<li><b>Ch 1 pace redraft</b> (<code>tools/workstream-handoffs/pull-pass_2026-11/ch1-pace-redraft_2026-11-10.md</code> + <code>ch1-CHANGES.md</code>). Protected: quotes, the father's sayings, facts and numbers. The nurses' paraphrase was split (author OK'd). The current chapter stays canonical until the author picks.</li>
+</ul>
+
+<h2>Open decisions and watch items</h2>
+<ul>
+<li><b>"Reparations bond" sentence (author decision pending).</b> Proposed addition after "The method belongs to them as well…": <i>"Applied to that debt, the Restitution Bond is a reparations bond in the plainest sense. Its size is the one Darity and Mullen's method sets, and this book's part is only to show that the debt can be posted and carried until it is paid."</i> If yes, allowlist the chapter line in the <code>regressed-term-reparations-bond</code> gate with a "legitimate use" reason. Supporting call note (Tier S, never quote): Darity said he was fine with "reparations" for other cases as long as it doesn't underestimate. Ask Darity whether a posted, non-tradable bond fits his program (they center direct payments).</li>
+<li><b>FHTE pagination</b> (printed book, 2nd ed. 2022 preferred): the ARC definition page; whether FHTE also has "Redress is the act of restitution"; "we declare in favor of restitution" (open item in the Darity synthesis, line 423). Add the <i>RSF</i> 2024 article to the bibliography at promotion.</li>
+<li><b>Mexico sources</b>: read BuzzFeed News and Vice in full before the chapter goes out (verified via a fetch tool that paraphrases).</li>
+<li><b>Butler details</b> not in the Session 1 fact table: Connecticut, "upstairs, napping," eighty-five, "retired university professor." Check p. 1 of the printout.</li>
+<li><b>Ch 5 critic questions:</b> the back half after the pocket (about 4,500 words; lineage paragraphs); four 2008 objections in a row; "In your own country" assumes a US reader; "No one in the system was paid to say wait."</li>
+<li><b>Ch 1:</b> the author's pick (current / redraft / redraft with changes); keep or cut the "is this the full accounting?" line; the Tubman paragraph "reads off" (author's earlier note); the middle family stretch. Claude's honest view: the redraft is smoother but kept the chronological structure, so a structural option may pull harder (plant the cost early, or open on the plane). The author's call.</li>
+<li>STATE.md lines for Ch 1 and Ch 5 are current as of this session.</li>
+</ul>
+
+<h2>File inventory (this session)</h2>
+<ul>
+<li><code>tools/workstream-handoffs/pull-pass_2026-11/</code>: <code>ch5-rings-redraft_2026-11-10.md</code> (current), <code>ch5-rings_2026-11-10.md</code> (superseded), <code>question-map.md</code>, <code>CHANGES.md</code>, <code>critic-read.md</code>, <code>ch1-pace-redraft_2026-11-10.md</code>, <code>ch1-CHANGES.md</code></li>
+<li><code>research/citations/darity-mullen-arc-quotes_2026-11-10.md</code></li>
+<li><code>manuscript/ledgers/_CANONICAL_FIGURE_LEDGER.md</code>, <code>manuscript/ledgers/_RESEARCH-RESULTS-LEDGER_2026-06-04.md</code> (line 135)</li>
+<li><code>tools/quality-gates/regressed-patterns.yaml</code>, <code>tools/scripts/check-corpus-invariants.sh</code>, <code>tools/scripts/README.md</code></li>
+<li>PDFs are rendered with <code>tools/scripts/marginalia-pdf/build.sh</code>; rebuild them from the .md files (scratchpad copies don't persist).</li>
+</ul>
+
+<h2>Exact paste line for the next session</h2>
+<p><code>Commons Bonds, Ch 5 Session 3: read tools/workstream-handoffs/commons-bonds-session-handoff-2026-11-10_v1.0.9.html, then apply my redline to tools/workstream-handoffs/pull-pass_2026-11/ch5-rings-redraft_2026-11-10.md (redline attached) and do the mechanical grammar-and-punctuation polish with every change listed. Reparations-bond sentence: [add / don't add]. Ch 1 pick: [current / redraft / redraft with changes].</code></p>
+</body></html>
