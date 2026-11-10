@@ -85,3 +85,24 @@ polish · 8 one scene, earned scenes, relationship bridges).
    nervous about the next step. State the narrow claim and move on.
 5. **Next pace problem: the back half.** Rings put the climax at about 57 percent, and the argument sections
    follow it. Moving the lineage paragraphs out is the likely fix (critic read, item 1).
+
+## Addendum (2026-11-10, later): the Darity passage, revised on the author's direction
+
+The author's stance: defer the method to Darity, show that the framework's two-way pricing fits it, and say
+plainly that it isn't the author's place, as someone who presents as a white man, to put a dollar figure on
+what is owed for slavery. Grounded in MI-1 and MI-2 from the 2026-05-13 call (Option 1: the Restitution
+Bond carries out the restitution part of Darity–Mullen redress) and in Darity's published wording, now
+quoted (see `research/citations/darity-mullen-arc-quotes_2026-11-10.md`).
+
+- **Replaced:** "older and broader term" and "Calling the instrument the Reparations Bond would narrow it…".
+  Both put Restitution beside reparations as the bigger idea, which is the flattening Darity corrected. The
+  replacement places the bond inside their ARC, quoting the definition and "Redress is the act of
+  restitution…".
+- **Cut:** "So the framework joins the reparations tradition instead of rebranding it." Also the old ARC
+  paragraph, now folded into the first paragraph.
+- **New paragraph, after the lineage:** "The method belongs to them as well…", with the author's first-person
+  line on where he stands and the fit ("on their terms").
+- **Coerced labor:** now "this book does not presume to close it" and "belongs to the people already
+  carrying that question forward."
+- **Gate:** "Reparations Bond" no longer appears, so the regressed-term HIGH item is cleared. Only the two
+  MEDIUM known items remain.
