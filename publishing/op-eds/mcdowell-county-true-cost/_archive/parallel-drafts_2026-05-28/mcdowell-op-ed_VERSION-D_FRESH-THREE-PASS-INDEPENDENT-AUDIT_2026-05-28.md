@@ -961,8 +961,108 @@ Future portfolio sweep of the 2026-05-28 V-D cohort should classify each piece's
 
 ---
 
+## §10. §9 supersession — corrected reception-chain classification (added 2026-06-02)
+
+*Added 2026-06-02 per the McDowell op-ed post-audit triage at `mcdowell-op-ed_POST-AUDIT-TRIAGE_2026-06-02.md` §3. The Workstream C audit chip (filed 2026-06-01) surfaced a real finding — §9.M1 — that §9.3 weight-tag assignment misclassifies the McDowell op-ed reception chain. The chip's foundational REVERT-AND-REWORK verdict was a stale-cwd false-negative (§9 IS on origin/main; Amendment D source doctrine IS on origin/main), but the §9.M1 substantive critique is valid against the actual §9 content. This §10 supersedes §9 with corrected weighting; §9 preserved in-place for audit-trail.*
+
+### §10.1 The §9 misclassification
+
+§9.3 assigned per-character weight-tags as:
+
+| Tier | Character | §9.3 weight-tag | Worked-examples-table-correct tag |
+|---|---|---|---|
+| T1.1 | FT Opinion editor | HIGH (direct gating) | **HIGH (direct)** — gating + end-reader-facing |
+| T1.2 | Bloomberg Opinion editor | HIGH (direct gating) | **HIGH (direct)** — gating + end-reader-facing |
+| T1.3 | FT/Bloomberg reader | HIGH (direct end-reader) | **HIGH (direct)** ✓ |
+| T2.1 | Appalachian-policy specialist | MEDIUM-to-LOW (consultant → projected downstream) | **HIGH (direct)** — specialist-policy reader IS a direct reader of published op-ed prose |
+| T2.2 | Black-Lung-policy specialist | MEDIUM-to-LOW | **HIGH (direct)** — same |
+| T2.3 | Energy-economics analyst | MEDIUM-to-LOW | **HIGH (direct)** — same |
+| T3.1 | Center-right policy aide | LOW (projected downstream) | **HIGH (direct)** — policy aide IS a direct reader of published op-ed prose |
+| T3.2 | McDowell County resident | LOW (projected downstream) | **HIGH (direct)** — lived-extraction reader IS a direct reader |
+| T3.3 | General FT/Bloomberg subscriber | HIGH (direct end-reader) | **HIGH (direct)** ✓ |
+
+### §10.2 The worked-examples-table evidence
+
+`tools/drafting-templates/audience-pressure-test-construction.md` §"Artifact-class worked examples" (line 36+) explicitly states:
+
+| Artifact class | Direct readers (HIGHEST) | Consultants (HIGH) | Projected downstream (LOWER) |
+|---|---|---|---|
+| **End-reader-facing essay / chapter / op-ed prose** | **All theoretical audiences per Stage 1 brief — they ARE the direct readers** | (none; the buck stops here) | (n/a) |
+| Editor-facing pitch | Venue editor | Deputy editor; external second-opinion reviewer | Eventual essay readers (editor-projected) |
+
+The McDowell op-ed is end-reader-facing op-ed prose (top row). The worked-examples table is explicit: ALL theoretical audiences are direct readers; there are no consultants ("the buck stops here"); there is no projected-downstream tier (n/a).
+
+§9.3's classification of T2 specialists + T3.1/T3.2 as "consultant → projected downstream" / "projected downstream" imposed a structure that belongs to a DIFFERENT artifact class (editor-pitch class, where deputies + eventual essay readers are correctly tiered). The McDowell op-ed is not that class.
+
+### §10.3 Corrected reception-chain map
+
+Per the worked-examples table, the McDowell op-ed (end-reader-facing op-ed prose) has:
+
+- **Direct readers (HIGH weight):** All 9 theoretical audiences per the fresh-chip Stage-1-equivalent audience set (T1.1 + T1.2 + T1.3 + T2.1 + T2.2 + T2.3 + T3.1 + T3.2 + T3.3).
+- **Consultants (n/a):** None at this artifact class. ("The buck stops here" per the worked-examples table.)
+- **Projected downstream (n/a):** None at this artifact class.
+
+**Refinement that §9 attempted to capture but imposed wrong-class structure for:** The McDowell op-ed has an editor-gating tier WITHIN the direct-reader tier — without FT/Bloomberg editor's yes, end readers never see the prose. This is a within-direct-tier salience consideration, NOT a separate weight tier. Editor verdicts carry decision-finality that other direct verdicts don't (editor's no kills the piece; other direct readers' no degrades but doesn't kill). This refinement is real but does NOT justify Amendment-D weight-tag differentiation across the audience set; it just notes that within the HIGH-direct tier, gating verdicts have decision-finality stakes that non-gating direct verdicts don't.
+
+### §10.4 Corrected re-aggregation (Pass 3.3)
+
+Under correct worked-examples-table classification, all 9 characters are HIGH-direct weight. The Amendment-D weighting effectively **collapses to the unweighted aggregate** for this artifact class:
+
+| Verdict | Count | Salience note |
+|---|---|---|
+| ✓✓✓ INCLUDE | 3 (T1.1 + T1.2 + T2.3) | Gating editors at ✓✓✓ + energy-economics-analyst at ✓✓✓ |
+| ✓✓ INCLUDE | 6 (T1.3 + T2.1 + T2.2 + T3.1 + T3.2 + T3.3) | All other direct readers solidly INCLUDE |
+| ✓ INCLUDE | 0 | — |
+| NEUTRAL | 0 | — |
+| EXCLUDE | 0 | — |
+
+**Aggregate: NET INCLUDE — DECISIVE.** Identical to fresh-chip §2.2 unweighted aggregate. Amendment-D weighting adds no new analytical signal at this artifact class.
+
+**Within-direct-tier gating salience:** Both gating editors (T1.1 + T1.2) land at ✓✓✓. The strongest verdicts cluster on the decision-finality positions. This is consistent with §9's substantive conclusion that V-D's gains are well-placed for shipping, but the rhetorical framing of "Amendment-D weighting strengthens the SHIP recommendation" was over-stated. The SHIP recommendation holds at the same strength under correct weighting; it just doesn't gain extra strength FROM the weighting.
+
+### §10.5 What §9 got right vs over-claimed
+
+**Got right:**
+- Reception-chain analysis as discipline: applicable.
+- McDowell op-ed correctly classified as end-reader-facing op-ed prose at §9.2 first paragraph.
+- The within-direct-tier observation that gating editors (T1.1 + T1.2) have higher decision-finality stakes is real (§9.2 attempted to capture this as "two-tier direct-reader structure").
+- The WVBLA "led by" retraction analysis (§9.6 #1) is valid in direction: the prior independent audit's spot-fix recommendation served fact-check-consultants over directness-for-direct-editors. Under correct end-reader-facing classification, the spot-fix would have served the ENTIRE direct-reader tier (specialists ARE direct here, not consultants) — which doesn't change the retraction's correctness, just the rhetorical framing of why.
+- F-3.5-M1 + F-3.5-L2 HOLD strengthening reasoning is correct in direction: the discipline question "does this fix improve projected-downstream while damaging direct?" still applies to within-direct-tier salience differences (gating editor's directness vs. non-gating direct readers' directness).
+
+**Over-claimed:**
+- "Amendment-D weighting strengthens the SHIP recommendation" — under correct classification, weighting collapses to unweighted aggregate; SHIP recommendation holds at same strength, not increased strength.
+- "T3.1 wash is on LOW-weight projected-downstream" — T3.1 is HIGH-direct under correct classification; its wash verdict is not de-weighted. The portfolio-leverage rationale for deprioritizing T3.1 pre-empt rests on within-direct-tier salience (T3.1 is non-gating direct vs T1.1+T1.2 gating direct), not on a weight-tier difference.
+- "MEDIUM (consultants)" tier in §9.4 re-aggregation table — there is no consultant tier for this artifact class; the buck stops at direct.
+- "LOW (projected downstream)" tier in §9.4 re-aggregation table — there is no projected-downstream tier for this artifact class.
+- Canonical-pattern role claim in §9.7 — parallel to the Aeon editor-pitch worked example is still defensible IF McDowell is correctly classified at end-reader-facing class. The "op-ed worked example" framing requires correctly demonstrating end-reader-facing classification, not editor-pitch-class classification. This §10 IS the correct worked example; §9 was the misclassified attempt.
+
+### §10.6 Effect on SHIP V-D AS-IS recommendation
+
+**Unchanged.** The SHIP recommendation rests on:
+- §1.8 hard-rule axis PASS (no HARD-RULE-VIOLATION)
+- §2.2 Pass 3.3 NET INCLUDE DECISIVE (3 ✓✓✓ + 6 ✓✓ + 0 EXCLUDE) — holds under unweighted aggregate AND under §10 corrected weighting (which collapses to unweighted for this artifact class)
+- §3 Pass 3.4 ROBUST
+- §4 Pass 3.5 RESTORATION-NOT-WARRANTED
+- §5 three-audit convergence
+- §10 corrected weighting confirms: V-D gains cluster on gating editors (T1.1 + T1.2 ✓✓✓) which carry decision-finality stakes within the direct-reader tier
+
+The SHIP recommendation is supported at the same strength as the unweighted aggregate. §9's claim that Amendment-D weighting AMPLIFIES the recommendation was over-stated; it's accurate to say the gain-concentration on decision-finality positions is structurally favorable, which is a within-direct-tier salience observation rather than a weight-tag re-aggregation.
+
+### §10.7 Effect on portfolio-sweep framing
+
+**Tightened.** §9.7's "canonical op-ed worked example for Amendment D" claim should be carried into the portfolio sweep with the caveat that **Amendment-D weighting's analytic value is artifact-class-dependent:**
+
+- For **editor-pitch artifact class** (cover letters; agent queries; editor pitches; submission emails): Amendment-D weighting is HIGH-leverage. Worked example: Aeon Option E.2 γ.1 audit (commit `73c5764`); Atlantic Ideas cover-letter Amendment-D audit (on origin/main).
+- For **end-reader-facing op-ed/essay/chapter prose**: Amendment-D weighting **collapses to unweighted aggregate** because all audiences are direct. The within-direct-tier salience refinement (gating verdicts have decision-finality) is real but doesn't reproduce the editor-pitch-class HIGH/MEDIUM/LOW structure. Worked example: this §10.
+
+The portfolio sweep of the 2026-05-28 V-D cohort should classify each piece's artifact class FIRST, then apply Amendment-D weighting per artifact class. For pieces in end-reader-facing class, the audit aggregate likely collapses to the unweighted result; for pieces in editor-pitch class (cover letters; submission packages), Amendment-D weighting will materially differentiate.
+
+---
+
 *End of fresh three-pass independent audit (Pass 3.3 + 3.4 + 3.5) on Version D (hybrid) —
 McDowell op-ed — 2026-05-28. RATIFIED 2026-06-01 + APPLIED per Workstream A of the
 2026-06-01 author-ratified McDowell op-ed bundle (V-D HYBRID promoted to canonical op-ed.md).
 Amendment-D retroactive weighting addendum §9 added 2026-06-01 per Workstream C of the same
-bundle. Per merge-on-ratification, this internal-scaffolding artifact auto-merges to main.*
+bundle. §10 supersession added 2026-06-02 per post-audit triage correcting §9's
+artifact-class misclassification of Tier 2 + Tier 3 audiences. Per merge-on-ratification,
+this internal-scaffolding artifact auto-merges to main.*
