@@ -1299,6 +1299,50 @@ patterns:
         line: 343
         rationale: "queued Ch 6 whole-cloth rebuild; retired $518–532 McDowell band; remove pin when it lands"
 
+  # ===========================================================
+  # Ch 5 Butler + BP-Mexico ledger amendments (2026-11-10)
+  # ===========================================================
+
+  - id: regressed-figure-butler-nearly-half
+    pattern: 'nearly half of which (went|flowed) to the company'
+    type: regex
+    severity: MEDIUM
+    category: figure-canon
+    description: |
+      Butler (NYT Mag 2010, p. 5): an estimated $7,500 of the ~$12,000
+      hospital fee went to the device maker (about 62%). "Nearly half" is
+      wrong. See the canonical ledger, Ch 5 case figures (2026-11-10).
+    origin:
+      pass: "Ch 5 Session 1 Butler verification"
+      commit: "2026-11-10 ledger amendment"
+    allowlist: []
+
+  - id: regressed-claim-butler-malpractice
+    pattern: 'malpractice exposure that declining it (could|would) create'
+    type: regex
+    severity: MEDIUM
+    category: figure-canon
+    description: |
+      The liability/malpractice motive is not in Butler's article. Keep it
+      out of the Butler passage unless separately sourced and attributed.
+    origin:
+      pass: "Ch 5 Session 1 Butler verification"
+      commit: "2026-11-10 ledger amendment"
+    allowlist: []
+
+  - id: regressed-figure-bp-mexico-coastline-normalization
+    pattern: 'comparable lengths of damaged coastline'
+    type: regex
+    severity: MEDIUM
+    category: figure-canon
+    description: |
+      No source normalizes the BP-Mexico settlement by coastline length.
+      Use the sourced settlement facts instead (ledger, Ch 5 case figures).
+    origin:
+      pass: "Ch 5 Session 2 fact flag"
+      commit: "2026-11-10 ledger amendment"
+    allowlist: []
+
 # ===== Scope configuration =====
 #
 # Same as scaffolding-patterns.yaml. (Relocated to end-of-file 2026-06-17: the

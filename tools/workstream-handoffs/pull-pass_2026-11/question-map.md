@@ -1,6 +1,6 @@
 # Ch 5 rings: question map (made before drafting, 2026-11-10)
 
-Internal. One page. The draft is `ch5-rings_2026-11-10.md` in this folder.
+Internal. One page. The draft is `ch5-rings-redraft_2026-11-10.md` in this folder (the first attempt, `ch5-rings_2026-11-10.md`, is superseded).
 
 **The chapter's question.** No one in Butler's father's room chose to send the cost to her mother. So how
 did it get there, and is a hospital room the only place it lands? Opened at the end of "The family."

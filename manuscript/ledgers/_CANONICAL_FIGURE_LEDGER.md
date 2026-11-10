@@ -93,3 +93,23 @@ Source of record: TA §11.12 (migrated onto the current repo layout 2026-06-11 o
 | Geography discipline | James River = the stated lower-Bay **proxy**; NO Hampton-Bar-specific acreage exists (Paxton 1858 is qualitative); NO NSA Hampton Roads dollar figure (qualitative only). |
 
 **Cascade:** Ch 3 restitution section now carries the chapter-side priced Restitution-Bond claim (promoted 2026-06-11, origin/main `0d2ddef`) — **GATE 2 SATISFIED**; the remaining MERGE-HOLD is author ratification of the three flagged §11.12 calls (Wilberg 2011 + Woods 2005 bib additions beyond the enumerated four; §10.2 seven-cases census wording; Emp. Obs. 10.1b worked-instance note). Any reef-touching essay/op-ed inherits these pinned labels. TA §11.12 + §3.6 reef row + §10.2 census + §5.5/§1.7/§1.10/Emp. Obs. 10.1b/§17.5/§11.7 reconciliations all ride this MERGE-HOLD branch.
+
+## Ch 5 case figures (Butler; BP–Mexico) — ADDED 2026-11-10 (author: "add the ledger entries where needed")
+
+Sources of record: Butler, *NYT Magazine*, June 20, 2010 (verified page by page in
+`research/citations/butler-2010-nyt_verification-and-quotes_2026-11-10.md`); BP–Mexico from BuzzFeed News
+(N. Janowitz, 2018), Vice, and *El País* (V. Calderón, Apr 30, 2015, via BHRC). Journalistic sources for
+Mexico: attribute, don't overstate.
+
+| Figure | Canonical value (pinned label) |
+|---|---|
+| Medicare, internist | **$54** = the **standard office-visit rate** for what would have been a long meeting (never held); **$0** for the phone calls. NOT "a fee for a conversation about whether it was wise." |
+| Medicare, surgeon | **$461** (implanting surgeon) |
+| Hospital fee | **about $12,000** flat; **an estimated $7,500** of it to the device maker (St. Jude). ⛔ NOT "nearly half"; ⛔ NOT "~$6,000". |
+| Caregiver | mother **77**, on duty **more than 80 hours a week**, in **2002** (before the Jan 2003 implant). Don't present 77 as an age reached after the implant. |
+| Device | heart kept beating **nearly five years** (autumn 2007); battery expected to last **five more**; a meeting could have noted it would last **ten years** |
+| Malpractice / liability motive | ⛔ **Not in Butler.** Keep out unless separately sourced and attributed. |
+| BP–Mexico settlement | **$25.5 million**, agreed **Feb 15, 2018** (BuzzFeed). "About $25 million" stays acceptable as a rounding. Split: **$15.3M** reimbursement of Mexico's monitoring and other costs; **$10.2M** to INECC for Gulf protection/restoration programs. BP opened at **$20M**; Mexico countered **$50M** (Oct 2017). The deal **released BP from responsibility for damage in Mexican waters**; Vice: no payment earmarked for affected communities. |
+| Mexico's studies | Government funded **22** studies, kept them out of its lawsuit and withheld them; **20** published July 2018 after FOI requests (after the settlement), none claiming BP's fingerprint; **2** (IMP) remained classified as of the 2018 report. |
+| Mexican fishermen's suit | **About 25,000** fishermen; US class action for compensatory and punitive damages; reported **April 2015** (*El País*); first class action by non-US citizens against BP over the spill. |
+| ⛔ Coastline normalization | "Measured against comparable lengths of damaged coastline" has **no source** (no per-mile comparison exists in the record). Don't use. The raw totals ($61.6B+ US vs $25.5M Mexico) can be stated side by side only if the prose does not imply equal damage. |
