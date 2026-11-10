@@ -120,3 +120,30 @@ section. These are observations to weigh during drafting, not rules.
   it a **cellphone**: most people in developed countries have one at this point in history. Keep the hedge
   ("may well be"); the claim is about where the elements may have been refined, not about every device.
 
+## Claude's proposed defaults for Session 2 (2026-11-10; pending the author's OK)
+
+The author agrees "Step back" could be smoother but would need time to find a fix, so these are offered as
+defaults that Session 2 drafts and the author judges on paper.
+
+1. **"Step back":** keep it twice, where it earns its place: once at the end of "One body" to set up the map,
+   and once at the turn into time ("Step back past the nation, and distance stops being a matter of space"),
+   where the distance changes kind. The other sections open on their own hook and let the headings carry the
+   scale. Don't rotate synonyms ("widen the view," "farther out"): that is the same tic in disguise. The
+   "what is being drawn on is…" openers go with it.
+2. **Page-two drop:** open "A household" on the relationship (a family that can't pay asks the people who
+   know it, which is what a fundraising page is), then the outcomes as the punch (nearly nine in ten fell
+   short; about one in six got nothing). Lighten the run of citations.
+3. **Town:** the attic bridge is an object (the author's house concern), and the section ends on Pistor. The
+   draft already holds a relationship bridge in its facts: miners "carried the dust home on their clothes,
+   into their kitchens and onto their children's laps." Lead with the people and end on Libby's people;
+   Roadmap first's "lungs" line can be adapted without the house.
+4. **Section endings:** move the four pointers to later chapters earlier in the paragraph or into a note, and
+   end on the strongest line.
+5. **"Who shaped the system?":** open on the question itself rather than clearing the throat.
+6. **Nation and restitution:** apply the end-of-paragraph test and mark where the pull dies. No length target.
+7. **Borrowing:** "farther away than Baotou, in time rather than space" from Earned for "The unborn" (author
+   to say yes or no).
+8. **Fact flag for Session 2:** the BP–Mexico comparison in "A coast" ("Measured against comparable lengths
+   of damaged coastline…") isn't in the ledger. Verify it or soften it to what the sources support. It is not
+   in the NYRB essay (checked).
+
