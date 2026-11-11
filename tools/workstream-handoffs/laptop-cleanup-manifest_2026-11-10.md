@@ -111,8 +111,8 @@ clean. Note: `origin/main` advanced during the session (observed
   author-approved follow-up (see §3). Final worktree state: only the main
   checkout at `/Users/c17n/commons-bonds` remains.
 - **Local branch pruning:** DONE (author-approved) — see §8.
-- **6 unpushed branches (§8):** carry commits NOT on origin; kept local, not yet
-  backed up to GitHub. Awaiting author decision (push-to-backup vs leave local).
+- **6 unpushed branches (§8):** DONE — all 6 pushed to origin under their own
+  names (author-approved); every piece of work on this Mac is now on GitHub.
 
 ## 8. Branch pruning (author-approved, 2026-11-10)
 
@@ -130,8 +130,10 @@ clean. Note: `origin/main` advanced during the session (observed
   `pm-book-completion-260610-07b75f`, `ta-internal-fixes-260607-208b7b`,
   `ta-provenance-11-3-11-4-integral-260610-d22bed`,
   `ta-stage4-markup-260610-70c0bf`, `tolerance-spot-fix-260611-2c3b1b`.
-- **Kept — UNPUSHED, tip NOT on origin (6):** these carry commits that are NOT on
-  GitHub; `-d` correctly refused them; refs left in place. NOT yet backed up:
+- **Was unpushed → now BACKED UP to origin (6, author-approved 2026-11-10):**
+  during the prune these carried commits NOT on GitHub and `git branch -d` refused
+  them (nothing lost); each was then pushed to origin under its own name and
+  `ls-remote`-confirmed. Local refs retained (now also prunable since on origin):
   `ch10-insertion-placement-lucid-pike-cbf748` (`41509bdf`),
   `ch9-pass3-5-1fae85` (`8aeeadcb`),
   `christophers-single-book-review-stage-0-663265` (`676a3fa2`),
@@ -140,7 +142,7 @@ clean. Note: `origin/main` advanced during the session (observed
   `unruffled-elbakyan-af5b16` (`80b5aa67`).
 
 Remaining local branches: 29 (`main` + 12 rescue snapshots + 10 kept-on-origin
-+ 6 kept-unpushed).
++ 6 now-backed-up). Everything on this Mac is now on origin.
 
 ---
 Rescue branches are preservation snapshots, not merge requests. Decide per
