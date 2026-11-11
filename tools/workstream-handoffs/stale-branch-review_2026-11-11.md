@@ -1,6 +1,6 @@
 # Stale branch review — the 29 branches preserved by the 2026-11-10 laptop cleanup
 
-**Status:** PROPOSED (internal). Read-only review; nothing deleted, nothing merged.
+**Status:** RATIFIED 2026-11-11 (author). Done in the cloud session: the Author's Note fix is on main (`170705a2`); the Noema redrafts and the edited hybrid draft are saved under `publishing/essays/noema-commons-bonds/_archive/`. **Still to run on the author's machine:** `tools/scripts/archive-and-delete-stale-branches_2026-11-11.sh` (tag-then-delete the 28 branches). The cloud session's GitHub access refused tag pushes and other-branch deletes (HTTP 403).
 **Scope:** the 13 `claude/rescue-*-20261110` snapshots, the 10 "kept on origin" branches and the 6 "backed up"
 branches listed in `laptop-cleanup-manifest_2026-11-10.md` §1 and §8. Method: each branch's changes since its
 merge base were compared file by file with current `origin/main` (identical / absent / changed on main since /
