@@ -56,6 +56,16 @@ one sentence ("one payment, one cost") and asks for CS by component where costs 
 **Consequence the author should know:** the definition makes two facts part of every case: who bears each cost,
 and what that party knew at signing. Each §11 case now has an attribution paragraph.
 
+**Finding C (the author's, 2026-11-11). "In view" is wrong for instruments.** A bond can be posted against a
+risk nobody can size. Knowledge matters only where the bearer's own consent does the pricing. Definition 1.7 now
+has two routes: (a) an instrument, which counts whatever was known; (b) the bearer's informed consent, which
+counts only as far as the bearer could see the cost. Cost severance is cost borne and neither bonded nor knowingly
+accepted. Re-tested against the same nine cases: same answers. The phrase "priced with the cost in view" is retired.
+
+Same day, at the author's direction: the borrowed/added section now ends with a list of what is the framework's
+own, using its names (cost severance, the Cost Severance Decomposition, the Commons Inversion Test and Four Gates,
+the three states, the per-unit reserve, the terms defined), with the size of each claim stated.
+
 Please read Definition 1.7 in the PDF (page 9 or so) and confirm the final wording.
 
 ## 3. Number changes that need your OK before merge

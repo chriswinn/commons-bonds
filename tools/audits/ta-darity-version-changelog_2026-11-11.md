@@ -30,8 +30,9 @@ his file was built from. Compare each against his PDF, or drop the column and ke
 
 ## Structure
 
-- **Who bears the cost** is now in the definition of the bond: cost counts as bonded only if it was priced with
-  the cost in view. Cost severance is what was borne but never priced.
+- **Who bears the cost** is now in the definition of the bond. Cost counts as covered if an instrument was
+  posted against it (even against an uncertain risk) or the bearer knowingly accepted it. Cost severance is what
+  was borne and was neither bonded nor knowingly accepted.
 - **Cost Severance Damages and the Restitution Bond are formally defined**, with a split between what the
   extractor paid and what the public paid.
 - **The Hotelling Identity is restated** as a split of the forward gap: rent that was not bonded, plus the gap

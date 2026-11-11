@@ -846,7 +846,7 @@ patterns:
     description: "Working label renamed to Restitution Bond (B1)"
     allowlist:
       - file: "manuscript/technical-appendix/TechnicalAppendix_v2.0.1.html"
-        line: 1331
+        line: 1356
         rationale: "SUBSTANTIVE naming-history: §5.1.2 explains why the working label was rejected for Restitution Bond (re-pinned 2026-11-11 for TA v2.0.1)"
       - file: "manuscript/chapters/Chapter__5_TheAccountabilityGap.md"
         line: 202
@@ -860,16 +860,16 @@ patterns:
     description: "Working label renamed to Foreclosure Bond (B2)"
     allowlist:
       - file: "manuscript/technical-appendix/TechnicalAppendix_v2.0.1.html"
-        line: 1317
+        line: 1342
         rationale: "SUBSTANTIVE naming-history heading: Why Foreclosure Bond over Resource-Foreclosure Bond (re-pinned 2026-11-11 for TA v2.0.1)"
       - file: "manuscript/technical-appendix/TechnicalAppendix_v2.0.1.html"
-        line: 1331
+        line: 1356
         rationale: "SUBSTANTIVE naming-history: rejected working label reviewed against the live name (re-pinned 2026-11-11 for TA v2.0.1)"
       - file: "manuscript/technical-appendix/TechnicalAppendix_v2.0.1.html"
-        line: 1349
+        line: 1374
         rationale: "SUBSTANTIVE naming-history: rationale referencing the §5.1.2 note (re-pinned 2026-11-11 for TA v2.0.1)"
       - file: "manuscript/technical-appendix/TechnicalAppendix_v2.0.1.html"
-        line: 6633
+        line: 6658
         rationale: "SUBSTANTIVE §15.2 rename-candidates list: quoted as a rejected candidate (re-pinned 2026-11-11 for TA v2.0.1)"
 
   - id: regressed-term-reversibility-default

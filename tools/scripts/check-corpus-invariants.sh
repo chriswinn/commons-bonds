@@ -260,6 +260,9 @@ if [[ "$STAGED_ONLY" -eq 1 ]]; then
       manuscript/chapters/_AUTHORSNOTE*.md) echo "$f" ;;
       manuscript/chapters/_BookLevelGuidance.md) echo "$f" ;;
       manuscript/chapters/_Dedication.md) echo "$f" ;;
+      # Technical Appendix added 2026-11-11: it was listed in the YAML scope but
+      # never in this hard-coded set, so the gate was not actually scanning it.
+      manuscript/technical-appendix/TechnicalAppendix_v*.html) echo "$f" ;;
       # essay.md re-enabled 2026-06-18 with frontmatter-aware scanning: the
       # audit-trail frontmatter is stripped before pattern-matching (see the
       # "Essay frontmatter-aware scanning" block further below). Exclude the
@@ -296,6 +299,7 @@ else
     ls manuscript/chapters/Chapter_*.md 2>/dev/null || true
     ls manuscript/chapters/_AUTHORSNOTE*.md 2>/dev/null || true
     ls manuscript/chapters/_Dedication.md 2>/dev/null || true
+    ls manuscript/technical-appendix/TechnicalAppendix_v*.html 2>/dev/null || true
     # Canonical end-user op-ed drafts only (mirror the --staged include set):
     # one op-ed.md per directory. Exclude internal-scaffolding subtrees
     # (_archive/, _pipeline/, _shared/) + per-op-ed rigor briefs / READMEs.
