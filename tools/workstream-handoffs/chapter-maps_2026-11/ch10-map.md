@@ -1,6 +1,6 @@
 # Ch 10, Common Bonds: chapter map (2026-11-11)
 
-Internal. One page. Content source: `manuscript/chapters/Chapter_10_CommonBonds.md` (promoted 2026-06-17, about 5,750 words; not yet author-redlined). The content is settled. The prose is not: redraft it fresh for pace, pull and flow against the style sheet, and do not match the current wording. Its harbor frame is the strongest opening in the book after Ch 1 and Ch 5, and the redraft should keep that frame's shape.
+Internal. One page. Content source: `manuscript/chapters/Chapter_10_CommonBonds.md` (promoted 2026-06-17; not yet author-redlined). The content is settled. The prose is not: redraft it fresh for pace, pull and flow against the style sheet, and do not match the current wording. Its harbor frame is the strongest opening in the book after Ch 1 and Ch 5, and the redraft should keep that frame's shape.
 
 **The chapter's question.** If the miner, the waterman and the administrator are one case in different numbers, what follows from seeing that, and what is the book honest enough to say it can't do? Answered in the room (the kinship nobody told them about), the limits (what the model can't settle or price), and the two readings of the title.
 
@@ -40,7 +40,7 @@ Internal. One page. Content source: `manuscript/chapters/Chapter_10_CommonBonds.
 
 **Open structure calls for the author.**
 1. **"My wife, who nearly died."** Section 3 names the weeks at the hospital. Ch 1 says the marriage ended and that the rest is not your story to tell. *Recommend:* you rewrite this sentence yourself, in whatever form keeps it yours alone. A redraft session will leave a marked gap here and write nothing.
-2. **Three objections at 1,600 words.** Ch 5 already answers Polanyi's readers and Sandel, and Ch 9 answers Christophers. *Recommend:* keep the objection from the left and the one from your parents' friends whole, because only this chapter can make them personal. Cut the middle one to a paragraph that points back, and keep "the thing already has a number, and that number is zero."
+2. **Three objections in a row.** Ch 5 already answers Polanyi's readers and Sandel, and Ch 9 answers Christophers. *Recommend:* keep the objection from the left and the one from your parents' friends whole, because only this chapter can make them personal. Cut the middle one to a paragraph that points back, and keep "the thing already has a number, and that number is zero."
 3. **Six covers or the TA's kinds of distance.** Same call as Ch 7's call 3, and the two chapters must match. *Recommend:* follow the TA.
 4. **June's options.** *Recommend:* keep "half a mile from where I am sitting" if it is true of where the boat is; keep the Mars lines ("There is no downwind") and cut the sentence after them that repeats the point; cut the line about meeting Pistor "as a friend."
 5. **Where the grandfather is named.** Ch 1 calls him Pooh and never gives his name; this chapter gives it. *Recommend:* keep the name here only, as the place the reader finally learns it, and say "the man my family called Pooh" once so the two chapters join.

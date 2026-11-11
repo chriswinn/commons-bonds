@@ -1,6 +1,6 @@
 # Ch 9, Pricing Honestly: chapter map (2026-11-11)
 
-Internal. One page. **Full rebuild.** The current chapter (`manuscript/chapters/Chapter__9_PricingHonestly.md`, about 11,200 words) fails its gate. It has no person and no place in it, it says some version of "the framework does not legislate" six times, and its four clear steps are buried under long replies to objections. Nothing in its prose is protected. Brief: `research/story-drafts/ch9-blind-brief-v4_2026-11.md`.
+Internal. One page. **Full rebuild.** The current chapter (`manuscript/chapters/Chapter__9_PricingHonestly.md`) fails its gate. It has no person and no place in it, it says some version of "the framework does not legislate" six times, and its four clear steps are buried under long replies to objections. Nothing in its prose is protected. Brief: `research/story-drafts/ch9-blind-brief-v4_2026-11.md`.
 
 **The chapter's question.** Ch 5 ended by asking what it would take to post the bond before the cost is cut loose. Ch 8 wrote the bill. So what would a society that decided to pay actually do, and is any of it already being done? Answered in four steps, then by counting the pieces that already exist.
 
@@ -33,7 +33,7 @@ Internal. One page. **Full rebuild.** The current chapter (`manuscript/chapters/
 **Cut or move.**
 - Every "the framework does not legislate" but one.
 - **The health-care and crowdfunding paragraphs** in "the eleven-cent difference." They repeat Ch 5's community ring from older sources that disagree with it.
-- The Nordic objection as a 1,000-word essay of four conditions and four replies. Ch 4 already answers "it could never work here" with four cases.
+- The Nordic objection as a separate essay of four conditions and four replies. Ch 4 already answers "it could never work here" with four cases.
 - Three of the five books in "what a framework does." Keep the two that carry the point best.
 - "Chapter 8 put a number on the invoice" and the stale figures after it; "It is worth saying aloud why…"; "The objection deserves the most honest answer I know how to give."
 - The counterfeit-fix passage arrives here from Ch 7 (if that call is taken) and goes in section 8.

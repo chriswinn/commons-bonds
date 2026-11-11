@@ -10,7 +10,7 @@
 
 1. **Redraft for pace, pull and flow. Do not match the existing chapters' prose.** The author's verdict on the first draft of the book (2026-11-11): the content is mostly there, the prose is clunky and slow, and nothing pulls the reader to the next sentence, paragraph or chapter. Treat each current chapter as a source of content only. The pace model is the Ch 5 rings redraft (`tools/workstream-handoffs/pull-pass_2026-11/ch5-rings-redraft_2026-11-10.md`). **Protected in every chapter:** quotations, the sayings of the author's father and family, facts and figures, and any passage the author names as his own (in Ch 5, the 2008 account and the lines "did not produce," "cashed out," "left standing," "the bill comes due"). Everything else is rewritten, and the change notes list what was protected. (R5; author 2026-11-10 and 2026-11-11)
 2. **Add nothing that isn't in the record.** No invented fact, scene, quotation, feeling or memory. The author added "breathless and panting" to his own childhood; a drafter cannot. The aim is "less flat, not more vivid": fix order and presence, never add color. (R5, M)
-3. **No drafting targets.** No sentence-length goal, no rhythm model (don't imitate Ch 1's sentence shapes), no counts. The lenses are lenses. Long sentences are fine. (R5)
+3. **No drafting targets, and above all no length target.** No word count for a chapter, a section or a sentence, as a ceiling or as a floor; no rhythm model (don't imitate Ch 1's sentence shapes); no counts. The author's own diagnosis (2026-11-11): "our worst prose was written trying to stay under a given word count." A maximum that reaches the drafter manufactures compression. What a chapter contains is decided by the author on its map. How long that takes is whatever reads well. (R5; author 2026-11-11)
 
 ## Sentences
 
@@ -49,7 +49,7 @@
 | 21 | **End on the concrete thing, in plain words.** His own endings echo the image or speak plainly; they aren't aphorisms. | "…no one had ever done it better." · "…for everyone earning beneath it, which is to say almost everyone." | "…no one had ever dug a better ditch." · "…for everyone else. Anyway, sure, the house was beautiful." | R1 |
 | 22 | **Other people's stories aren't his to tell.** One plain sentence closes the door. Living people stay unnamed. Don't dramatize the boundary. | "I will only tell you my side of that, because the rest is not mine to tell, and I am going to hold that boundary as carefully as I held the boundary around the weights of slavery…" | "But that is not my story to tell." | R1 |
 | 23 | **His money appears as a rank, never a dollar figure.** | "…touched around [a dollar figure]." | "…put me in the top one to two percent of household incomes in the United States for those years." | R1 |
-| 24 | **Credit a source in a sentence where its idea is used.** Lineage tours shrink or move. | Two paragraphs (about 250 words) on Pettit, Skinner and Hartwick | One paragraph (about 85 words); both titles, both years and Hartwick 1977 still cited | R5 (approved 2026-11-11) |
+| 24 | **Credit a source in a sentence where its idea is used.** Lineage tours shrink or move. | Two paragraphs touring Pettit, Skinner and Hartwick | One paragraph; both titles, both years and Hartwick 1977 still cited | R5 (approved 2026-11-11) |
 | 25 | **Retired frames.** "Scatter" as a word or a structure. | "…a deliberately scattered set of cases, and the scatter is the method." | Rings that close in on the reader | R5 mark 9 |
 
 ## Pending: Claude's observations, not yet the author's rulings

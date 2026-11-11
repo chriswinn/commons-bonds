@@ -36,11 +36,11 @@ Internal. One page. **This chapter is open, not closed:** the author's travel st
 
 **Cut or move.**
 - Announcements, already identified in the pace redraft: "Let me tell you what it means to be a model maker…", "I will tell you about them properly later…", "I tell you this not to praise the skill…".
-- The family section runs about 1,900 words before the chapter turns; with section 6 added, the middle gets longer (see call 2).
+- The family section holds seven stories back to back before the chapter turns toward the price, and section 6 adds more before that turn (see call 2).
 - The Tubman paragraph: the author's earlier note says it "reads off." Redraft it for pace with its content unchanged, and flag it for his ear.
 
 **Open structure calls for the author.**
-1. **Where the road goes.** *Recommend:* its own section between the work and the plane (as mapped). Alternative: fold it into the work section and shorten the station story.
+1. **Where the road goes.** *Recommend:* its own section between the work and the plane (as mapped). Alternative: fold it into the work section.
 2. **What gives way in the family section.** *Recommend:* move the nephew's "Pou it is" to just before the close, so the family thread ends beside the son; consider moving "holding a room" into the work section, where he says he used it. Keep the compressor, the ditch and the chore.
 3. **What is protected.** The chapter is redrafted for pace like every other. *Recommend:* the rule you set on 2026-11-10 holds: every quotation, your father's and grandfather's sayings, the children's and the colleague's words, and all facts and numbers stay exactly as they are; everything else is open. The pace redraft of 2026-11-10 is the starting text. Tell the redraft session if any other passage (the Tubman paragraph, the mornings with your son) should be left word for word.
 4. **How much research shows.** *Recommend:* your story carries it; at most two sentences of evidence after your scenes, the rest in endnotes. The crab-boat comparison (danger is priced, absence is not) gets one sentence or none. The football-player case stays out until it is sourced.

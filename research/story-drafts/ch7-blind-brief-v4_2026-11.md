@@ -15,7 +15,9 @@
 4. The figure ledger as amended by TA Phase 2: `manuscript/ledgers/_CANONICAL_FIGURE_LEDGER.md`. **Every figure comes from the ledger as it stands on the day you draft,** not from this brief, not from v3, not from the current chapter.
 5. Only the sections of the v3 brief that §3 below says still stand: `research/story-drafts/ch7-blind-brief-v3_2026-06-16.md`.
 
-Do not load the Technical Appendix. Do not load another chapter except the short passages named in §2. Draft one map section at a time (about 3,000 to 4,000 words of source material in view at once).
+Do not load the Technical Appendix. Do not load another chapter except the short passages named in §2. Draft one map section at a time.
+
+**No length target, in either direction.** The worst prose in this project came from drafting toward a word count. Nothing in this brief or the map is a size to hit. Where either says "a sentence" or "a paragraph," it means "this passage has one job"; if doing that job well takes more room, take it and note it. Decisions about what is in the chapter belong to the author and are made on the map. They are not yours to make for length.
 
 **Where v4 and v3 disagree, v4 wins.** Where v4 and the amended ledger disagree on a number, the ledger wins. Where anything disagrees with the author's answers on the map, the author wins.
 
@@ -29,7 +31,7 @@ Do not load the Technical Appendix. Do not load another chapter except the short
 4. **The commute matches Ch 1.** The current chapter's version uses a saving and a day count that contradict Ch 1. Rebuild it from Ch 1's own figures (read Ch 1's lease section only) and place it under informational distance: a cost that could have been seen and wasn't, because nothing prompted the question. It is inside the framework (TA decision 2).
 5. **"Zero when the same people gain and pay, knowingly"** is now a stated test case of the bond definition. The Mars rare-earths passage should say exactly that and no more.
 6. **The abundance-masking theorem** is being cited more narrowly in the TA (review finding N11). Do not cite the theorem number in the chapter.
-7. **Cuts the author is asked to confirm on the map:** the certified-diamond passage moves to Ch 9; Giza and the Qin stay at half length; the longtermism paragraph, the paragraph on the Sun, the advocacy disclaimers and the note on launch costs leave the text (the last to the endnotes). v3 marked several of these "keep"; the map's calls supersede that if the author agrees, and v3 governs if he does not.
+7. **Cuts the author is asked to confirm on the map:** the certified-diamond passage moves to Ch 9; Giza and the Qin stay, without the roll call of later systems; the longtermism paragraph, the paragraph on the Sun, the advocacy disclaimers and the note on launch costs leave the text (the last to the endnotes). v3 marked several of these "keep"; the map's calls supersede that if the author agrees, and v3 governs if he does not.
 
 ## 2. Structure
 

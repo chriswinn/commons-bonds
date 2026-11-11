@@ -1,6 +1,6 @@
 # Ch 7, On Other Worlds: chapter map (2026-11-11)
 
-Internal. One page. **Full rebuild.** The current chapter (`manuscript/chapters/Chapter__7_OnOtherWorlds.md`, about 9,100 words) fails its gate. Its best material, the administrator and her habitat, arrives after 500 words of thesis, plan and a note defending the choice of Mars. Nothing in its prose is protected. Brief: `research/story-drafts/ch7-blind-brief-v4_2026-11.md`.
+Internal. One page. **Full rebuild.** The current chapter (`manuscript/chapters/Chapter__7_OnOtherWorlds.md`) fails its gate. Its best material, the administrator and her habitat, arrives after 500 words of thesis, plan and a note defending the choice of Mars. Nothing in its prose is protected. Brief: `research/story-drafts/ch7-blind-brief-v4_2026-11.md`.
 
 **Register.** This is the book's one thought-experiment chapter. The habitat, the administrator and the consortium are imagined, and the prose tells the reader so in its first lines. Everything about the real world (missions, launch costs, the pyramids, the Qin, the diamond trade) stays under the no-invented-facts rule.
 
@@ -33,7 +33,7 @@ Internal. One page. **Full rebuild.** The current chapter (`manuscript/chapters/
 **Cut or move.**
 - The opening three paragraphs ("Imagine… that the argument is wrong"), the plan paragraph, and "A note on the choice of setting." The question arrives after the scene, in two sentences.
 - **The commute in the current section "Running the test" contradicts Ch 1** (a different saving and a different count of days). Rebuild it from Ch 1's own figures and place it in section 6 as the nearest case of informational distance.
-- The 500-word defense of the name "abundance masking": one sentence.
+- The defense of the name "abundance masking" against five rejected alternatives. Say what the term means and move on.
 - The paragraph on longtermism and effective altruism, the paragraph on the Sun's luminosity, and the two paragraphs disclaiming any advocacy for settling Mars. Each answers a claim the reader has not made (style rule 20).
 - "A note on the numbers behind the thought experiment": to the endnotes.
 - "This is the insight worth pausing on"; "The objection is legitimate and deserves a specific response"; "Two more pressure points… deserve a direct response."
@@ -42,5 +42,5 @@ Internal. One page. **Full rebuild.** The current chapter (`manuscript/chapters/
 1. **The opening.** *Recommend:* start inside the habitat, with one clause that marks it as imagined, and let the reader meet the question through her.
 2. **The two-party colony.** *Recommend:* add it to section 5, kept short. It is the one place in the book where a reserve is sized before anything is taken, and it uses a register this chapter already owns. It follows the TA's version once that exists.
 3. **Six patterns or four kinds of distance.** The current chapter lists six ways a cost is hidden. The TA is settling on four kinds of distance. *Recommend:* use the TA's four. Treat habit ("the cost of doing business") and apparent abundance as two ways informational distance is kept up. Coercion is different in kind: it is how the cost is assigned, not how it is hidden, and it should be said that way. Confirm against the final TA text.
-4. **History and the counterfeit fix.** Giza and the Qin run about 900 words; the diamond-certification passage another 350. *Recommend:* keep Giza and the Qin at half their length as section 9, and move the certification passage to Ch 9, where the design answer lives.
+4. **History and the counterfeit fix.** *Recommend:* keep Giza and the Qin as section 9, told for what they show (the same arrangement in two civilizations with no contact) and without the roll call of later systems, and move the certification passage to Ch 9, where the design answer lives.
 5. **The name "existential substitutability gap."** *Recommend:* keep the ranking, and call it the substitutability gap in the prose unless the symbol registry requires the longer name. The longer name invites an argument about longtermism that the chapter then has to spend a paragraph declining.

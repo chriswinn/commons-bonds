@@ -6,13 +6,15 @@
 
 **The rule for every redraft (author, 2026-11-11).** Do not match the existing chapters' prose. The first draft has the content and lacks pace and pull. Use the current chapter for content only; write the prose fresh; the Ch 5 rings redraft is the pace model. Protected everywhere: quotations, the author's family's sayings, facts and figures, and passages the author names as his own.
 
+**No map sets a length (author, 2026-11-11).** The worst prose in this project came from drafting toward a word count. Nothing in these maps is a length target, up or down. A map decides *what is in the chapter*: which material stays, which repeats something said elsewhere, which moves. Those are content decisions and they are the author's. Once they are made, each passage is as long as it needs to be to read well. Where a map says "a sentence" or "a paragraph," it means "this passage has one job," and if doing that job well takes more room, take it and say so in the change notes.
+
 **What the author does with a map.** Read the table, then answer the numbered calls at the bottom (five at most, each with a recommendation). "Yes to all" is a complete answer.
 
 | Chapter | Map | Kind of redraft | Waits on Session A? |
 |---|---|---|---|
 | 1 The Quiet Math | `ch01-map.md` | Open: the author's travel story is placed; he writes its scenes | Only for a meaning check |
 | 2 The Miner | `ch02-map.md` | Pace redraft | No |
-| 3 The Waterman | `ch03-map.md` | Pace redraft; shorten | Reef wording |
+| 3 The Waterman | `ch03-map.md` | Pace redraft; repeated material removed (your calls) | Reef wording |
 | 4 The Existence Proof | `ch04-map.md` | Pace redraft | Two sentences |
 | 5 The Accountability Gap | `../pull-pass_2026-11/question-map.md` | Done; awaiting the author's redline | — |
 | 6 Three Ways of Counting | `ch06-map.md` | Full rebuild | **Yes** |

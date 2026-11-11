@@ -1,6 +1,6 @@
 # Ch 8, What Things Actually Cost: chapter map (2026-11-11)
 
-Internal. One page. **Full rebuild.** The current chapter (`manuscript/chapters/Chapter__8_WhatThingsActuallyCost.md`, about 6,400 words) fails its gate: it still carries retired multiples and several figures that contradict the ledger and Ch 2. Nothing in its prose is protected. Brief: `research/story-drafts/ch8-blind-brief-v4_2026-11.md`.
+Internal. One page. **Full rebuild.** The current chapter (`manuscript/chapters/Chapter__8_WhatThingsActuallyCost.md`) fails its gate: it still carries retired multiples and several figures that contradict the ledger and Ch 2. Nothing in its prose is protected. Brief: `research/story-drafts/ch8-blind-brief-v4_2026-11.md`.
 
 **The chapter's question.** Ch 2 read the miner's bill one column at a time and left the amounts blank. What does the bill come to? Answered line by line for one ton of McDowell coal, then set beside the price in the 1960 records, then beside what was actually paid and who paid it.
 
@@ -32,7 +32,7 @@ Internal. One page. **Full rebuild.** The current chapter (`manuscript/chapters/
 **Cut or move.**
 - The opening page: the rhetorical question, the list of everything to come, and "The result is not degrowth. It is not anti-capitalism." The reader has not said it was (style rule 20).
 - The repeated "I'll use the low end… almost certainly an undercount… the reader can adjust." Say once, in section 1, that every line takes the lowest defensible figure.
-- The housing passage and its 900-word reply to the zoning objection; the tar sands paragraph; the bank-rescue paragraph (see call 2).
+- The housing passage and its reply to the zoning objection; the tar sands paragraph; the bank-rescue paragraph (see call 2).
 - The global extrapolation (see call 3).
 - The closing list of questions followed by "They are also outside the scope of this book." Ch 9 follows and takes several of them up. One hand-off sentence.
 - "The ladder" objection moves to Ch 9's international section, which already answers it.

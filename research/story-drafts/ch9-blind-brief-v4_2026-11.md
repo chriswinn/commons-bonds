@@ -15,7 +15,9 @@
 4. The figure ledger as amended by TA Phase 2: `manuscript/ledgers/_CANONICAL_FIGURE_LEDGER.md`. **Every figure comes from the ledger as it stands on the day you draft,** not from this brief, not from v3, not from the current chapter.
 5. Only the sections of the v3 brief that §3 below says still stand: `research/story-drafts/ch9-blind-brief-v3_2026-06-16.md`.
 
-Do not load the Technical Appendix. Do not load another chapter except the short passages named in §2. Draft one map section at a time (about 3,000 to 4,000 words of source material in view at once).
+Do not load the Technical Appendix. Do not load another chapter except the short passages named in §2. Draft one map section at a time.
+
+**No length target, in either direction.** The worst prose in this project came from drafting toward a word count. Nothing in this brief or the map is a size to hit. Where either says "a sentence" or "a paragraph," it means "this passage has one job"; if doing that job well takes more room, take it and note it. Decisions about what is in the chapter belong to the author and are made on the map. They are not yours to make for length.
 
 **Where v4 and v3 disagree, v4 wins.** Where v4 and the amended ledger disagree on a number, the ledger wins. Where anything disagrees with the author's answers on the map, the author wins.
 
@@ -71,7 +73,7 @@ The map's eleven sections. Notes:
 - Ostrom appears in the property-rights section as a governance tradition, in the verified wording: her principles work where those who bear the costs share the resource's fate. Never "coequal."
 - Insertion E's "permanent foreclosure" is the proviso's cleanest case, not the framework's scope. If it reads as a scope limit, write "foreclosure or drawdown past renewal."
 
-## 5. Insertions (drafted text in the 2026-06-18 handoff; carry by content, rewrite for pace, roughly half length)
+## 5. Insertions (drafted text in the 2026-06-18 handoff; carry by content, rewrite for pace)
 
 - **E, Nozick and the Lockean proviso.** Map section 10.
 - **H, Christophers' *Rentier Capitalism*.** Map section 10, after *The Price Is Wrong*.
