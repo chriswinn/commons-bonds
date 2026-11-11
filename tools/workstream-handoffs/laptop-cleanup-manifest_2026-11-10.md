@@ -110,11 +110,37 @@ clean. Note: `origin/main` advanced during the session (observed
 - **Dirty-but-safe folders + tolerance-spot-fix:** DONE — all removed in the
   author-approved follow-up (see §3). Final worktree state: only the main
   checkout at `/Users/c17n/commons-bonds` remains.
-- **Local branch pruning:** 60+ stale `claude/*` branches remain (including the
-  13 `claude/rescue-*-20261110` snapshots). `git branch -d` would safely delete
-  those fully on origin and refuse any with unpushed commits (several exist,
-  e.g. `book-proposal-tier1` +87, `atlantic-ideas-package-ratification` +39).
-  Not run — treat as its own reviewed batch.
+- **Local branch pruning:** DONE (author-approved) — see §8.
+- **6 unpushed branches (§8):** carry commits NOT on origin; kept local, not yet
+  backed up to GitHub. Awaiting author decision (push-to-backup vs leave local).
+
+## 8. Branch pruning (author-approved, 2026-11-10)
+
+`git branch -d` (never `-D`) run on every local branch except `main` and the 12
+`claude/rescue-*-20261110` snapshots:
+
+- **Deleted: 107** branches — fully merged into their upstream or into main; all
+  commits preserved on origin.
+- **Kept — on origin, `-d` declined (10):** tips ARE on origin (safe), but each
+  carries commits beyond its upstream/main so `-d` declined; refs left in place.
+  `atlantic-ideas-package-ratification-260601-e8593b`,
+  `book-drafting-plan-260618-88009b`, `book-proposal-tier1-260611-e0dbb7`,
+  `nyrb-vd-stage-5-essay-signoff-prepub-refresh-260601-93a0b1`,
+  `pipeline-prose-revision-corpus-audit-260602-6b5eda`,
+  `pm-book-completion-260610-07b75f`, `ta-internal-fixes-260607-208b7b`,
+  `ta-provenance-11-3-11-4-integral-260610-d22bed`,
+  `ta-stage4-markup-260610-70c0bf`, `tolerance-spot-fix-260611-2c3b1b`.
+- **Kept — UNPUSHED, tip NOT on origin (6):** these carry commits that are NOT on
+  GitHub; `-d` correctly refused them; refs left in place. NOT yet backed up:
+  `ch10-insertion-placement-lucid-pike-cbf748` (`41509bdf`),
+  `ch9-pass3-5-1fae85` (`8aeeadcb`),
+  `christophers-single-book-review-stage-0-663265` (`676a3fa2`),
+  `laughing-raman-8b4564` (`deaa1d54`),
+  `ta-rcv-publication-stability-signoff-663265` (`792846a3`),
+  `unruffled-elbakyan-af5b16` (`80b5aa67`).
+
+Remaining local branches: 29 (`main` + 12 rescue snapshots + 10 kept-on-origin
++ 6 kept-unpushed).
 
 ---
 Rescue branches are preservation snapshots, not merge requests. Decide per
