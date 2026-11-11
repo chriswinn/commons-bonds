@@ -46,7 +46,9 @@ what's waiting on the author · the exact next paste line.
 > the symbol registry and STATE.md; **Session B** (style sheet, chapter maps, Ch 6–9 briefs)
 > writes only new files of its own and touches none of A's files. Kickoffs:
 > `tools/workstream-handoffs/parallel-window_2026-11-11_session-A_ta-phase2.md` and
-> `..._session-B_style-maps-briefs.md`. After the expiry the one-session rule applies again.
+> `..._session-B_style-maps-briefs.md`. **Session C** (portfolio strategy review, read-only plus one
+> memo; `..._session-C_portfolio-strategy.md`) starts only when A or B has closed or after the Nov 16
+> reset, so at most two run at once. After the expiry the one-session rule applies again.
 
 Live plan: [`tools/workstream-handoffs/commons_bonds_work-plan_2026-10_to_2027-08_v1.0.7.md`](tools/workstream-handoffs/commons_bonds_work-plan_2026-10_to_2027-08_v1.0.7.md).
 
