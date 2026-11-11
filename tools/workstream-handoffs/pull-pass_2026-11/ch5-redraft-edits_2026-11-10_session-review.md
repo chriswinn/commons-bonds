@@ -22,3 +22,15 @@ Transfer these to your redline copy. The PDF you are reading predates them.
 Still to fix outside this file: the book proposal's Ch 5 summary says "documented public costs near a billion
 dollars" for Libby (proposal redline, winter list); TA §11.3 labels the $250 million as wrongful-death
 settlements, but it was Grace's reimbursement of federal cleanup costs (TA Phase 2).
+
+## Added 2026-11-11 (author-approved)
+
+5. **Lineage trims in "Restitution and foreclosure."** Darity, Mullen, Hamilton, Coates and Conley untouched.
+   - Pettit/Skinner + Hartwick: two paragraphs (about 250 words) became one (about 85). Both titles, both years,
+     and Hartwick 1977 are still cited.
+   - Fanning–Hickel / CARICOM / Loss and Damage Fund: two paragraphs became one. All three still named; the
+     priority concession and the "grain" distinction kept.
+   - Lost on purpose: the sentence that the reader need not accept republicanism as the only frame, and the
+     pointer to Ch 6's discounting discussion.
+6. **Book proposal** `publishing/book-proposal/05_chapter-summaries.md`: Libby "documented public costs near a
+   billion dollars" became "federal cleanup costs of more than $600 million."
