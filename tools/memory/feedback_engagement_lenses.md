@@ -104,3 +104,12 @@ of the pull (lenses 1 and 5). The re-revision kept all five strengths and the gr
   mining town, an oil rig in the Gulf of Mexico, a rare-earth plant in Inner Mongolia, a retirement
   account, a pay stub, a hospital room where it sits beside your loved ones like an unannounced and
   uninvited guest."
+
+
+## Clarified 2026-11-11 (author)
+
+The sentence above that names "the author's two" hard rules for sentence construction is superseded. The
+author is happy with long sentences and with comma insertions; his 2026-11-09 mark was about a run-on
+stacked with several insertions. The test is one-pass readability. See the clarification at the end of
+`feedback_em_dash_overuse.md` and the house style sheet, rule 1. Length follows substance: no maximum, no
+minimum.

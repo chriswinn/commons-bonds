@@ -62,3 +62,19 @@ the rule forbids is splitting a clause with an insertion, or an insertion contai
 **Checks.** `tools/scripts/check-prose-clarity.py` flags interrupted clauses (`intr`). Its
 sentence-length and `stack` counts are after-the-fact editing aids for locating tangles, never a
 drafting target. Do not draft toward zero on them.
+
+---
+
+## CLARIFIED 2026-11-11 (author): comma insertions are fine; there is no ban on splitting a clause
+
+Items 2 and 3 of the 2026-11-09 amendment above overstated the author's mark. His words (2026-11-11):
+"I'm perfectly happy with long sentences, which use comma insertions, being used. I only commented on it
+the other day as a run on sentence I was reviewing from a prior draft had at least 3 different comma
+insertions and that's just bad punctuation in clunky prose."
+
+**What holds now.** One-pass readability is the test (item 1). Long sentences are fine, with or without
+insertions. What to fix is a run-on that stacks several insertions so the reader loses the thread; fix it
+by moving an insertion or splitting the sentence. Items 4 and 5 (dashes allowed when clearest; never repair
+a dash by swapping in commas) stand. `check-prose-clarity.py`'s `intr` count is an editing aid like its
+other counts, not a zero target. Current statement of the rule:
+`tools/drafting-templates/commons_bonds_house-style-sheet_v1.0.0.md`, rule 1 and override 3.

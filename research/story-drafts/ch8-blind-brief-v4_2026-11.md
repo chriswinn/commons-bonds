@@ -17,7 +17,7 @@
 
 Do not load the Technical Appendix. Do not load another chapter except the short passages named in §2. Draft one map section at a time.
 
-**No length target, in either direction.** The worst prose in this project came from drafting toward a word count. Nothing in this brief or the map is a size to hit. Where either says "a sentence" or "a paragraph," it means "this passage has one job"; if doing that job well takes more room, take it and note it. Decisions about what is in the chapter belong to the author and are made on the map. They are not yours to make for length.
+**Length follows substance.** The map decides what is in the chapter, and the prose takes the room that needs. Long sentences are fine, including long sentences with comma insertions. There is no maximum and no minimum, for the chapter, a section or a sentence. Where this brief or the map says "a sentence" or "a paragraph," it means "this passage has one job"; if doing that job well takes more room, take it and note it. Decisions about what is in the chapter belong to the author and are made on the map; they are not yours to make for length.
 
 **Where v4 and v3 disagree, v4 wins.** Where v4 and the amended ledger disagree on a number, the ledger wins. Where anything disagrees with the author's answers on the map, the author wins.
 
@@ -81,14 +81,14 @@ The v3 prose rules were written before the author's November redlines. They are 
 |---|---|
 | Zero em-dashes and en-dashes | Dashes are allowed where they are the clearest choice, at most one pair in a paragraph. Never repair a dash with commas; restructure (style rule 6). Numeric ranges may use an en-dash or "to." |
 | An "antithesis budget" counted per 1,500 words | No counts of any kind. See the pending note P1 on closing lines: let most paragraphs end plainly. |
-| A minimum word count | **No length target in either direction.** The map decides what is in the chapter; the prose is as long as that takes. |
+| A minimum word count | Withdrawn. Length follows substance: no minimum and no maximum. |
 | "One person or sensory anchor opens every technical stretch" | One scene opens the chapter. Another only where it is earned. Elsewhere, name who pays in a sentence before explaining how (style rule 16). |
 | Register models (the Ch 10 harbor frame; the Biggie section) | The pace model is the Ch 5 rings redraft. Do not imitate any chapter's sentence shapes. |
 | Terminology defense = one sentence plus a TA pointer | Still true, and at most one TA mention per section. |
 
 **Still binding from v3:** no invented facts, scenes, quotations or memories; every load-bearing number carries a named outside source; no narration of what the chapter is doing; no process or workshop vocabulary; no placeholder tokens; plain English that travels outside the United States; the first-person abstention on any dollar figure for slavery or coercion; Darity quoted only from published work.
 
-**Checks before you hand back.** `python3 tools/scripts/check-prose-clarity.py <draft>` (interrupted clauses must be zero; treat its other counts as a way to find tangles, never as a target). `bash tools/scripts/check-corpus-invariants.sh` (HIGH must be zero). A table of every number, date, name and quotation in the draft against its ledger row or source. Change notes listing: which map calls you applied by default, every place a pending style note (P1 to P3) shaped a choice, and anything you could not source and left as a marked gap.
+**Checks before you hand back.** `python3 tools/scripts/check-prose-clarity.py <draft>` (use its output to find tangles; none of its counts is a target, and a flagged sentence that reads cleanly in one pass stays). `bash tools/scripts/check-corpus-invariants.sh` (HIGH must be zero). A table of every number, date, name and quotation in the draft against its ledger row or source. Change notes listing: which map calls you applied by default, every place a pending style note (P1 to P3) shaped a choice, and anything you could not source and left as a marked gap.
 
 ## 7. Blocked on Session A
 

@@ -6,7 +6,7 @@
 
 **The rule for every redraft (author, 2026-11-11).** Do not match the existing chapters' prose. The first draft has the content and lacks pace and pull. Use the current chapter for content only; write the prose fresh; the Ch 5 rings redraft is the pace model. Protected everywhere: quotations, the author's family's sayings, facts and figures, and passages the author names as his own.
 
-**No map sets a length (author, 2026-11-11).** The worst prose in this project came from drafting toward a word count. Nothing in these maps is a length target, up or down. A map decides *what is in the chapter*: which material stays, which repeats something said elsewhere, which moves. Those are content decisions and they are the author's. Once they are made, each passage is as long as it needs to be to read well. Where a map says "a sentence" or "a paragraph," it means "this passage has one job," and if doing that job well takes more room, take it and say so in the change notes.
+**Length follows substance (author, 2026-11-11).** A map decides what is in the chapter: which material stays, which repeats something said elsewhere, which moves. Those are content decisions and they are the author's. Once they are made, each passage takes the room it needs to read well. There is no maximum and no minimum, and long sentences are fine. Where a map says "a sentence" or "a paragraph," it means "this passage has one job."
 
 **What the author does with a map.** Read the table, then answer the numbered calls at the bottom (five at most, each with a recommendation). "Yes to all" is a complete answer.
 
