@@ -44,31 +44,35 @@
     <tr><td class="sym">E(R,t)</td><td>externality-tail flow (deterministic; not the expectation operator E[·])</td><td>$·res⁻¹·time⁻¹</td></tr>
     <tr><td class="sym">D(t,t₀), r(t), r₀</td><td>discount factor; discount rate; initial rate</td><td>(0,1]; rate; rate</td></tr>
     <tr><td class="sym">RCV(R,t₀)</td><td>Residual Commons Value (the integral)</td><td>$·res⁻¹</td></tr>
-    <tr><td class="sym">B, B₁, B₂</td><td>Accountability Bond; Restitution Bond (backward); Foreclosure Bond (forward)</td><td>$</td></tr>
-    <tr><td class="sym">B̂_M2</td><td>Method-2 realized-Bond reading (observed internalization per unit of extraction); a strict lower bound on RCV (RCV ≥ B̂_M2), not an RCV estimator; the hat marks &quot;reading/estimate of,&quot; distinct from the posted instrument B</td><td>$·res⁻¹</td></tr>
-    <tr><td class="sym">CS, CSD</td><td>Cost Severance (= RCV − B); Cost Severance Damages (backward-looking)</td><td>$</td></tr>
+    <tr><td class="sym">B, B₁, B₂</td><td>Accountability Bond: what was priced and paid with the cost in view (Def 1.7); Restitution Bond (backward; Def 1.12); Foreclosure Bond (forward)</td><td>$·res⁻¹ per unit; $ in aggregate (stated per case)</td></tr>
+    <tr><td class="sym">B₁(extractor), B₁(public)</td><td>payer split of the Restitution Bond as measured (Def 1.12)</td><td>$</td></tr>
+    <tr><td class="sym">B̂_M2</td><td>Method-2 realized-Bond reading (observed internalization per unit of extraction); a reading of what was paid, not an estimate of RCV; the hat marks &quot;reading/estimate of,&quot; distinct from the posted instrument B</td><td>$·res⁻¹</td></tr>
+    <tr><td class="sym">CS, CSD</td><td>Cost Severance (= RCV − B; cost borne but never priced); Cost Severance Damages (backward-looking; Def 1.11)</td><td>$·res⁻¹ per unit; $ in aggregate (stated per case)</td></tr>
+    <tr><td class="sym">CSD_floor</td><td>Method-1 cost to cure (the documented floor of CSD; Def 1.11)</td><td>$</td></tr>
+    <tr><td class="sym">H</td><td>Hotelling (scarcity) rent per unit: price minus marginal extraction cost (§4 only)</td><td>$·res⁻¹</td></tr>
     <tr><td class="sym">CSD_M3</td><td>backward Method-3 composite: V_market × scarcity_multiplier(ς) × irreversibility_premium(α), with V_market in its backward reading (extinguished optionality / foregone service flow) and α the realized irreversibility</td><td>$·res⁻¹</td></tr>
-    <tr><td class="sym">IPG(R,t₀)</td><td>Intergenerational Pricing Gap (= RCV / P)</td><td>dimensionless</td></tr>
+    <tr><td class="sym">IPG(R,t₀)</td><td>Intergenerational Pricing Gap (= RCV / P, both in the same year&#x27;s dollars)</td><td>dimensionless</td></tr>
     <tr><td class="sym">CIT</td><td>Commons Inversion Test (the discovery method)</td><td></td></tr>
-    <tr><td class="sym">Cᵢ, C₁…Cₙ₊₁</td><td>indexed cost components admitted via the Four Gates</td><td>$</td></tr>
+    <tr><td class="sym">Cᵢ, C₁…Cₙ₊₁</td><td>indexed cost components admitted via the Four Gates</td><td>$·res⁻¹·time⁻¹</td></tr>
     <tr><td class="sym">SCS, Ω</td><td>spatial cost severance (∫ over Ω∖K); Ω = extraction region</td><td>$; set</td></tr>
     <tr><td class="sym">Aⱼ, τⱼ</td><td>commons category j; its scarcity threshold</td><td>—; category-dep</td></tr>
     <tr><th colspan="3" class="grp">Parameters</th></tr>
     <tr><td class="sym">ρ</td><td>regeneration rate of stock</td><td>resource·time⁻¹</td></tr>
     <tr><td class="sym">λ</td><td>substitution rate (in S = S_max(1 − e^(−λ(t−t₀))))</td><td>time⁻¹</td></tr>
     <tr><td class="sym">ς</td><td>Method-3 scarcity parameter (reserves-to-production-grounded)</td><td>dimensionless</td></tr>
-    <tr><td class="sym">α</td><td>Method-3 irreversibility probability ∈ [0,1]</td><td>dimensionless</td></tr>
+    <tr><td class="sym">α</td><td>Method-3 irreversibility parameter ∈ [0,1): probability the loss cannot be restored at any finite cost, read from the physical record</td><td>dimensionless</td></tr>
     <tr><td class="sym">ξ</td><td>cost-function curvature exponent (ξ ≥ 1)</td><td>dimensionless</td></tr>
     <tr><td class="sym">η_S(A)</td><td>supply elasticity (→ 0 as A → τ⁺)</td><td>dimensionless</td></tr>
     <tr><td class="sym">τ</td><td>scarcity threshold</td><td>category-dep</td></tr>
     <tr><td class="sym">κ</td><td>discount-rate decay constant (§16.1; r(t) = (r₀ − r_min)·e^(−κt) + r_min)</td><td>time⁻¹</td></tr>
     <tr><td class="sym">ζ, ω</td><td>§16.2 innovation-suppression coefficients (local to §16.2; distinct from M3 α)</td><td>dimensionless</td></tr>
     <tr><th colspan="3" class="grp">Method-3</th></tr>
-    <tr><td class="sym">RCV_M3</td><td>Method-3 estimate = V_market × scarcity_multiplier(ς) × irreversibility_premium(α)</td><td>$·res⁻¹</td></tr>
-    <tr><td class="sym">V_market</td><td>resource&#x27;s own market / underlying value (abundance baseline)</td><td>$</td></tr>
-    <tr><td class="sym">scarcity_multiplier(ς)</td><td>1 + ln(1 + ς) × Hotelling_anchor</td><td>dimensionless</td></tr>
+    <tr><td class="sym">RCV_M1</td><td>Method-1 replacement-cost estimate (a cross-check; §3.3)</td><td>$·res⁻¹</td></tr>
+    <tr><td class="sym">RCV_M3</td><td>Method-3 estimate = V_market × scarcity_multiplier(ς) × irreversibility_premium(α) (a cross-check; §3.5)</td><td>$·res⁻¹</td></tr>
+    <tr><td class="sym">V_market</td><td>the resource&#x27;s own market value</td><td>$·res⁻¹</td></tr>
+    <tr><td class="sym">scarcity_multiplier(ς)</td><td>1 + 0.05 × ln(1 + ς)</td><td>dimensionless</td></tr>
     <tr><td class="sym">irreversibility_premium(α)</td><td>1 / (1 − α)</td><td>dimensionless</td></tr>
-    <tr><td class="sym">Hotelling_anchor</td><td>≈ 5%/yr Hotelling-rate proxy coefficient</td><td>~rate</td></tr>
+    <tr><td class="sym">Hotelling_anchor</td><td>earlier name for the calibration constant 0.05 in the scarcity multiplier (still used in the calculation files)</td><td>dimensionless</td></tr>
     <tr><th colspan="3" class="grp">Compound &amp; auxiliary</th></tr>
     <tr><td class="sym">S_max</td><td>long-run substitutability ceiling (S → S_max as t → ∞)</td><td>dimensionless [0,1]</td></tr>
     <tr><td class="sym">S_base(t)</td><td>baseline substitutability path before stock-dependent suppression (§16.2)</td><td>dimensionless</td></tr>
@@ -77,7 +81,7 @@
     <tr><td class="sym">Q_critical</td><td>stock level at which scarcity becomes economically visible (§16.2)</td><td>resource units</td></tr>
     <tr><td class="sym">t, t₀</td><td>time; analysis time (extraction moment)</td><td>time</td></tr>
     <tr><td class="sym">T</td><td>proof threshold time (local to §10.3)</td><td>time</td></tr>
-    <tr><td class="sym">r_min, r_∞</td><td>floor / long-run limit of the declining discount rate</td><td>rate</td></tr>
+    <tr><td class="sym">r_min, r_∞</td><td>floor / long-run limit of the declining discount rate (2% in the adopted calibration, §11.1)</td><td>rate</td></tr>
     <tr><td class="sym">D_∞</td><td>limiting discount factor lim D(t,t₀) (positive iff ∫r ds &lt; ∞; Thm 10.4)</td><td>(0,1]</td></tr>
     <tr><td class="sym">A_ε</td><td>abundance level beyond which c(A) &lt; ε (Theorem 10.3 (I))</td><td>resource units</td></tr>
     <tr><td class="sym">U₀, k</td><td>utility polynomial-growth bound constants (§10.4)</td><td>—; —</td></tr>
@@ -98,6 +102,7 @@
     <tr><td class="sym">ε, δ</td><td>ε–δ analysis neighborhood variables (Theorem 10.3)</td><td></td></tr>
     <tr><td class="sym">M, K, T</td><td>proof divergence bound; proof constant; threshold time (local to §10.3)</td><td></td></tr>
     <tr><td class="sym">s</td><td>integration dummy (∫ r(s) ds)</td><td></td></tr>
+    <tr><td class="sym">f(t)</td><td>the discounted RCV integrand in the proof of Theorem 10.4</td><td>$·res⁻¹·time⁻¹</td></tr>
     <tr><td class="sym">(i)–(iv); (a)–(d)</td><td>enumerated assumption/premise labels; cost-function-property labels (§10)</td><td></td></tr>
     <tr><td class="sym">∎</td><td>QED (end of proof)</td><td></td></tr>
   </table>

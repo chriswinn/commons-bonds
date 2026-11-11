@@ -6,7 +6,7 @@ zero-scaffolding, per-entry-anchored reader-facing HTML into manuscript/back-mat
 
 Source-of-truth (current homes; relocation deferred per 2026-06-09 plan):
   bibliography : tools/back-matter/sources/bibliography.md   (the SUPERSET master)
-  TA §18 (in)  : manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html  (subset, for fold diff)
+  TA §18 (in)  : manuscript/technical-appendix/TechnicalAppendix_v2.0.1.html  (subset, for fold diff)
   glossary     : tools/back-matter/sources/glossary/commons_bonds_updated_glossary_v4.html
   notation     : manuscript/technical-appendix/symbol-registry_2026-06-07.md
 
@@ -29,7 +29,7 @@ import os, re, sys, html, unicodedata
 
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 BIB_MD   = os.path.join(ROOT, "tools/back-matter/sources/bibliography.md")
-TA_HTML  = os.path.join(ROOT, "manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html")
+TA_HTML  = os.path.join(ROOT, "manuscript/technical-appendix/TechnicalAppendix_v2.0.1.html")
 GLOSS_V4 = os.path.join(ROOT, "tools/back-matter/sources/glossary/commons_bonds_updated_glossary_v4.html")
 REGISTRY = os.path.join(ROOT, "manuscript/technical-appendix/symbol-registry_2026-06-07.md")
 OUT_DIR  = os.path.join(ROOT, "manuscript/back-matter")

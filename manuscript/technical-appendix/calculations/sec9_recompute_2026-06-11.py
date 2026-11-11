@@ -45,33 +45,52 @@ def rcv_m3(v, s, a):
     return v * scarcity_multiplier(s) * irreversibility_premium(a)
 
 
+# --- v2.0.1 (2026-11-11): inputs are DERIVED, not typed in. The integral
+# and the realized bond come from csd_rcv_calculations.py (imported with its
+# console output suppressed). Retired and no longer reproduced: 107-110x and
+# 61-115x (2020-dollar costs over a 1960 nominal price), the unsourced $8.66
+# price basis, and CS ~ $1,025-1,065/ton (Method-3 centre as headline). ---
+import contextlib, importlib.util, io, os, sys
+sys.dont_write_bytecode = True
+_spec = importlib.util.spec_from_file_location(
+    "engine", os.path.join(os.path.dirname(os.path.abspath(__file__)), "csd_rcv_calculations.py"))
+engine = importlib.util.module_from_spec(_spec)
+with contextlib.redirect_stdout(io.StringIO()):
+    try:
+        _spec.loader.exec_module(engine)
+    except SystemExit as e:
+        if e.code:
+            raise
+
 print("=" * 72)
-print("A. McDOWELL — the one case where every forward lens computes")
+print("A. McDOWELL — the integral is the headline; M1 and M3 are cross-checks")
 print("=" * 72)
-# M1/Damage-Function lens IPG: 4-component Pigouvian floor $504-518 (ledger
-# J1/J6-adjacent; TA §11.1) over $4.71 1960 mine-mouth (EIA Table 7.9).
-check("McDowell M1/DF lens IPG low (504/4.71)", 504 / 4.71, 106.5, 107.5, "x")
-check("McDowell M1/DF lens IPG high (518/4.71)", 518 / 4.71, 109.5, 110.5, "x")
-# RCV-integral lens: adopted calibration $525-540/ton (2026-06-10) across
-# the $8.66 contemporary / $4.71 1960 price bases -> 61-115x.
-check("McDowell integral IPG low (525/8.66)", 525 / 8.66, 60.0, 61.5, "x")
-check("McDowell integral IPG high (540/4.71)", 540 / 4.71, 114.0, 115.5, "x")
-# M3 foreclosure-premium lens (price-independent multiple): 8.5-26x, ~15x.
+rcv_lo, rcv_hi = engine.rcv_lo, engine.rcv_hi
+check("McDowell integral low (Stern)", rcv_lo, 524, 528, "$/ton")
+check("McDowell integral high (Nordhaus)", rcv_hi, 539, 543, "$/ton")
+# Consistent-basis multiples: 2020-dollar RCV over the contemporary price
+# by grade ($40-140/ton, EIA; TA §11.6).
+check("Integral multiple low (525/140)", 525 / 140, 3.7, 3.8, "x")
+check("Integral multiple high (540/40)", 540 / 40, 13.4, 13.6, "x")
+check("Damage-floor multiple low (504/140)", 504 / 140, 3.5, 3.7, "x")
+check("Damage-floor multiple high (518/40)", 518 / 40, 12.9, 13.0, "x")
+# M3 premium multiple (price-independent): 8.5-26x, ~15x.
 m3_lo = 40 * 1.27 * irreversibility_premium(0.85) / 40
 m3_hi = 140 * 1.31 * irreversibility_premium(0.95) / 140
-check("McDowell M3-IPG low", m3_lo, 8.0, 9.0, "x")
-check("McDowell M3-IPG high", m3_hi, 25.0, 27.0, "x")
-check("McDowell M3-IPG geometric center", math.sqrt(m3_lo * m3_hi), 14.0, 16.0, "x")
-# M2 realized: $50-88/ton societal, $8-15 industry (TA §11.6 landed) ->
-# CS = M3-geo-center - M2 societal band = $1,025-1,065/ton (landed §11.6).
-mcd_geo = math.sqrt((40 * 1.27 * irreversibility_premium(0.85)) *
-                    (140 * 1.31 * irreversibility_premium(0.95)))
-check("McDowell CS low (geo - 88)", mcd_geo - 88, 1020, 1045, "$/ton")
-check("McDowell CS high (geo - 50)", mcd_geo - 50, 1045, 1070, "$/ton")
+check("McDowell M3 multiple low", m3_lo, 8.0, 9.0, "x")
+check("McDowell M3 multiple high", m3_hi, 25.0, 27.0, "x")
+check("McDowell M3 multiple geometric center", math.sqrt(m3_lo * m3_hi), 14.0, 16.0, "x")
+# Realized bond (derived in the engine from the §11.6 components):
+check("Bond per ton, all payers, low", engine.MCD_M2_ALL[0], 88.0, 88.5, "$/ton")
+check("Bond per ton, all payers, high", engine.MCD_M2_ALL[1], 99.5, 100.5, "$/ton")
+check("Bond per ton, extractor-paid, low", engine.MCD_M2_INDUSTRY[0], 8.0, 8.6, "$/ton")
+check("Bond per ton, extractor-paid, high", engine.MCD_M2_INDUSTRY[1], 13.0, 13.6, "$/ton")
+check("McDowell CS low (integral - all-payer bond)", engine.mcd_cs_lo, 424, 428, "$/ton")
+check("McDowell CS high (integral - all-payer bond)", engine.mcd_cs_hi, 450, 454, "$/ton")
 
 print()
 print("=" * 72)
-print("B. DEEPWATER — backward-dominant; M1 lens computes, integral does not")
+print("B. DEEPWATER — the realized industry-paid bond case (ratios conditional on the blowout)")
 print("=" * 72)
 # Private-gain basis: ~$4B framework DERIVATION (Macondo ~50M bbl x ~$80;
 # $3.2-4.8B across 40-60M bbl) — TA §11.2 line 4058, labeled in-file.
@@ -92,46 +111,33 @@ print("     'All three models agree within a factor of 1.5' counted one")
 print("     computation twice (and the §9.5 RO column 12-21x has no derivation")
 print("     anywhere in the corpus). Convergence row: retired.")
 # M3: oil-class register only (Norway §11.5 corners; class-level label):
-check("Oil-class M3-IPG low (ς=50, α=0.50)", rcv_m3(40, 50, 0.50) / 40, 2.3, 2.5, "x",
+check("Oil-class M3 multiple low (ς=50, α=0.85)", rcv_m3(40, 50, 0.85) / 40, 7.8, 8.2, "x",
       kind="CLASS-REGISTER")
-check("Oil-class M3-IPG high (ς=200, α=0.75)", rcv_m3(120, 200, 0.75) / 120, 4.9, 5.2, "x",
+check("Oil-class M3 multiple high (ς=200, α=0.95)", rcv_m3(120, 200, 0.95) / 120, 25.0, 25.6, "x",
       kind="CLASS-REGISTER")
 print("  -> M3 for Deepwater: computable only at the oil-class register")
-print("     (2.4-5.1x), labeled class-level. RCV-integral: NOT computable on")
+print("     (8-25x, physical alpha), labeled class-level. RCV-integral: NOT computable on")
 print("     documented inputs (no case calibration exists).")
 print("  -> M2/B1: $61.6B INDUSTRY-paid (litigation-forced) — largest realized")
 print("     industry-paid B1 in the corpus. CSD - B1 ~= $8-12B ongoing.")
 
 print()
 print("=" * 72)
-print("C. LIBBY — backward-dominant; M1 lens computes, others do not")
+print("C. LIBBY — backward case; rebuilt on sourced figures only (v2.0.1)")
 print("=" * 72)
-# Documented-cash floor: $1.35B committed + $1.25B accrued monitoring
-# (2000-2025 @ $50M+/yr) = $2.6B over ~$100M lifetime revenue (§11.3).
-check("Libby documented-cash floor IPG (2.6/0.1)", 2.6 / 0.1, 25.5, 26.5, "x")
-check("Libby revenue-doubling sensitivity (2.6/0.2)", 2.6 / 0.2, 12.5, 13.5, "x",
-      kind="SENSITIVITY")
-# Mortality-inclusive: 694 deaths (Naik et al. 2017) x EPA VSL $7.4-11.0M.
+# >$600M federal cleanup (EPA); Grace's 2008 payment of $250M REIMBURSED
+# cleanup cost (DOJ/EPA, March 11 2008) and is not an additional cost;
+# revenue ~$100M is an unconfirmed industry estimate.
+check("Libby cleanup / revenue (0.6/0.1)", 0.6 / 0.1, 5.9, 6.1, "x")
+check("Libby extractor share of cleanup (250/600)", 100 * 250 / 600, 41.0, 42.5, "%")
 vsl_lo, vsl_hi = 694 * 7.4e6, 694 * 11.0e6
-check("Libby VSL component low", vsl_lo / 1e9, 5.0, 5.2, "$B")
-check("Libby VSL component high", vsl_hi / 1e9, 7.5, 7.7, "$B")
-# §11.3 total "≈$6.5-10.2B": low = VSL-low + committed-only ($1.35B);
-# high = VSL-high + full documented-cash ($2.6B). Reconstructs:
-check("Libby mortality-inclusive total low ((5.14+1.35))", (vsl_lo + 1.35e9) / 1e9,
-      6.4, 6.6, "$B", kind="RECONSTRUCTION")
-check("Libby mortality-inclusive total high ((7.63+2.6))", (vsl_hi + 2.6e9) / 1e9,
-      10.1, 10.3, "$B", kind="RECONSTRUCTION")
-check("Libby mortality-inclusive IPG low (6.5/0.1)", 6.5 / 0.1, 64.5, 65.5, "x")
-check("Libby mortality-inclusive IPG high (10.2/0.1)", 10.2 / 0.1, 101.5, 102.5, "x")
-print("  -> Headline alignment: §11.3 prints '≈65-100x' but its own sub-bands")
-print("     run to 102x; settle headline at 65-102x (or keep '~65-100x' as")
-print("     a rounding — author call, micro).")
-print("  -> M3 forward: n/a — extraction ended 1990, forward foreclosure ~0")
-print("     (portfolio row, csd_rcv_calculations.py Part 7). RCV-integral:")
-print("     NOT computable on documented inputs. Retired columns 57-93x (RO)")
-print("     and 72-111x (RCV): no derivation survives anywhere in the corpus.")
-print("  -> M2/B1: ~$600M Superfund (public) + ~$250M settlements (industry)")
-print("     ~= 70/30 public/industry split (§11.3 + portfolio row).")
+check("Libby mortality head low (694 x $7.4M VSL)", vsl_lo / 1e9, 5.0, 5.2, "$B")
+check("Libby mortality head high (694 x $11.0M VSL)", vsl_hi / 1e9, 7.5, 7.7, "$B")
+check("Libby cleanup + mortality head low", (vsl_lo + 0.6e9) / 1e9, 5.6, 5.8, "$B")
+check("Libby cleanup + mortality head high", (vsl_hi + 0.6e9) / 1e9, 8.1, 8.3, "$B")
+print("  -> RETIRED: $2.6B documented-cash floor, 26x, 65-102x. The $50M/yr")
+print("     monitoring stream and the $500M property estimate have no source")
+print("     and are not entered (Open).")
 
 print()
 n_fail = results.count(False)

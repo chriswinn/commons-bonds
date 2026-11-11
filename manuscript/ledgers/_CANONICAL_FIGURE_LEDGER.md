@@ -22,8 +22,8 @@ cascade.
 | Carbon term — national basis | **$441** ( = 2.32 × $190 ) |
 | 4-component Pigouvian floor | **~$504–518** ( $496 + ~$8–22 non-carbon heads ). Corrects $518–532. |
 | **8-component honest TOTAL** | **$510/ton**. **Pins "$510" = the TOTAL, never the carbon term.** Corrects the old $524. |
-| RCV-model estimate (method-distinct) | **$580–620/ton** — Weitzman declining-rate model estimate; **NOT a damage-function total; never conflate with $510.** |
-| **IPG (lens-explicit)** | **"33–122×" RETIRED 2026-06-09** (author-ratified; see amendment below). Now lens-explicit: carbon-externality/Damage-Function **~107–110×** (÷ $4.71 1960 price); RCV-integral **67–134×**; Method-3 foreclosure-premium **8.5–26× (center ~15×)**, price-independent. Report the lens + price basis, not a bare range. |
+| **RCV integral (the headline value)** | **$525–540/ton** — AMENDED 2026-11-11 (TA v2.0.1 §11.1; adopted calibration of 2026-06-10, now the headline). $526 (Stern) / $537 (4%) / $541 (Nordhaus). Carbon term ≈92% of the level; foreclosure ≈7%. **NOT a damage-function total; never conflate with $510.** ~~$580–620~~ RETIRED (unrecorded parameterization; gate `regressed-figure-580-620`). |
+| **Multiples (consistent price basis only)** | **AMENDED 2026-11-11 (author decision 4).** Integral **about 4–13×** ($525–540 over the contemporary $40–140/ton, EIA); damage floor about 3.6–13×; Method 3 **8.5–26× (center ~15×)**, price-independent and ≥ 1 by construction (not evidence of direction). **"$4.71 then, $525 now" = two prices in two eras; NO ratio.** RETIRED: ~~107–110×~~, ~~61–115×~~, ~~67–134×~~, ~~33–122×~~, and the unsourced ~~$8.66~~ "contemporary price". |
 | ~~IPG triangulated central ~50×~~ | **SUPERSEDED 2026-06-09** — no single triangulated central (the lenses measure different quantities; see amendment). |
 | IPG 555× | TA-internal full-triangulation ceiling only; **never quote bare** (TA §11.6 disowns it as an inflation artifact) |
 | McDowell 2020 population | **~19,000 / "under 20,000"** (retire "18,000") |
@@ -32,7 +32,7 @@ cascade.
 - **$496** = carbon term / foreclosure component (McDowell basis).
 - **$510** = the 8-component honest TOTAL. The old error labeled $510 as the *carbon term*; corrected, $510 is the *total*. These are opposite meanings — always state which.
 - **$504–518** = 4-component Pigouvian floor.
-- **$580–620** = RCV-model estimate (method-distinct; keep out of the "total" slot).
+- **$525–540** = RCV integral, the TA's headline value (method-distinct; keep out of the "total" slot). ($580–620 retired.)
 
 ## Judgment calls — RATIFIED 2026-06-04 (author)
 
@@ -42,7 +42,7 @@ cascade.
 - **J4. RESOLVED.** Keep the dated **"$4.5B (2021)"** as a defensible vintage anchor (low-stakes); if a single current figure is later preferred, use the most recent DOL Black Lung Disability Trust Fund debt *with its year*.
 - **J5. RESOLVED to a framing (hard-year still needs a primary source).** The U.S. Steel McDowell/Gary shutdown was a **phased wind-down across the 1980s into the early 1990s** (Gary closure often cited ~1986; broader U.S. Steel McDowell exit toward ~1992, ~1,200 jobs), not a single year — which is exactly why the artifacts disagree. **Canonical framing: harmonize every artifact to "across the 1980s" / "by the late 1980s,"** NOT a contested point-year. A specific hard year (1986 vs 1990) must not be stated as fact until locked against a primary source (a Gary/McDowell history, U.S. Steel records, or a contemporaneous news archive) — flagged for the gather/drafting stage.
 - **J6. RATIFIED.** Ch6 national-basis carbon = **$441** (= 2.32 × $190); relabel the "$449–464" band accordingly (carbon $441 + non-carbon heads).
-- **J7. RESOLVED.** The RCV-model **$580–620** band lives in the **Technical Appendix** (method-distinct, Weitzman declining-rate); chapters/essays use the **$510 total** and may point to the appendix for the higher model estimate. Never conflate $580–620 with the $510 total.
+- **J7. RESOLVED; figure AMENDED 2026-11-11 → $525–540.** The RCV-model band (formerly $580–620) lives in the **Technical Appendix** (method-distinct, Weitzman declining-rate); chapters/essays use the **$510 total** and may point to the appendix for the higher model estimate. Never conflate the integral ($525–540) with the $510 total.
 
 ## Cascade targets (expands book-amendment-candidate #7)
 
@@ -75,6 +75,39 @@ Provenance source of truth: `tools/audits/corpus-primary-source-register_2026-06
 **Carbon cascade — canonical UNCHANGED, re-cascade still live.** carbon $496 / total $510 / floor $504–518 (J1/J6). Mechanical re-cascade still owed in the TA + Ch6 + Ch9 (README §B).
 
 *(The per-chapter citation corrections — Norway fiscal rule 2001@4%→2017@3%; Fed $16T = "cumulative"; Hendryx OR 2.03; menhaden cap 2017/2018 not 2006; Baotou $5–15B; Deepwater ">$150B" not NOAA; GoFundMe AJPH-2022/437,596; Tangier ~1.7 ft/yr paper-avg, APPLIED to Ch 3 as Option A plain paper-figure, RATIFIED 2026-06-11 (15 ft/yr press/exposed-shore figure dropped entirely per author register call); Libby >70%-of-US; Norway per-capita ~$390k; foreclosures ~4.1M completed; reclamation-gap single figure; US-Steel "across the 1980s" — are chapter-level, not cross-chapter shared figures; they live in the reconciliation artifact + the per-chapter briefs.)*
+
+## AMENDED 2026-11-11 — TA v2.0.1 (independent review Phase 2; decisions log 2026-11-10/11)
+
+Source of record: `manuscript/technical-appendix/TechnicalAppendix_v2.0.1.html`; derivations in
+`manuscript/technical-appendix/calculations/` (run-outputs 2026-11-11: 67/67 and 28/28, 0 mismatches). Every
+retired figure below has a gate pattern in `tools/quality-gates/regressed-patterns.yaml` (same commit).
+**Status: applied in the TA on the session branch; merge to main waits on the author's OK.**
+
+| Figure | Canonical value (pinned label) |
+|---|---|
+| **McDowell headline RCV** | **$525–540/ton = the integral** (definition; conservative; survives rejection of Method 3). Methods 1 and 3 are **cross-checks**, never the headline, never "convergence". |
+| **McDowell realized bond (derived)** | **$88–100/ton from all payers** ($53–60B ÷ 600M tons) — an **upper bound** (national numerators over McDowell-area tons). **$8–13/ton extractor-paid.** Forward instrument only (reclamation bonds): $5–8/ton. RETIRED: ~~$50–88~~ (the $50 had no derivation), ~~$8–15~~. |
+| **McDowell cost severance** | **At least about $425–450/ton** (integral − all-payer bond). About $512–532 against extractor-paid. ⚠ The review packet said "about $440–490"; that used the underived $50. Corrected by arithmetic; **author to confirm.** RETIRED: ~~$1,025–1,065~~ (Method-3 centre as headline). |
+| McDowell sensitivity | S_max = 0 → about $573. SCC $51 → about $165–180 (1.2–4.5× price). No carbon term → about $30–45, below the all-payer bond. The sign rests on a carbon cost of at least roughly $20–25/t CO₂. |
+| **"Method 1"** | = replacement cost (DAC) **only**. The bottom-up audit priced at the SCC is the **damage-function floor** ($504–518), a separate lens. |
+| **Method 3 α** | **Physical irreversibility only** (0.85–0.95 for fossil carbon). A fund does not lower α. |
+| **Norway bond (B₂)** | **About $36/BOE** = fund (NOK 21,268bn ≈ $2.0T, end-2025) ÷ ~55bn BOE. Label **B₂** everywhere. RETIRED: ~~$48/BOE~~ (fund ÷ capture rate). |
+| Norway rent (Hotelling split, TA §4) | State net cash flow 1971–2025 = **NOK ≈14,860bn (constant 2027 kr; Ministry of Finance / Statistics Norway via norskpetroleum.no)** ≈ NOK 270 ≈ **$25/BOE**; total rent ≈ **$32–36/BOE** at a 70–80% state share (proxy). |
+| **Norway RCV / CS** | Value used = **carbon floor ≈ $70/BOE** (0.37 t CO₂ × $190). **CS ≥ about $34/BOE ≈ $1.9T cumulative** (a floor). Cross-checks: M1 $161–422; M3 **$320–3,040** (center ≈ $985; multiple 8–25). RETIRED: ~~M3 $96–610 / $281~~, ~~2.4–5.1×~~, ~~CS $233–250/BOE~~, ~~$12.8T / $13–15T~~, and the "irreversibility-reduction" account of Norway (ledger 2026-06-09 bullet above is SUPERSEDED: Norway bonded its rent; it did not lower α). ⚠ **Number change for author confirmation** (review item N4/C2). |
+| **Hotelling Identity** | **RCV − B₂ = (RCV − H) + (H − B₂).** Worked for Norway only: (RCV − H) ≥ $34–39; (H − B₂) ≈ −$5 to $0. McDowell: bound only (H ≤ P → RCV − H ≥ $385). RETIRED form: ~~RCV − Hotelling rent = CS~~. |
+| **Libby** | Federal cleanup **>$600M** (EPA). **$250M = W.R. Grace's 2008 reimbursement of federal cleanup costs (DOJ/EPA, Mar 11 2008)** — NOT wrongful-death settlements, NOT additive. Cleanup ≈ **6×** the ~$100M revenue (unconfirmed industry estimate). Mortality head $5.1–7.6B (694 deaths × EPA VSL; labeled). ⛔ $50M/yr monitoring and $500M property: **no source; Open.** RETIRED: ~~$2.6B documented-cash floor~~, ~~26:1~~, ~~65–102×~~, ~~70/30 split~~. The Ch 5 rings redraft already says "about six times" (cleanup only): consistent. |
+| Deepwater | The **realized industry-paid bond** case: $61.6B paid of ~$70–74B documented + estimated. The ~15× cost/revenue ratio is **conditional on the blowout**; not an IPG. $8–12B continuing damage = estimate with **no primary source cited** (open). |
+| Crowdfunding | **Kenworthy & Igra 2022 (AJPH):** about 12% met goal; about 16% received nothing. ⛔ "Ly & Soman 2020", "25× growth", "88% failure": untraceable; removed from the TA (still in Ch 9 L202 → fix at rebuild). |
+| Community-transition cost | $5–15/ton **in total** (framework estimate); PV at 1960 ≈ $1–2/ton (baseline). Already inside the §11.1 non-carbon heads — **not additive** to $525–540. RETIRED: "adds ~$5–10/ton", "$454–474". |
+| Long-run discount rate | **2%** (50-yr half-life) is the one long-run rate used in computations. |
+
+**Terms.** "Three Ways of Counting" KEPT, with the gloss: two ways estimate what is owed, one reads what was
+paid. All triangulation / convergence language removed from the TA. Bond definition = cost **priced with the
+cost in view** (TA Definition 1.7); CSD and B₁ defined (Defs 1.11, 1.12) with the payer split; no fifth gate.
+
+**Cascade still owed (not this session's files):** Ch 6 (rebuild: $48/BOE row L174; triangulation L137–187;
+Ostrom L285); Ch 9 L202 (Ly & Soman); NYRB essay ¶35 (Ostrom claim; author decision before submit); proposal
+§05 chapter summaries if they carry any retired multiple.
 
 ## Canonical set (Chesapeake reef / Restitution Bond) — ADDED 2026-06-10 (TA §11.12; status: GATE 2 OPEN — Ch 3 carries the priced claim as of 2026-06-11, origin/main 0d2ddef; MERGE-HOLD now only on three author-ratification calls)
 

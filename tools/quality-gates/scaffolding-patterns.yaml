@@ -601,7 +601,7 @@ patterns:
 #   for those substantive uses (or a TA-specific severity profile) before it
 #   can be added without auto-blocking every commit. Until that decision lands,
 #   scan the TA manually:
-#     check-corpus-invariants.sh --scope manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html --no-fail
+#     check-corpus-invariants.sh --scope manuscript/technical-appendix/TechnicalAppendix_v2.0.1.html --no-fail
 
 scope:
   include:

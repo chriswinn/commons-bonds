@@ -1,0 +1,237 @@
+========================================================================
+PART 1 — FORWARD M3 PATH-A REPRODUCTIONS
+========================================================================
+[REPRODUCTION] Norway M3 low corner (V=$40, ς=50, α=0.85): 319.1 $/BOE (band 310.0 to 330.0) PASS
+[REPRODUCTION] Norway M3 high corner (V=$120, ς=200, α=0.95): 3,036.4 $/BOE (band 3,000.0 to 3,080.0) PASS
+[REPRODUCTION] Norway M3 geometric center: 984.3 $/BOE (band 960.0 to 1,010.0) PASS
+[REPRODUCTION] McDowell M3 low corner (V=$40, mult=1.27, α=0.85): 338.7 $/ton (band 330.0 to 350.0) PASS
+[REPRODUCTION] McDowell M3 high corner (V=$140, mult=1.31, α=0.95): 3,668.0 $/ton (band 3,500.0 to 3,700.0) PASS
+[REPRODUCTION] McDowell M3 geometric center: 1,114.6 $/ton (band 1,080.0 to 1,150.0) PASS
+[REPRODUCTION] McDowell M3-IPG low (340/40): 8.5 x (band 8.0 to 9.0) PASS
+[REPRODUCTION] McDowell M3-IPG high (3670/140): 26.2 x (band 25.0 to 27.0) PASS
+[REPRODUCTION] McDowell M3-IPG center (geometric): 14.9 x (band 14.0 to 16.0) PASS
+[REPRODUCTION] Norway M3 multiple low: 8.0 x (band 7.8 to 8.2) PASS
+[REPRODUCTION] Norway M3 multiple high: 25.3 x (band 25.0 to 25.6) PASS
+  NOTE: RCV_M3 >= V_market by construction (both factors >= 1), so a
+  Method-3 multiple above one is not evidence of direction (TA §3.5).
+
+========================================================================
+PART 2 — FORWARD M1 / M2 ANCHORS (sourced)
+========================================================================
+[REPRODUCTION] Norway B2: fund per BOE ($2.0T / 55B BOE): 36.4 $/BOE (band 36.0 to 36.8) PASS
+[REPRODUCTION] Norway state take per BOE (NOK 14,862bn): 25.4 $/BOE (band 25.0 to 25.8) PASS
+[REPRODUCTION] Norway state take per BOE in kroner: 270.2 NOK/BOE (band 268.0 to 272.0) PASS
+[REPRODUCTION] Norway rent H per BOE, low (take / 0.80): 31.8 $/BOE (band 31.0 to 32.5) PASS
+[REPRODUCTION] Norway rent H per BOE, high (take / 0.70): 36.3 $/BOE (band 35.5 to 37.0) PASS
+  RETIRED: the $48/BOE figure (fund / capture rate / production) mixed
+  the fund's investment returns into a rent measure; it is replaced by
+  the fund per BOE (the bond) and the cash-flow-based rent above.
+[REPRODUCTION] Norway carbon term per BOE (20.35 Gt x $190 / 55B): 70.3 $/BOE (band 69.5 to 71.0) PASS
+[REPRODUCTION] Norway CS floor per BOE (carbon term - B2): 33.9 $/BOE (band 33.0 to 35.0) PASS
+[REPRODUCTION] Norway CS floor cumulative: 1.9 $T (band 1.8 to 1.9) PASS
+[CROSS-CHECK] Norway gap on the M1 cross-check, low (161 - B2): 124.6 $/BOE (band 124.0 to 126.0) PASS
+[CROSS-CHECK] Norway gap on the M1 cross-check, high (422 - B2): 385.6 $/BOE (band 385.0 to 387.0) PASS
+[REPRODUCTION] McDowell realized payments, total low: 52.9 $B (band 52.5 to 53.5) PASS
+[REPRODUCTION] McDowell realized payments, total high: 59.9 $B (band 59.5 to 60.5) PASS
+[REPRODUCTION] McDowell bond per ton, all payers, low: 88.2 $/ton (band 88.0 to 88.5) PASS
+[REPRODUCTION] McDowell bond per ton, all payers, high: 99.8 $/ton (band 99.5 to 100.5) PASS
+[REPRODUCTION] McDowell bond per ton, extractor-paid, low: 8.3 $/ton (band 8.0 to 8.6) PASS
+[REPRODUCTION] McDowell bond per ton, extractor-paid, high: 13.3 $/ton (band 13.0 to 13.6) PASS
+[REPRODUCTION] McDowell forward bond B2 (reclamation bonds) low: 5.0 $/ton (band 4.9 to 5.1) PASS
+[REPRODUCTION] McDowell forward bond B2 (reclamation bonds) high: 8.3 $/ton (band 8.2 to 8.4) PASS
+  NOTE: the numerators are national programs and the denominator is
+  McDowell-area tonnage, so the all-payer figure is an UPPER bound on
+  the bond per ton and the cost severance built on it is a LOWER bound.
+  RETIRED: '$50-88/ton' (the $50 had no derivation) and '$8-15/ton'.
+
+========================================================================
+PART 3 — FORWARD RCV INTEGRAL (Def 1.6) — RECONSTRUCTION
+========================================================================
+[RECONSTRUCTION] RCV integral @ r0=4% (baseline): $537/ton  (TA §11.1 adopted level: $525-540/ton)
+[RECONSTRUCTION] RCV integral @ r0=1.4% (Stern): $526/ton
+[RECONSTRUCTION] RCV integral @ r0=5.5% (Nordhaus): $541/ton
+[REPRODUCTION] McDowell integral @ Stern r0=1.4%: 526.4 $/ton (band 524.0 to 528.0) PASS
+[REPRODUCTION] McDowell integral @ r0=4%: 536.6 $/ton (band 535.0 to 539.0) PASS
+[REPRODUCTION] McDowell integral @ Nordhaus r0=5.5%: 540.9 $/ton (band 539.0 to 543.0) PASS
+
+[DEMO] Thm 10.4 knife-edge: with S_max<1 and r(s) summable
+  (∫r ds < ∞ → D_∞ > 0), the foreclosure integrand has a positive
+  floor forever → RCV diverges. Numerically: partial sums at
+    horizon    100 yr → partial RCV $29/ton (grows without bound)
+    horizon  1,000 yr → partial RCV $119/ton (grows without bound)
+    horizon 10,000 yr → partial RCV $1,010/ton (grows without bound)
+
+========================================================================
+PART 4 — REVERSE CSD MODEL + CHESAPEAKE REEF WORKED CASE
+========================================================================
+[REVERSE] Reef unit-cost: Great Wicomico realized ($907K/124ac): 7,314.5 $/ac (band 7,250.0 to 7,350.0) PASS
+[REVERSE] Reef CSD_M1 floor (realized basis): 20.0 $M (band 19.9 to 20.1) PASS
+[REVERSE] Reef CSD_M1 floor (forward-engineering headline): 37.0 $M (band 36.9 to 37.1) PASS
+[REVERSE] Reef CSD central (bay-wide average; robust, not the floor): 210.8 $M (band 210.0 to 212.0) PASS
+[REVERSE] Reef M2 unit-cost corroboration ($108M/1,900ac): 56,842.1 $/ac (band 56,000.0 to 58,000.0) PASS
+[REVERSE] M2 corroboration: $56,842/ac sits between the $13,500 floor and the $77,000 average → CORROBORATES the M1 unit-cost band
+[REVERSE] Realized B₁: >$92M (MD) / ~$115M (bay-wide itemized) — industry contribution $0. The bond exists, is large, and is mis-assigned to the public.
+[REVERSE] Reef CSD_M3 (foregone-fishery option value): OPEN slot —
+  admittable ceiling variable, deliberately not entered (author
+  decision 2026-06-08). The machinery above (csd_m3) is fully
+  specified; a party with reason to enter the slot can compute it.
+  Consequence (pure arithmetic): the computed CSD is a LOWER BOUND.
+  NOTE: the reef is restorable → low realized α → modest 1/(1−α);
+  backward-M3 does its real work on high-irreversibility legacy
+  cases, not here. Declining the figure costs the reef case little
+  and buys floor-anchored unassailability.
+
+[REVERSE] Reef CSD structured range (the §5.5 floor/ceiling form):
+    CSD_floor   = $20M-$37M (M1 cure-cost, basis-dependent)
+    CSD_central = ~$211M (bay-wide avg basis)
+    CSD_ceiling = floor + Σ(gate-admitted Cᵢ, incl. M3 option value)
+                  — moving ceiling; M3 slot OPEN by design
+    Realized B₁ = ~$115M, 100% public / $0 industry
+    The finding is MIS-ASSIGNMENT, not just magnitude: the public
+    has already posted more than the floor; the extractive industry
+    has posted nothing.
+
+========================================================================
+PART 5 — COST SEVERANCE DECOMPOSITION (both directions)
+========================================================================
+
+  total CS = (CSD − B₁) + (RCV − B₂)
+
+  Forward worked case (McDowell, per-ton; v2.0.1):
+    RCV  = the integral, $525-540/ton (Part 3); M1 and M3 are cross-checks
+    B    = realized payments, all payers, $88-100/ton (upper bound; Part 2)
+    CS   ≥ about $425-450/ton                  [Part 8; TA §11.6]
+
+  Backward worked case (Chesapeake reef, total):
+    CSD  = $20M-37M floor … ~$211M central … ceiling OPEN (M3 slot)
+    B₁   = ~$115M realized — public-paid; industry $0
+    CSD − B₁: vs the FLOOR, B₁ already exceeds it (restoration is
+    happening); vs the CENTRAL figure, ~$96M of severance remains
+    unrestituted even crediting every public dollar; and the
+    INSTRUMENT-ASSIGNMENT is inverted — B₁ should be industry-posted.
+
+  Same equation, same Three Ways, run in both temporal directions;
+  the backward range is wider (methodological-choice spread).
+
+
+========================================================================
+PART 6 — REVERSE TEST: REPARATIONS (INTERNAL TEST — NOT BOOK CONTENT)
+========================================================================
+[REVERSE] Reparations CSD_M1 floor: per-person x eligible (2nd ed/JEP 2022): 14.0 $T (band 13.5 to 14.5) PASS
+  (Cure-cost basis: the wealth gap is the documented, bounded,
+   Gate-3-trivial legacy-effect quantity — the same slot the reef
+   fills with restoration-$/acre. Source: Darity-Mullen-Slaughter,
+   NOT a framework computation.)
+  TRAJECTORY NOTE (framework-relevant): the field's own floor grew
+  $10.7T (2016 SCF) -> $14.0T (2019 SCF) — an unpaid
+  CSD accrues as the gap compounds; B₁ delay is not cost-neutral.
+[REVERSE] Reparations M2 reading: realized federal B₁ = $0; municipal pilots O($10M) — de minimis.
+  M2's double duty here: (a) reveals B₁ ≈ 0 for THIS harm while the
+  comparator lineage proves the restitution instrument exists for
+  acknowledged harms; (b) the revealed-lower-bound reading: what
+  society has paid for comparable acknowledged harms bounds what it
+  has revealed restitution is WORTH paying (Black Lung ~$44B for one
+  occupational-disease cohort makes a $0 B₁ here unexplainable by
+  cost — the gap is acknowledgment, not affordability).
+[REVERSE] Reparations M3 / coercion vector: OPEN — admitted, not
+  entered. The wealth-gap floor deliberately EXCLUDES: the coercion
+  vector itself (author's first-person abstention; field flags it
+  methodologically unresolved); the longevity gap (Himmelstein et
+  al. 2022 JAMA Netw Open — wealth-gap closure associated with
+  mortality-disparity reduction); cultural-knowledge severance;
+  intergenerational trauma. Each is a named, gate-admittable,
+  NON-NEGATIVE term left unentered →
+  CSD ≥ $14.0T is a strict LOWER BOUND, and
+  CSD − B₁ ≥ $14.0T (B₁ ≈ 0).
+
+[REVERSE] STRUCTURAL RESULT: the reparations case runs through the
+  same three slots as the reef — M1 floor from the field's published
+  cure-cost, M2 reading realized restitution, M3+coercion OPEN —
+  with one structural difference the model makes visible:
+    reef:        B₁ large but MIS-ASSIGNED (public paid, industry $0)
+    reparations: B₁ ABSENT  (nobody paid; instrument exists elsewhere)
+  The model supports the use case. VERDICT: PASS (structural).
+
+========================================================================
+PART 7 — BIDIRECTIONAL PORTFOLIO TEST (all use cases, both directions)
+========================================================================
+Case                               CSD      B1       RCV      B2       verdict
+------------------------------------------------------------------------------
+McDowell coal                      FILLED   FILLED   FILLED   FILLED   PASS
+Norway petroleum                   FILLED   ZERO     FILLED   FILLED   PASS
+Deepwater Horizon                  FILLED   FILLED   CITED    CITED    PASS
+Libby vermiculite                  FILLED   FILLED   ZERO     ZERO     PASS
+Baotou rare earths                 FILLED   ZERO     FILLED   ZERO     PASS
+Chesapeake reef                    FILLED   FILLED   CITED    CITED    PASS
+Reparations (test only)            FILLED   ZERO     CITED    OPEN     PASS
+Asteroid iron (pre-extraction)     ZERO     ZERO     FILLED   CITED    PASS
+Closed-world habitat (ISS anchor)  ZERO     ZERO     FILLED   ZERO     PASS
+NFL concussions                    FILLED   FILLED   FILLED   FILLED   PASS
+Apartment lease (self-severance)   FILLED   ZERO     FILLED   ZERO     PASS
+------------------------------------------------------------------------------
+Per-case notes:
+  - McDowell coal: FINDING: TA's 'realized B ~$53-60B' is NOT split B1/B2 — Black Lung payouts are B1 (realized-harm restitution), reclamation bonds are B2 (posted against future damage). The bidirectional run forces the split the forward-only TA never needed. Flag for §11.6.
+  - Norway petroleum: Backward run quantifies the TA's qualitative claim: Norway's architecture covers Norwegians (B1-for-citizens), not the non-Norwegian bearers of $3.9T realized combustion damage. CSD-B1 > 0 lands on the same accountability gap §11.5 names.
+  - Deepwater Horizon: REFRAME: Deepwater is backward-dominant. CSD - B1 ~ $8-12B (the ongoing externalities beyond BP's charges). Proves B1 CAN be industry-paid at scale post-hoc — the structural contrast to the reef's $0 and reparations' absent B1.
+  - Libby vermiculite: Backward-dominant; of >$600M cleanup, Grace repaid $250M (~40%) and the public carried the rest — between Deepwater (industry-paid) and the reef (all-public).
+  - Baotou rare earths: Both directions live and large simultaneously — the case where total CS needs BOTH terms; forward-only accounting misses half.
+  - Chesapeake reef: The book's worked backward case (-> TA §11.12 after Ch3 prices it).
+  - Reparations (test only): Part 6. NOT book content; structural-support test PASSES.
+  - Asteroid iron (pre-extraction): The framework's zero-anchor: low-CSD/low-RCV-premium. Identity assembles trivially — important that it does.
+  - Closed-world habitat (ISS anchor): Forward-only CIT demonstration: Earth's free air/water repriced at ISS rates. RCV - B2 = the entire engineered cost.
+  - NFL concussions: Post-2013 information symmetry moves new severance from unknowing to priced-risk; backward term persists for the pre-disclosure cohort. Both directions assemble.
+  - Apartment lease (self-severance): n-of-1, no bad actor, info-asymmetric self-severance — the framework's smallest case; identity assembles with B = 0 on both sides.
+
+PORTFOLIO VERDICT: PASS — every case assembles total CS = (CSD − B₁) + (RCV − B₂) with all slots in legal states; no observable serves as both estimator and bond in the same term; backward runs surface 3 findings (McDowell B₁/B₂ split; Norway non-Norwegian B₁ arithmetic; Deepwater as industry-paid-B₁ exemplar).
+
+========================================================================
+PART 8 — HEADLINE ASSEMBLY, HOTELLING SPLIT, SENSITIVITIES (v2.0.1)
+========================================================================
+[HEADLINE] McDowell CS low (integral low - bond high): 426.6 $/ton (band 424.0 to 428.0) PASS
+[HEADLINE] McDowell CS high (integral high - bond low): 452.7 $/ton (band 450.0 to 454.0) PASS
+[HEADLINE] McDowell CS vs extractor-paid bond, low: 513.1 $/ton (band 511.0 to 514.0) PASS
+[HEADLINE] McDowell CS vs extractor-paid bond, high: 532.6 $/ton (band 531.0 to 534.0) PASS
+[HEADLINE] McDowell integral multiple low (525/140): 3.8 x (band 3.7 to 3.8) PASS
+[HEADLINE] McDowell integral multiple high (540/40): 13.5 x (band 13.4 to 13.6) PASS
+[CROSS-CHECK] McDowell damage-floor multiple low (504/140): 3.6 x (band 3.5 to 3.7) PASS
+[CROSS-CHECK] McDowell damage-floor multiple high (518/40): 12.9 x (band 12.9 to 13.0) PASS
+[SENSITIVITY] Foreclosure-term share of the integral @4%: 7.2 % (band 6.0 to 8.5) PASS
+[SENSITIVITY] Carbon-pulse share of the integral @4%: 92.4 % (band 91.0 to 93.5) PASS
+[SENSITIVITY] McDowell integral @4%, S_max = 0 (no substitute): 572.9 $/ton (band 560.0 to 640.0) PASS
+[SENSITIVITY] McDowell integral, SCC $51, r0=5.5%: 178.0 $/ton (band 165.0 to 185.0) PASS
+[SENSITIVITY]   multiple at top grade ($140): 1.3 x (band 1.1 to 1.4) PASS
+[SENSITIVITY]   multiple at low grade ($40): 4.4 x (band 4.0 to 4.7) PASS
+[SENSITIVITY]   CS at SCC $51 vs all-payer bond (low): 78.2 $/ton (band 65.0 to 90.0) PASS
+
+[HOTELLING] Rent-measurability test, per worked case:
+  Norway petroleum     YES (proxy)          State net cash flow 1971-2025 (MoF/SSB series) / production, grossed up by the 70-80% state share.
+  McDowell coal        NO (bounded only)    No sourced price-minus-marginal-cost figure for these tons. Rent cannot exceed price, so H <= P.
+  Deepwater Horizon    NO                   Well revenue is a reserve x price derivation; no sourced extraction cost.
+  Libby vermiculite    NO                   Lifetime revenue is an unconfirmed industry estimate; no cost record.
+  Baotou rare earths   NO                   Export revenue only; no sourced processing or extraction cost.
+  Chesapeake reef      NO (not applicable)  Backward case on a renewable stock; the split is of the forward term, and open-access harvest leaves no sourced rent series.
+
+[HOTELLING] Norway H (central, take / 0.75): 33.9 $/BOE (band 33.0 to 34.6) PASS
+[HOTELLING] Norway (RCV_floor - H), central: 36.4 $/BOE (band 35.0 to 38.0) PASS
+[HOTELLING] Norway (RCV_floor - H), low (H high): 34.0 $/BOE (band 33.0 to 35.0) PASS
+[HOTELLING] Norway (RCV_floor - H), high (H low): 38.5 $/BOE (band 37.5 to 39.5) PASS
+[HOTELLING] Norway (H - B2), low: -4.6 $/BOE (band -5.5 to -3.5) PASS
+[HOTELLING] Norway (H - B2), high: -0.1 $/BOE (band -1.0 to 1.0) PASS
+  Reading: Norway's fund now holds about as much per barrel as the rent
+  the state took (more, counting investment returns), so the rent-not-
+  bonded term is about zero. The whole gap is the first term: cost that
+  would remain even if every dollar of rent were bonded.
+[HOTELLING-BOUND] McDowell (RCV - H) lower bound, top grade (525 - 140): 385.0 $/ton (band 384.0 to 386.0) PASS
+[HOTELLING-BOUND] McDowell (RCV - H) lower bound, low grade (525 - 40): 485.0 $/ton (band 484.0 to 486.0) PASS
+
+[LIBBY] Libby cleanup / revenue: 6.0 x (band 5.9 to 6.1) PASS
+[LIBBY] Libby: extractor share of cleanup: 41.7 % (band 41.0 to 42.5) PASS
+[LIBBY] Libby mortality head low (694 x $7.4M): 5.1 $B (band 5.0 to 5.2) PASS
+[LIBBY] Libby mortality head high (694 x $11.0M): 7.6 $B (band 7.5 to 7.7) PASS
+[LIBBY] Libby cleanup + mortality head, low: 5.7 $B (band 5.6 to 5.8) PASS
+[LIBBY] Libby cleanup + mortality head, high: 8.2 $B (band 8.1 to 8.3) PASS
+  RETIRED: the $2.6B 'documented-cash floor' and its 26x ratio (it added
+  the $250M reimbursement to the cleanup it repaid, plus an unsourced
+  $50M/yr monitoring stream and an unsourced $500M property estimate).
+
+SUMMARY: 67 checked values, 0 mismatches.

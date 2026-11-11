@@ -12,7 +12,7 @@
 # fixed the pattern. Allowlists support per-file substantive-use exceptions.
 
 schema_version: "1.0.0"
-last_updated: "2026-10-29"
+last_updated: "2026-11-11"
 registry_type: "regressed"
 
 # Categories:
@@ -183,9 +183,9 @@ patterns:
       commit: "7b4aa92"
       ratified: "2026-05-15"
     allowlist:
-      - file: "manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html"
+      - file: "manuscript/technical-appendix/TechnicalAppendix_v2.0.1.html"
         line: 2713
-        rationale: "Legitimate temporal meaning in the CIT formal statement, not the bureaucratic tic (re-pinned 2026-06-11 after §3.6 reef-row +23-line shift)"
+        rationale: "Legitimate temporal meaning in the CIT formal statement, not the bureaucratic tic (re-pinned 2026-11-11 for TA v2.0.1)"
 
   - id: regressed-declarative-three-negation-affirmation
     pattern: 'It (does not|is not) [^.]+\. It (is not|does not) [^.]+\. It is'
@@ -284,7 +284,7 @@ patterns:
       pass: "Ch 6 Pass 2 voice-polish (F-V5)"
       commit: "(Phase C-γ for Ch 6; verify when applied)"
     allowlist:
-      - file: "manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html"
+      - file: "manuscript/technical-appendix/TechnicalAppendix_v2.0.1.html"
         line: 6761
         rationale: "Single TA use; the near-duplicate pattern targets chapter-side repetition"
 
@@ -528,7 +528,7 @@ patterns:
       pass: "TA Pass 1 F-17"
       commit: "(pending pre-publication Pass 2 typography sweep)"
     allowlist:
-      - file: "manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html"
+      - file: "manuscript/technical-appendix/TechnicalAppendix_v2.0.1.html"
         line: 0
         rationale: "TA §13 section-heading literal title use is canonical; LOW-severity flag is for body-text drift not heading-text"
 
@@ -845,9 +845,9 @@ patterns:
     category: deprecated-term
     description: "Working label renamed to Restitution Bond (B1)"
     allowlist:
-      - file: "manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html"
-        line: 1416
-        rationale: "SUBSTANTIVE naming-history: §5.1.2 explains why the working label was rejected for Restitution Bond (re-pinned 2026-06-11 after §3.6 reef-row +23-line shift)"
+      - file: "manuscript/technical-appendix/TechnicalAppendix_v2.0.1.html"
+        line: 1331
+        rationale: "SUBSTANTIVE naming-history: §5.1.2 explains why the working label was rejected for Restitution Bond (re-pinned 2026-11-11 for TA v2.0.1)"
       - file: "manuscript/chapters/Chapter__5_TheAccountabilityGap.md"
         line: 202
         rationale: "SUBSTANTIVE naming-discipline exposition — the chapter twin of the TA §5.1.2 entry above. The paragraph explains why the instrument is NOT called the 'Reparations Bond' ('would be to narrow the umbrella to one historically specific application'), the single intentional use of the deprecated label to reject it. Not a regression. Added 2026-06-18 on chapter-scope re-enable; re-pin if Ch 5 shifts."
@@ -859,18 +859,18 @@ patterns:
     category: deprecated-term
     description: "Working label renamed to Foreclosure Bond (B2)"
     allowlist:
-      - file: "manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html"
-        line: 1402
-        rationale: "SUBSTANTIVE naming-history heading: Why Foreclosure Bond over Resource-Foreclosure Bond (re-pinned 2026-06-11 after §3.6 reef-row +23-line shift)"
-      - file: "manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html"
-        line: 1416
-        rationale: "SUBSTANTIVE naming-history: rejected working label reviewed against the live name (re-pinned 2026-06-11 after §3.6 reef-row +23-line shift)"
-      - file: "manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html"
-        line: 1434
-        rationale: "SUBSTANTIVE naming-history: rationale referencing the §5.1.2 note (re-pinned 2026-06-11 after §3.6 reef-row +23-line shift)"
-      - file: "manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html"
-        line: 7421
-        rationale: "SUBSTANTIVE §15.2 rename-candidates list: quoted as a rejected candidate (re-pinned 2026-06-11 again after the §9 convergence-sunset net -3-line shift)"
+      - file: "manuscript/technical-appendix/TechnicalAppendix_v2.0.1.html"
+        line: 1317
+        rationale: "SUBSTANTIVE naming-history heading: Why Foreclosure Bond over Resource-Foreclosure Bond (re-pinned 2026-11-11 for TA v2.0.1)"
+      - file: "manuscript/technical-appendix/TechnicalAppendix_v2.0.1.html"
+        line: 1331
+        rationale: "SUBSTANTIVE naming-history: rejected working label reviewed against the live name (re-pinned 2026-11-11 for TA v2.0.1)"
+      - file: "manuscript/technical-appendix/TechnicalAppendix_v2.0.1.html"
+        line: 1349
+        rationale: "SUBSTANTIVE naming-history: rationale referencing the §5.1.2 note (re-pinned 2026-11-11 for TA v2.0.1)"
+      - file: "manuscript/technical-appendix/TechnicalAppendix_v2.0.1.html"
+        line: 6633
+        rationale: "SUBSTANTIVE §15.2 rename-candidates list: quoted as a rejected candidate (re-pinned 2026-11-11 for TA v2.0.1)"
 
   - id: regressed-term-reversibility-default
     pattern: 'Reversibility Default'
@@ -1346,6 +1346,202 @@ patterns:
       commit: "2026-11-10 ledger amendment"
     allowlist: []
 
+  # ===========================================================
+  # TA v2.0.1 ledger amendments (2026-11-11): retired figures and terms
+  # ===========================================================
+
+  - id: regressed-figure-866-contemporary-price
+    pattern: '\$8\.66'
+    type: regex
+    severity: HIGH
+    category: consistency-canon
+    description: |
+      Retired, unsourced 'contemporary ~$8.66/ton' coal price basis. The contemporary
+      price is $40-140/ton by grade (EIA); multiples are taken on that basis only.
+    origin:
+      pass: "TA independent review Phase 2 (v2.0.1), decisions log 2026-11-10/11"
+      ratified: "2026-11-11 ledger amendment (same commit)"
+    allowlist: []
+
+  - id: regressed-figure-107-110x-era-mixed
+    pattern: '107[–-]110 ?(×|x|&times;)|107&ndash;110'
+    type: regex
+    severity: HIGH
+    category: consistency-canon
+    description: |
+      Retired damage-floor multiple (2020-dollar cost over the 1960 nominal $4.71).
+      Consistent-basis multiple is about 3.6-13 (damage floor) / 4-13 (integral).
+      '$4.71 then, $525 now' may be stated as two prices in two eras, with no ratio.
+    origin:
+      pass: "TA independent review Phase 2 (v2.0.1), decisions log 2026-11-10/11"
+      ratified: "2026-11-11 ledger amendment (same commit)"
+    allowlist: []
+
+  - id: regressed-figure-61-115x-era-mixed
+    pattern: '61[–-]115 ?(×|x|&times;)|61&ndash;115'
+    type: regex
+    severity: HIGH
+    category: consistency-canon
+    description: |
+      Retired integral-lens multiple across the $8.66 / $4.71 bases. Use about 4-13
+      on the contemporary $40-140/ton basis.
+    origin:
+      pass: "TA independent review Phase 2 (v2.0.1), decisions log 2026-11-10/11"
+      ratified: "2026-11-11 ledger amendment (same commit)"
+    allowlist: []
+
+  - id: regressed-figure-1025-1065-cs
+    pattern: '1,025[–-]\$?1,065|1,025&ndash;\$?1,065'
+    type: regex
+    severity: HIGH
+    category: consistency-canon
+    description: |
+      Retired McDowell headline cost severance (Method-3 centre minus bond). The
+      headline is the integral ($525-540) minus the derived bond: at least about
+      $425-450/ton (all payers); about $512-532 against extractor-paid.
+    origin:
+      pass: "TA independent review Phase 2 (v2.0.1), decisions log 2026-11-10/11"
+      ratified: "2026-11-11 ledger amendment (same commit)"
+    allowlist: []
+
+  - id: regressed-figure-mcdowell-bond-50-88
+    pattern: '\$50[–-]\$?88(/| per )ton|\$50&ndash;\$?88'
+    type: regex
+    severity: HIGH
+    category: consistency-canon
+    description: |
+      Retired McDowell realized-bond band; the $50 had no derivation. Derived:
+      $88-100/ton all payers (upper bound; national numerators); $8-13 extractor-paid.
+    origin:
+      pass: "TA independent review Phase 2 (v2.0.1), decisions log 2026-11-10/11"
+      ratified: "2026-11-11 ledger amendment (same commit)"
+    allowlist: []
+
+  - id: regressed-figure-norway-48-boe
+    pattern: '\$48(/| per )BOE'
+    type: regex
+    severity: HIGH
+    category: consistency-canon
+    description: |
+      Retired Norway 'Method 2' figure (fund / capture rate / production), which
+      mixed investment returns into a rent measure. Use: fund about $36/BOE (B2);
+      state take about NOK 270 (about $25)/BOE; rent about $32-36/BOE.
+    origin:
+      pass: "TA independent review Phase 2 (v2.0.1), decisions log 2026-11-10/11"
+      ratified: "2026-11-11 ledger amendment (same commit)"
+    allowlist:
+      - file: "manuscript/chapters/Chapter__6_ThreeWaysofCounting.md"
+        line: 174
+        rationale: "Old Ch 6 backtest row; queued for whole-cloth rebuild. Remove the pin when the rebuild lands."
+
+  - id: regressed-figure-norway-m3-institutional-alpha
+    pattern: '2\.4[–-]5\.1 ?(×|x|&times;)|2\.4&ndash;5\.1|\$281/BOE|~\$281'
+    type: regex
+    severity: HIGH
+    category: consistency-canon
+    description: |
+      Retired Norway Method-3 figures built on alpha 0.50-0.75 (the fund credited
+      inside alpha). Alpha is physical (0.85-0.95): $320-3,040/BOE, multiple 8-25.
+    origin:
+      pass: "TA independent review Phase 2 (v2.0.1), decisions log 2026-11-10/11"
+      ratified: "2026-11-11 ledger amendment (same commit)"
+    allowlist: []
+
+  - id: regressed-figure-norway-cs-13-15-trillion
+    pattern: '13[–-]\$?15 trillion|13&ndash;\$?15 trillion|\$12\.8 ?T\b|\$13\.75 ?T\b'
+    type: regex
+    severity: HIGH
+    category: consistency-canon
+    description: |
+      Retired Norway residual cost severance. Reported figure is a floor: at least
+      about $34/BOE, about $1.9 trillion cumulative (carbon term minus the fund).
+    origin:
+      pass: "TA independent review Phase 2 (v2.0.1), decisions log 2026-11-10/11"
+      ratified: "2026-11-11 ledger amendment (same commit)"
+    allowlist: []
+
+  - id: regressed-figure-libby-documented-cash-floor
+    pattern: 'documented-cash floor|≈ ?26:1 against|65[–-]102 ?(×|x|&times;)|65&ndash;102'
+    type: regex
+    severity: HIGH
+    category: consistency-canon
+    description: |
+      Retired Libby $2.6B floor and its ratios. Grace's $250M (2008) REIMBURSED
+      federal cleanup (DOJ/EPA); it is not wrongful-death settlements and not an
+      additional cost. The $50M/yr monitoring and $500M property figures are unsourced.
+    origin:
+      pass: "TA independent review Phase 2 (v2.0.1), decisions log 2026-11-10/11"
+      ratified: "2026-11-11 ledger amendment (same commit)"
+    allowlist: []
+
+  - id: regressed-term-old-hotelling-identity
+    pattern: 'Hotelling rent (per unit )?= CS'
+    type: regex
+    severity: HIGH
+    category: consistency-canon
+    description: |
+      Retired form of the Hotelling Identity (reused 'CS' for a second quantity).
+      Current form: RCV - B2 = (RCV - H) + (H - B2).
+    origin:
+      pass: "TA independent review Phase 2 (v2.0.1), decisions log 2026-11-10/11"
+      ratified: "2026-11-11 ledger amendment (same commit)"
+    allowlist: []
+
+  - id: regressed-term-m1-m3-convergence
+    pattern: 'M1 ∩ M3|M1 &cap; M3|three-model convergence|convergence range'
+    type: regex
+    severity: MEDIUM
+    category: consistency-canon
+    description: |
+      Retired convergence framing (decision 1). The integral is the headline;
+      Methods 1 and 3 are cross-checks whose overlap is not read as confirmation.
+      Live in old Ch 6 until its rebuild.
+    origin:
+      pass: "TA independent review Phase 2 (v2.0.1), decisions log 2026-11-10/11"
+      ratified: "2026-11-11 ledger amendment (same commit)"
+    allowlist: []
+
+  - id: regressed-term-triangulation
+    pattern: '[Tt]riangulat'
+    type: regex
+    severity: MEDIUM
+    category: consistency-canon
+    description: |
+      Triangulation language removed from the TA (decision 1): two ways estimate
+      what is owed, one reads what was paid. Live in old Ch 6 until its rebuild.
+    origin:
+      pass: "TA independent review Phase 2 (v2.0.1), decisions log 2026-11-10/11"
+      ratified: "2026-11-11 ledger amendment (same commit)"
+    allowlist: []
+
+  - id: regressed-claim-ostrom-divided-community
+    pattern: 'heterogeneous-stakeholder commons|substantially-aligned stakeholders'
+    type: regex
+    severity: MEDIUM
+    category: consistency-canon
+    description: |
+      Rejected and call-derived Ostrom claim (decision 6, revised 2026-11-11). Ostrom
+      is positioned on her own published principles (shared fate; design principle 3).
+      No divided-community claim, no Darity attribution. Owed fixes: Ch 6 (rebuild)
+      and NYRB essay paragraph 35 (author decision before submit).
+    origin:
+      pass: "TA independent review Phase 2 (v2.0.1), decisions log 2026-11-10/11"
+      ratified: "2026-11-11 ledger amendment (same commit)"
+    allowlist: []
+
+  - id: regressed-citation-ly-soman
+    pattern: 'Ly (&|and|&amp;) Soman'
+    type: regex
+    severity: MEDIUM
+    category: consistency-canon
+    description: |
+      Untraceable crowdfunding citation. Use Kenworthy & Igra 2022 (AJPH): about 12%
+      of campaigns met their goal; about 16% received nothing.
+    origin:
+      pass: "TA independent review Phase 2 (v2.0.1), decisions log 2026-11-10/11"
+      ratified: "2026-11-11 ledger amendment (same commit)"
+    allowlist: []
+
 # ===== Scope configuration =====
 #
 # Same as scaffolding-patterns.yaml. (Relocated to end-of-file 2026-06-17: the
@@ -1365,7 +1561,7 @@ scope:
     # campaign; glob is now Chapter_*.md (excludes _AUTHORSNOTE*/_Dedication,
     # which start with "_"; non-recursive, so archive/ copies stay out).
     - "manuscript/chapters/Chapter_*.md"
-    - "manuscript/technical-appendix/TechnicalAppendix_v2.0.0.html"
+    - "manuscript/technical-appendix/TechnicalAppendix_v2.0.1.html"
     - "manuscript/chapters/_AUTHORSNOTE*.md"
     - "manuscript/chapters/_Dedication.md"
     - "publishing/essays/*/essay.md"  # re-enabled 2026-06-18; scanned body-only via frontmatter-aware stripping in check-corpus-invariants.sh

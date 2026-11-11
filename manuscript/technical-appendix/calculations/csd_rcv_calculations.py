@@ -1,6 +1,18 @@
 #!/usr/bin/env python3
 """
-Commons Bonds Technical Appendix — calculation engine (2026-06-10)
+Commons Bonds Technical Appendix — calculation engine (2026-06-10; revised
+2026-11-11 for TA v2.0.1)
+
+v2.0.1 changes (TA independent review, decisions log 2026-11-10/11):
+  * The RCV integral (Part 3) is the headline value; Methods 1 and 3 are
+    cross-checks. McDowell CS is the integral minus the DERIVED realized bond.
+  * Typed-in bond constants are replaced by derivations from their stated
+    inputs (McDowell: Part 2; Norway: Part 2). The unsourced $8.66 price
+    basis is retired; multiples are reported on a consistent price basis.
+  * Method 3's alpha is the physical irreversibility of the loss. Norway's
+    institutional credit sits in the bond, not in alpha.
+  * Part 8 adds the Hotelling split of the forward term and the sensitivity
+    runs quoted in TA §4, §11.1, §11.5, §11.6, §11.11 and §16.4.
 
 Forward direction:  RCV via the Three Ways (M1 / M2 / M3 Path-A) + the §3.1
                     RCV integral (Def 1.6) under Weitzman declining discount.
@@ -40,7 +52,7 @@ def check(label, computed, expected_lo, expected_hi, unit, kind="REPRODUCTION"):
     results.append((kind, label, computed, expected_lo, expected_hi, unit, ok))
     flag = "PASS" if ok else "** MISMATCH **"
     print(f"[{kind}] {label}: {computed:,.1f} {unit} "
-          f"(TA: {expected_lo:,.0f}-{expected_hi:,.0f}) {flag}")
+          f"(band {expected_lo:,.1f} to {expected_hi:,.1f}) {flag}")
     return ok
 
 
@@ -79,16 +91,18 @@ print("=" * 72)
 print("PART 1 — FORWARD M3 PATH-A REPRODUCTIONS")
 print("=" * 72)
 
-# --- Norway petroleum (§11.5, landed values L4293-4333) ---
-# central: ς=100, α=0.65, V_market=$80 market crude → ≈$281/BOE
-check("Norway M3 central (ς=100, α=0.65, V=$80)",
-      rcv_m3(80, 100, 0.65), 275, 285, "$/BOE")
-# low corner: V=$40 crude, ς=50, α=0.50 → ≈$96/BOE
-check("Norway M3 low corner (ς=50, α=0.50, V=$40)",
-      rcv_m3(40, 50, 0.50), 92, 100, "$/BOE")
-# high corner: V=$120 crude, ς=200, α=0.75 → ≈$610/BOE
-check("Norway M3 high corner (ς=200, α=0.75, V=$120)",
-      rcv_m3(120, 200, 0.75), 600, 615, "$/BOE")
+# --- Norway petroleum (§11.5) ---
+# v2.0.1: alpha is the PHYSICAL irreversibility (carbon-cycle disruption and
+# a non-renewable barrel; IPCC AR6 SPM B.5), the same 0.85-0.95 band as coal.
+# The earlier 0.50-0.75 band credited the sovereign fund inside alpha, which
+# put the bond on both sides of CS = RCV - B (review finding C2).
+NOR_ALPHA = (0.85, 0.95)
+nor_m3_low = rcv_m3(40, 50, NOR_ALPHA[0])
+nor_m3_high = rcv_m3(120, 200, NOR_ALPHA[1])
+nor_m3_geo = math.sqrt(nor_m3_low * nor_m3_high)
+check("Norway M3 low corner (V=$40, ς=50, α=0.85)", nor_m3_low, 310, 330, "$/BOE")
+check("Norway M3 high corner (V=$120, ς=200, α=0.95)", nor_m3_high, 3000, 3080, "$/BOE")
+check("Norway M3 geometric center", nor_m3_geo, 960, 1010, "$/BOE")
 
 # --- McDowell coal (§11.6, landed band $340–3,670, geo center ~$1,115) ---
 # coal grade $40–140/ton contemporary (TA L2916 basis); α 0.85–0.95.
@@ -116,9 +130,11 @@ check("McDowell M3-IPG high (3670/140)", mcd_high / 140, 25.0, 27.0, "x")
 check("McDowell M3-IPG center (geometric)",
       math.sqrt((mcd_low / 40) * (mcd_high / 140)), 14.0, 16.0, "x")
 
-# --- Norway M3-IPG ~2.4–5.1× (§11.5 L4215) ---
-check("Norway M3-IPG low (96/40)", rcv_m3(40, 50, 0.50) / 40, 2.3, 2.5, "x")
-check("Norway M3-IPG high (610/120)", rcv_m3(120, 200, 0.75) / 120, 4.9, 5.2, "x")
+# --- Norway M3 multiple (price-independent; same alpha band as coal) ---
+check("Norway M3 multiple low", nor_m3_low / 40, 7.8, 8.2, "x")
+check("Norway M3 multiple high", nor_m3_high / 120, 25.0, 25.6, "x")
+print("  NOTE: RCV_M3 >= V_market by construction (both factors >= 1), so a")
+print("  Method-3 multiple above one is not evidence of direction (TA §3.5).")
 
 
 # =====================================================================
@@ -130,38 +146,74 @@ print("=" * 72)
 print("PART 2 — FORWARD M1 / M2 ANCHORS (sourced)")
 print("=" * 72)
 
-# M1 Norway: $161–422/BOE replacement-cost floor (§11.5 landed; DAC-anchored)
-NORWAY_M1 = (161, 422)        # $/BOE — TA §11.5 (landed)
-# M2 Norway: GPFG NOK 21,268B end-2025 (NBIM) ≈ $2.0T at ~75% capture
-# → ~$2.67T petroleum wealth ÷ ~55B BOE ≈ $48/BOE (§3.4/§11.5)
-GPFG_USD_T = 2.0              # NBIM Annual Report 2025 (FX-dependent)
-CAPTURE_RATE = 0.75           # §3.4: ~70-80% state capture; midpoint
-CUM_PRODUCTION_BBOE = 55      # Norwegian Offshore Directorate
-norway_m2 = GPFG_USD_T * 1e12 / CAPTURE_RATE / (CUM_PRODUCTION_BBOE * 1e9)
-check("Norway M2 realized-B reading (GPFG-derived)", norway_m2, 46, 50, "$/BOE")
+# M1 Norway: $161–422/BOE replacement-cost cross-check (§11.5; DAC-anchored)
+NORWAY_M1 = (161, 422)        # $/BOE — TA §11.5
 
-# Norway implied CS: (RCV center − realized B) × cumulative production
-# RCV center: M1∩M3 overlap region; M3 central $281 (above), M1 $161-422.
-norway_cs_per_boe = rcv_m3(80, 100, 0.65) - norway_m2
-norway_cs_total_T = norway_cs_per_boe * CUM_PRODUCTION_BBOE * 1e9 / 1e12
-check("Norway implied CS per BOE (M3-central − M2)",
-      norway_cs_per_boe, 225, 240, "$/BOE")
-print(f"[RECONSTRUCTION] Norway cumulative CS: ${norway_cs_total_T:.1f}T "
-      f"(§3.6 table says ~$12.5T; §11.6-region prose says $13-15T — "
-      f"computed {norway_cs_per_boe:,.0f} × 55B BOE; the two TA spots "
-      f"disagree with each other; flag for the §3.6 recompute)")
+# ---- Norway realized bond B2 and rent, DERIVED (v2.0.1) ----
+GPFG_NOK_BN = 21_268          # NBIM, end-2025 (the FX-invariant anchor)
+GPFG_USD_T = 2.0              # same, at the end-2025 USD/NOK rate (TA §11.5)
+CUM_PRODUCTION_BBOE = 55      # Norwegian Offshore Directorate, through 2024
+# State's realised net cash flow from petroleum, 1971-2025, constant 2027
+# kroner: sum of the annual series published by the Ministry of Finance /
+# Statistics Norway (norskpetroleum.no, file
+# 30_Statens-netto-kontantstrom_1971-2025, read 2026-11-11).
+STATE_TAKE_NOK_BN = 14_862
+CAPTURE = (0.70, 0.80)        # state share of petroleum rent (TA §11.5 anchor)
+USD_PER_NOK = GPFG_USD_T * 1e12 / (GPFG_NOK_BN * 1e9)   # the TA's own rate
 
-# McDowell M2: realized B $50-88/ton societally-paid; $8-15/ton industry-paid
-# (§11.6 landed; Black Lung Trust Fund + reclamation bonds + settlements)
-MCD_M2_SOCIETAL = (50, 88)    # $/ton — TA §11.6 (landed)
-MCD_M2_INDUSTRY = (8, 15)     # $/ton — TA §11.6 (landed)
-# McDowell CS at M3 geo center vs societal realized B:
-mcd_cs_lo = mcd_geo - MCD_M2_SOCIETAL[1]
-mcd_cs_hi = mcd_geo - MCD_M2_SOCIETAL[0]
-check("McDowell CS (M3 geo-center − realized B band) low",
-      mcd_cs_lo, 1020, 1045, "$/ton")
-check("McDowell CS (M3 geo-center − realized B band) high",
-      mcd_cs_hi, 1045, 1070, "$/ton")
+norway_b2 = GPFG_USD_T * 1e12 / (CUM_PRODUCTION_BBOE * 1e9)
+check("Norway B2: fund per BOE ($2.0T / 55B BOE)", norway_b2, 36.0, 36.8, "$/BOE")
+norway_take = STATE_TAKE_NOK_BN * 1e9 * USD_PER_NOK / (CUM_PRODUCTION_BBOE * 1e9)
+check("Norway state take per BOE (NOK 14,862bn)", norway_take, 25.0, 25.8, "$/BOE")
+check("Norway state take per BOE in kroner",
+      STATE_TAKE_NOK_BN / CUM_PRODUCTION_BBOE, 268, 272, "NOK/BOE")
+norway_H_lo = norway_take / CAPTURE[1]
+norway_H_hi = norway_take / CAPTURE[0]
+check("Norway rent H per BOE, low (take / 0.80)", norway_H_lo, 31.0, 32.5, "$/BOE")
+check("Norway rent H per BOE, high (take / 0.70)", norway_H_hi, 35.5, 37.0, "$/BOE")
+print("  RETIRED: the $48/BOE figure (fund / capture rate / production) mixed")
+print("  the fund's investment returns into a rent measure; it is replaced by")
+print("  the fund per BOE (the bond) and the cash-flow-based rent above.")
+
+# ---- Norway RCV floor: the carbon term alone (sourced inputs only) ----
+NOR_CO2_GT = 20.35            # TA §11.5: combusted, oil+gas weighted
+SCC = 190.0                   # EPA 2023 central, $/t CO2
+norway_carbon = NOR_CO2_GT * 1e9 * SCC / (CUM_PRODUCTION_BBOE * 1e9)
+check("Norway carbon term per BOE (20.35 Gt x $190 / 55B)", norway_carbon, 69.5, 71.0, "$/BOE")
+norway_cs_floor = norway_carbon - norway_b2
+check("Norway CS floor per BOE (carbon term - B2)", norway_cs_floor, 33.0, 35.0, "$/BOE")
+check("Norway CS floor cumulative", norway_cs_floor * CUM_PRODUCTION_BBOE / 1e3, 1.8, 1.95, "$T")
+check("Norway gap on the M1 cross-check, low (161 - B2)", NORWAY_M1[0] - norway_b2, 124, 126, "$/BOE",
+      kind="CROSS-CHECK")
+check("Norway gap on the M1 cross-check, high (422 - B2)", NORWAY_M1[1] - norway_b2, 385, 387, "$/BOE",
+      kind="CROSS-CHECK")
+
+# ---- McDowell realized bond, DERIVED from the §11.6 components (v2.0.1) ----
+MCD_TONS = 600e6              # McDowell + adjacent counties (WVGS/USGS; §11.6)
+MCD_B_COMPONENTS = {          # $ billions (lo, hi); payer; type
+    "Black Lung payouts through 2009 (GAO/CRS; NATIONAL)": (44.0, 44.0),
+    "Reclamation bonds posted, net of shortfalls":          (3.0, 5.0),
+    "Bankruptcy-transferred liabilities (to taxpayers)":    (0.9, 0.9),
+    "Other miner compensation / cost-shifting (framework estimate)": (5.0, 10.0),
+}
+mcd_b_lo = sum(v[0] for v in MCD_B_COMPONENTS.values())
+mcd_b_hi = sum(v[1] for v in MCD_B_COMPONENTS.values())
+check("McDowell realized payments, total low", mcd_b_lo, 52.5, 53.5, "$B")
+check("McDowell realized payments, total high", mcd_b_hi, 59.5, 60.5, "$B")
+MCD_M2_ALL = (mcd_b_lo * 1e9 / MCD_TONS, mcd_b_hi * 1e9 / MCD_TONS)
+check("McDowell bond per ton, all payers, low", MCD_M2_ALL[0], 88.0, 88.5, "$/ton")
+check("McDowell bond per ton, all payers, high", MCD_M2_ALL[1], 99.5, 100.5, "$/ton")
+MCD_INDUSTRY_B = (5.0, 8.0)   # $B: reclamation bonds + private settlements (§11.6)
+MCD_M2_INDUSTRY = (MCD_INDUSTRY_B[0] * 1e9 / MCD_TONS, MCD_INDUSTRY_B[1] * 1e9 / MCD_TONS)
+check("McDowell bond per ton, extractor-paid, low", MCD_M2_INDUSTRY[0], 8.0, 8.6, "$/ton")
+check("McDowell bond per ton, extractor-paid, high", MCD_M2_INDUSTRY[1], 13.0, 13.6, "$/ton")
+MCD_B2_FORWARD = (3.0e9 / MCD_TONS, 5.0e9 / MCD_TONS)   # reclamation bonds only
+check("McDowell forward bond B2 (reclamation bonds) low", MCD_B2_FORWARD[0], 4.9, 5.1, "$/ton")
+check("McDowell forward bond B2 (reclamation bonds) high", MCD_B2_FORWARD[1], 8.2, 8.4, "$/ton")
+print("  NOTE: the numerators are national programs and the denominator is")
+print("  McDowell-area tonnage, so the all-payer figure is an UPPER bound on")
+print("  the bond per ton and the cost severance built on it is a LOWER bound.")
+print("  RETIRED: '$50-88/ton' (the $50 had no derivation) and '$8-15/ton'.")
 
 
 # =====================================================================
@@ -169,11 +221,9 @@ check("McDowell CS (M3 geo-center − realized B band) high",
 #   RCV = ∫ {[1−S(t)]·U(R,t,Q) + E(R,t)} · D(t,t₀) dt
 #   S(t) = S_max·(1−e^{−λ(t−t₀)})          (Def 1.2 tractable form)
 #   D(t) = exp(−∫r(s)ds), r declining       (Def 1.5, Weitzman 2001)
-# Status: ADOPTED CALIBRATION (2026-06-10, author-ratified). The TA's
-# §11.1 integral-lens level is now THIS parameterization ($525-540/ton;
-# IPG 61-115× across the $8.66/$4.71 price bases). The previously printed
-# $580-620 band rested on an unrecorded parameterization and is superseded
-# (see §11.1 "Integral calibration" note). Assumptions below are labeled.
+# Status: ADOPTED CALIBRATION (2026-06-10, author-ratified) and, from TA
+# v2.0.1, the HEADLINE value ($525-540/ton). Multiples are reported on a
+# consistent price basis in Part 8. Assumptions below are labeled.
 # =====================================================================
 
 print()
@@ -225,15 +275,9 @@ rcv_55 = rcv_integral(r0=0.055)   # Nordhaus
 print(f"[RECONSTRUCTION] RCV integral @ r0=1.4% (Stern): ${rcv_14:,.0f}/ton")
 print(f"[RECONSTRUCTION] RCV integral @ r0=5.5% (Nordhaus): ${rcv_55:,.0f}/ton")
 
-# IPG under the integral lens, on the $4.71/ton 1960 mine-mouth basis
-# (adopted 2026-06-10: 61-115× across the $8.66 contemporary / $4.71
-#  1960 price bases; level per the adopted calibration above)
-P_1960 = 4.71
-print(f"[RECONSTRUCTION] IPG integral-lens @ Stern: {rcv_14/P_1960:,.0f}x ; "
-      f"@ Nordhaus: {rcv_55/P_1960:,.0f}x  (TA adopted: 61-115x across price bases)")
-print("  NOTE: this parameterization is the TA's ADOPTED calibration as of")
-print("  2026-06-10 (§11.1 'Integral calibration' note). IPG on the two")
-print("  price bases: 525/8.66 ≈ 61x ; 540/4.71 ≈ 115x.")
+check("McDowell integral @ Stern r0=1.4%", rcv_14, 524, 528, "$/ton")
+check("McDowell integral @ r0=4%", rcv_4, 535, 539, "$/ton")
+check("McDowell integral @ Nordhaus r0=5.5%", rcv_55, 539, 543, "$/ton")
 
 # Knife-edge demonstration (Thm 10.4 corollary): S_max<1, summable r → ∞
 print()
@@ -382,10 +426,10 @@ print("=" * 72)
 print("""
   total CS = (CSD − B₁) + (RCV − B₂)
 
-  Forward worked case (McDowell, per-ton):
-    RCV  = M1 ∩ M3 convergence (M3 geo-center ~$1,115/ton)
-    B₂   = realized forward instruments — M2 reads $50-88/ton societal
-    CS_forward ≈ $1,025-1,065/ton             [matches landed §11.6]
+  Forward worked case (McDowell, per-ton; v2.0.1):
+    RCV  = the integral, $525-540/ton (Part 3); M1 and M3 are cross-checks
+    B    = realized payments, all payers, $88-100/ton (upper bound; Part 2)
+    CS   ≥ about $425-450/ton                  [Part 8; TA §11.6]
 
   Backward worked case (Chesapeake reef, total):
     CSD  = $20M-37M floor … ~$211M central … ceiling OPEN (M3 slot)
@@ -396,8 +440,7 @@ print("""
     INSTRUMENT-ASSIGNMENT is inverted — B₁ should be industry-posted.
 
   Same equation, same Three Ways, run in both temporal directions;
-  the backward range is wider (methodological-choice spread), the
-  convergence logic identical in kind (Thm 10.1b; §17.5).
+  the backward range is wider (methodological-choice spread).
 """)
 
 # =====================================================================
@@ -510,8 +553,8 @@ PORTFOLIO = [
     ("McDowell coal",
      ("FILLED", "reclamation shortfall $3.7-6B documented + legacy heads OPEN (13-yr gap)"),
      ("FILLED", "Black Lung ~$44B thru 2009 (GAO/CRS) — restitution-type"),
-     ("FILLED", "M1 $310-1,800 / M3 $339-3,668/ton; geo center ~$1,115"),
-     ("FILLED", "reclamation bonds posted (forward-type); $50-88/ton societal realized"),
+     ("FILLED", "integral $525-540/ton (headline); cross-checks M1 $290-2,702, M3 $340-3,670"),
+     ("FILLED", "reclamation bonds posted (forward-type, $5-8/ton); $88-100/ton all payers"),
      "FINDING: TA's 'realized B ~$53-60B' is NOT split B1/B2 — Black Lung "
      "payouts are B1 (realized-harm restitution), reclamation bonds are B2 "
      "(posted against future damage). The bidirectional run forces the split "
@@ -519,8 +562,8 @@ PORTFOLIO = [
     ("Norway petroleum",
      ("FILLED", "ILLUSTRATIVE: 20.35 Gt CO2 combusted (TA-sourced) x $190 SCC ~ $3.9T realized"),
      ("ZERO", "B1 for non-Norwegian cost-bearers ~ 0 (TA's own claim, now arithmetic)"),
-     ("FILLED", "M3 $96-610/BOE central $281; M1 $161-422"),
-     ("FILLED", "GPFG ~$2.0T = realized B2 ($48/BOE)"),
+     ("FILLED", "carbon-term floor ~$70/BOE; cross-checks M1 $161-422, M3 $320-3,040"),
+     ("FILLED", "GPFG ~$2.0T = realized B2 (~$36/BOE)"),
      "Backward run quantifies the TA's qualitative claim: Norway's architecture "
      "covers Norwegians (B1-for-citizens), not the non-Norwegian bearers of "
      "$3.9T realized combustion damage. CSD-B1 > 0 lands on the same "
@@ -535,12 +578,13 @@ PORTFOLIO = [
      "scale post-hoc — the structural contrast to the reef's $0 and "
      "reparations' absent B1."),
     ("Libby vermiculite",
-     ("FILLED", "$4B+ class total (TA §11.3; component derivation flagged in review)"),
-     ("FILLED", "$600M Superfund (public) + $250M settlements (industry)"),
+     ("FILLED", ">$600M federal cleanup (EPA); mortality head labeled, others OPEN"),
+     ("FILLED", "$250M Grace reimbursement of cleanup (DOJ/EPA 2008); remainder public"),
      ("ZERO", "mine closed 1990; residual forward foreclosure ~ 0"),
      ("ZERO", "no forward instrument needed"),
-     "Backward-dominant; B1 split is 70/30 public/industry — between "
-     "Deepwater (industry-paid) and the reef (all-public)."),
+     "Backward-dominant; of >$600M cleanup, Grace repaid $250M (~40%) and the "
+     "public carried the rest — between Deepwater (industry-paid) and the reef "
+     "(all-public)."),
     ("Baotou rare earths",
      ("FILLED", "remediation $5-15B cited (tailings lake alone)"),
      ("ZERO", "no identified restitution"),
@@ -613,6 +657,122 @@ print(f"PORTFOLIO VERDICT: {'PASS' if portfolio_pass else 'FAIL'} — every case
       f"term; backward runs surface 3 findings (McDowell B₁/B₂ split; Norway "
       f"non-Norwegian B₁ arithmetic; Deepwater as industry-paid-B₁ exemplar).")
 
+
+# =====================================================================
+# PART 8 — v2.0.1 HEADLINE ASSEMBLY, HOTELLING SPLIT, SENSITIVITIES
+#   Headline RCV = the integral (Part 3). CS = RCV - B with B derived
+#   (Part 2). Hotelling split of the forward term (TA §4):
+#       RCV - B2 = (RCV - H) + (H - B2)
+#   H = Hotelling (scarcity) rent per unit. Worked only where H can be
+#   measured from a sourced figure. No invented rents.
+# =====================================================================
+
+print()
+print("=" * 72)
+print("PART 8 — HEADLINE ASSEMBLY, HOTELLING SPLIT, SENSITIVITIES (v2.0.1)")
+print("=" * 72)
+
+rcv_lo, rcv_hi = min(rcv_14, rcv_4, rcv_55), max(rcv_14, rcv_4, rcv_55)
+
+# --- McDowell headline cost severance (lower bound; all-payer bond) ---
+mcd_cs_lo = rcv_lo - MCD_M2_ALL[1]
+mcd_cs_hi = rcv_hi - MCD_M2_ALL[0]
+check("McDowell CS low (integral low - bond high)", mcd_cs_lo, 424, 428, "$/ton", kind="HEADLINE")
+check("McDowell CS high (integral high - bond low)", mcd_cs_hi, 450, 454, "$/ton", kind="HEADLINE")
+check("McDowell CS vs extractor-paid bond, low", rcv_lo - MCD_M2_INDUSTRY[1], 511, 514, "$/ton",
+      kind="HEADLINE")
+check("McDowell CS vs extractor-paid bond, high", rcv_hi - MCD_M2_INDUSTRY[0], 531, 534, "$/ton",
+      kind="HEADLINE")
+
+# --- Consistent-basis multiples (2020-dollar RCV over the contemporary
+#     $40-140/ton price by grade, EIA; TA §11.6). No ratio is taken against
+#     the 1960 nominal price. ---
+P_CONTEMP = (40.0, 140.0)
+check("McDowell integral multiple low (525/140)", 525 / P_CONTEMP[1], 3.7, 3.8, "x", kind="HEADLINE")
+check("McDowell integral multiple high (540/40)", 540 / P_CONTEMP[0], 13.4, 13.6, "x", kind="HEADLINE")
+check("McDowell damage-floor multiple low (504/140)", 504 / P_CONTEMP[1], 3.5, 3.7, "x", kind="CROSS-CHECK")
+check("McDowell damage-floor multiple high (518/40)", 518 / P_CONTEMP[0], 12.9, 13.0, "x", kind="CROSS-CHECK")
+
+# --- Share of the level carried by the framework's own foreclosure term ---
+fore_share = (rcv_4 - 496.0 - rcv_integral(r0=0.04, p=0.0, e_pulse=0.0)) / rcv_4
+check("Foreclosure-term share of the integral @4%", 100 * fore_share, 6.0, 8.5, "%", kind="SENSITIVITY")
+check("Carbon-pulse share of the integral @4%", 100 * 496.0 / rcv_4, 91.0, 93.5, "%", kind="SENSITIVITY")
+
+# --- End-use sensitivity: S_max = 0.85 is an electricity figure; Pocahontas
+#     coal was chiefly metallurgical/steam. No substitute at all (S_max=0): ---
+rcv_s0 = rcv_integral(r0=0.04, s_max=0.0)
+check("McDowell integral @4%, S_max = 0 (no substitute)", rcv_s0, 560, 640, "$/ton", kind="SENSITIVITY")
+
+# --- Low-SCC sensitivity ($51/t CO2): level and consistent-basis multiple ---
+rcv_scc51 = rcv_integral(r0=0.055, e_pulse=2.61 * 51.0)
+check("McDowell integral, SCC $51, r0=5.5%", rcv_scc51, 165, 185, "$/ton", kind="SENSITIVITY")
+check("  multiple at top grade ($140)", rcv_scc51 / 140, 1.1, 1.4, "x", kind="SENSITIVITY")
+check("  multiple at low grade ($40)", rcv_scc51 / 40, 4.0, 4.7, "x", kind="SENSITIVITY")
+check("  CS at SCC $51 vs all-payer bond (low)", rcv_scc51 - MCD_M2_ALL[1], 65, 90, "$/ton",
+      kind="SENSITIVITY")
+
+# --- Hotelling split ---
+print()
+print("[HOTELLING] Rent-measurability test, per worked case:")
+HOTELLING_TEST = [
+    ("Norway petroleum", "YES (proxy)",
+     "State net cash flow 1971-2025 (MoF/SSB series) / production, grossed up "
+     "by the 70-80% state share."),
+    ("McDowell coal", "NO (bounded only)",
+     "No sourced price-minus-marginal-cost figure for these tons. Rent cannot "
+     "exceed price, so H <= P."),
+    ("Deepwater Horizon", "NO",
+     "Well revenue is a reserve x price derivation; no sourced extraction cost."),
+    ("Libby vermiculite", "NO",
+     "Lifetime revenue is an unconfirmed industry estimate; no cost record."),
+    ("Baotou rare earths", "NO",
+     "Export revenue only; no sourced processing or extraction cost."),
+    ("Chesapeake reef", "NO (not applicable)",
+     "Backward case on a renewable stock; the split is of the forward term, "
+     "and open-access harvest leaves no sourced rent series."),
+]
+for case, verdict, why in HOTELLING_TEST:
+    print(f"  {case:<20} {verdict:<20} {why}")
+
+print()
+nor_H_mid = norway_take / 0.75
+check("Norway H (central, take / 0.75)", nor_H_mid, 33.0, 34.6, "$/BOE", kind="HOTELLING")
+check("Norway (RCV_floor - H), central", norway_carbon - nor_H_mid, 35.0, 38.0, "$/BOE", kind="HOTELLING")
+check("Norway (RCV_floor - H), low (H high)", norway_carbon - norway_H_hi, 33.0, 35.0, "$/BOE",
+      kind="HOTELLING")
+check("Norway (RCV_floor - H), high (H low)", norway_carbon - norway_H_lo, 37.5, 39.5, "$/BOE",
+      kind="HOTELLING")
+check("Norway (H - B2), low", norway_H_lo - norway_b2, -5.5, -3.5, "$/BOE", kind="HOTELLING")
+check("Norway (H - B2), high", norway_H_hi - norway_b2, -1.0, 1.0, "$/BOE", kind="HOTELLING")
+ident = (norway_carbon - nor_H_mid) + (nor_H_mid - norway_b2)
+assert abs(ident - norway_cs_floor) < 1e-9          # the split is an identity
+print("  Reading: Norway's fund now holds about as much per barrel as the rent")
+print("  the state took (more, counting investment returns), so the rent-not-")
+print("  bonded term is about zero. The whole gap is the first term: cost that")
+print("  would remain even if every dollar of rent were bonded.")
+# McDowell: bound only (H <= P on the same contemporary basis)
+check("McDowell (RCV - H) lower bound, top grade (525 - 140)", 525 - 140, 384, 386, "$/ton",
+      kind="HOTELLING-BOUND")
+check("McDowell (RCV - H) lower bound, low grade (525 - 40)", 525 - 40, 484, 486, "$/ton",
+      kind="HOTELLING-BOUND")
+
+# --- Libby (TA §11.3), rebuilt on sourced figures only ---
+print()
+LIBBY_REVENUE = 0.1e9         # ~$100M, unconfirmed industry estimate
+LIBBY_CLEANUP = 0.6e9         # >$600M federal cleanup (EPA)
+LIBBY_GRACE = 0.25e9          # Grace's 2008 reimbursement of cleanup (DOJ/EPA)
+check("Libby cleanup / revenue", LIBBY_CLEANUP / LIBBY_REVENUE, 5.9, 6.1, "x", kind="LIBBY")
+check("Libby: extractor share of cleanup", 100 * LIBBY_GRACE / LIBBY_CLEANUP, 41, 42.5, "%", kind="LIBBY")
+vsl_lo, vsl_hi = 694 * 7.4e6, 694 * 11.0e6
+check("Libby mortality head low (694 x $7.4M)", vsl_lo / 1e9, 5.0, 5.2, "$B", kind="LIBBY")
+check("Libby mortality head high (694 x $11.0M)", vsl_hi / 1e9, 7.5, 7.7, "$B", kind="LIBBY")
+check("Libby cleanup + mortality head, low", (vsl_lo + LIBBY_CLEANUP) / 1e9, 5.6, 5.8, "$B", kind="LIBBY")
+check("Libby cleanup + mortality head, high", (vsl_hi + LIBBY_CLEANUP) / 1e9, 8.1, 8.3, "$B", kind="LIBBY")
+print("  RETIRED: the $2.6B 'documented-cash floor' and its 26x ratio (it added")
+print("  the $250M reimbursement to the cleanup it repaid, plus an unsourced")
+print("  $50M/yr monitoring stream and an unsourced $500M property estimate).")
+
 n_fail = sum(1 for r in results if not r[6])
 print()
 print(f"SUMMARY: {len(results)} checked values, {n_fail} mismatches.")
+raise SystemExit(1 if n_fail else 0)

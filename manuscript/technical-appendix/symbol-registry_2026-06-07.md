@@ -233,6 +233,8 @@ Most single lowercase Latin letters are already in service as variables (Part 2:
 
 ## PART 7 — READER-FACING CANONICAL SYMBOL LIST (deduplicated; scan-verified complete)
 
+**Synced 2026-11-11 for TA v2.0.1** (H added for the §4 split; B/CS/CSD units and definitions per Defs 1.7, 1.11, 1.12; payer split; Cᵢ and V_market units corrected; α physical; the 0.05 coefficient is dimensionless; RCV_M1 and f(t) added).
+
 **Added 2026-06-09 (back-matter consolidation).** Part 2 is the exhaustive per-section AUDIT
 catalog (same glyph may recur across section tables). This Part 7 is the **deduplicated,
 reader-facing canonical list** — each distinct quantity ONCE, grouped, with its canonical meaning.
@@ -252,29 +254,33 @@ entries; the Latin framework variables and compound/subscripted forms are includ
 | Core quantities | E(R,t) | externality-tail flow (deterministic; not the expectation operator E[·]) | $·res⁻¹·time⁻¹ |
 | Core quantities | D(t,t₀), r(t), r₀ | discount factor; discount rate; initial rate | (0,1]; rate; rate |
 | Core quantities | RCV(R,t₀) | Residual Commons Value (the integral) | $·res⁻¹ |
-| Core quantities | B, B₁, B₂ | Accountability Bond; Restitution Bond (backward); Foreclosure Bond (forward) | $ |
-| Core quantities | B̂_M2 | Method-2 realized-Bond reading (observed internalization per unit of extraction); a strict lower bound on RCV (RCV ≥ B̂_M2), not an RCV estimator; the hat marks "reading/estimate of," distinct from the posted instrument B | $·res⁻¹ |
-| Core quantities | CS, CSD | Cost Severance (= RCV − B); Cost Severance Damages (backward-looking) | $ |
+| Core quantities | B, B₁, B₂ | Accountability Bond: what was priced and paid with the cost in view (Def 1.7); Restitution Bond (backward; Def 1.12); Foreclosure Bond (forward) | $·res⁻¹ per unit; $ in aggregate (stated per case) |
+| Core quantities | B₁(extractor), B₁(public) | payer split of the Restitution Bond as measured (Def 1.12) | $ |
+| Core quantities | B̂_M2 | Method-2 realized-Bond reading (observed internalization per unit of extraction); a reading of what was paid, not an estimate of RCV; the hat marks "reading/estimate of," distinct from the posted instrument B | $·res⁻¹ |
+| Core quantities | CS, CSD | Cost Severance (= RCV − B; cost borne but never priced); Cost Severance Damages (backward-looking; Def 1.11) | $·res⁻¹ per unit; $ in aggregate (stated per case) |
+| Core quantities | CSD_floor | Method-1 cost to cure (the documented floor of CSD; Def 1.11) | $ |
+| Core quantities | H | Hotelling (scarcity) rent per unit: price minus marginal extraction cost (§4 only) | $·res⁻¹ |
 | Core quantities | CSD_M3 | backward Method-3 composite: V_market × scarcity_multiplier(ς) × irreversibility_premium(α), with V_market in its backward reading (extinguished optionality / foregone service flow) and α the realized irreversibility | $·res⁻¹ |
-| Core quantities | IPG(R,t₀) | Intergenerational Pricing Gap (= RCV / P) | dimensionless |
+| Core quantities | IPG(R,t₀) | Intergenerational Pricing Gap (= RCV / P, both in the same year's dollars) | dimensionless |
 | Core quantities | CIT | Commons Inversion Test (the discovery method) | — |
-| Core quantities | Cᵢ, C₁…Cₙ₊₁ | indexed cost components admitted via the Four Gates | $ |
+| Core quantities | Cᵢ, C₁…Cₙ₊₁ | indexed cost components admitted via the Four Gates | $·res⁻¹·time⁻¹ |
 | Core quantities | SCS, Ω | spatial cost severance (∫ over Ω∖K); Ω = extraction region | $; set |
 | Core quantities | Aⱼ, τⱼ | commons category j; its scarcity threshold | —; category-dep |
 | Parameters | ρ | regeneration rate of stock | resource·time⁻¹ |
 | Parameters | λ | substitution rate (in S = S_max(1 − e^(−λ(t−t₀)))) | time⁻¹ |
 | Parameters | ς | Method-3 scarcity parameter (reserves-to-production-grounded) | dimensionless |
-| Parameters | α | Method-3 irreversibility probability ∈ [0,1] | dimensionless |
+| Parameters | α | Method-3 irreversibility parameter ∈ [0,1): probability the loss cannot be restored at any finite cost, read from the physical record | dimensionless |
 | Parameters | ξ | cost-function curvature exponent (ξ ≥ 1) | dimensionless |
 | Parameters | η_S(A) | supply elasticity (→ 0 as A → τ⁺) | dimensionless |
 | Parameters | τ | scarcity threshold | category-dep |
 | Parameters | κ | discount-rate decay constant (§16.1; r(t) = (r₀ − r_min)·e^(−κt) + r_min) | time⁻¹ |
 | Parameters | ζ, ω | §16.2 innovation-suppression coefficients (local to §16.2; distinct from M3 α) | dimensionless |
-| Method-3 | RCV_M3 | Method-3 estimate = V_market × scarcity_multiplier(ς) × irreversibility_premium(α) | $·res⁻¹ |
-| Method-3 | V_market | resource's own market / underlying value (abundance baseline) | $ |
-| Method-3 | scarcity_multiplier(ς) | 1 + ln(1 + ς) × Hotelling_anchor | dimensionless |
+| Method-3 | RCV_M1 | Method-1 replacement-cost estimate (a cross-check; §3.3) | $·res⁻¹ |
+| Method-3 | RCV_M3 | Method-3 estimate = V_market × scarcity_multiplier(ς) × irreversibility_premium(α) (a cross-check; §3.5) | $·res⁻¹ |
+| Method-3 | V_market | the resource's own market value | $·res⁻¹ |
+| Method-3 | scarcity_multiplier(ς) | 1 + 0.05 × ln(1 + ς) | dimensionless |
 | Method-3 | irreversibility_premium(α) | 1 / (1 − α) | dimensionless |
-| Method-3 | Hotelling_anchor | ≈ 5%/yr Hotelling-rate proxy coefficient | ~rate |
+| Method-3 | Hotelling_anchor | earlier name for the calibration constant 0.05 in the scarcity multiplier (still used in the calculation files) | dimensionless |
 | Compound & auxiliary | S_max | long-run substitutability ceiling (S → S_max as t → ∞) | dimensionless [0,1] |
 | Compound & auxiliary | S_base(t) | baseline substitutability path before stock-dependent suppression (§16.2) | dimensionless |
 | Compound & auxiliary | S_threshold | criticality threshold on substitutability (§1.9) | dimensionless |
@@ -282,7 +288,7 @@ entries; the Latin framework variables and compound/subscripted forms are includ
 | Compound & auxiliary | Q_critical | stock level at which scarcity becomes economically visible (§16.2) | resource units |
 | Compound & auxiliary | t, t₀ | time; analysis time (extraction moment) | time |
 | Compound & auxiliary | T | proof threshold time (local to §10.3) | time |
-| Compound & auxiliary | r_min, r_∞ | floor / long-run limit of the declining discount rate | rate |
+| Compound & auxiliary | r_min, r_∞ | floor / long-run limit of the declining discount rate (2% in the adopted calibration, §11.1) | rate |
 | Compound & auxiliary | D_∞ | limiting discount factor lim D(t,t₀) (positive iff ∫r ds < ∞; Thm 10.4) | (0,1] |
 | Compound & auxiliary | A_ε | abundance level beyond which c(A) < ε (Theorem 10.3 (I)) | resource units |
 | Compound & auxiliary | U₀, k | utility polynomial-growth bound constants (§10.4) | —; — |
@@ -302,5 +308,6 @@ entries; the Latin framework variables and compound/subscripted forms are includ
 | Operators & proof | ε, δ | ε–δ analysis neighborhood variables (Theorem 10.3) | — |
 | Operators & proof | M, K, T | proof divergence bound; proof constant; threshold time (local to §10.3) | — |
 | Operators & proof | s | integration dummy (∫ r(s) ds) | — |
+| Operators & proof | f(t) | the discounted RCV integrand in the proof of Theorem 10.4 | $·res⁻¹·time⁻¹ |
 | Operators & proof | (i)–(iv); (a)–(d) | enumerated assumption/premise labels; cost-function-property labels (§10) | — |
 | Operators & proof | ∎ | QED (end of proof) | — |

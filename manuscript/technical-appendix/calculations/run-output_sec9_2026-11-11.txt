@@ -1,0 +1,54 @@
+========================================================================
+A. McDOWELL — the integral is the headline; M1 and M3 are cross-checks
+========================================================================
+[REPRODUCTION] McDowell integral low (Stern): 526.4 $/ton (target 524.0-528.0) PASS
+[REPRODUCTION] McDowell integral high (Nordhaus): 540.9 $/ton (target 539.0-543.0) PASS
+[REPRODUCTION] Integral multiple low (525/140): 3.8 x (target 3.7-3.8) PASS
+[REPRODUCTION] Integral multiple high (540/40): 13.5 x (target 13.4-13.6) PASS
+[REPRODUCTION] Damage-floor multiple low (504/140): 3.6 x (target 3.5-3.7) PASS
+[REPRODUCTION] Damage-floor multiple high (518/40): 12.9 x (target 12.9-13.0) PASS
+[REPRODUCTION] McDowell M3 multiple low: 8.5 x (target 8.0-9.0) PASS
+[REPRODUCTION] McDowell M3 multiple high: 26.2 x (target 25.0-27.0) PASS
+[REPRODUCTION] McDowell M3 multiple geometric center: 14.9 x (target 14.0-16.0) PASS
+[REPRODUCTION] Bond per ton, all payers, low: 88.2 $/ton (target 88.0-88.5) PASS
+[REPRODUCTION] Bond per ton, all payers, high: 99.8 $/ton (target 99.5-100.5) PASS
+[REPRODUCTION] Bond per ton, extractor-paid, low: 8.3 $/ton (target 8.0-8.6) PASS
+[REPRODUCTION] Bond per ton, extractor-paid, high: 13.3 $/ton (target 13.0-13.6) PASS
+[REPRODUCTION] McDowell CS low (integral - all-payer bond): 426.6 $/ton (target 424.0-428.0) PASS
+[REPRODUCTION] McDowell CS high (integral - all-payer bond): 452.7 $/ton (target 450.0-454.0) PASS
+
+========================================================================
+B. DEEPWATER — the realized industry-paid bond case (ratios conditional on the blowout)
+========================================================================
+[REPRODUCTION] Deepwater M1/DF documented IPG central (61.6/4.0): 15.4 x (target 15.0-16.0) PASS
+[SENSITIVITY] Deepwater M1/DF reserve-band low (61.6/4.8): 12.8 x (target 12.5-13.0) PASS
+[SENSITIVITY] Deepwater M1/DF reserve-band high (61.6/3.2): 19.2 x (target 19.0-19.5) PASS
+[RELABEL] Deepwater DF-extended low ((61.6+8)/4): 17.4 x (target 17.0-17.5) PASS
+[RELABEL] Deepwater DF-extended high ((61.6+12)/4): 18.4 x (target 18.0-18.5) PASS
+  -> RELABEL finding: §11.2's 'RCV model estimate ~17-18x' reproduces as
+     the damage lens with ongoing costs added — NOT an independent model.
+     'All three models agree within a factor of 1.5' counted one
+     computation twice (and the §9.5 RO column 12-21x has no derivation
+     anywhere in the corpus). Convergence row: retired.
+[CLASS-REGISTER] Oil-class M3 multiple low (ς=50, α=0.85): 8.0 x (target 7.8-8.2) PASS
+[CLASS-REGISTER] Oil-class M3 multiple high (ς=200, α=0.95): 25.3 x (target 25.0-25.6) PASS
+  -> M3 for Deepwater: computable only at the oil-class register
+     (8-25x, physical alpha), labeled class-level. RCV-integral: NOT computable on
+     documented inputs (no case calibration exists).
+  -> M2/B1: $61.6B INDUSTRY-paid (litigation-forced) — largest realized
+     industry-paid B1 in the corpus. CSD - B1 ~= $8-12B ongoing.
+
+========================================================================
+C. LIBBY — backward case; rebuilt on sourced figures only (v2.0.1)
+========================================================================
+[REPRODUCTION] Libby cleanup / revenue (0.6/0.1): 6.0 x (target 5.9-6.1) PASS
+[REPRODUCTION] Libby extractor share of cleanup (250/600): 41.7 % (target 41.0-42.5) PASS
+[REPRODUCTION] Libby mortality head low (694 x $7.4M VSL): 5.1 $B (target 5.0-5.2) PASS
+[REPRODUCTION] Libby mortality head high (694 x $11.0M VSL): 7.6 $B (target 7.5-7.7) PASS
+[REPRODUCTION] Libby cleanup + mortality head low: 5.7 $B (target 5.6-5.8) PASS
+[REPRODUCTION] Libby cleanup + mortality head high: 8.2 $B (target 8.1-8.3) PASS
+  -> RETIRED: $2.6B documented-cash floor, 26x, 65-102x. The $50M/yr
+     monitoring stream and the $500M property estimate have no source
+     and are not entered (Open).
+
+SUMMARY: 28 checked values, 0 mismatches.
