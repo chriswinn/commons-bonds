@@ -48,15 +48,21 @@ agent queries are held for his read until about mid-February. Essays are step on
 
 Use web search for **current, dated, sourced** reporting only; never state a forecast or rumor as fact.
 - Cost of living, unemployment, healthcare costs: which pieces gain a news peg, and when.
-- The 2028 presidential race: reporting on J.D. Vance as a likely Republican nominee. The corpus discusses
+- **J.D. Vance is the sitting Vice President** (since January 2025), and reporting points to him as a likely
+  Republican candidate in 2028 (election November 2028; primaries from early 2028). The corpus discusses
   *Hillbilly Elegy* in at least Noema, $100 Barrel, Public Books, the McDowell op-ed, the proposal comps and
-  Ch 4, 6, 7 and 9 (the TA calls the opioid case its "most-direct refutation" of the book). If Vance becomes a
-  nominee, every one of those passages reads as a political statement. Weigh: more attention and relevance,
+  Ch 4, 6, 7 and 9 (the TA calls the opioid case its "most-direct refutation" of the book). Because he is already the
+  Vice President, every one of those passages already reads as a statement about a sitting national officeholder,
+  and more so as the race begins. Weigh: more attention and relevance,
   against losing the cross-spectrum and center-right readers the framework is built to reach (guiding
   constraints §2.3; the book's non-partisan framing discipline). Recommend how each passage should engage his
   **published book only** (no characterization of his views or motives beyond what he has written or said on
   the record), and whether any piece should be timed before or after the primaries.
 - The election calendar more broadly: when partisan noise drowns policy essays, and when it helps them.
+- **Where the book itself lands.** Estimate the release window from the publishing path in STATE.md (Darity's
+  read by about mid-February 2027, then a press or agent route, then the usual production time from final
+  manuscript to publication; source any production-time figure). Say whether the book is likely to come out
+  before, during or after the 2028 primaries, and what that means for the essays that precede it.
 
 ## Deliverable
 
