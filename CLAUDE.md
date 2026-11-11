@@ -40,6 +40,14 @@ under this mode. Treat every June delegation, paused workflow (`wf_64743ae8-516`
 plan**; do not resume them. End every session with three lines: what got done ·
 what's waiting on the author · the exact next paste line.
 
+> **DATED EXCEPTION (author-approved 2026-11-11; expires 2026-11-17 02:30 local).** Two
+> sessions may run in parallel through Nov 16 to use the remaining Fable access window:
+> **Session A** (TA Phase 2) owns the TA, the figure ledger, the gate files, the calc engines,
+> the symbol registry and STATE.md; **Session B** (style sheet, chapter maps, Ch 6–9 briefs)
+> writes only new files of its own and touches none of A's files. Kickoffs:
+> `tools/workstream-handoffs/parallel-window_2026-11-11_session-A_ta-phase2.md` and
+> `..._session-B_style-maps-briefs.md`. After the expiry the one-session rule applies again.
+
 Live plan: [`tools/workstream-handoffs/commons_bonds_work-plan_2026-10_to_2027-08_v1.0.7.md`](tools/workstream-handoffs/commons_bonds_work-plan_2026-10_to_2027-08_v1.0.7.md).
 
 Doctrine routing (the four homes, canonical→summary):
