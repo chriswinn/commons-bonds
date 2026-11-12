@@ -602,7 +602,10 @@ def cmd_gen_ta_notation():
     )
     t = open(TA_HTML, encoding="utf-8").read()
     t = re.sub(r'   <section id="sec-0-notation">.*?</section>\n', "", t, flags=re.S)
-    t = t.replace("  <main>\n", "  <main>\n" + section, 1)
+    # v2.0.1: notation sits after the contribution section and before §1.
+    anchor = '   <section id="sec-1-foundations">\n'
+    assert anchor in t
+    t = t.replace(anchor, section + anchor, 1)
     if "#sec-0-notation" not in t:
         toc = ('    <li>\n     <a href="#sec-0-notation">\n      &sect;0. Notation &amp; Symbols\n     </a>\n'
                '     <div class="toc-annotation">\n      Every formula symbol, listed once.\n     </div>\n    </li>\n')

@@ -68,7 +68,7 @@ nav.toc h2 {
   margin: 0 0 0.5em 0;
   border: none;
 }
-nav.toc ol { padding-left: 1.5em; margin: 0; }
+nav.toc ol { padding-left: 0.5em; margin: 0; list-style: none; }
 nav.toc li { margin: 0.6em 0; }
 nav.toc a { color: var(--accent); text-decoration: none; font-weight: 500; }
 nav.toc a:hover { text-decoration: underline; }
@@ -171,6 +171,22 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
     Contents
    </h2>
    <ol>
+    <li>
+     <a href="#sec-0b-borrowed-and-added">
+      The Framework's Contribution and Its Sources
+     </a>
+     <div class="toc-annotation">
+      Placed before &sect;1: what the framework contributes, then a table of each borrowed component, its source, and what is added.
+     </div>
+    </li>
+    <li>
+     <a href="#sec-0-notation">
+      &sect;0. Notation &amp; Symbols
+     </a>
+     <div class="toc-annotation">
+      Every formula symbol, listed once.
+     </div>
+    </li>
     <li>
      <a href="#sec-1-foundations">
       &sect;1. Foundations &mdash; Formal Definitions and Primitives
@@ -315,25 +331,60 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
       Full reference list.
      </div>
     </li>
-    <li>
-     <a href="#sec-0b-borrowed-and-added">
-      What this appendix borrows and what it adds
-     </a>
-     <div class="toc-annotation">
-      One table, placed before &sect;1: each component, its source, what is borrowed and what is added.
-     </div>
-    </li>
-    <li>
-     <a href="#sec-0-notation">
-      &sect;0. Notation &amp; Symbols
-     </a>
-     <div class="toc-annotation">
-      Every formula symbol, listed once.
-     </div>
-    </li>
    </ol>
   </nav>
   <main>
+   <section id="sec-0b-borrowed-and-added">
+    <h2>
+     The Framework's Contribution and Its Sources
+    </h2>
+    <hr>
+    <p>
+     This section says, before anything else, what the framework claims as its own and what it takes from others. The claim is narrow. It is not a claim to have found a new cost or a new number: the damage figures are other people's, chiefly the EPA's (&sect;11.1). The claim is to have defined an object, stated a test, and put established parts together in a particular way.
+    </p>
+    <h3>
+     What the framework contributes
+    </h3>
+    <ul>
+     <li>
+      <strong>Cost severance and the accountability gap.</strong> The object of study is the gap between what an extraction owes and what was paid against it, and who paid (Definition 1.7).
+     </li>
+     <li>
+      <strong>The Cost Severance Decomposition.</strong> Harm already done and foreclosure still to come in one ledger, each with its own instrument: total CS = (CSD &minus; B₁) + (RCV &minus; B₂) (&sect;5).
+     </li>
+     <li>
+      <strong>The Commons Inversion Test and the Four Gates.</strong> A stated, repeatable procedure for deciding which costs count, which can also say no (&sect;6, &sect;7). It is a procedure, not a result: the theorem behind it shows only that if a cost has a certain shape, abundance hides it (Theorem 10.3).
+     </li>
+     <li>
+      <strong>Three states of a cost.</strong> Zero, Filled and Open, so that a cost can be named and deliberately left unpriced (&sect;5.5).
+     </li>
+     <li>
+      <strong>A reserve sized per unit,</strong> against the uncovered figure. It is shown once, as a thought experiment (&sect;12, Scenario 8), and not yet on a real case.
+     </li>
+     <li>
+      <strong>Terms defined here:</strong> cost severance, severed cost, accountability gap, Residual Commons Value, Cost Severance Damages, Restitution Bond, Foreclosure Bond, Commons Inversion Test.
+     </li>
+    </ul>
+    <h3>
+     What the framework borrows, and what it adds to each
+    </h3>
+    <p>
+     Most of the parts are established work by other people. The table says which, so that a reader knows what to credit elsewhere. The cases in &sect;11 are all retrospective: they price extraction that has already happened and read the bond that was paid. A reserve sized in advance is shown once, as a thought experiment (&sect;12, Scenario 8).
+    </p>
+    <table>
+     <tr><th>Component</th><th>Source</th><th>Borrowed</th><th>Added here</th><th>Where</th></tr>
+     <tr><td>Externality</td><td>Pigou 1920</td><td>Unpriced third-party cost</td><td>Tracked per unit of extraction, against what was actually paid</td><td>Definition 1.7</td></tr>
+     <tr><td>Scarcity rent</td><td>Hotelling 1931; El Serafy 1989</td><td>The rent rule; the owner's user cost</td><td>The split RCV &minus; B₂ = (RCV &minus; H) + (H &minus; B₂)</td><td>§4</td></tr>
+     <tr><td>Reinvesting rent</td><td>Hartwick 1977; Solow 1974</td><td>Invest the rent</td><td>Treats the fund as a bond and measures what it leaves uncovered</td><td>§5, §11.5</td></tr>
+     <tr><td>Discounting</td><td>Weitzman 2001</td><td>Declining rate</td><td>None</td><td>Definition 1.5, §16.1</td></tr>
+     <tr><td>Irreversibility</td><td>Arrow &amp; Fisher 1974; Henry 1974</td><td>The reason irreversible loss carries a premium</td><td>A simple multiplier of the framework's own design, used as a cross-check</td><td>§3.5</td></tr>
+     <tr><td>Damage totals</td><td>EPA 2023; Epstein et al. 2011; Muller, Mendelsohn &amp; Nordhaus 2011</td><td>The social cost of carbon; life-cycle damages of coal</td><td>None on the damage total itself</td><td>§11.1</td></tr>
+     <tr><td>Bonding</td><td>Costanza &amp; Perrings 1990; reclamation bonds</td><td>A bond posted in advance</td><td>Sized to the per-unit severed figure, not to the worst-case total</td><td>§5, §14.8</td></tr>
+     <tr><td>Restitution</td><td>Darity &amp; Mullen 2020</td><td>The method for pricing realized harm; restitution as the act of redress</td><td>None on method; a slot for it beside the forward term</td><td>§5.1.1, §5.5</td></tr>
+     <tr><td>Commons governance</td><td>Ostrom 1990</td><td>Governance by those who share the resource's fate and help make its rules</td><td>A price for the cases where the cost-bearers have no hand in the rules</td><td>Definition 1.10, §6.6, §14.5</td></tr>
+     <tr><td>Decision rule</td><td>Savage 1951; Loomes &amp; Sugden 1982</td><td>Minimax regret</td><td>Applied to irreversible extraction</td><td>§8</td></tr>
+    </table>
+   </section>
    <section id="sec-0-notation">
     <h2>
      &sect;0. Notation &amp; Symbols
@@ -417,57 +468,6 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
      <tr><td style="font-weight:bold; white-space:nowrap;">(i)–(iv); (a)–(d)</td><td>enumerated assumption/premise labels; cost-function-property labels (§10)</td><td></td></tr>
      <tr><td style="font-weight:bold; white-space:nowrap;">∎</td><td>QED (end of proof)</td><td></td></tr>
     </table>
-   </section>
-   <section id="sec-0b-borrowed-and-added">
-    <h2>
-     What this appendix borrows and what it adds
-    </h2>
-    <hr>
-    <p>
-     Most of the parts of this framework are established work by other people. This table says which, so that a reader knows what to credit elsewhere before reading further. The claim made for the framework is narrow, and is set out under the table. The cases in §11 are all retrospective. They price extraction that has already happened and read the bond that was paid. A reserve sized in advance is shown once, as a thought experiment (§12, Scenario 8).
-    </p>
-    <table>
-     <tr><th>Component</th><th>Source</th><th>Borrowed</th><th>Added here</th><th>Where</th></tr>
-     <tr><td>Externality</td><td>Pigou 1920</td><td>Unpriced third-party cost</td><td>Tracked per unit of extraction, against what was actually paid</td><td>Definition 1.7</td></tr>
-     <tr><td>Scarcity rent</td><td>Hotelling 1931; El Serafy 1989</td><td>The rent rule; the owner's user cost</td><td>The split RCV &minus; B₂ = (RCV &minus; H) + (H &minus; B₂)</td><td>§4</td></tr>
-     <tr><td>Reinvesting rent</td><td>Hartwick 1977; Solow 1974</td><td>Invest the rent</td><td>Treats the fund as a bond and measures what it leaves uncovered</td><td>§5, §11.5</td></tr>
-     <tr><td>Discounting</td><td>Weitzman 2001</td><td>Declining rate</td><td>None</td><td>Definition 1.5, §16.1</td></tr>
-     <tr><td>Irreversibility</td><td>Arrow &amp; Fisher 1974; Henry 1974</td><td>The reason irreversible loss carries a premium</td><td>A simple multiplier of the framework's own design, used as a cross-check</td><td>§3.5</td></tr>
-     <tr><td>Damage totals</td><td>EPA 2023; Epstein et al. 2011; Muller, Mendelsohn &amp; Nordhaus 2011</td><td>The social cost of carbon; life-cycle damages of coal</td><td>None on the damage total itself</td><td>§11.1</td></tr>
-     <tr><td>Bonding</td><td>Costanza &amp; Perrings 1990; reclamation bonds</td><td>A bond posted in advance</td><td>Sized to the per-unit severed figure, not to the worst-case total</td><td>§5, §14.8</td></tr>
-     <tr><td>Restitution</td><td>Darity &amp; Mullen 2020</td><td>The method for pricing realized harm; restitution as the act of redress</td><td>None on method; a slot for it beside the forward term</td><td>§5.1.1, §5.5</td></tr>
-     <tr><td>Commons governance</td><td>Ostrom 1990</td><td>Governance by those who share the resource's fate and help make its rules</td><td>A price for the cases where the cost-bearers have no hand in the rules</td><td>Definition 1.10, §6.6, §14.5</td></tr>
-     <tr><td>Decision rule</td><td>Savage 1951; Loomes &amp; Sugden 1982</td><td>Minimax regret</td><td>Applied to irreversible extraction</td><td>§8</td></tr>
-    </table>
-    <p>
-     <strong>
-      What is this framework's own.
-     </strong>
-     The table lists what is borrowed. These are the parts that are not:
-    </p>
-    <ul>
-     <li>
-      <strong>Cost severance and the accountability gap.</strong> The object of study is the gap between what an extraction owes and what was paid against it, and who paid (Definition 1.7).
-     </li>
-     <li>
-      <strong>The Cost Severance Decomposition.</strong> Harm already done and foreclosure still to come in one ledger, each with its own instrument: total CS = (CSD &minus; B₁) + (RCV &minus; B₂) (&sect;5).
-     </li>
-     <li>
-      <strong>The Commons Inversion Test and the Four Gates.</strong> A stated, repeatable procedure for deciding which costs count, which can also say no (&sect;6, &sect;7). It is a procedure, not a result: the theorem behind it shows only that if a cost has a certain shape, abundance hides it (Theorem 10.3).
-     </li>
-     <li>
-      <strong>Three states of a cost.</strong> Zero, Filled and Open, so that a cost can be named and deliberately left unpriced (&sect;5.5).
-     </li>
-     <li>
-      <strong>A reserve sized per unit,</strong> against the uncovered figure. It is shown once, as a thought experiment (&sect;12, Scenario 8), and not yet on a real case.
-     </li>
-     <li>
-      <strong>Terms defined here:</strong> cost severance, severed cost, accountability gap, Residual Commons Value, Cost Severance Damages, Restitution Bond, Foreclosure Bond, Commons Inversion Test.
-     </li>
-    </ul>
-    <p>
-     None of this is a claim to have found a new cost or a new number. The damage figures are other people's, chiefly the EPA's (&sect;11.1). The claim is to have defined an object, stated a test, and put borrowed parts together in a particular way.
-    </p>
    </section>
    <section id="sec-1-foundations">
     <h2>
@@ -6123,7 +6123,7 @@ boundary-awareness register (per &sect;12).
      &sect;14.8 &mdash; Closest prior art
     </h3>
     <p>
-     These are the nearest neighbours to the framework's instrument and to its headline number. Each entry says what the work does and where the framework differs. The table before &sect;1 gives the same information by component.
+     These are the nearest neighbours to the framework's instrument and to its headline number. Each entry says what the work does and where the framework differs. The section before &sect;1 gives the same information by component.
     </p>
     <p>
      <strong>
@@ -6493,7 +6493,7 @@ boundary-awareness register (per &sect;12).
      None of these eight choices is novel as choice-architecture. Counterfactual reasoning (Lewis 1973), externality theory (Pigou 1920), exhaustible-resource economics (Hotelling 1931), reparations economics (Darity & Mullen 2020), the economics of irreversibility (Arrow &amp; Fisher 1974; Henry 1974), commons-governance (Ostrom 1990), minimax-regret decision theory (Savage 1951; Loomes & Sugden 1982; Lempert et al. 2003), and political-philosophical accommodation (Anderson 2017; Pettit 1997) are all established traditions with substantial scholarly footprints.
     </p>
     <p>
-     The framework's contribution is the specific configuration in which these choices appear together, applied to commons-extraction contexts: CIT discriminates (counterfactual reasoning specialized to commons-extraction); Four Gates admit (filter-cohort with naming asymmetry honoring methodological-vs-mathematical structure); Three Ways count the identity (the integral, two cross-checks on it, and the realized-bond reading); Two Instruments account (CSD + RCV partition the temporal structure of obligation; B = B₁ + B₂ partitions the closing instrument); Hotelling Identity bridges to standard resource economics with explicit attribution; Commons-as-examples accommodates political-philosophical diversity without legislating commons-ontology; ARR specializes asymmetric-regret discipline for commons-extinction decisions. The configuration is what does the work the framework claims to do. Each choice's rejected alternative is named and tested; each choice's lineage extension is cited in honest acknowledgment of prior work; the configuration as a whole is what carries the framework's argument. The table before &sect;1 sets out, component by component, what is borrowed and what is added.
+     The framework's contribution is the specific configuration in which these choices appear together, applied to commons-extraction contexts: CIT discriminates (counterfactual reasoning specialized to commons-extraction); Four Gates admit (filter-cohort with naming asymmetry honoring methodological-vs-mathematical structure); Three Ways count the identity (the integral, two cross-checks on it, and the realized-bond reading); Two Instruments account (CSD + RCV partition the temporal structure of obligation; B = B₁ + B₂ partitions the closing instrument); Hotelling Identity bridges to standard resource economics with explicit attribution; Commons-as-examples accommodates political-philosophical diversity without legislating commons-ontology; ARR specializes asymmetric-regret discipline for commons-extinction decisions. The configuration is what does the work the framework claims to do. Each choice's rejected alternative is named and tested; each choice's lineage extension is cited in honest acknowledgment of prior work; the configuration as a whole is what carries the framework's argument. The section before &sect;1 states the contribution and sets out, component by component, what is borrowed and what is added.
     </p>
     <h3 id="sec-15-2-methodological-framing">
      &sect;15.2 &mdash; Methodological framing footnotes
