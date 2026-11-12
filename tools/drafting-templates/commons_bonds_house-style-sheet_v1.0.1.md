@@ -2,9 +2,27 @@
 
 **Status:** PROPOSED (internal). For every chapter redraft from 2026-11-17. Read it before drafting; check the draft against it after.
 **What it is.** The changes the author has actually made or approved, turned into rules with one real before-and-after each. Nothing here is Claude's taste. Where a pattern is only Claude's observation, it sits in the last table, marked *pending*.
-**Updates.** v1.0.1 (2026-11-12) adds the person-and-place rules and the rule on villains, from the author's walk through the Ch 5 decision points. v1.0.0 was built without the author's redline of the Ch 5 rings redraft. When that redline arrives, add its patterns, settle the pending rows, and bump the version.
+**Updates.** v1.0.1 (2026-11-12) adds the dinner-table rule (now the first rule), the person-and-place rules and the rule on villains, from the author's walk through the Ch 5 decision points. v1.0.0 was built without the author's redline of the Ch 5 rings redraft. When that redline arrives, add its patterns, settle the pending rows, and bump the version.
 
 **Source codes.** **R1** = the author's Ch 1 hand redline (commit `0fca4465`, 2026-06-12) and his rulings on it (`aed2a7b1`). **R5** = his Ch 5 redline notes and directions (`ch5-author-redline-notes_2026-11-09.md`; `ch5-redraft-edits_2026-11-10_session-review.md`). **L** = the engagement lenses he set (`tools/memory/feedback_engagement_lenses.md`). **M** = an earlier ruling recorded in `tools/memory/`.
+
+## The first rule: the dinner-table explanation (author, 2026-11-12)
+
+**Write it the way you would explain it to the author across a dinner table.** That is the tone of the book.
+
+- One step per sentence, in the order a person needs them. Nothing skipped because it seems obvious.
+- **If your explanation of a passage is clearer than the passage, the explanation is the passage.** Method for every paragraph: first answer the question "what is this saying?" in plain sentences, as if the author had asked. Then use that.
+- Do not compress to sound like prose. Tightness that costs the reader a step is not an improvement.
+- Plain words. No jargon, and no idiom or figure of speech tied to one country or culture. The author was trained at IBM to speak in a way that is not regional and is free of jargon, so that people anywhere feel included, and he speaks plainly now by habit; it makes a complicated subject easier to follow.
+- A short sentence is fine when it states a fact ("I was one of them."). A short verdict on what was just said comes out ("It launders it." "Instinct is wrong." "It didn't."). He does not talk like that.
+- End a paragraph on a plain fact, a person, or the next question.
+
+How this was found: asked to turn three Ch 5 passages into plain prose, Claude compressed them; the author pointed out that Claude's own explanation of what each passage meant was plainer and easier to follow than the "plain prose" version.
+
+| Compressed (do not) | Explained (do) |
+|---|---|
+| "The law went looking for a moment, and there wasn't one. There was a process." | "The criminal case against the company failed. A prosecutor has to prove one specific act, done knowingly, by one specific person. Libby's harm didn't come from one act. It came from thousands of routine decisions over twenty-seven years, and no single one of them could be proven to be the crime." |
+| "Underneath all four objections sits a quieter assumption: that the system did only what any system would have done. It didn't." | "All four objections rest on one belief: that in 2008 the government had no real choice, and any country would have rescued its banks and left households to manage alone. That belief is false. In the 1930s Sweden rescued its banks and its households together." |
 
 ## Three things that override everything below
 
@@ -73,7 +91,7 @@ Apply these lightly in redrafts and list each use in the change notes, so the au
 
 | # | Observation | Example | Provisional handling |
 |---|---|---|---|
-| P1 | **The closing-line habit.** Too many paragraphs end on a short turn. Each works alone; together the reader starts to hear the rhythm. (Review packet v1.0.2 Part 4; decision point 9 asks the author whether he hears it.) | "It launders it." "There was a process." "It is not a wall rebuilt." | Let most paragraphs end plainly. Keep a short turn only where the paragraph was walking toward it. No two in a row. |
+| P1 | *Settled 2026-11-12: the closing-line habit is not the author's voice. See "The first rule" above.* | | |
 | P2 | **Stacked objections.** Several "state it, concede, turn" paragraphs back to back. (Part 4; decision point 7.) | Four objections on 2008, then two on Social Security | Answer the strongest in full. Fold or cut the rest, and say which in the change notes. |
 | P3 | **Lineage in the middle of an argument** is the likeliest place a reader stops. (Critic read item 1; partly settled by rule 24.) | Five traditions credited inside "Restitution and foreclosure" | Credit at point of use; propose any move to another chapter in the map, not in the draft. |
 

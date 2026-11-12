@@ -205,3 +205,31 @@ them in the permissions log; recount at promotion.
   image elsewhere.
 - Still owed before the chapter goes out: read the BuzzFeed News and Vice articles on the Mexico settlement in
   full (carried from the critic read).
+
+## 9. Short punchy closers — NOT THE AUTHOR'S VOICE; the dinner-table rule (author, 2026-11-12)
+
+- The author: "Number 9 is a valid concern. I don't talk like that." He was trained at IBM to speak in a
+  non-regional, jargon-free way and speaks plainly by habit.
+- **The rule that came out of it, approved:** write it the way you would explain it to the author across a
+  dinner table. If the explanation is clearer than the passage, the explanation is the passage. Do not compress
+  to sound like prose. Now the first rule of the style sheet (v1.0.1) and a memory entry
+  (`tools/memory/feedback_dinner_table_explanation_rule.md`). The pending note P1 is settled.
+- **Agreed or offered wording for the four examples discussed:**
+  - Crowdfunding: end the paragraph on "…sends the least help to the people whose communities had the least to
+    give." Cut "The backstop doesn't correct the inequity. It launders it." (**agreed**)
+  - Libby and the law (offered as the explanation-is-the-text version; author approved the approach, wording
+    open): "The criminal case against the company failed. A prosecutor has to prove one specific act, done
+    knowingly, by one specific person. Libby's harm didn't come from one act. It came from thousands of routine
+    decisions over twenty-seven years, and no single one of them could be proven to be the crime."
+  - Social Security, "Instinct points at the investment decision… Instinct is wrong.": the author could not
+    follow its intent. Cause: it argues against a guess that was set up by the $108 trillion passage, which was
+    cut on 2026-11-10. **Cut the guess.** Offered: "So where, in Social Security, did a cost get passed to
+    later generations? In the way benefits were promised, and there is a year when you can watch it happen."
+    The Treasury-bonds point may return as one sentence later if wanted.
+  - Turn to Sweden (also resolves decision 7's last bullet): "All four objections rest on one belief: that in
+    2008 the government had no real choice, and any country would have rescued its banks and left households to
+    manage alone. That belief is false. In the 1930s Sweden rescued its banks and its households together."
+- **Consequence for Ch 5:** the rings redraft was written in the compressed manner. It needs a
+  paragraph-by-paragraph pass under the dinner-table rule before the author's line-by-line redline. Structure,
+  facts and order are settled; this is not another full redraft. Not yet scheduled; the author has not ruled on
+  timing.
