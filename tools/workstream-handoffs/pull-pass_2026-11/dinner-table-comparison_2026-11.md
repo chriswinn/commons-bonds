@@ -99,3 +99,9 @@ Two smaller ones: "The man my own son would never meet was my grandfather" (the 
 - Figures (digits and spelled-out numbers) and quotations compared by script across versions: no differences in content. B's Chapter 1 drops two repeats of figures already stated.
 - Chapter 1 sentences compared against your June hand redline (commit `0fca4465`): 48 of the sentences you wrote in that commit are still in the chapter; C keeps 45 word for word, B keeps 10.
 - Two PDFs with three passages side by side per chapter were sent to you in the session (not committed; the repo ignores PDFs).
+
+## Author direction after this comparison (2026-11-12)
+
+- **No more redrafts of Ch 1 or Ch 5.** The author will print the annotated copies and decide between picking one version of each to redline and combining the best of each into one version to redline.
+- **Next step is a big edit for overall content, flow and pacing,** then go from there. The QUESTION notes in the annotated copies are the starting list (for Ch 5: the third spill case, four-plus-two objections, whether Social Security is its own section, the lineage tour and the names-not-chosen paragraphs in the last third).
+- **Annotated print copies** (five PDFs, sent in the session, not committed): full text of each version with paragraph numbers, page numbers and margin notes (SECTION / BEST / ISSUE / QUESTION). The notes and the builder are in `annotated-versions_build_2026-11.py` in this folder; run it from the repo root to rebuild the HTML, then print to PDF.
