@@ -105,3 +105,22 @@ Two smaller ones: "The man my own son would never meet was my grandfather" (the 
 - **No more redrafts of Ch 1 or Ch 5.** The author will print the annotated copies and decide between picking one version of each to redline and combining the best of each into one version to redline.
 - **Next step is a big edit for overall content, flow and pacing,** then go from there. The QUESTION notes in the annotated copies are the starting list (for Ch 5: the third spill case, four-plus-two objections, whether Social Security is its own section, the lineage tour and the names-not-chosen paragraphs in the last third).
 - **Annotated print copies** (five PDFs, sent in the session, not committed): full text of each version with paragraph numbers, page numbers and margin notes (SECTION / BEST / ISSUE / QUESTION). The notes and the builder are in `annotated-versions_build_2026-11.py` in this folder; run it from the repo root to rebuild the HTML, then print to PDF.
+
+## How to run the weekend review (five suggestions, 2026-11-12)
+
+The author's plan: print the annotated copies, review them, and make one consolidated final copy of each chapter, to set the voice, pacing and parameters for redrafting the remaining chapters.
+
+1. **Don't read all 96 pages.** Ch 1: read only A (14 pages); its margin lists the few things worth taking from B and C. Ch 5: read C, with B open only for the first two pages of "The family." About 45 pages in all.
+2. **In Ch 5, decide content before sentences.** Go through the QUESTION notes first and mark each keep, cut, shrink or move. Most sit in the last third, and line-editing a paragraph that is then cut is wasted time.
+3. **Mark on paper; Claude assembles.** Use the paragraph numbers ("¶38 keep, ¶41 cut, ¶12 use the rings version") and hand over a list or photos. The session builds the consolidated copy, changes only what is listed, and shows every change.
+4. **The consolidated copy is the content model; the author's redline is the voice model.** Ch 5 has never had his hand on it, and both versions still read like a drafter in places. Before any other chapter is redrafted, get his redline on at least one scene section and one argument section of Ch 5 (for example "The family" through Libby, and the 2008 objections), then update the house style sheet from his actual marks.
+5. **Let Ch 1 finish ahead of Ch 5.** STATE.md has Ch 1 and the Technical Appendix going to Darity in early December and Ch 5 on January 4–5. Ch 1 needs under an hour and can be final this weekend even if Ch 5's content decisions take longer.
+
+## To-do for a future session: review the previously drafted articles (author, 2026-11-12)
+
+The author's view: the essays and op-eds as drafted are probably not as good as they would be with pull, pace and the dinner-table tone, since those were the main problems found in the chapters; and their content and figures have likely changed with the Technical Appendix revisions anyway. A review is therefore due on both counts. Also listed in STATE.md under open to-dos.
+
+- **When:** after the Ch 1 and Ch 5 final copies exist and the house style sheet has been updated from the author's redline. One session, review only.
+- **What:** for every previously drafted essay and op-ed in STATE.md's portfolio tables, (a) check every figure against `manuscript/ledgers/_CANONICAL_FIGURE_LEDGER.md` as amended for TA v2.0.1, and (b) read it straight through for pull and pace and for the dinner-table tone, marking rereads the way this comparison did.
+- **Output:** one short table: per piece, the figures that changed, where the pull drops, and a recommendation (send as is / fix figures only / redraft). The author decides piece by piece. No piece is redrafted in the review session.
+- **Rule this sits under:** the lean pipeline allows a second round on a signed-off essay only with a trigger. A retired or changed figure is one of the named triggers, so the figure check also settles which pieces qualify.

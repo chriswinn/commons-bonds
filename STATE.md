@@ -126,6 +126,10 @@ feedback, a retired figure, or a venue change). The June per-essay session deleg
   the $108 trillion passage.
 - **Ch 6–9 briefs** (`research/story-drafts/ch6..ch9-blind-brief-v4_2026-11.md`) each end with a "Blocked on Session A"
   list; TA v2.0.1 and the amended ledger are on main as of 2026-11-12, so those are cleared.
+- **Essays and op-eds (added 2026-11-12, author direction):** one future review session, after the Ch 1 and Ch 5 final copies and
+  the updated style sheet exist. Check every previously drafted piece against the ledger as amended for TA v2.0.1, and read each
+  for pull, pace and the dinner-table tone. Output a per-piece recommendation (send as is / fix figures only / redraft); the author
+  decides piece by piece. Spec: `tools/workstream-handoffs/pull-pass_2026-11/dinner-table-comparison_2026-11.md` (last section).
 
 ---
 
