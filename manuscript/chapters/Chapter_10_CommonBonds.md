@@ -129,7 +129,7 @@ In 1980 the Supreme Court ruled, in *United States v. Sioux Nation of Indians*, 
 
 The framework cannot reach this. The land is not substitutable by money. Not at any amount. Not for any purpose. The framework prices what can be priced and is honest about what it cannot, and the Black Hills sits in the category it cannot price. It does not assign a number to that taking, and I do not, and I do not say who else may.
 
-I am a settler. This is a book written by a settler. The framework operates inside a settlement whose original wound it cannot heal and does not pretend to. The miner pulling on his boots and the waterman in his shop are not in the same position as the descendants of the people who held Ȟe Sápa under treaty before the gold was found. To say so is not to rank the harms. It is to be accurate about them.
+The framework operates inside a settlement whose original wound it cannot heal and does not pretend to. The miner pulling on his boots and the waterman in his shop are not in the same position as the descendants of the people who held Ȟe Sápa under treaty before the gold was found. To say so is not to rank the harms. It is to be accurate about them.
 
 A reader who wants to understand what the framework cannot reach should read the people whose question it is. Robin Wall Kimmerer, of the Citizen Potawatomi. Leanne Betasamosake Simpson, of the Michi Saagiig Nishnaabeg. Glen Coulthard, of the Yellowknives Dene. Roxanne Dunbar-Ortiz. Vine Deloria Jr., of the Standing Rock Sioux. They are asking a different shape of the question this book is asking, and a deeper one.
 
