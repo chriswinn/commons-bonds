@@ -66,3 +66,44 @@ Wording shown here is agreed content, still open to the author's hand redline. E
   refuse. Recorded in the style sheet and in `tools/memory/feedback_sometimes_there_is_a_villain.md`. For
   Ch 5: check at redline that Libby (the company's own documents) and "Who shaped the system?" say what the
   record shows without softening it.
+
+### 3, continued (author, 2026-11-12): the second "alibi" sentence — CONFIRMED wording
+
+Replace "This is the case in the chapter where the alibi fails." (in the 2008 section) with:
+
+> This is the case in the chapter where the distance closes: the cost stops falling on people I have never met
+> and becomes a real, almost tangible thing, because this time I had to pay it.
+
+- "Cost severance" is not used here; the chapter holds the term back until *The pattern, named*.
+- With this sentence in, Claude leans toward **dropping** the new section opener "In 2008 the distance closed."
+  so the idea is said once, in the author's words. Not yet ruled; open at redline.
+
+## 4a. Butler: connect the dots (author's marginal note, 2026-11-12) — CONFIRMED content and draft wording
+
+The author's note: the section gives every number and never does the sum. The visit that could have weighed the
+choice would have paid $54; it never happened; the surgery was paid instead.
+
+**Replaces** the third paragraph of *The family* from "Their doctor still opposed the device…" through
+"…rewarded nobody for saying 'no' or even 'wait.'" **with:**
+
+> Their own doctor still opposed the device. He was not consulted. He was notified by fax. A visit with him
+> would have paid $54 under Medicare, and nothing for the phone calls to the other doctors, and it could have
+> put another choice in front of the family: a temporary external pacemaker that Butler later learned could
+> have seen her father safely through the surgery. Nobody offered it. What Medicare paid for was the procedure:
+> $461 to the surgeon and about $12,000 to the hospital, an estimated $7,500 of it to the company that made the
+> device. Butler believed her father's doctors did their best. Her own arithmetic is blunter: "nobody makes
+> money when medical interventions are declined."
+
+**Source limits observed** (`research/citations/butler-2010-nyt_verification-and-quotes_2026-11-10.md`):
+- The $54 was for their primary-care doctor, not the surgeon. The cardiologist refused to clear the hernia
+  surgery without a pacemaker; a general surgeon implanted it.
+- The article does not say any doctor weighed the temporary option and withheld it ("I later learned"). So:
+  "Nobody offered it," and no statement of why. Not "the surgeon never presented another option."
+- "Notified by fax" is from p. 4 (paraphrased, not quoted). "Nobody makes money when medical interventions are
+  declined" is p. 4, verbatim, 8 words.
+- **Dropped from this paragraph in the swap** (redraft session: confirm each is not needed or restore it): the
+  list of what the meeting could have covered, including the battery lasting ten years and the quotation
+  "in his nearly mute and dependent state"; "what would certainly have been a long meeting."
+- **Quotation count:** see decision 4.
+- **Optional attributed sentence on who keeps the incentives in place (Epperly, p. 5):** shown to the author
+  2026-11-12; not yet approved.
