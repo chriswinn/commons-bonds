@@ -107,3 +107,41 @@ choice would have paid $54; it never happened; the surgery was paid instead.
 - **Quotation count:** see decision 4.
 - **Optional attributed sentence on who keeps the incentives in place (Epperly, p. 5):** shown to the author
   2026-11-12; not yet approved.
+
+
+### 4a, REVISED (author, 2026-11-12): the two dropped items are load-bearing and are restored
+
+The author: the ten-year battery and "in his nearly mute and dependent state" are "very much load bearing for
+the case." **This version supersedes the paragraph in 4a above:**
+
+> Their own doctor still opposed the device. He was not consulted. He was notified by fax. A visit with him
+> could have covered what the choice meant: that the battery would last ten years, whether Butler's father
+> wanted to live to eighty-nine "in his nearly mute and dependent state," and that there was another way, a
+> temporary external pacemaker that Butler later learned could have seen him safely through the surgery.
+> Medicare would have paid their doctor $54 for that visit, and nothing for the phone calls to the other
+> doctors. It never happened, and nobody offered the family the other choice. What Medicare paid for was the
+> procedure: $461 to the surgeon and about $12,000 to the hospital, an estimated $7,500 of it to the company
+> that made the device. Butler believed her father's doctors did their best. Her own arithmetic is blunter:
+> "nobody makes money when medical interventions are declined."
+
+**Then, CONFIRMED by the author, the Epperly sentence (named), directly after that paragraph:**
+
+> Dr. Ted Epperly, then chairman of the American Academy of Family Physicians, told Butler why it stays that
+> way: those who profit from the incentives spend money lobbying Congress and the public to keep them in place.
+
+- Source: Butler p. 5, paraphrased and attributed; no added quotation. The article's title for him is "board
+  chairman"; consider "then board chairman" at redline to match it exactly.
+- Named under the public-record exception (on-record statement in an official role to a national magazine).
+  Courtesy notice before publication per the named-subject policy; add him to the consent tracker.
+- Effect on what follows: Gawande's "decent people respond sensibly to the incentives in front of them" now
+  reads after Epperly, so the section says nobody at the bedside chose this and somebody further away works to
+  keep it. This is the author's point about villains, placed where the record puts it. The redraft should check
+  the join between the two paragraphs.
+
+## 4. Butler's quoted words — KEEP ALL FIVE (46 words)
+
+Five quotations: "Please help me get Jeff's pacemaker turned off"; the 2006 journal line; "in his nearly mute and
+dependent state"; "nobody makes money when medical interventions are declined" (replacing "rewarded nobody for
+saying 'no' or even 'wait'"); and the closing quotation. Total 46, one over the self-imposed 45 margin. Keep and
+list in the permissions log. (Recorded on Claude's recommendation after the author required both dropped items
+restored; the author may still overrule at redline. Not a legal opinion.) Recount at promotion.
