@@ -23,6 +23,8 @@
 | 9 Pricing Honestly | `ch09-map.md` | Full rebuild | Bridge figure; bond definition |
 | 10 Common Bonds | `ch10-map.md` | Pace redraft | Distance wording |
 
+**Kickoff for the redraft sessions:** `../chapter-redrafts-kickoff_2026-11-12.md` (one chapter per session; the method, pace-and-pull or dinner-table voice with pace-and-pull, is set by the author after the Ch 1 and Ch 5 comparison).
+
 **Suggested order from Nov 17.** Ch 2, Ch 10, Ch 4, Ch 3 (none waits on the TA), then Ch 1 once the author has written the road scenes, then Ch 7, Ch 9, Ch 6, Ch 8 as the amended ledger lands.
 
 **Cross-chapter calls that have to be answered the same way in two places.**
