@@ -848,9 +848,6 @@ patterns:
       - file: "manuscript/technical-appendix/TechnicalAppendix_v2.0.1.html"
         line: 1356
         rationale: "SUBSTANTIVE naming-history: §5.1.2 explains why the working label was rejected for Restitution Bond (re-pinned 2026-11-11 for TA v2.0.1)"
-      - file: "manuscript/chapters/Chapter__5_TheAccountabilityGap.md"
-        line: 202
-        rationale: "SUBSTANTIVE naming-discipline exposition — the chapter twin of the TA §5.1.2 entry above. The paragraph explains why the instrument is NOT called the 'Reparations Bond' ('would be to narrow the umbrella to one historically specific application'), the single intentional use of the deprecated label to reject it. Not a regression. Added 2026-06-18 on chapter-scope re-enable; re-pin if Ch 5 shifts."
 
   - id: regressed-term-resource-foreclosure-bond
     pattern: 'Resource-Foreclosure Bond'
@@ -1242,7 +1239,7 @@ patterns:
   - id: regressed-figure-108-trillion-social-security
     pattern: '108[ -]?trillion|one hundred and eight trillion|hundred-and-eight-trillion|\$108 ?[Tt]\b|\$108 ?[Tt]rillion'
     type: regex
-    severity: MEDIUM
+    severity: HIGH
     category: consistency-canon
     description: |
       The "$108 trillion foregone Social Security returns" figure is DISAVOWED as
@@ -1257,13 +1254,11 @@ patterns:
       UPDATE 2026-11-10: the Ch 5 rings redraft drops the figure entirely (author
       direction). At its promotion, REMOVE the Ch 5 allowlist entry and raise this
       pattern to HIGH so the figure cannot return anywhere.
+      DONE 2026-11-12: Ch 5 promoted without the figure; allowlist removed, raised to HIGH.
     origin:
       pass: "Lean-pipeline value review 3b ledger-amendment gate audit 2026-10-31"
       ratified: "2026-06-04 ledger $108T disavowal (Ch 5-landed 2026-06-09)"
-    allowlist:
-      - file: "manuscript/chapters/Chapter__5_TheAccountabilityGap.md"
-        line: 110
-        rationale: "Ch 5 names $108T only to reject it as the dishonest figure; re-pin by content at the Ch 5 rebuild"
+    allowlist: []
 
   - id: regressed-figure-524-coal-total
     pattern: '\$524\b'
