@@ -121,9 +121,7 @@ harm forward; and whether calling the instrument a reparations bond fits his and
 and Chapter 5: what was severed is a fact about the act and never changes; what remains unrepaired is a number
 that restitution can bring down. The TA's one symbol, CS, currently does both jobs. A "Coercion" paragraph built
 on this was added to Definition 1.7 and then cut the same day at the author's direction, because coercion is
-already covered where it should be (Definition 1.10, §5.5, Chapter 5). If the author takes the thought up later,
-a possible fourth question for Darity: does paying restitution change what the original act was, or only what is
-still owed? Not in the cover note unless the author says so.
+already covered where it should be (Definition 1.10, §5.5, Chapter 5). **No question on this goes to Darity (author, 2026-11-12):** no payment washes away the history, and asking him whether it could has no value. The cover note keeps its three questions.
 
 ## 6. Owed outside the TA (not my files this session)
 
