@@ -306,3 +306,31 @@ Equality* (2nd ed. preferred) and fill in:
 Until this is done the three spots stay marked, and the cover note to Darity lists them as citations we would
 welcome his correction on. Carry this item into STATE.md at the next reconciliation (STATE.md is Session A's
 file during the parallel window).
+
+## 12. Mexico sources — A SESSION VERIFIES FROM THE ARTICLE TEXT (author, 2026-11-12)
+
+- A session reads the BuzzFeed News (N. Janowitz, 2018) and Vice articles in full, and the *El País* report
+  (V. Calderón, Apr 30, 2015), and records each fact the chapter uses as a **direct quotation from the article
+  text** with its location, in a verification file modeled on
+  `research/citations/butler-2010-nyt_verification-and-quotes_2026-11-10.md`. The author reviews that file.
+- Do it before Ch 5 goes to Darity. Work from the raw page text, not from a tool's summary. Record the URLs
+  (none is recorded in the repo yet). Both sites answered from this environment on 2026-11-12.
+- Facts to pin: $25.5M and the date; the $15.3M / $10.2M split; the release of BP from damage in Mexican
+  waters; **"Nothing was set aside for the fishing communities"** (rests on Vice); 22 studies funded and
+  withheld, 20 published after FOI requests, 2 still classified; about 25,000 fishermen, a US class action,
+  the first by non-US citizens. Anything the text does not support comes out of the chapter or is reworded.
+- The author's point on villains applies: say what the record shows the government did, plainly, and no more.
+
+---
+
+## Summary: all twelve decision points answered (2026-11-12)
+
+1 add (Darity to review) · 2 reworded · 3 "alibi" → "distance" · 4 keep five quotations, 46 words · 4a/4b Butler
+plain-math paragraph and new profession paragraph · 5 keep, name the United States, honest purpose line ·
+6 keep all lineage in Ch 5 · 7 keep four objections, remove scaffolding · 8 keep seven coast paragraphs; Ch 6
+opens on Prince William Sound · 9 the dinner-table rule · 10 confirmed · 11 page-number spots, open to-do ·
+12 a session verifies Mexico from the text.
+
+**Still open:** the consent sentence for the Butler family paragraph; "in the plainest sense"; whether the
+section opener "In 2008 the distance closed." stays now that the author's own sentence says it; "netted" for
+"earned"; the five uses of "landed."
