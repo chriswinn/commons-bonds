@@ -24,3 +24,24 @@ Wording shown here is agreed content, still open to the author's hand redline. E
 - **Darity:** both additions go on the list of passages for his review, with one question in the cover note:
   does calling the instrument a reparations bond fit his and Mullen's program, or cut against it? The passage
   reads complete without the sentence if he objects.
+
+## 2. The author's vantage line — REWORDED (author, 2026-11-12)
+
+- **The real reason** is that the author is not a descendant of enslaved people. "I present as a white man" is
+  **removed**: it erased his heritage (European, American Indian, Middle Eastern and Asian; Ch 1 already carries
+  the "fifteen nationalities") and was not the reason. No list of heritages is added here.
+- **Replace** "I present as a white man, and it would not be right for me to put a dollar figure on what this
+  country owes for slavery. That accounting belongs to the scholars who have spent their careers building it."
+  **with (author's wording for the first sentence):**
+  > I am not a descendant of people enslaved in this country, so I don't feel it is my place to set the figure
+  > for what they are owed. That accounting has been built by scholars who have given their working lives to it.
+- "I should say plainly why." stays (author kept it).
+- The second sentence credits the work without saying whose job the accounting is, and drops "and I follow
+  them" because "this book defers to it" is two sentences earlier. "Their measures…" follows unchanged.
+- Names who is owed ("descendants of people enslaved"), not "owes for slavery," which is narrower than Darity
+  and Mullen's case; check their wording before the chapter goes to him.
+- At redline: "enslaved in the United States" and "enslaved in this country" now sit two sentences apart.
+- **Related, done the same day:** the invented "I am a settler. This is a book written by a settler." was
+  removed from Ch 10 (commit `d773fb42`); origin recorded in `chapter-maps_2026-11/ch10-map.md`.
+- **For the record (not for publication):** the earlier project note describing the author as someone who
+  "presents as a white man" (CHANGES.md addendum; decision-points sheet item 2) is superseded by this entry.
