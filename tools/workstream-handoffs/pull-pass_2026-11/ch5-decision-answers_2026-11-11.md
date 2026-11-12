@@ -177,3 +177,19 @@ them in the permissions log; recount at promotion.
   on"; "Now the lineage behind the two instruments can be placed."), subject to his redline.
 - Consequence for Ch 6: Parfit is credited in both chapters. The Ch 6 rebuild should point back to Ch 5's
   paragraph and add Sen and Broome, not repeat it.
+
+## 7. Four 2008 objections in a row — KEEP ALL FOUR, REMOVE THE SCAFFOLDING (author, 2026-11-12)
+
+- All four stay (agency; it was global; the public got its money back; reform closed the gap). Nothing folded.
+  Claude withdrew its "fold repayment into reform" lean as a length fix dressed as a pace fix.
+- **Remove:** "The case is stronger if it survives its four best objections, so take each at full strength.";
+  the numbering ("The first is… The second says… The third says… The fourth says…"); the recount in
+  "Underneath all four objections sits a quieter assumption…".
+- **Instead:** each paragraph opens on the objection in the objector's plain words (for example "The borrowers
+  signed the papers." / "The crisis was global." / "The public got its money back." / "Reform fixed it."), and
+  the turn to Sweden starts from the assumption itself ("All of this assumes the system did only what any
+  system would have done."). Example wording only; the author's redline governs.
+- Whether "That contrast invites indignation, and indignation is cheap." survives without the sentence after it
+  is for the redline.
+- **Check, not changed:** "The complexity was no accident." is a claim about intent. Verify against the
+  Financial Crisis Inquiry Commission report (cited later in the section) or attribute it.
