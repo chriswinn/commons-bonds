@@ -254,10 +254,10 @@ entries; the Latin framework variables and compound/subscripted forms are includ
 | Core quantities | E(R,t) | externality-tail flow (deterministic; not the expectation operator E[·]) | $·res⁻¹·time⁻¹ |
 | Core quantities | D(t,t₀), r(t), r₀ | discount factor; discount rate; initial rate | (0,1]; rate; rate |
 | Core quantities | RCV(R,t₀) | Residual Commons Value (the integral) | $·res⁻¹ |
-| Core quantities | B, B₁, B₂ | Accountability Bond: what was set against the cost, by an instrument or by the bearer's informed consent (Def 1.7); Restitution Bond (backward; Def 1.12); Foreclosure Bond (forward) | $·res⁻¹ per unit; $ in aggregate (stated per case) |
+| Core quantities | B, B₁, B₂ | Accountability Bond: what was set against the cost, by an instrument or by the bearer's informed and free consent (Def 1.7); Restitution Bond (backward; Def 1.12); Foreclosure Bond (forward) | $·res⁻¹ per unit; $ in aggregate (stated per case) |
 | Core quantities | B₁(extractor), B₁(public) | payer split of the Restitution Bond as measured (Def 1.12) | $ |
 | Core quantities | B̂_M2 | Method-2 realized-Bond reading (observed internalization per unit of extraction); a reading of what was paid, not an estimate of RCV; the hat marks "reading/estimate of," distinct from the posted instrument B | $·res⁻¹ |
-| Core quantities | CS, CSD | Cost Severance (= RCV − B; cost borne and neither bonded nor knowingly accepted); Cost Severance Damages (backward-looking; Def 1.11) | $·res⁻¹ per unit; $ in aggregate (stated per case) |
+| Core quantities | CS, CSD | Cost Severance (= RCV − B; cost borne and neither bonded nor knowingly and freely accepted); Cost Severance Damages (backward-looking; Def 1.11) | $·res⁻¹ per unit; $ in aggregate (stated per case) |
 | Core quantities | CSD_floor | Method-1 cost to cure (the documented floor of CSD; Def 1.11) | $ |
 | Core quantities | H | Hotelling (scarcity) rent per unit: price minus marginal extraction cost (§4 only) | $·res⁻¹ |
 | Core quantities | CSD_M3 | backward Method-3 composite: V_market × scarcity_multiplier(ς) × irreversibility_premium(α), with V_market in its backward reading (extinguished optionality / foregone service flow) and α the realized irreversibility | $·res⁻¹ |

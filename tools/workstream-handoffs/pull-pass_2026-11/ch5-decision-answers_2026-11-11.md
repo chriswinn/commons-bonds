@@ -370,3 +370,12 @@ New figures awaiting ledger rows from Session A: $173,000; $419,000; $545 millio
 **Not done:** `publishing/book-proposal/05_chapter-summaries.md` still describes the old Ch 5 (its order, its
 cases and the $108 trillion passage). It needs a rewritten Ch 5 summary, which is publisher-facing prose for
 the author to approve; left for the proposal work.
+
+## Addendum 2026-11-12 (author, in the TA session; applied to the promoted chapter)
+
+- **"in the plainest sense": CUT.** The sentence now reads "…the Restitution Bond is a reparations bond."
+- **"earned" → "netted"** for the two physician incomes (Butler's word is net).
+- **"One question remains open in the field itself, and this book does not presume to close it." → "One question
+  this book does not presume to close."** The claim about the field came from the May call; the TA makes no such
+  claim, and the two documents now match.
+- Still open: the section opener "In 2008 the distance closed."; the five uses of "landed."

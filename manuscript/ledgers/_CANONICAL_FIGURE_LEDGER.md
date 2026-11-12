@@ -81,19 +81,19 @@ Provenance source of truth: `tools/audits/corpus-primary-source-register_2026-06
 Source of record: `manuscript/technical-appendix/TechnicalAppendix_v2.0.1.html`; derivations in
 `manuscript/technical-appendix/calculations/` (run-outputs 2026-11-11: 67/67 and 28/28, 0 mismatches). Every
 retired figure below has a gate pattern in `tools/quality-gates/regressed-patterns.yaml` (same commit).
-**Status: applied in the TA on the session branch; merge to main waits on the author's OK.**
+**Status: RATIFIED by the author 2026-11-12 (Definition 1.7, the five number changes, the coercion paragraph) and merged to main.**
 
 | Figure | Canonical value (pinned label) |
 |---|---|
 | **McDowell headline RCV** | **$525–540/ton = the integral** (definition; conservative; survives rejection of Method 3). Methods 1 and 3 are **cross-checks**, never the headline, never "convergence". |
 | **McDowell realized bond (derived)** | **$88–100/ton from all payers** ($53–60B ÷ 600M tons) — an **upper bound** (national numerators over McDowell-area tons). **$8–13/ton extractor-paid.** Forward instrument only (reclamation bonds): $5–8/ton. RETIRED: ~~$50–88~~ (the $50 had no derivation), ~~$8–15~~. |
-| **McDowell cost severance** | **At least about $425–450/ton** (integral − all-payer bond). About $512–532 against extractor-paid. ⚠ The review packet said "about $440–490"; that used the underived $50. Corrected by arithmetic; **author to confirm.** RETIRED: ~~$1,025–1,065~~ (Method-3 centre as headline). |
+| **McDowell cost severance** | **At least about $425–450/ton** (integral − all-payer bond). About $512–532 against extractor-paid. (The review packet's "about $440–490" used the underived $50; corrected by arithmetic; author confirmed 2026-11-12.) RETIRED: ~~$1,025–1,065~~ (Method-3 centre as headline). |
 | McDowell sensitivity | S_max = 0 → about $573. SCC $51 → about $165–180 (1.2–4.5× price). No carbon term → about $30–45, below the all-payer bond. The sign rests on a carbon cost of at least roughly $20–25/t CO₂. |
 | **"Method 1"** | = replacement cost (DAC) **only**. The bottom-up audit priced at the SCC is the **damage-function floor** ($504–518), a separate lens. |
 | **Method 3 α** | **Physical irreversibility only** (0.85–0.95 for fossil carbon). A fund does not lower α. |
 | **Norway bond (B₂)** | **About $36/BOE** = fund (NOK 21,268bn ≈ $2.0T, end-2025) ÷ ~55bn BOE. Label **B₂** everywhere. RETIRED: ~~$48/BOE~~ (fund ÷ capture rate). |
 | Norway rent (Hotelling split, TA §4) | State net cash flow 1971–2025 = **NOK ≈14,860bn (constant 2027 kr; Ministry of Finance / Statistics Norway via norskpetroleum.no)** ≈ NOK 270 ≈ **$25/BOE**; total rent ≈ **$32–36/BOE** at a 70–80% state share (proxy). |
-| **Norway RCV / CS** | Value used = **carbon floor ≈ $70/BOE** (0.37 t CO₂ × $190). **CS ≥ about $34/BOE ≈ $1.9T cumulative** (a floor). Cross-checks: M1 $161–422; M3 **$320–3,040** (center ≈ $985; multiple 8–25). RETIRED: ~~M3 $96–610 / $281~~, ~~2.4–5.1×~~, ~~CS $233–250/BOE~~, ~~$12.8T / $13–15T~~, and the "irreversibility-reduction" account of Norway (ledger 2026-06-09 bullet above is SUPERSEDED: Norway bonded its rent; it did not lower α). ⚠ **Number change for author confirmation** (review item N4/C2). |
+| **Norway RCV / CS** | Value used = **carbon floor ≈ $70/BOE** (0.37 t CO₂ × $190). **CS ≥ about $34/BOE ≈ $1.9T cumulative** (a floor). Cross-checks: M1 $161–422; M3 **$320–3,040** (center ≈ $985; multiple 8–25). RETIRED: ~~M3 $96–610 / $281~~, ~~2.4–5.1×~~, ~~CS $233–250/BOE~~, ~~$12.8T / $13–15T~~, and the "irreversibility-reduction" account of Norway (ledger 2026-06-09 bullet above is SUPERSEDED: Norway bonded its rent; it did not lower α). Author confirmed 2026-11-12. |
 | **Hotelling Identity** | **RCV − B₂ = (RCV − H) + (H − B₂).** Worked for Norway only: (RCV − H) ≥ $34–39; (H − B₂) ≈ −$5 to $0. McDowell: bound only (H ≤ P → RCV − H ≥ $385). RETIRED form: ~~RCV − Hotelling rent = CS~~. |
 | **Libby** | Federal cleanup **>$600M** (EPA). **$250M = W.R. Grace's 2008 reimbursement of federal cleanup costs (DOJ/EPA, Mar 11 2008)** — NOT wrongful-death settlements, NOT additive. Cleanup ≈ **6×** the ~$100M revenue (unconfirmed industry estimate). Mortality head $5.1–7.6B (694 deaths × EPA VSL; labeled). ⛔ $50M/yr monitoring and $500M property: **no source; Open.** RETIRED: ~~$2.6B documented-cash floor~~, ~~26:1~~, ~~65–102×~~, ~~70/30 split~~. The Ch 5 rings redraft already says "about six times" (cleanup only): consistent. |
 | Deepwater | The **realized industry-paid bond** case: $61.6B paid of ~$70–74B documented + estimated. The ~15× cost/revenue ratio is **conditional on the blowout**; not an IPG. $8–12B continuing damage = estimate with **no primary source cited** (open). |
@@ -104,7 +104,7 @@ retired figure below has a gate pattern in `tools/quality-gates/regressed-patter
 **Terms.** "Three Ways of Counting" KEPT, with the gloss: two ways estimate what is owed, one reads what was
 paid. All triangulation / convergence language removed from the TA. Bond definition (REVISED by the author 2026-11-11, replacing "priced with the cost in view"): B = what was set
 against the cost by **(a) an instrument** (counts even if the cost was unknown or uncertain when posted) or
-**(b) the bearer's informed consent** (counts only as far as the bearer could see the cost). Cost severance =
+**(b) the bearer's informed and free consent** (counts only as far as the bearer could see the cost and was free to refuse it; a coerced cost is never covered by consent). Cost severance =
 borne and neither bonded nor knowingly accepted (TA Definition 1.7); CSD and B₁ defined (Defs 1.11, 1.12) with the payer split; no fifth gate.
 
 **Cascade still owed (not this session's files):** Ch 6 (rebuild: $48/BOE row L174; triangulation L137–187;
