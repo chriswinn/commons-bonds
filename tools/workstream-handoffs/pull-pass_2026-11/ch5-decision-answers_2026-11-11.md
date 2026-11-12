@@ -287,3 +287,22 @@ sentence confirmed earlier now lives inside this paragraph, not after 4a.
   section and, if wanted, gate patterns: $173,000; $419,000; $545 million (2009, CRP via Butler 2010).
 - **Still open:** the consent sentence for the family paragraph ("The only conversation about consent was a
   brief one with the surgeon, about the routine risks of minor surgery." Butler p. 4, paraphrased).
+
+## 11. *From Here to Equality* page numbers — LEAVE A SPOT; OPEN TO-DO (author, 2026-11-12)
+
+The author does not have the book to hand.
+
+- **In the draft:** at each of the three citations in *Restitution and foreclosure*, the edit pass leaves a
+  marked spot for the page number (an HTML comment, so it does not print and cannot ship unnoticed):
+  `<!-- PAGE NUMBER NEEDED: Darity & Mullen, From Here to Equality, 2nd ed., p. __ -->`
+- **The quotation "Redress is the act of restitution…" stays attributed to the 2024 *RSF* article** (Darity,
+  Craemer, Berry and Francis), which was checked on the journal's page on 2026-11-10.
+
+**OPEN TO-DO (owner: author, or any session with access to a copy):** look at a printed copy of *From Here to
+Equality* (2nd ed. preferred) and fill in:
+1. the page of the definition of acknowledgment, redress and closure;
+2. whether the book itself has the sentence "Redress is the act of restitution…", and its page if so;
+3. the page where they state that they favor restitution.
+Until this is done the three spots stay marked, and the cover note to Darity lists them as citations we would
+welcome his correction on. Carry this item into STATE.md at the next reconciliation (STATE.md is Session A's
+file during the parallel window).
