@@ -262,3 +262,28 @@ the repository and stays out of it). Page 1 of the printout:
 - Net incomes: physicians like the family's doctor about $173,000 a year; noninvasive cardiologists about
   $419,000 (p. 5). Lobbying by the medical sector: $545 million in the prior year (Center for Responsive
   Politics, p. 5).
+
+### 4b. New paragraph between the family paragraph and Gawande — CONFIRMED (author's wording, 2026-11-12)
+
+Order in *The family*: (1) the family paragraph (4a, revised); (2) this paragraph; (3) Gawande. The Epperly
+sentence confirmed earlier now lives inside this paragraph, not after 4a.
+
+> This was not one family's bad luck. Butler reported that a primary-care doctor like theirs earned about
+> $173,000 a year, and a cardiologist like the one who required the pacemaker earned about $419,000. Medicare
+> paid far more for doing a procedure than for helping a patient decide whether to have it. Dr. Ted Epperly,
+> then board chairman of the American Academy of Family Physicians, told Butler why it stays that way: those who
+> profit from the incentives spend money lobbying Congress and the public to keep them in place. In the year
+> before her 2010 article, the medical sector spent $545 million on lobbying.
+
+- Why here: the reader's question after the family paragraph is "is that normal?"; this answers it and names
+  who profits and lobbies; Gawande then clears the people at the bedside. The author's point about villains,
+  placed where the record puts it.
+- Source: Butler p. 5. Her words are "net an average of $173,000" and "net about $419,000" (net, not gross):
+  at redline consider "netted" for "earned." The lobbying figure is the Center for Responsive Politics',
+  as cited by her, for 2009; her list is doctors, hospitals, drug companies, medical-equipment manufacturers
+  and other medical professionals. "Medicare paid far more…" paraphrases her p. 5 sentence; no quoted words
+  added (count stays 46).
+- **For Session A (ledger owner):** three new Ch 5 figures need rows in the "Ch 5 case figures (Butler)"
+  section and, if wanted, gate patterns: $173,000; $419,000; $545 million (2009, CRP via Butler 2010).
+- **Still open:** the consent sentence for the family paragraph ("The only conversation about consent was a
+  brief one with the surgeon, about the routine risks of minor surgery." Butler p. 4, paraphrased).
