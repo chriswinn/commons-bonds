@@ -145,3 +145,24 @@ dependent state"; "nobody makes money when medical interventions are declined" (
 saying 'no' or even 'wait'"); and the closing quotation. Total 46, one over the 45 margin. **Formally confirmed
 by the author, 2026-11-12:** "It's a self imposed limitation so nothing to worry about." Keep all five; list
 them in the permissions log; recount at promotion.
+
+## 5. "The children pay for the parents" — KEEP; two changes around it (author, 2026-11-12)
+
+- **Keep** "so that across a whole country the children pay for the parents." The accurate statement comes
+  first ("each working generation will care for the one before it"); the human one second.
+- **Name the country.** "The country holds one more compact…" becomes "**The United States** holds one more
+  compact, and it runs between parents and children." The section title "The country" stays (the rings are
+  about scale). Rule for the ring: name the United States the first time each case in it begins; after that
+  "the country" is fine. The 2008 section needs the name once, near its top.
+- **Replace** "It was built on purpose to say that a society doesn't abandon its old, and it still says so."
+  (author: "doing so much it's perhaps not actually being honest") **with:**
+  > It was built during the Depression so that growing old would not mean being left with nothing.
+  A purpose stated as a fact about 1935; check against the Social Security Administration's own history. No
+  "and it still does": that is a present-day claim needing its own source.
+- **The opening now reads:**
+  > The United States holds one more compact, and it runs between parents and children. Social Security is the
+  > promise that each working generation will care for the one before it, so that across a whole country the
+  > children pay for the parents. It was built during the Depression so that growing old would not mean being
+  > left with nothing.
+- For the redline, not decided: "What follows takes aim at one feature… The distinction matters, because…"
+  announces what the passage is about to do (style rule 19).
