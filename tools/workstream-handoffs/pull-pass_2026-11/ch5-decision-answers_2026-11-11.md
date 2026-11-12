@@ -193,3 +193,15 @@ them in the permissions log; recount at promotion.
   is for the redline.
 - **Check, not changed:** "The complexity was no accident." is a claim about intent. Verify against the
   Financial Crisis Inquiry Commission report (cited later in the section) or attribute it.
+
+## 8. The coast's seven paragraphs — KEEP ALL SEVEN (author, 2026-11-12)
+
+- All seven stay, including "the three ways the cost landed."
+- **"…and Chapter 6 gives it the full accounting" stays,** because the author approved opening Ch 6 in Prince
+  William Sound (Ch 6 map, call 1). **Linked note:** if Ch 6's opening ever changes, this clause in Ch 5's
+  Valdez paragraph must change in the same pass (drop it, or reword to what Ch 6 then does). The same note is
+  on the Ch 6 map and in the Ch 6 brief.
+- Left for the author's redline: "landed" is used five times in paragraph 2 and is the chapter's recurring
+  image elsewhere.
+- Still owed before the chapter goes out: read the BuzzFeed News and Vice articles on the Mexico settlement in
+  full (carried from the critic read).
