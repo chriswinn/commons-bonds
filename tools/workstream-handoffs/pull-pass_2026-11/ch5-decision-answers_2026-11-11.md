@@ -126,11 +126,11 @@ the case." **This version supersedes the paragraph in 4a above:**
 
 **Then, CONFIRMED by the author, the Epperly sentence (named), directly after that paragraph:**
 
-> Dr. Ted Epperly, then chairman of the American Academy of Family Physicians, told Butler why it stays that
+> Dr. Ted Epperly, then board chairman of the American Academy of Family Physicians, told Butler why it stays that
 > way: those who profit from the incentives spend money lobbying Congress and the public to keep them in place.
 
-- Source: Butler p. 5, paraphrased and attributed; no added quotation. The article's title for him is "board
-  chairman"; consider "then board chairman" at redline to match it exactly.
+- Source: Butler p. 5, paraphrased and attributed; no added quotation. Title matches the article exactly:
+  "then board chairman" (author, 2026-11-12).
 - Named under the public-record exception (on-record statement in an official role to a national magazine).
   Courtesy notice before publication per the named-subject policy; add him to the consent tracker.
 - Effect on what follows: Gawande's "decent people respond sensibly to the incentives in front of them" now
@@ -142,6 +142,6 @@ the case." **This version supersedes the paragraph in 4a above:**
 
 Five quotations: "Please help me get Jeff's pacemaker turned off"; the 2006 journal line; "in his nearly mute and
 dependent state"; "nobody makes money when medical interventions are declined" (replacing "rewarded nobody for
-saying 'no' or even 'wait'"); and the closing quotation. Total 46, one over the self-imposed 45 margin. Keep and
-list in the permissions log. (Recorded on Claude's recommendation after the author required both dropped items
-restored; the author may still overrule at redline. Not a legal opinion.) Recount at promotion.
+saying 'no' or even 'wait'"); and the closing quotation. Total 46, one over the 45 margin. **Formally confirmed
+by the author, 2026-11-12:** "It's a self imposed limitation so nothing to worry about." Keep all five; list
+them in the permissions log; recount at promotion.
