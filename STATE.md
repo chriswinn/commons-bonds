@@ -118,6 +118,18 @@ feedback, a retired figure, or a venue change). The June per-essay session deleg
 
 ---
 
+## Open to-dos carried from the Ch 5 session (2026-11-12)
+
+- **Ch 5:** three page numbers still needed from Darity and Mullen, *From Here to Equality* (2nd ed.).
+- **Ch 5:** verify the BP–Mexico sources from the article texts into a file modeled on the Butler verification file;
+  add the three new Butler figures (net incomes; lobbying) to the Butler verification file.
+- **Book proposal:** `publishing/book-proposal/05_chapter-summaries.md` still describes the old Chapter 5, including
+  the $108 trillion passage.
+- **Ch 6–9 briefs** (`research/story-drafts/ch6..ch9-blind-brief-v4_2026-11.md`) each end with a "Blocked on Session A"
+  list; those clear when TA v2.0.1 and the amended ledger merge to main.
+
+---
+
 ## SUPERSEDED — do not resume (one-session mode + the plan)
 
 These June artifacts are retired by the plan and the CURRENT OPERATING MODE banner. Do not resume them.

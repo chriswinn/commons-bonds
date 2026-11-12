@@ -12,7 +12,7 @@
 # fixed the pattern. Allowlists support per-file substantive-use exceptions.
 
 schema_version: "1.0.0"
-last_updated: "2026-11-11"
+last_updated: "2026-11-12"
 registry_type: "regressed"
 
 # Categories:
@@ -1535,6 +1535,64 @@ patterns:
     origin:
       pass: "TA independent review Phase 2 (v2.0.1), decisions log 2026-11-10/11"
       ratified: "2026-11-11 ledger amendment (same commit)"
+    allowlist: []
+
+  # ===========================================================
+  # Ch 5 promotion + Ch 10 correction (2026-11-12; relayed by the Ch 5 session,
+  # confirmed by the author)
+  # ===========================================================
+
+  - id: regressed-invented-settler-self-description
+    pattern: 'I am a settler|written by a settler|a settler author'
+    type: regex
+    severity: HIGH
+    category: gate-decision-banned
+    description: |
+      Invented self-description of the author. He never said it and it is false
+      of him. Removed from Ch 10 on 2026-11-12. Never attribute an identity or a
+      first-person statement to the author that he has not supplied.
+    origin:
+      pass: "Ch 10 map, tools/workstream-handoffs/chapter-maps_2026-11/ch10-map.md"
+      ratified: "2026-11-12 author confirmation"
+    allowlist: []
+
+  - id: regressed-term-alibi
+    pattern: '[Aa]libi'
+    type: regex
+    severity: MEDIUM
+    category: named-llm-tic
+    description: |
+      "The alibi fails" / "alibi" for the reader's sense of distance. Not the
+      author's word; retired for "distance" (style sheet v1.0.1).
+    origin:
+      pass: "Ch 5 decision answers 2026-11-11/12"
+      ratified: "2026-11-12 author confirmation"
+    allowlist: []
+
+  - id: regressed-author-vantage-white-man
+    pattern: 'presents? as a white man'
+    type: regex
+    severity: MEDIUM
+    category: register-break
+    description: |
+      Replaced in Ch 5 by the author. The reason he gives for deferring to Darity
+      and Mullen is that he is not a descendant of enslaved people.
+    origin:
+      pass: "Ch 5 decision answers, decision 2 (2026-11-12)"
+      ratified: "2026-11-12 author confirmation"
+    allowlist: []
+
+  - id: regressed-figure-butler-physician-income-gross
+    pattern: '(gross|earn(s|ed)?|ma(k|d)es?) (an average of |about )?\$(173,000|419,000)'
+    type: regex
+    severity: MEDIUM
+    category: figure-canon
+    description: |
+      Butler (2010) gives NET income: primary-care about $173,000, noninvasive
+      cardiologists about $419,000. Say "net". Ledger, Ch 5 case figures.
+    origin:
+      pass: "Ch 5 promotion 2026-11-12"
+      ratified: "2026-11-12 ledger amendment (same commit)"
     allowlist: []
 
 # ===== Scope configuration =====
