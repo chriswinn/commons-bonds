@@ -104,7 +104,7 @@ retired figure below has a gate pattern in `tools/quality-gates/regressed-patter
 **Terms.** "Three Ways of Counting" KEPT, with the gloss: two ways estimate what is owed, one reads what was
 paid. All triangulation / convergence language removed from the TA. Bond definition (REVISED by the author 2026-11-11, replacing "priced with the cost in view"): B = what was set
 against the cost by **(a) an instrument** (counts even if the cost was unknown or uncertain when posted) or
-**(b) the bearer's informed and free consent** (counts only as far as the bearer could see the cost and was free to refuse it; a coerced cost is **always severed**: no consent, and no instrument can stand in for it; later restitution reduces unrepaired harm but does not undo the act — author, 2026-11-12). Cost severance =
+**(b) the bearer's informed and free consent** (counts only as far as the bearer could see the cost and was free to refuse it; a coerced cost is not covered by consent; the TA says nothing further about coercion and instruments — author, 2026-11-12). Cost severance =
 borne and neither bonded nor knowingly accepted (TA Definition 1.7); CSD and B₁ defined (Defs 1.11, 1.12) with the payer split; no fifth gate.
 
 **Cascade still owed (not this session's files):** Ch 6 (rebuild: $48/BOE row L174; triangulation L137–187;
