@@ -335,3 +335,38 @@ opens on Prince William Sound · 9 the dinner-table rule · 10 confirmed · 11 p
 **Still open:** "in the plainest sense"; whether the
 section opener "In 2008 the distance closed." stays now that the author's own sentence says it; "netted" for
 "earned"; the five uses of "landed."
+
+
+---
+
+## APPLIED AND PROMOTED 2026-11-12 (author: "go ahead and promote ch 5 rings version with the decisions we just walked through")
+
+`manuscript/chapters/Chapter__5_TheAccountabilityGap.md` is now the rings redraft with every decision above
+applied. The old chapter is at `manuscript/chapters/archive/Chapter__5_TheAccountabilityGap_SUPERSEDED_2026-11-12.md`.
+The working file `ch5-rings-redraft_2026-11-10.md` is unchanged (it is the pre-decision text).
+
+**Choices Claude made where the record left room** (all open to the author's redline):
+- Decision 3: the section opener "In 2008 the distance closed." is **in**, as recorded, even though the author's
+  own sentence eight paragraphs later also says it. Still his call whether both stay.
+- Decision 7: the numbering is removed by deleting "The first is agency." and the "The second/third/fourth
+  says" lead-ins, so each paragraph opens on the objection itself. "That contrast invites indignation, and
+  indignation is cheap." is kept.
+- Decision 9, Libby: the paragraph already explained the point step by step, so the two closing sentences
+  ("The law went looking for a moment… There was a process.") were cut and nothing was added. The next
+  paragraph's opening became "The legal scholar Katharina Pistor explains why the law works this way."
+- Decision 9, Sweden: the offered wording is in; the next paragraph now begins "Sweden faced banking pressure…".
+- Decision 11: two page-number spots are marked (the definition; the "Redress is the act of restitution"
+  sentence). The draft has no separate sentence stating that they favor restitution, so there is no third spot;
+  the to-do keeps all three questions.
+- Decision 6: the two announcing lines in *Restitution and foreclosure* were left in for the redline.
+- Not touched: "launders the priceless into a transaction" in the Sandel passage (a different sentence from the
+  one cut in decision 9).
+
+**Checks at promotion:** invariants HIGH = 0; the three MEDIUM Butler/Mexico patterns that fired on the old
+chapter no longer fire. Butler quotations: five, **47 words by recount** (8 + 15 + 7 + 8 + 9), not 46; still
+kept under the author's decision 4. All figures present once (the $54 twice, in the opening and the close).
+New figures awaiting ledger rows from Session A: $173,000; $419,000; $545 million.
+
+**Not done:** `publishing/book-proposal/05_chapter-summaries.md` still describes the old Ch 5 (its order, its
+cases and the $108 trillion passage). It needs a rewritten Ch 5 summary, which is publisher-facing prose for
+the author to approve; left for the proposal work.
