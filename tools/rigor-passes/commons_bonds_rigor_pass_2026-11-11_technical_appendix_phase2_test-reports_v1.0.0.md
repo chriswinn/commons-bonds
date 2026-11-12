@@ -108,6 +108,15 @@ framework's own scope statement, with no attribution and no claim about his fiel
 approval too, say so and I will cut it to one sentence. Sen as the grounding for valuation (§5.4) was his reading
 suggestion; it cites only Sen's published work and I left it.
 
+**ANSWERED 2026-11-12 (from the author's Chapter 5 decisions, `tools/workstream-handoffs/pull-pass_2026-11/ch5-decision-answers_2026-11-11.md`, decision 1).**
+The author kept the coerced-labor paragraph in Chapter 5, added "An empty line is not a zero…", and put the
+passage on the list for Darity's review. The TA follows the chapter: **the coercion scope statement stays as
+written (TA Definition 1.10 and §5.5) and goes on the same review list.** The TA's wording already matches the
+chapter's (named, left Open, not this book's to price). One difference remains for the author: Chapter 5 line 254
+says the question "remains open in the field itself"; the TA makes no claim about the field, because that claim
+came from the call. The cover note now carries three questions: grounding of the Restitution Bond; carrying past
+harm forward; and whether calling the instrument a reparations bond fits his and Mullen's program.
+
 ## 6. Owed outside the TA (not my files this session)
 
 - Ch 6 rebuild: Norway row (L174), triangulation language (L137–187), Ostrom claim (L285).
