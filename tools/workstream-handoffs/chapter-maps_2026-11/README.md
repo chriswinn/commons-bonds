@@ -2,7 +2,7 @@
 
 **Status:** PROPOSED (internal). One map per chapter, made before any redraft, so the author can settle order and cuts on a single page. Format model: `../pull-pass_2026-11/question-map.md` (Ch 5).
 
-**How they are used.** From 2026-11-17 each chapter is redrafted in its own session from three things: its map, the house style sheet (`tools/drafting-templates/commons_bonds_house-style-sheet_v1.0.0.md`) and the amended figure ledger. The maps hold no figures, because Session A is changing the McDowell headline and the multiples; each map names the ledger rows its chapter carries.
+**How they are used.** From 2026-11-17 each chapter is redrafted in its own session from three things: its map, the house style sheet (`tools/drafting-templates/commons_bonds_house-style-sheet_v1.0.1.md`) and the amended figure ledger. The maps hold no figures, because Session A is changing the McDowell headline and the multiples; each map names the ledger rows its chapter carries.
 
 **The rule for every redraft (author, 2026-11-11).** Do not match the existing chapters' prose. The first draft has the content and lacks pace and pull. Use the current chapter for content only; write the prose fresh; the Ch 5 rings redraft is the pace model. Protected everywhere: quotations, the author's family's sayings, facts and figures, and passages the author names as his own.
 

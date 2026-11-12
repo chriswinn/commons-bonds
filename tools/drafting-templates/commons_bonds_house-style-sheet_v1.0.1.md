@@ -1,8 +1,8 @@
-# Commons Bonds: house style sheet (v1.0.0, 2026-11-11)
+# Commons Bonds: house style sheet (v1.0.1, 2026-11-12)
 
 **Status:** PROPOSED (internal). For every chapter redraft from 2026-11-17. Read it before drafting; check the draft against it after.
 **What it is.** The changes the author has actually made or approved, turned into rules with one real before-and-after each. Nothing here is Claude's taste. Where a pattern is only Claude's observation, it sits in the last table, marked *pending*.
-**Updates.** v1.0.0 is built without the author's redline of the Ch 5 rings redraft. When that redline arrives, add its patterns, settle the pending rows, and bump the version.
+**Updates.** v1.0.1 (2026-11-12) adds the person-and-place rules and the rule on villains, from the author's walk through the Ch 5 decision points. v1.0.0 was built without the author's redline of the Ch 5 rings redraft. When that redline arrives, add its patterns, settle the pending rows, and bump the version.
 
 **Source codes.** **R1** = the author's Ch 1 hand redline (commit `0fca4465`, 2026-06-12) and his rulings on it (`aed2a7b1`). **R5** = his Ch 5 redline notes and directions (`ch5-author-redline-notes_2026-11-09.md`; `ch5-redraft-edits_2026-11-10_session-review.md`). **L** = the engagement lenses he set (`tools/memory/feedback_engagement_lenses.md`). **M** = an earlier ruling recorded in `tools/memory/`.
 
@@ -11,6 +11,21 @@
 1. **Redraft for pace, pull and flow. Do not match the existing chapters' prose.** The author's verdict on the first draft of the book (2026-11-11): the content is mostly there, the prose is clunky and slow, and nothing pulls the reader to the next sentence, paragraph or chapter. Treat each current chapter as a source of content only. The pace model is the Ch 5 rings redraft (`tools/workstream-handoffs/pull-pass_2026-11/ch5-rings-redraft_2026-11-10.md`). **Protected in every chapter:** quotations, the sayings of the author's father and family, facts and figures, and any passage the author names as his own (in Ch 5, the 2008 account and the lines "did not produce," "cashed out," "left standing," "the bill comes due"). Everything else is rewritten, and the change notes list what was protected. (R5; author 2026-11-10 and 2026-11-11)
 2. **Add nothing that isn't in the record.** No invented fact, scene, quotation, feeling or memory. The author added "breathless and panting" to his own childhood; a drafter cannot. The aim is "less flat, not more vivid": fix order and presence, never add color. (R5, M)
 3. **Length follows substance.** The map decides what is in the chapter, and the prose takes the room that needs. Long sentences are fine, including long sentences with comma insertions. There is no maximum and no minimum, for a chapter, a section or a sentence. No rhythm model either (don't imitate Ch 1's sentence shapes), and no counts used as targets. The author's reason (2026-11-11): "our worst prose was written trying to stay under a given word count." (R5; author 2026-11-11)
+
+## Who is speaking, and to whom (author, 2026-11-12)
+
+The book is told from one vantage, the author's, from first page to last. He tells every case; he is not written into cases he did not witness, and no reaction or memory of his is invented. Where he has a real connection to a case, he supplies it.
+
+| Word | What it may mean | Not this | Fix |
+|---|---|---|---|
+| **I** | The author, always. | "The framework" as the subject of sentence after sentence. | Put a person in the subject. |
+| **you** | The reader, for what any reader anywhere has: parents, a phone, a home, a decision to sign. | A nationality, a class or a country assigned to the reader: "In your own country…" | Speak from the author: "In 2008…", "the country I live in." |
+| **we** | The author and the reader doing the book's work together ("when we add it up"), or a group he belongs to and names ("we who grew up on this bay"). | An unnamed "we" that means Americans: "We paved with the thing that builds reefs." | Name the group, or say who did it. |
+| **Countries** | Named: "the United States." | "This country," "your country," "here." | Name it. |
+
+**Sometimes there is a villain.** The book's reading is that cost severance does not need one: decent people answering the incentives in front of them are enough. That is not a claim that there never is one. Sometimes a specific party seeks rent and works to shift a cost onto people who have no seat at the table and no ability to refuse it. Where the record shows that (internal documents, a plea, a judgment, a lobbying record), say so plainly, name the party, and cite the record. Do not soften a documented act into "the system," and do not allege intent the record does not show. (Author, 2026-11-12.)
+
+**Words that are not his.** "Alibi" (for the comfortable reader's sense that this happens elsewhere) is retired. The book's own word is **distance**: in the early cases the reader has it, and then it closes.
 
 ## Sentences
 

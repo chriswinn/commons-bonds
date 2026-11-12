@@ -77,4 +77,4 @@ insertions. What to fix is a run-on that stacks several insertions so the reader
 by moving an insertion or splitting the sentence. Items 4 and 5 (dashes allowed when clearest; never repair
 a dash by swapping in commas) stand. `check-prose-clarity.py`'s `intr` count is an editing aid like its
 other counts, not a zero target. Current statement of the rule:
-`tools/drafting-templates/commons_bonds_house-style-sheet_v1.0.0.md`, rule 1 and override 3.
+`tools/drafting-templates/commons_bonds_house-style-sheet_v1.0.1.md`, rule 1 and override 3.

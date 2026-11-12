@@ -45,3 +45,24 @@ Wording shown here is agreed content, still open to the author's hand redline. E
   removed from Ch 10 (commit `d773fb42`); origin recorded in `chapter-maps_2026-11/ch10-map.md`.
 - **For the record (not for publication):** the earlier project note describing the author as someone who
   "presents as a white man" (CHANGES.md addendum; decision-points sheet item 2) is superseded by this entry.
+
+## 3. "In your own country, the alibi fails." — REPLACED (author, 2026-11-12)
+
+- **"Alibi" is not the author's word and is retired.** It implies a crime and a suspect; the passage is about
+  exposure, not guilt. The book's own word is **distance**.
+- **Opening of *The country*:** "In your own country, the alibi fails." becomes **"In 2008 the distance
+  closed."** (starts from the year and the author's own case; assigns the reader no country). The rest of the
+  paragraph stands ("Every ring so far has left a comfortable reader somewhere to stand apart… I was one of
+  them.").
+- **Second use, eight paragraphs later** ("This is the case in the chapter where the alibi fails."): cut, or
+  reworded with "distance" if the author wants the idea said there. His call at the redline; Claude leans cut,
+  since the opening now says it. The author should confirm whether that sentence was in his original 2008
+  account.
+- **Book-wide rules that came out of this decision** (now in the style sheet v1.0.1, "Who is speaking, and to
+  whom"): one vantage, the author's; "you" only for what any reader anywhere has; "we" only author plus reader
+  or a named group he belongs to; countries named.
+- **The author on villains (same exchange):** sometimes there is no villain, and sometimes there very much is a
+  specific party seeking rent and shifting a cost onto people with no seat at the table and no ability to
+  refuse. Recorded in the style sheet and in `tools/memory/feedback_sometimes_there_is_a_villain.md`. For
+  Ch 5: check at redline that Libby (the company's own documents) and "Who shaped the system?" say what the
+  record shows without softening it.
