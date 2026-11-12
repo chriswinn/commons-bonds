@@ -233,3 +233,32 @@ them in the permissions log; recount at promotion.
   paragraph-by-paragraph pass under the dinner-table rule before the author's line-by-line redline. Structure,
   facts and order are settled; this is not another full redraft. Not yet scheduled; the author has not ruled on
   timing.
+
+## 10. Butler details — ALL FOUR CONFIRMED against the article (2026-11-12)
+
+Checked by Claude against the author's copy in Google Drive (`Pacemaker.pdf`, read only; the article is not in
+the repository and stays out of it). Page 1 of the printout:
+- Connecticut: "in the weak Connecticut sunlight" (the town is Middletown). ✔
+- "Upstairs, my 85-year-old father, Jeffrey… lay napping." ✔ (upstairs; napping; eighty-five)
+- "a retired Wesleyan University professor who suffered from dementia." ✔
+
+**The paragraph agreed in 4a was checked against the full text the same day. Every statement holds:**
+- "Dr. Fales was notified by fax." (p. 4) · "But my mother never consulted Fales." (p. 4)
+- The meeting could have covered the ten-year battery, living "to be 89 in his nearly mute and dependent
+  state," and "a temporary external pacemaker that, I later learned, could have seen my dad safely through
+  surgery." (p. 4)
+- "$54 for what would undoubtedly have been a long meeting — and nothing for phone calls to work out a plan
+  with Rogan and the surgeon." (p. 4) · $461, about $12,000, an estimated $7,500 (pp. 4–5)
+- "nobody makes money when medical interventions are declined" (p. 4), verbatim.
+- Epperly is "the board chairman of the American Academy of Family Physicians"; "lobbying Congress and the
+  public to keep it that way." (p. 5)
+
+**Found in the article and offered to the author (not yet decided):**
+- "there was only a brief informed-consent process, covering the boilerplate risks of minor surgery, handled by
+  the general surgeon" (p. 4). This is the sourced form of the author's point that the family was never given
+  another option to consider.
+- "Medicare rewards doctors far better for doing procedures than for assessing whether they should be done at
+  all" (p. 5), which Butler gives as what primary-care doctors have long said.
+- Net incomes: physicians like the family's doctor about $173,000 a year; noninvasive cardiologists about
+  $419,000 (p. 5). Lobbying by the medical sector: $545 million in the prior year (Center for Responsive
+  Politics, p. 5).
