@@ -166,3 +166,14 @@ them in the permissions log; recount at promotion.
   > left with nothing.
 - For the redline, not decided: "What follows takes aim at one feature… The distinction matters, because…"
   announces what the passage is about to do (style rule 19).
+
+## 6. The lineage paragraphs — KEEP ALL IN CH 5 (author, 2026-11-12)
+
+- All six paragraphs stay as trimmed on 2026-11-11. Nothing moves to Ch 6 and no end-of-chapter note.
+- The author's reasons: moving two paragraphs would shift material from the second-longest chapter into the
+  longest for no real benefit; revisit only if a publisher asks for a length change.
+- The author will read this spot for pace in his final read-through once the chapter is finalized.
+- Edit pass may still remove the two announcing lines ("this section names them and the lineage they stand
+  on"; "Now the lineage behind the two instruments can be placed."), subject to his redline.
+- Consequence for Ch 6: Parfit is credited in both chapters. The Ch 6 rebuild should point back to Ch 5's
+  paragraph and add Sen and Broome, not repeat it.
