@@ -285,8 +285,7 @@ sentence confirmed earlier now lives inside this paragraph, not after 4a.
   added (count stays 46).
 - **For Session A (ledger owner):** three new Ch 5 figures need rows in the "Ch 5 case figures (Butler)"
   section and, if wanted, gate patterns: $173,000; $419,000; $545 million (2009, CRP via Butler 2010).
-- **Still open:** the consent sentence for the family paragraph ("The only conversation about consent was a
-  brief one with the surgeon, about the routine risks of minor surgery." Butler p. 4, paraphrased).
+- The consent sentence offered for the family paragraph was declined by the author (out).
 
 ## 11. *From Here to Equality* page numbers — LEAVE A SPOT; OPEN TO-DO (author, 2026-11-12)
 
@@ -331,6 +330,8 @@ plain-math paragraph and new profession paragraph · 5 keep, name the United Sta
 opens on Prince William Sound · 9 the dinner-table rule · 10 confirmed · 11 page-number spots, open to-do ·
 12 a session verifies Mexico from the text.
 
-**Still open:** the consent sentence for the Butler family paragraph; "in the plainest sense"; whether the
+**Consent sentence for the Butler family paragraph: OUT (author, 2026-11-12).** The family paragraph stands as in 4a (revised).
+
+**Still open:** "in the plainest sense"; whether the
 section opener "In 2008 the distance closed." stays now that the author's own sentence says it; "netted" for
 "earned"; the five uses of "landed."
