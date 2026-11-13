@@ -171,3 +171,16 @@ Smaller readings, applied as read: the section break stays before "I would learn
 - **Still open, not applied: Unclear 3** (the A page 2 marks: "of the USA," "this country," "If he pressed for a raise…," "All of his coworkers").
 
 Readings applied on pages 11–13: B ¶49's colon turned back into a full stop ("And I thought of him. My colleague on his rooftops…"); B ¶51 is A ¶47 up to "a warm chest instead of a plastic bed," then the pace draft's split breath-counting sentences and its last sentence with his two marks.
+
+## The author's second set of rulings (2026-11-13, in session)
+
+- **Polish:** all nine comma changes accepted.
+- **A page 2 marks:** "of the USA," "this country," "All of his coworkers" and the strike of "the language was a lie" stay out. The raise sentence goes in. His wording, offered as a suggestion open to revision: "If he pressed for a raise, the company could send him back across that line. Out of this country and away from his family." Applied (pending his OK) with his June "on this side of a line" restored so "that line" has something to point to, as one sentence, and "the country" for "this country": "…the whole life he had built was on this side of a line. If he pressed for a raise, the company could send him back across that line, out of the country and away from his family."
+- "…went somewhere. But it did not go to him." (his June break restored).
+- Rooftop insert: "Most people sense this."; "Because you can't see it from the inside." cut.
+- "when I arrived at work."
+- "Work needed to be done, so he did it." (idiom removed).
+- "the little red light on that server had stopped blinking" (one machine, not two).
+- The first "He did not think anything of it." (end of the compressor scene) cut.
+- Kept as applied: "climb" ending; "for a medical emergency"; "They had already gotten what they needed."; the full-accounting paragraph.
+- **Open:** "each day" (written on the pace and June copies after "came to work," not on the dinner-table copy) is not in the chapter.
