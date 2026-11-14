@@ -238,3 +238,5 @@ Open, his to answer or leave: the header question ("how should we fix this?"); t
 - **Ratified; merge to main.**
 
 Open after ratification, not applied (his to decide): "face" or "side" in ¶102 ("Each is measured against its own face of the cost"; ¶101 no longer says "two faces"); whether to add "This book calls it a severed cost." at ¶71.
+
+**Settled 2026-11-14 (later, same session):** "side" for "face" in ¶102, applied. No "severed cost" sentence added at ¶71.
