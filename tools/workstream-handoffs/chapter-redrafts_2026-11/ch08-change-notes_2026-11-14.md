@@ -53,7 +53,7 @@ Ledger = `manuscript/ledgers/_CANONICAL_FIGURE_LEDGER.md` as it stands on main t
 | # | In the drafts | Source | Status |
 |---|---|---|---|
 | 1 | $4.71 a ton, 1960, bituminous, mine mouth; "just under five dollars" | Ledger, mine-mouth price (EIA Total Energy Table 7.9) | Matches |
-| 2 | 8 to 13 years of life lost per black lung death | v3 §1.3; Ch 2 | Matches |
+| 2 | 8 to 13 years of life lost per black lung death | Research-results ledger (CDC MMWR 2018) | Matches |
 | 3 | $44 billion in benefits through 2009 (GAO and CRS); no reliable total since | Ledger, $44B relabel | Matches |
 | 4 | Trust fund owed $5.1 billion, September 2024 | Ledger, same row | Matches |
 | 5 | Program began 1969; $1 to $1.50 a ton across national coal | Citation spec row 20 | Framework allocation; labeled as a calculation in the prose |
@@ -66,10 +66,10 @@ Ledger = `manuscript/ledgers/_CANONICAL_FIGURE_LEDGER.md` as it stands on main t
 | 12 | Mercury in North Atlantic fish | v3 (Lee et al. 2016) | Source not named in the prose; add at redline if wanted |
 | 13 | Creeks line $1 to $3, entered at $1 | v3 | Framework estimate; labeled |
 | 14 | "Nearly a hundred thousand" (1950) to "just over nineteen thousand" (2020); a fifth | Ledger population row; v3 (98,887 and 19,111) | Matches |
-| 15 | U.S. Steel wound down "across the 1980s"; more than twelve hundred jobs | Ledger J5; Ch 2 | Matches. No single year, no income-drop figure |
+| 15 | U.S. Steel wound down "across the 1980s"; about twelve hundred jobs | Ledger J5 ("~1,200 jobs") | Matches the ledger. Ch 2 says "more than twelve hundred"; the register finds no primary employment record. No single year, no income-drop figure |
 | 16 | 2022: income $28,235 against about $67,500; poverty 37.6 percent; sixteenth-poorest | v3 §1.3 (Census) | Matches ($67,521 rounded) |
 | 17 | 2015: 141 drug deaths per 100,000 against roughly 16 | v3 §1.3 (CDC) | Matches. County rate is crude, national is age-adjusted: footnote at print |
-| 18 | First food stamps of the modern program, Welch, 1961 | Ch 2 | Matches |
+| 18 | First food stamps, Welch, in the 1961 pilot that became the modern program | Research-results ledger (e-WV; USDA history) | Reworded to the ledger's precision note: 1961 was the pilot, the Act came in 1964 |
 | 19 | Town line $5 to $15, entered at $5; no outside source | v3 beat 5 | Framework estimate; the prose says so |
 | 20 | 93.28 kg per million Btu (EPA); about 28 million Btu per ton, Pocahontas seam (USGS and EIA); 2.61 tons; national 2.32 | Ledger emission-factor row | Matches. Heat-content source named in the prose |
 | 21 | $190 a ton, EPA 2023, drawing on Rennert and colleagues, *Nature*, 2022 | Ledger social-cost row | Matches. Credited to the EPA, not to Rennert |
@@ -100,6 +100,37 @@ Ledger = `manuscript/ledgers/_CANONICAL_FIGURE_LEDGER.md` as it stands on main t
 | 46 | Norway: about $36 a barrel of oil and gas | Ledger Norway bond row | Matches. Says "set aside against," not "paid" |
 | 47 | Two cases where the method returns zero | v3 §1.3 items 7 and 8 | Both stated |
 | 48 | Pigou, "more than a century ago" | Ch 2; v4 brief §2 | One sentence; Chapter 6 carries the rest |
+
+### 5a. Second check of every number against the ledger and the June fact-check records (author request, 2026-11-14)
+
+Checked against: the canonical figure ledger (all of it); `tools/audits/corpus-primary-source-register_2026-06-08.md`; `manuscript/ledgers/_RESEARCH-RESULTS-LEDGER_2026-06-04.md`, `_CITATION_EVIDENCE_LEDGER_2026-06-04.md` and `_DEEP-SOURCE-REPORT_2026-06-04.md`; and the Ch 2 and Ch 8 citation specs.
+
+**Already fact-checked and listed (no action).** In the figure ledger: $4.71; 2.61, 2.32, 93.28 and the 28 million Btu basis; $190 (EPA 2023); $496; $504 to $518; $510; $525 to $540; $40 to $140; 3.6 to 13 times; $44 billion through 2009; $5.1 billion; $88 to $100, $8 to $13, $5 to $8 and the $53 to $60 billion over 600 million tons; $425 to $450 and $512 to $532; "under twenty thousand"; "across the 1980s"; Libby's three figures and "six times"; BP's $61.6 billion; Norway's $36. In the primary-source register, each with its source: 633,000 acres, $7.5 to $9.8 billion, $3.8 billion, $4 to $6 billion (Appalachian Voices 2021); $865 million (GAO-20-21); 98,887 and 19,111 (Census); $28,235 and 37.6 percent (Census); 141 against 16 (CDC, rated medium: found through a Rockefeller Institute analysis); the 13-year gap for males (Dwyer-Lindgren and colleagues, 2017); the odds ratio 2.03 (Hendryx 2012). In the research-results ledger: 8 to 13 years (CDC, 2018); mercury (Lee and colleagues, 2016); the carbon-price history, with $42 credited to the working group; 1969, Farmington and Derickson ("confirmed"); the national median $67,521; about 600 million tons (West Virginia Geological Survey and USGS).
+
+**Corrected in both drafts because the records say something more exact than I wrote.**
+
+| Was | Now | Record |
+|---|---|---|
+| "more than twelve hundred jobs" (Chapter 2's wording) | "about twelve hundred jobs" | Ledger J5 says "~1,200 jobs," and the register notes there is no primary employment record. Chapter 2 should get the same wording at its redline. |
+| "the modern food stamp program handed out its very first stamps… in 1961" | "the 1961 pilot that became its modern food stamp program" | Research-results ledger: 1961 was the pilot; the Act came in 1964. Chapter 2 already says "pilot." |
+
+**Checked before, with a caution on file.**
+
+- **$40 to $140 a ton today.** The ledger pins it (EIA). The June check noted that $140 is a metallurgical-coal or 2022-peak price and asked for a dated EIA table. McDowell's coal is metallurgical, so the range fits; it needs its year at print.
+- **Sixteenth-poorest county (2022).** The June check says "attach source." None is attached yet.
+- **Oil and gas lobbying.** The June check found $124 to $150 million for oil and gas in 2024 (OpenSecrets), so "well over $100 million" is inside it. It needs the year locked at print.
+- **Energy use per dollar after the 1970s.** "Directionally confirmed" (EIA); the old "fifty percent" was never pinned, and the drafts give no number.
+- **Opportunity Insights.** The June check adds a warning: one reading of the Atlas put McDowell near average mobility. The claim stays out of both drafts, and the hidden comment now says why.
+
+**In neither the ledger nor any fact-check record. These rest on the June brief alone.**
+
+- Higher heart and lung disease among people near the mines who never worked in one.
+- Miners' medical bills moving to Medicare and Medicaid after bankruptcies (the Ch 8 citation spec says "not separately sourced").
+- $1 to $1.50 a ton for black lung benefits across national tonnage (a framework calculation; the tonnage it divides by is not recorded anywhere).
+- Acid drainage running "a century or more."
+- Mountaintop removal burying streams in the valleys.
+- Coal out of the ground "within about a century," fastest after mechanization.
+- The per-ton entries for all eight lines other than the air ($2, $1, $5, $2, $1, $1, $2). The ledger pins their sum and the records call them the framework's own allocations; none has an outside source, and the prose says so.
 
 **Script comparison (B against C).** `python3 ch08-figure-compare.py`: 89 distinct figures in B and the same 89 in C; four quotations identical; all 38 checked names present in both; 11 headings identical; 47 paragraph blocks each. Result: PASS.
 
