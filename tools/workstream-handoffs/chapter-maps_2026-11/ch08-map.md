@@ -45,3 +45,5 @@ Internal. One page. **Full rebuild.** The current chapter (`manuscript/chapters/
 5. **Who paid.** The current chapter stops at the total. *Recommend:* add section 8, short, from the amended ledger: what was actually paid per ton, and the split between the public and the industry. It is the book's sharpest finding and it belongs beside the invoice.
 
 **Author's answer bearing on call 2 (2026-11-14, given during Ch 9 Session 1):** housing **leaves the book** (Ch 9 call 3). Tar sands, the bank rescue and calls 1, 3, 4 and 5 are still open.
+
+**Author's answers to all five calls (2026-11-14, Ch 8 Session 1).** Call 1: **keep the $510 total as ratified** (the four small lines keep their dollar entries; no ledger change). Calls 2, 3, 4 and 5: **yes, as recommended** (housing, tar sands and the bank rescue leave the chapter; the global figure is cut; the walk follows Ch 2's columns; "What was paid, and by whom" is added). Drafts and notes: `../chapter-redrafts_2026-11/ch08-*_2026-11-14.md`.
