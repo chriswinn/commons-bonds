@@ -38,7 +38,7 @@ Internal. One page. **Full rebuild.** The current chapter (`manuscript/chapters/
 - "A note on the numbers behind the thought experiment": to the endnotes.
 - "This is the insight worth pausing on"; "The objection is legitimate and deserves a specific response"; "Two more pressure points… deserve a direct response."
 
-**Open structure calls for the author.**
+**Structure calls: ANSWERED by the author 2026-11-14, "Yes to all" (all five recommendations stand; call 3 also answers Ch 10 call 3).**
 1. **The opening.** *Recommend:* start inside the habitat, with one clause that marks it as imagined, and let the reader meet the question through her.
 2. **The two-party colony.** *Recommend:* add it to section 5, kept short. It is the one place in the book where a reserve is sized before anything is taken, and it uses a register this chapter already owns. It follows the TA's version once that exists.
 3. **Six patterns or four kinds of distance.** The current chapter lists six ways a cost is hidden. The TA is settling on four kinds of distance. *Recommend:* use the TA's four. Treat habit ("the cost of doing business") and apparent abundance as two ways informational distance is kept up. Coercion is different in kind: it is how the cost is assigned, not how it is hidden, and it should be said that way. Confirm against the final TA text.
