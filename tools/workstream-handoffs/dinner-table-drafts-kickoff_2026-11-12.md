@@ -7,7 +7,7 @@ This session **writes and does not judge.** A separate session compares the vers
 ## Paste line
 
 ```
-Read CLAUDE.md, STATE.md, tools/drafting-templates/commons_bonds_house-style-sheet_v1.0.1.md and tools/workstream-handoffs/dinner-table-drafts-kickoff_2026-11-12.md. Run it.
+Read CLAUDE.md, STATE.md, tools/drafting-templates/commons_bonds_house-style-sheet_v1.0.2.md and tools/workstream-handoffs/dinner-table-drafts-kickoff_2026-11-12.md. Run it.
 ```
 
 ## Why this session exists

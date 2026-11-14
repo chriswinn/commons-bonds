@@ -10,7 +10,7 @@
 
 **Read in this order, and stop there.**
 1. The chapter map: `tools/workstream-handoffs/chapter-maps_2026-11/ch06-map.md`. It is the structure. Where the author has answered its calls, his answers govern; where he hasn't, use each call's recommendation and say so in your change notes.
-2. The house style sheet: `tools/drafting-templates/commons_bonds_house-style-sheet_v1.0.1.md` (or a newer version if one exists).
+2. The house style sheet: `tools/drafting-templates/commons_bonds_house-style-sheet_v1.0.2.md` (or a newer version if one exists).
 3. This brief.
 4. The figure ledger as amended by TA Phase 2: `manuscript/ledgers/_CANONICAL_FIGURE_LEDGER.md`. **Every figure comes from the ledger as it stands on the day you draft,** not from this brief, not from v3, not from the current chapter.
 5. Only the sections of the v3 brief that §3 below says still stand: `research/story-drafts/ch6-blind-brief-v3_2026-06-16.md`.

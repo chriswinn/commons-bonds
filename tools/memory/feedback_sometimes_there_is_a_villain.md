@@ -19,4 +19,4 @@ record. Never allege intent the record does not show.
 **Same session, also the author's:** the whole book is told from his vantage; "you" is only for what any
 reader anywhere has, never a nationality or country; "we" is author plus reader, or a named group he belongs
 to; countries are named. "Alibi" is not his word and is retired in favor of "distance." Current statement:
-`tools/drafting-templates/commons_bonds_house-style-sheet_v1.0.1.md`.
+`tools/drafting-templates/commons_bonds_house-style-sheet_v1.0.2.md`.

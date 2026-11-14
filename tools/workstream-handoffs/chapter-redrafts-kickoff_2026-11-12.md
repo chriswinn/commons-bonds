@@ -7,7 +7,7 @@ Confirm the session is on Fable; if not, say so first.
 ## Paste line (put the chapter number in place of N)
 
 ```
-Read CLAUDE.md, STATE.md, tools/drafting-templates/commons_bonds_house-style-sheet_v1.0.1.md and tools/workstream-handoffs/chapter-redrafts-kickoff_2026-11-12.md. Run it for Chapter N.
+Read CLAUDE.md, STATE.md, tools/drafting-templates/commons_bonds_house-style-sheet_v1.0.2.md and tools/workstream-handoffs/chapter-redrafts-kickoff_2026-11-12.md. Run it for Chapter N.
 ```
 
 If a newer version of the style sheet exists, read that one instead.

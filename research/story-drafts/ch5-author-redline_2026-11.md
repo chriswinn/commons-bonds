@@ -1,6 +1,6 @@
 # Ch 5 author hand redline, November 2026 (transcription)
 
-**Status:** the author's marks, transcribed from 16 photos sent 2026-11-14. Internal record; nothing here is drafted by Claude.
+**Status:** the author's marks, transcribed from 26 photos sent 2026-11-14 in two batches; his rulings appended; **ratified by him 2026-11-14 and merged to main.** Internal record; nothing here is drafted by Claude.
 **What he marked:** the annotated print copies of two versions (B = rings redraft, the chapter on main as promoted 2026-11-12; C = dinner-table draft, Nov 12). Both copies have 123 paragraphs and the printed numbers line up one for one.
 **How the marks work:** the C copy (dinner-table) is the assembly copy. A C paragraph with no mark stays. A C paragraph whose printed number is crossed carries the label "#N Rings": B ¶N replaces it. Word-level marks are on whichever copy the paragraph comes from.
 **Notation:** ~~struck~~ = he struck it. **[bold in brackets]** = his handwriting, word for word. *(italics)* = transcriber's note. **UNCLEAR** = a mark I could not read or could not resolve; listed again at the end.
@@ -220,3 +220,21 @@ Open, his to answer or leave: the header question ("how should we fix this?"); t
 - Not applied: ¶99 (his question), ¶116 (his "consider").
 - Seam to show him: B ¶102 says "its own face of the cost," and C ¶101, which stays, no longer says "two faces."
 - Figures and gate rechecked after the second batch: numbers unchanged; HIGH 0.
+
+---
+
+## The author's rulings (2026-11-14, in session)
+
+- **Pages not photographed** (C 5, 7, 8, 11, 12, 14, 26, 29): unmarked.
+- **¶25 "?":** ignore; "I decided to leave as is."
+- **¶35:** "The freedom that mattered most in the creation of the 401(k) was clearly the corporation's freedom from liability."
+- **¶63:** keep both sentences. "The repeat is supposed to make an impact here. Let me know if it doesn't."
+- **¶99:** "readers at institutions like the American Enterprise Institute, Cato, Mercatus and George Mason University".
+- **¶114:** remove "Each of these…" through "at the scale of nations" and put "They were first, and this framework says so." in its place; then close with the rings sentence "The framework concedes the priority and adds only the grain: it prices a single extraction event and reserves against it, rather than netting one nation's account against another's." *(This replaces the provisional reading above: the rings "Each treats the atmosphere…" sentence is out, and the forced capital "It" is no longer needed.)*
+- **¶116:** keep "value."
+- **¶94:** confirmed as applied (the rings paragraph with the two dinner-table sentences).
+- **Polish:** "401(k)" and the comma in ¶78 accepted.
+- **Uncut material:** "Leave the things I left uncut as they seemed useful."
+- **Ratified; merge to main.**
+
+Open after ratification, not applied (his to decide): "face" or "side" in ¶102 ("Each is measured against its own face of the cost"; ¶101 no longer says "two faces"); whether to add "This book calls it a severed cost." at ¶71.

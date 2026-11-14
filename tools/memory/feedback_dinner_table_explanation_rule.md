@@ -22,4 +22,4 @@ however complicated the subject.
 
 **Consequence:** drafts written before this date in the compressed manner (the Ch 5 rings redraft, the Ch 1
 pace redraft) need a paragraph-by-paragraph "is the explanation clearer than this?" pass. Current statement:
-`tools/drafting-templates/commons_bonds_house-style-sheet_v1.0.1.md`, "The first rule."
+`tools/drafting-templates/commons_bonds_house-style-sheet_v1.0.2.md`, "The first rule."

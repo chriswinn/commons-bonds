@@ -1,8 +1,8 @@
-# Commons Bonds: house style sheet (v1.0.1, 2026-11-12)
+# Commons Bonds: house style sheet (v1.0.2, 2026-11-14)
 
 **Status:** PROPOSED (internal). For every chapter redraft from 2026-11-17. Read it before drafting; check the draft against it after.
 **What it is.** The changes the author has actually made or approved, turned into rules with one real before-and-after each. Nothing here is Claude's taste. Where a pattern is only Claude's observation, it sits in the last table, marked *pending*.
-**Updates.** v1.0.1 (2026-11-12) adds the dinner-table rule (now the first rule), the person-and-place rules and the rule on villains, from the author's walk through the Ch 5 decision points. v1.0.0 was built without the author's redline of the Ch 5 rings redraft. When that redline arrives, add its patterns, settle the pending rows, and bump the version.
+**Updates.** v1.0.2 (2026-11-14) adds rules 26 to 29 from the author's hand redline of Ch 5 (`research/story-drafts/ch5-author-redline_2026-11.md`), settles pending rows P2 and P3 for Ch 5, and adds pending row P4; rule 6a (added 2026-11-14 from the Ch 1 redline) is now part of a numbered version. v1.0.1 (2026-11-12) adds the dinner-table rule (now the first rule), the person-and-place rules and the rule on villains, from the author's walk through the Ch 5 decision points. v1.0.0 was built without the author's redline of the Ch 5 rings redraft. When that redline arrives, add its patterns, settle the pending rows, and bump the version.
 
 **Source codes.** **R1** = the author's Ch 1 hand redline (commit `0fca4465`, 2026-06-12) and his rulings on it (`aed2a7b1`). **R5** = his Ch 5 redline notes and directions (`ch5-author-redline-notes_2026-11-09.md`; `ch5-redraft-edits_2026-11-10_session-review.md`). **L** = the engagement lenses he set (`tools/memory/feedback_engagement_lenses.md`). **M** = an earlier ruling recorded in `tools/memory/`.
 
@@ -86,6 +86,17 @@ The book is told from one vantage, the author's, from first page to last. He tel
 | 24 | **Credit a source in a sentence where its idea is used.** Lineage tours shrink or move. | Two paragraphs touring Pettit, Skinner and Hartwick | One paragraph; both titles, both years and Hartwick 1977 still cited | R5 (approved 2026-11-11) |
 | 25 | **Retired frames.** "Scatter" as a word or a structure. | "…a deliberately scattered set of cases, and the scatter is the method." | Rings that close in on the reader | R5 mark 9 |
 
+## From the Ch 5 hand redline (2026-11-14)
+
+Source code **R5b** = his November hand redline of Ch 5 and his rulings on it (`research/story-drafts/ch5-author-redline_2026-11.md`).
+
+| # | Rule | Before | After | Source |
+|---|---|---|---|---|
+| 26 | **A repeat he places on purpose stays.** Rule 11 is about accidental echoes. Where he repeats a phrase to land a point, leave it, and tell him if it doesn't land. | (flagged as a seam) "…the limit of substitution is a parameter in a formula. At Baotou the limit of substitution stops being a parameter in an appendix and becomes a field of tailings ponds." | Kept: "the repeat is supposed to make an impact here." | R5b ¶63 |
+| 27 | **The everyday noun for people and the places they work.** | "three serious risks with the institution"; "bars a household from its home" | "with the company"; "bars a family from its home" | R5b ¶35, ¶107 |
+| 28 | **State what the book does. No "tries to."** | "This book tries to turn it into a working instrument." | "This book turns it into a working instrument." | R5b ¶85 |
+| 29 | **A definition set inside a sentence stays where it helps the reader.** He kept this one and took the tighter rings wording for a paragraph that carried another ("discharges, meaning pays off"). Judge each one; it is not a pattern to apply or remove wholesale. | "the Minerals Management Service, a textbook case of a captured regulator." | "a federal agency called the Minerals Management Service. It is a textbook case of a captured regulator, which means a regulator that has come to serve the industry it is supposed to oversee." | R5b ¶94, ¶102 |
+
 ## Pending: Claude's observations, not yet the author's rulings
 
 Apply these lightly in redrafts and list each use in the change notes, so the author can rule at the redline.
@@ -93,8 +104,9 @@ Apply these lightly in redrafts and list each use in the change notes, so the au
 | # | Observation | Example | Provisional handling |
 |---|---|---|---|
 | P1 | *Settled 2026-11-12: the closing-line habit is not the author's voice. See "The first rule" above.* | | |
-| P2 | **Stacked objections.** Several "state it, concede, turn" paragraphs back to back. (Part 4; decision point 7.) | Four objections on 2008, then two on Social Security | Answer the strongest in full. Fold or cut the rest, and say which in the change notes. |
-| P3 | **Lineage in the middle of an argument** is the likeliest place a reader stops. (Critic read item 1; partly settled by rule 24.) | Five traditions credited inside "Restitution and foreclosure" | Credit at point of use; propose any move to another chapter in the map, not in the draft. |
+| P2 | **Stacked objections.** Several "state it, concede, turn" paragraphs back to back. (Part 4; decision point 7.) | Four objections on 2008, then two on Social Security | Answer the strongest in full. Fold or cut the rest, and say which in the change notes. **Ch 5, 2026-11-14: he kept all six objections ("Leave the things I left uncut as they seemed useful"). Do not fold or cut objections without his mark.** |
+| P3 | **Lineage in the middle of an argument** is the likeliest place a reader stops. (Critic read item 1; partly settled by rule 24.) | Five traditions credited inside "Restitution and foreclosure" | Credit at point of use; propose any move to another chapter in the map, not in the draft. **Ch 5, 2026-11-14: he cut one names-not-chosen paragraph and kept the lineage paragraphs. Propose, don't cut.** |
+| P4 | **Where he went back to the tighter version.** In the Ch 5 redline the dinner-table draft was his base, and he took 22 of 123 paragraphs from the rings redraft. Those were mostly paragraphs the dinner-table draft had broken into runs of short same-shaped sentences or loaded with in-sentence definitions (¶1, ¶2, ¶35, ¶73, ¶79, ¶102). Claude's reading of the pattern, not his statement. | Dinner-table ¶73: "One is distance… One is time… One is a gap in knowledge…" | Plain words, but vary the sentence shapes; don't split a sentence that already reads in one pass. |
 
 ## The reader's test
 

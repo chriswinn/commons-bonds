@@ -6,7 +6,7 @@ its two drafts. It must be a different session from the one that wrote them. Con
 ## Paste line
 
 ```
-Read CLAUDE.md, STATE.md, tools/drafting-templates/commons_bonds_house-style-sheet_v1.0.1.md and tools/workstream-handoffs/dinner-table-compare-kickoff_2026-11-12.md. Run it.
+Read CLAUDE.md, STATE.md, tools/drafting-templates/commons_bonds_house-style-sheet_v1.0.2.md and tools/workstream-handoffs/dinner-table-compare-kickoff_2026-11-12.md. Run it.
 ```
 
 ## What the author asked for
