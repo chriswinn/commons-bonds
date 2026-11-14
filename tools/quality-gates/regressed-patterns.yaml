@@ -1455,6 +1455,25 @@ patterns:
       ratified: "2026-11-11 ledger amendment (same commit)"
     allowlist: []
 
+  - id: regressed-frame-norway-irreversibility-reduction
+    pattern: 'buys back optionality|lowers the effective irreversibility|[Ff]orecloses once|restoration optionality|orders of magnitude against the Appalachian'
+    type: regex
+    severity: MEDIUM
+    category: consistency-canon
+    description: |
+      Retired account of Norway (ledger 2026-11-11, "Norway RCV / CS" row): the fund
+      does not lower irreversibility or make the loss "less final". Norway bonded its
+      rent (about $36/BOE against rent of about $32-36); its cost severance is a floor
+      of at least about $34/BOE, about $1.9 trillion, mostly carbon borne outside
+      Norway. MEDIUM, not HIGH, because the current Ch 4 on main still carries the
+      wording until the author's redline of the 2026-11-14 drafts is promoted; raise
+      to HIGH at that promotion. Also live in the Foreign Affairs, Norway op-ed,
+      Atlantic Ideas and NYRB redraft briefs (June), which predate the amendment.
+    origin:
+      pass: "Ch 4 two-drafts Session 1, 2026-11-14 (author: rewrite to the ledger)"
+      ratified: "2026-11-11 ledger amendment; pattern added 2026-11-14"
+    allowlist: []
+
   - id: regressed-figure-libby-documented-cash-floor
     pattern: 'documented-cash floor|≈ ?26:1 against|65[–-]102 ?(×|x|&times;)|65&ndash;102'
     type: regex
