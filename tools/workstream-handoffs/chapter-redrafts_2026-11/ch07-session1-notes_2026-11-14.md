@@ -94,3 +94,22 @@ Where a hostile but fair reader would stop. Questions for the author; nothing he
 5. **Force.** Section 6 says force is not a kind of distance, and section 9 shows it at Giza and the Qin wall. A critic will ask whether the book's main tool, pricing what distance hides, has anything to say where nothing is hidden. The draft answers only by declining to price forced labor. Is that the answer you want here, with the rest left to the chapters that treat it?
 6. **The colony has no numbers.** "Estimate the rescue and the medical care, and divide by a thousand" is the whole demonstration of the book's new instrument. The TA has invented figures ready. Would four small numbers make the reserve real, or slow the section?
 7. **What left the chapter.** The exoplanet case, the summary table and the roll call of later systems are gone, and the certification passage waits for Ch 9. Do you want any of them back? The table is the one a skimming reader would miss.
+
+## 4. Ledger check of every number (added 2026-11-14, at the author's request)
+
+Checked against `manuscript/ledgers/_CANONICAL_FIGURE_LEDGER.md` and, because the ledger holds only shared figures, against the chapter's citation spec (`tools/audits/chapter-citation-specs/ch07-citation-spec_2026-06-08.md`) and the primary-source register.
+
+| Number in the drafts | On the ledger? | Fact-check status on record |
+|---|---|---|
+| 1960 price, "just under five dollars" | **Yes** (Mine-mouth price, 1960: $4.71, EIA Table 7.9) | Checked and ratified |
+| Commute: $300 a month, 48 minutes, 2.5 hours each way, 1,300 hours | No ledger row | Matches Ch 1 on main, which the author ratified 2026-11-14. Ch 1 is the source of record. |
+| Habitat numbers (10,000; three deposits; 50, 5, 20, 30 years); crew of twelve, ten years, 1,000 tons | No, by design | Citation spec: thought-experiment parameters, no source needed. Crew figures match TA §12 Scenario 8. |
+| Stern, about 1.4 percent; Nordhaus, around 4 to 5 percent | No row. (The ledger's integral row uses "Stern / 4% / Nordhaus" as three rates, without stating them.) | Citation spec: **NEEDS-PIN.** Not yet verified against Stern (2006) or Nordhaus (2007). |
+| Helium-3, about a million tons, 1986 | No | Citation spec: **NEEDS-PIN** ("commonly cited but contested"). The year and the University of Wisconsin affiliation are not in any repo record. |
+| Hartwick, 1977 | No | Citation spec: READY-TO-CITE (*AER* 67(5):972–974). Source named, not a number. |
+| Giza: around 2550 BCE; about seventy years; Khufu about twenty | No | Citation spec: READY-TO-CITE (Lehner; Hawass). Source named; the figures themselves have not been checked against a page. |
+| Qin: about 5,000 km; 300,000–500,000; more than 700,000; 1974; four years | No | Citation spec: READY-TO-CITE, with a note that Sima Qian's labor counts are contested and a modern scholarly source should be added. |
+| Eight billion people | No | In no repo record. New in these drafts. |
+| "Two centuries" of smoke | No | Citation spec: NEEDS-PIN for the two-century framing. |
+
+**Result.** One figure in the chapter is on the ledger and checked: the 1960 price. The commute is checked through Ch 1. Every other real-world number is either named to a source but not verified against it, or not yet sourced. None contradicts the ledger. If these figures survive the redline they need ledger rows and gate patterns at Session 3, and the NEEDS-PIN items need a source read before then.
