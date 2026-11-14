@@ -164,7 +164,7 @@ primary before promotion.** M = from memory of the public record, not checked to
 | 34 | 7 | EU regulation adopted 2023; goods covered (steel, cement, aluminium, fertiliser, electricity, hydrogen); reporting from October 2023; payment from 1 January 2026; price paid at origin deducted | Citation spec (Regulation (EU) 2023/956) for the dates; goods and deduction M |
 | 35 | 7 | Ha-Joon Chang, "kicking away the ladder" | M (*Kicking Away the Ladder*, 2002). Phrase is not in quotation marks |
 | 36 | 8 | Olson, 1965 | C5 |
-| 37 | 8 | $11 trillion (Federal Reserve); 4.1 million completed foreclosures (CoreLogic); banks rescued within days | L; C5 |
+| 37 | 8 | $11 trillion (Federal Reserve); 4.1 million completed foreclosures (CoreLogic); banks rescued within days | L ($11T row; 4.1M in the 2026-06-09 corrections note); C5 |
 | 38 | 8 | Sweden 1930s: banks and households together | C5 |
 | 39 | 8 | Autumn 1992 guarantee covered depositors and lenders, not shareholders | W: Yale Program on Financial Stability (guarantee of 24 Sept 1992 excluded share capital) |
 | 40 | 8 | State took over Nordbanken and Gota; Securum and Retriva took the bad loans, sold them, returned the remainder to the treasury | W: Cherny and Ergungor, Federal Reserve Bank of Cleveland, 9 Feb 2009 |
@@ -191,6 +191,55 @@ primary before promotion.** M = from memory of the public record, not checked to
 
 **Rows that must be read at the primary source before anything here is promoted:** 9, 11, 12, 23, 31, 42, 45.
 **Rows from memory:** 8, 16, 17, 18, 22, 24, 35, 44, 50.
+
+## 8a. Ledger check of every number (author request, 2026-11-14)
+
+Every digit figure in the drafts (61 distinct, the same set in B and C) and every number written as a word was
+searched in `manuscript/ledgers/_CANONICAL_FIGURE_LEDGER.md` as it stands on main today (last amended 2026-11-12).
+
+**On the ledger, fact-checked there, and the drafts match it (7):**
+
+| Figure in the drafts | Ledger row | Match |
+|---|---|---|
+| "just under five dollars" at the mine in 1960 | Mine-mouth price, 1960 ($4.71, EIA; "just under five dollars" is the ledger's own phrasing) | Yes |
+| "more than five hundred" counted today | 8-component total $510; RCV integral $525–540 (both above 500). Stated as two prices in two eras, no ratio, as the 2026-11-11 amendment requires | Yes |
+| "at most about $88 to $100" paid per ton by anyone | McDowell realized bond (derived): $88–100/ton from all payers, an upper bound | Yes |
+| "$8 to $13" from the companies | Same row: $8–13/ton extractor-paid | Yes |
+| $190 a tonne, EPA, 2023 | Social cost of carbon: $190/t = EPA 2023 central estimate | Yes |
+| roughly $11 trillion, "by the Federal Reserve's count" | $11T household net worth: Federal Reserve Z.1, not Mian and Sufi | Yes |
+| about 4.1 million completed foreclosures | Listed in the ledger's 2026-06-09 note of chapter-level corrections ("foreclosures ~4.1M completed"); CoreLogic attribution is Ch 5's | Yes |
+
+Also consistent with ledger notes, though the drafts give no figure: Norway's spending rule is dated 2001 and
+tightened in 2017 (the ledger's correction); no Norway dollar figure, no multiple, no $108 trillion, no yearly
+global total appears anywhere in the drafts.
+
+**Named on the ledger as a chapter-level item, but the numbers themselves are not there (1 group):** the
+reclamation figures (more than 633,000 acres; $7.5–9.8 billion; about $3.8 billion). The ledger says only
+"reclamation-gap single figure." The numbers and their source (Appalachian Voices, 2021) are in
+`tools/audits/corpus-primary-source-register_2026-06-08.md`, marked HIGH confidence, and match Ch 2 on main.
+
+**Not on the ledger at all (everything else).** These are facts this chapter alone carries, so the ledger has
+never held them and they have **not** been through its fact-check:
+
+- Already in a chapter on main, same value: Alaska (1976, 1982, close to $90 billion), Mondragón (1956), Vienna
+  (six in ten; 1919), Norway's fund dates (1990, 1996), Costanza and Perrings (1990), Olson (1965).
+- From the June brief's locked list: the EU list (thirty-four, seventeen, May 2024); Mountain Pass (2002, 2015,
+  2017, 2018); the Congo figure (forty thousand; 2014; 2016); China's 2010 restriction.
+- New in these drafts, checked on the web today or from memory (basis for each in the table above): everything
+  about the seabed (1979, 2023, 2025, forty-four years, a hundred tonnes, eight metres, five thousand metres,
+  thirty-one contracts, 1994, June 2021, July 2023, July 2026, March 2027, January 2026, 1980, nine and four blocks,
+  2012, 1.97 million square kilometres); the World Bank count (87; just over 29 percent; about $21); helium (1996,
+  2010); the EU list's revisions (2011, every three years); Sweden (1992, 1995, sixty years); the Kimberley
+  Process (2003); the bet (1980, five metals, ten years); the laws (1977, 1970); the book dates (1960, 1974, 2003,
+  2011, 2020, 2024); "two billion years"; "thirty years" of carbon-price debate; "a fifth," which is an illustration.
+
+**No number in the drafts contradicts a ledger row, and no retired figure appears.** The gate run on each draft
+confirms the second point (142 patterns, no matches).
+
+**What this means for promotion.** When the author's redline is applied in Session 3, the figures that survive
+from the third group get a "Ch 9 case figures" section on the ledger, each with its primary source read in full,
+and a gate pattern in the same commit, as was done for Ch 5's Butler and BP–Mexico figures. Until then they are
+draft-stage and carry the basis shown in the table.
 
 ## 9. Named living people (consent tracker)
 
