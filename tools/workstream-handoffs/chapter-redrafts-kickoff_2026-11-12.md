@@ -1,6 +1,6 @@
 # The remaining chapter redrafts: one chapter per session (kickoff, 2026-11-12)
 
-**Status:** PROPOSED (internal scaffolding). Use this for Chapters 2, 3, 4, 6, 7, 8, 9 and 10, one chapter per
+**Status:** SUPERSEDED 2026-11-14 by `chapter-two-drafts-kickoff_2026-11-14.md` (the author chose both methods, compared on paper and assembled from his hand redline). Kept for the record. Was: PROPOSED (internal scaffolding). Use this for Chapters 2, 3, 4, 6, 7, 8, 9 and 10, one chapter per
 fresh session. Chapters 1 and 5 are handled by the comparison (`dinner-table-compare-kickoff_2026-11-12.md`).
 Confirm the session is on Fable; if not, say so first.
 
