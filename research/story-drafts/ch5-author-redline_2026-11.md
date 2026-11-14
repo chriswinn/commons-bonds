@@ -141,3 +141,82 @@ Open, his to answer or leave: the header question ("how should we fix this?"); t
 - Polish (mechanical, two changes): "401ks" → "401(k)", the form the chapter uses everywhere else; a comma before "or to pay a bill long overdue".
 - Left alone: contractions (mixed); the serial comma (mixed between the two source versions); deliberate fragments (¶74).
 - Figures: every number in the assembled chapter matches the version promoted 2026-11-12, which was checked against the ledger. Gate: HIGH 0; Ch 5 shows the one known MEDIUM item (the $44 billion black-lung line, unchanged).
+
+---
+
+# Second batch of photos (2026-11-14, same session)
+
+**Received:** C pages 21, 22, 23, 24, 25, 27, 28; B pages 18, 20, 25. **Still not received:** C pages 5, 7, 8, 11, 12, 14, 26, 29 (¶110–¶112 start are on page 26; ¶119 end–¶123 on page 29). Read as unmarked until he confirms.
+
+## B page 18 (the paragraph C ¶85 points to)
+
+- **¶81–¶84** No marks.
+- **¶85** First sentence circled: "This book's definition of a commons descends from that thesis, and so does the chapter's basic test: imagine the commons gone and ask what cost appears." Margin, with an arrow to it: **[use this sentence to describe the test]** *(Settles UNCLEAR 4 as read.)*
+- **¶86** No mark.
+
+## C page 21
+
+- **¶85 (continued)** "~~and ask what cost appears.~~" *(the end of the sentence the rings sentence replaces).* "This book ~~tries to turn~~ **[turns]** it into a working instrument."
+- **¶86–¶90** No marks. Stay. *(A faint line through "living" in ¶86 is print show-through, not a strike.)*
+
+## C page 22
+
+- **¶90 (end), ¶91, ¶92, ¶93** No marks. Stay.
+- **¶94** Number circled and crossed. Label: **[# Rings (swap 2 sentences)]** Circled: "In the Gulf, offshore drilling was overseen by a federal agency called the Minerals Management Service. It is a textbook case of a captured regulator, which means a regulator that has come to serve the industry it is supposed to oversee." Margin: **[keep these two sentences & replace what was struck out from rings]**
+
+## B page 20 (the paragraph C ¶94 points to)
+
+- **¶91, ¶92, ¶93** No marks.
+- **¶94** "In the Gulf, ~~offshore drilling was overseen by the Minerals Management Service, a textbook case of a captured regulator.~~" Nothing else marked.
+- **¶95, ¶96** No marks.
+
+## C page 23
+
+- **¶95** Crossed out. Label: **[#95 Rings]**
+- **¶96** Crossed out. Label: **[#96 Rings]**
+- **¶97, ¶98** No marks. Stay.
+- **¶99** A caret after "readers at", with a line to the margin: **[institutions like?]** and under it **[organization like?]** *(A question, two candidate wordings. Not applied.)* **UNCLEAR 6.**
+
+## C page 24
+
+- **¶100, ¶101** No marks. Stay.
+- **¶102** Number crossed. Label: **[#102 Rings]**
+- **¶103, ¶104** No marks. Stay.
+
+## C page 25
+
+- **¶105** Crossed out. Label: **[#105 Rings]**
+- **¶106** Crossed out. **[cut]** with an arrow to the paragraph.
+- **¶107** "A mortgage foreclosure bars a ~~household~~ **[family]** from its home," *(The later "In one case it is a household" is not marked.)*
+- **¶108** No mark. Stays.
+- **¶109** Number crossed. Label: **[#109 Rings]**
+
+## C page 27
+
+- **¶113** No mark. Stays.
+- **¶114** The opening, through "began operating the following year.", is not marked. "~~Each of these treats the atmosphere as a debt that runs in two directions: back to past emissions, and forward to the loss of a stable climate. Each prices that debt on the same social cost of carbon this book uses, and each argues at the scale of nations.~~" Margin: **[replace with section from #114 rings]**
+- **¶114** "They were first, and this framework says so." is circled. Margin: **[insert this sentence in #114 rings]**
+- **¶114** "~~What it adds is a finer grain. It prices a single extraction event and holds a reserve against it, where their work nets one nation's account against another's.~~" **[cut]**, underlined, with an arrow.
+
+## B page 25 (the paragraph C ¶114 points to)
+
+- **¶114** "The framework concedes the priority and adds only the grain:" is underlined with a bracket. Margin: **[insert sentence from #114 dinner]** *(Read as: the dinner-table sentence takes the place of the underlined clause. The words after the colon then need a capital.)* **UNCLEAR 7.**
+- **¶115–¶119** No marks.
+
+## C page 28
+
+- **¶115** Number crossed. Label: **[#115 Rings]**
+- **¶116** "value of" in "the remaining value of the commons" is circled, with a line to the margin: **[(consider) damage to]** *("consider" is circled. A suggestion to himself, not an instruction. Not applied.)* **UNCLEAR 8.**
+- **¶117, ¶118, ¶119 (start)** No marks. Stay.
+
+## Applied from the second batch (pending his answers)
+
+- B ¶95, 96, 102, 105 (with its two page-number comments), 109, 115 in place of the C paragraphs.
+- ¶85: "This book turns it into a working instrument."
+- ¶94: B ¶94 with his two circled C sentences in place of the struck one. *(Seam: "supposed to oversee" now ends two sentences in a row.)*
+- ¶106 cut. The chapter now has 122 paragraphs; numbers in this file are still the printed ones.
+- ¶107: "family".
+- ¶114: C's opening; then B's "Each treats the atmosphere … at the scale of nations."; then "They were first, and this framework says so."; then B's close, "It prices a single extraction event and reserves against it, rather than netting one nation's account against another's." (capital "It" is the one mechanical change the join forces).
+- Not applied: ¶99 (his question), ¶116 (his "consider").
+- Seam to show him: B ¶102 says "its own face of the cost," and C ¶101, which stays, no longer says "two faces."
+- Figures and gate rechecked after the second batch: numbers unchanged; HIGH 0.
