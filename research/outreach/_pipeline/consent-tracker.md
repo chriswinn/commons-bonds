@@ -95,6 +95,7 @@ Default per policy: name in draft; courtesy-notify subject (or communications co
 |---|---|---|---|---|---|
 | **Jessica Lilly** (WV Public Broadcasting *Inside Appalachia* host; interviewer of Robert Bailey Feb 2019) | On-record journalism (named interviewer of public-radio interview) | (no folder) | **No special citation-accuracy notify** (author ratified 2026-05-30 per standard-journalism convention): named host of an on-air public-radio interview is standard-journalism-citable. Pass 3.1 fact-check covers citation accuracy. | Ch 2 *The Miner*; Harper's *The Miner* | 2026-05-30 |
 | **Lisa Sachs** (Columbia Center on Sustainable Investment) | On-record institutional position | (no folder) | `(verify whether quoted directly or only referenced institutionally)` | Foreign Affairs essay | `(verify)` |
+| **Daniel Jones** (National Oceanography Centre, UK; co-led the 2023 Clarion-Clipperton expedition) | One quotation, 16 words, from the Natural History Museum (London) news release of 26 Mar 2025 on the *Nature* paper (doi 10.1038/s41586-025-08921-3) | (no folder) | **Draft stage only** — the quotation is in the two Ch 9 comparison drafts of 2026-11-14 (`tools/workstream-handoffs/chapter-redrafts_2026-11/`), not in the chapter. Public-record exception applies (on-record statement in institutional capacity). Courtesy citation-accuracy notice only if it survives the author's redline. Check the quotation against the release text before promotion. | Ch 9 drafts B and C, section 1 | 2026-11-14 (added at Ch 9 Session 1) |
 
 ---
 

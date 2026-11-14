@@ -44,3 +44,11 @@ Internal. One page. **Full rebuild.** The current chapter (`manuscript/chapters/
 3. **Housing.** June's briefs moved the housing passage and its reply to the zoning objection from Ch 8 to here. *Recommend:* leave it out of the book. It is a second subject with its own literature, and it sits between the reader and the pieces that already exist. It would make a good essay.
 4. **The tax comparison.** *Recommend:* cut the section unless a current, named source is read in full for the figures; Ch 4's own note says the old table was never verified. If it stays, it is two paragraphs and makes no claim about what Americans "were sold."
 5. **Chattanooga, Mondragón and Vienna.** In June you asked to keep these. Ch 4 now tells all three at length. *Recommend:* one sentence each here, pointing back, and give the space to the pieces Ch 4 doesn't cover.
+
+**Author's answers (2026-11-14, Session 1 for Ch 9; asked once, in one message).**
+1. Opening: **the seabed decision.**
+2. A section on the bond: **yes** (section 6).
+3. Housing: **leave it out of the book** (same answer for Ch 8 call 2).
+4. Tax comparison: **cut.**
+5. Chattanooga, Mondragón and Vienna: **one sentence each, pointing back to Ch 4.**
+Also answered in the same message, **Ch 7 call 4:** the certified-diamond passage **moves to Ch 9** (section 8). Giza and the Qin are still open on the Ch 7 map.

@@ -43,3 +43,5 @@ Internal. One page. **Full rebuild.** The current chapter (`manuscript/chapters/
 3. **The global figure.** The chapter multiplies industry revenue by an assumed factor to reach a yearly global total, then admits the arithmetic is one sentence deep. *Recommend:* cut it, for the same reason the $108 trillion passage left Ch 5.
 4. **The shape of the walk.** *Recommend:* bring back Ch 2's columns in Ch 2's order (the body, the creeks, the town, the children, the air), so the reader recognizes the bill they were shown and now sees the amounts. The current headings ("Direct Health Cost," "Environmental Degradation Cost") read as a report.
 5. **Who paid.** The current chapter stops at the total. *Recommend:* add section 8, short, from the amended ledger: what was actually paid per ton, and the split between the public and the industry. It is the book's sharpest finding and it belongs beside the invoice.
+
+**Author's answer bearing on call 2 (2026-11-14, given during Ch 9 Session 1):** housing **leaves the book** (Ch 9 call 3). Tar sands, the bank rescue and calls 1, 3, 4 and 5 are still open.
