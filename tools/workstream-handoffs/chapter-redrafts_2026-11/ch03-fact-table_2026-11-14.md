@@ -106,3 +106,49 @@ Sayings carried as A has them (indirect speech, not in quotation marks): Biggie'
 1. **"and no second moratorium has been called."** This replaces the unsourced claim in A's retired-waterman paragraph. It is true on the chapter's own account, but it has no citation on file. See QUESTION 1 in the change notes.
 2. **Hardin's essay named by its title**, "The Tragedy of the Commons." A named the idea without the title.
 3. **C only: three short definitions** set inside sentences, of *moratorium*, *forage fish* and *reduction fishery* ("because it reduces the fish to meal and oil"). Standard meanings; listed so he can strike any he doesn't want (style rule 29).
+
+## Ledger double-check (added 2026-11-14 on the author's instruction)
+
+Every number in B and C was searched for in the whole of `manuscript/ledgers/_CANONICAL_FIGURE_LEDGER.md` (all 153 lines, every section), not only the reef set.
+
+**On the ledger, and the drafts match it (16 figures):**
+
+| Figure in the drafts | Ledger line | Ledger value |
+|---|---|---|
+| about 2,700 acres; 1910 to 1981; James River | 120 | ~2,738 acres, 1910→1981 |
+| $7,300 and $13,500 an acre | 121 | ~$7,300/ac; ~$13,500/ac |
+| $77,000 an acre | 121 | ~$77,000/ac |
+| $20 million to $37 million (floor) | 122 | $20M realized / $37M headline |
+| roughly $211 million (center) | 123 | ~$211M |
+| more than $92 million; roughly 1,300 acres (Maryland) | 125 | >$92M; ~1,300 ac |
+| roughly $115 million; $93.52 million; $21.77 million | 125 | ~$115M = $93.52M + $21.77M |
+| industry line zero | 126 | $0 |
+| 99 percent used only for the harvest decline | 127 | never multiply a 99% figure by a per-acre cost |
+| no Hampton Bar acreage; no Navy dollar figure | 128 | proxy stated; qualitative only |
+| Tangier, nearly two feet a year | 77 | ~1.7 ft/yr paper average (15 ft/yr dropped) |
+| menhaden cap dated 2017 | 77 | 2017/2018, not 2006 |
+
+The ledger's ~$108M figure (line 125, "rounding corroborator only") is the one ledger figure the current chapter carries and the drafts do not. That was deliberate (call 5).
+
+**Not on the ledger.** The ledger holds figures shared across chapters. Its line 77 says chapter-level figures "live in the reconciliation artifact + the per-chapter briefs." So these Chapter 3 numbers have no ledger row, and their fact-check of record is the file named:
+
+| Figures | Fact-check of record |
+|---|---|
+| Dock and table: $35 a bushel, about $7 million, two hundred oysters a bushel, about $120 million a year | NUM (`ch3-restitution-bond-numbers_2026-06-05.md`; $35/bushel marked HIGH confidence there) |
+| Menhaden cap size, 51,000 metric tons, and the cut of roughly forty percent (register: about 41.5%) | REG lines 33, 71, 136 |
+| Darling: 1884, 160 shuckers, 200,000 bushels, four stories, 1979 | AUTH msg 85 (historical marker text); FC |
+| Oyster harvest: fifteen million bushels, under two hundred thousand, late 1880s to 1990s | `research/case-studies/chesapeake-fisheries.md`; FC |
+| Rockfish: 1985, five years, 1995; young-of-year 2.0 against 11.0, sixth season | FC; Colden background brief |
+| Shad closure, January 1994 | FC |
+| Crab: 238 million, 2025, since 1990, sixth year | FC; Colden background brief |
+| Menhaden study: 2023, $3 million | FC; SPEC |
+| Petition: 349 pages, April 21, 2026, 1,266 comments, six to two, the three case citations | SPEC; FC |
+| Watershed: 64,000 square miles, six states, 1983 | FC |
+| Tangier: 1770s, a bit over a square mile, eight generations; Smith Island twelve miles north | FC |
+| Tilghman photographs: 2023 and three years later | SPEC |
+| Hudgins: $150 a day, $20 a pint (inside quotations) | FC |
+| Ruth: 60-year decline (inside a quotation) | SPEC; FC |
+| Maryland restoration: five sanctuaries, tripled since 2005 | FC; CV |
+| Norway: fewer people than Virginia; late 1960s; more than thirty years | Current chapter; Ch 4 carries the detail. No ledger row. |
+
+**Result.** No number in either draft disagrees with the ledger. None of the non-ledger numbers was changed from the current chapter, which passed its fact-check in May and June 2026; they were not re-verified against outside sources in this session.
