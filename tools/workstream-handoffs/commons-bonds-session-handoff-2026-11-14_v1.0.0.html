@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>Commons Bonds session handoff 2026-11-14</title>
+<style>body{font-family:Georgia,serif;max-width:46em;margin:2em auto;padding:0 1em;line-height:1.5}h1{font-size:1.5em}h2{font-size:1.15em;margin-top:1.6em}code{font-size:.92em}li{margin:.3em 0}table{border-collapse:collapse}td,th{border:1px solid #999;padding:.3em .6em;text-align:left;vertical-align:top}</style></head><body>
+
+<h1>Session handoff, 2026-11-14: Ch 1 redline done; Ch 5 consolidation next</h1>
+<p><b>Status:</b> internal. Written for the next Claude session and the author. Branch <code>claude/ch1-redline-polish-64keoj</code> is fully merged to <code>main</code> (commit <code>961136f</code> plus this handoff).</p>
+
+<h2>1. What this session did</h2>
+<ul>
+<li>Transcribed the author's November hand redline of Chapter 1 (20 photos of the three annotated print copies) to <code>research/story-drafts/ch1-author-redline_2026-11.md</code>, with his later rulings appended.</li>
+<li>Assembled <code>manuscript/chapters/Chapter__1_TheQuietMath.md</code> from his paragraph labels (pace draft as the assembly copy; 19 swaps to June-redline or dinner-table paragraphs), applied his word marks, and applied his rulings on the open marks.</li>
+<li>Mechanical polish: nine commas, all accepted by him. Contractions left mixed and sentence fragments left in, both by his ruling.</li>
+<li>Figures compared with the June version: unchanged (one repeat of "thirteen hundred hours" gone). The ledger has no Ch 1 entries. Gate shows nothing for Ch 1.</li>
+<li>He ratified; Chapter 1 merged to main. <code>STATE.md</code> updated.</li>
+<li>House style sheet: added rule 6a, his deletion test for asides in commas (file still named v1.0.1; version bump waits for the Ch 5 redline patterns).</li>
+<li>Two PDFs sent in session, not committed: a clean reader copy of Ch 1 for Darity (14 pages) and a final-read copy for the author (19 pages, paragraph numbers, 13 comma flags).</li>
+</ul>
+
+<h2>2. Top priority for the next session: consolidate Chapter 5 from the author's hand redline</h2>
+<p>The author has finished marking Chapter 5 on paper (2026-11-14). Do the consolidation in a new session. Steps, in order:</p>
+<ol>
+<li>Read <code>CLAUDE.md</code>, <code>STATE.md</code>, the house style sheet (<code>tools/drafting-templates/commons_bonds_house-style-sheet_v1.0.1.md</code>, including rule 6a), <code>tools/workstream-handoffs/pull-pass_2026-11/dinner-table-comparison_2026-11.md</code>, and <code>research/story-drafts/ch1-author-redline_2026-11.md</code> as the model for the transcription.</li>
+<li>Ask for photos of <b>every page in order, marked or not</b>, of every copy he wrote on. If a page is missing, ask for it before assembling; do not guess.</li>
+<li>Work out which copy is his assembly copy. In Ch 1 it was the pace draft: an unmarked paragraph stays; a crossed-out paragraph carries a label naming the replacement ("#6 from dinner table draft"). Paragraph numbers are the printed ones; rebuild them from the source files (<code>ch5-rings-redraft_2026-11-10.md</code>, <code>ch5-dinner-table_2026-11.md</code>, and the current <code>manuscript/chapters/Chapter__5_TheAccountabilityGap.md</code>; check which text each print copy was built from in <code>annotated-versions_build_2026-11.py</code>).</li>
+<li>His mark convention (stated 2026-11-13): handwritten words go in at the arrow or caret; printed words stay unless struck; a small arrow with a period ends the sentence there; three lines under a letter make it a capital that starts a sentence. A struck margin note means he rejects the note.</li>
+<li>Save the transcription first, as <code>research/story-drafts/ch5-author-redline_2026-11.md</code>, exactly as he wrote it.</li>
+<li>Zoom into the photo (crop and enlarge) for any mark you are unsure of. Then list, in one batch: marks you cannot read; marks on a paragraph his labels replace; and seams where two versions overlap or repeat once put side by side. Ask him once, with the actual sentences as the options.</li>
+<li>Apply exactly. Do not improve his wording. Decide nothing about content for him: Ch 5's open content questions (the lineage tour in the last third, the stacked objections, Social Security as its own section) are his, and his marks may answer them.</li>
+<li>Check figures against <code>manuscript/ledgers/_CANONICAL_FIGURE_LEDGER.md</code> (Ch 5 has ledger entries and gate patterns; Ch 1 did not). Run <code>tools/scripts/check-corpus-invariants.sh</code>.</li>
+<li>Grammar-and-punctuation polish, mechanical only, every change listed for his veto. Apply rule 6a when judging commas. Leave contractions and deliberate fragments alone unless he says otherwise.</li>
+<li>Commit to a feature branch with <code>MERGE-HOLD</code> until he ratifies; merge to main when he does. Update the Ch 5 lines in <code>STATE.md</code> in the same commit. Then update the style sheet from his actual Ch 5 marks and bump its version.</li>
+</ol>
+
+<h2>3. Open decisions and watch items</h2>
+<ul>
+<li><b>Ch 1 final read:</b> the author has the 19-page read copy. If he sends marks, apply them exactly, then re-make the Darity PDF. The 13 comma flags are questions, and several are his own June sentences.</li>
+<li><b>Ch 1 Darity PDF</b> was built from main at <code>961136f</code>. Rebuild it if the chapter changes. PDFs are not in the repo; the build steps are an HTML page in EB Garamond printed with Playwright (see this session's method in section 5).</li>
+<li><b>Book proposal:</b> the Ch 1 sample copied into the proposal is still the June version; <code>publishing/book-proposal/05_chapter-summaries.md</code> still describes the old Ch 5.</li>
+<li><b>Ch 1 endnote:</b> the income-percentile citation pin is still an HTML comment in the chapter, to be resolved at endnote assembly.</li>
+<li><b>Before the Darity send</b> (TA and Ch 1 in early December; Ch 5 on January 4 to 5, per <code>STATE.md</code>; verify there): the TA items listed in <code>STATE.md</code> (page numbers from <i>From Here to Equality</i>, BP–Mexico source check, changelog check, cover note).</li>
+<li><b>Process lesson from Ch 1:</b> the same edit written on three copies in three forms caused most of the questions. For Ch 5, if his marks repeat across copies, the copy his label points to wins; ask where that leaves words out (as with "each day").</li>
+<li><b>Operating mode:</b> the dated two-session exception in <code>CLAUDE.md</code> expires 2026-11-17 02:30 local. Treat this as one session at a time: close this session before the Ch 5 session starts.</li>
+</ul>
+
+<h2>4. File inventory</h2>
+<table>
+<tr><th>File</th><th>State</th></tr>
+<tr><td><code>manuscript/chapters/Chapter__1_TheQuietMath.md</code></td><td>Author-ratified November redline, on main</td></tr>
+<tr><td><code>research/story-drafts/ch1-author-redline_2026-11.md</code></td><td>Transcription of his marks and all rulings, on main</td></tr>
+<tr><td><code>tools/drafting-templates/commons_bonds_house-style-sheet_v1.0.1.md</code></td><td>Rule 6a added, on main</td></tr>
+<tr><td><code>STATE.md</code></td><td>Ch 1 lines updated, on main</td></tr>
+<tr><td><code>tools/workstream-handoffs/pull-pass_2026-11/</code></td><td>Unchanged: the three versions of Ch 1 and Ch 5, the comparison, the print-copy builder</td></tr>
+<tr><td>Ch 1 Darity PDF; Ch 1 final-read PDF</td><td>Sent in session; not committed</td></tr>
+</table>
+
+<h2>5. Resume instructions for the next Claude instance</h2>
+<p>Start from section 2. Do not redraft anything. Do not resume any paused workflow or June delegation. For the print copies: write a small HTML page from the chapter markdown (strip HTML comments, curly apostrophes, section breaks as centered asterisks), then print to PDF with the pre-installed Playwright Chromium, footer with page numbers; a read copy adds a paragraph-number column and a margin column. Keep every ask to the author short, show him real sentences when asking him to choose, and end with three lines: what got done, what is waiting on him, and the exact paste line for his next session.</p>
+
+</body></html>
