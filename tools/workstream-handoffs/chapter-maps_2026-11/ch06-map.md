@@ -40,7 +40,12 @@ Internal. One page. **Full rebuild.** The current chapter (`manuscript/chapters/
 - The thesis stated three times in the first page; "I will introduce… and then compare"; "This is the chapter's central finding, and it is worth sitting with."
 - The paragraph of direct-air-capture project costs: one sentence, the rest to the notes.
 
-**Open structure calls for the author.**
+**Open structure calls for the author.** *All five answered as of 2026-11-14 (calls 2 to 5 at the start of Session 1, per the two-drafts kickoff). Drafts: `../chapter-redrafts_2026-11/ch06-pace_2026-11-14.md` and `ch06-dinner-table_2026-11-14.md`.*
+- *Call 2: ANSWERED 2026-11-14, yes as recommended (each count once on the ton; Ch 8 keeps the full walk; the same answer governs Ch 8 call 4).*
+- *Call 3: ANSWERED 2026-11-14 in the author's words: "Remember the ten commons categories are not an exhaustive list. They are just a list of examples of types of commons that the book happens to talk about without in any way saying the list is an exhaustive list of all commons." Applied as one paragraph inside the gates section that says so plainly; confirmation of that reading is question 1 in `../chapter-redrafts_2026-11/ch06-notes_2026-11-14.md`.*
+- *Call 4: ANSWERED 2026-11-14, yes as recommended (replacement cost and the foreclosure premium).*
+- *Call 5: ANSWERED 2026-11-14, yes as recommended (the method is theirs; published wording only; longevity figure checked or left out; sentences listed for the cover note).*
+
 1. **The opening. ANSWERED 2026-11-12: open on Prince William Sound, as recommended.** Ch 5's Valdez paragraph keeps its line "and Chapter 6 gives it the full accounting" on the strength of this. **If this opening ever changes, change that line in Ch 5 in the same pass.** *The recommendation was:* Prince William Sound, because the reader arrives from Ch 5 expecting it and because one spill with three bills is the title in a single picture. It needs the public record read in full first (the Trustee Council and the 1991 settlement). Alternative: open on the McDowell ton leaving the mine mouth at the price in the 1960 records.
 2. **Overlap with Ch 8.** Both chapters walk the McDowell ton. *Recommend:* Ch 6 shows each way of counting once on that ton and stops; Ch 8 keeps the full eight-part walk. That removes the three-tier walk here.
 3. **What leaves the back half.** After the table the chapter still owes seven sections of argument. *Recommend:* the ten commons categories shrink to one paragraph inside the gates section, with the list in the appendix; the gates are stated once, plainly, without the naming defenses; the Asymmetric Regret Rule is introduced and handed on. Parfit, Sen and Broome stay whole: this is their home in the book.
