@@ -184,3 +184,10 @@ Readings applied on pages 11–13: B ¶49's colon turned back into a full stop (
 - The first "He did not think anything of it." (end of the compressor scene) cut.
 - Kept as applied: "climb" ending; "for a medical emergency"; "They had already gotten what they needed."; the full-accounting paragraph.
 - **Open:** "each day" (written on the pace and June copies after "came to work," not on the dinner-table copy) is not in the chapter.
+
+## Final rulings (2026-11-14)
+
+- Raise sentence, ratified: "If he pressed for a raise, the company could send him back across that line, out of the country, and away from his family." (His comma rule: an aside between two commas must be removable; now house style sheet rule 6a.)
+- "each day" in: "So he came to work each day, with a smile on his face, and he did the work beautifully."
+- Contractions left as they stand, mixed. Sentence fragments left in.
+- Merged to main on his instruction.
