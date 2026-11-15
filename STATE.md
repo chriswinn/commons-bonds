@@ -42,6 +42,8 @@ the asset; the foreword/publisher question waits until he raises it himself.
 
 ## Book — chapters (verified against git 2026-10-25, per the plan's table)
 
+**Claims check (author's question, 2026-11-15):** the ledger checks numbers; no step had checked whole sentences and non-numeric facts against the project's sources (the BP–Mexico wording slipped through this gap). Method and paste line: `tools/workstream-handoffs/claims-check-kickoff_2026-11-15.md`. **Not yet run on Ch 5, the TA or Ch 1** (all three are with Darity); now also a step in the chapter kickoff.
+
 **Process for Ch 2–4 and 6–10 (author, 2026-11-14):** pace draft and dinner-table draft per chapter, compared on annotated print copies, assembled from his hand redline, one chapter at a time: `tools/workstream-handoffs/chapter-two-drafts-kickoff_2026-11-14.md` (order 2, 10, 4, 3, then 7, 9, 6, 8).
 
 Ch 1 ready; **Ch 2, 3, 4, 10 need only the author's redline**; **Ch 5–9 need a full rebuild first**

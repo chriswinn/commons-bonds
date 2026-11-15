@@ -94,6 +94,11 @@ Chapters that wait on nothing first: **2, 10, 4, 3.** Then **7, 9, 6, 8.** The a
    **Do not touch the chapter in `manuscript/chapters/`.**
 2. A fact table: every number, date, name and quotation in the drafts against its ledger row or source, and a
    script comparison showing B and C carry the same figures and quotations (and the same as A for 2, 3, 4, 10).
+   **Check claims, not only numbers (added 2026-11-15):** follow Steps 1 to 4 of
+   `tools/workstream-handoffs/claims-check-kickoff_2026-11-15.md` on draft B. Every factual statement, with or
+   without a number, is compared as a whole sentence with what the project's sources say (the ledger, the full
+   bibliography including uncited sources, the case studies and citation notes), and given a status. List every
+   row that is not SUPPORTED for the author before he reads the drafts.
 3. Short change notes: map calls applied; what was protected; marked gaps; word counts of each version.
 4. One strongest-critic read of draft B, run once: where a hostile but fair reader would stop, as questions for
    the author, seven at most.
@@ -138,7 +143,7 @@ two redline records as the model. In short:
    his labels replace; seams where two versions repeat or no longer connect. His questions written in the margin
    are questions to answer, not edits to make.
 4. Apply exactly. Do not improve his wording. Decide nothing about content for him.
-5. Check every number against the ledger and against the version already checked; run the gate.
+5. Check every number against the ledger and against the version already checked; run the gate. Any sentence his redline adds or changes that states a fact gets the same claims check (whole sentence against the source), and anything not supported is shown to him before ratification.
 6. Grammar-and-punctuation polish, mechanical only, every change listed for his veto. Rule 6a for commas.
    Contractions and deliberate fragments stay.
 7. Commit on the feature branch with `MERGE-HOLD` until he ratifies. On his word: archive the old chapter,
