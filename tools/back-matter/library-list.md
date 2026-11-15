@@ -46,7 +46,7 @@ Reports the "Settles" column refers to: **TA** = `tools/audits/claims-check_tech
 | L8 | Schneider and McCumber, *An Air That Kills* (Putnam, 2004) | Index or chapters on daily life in Libby: oxygen tanks, funerals, the running track, dust carried home; the internal Grace documents; any lobbying against asbestos rules | Ch 5 item 12; TA §11.3 (what the company knew). The likeliest source for the Libby scenes; not confirmed. | You cut the grocery-cart, funeral and lobbying sentences | Re-tested 2026-11-15: no open copy. **Borrow online:** archive.org lends it (item `airthatkillshowa00schn`). A lead a session can read instead: the authors' 1999 newspaper series ("Uncivil Action," *Seattle Post-Intelligencer*) and the PBS page on how the story broke (archive.pov.org/libbymontana/breaking-the-story, reachable); neither read yet. |
 | L9 | Negrusa, Negrusa and Hosek, "Gone to War: Have Deployments Increased Divorces?" *Journal of Population Economics* 27(2) (2014): 473–496. DOI 10.1007/s00148-013-0485-5 | The whole PDF | TA Definition 1.10 (the 462,000 and the pre-2001 result) | You accept the university summary, which confirms both and adds that length of marriage was not controlled | Publisher: paywall. RAND: no PDF. RePEc: subscribers only. Summary read (reachfamilies.umn.edu). |
 | L11 | Christophers, *The Price Is Wrong* (Verso, 2024) | Introduction: the pages that state the thesis | Ch 5 item 11; decisions log 002 | You cut the one sentence describing his work | Re-tested 2026-11-15: no excerpt of the introduction found (search); reviews and catalogue summaries only ("not that transitioning to renewables is too expensive, but that saving the planet is not sufficiently profitable"). Internet Archive: only an unofficial upload, not used. Still needs you. |
-| L12 | *Daily Press* (Newport News and Hampton): obituary and any retirement notice for Lavern E. Winn. **Ask your father first; he may simply know.** Hampton Public Library holds the paper. | Year of death; when he started at Langley (NACA or NASA); job title; year of retirement | Ch 1 item 8 (line 62); also the project's two death years | Your father answers it | Chapter 1 session: web search, nothing; NASA Langley history pages, no newsletter archive; newspaper archives are subscription. The National Archives in Philadelphia holds the Langley newsletters (a records request, not a library visit). |
+| L12 | *Daily Press* (Newport News and Hampton): obituary and any retirement notice for Lavern E. Winn. **Ask your father first; he may simply know.** Hampton Public Library holds the paper. | Year of death; when he started at Langley (NACA or NASA); job title; year of retirement | Ch 1 item 8 (line 62); also the project's two death years | Your father answers it | Chapter 1 session: web search, nothing; NASA Langley history pages, no newsletter archive; newspaper archives are subscription. The National Archives in Philadelphia holds the Langley newsletters (a records request, not a library visit). **Not re-tested by either session's second pass:** a web search would send a family member's name to outside services again; say if you want that done. |
 
 **Lower priority: take these only if you are already there.**
 
@@ -59,8 +59,8 @@ Reports the "Settles" column refers to: **TA** = `tools/audits/claims-check_tech
 | L18 | Costanza and Perrings, "A flexible assurance bonding system for improved environmental management," *Ecological Economics* 2(1) (1990): **57–75**. DOI 10.1016/0921-8009(90)90013-K | The whole PDF | Ch 5 line 172; TA §14.8 | The quotation already matches the published abstract; this only upgrades "abstract" to "read" |
 | L19 | Zhou and Ge (2021), *The Extractive Industries and Society* 8(1): 340–354, DOI 10.1016/j.exis.2020.11.010; Zhang, Zhang, Peng, Feng, Fang and Chen (2022), *Science of the Total Environment* 831: 154934, DOI 10.1016/j.scitotenv.2022.154934 | The two PDFs | Ch 5 line 138 | **Both confirmed to exist, 2026-11-15** (titles in `research/citations/library-retest_2026-11-15.md`). The publisher refuses sessions both ways, so the PDFs still need you. The 2022 paper is about who consumes the output, not about waste; skip both if you cut or reword the sentence. |
 | L20 | Fraser, "Expropriation and Exploitation in Racialized Capitalism," *Critical Historical Studies* (2016) | The PDF | Ch 5 item 3, second source | Skip if you have L6 Re-tested 2026-11-15: confirmed (DOI 10.1086/685814, *Critical Historical Studies* 3(1): 163–178); the journal refuses sessions both ways. |
-| L21 | Keefe, *Empire of Pain* (2021) | Any passage saying Purdue targeted particular kinds of communities; any mention of McDowell County | TA §6.7 | Skip if you take the report's rewording, which needs no source |
-| L22 | Rawls, *Justice as Fairness* (Harvard, 2001), pp. 159–160 | The same savings-principle sentence | TA §14.4 | Only if L3 is unavailable |
+| L21 | Keefe, *Empire of Pain* (2021) | Any passage saying Purdue targeted particular kinds of communities; any mention of McDowell County | TA §6.7 | Skip if you take the report's rewording, which needs no source Checked 2026-11-15: only an unofficial upload online. |
+| L22 | Rawls, *Justice as Fairness* (Harvard, 2001), pp. 159–160 | The same savings-principle sentence | TA §14.4 | Only if L3 is unavailable Checked 2026-11-15: archive.org scan is print-disabled only. |
 
 ## Part 2. No library needed: free pages that turn away sessions (any browser at home)
 
@@ -75,13 +75,11 @@ Open, save as PDF, attach. A few minutes each.
 
 ## Part 3. A session can read these: nothing for you to do
 
-Tested reachable on 2026-11-15; a session reads them and updates the reports. **Pistor, *The Code of Capital*,
-chapter one** (an open copy at wid.world, found by the Chapter 5 session; this replaces an earlier request to
-you for the book; if the open chapter lacks the passage on the four attributes, it comes back to Part 1).
-**GAO-18-351** (the fetch tool opens gao.gov reports; a direct download does not). Hamilton et al., *Umbrellas
+Tested reachable on 2026-11-15; a session reads them and updates the reports. Hamilton et al., *Umbrellas
 Don't Make It Rain*; Fraser, "Behind Marx's Hidden Abode"; Fanning and Hickel 2023; NOAA's 2007 herring
 synthesis; the New York Attorney General's 2009 bonus report; Jonung (1981) on Sweden and the United States in
-the Depression; the Riksbank's history, 1914–1945; Mian, Rao and Sufi (NBER working paper).
+the Depression; the Riksbank's history, 1914–1945; Mian, Rao and Sufi (NBER working paper); TEEB 2010 (the
+PDF is linked from teebweb.org).
 
 ## Part 4. Done (no longer needed from you)
 
@@ -115,6 +113,20 @@ the Depression; the Riksbank's history, 1914–1945; Mian, Rao and Sufi (NBER wo
     appendix's figure was not found in it); Realmonte et al. (2019) (read in part; the appendix's range not
     found as such).
 
+- **Second re-test the same day, by the first appendix session** (quotations in
+  `research/citations/library-retest-2_extracts_2026-11-15.md`):
+  - **Pistor, *The Code of Capital*, chapter 1** (was Part 3): read from the open chapter at wid.world. It has
+    both passages. Her modules are "contract law, property rights, collateral law, trust, corporate, and
+    bankruptcy law"; the four attributes are as Chapter 5 gives them. Nothing needed from you.
+  - **GAO-18-351** (was Part 3): summary page read. Borrowing "almost every year since 1979"; "about $6.5
+    billion was forgiven"; borrowing "may exceed $15 billion by 2050."
+  - **Epstein et al. (2011)** and **Muller, Mendelsohn and Nordhaus (2011)** (were "refused" in Part 5): open
+    copies found by search and read for the passages the appendix uses. Both support its wording.
+  - **Naik et al. (2017), a caution on the earlier "supported":** the 694 are residents who died of a cause
+    that asbestos can produce (lung cancer and chronic lung disease included), not deaths shown to be caused
+    by it. For chronic lung disease the paper expects 156 of the 187 anyway. TA §11.3 multiplies all 694 by a
+    value of life. See the extracts note.
+
 ## Part 5. Not yet fully tried: do not fetch these
 
 A session works this queue and promotes to Part 1 only what truly fails. Worked in part on 2026-11-15; what
@@ -124,17 +136,20 @@ was read moved to Part 4.
 repository's copy).** None is asked of you yet.
 - Weitzman (1998, 2001): the author's Harvard page returned 403 to a plain request.
 - Broome (1994): the address tried on the author's Oxford page returned "not found." Broome (1992, 2012): untried.
-- Epstein et al. (2011): the journal returned 403. Muller, Mendelsohn and Nordhaus (2011): the journal returned 403.
 - Keith et al. (2018); House et al. (2011); Asare et al. (2023); Blackley, Halldin and Laney (2018): each journal returned 403 to a plain request.
 - Hartwick (1977): the working-paper address tried did not respond.
 
 **Untried.**
 - Hotelling (1931); Gerard (2000); El Serafy (1989); Mudliar and Koontz (2021); Balboa (2016); Pindyck (1978);
-  Dasgupta and Heal (1979); Mussa and Rosen (1978); Slade and Thille (2009); Spence (1976); Rosen (1974);
+  Mussa and Rosen (1978); Slade and Thille (2009); Spence (1976); Rosen (1974);
   Viscusi (1993).
-- Sen (1985, 1999); Nussbaum (2000); Parfit (1984), Part IV; Savage (1954); Lewis (1973); Hicks (1939); Kaldor
-  (1939); Mishan (1971); Samuelson (1948); Bockstael and McConnell (2007).
-- TEEB (2010, 2018).
+- Kaldor (1939); Samuelson (1948); Sen (1999); TEEB (2018).
+
+**Books named only in lists of related work. Nothing in the book rides on a page of them; do not fetch unless
+you decide to quote one.** Lending status at archive.org, checked 2026-11-15: borrowable online: Savage
+(1954); Hicks, *Value and Capital* (1961 and 1965 printings); Broome (1992); Sen (1985); Parfit (1984). Scans
+for print-disabled readers only: Nussbaum (2000); Lewis (1973); Mishan; Bockstael and McConnell (2007); Broome
+(2012); Dasgupta and Heal (1979).
 
 ## Old numbers, for anything that refers to them
 
@@ -147,6 +162,7 @@ repository's copy).** None is asked of you yet.
 
 ## Changes log
 
+- **2026-11-15, second re-test (first appendix session; the same request reached two sessions).** Its results were folded into the other session's: Pistor chapter 1 and GAO-18-351 read and moved from Part 3 to Done; Epstein et al. and Muller et al. read from open copies; a caution added on the Naik figure; lending status recorded for the lineage-only books, which are set aside as not worth a fetch; L12 marked as deliberately not searched. Sites that refuse automated visitors were tested with the fetch tool only; a download posing as a browser was declined by the session's permission system and was not retried.
 - **2026-11-15, re-test of the Chapter 5 and Chapter 1 items (L6–L8, L10–L17, L19–L20, H1–H8) and a first pass at Part 5.** Removed as answered: H2, H4, H6, H7, L10, L15 (six fewer things for the author). Confirmed to exist: both L19 papers. Borrow-online status added for L7, L8, L13. Still with the author after every route: L6, L11, L20, H1, H3, H5 (and H8, optional). Part 5: six works read, nine tried by one route only, the rest untried. 20 library items (11 that matter, 9 lower), 4 home-browser items.
 - **2026-11-15, merge.** The three lists became this one, on the author's instruction. Removed as done:
   Nordhaus 2007 and Daly 1990 (both had been asked of him in two files). Pistor moved from "needs a library"

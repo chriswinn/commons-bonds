@@ -43,6 +43,10 @@ commit message. Nothing here changes a source file by itself.
   yet. Report: `tools/audits/claims-check_technical-appendix_2026-11-15.md`, Part 6.
 - **Second session (2026-11-15, §11 to §17), still OPEN.** No sentence in §11 to §17 needs her or contradicts her. §15.2.2, where the appendix says what kind of instrument the Foreclosure Bond is, is the only other place a clause could sit; §14 alone is still the recommendation. Unchanged: **ADD in §14 only, after reading.**
 
+- **Update (2026-11-15, later).** Chapter 1 has now been read (open sample chapter at wid.world). Her modules:
+  "contract law, property rights, collateral law, trust, corporate, and bankruptcy law." Her four attributes are
+  as Chapter 5 gives them. The §14 entry can be written from her text; ready for the author's ruling.
+
 ### 002. Christophers, *The Price Is Wrong* (2024): should the appendix cite it? **OPEN**
 
 - **Facts.** In the bibliography (listed twice). Cited in Chapters 5, 9 and 10. Not in the appendix. Chapter 5

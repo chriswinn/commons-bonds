@@ -632,6 +632,15 @@ The table rows below are left as first written; this is the correction to each.
 
 Counts for §11 to §17 after this addendum: 67 supported of 182 (was 65).
 
+### Addendum 5: second library-list re-test, three results that change findings (2026-11-15)
+
+Quotations: `research/citations/library-retest-2_extracts_2026-11-15.md`.
+
+- **Libby's 694 deaths (§11.3, §9.5).** Naik et al. was read in full. The 694 are residents who died with "at least one asbestos-related cause of death," a set that includes lung cancer and chronic lung disease; the paper itself expects most of those deaths in any population (156 of the 187 from chronic lung disease). The appendix multiplies all 694 by a value of life to reach $5.1–7.6 billion. The count is the paper's; the mortality head built on it **says more than the source**. Options: use the paper's excess deaths, cause by cause; or keep 694 as "deaths from asbestos-related causes" and drop the dollar figure. This is a new item for the author's ruling, in §11 (it also sits in the §9.5 table checked here). Addendum 4's "supported" covers the number only.
+- **Pistor (decisions log 001).** Chapter 1 read. Her modules: "contract law, property rights, collateral law, trust, corporate, and bankruptcy law." Her attributes: priority, durability, universality, convertibility. The appendix entry recommended in Part 6 can now be written from her text, and the Chapter 5 finding on her modules is confirmed against the book.
+- **Epstein et al. and Muller et al.** Both read at the passages the appendix uses; both support its wording. Epstein's own low estimate is $175 billion, under "a third of a trillion," though the abstract uses that phrase.
+- **Who paid (item 1).** GAO-18-351, read: "about $6.5 billion was forgiven," and "the costs associated with forgiving Trust Fund interest or debt would be paid by taxpayers."
+
 ---
 
 ## 7. Errors found in the project's own records (not corrected here)

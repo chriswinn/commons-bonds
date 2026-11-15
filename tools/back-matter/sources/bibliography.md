@@ -1327,6 +1327,7 @@ words are in `research/citations/library-retest_2026-11-15.md`. None is in the w
 
 ### Changes log for this section
 
+- **2026-11-15. Standing updates from the second library-list re-test** (no new entries; none moved): Pistor, *The Code of Capital*, chapter 1, read from the open sample chapter; Naik et al. 2017 read in full, with a caution on what its 694 counts; Epstein et al. 2011 and Muller, Mendelsohn and Nordhaus 2011 read at the passages used; GAO-18-351 summary read. Extracts: `research/citations/library-retest-2_extracts_2026-11-15.md`. One slip noted there in the §10 Blackley entry.
 - **2026-11-15. Added the library-list re-test batch** above (six entries and a line updating the standing of eight already listed). Nothing was moved into the working bibliography.
 - **2026-11-15. Standing updated: Daly 1990** is now read in full. Not moved. A library list for what sessions cannot reach was started at `tools/back-matter/library-list.md`.
 - **2026-11-15. Added a third Technical Appendix batch** above (the web checks run after the author allowed direct downloads) and corrected the Nordhaus 2007 entry, which is now identified and read in part. Nothing moved.
