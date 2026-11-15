@@ -175,6 +175,42 @@ commit message. Nothing here changes a source file by itself.
   disagree with the appendix by one word, which only the 1978 chapter can settle.
 - **Recommendation: KEEP OUT** all of them. Cite Barry 1978 and Daly 1990 and 1995 once read (entries 004, 005).
 
+### 013. Web reproductions of Ostrom's Table 3.1. **OPEN**
+
+- **Facts.** The appendix claims check (2026-11-15) marked the wording of Ostrom's third design principle
+  (TA Definition 1.10) SUPPORTED on two web reproductions and a library record that gives "Table 3.1, p. 90."
+  None was opened, and the book was not opened.
+- **Reasoning.** The book is already in the bibliography and is the only thing to cite. The reproductions agree
+  with each other, which is why the row was marked supported, but other summaries found in the same search
+  paraphrase the principle more loosely. The 2026-11-11 session also asked for the page to be checked in the
+  author's copy.
+- **Recommendation: KEEP OUT** all three. Confirm the wording and page 90 in the book, and treat the row as
+  resting on secondary copies until then.
+
+### 014. Encyclopedia, blog and report pages used for Barry, Rawls and the discount rates. **OPEN**
+
+- **Facts.** The check opened the Stanford Encyclopedia's entry on intergenerational justice, and saw through
+  search a blog reading of Rawls's §44 to §45, a Global Priorities Institute talk, a Boston University report
+  on the Stern Review debate, an NBER working paper and a Resources for the Future commentary.
+- **Reasoning.** Each summarizes a primary text the appendix already names: Rawls 1971, the Stern Review,
+  Nordhaus. They raised three flags (which edition of Rawls the just-savings wording comes from; Stern's 1.4
+  percent; no source for Nordhaus at 5.5 percent). None settles one.
+- **Recommendation: KEEP OUT** all of them. Settle each point from the primary text. The one secondary work
+  worth reading for the Rawls point is Picchio 2024 (tentative list), and only as a guide to the editions.
+
+### 015. Secondary accounts of the black-lung total and the trust fund's debt. **OPEN**
+
+- **Facts.** For TA §11.6 the check saw, through search: ethosrisk.com and the National Academy of Social
+  Insurance ("over $47 billion" since 1970); an NPR report ("more than $6 billion in debt"); an Appalachian
+  Voices report (February 2024); and, from the Chapter 5 check, Wyoming Public Media ("about $6.5 billion").
+- **Reasoning.** The total has a primary source now: the Labor Department's chart for fiscal 1970 to 2009
+  ($44.2 billion). The debt has one too, the Treasury's statement for the trust fund, which no session has
+  yet read. The secondary accounts give three different debt figures for nearly the same date.
+- **Recommendation: KEEP OUT** ethosrisk.com, the NPR report, the Appalachian Voices report and Wyoming Public
+  Media as sources for these two figures. **Hold** the National Academy of Social Insurance paper on the
+  tentative list: it may be the best citable later total, and it has not been opened. Cite the Labor
+  Department chart and, once read, the Treasury statement.
+
 ---
 
 ## Ruled entries
