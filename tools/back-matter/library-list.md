@@ -1,69 +1,134 @@
-# Library list: sources only the author can get (running)
+# Library list: sources only the author can get (the one running list)
 
-**Status:** internal; started 2026-11-15 on the author's instruction. One list for the whole book.
-**Three lists exist as of 2026-11-15 and should become one.** The author's request reached several sessions at once, and each started a file: this one (the Technical Appendix), `research/citations/library-search-list.md` and `tools/workstream-handoffs/library-search-list.md` (the chapter checks). Until a session merges them, read all three. Recommended home: this file.
-**Rule for sessions.** An item goes in Part 1 only after a session has tried every route below and written
-down what happened. "Could not reach" from one failed fetch does not qualify
-(`tools/memory/feedback_ask_for_access_do_not_conclude.md`). Anything not yet tried goes in Part 3, and the
-author is asked to leave Part 3 alone until a session has worked it.
+**Status:** internal; started 2026-11-15 on the author's instruction. **This is the single list for the whole
+book.** On 2026-11-15 three sessions each started one; they were merged here the same day. The two other files
+(`research/citations/library-search-list.md`, `tools/workstream-handoffs/library-search-list.md`) now only
+point here. Old item numbers are mapped at the end.
 
-Routes a session must try first: the publisher's or journal's own page; a working-paper or preprint version
-(NBER, SSRN, RePEc, the author's own site); an institutional repository; PubMed Central; Google Books or the
-publisher's preview for a single page; a plain request when the fetch tool refuses a site; the Internet
-Archive's availability check.
+**Rule for sessions.** An item goes in Part 1 or Part 2 only after a session has tried every route and
+written down what happened: the fetch tool; a direct download; the publisher's page; a working paper or
+preprint (NBER, SSRN, RePEc, the author's own site); a repository; a preview for a single page; the Internet
+Archive's catalogue. "Could not reach" from one failed fetch does not qualify
+(`tools/memory/feedback_ask_for_access_do_not_conclude.md`). Anything not yet tried goes in Part 5. Sessions do
+not use unofficial uploads of books.
 
 ## How to hand a source back
 
-1. **A PDF is best.** Upload it in the chat of the session you are working in. A library web address is not
-   enough: it runs through the library's login and a session cannot open it. Do send the article's DOI or
-   stable address as well, as a record of where it came from.
-2. **For a book, photographs are enough.** Take the title page, the copyright page (it settles the edition and
-   year), and the pages named below with one page either side. A phone photo that is readable is fine.
-3. **Say which item it answers** ("item 2, Barry p. 243"). One line.
-4. **What the session then does:** reads it, copies the exact sentence with its page number into a
-   verification note under `research/citations/`, updates the claims-check row, the tentative list and this
-   file, and moves the item to Part 4. The session does not commit the PDF or the photographs to the
-   repository; only the quotation, the page and the citation go in. Keep your own copy.
-5. **If the library does not have it,** tell the session; ask the librarian about interlibrary loan for the
-   one chapter or article. Each item below says how many pages are actually needed.
+1. **An article: download the PDF at the library and attach it to your message in the session.** A link to a
+   library database is no use to a session; it sits behind your login. Paste the DOI as a record.
+2. **A book: photograph the title page, the copyright page (it fixes the edition), and the pages asked for,**
+   with one page either side and the page number in the frame. Sharp phone photos are fine. If the library has
+   the e-book, copying the passage as text with its page number is quicker still.
+3. **A free page that turns away automated visitors (Part 2):** open it at home, save it as a PDF, attach it.
+4. **Say which item each file answers** ("L2, Barry p. 243"). One or two items per message is easiest.
+5. **What the session does:** reads it, writes the exact words with page and edition into a note under
+   `research/citations/`, closes the claims-check row, and moves the item to Part 4. **Nothing copyrighted is
+   committed to the repository**; only short quotations go in. Keep your own copy.
+6. **If the library does not hold it,** say so; ask about interlibrary loan for the one chapter or article.
+7. **Skip any item whose sentence you decide to cut.** Each item says what it settles and when to skip it.
+8. **Two ways to avoid a trip.** Items marked "borrow online" can be read at archive.org with a free account
+   (one-hour loans). Your school library's website may also give you the journal articles from home.
 
-## Part 1. Confirmed: needs a library (every route tried)
+Reports the "Settles" column refers to: **TA** = `tools/audits/claims-check_technical-appendix_2026-11-15.md`;
+**Ch 5** = `tools/audits/claims-check_chapter-5_2026-11-15.md`; **Ch 1** = `tools/audits/claims-check_chapter-1_2026-11-15.md`.
 
-| # | What to find | Exactly what is needed | Why (where it is used) | Routes tried, and what happened |
+## Part 1. Needs a library (confirmed; ordered by how much rides on it)
+
+| # | Source | Exactly what to copy | Settles | Skip if | What was tried |
+|---|---|---|---|---|---|
+| L1 | Darity and Mullen, *From Here to Equality* (UNC Press). Say which edition you have: 2020 or the 2022 second edition. **You may own this.** | (a) pages 1–5, to find the page with "a program of acknowledgment, redress, and closure for a grievous injustice"; (b) whether "Redress is the act of restitution…" is in the book, and where; (c) the chapter that computes the bill: the pages that say what the sum is based on, and any passage on life expectancy, lost knowledge or trauma as things priced; (d) the three page numbers Chapter 5 still owes (STATE.md, open to-dos). | TA §5.1.1 ("2020, 2–4," unconfirmed); Ch 5 item 2 | Never: Darity is the reader | Internet Archive: scan of the 2022 edition, for print-disabled readers only, not lendable. No open preview found. |
+| L2 | Barry, "Circumstances of Justice and Future Generations," in R. I. Sikora and Brian Barry (eds.), *Obligations to Future Generations* (Temple University Press, 1978; reprinted White Horse Press, 2012), pp. 204–248 | **Page 243** and the page either side. The exact sentence about "the overall range of opportunities open to" later generations; is the word "successor" or "successive"? | TA §14.4; decisions log 005 | You cut the Barry sentence | Publisher: no open copy. JSTOR: would not load. Two secondary articles credit p. 243. **Borrow online:** archive.org lends its scan (item `obligationstofut0000unse`); its text search is closed to sessions. |
+| L3 | Rawls, *Political Liberalism* (Columbia University Press, 1993; note your printing) | **Page 274** with its footnote: the savings principle each generation "would want preceding generations to have followed" | TA §14.4, which quotes this under "Rawls (1971)"; decisions log 017 | You reword §14.4 to quote nothing | No open copy. **Borrow online:** archive.org lends the 1996 paperback (item `politicalliberal0000john`); check the page in that printing. |
+| L4 | Rawls, *A Theory of Justice*, **1971 edition** (say if yours is the 1999 revision) | §44 and §45: the opening page of each and the passage in §45 on pure time preference. About six pages. | TA §14.4, "(Rawls 1971, §45)" | Same as L3 | No open copy. Internet Archive scans of 1971: print-disabled only. |
+| L5 | Ostrom, *Governing the Commons* (Cambridge University Press, 1990) | **Page 90, Table 3.1**, all eight principles | TA Definition 1.10, §14.5; decisions log 013 | Never, but low effort: one page | No lawful open copy. Internet Archive: print-disabled only. Now supported only by web copies. |
+| L6 | Fraser, *Cannibal Capitalism* (Verso, 2022) | Chapter 2, the opening pages defining exploitation and expropriation; any page applying "expropriation" to care work or to nature | Ch 5 item 3 | You adopt the replacement sentence as "to be checked" | Chapter 5 session, 2026-11-15: book; Internet Archive lending-only. |
+| L7 | Eichengreen, *Golden Fetters* (Oxford, 1992) **and** Kindleberger, *The World in Depression, 1929–1939* (1973 or 1986) | Index entries for Sweden in each: leaving gold in 1931, the recovery, the bank rescue, public works; anything on mortgages or relief of household debt | Ch 5 item 6 | You cut the mortgage sentence and "the scholars… treat Sweden as standing proof" | Chapter 5 session: books; lending-only. |
+| L8 | Schneider and McCumber, *An Air That Kills* (Putnam, 2004) | Index or chapters on daily life in Libby: oxygen tanks, funerals, the running track, dust carried home; the internal Grace documents; any lobbying against asbestos rules | Ch 5 item 12; TA §11.3 (what the company knew). The likeliest source for the Libby scenes; not confirmed. | You cut the grocery-cart, funeral and lobbying sentences | Chapter 5 session: book; lending-only. |
+| L9 | Negrusa, Negrusa and Hosek, "Gone to War: Have Deployments Increased Divorces?" *Journal of Population Economics* 27(2) (2014): 473–496. DOI 10.1007/s00148-013-0485-5 | The whole PDF | TA Definition 1.10 (the 462,000 and the pre-2001 result) | You accept the university summary, which confirms both and adds that length of marriage was not controlled | Publisher: paywall. RAND: no PDF. RePEc: subscribers only. Summary read (reachfamilies.umn.edu). |
+| L10 | Panjwani and Xiong, on names and crowdfunding, *Journal of Economic Behavior & Organization* 205 (2023): 648–667 | The whole PDF | Ch 5 item 10 (the surname sentence) | You use the Saleh sentence instead | Chapter 5 session: paywalled. |
+| L11 | Christophers, *The Price Is Wrong* (Verso, 2024) | Introduction: the pages that state the thesis | Ch 5 item 11; decisions log 002 | You cut the one sentence describing his work | Chapter 5 session: book. |
+| L12 | *Daily Press* (Newport News and Hampton): obituary and any retirement notice for Lavern E. Winn. **Ask your father first; he may simply know.** Hampton Public Library holds the paper. | Year of death; when he started at Langley (NACA or NASA); job title; year of retirement | Ch 1 item 8 (line 62); also the project's two death years | Your father answers it | Chapter 1 session: web search, nothing; NASA Langley history pages, no newsletter archive; newspaper archives are subscription. The National Archives in Philadelphia holds the Langley newsletters (a records request, not a library visit). |
+
+**Lower priority: take these only if you are already there.**
+
+| # | Source | What to copy | Settles | Note |
 |---|---|---|---|---|
-| 2 | Barry, Brian. "Circumstances of Justice and Future Generations." In R. I. Sikora and Brian Barry (eds.), *Obligations to Future Generations* (Temple University Press, 1978; reprinted White Horse Press, 2012, ISBN 978-1-874267-31-7), pp. 204–248. | **Page 243** and the page either side, plus title and copyright pages. The question: the exact sentence about "the overall range of opportunities open to" later generations, and whether the word is "successor" or "successive." | TA §14.4, "Brian Barry (later) sharpened it." Decisions log 005: add if confirmed, cut the sentence if not. | Publisher's page: no open copy, points to JSTOR. JSTOR's book page: would not load for a session. **Correction 2026-11-15:** the Internet Archive does hold a scan (item `obligationstofut0000unse`) and lends it: **you can borrow it online** at archive.org with a free account (one-hour loans), which may save the trip. Its text search is closed to sessions. Stanford Encyclopedia entry: read, does not carry the sentence. Two secondary articles credit it to p. 243. |
-| 3 | Rawls, John. *Political Liberalism* (Columbia University Press, 1993). | **Page 274** with its footnote 12, plus title and copyright pages (the paperback and expanded editions may paginate differently; note which you have). The sentence on the savings principle that each generation "would want preceding generations to have followed." | TA §14.4 quotes this wording under "Rawls (1971)." Decisions log 017. | Not online in any open copy found. **Borrow online:** archive.org lends the 1996 paperback (item `politicalliberal0000john`); check that p. 274 carries the sentence in that printing. Page number is from the Stanford Encyclopedia entry (read). |
-| 4 | Rawls, John. *A Theory of Justice* (Harvard University Press, 1971; say if yours is the 1999 revised edition). | §44 and §45: the opening page of each, and the passage in §45 rejecting pure time preference. About six pages. | TA §14.4 cites "(Rawls 1971, §45)." The encyclopedia gives a page (263), not a section, so the section number is unconfirmed. | Not online in any open copy found. The Internet Archive's scans of the 1971 edition are for print-disabled readers only and cannot be borrowed. |
-| 5 | Ostrom, Elinor. *Governing the Commons* (Cambridge University Press, 1990). | **Page 90, Table 3.1** (all eight principles), plus title and copyright pages. | TA Definition 1.10 and §14.5 rest on the exact wording of the third principle; it is now supported only by web copies (decisions log 013). | Promoted from Part 3 on 2026-11-15. No lawful open copy found by search. Internet Archive: the scan of this edition is for print-disabled readers only, not lendable; its text search is closed to sessions. |
-| 6 | Darity and Mullen, *From Here to Equality* (UNC Press; say whether yours is 2020 or the 2022 second edition). You may own this. | **Pages 1–5**, plus title and copyright pages. Two questions: on which page is "a program of acknowledgment, redress, and closure for a grievous injustice"; and is the sentence "Redress is the act of restitution…" in the book? Chapter 5 still owes three page numbers from this book (STATE.md, open to-dos); do them in the same sitting. | TA §5.1.1 cites "2020, 2–4," unconfirmed. | Promoted from Part 3. Internet Archive: scan of the 2022 edition, print-disabled only. No open preview found. |
-| 7 | Pistor, Katharina. *The Code of Capital* (Princeton University Press, 2019). | **Chapter 1**: the passage that lists the legal "modules," and the passage on the attributes of capital (priority, durability, universality, convertibility). | Chapter 5's account of both was flagged, and decisions log 001 waits on it. | Promoted from Part 3. Not on the Internet Archive; no open copy found. |
-| 8 | Negrusa, Negrusa and Hosek, "Gone to War: Have Deployments Increased Divorces?" *Journal of Population Economics* 27, no. 2 (2014): 473–496. DOI 10.1007/s00148-013-0485-5. | The whole PDF. | TA Definition 1.10 cites its sample and its pre-2001 result. A university research summary (read) confirms 462,444 members and the result, and adds a caution the appendix lacks: length of marriage was not controlled. | Promoted from Part 3. Publisher: paywall. RAND's page: no PDF. RePEc: subscribers only. Summary read at reachfamilies.umn.edu. |
+| L13 | Polanyi, *The Great Transformation* | Chapter 6, the pages on labor, land and money as fictitious commodities | Ch 5 line 188 | Skip if you cut "Money is a token of trust" |
+| L14 | Sandel, *What Money Can't Buy* (2012) | Introduction; the passage on fines and fees | Ch 5 line 182 | Low risk |
+| L15 | Kapp, *The Social Costs of Private Enterprise* (1950) | Title and copyright pages; the opening pages stating the thesis | Ch 5 line 170; bibliography entry | Low risk |
+| L16 | Gawande, *Being Mortal* (2014) | Passages on how doctors are paid, palliative care, training | Ch 5 line 18 | Low risk; the project's note may suffice |
+| L17 | Mian and Sufi, *House of Debt* (2014) | Chapter 2, the pages on who lost the most | Ch 5 lines 86–88 | Low risk |
+| L18 | Costanza and Perrings, "A flexible assurance bonding system for improved environmental management," *Ecological Economics* 2(1) (1990): **57–75**. DOI 10.1016/0921-8009(90)90013-K | The whole PDF | Ch 5 line 172; TA §14.8 | The quotation already matches the published abstract; this only upgrades "abstract" to "read" |
+| L19 | Zhou and Ge (2021), *Extractive Industries and Society* 8(1): 340–354; "Zhang et al. 2022," *Science of the Total Environment* | Confirm each exists; the PDFs | Ch 5 line 138 | Skip if you cut the sentence naming them |
+| L20 | Fraser, "Expropriation and Exploitation in Racialized Capitalism," *Critical Historical Studies* (2016) | The PDF | Ch 5 item 3, second source | Skip if you have L6 |
+| L21 | Keefe, *Empire of Pain* (2021) | Any passage saying Purdue targeted particular kinds of communities; any mention of McDowell County | TA §6.7 | Skip if you take the report's rewording, which needs no source |
+| L22 | Rawls, *Justice as Fairness* (Harvard, 2001), pp. 159–160 | The same savings-principle sentence | TA §14.4 | Only if L3 is unavailable |
 
-## Part 2. Would help if you are already there (lower priority)
+## Part 2. No library needed: free pages that turn away sessions (any browser at home)
 
-| # | What | What is needed | Why |
-|---|---|---|---|
-| B | Rawls, *Justice as Fairness* (Harvard University Press, 2001), pp. 159–160 | The same savings-principle sentence. | Needed only if item 3 is unavailable. |
-| C | Keefe, *Empire of Pain* (2021) | Any passage saying Purdue targeted particular kinds of communities, and any mention of McDowell County. | Only if you want to keep TA §6.7's sentence as it is; the report's suggested rewording needs no source. Not on the Internet Archive as a lendable scan. |
-| D | Costanza and Perrings, "A flexible assurance bonding system for improved environmental management," *Ecological Economics* 2, no. 1 (1990): 57–75. DOI 10.1016/0921-8009(90)90013-K | The whole PDF. | TA §14.8 and Chapter 5. The quotation already matches the published abstract, so this only upgrades "abstract" to "read." Publisher: paywall; no copy on the author's site. |
+Open, save as PDF, attach. A few minutes each.
 
-## Part 3. Not on the list yet: a session must try these first
+| # | What to open | What is needed | Settles | What was tried |
+|---|---|---|---|---|
+| H1 | Congressional Budget Office, *The Distribution of Household Income, 2018* (cbo.gov/publication/57404), with its "Supplemental Data"; the 2017 edition if one click away | The lowest income that puts a household in the top 1 percent, and in the 96th to 99th percentiles, for 2017 and 2018; which income measure the table uses | Ch 1 item 4 (line 126) | Fetch tool and direct download: HTTP 403 (a CAPTCHA page), also after permission. Census table read; cannot answer it. |
+| H2 | Social Security Trustees Report 2026, highlights (ssa.gov/oact/TR/2026/II_A_highlights.html) | The page | Ch 5 item 4 | Site refuses sessions. |
+| H3 | Treasury's statement for the Black Lung Disability Trust Fund, September 30, 2024 (search "Black Lung Disability Trust Fund" at fiscal.treasury.gov) | The balance of advances owed to the Treasury | Ch 5 item 5; TA §11.6 (the $5.1 billion) | Four old addresses return "not found"; the current address was not located. A government-documents librarian could find it quickly. |
+| H4 | Justice Department release on BP's guilty plea, November 15, 2012 (justice.gov) | The page | Ch 5 line 56; TA §11.2 | Site refuses sessions. |
+| H5 | Economic Policy Institute, productivity and pay (epi.org/productivity-pay-gap) | The page | Ch 5 line 78 | Site refuses sessions. |
+| H6 | Financial Crisis Inquiry Commission, conclusions (fcic.law.stanford.edu/report/conclusions) | The page | Ch 5 item 13; TA §6.7 | Site refuses sessions. |
+| H7 | Exxon Valdez trustee council, Pacific herring status (evostc.state.ak.us) | The page | Ch 5 item 8 | Site refuses sessions. |
+| H8 | State Department, Foreign Service Institute, "Foreign Language Training." **Optional; low value.** | Class hours by language category | Ch 1 row 8 | HTTP 403 both ways; secondary copies already agree. |
 
-Do not look for these. Each is marked NOT CHECKED in a claims-check report because a first pass did not read
-it; none has had every route tried. A session works this queue and promotes to Part 1 only what truly fails.
+## Part 3. A session can read these: nothing for you to do
 
-- Hotelling (1931); Hartwick (1977); Weitzman (1998, 2001); Broome (1994); Gerard (2000); Muller, Mendelsohn and Nordhaus (2011); Epstein et al. (2011); Wilberg et al. (2011); Keith et al. (2018); Realmonte et al. (2019); House et al. (2011) (TA, various rows).
-- Sen (1985, 1999); Nussbaum (2000); Parfit (1984) Part IV; Savage (1954); Lewis (1973); Hicks (1939); Kaldor (1939); Mishan (1971); Samuelson (1948); Bockstael and McConnell (2007) (TA §5.4, §15.1).
-- TEEB (2010, 2018); IEA, *Net Zero by 2050* (2021); IPCC AR6 Working Group III, ch. 12 (TA §11.9, §14.8). These are free reports; a session should simply read them.
-- From the other reports: Blackley, Halldin and Laney (2018) (Ch 2 row 41); the Social Security Administration pages and the State Department table that refused automated requests (Ch 5; Ch 1 section 4). The last two are open web pages: you can save them as PDFs from a browser at home.
+Tested reachable on 2026-11-15; a session reads them and updates the reports. **Pistor, *The Code of Capital*,
+chapter one** (an open copy at wid.world, found by the Chapter 5 session; this replaces an earlier request to
+you for the book; if the open chapter lacks the passage on the four attributes, it comes back to Part 1).
+**GAO-18-351** (the fetch tool opens gao.gov reports; a direct download does not). Hamilton et al., *Umbrellas
+Don't Make It Rain*; Fraser, "Behind Marx's Hidden Abode"; Fanning and Hickel 2023; NOAA's 2007 herring
+synthesis; the New York Attorney General's 2009 bonus report; Jonung (1981) on Sweden and the United States in
+the Depression; the Riksbank's history, 1914–1945; Mian, Rao and Sufi (NBER working paper).
 
-## Part 4. Done
+## Part 4. Done (no longer needed from you)
 
-- **Nordhaus 2007** (was item 1). **No library needed.** An open copy of the published article was found and read in part on 2026-11-15 (piketty.pse.ens.fr/files/Nordhaus2007b.pdf): "I adopt a time discount rate of 1.5 percent per year with a consumption elasticity of 2. These yield an equilibrium real interest rate of 5.5 percent per year"; and of the Review, "an equilibrium real interest rate of 1.4 percent per year." The 5.5 is a real interest rate his model produces, not a rate he sets. *A Question of Balance* (was Part 2, item A) is no longer needed.
-- **Daly 1990** (was "save this page at home"). Read in full on 2026-11-15 from a scanned copy on a Brazilian university's course pages. Nothing to do.
-- **Daly 1995**; **Congressional Research Service R45261**; the **National Academy of Social Insurance** paper on black lung; the **Labor Department's FY 2026 budget document**: all read, 2026-11-15.
+- **Nordhaus 2007**, "A Review of the *Stern Review*." An open copy of the published article was read in part
+  on 2026-11-15: "These yield an equilibrium real interest rate of 5.5 percent per year"; of the Review, "an
+  equilibrium real interest rate of 1.4 percent." The working-paper version, read by two other sessions, lacks
+  the figure, which is why they asked for the journal. *A Question of Balance* is not needed either.
+- **Daly 1990** and **Daly 1995**: both read in full, 2026-11-15. No page to save at home.
+- **Congressional Research Service R45261**; the **National Academy of Social Insurance** paper on black lung;
+  the **Labor Department's FY 2026 budget document** for the trust fund; **Butler (2010)**; **Saleh et al.
+  (2020)**; **Kenworthy and Igra (2022)**; **Darity, Craemer, Berry and Francis (2024)**: read.
+
+## Part 5. Not yet tried: do not fetch these
+
+A session works this queue and promotes to Part 1 only what truly fails.
+
+- Hotelling (1931); Hartwick (1977); Weitzman (1998, 2001); Broome (1992, 1994, 2012); Gerard (2000); Muller,
+  Mendelsohn and Nordhaus (2011); Epstein et al. (2011); El Serafy (1989); Mudliar and Koontz (2021); Asare et
+  al. (2023); Loewenstein, O'Donoghue and Rabin (2003); Balboa (2016); Naik et al. (2017); Wilberg et al.
+  (2011); Keith et al. (2018); Realmonte et al. (2019); House et al. (2011); Pindyck (1978); Dasgupta and Heal
+  (1979); Mussa and Rosen (1978); Slade and Thille (2009); Spence (1976); Rosen (1974); Viscusi (1993).
+- Sen (1985, 1999); Nussbaum (2000); Parfit (1984), Part IV; Savage (1954); Lewis (1973); Hicks (1939); Kaldor
+  (1939); Mishan (1971); Samuelson (1948); Bockstael and McConnell (2007).
+- Free reports a session should simply read: TEEB (2010, 2018); IEA, *Net Zero by 2050* (2021); IPCC AR6
+  Working Group III, chapter 12.
+- Blackley, Halldin and Laney (2018) (Chapter 2, row 41).
+
+## Old numbers, for anything that refers to them
+
+| Old file | Old item | Now |
+|---|---|---|
+| this file (first two versions) | 1 Nordhaus; 2 Barry; 3 Rawls 1993; 4 Rawls 1971; 5 Ostrom; 6 Darity and Mullen; 7 Pistor; 8 Negrusa; B, C, D | Done; L2; L3; L4; L5; L1; Part 3; L9; L22, L21, L18 |
+| `research/citations/library-search-list.md` | A1 to A15 | L1; L6; L11; L7; L7; L8; L10; L14; L13; L15; L16; L17; L18; L19; L20 |
+| the same | Part B rows | H2; Part 3 (GAO-18-351); H3; H5; H6; H4; H7 |
+| `tools/workstream-handoffs/library-search-list.md` | A1; A2; A3; B1; B2; B3; B4 | H1; H8; Done (Daly 1990); Done (Nordhaus 2007); L2; L3 and L4; L12 |
 
 ## Changes log
 
-- **2026-11-15, later (first appendix session, merging its own list into this one).** Item 1 (Nordhaus 2007) moved to Done: an open copy exists and gives the 5.5 percent. Daly 1990 moved to Done. Barry and *Political Liberalism* marked as borrowable online at archive.org. Four items promoted from Part 3 after their routes were tried (Ostrom; *From Here to Equality*; Pistor; Negrusa et al.), numbered 5 to 8. Two lower-priority items added (C, D). Item numbers 2 to 4 are unchanged so earlier references still hold.
-- **2026-11-15.** List started. Four confirmed items (Nordhaus 2007; Barry 1978; Rawls 1993; Rawls 1971), one page for the author to save at home (Daly 1990), two lower-priority items, and a queue of unread works that sessions must try before any of them is asked of the author.
+- **2026-11-15, merge.** The three lists became this one, on the author's instruction. Removed as done:
+  Nordhaus 2007 and Daly 1990 (both had been asked of him in two files). Pistor moved from "needs a library"
+  to "a session can read it" on the Chapter 5 session's finding of an open chapter. Duplicates combined
+  (*From Here to Equality*; Barry; Rawls; Costanza and Perrings, whose pages are 57–75). 22 library items (12
+  that matter, 10 lower), 8 home-browser items.
+- **2026-11-15.** List started by the Technical Appendix sessions; revised the same day.

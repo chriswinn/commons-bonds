@@ -173,7 +173,7 @@ Of the 11 with no source in the project, 4 are family facts only the author can 
 
 **Limits of this check.** Read at the source on 2026-11-15: 8 U.S.C. 1184(n), 8 CFR 214.1(l)(2), 20 CFR 655.731, 15 U.S.C. 3710c and 22 CFR 51.3 (all at Cornell's Legal Information Institute), the Department of Labor fact sheet, the patent, the Park Service's Tubman page, and the Census table page. Still read only in summary: Executive Order 10096, the WHO guideline (news coverage of its release), and the Park Service's 1619 page (search result).
 
-**Two sites the author has to open himself (not findings).** He gave permission on 2026-11-15 to download from both. Both still refused: these sites turn away automated visitors, and a browser at home will open them. They are rows A1 and A2 of `tools/workstream-handoffs/library-search-list.md`, with what was tried.
+**Two sites the author has to open himself (not findings).** He gave permission on 2026-11-15 to download from both. Both still refused: these sites turn away automated visitors, and a browser at home will open them. They are rows A1 and A2 of `tools/back-matter/library-list.md (items H1 and H8)`, with what was tried.
 - **cbo.gov** (HTTP 403, a CAPTCHA page). Holds the household-income thresholds needed for item 4.
 - **state.gov** (HTTP 403). Holds the Foreign Service Institute's class-hour table behind row 8. Minor.
 
