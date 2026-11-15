@@ -31,8 +31,8 @@ here with the date and the answer, and update STATE.md if a status changed.
    Recommended: cut in Part 2, since the foreword question waits until he raises it.
 4. **SETTLED 2026-11-15: one master proposal carrying both variants** (author: either is fine, the session's
    recommendation; variant-specific passages are marked in the master).
-5. **The go-ahead for Part 2** of `proposal-refresh-kickoff_2026-11-15.md`. Recommended: after the Chapter 5
-   claims check and his straight read of Chapters 1 and 5.
+5. **SETTLED 2026-11-15 (author): Part 2 waits for all three claims checks** (appendix, Chapter 1, Chapter 5) to be
+   ruled on and applied, and for his straight read of Chapters 1 and 5.
 
 ## Open: parked for winter break (plan Window 2, Week C)
 
