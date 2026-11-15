@@ -82,9 +82,9 @@ Not yet citable (nothing else has actually been sent): Aeon (V-E canonical, port
 
 | Date | Subject | Affiliation | Quote-permission | Where material is used |
 |---|---|---|---|---|
-| 2026-05-13 (conducted, ~58 min) | William ("Sandy") Darity Jr. | Duke University (emeritus) | Pending written approval — citation packet sent 2026-05-15, response pending; Tier-S (spoken) quotes held from essays until approval | Ch 5 / Ch 6 / Ch 8 + TA references; Noema + Atlantic Ideas published-work references |
+| 2026-05-13 (conducted, ~58 min) | William ("Sandy") Darity Jr. | Duke University (emeritus) | Not applicable: no material from the call is used. His published work only | Published work cited in Ch 5 and the Technical Appendix |
 
-Note (2026-06-11): the held post-interview confirmation email's "publisher-interest moment" trigger fires when agent engagement begins — execute it at or before Wave-1 query send (see consent tracker row + `research/outreach/subjects/darity/`). Day-45 fallback trigger: 2026-06-29.
+Note (2026-11-15, author's ruling): nothing is pending Darity's consent and no consent ask is planned. The call is not quoted or paraphrased anywhere in the proposal. Anything from it would need his review before use. The June note about a held confirmation email is retired (see the consent tracker).
 
 ---
 
