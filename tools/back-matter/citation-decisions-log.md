@@ -93,6 +93,10 @@ commit message. Nothing here changes a source file by itself.
   supports §14.6 on weak and strong sustainability in his own words (substitutes against complements). It
   does not use "critical natural capital" and says nothing about GDP. Daly 1990 is still unread.
 - **Second session (2026-11-15), still OPEN. The 1995 paper has now been read in full.** Daly, "On Wilfred Beckerman's Critique of Sustainable Development," *Environmental Values* 4(1) (1995): 49–55. It supports the definitions ("Strong sustainability assumes that manmade and natural capital are basically complements," p. 49; each "maintained intact separately," p. 53). It does not support "critical natural capital" (his words: "natural capital is the critical requirement," p. 50), the GDP sentence (absent), or "maintaining the physical stock itself" for the appendix's resources: for non-renewables his rule is that "the rate of depletion should be equal to the rate at which renewable substitutes can be developed" (p. 50), and he dismisses the no-extraction reading as "absurdly strong sustainability" (p. 49). Recommendation now: **ADD the 1995 paper**; head the section "Daly (1995)"; restate his non-renewable rule as he gives it; cut or source the GDP sentence; "consistent with" for "confirming." **Hold the 1990 paper** until read: its old host no longer resolves; the Internet Archive holds a copy, which the session's outbound proxy blocks; the author has been asked for the text or for access.
+- **Update (2026-11-15, later still).** Daly 1990 has now been **read in full**: natural and man-made capital are
+  "basically complementary and only very marginally substitutable"; "Sustainable development requires that
+  natural capital be maintained intact." No "strong sustainability," no "critical natural capital," nothing on
+  GDP. Both papers are read; the recommendation is ready for the author's ruling.
 
 ### 005. Brian Barry: cited in the appendix with no year and no entry anywhere. **OPEN**
 

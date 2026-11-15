@@ -617,6 +617,12 @@ Two findings in this report were wrong or too strong and are withdrawn. The rest
 - **The Treasury's statement for the trust fund, September 30, 2024.** The addresses found return "not found." Needs: the current address, or the Labor Department's FY 2024 financial report.
 - **Not run, because no search will settle them:** the life-support figure, the "300+ years," the symbols in four papers, Hotelling's paper, the football and tobacco records, and the books (Barry, Ostrom, Rawls 1971, Keefe, *From Here to Equality*).
 
+### Addendum 3: Daly 1990 read; the library list (2026-11-15)
+
+- **Daly 1990, read in full** (a scanned copy on a Brazilian university's course pages). "Are they complements or substitutes? It should be obvious that they are basically complementary and only very marginally substitutable." "Sustainable development requires that natural capital be maintained intact." The words "strong sustainability" and "critical natural capital" do not occur in it, and it says nothing about GDP. With the 1995 paper this settles recommendation 004: head §14.6 "Daly (1990, 1995)"; the 1990 paper carries "maintain natural capital intact" and complementarity; the 1995 paper carries the terms weak and strong; "critical natural capital" and the GDP sentence are not his in either paper. The "still blocked" line for this paper in Addendum 2 no longer applies.
+- **The deployment study.** A University of Minnesota research summary of Negrusa et al. (read) confirms "462,444 enlisted Service members" and that "Couples married before 9/11 were more likely to divorce than couples married after 9/11, which may be because they expected a lower risk of deployment." It lists a limitation the appendix does not carry: "Length of marriage was not taken into consideration; therefore, the finding … could be possibly due to the fact that those couples were married longer." The article itself is still unread.
+- **What only the author can fetch** is now in `tools/back-matter/library-list.md` (one list, shared with the second appendix session): seven confirmed items, each with what was tried.
+
 ---
 
 ## 7. Errors found in the project's own records (not corrected here)
