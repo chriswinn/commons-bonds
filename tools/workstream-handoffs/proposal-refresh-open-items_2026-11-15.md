@@ -55,7 +55,9 @@ here with the date and the answer, and update STATE.md if a status changed.
 13. **Daly and Brian Barry in the appendix** (decisions log 004, 005): the appendix claims check confirms the
     works and the wording.
 14. **A possible short correction note to Darity** if a claims-check ruling changes a sentence in what he has.
-    His call when the rulings are known.
+    **HELD (author, 2026-11-15):** no decision until the claims checks of the appendix, Chapter 1 and Chapter 5
+    are finished and ruled on, since what needs correcting is not known until then. One note, covering all
+    three documents, is then considered.
 
 ## Reading the author owes before certain sentences can go in
 
