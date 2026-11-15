@@ -102,6 +102,6 @@ not just the figure. Ask each time:
 - When a source cannot be reached, say what kind of failure it was, try another copy, and ask the author for
   the access by name. "Could not reach" is never "no source" (`tools/memory/feedback_ask_for_access_do_not_conclude.md`).
 - A source that only a library can supply goes on `tools/back-matter/library-list.md`, Part 1, and only after
-  the session has tried every route and written down what it tried. Untried items go in Part 3.
+  the session has tried every route and written down what it tried. Untried items go in Part 5.
 - Keep the report for the author short; the full table is the record.
 - One session at a time. End with three lines: what got done, what is waiting on him, the next paste line.
