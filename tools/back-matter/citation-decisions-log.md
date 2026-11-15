@@ -41,6 +41,7 @@ commit message. Nothing here changes a source file by itself.
   attributes"), so the appendix cannot take its Pistor from the chapter. Recommendation narrowed: **ADD in §14
   only**, written from the book, after the author rules on the two Chapter 5 items; nothing at Definition 1.7
   yet. Report: `tools/audits/claims-check_technical-appendix_2026-11-15.md`, Part 6.
+- **Second session (2026-11-15, §11 to §17), still OPEN.** No sentence in §11 to §17 needs her or contradicts her. §15.2.2, where the appendix says what kind of instrument the Foreclosure Bond is, is the only other place a clause could sit; §14 alone is still the recommendation. Unchanged: **ADD in §14 only, after reading.**
 
 ### 002. Christophers, *The Price Is Wrong* (2024): should the appendix cite it? **OPEN**
 
@@ -56,6 +57,7 @@ commit message. Nothing here changes a source file by itself.
 - **Claims-check evidence (2026-11-15), still OPEN.** Confirmed: not named in v2.0.1, and the words "commodify"
   and "financialize" do not occur. The Chapter 5 check found the chapter's summary of his book says more than
   the book. Recommendation unchanged: **KEEP OUT**. Report: `tools/audits/claims-check_technical-appendix_2026-11-15.md`, Part 6.
+- **Second session (2026-11-15), still OPEN.** §14 and §15 answer eight neighbouring frameworks; none is the objection that pricing turns a commons into an asset. Unchanged: **KEEP OUT** unless the appendix gains that section, which is a question of scope for the author.
 
 ### 003. Susskind, *Growth: A Reckoning* (2024): should the appendix cite it? **OPEN**
 
@@ -67,6 +69,7 @@ commit message. Nothing here changes a source file by itself.
   Chapter 9 is rebuilt, check that it still does; if not, this becomes a REMOVE question for the bibliography.
 - **Claims-check evidence (2026-11-15), still OPEN.** Confirmed: not named in v2.0.1; no definition, method or
   figure draws on him. Recommendation unchanged: **KEEP OUT**. Report: `tools/audits/claims-check_technical-appendix_2026-11-15.md`, Part 6.
+- **Second session (2026-11-15), still OPEN.** Nothing in §11 to §17 concerns growth as such. Unchanged: **KEEP OUT.**
 
 ### 004. Daly: the appendix discusses him without a dated work or a §18 entry. **OPEN**
 
@@ -89,6 +92,7 @@ commit message. Nothing here changes a source file by itself.
   Beckerman's Critique of Sustainable Development," *Environmental Values* 4(1) (1995), within pp. 49–70. It
   supports §14.6 on weak and strong sustainability in his own words (substitutes against complements). It
   does not use "critical natural capital" and says nothing about GDP. Daly 1990 is still unread.
+- **Second session (2026-11-15), still OPEN. The 1995 paper has now been read in full.** Daly, "On Wilfred Beckerman's Critique of Sustainable Development," *Environmental Values* 4(1) (1995): 49–55. It supports the definitions ("Strong sustainability assumes that manmade and natural capital are basically complements," p. 49; each "maintained intact separately," p. 53). It does not support "critical natural capital" (his words: "natural capital is the critical requirement," p. 50), the GDP sentence (absent), or "maintaining the physical stock itself" for the appendix's resources: for non-renewables his rule is that "the rate of depletion should be equal to the rate at which renewable substitutes can be developed" (p. 50), and he dismisses the no-extraction reading as "absurdly strong sustainability" (p. 49). Recommendation now: **ADD the 1995 paper**; head the section "Daly (1995)"; restate his non-renewable rule as he gives it; cut or source the GDP sentence; "consistent with" for "confirming." **Hold the 1990 paper** until read (its old host no longer resolves; the session's network is unrestricted, so this is a missing page, not a blocked one).
 
 ### 005. Brian Barry: cited in the appendix with no year and no entry anywhere. **OPEN**
 
@@ -104,6 +108,7 @@ commit message. Nothing here changes a source file by itself.
   chapter was not read. Recommendation: **ADD once someone has the page in hand**, with the year and the
   exact words; **REMOVE the sentence** if the book cannot be obtained before the next version. On the
   tentative list. Report: `tools/audits/claims-check_technical-appendix_2026-11-15.md`, Part 6.
+- **Second session (2026-11-15), still OPEN.** The 1978 volume and chapter are confirmed to exist (publisher's page for the reprint). The sentence was not found in anything that could be opened. The Stanford Encyclopedia entry does not contain it; for the nearby idea (options reduced to "an inadequate range") it cites a different essay of his, "Sustainability and Intergenerational Justice" (1999). Unchanged: **ADD once someone has p. 243 of the 1978 book in hand; otherwise REMOVE the sentence.** This needs a library copy; nothing online was blocked.
 
 ### 006. Housekeeping: three works are listed twice in the bibliography. **REMOVE (duplicates), done 2026-11-15 on the author's instruction**
 
@@ -216,6 +221,43 @@ commit message. Nothing here changes a source file by itself.
   tentative list: it may be the best citable later total. Read in part later the same day; it also
   records that Congress forgave much of the fund's debt in 2009. Cite the Labor
   Department chart and, once read, the Treasury statement.
+### 016. Pages used only to locate sources in the appendix check, second session. **OPEN**
+
+- **Facts.** The second session of the appendix claims check (2026-11-15) used these to find or date things: the
+  Stanford Encyclopedia entry on intergenerational justice (read); the publisher's page for the reprint of
+  Sikora and Barry; an encyclopedia page and a human-rights group's page on the Baogang tailings dam; two
+  commercial summaries of Ostrom's book; trade-press reports on the Stratos plant; news rewrites of BP's 2012
+  plea; a Colorado legislative handbook quoting the National Conference of State Legislatures.
+- **Reasoning.** Each pointed to a primary source that can be cited instead: Rawls's own books; Barry's
+  chapter; a journal study and one named article on Baotou; Ostrom's book; the company's own statements; the
+  Justice Department's release; the Conference's page. Two of them disagree with each other on Baotou's
+  yearly tailings (7 to 8 million tons against "millions").
+- **Recommendation: KEEP OUT** all of them. The primaries are on the tentative list as not read. (Entry 014 already covers the encyclopedia entry; this adds the rest.)
+
+### 017. Rawls's later books: the appendix quotes them under "Rawls (1971)." **OPEN**
+
+- **Facts.** TA v2.0.1 §14.4 gives the just-savings principle as "principles we would wish all preceding and
+  succeeding generations to have followed," under the heading "Rawls (1971)." The Stanford Encyclopedia
+  (read 2026-11-15) places that wording in *Political Liberalism* (1993: 274) and *Justice as Fairness*
+  (2001: 160), and says the 1971 argument used "a motivational assumption" that he "withdraws" in 1993.
+  Neither later book is in §18 or the bibliography. The bibliography has no Rawls entry at all.
+- **Reasoning.** The appendix cites inline, so the sentence needs the book it comes from. Citing 1971 for
+  the later wording is the kind of slip a philosopher reading §14.4 will catch.
+- **Recommendation: ADD** *A Theory of Justice* (already in §18) to the bibliography, and **ADD** whichever
+  later book the author reads the wording in, cited at that sentence. Until one is read, reword §14.4 so it
+  quotes nothing: the claims check offers a sentence (report, section 1b, item 2).
+
+### 018. State overdose figures as support for "the highest … in the United States." **OPEN**
+
+- **Facts.** TA §11.1 says McDowell County has "the highest per-capita opioid death rate in the United
+  States." The check found a West Virginia health department slide deck (2020–2022: 186.3 drug-overdose
+  deaths per 100,000, highest in the state) and a USAFacts page (2022, highest in the state), both via search.
+- **Reasoning.** Both are about one state's counties and about all drugs, not opioids. Neither ranks the
+  country's counties. Cited beside the sentence as it stands, they would appear to support a claim they do
+  not make (the same trap as entry 010).
+- **Recommendation: KEEP the state deck on the tentative list** as a source for a narrower sentence ("the
+  highest rate of any county in West Virginia in 2020–2022"), once read. **KEEP OUT both as support for the
+  national superlative**, and keep USAFacts out altogether (it restates the federal data).
 
 ---
 
