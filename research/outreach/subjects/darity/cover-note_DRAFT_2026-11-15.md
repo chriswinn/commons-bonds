@@ -1,6 +1,6 @@
 # Cover note to William Darity Jr. for the revised package (DRAFT for the author's redline)
 
-**Status:** PROPOSED. Not sent. Drafted 2026-11-15 for the author's hand redline; every sentence is his to change.
+**Status:** SUPERSEDED. The author sent his own version on 2026-11-15; see `package-send-cover-email_2026-11-15.md`. Was: PROPOSED. Not sent. Drafted 2026-11-15 for the author's hand redline; every sentence is his to change.
 **Goes with:** Chapter 1 (14 pages) and Chapter 5 (28 pages), the PDFs dated 2026-11-14, and the Technical
 Appendix v2.0.1.
 **Page numbers** for the chapters are from those two PDFs. Appendix page numbers are from a fresh render of
