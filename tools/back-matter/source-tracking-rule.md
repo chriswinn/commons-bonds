@@ -30,9 +30,10 @@ chapters, the Technical Appendix, essays, op-eds and the proposal.
 
 ## For drafting sessions
 
-- Add entries to §19 under a dated heading of your own (for example "Candidates added 2026-11-16, Chapter 4
-  drafting") so that sessions working in the same days do not edit the same lines. Fetch and rebase before
-  pushing.
+- Add entries to §19 as a batch under one dated heading that says where the batch came from (for example
+  "Candidates added 2026-11-16 (Chapter 4 drafting)"). The heading is a record of origin, not a chapter
+  section: each entry names the chapter and line it bears on, and one work can bear on several. The
+  bibliography itself is not organized by chapter. Fetch and rebase before pushing.
 - The claims check (`tools/workstream-handoffs/claims-check-kickoff_2026-11-15.md`) is where most new
   sources turn up. Its "NO SOURCE IN THE PROJECT" rows that name a source found on the web each become a
   tentative entry. The check itself adds nothing to the working bibliography.

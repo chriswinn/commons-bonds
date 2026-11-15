@@ -1144,8 +1144,44 @@ draft; "row" is the claims-check table row. Where a field is not known it says s
 - **Works named in the encyclopedia entries' source lists:** Athey, Louis L., "The Company Store in Coal Town Culture," *Labor's Heritage* (Jan 1990); Massay, Glenn F., "Legislators, Lobbyists and Loopholes: Coal Mining Legislation in West Virginia, 1875–1901," *West Virginia History* (Apr 1971); Corbin, David A., *Life, Work, and Rebellion in the Coal Fields* (University of Illinois Press, 1981); Shifflett, Crandall A., *Coal Towns* (University of Tennessee Press, 1991); Johnson, Ole, *The Industrial Store* (Foote & Davies, 1952); Boyd, Lawrence W., "The Coal Company Town," Ph.D. dissertation, West Virginia University, 1993; United States Coal Commission, *Report*, part 3 (1925). **Why here:** the scholarship behind the scrip passage. **Standing:** none read.
 - **National Park Service pages** on scrip (Big South Fork) and on New River Gorge company towns. **Why here:** turned up in the scrip search; downloaded. **Standing:** not read and not used.
 
+### Candidates added 2026-11-15 (from the Chapter 5 claims check)
+
+Batch heading only: it records where these came from. Each entry says which chapter and line it bears on.
+None is in the working bibliography. "Via search" means only a search result or summary was seen; details
+marked "to confirm" were not verified. Report: `tools/audits/claims-check_chapter-5_2026-11-15.md`.
+
+**Named in Chapter 5 and missing from the bibliography**
+
+- **Kapp, K. William.** *The Social Costs of Private Enterprise.* 1950 (publisher to confirm). **Why here:** Ch 5 line 170 credits him with the cost-shifting diagnosis. **Standing:** not read; the claim rests on `tools/workstream-handoffs/verified-positioning-findings_2026-06-24.md`.
+- **Sandel, Michael.** *What Money Can't Buy.* 2012 (subtitle and publisher to confirm). **Why here:** Ch 5 line 182 states his objection to pricing. **Standing:** not read; no project notes on the book.
+- **Costanza, Robert, and Charles Perrings.** Article on assurance bonding, *Ecological Economics* 2 (1990): 57–76 (title to confirm). **Why here:** Ch 5 line 172, the closest prior art for a bond posted in advance. **Standing:** not read; rests on the positioning findings.
+- **Martínez-Alier, Joan.** Work not identified. **Why here:** Ch 5 line 170 names him with Bullard. **Standing:** a work must be chosen and read before he is cited.
+- **Fanning, Andrew L., and Jason Hickel.** "Compensation for atmospheric appropriation." *Nature Sustainability* 6, no. 9 (2023): 1077–1086. **Why here:** Ch 5 line 250. **Standing:** abstract via search (US$192 trillion by 2050); not read.
+- **Darity, William, Jr., Thomas Craemer, Daina Ramey Berry, and Dania V. Francis.** "Black Reparations in the United States, 2024: An Introduction." *RSF* 10, no. 2 (2024): 1–28. **Why here:** Ch 5 line 234 quotes it. **Standing:** quotation verified on the journal page (`research/citations/darity-mullen-arc-quotes_2026-11-10.md`); confirm against the PDF.
+- **Caribbean Community (CARICOM).** *Ten Point Plan for Reparatory Justice.* Endorsed July 2014; later revised. **Why here:** Ch 5 line 250. **Standing:** via search; the plan concerns slavery and native genocide, with climate added in a revision. Not read.
+- **Zhou and Ge (2021), *Extractive Industries and Society* 8(1): 340–354; "Zhang et al. 2022," *Science of the Total Environment*.** **Why here:** Ch 5 line 138 names both. **Standing:** neither read. Zhou and Ge did not come up in two searches. A 2022 paper in the second journal, "Allocating environmental costs of China's rare earth production to global consumption," exists and may be the one meant; authors to confirm.
+- **Bivens and Mishel (Economic Policy Institute), on productivity and pay.** Work not identified. **Why here:** Ch 5 line 78 credits them; the entry in §4 is a different paper. **Standing:** find the paper and read it.
+
+**Found during the check; would support or correct a Chapter 5 sentence**
+
+- **Panjwani, and Xiong.** Article on names and crowdfunding outcomes, *Journal of Economic Behavior & Organization* 205 (2023): 648–667 (first names and title to confirm). **Why here:** the likely source for Ch 5 line 30 (campaigns by people with distinctively Black or Hispanic names raise less). **Standing:** abstract via search; not read.
+- **KFF Health News (Rachel Bluth), interview with GoFundMe's chief executive Rob Solomon, Jan. 16, 2019.** **Why here:** Ch 5 line 28; "We didn't build the platform to focus on medical expenses." **Standing:** via search; not opened.
+- **U.S. District Court, E.D. Louisiana (Barbier, J.), findings on the volume of oil discharged, January 2015.** **Why here:** Ch 5 line 52; 3.19 million barrels reached the Gulf. **Standing:** press reports via search; ruling not read.
+- **NOAA.** *Prince William Sound herring: an updated synthesis of population declines and lack of recovery.* 2007. **Why here:** Ch 5 line 64; the link between the spill and the 1993 collapse "cannot be proved or disproved with certainty." **Standing:** via search; not read.
+- ***Exxon Shipping Co. v. Baker* (U.S. Supreme Court, 2008).** **Why here:** Ch 5 line 64, the cut in punitive damages. **Standing:** via search; citation to confirm.
+- **New York Attorney General.** *No Rhyme or Reason: The "Heads I Win, Tails You Lose" Bank Bonus Culture.* July 30, 2009. **Why here:** Ch 5 line 90; bonuses were paid for 2008 itself. **Standing:** via search; not read.
+- **CoreLogic foreclosure report, early 2013.** **Why here:** Ch 5 line 92; "about 4.1 million homes have been lost to foreclosure" since September 2008. **Standing:** via search.
+- **U.S. EPA news release, June 17, 2009 (Libby public health emergency).** **Why here:** Ch 5 line 40; first such determination under the Superfund law. **Standing:** via search.
+- **U.S. Department of the Interior, Office of Inspector General, memoranda on the Minerals Management Service, September 2008.** **Why here:** Ch 5 line 210. **Standing:** via search; they concern the royalty office, not offshore inspection.
+- **Social Security Trustees Reports, 2024, 2025 and 2026 (highlights).** **Why here:** Ch 5 lines 110 and 112 mix the 2024 and 2025 figures; the 2026 report is out. **Standing:** ssa.gov refused the fetch; 2026 figures seen only in two secondary summaries.
+- **Black Lung Disability Trust Fund debt: U.S. Treasury borrowing statement, Sept. 30, 2024; Wyoming Public Media, Dec. 12, 2024.** **Why here:** Ch 5 line 254; the article (read) says "about $6.5 billion," not $5.1 billion. **Standing:** article read; Treasury statement not read.
+- **Lee and Wen.** Article on the environmental cost of China's rare-earth production, *Nature Sustainability* (2018) (title and first names to confirm). **Why here:** Ch 5 line 138; a net environmental cost of US$14.8 billion in 2015. **Standing:** via search.
+- **OCC Bulletin 2019-56; SEC release 2020-143 (Volcker Rule amendments).** **Why here:** Ch 5 line 102. **Standing:** via search.
+- **Sveriges Riksbank, historical timeline (the Kreuger crash, 1932; leaving gold, 1931).** **Why here:** Ch 5 line 106. **Standing:** via search. Says nothing about mortgage relief.
+
 ### Changes log for this section
 
+- **2026-11-15. Added the Chapter 5 claims-check batch** above (nine works the chapter names that had no entry; fourteen found during the check). Why each is here is stated in its line. The author rules on each: include or keep out.
 - **2026-11-15. Added the Chapter 2 block above** (nine sources read in full, eight read in part, eleven entries named and not read). Why each is here is stated in its line. Nothing was moved into the working bibliography. Four keep-out recommendations are OPEN in the decisions log (entries 008 to 011).
 - **2026-11-15. Removed three duplicate entries** from this section: Pistor, *The Code of Capital* (2019); Christophers, *The Price Is Wrong* (2024); Susskind, *Growth: A Reckoning* (2024). **Why:** each has a full entry in §13, where the status line records that the engagement landed in the chapters on 2026-05-08. They were no longer "not yet integrated," and two entries per work with different summaries invited drift. Nothing was lost that §13 lacks except the wording of the summaries, which is in git history (decisions log, entry 006). Susskind, *A World Without Work* (2020), stays here: it is a background reference and is not cited in the text by design.
 - **2026-11-15. Added twelve tentative entries** above, from the comp-titles research. Why each is here is stated in its line.
