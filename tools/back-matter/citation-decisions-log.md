@@ -21,7 +21,7 @@ commit message. Nothing here changes a source file by itself.
 
 ## Open entries
 
-### 001. Pistor, *The Code of Capital* (2019): should the appendix cite it? **OPEN**
+### 001. Pistor, *The Code of Capital* (2019): should the appendix cite it? **ADD (author, 2026-11-15: "as recommended")**
 
 - **Facts (checked 2026-11-15).** In the bibliography (listed twice, see 006). Cited in Chapters 5, 9 and 10.
   Not cited anywhere in TA v2.0.1. A lead comp in the proposal, and the overview says "where Pistor diagnoses
@@ -47,7 +47,7 @@ commit message. Nothing here changes a source file by itself.
   "contract law, property rights, collateral law, trust, corporate, and bankruptcy law." Her four attributes are
   as Chapter 5 gives them. The §14 entry can be written from her text; ready for the author's ruling.
 
-### 002. Christophers, *The Price Is Wrong* (2024): should the appendix cite it? **OPEN**
+### 002. Christophers, *The Price Is Wrong* (2024): should the appendix cite it? **KEEP OUT of the appendix (author, 2026-11-15: "as recommended")**
 
 - **Facts.** In the bibliography (listed twice). Cited in Chapters 5, 9 and 10. Not in the appendix. Chapter 5
   calls his the most forceful living version of the worry that pricing turns a commons into a tradable asset,
@@ -63,7 +63,7 @@ commit message. Nothing here changes a source file by itself.
   the book. Recommendation unchanged: **KEEP OUT**. Report: `tools/audits/claims-check_technical-appendix_2026-11-15.md`, Part 6.
 - **Second session (2026-11-15), still OPEN.** §14 and §15 answer eight neighbouring frameworks; none is the objection that pricing turns a commons into an asset. Unchanged: **KEEP OUT** unless the appendix gains that section, which is a question of scope for the author.
 
-### 003. Susskind, *Growth: A Reckoning* (2024): should the appendix cite it? **OPEN**
+### 003. Susskind, *Growth: A Reckoning* (2024): should the appendix cite it? **KEEP OUT of the appendix (author, 2026-11-15: "as recommended")**
 
 - **Facts.** In the bibliography (listed twice). Cited in Chapter 9 only, in a list of neighbouring
   frameworks. Not in the appendix.
@@ -75,7 +75,7 @@ commit message. Nothing here changes a source file by itself.
   figure draws on him. Recommendation unchanged: **KEEP OUT**. Report: `tools/audits/claims-check_technical-appendix_2026-11-15.md`, Part 6.
 - **Second session (2026-11-15), still OPEN.** Nothing in §11 to §17 concerns growth as such. Unchanged: **KEEP OUT.**
 
-### 004. Daly: the appendix discusses him without a dated work or a §18 entry. **OPEN**
+### 004. Daly: the appendix discusses him without a dated work or a §18 entry. **ADD after reading (author, 2026-11-15: "as recommended")**
 
 - **Facts.** TA v2.0.1 §14.6 is headed "Daly (1990s)" and attributes strong sustainability to him. §18 has no
   Daly entry. The book's bibliography has *Steady-State Economics* (1977; rev. 1991).
@@ -102,7 +102,7 @@ commit message. Nothing here changes a source file by itself.
   natural capital be maintained intact." No "strong sustainability," no "critical natural capital," nothing on
   GDP. Both papers are read; the recommendation is ready for the author's ruling.
 
-### 005. Brian Barry: cited in the appendix with no year and no entry anywhere. **OPEN**
+### 005. Brian Barry: cited in the appendix with no year and no entry anywhere. **ADD once the page is in hand, otherwise the sentence comes out (author, 2026-11-15: "as recommended"; library list L2 if no online source is found)**
 
 - **Facts.** TA v2.0.1 §14.4 says "Brian Barry (later) sharpened it: the overall range of opportunities open
   to successive generations should not be narrowed." No year. No entry in §18 or in the book's bibliography.
@@ -127,7 +127,7 @@ commit message. Nothing here changes a source file by itself.
   the list of sources not yet integrated. The reason is also written in §19's changes log. The rendered
   bibliography was regenerated and is unchanged (§19 is not rendered).
 
-### 007. New comp titles that the book does not cite. **OPEN**
+### 007. New comp titles that the book does not cite. **KEEP OUT of the reader-facing bibliography (author, 2026-11-15: "as recommended")**
 
 - **Facts.** The comps the author ratified on 2026-11-15 include three works the book does not cite and the
   bibliography does not list: Davies, *The Unaccountability Machine*; Dasgupta, *On Natural Capital*;

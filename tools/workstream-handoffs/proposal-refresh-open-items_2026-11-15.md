@@ -21,15 +21,16 @@ here with the date and the answer, and update STATE.md if a status changed.
 
 ## Open: quick yes or no (recommendation given for each)
 
-2. **Citation decisions log, entries 001 to 005** (`tools/back-matter/citation-decisions-log.md`).
+2. **SETTLED 2026-11-15 (author: "as recommended" settles all six; statuses updated in the log).** Barry stays on
+   the library list as L2 for him to look up if no online source is found. ~~Citation decisions log, entries 001 to 005~~ (`tools/back-matter/citation-decisions-log.md`).
    Recommended: Pistor into the appendix at its next version; Christophers and Susskind stay out of the
    appendix; Daly gets a proper entry and date; Barry's source is found or the sentence is cut. "As
    recommended" settles all five. Entry 007 (new comps stay out of the reader-facing bibliography) also
    awaits his word.
 3. **The "blurb-or-foreword candidate" line** naming Darity in `publishing/book-proposal/04_marketing-plan.md`.
    Recommended: cut in Part 2, since the foreword question waits until he raises it.
-4. **The proposal's form.** Assumed "one master with both variants" because he ratified comps for both.
-   Needs his confirmation.
+4. **SETTLED 2026-11-15: one master proposal carrying both variants** (author: either is fine, the session's
+   recommendation; variant-specific passages are marked in the master).
 5. **The go-ahead for Part 2** of `proposal-refresh-kickoff_2026-11-15.md`. Recommended: after the Chapter 5
    claims check and his straight read of Chapters 1 and 5.
 
