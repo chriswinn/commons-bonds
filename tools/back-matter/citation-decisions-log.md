@@ -75,12 +75,14 @@ commit message. Nothing here changes a source file by itself.
 - **Recommendation:** the claims check of the appendix finds the source and reads it. If found, **ADD** to
   both lists. If not, **REMOVE** the sentence. No source is named here from memory.
 
-### 006. Housekeeping: three works are listed twice in the bibliography. **OPEN**
+### 006. Housekeeping: three works are listed twice in the bibliography. **REMOVE (duplicates), done 2026-11-15 on the author's instruction**
 
 - **Facts.** `sources/bibliography.md` has two full entries each for Pistor 2019, Christophers 2024 and
   Susskind 2024 (near lines 532 to 548 and 1081 to 1097), with different summaries.
-- **Recommendation:** merge each pair into one entry at the next back-matter pass. No reader-facing effect
-  was checked; the rendered bibliography shows each once.
+- **Ruling and action (2026-11-15):** the author said to remove the duplicates. The three §19 copies were
+  removed and the §13 entries kept, because §13 records that the engagement landed in the chapters and §19 is
+  the list of sources not yet integrated. The reason is also written in §19's changes log. The rendered
+  bibliography was regenerated and is unchanged (§19 is not rendered).
 
 ### 007. New comp titles that the book does not cite. **OPEN**
 
@@ -91,7 +93,9 @@ commit message. Nothing here changes a source file by itself.
 - **Reasoning.** A comp does not have to be cited in the book, and none of these should be added to the
   bibliography merely for being a comp. The proposal has to describe them truthfully: as recent books in the
   same conversation, not as works the book builds on.
-- **Recommendation: KEEP OUT** of the bibliography now. In the proposal, frame all three as neighbours. If a
+- **Action (2026-11-15, author's instruction):** all candidates from the comps research are now listed as
+  tentative in `sources/bibliography.md` §19 (not rendered for readers), each with the reason it is there.
+- **Recommendation: KEEP OUT** of the reader-facing bibliography now. In the proposal, frame all three as neighbours. If a
   chapter that is open for rebuild comes to use one (Davies on accountability is the likeliest), add it then
   and record it here. No signed-off chapter is reopened for this.
 
