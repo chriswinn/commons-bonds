@@ -3,8 +3,9 @@
 **Status:** PROPOSED. Not sent. Drafted 2026-11-15 for the author's hand redline; every sentence is his to change.
 **Goes with:** Chapter 1 (14 pages) and Chapter 5 (28 pages), the PDFs dated 2026-11-14, and the Technical
 Appendix v2.0.1.
-**Page numbers** for the chapters are from those two PDFs. The appendix is cited by section, because its PDF was
-not in hand when this was drafted; add page numbers from the copy that is sent.
+**Page numbers** for the chapters are from those two PDFs. Appendix page numbers are from a fresh render of
+v2.0.1 made 2026-11-15 with `tools/scripts/render-html-pdf-paged.js` (129 pages). **Check them against the PDF
+that is actually sent:** if it has a different page count, keep the section numbers and correct the pages.
 **Square brackets** mark places only the author can fill or decide.
 
 ---
@@ -21,7 +22,7 @@ story. Chapter 5 is the one that leans on your work.
 
 **What changed in the appendix since the copy you have.** The framework is the same. The numbers are smaller and
 better sourced, the claims are narrower, and the appendix now opens by saying what it borrows and from whom
-("The Framework's Contribution and Its Sources"). I have also taken out everything that rested on our
+("The Framework's Contribution and Its Sources," page 3). I have also taken out everything that rested on our
 conversation in May. The appendix and Chapter 5 now cite only your published work, so nothing in them puts words
 in your mouth.
 
@@ -32,7 +33,7 @@ in your mouth.
    restitution, and I say the Restitution Bond is an instrument for carrying out that act: not a rival to your
    framework and not a new name for it.
    *Where:* Chapter 5, pages 24–25 (from "The backward-looking instrument is called Restitution" through "The
-   method belongs to them as well"). Appendix §5.1.1 ("Why the instrument is called Restitution") and §5.4.
+   method belongs to them as well"). Appendix §5.1.1 ("Why the instrument is called Restitution," pages 27–28) and §5.4 (page 29).
 
 2. **Does it hold up to carry past harm forward as a debt on the books?** The book prices in two directions:
    forward, against a future being foreclosed, and backward, against harm already done. For harm already done I
@@ -40,7 +41,7 @@ in your mouth.
    until it is paid. [Check that this is the question you mean by "carrying past harm forward," and reword it if
    not.]
    *Where:* Chapter 5, page 19 (the method "works in two directions") and page 26 (the matched comparisons for
-   McDowell County, Libby and Appalachia). Appendix §5.5 and Definition 1.12.
+   McDowell County, Libby and Appalachia). Appendix §5.5 (pages 30–33) and Definition 1.12 (page 18).
 
 3. **Does the name "reparations bond" fit your and Kirsten Mullen's program?** One sentence in Chapter 5 says
    that, applied to the debt owed to the descendants of people enslaved in the United States, the Restitution
@@ -53,7 +54,7 @@ in your mouth.
 
 - **The pricing of coerced labor.** I name it as a cost that belongs in the account and leave the line without a
   figure, because the amount is not mine to enter. Chapter 5, page 26 ("One question this book does not presume
-  to close…"). Appendix Definition 1.10 (the scope boundary) and §5.5.
+  to close…"). Appendix Definition 1.10 (the scope boundary, page 16) and §5.5 ("The coercion variable itself," page 33).
 - **Slavery, in Chapter 1.** One paragraph on page 5 ("And I saw it in the deepest version…") says that my
   commute and a stolen life do not belong on the same line. I want to be sure it reads that way to you.
 
