@@ -1,6 +1,7 @@
 # Library list: sources only the author can get (running)
 
 **Status:** internal; started 2026-11-15 on the author's instruction. One list for the whole book.
+**Three lists exist as of 2026-11-15 and should become one.** The author's request reached several sessions at once, and each started a file: this one (the Technical Appendix), `research/citations/library-search-list.md` and `tools/workstream-handoffs/library-search-list.md` (the chapter checks). Until a session merges them, read all three. Recommended home: this file.
 **Rule for sessions.** An item goes in Part 1 only after a session has tried every route below and written
 down what happened. "Could not reach" from one failed fetch does not qualify
 (`tools/memory/feedback_ask_for_access_do_not_conclude.md`). Anything not yet tried goes in Part 3, and the
