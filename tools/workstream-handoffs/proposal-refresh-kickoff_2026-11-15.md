@@ -47,6 +47,24 @@ including the retired $108 trillion passage), superseded candidate files, and an
 End Part 1 with a recommendation: start Part 2 now on list C, or wait for specific items on A and B. Then stop
 and wait for his answer.
 
+## Part 1 was run on 2026-11-15. The author's rulings, which Part 2 must follow
+
+Open items and the full record: `tools/workstream-handoffs/proposal-refresh-open-items_2026-11-15.md`.
+Read it before starting Part 2, and do not act on any item it lists as open.
+
+- **AI disclosure:** Author's Note only. Remove the collaboration paragraph from `00_overview.md`, and correct
+  the line in the pre-publication review document that says the collaboration "is disclosed in the proposal
+  overview." Do not write any description of how AI is used.
+- **Comps (§02):** write the section from the ratified sets at the top of `02_comp-titles.md`. Davies,
+  Dasgupta and Riofrancos are neighbours, not works the book builds on. Add the one paragraph crediting the
+  papers and classics.
+- **The *Abundance* contrast:** put it in the overview print copy as a clearly marked candidate in "Why now,"
+  pending his read of the book. Wording to start from: *Abundance* asks why it costs so much, and takes so
+  long, to build; this book asks what was left off the bill when things were built cheaply. No statement
+  about the authors' motives. It is not in the proposal until he approves it.
+- **Darity:** published work only. Nothing is pending his consent. There is no attribution placeholder and
+  none is to be added (this replaces item 5's placeholder instruction below).
+
 ## Part 2. Refresh (only on the author's go-ahead, and only what he has cleared)
 
 1. **Figures.** Check every number and factual statement in the proposal against

@@ -83,8 +83,10 @@ read before the proposal says anything about it.
 
 Klein and Thompson, *Abundance* (Avid Reader Press, March 2025), spent months on the *New York Times*
 nonfiction list. It is far too large to be a comp. It matters because "abundance" is now a word editors
-have in their heads, and this book's claim is that abundance is what hides a cost. Whether the proposal
-says so in one sentence of "Why now" is the author's call.
+have in their heads, and this book's claim is that abundance is what hides a cost. **Author's ruling, 2026-11-15: yes, as a marked
+candidate sentence in the overview print copy, pending his read of the book.** Start from the contrast of
+questions (why building costs so much and takes so long; what was left off the bill when things were built
+cheaply). No statement about the authors' motives.
 
 ### Looked for and not found
 
