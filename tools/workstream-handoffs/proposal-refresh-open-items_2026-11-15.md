@@ -49,8 +49,9 @@ here with the date and the answer, and update STATE.md if a status changed.
 
 ## Open: comes back through the claims check
 
-12. **The BP–Mexico sentence** (Chapter 5 and TA §11.2). It will be a row in the Chapter 5 claims check, with
-    the sources beside it, for his ruling there.
+12. **The BP–Mexico sentence** (Chapter 5 and TA §11.2). **In the Chapter 5 claims check as item 1 (2026-11-15),**
+    with the sources and two replacement sentences, for his ruling:
+    `tools/audits/claims-check_chapter-5_2026-11-15.md`. Twelve more items need his ruling there.
 13. **Daly and Brian Barry in the appendix** (decisions log 004, 005): the appendix claims check confirms the
     works and the wording.
 14. **A possible short correction note to Darity** if a claims-check ruling changes a sentence in what he has.
@@ -68,8 +69,8 @@ here with the date and the answer, and update STATE.md if a status changed.
 
 ## Next sessions, in order
 
-1. **Claims check, Chapter 5** (fresh session):
-   `Read CLAUDE.md, STATE.md and tools/workstream-handoffs/claims-check-kickoff_2026-11-15.md. Run it for Chapter 5.`
-2. Claims check, the Technical Appendix (may take two sessions), then Chapter 1.
+1. ~~Claims check, Chapter 5~~ **done 2026-11-15** (`tools/audits/claims-check_chapter-5_2026-11-15.md`; his rulings pending).
+2. Claims check, the Technical Appendix (may take two sessions), then Chapter 1:
+   `Read CLAUDE.md, STATE.md and tools/workstream-handoffs/claims-check-kickoff_2026-11-15.md. Run it for the Technical Appendix.`
 3. Proposal refresh Part 2, on his go-ahead:
    `Read CLAUDE.md, STATE.md, the newest house style sheet, tools/workstream-handoffs/proposal-refresh-kickoff_2026-11-15.md and tools/workstream-handoffs/proposal-refresh-open-items_2026-11-15.md. Run Part 2.`
