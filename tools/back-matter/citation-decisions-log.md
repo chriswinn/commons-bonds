@@ -221,6 +221,12 @@ commit message. Nothing here changes a source file by itself.
   tentative list: it may be the best citable later total. Read in part later the same day; it also
   records that Congress forgave much of the fund's debt in 2009. Cite the Labor
   Department chart and, once read, the Treasury statement.
+- **Correction (2026-11-15, later).** The claims check first set Wyoming Public Media's "about $6.5 billion"
+  against the appendix's $5.1 billion and called the latter contradicted. Withdrawn: the Labor Department's
+  FY 2026 budget document shows $6.5 billion was the sum refinanced in 2008, and a trade article gives $5.1
+  billion for September 2024. Neither secondary figure is sourced, which is the reason to keep both out. Add
+  the trade article (Insurance Business, April 28, 2026) to the keep-out list.
+
 ### 016. Pages used only to locate sources in the appendix check, second session. **OPEN**
 
 - **Facts.** The second session of the appendix claims check (2026-11-15) used these to find or date things: the
