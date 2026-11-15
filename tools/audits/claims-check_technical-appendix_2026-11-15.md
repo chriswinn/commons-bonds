@@ -295,6 +295,8 @@ Need a source pinned, not a rewrite: the 2012 criminal penalty of $4 billion (§
 
 ### D. Four things only a library copy can settle
 
+**Now kept as a running list, with how to hand sources back: `tools/back-matter/library-list.md`.** Update on item 1, later the same day: the 2006 working-paper version of Nordhaus's review and his Yale symposium chapter were both read in full. Neither contains 5.5 percent (the working paper gives a time preference "starting at 3 percent per year and declining slowly to about 1 percent"); the chapter confirms the Stern figure in his words ("1.4 % per year"). The published 2007 article is still the one to check.
+
 Three are a book or a paywalled article; the fourth is a blocked host. If you can get any of them, a later session can close the row in minutes.
 
 1. **Nordhaus, "A Review of the *Stern Review on the Economics of Climate Change*," *Journal of Economic Literature* 45(3) (2007): 686–702.** Does it give 5.5 percent, and as what (a discount rate, or a return on capital)? Closes item 6.
