@@ -32,6 +32,14 @@ not use unofficial uploads of books.
 Reports the "Settles" column refers to: **TA** = `tools/audits/claims-check_technical-appendix_2026-11-15.md`;
 **Ch 5** = `tools/audits/claims-check_chapter-5_2026-11-15.md`; **Ch 1** = `tools/audits/claims-check_chapter-1_2026-11-15.md`.
 
+9. **Google Books, at home, before a trip (found 2026-11-15, third re-test).** For L6 (Fraser), L7
+   (Eichengreen and Kindleberger) and L11 (Christophers) the publisher allows a preview at books.google.com:
+   search the title, open the preview and use "Search inside this book." If the pages you need are shown,
+   screenshot them with the page number in the frame. Previews leave pages out, so this may not work. L8 (*An
+   Air That Kills*) shows short snippets only; its search reports "14 pages matching oxygen tank," so the book
+   does treat the subject. A session cannot do this for you: pulling preview pages by script was refused by
+   the session's permission system and was not retried.
+
 ## Part 1. Needs a library (confirmed; ordered by how much rides on it)
 
 | # | Source | Exactly what to copy | Settles | Skip if | What was tried |
@@ -69,7 +77,6 @@ Open, save as PDF, attach. A few minutes each.
 | # | What to open | What is needed | Settles | What was tried |
 |---|---|---|---|---|
 | H1 | Congressional Budget Office, *The Distribution of Household Income, 2018* (cbo.gov/publication/57404), with its "Supplemental Data"; the 2017 edition if one click away | The lowest income that puts a household in the top 1 percent, and in the 96th to 99th percentiles, for 2017 and 2018; which income measure the table uses | Ch 1 item 4 (line 126) | Re-tested 2026-11-15: plain request and fetch tool both 403 for the page and the PDF; no mirror of the supplemental table found (search). Still needs you. Second re-test the same day: the supplemental spreadsheet's own address also returns the CAPTCHA page; two wider searches gave shares and averages, not the threshold. A saved copy exists at the Internet Archive, which sessions cannot open (note below). |
-| H5 | Economic Policy Institute, productivity and pay (epi.org/productivity-pay-gap) | The page | Ch 5 line 78 | Re-tested 2026-11-15: plain request and fetch tool both 403. Still needs you. |
 | H8 | State Department, Foreign Service Institute, "Foreign Language Training." **Optional; low value.** | Class hours by language category | Ch 1 row 8 | Re-tested 2026-11-15: 403 again (an error page). Optional. |
 
 **The Internet Archive, for sessions (tested 2026-11-15).** The catalogue (`archive.org`) answers a plain
@@ -80,12 +87,18 @@ a live page fails.
 
 ## Part 3. A session can read these: nothing for you to do
 
-Tested reachable on 2026-11-15; a session reads them and updates the reports. Hamilton et al., *Umbrellas
-Don't Make It Rain*; Fraser, "Behind Marx's Hidden Abode"; Fanning and Hickel 2023; NOAA's 2007 herring
-synthesis; the New York Attorney General's 2009 bonus report; Jonung (1981) on Sweden and the United States in
-the Depression; the Riksbank's history, 1914–1945; Mian, Rao and Sufi (NBER working paper); TEEB 2010 (the
-PDF is linked from teebweb.org); Blackley, Halldin and Laney (2018), free at PubMed Central
-(PMC6085042), opened and not yet read against the claims.
+Tested reachable on 2026-11-15; a session reads them and updates the reports. Fanning and Hickel 2023; NOAA's
+2007 herring synthesis; the New York Attorney General's 2009 bonus report; Jonung (1981) on Sweden and the
+United States in the Depression; the Riksbank's history, 1914–1945; Mian, Rao and Sufi (NBER working paper);
+TEEB 2010 (the PDF is linked from teebweb.org); Blackley, Halldin and Laney (2018) and House et al. (2011),
+both free at PubMed Central (PMC6085042; PMC3251141), opened and not yet read against the claims. PubMed
+Central turns away bursts of requests with a browser check; fetch one page at a time and try again.
+
+**Corrected 2026-11-15 (third re-test).** Two entries that stood here were wrong, and both were this list's
+own error, not a change at the source. Fraser's "Behind Marx's Hidden Abode" is behind the *New Left Review*
+paywall: a session sees the opening paragraphs only (it is now an alternative under L20). The address recorded
+for Hamilton et al., *Umbrellas Don't Make It Rain*, returns the Cook Center's home page, not the report; the
+report's own address has not been found yet (Part 5).
 
 ## Part 4. Done (no longer needed from you)
 
@@ -140,6 +153,26 @@ PDF is linked from teebweb.org); Blackley, Halldin and Laney (2018), free at Pub
     billion," which must count something more; the Chapter 5 and appendix reports should say which before the
     sentence is ruled on. Nothing for the author to fetch.
 
+- **Third re-test the same day, by the Chapter 5 session** (the same request reached three sessions; it agrees
+  with the other two on everything they settled). Extracts in
+  `research/citations/ch5-claims-check_source-extracts_2026-11-15.md`. What it adds:
+  - **H5, productivity and pay: answered and removed.** The page at epi.org refuses sessions, but the paper
+    behind it opens at files.epi.org and was read: Bivens and Mishel, *Understanding the Historic Divergence
+    Between Productivity and a Typical Worker's Pay* (EPI Briefing Paper 406, 2015). "Net productivity grew
+    72.2 percent between 1973 and 2014. Yet inflation-adjusted hourly compensation of the median worker rose
+    just 8.7 percent."
+  - **H2:** a second Congressional Research Service product (In Focus IF13256, June 25, 2026) was read and
+    agrees: the retirement fund's reserves "depleted in the fourth quarter of 2032." A think-tank summary gives
+    $29.3 trillion for the 75-year unfunded obligation of the combined funds; the trustees' own figure is
+    still unseen.
+  - **L10:** the free preprint is SSRN abstract 3962047; SSRN returned 403. (A paper on OSF that one index
+    matched to this title is a different paper.)
+  - **L16:** Gawande's 2010 *New Yorker* article "Letting Go" opens to a plain request; a search of it found
+    no passage on how doctors are paid, so it does not replace the book.
+  - **L12:** a third web search found no obituary.
+  - **Google Books previews** for L6, L7 and L11, and snippets for L8: see step 9 above.
+  - **Part 3 corrected** (Fraser's essay; the *Umbrellas* address).
+
 ## Part 5. Not yet fully tried: do not fetch these
 
 A session works this queue and promotes to Part 1 only what truly fails. Worked in part on 2026-11-15; what
@@ -155,6 +188,17 @@ repository's copy).** None is asked of you yet.
   for Weitzman; one search found no other copy of either Weitzman paper. Blackley is now in Part 3. Hotelling
   (1931): one course-site copy returned a login page. Balboa (2016): the publisher returned 403 to a plain
   request.
+
+**Third re-test, 2026-11-15: a second route for the articles.** The OpenAlex index of open copies was asked
+about each by DOI. It lists **no open copy** for: Hotelling (1931); Weitzman (1998, 2001); Gerard (2000); Keith
+et al. (2018); Balboa (2016); Pindyck (1978); Mussa and Rosen (1978); Slade and Thille (2009); Rosen (1974);
+Hicks, "The Foundations of Welfare Economics" (*Economic Journal* 49, 1939); Kaldor (1939); and, from Part 1,
+L9, L18, L19 and L20. Publishers that returned 403 to a plain request: Resources for the Future (Gerard), Cell
+Press (Keith), MIT Press (Balboa), JSTOR (Hotelling; it asks for a browser). An index can miss a copy on an
+author's page, so these are not yet Part 1; a search for each by title is the route left. The index, Semantic
+Scholar, CORE and Google's book index all turn away bursts of requests from a session, so Hartwick (1977),
+Mudliar and Koontz (2021), Asare et al. (2023), Spence (1976), Viscusi (1993), El Serafy (1989) and Broome
+could not be looked up this way today.
 
 **Untried.**
 - Hotelling (1931); Gerard (2000); El Serafy (1989); Mudliar and Koontz (2021); Balboa (2016); Pindyck (1978);
@@ -175,10 +219,12 @@ for print-disabled readers only: Nussbaum (2000); Lewis (1973); Mishan; Bockstae
 |---|---|---|
 | this file (first two versions) | 1 Nordhaus; 2 Barry; 3 Rawls 1993; 4 Rawls 1971; 5 Ostrom; 6 Darity and Mullen; 7 Pistor; 8 Negrusa; B, C, D | Done; L2; L3; L4; L5; L1; Part 3; L9; L22, L21, L18 |
 | `research/citations/library-search-list.md` | A1 to A15 | L1; L6; L11; L7; L7; L8; Done (L10); L14; L13; Done (L15); L16; L17; L18; L19; L20 |
-| the same | Part B rows | Done (H2); Part 3 (GAO-18-351); Done (H3); H5; Done (H6); Done (H4); Done (H7) |
+| the same | Part B rows | Done (H2); Part 3 (GAO-18-351); Done (H3); Done (H5); Done (H6); Done (H4); Done (H7) |
 | `tools/workstream-handoffs/library-search-list.md` | A1; A2; A3; B1; B2; B3; B4 | H1; H8; Done (Daly 1990); Done (Nordhaus 2007); L2; L3 and L4; L12 |
 
 ## Changes log
+
+- **2026-11-15, third re-test (Chapter 5 session; the same request reached three sessions).** H5 answered and removed. Google Books previews found for L6, L7 and L11 (a route for the author at home, step 9). Part 3 corrected: two entries were not reachable. House et al. reachable. A second route (the open-copy index) recorded for sixteen articles. 20 library items, 2 home-browser items (H1, and H8, optional).
 
 - **2026-11-15, second re-test (first appendix session; the same request reached two sessions).** Its results were folded into the other session's: Pistor chapter 1 and GAO-18-351 read and moved from Part 3 to Done; Epstein et al. and Muller et al. read from open copies; a caution added on the Naik figure; lending status recorded for the lineage-only books, which are set aside as not worth a fetch; L12 marked as deliberately not searched. Sites that refuse automated visitors were tested with the fetch tool only; a download posing as a browser was declined by the session's permission system and was not retried.
 - **2026-11-15, second re-test of the same items by the Chapter 1 session** (the same request reached two

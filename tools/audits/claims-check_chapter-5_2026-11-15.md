@@ -17,10 +17,10 @@
 |---|---|
 | SUPPORTED | 99 |
 | SAYS MORE THAN THE SOURCE | 30 |
-| CONTESTED | 5 |
+| CONTESTED | 6 |
 | SOURCE FOUND, NOT CITED | 1 |
 | NO SOURCE IN THE PROJECT | 38 |
-| CONTRADICTED | 2 |
+| CONTRADICTED | 1 |
 | NOT CHECKED | 7 |
 
 Most of the unsupported rows are small. Thirteen matter, and they come first.
@@ -55,10 +55,10 @@ Each item gives the sentence as it stands, what the sources support, and one or 
 - Sources: 2033 and 77 percent are the 2025 report. $22.6 trillion is the 2024 report; the 2025 report says $25.1 trillion. A 2026 report is out. Summaries of it give 2032 and about $29.3 trillion. I could not open ssa.gov to confirm.
 - Options: (a) date them from one report: "In the Trustees' 2025 report the retirement trust fund runs out in 2033… about 77 percent," and "about $25.1 trillion." (b) update all three to the 2026 report after someone reads its highlights page.
 
-**5. Black lung (lines 254, 256). NO SOURCE and CONTRADICTED.**
+**5. Black lung (lines 254, 256). NO SOURCE and CONTESTED.**
 - Stands: "The Government Accountability Office and the Congressional Research Service put the program's payouts at roughly $44 billion through 2009." And "$5.1 billion in debt as of September 2024."
-- Sources: the project searched both agencies' reports and found no such total. The figure lives on Wikipedia in a sentence with no footnote. The article the project cites for the debt says "about $6.5 billion."
-- Options: (a) "By a widely repeated count the program had paid out more than $44 billion by 2009. No official total has been published since." (b) drop the total and use what the accountability office does say: "The trust fund has borrowed from the Treasury's general fund almost every year since 1979." For the debt: pin the Treasury's Sept. 30, 2024 statement, or write "more than $6 billion in debt at the end of 2024."
+- Sources: the project searched both agencies' reports and found no such total. The figure lives on Wikipedia in a sentence with no footnote. For the debt there are three figures: the Treasury's own statement for September 30, 2024 shows $4,969 million borrowed from the Treasury (read by another session); the article the project cites says "about $6.5 billion"; the chapter says $5.1 billion.
+- Options: (a) "By a widely repeated count the program had paid out more than $44 billion by 2009. No official total has been published since." (b) drop the total and use what the accountability office does say: "The trust fund has borrowed from the Treasury's general fund almost every year since 1979." For the debt: "the trust fund still owed the Treasury about $5 billion as of September 2024" (the Treasury's statement).
 - "Paid for by an excise tax on coal" is true of the trust fund only.
 
 **6. Sweden (lines 104, 106). NO SOURCE and SAYS MORE.**
@@ -153,7 +153,7 @@ These need a source pinned, not a rewrite: the 2012 criminal penalty of $4 billi
 
 ## 3. Errors found in the project's own records (not corrected here)
 
-- **Bibliography §23.1, Black Lung entry:** says Wyoming Public Media (Dec. 2024) corroborates "$5.1B" debt. The article says "about $6.5 billion."
+- **Bibliography §23.1, Black Lung entry:** says Wyoming Public Media (Dec. 2024) corroborates "$5.1B" debt. The article says "about $6.5 billion." The Treasury's statement gives $4,969 million; no source on file gives $5.1 billion.
 - **Bibliography, "Ch5 figure-verification sources":** dates the BP–Mexico settlement "(2013)" (the ledger: 2018) and still says "nearly half flowing to the device maker" (corrected to an estimated $7,500 on 2026-11-10).
 - **Bibliography §4:** the Mishel and Bivens entry is a 2021 paper on policy levers, not the pay-and-productivity work the chapter credits.
 - **Bibliography §6, Kindleberger and Eichengreen notes:** written at a rigor pass without the books in hand; they describe what the framework adds as if it were grounded in the books.
@@ -390,7 +390,7 @@ Line numbers are those of `manuscript/chapters/Chapter__5_TheAccountabilityGap.m
 | 250 | The Loss and Damage Fund was established at the 2022 United Nations climate conference, and it began operating the following year. | **NOT CHECKED** | Established at the 2022 conference: supported (press reports; the project's positioning file describes the fund but gives no dates). "Began operating the following year": today's search did not confirm it. | `tools/workstream-handoffs/verified-positioning-findings_2026-06-24.md`; Jamaica Observer, Nov. 2022 (via search) |
 | 252 | Darity and Mullen price what can be measured of that legacy, and the framework follows them: wealth gaps, gaps in life expectancy, broken transmission of knowledge, trauma passed down through generations. | **SAYS MORE THAN THE SOURCE** | Their price is the wealth gap (see line 246). Nothing on file shows them pricing life expectancy, lost knowledge or inherited trauma. | `tools/back-matter/sources/bibliography.md` §13 |
 | 254 | The Government Accountability Office and the Congressional Research Service put the program's payouts at roughly $44 billion through 2009, which is the most recent authoritative total. | **NO SOURCE IN THE PROJECT** | The project looked for this in the accountability office's reports, the research service's report and a Brookings paper and recorded: "The ~$44B cumulative-benefits figure is NOT LOCATABLE." The figure's only homes are Wikipedia ("the Trust by 2009 had distributed over $44 billion") and a 2015 advocacy blog. Checked today: the Wikipedia sentence has no footnote of its own, and the nearest footnote is to a 1998 book. Neither agency is on record with the number. | `tools/back-matter/sources/bibliography.md` §23.1 (Black Lung entry); en.wikipedia.org/wiki/Black_lung_disease (read 2026-11-15) |
-| 254 | the program's trust fund still carried $5.1 billion in debt as of September 2024. | **CONTRADICTED** | The article the bibliography cites for this figure says something else: the fund "is in about $6.5 billion of debt" (Wyoming Public Media, Dec. 12, 2024, read today). NPR: "more than $6 billion." A primary year-end figure was not found; the Treasury's borrowing statement for Sept. 30, 2024 is the place to look. | `tools/back-matter/sources/bibliography.md` §23.1; wyomingpublicmedia.org, 2024-12-12 |
+| 254 | the program's trust fund still carried $5.1 billion in debt as of September 2024. | **CONTESTED** | Three figures, none the chapter's. The Treasury's *Monthly Treasury Statement* for September 2024 (Table 6, Schedule C, read by another session the same day): the fund had borrowed $4,969 million from the Treasury at the close of the month. The article the bibliography cites for $5.1 billion says the fund "is in about $6.5 billion of debt" (Wyoming Public Media, Dec. 12, 2024, read); NPR: "more than $6 billion." The larger figures must count something more than the Treasury borrowing; which is not yet known. | `tools/back-matter/library-list.md` Part 4 (H3); wyomingpublicmedia.org, 2024-12-12; `tools/back-matter/sources/bibliography.md` §23.1 |
 | 256 | The black-lung program is paid for by an excise tax on coal. | **SAYS MORE THAN THE SOURCE** | True of the trust fund. The $44 billion figure, wherever it comes from, is described as all benefits paid since 1969, and part of the program is paid by coal operators directly and part from general revenue. Not checked today beyond the accountability office's summary. | GAO-18-351 summary (via search) |
 | 256 | When that tax falls short, the difference is borrowed from the federal general fund. | **SUPPORTED** | The trust fund "has borrowed from the U.S. Treasury's general fund almost every year since 1979"; it "borrowed about $1.3 billion in fiscal year 2017." | GAO-18-351; GAO-24-107597 (via search); `tools/audits/corpus-primary-source-register_2026-06-08.md` §1B |
 | 256 | Reclamation bonds posted under the 1977 law fall several billion dollars short of the reclamation they are supposed to guarantee. | **SUPPORTED** | "Reclamation: … cleanup $7.5–9.8B; bonds ~$3.8B; gap ~$4–6B. Appalachian Voices, *Repairing the Damage*, 2021." The research ledger notes the figure is an advocacy group's. | `tools/audits/corpus-primary-source-register_2026-06-08.md` §1B; `manuscript/ledgers/_RESEARCH-RESULTS-LEDGER_2026-06-04.md` |
