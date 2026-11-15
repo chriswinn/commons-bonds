@@ -36,6 +36,11 @@ commit message. Nothing here changes a source file by itself.
 - **Recommendation: ADD**, as one short entry in §14 and one row or clause where the bond is defined, at the
   next appendix version. Write it only after reading the passage of her book that Chapter 5 relies on. The
   appendix Darity has (v2.0.1) is not changed.
+- **Claims-check evidence (2026-11-15), still OPEN.** Confirmed: the name does not occur in v2.0.1. The Chapter 5
+  claims check found two faults in the chapter's own account of her (the list of modules; "lack the two
+  attributes"), so the appendix cannot take its Pistor from the chapter. Recommendation narrowed: **ADD in §14
+  only**, written from the book, after the author rules on the two Chapter 5 items; nothing at Definition 1.7
+  yet. Report: `tools/audits/claims-check_technical-appendix_2026-11-15.md`, Part 6.
 
 ### 002. Christophers, *The Price Is Wrong* (2024): should the appendix cite it? **OPEN**
 
@@ -48,6 +53,9 @@ commit message. Nothing here changes a source file by itself.
   him is an argument in Chapters 5 and 9, not a formal result.
 - **Recommendation: KEEP OUT** of the appendix. Stay in the bibliography. Revisit only if the appendix gains a
   section on the commodification objection.
+- **Claims-check evidence (2026-11-15), still OPEN.** Confirmed: not named in v2.0.1, and the words "commodify"
+  and "financialize" do not occur. The Chapter 5 check found the chapter's summary of his book says more than
+  the book. Recommendation unchanged: **KEEP OUT**. Report: `tools/audits/claims-check_technical-appendix_2026-11-15.md`, Part 6.
 
 ### 003. Susskind, *Growth: A Reckoning* (2024): should the appendix cite it? **OPEN**
 
@@ -57,6 +65,8 @@ commit message. Nothing here changes a source file by itself.
   appendix depends on him.
 - **Recommendation: KEEP OUT** of the appendix. Stay in the bibliography while Chapter 9 names him. When
   Chapter 9 is rebuilt, check that it still does; if not, this becomes a REMOVE question for the bibliography.
+- **Claims-check evidence (2026-11-15), still OPEN.** Confirmed: not named in v2.0.1; no definition, method or
+  figure draws on him. Recommendation unchanged: **KEEP OUT**. Report: `tools/audits/claims-check_technical-appendix_2026-11-15.md`, Part 6.
 
 ### 004. Daly: the appendix discusses him without a dated work or a §18 entry. **OPEN**
 
@@ -66,6 +76,14 @@ commit message. Nothing here changes a source file by itself.
   Which of his works says what §14.6 attributes to him has not been checked.
 - **Recommendation: ADD** a §18 entry and a dated citation in §14.6 at the next appendix version, after the
   claims check of the appendix confirms the work and the wording.
+- **Claims-check evidence (2026-11-15), still OPEN.** Two works found by search, neither read (the host is
+  outside the session's network): Daly, "Toward Some Operational Principles of Sustainable Development,"
+  *Ecological Economics* 2(1) (1990): 1–6 (capital as complements); and his 1995 reply to Beckerman in
+  *Environmental Values* 4(1) (weak and strong sustainability in his own words; title and pages to confirm).
+  *Steady-State Economics* is not the source for §14.6. Not found: "critical natural capital" as his term; any
+  source for the GDP sentence. Recommendation: **ADD both after reading**; head the section "Daly (1990,
+  1995)"; drop or re-credit "critical"; source or cut the GDP sentence; "consistent with" for "confirming."
+  Both are on the tentative list. Report: `tools/audits/claims-check_technical-appendix_2026-11-15.md`, Part 6.
 
 ### 005. Brian Barry: cited in the appendix with no year and no entry anywhere. **OPEN**
 
@@ -74,6 +92,13 @@ commit message. Nothing here changes a source file by itself.
 - **Reasoning.** As it stands the sentence has no source in the project.
 - **Recommendation:** the claims check of the appendix finds the source and reads it. If found, **ADD** to
   both lists. If not, **REMOVE** the sentence. No source is named here from memory.
+- **Claims-check evidence (2026-11-15), still OPEN.** Two secondary sources, found by search, credit "the
+  overall range of opportunities open to successor generations should not be narrowed" to Barry,
+  "Circumstances of Justice and Future Generations," in Sikora and Barry (eds.), *Obligations to Future
+  Generations* (Temple University Press, 1978), pp. 204–248, at p. 243. The appendix has "successive." The
+  chapter was not read. Recommendation: **ADD once someone has the page in hand**, with the year and the
+  exact words; **REMOVE the sentence** if the book cannot be obtained before the next version. On the
+  tentative list. Report: `tools/audits/claims-check_technical-appendix_2026-11-15.md`, Part 6.
 
 ### 006. Housekeeping: three works are listed twice in the bibliography. **REMOVE (duplicates), done 2026-11-15 on the author's instruction**
 
@@ -140,6 +165,15 @@ commit message. Nothing here changes a source file by itself.
   source lists. The Wikipedia date has no primary record behind it in anything read, and Athey says scrip
   "disappeared with the collapse of the coal industry in the 1950s."
 - **Recommendation: KEEP OUT** all of them. In particular, do not use the 1967 date.
+
+### 012. Secondary pages used to locate the Barry and Daly works. **OPEN**
+
+- **Facts.** The appendix claims check (2026-11-15) found the Barry quotation in a Springer article and an
+  IntechOpen chapter on the ethics of nuclear power, and found Daly's two papers through a course page, a
+  review article and Beckerman's reply. A set of lecture notes on Barry's 1997 essay was also opened.
+- **Reasoning.** They were enough to identify the works. None is the source, and the two that quote Barry
+  disagree with the appendix by one word, which only the 1978 chapter can settle.
+- **Recommendation: KEEP OUT** all of them. Cite Barry 1978 and Daly 1990 and 1995 once read (entries 004, 005).
 
 ---
 
