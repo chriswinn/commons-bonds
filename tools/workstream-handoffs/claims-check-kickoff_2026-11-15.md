@@ -94,5 +94,7 @@ not just the figure. Ask each time:
 
 - Never invent a source, a quotation or a page number. An honest NOT CHECKED is a correct result.
 - A keyword match in a source file is not support. Read the passage.
+- When a source cannot be reached, say what kind of failure it was, try another copy, and ask the author for
+  the access by name. "Could not reach" is never "no source" (`tools/memory/feedback_ask_for_access_do_not_conclude.md`).
 - Keep the report for the author short; the full table is the record.
 - One session at a time. End with three lines: what got done, what is waiting on him, the next paste line.

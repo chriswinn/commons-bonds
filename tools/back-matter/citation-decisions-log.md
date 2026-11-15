@@ -84,6 +84,11 @@ commit message. Nothing here changes a source file by itself.
   source for the GDP sentence. Recommendation: **ADD both after reading**; head the section "Daly (1990,
   1995)"; drop or re-credit "critical"; source or cut the GDP sentence; "consistent with" for "confirming."
   Both are on the tentative list. Report: `tools/audits/claims-check_technical-appendix_2026-11-15.md`, Part 6.
+- **Correction and update (2026-11-15, later).** The host was not blocked by the network; it did not resolve, and the
+  session should have looked elsewhere or asked. Daly 1995 has now been **read in full**: "On Wilfred
+  Beckerman's Critique of Sustainable Development," *Environmental Values* 4(1) (1995), within pp. 49–70. It
+  supports §14.6 on weak and strong sustainability in his own words (substitutes against complements). It
+  does not use "critical natural capital" and says nothing about GDP. Daly 1990 is still unread.
 
 ### 005. Brian Barry: cited in the appendix with no year and no entry anywhere. **OPEN**
 
@@ -207,8 +212,9 @@ commit message. Nothing here changes a source file by itself.
   ($44.2 billion). The debt has one too, the Treasury's statement for the trust fund, which no session has
   yet read. The secondary accounts give three different debt figures for nearly the same date.
 - **Recommendation: KEEP OUT** ethosrisk.com, the NPR report, the Appalachian Voices report and Wyoming Public
-  Media as sources for these two figures. **Hold** the National Academy of Social Insurance paper on the
-  tentative list: it may be the best citable later total, and it has not been opened. Cite the Labor
+  Media as sources for these two figures. **Hold** the National Academy of Social Insurance paper (Boden) on the
+  tentative list: it may be the best citable later total. Read in part later the same day; it also
+  records that Congress forgave much of the fund's debt in 2009. Cite the Labor
   Department chart and, once read, the Treasury statement.
 
 ---
