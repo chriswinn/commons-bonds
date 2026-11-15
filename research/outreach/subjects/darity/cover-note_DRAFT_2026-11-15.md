@@ -17,8 +17,10 @@ Sandy,
 [One or two lines of your own to open.]
 
 Attached are the three things you asked for: the corrected Technical Appendix, and two chapters, Chapter 1 ("The
-Quiet Math") and Chapter 5 ("The Accountability Gap"). Chapter 1 is where the book starts and is mostly my own
-story. Chapter 5 is the one that leans on your work.
+Quiet Math") and Chapter 5 ("The Accountability Gap"). I chose these two because they are the two kinds of
+writing the book does. Chapter 1 is where the book starts and is mostly my own story. Chapter 5 is the argument:
+it carries the cases, and it is the chapter that leans most on your work. [Keep, cut or replace with your own
+reason.]
 
 **What changed in the appendix since the copy you have.** The framework is the same. The numbers are smaller and
 better sourced, the claims are narrower, and the appendix now opens by saying what it borrows and from whom
@@ -28,20 +30,19 @@ in your mouth.
 
 **Three questions.** These are the places where I most need to know if I have it wrong.
 
-1. **Is the Restitution Bond grounded correctly in your and Kirsten Mullen's account?** I take your definition of
-   reparations as acknowledgment, redress and closure, and your 2024 statement that redress is the act of
-   restitution, and I say the Restitution Bond is an instrument for carrying out that act: not a rival to your
-   framework and not a new name for it.
+1. **What should ground the Restitution Bond, beyond the structure of acknowledgment, redress and closure?** I
+   take your definition of reparations, and your 2024 statement that redress is the act of restitution, and I say
+   the Restitution Bond is an instrument for carrying out that act: not a rival to your framework and not a new
+   name for it. Is that grounding right, and is it enough?
    *Where:* Chapter 5, pages 24–25 (from "The backward-looking instrument is called Restitution" through "The
    method belongs to them as well"). Appendix §5.1.1 ("Why the instrument is called Restitution," pages 27–28) and §5.4 (page 29).
 
-2. **Does it hold up to carry past harm forward as a debt on the books?** The book prices in two directions:
-   forward, against a future being foreclosed, and backward, against harm already done. For harm already done I
-   borrow your method of matched comparison, and I treat the result as a debt that is posted and kept on the books
-   until it is paid. [Check that this is the question you mean by "carrying past harm forward," and reword it if
-   not.]
-   *Where:* Chapter 5, page 19 (the method "works in two directions") and page 26 (the matched comparisons for
-   McDowell County, Libby and Appalachia). Appendix §5.5 (pages 30–33) and Definition 1.12 (page 18).
+2. **How should harm done decades ago be carried forward to the present?** The appendix values past harm at
+   today's prices and says plainly that it does not settle the question. It points to *From Here to Equality* as
+   the reference treatment for one case. I would like to know how you think it should be done.
+   *Where:* Appendix page 19 ("How harm done decades ago should be carried forward to the present…") with
+   Definition 1.11, and §5.5 (pages 30–33). Chapter 5, page 19 (the method "works in two directions") and page 26
+   (the matched comparisons for McDowell County, Libby and Appalachia).
 
 3. **Does the name "reparations bond" fit your and Kirsten Mullen's program?** One sentence in Chapter 5 says
    that, applied to the debt owed to the descendants of people enslaved in the United States, the Restitution

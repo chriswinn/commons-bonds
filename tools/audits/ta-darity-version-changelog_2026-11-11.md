@@ -14,19 +14,24 @@ appendix now says plainly what it borrows.
 | | His copy | Now |
 |---|---|---|
 | McDowell carbon term | $544 per ton (national coal basis) | $496 (McDowell-specific heat content) |
-| McDowell headline value | Method 3, about $1,115 per ton | The integral, $525–540 per ton. Methods 1 and 3 are cross-checks |
-| McDowell unpaid cost | about $1,025–1,065 per ton | at least about $425–450 per ton |
-| Multiples | 33–122× and higher, against the 1960 price | about 4–13×, against today's price. No ratio across eras |
+| McDowell headline value | Model estimate $580–620 per ton (§11.1); Method 3 mid about $2,500 per ton in the summary table | The integral, $525–540 per ton. Methods 1 and 3 are cross-checks |
+| McDowell unpaid cost | about $2,400 per ton (summary table) | at least about $425–450 per ton |
+| Multiples | 33–122× without carbon, "substantially higher" with it; about 50× in the summary table | about 4–13×, against today's price. No ratio across eras |
 | Norway's bond | $48 per barrel | about $36 (the fund), with rent of $32–36 shown separately |
-| Norway's unpaid cost | $13–15 trillion | a floor of about $1.9 trillion (carbon only) |
-| Libby | 26 to 1 on a $2.6 billion floor | cleanup alone about 6 to 1; the $250 million is correctly a reimbursement |
+| Norway's unpaid cost | $13–15 trillion (§11); about $12.5 trillion in the summary table | a floor of about $1.9 trillion (carbon only) |
+| Libby | $4 billion-plus "documented," 40 to 1; the $250 million listed as wrongful-death settlements | cleanup alone about 6 to 1; the $250 million is correctly a reimbursement |
 | Method 3 exponent β | present | removed; the form is called the framework's own, not quasi-option value |
 
 Every figure is reproduced by two scripts with derived inputs (95 checks, no mismatches).
 
-**Check before sending.** In the "His copy" column only the $544 carbon term is confirmed against his file (by
-the June diff). The other entries come from later repo history; this session's clone could not reach the commit
-his file was built from. Compare each against his PDF, or drop the column and keep "Now."
+**"His copy" column checked 2026-11-15** against the text of the file he holds
+(`research/outreach/subjects/darity/Technical_Appendix_Commons_Bonds_with-citations_2026-05-14.pdf`, 91 pages).
+Confirmed as written: the $544 carbon term, 33–122×, Norway's $48 per barrel and $13–15 trillion, the exponent β,
+the "(Darity 2026)" citations and interview entry, triangulation and convergence language, and public programs
+listed as restitution. **Three rows were wrong and are corrected above:** the McDowell headline ($1,115 does not
+appear in his copy), the McDowell unpaid cost ($1,025–1,065 does not appear), and Libby (26 to 1 on $2.6 billion
+does not appear; his copy says $4 billion-plus and 40 to 1). Those three figures came from intermediate versions
+he never saw.
 
 ## Structure
 
