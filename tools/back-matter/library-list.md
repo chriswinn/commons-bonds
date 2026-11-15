@@ -41,26 +41,24 @@ Reports the "Settles" column refers to: **TA** = `tools/audits/claims-check_tech
 | L3 | Rawls, *Political Liberalism* (Columbia University Press, 1993; note your printing) | **Page 274** with its footnote: the savings principle each generation "would want preceding generations to have followed" | TA §14.4, which quotes this under "Rawls (1971)"; decisions log 017 | You reword §14.4 to quote nothing | No open copy. **Borrow online:** archive.org lends the 1996 paperback (item `politicalliberal0000john`); check the page in that printing. |
 | L4 | Rawls, *A Theory of Justice*, **1971 edition** (say if yours is the 1999 revision) | §44 and §45: the opening page of each and the passage in §45 on pure time preference. About six pages. | TA §14.4, "(Rawls 1971, §45)" | Same as L3 | No open copy. Internet Archive scans of 1971: print-disabled only. |
 | L5 | Ostrom, *Governing the Commons* (Cambridge University Press, 1990) | **Page 90, Table 3.1**, all eight principles | TA Definition 1.10, §14.5; decisions log 013 | Never, but low effort: one page | No lawful open copy. Internet Archive: print-disabled only. Now supported only by web copies. |
-| L6 | Fraser, *Cannibal Capitalism* (Verso, 2022) | Chapter 2, the opening pages defining exploitation and expropriation; any page applying "expropriation" to care work or to nature | Ch 5 item 3 | You adopt the replacement sentence as "to be checked" | Chapter 5 session, 2026-11-15: book; Internet Archive lending-only. |
-| L7 | Eichengreen, *Golden Fetters* (Oxford, 1992) **and** Kindleberger, *The World in Depression, 1929–1939* (1973 or 1986) | Index entries for Sweden in each: leaving gold in 1931, the recovery, the bank rescue, public works; anything on mortgages or relief of household debt | Ch 5 item 6 | You cut the mortgage sentence and "the scholars… treat Sweden as standing proof" | Chapter 5 session: books; lending-only. |
-| L8 | Schneider and McCumber, *An Air That Kills* (Putnam, 2004) | Index or chapters on daily life in Libby: oxygen tanks, funerals, the running track, dust carried home; the internal Grace documents; any lobbying against asbestos rules | Ch 5 item 12; TA §11.3 (what the company knew). The likeliest source for the Libby scenes; not confirmed. | You cut the grocery-cart, funeral and lobbying sentences | Chapter 5 session: book; lending-only. |
+| L6 | Fraser, *Cannibal Capitalism* (Verso, 2022) | Chapter 2, the opening pages defining exploitation and expropriation; any page applying "expropriation" to care work or to nature | Ch 5 item 3 | You adopt the replacement sentence as "to be checked" | Re-tested 2026-11-15: no excerpt on the publisher's site or elsewhere (search); the German publisher posts a sample in German, not chapter 2. Internet Archive: no lendable scan (the one copy there is an unofficial upload, not used). The 2016 article (L20) refuses sessions both ways. Still needs you. |
+| L7 | Eichengreen, *Golden Fetters* (Oxford, 1992) **and** Kindleberger, *The World in Depression, 1929–1939* (1973 or 1986) | Index entries for Sweden in each: leaving gold in 1931, the recovery, the bank rescue, public works; anything on mortgages or relief of household debt | Ch 5 item 6 | You cut the mortgage sentence and "the scholars… treat Sweden as standing proof" | Re-tested 2026-11-15: no open copy of either. **Borrow online:** archive.org lends both (items `goldenfettersgol00eich`; `worldindepressio00kind`, 1973, and `worldindepressio00kind_0`, 1986). Jonung (1981) and the Riksbank history (Part 3) may answer the Sweden sentences without them. |
+| L8 | Schneider and McCumber, *An Air That Kills* (Putnam, 2004) | Index or chapters on daily life in Libby: oxygen tanks, funerals, the running track, dust carried home; the internal Grace documents; any lobbying against asbestos rules | Ch 5 item 12; TA §11.3 (what the company knew). The likeliest source for the Libby scenes; not confirmed. | You cut the grocery-cart, funeral and lobbying sentences | Re-tested 2026-11-15: no open copy. **Borrow online:** archive.org lends it (item `airthatkillshowa00schn`). A lead a session can read instead: the authors' 1999 newspaper series ("Uncivil Action," *Seattle Post-Intelligencer*) and the PBS page on how the story broke (archive.pov.org/libbymontana/breaking-the-story, reachable); neither read yet. |
 | L9 | Negrusa, Negrusa and Hosek, "Gone to War: Have Deployments Increased Divorces?" *Journal of Population Economics* 27(2) (2014): 473–496. DOI 10.1007/s00148-013-0485-5 | The whole PDF | TA Definition 1.10 (the 462,000 and the pre-2001 result) | You accept the university summary, which confirms both and adds that length of marriage was not controlled | Publisher: paywall. RAND: no PDF. RePEc: subscribers only. Summary read (reachfamilies.umn.edu). |
-| L10 | Panjwani and Xiong, on names and crowdfunding, *Journal of Economic Behavior & Organization* 205 (2023): 648–667 | The whole PDF | Ch 5 item 10 (the surname sentence) | You use the Saleh sentence instead | Chapter 5 session: paywalled. |
-| L11 | Christophers, *The Price Is Wrong* (Verso, 2024) | Introduction: the pages that state the thesis | Ch 5 item 11; decisions log 002 | You cut the one sentence describing his work | Chapter 5 session: book. |
+| L11 | Christophers, *The Price Is Wrong* (Verso, 2024) | Introduction: the pages that state the thesis | Ch 5 item 11; decisions log 002 | You cut the one sentence describing his work | Re-tested 2026-11-15: no excerpt of the introduction found (search); reviews and catalogue summaries only ("not that transitioning to renewables is too expensive, but that saving the planet is not sufficiently profitable"). Internet Archive: only an unofficial upload, not used. Still needs you. |
 | L12 | *Daily Press* (Newport News and Hampton): obituary and any retirement notice for Lavern E. Winn. **Ask your father first; he may simply know.** Hampton Public Library holds the paper. | Year of death; when he started at Langley (NACA or NASA); job title; year of retirement | Ch 1 item 8 (line 62); also the project's two death years | Your father answers it | Chapter 1 session: web search, nothing; NASA Langley history pages, no newsletter archive; newspaper archives are subscription. The National Archives in Philadelphia holds the Langley newsletters (a records request, not a library visit). |
 
 **Lower priority: take these only if you are already there.**
 
 | # | Source | What to copy | Settles | Note |
 |---|---|---|---|---|
-| L13 | Polanyi, *The Great Transformation* | Chapter 6, the pages on labor, land and money as fictitious commodities | Ch 5 line 188 | Skip if you cut "Money is a token of trust" |
-| L14 | Sandel, *What Money Can't Buy* (2012) | Introduction; the passage on fines and fees | Ch 5 line 182 | Low risk |
-| L15 | Kapp, *The Social Costs of Private Enterprise* (1950) | Title and copyright pages; the opening pages stating the thesis | Ch 5 line 170; bibliography entry | Low risk |
-| L16 | Gawande, *Being Mortal* (2014) | Passages on how doctors are paid, palliative care, training | Ch 5 line 18 | Low risk; the project's note may suffice |
-| L17 | Mian and Sufi, *House of Debt* (2014) | Chapter 2, the pages on who lost the most | Ch 5 lines 86–88 | Low risk |
+| L13 | Polanyi, *The Great Transformation* | Chapter 6, the pages on labor, land and money as fictitious commodities | Ch 5 line 188 | Skip if you cut "Money is a token of trust" Re-tested 2026-11-15: no open copy; **borrow online** at archive.org (item `greattransformat0000pola`, 1944). |
+| L14 | Sandel, *What Money Can't Buy* (2012) | Introduction; the passage on fines and fees | Ch 5 line 182 | Low risk Re-tested 2026-11-15: the book is print-disabled only at archive.org. His 1998 Tanner Lectures of the same title are listed on the lectures' official site (tannerlectures.org); a session could not find the PDF link there and did not use the course-page copy. |
+| L16 | Gawande, *Being Mortal* (2014) | Passages on how doctors are paid, palliative care, training | Ch 5 line 18 | Low risk; the project's note may suffice Re-tested 2026-11-15: print-disabled only at archive.org; no excerpt tried. |
+| L17 | Mian and Sufi, *House of Debt* (2014) | Chapter 2, the pages on who lost the most | Ch 5 lines 86–88 | Low risk Re-tested 2026-11-15: print-disabled only at archive.org. Mian, Rao and Sufi (Part 3) may cover it. |
 | L18 | Costanza and Perrings, "A flexible assurance bonding system for improved environmental management," *Ecological Economics* 2(1) (1990): **57–75**. DOI 10.1016/0921-8009(90)90013-K | The whole PDF | Ch 5 line 172; TA §14.8 | The quotation already matches the published abstract; this only upgrades "abstract" to "read" |
-| L19 | Zhou and Ge (2021), *Extractive Industries and Society* 8(1): 340–354; "Zhang et al. 2022," *Science of the Total Environment* | Confirm each exists; the PDFs | Ch 5 line 138 | Skip if you cut the sentence naming them |
-| L20 | Fraser, "Expropriation and Exploitation in Racialized Capitalism," *Critical Historical Studies* (2016) | The PDF | Ch 5 item 3, second source | Skip if you have L6 |
+| L19 | Zhou and Ge (2021), *The Extractive Industries and Society* 8(1): 340–354, DOI 10.1016/j.exis.2020.11.010; Zhang, Zhang, Peng, Feng, Fang and Chen (2022), *Science of the Total Environment* 831: 154934, DOI 10.1016/j.scitotenv.2022.154934 | The two PDFs | Ch 5 line 138 | **Both confirmed to exist, 2026-11-15** (titles in `research/citations/library-retest_2026-11-15.md`). The publisher refuses sessions both ways, so the PDFs still need you. The 2022 paper is about who consumes the output, not about waste; skip both if you cut or reword the sentence. |
+| L20 | Fraser, "Expropriation and Exploitation in Racialized Capitalism," *Critical Historical Studies* (2016) | The PDF | Ch 5 item 3, second source | Skip if you have L6 Re-tested 2026-11-15: confirmed (DOI 10.1086/685814, *Critical Historical Studies* 3(1): 163–178); the journal refuses sessions both ways. |
 | L21 | Keefe, *Empire of Pain* (2021) | Any passage saying Purdue targeted particular kinds of communities; any mention of McDowell County | TA §6.7 | Skip if you take the report's rewording, which needs no source |
 | L22 | Rawls, *Justice as Fairness* (Harvard, 2001), pp. 159–160 | The same savings-principle sentence | TA §14.4 | Only if L3 is unavailable |
 
@@ -70,14 +68,10 @@ Open, save as PDF, attach. A few minutes each.
 
 | # | What to open | What is needed | Settles | What was tried |
 |---|---|---|---|---|
-| H1 | Congressional Budget Office, *The Distribution of Household Income, 2018* (cbo.gov/publication/57404), with its "Supplemental Data"; the 2017 edition if one click away | The lowest income that puts a household in the top 1 percent, and in the 96th to 99th percentiles, for 2017 and 2018; which income measure the table uses | Ch 1 item 4 (line 126) | Fetch tool and direct download: HTTP 403 (a CAPTCHA page), also after permission. Census table read; cannot answer it. |
-| H2 | Social Security Trustees Report 2026, highlights (ssa.gov/oact/TR/2026/II_A_highlights.html) | The page | Ch 5 item 4 | Site refuses sessions. |
-| H3 | Treasury's statement for the Black Lung Disability Trust Fund, September 30, 2024 (search "Black Lung Disability Trust Fund" at fiscal.treasury.gov) | The balance of advances owed to the Treasury | Ch 5 item 5; TA §11.6 (the $5.1 billion) | Four old addresses return "not found"; the current address was not located. A government-documents librarian could find it quickly. |
-| H4 | Justice Department release on BP's guilty plea, November 15, 2012 (justice.gov) | The page | Ch 5 line 56; TA §11.2 | Site refuses sessions. |
-| H5 | Economic Policy Institute, productivity and pay (epi.org/productivity-pay-gap) | The page | Ch 5 line 78 | Site refuses sessions. |
-| H6 | Financial Crisis Inquiry Commission, conclusions (fcic.law.stanford.edu/report/conclusions) | The page | Ch 5 item 13; TA §6.7 | Site refuses sessions. |
-| H7 | Exxon Valdez trustee council, Pacific herring status (evostc.state.ak.us) | The page | Ch 5 item 8 | Site refuses sessions. |
-| H8 | State Department, Foreign Service Institute, "Foreign Language Training." **Optional; low value.** | Class hours by language category | Ch 1 row 8 | HTTP 403 both ways; secondary copies already agree. |
+| H1 | Congressional Budget Office, *The Distribution of Household Income, 2018* (cbo.gov/publication/57404), with its "Supplemental Data"; the 2017 edition if one click away | The lowest income that puts a household in the top 1 percent, and in the 96th to 99th percentiles, for 2017 and 2018; which income measure the table uses | Ch 1 item 4 (line 126) | Re-tested 2026-11-15: plain request and fetch tool both 403 for the page and the PDF; no mirror of the supplemental table found (search). Still needs you. |
+| H3 | Treasury's statement for the Black Lung Disability Trust Fund, September 30, 2024 (search "Black Lung Disability Trust Fund" at fiscal.treasury.gov) | The balance of advances owed to the Treasury | Ch 5 item 5; TA §11.6 (the $5.1 billion) | Re-tested 2026-11-15: a search engine lists the Treasury's monthly trust-fund statements under `/ftp/dfi/tfmb/` with names like `dfibl0824.pdf` (August 2024), on federalinvestments.gov and treasurydirect.gov; September 2024 should be `dfibl0924.pdf`. Every such address returns "not found" or an error to a session, by both routes. Try that file name in a browser, or ask a government-documents librarian. |
+| H5 | Economic Policy Institute, productivity and pay (epi.org/productivity-pay-gap) | The page | Ch 5 line 78 | Re-tested 2026-11-15: plain request and fetch tool both 403. Still needs you. |
+| H8 | State Department, Foreign Service Institute, "Foreign Language Training." **Optional; low value.** | Class hours by language category | Ch 1 row 8 | Re-tested 2026-11-15: 403 again (an error page). Optional. |
 
 ## Part 3. A session can read these: nothing for you to do
 
@@ -100,32 +94,60 @@ the Depression; the Riksbank's history, 1914–1945; Mian, Rao and Sufi (NBER wo
   the **Labor Department's FY 2026 budget document** for the trust fund; **Butler (2010)**; **Saleh et al.
   (2020)**; **Kenworthy and Igra (2022)**; **Darity, Craemer, Berry and Francis (2024)**: read.
 
-## Part 5. Not yet tried: do not fetch these
+- **Re-test of 2026-11-15** (quotations in `research/citations/library-retest_2026-11-15.md`):
+  - **H6, the Commission's conclusions:** read in the official edition at govinfo.gov. Confirms "human action
+    and inaction" word for word; finds no statement that the complexity was deliberate.
+  - **H7, the herring page:** opens to a plain request; read. "not recovering from the effects of the Spill";
+    it also names disease, nutrition and predation as possible causes of the 1993 crash.
+  - **H4, the 2012 plea:** the Justice Department's page puts up a browser check, which was left alone. The
+    EPA's enforcement page, read, has it: "November 15, 2012: $4 billion criminal plea agreement."
+  - **H2, Social Security 2026:** ssa.gov refuses every route. The Congressional Research Service's report of
+    November 2, 2026 (R49500), read, gives the trustees' figures: depletion of the retirement fund in 2032 with
+    about 78 percent payable; the combined funds in 2034. Open the trustees' own page only if you want it cited
+    directly.
+  - **L15, Kapp:** the 1950 preface, read as a page scan on the Kapp foundation's site, states the thesis in
+    his words. Only the 1950 title and copyright pages are unseen; not worth a trip.
+  - **L10, Panjwani and Xiong:** the published abstract, read, states the surname finding outright. The full
+    PDF (publisher and preprint both refuse sessions) is needed only if you want numbers from it; DOI
+    10.1016/j.jebo.2022.11.017.
+  - **From the untried queue, read:** Loewenstein, O'Donoghue and Rabin (2003); Naik et al. (2017); Wilberg et
+    al. (2011); IPCC AR6 Working Group III, chapter 12; IEA, *Net Zero by 2050* (searched in full; the
+    appendix's figure was not found in it); Realmonte et al. (2019) (read in part; the appendix's range not
+    found as such).
 
-A session works this queue and promotes to Part 1 only what truly fails.
+## Part 5. Not yet fully tried: do not fetch these
 
-- Hotelling (1931); Hartwick (1977); Weitzman (1998, 2001); Broome (1992, 1994, 2012); Gerard (2000); Muller,
-  Mendelsohn and Nordhaus (2011); Epstein et al. (2011); El Serafy (1989); Mudliar and Koontz (2021); Asare et
-  al. (2023); Loewenstein, O'Donoghue and Rabin (2003); Balboa (2016); Naik et al. (2017); Wilberg et al.
-  (2011); Keith et al. (2018); Realmonte et al. (2019); House et al. (2011); Pindyck (1978); Dasgupta and Heal
-  (1979); Mussa and Rosen (1978); Slade and Thille (2009); Spence (1976); Rosen (1974); Viscusi (1993).
+A session works this queue and promotes to Part 1 only what truly fails. Worked in part on 2026-11-15; what
+was read moved to Part 4.
+
+**One route tried and refused; other routes still to try (the fetch tool, PubMed Central, the author's or a
+repository's copy).** None is asked of you yet.
+- Weitzman (1998, 2001): the author's Harvard page returned 403 to a plain request.
+- Broome (1994): the address tried on the author's Oxford page returned "not found." Broome (1992, 2012): untried.
+- Epstein et al. (2011): the journal returned 403. Muller, Mendelsohn and Nordhaus (2011): the journal returned 403.
+- Keith et al. (2018); House et al. (2011); Asare et al. (2023); Blackley, Halldin and Laney (2018): each journal returned 403 to a plain request.
+- Hartwick (1977): the working-paper address tried did not respond.
+
+**Untried.**
+- Hotelling (1931); Gerard (2000); El Serafy (1989); Mudliar and Koontz (2021); Balboa (2016); Pindyck (1978);
+  Dasgupta and Heal (1979); Mussa and Rosen (1978); Slade and Thille (2009); Spence (1976); Rosen (1974);
+  Viscusi (1993).
 - Sen (1985, 1999); Nussbaum (2000); Parfit (1984), Part IV; Savage (1954); Lewis (1973); Hicks (1939); Kaldor
   (1939); Mishan (1971); Samuelson (1948); Bockstael and McConnell (2007).
-- Free reports a session should simply read: TEEB (2010, 2018); IEA, *Net Zero by 2050* (2021); IPCC AR6
-  Working Group III, chapter 12.
-- Blackley, Halldin and Laney (2018) (Chapter 2, row 41).
+- TEEB (2010, 2018).
 
 ## Old numbers, for anything that refers to them
 
 | Old file | Old item | Now |
 |---|---|---|
 | this file (first two versions) | 1 Nordhaus; 2 Barry; 3 Rawls 1993; 4 Rawls 1971; 5 Ostrom; 6 Darity and Mullen; 7 Pistor; 8 Negrusa; B, C, D | Done; L2; L3; L4; L5; L1; Part 3; L9; L22, L21, L18 |
-| `research/citations/library-search-list.md` | A1 to A15 | L1; L6; L11; L7; L7; L8; L10; L14; L13; L15; L16; L17; L18; L19; L20 |
-| the same | Part B rows | H2; Part 3 (GAO-18-351); H3; H5; H6; H4; H7 |
+| `research/citations/library-search-list.md` | A1 to A15 | L1; L6; L11; L7; L7; L8; Done (L10); L14; L13; Done (L15); L16; L17; L18; L19; L20 |
+| the same | Part B rows | Done (H2); Part 3 (GAO-18-351); H3; H5; Done (H6); Done (H4); Done (H7) |
 | `tools/workstream-handoffs/library-search-list.md` | A1; A2; A3; B1; B2; B3; B4 | H1; H8; Done (Daly 1990); Done (Nordhaus 2007); L2; L3 and L4; L12 |
 
 ## Changes log
 
+- **2026-11-15, re-test of the Chapter 5 and Chapter 1 items (L6–L8, L10–L17, L19–L20, H1–H8) and a first pass at Part 5.** Removed as answered: H2, H4, H6, H7, L10, L15 (six fewer things for the author). Confirmed to exist: both L19 papers. Borrow-online status added for L7, L8, L13. Still with the author after every route: L6, L11, L20, H1, H3, H5 (and H8, optional). Part 5: six works read, nine tried by one route only, the rest untried. 20 library items (11 that matter, 9 lower), 4 home-browser items.
 - **2026-11-15, merge.** The three lists became this one, on the author's instruction. Removed as done:
   Nordhaus 2007 and Daly 1990 (both had been asked of him in two files). Pistor moved from "needs a library"
   to "a session can read it" on the Chapter 5 session's finding of an open chapter. Duplicates combined

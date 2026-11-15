@@ -614,6 +614,24 @@ Two findings in this report were wrong or too strong and are withdrawn. The rest
 - **The deployment study.** A University of Minnesota research summary of Negrusa et al. (read) confirms "462,444 enlisted Service members" and that "Couples married before 9/11 were more likely to divorce than couples married after 9/11, which may be because they expected a lower risk of deployment." It lists a limitation the appendix does not carry: "Length of marriage was not taken into consideration; therefore, the finding … could be possibly due to the fact that those couples were married longer." The article itself is still unread.
 - **What only the author can fetch** is now in `tools/back-matter/library-list.md` (one list, shared with the second appendix session): seven confirmed items, each with what was tried.
 
+### Addendum 4 (second session): rows changed by the library-list re-test, 2026-11-15
+
+Sources read while re-testing the library list (words in `research/citations/library-retest_2026-11-15.md`).
+The table rows below are left as first written; this is the correction to each.
+
+| Row | Was | Now | On what |
+|---|---|---|---|
+| §11.2, "the 2012 federal criminal penalty: $4 billion" | NO SOURCE IN THE PROJECT | **SUPPORTED** | EPA enforcement page, read: "November 15, 2012: $4 billion criminal plea agreement with BP Exploration & Production." |
+| §11.12, "Wilberg et al. 2011 treat overfishing, disease and habitat loss together" | NOT CHECKED | **SUPPORTED** | The paper, read in part: its title and abstract name all three; "oyster abundance declined 99.7%." The clause "disease kills oysters and does not remove reef" is still the appendix's own. |
+| §11.3, 694 deaths (Naik et al. 2017) | SUPPORTED on the project's note | **SUPPORTED, paper read** | 694 decedents, 1979–2011. The count begins in 1979; "through 2011" should say so. Title for §18: "Mortality from asbestos-associated disease in Libby, Montana 1979–2011." |
+| Def 1.10, Loewenstein et al. 2003 (first table) | SUPPORTED at abstract level | **SUPPORTED, paper read** | "People exaggerate the degree to which their future tastes will resemble their current tastes." |
+| §11.9, IPCC chapter 12 | SAYS MORE THAN THE SOURCE | **SAYS MORE, narrower** | Chapter read in part: "USD100–300 (full range: USD84–386)," and, citing Fuss et al., "USD600–1000 … for first-of-a-kind plants." Both of the appendix's outer bands are in the IPCC chapter. Only ">$1,000/ton in pessimistic" was not found. |
+| §11.9, IEA *Net Zero by 2050*, "$130–$330/ton" | NOT CHECKED | **NOT FOUND in the report** | The official PDF was searched in full; no cost per ton for direct air capture appears in its text. It may be in a figure or in another IEA publication. |
+| §11.9, Realmonte et al., "$100–$600/ton at multi-gigaton scale" | NOT CHECKED | **NOT FOUND as stated** | Paper read in part: "estimates in the literature ranging from 100 to 1000 $/tCO2." |
+| §6.7, the Commission "reached the same diagnosis" (first table) | SAYS MORE THAN THE SOURCE | **unchanged, now on the primary** | The conclusions, read in the official edition, blame failures of regulation, governance, borrowing and accountability. They do not say what the opioid record says, and nothing in them says complexity was deliberate. |
+
+Counts for §11 to §17 after this addendum: 67 supported of 182 (was 65).
+
 ---
 
 ## 7. Errors found in the project's own records (not corrected here)
