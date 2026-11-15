@@ -42,7 +42,7 @@ the asset; the foreword/publisher question waits until he raises it himself.
 
 ## Book — chapters (verified against git 2026-10-25, per the plan's table)
 
-**Claims check (author's question, 2026-11-15):** the ledger checks numbers; no step had checked whole sentences and non-numeric facts against the project's sources (the BP–Mexico wording slipped through this gap). Method and paste line: `tools/workstream-handoffs/claims-check-kickoff_2026-11-15.md`. **Not yet run on Ch 5, the TA or Ch 1** (all three are with Darity); now also a step in the chapter kickoff.
+**Claims check (author's question, 2026-11-15):** the ledger checks numbers; no step had checked whole sentences and non-numeric facts against the project's sources (the BP–Mexico wording slipped through this gap). Method and paste line: `tools/workstream-handoffs/claims-check-kickoff_2026-11-15.md`. **Run on Ch 1 2026-11-15** (`tools/audits/claims-check_chapter-1_2026-11-15.md`: 36 claims, 13 supported; nine items for the author's ruling, led by what the company could legally do to the colleague, "The pricing is new," and the NIH team size; chapter unchanged). **Not yet run on Ch 5 or the TA** (both with Darity); now also a step in the chapter kickoff.
 
 **Process for Ch 2–4 and 6–10 (author, 2026-11-14):** pace draft and dinner-table draft per chapter, compared on annotated print copies, assembled from his hand redline, one chapter at a time: `tools/workstream-handoffs/chapter-two-drafts-kickoff_2026-11-14.md` (order 2, 10, 4, 3, then 7, 9, 6, 8).
 
