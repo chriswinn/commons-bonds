@@ -2,7 +2,13 @@
 
 **Date drafted:** 2026-05-06  ·  **Date modified:** 2026-05-10
 
-**Status.** Working list — refine to 5–6 for the final proposal.
+**Status.** Research file. **The comp sets were RATIFIED by the author on 2026-11-15** (below); the proposal's §02 is to be written from them in the refresh. The older working list and matrix further down are kept as research.
+
+**Ratified sets (author, 2026-11-15).** Rule: a comp earns its place by fit, whatever its age.
+- **University-press version (eight):** Darity and Mullen, *From Here to Equality*; Ostrom, *Governing the Commons*; Pistor, *The Code of Capital*; Mazzucato, *The Value of Everything*; Patel and Moore, *A History of the World in Seven Cheap Things*; Christophers, *The Price Is Wrong*; Dasgupta, *On Natural Capital*; Davies, *The Unaccountability Machine*. Then one paragraph crediting the papers and classics the appendix builds on.
+- **Trade version (five recent, two anchors):** Christophers; Davies; Dasgupta; Riofrancos, *Extraction*; Susskind, *Growth: A Reckoning*; then Darity and Mullen and Mazzucato.
+- **Reserves:** Coyle, Jones, Romeo; Hochschild only if a trade version wants a narrative comp.
+- Details, sources and what has not been verified: `02_comp-titles_refresh-candidates_PROPOSED_2026-11-15.md`. Davies, Dasgupta and Riofrancos are not cited in the book: describe them as neighbours, not as works it builds on (`tools/back-matter/citation-decisions-log.md`, entry 007). Read enough of each new book to stand behind its sentence before it goes in.
 
 **Purpose.** Anchor Commons Bonds in the agent's mental map. Each comp shows: there is a market for this register; how Commons Bonds is similar; how it advances the conversation.
 

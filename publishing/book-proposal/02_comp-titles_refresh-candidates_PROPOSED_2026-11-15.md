@@ -1,6 +1,6 @@
 # Comp titles: refresh candidates (2026-11-15)
 
-**Status:** PROPOSED (internal). For the author to choose from. Nothing here is in the proposal yet.
+**Status:** The "Suggested shape for §02" at the end was **RATIFIED by the author on 2026-11-15**, for both versions as recommended. The rest is the research behind it. Nothing here is in the proposal yet.
 `02_comp-titles.md` is unchanged. Publication details below were checked on the web on 2026-11-15; where
 only a retailer listing was found, that is said. What each book argues is taken from publisher and review
 summaries, not from reading the book. Before any entry goes into the proposal, read enough of the book

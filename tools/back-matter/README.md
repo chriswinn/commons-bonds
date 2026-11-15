@@ -29,6 +29,9 @@ citation link can deep-link straight to it.
 - `build.py` — the generator (stdlib only). Commands below.
 - `citation-crossref-index.md` — per bib entry: where it is cited across the corpus
   (TA / chapters / essays / op-eds), with ORPHAN flags for prune candidates. Review aid.
+- `citation-decisions-log.md` — questions about whether a work belongs in the bibliography or the
+  Technical Appendix, with the reasoning and the author's ruling. A work left out or removed gets an entry
+  saying why (started 2026-11-15).
 - `glossary-consolidation-ledger.md` — v2/v3/v4 lineage, canonicity decision, retired-terms
   inventory (kept out of the reader-facing glossary), v3→v4 regression check.
 
