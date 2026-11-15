@@ -82,6 +82,8 @@ Chapters that wait on nothing first: **2, 10, 4, 3.** Then **7, 9, 6, 8.** The a
   group he names; countries named. Everyday nouns ("company," "family"). State what the book does; no "tries to."
 - Where the record shows a party seeking rent and shifting a cost, say so plainly from the record; allege no
   intent the record does not show.
+- Follow the source tracking rule (`tools/back-matter/source-tracking-rule.md`): every potential source you
+  find or name goes on the tentative list with its reason; nothing moves into the bibliography unread.
 - Credit a source in the sentence where its idea is used. Do not cut objections, lineage or a section on your
   own judgment: raise it as a QUESTION for him (he kept all six objections and the lineage in Chapter 5).
 - No verdict closers, no announcing what the next paragraph will do, no process notes in the prose.

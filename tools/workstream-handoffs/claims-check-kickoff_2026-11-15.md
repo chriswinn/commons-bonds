@@ -83,7 +83,10 @@ not just the figure. Ask each time:
 3. A second short list: **sources the project has found that bear on this document and are not used**, where one
    would strengthen a claim or should qualify it.
 4. Counts: claims listed, and how many in each status.
-5. Do not edit the document. After the author rules, a later session applies his rulings exactly, and every
+5. Every source found on the web that the project does not hold goes on the tentative list, with the claim it
+   would support, per `tools/back-matter/source-tracking-rule.md`. (The check still adds nothing to the working
+   bibliography.)
+6. Do not edit the document. After the author rules, a later session applies his rulings exactly, and every
    ruling that retires or changes a figure or a factual wording gets a ledger row and a gate pattern in the same
    commit.
 

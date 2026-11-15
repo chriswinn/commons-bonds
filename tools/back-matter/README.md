@@ -29,6 +29,9 @@ citation link can deep-link straight to it.
 - `build.py` — the generator (stdlib only). Commands below.
 - `citation-crossref-index.md` — per bib entry: where it is cited across the corpus
   (TA / chapters / essays / op-eds), with ORPHAN flags for prune candidates. Review aid.
+- `source-tracking-rule.md` — the standing rule (author, 2026-11-15): every potential source goes on the
+  tentative list (§19 of the bibliography) with its reason; moves into the bibliography and rulings to keep
+  a source out are both recorded with reasons.
 - `citation-decisions-log.md` — questions about whether a work belongs in the bibliography or the
   Technical Appendix, with the reasoning and the author's ruling. A work left out or removed gets an entry
   saying why (started 2026-11-15).
