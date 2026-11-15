@@ -46,14 +46,14 @@ Reports the "Settles" column refers to: **TA** = `tools/audits/claims-check_tech
 | L8 | Schneider and McCumber, *An Air That Kills* (Putnam, 2004) | Index or chapters on daily life in Libby: oxygen tanks, funerals, the running track, dust carried home; the internal Grace documents; any lobbying against asbestos rules | Ch 5 item 12; TA §11.3 (what the company knew). The likeliest source for the Libby scenes; not confirmed. | You cut the grocery-cart, funeral and lobbying sentences | Re-tested 2026-11-15: no open copy. **Borrow online:** archive.org lends it (item `airthatkillshowa00schn`). A lead a session can read instead: the authors' 1999 newspaper series ("Uncivil Action," *Seattle Post-Intelligencer*) and the PBS page on how the story broke (archive.pov.org/libbymontana/breaking-the-story, reachable); neither read yet. |
 | L9 | Negrusa, Negrusa and Hosek, "Gone to War: Have Deployments Increased Divorces?" *Journal of Population Economics* 27(2) (2014): 473–496. DOI 10.1007/s00148-013-0485-5 | The whole PDF | TA Definition 1.10 (the 462,000 and the pre-2001 result) | You accept the university summary, which confirms both and adds that length of marriage was not controlled | Publisher: paywall. RAND: no PDF. RePEc: subscribers only. Summary read (reachfamilies.umn.edu). |
 | L11 | Christophers, *The Price Is Wrong* (Verso, 2024) | Introduction: the pages that state the thesis | Ch 5 item 11; decisions log 002 | You cut the one sentence describing his work | Re-tested 2026-11-15: no excerpt of the introduction found (search); reviews and catalogue summaries only ("not that transitioning to renewables is too expensive, but that saving the planet is not sufficiently profitable"). Internet Archive: only an unofficial upload, not used. Still needs you. |
-| L12 | *Daily Press* (Newport News and Hampton): obituary and any retirement notice for Lavern E. Winn. **Ask your father first; he may simply know.** Hampton Public Library holds the paper. | Year of death; when he started at Langley (NACA or NASA); job title; year of retirement | Ch 1 item 8 (line 62); also the project's two death years | Your father answers it | Chapter 1 session: web search, nothing; NASA Langley history pages, no newsletter archive; newspaper archives are subscription. The National Archives in Philadelphia holds the Langley newsletters (a records request, not a library visit). **Not re-tested by either session's second pass:** a web search would send a family member's name to outside services again; say if you want that done. |
+| L12 | *Daily Press* (Newport News and Hampton): obituary and any retirement notice for Lavern E. Winn. **Ask your father first; he may simply know.** Hampton Public Library holds the paper. | Year of death; when he started at Langley (NACA or NASA); job title; year of retirement | Ch 1 item 8 (line 62); also the project's two death years | Your father answers it | Chapter 1 session: web search, nothing; NASA Langley history pages, no newsletter archive; newspaper archives are subscription. The National Archives in Philadelphia holds the Langley newsletters (a records request, not a library visit). **Not re-tested by either session's second pass:** a web search would send a family member's name to outside services again; say if you want that done. **The Chapter 1 session did search, before this caution was written:** nothing new on his dates or title. The Langley Alumni Association posts obituary lists only from 2001 on. A funeral-home notice for LaVern Edwin Winn, Jr. (December 2025) names his parents, "LaVern Edwin Winn, Sr. and Jewel Mae Lewis Winn," and Fox Hill, and gives nothing on the father's work or dates. |
 
 **Lower priority: take these only if you are already there.**
 
 | # | Source | What to copy | Settles | Note |
 |---|---|---|---|---|
 | L13 | Polanyi, *The Great Transformation* | Chapter 6, the pages on labor, land and money as fictitious commodities | Ch 5 line 188 | Skip if you cut "Money is a token of trust" Re-tested 2026-11-15: no open copy; **borrow online** at archive.org (item `greattransformat0000pola`, 1944). |
-| L14 | Sandel, *What Money Can't Buy* (2012) | Introduction; the passage on fines and fees | Ch 5 line 182 | Low risk Re-tested 2026-11-15: the book is print-disabled only at archive.org. His 1998 Tanner Lectures of the same title are listed on the lectures' official site (tannerlectures.org); a session could not find the PDF link there and did not use the course-page copy. |
+| L14 | Sandel, *What Money Can't Buy* (2012) | Introduction; the passage on fines and fees | Ch 5 line 182 | Low risk Re-tested 2026-11-15: the book is print-disabled only at archive.org. His 1998 Tanner Lectures of the same title are listed on the lectures' official site (tannerlectures.org); a session could not find the PDF link there and did not use the course-page copy. Sandel's own adaptation of the book, "What Isn't for Sale?" (*The Atlantic*, April 2012), refuses sessions both ways; it opens in a home browser and may be enough. |
 | L16 | Gawande, *Being Mortal* (2014) | Passages on how doctors are paid, palliative care, training | Ch 5 line 18 | Low risk; the project's note may suffice Re-tested 2026-11-15: print-disabled only at archive.org; no excerpt tried. |
 | L17 | Mian and Sufi, *House of Debt* (2014) | Chapter 2, the pages on who lost the most | Ch 5 lines 86–88 | Low risk Re-tested 2026-11-15: print-disabled only at archive.org. Mian, Rao and Sufi (Part 3) may cover it. |
 | L18 | Costanza and Perrings, "A flexible assurance bonding system for improved environmental management," *Ecological Economics* 2(1) (1990): **57–75**. DOI 10.1016/0921-8009(90)90013-K | The whole PDF | Ch 5 line 172; TA §14.8 | The quotation already matches the published abstract; this only upgrades "abstract" to "read" |
@@ -68,10 +68,15 @@ Open, save as PDF, attach. A few minutes each.
 
 | # | What to open | What is needed | Settles | What was tried |
 |---|---|---|---|---|
-| H1 | Congressional Budget Office, *The Distribution of Household Income, 2018* (cbo.gov/publication/57404), with its "Supplemental Data"; the 2017 edition if one click away | The lowest income that puts a household in the top 1 percent, and in the 96th to 99th percentiles, for 2017 and 2018; which income measure the table uses | Ch 1 item 4 (line 126) | Re-tested 2026-11-15: plain request and fetch tool both 403 for the page and the PDF; no mirror of the supplemental table found (search). Still needs you. |
-| H3 | Treasury's statement for the Black Lung Disability Trust Fund, September 30, 2024 (search "Black Lung Disability Trust Fund" at fiscal.treasury.gov) | The balance of advances owed to the Treasury | Ch 5 item 5; TA §11.6 (the $5.1 billion) | Re-tested 2026-11-15: a search engine lists the Treasury's monthly trust-fund statements under `/ftp/dfi/tfmb/` with names like `dfibl0824.pdf` (August 2024), on federalinvestments.gov and treasurydirect.gov; September 2024 should be `dfibl0924.pdf`. Every such address returns "not found" or an error to a session, by both routes. Try that file name in a browser, or ask a government-documents librarian. |
+| H1 | Congressional Budget Office, *The Distribution of Household Income, 2018* (cbo.gov/publication/57404), with its "Supplemental Data"; the 2017 edition if one click away | The lowest income that puts a household in the top 1 percent, and in the 96th to 99th percentiles, for 2017 and 2018; which income measure the table uses | Ch 1 item 4 (line 126) | Re-tested 2026-11-15: plain request and fetch tool both 403 for the page and the PDF; no mirror of the supplemental table found (search). Still needs you. Second re-test the same day: the supplemental spreadsheet's own address also returns the CAPTCHA page; two wider searches gave shares and averages, not the threshold. A saved copy exists at the Internet Archive, which sessions cannot open (note below). |
 | H5 | Economic Policy Institute, productivity and pay (epi.org/productivity-pay-gap) | The page | Ch 5 line 78 | Re-tested 2026-11-15: plain request and fetch tool both 403. Still needs you. |
 | H8 | State Department, Foreign Service Institute, "Foreign Language Training." **Optional; low value.** | Class hours by language category | Ch 1 row 8 | Re-tested 2026-11-15: 403 again (an error page). Optional. |
+
+**The Internet Archive, for sessions (tested 2026-11-15).** The catalogue (`archive.org`) answers a plain
+request, which is how the borrow-online items were found. Saved web pages (`web.archive.org`) do not: the
+connection is cut at this platform's proxy, and the environment's network is already unrestricted, so no
+permission from the author changes it. Saved copies of H1, H5 and H8 exist there and open in a home browser if
+a live page fails.
 
 ## Part 3. A session can read these: nothing for you to do
 
@@ -79,7 +84,8 @@ Tested reachable on 2026-11-15; a session reads them and updates the reports. Ha
 Don't Make It Rain*; Fraser, "Behind Marx's Hidden Abode"; Fanning and Hickel 2023; NOAA's 2007 herring
 synthesis; the New York Attorney General's 2009 bonus report; Jonung (1981) on Sweden and the United States in
 the Depression; the Riksbank's history, 1914–1945; Mian, Rao and Sufi (NBER working paper); TEEB 2010 (the
-PDF is linked from teebweb.org).
+PDF is linked from teebweb.org); Blackley, Halldin and Laney (2018), free at PubMed Central
+(PMC6085042), opened and not yet read against the claims.
 
 ## Part 4. Done (no longer needed from you)
 
@@ -126,6 +132,13 @@ PDF is linked from teebweb.org).
     that asbestos can produce (lung cancer and chronic lung disease included), not deaths shown to be caused
     by it. For chronic lung disease the paper expects 156 of the 187 anyway. TA §11.3 multiplies all 694 by a
     value of life. See the extracts note.
+  - **H3, the Black Lung Disability Trust Fund's debt on September 30, 2024** (second re-test, same day). Read
+    in the Treasury's *Monthly Treasury Statement* for September 2024, Table 6, Schedule C, "Borrowing from the
+    US Treasury": Black Lung Disability Trust Fund, **$4,969 million at the close of the month** ($4,793
+    million when the fiscal year began; $177 million borrowed during it). This is what the fund has borrowed
+    from the Treasury. It is near the chapter's "$5.1 billion" and well under the article's "about $6.5
+    billion," which must count something more; the Chapter 5 and appendix reports should say which before the
+    sentence is ruled on. Nothing for the author to fetch.
 
 ## Part 5. Not yet fully tried: do not fetch these
 
@@ -138,12 +151,17 @@ repository's copy).** None is asked of you yet.
 - Broome (1994): the address tried on the author's Oxford page returned "not found." Broome (1992, 2012): untried.
 - Keith et al. (2018); House et al. (2011); Asare et al. (2023); Blackley, Halldin and Laney (2018): each journal returned 403 to a plain request.
 - Hartwick (1977): the working-paper address tried did not respond.
+- Second re-test, 2026-11-15: the fetch tool was also refused (403) for Keith, House, and the Harvard page
+  for Weitzman; one search found no other copy of either Weitzman paper. Blackley is now in Part 3. Hotelling
+  (1931): one course-site copy returned a login page. Balboa (2016): the publisher returned 403 to a plain
+  request.
 
 **Untried.**
 - Hotelling (1931); Gerard (2000); El Serafy (1989); Mudliar and Koontz (2021); Balboa (2016); Pindyck (1978);
   Mussa and Rosen (1978); Slade and Thille (2009); Spence (1976); Rosen (1974);
   Viscusi (1993).
-- Kaldor (1939); Samuelson (1948); Sen (1999); TEEB (2018).
+- Kaldor (1939); Samuelson (1948; archive.org lends several printings of *Foundations of Economic Analysis*);
+  Sen (1999); TEEB (2018).
 
 **Books named only in lists of related work. Nothing in the book rides on a page of them; do not fetch unless
 you decide to quote one.** Lending status at archive.org, checked 2026-11-15: borrowable online: Savage
@@ -157,12 +175,18 @@ for print-disabled readers only: Nussbaum (2000); Lewis (1973); Mishan; Bockstae
 |---|---|---|
 | this file (first two versions) | 1 Nordhaus; 2 Barry; 3 Rawls 1993; 4 Rawls 1971; 5 Ostrom; 6 Darity and Mullen; 7 Pistor; 8 Negrusa; B, C, D | Done; L2; L3; L4; L5; L1; Part 3; L9; L22, L21, L18 |
 | `research/citations/library-search-list.md` | A1 to A15 | L1; L6; L11; L7; L7; L8; Done (L10); L14; L13; Done (L15); L16; L17; L18; L19; L20 |
-| the same | Part B rows | Done (H2); Part 3 (GAO-18-351); H3; H5; Done (H6); Done (H4); Done (H7) |
+| the same | Part B rows | Done (H2); Part 3 (GAO-18-351); Done (H3); H5; Done (H6); Done (H4); Done (H7) |
 | `tools/workstream-handoffs/library-search-list.md` | A1; A2; A3; B1; B2; B3; B4 | H1; H8; Done (Daly 1990); Done (Nordhaus 2007); L2; L3 and L4; L12 |
 
 ## Changes log
 
 - **2026-11-15, second re-test (first appendix session; the same request reached two sessions).** Its results were folded into the other session's: Pistor chapter 1 and GAO-18-351 read and moved from Part 3 to Done; Epstein et al. and Muller et al. read from open copies; a caution added on the Naik figure; lending status recorded for the lineage-only books, which are set aside as not worth a fetch; L12 marked as deliberately not searched. Sites that refuse automated visitors were tested with the fetch tool only; a download posing as a browser was declined by the session's permission system and was not retried.
+- **2026-11-15, second re-test of the same items by the Chapter 1 session** (the same request reached two
+  sessions). Agrees with the first on every item it had settled. Adds: **H3 answered and removed** (the
+  Treasury's monthly statement gives $4,969 million); the archive's saved pages are cut off for sessions at
+  the platform, whatever the author permits; Blackley and the TEEB 2010 report are reachable; the archive's
+  catalogue checked for the books in Part 5. 20 library items, 3 home-browser items (H1, H5, and H8, optional).
+
 - **2026-11-15, re-test of the Chapter 5 and Chapter 1 items (L6–L8, L10–L17, L19–L20, H1–H8) and a first pass at Part 5.** Removed as answered: H2, H4, H6, H7, L10, L15 (six fewer things for the author). Confirmed to exist: both L19 papers. Borrow-online status added for L7, L8, L13. Still with the author after every route: L6, L11, L20, H1, H3, H5 (and H8, optional). Part 5: six works read, nine tried by one route only, the rest untried. 20 library items (11 that matter, 9 lower), 4 home-browser items.
 - **2026-11-15, merge.** The three lists became this one, on the author's instruction. Removed as done:
   Nordhaus 2007 and Daly 1990 (both had been asked of him in two files). Pistor moved from "needs a library"

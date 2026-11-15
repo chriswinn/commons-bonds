@@ -95,3 +95,13 @@ here. Each entry says which row it bears on.
 - **Realmonte et al. (2019)**, *Nature Communications* (official PDF), read in part: "estimates in the
   literature ranging from 100 to 1000 $/tCO2." The appendix's "$100–$600/ton CO₂ at multi-gigaton scale" was
   not found as such. **Bears on:** TA §11.9: not confirmed.
+
+## Added by the Chapter 1 session's re-test, the same day
+
+| Item | Source, and how it was read | The source's words |
+|---|---|---|
+| H3 (Ch 5 item 5; TA §11.6) | U.S. Treasury, *Monthly Treasury Statement*, September 2024, Table 6, Schedule C, "Federal Agency Borrowing Financed Through the Issue of Treasury Securities" (PDF at fiscaldata.treasury.gov/static-data/published-reports/mts/MonthlyTreasuryStatement_202409.pdf; plain request) | Row "Department of Labor: Black Lung Disability Trust Fund," $ millions. Transactions: this month 177; fiscal year to date 177; prior year 42. Account balances: beginning of the year 4,793; beginning of the month 4,793; close of the month **4,969**. |
+| H2 (Ch 5 item 4), a second summary | Congressional Research Service, *Social Security: Selected Findings of the 2026 Annual Report*, IF13256, June 25, 2026 (PDF from congress.gov; plain request) | "the trustees project the OASI trust fund reserves to be depleted in the fourth quarter of 2032." "this year's report projects the OASDI trust funds to become depleted in the third quarter of 2034." "income from tax revenues is projected to cover approximately 83% of scheduled benefits in 2034 and decrease to 65% by 2100." "In 2026, the trustees estimate the long-range actuarial deficit over the next 75 years to average 4.42% of taxable payroll." It gives no unfunded obligation in dollars. |
+| H6 (Ch 5 item 13), one more line | *The Financial Crisis Inquiry Report*, conclusions (govinfo.gov, GPO-FCIC.pdf) | "…household wealth has vanished, with retirement accounts and life savings swept away." (The figure before "trillion" dropped out of the text conversion; take numbers from the PDF.) |
+| L11 (Ch 5 item 11) | Verso Books, product page for *The Price Is Wrong* (plain request) | "the problem is rooted in the absurdist nature of capitalist priorities: saving the planet on which our lives depend is not sufficiently profitable." The publisher's description, not the book. |
+
