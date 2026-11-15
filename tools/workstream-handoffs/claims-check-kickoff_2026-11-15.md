@@ -92,6 +92,11 @@ not just the figure. Ask each time:
 
 ## Rules
 
+- **A source you could not reach is not a source that does not exist (author, 2026-11-15).** If a fetch tool
+  refuses a site, try a plain request before giving up. If the network, a login or a paywall stops you, stop
+  and ask the author for access or for the text; do not rule on the claim. Write "not found" or "not reached,"
+  say what you tried, and never mark a claim contradicted or unsourced because a search came back empty.
+
 - Never invent a source, a quotation or a page number. An honest NOT CHECKED is a correct result.
 - A keyword match in a source file is not support. Read the passage.
 - When a source cannot be reached, say what kind of failure it was, try another copy, and ask the author for
