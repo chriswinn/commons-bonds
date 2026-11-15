@@ -23,7 +23,7 @@
 
 Items in §11 to §17 that the first session saw while doing the source review are listed in Part 4. The second session took each one up; they are now rows in the §11 to §17 table.
 
-**What could not be reached (second session), with the kind of failure in each case.** Daly's 1995 paper was read in full. Not reached: Nordhaus's 2007 review of the Stern Review (the journal's page loads; the article is behind its login); Barry's 1978 chapter (no copy found online); Daly's 1990 paper (its old host no longer resolves; the Internet Archive holds a copy, and the session's outbound proxy answers "Blocked by egress policy" for `web.archive.org`, although the environment's network setting is unrestricted); the conference of state legislatures' page (HTTP 403 to the fetch tool); the Justice Department's 2012 release (page came back empty). No row is marked contradicted or unsourced on the strength of a page that was not opened; rows resting on search results say "search only." The four items the author can unblock are listed at the end of section 1b.
+**What could not be reached (second session), with the kind of failure in each case.** Daly's 1995 paper was read in full. Not reached by this session: Barry's 1978 chapter (no open copy found online); the conference of state legislatures' page (HTTP 403 to the fetch tool); the Justice Department's 2012 release (page came back empty). No row is marked contradicted or unsourced on the strength of a page that was not opened; rows resting on search results say "search only." **Nordhaus 2007 and Daly 1990 were both read by the other appendix session the same day (Addenda 2 and 3); nothing is asked of the author for either.** What is asked of him is in `tools/back-matter/library-list.md` (L2 to L4 for this session's items).
 
 **What could not be reached (first session, as corrected by it later the same day).** No book was read today, and no journal article was read in full. Where a row rests on a book or a paper (Ostrom, Rawls, Parfit, Sen, Hotelling, Hartwick, Weitzman, Keefe, *From Here to Equality*), it rests on the project's own note, an abstract or a search result, and the row says which. **Correction, later the same day (author's instruction: ask, do not conclude).** An earlier version of this paragraph said `public.wsu.edu` was outside the session's allowed network. That was wrong. The environment's network is unrestricted; that one host simply did not resolve, and I stopped instead of looking elsewhere or asking. On a second try: Daly's 1995 paper was read in full from the publisher's archive, and the social-insurance paper on black lung was read in part (see the addendum at the end of Part 6). Still not reached, with the reason for each: Daly's 1990 paper (the only copies found are on that host, on a university course site, and on the Internet Archive, which the fetch tool refuses); the 2018 Congressional Research Service report (the page is page-images, not text); the Treasury's trust-fund statement (needs a direct download, which the session's permission mode declined). The Treasury's September 2024 statement for the Black Lung trust fund was not found at the address tried.
 
@@ -45,19 +45,19 @@ Most unsupported rows are small. Eighteen matter, and they come first.
 
 ## Counts (§11 to §17, second session)
 
-**182 claims listed. 118 are not SUPPORTED.** Thirty-two of the 118 repeat a finding from §0 to §10, or one the first session had already seen in §11 to §17, because the sentence stands again there. Eighty-six are new.
+**182 claims listed. 117 are not SUPPORTED** (118 before the Nordhaus row was withdrawn). Thirty-two of the 117 repeat a finding from §0 to §10, or one the first session had already seen in §11 to §17, because the sentence stands again there. Eighty-five are new.
 
 | Status | Claims |
 |---|---|
-| SUPPORTED | 64 |
+| SUPPORTED | 65 |
 | SAYS MORE THAN THE SOURCE | 28 |
 | CONTESTED | 3 |
 | SOURCE FOUND, NOT CITED | 6 |
-| NO SOURCE IN THE PROJECT | 44 |
+| NO SOURCE IN THE PROJECT | 43 |
 | CONTRADICTED | 16 |
 | NOT CHECKED | 21 |
 
-**Whole appendix: 307 claims, 114 supported, 193 not.** Sixteen items in §11 to §17 need a ruling; they are in section 1b. Nothing found changes the headline integral or the engines. One finding changes a per-ton input (the tonnage, item 1 of section 1b), and it moves the result in the framework's favour.
+**Whole appendix: 307 claims, 115 supported, 192 not** (as first tabulated; the first session's later addenda change a few of its own rows). Fifteen items in §11 to §17 need a ruling (item 6 is withdrawn); they are in section 1b. Nothing found changes the headline integral or the engines. One finding changes a per-ton input (the tonnage, item 1 of section 1b), and it moves the result in the framework's favour.
 
 ---
 
@@ -219,10 +219,8 @@ Same form as section 1. Findings that only repeat section 1 or Part 2 (the Mexic
 - Sources: none. The phrase is in quotation marks and credited to a country. It reads as the book's own line.
 - Options: "which remains a loss whatever is saved: the barrel is still gone." No quotation marks, no "Norway acknowledges."
 
-**6. "Nordhaus, 5.5%" (§11.1, §14.3, §15, §16.4). NO SOURCE.**
-- Stands: the upper end of the headline range is labelled "(Nordhaus, r₀ = 5.5%)," and §14.3 says "Nordhaus (2007) used a 5.5% discount rate."
-- Sources: two sessions have looked. The only figure found for his model is "a real interest rate of 4.3%." His 2007 review of the Stern Review, the likely source, could not be opened, and no work called "Nordhaus (2007)" is in §18.
-- Options: label the three schedules by their starting rates only ("1.4%, 4% and 5.5%") and drop the names until someone has the article in hand; or read the article and cite the page. The numbers do not change either way.
+**6. "Nordhaus, 5.5%" (§11.1, §14.3, §15, §16.4). WITHDRAWN: supported.**
+- The other appendix session read the published article the same day (Addendum 2): "I adopt a time discount rate of 1.5 percent per year with a consumption elasticity of 2. These yield an equilibrium real interest rate of 5.5 percent per year" (Nordhaus 2007, *Journal of Economic Literature* 45(3)). So the label is right. Two small things remain: he calls it a "real interest rate," where §14.3 says "discount rate"; and the paper is in neither §18 nor the bibliography. Nothing is needed from you.
 
 **7. "The highest per-capita opioid death rate in the United States" (§11.1). NO SOURCE.**
 - Sources: the project holds one figure, for all drug overdoses, 2015. Searches today found McDowell highest among West Virginia's counties in 2020–2022 and in 2022, and another county highest in 2020. No national ranking was found.
@@ -294,16 +292,9 @@ Need a source pinned, not a rewrite: the 2012 criminal penalty of $4 billion (§
 
 **Not checked** (nothing could be read): Hotelling's and Hartwick's assumptions (§14.1, §14.2); Broome's three works (§14.3); Barry (§14.4); Gerard and the two TEEB reports (§14.8); Keith, Realmonte, House and the IEA's 2021 report (§11.9); Wilberg on causes (§11.12); Samuelson, Hicks, Kaldor, Mishan, Bockstael and McConnell, Lewis, Savage 1954, Circular A-4 (§15.1); whether contingent valuation belongs under revealed preference (§15.1.1: it is usually classed as the opposite, a stated-preference method, and a reviewer may say so); how many cases stand behind Ostrom's principles (§15.1.6); the journal of Howarth and Norgaard's 1992 paper (§15.2.3); whether the Libby mine ran before 1963 (§11.3).
 
-### D. Four things only a library copy can settle
+### D. What only a library copy can settle
 
-**Now kept as a running list, with how to hand sources back: `tools/back-matter/library-list.md`.** Update on item 1, later the same day: the 2006 working-paper version of Nordhaus's review and his Yale symposium chapter were both read in full. Neither contains 5.5 percent (the working paper gives a time preference "starting at 3 percent per year and declining slowly to about 1 percent"); the chapter confirms the Stern figure in his words ("1.4 % per year"). The published 2007 article is still the one to check.
-
-Three are a book or a paywalled article; the fourth is a blocked host. If you can get any of them, a later session can close the row in minutes.
-
-1. **Nordhaus, "A Review of the *Stern Review on the Economics of Climate Change*," *Journal of Economic Literature* 45(3) (2007): 686–702.** Does it give 5.5 percent, and as what (a discount rate, or a return on capital)? Closes item 6.
-2. **Barry, "Circumstances of Justice and Future Generations," in Sikora and Barry (eds.), *Obligations to Future Generations* (1978), p. 243.** The exact sentence. Closes decisions-log entry 005.
-3. **Rawls, *Political Liberalism* (1993), p. 274, and *A Theory of Justice* (1971), §44–§45.** The just-savings wording and the passage on time preference. Closes item 2.
-4. **Daly, "Toward Some Operational Principles of Sustainable Development," *Ecological Economics* 2(1) (1990): 1–6.** Optional; the 1995 paper already carries §14.6. A copy is held by the Internet Archive (`web.archive.org/web/20240331053923/https://public.wsu.edu/~susdev/Daly90.html`), which this session's proxy blocks. If you open that address and paste or save the text, or say that `web.archive.org` may be allowed, a session can read it.
+Kept in the one running list, `tools/back-matter/library-list.md`, with how to hand sources back. From this session: **L2** (Barry 1978, p. 243; closes decisions-log entry 005), **L3** and **L4** (Rawls 1993, p. 274; Rawls 1971, §44–§45; close item 2). Nordhaus 2007 and Daly 1990, asked for in an earlier version of this section, have both been read and need nothing from you.
 
 ---
 
@@ -357,7 +348,7 @@ Both engines ran clean today: 67 of 67 and 28 of 28, no mismatches. The figures 
 
 ## 4. Seen in §11 to §17 during the source review (for the second session)
 
-Not counted above. Each needs its own row when §11 to §17 are checked. **Second session: every item below is now a row in the §11 to §17 table.** Two were settled: the Rawls wording is his 1993 and 2001 account, not 1971 (encyclopedia entry read), and the Stratos line is out of date. The Nordhaus 5.5 percent is still unfound.
+Not counted above. Each needs its own row when §11 to §17 are checked. **Second session: every item below is now a row in the §11 to §17 table.** Two were settled: the Rawls wording is his 1993 and 2001 account, not 1971 (encyclopedia entry read), and the Stratos line is out of date. The Nordhaus 5.5 percent was found by the other session in the published article (Addendum 2).
 
 - **§14.1.** "Resource prices should rise at the rate of interest" and "The Hotelling price path is P(t) = P(0)·e^{rt}." §4.1 says, correctly, that it is the rent (price minus marginal cost) that rises at the rate of interest.
 - **§14.4, Rawls.** "we should choose only principles we would wish all preceding and succeeding generations to have followed," cited to Rawls 1971. A 2024 paper found by search describes that as the justification "in Rawls's later work"; in 1971 the parties stood for family lines. Check the edition. "acknowledged by Rawls himself to be underdeveloped" has no source. The paraphrase of §45 is sound as far as search results go; the section was not read.
@@ -566,13 +557,13 @@ All five stay OPEN for your ruling. A dated line pointing here was added to each
 **003. Susskind. Recommendation unchanged: KEEP OUT.**
 - New evidence: nothing in §11 to §17 concerns growth as such.
 
-**004. Daly (both sessions read the 1995 paper independently and agree on what it supports). Recommendation, now on a paper read in full: ADD the 1995 paper and rewrite three sentences of §14.6. Hold the 1990 paper until someone reads it.**
+**004. Daly (both sessions read the 1995 paper independently and agree on what it supports). Recommendation, now on both papers read in full (the 1990 paper by the other session, Addendum 3): ADD both and rewrite three sentences of §14.6.**
 - Read today, from the journal's own archive: Daly, "On Wilfred Beckerman's Critique of Sustainable Development," *Environmental Values* 4, no. 1 (1995): 49–55 (the first of three replies printed together as pp. 49–70).
 - It supports the heart of §14.6: "weak sustainability assumes that manmade and natural capital are basically substitutes … Strong sustainability assumes that manmade and natural capital are basically complements" (p. 49); "Strong sustainability requires that manmade and natural capital each be maintained intact separately" (p. 53).
 - It does not support three things. (a) "Critical natural capital": his phrase is "Nowadays natural capital is the critical requirement" (p. 50); the category is someone else's. (b) "Requires maintaining the physical stock itself," as applied to the appendix's resources: for non-renewables his rule is that "the rate of depletion should be equal to the rate at which renewable substitutes can be developed" (p. 50), and he calls the no-extraction reading "absurdly strong sustainability" (p. 49). (c) The GDP sentence, which is not there.
 - One thing it adds that the appendix could use: he says his rule for non-renewables "has been operationalised by El Serafy" (p. 50), whom the appendix already cites at §14.8. And he argues that strong sustainability is "a better way of respecting the rights of future generations than does discounting" (pp. 53–54), which bears on §14.3.
 - So: head the section "Daly (1995)"; cite the paper; replace "critical natural capital" with his words; restate the non-renewable rule as he gives it and say that S(t) measures the pace he asks about; cut the GDP sentence or find it; "consistent with" for "confirming."
-- The 1990 paper (*Ecological Economics* 2(1): 1–6) is still unread. Its old host does not resolve. The Internet Archive holds a copy, and this session's outbound proxy blocks that site (section 1b, part D, item 4, asks you for it). The 1995 paper alone is enough for §14.6.
+- The 1990 paper was read in full by the other appendix session (Addendum 3). Nothing is asked of you for it.
 
 **005. Barry. Recommendation unchanged: ADD once the page is in hand; otherwise REMOVE the sentence.**
 - New evidence: the volume and the chapter are confirmed to exist (the publisher's page for the reprint lists "Circumstances of Justice and Future Generations" in Part II). The quotation was not found in anything that could be opened. The Stanford Encyclopedia entry on intergenerational justice, read today, does not contain the phrase; where it speaks of future generations' options being reduced to "an inadequate range" it cites a different essay, Barry, "Sustainability and Intergenerational Justice" (1999), in Dobson (ed.). The first session's later sweep records that the 1999 essay is a reprint of his 1997 *Theoria* essay, so there are two candidate homes for the idea (1978 and 1997/1999) and one for the exact words (1978, p. 243, on two secondary sources).
@@ -662,11 +653,11 @@ Per the kickoff, a later session applies the author's rulings exactly, and every
 - Daly, "On Wilfred Beckerman's Critique of Sustainable Development," *Environmental Values* 4(1) (1995): 49–55, read in full from the Environment & Society Portal's copy of the journal: https://www.environmentandsociety.org/sites/default/files/key_docs/ev_4no.1_dalyherman__michael_jacobs__henryk_skolimowski.pdf
 - Stanford Encyclopedia of Philosophy, "Intergenerational Justice" (current entry, text and bibliography): https://plato.stanford.edu/entries/justice-intergenerational/
 - e-WV, "Pocahontas No. 3 Coal Seam" (C. Stuart McGehee): https://www.wvencyclopedia.org/entries/1821
-- American Economic Association page for Nordhaus (2007), citation only; the article is behind the journal's login: https://www.aeaweb.org/articles?id=10.1257/jel.45.3.686
+- American Economic Association page for Nordhaus (2007), citation only. (The other session read an open copy of the article: Addendum 2.)
 - Search results only (pages not opened): West Virginia Geological and Economic Survey, McDowell County page (production 1883–1995); a state health department slide deck and USAFacts on county overdose rates; news reports of BP's November 2012 plea; the Norwegian Offshore Directorate's 2024 production figures and resource accounts; trade-press reports on the Stratos plant; pages on the Baogang tailings dam (an encyclopedia entry, a human-rights group's page, a 2023 soil study); the National Conference of State Legislatures and a Colorado legislative handbook on severance taxes; summaries of Ostrom's book; Pontin's article on Rawls's revision (the repository refused the request); the publisher's page for Sikora and Barry (1978).
 - West Virginia Geological and Economic Survey, "General Information for McDowell County": https://www.wvgs.wvnet.edu/www/geology/geolmcdo.htm
 - M. Adams, "Occidental Petroleum, 1PointFive STRATOS DAC plant nears startup in Texas Permian basin," *Oil & Gas Journal*, March 3, 2026: https://www.ogj.com/energy-transition/news/55361290/oxys-1pointfive-expects-stratos-dac-plant-online-in-second-quarter-2026
-- Could not be read: Nordhaus (2007) (paywall); Daly (1990) (host gone; archived copy blocked by the session's egress proxy); Barry (1978) (not online); Rawls's three books; the legislatures' conference page (403); the Justice Department's 2012 release (empty page).
+- Could not be read by this session: Barry (1978) (not online); Rawls's three books; the legislatures' conference page (403); the Justice Department's 2012 release (empty page).
 
 ## Full table
 
@@ -868,7 +859,7 @@ Added 2026-11-15 by the second session. Same columns and rules as above. "Intern
 | §11.1, floor | Health costs nationally: $2–4/ton; Environmental remediation: $1–3/ton | **SAYS MORE THAN THE SOURCE** | The register files per-ton component allocations under framework outputs ("relabel, do NOT source"). The bibliography says the tiers "sit an order of magnitude below" Epstein's aggregate. The appendix labels only the community head "a framework estimate," and §11.6 calls all three "the documented non-carbon damages." | `tools/audits/corpus-primary-source-register_2026-06-08.md` §4; `tools/back-matter/sources/bibliography.md` §24A |
 | §11.1, floor | Carbon at the EPA social cost of carbon ($190/ton CO₂): about $496/ton (about 2.61 metric tons CO₂ per short ton × $190) | **SUPPORTED** | "$496 ( = 2.61 × $190 )"; "$190/t = the EPA 2023 central estimate." | `manuscript/ledgers/_CANONICAL_FIGURE_LEDGER.md` |
 | §11.1 | It gives $526/ton (Stern, r₀ = 1.4%), $537 (r₀ = 4%) and $541 (r₀ = 5.5%). The carbon term is about 92 percent of the level and the foreclosure term about 7 percent | **SUPPORTED** | Reproduced by the engine. | Engine |
-| §11.1; §14.3; §15 item 6; §16.4 | "Nordhaus, r₀ = 5.5%"; "Nordhaus (2007) used a 5.5% discount rate" | **NO SOURCE IN THE PROJECT** | Two sessions have now looked. Nothing gives 5.5. A 2007 slide deck on his model gives "a real interest rate of 4.3%" (via search). The work "Nordhaus (2007)" is not identified in §18 or the bibliography; the likely one is his review of the Stern Review, *Journal of Economic Literature* 45(3) (2007), which could not be opened. The label sits on the upper end of the headline range. | search results 2026-11-15 |
+| §11.1; §14.3; §15 item 6; §16.4 | "Nordhaus, r₀ = 5.5%"; "Nordhaus (2007) used a 5.5% discount rate" | **SUPPORTED** | "I adopt a time discount rate of 1.5 percent per year with a consumption elasticity of 2. These yield an equilibrium real interest rate of 5.5 percent per year" (read by the other appendix session, Addendum 2). He calls it a real interest rate; §14.3 says "discount rate." The paper is not in §18 or the bibliography. An earlier version of this row said no source; that is withdrawn. | Nordhaus, *Journal of Economic Literature* 45(3) (2007): 686–702 |
 | §11.1; §14.3 | "Stern, r₀ = 1.4%"; "Stern (2006) used 1.4%" | **SUPPORTED** | "Stern's preferred consumption discount rate was 1.4 percent" (a Boston University report on the debate, via search; the Review itself was not opened). The inline year is 2006; §18 has 2007. | search results 2026-11-15; first-session row at §6.7 |
 | §11.1 | The carbon term is the EPA's social cost of carbon (EPA 2023, drawing on Rennert et al. 2022) times an emission factor | **SUPPORTED** | "$190 @ 2% is the central estimate, drawing on Rennert et al. 2022 ($185)." | `tools/back-matter/sources/bibliography.md` §23.1 |
 | §11.1 | Epstein et al. (2011) put the life-cycle cost of coal to the U.S. public at a third to over half a trillion dollars a year | **SUPPORTED** | Abstract, as recorded by the independent review. Not read in full. | `tools/rigor-passes/commons_bonds_rigor_pass_2026-11-10_technical_appendix_independent_review_v1.0.0.md` F11 |
