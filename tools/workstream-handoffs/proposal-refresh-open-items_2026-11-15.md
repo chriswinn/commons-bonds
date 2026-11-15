@@ -15,7 +15,8 @@ here with the date and the answer, and update STATE.md if a status changed.
 
 ## Open: time-sensitive
 
-1. **Print copies of Chapter 1 and Chapter 5 for the final straight read.** The Nov 14 PDFs are not stored in
+1. **ANSWERED 2026-11-15: he has the Nov 14 copies; new final-read copies are built once the claims-check rulings
+   are applied.** ~~Print copies of Chapter 1 and Chapter 5 for the final straight read.~~ The Nov 14 PDFs are not stored in
    the repo. If the author no longer has them, any session rebuilds both with
    `tools/scripts/build-chapter-print-copies.py`. Asked 2026-11-15, not answered.
 
@@ -27,8 +28,8 @@ here with the date and the answer, and update STATE.md if a status changed.
    appendix; Daly gets a proper entry and date; Barry's source is found or the sentence is cut. "As
    recommended" settles all five. Entry 007 (new comps stay out of the reader-facing bibliography) also
    awaits his word.
-3. **The "blurb-or-foreword candidate" line** naming Darity in `publishing/book-proposal/04_marketing-plan.md`.
-   Recommended: cut in Part 2, since the foreword question waits until he raises it.
+3. **SETTLED 2026-11-15 (author): cut Darity's name from the "blurb-or-foreword candidate" line** in
+   `publishing/book-proposal/04_marketing-plan.md` in Part 2. A private reminder is in STATE.md instead.
 4. **SETTLED 2026-11-15: one master proposal carrying both variants** (author: either is fine, the session's
    recommendation; variant-specific passages are marked in the master).
 5. **SETTLED 2026-11-15 (author): Part 2 waits for all three claims checks** (appendix, Chapter 1, Chapter 5) to be
