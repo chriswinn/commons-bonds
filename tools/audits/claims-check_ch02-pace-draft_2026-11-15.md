@@ -263,3 +263,20 @@ The bay paragraphs (¶63 to ¶65: nutrients, sediment, warming and thinning catc
 ## 5. What could not be reached
 
 The Justice Department's press pages, the GAO report body, the CDC page (read through a fetch service, not directly), PubMed, and Appalachian Voices' main page were blocked or empty from this environment; where a row depends on one of them it says so. Pigou, Fraser, Derickson, Van Zee and the full Blackley papers were not read.
+
+---
+
+## 6. Addendum, 2026-11-15: the dinner-table draft, and sources
+
+**The dinner-table draft (C)** carries every claim in the table above, in the same paragraphs, so the table and the author's list apply to it unchanged. It makes four statements the pace draft does not:
+
+| ¶ | Statement in C only | Status | Source |
+|---|---|---|---|
+| 1 | Hollows "are narrow valleys between steep hills" | NOT CHECKED | A definition; no source read |
+| 6 | "imagine a courtroom with an empty chair" | not a claim | A figure of speech |
+| 15 | A wildcat strike "is a strike the union has not approved" | NOT CHECKED | A definition; no source read |
+| 23 | "Coal companies are required to post bonds to cover that cost" | SUPPORTED | Appalachian Voices summary: federal law "requires coal companies to obtain reclamation bonds" |
+
+C also says the three bankrupt companies "owed $865 million in black lung benefits," which is the same overstatement as row 47 (the figure is an estimate of future benefits).
+
+**Sources.** Every source found, named or relied on in this session that the working bibliography did not hold is now on the tentative list: `tools/back-matter/sources/bibliography.md` §19, "Candidates added 2026-11-15, Chapter 2 two-drafts session and claims check." Four keep-out recommendations are OPEN in `tools/back-matter/citation-decisions-log.md`, entries 008 to 011. Nothing was moved into the working bibliography.

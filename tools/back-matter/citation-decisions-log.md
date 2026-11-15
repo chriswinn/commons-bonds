@@ -99,6 +99,48 @@ commit message. Nothing here changes a source file by itself.
   chapter that is open for rebuild comes to use one (Davies on accountability is the likeliest), add it then
   and record it here. No signed-off chapter is reopened for this.
 
+### 008. Tertiary web pages used to date the 1969 black lung strike. **OPEN**
+
+- **Facts.** The Chapter 2 claims check (row 33) found the chapter's "wildcat strike in 1968" contradicted by
+  outside accounts that give February 18, 1969. Those accounts were a Clio history page, a Wikipedia entry on
+  Arnold Miller, and two political newspapers' pages, seen through a search summary.
+- **Reasoning.** They were enough to raise the flag. None is a source a reader should be sent to, and none
+  was read in full.
+- **Recommendation: KEEP OUT** all four. Settle the date from Derickson (§24A, already held) or the
+  encyclopedia's "Black Lung Movement" entry, both on the tentative list as not read.
+
+### 009. News accounts of the Purdue pleas and the Sackler withdrawals. **OPEN**
+
+- **Facts.** The Justice Department's pages could not be reached from the session. The claims check (row 79)
+  compared the draft with news and trade-press accounts (insurance and legal trade sites, a local ABC page).
+- **Reasoning.** The pleas and amounts are matters of federal record, and the primary releases exist. A
+  trade-press rewrite adds nothing and gave two different totals for 2007 ($600 million; $634.5 million).
+- **Recommendation: KEEP OUT** the news accounts. Cite the Justice Department releases (tentative list, not
+  read) once someone has read them, and Keefe (§9) for narrative.
+
+### 010. Alpert and colleagues (2022) as support for where OxyContin went. **OPEN**
+
+- **Facts.** §24E says the paper "Backs: the geographic-distress half of the Ch2 Purdue 'four-characteristic
+  target map' attribution." The abstract, read 2026-11-15, explains the geography by state prescription
+  rules: states with triplicate programs got less marketing, and distribution there "was about 50% lower."
+  It says nothing in the abstract about collapsed wage economies.
+- **Reasoning.** The paper is sound and belongs in the bibliography. What does not hold is the note saying
+  what it backs. As written, it would lead a later session to cite the paper for a claim it does not make,
+  and for one it partly cuts against (Chapter 2 claims check, row 77).
+- **Recommendation: KEEP the work; REMOVE the "Backs" note** and replace it after the article itself is read.
+  Until then it is **kept out as support for the sentence** "The drug found its largest markets where the wage
+  economy had already collapsed."
+
+### 011. Sources that turned up in the scrip search and should not be cited. **OPEN**
+
+- **Facts.** The search for coal-camp scrip returned Wikipedia's "Company scrip" (which gives 1967 as the year
+  Congress outlawed coal scrip), a coin collectors' newsletter, coal-camp hobby sites, and a trade-press
+  summary of the Blackley prevalence paper.
+- **Reasoning.** The encyclopedia entries by Athey and McGehee cover the same ground with named authors and
+  source lists. The Wikipedia date has no primary record behind it in anything read, and Athey says scrip
+  "disappeared with the collapse of the coal industry in the 1950s."
+- **Recommendation: KEEP OUT** all of them. In particular, do not use the 1967 date.
+
 ---
 
 ## Ruled entries
