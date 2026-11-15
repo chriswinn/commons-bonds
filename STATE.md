@@ -28,7 +28,7 @@ the asset; the foreword/publisher question waits until he raises it himself.
 
 - **Agent queries (Wave 1): HELD for his read** (up to ~mid-February), then the route is chosen
   (his introduction → university-press path; or comments-only → fire Wave 1 ± Pipeline B).
-- **Schedule:** TA + Ch 1 → early December (plan W6); **Ch 5 → Jan 4–5**.
+- **SENT (author-reported in session, 2026-11-15, ahead of schedule):** the author says he has emailed the package to Darity. Not yet captured in the repo: the as-sent email text, the exact attachments, and whether the open Mexico wording in Ch 5 and TA §11.2 was changed first. Capture these at the next session. Earlier schedule, now moot: TA + Ch 1 → early December (plan W6); Ch 5 → Jan 4–5.
 - The handoff's "five-months-silence / personal note" watch item is **RESOLVED** by the author's
   answer: contact is active and he is aware of the circumstances; the next contact is the Dec send.
 
