@@ -7,11 +7,38 @@ here with the date and the answer, and update STATE.md if a status changed.
 
 - **AI disclosure:** Author's Note only, raised before any offer and in any venue form that requires it. The
   paragraph comes out of the overview in Part 2.
-- **Comp titles:** sets ratified for both versions (top of `publishing/book-proposal/02_comp-titles.md`).
+- **Comp titles: REOPENED 2026-11-16 (author).** The sets were ratified on 2026-11-15 from summaries; several comps
+  had not been read. They are provisional until reviewed (see "Proposal and comps review" below).
 - **Darity:** nothing is pending his consent; published work only; no attribution placeholder.
 - **The *Abundance* contrast:** yes, as a marked candidate sentence in the overview print copy, pending the
   author's read of the book. Not in the proposal until he has read the relevant chapters and approved wording.
 - **Bibliography:** twelve tentative sources added to §19 with reasons; three duplicate entries removed.
+
+## Proposal and comps review (flagged by the author, 2026-11-16): a new session, after the claims checks
+
+**Order (author):** settle the claims checks of Chapter 1, Chapter 5 and the Technical Appendix first. Then one
+new session revisits the proposal and the comps. Part 2 of the refresh does not run before that review.
+
+**Why.** He ruled on comp sets from publisher and review summaries. No session had read Davies, Dasgupta,
+Riofrancos or the reserves, and the tentative list says so in each entry. A comp sentence is a factual claim
+about another book and gets the same standard as any other claim.
+
+**What the review session does.**
+1. For every comp in both sets and the reserves: record what has actually been read (by the author, by a
+   session, or by nobody) and from what (the book, a chapter, an excerpt, reviews only).
+2. For each unread comp, try every route to an authoritative description: the publisher's sample or
+   introduction, the author's own article or lecture stating the argument, a preview. Follow
+   `tools/back-matter/source-tracking-rule.md` and the access rule; put what needs the author on the one
+   library list.
+3. Check every sentence the proposal would say about a comp against what was read, with a status, as in a
+   claims check.
+4. Bring the author one recommendation per comp: keep, keep as a neighbour only, move to reserve, or drop,
+   with the evidence. He re-ratifies the sets.
+5. Also review the proposal decisions made in the 2026-11-15 walk-through that rested on unread material (the
+   *Abundance* contrast sentence; the three comp sentences he owes reading for).
+
+**Paste line for that session (not before the claims checks are ruled on and applied):**
+`Read CLAUDE.md, STATE.md, tools/back-matter/source-tracking-rule.md, tools/workstream-handoffs/proposal-refresh-kickoff_2026-11-15.md and tools/workstream-handoffs/proposal-refresh-open-items_2026-11-15.md. Run the proposal and comps review described there; do not run Part 2 until I re-ratify the comps.`
 
 ## Open: time-sensitive
 

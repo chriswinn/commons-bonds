@@ -2,9 +2,9 @@
 
 **Date drafted:** 2026-05-06  ·  **Date modified:** 2026-05-10
 
-**Status.** Research file. **The comp sets were RATIFIED by the author on 2026-11-15** (below); the proposal's §02 is to be written from them in the refresh. The older working list and matrix further down are kept as research.
+**Status.** Research file. **RATIFICATION REOPENED by the author on 2026-11-16.** The sets below were ratified on 2026-11-15 from publisher and review summaries; several of the books (Davies, Dasgupta, Riofrancos and the reserves) had not been read by anyone, and none of the new ones had been through the source review. The sets are **provisional** until a new session reviews each comp against the book itself. Nothing in the proposal's §02 is to be written from them before then. The older working list and matrix further down are kept as research.
 
-**Ratified sets (author, 2026-11-15).** Rule: a comp earns its place by fit, whatever its age.
+**Provisional sets (ratified 2026-11-15; reopened 2026-11-16).** Rule: a comp earns its place by fit, whatever its age.
 - **University-press version (eight):** Darity and Mullen, *From Here to Equality*; Ostrom, *Governing the Commons*; Pistor, *The Code of Capital*; Mazzucato, *The Value of Everything*; Patel and Moore, *A History of the World in Seven Cheap Things*; Christophers, *The Price Is Wrong*; Dasgupta, *On Natural Capital*; Davies, *The Unaccountability Machine*. Then one paragraph crediting the papers and classics the appendix builds on.
 - **Trade version (five recent, two anchors):** Christophers; Davies; Dasgupta; Riofrancos, *Extraction*; Susskind, *Growth: A Reckoning*; then Darity and Mullen and Mazzucato.
 - **Reserves:** Coyle, Jones, Romeo; Hochschild only if a trade version wants a narrative comp.
