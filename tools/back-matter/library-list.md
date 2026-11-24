@@ -70,7 +70,6 @@ Open, save as PDF, attach. A few minutes each.
 | # | What to open | What is needed | Settles | What was tried |
 |---|---|---|---|---|
 | H8 | State Department, Foreign Service Institute, "Foreign Language Training." **Optional; low value.** | Class hours by language category | Ch 1 row 8 | Re-tested 2026-11-15: 403 again (an error page). Optional. |
-| H9 | Swedish Trade Union Confederation (LO), "The basic agreement": `https://www.lo.se/english/the_collective_agreement/basic_agreement` | The whole page (short): the date of the Saltsjöbaden Agreement, who signed it, what it did, the state's role. Save as PDF or copy the text. | Ch 5 line 106, the 1938 Saltsjöbaden sentence, which rests only on a project note | Tried 2026-11-24: plain request (a browser check, "Just a moment"); the fetch tool (redirect, no page). Also refused: Britannica (403), sweden.se, Eurofound (429), the ETUI chapter (403), the SSOAR record of Lundh's 2009 article (bot wall). Kindleberger and Eichengreen do not cover it (the author searched Kindleberger's scan). If you skip it: cut the sentence. **Library alternative:** Christer Lundh, "Two labour market regimes in Sweden: a comparison between the Saltsjöbaden Agreement of 1938 and the Industrial Agreement of 1997" (SSOAR document 34451; citation details not yet seen). **2026-11-24:** the author sent LO's parent page, "The Collective Agreement" (one page; file `8aa96ccd-…`, fingerprint `d7789d5f07b16067`). It describes today's system and does not mention 1938 or Saltsjöbaden. The sub-page "The basic agreement" is still the one wanted. |
 
 **The Internet Archive, for sessions (tested 2026-11-15).** The catalogue (`archive.org`) answers a plain
 request, which is how the borrow-online items were found. Saved web pages (`web.archive.org`) do not: the
@@ -217,6 +216,11 @@ report's own address has not been found yet (Part 5).
   (1992) pp. 307–308 plus every "mortgage" and "public works" hit; Kindleberger (rev. ed., 1986) pp. 179–181
   plus every "public works" hit. Extracts in `research/citations/library-uploads_extracts_2026-11-24.md`.
   Neither book has anything on Swedish mortgages. The 1938 Saltsjöbaden sentence is not covered by either.
+
+- **H9, the 1938 SAF–LO Basic Agreement (done 2026-11-24).** The author found a scan of the agreement itself
+  (a 1976 SAF–LO protocol with the 1975 printed text). It gives the date, 20 December 1938, the two parties and
+  the subjects. It does not use the name "Saltsjöbaden" and has nothing on the welfare state. Extracts in
+  `research/citations/library-uploads_extracts_2026-11-24.md`.
 
 ## Part 5. Not yet fully tried: do not fetch these
 

@@ -434,3 +434,25 @@ gives "public-works employment programs (1934-1937)"; those dates are not in the
 International Labor Office's public-works conference of June 1938. **None concerns Sweden.** With the first
 batch this is every "public works" hit in the scan, so pp. 179–181 are the whole of what the book says about
 Swedish public works.
+
+## The SAF–LO Basic Agreement of 1938 (the "Saltsjöbaden Agreement"), from a 1976 protocol
+
+File the author found and uploaded 2026-11-24: `Forhandlingsordning_huvudavtal_saf_lo_arbetare.pdf`, 24 scanned
+pages, no text layer; pages 1–6 read by eye. Pages 1–2 are a signed negotiation protocol
+("Förhandlingsprotokoll 1976-12-23") between Svenska Arbetsgivareföreningen (SAF, the employers' confederation)
+and Landsorganisationen i Sverige (LO, the trade union confederation), marked "ORIGINAL." From page 3 it
+reproduces the printed agreement: *Huvudavtal mellan Svenska Arbetsgivareföreningen och Landsorganisationen i
+Sverige (med däri år 1947, 1958, 1964 och 1974 vidtagna ändringar)*, Andrén & Holms Boktryckeri AB, Stockholm
+1975. Where the author downloaded it from is not recorded; ask him. In Swedish; translations are the session's.
+
+| Page | The words | In English | Bears on |
+|---|---|---|---|
+| 1, §4 | "Bestämmelserna i kap I, II, IV och V i huvudavtalet mellan SAF och LO av den 20 december 1938 (med däri senast år 1974 vidtagna ändringar) antas att gälla fr o m den 1 januari 1977" | "The provisions of chapters I, II, IV and V of the basic agreement between SAF and LO of 20 December 1938 (with the amendments last made in 1974) are adopted to apply from 1 January 1977" | Ch 5 line 106: date and parties |
+| 1, §2 | "huvudavtalets regler rörande arbetsmarknadsnämnd, förhandlingsordning, begränsning av ekonomiska stridsåtgärder ävensom behandling av konflikter berörande samhällsviktiga funktioner" | "the basic agreement's rules on a labour market board, negotiating procedure, limitation of economic industrial action, and the handling of conflicts affecting functions vital to society" | what it did |
+| 5 | "Genom efterföljande mellan Svenska Arbetsgivareföreningen och Landsorganisationen i Sverige träffade huvudavtal förbinder sig organisationerna att utöva den verksamhet i arbetsmarknadsnämnden … samt att verka för att avtalet blir genom fri överenskommelse antaget såsom kollektivavtal mellan de till dem hörande förbunden." | "By the following basic agreement … the organizations undertake to carry on the work of the labour market board … and to work for the agreement's adoption, by free agreement, as a collective agreement between their member federations." | made by the two sides themselves; a frame the federations then adopt |
+
+**What it settles.** The primary document gives the date (20 December 1938), the two parties, and the
+subjects. It does **not** use the name "Saltsjöbaden" (that is the agreement's common name, after the place it
+was signed; a secondary source is needed to tie the name to this document in a citation), and it says nothing
+of the welfare state. "Set the terms between labor and capital" is supported. "That the Swedish welfare state
+was then built on" is the chapter's own reading.
