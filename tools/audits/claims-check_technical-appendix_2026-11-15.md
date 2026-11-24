@@ -1178,3 +1178,9 @@ rewritten here; whoever applies the appendix rulings should take these statuses.
 | §14.4 | His Just Savings Principle "was acknowledged by Rawls himself to be underdeveloped" | **SAYS MORE THAN THE SOURCE** (was NO SOURCE) | "I believe that it is not possible, at present anyway, to define precise limits on what the rate of savings should be … seems to admit of no definite answer." Option: "Rawls himself said precise limits on the rate of saving could not yet be defined." |
 
 Page numbers in the extracts are the anthology's; the 1971 edition's pages must be pinned before printing.
+
+**Barry (1978), p. 243, from the author's photographs, same day:**
+
+| Section | Claim | Status now | What the text says |
+|---|---|---|---|
+| §14.4 | "Brian Barry (later) sharpened it: the overall range of opportunities open to successive generations should not be narrowed" | **SUPPORTED on the sentence, with two corrections** (was unsourced) | "What justice requires, I suggest, is that the overall range of opportunities open to successor generations should not be narrowed" (Barry 1978, p. 243). The word is "successor." He presents it as his own suggestion from equal opportunity, after criticizing both of Rawls's theories, so "sharpened it" overstates the link to Rawls. Give the year, 1978. |

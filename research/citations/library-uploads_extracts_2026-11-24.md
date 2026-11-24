@@ -292,3 +292,25 @@ pages supplied.
 - **"Acknowledged by Rawls himself to be underdeveloped."** The check found no source. This is one: he says it
   is "not possible, at present anyway, to define precise limits." That supports "Rawls himself said precise
   limits could not yet be defined," which is narrower than "underdeveloped."
+
+## Barry (1978), pp. 240–247, from the author's photographs
+
+Brian Barry, "Circumstances of Justice and Future Generations," in R. I. Sikora and Brian Barry (eds.),
+*Obligations to Future Generations* (Temple University Press, 1978), pp. 204–248. Four photographs of an
+on-screen scan (the archive.org loan), pages 240–247, read by eye 2026-11-24. The title and copyright pages
+were not photographed, so the edition (1978, or the 2012 White Horse Press reprint) is taken from the library
+list's record of the archive.org item and should be confirmed.
+
+| Page | His words | Bears on |
+|---|---|---|
+| 243 | "In the case of justice between generations, equality of opportunity has to be taken in sufficiently broad terms. What justice requires, I suggest, is that the overall range of opportunities open to successor generations should not be narrowed. If some openings are closed off by depletion or other irreversible damage to the environment, others should be created (if necessary at the cost of some sacrifice) to make up." | TA §14.4; decisions log 005 |
+| 243–244 | "This conception of intergeneration justice has several attractive features. First, it is a global extension of a principle that families with possessions to pass on have traditionally espoused: 'Keep the capital intact!' Second, it underwrites the asymmetry that many people (including myself) feel between making successors better off, which is a nice thing to do but not required by justice, and not making them worse off, which is required by justice. And third, it does not make the demands of justice to our successors depend on our knowing their tastes—still less on our approving of them." | TA §14.4; the Foreclosure Bond's footing |
+| 242 | "justice as rational co-operation cannot be the whole of justice for the simple reason that it cannot itself define a just starting point from which rational co-operation takes place." | background |
+
+**What it settles.** The sentence the appendix credits to "Brian Barry (later)" is his, at p. 243 of the 1978
+volume, and the two secondary articles had the page right. **His word is "successor generations."** The
+appendix has "successive." The appendix also calls it a sharpening of Rawls; in context Barry offers it as his
+own suggestion after criticizing both of Rawls's theories ("I do not have any fully worked out alternative to
+offer," p. 242), grounded in equal opportunity, not in Rawls's savings principle. The next sentence, on
+openings "closed off by depletion or other irreversible damage," is closer to the book's idea of foreclosure
+than anything else found in this check and is not used anywhere in the manuscript.
