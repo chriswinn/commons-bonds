@@ -112,6 +112,17 @@ Applied in one pass after he has ruled on every item. Each accepted change gets 
 
 Still open on item 1: whether the identifying details stay (the rooftop habit, the greetings, Paris and New Delhi), and a consent-tracker row.
 
+**Items 3, 7 and part of 8: the four facts where his May corrections had been undone. Ruled 2026-11-24: all four accepted.**
+
+| Line | Stands | Accepted |
+|---|---|---|
+| 94 | "a team of around forty people. I am rounding the team down. It could have been thirty-six, or closer to fifty." | "a team of more than forty people. I am rounding the team down. It could have been forty-three, or closer to sixty-five." |
+| 98 | "would run dry in less than five days" | "would run dry in about five days" |
+| 102 | "in stretches of three hours and then half an hour at a time" | "in stretches of three and a half hours and then half an hour at a time" |
+| 62 | "He was a model maker in the wind tunnels. He was an inventor, and his name is in the patent record." | "He was a model maker in the wind tunnels, a title he was proud of. He was an inventor, and his name is in the patent record." |
+
+His note on line 98, in his words (2026-11-24): "The station called with six days left, then didn't call back to approve me coming until the next day. So when I arrived they only had about 5 days before the commercial breaks would start playing dead air." This confirms the May record and fixes the count from the night he arrived.
+
 ## 2. Sources the project holds that bear on this chapter and are not used
 
 1. **Dunbar and Du Bois are in the bibliography (section 21) but the citation index does not list Chapter 1 for either.** `tools/back-matter/citation-crossref-index.md` lists Dunbar 1896 for Ch 10, Ch 8 and the Noema essay only. The bibliography entry for *The Souls of Black Folk* describes double consciousness and never mentions the veil, which is the word the chapter uses. The book's text does support it ("shut out from their world by a vast veil"; "born with a veil"). The entry should say so.
