@@ -136,6 +136,8 @@ His note on line 98, in his words (2026-11-24): "The station called with six day
 
 *Source note as first recorded:* CBO's Table 2 (income before transfers and taxes, adjusted for household size, 2018 dollars) puts the floor of the top 1 percent in 2018 at $428,900 for one person, $606,500 for two, $742,800 for three and $857,700 for four; the 96th-to-99th group starts at $186,800, $264,100, $323,500 and $373,500. The table has no top-2-percent line. Full note: `research/citations/cbo-household-income-thresholds_2017-2018_2026-11-24.md`.
 
+**Item 8, the father's passport (line 74). The author's note, 2026-11-24, in his words:** "I know my father carried a diplomatic passport for his travel with the Navy which required him to get travel orders. He had a separate normal US Citizen passport he traveled with when he was traveling with the family." The sentence stands on his own knowledge. The printed question sheet for his father still carries the question, as a confirmation only. The other family facts in item 8 (start date at Langley, retirement and death years, job title) wait on his father's answers.
+
 ## 2. Sources the project holds that bear on this chapter and are not used
 
 1. **Dunbar and Du Bois are in the bibliography (section 21) but the citation index does not list Chapter 1 for either.** `tools/back-matter/citation-crossref-index.md` lists Dunbar 1896 for Ch 10, Ch 8 and the Noema essay only. The bibliography entry for *The Souls of Black Folk* describes double consciousness and never mentions the veil, which is the word the chapter uses. The book's text does support it ("shut out from their world by a vast veil"; "born with a veil"). The entry should say so.
