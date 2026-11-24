@@ -76,7 +76,6 @@ Open, save as PDF, attach. A few minutes each.
 
 | # | What to open | What is needed | Settles | What was tried |
 |---|---|---|---|---|
-| H1 | Congressional Budget Office, *The Distribution of Household Income, 2018* (cbo.gov/publication/57404), with its "Supplemental Data"; the 2017 edition if one click away | The lowest income that puts a household in the top 1 percent, and in the 96th to 99th percentiles, for 2017 and 2018; which income measure the table uses | Ch 1 item 4 (line 126) | Re-tested 2026-11-15: plain request and fetch tool both 403 for the page and the PDF; no mirror of the supplemental table found (search). Still needs you. Second re-test the same day: the supplemental spreadsheet's own address also returns the CAPTCHA page; two wider searches gave shares and averages, not the threshold. A saved copy exists at the Internet Archive, which sessions cannot open (note below). |
 | H8 | State Department, Foreign Service Institute, "Foreign Language Training." **Optional; low value.** | Class hours by language category | Ch 1 row 8 | Re-tested 2026-11-15: 403 again (an error page). Optional. |
 
 **The Internet Archive, for sessions (tested 2026-11-15).** The catalogue (`archive.org`) answers a plain
@@ -173,6 +172,11 @@ report's own address has not been found yet (Part 5).
   - **Google Books previews** for L6, L7 and L11, and snippets for L8: see step 9 above.
   - **Part 3 corrected** (Fraser's essay; the *Umbrellas* address).
 
+- **H1, the CBO household-income thresholds: done 2026-11-24.** The author downloaded the supplemental data
+  file and supplied it; Table 2 gives the lowest income for the top 1 percent and for the 96th to 99th
+  percentiles, by household size, in 2018 dollars. Figures and the table's notes are in
+  `research/citations/cbo-household-income-thresholds_2017-2018_2026-11-24.md`.
+
 ## Part 5. Not yet fully tried: do not fetch these
 
 A session works this queue and promotes to Part 1 only what truly fails. Worked in part on 2026-11-15; what
@@ -223,6 +227,8 @@ for print-disabled readers only: Nussbaum (2000); Lewis (1973); Mishan; Bockstae
 | `tools/workstream-handoffs/library-search-list.md` | A1; A2; A3; B1; B2; B3; B4 | H1; H8; Done (Daly 1990); Done (Nordhaus 2007); L2; L3 and L4; L12 |
 
 ## Changes log
+
+- **2026-11-24.** H1 closed: the author supplied the CBO file. Home-browser items left: H5, and H8 (optional).
 
 - **2026-11-15, third re-test (Chapter 5 session; the same request reached three sessions).** H5 answered and removed. Google Books previews found for L6, L7 and L11 (a route for the author at home, step 9). Part 3 corrected: two entries were not reachable. House et al. reachable. A second route (the open-copy index) recorded for sixteen articles. 20 library items, 2 home-browser items (H1, and H8, optional).
 
