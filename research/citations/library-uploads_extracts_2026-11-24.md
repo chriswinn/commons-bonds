@@ -345,3 +345,30 @@ where the appendix has "preceding and succeeding generations to have followed."
 291f. Page 291f. falls in sections 44–45, which is a first fix on the 1971 page numbers still wanted for the
 section 44 passages (library list, L4). It is Rawls's own pointer, not a page seen; the 1971 pages themselves
 still need a look before a page number is printed.
+
+## Eichengreen, *Golden Fetters* (1992), pp. 307–308 and others, from the author's photographs
+
+Barry Eichengreen, *Golden Fetters: The Gold Standard and the Great Depression, 1919–1939* (New York and
+Oxford: Oxford University Press, 1992; "Copyright © 1992 by Oxford University Press, Inc."), NBER Series on
+Long-Term Factors in Economic Development; ISBN 0-19-506431-3. Thirteen photographs of an on-screen scan (the
+archive.org loan): series page, title and copyright pages, and the spreads 43–44, 79–80, 101–102, 135–136,
+197–198, 227–228, 231–232, 259–260, 289–290, 307–308, 339–340. The author had searched the scan for the word
+"index," so most spreads are there by chance. **Only 307–308 (Sweden) and 289 bear on Chapter 5.** Read by eye
+2026-11-24.
+
+| Page | His words | Bears on |
+|---|---|---|
+| 307 | "Cassel, Davidsson, and Heckscher therefore recommended that the Riksbank, rather than pegging to sterling, develop a price-level target for monetary policy. The central bank constructed a consumer price index for this purpose." | background |
+| 307 | "In March [1932] the situation was transformed by the suicide of Ivar Kreuger, the colorful industrialist and notorious financial operator. Revelations that Kreuger had forged collateral raised doubts about the solvency of enterprises connected with his conglomerate, including its principal creditor, the Skandinaviska Bank. Depositors withdrew their funds, and a financial crisis loomed." | Ch 5 line 106, banks under pressure |
+| 307–308 | "But having already suspended gold convertibility, the Riksbank, like the Danish National Bank, was free to extend accommodation. It purchased more than 200 million kronor worth of government securities in the wake of the Kreuger crisis. In contrast to Austria, Germany, Hungary, and the United States, which experienced their banking crises while still on the gold standard, in Sweden the central bank was not prevented from intervening in support of the banking system. The Riksbank was not committed to supporting the exchange rate at a level inconsistent with the provision of additional liquidity." | Ch 5 line 106, the bank rescue and the exit from gold |
+| 308 | "Having stood at a 1 percent premium against sterling on the eve of the banking crisis, the krona fell quickly to a 7½ percent discount. … Sweden was one of the few countries in which the monetary base rose significantly (by nearly 6 percent) between the ends of 1931 and 1932." | the krona's fall |
+| 308 | "Its fall against the gold currencies strengthened the competitive position of Swedish exporters. The newsprint industry was able to underbid Canadian competition in Europe. The trade deficit declined by 33 percent in 1932; in 1933 it fell to zero. Though industrial production dropped in the wake of the Kreuger crisis, by the fourth quarter of 1932 recovery was underway." | Ch 5 line 106, exports competitive again |
+| 289 | "In most of the countries that followed Britain off gold, recovery began in 1932." | the general finding on leaving gold early |
+
+**What it settles for Chapter 5, item 6.** Eichengreen supports four things in the chapter's Sweden paragraph:
+Sweden was off gold; its banks came under pressure (the Kreuger crash, March 1932); the central bank was free
+to support the banks because it was off gold; and the cheaper krona helped exporters and recovery began by late
+1932. **These two pages say nothing about mortgages, household debt, or public works.** One point of order: the
+banking crisis came after the exit from gold, where the chapter's paragraph puts the pressure first. Whether
+the rest of the book mentions mortgages or public works in Sweden is not known from these pages; a search of
+the scan for "Sweden," "Swedish" and "mortgage" would answer it.

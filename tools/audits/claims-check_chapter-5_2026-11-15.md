@@ -13,12 +13,12 @@
 
 ## Counts
 
-**182 claims listed. 83 are not SUPPORTED.**
+**183 claims listed. 84 are not SUPPORTED.**
 
 | Status | Claims |
 |---|---|
 | SUPPORTED | 99 |
-| SAYS MORE THAN THE SOURCE | 32 |
+| SAYS MORE THAN THE SOURCE | 33 |
 | CONTESTED | 5 |
 | SOURCE FOUND, NOT CITED | 1 |
 | NO SOURCE IN THE PROJECT | 36 |
@@ -290,8 +290,9 @@ Line numbers are those of `manuscript/chapters/Chapter__5_TheAccountabilityGap.m
 | 102 | The Volcker Rule was later relaxed | **SUPPORTED** | Regulators amended the rule in late 2019 (effective Jan. 1, 2020) and again in June 2020 (four new fund exclusions). Not in a project source file. | OCC Bulletin 2019-56; SEC release 2020-143 (via search) |
 | 102 | the Consumer Financial Protection Bureau was later weakened | **NOT CHECKED** | No source on file; not checked today. | none |
 | 104 | In the 1930s Sweden rescued its banks and its households together. | **SAYS MORE THAN THE SOURCE** | Supported: a bank rescue, the 1931 devaluation, public works. Not supported: a household rescue coordinated with the bank rescue (see the mortgage row). | `tools/back-matter/sources/bibliography.md` §6 |
-| 106 | Sweden's banks were under pressure then | **SUPPORTED** | After the Kreuger crash of 1932 the National Debt Office lent to Skandinaviska Kreditaktiebolaget "to prevent a bankruptcy that could have destabilised the whole financial system." | Sveriges Riksbank historical timeline (via search) |
-| 106 | In 1931 Sweden left the gold standard and let the value of its currency, the krona, fall. | **SUPPORTED** | "Britain abandoned the gold standard, followed by Sweden" (September 1931). Bibliography note on Eichengreen: Sweden abandoned gold in 1931. | Riksbank timeline (via search); `tools/back-matter/sources/bibliography.md` §6 |
+| 106 | Sweden's banks were under pressure then | **SUPPORTED** | "Revelations that Kreuger had forged collateral raised doubts about the solvency of enterprises connected with his conglomerate, including its principal creditor, the Skandinaviska Bank. Depositors withdrew their funds, and a financial crisis loomed." The Riksbank "purchased more than 200 million kronor worth of government securities in the wake of the Kreuger crisis"; unlike Austria, Germany, Hungary and the United States, "in Sweden the central bank was not prevented from intervening in support of the banking system" (p. 307). The crisis is March 1932, after the exit from gold; the chapter's order is the reverse. | Eichengreen, *Golden Fetters* (1992), pp. 307-308, the author's photographs; Sveriges Riksbank history |
+| 106 | In 1931 Sweden left the gold standard and let the value of its currency, the krona, fall. | **SUPPORTED** | "Britain abandoned the gold standard, followed by Sweden" (September 1931). Eichengreen, read 2026-11-24 from the author's photographs: "having already suspended gold convertibility, the Riksbank ... was free to extend accommodation" (p. 307); after the Kreuger crisis "the krona fell quickly to a 7 1/2 percent discount" against sterling (p. 308). | Riksbank timeline (via search); Eichengreen, *Golden Fetters* (Oxford University Press, 1992), pp. 307-308 |
+| 106 | A cheaper krona made Swedish exports competitive again, and it made household debts lighter in real terms. | **SAYS MORE THAN THE SOURCE** | First half supported: the krona's fall "against the gold currencies strengthened the competitive position of Swedish exporters. The newsprint industry was able to underbid Canadian competition in Europe. The trade deficit declined by 33 percent in 1932; in 1933 it fell to zero" (p. 308). Second half not found: pp. 307-308 say nothing about household debt; the Riksbank's aim was a stable price level, not a higher one, until 1933. | Eichengreen, *Golden Fetters* (1992), pp. 307-308, the author's photographs |
 | 106 | Sweden also coordinated the rescue of its banks with changes to people's mortgages, so that the relief reached households and did not stop at the banks' balance sheets. | **NO SOURCE IN THE PROJECT** | Four sources now, none with it. The bibliography's own note says the pairing is the framework's extension of Eichengreen, not his finding. Read 2026-11-24 and searched for mortgage, household, debt relief and moratorium: Jonung's 1981 comparison of the Depression in Sweden and the United States (nothing), and the Riksbank's history of 1914 to 1945 (the state's loan to Skandinaviska Kreditaktiebolaget after the Kreuger crash; nothing on relief of household debt). The two books (library list L7) have still not been read. | `tools/back-matter/sources/bibliography.md` §6; Jonung (1981), Lund University; Sveriges Riksbank, *From the First War to the Second* |
 | 106 | Through the middle of the decade it ran public-works programs | **SUPPORTED** | Bibliography note on Kindleberger: "public-works employment programs (1934-1937)." A session's summary; the book was not read today. | `tools/back-matter/sources/bibliography.md` §6 |
 | 106 | In 1938 the Saltsjöbaden Agreement set the terms between labor and capital that the Swedish welfare state was then built on. | **SUPPORTED** | Bibliography note on Kindleberger: "the institutional-stabilization sequence that became the 1938 Saltsjöbaden Agreement framework." Date not rechecked today. | `tools/back-matter/sources/bibliography.md` §6 |
