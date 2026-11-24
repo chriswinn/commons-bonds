@@ -188,6 +188,13 @@ report's own address has not been found yet (Part 5).
   substituted" says more than he does; Mussa and Rosen write quality as lower-case q, not Q (Definition 1.3);
   Rosen (1974) has nothing on wages or the value of life (§3.4); "Hicks 1939" stands for two works.
 
+- **Second batch from the author's library session, read 2026-11-24** (same extracts file): **Hotelling (1931);
+  Pindyck (1978); Balboa (2016); Keith et al. (2018); Weitzman (2001).** All leave Part 5. Findings for the
+  appendix: Balboa says Environmental Impact Bonds "are not bonds" and are funded by investors, so §5.1.2's
+  use of her contradicts her; Pindyck's symbol for the reserve stock is R, not X (Definition 1.3); Keith's
+  range is as cited; Hotelling's p is the price net of extraction cost; Weitzman (2001) has the declining
+  rate but not "lowest possible," which is his 1998 paper (still wanted: DOI 10.1006/jeem.1998.1052).
+
 ## Part 5. Not yet fully tried: do not fetch these
 
 A session works this queue and promotes to Part 1 only what truly fails. Worked in part on 2026-11-15; what
