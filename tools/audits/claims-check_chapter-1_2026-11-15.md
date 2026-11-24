@@ -123,6 +123,15 @@ Still open on item 1: whether the identifying details stay (the rooftop habit, t
 
 His note on line 98, in his words (2026-11-24): "The station called with six days left, then didn't call back to approve me coming until the next day. So when I arrived they only had about 5 days before the commercial breaks would start playing dead air." This confirms the May record and fixes the count from the night he arrived.
 
+**Items 5 and 6. Ruled 2026-11-24: accepted as recommended.** "We" in line 132 is the author himself.
+
+| Line | Stands | Accepted |
+|---|---|---|
+| 132 | "and that proves the decisions we made would not all have been the same if we had known the real cost." | "and I know the decisions I made would not all have been the same if I had known the real cost." |
+| 72 | "as it always does in the patient, ordinary machinery of salaried invention." | "as it nearly always does in the patient, ordinary machinery of salaried invention." |
+
+**Item 2, "The pricing is new" (line 134). Accepted 2026-11-24 as "Pricing each act of extraction this way is new," then reopened by him the same day:** he asked whether that wording still holds against the appendix's own list of contributions, and named what he sees as the framework's main work (pricing extraction; costs that can stand with or without a value; the new terms; the Commons Inversion Test). The session's answer and a revised recommendation went to him in the conversation. **Not settled; do not apply.**
+
 ## 2. Sources the project holds that bear on this chapter and are not used
 
 1. **Dunbar and Du Bois are in the bibliography (section 21) but the citation index does not list Chapter 1 for either.** `tools/back-matter/citation-crossref-index.md` lists Dunbar 1896 for Ch 10, Ch 8 and the Noema essay only. The bibliography entry for *The Souls of Black Folk* describes double consciousness and never mentions the veil, which is the word the chapter uses. The book's text does support it ("shut out from their world by a vast veil"; "born with a veil"). The entry should say so.
