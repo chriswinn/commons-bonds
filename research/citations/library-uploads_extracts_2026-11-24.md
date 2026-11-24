@@ -298,8 +298,10 @@ pages supplied.
 Brian Barry, "Circumstances of Justice and Future Generations," in R. I. Sikora and Brian Barry (eds.),
 *Obligations to Future Generations* (Temple University Press, 1978), pp. 204–248. Four photographs of an
 on-screen scan (the archive.org loan), pages 240–247, read by eye 2026-11-24. The title and copyright pages
-were not photographed, so the edition (1978, or the 2012 White Horse Press reprint) is taken from the library
-list's record of the archive.org item and should be confirmed.
+were photographed later the same day and **confirm the edition: Temple University Press, Philadelphia, "© 1978
+by Temple University … Published 1978,"** Philosophical Monographs, Second Annual Series; ISBN 0-87722-132-4
+(0-87722-128-6 paperback). The contents page gives Barry's chapter as starting at p. 204 and "Contributors" at
+p. 249, so the chapter runs pp. 204–248.
 
 | Page | His words | Bears on |
 |---|---|---|

@@ -206,7 +206,7 @@ report's own address has not been found yet (Part 5).
 
 - **L2, Barry (1978), p. 243: done, 2026-11-24.** The author photographed pp. 240–247. The sentence is his:
   "the overall range of opportunities open to successor generations should not be narrowed." The word is
-  "successor"; the appendix has "successive." Still to confirm, and small: the edition on the title page.
+  "successor"; the appendix has "successive." Edition confirmed from the title and copyright pages: Temple University Press, 1978.
 
 ## Part 5. Not yet fully tried: do not fetch these
 
