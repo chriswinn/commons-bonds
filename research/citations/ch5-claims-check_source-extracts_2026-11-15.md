@@ -25,3 +25,29 @@ Report: `tools/audits/claims-check_chapter-5_2026-11-15.md`. Library list: `tool
 | Himmelstein, Lawrence, Jahn, Ceasar, Morse, Bassett, Wispelwey, Darity and Venkataramani, *JAMA Network Open* 5(11) (2022): e2240519. Europe PMC full text (PMC9641537). | "differences in survival were largely mediated by differences in household wealth." Black participants' median life expectancy "77.5 … years, 4 years shorter than" White participants' 81.5. "After adjusting for differences in wealth, survival did not differ significantly by race." "reparations to close the mean racial wealth gap were associated with reductions in the longevity gap by 65.0% to 102.5%." The simulated payment: "$828 055 per household." | Ch 5 lines 246, 252; item 2 |
 
 Route note: Europe PMC's full-text service (`ebi.ac.uk/europepmc/webservices/rest/PMC…/fullTextXML`) answers when PubMed Central itself puts up a browser check.
+
+## Fraser (2016), supplied by the author from his school library, 2026-11-24
+
+**Source:** Nancy Fraser, "Expropriation and Exploitation in Racialized Capitalism: A Reply to Michael Dawson,"
+*Critical Historical Studies* 3, no. 1 (Spring 2016): 163–178. DOI 10.1086/685814. The author's PDF (JSTOR copy)
+was read in full by text extraction; it is not committed. Page numbers are the journal's.
+
+| Page | Her words | Bears on |
+|---|---|---|
+| 165 | Essential for theorizing capitalism's racial dynamics is "the crucial role played in capital accumulation by unfree, dependent, and unwaged labor—by which I mean labor that is expropriated, as opposed to exploited, subject to domination unmediated by a wage contract." | Ch 5 line 192 |
+| 166 | She adds to Marx's picture a third tier: "By adding this third, non-contractual 'ex,' I shall disclose the centrality of racialized dependent labor to capitalist society." | Ch 5 line 192 |
+| 166 | The definition: "Distinct from Marxian exploitation, but equally integral to capitalist development, expropriation is accumulation by other means. Dispensing with the contractual relation through which capital purchases 'labor power' in exchange for wages, expropriation works by confiscating capacities and resources and conscripting them into capital's circuits of self-expansion." | Ch 5 line 192 |
+| 166 | "The confiscated assets may be labor, land, animals, tools, mineral or energy deposits—but also human beings, their sexual and reproductive capacities, their children and bodily organs." | Ch 5 lines 192, 194 |
+| 167 | "expropriation in the sense I intend here is confiscation-cum-conscription-into-accumulation. Expropriation in this sense covers a multitude of sins, most of which correlate strongly with racial oppression." "Simple theft is not enough." | Ch 5 lines 192, 194 |
+
+**What it settles.** The chapter's first two sentences on Fraser hold: exploitation runs through the wage
+contract; expropriation dispenses with it. The third does not: "Fraser has two things in mind. One is the
+unpaid care work that keeps a society going. The other is nature." In this article the term is built around
+racialized, unfree and dependent labor and around confiscated land and resources. Unpaid care work is not
+named (the nearest words are "sexual and reproductive capacities"); nature appears as "land" and "mineral or
+energy deposits." The article does not use the word "sinks." Whether *Cannibal Capitalism* (2022) extends the
+term to care work and nature in so many words is still unread, so the chapter should credit the care-and-nature
+point to her wider account of capital's "background conditions," not to the definition of expropriation.
+
+**Also for line 194:** "They are expropriation in exactly Fraser's sense" says more than this text allows. Her
+sense requires that the thing taken be conscripted into accumulation, and she ties it to racial oppression.

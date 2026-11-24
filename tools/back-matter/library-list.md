@@ -66,7 +66,6 @@ Reports the "Settles" column refers to: **TA** = `tools/audits/claims-check_tech
 | L17 | Mian and Sufi, *House of Debt* (2014) | Chapter 2, the pages on who lost the most | Ch 5 lines 86–88 | Low risk Re-tested 2026-11-15: print-disabled only at archive.org. Mian, Rao and Sufi (Part 3) may cover it. |
 | L18 | Costanza and Perrings, "A flexible assurance bonding system for improved environmental management," *Ecological Economics* 2(1) (1990): **57–75**. DOI 10.1016/0921-8009(90)90013-K | The whole PDF | Ch 5 line 172; TA §14.8 | The quotation already matches the published abstract; this only upgrades "abstract" to "read" |
 | L19 | Zhou and Ge (2021), *The Extractive Industries and Society* 8(1): 340–354, DOI 10.1016/j.exis.2020.11.010; Zhang, Zhang, Peng, Feng, Fang and Chen (2022), *Science of the Total Environment* 831: 154934, DOI 10.1016/j.scitotenv.2022.154934 | The two PDFs | Ch 5 line 138 | **Both confirmed to exist, 2026-11-15** (titles in `research/citations/library-retest_2026-11-15.md`). The publisher refuses sessions both ways, so the PDFs still need you. The 2022 paper is about who consumes the output, not about waste; skip both if you cut or reword the sentence. |
-| L20 | Fraser, "Expropriation and Exploitation in Racialized Capitalism," *Critical Historical Studies* (2016) | The PDF | Ch 5 item 3, second source | Skip if you have L6 Re-tested 2026-11-15: confirmed (DOI 10.1086/685814, *Critical Historical Studies* 3(1): 163–178); the journal refuses sessions both ways. |
 | L21 | Keefe, *Empire of Pain* (2021) | Any passage saying Purdue targeted particular kinds of communities; any mention of McDowell County | TA §6.7 | Skip if you take the report's rewording, which needs no source Checked 2026-11-15: only an unofficial upload online. |
 | L22 | Rawls, *Justice as Fairness* (Harvard, 2001), pp. 159–160 | The same savings-principle sentence | TA §14.4 | Only if L3 is unavailable Checked 2026-11-15: archive.org scan is print-disabled only. |
 
@@ -176,6 +175,11 @@ report's own address has not been found yet (Part 5).
   file and supplied it; Table 2 gives the lowest income for the top 1 percent and for the 96th to 99th
   percentiles, by household size, in 2018 dollars. Figures and the table's notes are in
   `research/citations/cbo-household-income-thresholds_2017-2018_2026-11-24.md`.
+
+- **L20, Fraser (2016): done, 2026-11-24.** The author downloaded it at his school library; read in full. Her
+  definition of expropriation is on p. 166 (extracts in
+  `research/citations/ch5-claims-check_source-extracts_2026-11-15.md`). **L6, her book, is now needed only if
+  the chapter keeps a sentence on care work and nature as things she calls expropriated.**
 
 ## Part 5. Not yet fully tried: do not fetch these
 
