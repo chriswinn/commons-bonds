@@ -262,6 +262,12 @@ commit message. Nothing here changes a source file by itself.
 - **Recommendation: ADD** *A Theory of Justice* (already in §18) to the bibliography, and **ADD** whichever
   later book the author reads the wording in, cited at that sentence. Until one is read, reword §14.4 so it
   quotes nothing: the claims check offers a sentence (report, section 1b, item 2).
+- **Read 2026-11-24.** The author photographed *Political Liberalism* (Columbia University Press, 1996
+  paperback, © 1993, 1996), pp. 272–277. The wording is at **p. 274**, and Rawls's note 12 states that it
+  "differs from that in *Theory*, pp. 128f. and 291f." So the later book is now read and can be cited at
+  that sentence; *Justice as Fairness* is not needed. Extracts:
+  `research/citations/library-uploads_extracts_2026-11-24.md`. The entry stays OPEN only for the author's
+  ruling on the recommendation above.
 
 ### 018. State overdose figures as support for "the highest … in the United States." **OPEN**
 

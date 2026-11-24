@@ -316,3 +316,32 @@ own suggestion after criticizing both of Rawls's theories ("I do not have any fu
 offer," p. 242), grounded in equal opportunity, not in Rawls's savings principle. The next sentence, on
 openings "closed off by depletion or other irreversible damage," is closer to the book's idea of foreclosure
 than anything else found in this check and is not used anywhere in the manuscript.
+
+## Rawls, *Political Liberalism* (1996 paperback), pp. 272–277, from the author's photographs
+
+John Rawls, *Political Liberalism* (New York: Columbia University Press; "Copyright © 1993, 1996 Columbia
+University Press"), John Dewey Essays in Philosophy, no. 4; ISBN 0-231-05249-9 (paperback), 0-231-05248-0
+(cloth). This is the 1996 paperback printing, the one that adds "Reply to Habermas." Five photographs of an
+on-screen scan (the archive.org loan; the scanned copy carries a School of Theology at Claremont stamp): title
+page, copyright page, and pages 272–277. Read by eye 2026-11-24. The running heads are "Institutional
+Framework" and "The Basic Structure as Subject" (Lecture VII); the passage sits in the section before
+"§7. Special Features of the Initial Agreement," which begins on p. 275.
+
+| Page | His words | Bears on |
+|---|---|---|
+| 274 | "Consider the case of just savings: since society is a system of cooperation between generations over time, a principle for savings is required. Rather than imagine a (hypothetical and nonhistorical) direct agreement between all generations, the parties can be required to agree to a savings principle subject to the further condition that they must want all *previous* generations to have followed it. Thus the correct principle is that which the members of any generation (and so all generations) would adopt as the one their generation is to follow and as the principle they would want preceding generations to have followed (and later generations to follow), no matter how far back (or forward) in time." [note 12 follows; "previous" is italic in the original] | TA §14.4; decisions log 017 |
+| 274, note 12 | "This formulation of the conditions for the agreement on a just savings principle differs from that in *Theory*, pp. 128f. and 291f. There it is not required that the parties must want the previous generations to have followed the principle they adopt as contemporaries. Therefore, assuming that generations are mutually disinterested, nothing constrains them from refusing to make any savings at all. To cope with this difficulty it was stipulated that the parties care for their descendants. While this is a reasonable stipulation, the requirement above has the virtue that it removes the difficulty without changing the motivation assumption. … I am indebted to Thomas Nagel and Derek Parfit for this revision; it is also proposed by Jane English, who notes the connection with ideal theory. See her 'Justice Between Generations,' p. 98." | the 1971-versus-later question; L4 page numbers |
+| 273 | "Finally, in order to establish fairness between generations (for example, in the agreement on a principle of just savings), the parties, who are assumed to be contemporaries, do not know the present state of society. They have no information about the stock of natural resources or productive assets, or the level of technology beyond what can be inferred from the assumption that the circumstances of justice obtain. The relative good or ill fortune of their generation is unknown." | background: the veil across generations |
+
+**What it settles.** The wording the appendix puts under "Rawls (1971)" is from this book, at p. 274 of the
+1996 paperback, and Rawls says so himself in note 12: the 1971 book did **not** require that the parties want
+previous generations to have followed the principle. So the Stanford Encyclopedia had it right, and the
+appendix's date is wrong for this sentence. Two smaller differences from the appendix's paraphrase: Rawls is
+speaking of the **savings principle**, not of principles of justice in general ("we should choose only
+principles…"); and his tenses are "preceding generations to have followed (and later generations to follow),"
+where the appendix has "preceding and succeeding generations to have followed."
+
+**A second thing it gives.** Note 12 names the 1971 pages for the earlier account: *Theory*, pp. 128f. and
+291f. Page 291f. falls in sections 44–45, which is a first fix on the 1971 page numbers still wanted for the
+section 44 passages (library list, L4). It is Rawls's own pointer, not a page seen; the 1971 pages themselves
+still need a look before a page number is printed.

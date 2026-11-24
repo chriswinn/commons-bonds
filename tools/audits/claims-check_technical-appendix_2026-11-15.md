@@ -1184,3 +1184,18 @@ Page numbers in the extracts are the anthology's; the 1971 edition's pages must 
 | Section | Claim | Status now | What the text says |
 |---|---|---|---|
 | §14.4 | "Brian Barry (later) sharpened it: the overall range of opportunities open to successive generations should not be narrowed" | **SUPPORTED on the sentence, with two corrections** (was unsourced) | "What justice requires, I suggest, is that the overall range of opportunities open to successor generations should not be narrowed" (Barry 1978, p. 243). The word is "successor." He presents it as his own suggestion from equal opportunity, after criticizing both of Rawls's theories, so "sharpened it" overstates the link to Rawls. Give the year, 1978. |
+
+## Addendum, 2026-11-24 (Chapter 5 session): Rawls, *Political Liberalism*, p. 274, read from the author's photographs
+
+Extracts: `research/citations/library-uploads_extracts_2026-11-24.md`. The rows above are not changed.
+
+| Section | The claim, in the appendix's words | Status | What the source says | Source |
+|---|---|---|---|---|
+| §14.4 | we should choose only principles we would wish all preceding and succeeding generations to have followed [headed and cited "Rawls (1971)"] | **CONTRADICTED** as dated; the wording itself is **SAYS MORE THAN THE SOURCE** | "the correct principle is that which the members of any generation (and so all generations) would adopt as the one their generation is to follow and as the principle they would want preceding generations to have followed (and later generations to follow)." Note 12: "This formulation … differs from that in *Theory*, pp. 128f. and 291f. There it is not required that the parties must want the previous generations to have followed the principle they adopt." He is speaking of the savings principle only, not principles in general. | Rawls, *Political Liberalism* (Columbia University Press, 1996 paperback), p. 274 and note 12; seen in the author's photographs |
+
+**For whoever applies the appendix rulings.** The primary source now confirms what the Stanford Encyclopedia
+said. A sentence that would stand: "In his later statement of the just savings principle, Rawls has each
+generation adopt the principle it would want preceding generations to have followed, and later generations to
+follow (Rawls 1996, 274)." The heading "Rawls (1971)" can stay for the veil of ignorance and for the rejection
+of pure time preference (section 44, read earlier today), with the later book cited for this one sentence.
+Decisions log 017 has the matching note.
