@@ -97,6 +97,21 @@ These are yours to supply. I list them because a reader could check them.
 
 ---
 
+## 1a. The author's rulings (recorded as given; not yet applied to the chapter)
+
+Applied in one pass after he has ruled on every item. Each accepted change gets a gate pattern in the same commit.
+
+**Item 1, the colleague. Ruled 2026-11-24: all four suggested sentences accepted.** His answers first: the colleague was in the country on a work visa that, as he understood it, was tied to the job; he never asked which kind; a green card, as he understands it, would have made changing employers easier. (So the June note's "green card was tied to continued employment" is wrong on the document and should be corrected to "work visa.")
+
+| Line | Stands | Accepted |
+|---|---|---|
+| 22 | "He was not a citizen. His right to remain in the United States was tied to his job." | "He was not a citizen. He was here on a work visa, and as I understood it, his right to remain in the United States was tied to his job." |
+| 22 | "If he pressed for a raise, the company could send him back across that line, out of the country, and away from his family." | "If he pressed for a raise and lost the job, he could be sent back across that line, out of the country, and away from his family." |
+| 22 | "I mean there was nothing he could do." | "I mean there was nothing he could do without putting his family at risk." |
+| 26 | "There was no invoice he could send and no court that recognized the debt. The whole thing was legal and ordinary, and it sat in my chest like a stone." | "There was no invoice he could send. As far as any of us knew, the whole thing was legal. It was certainly ordinary, and it sat in my chest like a stone." |
+
+Still open on item 1: whether the identifying details stay (the rooftop habit, the greetings, Paris and New Delhi), and a consent-tracker row.
+
 ## 2. Sources the project holds that bear on this chapter and are not used
 
 1. **Dunbar and Du Bois are in the bibliography (section 21) but the citation index does not list Chapter 1 for either.** `tools/back-matter/citation-crossref-index.md` lists Dunbar 1896 for Ch 10, Ch 8 and the Noema essay only. The bibliography entry for *The Souls of Black Folk* describes double consciousness and never mentions the veil, which is the word the chapter uses. The book's text does support it ("shut out from their world by a vast veil"; "born with a veil"). The entry should say so.
