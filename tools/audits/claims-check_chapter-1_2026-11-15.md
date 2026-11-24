@@ -97,9 +97,9 @@ These are yours to supply. I list them because a reader could check them.
 
 ---
 
-## 1a. The author's rulings (recorded as given; not yet applied to the chapter)
+## 1a. The author's rulings
 
-Applied in one pass after he has ruled on every item. Each accepted change gets a gate pattern in the same commit.
+**APPLIED 2026-11-24 on his instruction, except the grandfather sentence (line 62), which waits for his father's answers.** Eleven sentences changed in `manuscript/chapters/Chapter__1_TheQuietMath.md`; twelve HIGH gate patterns (`ch1-*`) added; ledger section "Ch 1 factual wordings" added; gate HIGH 0. Line numbers below are the chapter's as it stood on 2026-11-15.
 
 **Item 1, the colleague. Ruled 2026-11-24: all four suggested sentences accepted.** His answers first: the colleague was in the country on a work visa that, as he understood it, was tied to the job; he never asked which kind; a green card, as he understands it, would have made changing employers easier. (So the June note's "green card was tied to continued employment" is wrong on the document and should be corrected to "work visa.")
 
@@ -130,7 +130,7 @@ His note on line 98, in his words (2026-11-24): "The station called with six day
 | 132 | "and that proves the decisions we made would not all have been the same if we had known the real cost." | "and I know the decisions I made would not all have been the same if I had known the real cost." |
 | 72 | "as it always does in the patient, ordinary machinery of salaried invention." | "as it nearly always does in the patient, ordinary machinery of salaried invention." |
 
-**Item 2, "The pricing is new" (line 134). Accepted 2026-11-24 as "Pricing each act of extraction this way is new," then reopened by him the same day:** he asked whether that wording still holds against the appendix's own list of contributions, and named what he sees as the framework's main work (pricing extraction; costs that can stand with or without a value; the new terms; the Commons Inversion Test). The session's answer and a revised recommendation went to him in the conversation. **Not settled; do not apply.**
+**Item 2, "The pricing is new" (line 134). Accepted 2026-11-24 as "Pricing each act of extraction this way is new," then reopened by him the same day:** he asked whether that wording still holds against the appendix's own list of contributions, and named what he sees as the framework's main work (pricing extraction; costs that can stand with or without a value; the new terms; the Commons Inversion Test). The session's answer and a revised recommendation went to him in the conversation. **Settled 2026-11-24.** He accepted the session's revised recommendation: "The framework this book presents carries the move into accounting. It adds names for the costs that go missing, a test for which ones count, and a way to leave a cost unpriced until someone can price it. The ledger is new. The move is old." Reasons given to him: it uses only words the chapter has already used ("extraction" does not appear in Chapter 1); it matches his own list of the framework's main work and the appendix's list of contributions; and it leaves the closing image of the empty columns unspent.
 
 **Item 4, the income percentile (line 126). Ruled 2026-11-24: "the top five percent."** The author made the comparison himself against CBO's Table 2 and chose the wider band for two reasons he gave: it discloses less of his finances, and it is easier to defend (the table has a line for the top 5 percent and none for the top 2). His figures and household details are not recorded in the repository. Accepted wording: "salary and commission together put me in the top five percent of household incomes in the United States for those years." He confirmed 2026-11-24 that it holds for both peak years, so "those years" stands. **Settled.** The endnote pin becomes CBO, *The Distribution of Household Income, 2018*, supplemental data, Table 2.
 

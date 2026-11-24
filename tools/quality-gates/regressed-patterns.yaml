@@ -941,6 +941,102 @@ patterns:
     description: "Undocumented integral level superseded 2026-06-10 -> 525ドル-540/ton documented calibration (historical mentions must be labeled)"
     allowlist: []
 
+  - id: ch1-colleague-company-could-send-him-back
+    pattern: 'company could send him back'
+    type: substring
+    severity: HIGH
+    category: consistency-canon
+    description: "Ch 1 claims check 2026-11-24: an employer ends the job; removal is the government's act. Ratified: 'If he pressed for a raise and lost the job, he could be sent back'"
+    allowlist: []
+
+  - id: ch1-colleague-legal-and-ordinary
+    pattern: 'legal and ordinary'
+    type: substring
+    severity: HIGH
+    category: consistency-canon
+    description: "Ch 1 claims check 2026-11-24: legality unverified (visa type unknown; H-1B wage rule). Ratified: 'As far as any of us knew, the whole thing was legal. It was certainly ordinary'"
+    allowlist: []
+
+  - id: ch1-colleague-no-court-recognized
+    pattern: 'no court that recognized the debt'
+    type: substring
+    severity: HIGH
+    category: consistency-canon
+    description: "Ch 1 claims check 2026-11-24: cut; a wage-enforcement agency existed"
+    allowlist: []
+
+  - id: ch1-colleague-nothing-he-could-do-flat
+    pattern: 'I mean there was nothing he could do.'
+    type: substring
+    severity: HIGH
+    category: consistency-canon
+    description: "Ch 1 claims check 2026-11-24: wider than the law (H-1B portability since 2000). Ratified: '...nothing he could do without putting his family at risk.'"
+    allowlist: []
+
+  - id: ch1-nih-team-thirty-six
+    pattern: 'thirty-six, or closer to fifty'
+    type: substring
+    severity: HIGH
+    category: consistency-canon
+    description: "Ch 1 claims check 2026-11-24: session-introduced; author's recall is 43 or 65. Ratified: 'more than forty ... forty-three, or closer to sixty-five'"
+    allowlist: []
+
+  - id: ch1-nih-team-around-forty
+    pattern: 'team of around forty people'
+    type: substring
+    severity: HIGH
+    category: consistency-canon
+    description: "Ch 1 claims check 2026-11-24: ratified 'more than forty people' (May F-7 restored)"
+    allowlist: []
+
+  - id: ch1-cable-less-than-five-days
+    pattern: 'less than five days'
+    type: substring
+    severity: HIGH
+    category: consistency-canon
+    description: "Ch 1 claims check 2026-11-24: author: six days at the call, about five on arrival. Ratified: 'about five days'"
+    allowlist: []
+
+  - id: ch1-cable-three-hours-then-half
+    pattern: 'stretches of three hours and then half an hour'
+    type: substring
+    severity: HIGH
+    category: consistency-canon
+    description: "Ch 1 claims check 2026-11-24: May F-12 restored. Ratified: 'three and a half hours and then half an hour'"
+    allowlist: []
+
+  - id: ch1-proves-the-decisions
+    pattern: 'proves the decisions we made'
+    type: substring
+    severity: HIGH
+    category: consistency-canon
+    description: "Ch 1 claims check 2026-11-24: arithmetic cannot prove a counterfactual. Ratified: 'I know the decisions I made would not all have been the same'"
+    allowlist: []
+
+  - id: ch1-as-it-always-does-salaried-invention
+    pattern: 'as it always does in the patient'
+    type: substring
+    severity: HIGH
+    category: consistency-canon
+    description: "Ch 1 claims check 2026-11-24: federal inventors share royalties since 1986. Ratified: 'as it nearly always does'"
+    allowlist: []
+
+  - id: ch1-top-one-to-two-percent
+    pattern: 'top one to two percent'
+    type: substring
+    severity: HIGH
+    category: consistency-canon
+    description: "Ch 1 claims check 2026-11-24: CBO Table 2 has no top-2 line; author ruled 'top five percent' (privacy and defensibility)"
+    allowlist: []
+
+  - id: ch1-the-pricing-is-new
+    pattern: 'The pricing is new'
+    type: substring
+    severity: HIGH
+    category: consistency-canon
+    description: "Ch 1 claims check 2026-11-24: says more than the TA's own contribution list. Ratified: 'The ledger is new.' with the names / test / unpriced-cost sentence"
+    allowlist: []
+
   - id: regressed-meta-alternative-tested
     pattern: 'alternative-tested'
     type: substring
