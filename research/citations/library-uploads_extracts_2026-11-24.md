@@ -389,3 +389,12 @@ meet"). **None concerns Sweden.** The author confirmed the same day that these a
 weight of mortgages and leaving gold stops it, as a general point about debtors. He does not say Sweden
 changed anyone's mortgage, and on p. 307 Sweden's aim was to keep prices stable, which stops debts getting
 heavier but does not make them lighter.
+
+**Third batch, same day: the "public works" hits (pp. 77–78, 171–172, 255–256, 375–376).** The author reports
+these are the only places the phrase comes up. p. 78: France's pre-1914 debt and "an ambitious public works
+program." p. 172: Belgium, 1926, "New public works projects were halted." p. 255: France, 1930, "allowed the
+government to continue its public works program." p. 375: France, 1936, the Popular Front "proposed 20 million
+francs worth of public works spending." **None concerns Sweden.** So *Golden Fetters* does not support the
+chapter's sentence that Sweden "ran public-works programs," at least under that phrase; other wordings
+("relief works," "unemployment relief") were not searched. That sentence still rests on the project's note
+about Kindleberger, whose book has not been read.
