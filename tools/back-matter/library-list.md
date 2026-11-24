@@ -70,6 +70,7 @@ Open, save as PDF, attach. A few minutes each.
 | # | What to open | What is needed | Settles | What was tried |
 |---|---|---|---|---|
 | H8 | State Department, Foreign Service Institute, "Foreign Language Training." **Optional; low value.** | Class hours by language category | Ch 1 row 8 | Re-tested 2026-11-15: 403 again (an error page). Optional. |
+| H9 | Swedish Trade Union Confederation (LO), "The basic agreement": `https://www.lo.se/english/the_collective_agreement/basic_agreement` | The whole page (short): the date of the Saltsjöbaden Agreement, who signed it, what it did, the state's role. Save as PDF or copy the text. | Ch 5 line 106, the 1938 Saltsjöbaden sentence, which rests only on a project note | Cut the sentence, or keep only the date and signatories |
 
 **The Internet Archive, for sessions (tested 2026-11-15).** The catalogue (`archive.org`) answers a plain
 request, which is how the borrow-online items were found. Saved web pages (`web.archive.org`) do not: the
