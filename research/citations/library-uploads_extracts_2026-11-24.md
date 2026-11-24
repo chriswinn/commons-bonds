@@ -443,7 +443,7 @@ pages, no text layer; pages 1–6 read by eye. Pages 1–2 are a signed negotiat
 and Landsorganisationen i Sverige (LO, the trade union confederation), marked "ORIGINAL." From page 3 it
 reproduces the printed agreement: *Huvudavtal mellan Svenska Arbetsgivareföreningen och Landsorganisationen i
 Sverige (med däri år 1947, 1958, 1964 och 1974 vidtagna ändringar)*, Andrén & Holms Boktryckeri AB, Stockholm
-1975. Where the author downloaded it from is not recorded; ask him. In Swedish; translations are the session's.
+1975. Downloaded by the author from Livsmedelsföretagen (the Swedish Food Federation, an employers' association): `https://www.livsmedelsforetagen.se/app/uploads/2013/08/Forhandlingsordning_huvudavtal_saf_lo_arbetare.pdf`. In Swedish; translations are the session's.
 
 | Page | The words | In English | Bears on |
 |---|---|---|---|
