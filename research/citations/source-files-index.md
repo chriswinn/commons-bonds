@@ -26,6 +26,11 @@ reviewer needs in order to check a claim is the citation, the page and the words
 | `Balboa_2016_Environmental-Impact-Bonds.pdf` | Balboa, *Global Environmental Politics* 16(2) (2016): 33–41 | 2026-11-24, school library (Project MUSE) | `project_muse_617392.pdf` | `f3fd2607545c5b5e` | same |
 | `Keith_2018_Capturing-CO2.pdf` | Keith, Holmes, St. Angelo and Heidel, *Joule* 2 (2018): 1573–1594. DOI 10.1016/j.joule.2018.05.006 | 2026-11-24, school library | `PIIS2542435118302253.pdf` | `4f1a823a271556d6` | same |
 | `Weitzman_2001_Gamma-Discounting.pdf` | Weitzman, *American Economic Review* 91(1) (2001): 260–271 | 2026-11-24, school library (EBSCO) | `EBSCO-FullText-11_24_2026.pdf` | `1042c65691d8a9d5` | same |
+| `Weitzman_1998_Lowest-Possible-Rate.pdf` | Weitzman, *Journal of Environmental Economics and Management* 36 (1998): 201–208 | 2026-11-24, school library | `weitzman98.pdf` | `e9e596aa2620ee4f` | `library-uploads_extracts_2026-11-24.md` |
+| `Costanza-Perrings_1990_Assurance-Bonding.pdf` | Costanza and Perrings, *Ecological Economics* 2 (1990): 57–75 | 2026-11-24, school library | `CostanzaandPerrings1990.pdf` | `c47f109c57ae3f9d` | same |
+| `Gerard_2000_Reclamation-Bonds.pdf` | Gerard, *Resources Policy* 26 (2000): 189–197 | 2026-11-24, school library | `22-RP-Gerard-bonding.pdf` | `ef4097dc2da906f7` | same |
+| `Negrusa_2014_Gone-to-War.pdf` | Negrusa, Negrusa and Hosek, *Journal of Population Economics* 27 (2014): 473–496 | 2026-11-24, school library | `s00148-013-0485-5.pdf` | `afbfe80ed3b449e5` | same |
+| `Zhang_2022_Rare-Earth-Costs_PAGE-1-ONLY.pdf` | Zhang et al., *Science of the Total Environment* 831 (2022): 154934 | 2026-11-24; **a one-page print of the viewer; the full nine pages are still needed** | `Stoten_2022-Allocating_environmental_costs_….pdf` | `16e242d8fd90e102` | same |
 
 **Earlier files of the same kind, for completeness:** Butler (2010), the author's printout in Drive ("Readings
 2"); the CBO household-income tables (2026-11-24, Chapter 1 session). Add rows when their fingerprints are taken.

@@ -141,3 +141,82 @@ the relevant passages read; the scan's text layer is rough.
 
 **What it settles.** The 2001 paper supports "a declining rate." The words "lowest possible rate" do not occur
 in it; that result is the 1998 paper, as the appendix check already said. The 1998 paper is still unread.
+
+## Weitzman (1998)
+
+Martin L. Weitzman, "Why the Far-Distant Future Should Be Discounted at Its Lowest Possible Rate," *Journal of
+Environmental Economics and Management* 36 (1998): 201–208. Read.
+
+| Page | His words | Bears on |
+|---|---|---|
+| 201 | "This paper shows that there is a well-defined sense in which the 'lowest possible' interest rate should be used for discounting the far-distant future part of any investment project." | TA Definition 1.5, §14.3 |
+| 204 | The proposition: R* = r*min, the far-distant-future rate equals the lowest of the possible rates. | same |
+| 206 | "what should be averaged over states of the world is not discount rates at various times, but discount factors. In the limit, the properly-averaged certainty-equivalent discount factor corresponds to the minimum discount rate." The certainty-equivalent rate "will be declining continuously, down to the limiting value." | same |
+
+**What it settles.** This is the source of the appendix's sentence that the certainty-equivalent rate "declines
+toward the lowest plausible rate." The appendix credits it to the 2001 paper. Cite "Weitzman (1998, 2001)."
+His word is "possible," and the appendix has "plausible."
+
+## Costanza and Perrings (1990)
+
+Robert Costanza and Charles Perrings, "A Flexible Assurance Bonding System for Improved Environmental
+Management," *Ecological Economics* 2 (1990): 57–75. Abstract and the bonding passages read.
+
+| Page | Their words | Bears on |
+|---|---|---|
+| 57 | "an assurance bond equal to the current best estimate of the largest potential future environmental damages would be levied and kept in an interest-bearing escrow account. The bond (plus a portion of the interest) would be returned if and only if the firm could prove that the suspected damages had not occurred or would not occur." "the burden of proof is shifted from the public to the resource user." | Ch 5 line 172; TA §14.8, §12 |
+| 58 | The bonds "confront individual resource users with the marginal social costs of the 'worst case' results of their activities at the time those activities are under[taken]." | Ch 5 line 172 |
+| 65 | "the size of the bond would cover the conjectured 'worst case' future marginal costs of resource use." | same |
+
+**What it settles.** Chapter 5's account and the appendix's quotation are accurate, now from the article
+itself. Pages are 57–75. (The page numbers for the second and third rows are counted from the first page of
+the scan; confirm before printing.)
+
+## Gerard (2000)
+
+David Gerard, "The Law and Economics of Reclamation Bonds," *Resources Policy* 26 (2000): 189–197. Read.
+
+| Page | His words | Bears on |
+|---|---|---|
+| 189 | "The role of bonding mechanisms is to help enforce standards, not necessarily yield efficient outcomes, and these mechanisms are best viewed as a complement to — not a substitute for — liability rules." | TA §14.8 |
+| 192 | On the size of the bond, his result "is in stark contrast to Costanza and Perrings (1990), who recommend bonding for the worst-case scenario." With certain detection, "the amount of the bond posted should be equal to the expected reclamation costs." | TA §14.8; the positioning findings |
+
+**What it settles.** TA §14.8's "Gerard 2000 treats them as an enforcement device" is supported in his words.
+He also confirms the positioning finding that the reclamation-bond branch bonds expected clean-up cost, and he
+names the contrast with Costanza and Perrings himself, which the appendix could quote.
+
+## Negrusa, Negrusa and Hosek (2014)
+
+Sebastian Negrusa, Brighita Negrusa and James Hosek, "Gone to War: Have Deployments Increased Divorces?"
+*Journal of Population Economics* 27 (2014): 473–496. Abstract, data section and conclusions read.
+
+| Page | Their words | Bears on |
+|---|---|---|
+| 473 | "we use longitudinal individual-level administrative data from 1999 to 2008 and find that an additional month in deployment increases the divorce hazard of military families, with females being more affected." "we find a larger effect for couples married before 9/11, who clearly expected a lower risk of deployment than what they faced post 9/11." | TA Definition 1.10 |
+| 475 | "among families formed before 9/11, those who experienced a post 9/11 deployment of 12 months had a 28 % higher divorce probability after 3 years of marriage than families who experienced a 12-month deployment before 9/11." | same |
+| 478 | "The marriage duration variable … is a running count of months married." | corrects the university summary |
+| 479 | "The sample includes 462,444 enlisted service members." | same |
+| 495 | "we find a larger effect of deployment on the divorce hazard of female service members" and of dual-military couples. | same |
+
+**What it settles.** The 462,000 and the administrative records are right. "Rose most for couples who had
+married before September 2001" should be "was larger for": the paper also finds larger effects for women and
+for dual-military couples and does not rank them. The university summary that said length of marriage was not
+controlled is wrong; the model includes it. One sentence in the conclusion (p. 495, on post-9/11 deployment
+having "the same" effect on couples married before and after) should be read in full before the appendix's
+wording about expectations is made any stronger.
+
+## Zhang et al. (2022): first page only
+
+Tingting Zhang, Pengfei Zhang, Kun Peng, Kuishuang Feng, Pei Fang, Weiqiang Chen, Ning Zhang, Peng Wang and
+Jiashuo Li, "Allocating environmental costs of China's rare earth production to global consumption," *Science
+of the Total Environment* 831 (2022): 154934. **The file supplied is a one-page print of the viewer showing
+page 1 of 9**, so only the title, authors and highlights could be read.
+
+| Words (highlights) | Bears on |
+|---|---|
+| "Exports contributed over 65% of the environmental costs of China's RE production." "East Asia is the major destination of China's RE products." | Ch 5 line 138 |
+
+**What it settles so far.** The paper exists, with nine authors, and "Zhang and colleagues" is right. Its
+subject is who consumes the output, which fits the chapter's "in your pocket" section better than the
+sentence it is cited in (waste and the burden on the region). The body, including any total for the
+environmental cost, is unread; the full PDF is still needed.

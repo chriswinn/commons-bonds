@@ -1151,3 +1151,13 @@ rewritten here; whoever applies the appendix rulings should take these statuses.
 | Def 1.5; §14.3 | The certainty-equivalent rate "declines toward the lowest plausible rate," credited to Weitzman (2001) | **SOURCE FOUND, NOT CITED** stands, now confirmed from the 2001 paper | It has the declining rate ("the effective social discount rate decline[s] significantly over time," p. 260) and not the "lowest possible rate" result. Cite 1998 with it. |
 
 (Rows from the second batch of papers the author downloaded the same day: Hotelling 1931, Pindyck 1978, Balboa 2016, Keith et al. 2018, Weitzman 2001.)
+
+**Third batch, same day (Weitzman 1998; Costanza and Perrings 1990; Gerard 2000; Negrusa, Negrusa and Hosek 2014):**
+
+| Section | Claim | Status now | What the paper says |
+|---|---|---|---|
+| Def 1.5; §14.3 | The certainty-equivalent rate "declines toward the lowest plausible rate" (Weitzman 2001) | **SOURCE FOUND, NOT CITED**, now read | Weitzman 1998: "the 'lowest possible' interest rate should be used for discounting the far-distant future" (p. 201); the certainty-equivalent rate declines "down to the limiting value" (p. 206). Cite 1998 with 2001; his word is "possible." |
+| §14.8; §12 | Costanza and Perrings: a bond "equal to the current best estimate of the largest potential future environmental damages," in escrow, returned only on proof | **SUPPORTED**, now from the article | Verbatim, p. 57. Pages 57–75. |
+| §14.8 | "Gerard 2000 treats them as an enforcement device" | **SUPPORTED** (was NOT CHECKED) | "The role of bonding mechanisms is to help enforce standards, not necessarily yield efficient outcomes" (p. 189). He sets expected reclamation cost against Costanza and Perrings's worst case (p. 192). |
+| Def 1.10 | About 462,000 enlisted service members, administrative records; divorce risk rose with each month deployed | **SUPPORTED**, now from the paper | "The sample includes 462,444 enlisted service members" (p. 479); "an additional month in deployment increases the divorce hazard" (p. 473). |
+| Def 1.10 | "…and rose most for couples who had married before September 2001 and expected less deployment than they got" | **SAYS MORE THAN THE SOURCE** stands | "a larger effect for couples married before 9/11, who clearly expected a lower risk of deployment" (p. 473); larger effects also for women and dual-military couples (p. 495). "Was larger for," not "rose most for." The model controls for length of marriage (p. 478), contrary to the summary read earlier. |
