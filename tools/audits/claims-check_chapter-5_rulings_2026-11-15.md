@@ -22,3 +22,5 @@ defensible form is the bare "twenty-two scientific studies." Applied under the a
 - **Proposal, marketing plan:** cut Darity's name from the "blurb-or-foreword candidate" line in Part 2; add a
   private reminder to STATE.md that the author may raise a foreword or blurb if Darity has not.
 - **Print copies:** the author has the Nov 14 copies; new final-read copies are built once the rulings are applied.
+
+**Item 11, Christophers: ready for ruling 2026-11-24.** The author supplied Christophers's 2022 article; the replacement in the report now rests on his own words.

@@ -1161,3 +1161,10 @@ rewritten here; whoever applies the appendix rulings should take these statuses.
 | §14.8 | "Gerard 2000 treats them as an enforcement device" | **SUPPORTED** (was NOT CHECKED) | "The role of bonding mechanisms is to help enforce standards, not necessarily yield efficient outcomes" (p. 189). He sets expected reclamation cost against Costanza and Perrings's worst case (p. 192). |
 | Def 1.10 | About 462,000 enlisted service members, administrative records; divorce risk rose with each month deployed | **SUPPORTED**, now from the paper | "The sample includes 462,444 enlisted service members" (p. 479); "an additional month in deployment increases the divorce hazard" (p. 473). |
 | Def 1.10 | "…and rose most for couples who had married before September 2001 and expected less deployment than they got" | **SAYS MORE THAN THE SOURCE** stands | "a larger effect for couples married before 9/11, who clearly expected a lower risk of deployment" (p. 473); larger effects also for women and dual-military couples (p. 495). "Was larger for," not "rose most for." The model controls for length of marriage (p. 478), contrary to the summary read earlier. |
+
+**Fourth batch, same day (Viscusi 1993; Spence 1976):**
+
+| Section | Claim | Status now | What the paper says |
+|---|---|---|---|
+| §3.4 | "value-of-statistical-life estimation from wage differentials (Rosen 1974; Viscusi 1993)" | **SUPPORTED for Viscusi** (was NOT CHECKED); Rosen 1974 still does not carry it | Viscusi surveys "24 principal labor market studies of the implicit value of life" and the "wage-risk tradeoff"; "most of the reasonable estimates of the value of life are clustered in the $3 million–$7 million range" (December 1990 dollars). |
+| Def 1.3 | "Spence 1976 Review of Economic Studies … on Q-as-quality contrast" | **CONTRADICTED** stands, and more so | The paper in §18 (*American Economic Review* 66(2): 407–414) is about product selection and never uses the word "quality." It does not support the remark. |

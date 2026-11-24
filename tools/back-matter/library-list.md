@@ -199,6 +199,12 @@ report's own address has not been found yet (Part 5).
   wanted. Findings: Weitzman 1998 is the source of "lowest possible rate" (the appendix credits 2001 and says
   "plausible"); Negrusa supports "larger for," not "rose most for," and does control for length of marriage.
 
+- **Fourth batch, read 2026-11-24:** **Christophers (2022 article); Viscusi (1993); Spence (1976).** Christophers
+  states his thesis in his own words ("The nub of investment is profit"), which settles Chapter 5 item 11;
+  **L11, his book, is now needed only if the chapter is to quote the book itself.** Viscusi carries the
+  value-of-life half of TA §3.4. Spence's paper never mentions quality, so it cannot support the notation
+  remark in Definition 1.3.
+
 ## Part 5. Not yet fully tried: do not fetch these
 
 A session works this queue and promotes to Part 1 only what truly fails. Worked in part on 2026-11-15; what

@@ -33,6 +33,9 @@ reviewer needs in order to check a claim is the citation, the page and the words
 | `Gerard_2000_Reclamation-Bonds.pdf` | Gerard, *Resources Policy* 26 (2000): 189–197 | 2026-11-24, school library | `22-RP-Gerard-bonding.pdf` | `ef4097dc2da906f7` | same |
 | `Negrusa_2014_Gone-to-War.pdf` | Negrusa, Negrusa and Hosek, *Journal of Population Economics* 27 (2014): 473–496 | 2026-11-24, school library | `s00148-013-0485-5.pdf` | `afbfe80ed3b449e5` | same |
 | `Zhang_2022_Rare-Earth-Costs_PAGE-1-ONLY.pdf` | Zhang et al., *Science of the Total Environment* 831 (2022): 154934 | 2026-11-24; **a one-page print of the viewer; the full nine pages are still needed** | `Stoten_2022-Allocating_environmental_costs_….pdf` | `16e242d8fd90e102` | same |
+| `Christophers_2022_Fossilised-Capital.pdf` | Christophers, *New Political Economy* 27(1) (2022): 146–159. DOI 10.1080/13563467.2021.1926957 | 2026-11-24, school library | `Fossilised_Capital__Price_and_Profit_in_the_Energy_Transition.pdf` | `8dfb1ce8715fb358` | `library-uploads_extracts_2026-11-24.md` |
+| `Viscusi_1993_Value-of-Risks.pdf` | Viscusi, *Journal of Economic Literature* 31(4) (1993): 1912–1946 | 2026-11-24, school library (JSTOR) | `Viscusi-ValueRisksLife-1993.pdf` | `f5c6f447c2334472` | same |
+| `Spence_1976_Product-Differentiation.pdf` | Spence, *American Economic Review* 66(2) (1976): 407–414 | 2026-11-24, school library (JSTOR) | `Spence-ProductDifferentiationWelfare-1976.pdf` | `fdb453dad12d8e1f` | same |
 
 **Earlier files of the same kind, for completeness:** Butler (2010), the author's printout in Drive ("Readings
 2"); the CBO household-income tables (2026-11-24, Chapter 1 session). Add rows when their fingerprints are taken.

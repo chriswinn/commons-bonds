@@ -220,3 +220,46 @@ page 1 of 9**, so only the title, authors and highlights could be read.
 subject is who consumes the output, which fits the chapter's "in your pocket" section better than the
 sentence it is cited in (waste and the burden on the region). The body, including any total for the
 environmental cost, is unread; the full PDF is still needed.
+
+## Christophers (2022)
+
+Brett Christophers, "Fossilised Capital: Price and Profit in the Energy Transition," *New Political Economy* 27,
+no. 1 (2022): 146–159. DOI 10.1080/13563467.2021.1926957. Abstract and introduction read; the rest searched.
+
+| Page | His words | Bears on |
+|---|---|---|
+| 146 | "Getting renewable energies to a position of price competitiveness with fossil fuels has long been seen as a key challenge to the energy transition. Less discussed, but more significant to future investment trajectories in the capitalist global economy, is the relative profitability of fossil-fuel and renewable-energy production." | Ch 5 line 198; item 11 |
+| 147 | "The transition, and the 'fossil fuels versus renewables' question at its core, is about investment, not price." "But investment decisions are not determined by price. The nub of investment is profit." | same |
+
+**What it settles.** In his own words, his argument is that profit, not price, decides investment. Chapter 5's
+description ("His work traces how a financialized economy puts the wrong price on whatever it turns into a
+tradable asset") is not that argument; the words "financialized," "tradable asset" and "wrong price" do not
+occur in the article. This is the article that preceded *The Price Is Wrong* (2024), which is still unread;
+its thesis is the same by every review on file.
+
+## Viscusi (1993)
+
+W. Kip Viscusi, "The Value of Risks to Life and Health," *Journal of Economic Literature* 31, no. 4 (Dec. 1993):
+1912–1946. Searched and the passages below read.
+
+| Page | His words | Bears on |
+|---|---|---|
+| 1914–1915 | The theory of compensating differentials: "what is the wage premium workers receive for risk?" Hedonic wage studies "estimate the market locus of wage-risk tradeoffs." | TA §3.4 |
+| 1925 | Table 2 "summarizes 24 principal labor market studies of the implicit value of life," in December 1990 dollars. | same |
+| 1942 | "most of the reasonable estimates of the value of life are clustered in the $3 million–$7 million range." | same |
+
+**What it settles.** Viscusi carries the half of TA §3.4 that Rosen (1974) does not: estimating the value of a
+statistical life from wage differentials. The sentence should lean on him for that and on Rosen for hedonic
+pricing only. (Page numbers counted from the article's first page; confirm before printing.)
+
+## Spence (1976)
+
+Michael Spence, "Product Differentiation and Welfare," *American Economic Review* 66, no. 2, Papers and
+Proceedings (May 1976): 407–414. Read.
+
+**What it settles.** TA Definition 1.3 cites "Spence 1976 *Review of Economic Studies*" for a contrast with
+"Q-as-quality." The paper the appendix's own §18 lists is this one, in the *American Economic Review*, and it
+is about which products a market selects ("product differentiation, product selection, and monopolistic
+competition," p. 407). The word "quality" does not occur in it, and its quantity symbol is x. It does not
+support the notation remark. Either another Spence paper was meant, which nobody has identified, or the
+reference should come out of Definition 1.3.
