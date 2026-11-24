@@ -110,7 +110,7 @@ Applied in one pass after he has ruled on every item. Each accepted change gets 
 | 22 | "I mean there was nothing he could do." | "I mean there was nothing he could do without putting his family at risk." |
 | 26 | "There was no invoice he could send and no court that recognized the debt. The whole thing was legal and ordinary, and it sat in my chest like a stone." | "There was no invoice he could send. As far as any of us knew, the whole thing was legal. It was certainly ordinary, and it sat in my chest like a stone." |
 
-Still open on item 1: whether the identifying details stay (the rooftop habit, the greetings, Paris and New Delhi), and a consent-tracker row.
+**The colleague's identifying details. Ruled 2026-11-24: they stay.** His reason, in his words: "Taking them out feels like it would take away what makes the character in the book feel real. I have already taken away the specifics of the certifications he had as only a few hundred people in the world had 1 of his certifications at the time, so that introduced too much of a chance of identifying him based on that info." A row for him is now in the consent tracker (§A).
 
 **Items 3, 7 and part of 8: the four facts where his May corrections had been undone. Ruled 2026-11-24: all four accepted.**
 
