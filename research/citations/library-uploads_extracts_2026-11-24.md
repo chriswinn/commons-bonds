@@ -428,3 +428,9 @@ recovery as a matter of "widespread debate," with leading scholars crediting the
 boom more than Swedish policy. (3) Nothing in these pages on a bank rescue, mortgages, households, or the 1938
 Saltsjöbaden Agreement (that last still rests on the project's note). (4) The project's bibliography note
 gives "public-works employment programs (1934-1937)"; those dates are not in these pages.
+
+**Second batch, same day: the remaining "public works" hits in Kindleberger (pp. 220–221, 236–237, 272–273,
+276–277, 284–287).** The United States in 1933 and 1938, Germany after 1933, the 1937 recession, and the
+International Labor Office's public-works conference of June 1938. **None concerns Sweden.** With the first
+batch this is every "public works" hit in the scan, so pp. 179–181 are the whole of what the book says about
+Swedish public works.
