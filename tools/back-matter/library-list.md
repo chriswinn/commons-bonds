@@ -56,7 +56,6 @@ Reports the "Settles" column refers to: **TA** = `tools/audits/claims-check_tech
 
 | # | Source | What to copy | Settles | Note |
 |---|---|---|---|---|
-| L13 | Polanyi, *The Great Transformation* | Chapter 6, the pages on labor, land and money as fictitious commodities | Ch 5 line 188 | Skip if you cut "Money is a token of trust" Re-tested 2026-11-15: no open copy; **borrow online** at archive.org (item `greattransformat0000pola`, 1944). |
 | L14 | Sandel, *What Money Can't Buy* (2012) | Introduction; the passage on fines and fees | Ch 5 line 182 | Low risk Re-tested 2026-11-15: the book is print-disabled only at archive.org. His 1998 Tanner Lectures of the same title are listed on the lectures' official site (tannerlectures.org); a session could not find the PDF link there and did not use the course-page copy. Sandel's own adaptation of the book, "What Isn't for Sale?" (*The Atlantic*, April 2012), refuses sessions both ways; it opens in a home browser and may be enough. |
 | L16 | Gawande, *Being Mortal* (2014) | Passages on how doctors are paid, palliative care, training | Ch 5 line 18 | Low risk; the project's note may suffice Re-tested 2026-11-15: print-disabled only at archive.org; no excerpt tried. |
 | L17 | Mian and Sufi, *House of Debt* (2014) | Chapter 2, the pages on who lost the most | Ch 5 lines 86–88 | Low risk Re-tested 2026-11-15: print-disabled only at archive.org. Mian, Rao and Sufi (Part 3) may cover it. |
@@ -221,6 +220,11 @@ report's own address has not been found yet (Part 5).
   (a 1976 SAF–LO protocol with the 1975 printed text). It gives the date, 20 December 1938, the two parties and
   the subjects. It does not use the name "Saltsjöbaden" and has nothing on the welfare state. Extracts in
   `research/citations/library-uploads_extracts_2026-11-24.md`.
+
+- **L13, Polanyi, *The Great Transformation*, chapter 6 (done 2026-11-24).** The author photographed the
+  Beacon paperback (1957; ninth printing 1968) from an archive.org loan: pp. 68–69, 72–73, 76–77 and the other
+  "fictitious" hits. The fictitious-commodities passage is on p. 72. His phrase for money is "a token of
+  purchasing power," not "trust." Extracts in `research/citations/library-uploads_extracts_2026-11-24.md`.
 
 ## Part 5. Not yet fully tried: do not fetch these
 

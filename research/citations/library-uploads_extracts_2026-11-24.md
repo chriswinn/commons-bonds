@@ -456,3 +456,23 @@ subjects. It does **not** use the name "Saltsjöbaden" (that is the agreement's 
 was signed; a secondary source is needed to tie the name to this document in a citation), and it says nothing
 of the welfare state. "Set the terms between labor and capital" is supported. "That the Swedish welfare state
 was then built on" is the chapter's own reading.
+
+## Polanyi, *The Great Transformation*, chapter 6, from the author's photographs
+
+Karl Polanyi, *The Great Transformation* (Boston: Beacon Press; "Copyright 1944 by Karl Polanyi. First Beacon
+Paperback edition published in 1957 by arrangement with Rinehart & Company, Inc. … Ninth printing, June
+1968"), foreword by Robert M. MacIver. Archive.org item `greattransformat0000karl_q5c4`. Nine photographs:
+cover, title page, copyright page, and every "fictitious" hit: pp. 68–69, 72–73, 76–77, 130–131, 162–163, 296.
+Read by eye 2026-11-24. Page numbers are those of the Beacon paperback, which differ from the 2001 edition.
+
+| Page | His words | Bears on |
+|---|---|---|
+| 68 | Chapter 6 title: "The Self-Regulating Market and the Fictitious Commodities: Labor, Land, and Money" | Ch 5 line 188 |
+| 72 | "The crucial point is this: labor, land, and money are essential elements of industry; they also must be organized in markets … But labor, land, and money are obviously *not* commodities; the postulate that anything that is bought and sold must have been produced for sale is emphatically untrue in regard to them." | the idea |
+| 72 | "Labor is only another name for a human activity which goes with life itself, which in its turn is not produced for sale but for entirely different reasons, nor can that activity be detached from the rest of life, be stored or mobilized; land is only another name for nature, which is not produced by man; actual money, finally, is merely a token of purchasing power which, as a rule, is not produced at all, but comes into being through the mechanism of banking or state finance. None of them is produced for sale. The commodity description of labor, land, and money is entirely fictitious." | "Labor is human life. Land is nature. Money is a token of…" |
+| 73 | "To allow the market mechanism to be sole director of the fate of human beings and their natural environment, indeed, even of the amount and use of purchasing power, would result in the demolition of society. For the alleged commodity 'labor power' cannot be shoved about, used indiscriminately, or even left unused, without affecting also the human individual who happens to be the bearer of this peculiar commodity." | "does violence to them" |
+| 76 | "Social history in the nineteenth century was thus the result of a double movement: the extension of the market organization in respect to genuine commodities was accompanied by its restriction in respect to fictitious ones." | background |
+
+**What it settles.** The paragraph at line 188 is supported except for one word. The chapter has "Money is a
+token of trust among people" inside its account of Polanyi; **Polanyi's phrase is "a token of purchasing
+power."** "Labor is human life" and "Land is nature" are fair short forms of his sentences.
