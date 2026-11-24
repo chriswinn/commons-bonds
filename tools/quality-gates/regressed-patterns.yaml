@@ -957,6 +957,14 @@ patterns:
     description: "Ch 1 claims check 2026-11-24: legality unverified (visa type unknown; H-1B wage rule). Ratified: 'As far as any of us knew, the whole thing was legal. It was certainly ordinary'"
     allowlist: []
 
+  - id: ch1-colleague-as-far-as-any-of-us-knew-legal
+    pattern: 'the whole thing was legal'
+    type: substring
+    severity: HIGH
+    category: consistency-canon
+    description: "Ch 1, author's second ruling 2026-11-24: the hedged 'As far as any of us knew, the whole thing was legal' took the bite out. Ratified: 'The law may even have been on his side. It would not have mattered. A man on a work visa does not sue his employer for a raise. The whole thing was treated as business as usual'"
+    allowlist: []
+
   - id: ch1-colleague-no-court-recognized
     pattern: 'no court that recognized the debt'
     type: substring
