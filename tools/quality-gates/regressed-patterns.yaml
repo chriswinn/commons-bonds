@@ -1045,6 +1045,22 @@ patterns:
     description: "Ch 1 claims check 2026-11-24: says more than the TA's own contribution list. Ratified: 'The ledger is new.' with the names / test / unpriced-cost sentence"
     allowlist: []
 
+  - id: ch1-does-not-sue-his-employer
+    pattern: 'does not sue his employer'
+    type: substring
+    severity: HIGH
+    category: consistency-canon
+    description: "Ch 1, author's ruling 2026-11-24 (defensibility review): a universal that one counterexample refutes, and the remedy is a wage complaint, not a suit. Ratified: 'A man on a work visa is in no position to fight his employer over pay.'"
+    allowlist: []
+
+  - id: ch1-the-ledger-is-new
+    pattern: 'The ledger is new'
+    type: substring
+    severity: HIGH
+    category: consistency-canon
+    description: "Ch 1, author's ruling 2026-11-24 (defensibility review): 'The ledger' can be read as claiming that accounting for nature is new (the UN's environmental-economic accounts exist). Ratified: 'This ledger is new. The move is old.'"
+    allowlist: []
+
   - id: regressed-meta-alternative-tested
     pattern: 'alternative-tested'
     type: substring
