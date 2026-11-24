@@ -372,3 +372,20 @@ to support the banks because it was off gold; and the cheaper krona helped expor
 banking crisis came after the exit from gold, where the chapter's paragraph puts the pressure first. Whether
 the rest of the book mentions mortgages or public works in Sweden is not known from these pages; a search of
 the scan for "Sweden," "Swedish" and "mortgage" would answer it.
+
+**Second batch, same day: the "mortgage" hits in the scan (pp. 55–56, 59–60, 287–288, 359–360).** The word
+appears on p. 55 (American farmers "with fixed mortgage obligations" criticizing the gold standard), p. 59
+(South American landowners), p. 60 (British purchases of Argentine "mortgage securities"), p. 288 (twice) and
+p. 359 (Belgium, 1933: wage cuts "threatened to render fixed obligations like mortgage payments impossible to
+meet"). **None concerns Sweden.** Whether these are all the hits is for the author to confirm.
+
+| Page | His words | Bears on |
+|---|---|---|
+| 288 | "The devaluation decision reflected the political tug-of-war between debtors and creditors as well. Farmers, with the real value of their mortgage obligations greatly enlarged by the decline of price levels, were in the vanguard of those pressing for devaluation. But American farmers were much more heavily indebted than their French or Belgian counterparts, whose mortgage obligations had been lightened by inflation in the 1920s." | Ch 5 line 106: the general mechanism (falling prices make debts heavier; devaluation was sought as relief), not a statement about Sweden |
+| 287 | "[Devaluation] was favored by producers of internationally-traded goods and by farmers and others heavily incumbered by debts, and opposed by creditors and those who produced goods sold exclusively on the home market." | the same |
+| 288 | "Abandoning the gold standard statutes was necessary but not sufficient to spark the resumption of rapid" [growth; sentence continues on p. 289] | a limit on "left gold, so recovered" |
+
+**What it adds.** Eichengreen gives the mechanism the chapter relies on, that deflation enlarges the real
+weight of mortgages and leaving gold stops it, as a general point about debtors. He does not say Sweden
+changed anyone's mortgage, and on p. 307 Sweden's aim was to keep prices stable, which stops debts getting
+heavier but does not make them lighter.
