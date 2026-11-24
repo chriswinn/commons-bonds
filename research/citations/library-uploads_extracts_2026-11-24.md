@@ -377,7 +377,7 @@ the scan for "Sweden," "Swedish" and "mortgage" would answer it.
 appears on p. 55 (American farmers "with fixed mortgage obligations" criticizing the gold standard), p. 59
 (South American landowners), p. 60 (British purchases of Argentine "mortgage securities"), p. 288 (twice) and
 p. 359 (Belgium, 1933: wage cuts "threatened to render fixed obligations like mortgage payments impossible to
-meet"). **None concerns Sweden.** Whether these are all the hits is for the author to confirm.
+meet"). **None concerns Sweden.** The author confirmed the same day that these are all the hits, so *Golden Fetters* has nothing on Swedish mortgages.
 
 | Page | His words | Bears on |
 |---|---|---|
