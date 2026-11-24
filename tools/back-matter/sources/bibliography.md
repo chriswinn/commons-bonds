@@ -1325,8 +1325,17 @@ words are in `research/citations/library-retest_2026-11-15.md`. None is in the w
 - **Zhang, Tingting, Pengfei Zhang, Kun Peng, Kuishuang Feng, Pei Fang, and Weiqiang Chen.** "Allocating environmental costs of China's rare earth production to global consumption." *Science of the Total Environment* 831 (2022): 154934. **Why here:** Ch 5 line 138 ("Zhang and colleagues … 2022"). **Standing:** details via search; not read. Its subject is consumption-side attribution, not waste.
 - **Standing updated on entries already listed:** Loewenstein, O'Donoghue and Rabin (2003), Naik et al. (2017; full title "Mortality from asbestos-associated disease in Libby, Montana 1979–2011"), Wilberg et al. (2011), IPCC AR6 Working Group III chapter 12, IEA *Net Zero by 2050* (2021) and Realmonte et al. (2019) were each read at least in part; Panjwani and Xiong (2023) at the published abstract; the Financial Crisis Inquiry Commission's conclusions (§6) in the official edition.
 
+### Candidates added 2026-11-24 (papers the author downloaded; read by the Chapter 5 session)
+
+Batch heading only. Extracts: `research/citations/library-uploads_extracts_2026-11-24.md`.
+
+- **Kaldor, Nicholas.** "Welfare Propositions of Economics and Interpersonal Comparisons of Utility." *Economic Journal* 49, no. 195 (1939): 549–552. **Why here:** TA §15.1.7 cites "Kaldor 1939" with no title and no entry. **Standing:** read in full.
+- **Hicks, J. R.** "The Foundations of Welfare Economics." *Economic Journal* 49, no. 196 (1939): 696–712. **Why here:** the "Hicks 1939" of TA §15.1.7 (the compensation principle); distinct from *Value and Capital*. **Standing:** read.
+- **Fraser, Nancy.** "Expropriation and Exploitation in Racialized Capitalism: A Reply to Michael Dawson." *Critical Historical Studies* 3, no. 1 (2016): 163–178. **Why here:** the text that defines the distinction Ch 5 line 192 credits to her. **Standing:** read in full.
+
 ### Changes log for this section
 
+- **2026-11-24. Added three entries** above (Kaldor 1939; Hicks 1939, the article; Fraser 2016), each read from a PDF the author downloaded. Hartwick (1977), Mussa and Rosen (1978) and Rosen (1974), read the same day, already have entries (§18.6, §25).
 - **2026-11-15. Standing updates from the second library-list re-test** (no new entries; none moved): Pistor, *The Code of Capital*, chapter 1, read from the open sample chapter; Naik et al. 2017 read in full, with a caution on what its 694 counts; Epstein et al. 2011 and Muller, Mendelsohn and Nordhaus 2011 read at the passages used; GAO-18-351 summary read. Extracts: `research/citations/library-retest-2_extracts_2026-11-15.md`. One slip noted there in the §10 Blackley entry.
 - **2026-11-15. Added the library-list re-test batch** above (six entries and a line updating the standing of eight already listed). Nothing was moved into the working bibliography.
 - **2026-11-15. Standing updated: Daly 1990** is now read in full. Not moved. A library list for what sessions cannot reach was started at `tools/back-matter/library-list.md`.

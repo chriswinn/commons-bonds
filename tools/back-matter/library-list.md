@@ -181,6 +181,13 @@ report's own address has not been found yet (Part 5).
   `research/citations/ch5-claims-check_source-extracts_2026-11-15.md`). **L6, her book, is now needed only if
   the chapter keeps a sentence on care work and nature as things she calls expropriated.**
 
+- **Downloaded by the author at his school library and read, 2026-11-24** (extracts in
+  `research/citations/library-uploads_extracts_2026-11-24.md`): **Hartwick (1977); Kaldor (1939); Hicks (1939,
+  "The Foundations of Welfare Economics"); Mussa and Rosen (1978); Rosen (1974).** All five leave Part 5.
+  Findings for the appendix: Hartwick's worked case treats the resource as "essential," so §14.2's "fully
+  substituted" says more than he does; Mussa and Rosen write quality as lower-case q, not Q (Definition 1.3);
+  Rosen (1974) has nothing on wages or the value of life (§3.4); "Hicks 1939" stands for two works.
+
 ## Part 5. Not yet fully tried: do not fetch these
 
 A session works this queue and promotes to Part 1 only what truly fails. Worked in part on 2026-11-15; what

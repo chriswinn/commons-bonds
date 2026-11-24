@@ -1127,3 +1127,17 @@ Added 2026-11-15 by the second session. Same columns and rules as above. "Intern
 | §17.5 | Every CS > 0 finding in the framework's prior worked cases … Those computations correspond to the n = 2 special case | **CONTRADICTED** | The integral is computed for one case (§11 opening: "The integral computes for one case, McDowell coal"). | TA §11 (internal) |
 | §17.6 | atmospheric CO2 half-life ~100 years for primary fraction; ~1000 years for residual fraction | **SOURCE FOUND, NOT CITED** | (repeat of §7.3) Archer et al. 2009, held and uncited, describes it differently: 20–35 percent remains after 2 to 20 centuries, with a residual lasting far longer. | `tools/back-matter/sources/bibliography.md` §16.5 |
 | §17.8 | The two-term formula applies to fossil-fuel cases (McDowell coal, Deepwater Horizon, Norway oil) and recovers the §11 figures | **CONTRADICTED** | §11.2: "No case-specific integral is computable on documented inputs." §11.5: "The integral is not computed for Norway." | TA §11.2, §11.5 (internal) |
+
+## Addendum, 2026-11-24 (Chapter 5 session): five papers the author downloaded, read against the rows above
+
+Extracts: `research/citations/library-uploads_extracts_2026-11-24.md`. The rows in the tables above are not
+rewritten here; whoever applies the appendix rulings should take these statuses.
+
+| Section | Claim | Status now | What the paper says |
+|---|---|---|---|
+| §14.2 | Hartwick's Rule: invest all rents in reproducible capital and consumption need not decline | **SUPPORTED**, now from the paper | "the investment of current exhaustible resource returns in reproducible capital implies per capita consumption constant" (Hartwick 1977, p. 974). |
+| §14.2 | "Hartwick assumes that the physical resource can be fully substituted by reproducible capital … the strong substitutability assumption" | **SAYS MORE THAN THE SOURCE** (was NOT CHECKED) | His worked case is Cobb-Douglas, where the resource "is essential for producing a positive output … the economy cannot exhaust any natural resource and continue to have positive consumption and output" (p. 972). Capital stands in for a dwindling flow, not for the resource itself. Option: "Hartwick's result assumes a technology in which capital can make up for an ever-smaller flow of the resource." |
+| Def 1.3 | "Mussa & Rosen 1978 uses Q for quality" | **CONTRADICTED** on the letter (was NOT CHECKED) | They use lower-case q: "one for each quality, P(q); the number of each q transacted, N(q)" (p. 302). |
+| §3.4 | "hedonic pricing and value-of-statistical-life estimation from wage differentials (Rosen 1974; Viscusi 1993)" | **SAYS MORE THAN THE SOURCE** for Rosen (was NOT CHECKED) | Rosen 1974 defines hedonic prices for differentiated products (p. 34) and does not treat wages, risk or the value of life. Viscusi 1993 is still unread. |
+| §15.1.7 | "Pareto-Hicks-Kaldor compensation principle (Hicks 1939; Kaldor 1939)" | **SUPPORTED** (was NOT CHECKED) | Kaldor, *Economic Journal* 49(195): 549–552, at 550; Hicks, "The Foundations of Welfare Economics," *Economic Journal* 49(196): 696–712. Both need entries. |
+| §15.1.1 | "Hicks 1939 Value and Capital" | Still **NOT CHECKED**; confirmed to be a different work from the Hicks 1939 of §15.1.7 | One citation covers a book and an article. |
