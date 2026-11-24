@@ -1061,6 +1061,14 @@ patterns:
     description: "Ch 1, author's ruling 2026-11-24 (defensibility review): 'The ledger' can be read as claiming that accounting for nature is new (the UN's environmental-economic accounts exist). Ratified: 'This ledger is new. The move is old.'"
     allowlist: []
 
+  - id: ch1-as-it-nearly-always-does
+    pattern: 'as it nearly always does'
+    type: substring
+    severity: HIGH
+    category: consistency-canon
+    description: "Ch 1, author's ruling 2026-11-24 (defensibility review): 'nearly always' is an unsourced frequency claim. Ratified: 'as it did for government inventors of his time, in the patient, ordinary machinery of salaried invention' (Executive Order 10096, 1950)."
+    allowlist: []
+
   - id: regressed-meta-alternative-tested
     pattern: 'alternative-tested'
     type: substring

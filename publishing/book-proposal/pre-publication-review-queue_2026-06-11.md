@@ -42,3 +42,7 @@
 ## §5. Standing disclosure
 
 The framework was built by the author in extensive, documented collaboration with an AI system (Claude, Anthropic), which ran the internal rigor processes described in §1.5. The collaboration is disclosed in the proposal overview and the book's Author's Note; the complete audit trail is available to any reviewer who wants it. The internal rigor is offered as a floor under external review, not a substitute for it.
+
+## Added 2026-11-24: a privacy question for the publisher's legal read (Chapter 1)
+
+**The colleague who opens Chapter 1.** He is a living person and is not named. The chapter gives his pay relative to his coworkers and the fact that he was on a work visa, with details a former coworker could recognize (a rooftop habit, greetings in coworkers' languages, three cities). The author removed the most identifying detail (a rare professional certification) and has decided the rest stays, because it is what makes the man real on the page. No consent has been sought. **For the press to advise on:** whether one or two details that carry no weight should be changed, with a line in the Author's Note saying some identifying details have been altered. Record: `tools/audits/claims-check_chapter-1_2026-11-15.md` §1a; consent tracker §A.
