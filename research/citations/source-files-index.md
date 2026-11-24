@@ -4,9 +4,11 @@
 below). This index records, for each source PDF the author has obtained, what it is, how he got it, a
 fingerprint so a copy can be matched to this record later, and where the extracts taken from it are.
 
-**Where the files live.** In the author's own storage (his download folder now; a private "Sources" folder in
-Drive or on his machine is the suggested home, named as in the "Suggested file name" column). Sessions never
-write to Drive; he moves the files himself. A session that needs one asks him to attach it.
+**Where the files live.** In a private folder in the author's Google Drive, to be named here once he connects
+Drive (his decision, 2026-11-24). By his exception to the no-Drive-writes rule, sessions may upload and
+download PDFs in that one folder and nowhere else in Drive
+(`tools/memory/feedback_drive_sources_folder_exception.md`). Until it is connected the files are in his own
+downloads; the copies attached to a session do not outlast it.
 
 **Why not in the repository.** These are publishers' copies obtained through a library subscription. The
 licences (JSTOR, EBSCO, Project MUSE, Elsevier) allow personal research use and do not allow passing the file

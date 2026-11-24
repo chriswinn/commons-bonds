@@ -53,3 +53,4 @@ relevant via this index.
 
 - KEEP-LOCAL: `project_authors_grandfather_nasa_inventor.md` (SENSITIVE family material; lives in local memory only).
 - ARCHIVED: `project_book1_state_2026-05-10.md` (superseded by `AGENTS.md` §"Current canonical state"; see [`ARCHIVE.md`](ARCHIVE.md) for retirement entry).
+- [`feedback_drive_sources_folder_exception.md`](feedback_drive_sources_folder_exception.md) — the one exception to "never write to Google Drive": PDFs to and from the author's private Sources folder (2026-11-24).
