@@ -1168,3 +1168,13 @@ rewritten here; whoever applies the appendix rulings should take these statuses.
 |---|---|---|---|
 | §3.4 | "value-of-statistical-life estimation from wage differentials (Rosen 1974; Viscusi 1993)" | **SUPPORTED for Viscusi** (was NOT CHECKED); Rosen 1974 still does not carry it | Viscusi surveys "24 principal labor market studies of the implicit value of life" and the "wage-risk tradeoff"; "most of the reasonable estimates of the value of life are clustered in the $3 million–$7 million range" (December 1990 dollars). |
 | Def 1.3 | "Spence 1976 Review of Economic Studies … on Q-as-quality contrast" | **CONTRADICTED** stands, and more so | The paper in §18 (*American Economic Review* 66(2): 407–414) is about product selection and never uses the word "quality." It does not support the remark. |
+
+**Rawls (1971), section 44, read from an anthology reprint the author supplied, same day:**
+
+| Section | Claim | Status now | What the text says |
+|---|---|---|---|
+| §14.4 | "we should choose only principles we would wish all preceding and succeeding generations to have followed" [cited "Rawls (1971)"] | **CONTRADICTED** stands, now from the 1971 text | The wording is not in section 44. There, "The parties are regarded as representing family lines, say, with ties of sentiment between successive generations." |
+| §14.4 | Rawls rejected pure time preference (Rawls 1971, §45) | **SUPPORTED**, now in his words; the section is 44 | "from a moral point of view there are no grounds for discounting future well-being on the basis of pure time preference." Section 45 was not seen and is not needed for this sentence. |
+| §14.4 | His Just Savings Principle "was acknowledged by Rawls himself to be underdeveloped" | **SAYS MORE THAN THE SOURCE** (was NO SOURCE) | "I believe that it is not possible, at present anyway, to define precise limits on what the rate of savings should be … seems to admit of no definite answer." Option: "Rawls himself said precise limits on the rate of saving could not yet be defined." |
+
+Page numbers in the extracts are the anthology's; the 1971 edition's pages must be pinned before printing.

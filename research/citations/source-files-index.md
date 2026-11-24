@@ -36,6 +36,7 @@ reviewer needs in order to check a claim is the citation, the page and the words
 | `Christophers_2022_Fossilised-Capital.pdf` | Christophers, *New Political Economy* 27(1) (2022): 146–159. DOI 10.1080/13563467.2021.1926957 | 2026-11-24, school library | `Fossilised_Capital__Price_and_Profit_in_the_Energy_Transition.pdf` | `8dfb1ce8715fb358` | `library-uploads_extracts_2026-11-24.md` |
 | `Viscusi_1993_Value-of-Risks.pdf` | Viscusi, *Journal of Economic Literature* 31(4) (1993): 1912–1946 | 2026-11-24, school library (JSTOR) | `Viscusi-ValueRisksLife-1993.pdf` | `f5c6f447c2334472` | same |
 | `Spence_1976_Product-Differentiation.pdf` | Spence, *American Economic Review* 66(2) (1976): 407–414 | 2026-11-24, school library (JSTOR) | `Spence-ProductDifferentiationWelfare-1976.pdf` | `fdb453dad12d8e1f` | same |
+| `Rawls_1971_s44_Justice-Between-Generations_anthology-reprint.pdf` | Rawls, *A Theory of Justice* (1971), section 44, as reprinted in an anthology (pp. 104–111 of that volume; its title and editor are not on the pages) | 2026-11-24, school library | `The_Problem_of_Justice_Between_Generations_….pdf` | `5873919bff85975e` | `library-uploads_extracts_2026-11-24.md` |
 
 **Earlier files of the same kind, for completeness:** Butler (2010), the author's printout in Drive ("Readings
 2"); the CBO household-income tables (2026-11-24, Chapter 1 session). Add rows when their fingerprints are taken.

@@ -263,3 +263,32 @@ is about which products a market selects ("product differentiation, product sele
 competition," p. 407). The word "quality" does not occur in it, and its quantity symbol is x. It does not
 support the notation remark. Either another Spence paper was meant, which nobody has identified, or the
 reference should come out of Definition 1.3.
+
+## Rawls (1971), section 44, as reprinted
+
+John Rawls, "The Problem of Justice Between Generations," section 44 of *A Theory of Justice* (Harvard
+University Press, 1971), read in an anthology reprint (chapter 13 of a volume with the running head "Law and
+Property," pp. 104–111; "Reprinted by permission of the publishers from *A Theory of Justice* … 1971"). **The
+page numbers below are the anthology's.** The 1971 book's own pages (the section is at about pp. 284–293) still
+have to be pinned from the book before anything is printed. The anthology's title and editor are not on the
+pages supplied.
+
+| Anthology page | His words | Bears on |
+|---|---|---|
+| 104 | The problem "subjects any ethical theory to severe if not impossible tests." | TA §14.4 |
+| 105 | "Now I believe that it is not possible, at present anyway, to define precise limits on what the rate of savings should be. How the burden of capital accumulation and of raising the standard of civilization and culture is to be shared between generations seems to admit of no definite answer." | TA §14.4 ("acknowledged by Rawls himself to be underdeveloped") |
+| 106 | "Since from a moral point of view there are no grounds for discounting future well-being on the basis of pure time preference…" He adds: "The question of time preference and matters of priority I shall leave aside until the next sections." | TA §14.4 (pure time preference) |
+| 107 | "The just savings principle can be regarded as an understanding between generations to carry their fair share of the burden of realizing and preserving a just society." | TA §14.4 |
+| 110 | "The parties are regarded as representing family lines, say, with ties of sentiment between successive generations." | TA §14.4 (the 1971 motivational assumption) |
+
+**What it settles.**
+- **Pure time preference.** Supported in his own words, and the sentence is in section 44. The appendix cites
+  "§45"; section 44 can be cited for it, and section 45 ("Time Preference") was not in the file.
+- **"We should choose only principles we would wish all preceding and succeeding generations to have
+  followed."** Not in this text. The words "to have followed" do not occur in section 44. In 1971 the parties
+  care about their descendants ("family lines"); the "would want preceding generations to have followed"
+  wording is his later account. This confirms the appendix check's finding that the sentence is cited to the
+  wrong book.
+- **"Acknowledged by Rawls himself to be underdeveloped."** The check found no source. This is one: he says it
+  is "not possible, at present anyway, to define precise limits." That supports "Rawls himself said precise
+  limits could not yet be defined," which is narrower than "underdeveloped."
