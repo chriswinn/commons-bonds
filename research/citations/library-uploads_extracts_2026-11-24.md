@@ -742,3 +742,21 @@ household; about $14 trillion in all; $350,000 per person), and its ground is th
 federal policy since. That supports the wealth-gap half of Chapter 5 line 246 from the book itself and fits
 the author's ruling on item 2. It also shows Darity and Mullen using "restitution" and "monetary redress as
 the culpable party" in their own voice, which supports the chapter's naming of the Restitution Bond.
+
+**Third batch, same night: the contents pages again and "wealth gap" results 11–14 (the rest repeat results
+1–10).** The contents page at location 93 is followed directly by the heading "Preface to the Second Edition,"
+and the hit at location 303 (21%) is still in the preface's voice ("While we mention the horrific Tuskegee
+experiment in chapter 11 of this book, we neglected to indicate…"). So the preface runs from about location 95
+to past 303, which confirms that results 1–14 are all in the **Preface to the Second Edition**. By position,
+the definition at location 438 (30%) is then most likely in the Introduction; still to be confirmed.
+
+| Location | Their words | Bears on |
+|---|---|---|
+| 272 | Their four requirements for a federal reparations law: "2. It must specify, at minimum, that a key target of the reparations project is elimination of the black-white wealth gap, achieved by raising the average level of black wealth to the average level of white wealth. 3. It must indicate that the federal government will finance the project. 4. It must prioritize direct monetary payments as the core form of restitution." "H.R. 40 does none of this." | Ch 5 lines 246, 252: the clearest single statement of their measure |
+| 303 | "[We were] members of a research team led by Eugene Richardson at Harvard and James Jones at Stanford that produced a study indicating that had black Americans received reparations payments that eliminated the racial wealth gap *prior to the pandemic*, transmission rates of the disease would have been 31 to 68 percent lower." Also: reparations "paid in 1974 to participants in the [Tuskegee] study." | a link from the wealth gap to health, in the book itself |
+
+**What it adds.** Location 272 is the sentence to cite for what Darity and Mullen price: "elimination of the
+black-white wealth gap, achieved by raising the average level of black wealth to the average level of white
+wealth." Location 303 shows the book does connect the wealth gap to a health outcome (Covid transmission),
+though not to life expectancy; with the 2022 study, that supports saying the wealth gap carries health
+consequences, and still does not support saying they price life expectancy.
