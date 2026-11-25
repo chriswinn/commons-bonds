@@ -852,3 +852,24 @@ standard—the racial gap in per capita wealth." And the book makes the chapter'
 system could mobilize, and how fast) with a figure of its own: "the overnight transfer of $1 trillion … to
 investment banks during the Great Recession." That is their statement, with a note (not seen) behind it; it
 is a lead for item 7, not yet a primary source for the figure.
+
+**Same night: three full pages of the Introduction (Kindle pp. 33–35 of 685; print about p. 3 by the index).**
+
+| Kindle page | Their words | Bears on |
+|---|---|---|
+| 33 | "…acknowledgment requires those who benefited from the exercise of the atrocities to recognize the advantages they gained and commit themselves to the cause of redress. Redress potentially can take two forms, not necessarily mutually exclusive: *restitution* or *atonement*. Restitution is the restoration of survivors to their condition before the injustice occurred or to a condition they might have attained had the injustice not taken place. Of course, it is impossible to restore those who were enslaved to a condition preceding their enslavement, not only because those who were enslaved are now deceased but also because many thousands were born into slavery. But it is possible to move their descendants toward a more equitable position commensurate with the status they would have attained in the absence of the injustice(s)." | **Ch 5 line 234; the Restitution Bond's name; TA §5.1.1** |
+| 33–34 | "Atonement, as an alternative form of redress, occurs when perpetrators or beneficiaries meet conditions of forgiveness that are acceptable to the victims. Achieving these elements of a reparations program requires good-faith negotiations between those who were wronged and the wrongdoers. [note 3] There is no existing mechanism for establishing when African Americans collectively will have reached an agreement that sufficient steps have been taken to justify forgiveness. Consequently, atonement is difficult to accomplish. That is why, in our proposal, we treat restitution as the appropriate form of redress. We have clear metrics for determining when restitution has been achieved that we do not have for establishing the same for atonement." | the same |
+| 34–35 | "Specifically, restitution for African Americans would eliminate racial disparities in wealth, income, education, health, sentencing and incarceration, political participation, and subsequent opportunities to engage in American political and social life. It will require not only an endeavor to compensate for past repression and exploitation but also an endeavor to offset stubborn existing obstacles to full black participation in American political and social life." | lines 246, 252: health is among the disparities restitution would eliminate |
+| 35 | "Reparations demonstrably would be effective if an improved position for blacks is associated with sharp and enduring reductions in racial disparities, particularly economic disparities like racial wealth inequality, and corresponding sharp and enduring improvements in black well-being. Closure involves mutual conciliation between African Americans and the beneficiaries of slavery, legal segregation, and ongoing discrimination toward blacks. … Once the reparations program is executed and racial inequality eliminated, African Americans would make no further claims for race-specific policies on their behalf from the American government—on the assumption that no new race-specific injustices are inflicted upon them." | closure; the measure of success |
+
+**The author's recollection, and where the life-span work is (2026-11-25).** He recalls Darity saying on the
+May 2026 call that he had worked on measuring the difference in life span as a way to price the legacy. The
+project's own synthesis of that call says the same (`research/outreach/subjects/darity/post-interview-synthesis_2026-05-13.md`,
+SI-2: he "mentioned recent work pricing the longevity gap (6–7 years …)" and asks a later session to "find the
+recent paper / talk"). So the idea is his; it is simply **not in this book**. The published work that matches
+is the 2022 study he co-authored, already on file: Himmelstein, Lawrence, Jahn, Ceasar, Morse, Bassett,
+Wispelwey, Darity and Venkataramani, *JAMA Network Open* (2022). Its design runs from wealth to longevity:
+reparations payments closing the mean wealth gap ($828,055 per household) would cut the Black-white longevity
+gap by 65 to 102.5 percent. That is the wealth gap's effect on life span, not a dollar price put on years of
+life. Whether he has other work that prices the gap in years directly is not known; a search on 2026-11-25
+found none, which is not proof there is none. Anything from the call itself needs his review before use.
