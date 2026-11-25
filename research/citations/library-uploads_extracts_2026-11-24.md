@@ -678,3 +678,45 @@ Sufi compare **home owners** by net worth, not all households; (2) the poorest l
 what they had, while in dollars the rich lost more, so "lost a multiple of what wealthier families lost" is
 true only in percentage terms; (3) the "three times" spending figure is not in these pages (it is from Mian,
 Rao and Sufi 2013, as the report already says).
+
+## Darity and Mullen, *From Here to Equality*, second edition: the author's ebook, searches of 2026-11-25
+
+William A. Darity Jr. and A. Kirsten Mullen, *From Here to Equality: Reparations for Black Americans in the
+Twenty-First Century*, second edition, "with a new preface by the authors" (Chapel Hill: University of North
+Carolina Press; "© 2020 William A. Darity Jr. and A. Kirsten Mullen. Preface © 2022"; ISBN 978-1-4696-7120-8
+paperback, 978-1-4696-7121-5 ebook). The author bought the ebook (a reflowing Kindle edition: it shows
+"locations," 1,337 in all, and **no printed page numbers**). Twelve screenshots, read by eye.
+
+**Contents:** Preface to the Second Edition; Introduction: Standing at the Crossroads; Part 1: 1 A Political
+History of America's Black Reparations Movement, 2 Myths of Racial Equality; Part 2: 3 Who Reaped the Fruits of
+Slavery?, 4 Roads Not Taken in the Early Years of the Republic; Part 3: 5 Alternatives to War and Slavery, 6
+Race and Racism during the Civil War; Part 4: 7 Rehearsals for Freedom, 8 Radicals and Rebels, 9 Seven Mystic
+Years (1866–1873); Part 5: 10 Sins of the Sons and Daughters, 11 Beyond Jim Crow; Part 6: 12 Criticisms and
+Responses, 13 A Program of Black Reparations; With Gratitude; Appendixes; Notes; Index.
+
+| Where | Their words | Bears on |
+|---|---|---|
+| location 438 of 1337 (which chapter: not shown in the screenshot) | "Reparations are a program of acknowledgment, redress, and closure for a grievous injustice. Where African Americans are concerned, the grievous injustices that make the case for reparations include slavery, legal segregation (Jim Crow), and ongoing discrimination and stigmatization. ARC—the acronym that stands for acknowledgment, redress, and closure—characterizes the three essential elements of the reparations program that we are advocating. Acknowledgment, redress, and closure are components of any effective reparations project. Acknowledgment involves recognition and admission of the wrong by the perpetrators or beneficiaries of the injustice. For African Americans this means the receipt of a formal apology and a commitment for redress on the part of the American people as a whole—a national…" | Ch 5 line 234; TA §5.1.1 |
+| location 1164 (86%) | "Another manifestation of America's huge and growing wealth divide is evident in the scale and type of black corporate ownership. … In 2014, the top 100 black-owned firms identified by *Black Enterprise* magazine grossed slightly less than $30 billion—*as a group*. In comparison, the top-revenue-generating white-owned corporation, Walmart, grossed $482 billion." | the wealth gap as their measure |
+| location 1010 (74%) | "We rely heavily on statistical findings, rather than anecdotes, to develop a clear portrait of the operation of race and racism in contemporary America." They reject "racial cultural determinism," the view that "the black-white economic gap is due … to blacks' deficient skills, training, and motivation." | their method; not a claim about lost knowledge |
+
+**Searches the author ran, with the result he reported:**
+
+| Search | Result |
+|---|---|
+| "acknowledgment, redress, and closure" | 3 hits, all in the passage above |
+| "act of restitution" | **no results** |
+| "life expectancy" | **no results** |
+| "trauma" | **no results** |
+| "comparison" | 1 hit (the Walmart passage) |
+| "skills" | 2 hits (location 614, black veterans' skills in 1919; location 1010, above) |
+| "wealth gap", "knowledge", "matched" | not reported |
+
+**What it settles.** (1) The definition Chapter 5 quotes is in the book, word for word. (2) "Redress is the
+act of restitution…" is not in the book; Chapter 5 already credits it to the 2024 essay, which is right. (3)
+**The book does not use the words "life expectancy" or "trauma" at all.** Chapter 5 lines 246 and 252 say
+Darity and Mullen measure or price gaps in life expectancy, lost transmission of knowledge and inherited
+trauma. That is not in this book, which confirms the author's ruling on item 2 (narrow to the wealth gap; the
+life-expectancy link belongs to the 2022 study Darity co-authored). A caution on method: an ebook search finds
+exact words only, so the ideas could appear in other words ("longevity," "mortality," "health"); those were
+not searched. (4) The appendix's page reference "2020, 2–4" cannot be confirmed from a reflowing ebook.
