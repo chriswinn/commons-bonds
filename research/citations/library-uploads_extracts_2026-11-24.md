@@ -829,3 +829,9 @@ the disparities restitution aims at. (4) The book defines restitution itself and
 form of redress": strong support, from the book and not only the 2024 essay, for the name Restitution Bond.
 (5) The appendix's page reference for the definition ("2020, 2–4") is plausible: the index puts the
 Introduction's restitution passage at print p. 3.
+
+**Same night, the "restitution" list sent a second time (no new hits).** One snippet not copied above, from
+the preface (Kindle p. 15; this is the "How Much" section seen only at its edge in the sample): "…to a
+victimized community as restitution for grievous injustices. One approach is to enumerate the atrocities,
+assign dollar values to each, and then ad[d]…" So the preface sets out more than one way of computing the
+bill before settling on the wealth gap; the full page is still wanted.
