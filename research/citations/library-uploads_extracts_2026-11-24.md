@@ -720,3 +720,25 @@ trauma. That is not in this book, which confirms the author's ruling on item 2 (
 life-expectancy link belongs to the 2022 study Darity co-authored). A caution on method: an ebook search finds
 exact words only, so the ideas could appear in other words ("longevity," "mortality," "health"); those were
 not searched. (4) The appendix's page reference "2020, 2–4" cannot be confirmed from a reflowing ebook.
+
+**Second batch, same night: "wealth gap," results 1–10 of 27 (locations 34–257, 2% to 17% of the ebook).**
+From their position (after the contents at 5%, before the definition at 30%) and their content (the 2019
+Survey of Consumer Finances, the pandemic, Evanston, Asheville, California's task force), these are in the
+**Preface to the Second Edition**; the screenshots do not show a chapter heading, so that placement is the
+session's inference. Results 11–27 have not been seen.
+
+| Location | Their words | Bears on |
+|---|---|---|
+| 151 | Section "Who Should Receive Black Reparations?": "Our premise in *From Here to Equality* is black American descendants of persons enslaved in the United States are the community meriting reparations from the U.S. government. Their ancestors were captives—coerced, involuntary 'immigrants' to the United States—and their ancestors were promised and denied forty-acre land grants as restitution. This forsaken promise is the basis for the debt owed to all subsequent descendants. … The federal government created the basis for the racial wealth gap and maintained it with subsequent policies, including the New Deal and the GI Bill in the twentieth century." | Ch 5 lines 246, 252: what the debt rests on |
+| 153 | "Today's black-white wealth gap is estimated to be $840,900 per household based on data from the Federal Reserve's 2019 Survey of Consumer Finances (SCF)." They name three phases of injustice: "slavery, American apartheid (Jim Crow), and the combined effects of present-day discrimination and the deprecation of black lives." Two eligibility criteria: a lineage standard and an identity standard. | the measure |
+| 153, next page (only its left edge is visible) | A section headed "How Mu[ch] …" begins; the visible fragments mention "calculating," "An alter[native] … measure," and "single indic[ator]." **Not readable; this is the page that says what the bill is based on.** | still wanted |
+| 202 | "To reach the $14 trillion threshold these governments would have to devote all of their resources for more than four years … Only the federal government has the ability to finance the sum necessary for black reparations. In addition to capability, the federal government also has the responsibility for monetary redress as the culpable party. Federal practices, both action and inaction, built the racial wealth gap in the United [States]." | the sum; "redress … culpable party" |
+| 210 | Four phases of federal asset policy are named; visible here: the "Blood/Lust" period ("black-owned property was seized and appropriated by the mobsters"), the Picket Fence period (homeownership promoted "in a highly discriminatory manner"), the Freeway period (interstates "run through black neighborhoods"). | background |
+| 220 | "The nation's formerly enslaved and their progeny consistently have been refused access to the monetary requirements enabling full citizenship in the United States. The refusal crystallizes in America's black-white wealth gap, manufactured by federal policy. Hence the federal government is obligated to remedy the situation." Then, "How Should Payments Be Made? In keeping with other instances of restitution for atrocities, direct payments should be made to members of the victimized community." | the measure; their use of "restitution" |
+| 251–257 | Local plans cannot close the gap: Evanston "would require about $3.85 billion to close, independently, the $350,000 per capita racial wealth gap"; Asheville $3.15 billion; Amherst $700 million; California $700 billion. "Piecemeal or local reparations are not capitalized sufficiently to eliminate the racial wealth gap." | the measure is the wealth gap throughout |
+
+**What it adds.** The book's measure of the debt is the racial wealth gap, stated in dollars ($840,900 per
+household; about $14 trillion in all; $350,000 per person), and its ground is the denied forty-acre grants and
+federal policy since. That supports the wealth-gap half of Chapter 5 line 246 from the book itself and fits
+the author's ruling on item 2. It also shows Darity and Mullen using "restitution" and "monetary redress as
+the culpable party" in their own voice, which supports the chapter's naming of the Restitution Bond.
