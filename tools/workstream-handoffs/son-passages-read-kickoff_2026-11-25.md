@@ -1,7 +1,7 @@
-# Kickoff for a fresh session: are the passages about the author's son right for this book?
+# Kickoff for a fresh session: are the Chapter 1 passages about the author's son right for this book?
 
-**Status:** internal; written 2026-11-25 at the author's request. **A read and a recommendation only. Change no
-chapter text.**
+**Status:** internal; written 2026-11-25 at the author's request; revised the same day (Chapter 5 is no longer
+part of the read). **A read and a recommendation only. Change no chapter text.**
 
 ## Why a fresh session
 
@@ -16,8 +16,7 @@ first, as a reader would.
 ## What to read, in this order
 
 1. `manuscript/chapters/Chapter__1_TheQuietMath.md`, start to finish, once, without stopping to take notes.
-2. `manuscript/chapters/Chapter__5_TheAccountabilityGap.md`, the same way.
-3. Then, and only then, `commons_bonds_guiding_constraints_v1_0_0.md` (the book's purpose and the two goals:
+2. Then, and only then, `commons_bonds_guiding_constraints_v1_0_0.md` (the book's purpose and the two goals:
    future generations compensated more fairly; people accepting work with open eyes and honest accounting.
    "When in doubt, trim.") Find it with a search; if it is not in the repository, say so and ask him for it.
 
@@ -31,11 +30,8 @@ first, as a reader would.
 - Line 140: "The son I once held is somewhere in the world now. I do not know where. I wish I knew. We have no
   contact." (third paragraph from the end of the chapter)
 
-**Chapter 5:** a search on 2026-11-25 found **no mention of his son.** The first-person material there is his
-2008 account (lines 68–76 and 148): his job in sales, his 401(k), the company failing, paying for his own
-move. He named both chapters, so read Chapter 5 for two things: whether anything there touches the same
-ground in other words, and whether Chapter 5 reads differently to someone who has just read Chapter 1's
-ending. If you find nothing, say so plainly.
+**Chapter 5 is not part of this read.** A search on 2026-11-25 found no mention of his son in it. He had
+named it only because it is as finished as Chapter 1 (his clarification, the same day).
 
 Also search the other chapters and the Author's Note for the son, the marriage and the estrangement, and list
 what you find without judging it yet (Chapter 10 returns to family; the chapter on main is unchanged from
@@ -81,7 +77,7 @@ tell him the verdict in the conversation in a few sentences, and stop. He decide
 
 ## Context the session needs
 
-- Darity has had Chapter 1 and Chapter 5 since 2026-11-15, as they stood then. The cover note asked him to
+- Darity has had Chapter 1 since 2026-11-15, as it stood then. The cover note asked him to
   read one Chapter 1 paragraph closely (slavery, p. 5); it did not mention these passages.
 - Chapter 1 was hand-redlined by the author in June and November and its claims-check rulings were applied on
   2026-11-24. This read is not a reason to redraft it. If he decides to change these passages, that is a
@@ -91,4 +87,4 @@ tell him the verdict in the conversation in a few sentences, and stop. He decide
 
 ## Paste line
 
-`Read CLAUDE.md, then tools/workstream-handoffs/son-passages-read-kickoff_2026-11-25.md, and do what it says. Read the two chapters before anything else.`
+`Read CLAUDE.md, then tools/workstream-handoffs/son-passages-read-kickoff_2026-11-25.md, and do what it says. Read Chapter 1 before anything else.`
