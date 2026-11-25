@@ -549,3 +549,27 @@ The lobbying sentence at line 210 has a real basis: a company memo weighing obst
 on Congress against a federal health study. The chapter says the documents show an effort to delay "the
 regulation of asbestos"; the memo is about delaying a **NIOSH study**. Page 183 is needed for who wrote it and
 when.
+
+**Second batch, same day: "oxygen" hits 20 to 33 (pp. 306–307, 310–311, 324–331, 356–359, 366–367, 372–373,
+384–385, 400–401).** With the first batch, all 34 hits have been seen.
+
+| Page | Their words | Bears on |
+|---|---|---|
+| 401 | Paul Peronard, EPA's on-scene coordinator: "Any sense of smugness I might have had about my role up there in Libby was wiped out one day about two years ago, when I watched Al Kaeding shop at Rosauer's Grocery Store. Two steps and stop, gasp. Pick up a head of lettuce, wheeze, adjust the valve on his oxygen tank, slump over and lean on his cart. I watched him for about an hour, and he covered maybe three aisles." [The first name is "Al" here as printed; pp. 4 and 356 have Don Kaeding.] | **Ch 5 line 40, the grocery-cart image** |
+| 331 | "Robin Redman was 44. She and her brother and sister all have asbestosis, also from the dust on her father's work clothes." Alice Priest "dragged a wheeled canister of oxygen behind her as she shuffled across the marble floors of the congressional buildings." Les Skramstad: "three or four hundred people in our tiny town have got the disease." | line 32; line 40 |
+| 359 | "Dorthe Noble, Harvey Noble. Wife and husband. He worked at the mine and brought the tremolite home to her on his work clothes." | line 32 |
+| 330 | "The legislation the Montanans came to oppose was a highly contentious package of laws promoted, for the most part, by GAF Corporation, Grace and others in the asbestos industry. … More than $6 million was spent in lobbying by both sides." p. 329: "In 2000, the Fairness in Asbestos Compensation Act hit Washington. The bill, backed by the asbestos lobby, would have set up a government agency … those claims would have to meet a new set of medical criteria that would bar even some of the sickest people in Libby from filing suit." | **line 210, lobbying** (a compensation bill, March 2000) |
+| 356 | "Memorial Day 2002 brought more white crosses: fourteen rows of fourteen and five extra. Thirty-eight more than the year before." … "Only five of the 204 had flowers." | deaths; "funerals" |
+| 367 | "The proof of the dangers of Zonolite can be found in the graveyards of the northwest corner of Montana and in the homes of hundreds who are sucking on tanks of oxygen to make it through the day." Dr. Whitehouse "treated 500 people from Libby who are sick and dying from exposure to tremolite in the vermiculite." | line 40 |
+| 366 | Peronard: "people here are still going to get sick and die because their attics and walls are filled with Zonolite." | line 36, attics |
+| 372 | At a November town meeting: "Some leaned on canes. Others sucked oxygen out of portable tanks." | line 40 |
+
+Pages 306–307, 324–327 and 384–385 concern other places (brake mechanics, taconite and talc miners), the
+lawyers, and Grace's medical plan; not the chapter's sentences.
+
+**What the whole "oxygen" search settles.** The grocery-store image has a real source: one man, Kaeding, seen
+by a named EPA official, leaning on his cart with his oxygen tank, picking up lettuce. The chapter turns that
+into a general scene ("oxygen tanks rode in grocery carts beside the bread"). The general point, that tanks
+were an everyday sight, is the authors' own (pp. 5, 185, 367). On lobbying, the book has Grace among the
+promoters of the 2000 compensation bill and the memo on delaying the NIOSH study; it does not, in these pages,
+have company documents showing lobbying to delay **regulation**.
