@@ -1333,6 +1333,22 @@ Batch heading only. Extracts: `research/citations/library-uploads_extracts_2026-
 - **Hicks, J. R.** "The Foundations of Welfare Economics." *Economic Journal* 49, no. 196 (1939): 696–712. **Why here:** the "Hicks 1939" of TA §15.1.7 (the compensation principle); distinct from *Value and Capital*. **Standing:** read.
 - **Fraser, Nancy.** "Expropriation and Exploitation in Racialized Capitalism: A Reply to Michael Dawson." *Critical Historical Studies* 3, no. 1 (2016): 163–178. **Why here:** the text that defines the distinction Ch 5 line 192 credits to her. **Standing:** read in full.
 
+### Candidates added 2026-11-25 (Sweden sources read by the Chapter 5 session)
+
+Batch heading only. Extracts: `research/citations/library-uploads_extracts_2026-11-24.md`.
+
+- **Eichengreen, Barry.** *Golden Fetters: The Gold Standard and the Great Depression, 1919–1939.* New York: Oxford University Press, 1992. **Why here:** Ch 5 line 106 (Sweden off gold; the Riksbank and the banks; exporters), pp. 307–308; p. 288 on debtors and devaluation. Already named in §6 from a note; now read at those pages. **Standing:** pages read from the author's photographs.
+- **Kindleberger, Charles P.** *The World in Depression, 1929–1939.* Rev. and enl. ed. Berkeley: University of California Press, 1986. **Why here:** Ch 5 line 106 (Swedish public works, 1933; the debate over what caused recovery), pp. 179–181. Already named in §6 from a note; now read at those pages. **Standing:** pages read from the author's photographs.
+- **Polanyi, Karl.** *The Great Transformation.* Boston: Beacon Press, 1957 (first published 1944). **Why here:** Ch 5 line 188, p. 72. **Standing:** chapter 6 pages read from the author's photographs. Page numbers are this paperback's.
+- **Rawls, John.** *Political Liberalism.* New York: Columbia University Press, 1996 (paperback; first published 1993). **Why here:** TA §14.4, the savings-principle wording, p. 274 and note 12; decisions log 017. **Standing:** pp. 272–277 read from the author's photographs.
+- **Barry, Brian.** "Circumstances of Justice and Future Generations." In *Obligations to Future Generations*, edited by R. I. Sikora and Brian Barry, 204–248. Philadelphia: Temple University Press, 1978. **Why here:** TA §14.4, p. 243; decisions log 005. **Standing:** pp. 240–247 read from the author's photographs.
+- **Svenska Arbetsgivareföreningen and Landsorganisationen i Sverige.** *Huvudavtal mellan Svenska Arbetsgivareföreningen och Landsorganisationen i Sverige* (20 December 1938, as amended to 1974). Stockholm: Andrén & Holms, 1975; with the SAF–LO protocol of 23 December 1976. **Why here:** Ch 5 line 106, the agreement itself (date, parties, subjects). **Standing:** pp. 1–6 read; in Swedish.
+- **Nordstrom, Byron J.** "Sweden's Saltsjöbaden Agreement." nordics.info, Aarhus University, 17 August 2020. **Why here:** ties the name to the agreement and says what it did. **Standing:** read in full.
+- **Petersson, Olof.** "Democracy and Power in Sweden." *Scandinavian Political Studies* 14, no. 2 (1991): 173–191. **Why here:** p. 174, the agreement "laid the groundwork for the Swedish system of collective bargaining." **Standing:** pp. 173–174 read; end page to confirm.
+- **Gunnarsson, Carina, Cathrine Lilja Hansson and Inga Åkerlund.** "Sweden: Collective agreements." Report to the XIVth Meeting of European Labour Court Judges, Paris, 4 September 2006. **Why here:** the agreement and the avoidance of state intervention. **Standing:** the passage read. Probably not needed if Petersson is used.
+- **Kjellberg, Anders.** "The Swedish Trade Union System: Centralization and Decentralization." Paper, XIIth World Congress of Sociology, Madrid, 1990. **Why here:** a lead on the agreement's motives and effects. **Standing:** searched, not read through.
+- **Not read, leads only:** an article in the *Journal of Sociology & Social Welfare* (scholarworks.wmich.edu, article 4030) and a CEPR column on the Nordic model, both said by a search summary to link the agreement to the welfare state; both refused the session (403).
+
 ### Changes log for this section
 
 - **2026-11-24. Added three entries** above (Kaldor 1939; Hicks 1939, the article; Fraser 2016), each read from a PDF the author downloaded. Hartwick (1977), Mussa and Rosen (1978) and Rosen (1974), read the same day, already have entries (§18.6, §25).
