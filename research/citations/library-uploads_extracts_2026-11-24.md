@@ -599,3 +599,34 @@ and political influence against a federal health study (Locke, 1980) and decidin
 (Wood, about 1977). Not found: that the company "let the town use" the waste; kitchens and children's laps;
 funerals of the relatively young; lobbying to delay "regulation" as such; that the documents came out "in
 litigation."
+
+## Ostrom, *Governing the Commons*, pp. 90–91, from the author's photographs
+
+Elinor Ostrom, *Governing the Commons: The Evolution of Institutions for Collective Action* (Cambridge:
+Cambridge University Press; "© Cambridge University Press 1990, 2015. First published 1990; 29th printing
+2011; Canto Classics edition 2015"; ISBN 978-1-107-56978-2 paperback). Five photographs of the publisher's
+preview at Google Books, 2026-11-25: cover, title page, copyright page, pp. 90 and 91. Read by eye. The
+library record found earlier gave Table 3.1 at p. 90 of the 1990 edition; it is on p. 90 here too.
+
+**Table 3.1, "Design principles illustrated by long-enduring CPR institutions," p. 90, in full:**
+
+1. "Clearly defined boundaries. Individuals or households who have rights to withdraw resource units from the CPR must be clearly defined, as must the boundaries of the CPR itself."
+2. "Congruence between appropriation and provision rules and local conditions. Appropriation rules restricting time, place, technology, and/or quantity of resource units are related to local conditions and to provision rules requiring labor, material, and/or money."
+3. "Collective-choice arrangements. Most individuals affected by the operational rules can participate in modifying the operational rules."
+4. "Monitoring. Monitors, who actively audit CPR conditions and appropriator behavior, are accountable to the appropriators or are the appropriators."
+5. "Graduated sanctions. Appropriators who violate operational rules are likely to be assessed graduated sanctions (depending on the seriousness and context of the offense) by other appropriators, by officials accountable to these appropriators, or by both."
+6. "Conflict-resolution mechanisms. Appropriators and their officials have rapid access to low-cost local arenas to resolve conflicts among appropriators or between appropriators and officials."
+7. "Minimal recognition of rights to organize. The rights of appropriators to devise their own institutions are not challenged by external governmental authorities."
+8. "*For CPRs that are parts of larger systems:* Nested enterprises. Appropriation, provision, monitoring, enforcement, conflict resolution, and governance activities are organized in multiple layers of nested enterprises."
+
+| Page | Her words | Bears on |
+|---|---|---|
+| 90 | "[seven design] principles that characterize all of these robust CPR institutions, plus an eighth principle used in the larger, more complex cases. … By 'design principle' I mean an essential element or condition that helps to account for the success of these institutions in sustaining the CPRs and gaining the compliance of generation after generation of appropriators to the rules in use. This list of design principles is still quite speculative. I am not yet willing to argue that these design principles are necessary conditions for achieving institutional robustness in CPR settings. Further theoretical and empirical work is needed before a strong assertion of necessity can be made." | TA §15.1.6, how she offered the principles |
+| 91 | "I am willing to speculate, however, that after further scholarly work is completed, it will be possible to identify a set of necessary design principles and that such a set will contain the core of what has been identified here." | the same |
+
+**What it settles.** (1) TA Definition 1.10's wording of the third principle matches the book word for word,
+at p. 90: confirmed from the book, so decisions log 013 can close and the web reproductions are not needed.
+(2) TA §15.1.6 says the principles "were offered as empirical regularities across hundreds of
+coordination-commons cases." Her own framing on this page is narrower and more cautious: principles that
+characterize "these robust CPR institutions" (the long-enduring cases the chapter studies), "still quite
+speculative." "Hundreds" is not on these pages.

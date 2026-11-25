@@ -206,6 +206,10 @@ commit message. Nothing here changes a source file by itself.
   author's copy.
 - **Recommendation: KEEP OUT** all three. Confirm the wording and page 90 in the book, and treat the row as
   resting on secondary copies until then.
+- **Confirmed 2026-11-25.** The author photographed p. 90 of the book (Canto Classics edition, 2015, with the
+  title and copyright pages). The third principle reads exactly as the appendix has it, and Table 3.1 is on
+  p. 90. The row now rests on the book; the reproductions are not needed. Extracts:
+  `research/citations/library-uploads_extracts_2026-11-24.md`.
 
 ### 014. Encyclopedia, blog and report pages used for Barry, Rawls and the discount rates. **OPEN**
 

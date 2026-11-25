@@ -1199,3 +1199,16 @@ generation adopt the principle it would want preceding generations to have follo
 follow (Rawls 1996, 274)." The heading "Rawls (1971)" can stay for the veil of ignorance and for the rejection
 of pure time preference (section 44, read earlier today), with the later book cited for this one sentence.
 Decisions log 017 has the matching note.
+
+## Addendum, 2026-11-25 (Chapter 5 session): Ostrom, *Governing the Commons*, p. 90, read from the author's photographs
+
+Extracts (the whole of Table 3.1): `research/citations/library-uploads_extracts_2026-11-24.md`. The rows above are not changed.
+
+| Section | The claim, in the appendix's words | Status | What the source says | Source |
+|---|---|---|---|---|
+| Def 1.10 | the third is collective-choice arrangements: most individuals affected by the operational rules can take part in modifying them (Ostrom 1990, ch. 3, Table 3.1) | **SUPPORTED**, now from the book | "3. Collective-choice arrangements. Most individuals affected by the operational rules can participate in modifying the operational rules." Table 3.1, p. 90. | Ostrom, *Governing the Commons* (Cambridge University Press, 1990; Canto Classics edition 2015), p. 90 |
+| §15.1.6 | Ostrom's design principles were offered as empirical regularities across hundreds of coordination-commons cases | **SAYS MORE THAN THE SOURCE** (was not checked) | She offers them as principles "that characterize all of these robust CPR institutions," and adds: "This list of design principles is still quite speculative. I am not yet willing to argue that these design principles are necessary conditions." No "hundreds" on pp. 90–91; the principles are drawn from the long-enduring cases of the chapter. | the same, pp. 90–91 |
+
+**For whoever applies the appendix rulings.** A wording that stands: "Ostrom drew her design principles from
+long-enduring commons institutions and called the list 'still quite speculative' (1990, 90)." Decisions log
+013 has the matching note.
