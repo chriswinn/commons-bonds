@@ -13,17 +13,17 @@
 
 ## Counts
 
-**183 claims listed. 85 are not SUPPORTED.**
+**184 claims listed. 85 are not SUPPORTED.**
 
 | Status | Claims |
 |---|---|
-| SUPPORTED | 98 |
-| SAYS MORE THAN THE SOURCE | 39 |
+| SUPPORTED | 99 |
+| SAYS MORE THAN THE SOURCE | 40 |
 | CONTESTED | 5 |
 | SOURCE FOUND, NOT CITED | 1 |
 | NO SOURCE IN THE PROJECT | 32 |
 | CONTRADICTED | 2 |
-| NOT CHECKED | 6 |
+| NOT CHECKED | 5 |
 
 Most of the unsupported rows are small. Thirteen matter, and they come first.
 
@@ -345,7 +345,8 @@ Line numbers are those of `manuscript/chapters/Chapter__5_TheAccountabilityGap.m
 
 | Line | The claim, in the chapter's words | Status | What the source says | Source |
 |---|---|---|---|---|
-| 182 | The philosopher Michael Sandel has made it as well as anyone, in his book *What Money Can't Buy*. … a price can make a harm legitimate. It turns a violation into a fee | **NOT CHECKED** | Sandel is not in the bibliography and the project holds no notes on the book. Not read today. | none on file |
+| 182 | The philosopher Michael Sandel has made it as well as anyone, in his book *What Money Can't Buy*. … a price can make a harm legitimate. It turns a violation into a fee | **SUPPORTED** | "Fines register moral disapproval, whereas fees are simply prices that imply no moral judgment" (p. 65). "When people treat fines as fees, they flout the norms that fines express" (p. 66). On pollution: "letting countries buy the right to pollute would be like letting people pay to litter. We should try to strengthen, not weaken, the moral stigma attached to despoiling the environment" (p. 73); a trading scheme "says in effect that emitting pollution is not like littering but simply a cost of doing business" (p. 72). The fine-into-fee point is his, nearly in his words. | Sandel, *What Money Can't Buy: The Moral Limits of Markets* (New York: Farrar, Straus and Giroux, 2012), pp. 64-74, the author's photographs |
+| 182 | Sandel warns that when you put a price on a sacred landscape, a community or the unborn, you turn something priceless into a transaction. You accept the extractor's way of seeing, in which everything can be exchanged for everything else and everything has a number. | **SAYS MORE THAN THE SOURCE** | His general claim is there: "markets are not mere mechanisms. They embody certain norms. They presuppose—and promote—certain ways of valuing the goods being exchanged"; "Markets leave their mark on social norms" (p. 64). But his examples in the pages seen are refugees, late pickups at day care, littering, parking spaces, China's one-child fines, procreation permits and pollution permits. "A sacred landscape, a community or the unborn" and "the extractor's way of seeing" are the chapter's, placed in his mouth by "Sandel warns." The pages seen are 63-74 of chapter 2 only. | Sandel, *What Money Can't Buy: The Moral Limits of Markets* (New York: Farrar, Straus and Giroux, 2012), pp. 64-74, the author's photographs |
 | 188 | In 1944 Karl Polanyi published *The Great Transformation*. … the fictitious commodity. … the market treats labor, land and money as if they had been produced for sale, when none of them was. | **SUPPORTED** | "labor, land, and money are obviously not commodities; the postulate that anything that is bought and sold must have been produced for sale is emphatically untrue in regard to them. ... Labor is only another name for a human activity which goes with life itself ... land is only another name for nature, which is not produced by man ... None of them is produced for sale. The commodity description of labor, land, and money is entirely fictitious" (p. 72). Copyright 1944. "Does violence": "To allow the market mechanism to be sole director of the fate of human beings and their natural environment ... would result in the demolition of society" (p. 73). | Polanyi, *The Great Transformation* (Boston: Beacon Press, 1957 paperback; copyright 1944; ninth printing, 1968), pp. 72-73, the author's photographs |
 | 188 | Money is a token of trust among people. | **SAYS MORE THAN THE SOURCE** | Polanyi's word is purchasing power, not trust: "actual money, finally, is merely a token of purchasing power which, as a rule, is not produced at all, but comes into being through the mechanism of banking or state finance" (p. 72). The chapter gives this as part of his argument. "Labor is human life" and "Land is nature" are close to his words. | Polanyi, *The Great Transformation* (Boston: Beacon Press, 1957 paperback; copyright 1944; ninth printing, 1968), pp. 72-73, the author's photographs |
 | 190 | Polanyi's deepest idea was what he called the double movement. | **SUPPORTED** | The positioning findings refer to "the Polanyian counter-movement" (Gunderson). | `tools/workstream-handoffs/verified-positioning-findings_2026-06-24.md` |

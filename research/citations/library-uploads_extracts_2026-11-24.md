@@ -630,3 +630,26 @@ at p. 90: confirmed from the book, so decisions log 013 can close and the web re
 coordination-commons cases." Her own framing on this page is narrower and more cautious: principles that
 characterize "these robust CPR institutions" (the long-enduring cases the chapter studies), "still quite
 speculative." "Hundreds" is not on these pages.
+
+## Sandel, *What Money Can't Buy* (2012), pp. 63–74, from the author's photographs
+
+Michael J. Sandel, *What Money Can't Buy: The Moral Limits of Markets* (New York: Farrar, Straus and Giroux;
+"Copyright © 2012 by Michael J. Sandel … First edition, 2012"; ISBN 978-0-374-20303-0). Seven photographs of
+the publisher's preview at Google Books, 2026-11-25: title and copyright pages and pp. 63–74, from the chapter
+"Incentives" (the section "Fines versus Fees"). Read by eye.
+
+| Page | His words | Bears on |
+|---|---|---|
+| 64 | "what the example illustrates is that markets are not mere mechanisms. They embody certain norms. They presuppose—and promote—certain ways of valuing the goods being exchanged. Economists often assume that markets do not touch or taint the goods they regulate. But this is untrue. Markets leave their mark on social norms. Often, market incentives erode or crowd out nonmarket incentives." | Ch 5 line 182, the general objection |
+| 64–65 | The Israeli day-care study: the centers "imposed a fine for late pickups. … Late pickups actually increased." "Introducing the monetary payment changed the norms. … They treated the fine as if it were a fee." | line 182, "turns a violation into a fee" |
+| 65 | "What is the difference between a fine and a fee? It's worth pondering the distinction. Fines register moral disapproval, whereas fees are simply prices that imply no moral judgment. When we impose a fine for littering, we're saying that littering is wrong." | the same |
+| 66 | "When people treat fines as fees, they flout the norms that fines express." | the same |
+| 72 | "The distinction between a fine and a fee is also relevant to the debate over how to reduce greenhouse gases and carbon emissions. Should government set limits on emissions and fine companies that exceed them? Or should government create tradable pollution permits? The second approach says in effect that emitting pollution is not like littering but simply a cost of doing business." | line 182; the nearest he comes to the book's own subject |
+| 73 | "I worried that letting countries buy the right to pollute would be like letting people pay to litter. We should try to strengthen, not weaken, the moral stigma attached to despoiling the environment." Then: "I've since reconsidered my views about emissions trading to some extent … emitting carbon dioxide is not in itself objectionable. … What is objectionable is doing so in excess, as part of an energy-profligate way of life." | the same; note his own partial retreat |
+| 74 | "The simplest way of putting a price on pollution is to tax it. A tax on emissions can be seen as a fee rather than a fine; but if it's big enough, it has the virtue of making the polluters pay for the damage they inflict." | useful to the book's answer: he grants that a large enough charge makes polluters pay |
+
+**What it settles.** The chapter's "a price can make a harm legitimate. It turns a violation into a fee" is
+Sandel's argument and close to his words. The sentence before it, on "a sacred landscape, a community or the
+unborn" and "the extractor's way of seeing," is not in these pages; those are the chapter's examples. Two
+things worth knowing for the chapter's reply: he says he has partly reconsidered on emissions trading (p. 73),
+and he grants that a big enough tax makes "the polluters pay for the damage they inflict" (p. 74).
