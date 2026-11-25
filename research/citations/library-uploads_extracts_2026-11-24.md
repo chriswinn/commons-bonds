@@ -760,3 +760,33 @@ black-white wealth gap, achieved by raising the average level of black wealth to
 wealth." Location 303 shows the book does connect the wealth gap to a health outcome (Covid transmission),
 though not to life expectancy; with the 2022 study, that supports saying the wealth gap carries health
 consequences, and still does not support saying they price life expectancy.
+
+**Fourth batch, same night: "wealth gap" results 15–27. AND A CORRECTION TO THE NOTES ABOVE.**
+
+**The file the author is searching is probably not the whole book.** Result 21 (location 539, 38%) is the
+epigraph and opening of chapter 1 ("Just as enslaved Africans were the first abolitionists … so, too, were
+black Americans the nation's earliest architects of reparations"). Results 22–27 (locations 1020–1082,
+75–80%) say "as we demonstrate later in this chapter" and argue against explanations of the gap by saving,
+family structure and effort: that is chapter 2, "Myths of Racial Equality." The Walmart passage at location
+1164 (86%) is the same chapter. A thirteen-chapter book cannot have chapter 2 at 86 percent, and 1,337
+locations is far too few for the whole text. **So this file appears to be a sample, or an incomplete download:
+preface, introduction, chapters 1 and 2.** It follows that the searches reported above ("life expectancy,"
+"trauma," "act of restitution": no results) **cover only that front part, not chapters 3 to 13.** The
+statements above that the book "does not use the words" are withdrawn until the full text is searched. The
+session inferred this from the locations; the author should confirm by opening chapter 13 from the contents.
+
+| Location | Their words | Bears on |
+|---|---|---|
+| 378–380 (26%) | Notes to the preface: Darity, Addo and Smith, "A Subaltern Middle Class," *Contemporary Economic Problems* 39 (2021); Addo and Darity, "Disparate Recoveries," *Annals* 695 (May 2021); Darity and Mullen, "Race in America: Reparations," *Economist*, May 18, 2021 (on "direct payments to close the racial wealth gap"). They note critics who treat "the gauge of black-white wealth inequality as the median gap." | their measure is the mean gap; leads |
+| 1020 (75%) | "Given the existing distribution of financial and real resources, *blacks cannot close the racial wealth gap by ind[ividual effort]*…" The next page begins to define wealth ("the cumula[tive] … time. Wealth … what we own … our debts"). | chapter 2 |
+| 1052 (78%) | "From 2005 to 2009 … median household wealth … among blacks actually fell by a whopping 53 percent, compared with a drop of 16 percent among whites." | **Ch 5 lines 86–88**: who lost most in 2008 |
+| 1055 (78%) | "If we consider black and white families with similar income levels, we discover no significant difference in savings rates, nor a difference in rates of return on their personal investments." | their comparison method: like with like, by category |
+| 1082 (80%) | "Black household heads with a college or university degree have about $10,000 less in median net worth than white household heads who never completed high school. Blacks who are working full-time have a lower median net worth than whites who are unemployed. Blacks in the third quintile of the income distribution have similar levels of median wealth as whites in the lowest quintile." Data: "the Survey of Income and Program Participation and the Survey of Consumer Finances." | **Ch 5 line 244**: the education comparison, here in the book itself, and the same within-category method the chapter calls "matched" |
+
+**What stands after the correction.** From the part of the book seen: the definition (verbatim); the measure
+of the debt as the mean black-white wealth gap, in dollars; "restitution" and "monetary redress as the
+culpable party" in their own voice; the education comparison that Chapter 5 credits to *Umbrellas Don't Make
+It Rain*. **What does not yet stand:** any statement about what chapters 3 to 13 contain, including whether
+they discuss life expectancy, trauma or the transmission of knowledge. The author's ruling on item 2 is still
+the cautious wording and does not depend on this; but the session should not tell anyone the book lacks those
+words until chapter 13 and the rest are searched.
