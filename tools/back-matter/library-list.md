@@ -69,7 +69,6 @@ Open, save as PDF, attach. A few minutes each.
 | # | What to open | What is needed | Settles | What was tried |
 |---|---|---|---|---|
 | H8 | State Department, Foreign Service Institute, "Foreign Language Training." **Optional; low value.** | Class hours by language category | Ch 1 row 8 | Re-tested 2026-11-15: 403 again (an error page). Optional. |
-| H10 | *Journal of Sociology & Social Welfare* article: `https://scholarworks.wmich.edu/cgi/viewcontent.cgi?article=4030&context=jssw` (a free PDF); and, lower value, the CEPR column `https://cepr.org/voxeu/columns/nordic-model-and-income-equality-myths-facts-and-policy-lessons` | The PDF (or the page saved as PDF). Wanted: any sentence linking the 1938 Saltsjöbaden Agreement to the welfare state | Ch 5 line 106, "that the Swedish welfare state was then built on" | Tried 2026-11-25: plain request to each, 403. Leads from a search summary the author pasted; neither read. If you skip them: the sentence stops at "set the terms between labor and capital," which is fully sourced. |
 
 **The Internet Archive, for sessions (tested 2026-11-15).** The catalogue (`archive.org`) answers a plain
 request, which is how the borrow-online items were found. Saved web pages (`web.archive.org`) do not: the
@@ -226,6 +225,10 @@ report's own address has not been found yet (Part 5).
   Beacon paperback (1957; ninth printing 1968) from an archive.org loan: pp. 68–69, 72–73, 76–77 and the other
   "fictitious" hits. The fictitious-commodities passage is on p. 72. His phrase for money is "a token of
   purchasing power," not "trust." Extracts in `research/citations/library-uploads_extracts_2026-11-24.md`.
+
+- **H10, the two Saltsjöbaden leads (done 2026-11-25).** The author uploaded both. Zelleke (2016) has the
+  agreement at pp. 79–81 and says the labor-market agreements "coincided with" the welfare state's growth. The
+  CEPR column does not mention the agreement. Extracts in `research/citations/library-uploads_extracts_2026-11-24.md`.
 
 ## Part 5. Not yet fully tried: do not fetch these
 

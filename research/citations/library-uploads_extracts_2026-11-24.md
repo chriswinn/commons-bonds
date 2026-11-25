@@ -498,3 +498,17 @@ still unsupported:** every source read ties the agreement to labor relations and
 pasted summary's claim of a "direct line" to the welfare state rests on the two pages that refused; the
 nordics.info page it cites for a "social democratic class compromise" ("The 'Nordic model' of capitalism")
 does not mention the agreement at all.
+
+**The two links that had refused, uploaded by the author 2026-11-25 and read in full text.**
+
+| Source | Its words | Bears on |
+|---|---|---|
+| Almaz Zelleke, "Lessons from Sweden: Solidarity, the Welfare State, and Basic Income," *Journal of Sociology & Social Welfare* 43, no. 3 (2016), article 6, DOI 10.15453/0191-5096.4030 (25-page PDF; printed pp. 79–81 quoted; full page range to confirm) | p. 79–80: "Nineteen-thirties Sweden saw the highest level of labor unrest of any nation (Standing, 1988) and attempts by the government to intervene. Instead, LO and SAF agreed to negotiate wages and work conditions independently of the government. Named for the town in which it was negotiated, the Saltsjöbaden Agreement of 1938 began a period of bilateral negotiation between labor and capital that was to last until the 1970s. The agreement contained the seeds of the centralized bargaining between unions and employers that was to come in the 1950s (Högfeldt, 2005), but it also represented the failure of LO's efforts, for a second time, to win German-style labor representation in firm management (Tsarouhas, 2008)." p. 80: "The Saltsjöbaden Agreement was followed in 1944 by the SAP-led government's expressed commitment to promoting full employment." p. 81: "This remarkable set of agreements on labor market regulation between employers, labor, and the government coincided with the development of the welfare state programs characteristic of the Swedish Model. In 1913, Sweden established the first universal pension." Abstract: "the welfare state is only one of the ingredients of the Swedish Model, and … another is an interventionist labor market policy." | Ch 5 line 106, second half |
+| Magne Mogstad, Kjell G. Salvanes and Gaute Torsvik, "The Nordic model and income equality: Myths, facts, and policy lessons," VoxEU column, CEPR, 27 March 2025 | Four pillars of the Nordic model: public investment in services, "influential labour unions," social insurance, progressive taxation; "they all have high union density and strong coordination in wage bargaining." **No mention of Saltsjöbaden, 1938, or the Swedish agreement.** | nothing for line 106 |
+
+**What it settles.** No source says the welfare state was "built on" the agreement. The strongest statement
+found is Zelleke's: the labor-market agreements **"coincided with"** the growth of the welfare state, the two
+are separate ingredients of one model, and the first universal pension (1913) came long before 1938. She also
+cites Standing (1988) for the 1930s labor unrest, a properly sourced form of the union page's ranking claim
+(Standing himself not read). The search summary's "direct line … to fund universal social programs" is its
+own gloss; her text gives a sequence (1938, 1944, 1951), not a causal claim about welfare.
