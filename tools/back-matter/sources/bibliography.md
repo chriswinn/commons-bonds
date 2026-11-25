@@ -1349,6 +1349,7 @@ Batch heading only. Extracts: `research/citations/library-uploads_extracts_2026-
 - **Kjellberg, Anders.** "The Swedish Trade Union System: Centralization and Decentralization." Paper, XIIth World Congress of Sociology, Madrid, 1990. **Why here:** a lead on the agreement's motives and effects. **Standing:** searched, not read through.
 - **Zelleke, Almaz.** "Lessons from Sweden: Solidarity, the Welfare State, and Basic Income." *Journal of Sociology & Social Welfare* 43, no. 3 (2016): article 6. DOI 10.15453/0191-5096.4030. **Why here:** Ch 5 line 106; the nearest any source comes to linking the 1938 agreement and the welfare state ("coincided with," p. 81). **Standing:** read (the author's upload); page range to confirm.
 - **Mogstad, Magne, Kjell G. Salvanes and Gaute Torsvik.** "The Nordic model and income equality: Myths, facts, and policy lessons." VoxEU, CEPR, 27 March 2025. **Why here:** offered by a search summary for the Saltsjöbaden sentence. **Standing:** read (the author's upload); it does not mention the agreement. **Recommendation: keep out.**
+- **Schneider, Andrew, and David McCumber.** *An Air That Kills: How the Asbestos Poisoning of Libby, Montana, Uncovered a National Scandal.* New York: G. P. Putnam's Sons, 2004. **Why here:** the source for the Libby scenes in Ch 5 (lines 32, 40, 210) and for what the company knew (TA §11.3). **Standing:** about 40 pages read from the author's photographs, 2026-11-25; not read through.
 
 ### Changes log for this section
 

@@ -573,3 +573,29 @@ into a general scene ("oxygen tanks rode in grocery carts beside the bread"). Th
 were an everyday sight, is the authors' own (pp. 5, 185, 367). On lobbying, the book has Grace among the
 promoters of the 2000 compensation bill and the memo on delaying the NIOSH study; it does not, in these pages,
 have company documents showing lobbying to delay **regulation**.
+
+**Third batch, same day: p. 183 and the searches for track, grocery and funeral (pp. 72–73, 78–79, 98–99,
+124–125, 130–131, 134–135, 182–183, 224–225, 318–319, and source notes 424–425).**
+
+| Page | Their words | Bears on |
+|---|---|---|
+| 183 | "There is no shortage of mind-boggling cynicism in the company's internal correspondence. A November 26, 1980, Grace memo offers a rare glimpse at the inner workings of the industry's strategy against government regulators. Grace Construction Products Division executive R. H. Locke was summing up the company's options in dealing with a push by NIOSH to launch a new health study of Libby operations." [The options quoted earlier from p. 184 follow.] | **Ch 5 line 210**: who wrote the memo, and when |
+| 182 | An earlier memo by a Grace executive named Wood (the book dates it by "the company continued to operate Libby for another 13 years after the memo was written" and "22 more years before the *Post-Intelligencer* stories," so about 1977; his first name and the date are on a page not seen): "We believe that a decision to affix asbestos warning labels to our products would result in substantial sales losses." "Based on advice from corporate counsel, our products do not require labels if OSHA limits are not exceeded in their intended use." "We believe there is a very high risk that standards will become more restrictive." | line 210; TA §11.3, what the company knew |
+| 183 | Wood: "There is a risk that Grace will attract adverse publicity from national media concerning the presence of asbestos in vermiculite." "General public liability is a low-level risk with very high potential liability. While we have no evidence of any adverse effect of our products on consumers, neither can we offer convincing evidence that they are absolutely safe." "Future steps, such as the development of a case for continued sale of attic insulation to the Consumer Product Safety Commission, will increase the risk of widespread adverse publicity." | the same; line 36, attic insulation |
+| 318 | "Earlier in the year, Gayla had given Kirby Maki, the superintendent of Libby's schools, a Grace memo from July 8, 1981, about testing that the company had done for asbestos-tainted mine tailings at the high school. Maki immediately wrote to Peronard, asking that EPA inspect and, if necessary, remove vermiculite tailings from the running tracks of both the city's middle school and high school. 'Grace knew that there was trouble with the tracks,' Peronard told the boss of his contractors. 'We got the Grace memos showing that tests that they did in 1981 proved that the runners were stirring up dangerous levels of asbestos. Grace apparently even put an air pump on one of the runners and found the kids were being exposed to asbestos levels higher than anything OSHA would allow for workers. And they never made those findings public.' The memo said: 'Fiber concentrations were surprisingly high . . .'" | **Ch 5 line 32, the running track** |
+| 424 (source note for p. 318) | "July 8, 1981, Grace memo from R. J. Geiger to W. J. McCaig on the results of air sampling on the Libby High School running track." | the same |
+| 318 | "the EPA told Gayla it had found asbestos at Plummer Elementary School in Libby. Vermiculite tailings had been used as a base for the school's ice-skating rink." | line 32 |
+| 124 | Dr. Richard Irons, county health officer, 1979: a commissioner told him "We're not going to let you destroy one of the largest employers in town"; "Grace wanted me out of town, and the hospital was going to be their tool in achieving that." (His account.) | background: pressure on critics |
+| 130 | Margaret Vatland "would steadfastly refuse to use a wheelchair or one of the electric carts that Rosauer's, Libby's biggest and best grocery store, provided." | line 40, the grocery store |
+
+"Funeral" hits seen (five or so of eight): pp. 72, 79, 98–99, 131, 135. They are single funerals of older
+people and a passage on ancient history. **Nothing says funerals of the young were common in Libby.** "Grocery"
+hits (all three): pp. 124, 130, 225; with p. 401 these are the book's grocery-store passages.
+
+**What the book settles for Chapter 5, taken whole.** Sourced now: oxygen tanks as an everyday sight; the
+grocery-store scene (one named man, p. 401); dust carried home on work clothes; vermiculite in gardens;
+tailings on the school running tracks, with Grace's own 1981 test kept private; company memos weighing delay
+and political influence against a federal health study (Locke, 1980) and deciding against warning labels
+(Wood, about 1977). Not found: that the company "let the town use" the waste; kitchens and children's laps;
+funerals of the relatively young; lobbying to delay "regulation" as such; that the documents came out "in
+litigation."
