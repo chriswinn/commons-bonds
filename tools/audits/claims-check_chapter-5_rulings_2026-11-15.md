@@ -26,3 +26,10 @@ defensible form is the bare "twenty-two scientific studies." Applied under the a
 - **Print copies:** the author has the Nov 14 copies; new final-read copies are built once the rulings are applied.
 
 **Item 11, Christophers: ready for ruling 2026-11-24.** The author supplied Christophers's 2022 article; the replacement in the report now rests on his own words.
+
+**Item 2, new evidence after the ruling (2026-11-25).** The ruling narrowed lines 246 and 252 to the wealth gap
+because no source showed Darity and Mullen pricing life expectancy. One has now been found and read: Darity,
+Craemer, Berry and Francis (2024), p. 20, prices the longevity gap at about $29 trillion as an alternative
+summary measure. It is not in *From Here to Equality*. The ruling stands until the author revisits it; the
+option now open is to keep "gaps in life expectancy" and cite the 2024 essay. Extracts:
+`research/citations/library-uploads_extracts_2026-11-24.md`.

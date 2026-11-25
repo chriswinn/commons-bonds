@@ -887,3 +887,58 @@ to propose payments calculated to close the racial wealth gap and to argue that 
 disparities in health "including overall life expectancy"). Neither matches "six to seven years" as described.
 **Open task for a session:** find the work he meant (his Duke publication list for 2023 to 2026; *The Black
 Reparations Project*, 2023), or put the question to him.
+
+## FOUND: Darity's longevity-gap pricing (the "more recent work" of the May call), read 2026-11-25
+
+Searched at the author's request: his Duke publication list (scholars.duke.edu, reachable by plain request)
+and Crossref. The trail: Mullen, Richardson, Bassett and Darity, "A plan for black American reparations,"
+*BMJ Global Health* 11, Suppl 1 (March 2026): e017216, DOI 10.1136/bmjgh-2024-017216 (open access; full text
+read through Europe PMC, PMC13034248) says: "An alternative summary measure can be based on the life
+expectancy gap between Black and White Americans. Monetising the gap leads to an estimate of about $27
+trillion," citing the 2024 RSF introduction. That introduction is the essay Chapter 5 already quotes for
+"Redress is the act of restitution."
+
+**William Darity Jr., Thomas Craemer, Daina Ramey Berry and Dania V. Francis, "Black Reparations in the United
+States, 2024: An Introduction," *RSF: The Russell Sage Foundation Journal of the Social Sciences* 10, no. 2
+(2024): 1–28, DOI 10.7758/RSF.2024.10.2.01.** Open access; the journal's PDF downloaded and read (28 pages;
+fingerprint `2df508e88f1d2fb8`). **Page 20:**
+
+> "Elizabeth Wrigley-Field (2024, this volume, issue 2) argues that the legacy of slavery and Jim Crow was not
+> just lost income and wealth, but also lost time in the form of decreased life expectancies for black
+> Americans. She empirically estimates the relationship between lifespan and measures of slavery and Jim Crow
+> intensity for black Americans and argues that any reparations program should account for differences in
+> lifespan between black and white Americans.
+>
+> Wrigley-Field's (2024) focus on the racial longevity gap provides an intriguing alternative to the racial
+> wealth gap as a summary measure for computation of the size of the reparations bill. A rough and ready
+> approach to estimation of the amount due for reparations using her concept follows: conservatively, use as a
+> benchmark $10 million as the value of a statistical life. [note 15: "This figure is actually very
+> conservative (see Consumer Product Safety Commission 2023)."] If the average black lifespan is seventy-one
+> years, then the average value of a black year of life will be $140,845. If white longevity runs seventy-six
+> years, the comparative loss in black longevity is five years. Five years multiplied by $140,845 yields a
+> payout per eligible black recipient of $704,255. With an estimated forty-one million black American
+> descendants of persons enslaved in the United States, the total bill will come to about $29 trillion."
+
+The same page, on the wealth gap: an estimated forty-one million eligible black Americans "would be due about
+$16.1 trillion"; and "Darity and Mullen (2021) argue that elimination of the mean racial wealth gap should be
+the target for any reparations program."
+
+Other passages in the 2026 paper: "The roughly 5-year difference in life expectancy between Black and White
+Americans has been linked to the enduring legacy of racial subjugation"; closing the wealth gap, "currently
+estimated at $16 trillion"; modelling (Himmelstein et al. 2022) in which reparations "would reduce excess
+premature mortality among Black Americans and potentially eliminate the racial disparities in life
+expectancy."
+
+**What it settles.** The author's memory of the call was right. Darity and his co-authors do put a price on
+the longevity gap: five years, $704,255 per person, about $29 trillion (the 2026 paper says about $27
+trillion). They present it as "an intriguing alternative" and "rough and ready," built on Wrigley-Field's
+study; the wealth gap remains their target. Three differences from the call notes and the chapter: the gap is
+five years in print (the call notes have six to seven); the work is Darity, Craemer, Berry and Francis (2024)
+and Mullen et al. (2026), **not Darity and Mullen's book**; and it uses the value of a statistical life, the
+same device the Technical Appendix uses for McDowell County. **Consequence for Chapter 5 lines 246 and 252:**
+"gaps in life expectancy" can stay, with the right citation (the 2024 essay, p. 20). The ruling on item 2
+narrowed those lines to the wealth gap for want of this source; the author may want to revisit it. "Broken
+transmission of knowledge" and "trauma passed down through generations" still have no source as things priced.
+
+**Not yet read:** Elizabeth Wrigley-Field, "Stolen Lives: Re[dress for Slavery's and Jim Crow's Ongoing Theft
+of Lifespan]," *RSF* 10, no. 2 (2024) (title as far as the reference list shows it; to be completed when read).
