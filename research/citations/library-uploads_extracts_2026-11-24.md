@@ -790,3 +790,42 @@ It Rain*. **What does not yet stand:** any statement about what chapters 3 to 13
 they discuss life expectancy, trauma or the transmission of knowledge. The author's ruling on item 2 is still
 the cautious wording and does not depend on this; but the session should not tell anyone the book lacks those
 words until chapter 13 and the rest are searched.
+
+**Fifth batch, same night: THE FULL BOOK.** The author downloaded the complete ebook (685 Kindle pages) and
+re-ran the searches. This supersedes the sample-only cautions above. **The Kindle "page" numbers are not the
+print pages:** the book's own index lists "restitution, 3, 13, 18, 22, 23, 24, 249–52, 264–65," while the
+Kindle search puts the same passages at 34, 47, 55, 60–63, 384–389 and 406–408. So in print the Introduction
+passage is at about p. 3, chapter 12's at about pp. 249–52 and chapter 13's at about pp. 264–65 (matched by the
+session from the index; to be confirmed against a print copy). Most quotations below are **search-result
+snippets, cut off by the app**; full passages still to be photographed.
+
+| Search (full book) | Result |
+|---|---|
+| "life expectancy" | **no results** |
+| "longevity and mortality" (as the author typed it; whether as one phrase or two searches is not clear) | no results |
+| "trauma" | 3 hits (below) |
+| "restitution" | 30 hits; none is the sentence "Redress is the act of restitution…" |
+| "wealth gap" | hits in the preface, chapters 1, 2 and 13, With Gratitude, and the notes |
+
+| Where (Kindle page; chapter) | Their words | Bears on |
+|---|---|---|
+| 34; Introduction (print p. 3 by the index) | "…forms, not necessarily mutually exclusive: restitution or atonement. Restitution is the restoration of survivors to their condition before the injustice occurred or to a condi[tion]…" "…in our proposal, we treat restitution as the appropriate form of redress. We have clear metrics for determining when restitution has been achieved that we do not have for establishing the same for atonement. Specifically, restitution for African Americans would eliminate racial disparities in wealth, income, education, health, sentencing an[d]…" | **Ch 5 line 234 and the Restitution Bond's name; lines 246, 252** |
+| 405; ch. 13 | "Indeed, we view the racial wealth gap as the most robust indicator of the cumulative economic effects of white supremacy in the United States." "…centers on eliminating the racial wealth gap is to calculate the amount needed to give eligible black Americans a share of the nation's wealth comparabl[e]…" | **lines 246, 252: what they price** |
+| 406; ch. 13 (print pp. 264–65 by the index) | "…several compelling calculations for monetary restitution. These include the estimates advanced by Ransom and Sutch, Neal, Craemer, and Marketti…" "…estimate moored to the racial wealth gap. Monetary restitution is necessary because the failure to provide ex-slaves with an initial outlay of property in land and the repercu[ssions]…" "The magnitude of ongoing shortfalls in wealth for blacks vis-à-vis whites provides the most sensible foundat[ion]…" | the same |
+| 407–410; ch. 13 | "an effective program of restitution must include direct payments to eligible recipients"; "restitution could be financed without even altering tax rates"; a trust account of $250,000 per eligible recipient is discussed. | background |
+| 389; ch. 12 | "In general, victims of trauma have healthier outcomes when their harm is recognized and awarded restitution. It is no different for victims of racism. Acknowledgment and compensation for the harms they have endured are essential for them to 'get over it.'" | line 252, "trauma": mentioned as a reason for restitution, not priced |
+| 367; ch. 11 | Quoting the UN Working Group via the *Washington Post*: "Contemporary police killings and the trauma that they create are reminiscent of the past racial terror of lynching." | the same |
+| 346; ch. 11 | Urban renewal and gentrification: "Both processes are traumatic for their victims." | the same |
+| 634; notes | "…not advocate eliminating the racial wealth gap by taxing away white wealth until white net worth reaches the low existing levels of black wealth." | background |
+
+**What the full book settles.** (1) Darity and Mullen's bill is "moored to the racial wealth gap," which they
+call "the most robust indicator of the cumulative economic effects of white supremacy." (2) **"Life
+expectancy" appears nowhere in the book.** Trauma appears three times, never as something measured or priced.
+So Chapter 5's "their measures … of the gap in life expectancy" and "Darity and Mullen price … gaps in life
+expectancy, broken transmission of knowledge, trauma" are not supported by the book, and the author's item 2
+ruling (narrow to the wealth gap) is confirmed. (3) A nuance worth keeping: the Introduction says restitution
+"would eliminate racial disparities in wealth, income, education, health, sentencing…", so health is among
+the disparities restitution aims at. (4) The book defines restitution itself and names it "the appropriate
+form of redress": strong support, from the book and not only the 2024 essay, for the name Restitution Bond.
+(5) The appendix's page reference for the definition ("2020, 2–4") is plausible: the index puts the
+Introduction's restitution passage at print p. 3.
