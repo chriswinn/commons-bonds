@@ -55,7 +55,6 @@ Reports the "Settles" column refers to: **TA** = `tools/audits/claims-check_tech
 | # | Source | What to copy | Settles | Note |
 |---|---|---|---|---|
 | L16 | Gawande, *Being Mortal* (2014) | Passages on how doctors are paid, palliative care, training | Ch 5 line 18 | Low risk; the project's note may suffice Re-tested 2026-11-15: print-disabled only at archive.org; no excerpt tried. |
-| L17 | Mian and Sufi, *House of Debt* (2014) | Chapter 2, the pages on who lost the most | Ch 5 lines 86–88 | Low risk Re-tested 2026-11-15: print-disabled only at archive.org. Mian, Rao and Sufi (Part 3) may cover it. |
 | L19 | Zhou and Ge (2021), *The Extractive Industries and Society* 8(1): 340–354, DOI 10.1016/j.exis.2020.11.010; Zhang, Zhang, Peng, Feng, Fang and Chen (2022), *Science of the Total Environment* 831: 154934, DOI 10.1016/j.scitotenv.2022.154934 | The two PDFs | Ch 5 line 138 | **Both confirmed to exist, 2026-11-15** (titles in `research/citations/library-retest_2026-11-15.md`). The publisher refuses sessions both ways, so the PDFs still need you. The 2022 paper is about who consumes the output, not about waste; skip both if you cut or reword the sentence. |
 | L21 | Keefe, *Empire of Pain* (2021) | Any passage saying Purdue targeted particular kinds of communities; any mention of McDowell County | TA §6.7 | Skip if you take the report's rewording, which needs no source Checked 2026-11-15: only an unofficial upload online. |
 
@@ -240,6 +239,10 @@ report's own address has not been found yet (Part 5).
 - **L14, Sandel, *What Money Can't Buy*, the fines-and-fees passage (done 2026-11-25).** The author photographed
   pp. 63–74 with the title and copyright pages from the Google Books preview (first edition, 2012). The
   fine-versus-fee argument is on pp. 64–66 and 72–74. Extracts in
+  `research/citations/library-uploads_extracts_2026-11-24.md`.
+
+- **L17, Mian and Sufi, *House of Debt*, chapter 2 (done 2026-11-25).** The author photographed pp. 17–26 with
+  the title and copyright pages from the Google Books preview (2015 paperback). Extracts in
   `research/citations/library-uploads_extracts_2026-11-24.md`.
 
 ## Part 5. Not yet fully tried: do not fetch these

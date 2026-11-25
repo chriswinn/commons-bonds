@@ -653,3 +653,28 @@ Sandel's argument and close to his words. The sentence before it, on "a sacred l
 unborn" and "the extractor's way of seeing," is not in these pages; those are the chapter's examples. Two
 things worth knowing for the chapter's reply: he says he has partly reconsidered on emissions trading (p. 73),
 and he grants that a big enough tax makes "the polluters pay for the damage they inflict" (p. 74).
+
+## Mian and Sufi, *House of Debt*, chapter 2, pp. 17–26, from the author's photographs
+
+Atif Mian and Amir Sufi, *House of Debt: How They (and You) Caused the Great Recession, and How We Can Prevent
+It from Happening Again* (Chicago and London: University of Chicago Press; "© 2014, 2015 by Atif Mian and Amir
+Sufi. … Published 2015"; "With a new Afterword"; ISBN 978-0-226-27165-1 paper). Six photographs of the
+publisher's preview at Google Books, 2026-11-25: title and copyright pages and chapter 2, "Debt and
+Destruction," pp. 17–23 and 25–26 (p. 24 is a figure). Read by eye. The project's notes call this material
+"Levered Losses"; that is the title of Part I, not seen here; the chapter's title is "Debt and Destruction."
+
+| Page | Their words | Bears on |
+|---|---|---|
+| 18 | "The fundamental feature of debt is that the borrower must bear the first losses associated with a decline in asset prices." | Ch 5 line 88, leverage |
+| 19 | "When house prices collapse in an economy with high debt levels, the collapse amplifies wealth inequality because low net-worth households bear the lion's share of the losses." "During the Great Recession, house prices fell $5.5 trillion." | line 86 |
+| 20 | "Home owners in the bottom 20 percent of the net-worth distribution—the poorest home owners—were highly levered. Their leverage ratio … was near 80 percent." "The richest 20 percent of home owners had a leverage ratio of only 7 percent." "About $4 out of every $5 of net worth was in home equity." | line 86 |
+| 22 | "The collapse in house prices hit low net-worth households the hardest because their wealth was tied exclusively to home equity." The example: 20 percent equity in a $100,000 home; prices fall 20 percent; "the home owner's equity has been completely wiped out—a 100 percent decline. In this example, the leverage multiplier was 5." "From 2006 to 2009, house prices across the country fell by 30 percent." | line 88 |
+| 23 | "From 2007 to 2010, their net worth collapsed from $30,000 to almost zero. … The average net worth of rich home owners declined from $3.2 million to $2.9 million. While the dollar amount of losses was considerable, the percentage decline was negligible." "it imposes enormous losses on exactly the households that have the least." | lines 86, 88 |
+| 25 | "In 2007 the top 10 percent of the net-worth distribution had 71 percent of the wealth in the economy. … In 2010 the share of the top 10 percent jumped to 74 percent. … The rich stayed rich while the poor got poorer." | background |
+| 26 | "In 2011, 11 million properties—23 percent of all properties with a mortgage—had negative equity." Merced County: "Home owners responded by borrowing aggressively, and household debt increased by 80 percent." | background; a caution on "they didn't behave worse" |
+
+**What it settles.** Lines 86 and 88 are supported from the book. Three cautions for the wording: (1) Mian and
+Sufi compare **home owners** by net worth, not all households; (2) the poorest lost the most as a share of
+what they had, while in dollars the rich lost more, so "lost a multiple of what wealthier families lost" is
+true only in percentage terms; (3) the "three times" spending figure is not in these pages (it is from Mian,
+Rao and Sufi 2013, as the report already says).
