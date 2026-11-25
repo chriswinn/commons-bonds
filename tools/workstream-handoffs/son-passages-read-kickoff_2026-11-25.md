@@ -1,7 +1,7 @@
 # Kickoff for a fresh session: are the Chapter 1 passages about the author's son right for this book?
 
-**Status:** internal; written 2026-11-25 at the author's request; revised the same day (Chapter 5 is no longer
-part of the read). **A read and a recommendation only. Change no chapter text.**
+**Status:** internal; written 2026-11-25 at the author's request; revised the same day (narrowed to Chapter 1
+alone). **A read and a recommendation only. Change no chapter text.**
 
 ## Why a fresh session
 
@@ -33,9 +33,8 @@ first, as a reader would.
 **Chapter 5 is not part of this read.** A search on 2026-11-25 found no mention of his son in it. He had
 named it only because it is as finished as Chapter 1 (his clarification, the same day).
 
-Also search the other chapters and the Author's Note for the son, the marriage and the estrangement, and list
-what you find without judging it yet (Chapter 10 returns to family; the chapter on main is unchanged from
-June).
+**Chapter 1 only.** Do not search or read the other chapters or the Author's Note for this subject. If he
+changes these passages, any cleanup elsewhere is a separate, later step (his instruction, 2026-11-25).
 
 ## The question to answer
 
@@ -71,8 +70,8 @@ For each passage, and then for the set as a whole:
 ## What to hand back
 
 One short file, `tools/audits/son-passages-read_<date>.md`: the verdict in the first three lines; then each
-passage with keep, shrink or cut and one or two sentences of reasoning; the case for the other side; what you
-found in the other chapters; and the consent point. Commit it and push to main as internal scaffolding. Then
+passage with keep, shrink or cut and one or two sentences of reasoning; the case for the other side; and the
+consent point. Commit it and push to main as internal scaffolding. Then
 tell him the verdict in the conversation in a few sentences, and stop. He decides.
 
 ## Context the session needs
