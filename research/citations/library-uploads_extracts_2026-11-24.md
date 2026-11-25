@@ -873,3 +873,17 @@ reparations payments closing the mean wealth gap ($828,055 per household) would 
 gap by 65 to 102.5 percent. That is the wealth gap's effect on life span, not a dollar price put on years of
 life. Whether he has other work that prices the gap in years directly is not known; a search on 2026-11-25
 found none, which is not proof there is none. Anything from the call itself needs his review before use.
+
+**Correction to the note just above, same night.** The project holds his words from the May call, in the
+synthesis file (line 85): "that's why we settled on something like the racial wealth gap. In some other more
+recent work, we've talked about pricing out the longevity gap... the average black individual in the United
+States lives six to seven years less than the average white individual. Use that differential as a means of
+calculating what is due to those who are currently living." So he placed it in **"other more recent work,"**
+not in the book, and he described pricing the gap in years directly. That is call material and needs his
+review before use. Published candidates found by search, **none opened yet**: Himmelstein et al. (2022), on
+file, which reports a 4-year gap in median life expectancy and runs from wealth to longevity; and a 2026
+*BMJ Global Health* paper by Mullen, Richardson, Bassett and Darity (seen only in a search summary: it is said
+to propose payments calculated to close the racial wealth gap and to argue that closing it would reduce
+disparities in health "including overall life expectancy"). Neither matches "six to seven years" as described.
+**Open task for a session:** find the work he meant (his Duke publication list for 2023 to 2026; *The Black
+Reparations Project*, 2023), or put the question to him.
