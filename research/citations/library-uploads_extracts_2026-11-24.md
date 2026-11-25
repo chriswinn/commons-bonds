@@ -512,3 +512,40 @@ are separate ingredients of one model, and the first universal pension (1913) ca
 cites Standing (1988) for the 1930s labor unrest, a properly sourced form of the union page's ranking claim
 (Standing himself not read). The search summary's "direct line … to fund universal social programs" is its
 own gloss; her text gives a sequence (1938, 1944, 1951), not a causal claim about welfare.
+
+## Schneider and McCumber, *An Air That Kills* (2004), from the author's photographs (first batch)
+
+Andrew Schneider and David McCumber, *An Air That Kills: How the Asbestos Poisoning of Libby, Montana,
+Uncovered a National Scandal* (New York: G. P. Putnam's Sons, "Copyright © 2004 by Andrew Schneider and David
+McCumber"; ISBN 0-399-15095-1; "Source Notes appear beginning on page 409"). Archive.org loan (a South San
+Francisco Public Library copy). The author searched the scan for "oxygen": 34 hits. This batch, 2026-11-25, is
+the cover, title and copyright pages and hits 1 to about 18: pp. 4–5, 24–25, 106–107, 112–115, 128–129,
+142–143, 184–185, 222–223, three spreads of the unnumbered photo section, and 252–253. Read by eye. **Hits
+after p. 253 and the other search words (funeral, track, grocery, dust, lobby) have not been seen.**
+
+| Page | Their words | Bears on |
+|---|---|---|
+| 4 | "Many people came—to add flowers, to walk among the crosses, to read the names. Some were carting long green oxygen tanks by their sides, like Don Kaeding, who said cheerfully, 'Well, my name might be here next year.' It would be." | Ch 5 line 40, oxygen tanks |
+| 5 | "Look at the workingmen's houses where to this very day tiny spears of asbestos hover in the air like a judge's sentence. Look at the people who walk to the post office with slow, shuffling steps, rolling what's left of their lives beside them in the green tanks." | line 40: the nearest thing to the chapter's image; the place is the post office |
+| 24 | "Art Bundrock worked at the Zonolite mine for 19 years. He had died four months earlier on the lawn in front of his house, having left his oxygen bottle inside. … the pain he suffered from his disease was nothing compared to the pain of knowing that Helen and four of their five children had gotten the disease from the dust on his work clothing." | line 32, dust carried home |
+| 24 | Helen Bundrock on her son: "Bill had to get a chest X-ray before they hired him. That X-ray showed he had asbestosis, and they never told him." Also: "the accusations, made by many, that managers at the mine had told the workers that the dust was harmless." | what the company knew (TA §11.3); these are family members' statements |
+| 25 | "Men shackled to green oxygen bottles." Schneider's first count: "at least one hundred and fifty people have died from the asbestos in the mine's vermiculite ore. Another three hundred–plus are sick and dying." | line 40 |
+| 112 | "Death and illness were sure things for a good chunk of the population. There was no room for doubt, Peronard thought, as he tried to count the number of people in the crowd who were clutching oxygen bottles. Almost 600 people packed Libby's tiny gymnasium for a meeting." | line 40 |
+| 114 | Lawyer Roger Sullivan told the meeting "how the largest stack in the ore-processing mill had put 5,000 pounds of asbestos into the air each day, and how the wind would disperse much of it over the town." | line 32, "the air the town breathed" (a plaintiffs' lawyer's statement) |
+| 143 | Les Skramstad: "Dragging a tank of air behind you is like admitting that you're dying. Everybody I know who started on oxygen died a few months later." | line 40 |
+| 184 | A company memo on a planned NIOSH study of Libby lists options: "A. Obstruct and block … B. Be slow, review things extensively and contribute to delay. … G. Attempt to apply influence to congressmen, senators, lobbyists or others to get it turned off. However, it is not necessarily successful, can backfire … At this time I tend to favor a phased combination of options B, C, E and F." Dated by its reference to "the new [Reagan] Administration's policies … after Jan. 20, 1981." **The page that names the memo's author and date (p. 183) was not photographed.** | **Ch 5 line 210**, lobbying and delay; TA §11.3 |
+| 185 | "The sickening of Libby was such a gradual thing. … a town that is slowly dispatching its miners to the graveyard, slowly increasing its per-capita use of oxygen tanks, slowly increasing its quotient of widows with shortness of breath, does not immediately realize what is happening. … For decades, it had insulated its houses and aerated its vegetable gardens with the locally produced vermiculite, and watched its children play on piles of mining waste and on ball fields dotted with ore that sparkled in the summer sun. Libby proudly used Zonolite in building its schools and its stores and its railway station." | line 32 (gardens, children, ball fields); line 40 |
+| photo section | Captions: "Edna Oikle, who has asbestosis, was exposed to asbestos when she washed her husband Jerry's work clothes." "Don Kaeding, with his oxygen tank, listens at the first public meeting in Libby about the health crisis." Memorial Day 2002 services "for the hundreds in Libby who have died of asbestos-related disease." | lines 32, 40 |
+
+Pages 106–107 (Dr. Harbut, Detroit), 128–129 (Margaret Vatland's last years on oxygen), 222–223 (Senator
+Murray's 2001 hearing) and 252–253 (talc miners in New York State) are not about the chapter's sentences.
+
+**What it settles so far.** (1) Oxygen tanks were a common, visible part of life in Libby: amply supported.
+The chapter's particular picture, tanks "in grocery carts beside the bread," is not in these pages; the
+book's own picture is people walking to the post office with green tanks. (2) Dust carried home on work
+clothes and sickening families: supported (p. 24; caption). (3) Vermiculite in gardens and children playing on
+mine waste and ball fields: supported (p. 185), as the town's own use, not as something "the company let." (4)
+The lobbying sentence at line 210 has a real basis: a company memo weighing obstruction, delay and influence
+on Congress against a federal health study. The chapter says the documents show an effort to delay "the
+regulation of asbestos"; the memo is about delaying a **NIOSH study**. Page 183 is needed for who wrote it and
+when.
