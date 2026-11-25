@@ -835,3 +835,20 @@ the preface (Kindle p. 15; this is the "How Much" section seen only at its edge 
 victimized community as restitution for grievous injustices. One approach is to enumerate the atrocities,
 assign dollar values to each, and then ad[d]…" So the preface sets out more than one way of computing the
 bill before settling on the wealth gap; the full page is still wanted.
+
+**Same night: four full pages from chapter 13 of the full book** (search "a program of black reparations," 5
+results). Chapter 13 opens at Kindle p. 394 of 685 (60%); the other three screenshots show no page number.
+These are whole pages, not cut-off snippets.
+
+| Where | Their words | Bears on |
+|---|---|---|
+| ch. 13 (result 3) | "*For both symbolic and substantive reasons*, an effective program of restitution must include direct payments to eligible recipients. There are many effective options for financing a program of black reparations, even a program that would require a combined expenditure as large as $15 to $20 trillion. Obviously, lesser amounts would be managed more readily. For instance, even the full payout in 2016 based on our preferred standard—the racial gap in per capita wealth—would have amounted to less than half of the total national income." Before it: the German precedent ("funds were given to the state of Israel to aid its economic development"). | **Ch 5 lines 246, 252: their "preferred standard" in their own words** |
+| ch. 13 (result 4) | "The superfund strategy would meld public and private responsibility for American racial injustice in funding a program of black reparations. However, we view public responsibility as paramount, since the federal government established and maintained the legal structure and pattern of enforcement that enabled private actors to engage in racist practices with impunity." | who owes |
+| ch. 13 (result 4) | "Second, as journalist Matthew Yglesias has proposed, *Congress could direct the Federal Reserve to fund black reparations either in part or in total.* Given the overnight transfer of $1 trillion of funds from the Federal Reserve to investment banks during the Great Recession and monthly outlays of $45 to $55 billion to conduct 'quantitative easing,' there can be no doubt that the Fed has vast capacity to provide the funds required for a properly designed…" | **Ch 5 item 7** ("trillions within days"): Darity and Mullen make the same comparison, with "$1 trillion" and "overnight" |
+| ch. 13 (result 5) | "A number of whites descended from slave owners have asked us what they should do as acts of atonement. Our response has been to encourage them to build a lobbying organization to advocate, forcefully, for reparations for black Americans." | background |
+
+**What it adds.** The sentence to quote for what they price is now complete and in their words: "our preferred
+standard—the racial gap in per capita wealth." And the book makes the chapter's own 2008 argument (what the
+system could mobilize, and how fast) with a figure of its own: "the overnight transfer of $1 trillion … to
+investment banks during the Great Recession." That is their statement, with a note (not seen) behind it; it
+is a lead for item 7, not yet a primary source for the figure.
