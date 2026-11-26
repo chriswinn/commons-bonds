@@ -329,3 +329,27 @@ are short; the PDF is the record. Fingerprint `cf6bbfe4bf16d697`.
 **Net.** With Klinger, Sky News, the 2020 groundwater study and Zhang et al., Baotou can stand as a sourced
 case of harm falling far from the gain. It still cannot carry a cleanup figure. Her own secondary sources
 (Hurst 2010; Wang 2006; Ren 2013) are the next layer down if a number is to be quoted at its origin.
+
+---
+
+# Part B, second batch (2026-11-26): thirteen pins, each read on the page named
+
+| # | Claim (where) | Source read | Its words (short) | Status |
+|---|---|---|---|---|
+| 18 | Fanning and Hickel "calculated the compensation owed for the appropriation of the atmosphere" (Ch 5 line 250) | Fanning and Hickel, "Compensation for atmospheric appropriation," *Nature Sustainability* (2023), nature.com, open access | "compensation of US$192 trillion would be owed to the undershooting countries of the global South… by 2050" | **SUPPORTED** |
+| 19 | CARICOM "has put forward a plan for reparatory justice" (Ch 5 line 250) | CARICOM Reparations Commission, "10-Point Reparation Plan" (caricomreparations.org) | the plan is framed around "African enslavement and native genocide"; the word "climate" does not appear on the page read | **SUPPORTED for the plan; "a current program in climate economics" SAYS MORE** (as the report said) |
+| 20 | Social Security "designed in 1935 as a pay-as-you-go system" (Ch 5 line 110) | CRS, *Social Security: The Trust Funds* (RL33028), everycrsreport.com | "Social Security is a pay-as-you-go system, meaning that current revenues are used to pay current costs"; nothing on the page read dates that design to 1935 | **"pay-as-you-go" SUPPORTED; "designed in 1935 as" still unpinned** |
+| 21 | TARP's repayment (Ch 5 line 100) | ProPublica, Bailout Tracker (as of August 18, 2022) | "$635B has gone out the door… $390B of principal has been repaid… revenue from its investments of $353B… a $109B profit"; housing programs' "$31.6 billion… isn't coming back" | **SUPPORTED** (covers TARP and Fannie/Freddie together; say which) |
+| 22 | Healthcare "rose at several times the rate of general inflation" (Ch 5 line 78) | Peterson–KFF Health System Tracker, "How have healthcare prices grown in the U.S. over time?" | "Since the end of 2007, healthcare prices have grown 21.6%, while prices in the general economy… have grown 17.3%." | **CONTRADICTED on "several times"** for that period; "faster than prices in general" stands. An earlier period may differ; pin BLS before any stronger wording. |
+| 23 | GoFundMe's chief executive on its purpose (Ch 5 line 28) | KFF Health News interview with Rob Solomon (2019) | "We didn't build the platform to focus on medical expenses"; "about a third" of money raised "has been for medical expenses" | **SUPPORTED at the source**; he was chief executive when he said it (the report's "former" applies now, not then) |
+| 24 | EPA's value of a statistical life (TA §11.3) | EPA, "Mortality Risk Valuation" | "the central estimate of $7.4 million ($2006), updated to the year of the analysis" | **SUPPORTED** for the central value; the appendix's two ends need the updating year stated |
+| 25 | Isle de Jean Charles (TA §11.6) | Louisiana, isledejeancharles.la.gov | "a first-of-its-kind, national initiative that offers resettlement options" | **Supports "first of its kind"**; "first fully federally-funded" not on the page |
+| 26 | Norway's marginal petroleum tax (TA §4.3, §11.5) | norskpetroleum.no, "The petroleum tax system" | "a special tax rate of 71,8 %… a combined marginal tax rate of 78 %"; "ordinary company tax rate is 22 %" | **SUPPORTED** (78 percent is the marginal rate; "70–80 percent as the state's share" is the appendix's own use) |
+| 27 | Combustion factors (TA §11.5, §11.6) | EIA, "Carbon Dioxide Emissions Coefficients" | bituminous coal "2,324.56" kg CO2 per short ton; coal, all types, "1,735.85" | **Pinned**; check the appendix's factor against these two |
+| 28 | Reclamation gap (TA §11.1, §11.6) | Appalachian Voices, *Repairing the Damage* (2021), the report itself | "633,000 acres in need of some degree of reclamation… $7.5 to $9.8 billion… Total available bonds across the seven Eastern states amount to about $3.8 billion" | **SUPPORTED at the source; seven states, not McDowell.** The gap is $3.7–6.0 billion, which is where the appendix's "$3.7–6" comes from. |
+| 29 | China's export restrictions, 2010–2012 (TA Thm 10.3) | WTO, dispute DS431 | "On 13 March 2012, the United States requested consultations with China with respect to China's restrictions on the export of various forms of rare earths" | **SUPPORTED for the restrictions**; the price spikes still need a price series (USGS) |
+| 30 | "Trillions… within days" context (Ch 5 line 90) | (see entry 4; and Darity and Mullen ch. 13) | | |
+
+**Not reached in this batch:** the UN climate pages for the Loss and Damage Fund (empty response); etymonline
+for *forclore* (403); the opioid settlement site (script-only page); OMB Circular A-4 (address not found); the
+CMS page on Medicare negotiation (no usable sentence). To retry by other routes.

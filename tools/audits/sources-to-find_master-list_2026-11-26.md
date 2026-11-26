@@ -205,6 +205,7 @@ library request for it through the same form and logs it here.
 
 ## Changes log
 
+- **2026-11-26.** Part B, second batch: thirteen pins read (extracts §18–§29): Fanning and Hickel; CARICOM; pay-as-you-go; TARP; healthcare prices; Solomon; EPA's value of life; Isle de Jean Charles; Norway's tax; combustion factors; Appalachian Voices; the WTO case.
 - **2026-11-26.** 22 books and 8 more articles requested (A5); Klinger read.
 - **2026-11-26.** Part B, first batch: the Grace indictment, *Umbrellas*, Realmonte, Archer, Pericak, Hamilton read; five papers and Klinger's book to retry.
 - **2026-11-26.** Twelve interlibrary loan requests placed (A4).
