@@ -161,6 +161,12 @@ Bergson (1938); Esping-Andersen (1990); Hong and Page (2004); Mosteller and Tuke
 
 **Total on order: 40 articles, 1 book chapter, 86 books (127 requests).** The author's note: books travel from Virginia's community college libraries first, then the wider network, and will arrive at random through the end of the semester and beyond.
 
+**Printable list (2026-11-26, second session):** `library-requests_by-chapter-and-priority_2026-11-26.pdf`, built by
+`tools/scripts/build-library-request-list.py`: every request once by chapter and once by priority (first: Ch 5 and
+the appendix's checked claims; second: Ch 2, 4, 3, 10; third: Ch 6–9; fourth: the appendix's unopened references).
+**Count check:** this log names 126 distinct requests (86 books, 39 articles, 1 book chapter), not 127; the earlier
+article count of 40 looks one too high. No receipts exist to settle it.
+
 **Free copies:** ten downloaded and checked; ten blocked and listed for the author to try (`research/citations/session-web-sources_extracts_2026-11-26.md`, "Free copies"). The work-by-work check is `sources-reconciliation_ch1-ch5-ta_2026-11-26.md`.
 
 ---
