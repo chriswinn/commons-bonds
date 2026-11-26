@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<title>Commons Bonds session handoff, 2026-11-26 (sources stage: requests placed, harvest done)</title>
+<style>body{font-family:Georgia,serif;max-width:46em;margin:2em auto;padding:0 1em;line-height:1.5}h1{font-size:1.4em}h2{font-size:1.15em;margin-top:1.6em}code{font-size:.9em}table{border-collapse:collapse}td,th{border:1px solid #999;padding:.3em .5em;vertical-align:top;text-align:left}</style>
+</head><body>
+<h1>Session handoff, 2026-11-26: the sources stage</h1>
+<p><strong>Status:</strong> internal. Written by the sources session (branch <code>claude/chapter-5-sourcing-check-bm1nbc</code>; everything is on <code>main</code>). The session ran two days and grew heavy; a fresh session should take over.</p>
+
+<h2>1. What this session did (2026-11-25 to 26)</h2>
+<ul>
+<li>Read every source the author uploaded and about sixty a session could reach. <strong>No chapter, appendix or ledger text was changed.</strong></li>
+<li>Built four working files in <code>tools/audits/</code>:
+ <ul>
+ <li><code>claims-and-sources_running-list_2026-11-25.md</code>: every open item for Ch 1, Ch 5 and the appendix, sorted into approach questions (A1–A11), rulings to revisit (V1–V6), sources to read, and reword batches.</li>
+ <li><code>sources-to-find_master-list_2026-11-26.md</code>: everything still to find, and a log of every library request.</li>
+ <li><code>sources-reconciliation_ch1-ch5-ta_2026-11-26.md</code>: work by work, read / requested / neither.</li>
+ <li><code>sources-harvest_ch2-4_ch6-10_2026-11-26.md</code>: what each of the other eight chapters leans on.</li>
+ </ul></li>
+<li>Extracts (the words on the page, with pages): <code>research/citations/library-uploads_extracts_2026-11-24.md</code> (the author's uploads) and <code>research/citations/session-web-sources_extracts_2026-11-26.md</code> (what the session fetched; Part B batches 1–4; free copies; Tönnies).</li>
+<li>Placed <strong>127 interlibrary loan requests</strong> in the author's name through his school's form, at his direction: 40 articles, 1 book chapter, 86 books. Two more he placed himself. Only the form's confirmation page was seen; no receipts.</li>
+<li>Wrote a kickoff for a separate read of the Chapter 1 passages about his son; that session ran and reported (<code>tools/audits/son-passages-read_2026-11-26.md</code>). His decision on it is not recorded here.</li>
+</ul>
+
+<h2>2. The author's standing instructions from this session</h2>
+<ul>
+<li><strong>Find every source before any decision to cut</strong> (<code>tools/memory/feedback_find_sources_before_cutting.md</code>). Do not tell him an item can be skipped because its sentence might go.</li>
+<li><strong>Translated works:</strong> no citation, quotation or paraphrase may rest on a translation made by him or by a session; request a published English translation. A free original-language copy is for checking only. (Same file.)</li>
+<li><strong>When a session cannot reach a source after trying, request it through the library</strong> and log it in the master list (section A5). He confirmed the form's two sign-offs (catalog checked; policy agreed). His contact details are in his draft-form PDF in the session's uploads, not in the repository; a new session needs him to attach it again.</li>
+<li><strong>Free copies a session is blocked from:</strong> tell him, he tries in a browser, and only then request.</li>
+<li><strong>Sources before drafting</strong> for Chapters 2–4 and 6–10: harvest, request and fetch, pin a fact table (fact, source, page, exact words), draft from the table only, then a light claims check before his redline.</li>
+<li>No prose drafting and no further rulings until he says the sources stage is over. Rulings given earlier are in <code>tools/audits/claims-check_chapter-5_rulings_2026-11-15.md</code> and are still unapplied.</li>
+<li>Keep quotations from copyrighted books short in any reply or note; a long transcription tripped an output filter once.</li>
+</ul>
+
+<h2>3. Top priority for the next session, with steps</h2>
+<ol>
+<li>Fetch and rebase on <code>origin/main</code>. Read <code>STATE.md</code>, this file, the master find-list and the harvest.</li>
+<li><strong>Read whatever he uploads</strong> (library articles and photographed book pages will arrive at random through December and beyond). For each: record short extracts with page and edition, say what it settles and what is left, update the running list and the master list, add a row to <code>research/citations/source-files-index.md</code>, commit and push to main.</li>
+<li><strong>Fetch every item the harvest marks "free"</strong> (court opinions, agency reports, Dasgupta's review, Jonung's paper on Sweden's 1990s rescue, Dunbar, Du Bois, Locke).</li>
+<li><strong>Start the pinned fact table for Chapter 2</strong> from what is in hand; its 50 unsupported claims are in <code>tools/audits/claims-check_ch02-pace-draft_2026-11-15.md</code>. Then Chapters 4, 3, 10, 6, 7, 8, 9.</li>
+<li><strong>Finish the reconciliation</strong> (its Part 4): the row-by-row match of the three claim tables against the master list, and a hand check of the "read" column, which was made by matching names and can overstate.</li>
+<li>When he says the sources stage is done: walk him through the approach questions and the reword batches in the running list, record rulings, and only then draft, in the lean pipeline.</li>
+</ol>
+
+<h2>4. What the sources changed most (for the walkthrough)</h2>
+<table>
+<tr><th>Item</th><th>Finding</th></tr>
+<tr><td>What Darity and Mullen price (V1)</td><td>Wealth gap: theirs (ch. 13, read whole). Life expectancy: theirs as "an alternative summary measure" in the 2026 <em>BMJ Global Health</em> paper. Trauma and lost knowledge: they say the estimates leave these out.</td></tr>
+<tr><td>"The method belongs to them" (V5)</td><td>Their bill is the plain gap in mean wealth; <em>Umbrellas</em> compares within categories. Neither matches households. The matched-county design is the book's own.</td></tr>
+<tr><td>"A reparations bond" (V6)</td><td>They bill the federal government and argue against "piecemeal reparations" from institutions. In tension with a bond posted by the party that gained. Wait for Darity's answer.</td></tr>
+<tr><td>McDowell's headline (A1, A11)</td><td>Tonnage: 1.5 billion tons recorded, against the appendix's 600 million. Price: Southern West Virginia sold at $129.33 in 2024, so the multiple is about four, not 4 to 13.</td></tr>
+<tr><td>Libby (A4)</td><td>The indictment, ¶46: at least $140 million in after-tax profit, 1976–1990. First sourced figure for what the mine earned. Zonolite ran it from 1939.</td></tr>
+<tr><td>Baotou (A8)</td><td>Klinger pp. 119–128 sources the lake, the river, cancer mortality and the villages' $32 a person. No cleanup figure exists.</td></tr>
+<tr><td>Christophers (A6)</td><td>Chapter 5's sentence is contradicted by his own Introduction: profit, not price.</td></tr>
+<tr><td>Social Security</td><td>2026 Trustees Report: 2032 and 78 percent; $29.3 trillion; 3.7 workers per beneficiary in 1970, so "many workers" overstates.</td></tr>
+<tr><td>"Restitution" (A10)</td><td>Their own definition (Introduction) is the footing; the UN's usage cuts against the appendix's legal sentence.</td></tr>
+<tr><td>Herring; opioids; foreclosures</td><td>Fishermen were awarded $287 million; the $21 billion is the distributors'; about 6 million completed foreclosures by late 2015.</td></tr>
+</table>
+
+<h2>5. Open with the author</h2>
+<ul>
+<li>His father's answers (Ch 1 line 62).</li>
+<li>Ten free copies a session was blocked from (listed under "Free copies" in the session extracts file) and three GAO reports: he tries in a browser.</li>
+<li>Chapter 10: which works by Kimmerer, Simpson, Dunbar-Ortiz and Deloria he means (one each was requested as a guess). Chapter 7: which Lehner or Hawass work.</li>
+<li>Five items with no source named in any draft: Red Vienna; Bismarck's 1889 fund; the Simon–Ehrlich wager; Opportunity Insights; the John L. Lewis claim.</li>
+<li>Samuelson: the appendix says "1948" with no title; the 1947 book was requested and may be the wrong work.</li>
+<li>Drive: still not connected; many sources exist only as photographs on his phone.</li>
+<li>Whether and when to write to Darity. Recommendation given: one note of corrections once the items touching his work are ruled (what they price; the method; the appendix's credit for "restitution"; the Mexico sentence), offering corrected copies; early to mid December is natural.</li>
+<li>Held: the correction note to Darity; proposal Part 2 and the comps review; new print copies.</li>
+</ul>
+
+<h2>6. Watch items</h2>
+<ul>
+<li>125+ requests went to one community college library in two days. If the library caps or queries them, that is his call to handle; do not resubmit.</li>
+<li>Several requested titles were the session's best guess at the work meant (Chapter 10's four; Lehner and Hawass; Martínez-Alier; Samuelson). Note this when the books arrive.</li>
+<li>Twelve figures have no origin by any route (listed at the end of Part B, fourth batch). The search is recorded as exhausted for sessions.</li>
+<li>Search-engine summaries were wrong or loose several times. Open the page; quote the page.</li>
+<li>Sites that refuse sessions: gao.gov, ssa.gov, justice.gov, PubMed Central, Project Gutenberg, ncsl.org, ohchr.org, sec.gov, theatlantic.com, OAPEN. Routes that worked are noted beside each item.</li>
+<li>Individuals' uploads of in-copyright books at archive.org are not used.</li>
+</ul>
+
+<h2>7. File inventory (all on main)</h2>
+<ul>
+<li><code>tools/audits/</code>: the four files in section 1; the three claims-check reports (2026-11-15); the rulings file; <code>son-passages-read_2026-11-26.md</code>; <code>sources-inventory_ch2-4_ch6-10_first-pass_2026-11-26.md</code> (superseded by the harvest).</li>
+<li><code>research/citations/</code>: the two extracts files; <code>source-files-index.md</code>.</li>
+<li><code>tools/back-matter/library-list.md</code> (its "skip if" notes are void).</li>
+<li><code>tools/memory/feedback_find_sources_before_cutting.md</code>; <code>tools/workstream-handoffs/son-passages-read-kickoff_2026-11-25.md</code>.</li>
+</ul>
+
+<h2>8. Resume instructions for the next Claude</h2>
+<p>Read CLAUDE.md, STATE.md and this file. One session at a time. Do not redo the claims checks; do not draft prose or apply rulings until he says the sources stage is over. Read each upload, say what it settles and what is left, and keep the lists current. To place a library request you need his draft-form PDF attached again and his word. End each session with three lines: done, waiting on him, next paste line.</p>
+</body></html>
