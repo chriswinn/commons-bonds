@@ -118,11 +118,54 @@ Arrow (1974); Asare (1903); Barnosky (2012); Bernhardt (2011); Black (1973); Bro
 
 Balboa (2016); Benjamin (2019); Butler (2010); Cobb (1928); Costanza (1990); Costanza (1997); Costanza (2014); Du (1935); Epstein (2011); Gerard (2000); Habermas (1981); Hamilton (2009); Hartwick (1977); Harvey (2003); Hickel (2020); Himmelstein (2022); Hotelling (1931); House (2043); IPCC (2021); Keith (2018); Loewenstein (2003); Mian (2014); Muller (2011); Mussa (1978); Naik (2017); Negrusa (2014); Nordhaus (2000); North (1990); Ostrom (1990); Parker (2018); Putnam (2000); Realmonte (2019); Rio (1992); Rosen (1974); Solow (1974); Spence (1976); TEEB (2010); TEEB (2018); U.S. Bureau of  (2023); U.S. Department (2008); Viscusi (1946); Weitzman (2001); Wilberg (2011).
 
+## Part 5. The "read" column checked by hand (2026-11-26, second session)
+
+Each of the 43 names in 3c was looked up in the extract files to see what the match actually was. **Result: 22
+read at a passage, 4 partial, 17 false matches (not read).**
+
+**Read at a passage (22).** Balboa (2016); Butler (2010); Costanza and Perrings (1990); Epstein et al. (2011);
+Gerard (2000); Hamilton (2009); Hartwick (1977); Himmelstein et al. (2022); Hotelling (1931); Keith et al.
+(2018); Mian and Sufi (2014), chapter 2 only; Muller, Mendelsohn and Nordhaus (2011); Mussa and Rosen (1978);
+Naik et al. (2017); Negrusa et al. (2014); Ostrom (1990), pp. 90–91 only; Realmonte et al. (2019); Rosen
+(1974); Spence (1976); Weitzman (2001); Wilberg et al. (2011); Bureau of Labor Statistics (2023), the one
+figure. Whether the passage read is the passage the appendix relies on is still to check for each (the
+extract files give the appendix section beside most rows).
+
+**Partial (4).** House et al. (2011): abstract only. Parker, Fruhen et al. (2018) and Loewenstein, O'Donoghue
+and Rabin (2003): a finding is recorded in the November 10 literature file, with no sign of how much was read.
+TEEB (2010): downloaded, not yet checked.
+
+**False matches: not read (17).** The machine matched a different person, place or work.
+
+| §18 entry | What the match really was | Route now |
+|---|---|---|
+| Benjamin, *Race After Technology* (2019) | Judah P. Benjamin | book: **to request** |
+| Cobb and Douglas (1928), *American Economic Review* | "Cobb-Douglas" in Hartwick | article: **to request** |
+| Costanza et al. (1997), *Nature* | Costanza and Perrings | article: **to request** |
+| Costanza et al. (2014), *Global Environmental Change* | the same | try an open copy, then request |
+| Du Bois, *Black Reconstruction in America* (1935) | *The Souls of Black Folk* | book: **to request** |
+| Habermas, *Theory of Communicative Action* (1981) | Rawls's "Reply to Habermas" | book: **to request** |
+| Harvey, *The New Imperialism* (2003) | a Libby resident's first name | requested 2026-11-26 (harvest) |
+| Hickel, *Less Is More* (2020) | Fanning and Hickel (2023) | book: **to request** |
+| IPCC (2021), Working Group I, Summary for Policymakers, B.5 | Working Group III, ch. 12 | free: to fetch |
+| Nordhaus and Boyer, *Warming the World* (2000) | Nordhaus (2007) | book: **to request** |
+| North, *Institutions, Institutional Change and Economic Performance* (1990) | "North Carolina" | book: **to request** |
+| Putnam, *Bowling Alone* (2000) | the publisher G. P. Putnam's Sons | book: **to request** |
+| Rio Declaration (1992), Principle 15 | Rio Arriba County | free: to fetch |
+| Solow (1974) | a mention inside Hartwick | requested 2026-11-26 (harvest) |
+| TEEB (2018), *TEEB for Agriculture & Food* | TEEB (2010) | free: to fetch |
+| Justice Department and EPA, press release 08-194 (2008) | a Treasury statement | justice.gov refuses sessions: the author saves it at home |
+| Viscusi (1993), *Journal of Economic Literature* | a note that the sentence "needs Viscusi" | article: **to request** |
+
+So the §18 counts become: **read 22, partial 4, requested 34, neither 81** (the 66 in 3a, most since requested
+or fetched, plus these 15 not yet requested or fetched). **Eleven new library requests are owed** (seven books,
+four articles, marked above). They were not placed: the author's form did not reach this session.
+
 ## Part 4. Still owed
 
 1. **Row-by-row match of the three claim tables** against the master find-list (185 + 310 + 36 rows).
-2. **The "read" column above, checked by hand**: for each, which passage was read and whether it is the
-   passage the appendix relies on.
+2. ~~The "read" column above, checked by hand~~ **DONE 2026-11-26 (Part 5):** 17 of the 43 were false matches.
+   Left: for the 22 read, whether the passage read is the one the appendix relies on.
 3. **Works named in the appendix's text and missing from §18** (the claims-check report's Part 5.1 and 5.5
    list them): Sen 1985; Nussbaum 2000; Savage 1954; Lewis 1973; Samuelson 1948; Hicks 1939; Kaldor 1939;
    Mishan 1971; Bockstael and McConnell 2007; Nordhaus 2007; IEA 2021; Circular A-4; the statutes. Most are
@@ -132,4 +175,5 @@ Balboa (2016); Benjamin (2019); Butler (2010); Cobb (1928); Costanza (1990); Cos
 
 ## Changes log
 
+- **2026-11-26.** Second session: the "read" column checked by hand (Part 5).
 - **2026-11-26.** First pass. Eight requests placed from it (three articles, five books).

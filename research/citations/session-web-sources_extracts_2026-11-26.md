@@ -505,3 +505,97 @@ pay-as-you-go design; Libby's population and cleanup total; the capture table (S
 space table; the five state statutes; South Africa's commission; ranked-choice dates; the Casualty Actuarial
 Society; Chetty; Whyte; GAO-17-207R, GAO-18-305, GAO-20-21 (gao.gov refuses sessions: the author can save
 these three at home); McDowell's surface-mined acreage from Pericak's dataset; BP's 2016 statement.
+
+---
+
+# Free items from the chapter harvest: first batch (2026-11-26, second session)
+
+Each source below was downloaded and read at the passage named. "Draft" means both November 14 drafts in
+`tools/workstream-handoffs/chapter-redrafts_2026-11/` unless one is named. Nothing in any draft or chapter was
+changed.
+
+## Chapter 10: the Black Hills
+
+Sources: *United States v. Sioux Nation of Indians*, 448 U.S. 371 (1980), full opinion at law.cornell.edu;
+Treaty of Fort Laramie, April 29, 1868, 15 Stat. 635, full text at Yale's Avalon Project.
+
+| The draft says (pace, lines 105–107) | The source's words (short) | Status |
+|---|---|---|
+| The treaty "guaranteed the Black Hills" to the Lakota | Treaty, Art. II: the reservation is "set apart for the absolute and undisturbed use and occupation of the Indians herein named." Opinion: "the Great Sioux Reservation, including the Black Hills" | **SUPPORTED** |
+| "The Great Sioux Reservation named the Hills inside its boundary" | The treaty text never uses the words "Black Hills." It draws the reservation by river and meridian; the Hills lie inside the lines | **REWORD:** the Hills lay inside the boundary; the treaty did not name them |
+| "Six years later the Custer expedition entered the Hills and found gold" | "Custer's journey began… on July 2, 1874… by mid-August had confirmed the presence of gold fields" | **SUPPORTED** |
+| "in February of 1877, an Act of Congress took the Hills away" | "the Act of February 28, 1877 (19 Stat. 254)" | **SUPPORTED** |
+| (not in the draft; available) | Art. XII required any cession to be "signed by at least three-fourths of all the adult male Indians." Opinion: the 1876 agreement "was signed by only 10% of the adult male Sioux population" | A sourced fact the chapter could use |
+| The Court "ruled… that the 1877 taking had been unconstitutional" | "the 1877 Act effected a taking of tribal property… That taking implied an obligation on the part of the Government to make just compensation" | **WORDING:** the holding is a taking that required just compensation, with interest. The opinion uses "unconstitutional taking" only when describing the lower court's test |
+| "awarded roughly $17.5 million, which was the land's value in 1877" | "interest… on the principal sum of $17.1 million (the fair market value of the Black Hills as of 1877)"; the $17.5 million is the land plus "gold removed by trespassing prospectors… $450,000" | **REWORD:** land $17.1 million; $17.5 million includes the gold |
+| "plus interest since 1877 at five percent" | "interest, at the annual rate of 5%, on the principal sum of $17.1 million, dating from 1877" | **SUPPORTED** |
+| "By 1980 the award had grown to something like $106 million" | not in the opinion | **STILL TO PIN** |
+| "The Lakota refused it… the trust account now holds more than $1.5 billion" | not in the opinion (it could not be) | **STILL TO PIN** (a current Interior or congressional source) |
+
+## Chapter 9: Sweden's bank rescue, 1992
+
+Source: Lars Jonung, "The Swedish Model for Resolving the Banking Crisis of 1991–93: Seven Reasons Why It Was
+Successful," European Commission, Economic Papers 360 (February 2009), full PDF.
+
+| The draft says (pace, line 126) | The paper's words (short) | Status |
+|---|---|---|
+| "In the autumn of 1992… the government guaranteed that their depositors and lenders would be paid" | "the Swedish blanket guarantee of September 1992"; purpose: "households, enterprises and other holders of claims can feel secure" | **SUPPORTED** |
+| "It did not guarantee the shareholders" | "the aim was to save the banks – not the owners of the banks"; "avoiding bail-outs of shareholders" | **SUPPORTED** |
+| "The state took over two of the largest banks, Nordbanken and Gota" | "two major insolvent banks, Nordbanken and Gotabanken"; their deposits were "roughly 20 per cent of all deposits"; Nordbanken, "previously a government-owned bank that was partially privatized (25 per cent)… was re-nationalized" | **REWORD:** Nordbanken was already three-quarters state-owned. "Two of the largest" is not the paper's wording |
+| Bad loans moved to Securum and Retriva | "Securum for Nordbanken and Retriva for Gotabanken, were set up to manage the bad debt" | **SUPPORTED** |
+| "sold the loans off over the next few years and returned what was left to the treasury" | "In the long run, about 10–15 years… the fiscal cost… was roughly balanced by the revenues received through the liquidation" | **REWORD the timing** (10 to 15 years in this source) |
+| "The banks were profitable again by 1995" | "became profitable shortly after the crisis"; no year at this passage | **STILL TO PIN the year** |
+| Jonung "advised Sweden's prime minister during the crisis" | "chief economic advisor to prime minister Carl Bildt in 1992–94" | **SUPPORTED** |
+| He "judged that the final cost to taxpayers was close to zero" | "a net fiscal cost of close to zero" (from Laeven and Valencia's data); gross cost "3.6 per cent of GDP initially"; and "there is no official estimate of the ultimate fiscal cost" | **SUPPORTED, with his own caveat** |
+| "In the 1930s Sweden rescued its banks and its households together" | not in this paper | **STILL UNSOURCED** (the Chapter 5 item) |
+
+Not reached: Cherny and Ergungor, Federal Reserve Bank of Cleveland (2009): two addresses returned 404.
+
+## Chapter 9: Locke
+
+Source: Locke, *Second Treatise of Government*, ch. V, §27 and §33 (text at marxists.org; Gutenberg and
+Wikisource did not serve it).
+
+| The draft says (pace, line 166) | Locke's words | Status |
+|---|---|---|
+| taking from the common is just "only where enough and as good is left for others" | §27: "at least where there is enough, and as good, left in common for others"; §33: "there was still enough, and as good left" | **SUPPORTED.** What Nozick does with it waits for the library copy |
+
+## Chapter 8: Dunbar and Du Bois
+
+Sources: Dunbar, "We Wear the Mask," in *Lyrics of Lowly Life* (1896), Wikisource scan of the 1896 printing;
+Du Bois, *The Souls of Black Folk* (1903; second edition scan at Wikisource), ch. I.
+
+| The draft says (pace, line 70) | The source | Status |
+|---|---|---|
+| Dunbar published the poem in 1896; its first two lines | "We wear the mask that grins and lies, / It hides our cheeks and shades our eyes,—" in the 1896 book | **SUPPORTED** (the second line ends with a comma and dash in the original, not a full stop) |
+| Du Bois "called it a veil, and he described 'this sense of always looking…'" | "It is a peculiar sensation, this double-consciousness, this sense of always looking at one's self through the eyes of others, of measuring one's soul by the tape of a world that looks on in amused contempt and pity." The veil is a separate image in the same chapter: "shut out from their world by a vast veil"; "born with a veil" | **Quotation exact. REWORD the lead-in:** the words quoted are his account of "double-consciousness"; he does not call that sensation a veil |
+| Fanon (1952) and Ellison (1952), with Ellison's line | books on order | **WAITS for the library copies** |
+
+## Chapter 4: Alaska
+
+Sources: Alaska Permanent Fund Corporation, "Our History" (apfc.org/history), which quotes the constitutional
+text; Ballotpedia, "Alaska Ballot Proposition 2 (1976)," for the certified count.
+
+| The draft says (pace, line 98) | The source | Status |
+|---|---|---|
+| ratified in 1976 "by roughly two votes to one" | APFC: "Alaska voters, by a margin of 75,588 to 38,518, approve a Constitutional Amendment"; 66.24 percent yes | **SUPPORTED** (settles the two-to-one against the June "three") |
+| "at least 25 percent of the state's oil and mineral royalties" | "twenty-five percent of all mineral lease rentals, royalties, royalty sale proceeds, federal mineral revenue sharing payments and bonuses" | **SUPPORTED** |
+| the constitution "protects the fund's principal from being spent" | "the principal of which shall be used only for those income-producing investments specifically designated by law" | **SUPPORTED** |
+| "Since 1982 the fund has paid a dividend" | "1982… The first Permanent Fund Dividend check of $1,000 is distributed. The Legislature pays this first dividend, not with Fund income" | **WORDING:** the first dividend was not paid from the fund |
+| "Governor Jay Hammond championed it" | this page shows Hammond with legislators and signing the 1980 corporation bill; it does not say he championed the amendment | **STILL TO PIN** |
+| the 2024 dividend; the fund's size | not checked this batch | to pin |
+
+## Held as text, no draft sentence checked yet
+
+- Dasgupta, *The Economics of Biodiversity: The Dasgupta Review* (HM Treasury, 2021), full report downloaded
+  from the UK government's site. Chapter 6's drafts name it in the lineage list only; no sentence rests on a
+  passage yet.
+
+## Tried and not reached this batch
+
+Kennedy's Canton speech at presidency.ucsb.edu (403; the claims check already has its text); the Alaska
+constitution at the legislature's and Justia's sites (APFC's quotation used instead); *Bradford v. Nature
+Conservancy* at Justia (403) and CourtListener (login). **Still to fetch from the harvest's "free" list:** the
+three Virginia cases; Schulte (2017), downloaded earlier and unread; Norway's official sources; UNEP on
+Ogoniland at the page; Alberta's fund; the Chattanooga record; Mondragón's 2023 report; the Yale program on
+Sweden; the cobalt reports; the helium report; the World Bank carbon-pricing report.

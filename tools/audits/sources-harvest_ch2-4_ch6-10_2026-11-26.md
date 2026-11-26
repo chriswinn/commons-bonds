@@ -148,6 +148,16 @@ Lehner and Hawass. Articles: Hardin (1968); Solow (1974); Ramsey (1928); Hendryx
 4. **No source named anywhere for:** Red Vienna; Bismarck's 1889 fund; the Simon–Ehrlich wager; Opportunity
    Insights; the John L. Lewis claim. If you remember where each came from, that saves a search.
 
+## Free items fetched, 2026-11-26 (second session)
+
+Read at the passage, with the draft sentence each supports or corrects, in
+`research/citations/session-web-sources_extracts_2026-11-26.md` ("Free items from the chapter harvest: first
+batch"): *Sioux Nation* and the Fort Laramie treaty (Ch 10: two rewords, two figures still to pin); Jonung
+(2009) (Ch 9: three rewords, one year to pin); Locke §27 (Ch 9: supported); Dunbar and Du Bois (Ch 8: quotations
+exact; one lead-in to reword); Alaska's amendment and vote (Ch 4: two-to-one confirmed; one wording point;
+Hammond's role to pin). Dasgupta's review is held as text. The rest of the "free" list is named at the end of
+that section as still to fetch.
+
 ## What a session does next with this
 
 Fetch every "free" item above; then, chapter by chapter in the order 2, 4, 3, 10, 6, 7, 8, 9, start step 3

@@ -161,6 +161,26 @@ Bergson (1938); Esping-Andersen (1990); Hong and Page (2004); Mosteller and Tuke
 
 **Total on order: 40 articles, 1 book chapter, 86 books (127 requests).** The author's note: books travel from Virginia's community college libraries first, then the wider network, and will arrive at random through the end of the semester and beyond.
 
+**Printable list (2026-11-26, second session):** `library-requests_by-chapter-and-priority_2026-11-26.pdf`, built by
+`tools/scripts/build-library-request-list.py`: every request once by chapter and once by priority (first: Ch 5 and
+the appendix's checked claims; second: Ch 2, 4, 3, 10; third: Ch 6–9; fourth: the appendix's unopened references).
+**Count check:** this log names 126 distinct requests (86 books, 39 articles, 1 book chapter), not 127; the earlier
+article count of 40 looks one too high. No receipts exist to settle it.
+
+**Bibliography coverage (2026-11-26):** `bibliography-coverage_2026-11-26.md`. Working bibliography, 260
+entries: about 41 read at a passage, 80 requested, 139 neither. Tentative list, 176 entries: about 55 read, 18
+requested, 103 neither. About 30 requested works have no entry on either list yet and are owed to the
+tentative list under the source-tracking rule. A machine count; see the file's caveat.
+
+**Owed, not yet placed (2026-11-26, second session; the form did not reach the session).** Twelve requests:
+from the reconciliation's hand check (its Part 5), books: Benjamin, *Race After Technology* (2019); Du Bois,
+*Black Reconstruction in America* (1935); Habermas, *Theory of Communicative Action* (1981); Hickel, *Less Is
+More* (2020); Nordhaus and Boyer, *Warming the World* (2000); North, *Institutions, Institutional Change and
+Economic Performance* (1990); Putnam, *Bowling Alone* (2000); articles: Cobb and Douglas (1928); Costanza et
+al. (1997), *Nature* 387: 253–260; Costanza et al. (2014), if no open copy; Viscusi (1993), *Journal of
+Economic Literature* 31(4): 1912–1946. From Chapter 2's fact table: Theodore H. White, *The Making of the
+President 1960*, a candidate source for Kennedy in McDowell County (needs the author's word).
+
 **Free copies:** ten downloaded and checked; ten blocked and listed for the author to try (`research/citations/session-web-sources_extracts_2026-11-26.md`, "Free copies"). The work-by-work check is `sources-reconciliation_ch1-ch5-ta_2026-11-26.md`.
 
 ---
@@ -244,6 +264,7 @@ Bergson (1938); Esping-Andersen (1990); Hong and Page (2004); Mosteller and Tuke
 
 ## Changes log
 
+- **2026-11-26.** Second session: printable request list; free harvest items, first batch; Chapter 2 pinned fact table started; the reconciliation's "read" column checked (17 false matches; 12 requests owed).
 - **2026-11-26.** Part B closed out (four batches); chapter harvest written; 17 more requests.
 - **2026-11-26.** Tönnies read in the German first edition (free) and translated; author's instruction recorded: where no free English copy exists, look for a free copy in another language a session can read.
 - **2026-11-26.** 27 more requests; free copies, first batch; Part B, third batch (eight pins read, five leads by search).
