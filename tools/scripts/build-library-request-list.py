@@ -192,19 +192,29 @@ def short(ch):
     return "App." if ch == TA else "Ch " + ch
 
 
-def table(items, lastcol):
-    """lastcol: 'prio' (chapter view) or 'chap' (priority view)."""
-    head = ["No.", "Kind", "Requested item", "Also for", "Priority" if lastcol == "prio" else "For", "Here"]
+def places(r):
+    return [r["ch"]] + [x.strip() for x in r["also"].split(",") if x.strip()]
+
+
+def fmt(pl):
+    pl = sorted(pl, key=CH_ORDER.index)
+    chs = [x for x in pl if x != TA]
+    out = ("Ch " + ", ".join(chs)) if chs else ""
+    if TA in pl:
+        out = (out + ", " if out else "") + "App."
+    return out
+
+
+def table(items, here=None):
+    """here: the chapter this table sits under (Part 1), or None (Part 2: show every place)."""
+    head = ["No.", "Kind", "Requested item", "Also used in" if here else "Used in", "Priority", "Here"]
     data = [[Paragraph("<b>%s</b>" % h, small) for h in head]]
     for r in items:
         cite = r["c"] + (" <b>[%s]</b>" % r["note"] if r["note"] else "")
-        also = ", ".join(short(x.strip()) if x.strip() != TA else "App." for x in r["also"].split(",") if x.strip())
-        also = also.replace("Ch ", "") if also else ""
-        last = PRIO[r["p"]][0] if lastcol == "prio" else short(r["ch"])
+        pl = [x for x in places(r) if x != here]
         data.append([Paragraph(str(r["n"]), small), Paragraph(TYPE[r["t"]], small), Paragraph(cite, body),
-                     Paragraph(("Ch " + also) if also and not also.startswith("App.") else also, small),
-                     Paragraph(last, small), ""])
-    t = Table(data, colWidths=[0.36 * inch, 0.56 * inch, 4.5 * inch, 0.78 * inch, 0.6 * inch, 0.4 * inch], repeatRows=1)
+                     Paragraph(fmt(pl), small), Paragraph(PRIO[r["p"]][0], small), ""])
+    t = Table(data, colWidths=[0.36 * inch, 0.56 * inch, 4.4 * inch, 0.88 * inch, 0.6 * inch, 0.4 * inch], repeatRows=1)
     t.setStyle(TableStyle([
         ("GRID", (0, 0), (-1, -1), 0.4, colors.grey), ("VALIGN", (0, 0), (-1, -1), "TOP"),
         ("BACKGROUND", (0, 0), (-1, 0), colors.Color(.9, .9, .9)),
@@ -229,22 +239,24 @@ def key(r):
 
 def footer(canvas, doc):
     canvas.setFont("S", 7.5)
-    canvas.drawString(0.6 * inch, 0.45 * inch, "Interlibrary loan requests placed 2026-11-26, by chapter and by priority")
+    canvas.drawString(0.6 * inch, 0.45 * inch, "Interlibrary loan requests placed 2026-11-26, by where used and by priority")
     canvas.drawRightString(letter[0] - 0.6 * inch, 0.45 * inch, "Page %d" % doc.page)
 
 
 def build(out):
     S = []
     nb = sum(1 for r in rows if r["t"] == "B")
-    S.append(Paragraph("Interlibrary loan requests: by chapter and by priority", h1))
+    S.append(Paragraph("Interlibrary loan requests: by where used in the book, and by priority", h1))
     S.append(Paragraph("Name: ____________________________ &nbsp;&nbsp;&nbsp; Student ID: __________________ &nbsp;&nbsp;&nbsp; "
                        "Date: ______________<br/><br/>Pickup location: ____________________ &nbsp;&nbsp;&nbsp; "
                        "Email for articles: ______________________________", para))
     S.append(Paragraph("All %d items below were requested through the library’s online form on November 26, 2026 "
                        "(%d books, %d articles, one of them a book chapter). They support a book manuscript of ten chapters and a "
                        "technical appendix. Each item has one number, used in both parts, so the two lists can be "
-                       "matched. <b>Part 1</b> groups the items by the chapter that needs each one first. "
-                       "<b>Part 2</b> groups the same items by how soon they are needed. The last column is a box to "
+                       "matched. <b>Part 1</b> groups the items by where they are used in the book: each "
+                       "chapter, then the Technical Appendix. An item used in more than one place is listed under "
+                       "each, so Part 1 has more rows than items. "
+                       "<b>Part 2</b> lists every item once, by how soon it is needed. The last column is a box to "
                        "tick when an item arrives." % (len(rows), nb, len(rows) - nb), para))
     S.append(Paragraph("<b>What the priorities mean</b>", para))
     for p in (1, 2, 3, 4):
@@ -254,12 +266,12 @@ def build(out):
                        "arrive by email. A note in square brackets marks an edition or translation that matters, or a "
                        "title that was a best guess at the work meant.", para))
     S.append(Spacer(1, 6))
-    S.append(Paragraph("Part 1. By chapter", h1))
+    S.append(Paragraph("Part 1. By where each item is used", h1))
     S.append(Paragraph("Chapter 1 has no requests: it names no outside work.", para))
     for ch in CH_ORDER:
-        its = sorted([r for r in rows if r["ch"] == ch], key=key)
+        its = sorted([r for r in rows if ch in places(r)], key=key)
         S.append(KeepTogether([Paragraph("%s: %s" % (CH_TITLE[ch], counts(its)), h2)]))
-        S.append(table(its, "prio"))
+        S.append(table(its, here=ch))
     S.append(PageBreak())
     S.append(Paragraph("Part 2. By priority", h1))
     for p in (1, 2, 3, 4):
@@ -271,7 +283,7 @@ def build(out):
             if not sub:
                 continue
             S.append(Paragraph("%s: %s" % (CH_TITLE[ch], counts(sub)), h2))
-            S.append(table(sub, "chap"))
+            S.append(table(sub))
     doc = SimpleDocTemplate(out, pagesize=letter, leftMargin=0.6 * inch, rightMargin=0.6 * inch,
                             topMargin=0.6 * inch, bottomMargin=0.7 * inch,
                             title="Interlibrary loan requests by chapter and priority", author="")
