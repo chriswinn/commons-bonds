@@ -1221,3 +1221,42 @@ for the "monetary restitution" passage).
 
 **L1 is now complete for chapter 13.** Left: the Introduction's restitution passage as a full page (Kindle p.
 34); the page with "a program of acknowledgment, redress, and closure"; print page numbers for all of it.
+
+## Darity and Mullen, *From Here to Equality*, 2nd ed., chapter 13, third part: to the end of the chapter, from the author's screenshots, 2026-11-26
+
+**What arrived.** Fifteen Kindle screenshots (IMG_7990–7999, 8001–8005; the first seven repeat the last batch).
+The new text runs from "…where you 'go' first and pay later" to the chapter's last line, "At last, reparations
+will move America from here to equality." The text is continuous across the gap in file numbers. **Chapter 13
+has now been read whole.** Print page numbers still owed.
+
+**New passages that bear on the book.**
+- Keeping the value of a debt paid over time: "Regardless of the procedure, if the payments are made over
+  time, their value must be maintained by use of appropriate cost-of-living adjustments to account for any
+  general increase in prices." (And earlier: "amounts must be adjusted for any inflation that takes place
+  after the first round of payments.")
+- Against collecting from institutions one at a time: "Instead of seeking *piecemeal reparations* from their
+  institutions on a one-by-one basis, activists should push these institutions to join the lobbying effort for
+  congressional approval of black reparations." "It will be far more useful for colleges and universities to
+  become sponsors of a national effort for reparations than for them to individually address reparations
+  claims among their immediate constituents."
+- Administration: "a National Reparations Bureau (NRB) will be established as the civil service agency
+  responsible for day-to-day management"; it "will work closely with the General Accounting Office to ensure
+  the financial fidelity" of the program; recipients take part in "participatory research and monitoring of
+  the program themselves."
+- The part that is not money: "The intensive phase of the public education effort should last for a minimum
+  of three generations, or ninety years… beyond the intensive phase, the educational dimension of the
+  reparations program should continue in perpetuity." "The work of national memory and national consciousness
+  is an essential component of an effective program of black reparations."
+- Unequal need among recipients: "a uniform payout to all eligible black Americans could aggravate intraracial
+  wealth inequality"; one remedy is "priority given to those applicants with lower current wealth or income."
+
+**What this adds.**
+
+| Text | Passage | Status | Why |
+|---|---|---|---|
+| Ch 5 line 246, "the Restitution Bond is a reparations bond" (running-list V6; the cover note's third question) | A bond posted by the party that gained, case by case | **Now in tension with their text, not only unstated** | They argue against "piecemeal reparations… on a one-by-one basis" and for one national program paid by the federal government. An instrument that bills each extractor for its own harm is, in their terms, the piecemeal route. For the debt owed to descendants of the enslaved, the bond could at most be a way of *holding and recording* the federal debt, not of collecting it from those who profited. |
+| The cover note's first question ("an instrument for carrying out that act: not a rival to your framework") | The bond as the redress part only | **SUPPORTED as a limit to state** | Their program has parts no bond carries: ninety years of public education, then "in perpetuity," and "the work of national memory" as "an essential component." The book's claim that the bond is an instrument for redress alone, inside acknowledgment and closure, matches this. Say that the other two parts are outside the instrument. |
+| TA §5.5, Def 1.12; the cover note's second question (running-list V4) | A debt kept on the books at its value | **SUPPORTED, a second passage** | "Their value must be maintained by use of appropriate cost-of-living adjustments." With the 4, 5 and 6 percent compounding earlier in the chapter, this is their answer to how a debt carried over time keeps its worth. |
+| Framework governance (TA §12; Def 1.10) | Who watches the fund | **Parallel** | An elected board of those owed, a civil-service bureau, audit by the accountability office, monitoring by recipients. |
+
+**L1, chapter 13: nothing more needed.**
