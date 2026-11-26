@@ -7,7 +7,7 @@ sources?"). **Answer: it did not.** This file is the check.
 machine against the project's extract files (the record of what has actually been read) and against the
 library requests. A match on an author's name counts as "read," so **the "read" column can overstate**; the
 "neither" column is the reliable one. Chapter 5's and Chapter 1's named works were listed by hand. The claim
-tables' unsupported rows are covered by ; the row-by-row match of
+tables' unsupported rows are covered by `sources-to-find_master-list_2026-11-26.md`; the row-by-row match of
 those tables is still owed (Part 4 below).
 
 ## Part 1. Chapter 5: works the chapter names
