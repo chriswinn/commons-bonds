@@ -27,7 +27,7 @@ opened. *Origin* = a figure whose source has never been found.
 | 2 | *From Here to Equality*, print page numbers (Introduction definition and restitution passage; chapter 13's calculation) | Pin | TA §5.1.1; Ch 5's three owed pages |
 | 3 | Panjwani and Xiong (2023), DOI 10.1016/j.jebo.2022.11.017 (free copy: SSRN 3962047) | Read | Ch 5 line 28–30, the surname finding |
 | 4 | Zhou and Ge (2021), DOI 10.1016/j.exis.2020.11.010 | Read | Ch 5 line 138; TA §11.4 |
-| 5 | Zhang et al. (2022), full PDF, DOI 10.1016/j.scitotenv.2022.154934 | Read | the same |
+| 5 | ~~Zhang et al. (2022), full PDF~~ **DONE 2026-11-26:** national cost $6.0–7.4 billion a year; no waste counts; nothing on Baotou as a place, revenue or remediation | Read | the same |
 | 6 | Schneider and McCumber, *An Air That Kills* (archive.org loan, again): search inside for "revenue," "sales," "profit," "million," "1963," "Zonolite Company," "lobby" | Origin | Libby's $100 million and the "six times" result; whether the mine ran before 1963; "lobbying" |
 | 7 | Social Security Trustees Report 2026, the summary page with the 75-year unfunded obligation (ssa.gov refuses sessions; open at home, save as PDF) | Pin | Ch 5 line 112 |
 
@@ -80,6 +80,7 @@ A session tries items 19 to 25 by other routes first (Part B) and tells him whic
 | Healthcare prices against general inflation; workers per retiree, then and now; Social Security's 1935 design | Pin | 78, 110, 120 |
 | Norway against the United States | Pin | 122 |
 | Baotou: annual tailings; the villages; revenue; remediation share; wastewater per ton; "almost no substitute"; Klinger, *Rare Earth Frontiers* (2017) | Origin / Read | 130–140 |
+| Lee and Wen (2017; 2018), the studies behind Zhang et al. and the source of "about $20 billion in 2015"; Wang et al. (2020) on soil and groundwater; a source for the industry's revenue ($10–12 billion) and for remediation spending | Read / Origin | 138 |
 | Bullard's terms; the Minerals Management Service; financial and pharmaceutical lobbying; Medicare's bar on negotiating prices (years) | Pin | 170, 210–214 |
 | *Forclore*; the Loss and Damage Fund's start; CARICOM's plan; Fanning and Hickel (2023) | Pin / Read | 236, 250 |
 | Libby: population; the asbestos description; the 2005 indictment itself (the $140 million; the running tracks); "largest environmental criminal prosecution"; the grounds of the acquittal | Pin | 38–46, 210 |
@@ -141,4 +142,5 @@ A session tries items 19 to 25 by other routes first (Part B) and tells him whic
 
 ## Changes log
 
+- **2026-11-26.** Zhang et al. (2022) read in full; three leads added to B1.
 - **2026-11-26.** List started.

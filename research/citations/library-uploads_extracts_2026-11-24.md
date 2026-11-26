@@ -1295,3 +1295,48 @@ short on purpose; the screenshots are the record.
    and the party named is whoever "gained from the harm—whether or not they inflicted it."
 
 **L1 is complete except for print page numbers.**
+
+## Zhang et al. (2022), "Allocating environmental costs of China's rare earth production to global consumption": full paper, read 2026-11-26
+
+Tingting Zhang, Pengfei Zhang, Kun Peng, Kuishuang Feng, Pei Fang, Weiqiang Chen, Ning Zhang, Peng Wang and
+Jiashuo Li, *Science of the Total Environment* 831 (2022): 154934, 9 pages. DOI 10.1016/j.scitotenv.2022.154934.
+The author's download; read in full. **Nine authors**; the project's bibliography entry lists six.
+
+**What the paper is.** An input-output study of all of China's rare-earth production, for 2010, 2012 and 2015,
+that puts a dollar figure on environmental cost and assigns it to the countries whose consumption drove it.
+It is national. Baotou is not studied as a place; Bayan Obo appears as one of three ore types.
+
+| Their words | Page |
+|---|---|
+| "The total environmental costs of the pollution-intensive RE production in China were $7.4 billion in 2010, then declined to $6.0 billion in 2012… rose up to $7.2 billion" in 2015. | 4 |
+| Foreign consumption's share: "from $4.8 billion (65% of total environmental costs) in 2010 to $5.4 billion in 2015 (74%)." | 1 (abstract) |
+| Average cost per kilogram of rare-earth oxide "$83 in 2010… $79 in 2012… $81 in 2015, driven by the larger share of Bayan Obo ores which has much higher per-unit environmental costs ($106)." | 4 |
+| What the cost is made of: "abiotic resource depletion contributed the highest proportion… 79.6%, followed by global warming (8.2%) and acidification (5.7%)"; "human toxicity (2.0%)." | 4 |
+| "the environmental costs caused by RE production were $3.5 billion in 2015, about 8.8 times of China's RE export profit (i.e., $0.4 billion) in the same year." | 4–5 |
+| Production "generates lots of air pollutants… wastewater, and waste residues (e.g., thorium and uranium), which seriously pollute the surface water, groundwater, farmland, and atmosphere, causing great harm to the local ecosystem and the health of residents and workers" (citing others). | 2 |
+| Their figure is lower than "Lee and Wen (2018)'s study, whose estimation… was about $20 billion in 2015. This is because their study considered the illegal RE production." | 8 |
+| Left out: "soil degradation, destruction of vegetation, and groundwater pollution… the costs of these impacts are not considered in this study due to data unavailability." | 8 |
+
+**What this settles for Chapter 5, line 138, and TA §11.4.**
+
+| The chapter says | Status now | Why |
+|---|---|---|
+| "Zhang and colleagues documented the environmental costs of the rare-earth industry in 2022" | **SUPPORTED** | That is the paper. Say "China's" industry. |
+| "…both recording how much waste the industry makes and the burden it puts on the region" | **SAYS MORE THAN THE SOURCE** (for Zhang) | No waste quantities anywhere in it, and no regional finding; one general sentence on pollutants, credited to other studies. |
+| "The industry's annual environmental cost has been estimated in the billions" | **SUPPORTED, and can be made exact** | $6.0 to $7.4 billion a year for China as a whole, 2010–2015 (this paper); about $20 billion in 2015 with illegal mining counted (Lee and Wen 2018, as reported here; not yet read). |
+| "its revenue runs on the order of $10 billion to $12 billion a year" | **Not in this paper** | The only money figure for the industry's gain is export profit, $0.4 billion in 2015. |
+| "the share of that revenue spent on remediation has historically been a small fraction" | **Not in this paper** | Nothing on remediation spending. |
+
+**Two cautions before the figure is used.** (1) Four-fifths of their "environmental cost" is resource
+depletion, not pollution or harm to people; human toxicity is 2 percent. A reader who takes "$7 billion of
+environmental cost" to mean damage to villages would be misled. (2) The $3.5 billion in the "8.8 times"
+sentence does not match the $7.2 billion total or the $5.4 billion for exports in the same year; the paper
+does not say what it covers. Quote the totals, not that ratio, unless the supplement explains it.
+
+**What it offers the book that the chapter does not use.** A measured statement of the chapter's own point
+about distance: about three-quarters of the environmental cost of China's rare-earth production in 2015 was
+incurred for consumption abroad (Japan and South Korea first, then North America). And the Bayan Obo ore that
+feeds Baotou carries the highest cost per kilogram of the three ore types.
+
+**New leads, for a session:** Lee and Wen (2017) and Lee and Wen (2018), the studies this one builds on and
+the source of the $20 billion; Wang et al. (2020) on soil, vegetation and groundwater.
