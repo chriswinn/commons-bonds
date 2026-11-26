@@ -1340,3 +1340,35 @@ feeds Baotou carries the highest cost per kilogram of the three ore types.
 
 **New leads, for a session:** Lee and Wen (2017) and Lee and Wen (2018), the studies this one builds on and
 the source of the $20 billion; Wang et al. (2020) on soil, vegetation and groundwater.
+
+## The 2026 Social Security Trustees Report, read 2026-11-26
+
+*The 2026 Annual Report of the Board of Trustees of the Federal Old-Age and Survivors Insurance and Federal
+Disability Insurance Trust Funds* (273-page PDF, `tr2026.pdf`, supplied by the author; a public document).
+Searched in full; the passages below read on the page. Page numbers are the report's printed ones.
+
+| Their words | Where |
+|---|---|
+| "The OASI Trust Fund is projected to become depleted in the fourth quarter of 2032, one quarter earlier than projected in last year's report. Upon reserve depletion in 2032, projected income is sufficient to pay 78 percent of scheduled benefits. This percentage declines gradually to 62 percent by 2100." | Highlights, p. 4 |
+| "The combined OASDI fund is projected to become depleted in the third quarter of 2034… sufficient to pay 83 percent of scheduled benefits… 65 percent by 2100." | p. 4 |
+| "the 75-year open-group unfunded obligation for OASDI is $29.3 trillion, or 1.5 percent of GDP over the years 2026-2100. In last year's report, the unfunded obligation was $25.1 trillion." | Highlights, p. 6 |
+| "Social Security's total cost is projected to be higher than its total income in 2026 and all future years, as it has been since 2021. Total cost has exceeded non-interest income since 2010." | Highlights, pp. 3–4 |
+| "There were about 2.6 workers for every OASDI beneficiary in 2025. This ratio had been stable, remaining between 3.2 and 3.4 from 1974 through 2008." | section II.D, at Figure II.D3 |
+| Table IV.B4, covered workers per beneficiary: 1945, 41.9; 1950, 16.5; 1955, 8.6; 1960, 5.1; 1965, 4.0; **1970, 3.7; 1975, 3.2**; 1990, 3.4; 2010, 2.9; 2025, 2.6. | p. 68 |
+
+**What this settles for Chapter 5 (claims-check item 4 and table B).**
+
+| Line | The chapter says | Status now | The report |
+|---|---|---|---|
+| 110 | "the trust fund runs out around 2033… about 77 percent" | **Out of date, now pinned** | The retirement fund: 2032, 78 percent (falling to 62 percent by 2100). The two funds together: 2034, 83 percent. Say which fund. |
+| 112 | "a seventy-five-year actuarial shortfall of roughly $22.6 trillion" | **Out of date, now pinned** | $29.3 trillion (2026 report); $25.1 trillion the year before. It is for the retirement and disability funds combined, in present value. The report's term is "unfunded obligation." |
+| 110 | "By the early 2020s the system was paying out more than its payroll taxes brought in." | **SAYS LESS THAN THE SOURCE** | Cost has exceeded income other than interest since 2010; it has exceeded all income, interest included, since 2021. The chapter's wording describes the 2010 event and dates it a decade late. |
+| 120 | "The increase was passed at a time when there were many workers for each retiree." | **SAYS MORE THAN THE SOURCE** | In 1970 there were 3.7 covered workers per beneficiary and in 1975, 3.2; in 2025, 2.6. "Many" fits 1950 (16.5), not 1972. The count is per beneficiary, not per retiree. And the ratio then held steady at 3.2 to 3.4 for thirty-four years, so the fall the chapter calls "public arithmetic" came after 2008. |
+| 110 | "designed in 1935 as a pay-as-you-go system" | not addressed by this report | still needs the Social Security history page or CRS (find-list B1) |
+
+**A point for whoever drafts later.** The mixed pairing to avoid: 2032 and 78 percent belong to the retirement
+fund alone; $29.3 trillion belongs to the two funds combined, whose date is 2034 and share 83 percent. The
+chapter's current sentence pairs one fund's date with the combined shortfall. Either pairing is fine if named.
+
+**Ledger and gate:** both figures are shared figures. When ruled, the new values need a ledger row and a gate
+pattern on "2033," "77 percent" and "$22.6 trillion."

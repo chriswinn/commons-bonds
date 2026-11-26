@@ -29,7 +29,7 @@ opened. *Origin* = a figure whose source has never been found.
 | 4 | Zhou and Ge (2021), DOI 10.1016/j.exis.2020.11.010 | Read | Ch 5 line 138; TA §11.4 |
 | 5 | ~~Zhang et al. (2022), full PDF~~ **DONE 2026-11-26:** national cost $6.0–7.4 billion a year; no waste counts; nothing on Baotou as a place, revenue or remediation | Read | the same |
 | 6 | Schneider and McCumber, *An Air That Kills* (archive.org loan, again): search inside for "revenue," "sales," "profit," "million," "1963," "Zonolite Company," "lobby" | Origin | Libby's $100 million and the "six times" result; whether the mine ran before 1963; "lobbying" |
-| 7 | Social Security Trustees Report 2026, the summary page with the 75-year unfunded obligation (ssa.gov refuses sessions; open at home, save as PDF) | Pin | Ch 5 line 112 |
+| 7 | ~~Social Security Trustees Report 2026~~ **DONE 2026-11-26** (the whole report): 2032 and 78 percent (retirement fund); 2034 and 83 percent (combined); $29.3 trillion; 3.7 workers per beneficiary in 1970 | Pin | Ch 5 lines 110, 112, 120 |
 
 ### A2. Books a session cannot open (library, or an archive.org loan where marked)
 
@@ -77,7 +77,7 @@ A session tries items 19 to 25 by other routes first (Part B) and tells him whic
 | Mexico's weaker legal tools | Pin | 62 |
 | "The complexity was no accident": any finding on intent; instruments in retirement accounts | Origin | 84 |
 | The year the housing market turned; TARP's repayment; "balances never caught up"; regional economies "stayed smaller"; the consumer bureau's enforcement record and its weakening | Pin | 84, 96–102 |
-| Healthcare prices against general inflation; workers per retiree, then and now; Social Security's 1935 design | Pin | 78, 110, 120 |
+| Healthcare prices against general inflation; Social Security's 1935 design (workers per beneficiary: done, Trustees Report Table IV.B4) | Pin | 78, 110, 120 |
 | Norway against the United States | Pin | 122 |
 | Baotou: annual tailings; the villages; revenue; remediation share; wastewater per ton; "almost no substitute"; Klinger, *Rare Earth Frontiers* (2017) | Origin / Read | 130–140 |
 | Lee and Wen (2017; 2018), the studies behind Zhang et al. and the source of "about $20 billion in 2015"; Wang et al. (2020) on soil and groundwater; a source for the industry's revenue ($10–12 billion) and for remediation spending | Read / Origin | 138 |
@@ -142,5 +142,6 @@ A session tries items 19 to 25 by other routes first (Part B) and tells him whic
 
 ## Changes log
 
+- **2026-11-26.** The 2026 Trustees Report read; A7 done.
 - **2026-11-26.** Zhang et al. (2022) read in full; three leads added to B1.
 - **2026-11-26.** List started.

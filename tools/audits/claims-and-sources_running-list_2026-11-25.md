@@ -100,8 +100,9 @@ Ordered by how far each one reaches into the rest of the book.
 
 These can be ruled in batches. Each has its replacement in the report at the place named.
 
-**Chapter 5** (report §1): item 4, Social Security (use the 2026 report: 2032, about 78 percent; the dollar
-figure needs the trustees' own number); item 5, black lung ($44.2 billion, Labor Department; about $5 billion
+**Chapter 5** (report §1): item 4, Social Security (**the 2026 Trustees Report is read, 2026-11-26:** 2032 and 78 percent for the
+retirement fund; $29.3 trillion for the two funds combined; also "many workers for each retiree" is 3.7 per
+beneficiary in 1970, and cost passed tax income in 2010, not the early 2020s); item 5, black lung ($44.2 billion, Labor Department; about $5 billion
 owed the Treasury); item 8, the herring; item 9, the barrels; item 10, crowdfunding (drop Germany; Solomon as
 the former chief executive); item 12, the Libby scenes (now sourced: oxygen tanks, dust carried home, gardens,
 the tracks, one named man in the grocery store; not sourced: "the company let," funerals of the young,
