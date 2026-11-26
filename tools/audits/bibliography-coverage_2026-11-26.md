@@ -1,0 +1,265 @@
+# Bibliography coverage: read, requested, or neither (2026-11-26)
+
+**Status:** internal. A machine count, made by matching each entry in
+`tools/back-matter/sources/bibliography.md` against (a) the 126 library requests and (b) the extract files in
+`research/citations/` (title words, or surname beside the year; the tentative list's own "Standing" note
+where it has one). **Treat the numbers as close, not exact:** the same matching overstated "read" by 17 of 43
+when it used names alone (reconciliation, Part 5); this version is stricter, and can miss a work that was read
+under a shortened title. "Read" means read at some passage, not in full. Some works have two entries (one in
+a topic section, one in §25), so entries outnumber works.
+
+| List | Entries | Read at a passage | Requested, not yet in hand | Neither |
+|---|---|---|---|---|
+| Working bibliography (numbered sections) | 260 | 41 | 80 | 139 |
+| Tentative list (§19) | 176 | 55 | 18 | 103 |
+| Chesapeake press and public record (§19.5 to §19.7) | 11 | 0 | 0 | 11 |
+
+The Chesapeake sections are mostly prose blocks, not list entries, and are not counted properly here.
+
+## Working bibliography (numbered sections): neither read nor requested (139)
+
+- North, Douglass C. *Institutions, Institutional Change and Economic Performance.* Cambridge Universi
+- Harvey, David. *A Brief History of Neoliberalism.* Oxford University Press, 2005.
+- Klein, Naomi. *The Shock Doctrine: The Rise of Disaster Capitalism.* Metropolitan Books, 2007.
+- Klein, Naomi. *This Changes Everything: Capitalism vs. the Climate.* Simon & Schuster, 2014.
+- Marx, Karl. *Capital: A Critique of Political Economy.* Volume I. Originally published 1867 (Verlag 
+- Piketty, Thomas. *Capital in the Twenty-First Century.* Harvard University Press, 2014.
+- Raworth, Kate. *Doughnut Economics: Seven Ways to Think Like a 21st-Century Economist.* Chelsea Gree
+- Daly, Herman E. *Steady-State Economics.* W. H. Freeman, 1977. Revised edition, Island Press, 1991.
+- Georgescu-Roegen, Nicholas. *The Entropy Law and the Economic Process.* Harvard University Press, 19
+- Sen, Amartya, and Martha Nussbaum, eds. *The Quality of Life.* Oxford University Press, 1993.
+- Nussbaum, Martha. *Creating Capabilities: The Human Development Approach.* Harvard University Press,
+- Chetty, Raj, et al. "Where Is the Land of Opportunity? The Geography of Intergenerational Mobility i
+- Chetty, Raj, et al. "Race and Economic Opportunity in the United States." NBER Working Paper No. 244
+- Desmond, Matthew. *Poverty, by America.* Crown, 2023.
+- Case, Anne, and Angus Deaton. *Deaths of Despair and the Future of Capitalism.* Princeton University
+- Mishel, Lawrence, and Josh Bivens. *Identifying the Policy Levers Generating Wage Suppression and Wa
+- Butler, Katy. *Knocking on Heaven's Door: The Path to a Better Way of Death.* Scribner, 2013.
+- Quill, Timothy E. "Death and Dignity: A Case of Individualized Decision Making." *New England Journa
+- Berliner, Lauren S., and Nora J. Kenworthy. "Producing a Worthy Illness: Personal Crowdfunding Amids
+- Ly, Thanh, and Dilip Soman. "Race and Crowdfunding Success." *Journal of Marketing Research* (2020).
+- Reid, T. R. *The Healing of America: A Global Quest for Better, Cheaper, and Fairer Health Care.* Pe
+- Reinhart, Carmen M., and Kenneth S. Rogoff. *This Time Is Different: Eight Centuries of Financial Fo
+- Lehner, Mark. *The Complete Pyramids: Solving the Ancient Mysteries.* Thames & Hudson, 1997.
+- Hawass, Zahi. *Mountains of the Pharaohs: The Untold Story of the Pyramid Builders.* Doubleday, 2006
+- Herodotus. *Histories.* c. 440 BCE. Standard English translations: Aubrey de Sélincourt, *The Histor
+- U.S. Department of the Treasury. *Housing Supply and Affordability.* U.S. Treasury, 2021.
+- Vance, J.D. *Hillbilly Elegy: A Memoir of a Family and Culture in Crisis.* Harper, 2016.
+- Zuboff, Shoshana. *The Age of Surveillance Capitalism.* PublicAffairs, 2019.
+- Standing, Guy. *The Corruption of Capitalism.* Biteback, 2016.
+- Piketty, Thomas. *Capital and Ideology.* Harvard University Press, 2020.
+- Medina, José. *The Epistemology of Resistance: Gender and Racial Oppression, Epistemic Injustice, an
+- Murthy, Vivek H. *Together: The Healing Power of Human Connection in a Sometimes Lonely World.* Harp
+- Sennett, Richard. *The Fall of Public Man.* Knopf, 1977.
+- Soja, Edward W. *Seeking Spatial Justice.* University of Minnesota Press, 2010.
+- Harvey, David. "The Spatial Fix — Hegel, Von Thunen, and Marx." *Antipode* 13, no. 3 (1981): 1–12. (
+- Stacey, Judith. *Unhitched: Love, Marriage, and Family Values from West Hollywood to Western China.*
+- Nardi, Peter M. *Gay Men's Friendships: Invincible Communities.* University of Chicago Press, 1999.
+- Karner, Tracy X. Work on fictive kinship and caregiving networks (collected essays).
+- Jones, Angela. Work on Black queer kinship and chosen family.
+- Schneider, David M. *A Critique of the Study of Kinship.* University of Michigan Press, 1984. (Also:
+- Yang, Peifang, and Graham A. Davis. "Why Don't Environmental Bonds Fully Cover Reclamation Costs?" *
+- U.S. Government Accountability Office. *Financial Assurances for Reclamation: Federal Regulations an
+- U.S. Office of Surface Mining Reclamation and Enforcement (OSMRE). *Reclamation Bonds.* Agency guida
+- Hicks, John R. *The Theory of Wages.* London: Macmillan, 1932. Second edition, 1963.
+- Palmer, M. A., E. S. Bernhardt, W. H. Schlesinger, et al. "Mountaintop Mining Consequences." *Scienc
+- IPCC, 2021. *Summary for Policymakers,* statement B.5. In *Climate Change 2021: The Physical Science
+- Nordhaus, William D., and Joseph Boyer. *Warming the World: Economic Models of Global Warming.* Camb
+- Stern, Nicholas. *The Economics of Climate Change: The Stern Review.* Cambridge: Cambridge Universit
+- Sackmann, I.-Juliana, Arnold I. Boothroyd, and Kathleen E. Kraemer. "Our Sun. III. Present and Futur
+- Schröder, Klaus-Peter, and Robert Connon Smith. "Distant future of the Sun and Earth revisited." *Mo
+- Ord, Toby. *The Precipice: Existential Risk and the Future of Humanity.* London: Bloomsbury, 2020.
+- Smith, Craig R., Fabio C. De Leo, Angelo F. Bernardino, Andrew K. Sweetman, and Pedro Martinez Arbiz
+- Jaeckel, Aline. *The International Seabed Authority and the Precautionary Principle: Balancing Deep 
+- Deudney, Daniel. *Dark Skies: Space Expansionism, Planetary Geopolitics, and the Ends of Humanity.* 
+- Alletto, Christopher. "The Abundance Inversion: AI, Public Sector Efficiency, and the Future of Fisc
+- Desai, Deven R., and Mark A. Lemley. "Scarcity, Regulation, and the Abundance Society." *Frontiers i
+- Himmelstein, Kathryn E. W., Jourdyn A. Lawrence, Jaquelyn L. Jahn, Joniqua N. Ceasar, Michelle Morse
+- Pearce, David W., and Atkinson, Giles D. "Capital theory and the measurement of sustainable developm
+- Costanza, Robert, et al. "The value of the world's ecosystem services and natural capital." *Nature*
+- Hall, J. B., Jr., Tung, Y., & Winn, L. E. *Liquid Waste Feed System.* U.S. Patent No. 3,670,890. U.S
+- Winn, L. E. *Lathe tool bit and holder for machining fiberglass materials.* NASA Case No. XLA-10470.
+- Mueller, Dennis C. *Public Choice III.* Cambridge University Press, 2003.
+- U.S. Census Bureau. Decennial census + QuickFacts, McDowell County, West Virginia (FIPS 54047). 
+- BP p.l.c. financial disclosures (June 2016). *Backs:* Deepwater Horizon total cost estimate ~$61
+- U.S. Department of Justice settlement (April 2016) + BP press release (2015). *Backs:* $20.8B DO
+- U.S. EPA, AP-42 §1.1 + Pocahontas-seam heat content (~28 mmBtu/short ton; USGS/EIA). *Backs:* Mc
+- U.S. Energy Information Administration (EIA), historical coal price series (Annual Energy Review
+- U.S. Energy Information Administration (EIA) / ICE Brent crude spot price. *Backs:* Method-3 V_m
+- U.S. EPA (2023), Social Cost of Carbon. *Backs:* SCC $190/t CO₂ central estimate (attribute to E
+- Norwegian Ministry of Finance / Norwegianpetroleum.no — petroleum tax + government take. *Backs:
+- Norwegian Offshore Directorate / Norwegianpetroleum.no — cumulative petroleum production. *Backs
+- U.S. DOL OWCP / GAO — Black Lung Disability Trust Fund. *Backs:* TA §11.6 + Ch 2 / Ch 6 / Ch 8
+- SpaceX — Falcon 9 capacity + list price. *Backs:* LEO payload capacity 22,800 kg (expendable
+- NASA — OSIRIS-REx / asteroid Bennu. *Backs:* sample mass 121.6 g (final accounting, announce
+- McDowell poverty 37.6% / median income $28,235. US Census ACS 5-yr via QuickFacts. HIGH.
+- MTR cancer odds ratio 2.03 (NOT "60,000 cases"). Hendryx et al., *J. Community Health* 37(2):320
+- Chesapeake oyster 15M bushels (1880s, MD); ~1–2% of population remains. Maryland Sea Grant/Horn 
+- Rockfish young-of-year 2.0 (2024) vs avg 11.0. MD DNR, Oct 2024. HIGH. Moratorium 1985–89/90, re
+- Blue crab 238M (2025 Winter Dredge Survey), 2nd-lowest since 1990. MD DNR, May 2025. HIGH.
+- Menhaden Chesapeake cap 51,000 mt — ASMFC Amendment 3 (2017/2018), NOT 2006. asmfc.org. HIGH. (C
+- Chesapeake watershed >64,000 sq mi, 6 states + DC. Chesapeake Bay Program. HIGH.
+- Tangier: settled 1700s; ~1.2 sq mi remaining; 0.5–1.3 m/yr erosion (paper). Schulte et al. (USAC
+- Maryland oysters 2.4B→7.6B adults since 2005 (≈tripled). MD DNR stock assessment, May 2025. HIGH
+- Libby: 1963–90; >70% US vermiculite (EPA); asbestosis 40–80× (ATSDR 2002); 1st EPA Public Health E
+- Deepwater: 4.9M bbl, 11 killed, 87 days (NOAA); $20.8B settlement / $8.8B NRDA / $18.7B-2015 (DOI/
+- Baotou tailings ~11 km²; up to ~40 t tailings/t REO (peer-reviewed, PMC8929459). ">$100B remedia
+- Exxon Valdez ~11M gal (1989); $900M civil + $125M criminal (1991). EVOSTC; EPA 1991. HIGH. "$5.5
+- Social Security depletion 2033, 77% payable; outgo>income since 2021. SSA *2025 OASDI Trustees R
+- 2008: household net worth −~$11–12T (FED Z.1 / FRED TNWBSHNO — NOT Mian & Sufi, whose figure is $5
+- Fed emergency lending $16.1T = GROSS CUMULATIVE (peak ~$1.1–1.6T); TARP $700B authorized. GAO-11
+- Norway GPFG NOK 21,268B (>$2T) end-2025; per-citizen ~$390k; fund 1990/1996/2006; fiscal rule 2001
+- Medical crowdfunding: 437,596 GoFundMe campaigns, >$2B, 21.7M donations, 2016–20; 12% met goal. 
+- Darity 6–7 yr Black–white longevity gap (legacy-effect pricing). Himmelstein, K.E.W., Lawrence, 
+- McDowell 13-yr life-expectancy gap. CDC + Robert Wood Johnson Foundation County Health Ranking
+- Reclamation bond gap $4–6B; $865M bankruptcy transfer (2014–16). OSMRE + GAO-17-207R + Yang 
+- Chesapeake menhaden 51,000 mt cap. ASMFC Amendment 3 (Nov 2017) — set on Allison Colden's 
+- Rockfish YOY 2.0 vs 11.0 (2024). MD DNR juvenile striped bass seine survey + VIMS juvenile str
+- Maryland oysters tripled since 2005 (2.4B→7.6B adults). MD DNR press release, 2025-08-26 (Go
+- Oyster-reef height threshold (renewable-regeneration construct). Colden, A.M., Latour, R.J., Lip
+- Osprey 90% nesting decline, VA Eastern Shore (2025). Bryan Watts, W&M Center for Conservation Bi
+- Adversarial (Pass 3.4 balance): Menhaden Fisheries Coalition rebuttal (Oct 2025) + Ocean Harvest
+- U.S. Energy Information Administration (EIA), U.S. coal reserves + reserves-to-production. ("How
+- U.S. Geological Survey — Appalachian-basin coal depletion + McDowell coking-coal estimate. (USGS
+- PARKED CANDIDATE — ISS as closed-system life-support cost anchor (reverse-CSD / Three-Ways "Method
+- Louisiana Office of Community Development — Isle de Jean Charles resettlement. ~$48.3M (the rese
+- OSMRE / Powell River Project (ARRI). Reforestation ~$1,000–1,400/acre. *Candidate anchor:* TA §1
+- Chetty, Raj, John N. Friedman, Nathaniel Hendren, Maggie R. Jones, and Sonya R. Porter. "The Oppor
+- Jones, Harry W. "The Recent Large Reduction in Space Launch Cost." 48th International Conference o
+- Treaty Ending the Third Anglo-Powhatan War (Treaty of Necotowance), October 1646 (primary; Encyc
+- Articles of Peace (Treaty of Middle Plantation), May 29, 1677 (primary; Cockacoeske, weroansqua 
+- Pamunkey Indian Tribe shad hatchery (est. 1918, Pamunkey River) — reportage cluster: Chesapeake 
+- Kecoughtan (Algonquian village, mouth of the Hampton River) — cite via Rountree 1989 + William &
+- Family and Medical Leave Act of 1993, Pub. L. No. 103-3, 107 Stat. 6. — *Backs:* Ch9 "FMLA 1993,
+- European Union. Regulation (EU) 2024/1252 (Critical Raw Materials Act), in force 23 May 2024. 
+- Helium Privatization Act of 1996, Pub. L. No. 104-273 + Helium Stewardship Act of 2013, Pub. L
+- United Nations Convention on the Law of the Sea (1982); Agreement Relating to the Implementation o
+- Alberta Heritage Savings Trust Fund Act (1976); Alberta Heritage Savings Trust Fund annual report.
+- International Monetary Fund. Working Paper WP/23/169 (2023) (>$5T/yr unpriced fossil-fuel enviro
+- OECD. Development Assistance Committee (DAC) — Official Development Assistance statistics (2023)
+- OpenSecrets (Center for Responsive Politics). Oil & Gas industry lobbying/contributions profile (s
+- U.S. OSMRE. e-AMLIS (Abandoned Mine Land Inventory System). — *Backs:* Ch8 AML acreage (hundreds
+- Rudes (2005) Chesapeake etymology — venue unpinned; cite the corrected *Chesepiooc* gloss via Ro
+- Deepwater component cluster — Lee 2018 (*J. Corp. Acct. & Finance*, ~$144.9B cost-to-BP), Bishop
+- Ryggvik 2017 (Norwegian "moderate-pace" doctrine, "storm of protest") — venue unpinned (the comp
+- MarketLine oil&gas profile 2023; Citi GPS giving (~$1.3–2.3T); TEEB/Trucost 2013 (~$7.3T
+- Ch4 Nigeria corruption cluster — NEITI revenue specific report / SOMO 2016 / Sanusi-NEITI / Abac
+- Benjamin, Ruha. *Race After Technology: Abolitionist Tools for the New Jim Code*. Cambridge: Polity 
+- Black, Fischer, and Myron Scholes. "The Pricing of Options and Corporate Liabilities." *Journal of P
+- Cobb, Charles W., and Paul H. Douglas. "A Theory of Production." *American Economic Review* 18, no. 
+- Costanza, Robert, et al. "Changes in the Global Value of Ecosystem Services." *Global Environmental 
+- Habermas, Jürgen. *Theory of Communicative Action*. Translated by Thomas McCarthy. Boston: Beacon Pr
+- Hamilton, James D. "Causes and Consequences of the Oil Shock of 2007–08." *Brookings Papers on Econo
+- Hickel, Jason. *Less Is More: How Degrowth Will Save the World*. London: William Heinemann, 2020.
+- Howarth, Richard B., and Richard B. Norgaard. "Intergenerational Resource Rights, Efficiency, and So
+- Mill, John Stuart. *On Liberty*. London: John W. Parker and Son, 1859.
+- Putnam, Robert D. *Bowling Alone: The Collapse and Revival of American Community*. New York: Simon &
+- Sen, Amartya. *Inequality Reexamined*. Cambridge, MA: Harvard University Press, 1992.
+- Whyte, Kyle. *Indigenous Environmental Ethics* (collected works on indigenous environmental ethics +
+- Woods, H., W. J. Hargis Jr., C. H. Hershner, and P. Mason. "Disappearance of the Natural Emergent 3-
+
+## Tentative list (§19): neither read nor requested (103)
+
+- Herman Daly + Joshua Farley. *Ecological Economics: Principles and Applications.* Textbook for t
+- Bob Herbert. *Losing Our Way: An Intimate Portrait of a Troubled America.* Journalism complement
+- Evan Osnos. Reporting on the new American oligarchy — contemporary companion to political-captur
+- Robert Reich. Various books on the political economy of inequality.
+- Joseph Stiglitz. *The Price of Inequality* (2012). Nobel economist making the inequality-has-cos
+- Davies, Dan. *The Unaccountability Machine: Why Big Systems Make Terrible Decisions and How the 
+- Dasgupta, Partha. *On Natural Capital: The Value of the World Around Us.* Witness Books (Ebury),
+- Riofrancos, Thea. *Extraction: The Frontiers of Green Capitalism.* W. W. Norton, 2025. Why her
+- Coyle, Diane. *The Measure of Progress: Counting What Really Matters.* Princeton University Pres
+- Jones, Christopher F. *The Invention of Infinite Growth: How Economists Came to Believe a Danger
+- Romeo, Nick. *The Alternative: How to Build a Just Economy.* PublicAffairs, 2024. Why here: 
+- Carley, Sanya, and David Konisky. *Power Lines: The Human Costs of American Energy in Transition
+- Darity, William A., Jr., A. Kirsten Mullen, and Lucas Hubbard, eds. *The Black Reparations Proje
+- Táíwò, Olúfẹ́mi O. *Reconsidering Reparations.* Oxford University Press, 2022. Why here: a p
+- Klein, Ezra, and Derek Thompson. *Abundance.* Avid Reader Press, 2025. Why here: not a comp 
+- Mazurek, Jacek M., John Wood, David J. Blackley, and David N. Weissman. "Coal Workers' Pneumocon
+- Fishback, Price V. "Did Coal Miners 'Owe Their Souls to the Company Store'? Theory and Evidence 
+- U.S. Department of Agriculture, Food and Nutrition Service. "A Short History of SNAP." fns.usda.
+- Alpert, Evans, Lieber and Powell (2022). Already in §24E. Why here: abstract read this sessi
+- Blackley, David J., Cara N. Halldin, and A. Scott Laney. "Continued Increase in Prevalence of Co
+- Van Zee, Art. "The Promotion and Marketing of OxyContin: Commercial Triumph, Public Health Trage
+- U.S. House Committee on Energy and Commerce. Report on opioid distribution in West Virginia, rel
+- U.S. Department of Justice. Press releases on the Purdue pleas: W.D. Va., 2007; and October 21, 
+- Center for Public Integrity. Investigation of black lung benefit claims (Chris Hamby, 2013, as t
+- Derickson (1991; 1998). Already in §24A. Why here: would settle the strike date (¶15, row 33
+- White, Theodore H. *The Making of the President 1960.* Publisher and year not checked. Why her
+- Kennedy, John F. Remarks at Charleston, West Virginia (Sept 19, 1960) and Flint, Michigan (Sept 
+- Works named in the encyclopedia entries' source lists: Athey, Louis L., "The Company Store in Co
+- National Park Service pages on scrip (Big South Fork) and on New River Gorge company towns. Wh
+- Sandel, Michael. *What Money Can't Buy.* 2012 (subtitle and publisher to confirm). Why here:
+- Costanza, Robert, and Charles Perrings. Article on assurance bonding, *Ecological Economics* 2 (
+- Martínez-Alier, Joan. Work not identified. Why here: Ch 5 line 170 names him with Bullard. *
+- Fanning, Andrew L., and Jason Hickel. "Compensation for atmospheric appropriation." *Nature Sust
+- Caribbean Community (CARICOM). *Ten Point Plan for Reparatory Justice.* Endorsed July 2014; late
+- Bivens and Mishel (Economic Policy Institute), on productivity and pay. Work not identified. W
+- KFF Health News (Rachel Bluth), interview with GoFundMe's chief executive Rob Solomon, Jan. 16, 20
+- U.S. District Court, E.D. Louisiana (Barbier, J.), findings on the volume of oil discharged, Janua
+- NOAA. *Prince William Sound herring: an updated synthesis of population declines and lack of rec
+- New York Attorney General. *No Rhyme or Reason: The "Heads I Win, Tails You Lose" Bank Bonus Cul
+- CoreLogic foreclosure report, early 2013. Why here: Ch 5 line 92; "about 4.1 million homes h
+- U.S. EPA news release, June 17, 2009 (Libby public health emergency). Why here: Ch 5 line 40
+- U.S. Department of the Interior, Office of Inspector General, memoranda on the Minerals Management
+- OCC Bulletin 2019-56; SEC release 2020-143 (Volcker Rule amendments). Why here: Ch 5 line 10
+- Sveriges Riksbank, historical timeline (the Kreuger crash, 1932; leaving gold, 1931). Why here
+- Muller, Nicholas Z., Robert Mendelsohn, and William Nordhaus. "Environmental Accounting for Poll
+- Gerard, David. "The Law and Economics of Reclamation Bonds." *Resources Policy* 26, no. 4 (2000)
+- TEEB. *Mainstreaming the Economics of Nature: A Synthesis* (2010); *TEEB for Agriculture & Food:
+- Negrusa, Sebastian, Brighita Negrusa, and James Hosek. "Gone to War: Have Deployments Increased 
+- Loewenstein, George, Ted O'Donoghue, and Matthew Rabin. "Projection Bias in Predicting Future Ut
+- e-WV: The West Virginia Encyclopedia. Entry on the Pocahontas No. 3 coal seam. wvencyclopedia.or
+- Barry, Brian. "Circumstances of Justice and Future Generations." In R. I. Sikora and Brian Barry
+- Daly, Herman E. "Toward Some Operational Principles of Sustainable Development." *Ecological Eco
+- Daly, Herman E. "On Wilfred Beckerman's Critique of Sustainable Development." In Daly, Jacobs an
+- Samuelson, Paul A. 1948 (no title given); Hicks, John R. *Value and Capital,* 1939; Kaldor
+- U.S. Geological Survey. Professional Paper 1625-C (title to confirm). Why here: TA §11.6, Po
+- International Energy Agency. *Net Zero by 2050.* 2021. Why here: TA §11.9. Standing: not
+- Office of Management and Budget. Circular A-4. Why here: TA §15.1.7. Standing: not read;
+- Federal regulations. 43 CFR Part 11 and 15 CFR Part 990 (natural resource damage assessment; TA 
+- Boden, Leslie I. "Black Lung: Rising Rates, Troubled Funding." National Academy of Social Insura
+- NPR report on the Black Lung trust fund (date and title to confirm). Why here: TA §11.6, the
+- Weitzman, Martin L. "Why the Far-Distant Future Should Be Discounted at Its Lowest Possible Rate
+- Picchio, Marcos. "Rawls on Just Savings and Economic Growth." *Journal of Ethics and Social Phil
+- Boston University, "Debating Climate Economics: The Stern Review vs. Its Critics" (report; date 
+- Barry, Brian. "Sustainability and Intergenerational Justice." *Theoria* 45, no. 89 (1997): 43–64
+- Gollier, Christian. Work on the Weitzman discounting result (title, journal and year to confirm;
+- Sandow, Erika. "Til Work Do Us Part: The Social Fallacy of Long-distance Commuting." *Urban Stud
+- Appalachian Voices. Report on black-lung benefit levels, February 2024 (title to confirm). Why
+- Congressional Research Service. *The Black Lung Program, the Black Lung Disability Trust Fund, a
+- Nordhaus's discount rate: two leads. An NBER working paper (w18301) and a Resources for the Futu
+- Two pages that quote Barry: a Springer article, "The Morally Desirable Option for Nuclear Power 
+- Pages used to locate Daly's papers: Beckerman's reply in *Environmental Values* 4, no. 2; a revi
+- Reproductions of Ostrom's Table 3.1: the P2P Foundation wiki and a second web copy; a Harvard Ke
+- Stanford Encyclopedia of Philosophy, "Intergenerational Justice" (Summer 2018 archive). Why he
+- Boston University report on the Stern debate (first batch above). Decisions log 014.
+- Rawls, John. *Political Liberalism.* Columbia University Press, 1993; *Justice as Fairness.* Har
+- IPCC. Working Group III contribution to the Sixth Assessment Report (2022), Chapter 12 (volume t
+- National Academies of Sciences, Engineering, and Medicine. *Negative Emissions Technologies and 
+- State severance-tax statutes. Texas Tax Code, Title 2, Subtitle I; Alaska Statutes 43.55; Wyomin
+- Federal statutes named without citation. Oil Pollution Act; Comprehensive Environmental Response
+- Sources the appendix names only by category, to identify or drop. Norwegian Environment Agency (
+- U.S. Department of Justice. Press release on BP's guilty plea, November 15, 2012 (title and numb
+- West Virginia Department of Health and Human Resources. "West Virginia Fatal Overdoses: Key Drug
+- National Conference of State Legislatures. "Taxes on Oil and Gas Production" (web page; date to 
+- Norwegian Offshore Directorate. *Resource Accounts 2024* and "Production figures December 2024."
+- Study of heavy metals near the Baotou tailings dam. "Risks to Human Health of Exposure to Heavy 
+- Dialogue Earth (dialogue.earth), article on the Baotou tailings pond (title, author and date to 
+- Barry, Brian. "Sustainability and Intergenerational Justice." In Dobson (ed.), 1999, pp. 93–117 
+- Barry, Brian. "Justice between Generations." In Hacker and Raz (eds.), 1977, pp. 268–284 (volume
+- Pontin, Ben. Article on previous generations in Rawls's just savings principle, *Kantian Review*
+- Occidental Petroleum / 1PointFive. Company statements on the Stratos plant's start-up, 2025–2026
+- Congressional Research Service, R45261 (entry in the batch above): now read in part, in the 
+- Electronic Code of Federal Regulations, headings of 43 CFR Part 11, 15 CFR Part 990, 43 CFR subp
+- Pew Research Center. "Wealth Gaps Rise to Record Highs Between Whites, Blacks, Hispanics." July 
+- International Law Commission. Articles on Responsibility of States for Internationally Wrongful 
+- U.S. EPA. "Mortality Risk Valuation" (web page) and *Guidelines for Preparing Economic Analyses*
+- National Conference of State Legislatures. "Taxes on Oil and Gas Production." Why here: TA §
+- Purdue bankruptcy audit (AlixPartners), filed December 2019, as reported by several outlets. W
+- West Virginia health department slides on fatal overdoses (August 2024), using CDC data. Why h
+- Civil Liberties Act of 1988: U.S. Department of Justice release, February 1999; Densho Encyclopedi
+- Rawls, John. *Political Liberalism.* 1993 (publisher to confirm), p. 274. Why here: TA §14.4
+- Keep out recommended (decisions log 015): Insurance Business magazine, April 28, 2026 ("As of Se
+- Wrigley-Field, Elizabeth. "Stolen Lives" [full title to complete]. *RSF: The Russell Sage Founda
+- Susskind, Daniel. *A World Without Work: Technology, Automation, and How We Should Respond.* Metropo

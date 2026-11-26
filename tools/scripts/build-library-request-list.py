@@ -166,7 +166,7 @@ E = [
 ]
 
 PRIO = {
- 1: ("First", "Chapter 5 and the appendix’s checked claims. A reader already holds both, and corrections are due first."),
+ 1: ("First", "Chapter 5 and the Technical Appendix. With Chapter 1, these are the sample that goes out first."),
  2: ("Second", "Chapters 2, 4, 3 and 10, the next to be drafted, in that order."),
  3: ("Third", "Chapters 6, 7, 8 and 9, drafted after those."),
  4: ("Fourth", "Works on the appendix’s reference list that have not yet been opened. Nothing waits on them."),
@@ -239,41 +239,88 @@ def key(r):
 
 def footer(canvas, doc):
     canvas.setFont("S", 7.5)
-    canvas.drawString(0.6 * inch, 0.45 * inch, "Interlibrary loan requests placed 2026-11-26, by where used and by priority")
+    canvas.drawString(0.6 * inch, 0.45 * inch, "Interlibrary loan requests placed 2026-11-26")
     canvas.drawRightString(letter[0] - 0.6 * inch, 0.45 * inch, "Page %d" % doc.page)
+
+
+def find(frag):
+    r = [x for x in rows if frag in x["c"]]
+    assert len(r) == 1, frag
+    return r[0]
+
+
+# Part 1: requests that may be wrong, or where a wrong edition would be. (fragment of citation, what to know)
+WRONG = [
+ ("Foundations of Economic Analysis", "Probably the wrong work. My source gives only “Samuelson 1948,” with no "
+  "title. The 1947 book was requested as a guess; the work meant is more likely his 1948 article, “Consumption "
+  "Theory in Terms of Revealed Preference,” <i>Economica</i> 15, no. 60: 243–253. Please hold the book until I confirm."),
+]
+GUESS = [
+ ("Braiding Sweetgrass", "The chapter names the author only. This title was my best guess."),
+ ("As We Have Always Done", "The chapter names the author only. This title was my best guess."),
+ ("Indigenous Peoples", "The chapter names the author only. This title was my best guess."),
+ ("Custer Died", "The chapter names the author only. This title was my best guess."),
+ ("Giza and the Pyramids", "The chapter names the two excavators, not a book. Their joint book was my best guess."),
+ ("Environmentalism of the Poor", "The chapter names the author only. This title was my best guess."),
+]
+EDITION = [
+ ("A Theory of Justice", "The original 1971 edition only. The 1999 revised edition has different pages and wording."),
+ ("From Here to Equality", "The second edition (2022) only."),
+ ("Groundwork of the Metaphysics", "The Gregor and Timmermann translation (Cambridge) only."),
+ ("Community and Society", "The Loomis translation (1957). A German-language copy is not needed."),
+ ("Records of the Grand Historian", "Any published English translation will do. An original-language copy is not needed."),
+ ("Black Skin, White Masks", "Any published English translation. A French-language copy is not needed."),
+ ("Myth of Sisyphus", "The O’Brien English translation. A French-language copy is not needed."),
+ ("The Proper Calculation of Income", "The one chapter only, not the whole volume."),
+]
+
+
+def check_table(pairs):
+    data = [[Paragraph("<b>%s</b>" % h, small) for h in ("No.", "Requested item", "What to know")]]
+    for frag, note in pairs:
+        r = find(frag)
+        data.append([Paragraph(str(r["n"]), small), Paragraph(r["c"], body), Paragraph(note, body)])
+    t = Table(data, colWidths=[0.36 * inch, 3.3 * inch, 3.64 * inch], repeatRows=1)
+    t.setStyle(TableStyle([
+        ("GRID", (0, 0), (-1, -1), 0.4, colors.grey), ("VALIGN", (0, 0), (-1, -1), "TOP"),
+        ("BACKGROUND", (0, 0), (-1, 0), colors.Color(.9, .9, .9)),
+        ("TOPPADDING", (0, 0), (-1, -1), 2.5), ("BOTTOMPADDING", (0, 0), (-1, -1), 2.5),
+        ("LEFTPADDING", (0, 0), (-1, -1), 3), ("RIGHTPADDING", (0, 0), (-1, -1), 3)]))
+    return t
 
 
 def build(out):
     S = []
     nb = sum(1 for r in rows if r["t"] == "B")
-    S.append(Paragraph("Interlibrary loan requests: by where used in the book, and by priority", h1))
+    S.append(Paragraph("Interlibrary loan requests: what to check first, priorities, and where each is used", h1))
     S.append(Paragraph("Name: ____________________________ &nbsp;&nbsp;&nbsp; Student ID: __________________ &nbsp;&nbsp;&nbsp; "
                        "Date: ______________<br/><br/>Pickup location: ____________________ &nbsp;&nbsp;&nbsp; "
                        "Email for articles: ______________________________", para))
-    S.append(Paragraph("All %d items below were requested through the library’s online form on November 26, 2026 "
-                       "(%d books, %d articles, one of them a book chapter). They support a book manuscript of ten chapters and a "
-                       "technical appendix. Each item has one number, used in both parts, so the two lists can be "
-                       "matched. <b>Part 1</b> groups the items by where they are used in the book: each "
-                       "chapter, then the Technical Appendix. An item used in more than one place is listed under "
-                       "each, so Part 1 has more rows than items. "
-                       "<b>Part 2</b> lists every item once, by how soon it is needed. The last column is a box to "
-                       "tick when an item arrives." % (len(rows), nb, len(rows) - nb), para))
-    S.append(Paragraph("<b>What the priorities mean</b>", para))
-    for p in (1, 2, 3, 4):
-        its = [r for r in rows if r["p"] == p]
-        S.append(Paragraph("<b>%s</b> (%s). %s" % (PRIO[p][0], counts(its), PRIO[p][1]), para))
-    S.append(Paragraph("Within a priority, articles matter as much as books; they are listed first only because they "
-                       "arrive by email. A note in square brackets marks an edition or translation that matters, or a "
-                       "title that was a best guess at the work meant.", para))
-    S.append(Spacer(1, 6))
-    S.append(Paragraph("Part 1. By where each item is used", h1))
-    S.append(Paragraph("Chapter 1 has no requests: it names no outside work.", para))
-    for ch in CH_ORDER:
-        its = sorted([r for r in rows if ch in places(r)], key=key)
-        S.append(KeepTogether([Paragraph("%s: %s" % (CH_TITLE[ch], counts(its)), h2)]))
-        S.append(table(its, here=ch))
+    S.append(Paragraph("The %d items below were requested through the library’s online form on November 26, 2026 "
+                       "(%d books, %d articles, one of them a book chapter). They support a book manuscript of ten "
+                       "chapters and a technical appendix. Each item has one number, used in all three parts. "
+                       "<b>Part 1</b> lists requests that may be wrong, so nobody searches for the wrong thing. "
+                       "<b>Part 2</b> lists every item once, by how soon it is needed. <b>Part 3</b> lists the items "
+                       "by where they are used in the book. The last column in Parts 2 and 3 is a box to tick when "
+                       "an item arrives." % (len(rows), nb, len(rows) - nb), para))
+    S.append(Paragraph("Part 1. Please check these first", h1))
+    S.append(Paragraph("1a. Probably the wrong work: please hold", h2))
+    S.append(check_table(WRONG))
+    S.append(Paragraph("1b. The title was a best guess: I will confirm each", h2))
+    S.append(Paragraph("These are worth filling if they are easy to get. If one is hard to find, please ask me "
+                       "before spending time on it.", para))
+    S.append(check_table(GUESS))
+    S.append(Paragraph("1c. The edition or translation matters", h2))
+    S.append(Paragraph("These requests are right, but a different edition would not serve.", para))
+    S.append(check_table(EDITION))
+    S.append(Paragraph("1d. A possible duplicate", h2))
+    S.append(Paragraph("My own log counted 127 submissions, and this list has %d distinct items. If one item "
+                       "appears twice in your queue, the second is a duplicate and can be cancelled." % len(rows), para))
     S.append(PageBreak())
     S.append(Paragraph("Part 2. By priority", h1))
+    S.append(Paragraph("Within a priority, articles matter as much as books; they are listed first only because they "
+                       "arrive by email. A note in square brackets marks an edition or translation that matters, or a "
+                       "title that was a best guess.", para))
     for p in (1, 2, 3, 4):
         its = [r for r in rows if r["p"] == p]
         S.append(Paragraph("%s priority: %s" % (PRIO[p][0], counts(its)), h1))
@@ -284,9 +331,17 @@ def build(out):
                 continue
             S.append(Paragraph("%s: %s" % (CH_TITLE[ch], counts(sub)), h2))
             S.append(table(sub))
+    S.append(PageBreak())
+    S.append(Paragraph("Part 3. By where each item is used in the book", h1))
+    S.append(Paragraph("An item used in more than one place is listed under each, so this part has more rows than "
+                       "items. Chapter 1 has no requests: it names no outside work.", para))
+    for ch in CH_ORDER:
+        its = sorted([r for r in rows if ch in places(r)], key=key)
+        S.append(KeepTogether([Paragraph("%s: %s" % (CH_TITLE[ch], counts(its)), h2)]))
+        S.append(table(its, here=ch))
     doc = SimpleDocTemplate(out, pagesize=letter, leftMargin=0.6 * inch, rightMargin=0.6 * inch,
                             topMargin=0.6 * inch, bottomMargin=0.7 * inch,
-                            title="Interlibrary loan requests by chapter and priority", author="")
+                            title="Interlibrary loan requests", author="")
     doc.build(S, onFirstPage=footer, onLaterPages=footer)
     print(out, len(rows), "items;", nb, "books")
 

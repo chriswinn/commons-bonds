@@ -167,6 +167,11 @@ the appendix's checked claims; second: Ch 2, 4, 3, 10; third: Ch 6–9; fourth: 
 **Count check:** this log names 126 distinct requests (86 books, 39 articles, 1 book chapter), not 127; the earlier
 article count of 40 looks one too high. No receipts exist to settle it.
 
+**Bibliography coverage (2026-11-26):** `bibliography-coverage_2026-11-26.md`. Working bibliography, 260
+entries: about 41 read at a passage, 80 requested, 139 neither. Tentative list, 176 entries: about 55 read, 18
+requested, 103 neither. About 30 requested works have no entry on either list yet and are owed to the
+tentative list under the source-tracking rule. A machine count; see the file's caveat.
+
 **Owed, not yet placed (2026-11-26, second session; the form did not reach the session).** Twelve requests:
 from the reconciliation's hand check (its Part 5), books: Benjamin, *Race After Technology* (2019); Du Bois,
 *Black Reconstruction in America* (1935); Habermas, *Theory of Communicative Action* (1981); Hickel, *Less Is
