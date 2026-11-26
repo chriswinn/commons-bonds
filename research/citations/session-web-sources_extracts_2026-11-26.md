@@ -215,3 +215,75 @@ returned an error for both. The abstracts carry the figures the appendix uses.
   403. Routes around four of them are recorded above.
 - **Not attempted today:** El Serafy (1989); Asare et al. (2023); Broome; Samuelson; Sen; TEEB 2018 (all low
   value: "not checked" rows in the appendix with no finding against them).
+
+---
+
+# Part B, first batch (2026-11-26, later the same day)
+
+Worked from `tools/audits/sources-to-find_master-list_2026-11-26.md`, Part B. Same rules: words from the page,
+nothing changed in the chapter or the appendix.
+
+## 13. The Grace indictment itself (primary)
+
+*United States v. W.R. Grace et al.*, indictment, U.S. District Court, District of Montana, Missoula Division
+(February 2005; later case number CR 05-07-M-DWM). Read from the copy posted by the Environmental Working
+Group (static.ewg.org). The Justice Department's release of February 7, 2005 (justice.gov archive) was also
+read. An indictment is the prosecution's allegation; the 2009 trial ended in acquittal.
+
+| The indictment says | Bears on |
+|---|---|
+| ¶46: "From 1976 to 1990 the Directors, Officers, and Shareholders of W.R. GRACE enjoyed at least $140 million in after tax profits arising largely from products made with vermiculite contaminated with tremolite asbestos from the Libby Mine." | **Libby's "$100 million" (Ch 5 line 46; TA §4.3, §9.5, §11.3).** A sourced figure for what the mine earned: profit, 1976–1990 only, and from products made with Libby vermiculite, not from the mine alone. |
+| "On or about 1939, the Zonolite Company… was formed to mine and process vermiculite"; by an agreement "dated January 17, 1963," Grace "acquired 'substantially all of the properties and assets of Zonolite'"; "In 1990, defendant W.R. GRACE ceased vermiculite mining"; processing "until approximately 1992." | **"Whether the mine ran before 1963" (TA §11.3): it did,** under Zonolite. Grace's years are 1963–1990. |
+| "an employee of defendant W.R. GRACE informed the Libby Public School District that vermiculite materials from the Libby Mine could be used as a surface for the Libby High School running track… employees of defendant W.R. GRACE transported vermiculite materials to the Libby High School and the Libby Junior High School where they… served as a surface for the running tracks at both schools for approximately seven years." Also an elementary school's skating rink, about 1981. | **Ch 5 line 40, the running tracks.** Supported as the indictment's allegation, and stronger than "the company let": its employees delivered the material. |
+| "At various times between 1963 and 1990, defendant W.R. GRACE allowed employees and residents of Libby, Montana to take vermiculite concentrate for their personal use." | Gardens (Ch 5 line 40). |
+| A company memo quoted in the indictment, on a federal health study proposed in 1980, lists options: "(b) Be slow, review things extensively and contribute to delay"; "(g) Attempt to apply influence via congressmen, senators, lobbyists or others to get it turned off." | **Ch 5 line 210, "lobbying and an effort to delay the regulation of asbestos."** Partly supported: the memo weighs delay and lobbying, and its object is a health **study** (NIOSH), not regulation. Matches what Schneider and McCumber report (pp. 182–184). |
+| Justice Department release: "allowing workers to leave the mine site covered in asbestos dust, allowing residents to take waste vermiculite for use in their gardens and distributing vermiculite 'tailings' to the Libby schools." | Ch 5 lines 32–40. |
+
+**For the "six times" result.** Cleanup of about $600 million against at least $140 million of alleged profit
+is about four times, on a figure with a source. Whether to use an allegation from a case that ended in
+acquittal is the author's call; the number itself was not what the jury decided.
+
+## 14. *Umbrellas Don't Make It Rain* (2015): what kind of comparison it is
+
+Darrick Hamilton, William Darity Jr., Anne E. Price, Vishnu Sridharan and Rebecca Tippett, *Umbrellas Don't
+Make It Rain: Why Studying and Working Hard Isn't Enough for Black Americans* (Duke Center for Social Equity
+[with The New School and the Insight Center], April 2015), 11 pages. Read in full from the Insight Center's
+copy (the Duke address serves a web page to sessions, not the file).
+
+- "Black families whose heads graduated from college have about 33 percent less wealth than white families
+  whose heads dropped out of high school."
+- "white families with a head that is unemployed have nearly twice the median wealth of black families with a
+  head that is working full-time ($21,892 versus $11,649)."
+- "The poorest white families—those in the bottom quintile of the income distribution—have slightly more
+  wealth than black families in the middle quintiles."
+- The title's point: seeing more education alongside more wealth "and concluding that education produces
+  wealth is tantamount to… concluding that umbrellas cause the rain."
+
+**Bears on Ch 5 line 244 and running-list V5.**
+
+| The chapter says | Status | Why |
+|---|---|---|
+| "They compared households that were matched on other characteristics" | **SAYS MORE THAN THE SOURCE** (confirmed at the source) | The report compares median wealth of black and white families **within the same category** of education, of employment and of income. It does not match households; the words "match" and "control" are not used for its own method. |
+| "the structural variable is wealth, not behavior" | **Their point, not their word** | "Behavior" does not appear. Their claim is that education, work and income do not explain the gap. |
+| "Black households at the highest level of education hold less wealth than white households at lower levels" | **SUPPORTED** | The 33 percent sentence. |
+
+So the lineage is: *Umbrellas* compares like with like by category; *From Here to Equality* bills the plain
+gap in mean wealth; the matched-county design in the next paragraph is the book's own.
+
+## 15. Five free papers, read against the appendix's use of each
+
+| Paper | The appendix says | What the paper says | Status |
+|---|---|---|---|
+| Realmonte et al. (2019), *Nature Communications* (full text) | "$100–$600/ton CO₂ at multi-gigaton scale, 2050" (§11.9) | Literature range "from 100 to 1000 $/tCO2." Their own assumptions (Table 2), capital, labour and maintenance only, energy excluded: one design 300 high, 180 low, 100 floor; the other 350 high, 200 low, 50 floor. | **SAYS MORE THAN THE SOURCE.** No $100–600 in it. Supported: "assumes $180–350 a ton before energy, with floors of $50–100." |
+| Archer et al. (2009), *Annual Review of Earth and Planetary Sciences* (preprint) | Not cited; proposed as the source for fossil carbon's irreversibility (§3.5) | "20–35% of the CO2 remains in the atmosphere after equilibration with the ocean (2–20 centuries)"; neutralization "on time scales of 3–7 kyr"; climate effects "extend hundreds of thousands of years." | **Supports "irreversible for centuries or longer."** Gives no probability; the 0.85–0.95 band stays the framework's own reading. |
+| Pericak et al. (2018), *PLOS ONE* (full text) | "cumulative McDowell disturbed area ~150,000 acres" (§11.6), no source | Central Appalachia as a whole: "a cumulative mining footprint of 5,900 km2" (about 1.46 million acres), 1976–2015; "each metric ton of coal is associated with 12 m2 of actively mined land." No county figures in the text (McDowell is not named); the county data are in their public dataset. | **The 150,000 acres is still unsourced, and looks high:** it would be about 44 percent of the county's land, against 7 percent or so for the region. A county figure can be computed from their dataset. |
+| Hamilton (2009), *Brookings Papers on Economic Activity* | prices "rise nonlinearly as binding-constraint regimes are approached" (Thm 10.3) | "the price run-up of 2007–08 was caused by strong demand confronting stagnating world production." | **Supports the narrower claim** (a price spike when demand met flat supply). "Nonlinearly… as regimes are approached" is the appendix's gloss. |
+| NPR (2014), on Prince William Sound's herring | "The families… found no way to file a claim" (Ch 5 line 64) | "the biggest mystery that remains is what happened to Prince William Sound's herring fishery… Scientists are still trying to figure out why." Herring fishermen were among the plaintiffs in the Exxon litigation. | **The claim sentence is doubtful as written:** herring fishermen did sue and were paid something. What they recovered for the post-1993 collapse specifically is not yet found. |
+
+## 16. Tried today and not reached
+
+- Lenton et al. (2008), Solomon et al. (2009), Lindberg et al. (2011), Kilian (2009), Dwyer-Lindgren et al.
+  (2017): the open-copy service returned errors; PubMed Central and the journals refuse sessions. To retry.
+- Lee and Wen (2017); Cano-Urbina et al. (2019); Pindyck's paper; Klinger, *Rare Earth Frontiers* (open access
+  at OAPEN and JSTOR, but both refused the download today). To retry by other routes; Klinger's book is free
+  for the author to download at library.oapen.org if a session cannot.

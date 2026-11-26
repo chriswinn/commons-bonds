@@ -94,10 +94,10 @@ The author's contact details used on the form are not recorded in this repositor
 
 | What | Kind | Line |
 |---|---|---|
-| Hamilton, Darity, Price, Sridharan and Tippett, *Umbrellas Don't Make It Rain* (2015): find the report and read the matched-household comparison | Read | 244–248 (now matters more: running-list V5) |
+| ~~*Umbrellas Don't Make It Rain* (2015)~~ **DONE 2026-11-26:** it compares within categories of education, work and income; it does not match households | Read | 244–248 (now matters more: running-list V5) |
 | Coates, "The Case for Reparations" (2014) | Read | 244 |
 | A Swedish program that eased household or mortgage debt in the 1930s; anything for "much the same way again in 2020"; scholars who treat Sweden as proof | Origin | 104–106 |
-| What Prince William Sound herring fishermen could and could not claim | Pin | 64 |
+| What Prince William Sound herring fishermen recovered for the post-1993 collapse (they were plaintiffs and were paid something: NPR 2014, read 2026-11-26; the court's distribution orders are the next step) | Pin | 64 |
 | The $8–12 billion "beyond what BP paid": any origin; Macondo's recoverable reserves; reproduction of Gulf animals; the state of Gulf fisheries in 2025 | Origin / Pin | 52–56 |
 | Mexico's weaker legal tools | Pin | 62 |
 | "The complexity was no accident": any finding on intent; instruments in retirement accounts | Origin | 84 |
@@ -108,7 +108,7 @@ The author's contact details used on the form are not recorded in this repositor
 | Lee and Wen (2017; 2018), the studies behind Zhang et al. and the source of "about $20 billion in 2015"; Wang et al. (2020) on soil and groundwater; a source for the industry's revenue ($10–12 billion) and for remediation spending | Read / Origin | 138 |
 | Bullard's terms; the Minerals Management Service; financial and pharmaceutical lobbying; Medicare's bar on negotiating prices (years) | Pin | 170, 210–214 |
 | *Forclore*; the Loss and Damage Fund's start; CARICOM's plan; Fanning and Hickel (2023) | Pin / Read | 236, 250 |
-| Libby: population; the asbestos description; the 2005 indictment itself (the $140 million; the running tracks); "largest environmental criminal prosecution"; the grounds of the acquittal | Pin | 38–46, 210 |
+| Libby: population; the asbestos description; "largest environmental criminal prosecution"; the grounds of the acquittal. **The indictment is DONE 2026-11-26** ($140 million in after-tax profit, 1976–1990; the tracks; 1939, 1963, 1990; the delay memo) | Pin | 38–46, 210 |
 | GoFundMe: Germany; Solomon's statement at its source | Pin | 28 |
 
 ### B2. Technical Appendix, opening and §0–§10
@@ -137,7 +137,7 @@ The author's contact details used on the form are not recorded in this repositor
 | Reclamation: Appalachian Voices (2021) at the page; GAO-17-207R; GAO-18-305; the "$3.7" | Pin / Origin | §11.1, §11.6 |
 | Health and remediation cost per ton | Origin | §11.1 |
 | The $865 million (GAO-20-21) | Pin | §11.6 |
-| Pericak et al. (2018), surface-mined acreage | Read | §11.6 |
+| McDowell's surface-mined acreage, computed from Pericak et al.'s public dataset (the paper is read, 2026-11-26: regional total only; the appendix's 150,000 acres looks high) | Origin | §11.6 |
 | Combustion factors and coal heat content (EIA; EPA AP-42); the $51 (interagency group, 2021) | Pin | §11.5, §11.6, §16.4 |
 | Norway: the oil and gas split; production-side emissions; the state's share of rent; reserves in years; the 1973–74 white paper | Pin | §4.3, §11.5 |
 | Libby: EPA's value of a statistical life, both ends; cleanup total; bankruptcy-trust payments | Pin | §11.3 |
@@ -167,6 +167,7 @@ The author's contact details used on the form are not recorded in this repositor
 
 ## Changes log
 
+- **2026-11-26.** Part B, first batch: the Grace indictment, *Umbrellas*, Realmonte, Archer, Pericak, Hamilton read; five papers and Klinger's book to retry.
 - **2026-11-26.** Twelve interlibrary loan requests placed (A4).
 - **2026-11-26.** The 2026 Trustees Report read; A7 done.
 - **2026-11-26.** Zhang et al. (2022) read in full; three leads added to B1.
