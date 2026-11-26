@@ -12,6 +12,10 @@ next. The evidence stays in the reports; this file only points to it and tracks 
 - Extracts from sources read: `research/citations/library-uploads_extracts_2026-11-24.md` and its neighbours.
 - What the author still has to fetch: `tools/back-matter/library-list.md`.
 
+**Rule added by the author, 2026-11-26: find everything first.** No item is dropped because its sentence might
+be cut; the search comes before the decision. The full find-list, including the smaller items this file only
+summarises, is `sources-to-find_master-list_2026-11-26.md` in this folder.
+
 **The four kinds of next step.**
 
 | Code | Meaning | Who moves it |
@@ -141,6 +145,7 @@ Ch 5 item 1 (Mexico; also TA §11.2, §14.8); item 2 (but see V1); the Sweden mo
 
 ## Changes log
 
+- **2026-11-26.** Author's rule recorded (find before cutting); master find-list started.
 - **2026-11-26.** The Introduction's definition and restitution passage read; V2 and A10 settled by the page.
 - **2026-11-26.** Chapter 13 read to its end; V6 updated.
 - **2026-11-26.** Darity and Mullen's chapter 13 complete; V5 and V6 added.

@@ -12,6 +12,10 @@ Archive's catalogue. "Could not reach" from one failed fetch does not qualify
 (`tools/memory/feedback_ask_for_access_do_not_conclude.md`). Anything not yet tried goes in Part 5. Sessions do
 not use unofficial uploads of books.
 
+**Superseded in one respect, 2026-11-26.** The author ruled that everything is to be found before any decision
+to cut. Ignore every "Skip if" below. The complete list of what he and a session still have to find is
+`tools/audits/sources-to-find_master-list_2026-11-26.md`.
+
 ## How to hand a source back
 
 1. **An article: download the PDF at the library and attach it to your message in the session.** A link to a
