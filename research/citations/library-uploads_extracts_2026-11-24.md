@@ -942,3 +942,80 @@ transmission of knowledge" and "trauma passed down through generations" still ha
 
 **Not yet read:** Elizabeth Wrigley-Field, "Stolen Lives: Re[dress for Slavery's and Jim Crow's Ongoing Theft
 of Lifespan]," *RSF* 10, no. 2 (2024) (title as far as the reference list shows it; to be completed when read).
+
+## Fraser, *Cannibal Capitalism* (2022): search results for "expropriation," from the author's photographs, 2026-11-26
+
+**What arrived.** Twelve photographs of a screen: the cover; the copyright page; the first page of chapter 2;
+and the Google Books search results for "expropriation" (20 results, every one marked "No preview available
+for this page"). **Edition, from the copyright page:** "First published by Verso 2022. © Nancy Fraser 2022."
+ISBN-13 978-1-83976-123-2 (also 978-1-83976-125-6, US ebook; 978-1-83976-124-9, UK ebook). Verso, London and
+Brooklyn. Chapter 2 is "Glutton for Punishment: Why Capitalism Is Structurally Racist"; its opening page was
+seen and carries no page number in the photograph.
+
+**Caution on every quotation below.** These are search snippets, not pages. Each begins and ends mid-sentence,
+the search tool drops words at the "…" marks, and its text is machine-read (hyphens and spacing are its own).
+They are good evidence of what she says and where. **They are not safe to quote in the book**; a quotation
+needs the page itself.
+
+**What expropriation is.**
+- p. 35: "… tools, or mineral or energy deposits - but also human beings, their … capitalism, expropriation in
+  the sense I intend here is confiscation-cum … capitalism's early history (though still ongoing), such as …"
+  (This matches the 2016 article's definition, p. 166, already on file.)
+- p. 33: "… expropriated, as opposed to exploited, subject to domination unmediated by a wage contract. The
+  second concerns the role of political orders in conferring the status of free individuals and citizens on
+  'workers,' while …"
+- p. 15: "… capitalism's signature process of exploitation, expropriation is better conceived as the latter's
+  enabling condition. To see why, consider that both those 'exes' contribute to accumulation, but they do so
+  in different ways …"
+- p. 34: "… expropriated, these groups may end up as exploited proletarians, if they're lucky - or, if not, as
+  paupers, slum dwellers, sharecroppers, 'natives,' or slaves, subjects of ongoing expropriation outside the
+  wage contract."
+
+**Whom and what it is taken from.**
+- p. 143: "… expropriated from subjugated peoples, especially from racialized peoples, consisting above all in
+  land, natural resources, and dependent unwaged or under-waged labor. Effectively stolen, this wealth serves
+  as an ongoing stream …"
+- p. 17: "… expropriated from racialized peoples. To understand capitalism, therefore, we need to resituate
+  Marx's front story in relation to these four backstories."
+- p. 45: "… expropriated, pure and simple; and they were almost invariably people of color. Others were
+  'merely' exploited; and they were more likely to be European and 'white.'"
+
+**Nature.**
+- p. 142: "… expropriated from racialized subjects and nonhuman nature."
+- p. xiv: "… expropriated from nature and subject peoples; multiple forms of carework, chronically undervalued
+  when not wholly disavowed; public goods and public powers, which capital both requires and tries to curtail;
+  the energy and …"
+- Index, p. 189: "expropriate natural wealth, 88."
+- p. 68: "… expropriated- dispossessed by a new round of corporate land grabs, aimed at cornering supplies of
+  energy, water, arable land, and 'carbon offsets.'"
+
+**Care work.**
+- p. xiv (the same sentence as above): care work is a **separate item** in her list, after the semicolon:
+  "multiple forms of carework, chronically undervalued when not wholly disavowed." The word she uses for it
+  there is "undervalued," not "expropriated."
+- p. 47: "… be provided publicly, like childcare, are off-loaded onto families and communities which is to say,
+  chiefly onto women, who are meanwhile employed in precarious wage work, and hence exploited and expropriated
+  coming and going."
+- p. 164: "… expropriated as well as exploited. COVID has exposed that dirty secret as well. By juxtaposing the
+  'essential' character of that class's work to capital's systematic undervaluation of it …"
+
+**Other results seen** (nothing on care or nature): pp. 24, 44, 46 (sovereign debt), 50, 51, 52, 111, 145
+("expropriated labor … constitutive elements"), 155, 171.
+
+**What this settles for Chapter 5, lines 192–194 (claims-check item 3; running-list A7).**
+
+| The chapter says | Status now | Why |
+|---|---|---|
+| "Expropriation takes without even the form of a contract." | **SUPPORTED** | p. 33: "domination unmediated by a wage contract"; p. 34: "outside the wage contract." |
+| "Fraser has two things in mind. One is the unpaid care work… The other is nature." | **SAYS MORE THAN THE SOURCE** (unchanged, now on the book) | Her first referent is subject and racialized peoples (pp. 17, 45, 143). **Nature is hers:** she writes of wealth "expropriated from nature and subject peoples" (p. xiv) and "from racialized subjects and nonhuman nature" (p. 142). **Care work is not put under the word:** it is its own item, "undervalued when not wholly disavowed" (p. xiv). The nearest she comes is p. 47, where women doing off-loaded care and precarious paid work are "exploited and expropriated coming and going." |
+| "They are expropriation in exactly Fraser's sense" (the reef, the community's knowledge, the caregiver's labor, a future generation's options) | **SAYS MORE THAN THE SOURCE** (unchanged) | The reef fits her use of the word for nature. The caregiver's labor is a separate "backstory" in her account. Future generations do not appear in any result. |
+
+**A reading the snippets support, for whoever drafts later (not prose for the book).** In *Cannibal Capitalism*
+capital draws on several things it does not pay for, which she calls backstories (p. 17 says four): wealth
+expropriated from subject peoples and from nature; care work; public goods and powers. "Expropriation" is her
+word for the first of these. The chapter folds two of the others into it. The fix is small: keep her word for
+what is taken from subject peoples and from nature, and say that care work is a further thing her account
+shows capital leaning on without paying.
+
+**Still needed only if the book is to quote her:** the full pages xiv, 35 and 142–143. The search view shows
+none of them, so that means a library copy.
