@@ -1140,3 +1140,84 @@ family life. So, as large as these estimates seem, they can be viewed, legitimat
 distribution…" through the wealth-gap passage (the forty-acres figure, then "we view the racial wealth gap as
 the most robust indicator…", "estimate moored to the racial wealth gap," and the dollar total); and the print
 page numbers.
+
+## Darity and Mullen, *From Here to Equality*, 2nd ed., chapter 13, second part: forty acres through their own standard and how it is paid, from the author's screenshots, 2026-11-26
+
+**What arrived.** Sixteen more Kindle screenshots (IMG_7981–7996), continuous with the first batch: from "Another
+possibility is to focus on the land distribution…" to the passage on deficit financing ("Instead of 'pay as you
+go,' the operative regime would be one…", where the batch ends mid-sentence). **The wealth-gap calculation is
+now read in full.** Full text, quotable; print page numbers still owed (the index suggests about pp. 264–65
+for the "monetary restitution" passage).
+
+**The remaining estimates they review.**
+
+| Whose | Basis | Their figures |
+|---|---|---|
+| Forty acres (Mittal and Powell's $10 an acre in 1865; 4 million freed; about ten acres each) | land promised and never given | $400 million in 1865; "$168 billion, $733.2 billion, and $3.1 trillion" at 4, 5, 6 percent; per person "$4,200, $18,245, or $74,500" |
+| Forty acres to *each* freedman (the Homestead Acts' scale) | the same | $1.6 billion in 1865; "$671 billion… $2.9 trillion… $12.6 trillion" to 2019; per person "$16,800, $74,500, or $315,000" |
+| Chachere and Udinsky | gains to whites from job discrimination, 1929–69 | "$1.6 trillion by the mid-1980s"; Swinton, after subtracting all social transfers, "$500 billion" |
+| Bittker | gap in per-person income (2017: $49,609 against $36,636) | "$13,973 to each black American fifteen years of age and older," paid over about two decades |
+
+**Their own standard, in their words.**
+- "However, as we indicated in chapter 2, we view wealth, or net worth, as a more powerful measure of economic
+  well-being than income. *Indeed, we view the racial wealth gap as the most robust indicator of the cumulative
+  economic effects of white supremacy in the United States.* The gap in mean household wealth by race derived
+  from the 2016 Survey of Consumer Finances was about $795,000. If the average black household consists of 3.31
+  persons, the mean shortfall in wealth for individual black Americans would have been approximately $240,000."
+- "Multiplying $795,000 by the U.S. Census Bureau's estimate of about 10 million black households yields an
+  estimate of a total reparations bill of $7.95 trillion. While the median is a more useful measure for
+  calculating typical differences… the mean is the appropriate target measure for calculating the sum required
+  *to eliminate the racial wealth gap*."
+- A second route: "calculate the amount needed to give eligible black Americans a share of the nation's wealth
+  comparable to their share in the nation's population." Thirteen percent of "$107 trillion" (household
+  wealth, second quarter of 2018) is "$13.91 trillion"; black Americans hold, "as an upper bound," 3 percent,
+  "$3.21 trillion." "To eliminate the difference will require a reparations outlay of $10.7 trillion, or an
+  average outlay of approximately $267,000 per person for 40 million eligible black descendants of American
+  slavery."
+- The summary: "We have introduced several compelling calculations for monetary restitution. These include the
+  estimates advanced by Ransom and Sutch, Neal, Craemer, and Marketti; several estimates anchored on the
+  present value of land that was promised to the ex-slaves; an estimate based on the monetary value of
+  enslaved people to their owners on the eve of emancipation; estimates based on the postslavery costs of
+  discrimination; and an estimate moored to the racial wealth gap. Monetary restitution is necessary because
+  the failure to provide ex-slaves with an initial outlay of property in land and the repercussions on black
+  wealth and economic well-being redound to the present."
+- The choice (their italics): "*However, since today's differential in wealth captures the cumulative effects
+  of racism on living black descendants of American slavery, we propose mobilizing national resources to
+  eradicate the racial wealth gap. The magnitude of ongoing shortfalls in wealth for blacks vis-à-vis whites
+  provides the most sensible foundation for the complete monetary portion of the bill for reparations.*"
+  (their note 29)
+- "*For both symbolic and substantive reasons*, an effective program of restitution must include direct
+  payments to eligible recipients."
+- Scale: "a combined expenditure as large as $15 to $20 trillion"; "our preferred standard—the racial gap in
+  per capita wealth."
+
+**How it is paid, and by whom.**
+- "The aim should be at least to eliminate the racial wealth gap within a decade."
+- A "reparations superfund" (Franklin and Berry) "would pool government funding with contributions made by
+  institutions and organizations that benefited from slavery, Jim Crow, and the continued subordination of
+  black Americans." Their judgment on it: "The superfund strategy would meld public and private responsibility…
+  However, we view public responsibility as paramount, since the federal government established and maintained
+  the legal structure and pattern of enforcement that enabled private actors to engage in racist practices
+  with impunity."
+- "Given the overnight transfer of $1 trillion of funds from the Federal Reserve to investment banks during
+  the Great Recession… there can be no doubt that the Fed has vast capacity."
+- Payment in "less-liquid assets"; "trust funds and endowments… that could not be used until a later date";
+  a trust account of $250,000 yielding "approximately $12,000" a year.
+- "A twelve-member reparations supervisory board will be established, *elected by all those with established
+  eligibility for the reparations program*."
+
+**What this settles.**
+
+| Text | Passage | Status now | Why |
+|---|---|---|---|
+| Ch 5 line 246; TA §5.5 | Their measure of the racial wealth gap puts a price on the legacy of a historical injustice | **SUPPORTED, now from the page** | "The most sensible foundation for the complete monetary portion of the bill." Figures: $7.95 trillion by one route, $10.7 trillion by the other (2016 and 2018 data). The 2026 paper's $16 trillion uses 2022 data; date whichever is quoted. |
+| Ch 5 line 248 | "The backward-looking instrument applies the same method of matched comparison"; line 246, "it borrows their method" | **SAYS MORE THAN THE SOURCE** (new finding) | Their bill is not a matched comparison. It is the plain difference in **mean** household wealth between two groups, with nothing held equal, and they choose the mean on purpose. Matching on education and the like is the method of *Umbrellas Don't Make It Rain*, a different work with a different purpose (showing behaviour does not explain the gap). The chapter runs the two together. What McDowell's 13-year gap against the national average actually resembles is the bill's method: a present-day gap between a harmed group and a reference group. Comparing McDowell with "comparable Appalachian counties that never depended on coal" is a matched design, and it is the chapter's own. |
+| Ch 5 line 246 | "the Restitution Bond is a reparations bond. Its amount is the one Darity and Mullen's method sets" (the cover note's third question) | **Supported on the amount; the difference in who pays is unstated** | The amount is theirs. But they consider the nearest thing to an extractor-pays design, the "superfund" drawing on institutions that profited, and set it second: "we view public responsibility as paramount." A bond posted by the party that gained is closer to the superfund than to their program. Say so. |
+| Ch 5 line 252 | "How should coerced labor be priced, as distinct from its legacy?… The direct pricing of coercion belongs to the people already carrying that question forward." | **SUPPORTED, with a precision** | The labor has been priced several ways (Ransom and Sutch, Neal, Craemer, Marketti: wages or profits brought forward). What none of them prices is the coercion itself, and Darity and Mullen say so. "Coerced labor" in the chapter's question should read as the coercion, not the labor. |
+| Ch 5 line 90 (item 7), "trillions of dollars within days" | the scale and speed of the 2008 rescue | **A citable anchor from Darity and Mullen themselves** | "The overnight transfer of $1 trillion of funds from the Federal Reserve to investment banks during the Great Recession." One trillion, overnight, in a source the chapter already leans on; it agrees with the accountability office's "more than $1 trillion" at the peak. |
+| Proposal, chapter summaries ("the $108 trillion passage"; STATE.md open to-dos) | total household wealth | **Their figure is $107 trillion** (second quarter of 2018) | Check the proposal's number against this when that file is refreshed. |
+| TA §5.1.1, §5.2 (running-list A10) | the word "restitution" | **SUPPORTED as their word for money payment** | "Several compelling calculations for monetary restitution"; "Monetary restitution is necessary because…"; "an effective program of restitution must include direct payments." The name needs no footing in law. |
+| The framework's design (TA §5, §12; Ostrom at Def 1.10) | reserves held and governed for those owed | **Parallel worth citing** | Trust accounts that cannot be drawn until later, and a board "elected by all those with established eligibility": a held fund governed by the people it is owed to. |
+
+**L1 is now complete for chapter 13.** Left: the Introduction's restitution passage as a full page (Kindle p.
+34); the page with "a program of acknowledgment, redress, and closure"; print page numbers for all of it.

@@ -271,6 +271,11 @@ report's own address has not been found yet (Part 5).
   through the wealth-gap passage and its dollar total; the Introduction's restitution page; the definition
   page; print page numbers.
 
+- **L1, *From Here to Equality*, chapter 13: complete, 2026-11-26** (second batch of sixteen screenshots). The
+  wealth-gap calculation is read in full (95,000 mean household gap; .95 trillion; 0.7 trillion by the
+  second route; "the most sensible foundation for the complete monetary portion of the bill"). **Left for L1:**
+  the Introduction's restitution page and the definition page as full screens, and print page numbers.
+
 ## Part 5. Not yet fully tried: do not fetch these
 
 A session works this queue and promotes to Part 1 only what truly fails. Worked in part on 2026-11-15; what
