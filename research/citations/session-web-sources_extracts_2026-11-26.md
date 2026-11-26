@@ -353,3 +353,39 @@ case of harm falling far from the gain. It still cannot carry a cleanup figure. 
 **Not reached in this batch:** the UN climate pages for the Loss and Damage Fund (empty response); etymonline
 for *forclore* (403); the opioid settlement site (script-only page); OMB Circular A-4 (address not found); the
 CMS page on Medicare negotiation (no usable sentence). To retry by other routes.
+
+---
+
+# Free copies of the appendix's unread references: first batch (2026-11-26)
+
+Downloaded in full and checked against the appendix's own sentence about each. These are citations of
+lineage (one line each in the appendix), so the check is whether the work says what it is cited for.
+
+| Work | Copy read | The appendix cites it for | Its words | Status |
+|---|---|---|---|---|
+| Pigou, *The Economics of Welfare* (1920) | archive.org scan (out of copyright), full text | "Unpriced third-party cost" (front table; Definition 1.7) | Part II, ch. IX, "Divergences between Marginal Social Net Product and Marginal Private Net Product"; factory smoke "inflicts a heavy uncharged loss on the community" | **SUPPORTED** |
+| Knight, *Risk, Uncertainty and Profit* (1921) | archive.org scan, full text | "risk-vs-uncertainty distinction" (§15) | "a measurable uncertainty, or 'risk' proper… is so far different from an unmeasurable one" | **SUPPORTED** |
+| Marshall, *Principles of Economics* | archive.org scan, full text (downloaded; "§V" not yet located) | supply elasticity, "Marshall 1890 §V" (Thm 10.3) | — | **Held as text; passage to find.** "§V" is not a section of the book; Book V is the likely meaning. |
+| Rennert et al. (2022), *Nature* | nature.com, full text | "~$185/ton" at a 2% rate (§3.3, §11) | "Our preferred mean SC-CO2 estimate is $185 per tonne of CO2 ($44–$413… 2020 US dollars) at a near-term risk-free discount rate of 2%" | **SUPPORTED** |
+| Lempert, Popper and Bankes (2003), RAND | rand.org, full text (209 pp.) | "robust decision making under deep uncertainty" (§8, §15) | chapter 3, "Robust Decisionmaking"; "Decisionmaking Under Conditions of Deep Uncertainty" | **SUPPORTED** |
+| Tuck and Yang (2012) | the journal's own site, full text | decolonial theory (commons profiles) | "Decolonization brings about the repatriation of Indigenous land and life; it is not a metaphor for other things we want to do" | **SUPPORTED as a citation.** Note for the author: their argument is a warning against borrowing decolonization's language for other projects. Cite with care. |
+| Brundtland report, *Our Common Future* (1987) | un-documents.net, full text | lineage for the temporal commons | "meets the needs of the present without compromising the ability of future generations to meet their own needs" | **SUPPORTED** |
+| EPA (2023), social cost of greenhouse gases | epa.gov, full text | "$190/ton CO₂ at the 2% near-term discount rate" | downloaded; figure not yet checked at the page | **Held as text** |
+| Schulte (2017); TEEB (2010) synthesis | Frontiers; teebweb.org, full text | the reef; ecosystem valuation | downloaded; not yet checked | **Held as text** |
+| Stern Review | archive.org: **executive summary only** | "Stern's low constant rate (about 1.4%)" | the 1.4 is not in the summary (Nordhaus 2007, already read, gives it for the Review) | **Partly held; full Review still needed** |
+
+**Blocked for sessions. The author can try each in a home browser; a request follows for any he cannot get.**
+
+| Work | Where it should be free | What happened |
+|---|---|---|
+| Mill, *On Liberty*; Kant, *Groundwork* | Project Gutenberg | the site returns "503" to sessions |
+| Tönnies, *Community and Society* | the German original is out of copyright; the English translation (1957) is not | no usable English copy found |
+| Coates, "The Case for Reparations" (2014) | theatlantic.com | 403 |
+| Steffen et al. (2015), "Planetary Boundaries," *Science* | a repository copy at hdl.handle.net/10568/129477 | 429, then 404 |
+| Rockström et al. (2009), *Nature* 461: 472–475 | the longer open version is in *Ecology and Society* 14(2): 32 | the page read was a stub |
+| Basel Committee, *Basel III: Finalising Post-Crisis Reforms* (2017) | bis.org/bcbs/publ/d424.pdf | a browser check |
+| NIOSH (1997), *Commercial Fishing Fatalities in Alaska* (publication 97-163) | cdc.gov | 403, two addresses |
+| Woods et al., on the loss of three-dimensional oyster reefs | scholarworks.wm.edu/vimsarticles/458 | page opens; the file link was not found |
+| The full Stern Review | the UK National Archives' web archive | not tried there (the archive refuses sessions) |
+| Mian, Rao and Sufi (2013), "Household Balance Sheets, Consumption, and the Economic Slump" | NBER working paper | the number tried was a different paper; to retry |
+| Hong and Page (2004), *PNAS* | PubMed Central | refused; **requested through the library** |
