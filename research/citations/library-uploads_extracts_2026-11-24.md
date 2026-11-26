@@ -1019,3 +1019,124 @@ shows capital leaning on without paying.
 
 **Still needed only if the book is to quote her:** the full pages xiv, 35 and 142–143. The search view shows
 none of them, so that means a library copy.
+
+## Christophers, *The Price Is Wrong* (2024), Introduction, pp. ix–xiv, from the author's photographs, 2026-11-26
+
+**What arrived.** Nine photographs of a screen (the publisher's preview): the cover; the copyright page; the
+Introduction complete from its first page through p. xiv; and the first page of the Introduction's section II
+(page number not in the photograph). **These are full pages and can be quoted.** **Edition, from the
+copyright page:** "First published by Verso 2024. © Brett Christophers 2024." ISBN-13 978-1-80429-230-3 (UK
+ebook 978-1-80429-232-7; US ebook 978-1-80429-233-4). London; New York: Verso, 2024. The first page of the
+Introduction carries no number; it is p. ix by count (the next is headed "x").
+
+**The thesis, in his words.**
+- p. xii: "The main answer, and argument, is this. Viewing the economics of the energy transition and the
+  development of renewable energy through the prism of price results in contradictory perspectives such as
+  those identified above because, economically, the matter is not in fact principally about price. Price is a
+  misleading yardstick for assessing the current and future prospects of investment in renewable energy
+  infrastructure."
+- p. xii: "This is the main message that the book's title is intended to convey. To be clear, the point here is
+  not that the particular prevailing price of renewable power is wrong – in terms, that is, of precipitating a
+  faster transition. It is that to look predominantly at price when thinking about what makes for a successful
+  (or failed) transition is to look in the wrong place: as an analytical lens on climate and capitalism, price
+  is a siren."
+- pp. xii–xiii: "Thus the book's argument with those (principally economists) who obsess about what the price of
+  renewables – and indeed of carbon – 'needs' to be in order for clean power to usurp fossil-based power is not
+  that their *answer* is incorrect. It is that their *question* is. Price is the very wrong category to
+  prioritize analytically."
+- p. xiii: "The better, more meaningful, yardstick is profit. This is what we should be focusing on. The main
+  economic reason why the decarbonization of electricity is progressing so much slower than we need it to, I
+  argue, is that most governments worldwide have effectively outsourced responsibility for developing, owning
+  and operating solar and wind farms to profit-oriented private sector actors, and yet the profits that such
+  actors expect to be able to earn from investment in these activities generally underwhelm. It is simply not
+  a sufficiently attractive economic proposition."
+- p. xiii: state support "in practice is less about effectively keeping prices down than it is about keeping
+  profits up."
+- p. xiv: "there are all sorts of reasons why lower costs of generation do not automatically equate to higher
+  profits."
+- p. xiii, evidence he cites: a 2023 Bain survey in which "Four out of five executives considered 'the ability
+  to create acceptable returns on projects a main barrier to decarbonization of the energy system.'"
+
+**What this settles for Chapter 5, line 198 (claims-check item 11; running-list A6).**
+
+| The chapter says | Status now | Why |
+|---|---|---|
+| "His work traces how a financialized economy puts the wrong price on whatever it turns into a tradable asset." | **CONTRADICTED** (was SAYS MORE THAN THE SOURCE) | He says in terms that the title does **not** mean a price is wrong: "the point here is not that the particular prevailing price of renewable power is wrong" (p. xii). His claim is that price is the wrong thing to look at and profit is the right one. Nothing in the Introduction concerns turning things into tradable assets. |
+| "The most forceful living version of this worry comes from Brett Christophers." (the worry: pricing the commons is financialization by another route) | **SAYS MORE THAN THE SOURCE** | That is not his worry in this book. His objection is a different one and it reaches this book's project more directly: he names the price "of carbon" (p. xii–xiii) and calls asking what it "needs" to be the wrong question. |
+
+**For whoever drafts later (not prose for the book).** The objection to answer is: getting a price right does
+not decide what gets built, because investment follows expected profit. The book's reply has to say what a
+posted bond does to profit, not only to price. A bond is a cost the extractor must carry, so it works on the
+profit of extraction directly; whether that answers him is the author's argument to make. The replacement
+sentence in the report ("Brett Christophers argues that what decides investment is profit, not price…") is
+now supported by the book as well as the 2022 article. Decisions log 002 (keep him out of the appendix) is
+unaffected.
+
+## Darity and Mullen, *From Here to Equality*, 2nd ed., chapter 13: the opening through the slavery-based estimates, from the author's screenshots, 2026-11-26
+
+**What arrived.** Sixteen full-screen screenshots of the Kindle ebook (reflowing; no page numbers shown),
+continuous from the chapter title, "13 A Program of Black Reparations," to the sentence that begins the
+forty-acres calculation ("Another possibility is to focus on the land distribution that was promised…").
+**These are full, continuous text and can be quoted; print page numbers are still owed.** The wealth-gap
+passage the earlier search put at Kindle pp. 405–406 comes **after** this point and has not arrived yet.
+
+**Who is billed.**
+- "The invoice for reparations must go to the nation's government. The U.S. government, as the federal
+  authority, bears responsibility for sanctioning, maintaining, and enabling slavery, legal segregation, and
+  continued racial inequality." (note 1 in their text)
+- "Laissez-faire or *piecemeal reparations* may assuage individual guilt but cannot meet the collective
+  national obligation."
+- Why not the courts: lawsuits against corporations and universities "are unlikely to succeed because slavery
+  was legal at the time… Their activities were undoubtedly immoral, but they were not illegal at the time."
+
+**Eligibility.** "We advance two criteria": at least one ancestor enslaved in the United States after the
+formation of the republic; and self-identification as black, Negro, Afro-American or African American "*at
+least twelve years before* the enactment of the reparations program or the establishment of a congressional or
+presidential commission."
+
+**The bill: how they introduce it.**
+- "How much should be paid for black reparations? What is the size of the bill? It is customary, in the
+  American court system, to assign monetary values for damages to human lives. Monetary damages for the
+  collective injuries inflicted on black lives are long overdue."
+- "Several strategies have been advanced for calculating the monetary value of a reparations bill. For those
+  researchers committed to slavery as the basis for black reparations, a number of approaches have been
+  proposed. Most of these approaches require a present-value calculation for unpaid wages, the purchase prices
+  of the human property, or the land promised to the formerly enslaved. These present-value estimates are
+  generated by increasing earlier values at compound interest. In the estimates that follow, we typically
+  employ three interest rates—4, 5, and 6 percent—to accommodate varying measures of the rates of return on
+  foregone or lost income and the rate of inflation." (their note 9)
+
+**The slavery-based estimates they review** (all figures theirs):
+
+| Whose | Basis | As first stated | Brought forward by Darity and Mullen at 4, 5, 6 percent |
+|---|---|---|---|
+| Ransom and Sutch | "slave exploitation": value produced less maintenance, 1806–1860 | $3.4 billion as of 1983 | $14 billion, $19.7 billion, $27.7 billion (to 2018). "The lowest bill… among those we examine here." |
+| Neal | market wage less owners' maintenance spending, 1620–1840 | $1.4 trillion as of 1983 | $5.7 trillion, $8.1 trillion, $11.4 trillion (by 2019) |
+| Craemer | market wage × all 24 hours of each day, 1776–1865 | $14.2 trillion by 2015 at 3 percent | $15.7 trillion (2019, his rate); $16.4 trillion, $17 trillion, $17.7 trillion at their rates |
+| Marketti | income diverted from enslaved persons | $2.1 trillion as of 1983 | $8.6 trillion, $12.1 trillion, $17.1 trillion (2018) |
+| Judah P. Benjamin's 1860 valuation | wealth held as property in enslaved persons, "more than four thousand million dollars" | $4 billion in 1860 | $2 trillion, $9.3 trillion, "a whopping $42.2 trillion" by 2019; per person, with about 40 million black Americans, "$50,000, $232,500, and $1,050,000" |
+
+Their criticisms: Ransom and Sutch's method "excludes the profits from slavery during the first thirty years
+of the nation's existence; profits from the slave trade are not taken into account; and astonishingly, those
+enslaved are charged with the maintenance expenses of their own coerced labor." On Neal and Craemer: the wage
+a free migrant would have earned "would have been greater" because slavery itself lowered market wages.
+
+**What the estimates leave out, in their words.** "Nevertheless, all of these estimates have been made without
+incorporating the physical and emotional harms of slavery, the inherently coercive nature of the system, the
+denial of the ability to acquire property and some degree of autonomy, or the denial of control over one's own
+family life. So, as large as these estimates seem, they can be viewed, legitimately, as *underestimates*."
+
+**What this settles.**
+
+| Text | Passage | Status now | Why |
+|---|---|---|---|
+| Ch 5 lines 246, 252 (item 2; running-list V1) | Darity and Mullen "price… trauma passed down through generations," "broken transmission of knowledge" | **CONTRADICTED for these two** (was SAYS MORE) | They say the estimates are made "without incorporating the physical and emotional harms of slavery." They name these harms as left out, which is the opposite of pricing them. (Wealth gap: theirs. Life expectancy: theirs in the 2026 paper, as an alternative.) |
+| Ch 5, the coerced-labor passage ("One question this book does not presume to close…"); TA Def 1.10 scope boundary; TA §5.5 "the coercion variable itself" | The book names coercion as a cost and enters no figure | **SUPPORTED, and now with their words behind it** | They list "the inherently coercive nature of the system" among what no estimate incorporates, and call the estimates underestimates for that reason. The book's choice to leave the line without a figure matches the state of the field as they describe it. This is one of the two passages the cover note asked Darity to read closely. |
+| TA §5.5; Definition 1.12; the cover note's question 2 (carrying past harm forward as a debt) | Past harm brought forward to the present | **SUPPORTED as a method they use** (was unsourced for them) | "These present-value estimates are generated by increasing earlier values at compound interest… three interest rates—4, 5, and 6 percent." This also answers the question the cover note did not ask (how harm done long ago is valued in today's terms): they compound it forward, and say why those rates. The appendix should cite this where it carries harm forward, and should note that its own discounting runs the other way in time. |
+| TA §9.6, §5.5 and running-list A2 (who paid) | Who is billed for repair | **Bears on it** | Their bill goes to the federal government because it "sanction[ed], maintain[ed], and enabl[ed]" the harm, not to the firms that profited. The appendix's instrument bills the extractor. That difference should be stated, not blurred, wherever the Restitution Bond is tied to their program. |
+| Ch 5, "The method belongs to them as well"; TA "the most developed backward computation" | Their method | **Narrows** | In this chapter they review five other people's slavery-based methods before giving their own preferred standard (the wealth gap, still to arrive). "Matched comparison" is not how any of these five work; they are present-value calculations. Check the chapter's phrase against the wealth-gap pages when they arrive. |
+
+**Still to come from the author:** the rest of chapter 13 from "Another possibility is to focus on the land
+distribution…" through the wealth-gap passage (the forty-acres figure, then "we view the racial wealth gap as
+the most robust indicator…", "estimate moored to the racial wealth gap," and the dollar total); and the print
+page numbers.
