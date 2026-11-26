@@ -37,7 +37,7 @@ opened. *Origin* = a figure whose source has never been found.
 
 | # | What | Kind | Settles |
 |---|---|---|---|
-| 1 | His father's answers (question sheet); failing that, the *Daily Press* obituary or Langley records (L12) | Pin | Ch 1 line 62 |
+| 1 | ~~His father's answers~~ **RECEIVED 2026-11-26** (Ch 1 report §1a): NACA start and the title confirmed; "entire working life" contradicted (military service first); retirement and death years not recalled. The obituary (L12) is now optional. **The author also confirmed his school email holds the library's receipts for all 127 requests.** | Pin | Ch 1 line 62 |
 | 2 | *From Here to Equality*, print page numbers (Introduction definition and restitution passage; chapter 13's calculation) | Pin | TA §5.1.1; Ch 5's three owed pages |
 | 3 | Panjwani and Xiong (2023), DOI 10.1016/j.jebo.2022.11.017 (free copy: SSRN 3962047) | Read | Ch 5 line 28–30, the surname finding |
 | 4 | Zhou and Ge (2021), DOI 10.1016/j.exis.2020.11.010 | Read | Ch 5 line 138; TA §11.4 |

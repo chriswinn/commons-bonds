@@ -149,6 +149,46 @@ His note on line 98, in his words (2026-11-24): "The station called with six day
 
 **Item 8, the father's passport (line 74). The author's note, 2026-11-24, in his words:** "I know my father carried a diplomatic passport for his travel with the Navy which required him to get travel orders. He had a separate normal US Citizen passport he traveled with when he was traveling with the family." The sentence stands on his own knowledge. The printed question sheet for his father still carries the question, as a confirmation only. The other family facts in item 8 (start date at Langley, retirement and death years, job title) wait on his father's answers.
 
+**Item 8, the grandfather sentence (line 62): his father's answers, relayed by the author 2026-11-26.** In the
+author's words as he reported them:
+
+- Start date: his father "isn't sure the date his father started working at NACA, however he is sure that he
+  already worked at NASA when it was still NACA."
+- Title: "at one time 'wind tunnel model maker' and towards the end of his career he thinks his father's title
+  was changed to something like 'Engineering Technician' but he still did the exact same job at NASA, it was
+  just the title that changed."
+- Other work: "he was in the airforce branch of the military prior to working at NASA." His father "did
+  something on the flight line doing checks on the planes that served as his qualifications to get the job at
+  NACA."
+- Year of retirement: "He does not recall the specific year." Year of death: "He does not recall the specific
+  year."
+
+**What the answers settle, clause by clause (line 62 as it stands on main; nothing changed yet).**
+
+| Clause | Status now | Why |
+|---|---|---|
+| "He started there when the agency was still called NACA, stayed through the change to NASA in 1958" | **SUPPORTED** on his father's firm recollection | No year is claimed, and none is known. |
+| "He was a model maker in the wind tunnels." (and the accepted addition, "a title he was proud of") | **SUPPORTED** | "Wind tunnel model maker" was his title; it later changed to something like "Engineering Technician" with the same work. The chapter need not mention the later title. |
+| "Pooh spent his entire working life at NASA's Langley Research Center" | **CONTRADICTED** | He served in the military first, working on aircraft on the flight line, and that work qualified him for the NACA job. |
+| "and retired not long before he died" | **Still unsupported** | Neither year is recalled. The project's two death years (before 1985; 1987) remain unreconciled. The clause now rests only on the author's own memory, if he has one. |
+
+**A caution on "Air Force."** NACA became NASA in 1958 and the Air Force became a separate branch in 1947.
+If his service was before 1947 it was in the Army Air Forces. His father said "the airforce branch of the
+military"; unless the years are known, the safe wording does not name the branch.
+
+**Options for the author's ruling** (each uses only what his father said):
+
+- For "entire working life": (a) the smallest change, "Pooh spent nearly his entire working life at NASA's
+  Langley Research Center…"; or (b) say it: "Before Langley he served in the military, checking aircraft on
+  the flight line, and that work got him the job. He spent the rest of his working life at…". Option (b) adds
+  a true detail that fits the chapter's theme of skill carried from one shop to the next; the wording is his
+  to set.
+- For "retired not long before he died": keep it only if he himself remembers it that way; otherwise end the
+  sentence at "1958."
+
+**L12 (the obituary and Langley records)** is now optional: only the two years are missing, and the chapter
+states neither.
+
 ## 2. Sources the project holds that bear on this chapter and are not used
 
 1. **Dunbar and Du Bois are in the bibliography (section 21) but the citation index does not list Chapter 1 for either.** `tools/back-matter/citation-crossref-index.md` lists Dunbar 1896 for Ch 10, Ch 8 and the Noema essay only. The bibliography entry for *The Souls of Black Folk* describes double consciousness and never mentions the veil, which is the word the chapter uses. The book's text does support it ("shut out from their world by a vast veil"; "born with a veil"). The entry should say so.
