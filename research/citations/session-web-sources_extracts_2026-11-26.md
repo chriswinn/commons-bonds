@@ -287,3 +287,45 @@ gap in mean wealth; the matched-county design in the next paragraph is the book'
 - Lee and Wen (2017); Cano-Urbina et al. (2019); Pindyck's paper; Klinger, *Rare Earth Frontiers* (open access
   at OAPEN and JSTOR, but both refused the download today). To retry by other routes; Klinger's book is free
   for the author to download at library.oapen.org if a session cannot.
+
+---
+
+## 17. Klinger, *Rare Earth Frontiers* (2017): Baotou and Bayan Obo, read 2026-11-26
+
+Julie Michelle Klinger, *Rare Earth Frontiers: From Terrestrial Subsoils to Lunar Landscapes* (Ithaca: Cornell
+University Press, 2017), 340-page PDF supplied by the author (open access, CC BY-NC-ND). Searched in full;
+chapter 3 read at the pages below. Page numbers are the book's printed ones (PDF page minus 15). Quotations
+are short; the PDF is the record. Fingerprint `cf6bbfe4bf16d697`.
+
+| Her words (short extracts) | Page |
+|---|---|
+| The tailings dam "has become the 'world's largest rare earth lake,' containing two hundred million tonnes of radioactive slurry. This thirteen square kilometer lake is located ten kilometers north of the Yellow River and twelve kilometers west of the Baotou city center." | 121 |
+| Officials have warned since 2005 that an earthquake or heavy rains "could cause the tailings lake to burst." | 121 |
+| The Yellow River "supplies water to more than one hundred million people." | 122 (also 59) |
+| "Every ton of rare earth concentrate produced generates approximately one ton of radioactive wastewater; seventy-five cubic meters of acid wastewater; 9,600 to 12,000 cubic meters of waste gas… and approximately 8.5 kilograms of fluorine (Hurst 2010)." | 119 (also 55) |
+| "the cancer mortality rate in the Bayan Obo mining district rose from 107.93 per 100,000 in 1989–90 (three times the national average…) to 155.7 per 100,000 in 1997." | 120–121 |
+| Near the dam, residents "coined the phrase 'one in seven'" for middle-aged cancer deaths. | 122 |
+| "In early 2004, villagers initiated a dialogue with Baogang and the Baotou city government to demand compensation and resettlement." | 122 |
+| "Baogang agreed to give five villages surrounding the tailings dam ¥5 million (US$814,000) per year… divided equally among the twenty-five thousand inhabitants, this comes to about ¥200 (US$32) per person, which is a tiny fraction of the amount needed to relocate." | 122 |
+| "tailings ponds cannot be completely sealed, nor can the contamination be pulled out of the soil or groundwater (Wang et al. 2009)." | 128 |
+| "the billions of yuan committed by the central government" to work on these problems "are simply not known" outside Chinese-language audiences. | 127 |
+| In 2010, "97 percent of global production [was] concentrated in China." | 1 |
+| Skeletal fluorosis in livestock: teeth "grow uncontrollably… They eventually starve to death." | 124 |
+
+**What this settles for the Baotou case (TA §11.4; Ch 5 lines 130–140; running-list A8).**
+
+| The text says | Status now | Klinger |
+|---|---|---|
+| "Groundwater contamination of the Yellow River basin (serves 100M people)" | **Partly SUPPORTED** | The lake is ten kilometres from the river, which supplies more than 100 million people; villagers say their land's contamination is reaching it; officials warn of a breach. She does not say the basin's groundwater is contaminated. |
+| "Elevated cancer rates in surrounding villages (lung, stomach, skin)" | **SUPPORTED for elevated rates; the three types are not hers** | Mining-district cancer mortality 107.93 rising to 155.7 per 100,000; "one in seven" near the dam. |
+| "Forced relocation of entire villages" | **SAYS MORE THAN THE SOURCE** | Villagers *demanded* resettlement in 2004; the company's payment was far too small to move on. (Sky News, 2022, reports one village, Dalahai, later moved.) "Forced" is not supported by either. |
+| "~10M tons of radioactive tailings annually" | **Not found** | She gives the stock: 200 million tonnes in the lake. |
+| "roughly ten tons" of wastewater per ton (Ch 5 line 134) | **CONTRADICTED on the figure, sourced in a better form** | About one ton of radioactive wastewater and seventy-five cubic metres of acid wastewater per ton of concentrate (citing Hurst 2010). |
+| "the share of that revenue spent on remediation has historically been a small fraction" (Ch 5 line 138) | **A sourced instance now exists** | ¥5 million a year to five villages, about US$32 a person. She also records billions of yuan of central-government spending, so "almost nothing was spent" would be wrong. |
+| "on the order of 60 percent of the world's" (Ch 5 line 132) | date it | 97 percent of production in 2010 (Klinger); about 69 percent in 2024 (USGS, on file). |
+| Remediation floor "$5–15B for the tailings lake alone" (TA §9.5) | **Still no source**, and she gives a reason none exists | The contamination cannot be "pulled out of the soil or groundwater." |
+| "Agricultural land rendered unusable within 10km radius"; "$1T+ in global consumer goods"; "export revenue ~$2–4 billion/year" | **Not found in the book** | |
+
+**Net.** With Klinger, Sky News, the 2020 groundwater study and Zhang et al., Baotou can stand as a sourced
+case of harm falling far from the gain. It still cannot carry a cleanup figure. Her own secondary sources
+(Hurst 2010; Wang 2006; Ren 2013) are the next layer down if a number is to be quoted at its origin.

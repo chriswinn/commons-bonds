@@ -86,6 +86,30 @@ December 16. When one arrives he attaches the PDF in a session.
 
 The author's contact details used on the form are not recorded in this repository.
 
+### A5. Requests placed later on 2026-11-26, by the session at the author's direction
+
+**Books (22), Hampton Campus pickup.** Darity and Mullen, *From Here to Equality*, 2nd ed. (2022); Rawls, *A
+Theory of Justice* (1971 edition only); Fraser, *Cannibal Capitalism* (2022); Gawande, *Being Mortal* (2014);
+Keefe, *Empire of Pain* (2021); Conley, *Being Black, Living in the Red* (1999); Pettit, *Republicanism*
+(1997); Skinner, *Liberty Before Liberalism* (1998); Dasgupta and Heal (1979); Broome, *Climate Matters*
+(2012); Sen, *Development as Freedom* (1999); Nussbaum, *Women and Human Development* (2000); Mishan,
+*Cost-Benefit Analysis* (1971); Bockstael and McConnell (2007); Lewis, *Counterfactuals* (1973); Parfit,
+*Reasons and Persons* (1984); Broome, *Counting the Cost of Global Warming* (1992); Sen, *Commodities and
+Capabilities* (1985); Hicks, *Value and Capital* (1939); Samuelson, *Foundations of Economic Analysis* (1947);
+Savage, *The Foundations of Statistics* (1954); Schneider and McCumber, *An Air That Kills* (2004).
+
+**Articles (8), each one a paper the session could not download.** Lenton et al. (2008), *PNAS* 105(6):
+1786–1793; Solomon et al. (2009), *PNAS* 106(6): 1704–1709; Lindberg et al. (2011), *PNAS* 108(52):
+20929–20934; Kilian (2009), *American Economic Review* 99(3): 1053–1069; Dwyer-Lindgren et al. (2017), *JAMA
+Internal Medicine* 177(7): 1003–1011; Lee and Wen (2017), *Journal of Industrial Ecology* 21(5): 1277–1290;
+Cano-Urbina, Clapp and Willardsen (2019), *Journal of Housing Economics* 43: 131–156; Pindyck (2008),
+"Volatility and Commodity Price Dynamics," *The Energy Journal* 29(1): 1–26.
+
+**Standing instruction (author, 2026-11-26):** when a session cannot reach a source after trying, it places a
+library request for it through the same form and logs it here.
+
+**Total on order: 20 articles, 1 book chapter, 22 books.**
+
 ---
 
 ## Part B. A session works these (nothing asked of the author unless a route fails)
@@ -104,7 +128,7 @@ The author's contact details used on the form are not recorded in this repositor
 | The year the housing market turned; TARP's repayment; "balances never caught up"; regional economies "stayed smaller"; the consumer bureau's enforcement record and its weakening | Pin | 84, 96–102 |
 | Healthcare prices against general inflation; Social Security's 1935 design (workers per beneficiary: done, Trustees Report Table IV.B4) | Pin | 78, 110, 120 |
 | Norway against the United States | Pin | 122 |
-| Baotou: annual tailings; the villages; revenue; remediation share; wastewater per ton; "almost no substitute"; Klinger, *Rare Earth Frontiers* (2017) | Origin / Read | 130–140 |
+| Baotou: annual tailings; revenue; "almost no substitute"; the 10 km radius; Hurst (2010), Wang (2006) and Ren (2013), Klinger's own sources. **Klinger is DONE 2026-11-26** (the lake, the river, cancer mortality, the villages' compensation, wastewater per ton) | Origin / Read | 130–140 |
 | Lee and Wen (2017; 2018), the studies behind Zhang et al. and the source of "about $20 billion in 2015"; Wang et al. (2020) on soil and groundwater; a source for the industry's revenue ($10–12 billion) and for remediation spending | Read / Origin | 138 |
 | Bullard's terms; the Minerals Management Service; financial and pharmaceutical lobbying; Medicare's bar on negotiating prices (years) | Pin | 170, 210–214 |
 | *Forclore*; the Loss and Damage Fund's start; CARICOM's plan; Fanning and Hickel (2023) | Pin / Read | 236, 250 |
@@ -167,6 +191,7 @@ The author's contact details used on the form are not recorded in this repositor
 
 ## Changes log
 
+- **2026-11-26.** 22 books and 8 more articles requested (A5); Klinger read.
 - **2026-11-26.** Part B, first batch: the Grace indictment, *Umbrellas*, Realmonte, Archer, Pericak, Hamilton read; five papers and Klinger's book to retry.
 - **2026-11-26.** Twelve interlibrary loan requests placed (A4).
 - **2026-11-26.** The 2026 Trustees Report read; A7 done.
