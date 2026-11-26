@@ -33,3 +33,10 @@ Craemer, Berry and Francis (2024), p. 20, prices the longevity gap at about $29 
 summary measure. It is not in *From Here to Equality*. The ruling stands until the author revisits it; the
 option now open is to keep "gaps in life expectancy" and cite the 2024 essay. Extracts:
 `research/citations/library-uploads_extracts_2026-11-24.md`.
+
+**Item 2, further evidence (2026-11-26).** Mullen, Richardson, Bassett and Darity, "A plan for black American
+reparations," *BMJ Global Health* (2026), read in full: the wealth gap is "the best summary measure" ($16
+trillion); "An alternative summary measure can be based on the life expectancy gap… about $27 trillion." Both
+Mullen and Darity are authors. The ruling still stands until the author revisits it; the original wording
+("their measures of the racial wealth gap, and of the gap in life expectancy") is now supportable with this
+citation. Extracts: `research/citations/session-web-sources_extracts_2026-11-26.md`.

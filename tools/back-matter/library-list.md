@@ -245,6 +245,14 @@ report's own address has not been found yet (Part 5).
   the title and copyright pages from the Google Books preview (2015 paperback). Extracts in
   `research/citations/library-uploads_extracts_2026-11-24.md`.
 
+- **Read by the session, 2026-11-26** (extracts in `research/citations/session-web-sources_extracts_2026-11-26.md`):
+  Mullen, Richardson, Bassett and Darity (2026); EIA *Annual Coal Report 2024*, Tables 28 and 31; the NCHS
+  county drug-poisoning series; GAO-11-696 in full (from a copy off gao.gov, which refuses sessions); NOAA on
+  the $8.8 billion; the federal bonding rules (43 CFR subpart 3104; 30 CFR part 556 subpart I); the Colorado
+  Legislative Council's count of severance-tax states; van Boven's note on the UN's 2005 reparation
+  principles; Sky News (2022) and a 2020 *Scientific Reports* study on Baotou; the abstracts of House et al.
+  (2011) and Blackley et al. (2018). Nothing is needed from the author for any of these.
+
 ## Part 5. Not yet fully tried: do not fetch these
 
 A session works this queue and promotes to Part 1 only what truly fails. Worked in part on 2026-11-15; what

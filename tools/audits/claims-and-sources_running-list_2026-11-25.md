@@ -23,7 +23,7 @@ next. The evidence stays in the reports; this file only points to it and tracks 
 
 ---
 
-## 1. APPROACH: step back before any wording (ten items)
+## 1. APPROACH: step back before any wording (eleven items)
 
 Ordered by how far each one reaches into the rest of the book.
 
@@ -38,13 +38,14 @@ Ordered by how far each one reaches into the rest of the book.
 | A7 | **Fraser's "expropriation"** (Ch 5 lines 192, 194) | Her definition centres on confiscation and on racialized dependent labor. Care work and nature are in her wider account, not in the definition; "exactly Fraser's sense" says too much. | Use her term on her terms (the report's replacement does), and decide whether the care-and-nature sentence is worth a trip to her book (L6) or goes. | Ch 5; Ch 2 uses her too (cleared in June, on reviews) |
 | A8 | **Baotou** (Ch 5 lines 130–140; TA §11.4, §9.5) | The project holds production shares and the size of the lake. Seven stated facts, the remediation floor, "ten tons" and the "$100 billion" have nothing behind them. | Shrink the case to what is sourced and reported as reported, or source it properly (two papers are on the library list; a session can read the reporting). | Ch 5; TA |
 | A9 | **The 2008 passage** (Ch 5 lines 84–102; TA §6.7) | "Trillions within days" is a 2.5-year sum; the peak was $1.1–1.6 trillion. Bonuses were paid for 2008 itself (contradicted, in the book's favour). No finding that the complexity was deliberate. About 4 million completed foreclosures, not 10 million. | Mostly REWORD, listed here because four sentences in one passage change at once and the paragraph should be read whole afterwards. | Ch 5; TA; the author's own 2008 account is untouched |
-| A10 | **"Restitution" in law, and the precedents** (TA §5.1.1, §5.2, §5.5) | No source. In ordinary legal usage the word leans toward giving back a gain, which is not the same as "broader than damages." | Cut the legal sentence (the name already rests on Darity's published words), or source it. A lead for a session to read, not yet read: the United Nations' 2005 Basic Principles on reparation, which list restitution beside compensation and rehabilitation. | TA; Ch 5 Restitution section; Darity will read it closely |
+| A11 | **Which coal price the McDowell multiple uses** (TA §4.4, §9.4, §11.11) | Found 2026-11-26. The "about 4 to 13 times" multiple divides by $40–140, which is every bituminous state from Illinois to Virginia. McDowell's own coalfield sold at $129.33 a ton in 2024 ($155.61 in 2023). | Against its own field's price the multiple is about four. Keep the national range and say what it is, or use the Southern West Virginia price and report one number. Goes with A1: tonnage and price together set the headline. | Ledger; TA; Ch 2, 6, 8 |
+| A10 | **"Restitution" in law, and the precedents** (TA §5.1.1, §5.2, §5.5) | No source. In ordinary legal usage the word leans toward giving back a gain, which is not the same as "broader than damages." | Cut the legal sentence (the name already rests on Darity's published words), or source it. **Read 2026-11-26:** the United Nations' 2005 principles define restitution as restoring the original situation and treat money for assessable harm as "compensation," a separate form. That cuts against the sentence. Darity and Mullen use "restitution" for their own program (2026 paper), which is the footing the name needs. | TA; Ch 5 Restitution section; Darity will read it closely |
 
 ## 2. REVISIT: rulings that newer evidence touches
 
 | # | Ruling | What changed | Options |
 |---|---|---|---|
-| V1 | **Ch 5 item 2** (what Darity and Mullen price): narrowed to the wealth gap, 2026-11-15 | Darity, Craemer, Berry and Francis (2024), p. 20, prices the longevity gap at about $29 trillion as an alternative measure. It is not in *From Here to Equality*, and Mullen is not an author of that essay (she is on the 2026 paper, which has not been read). | Keep the ruling; or restore "gaps in life expectancy" with the 2024 citation and the right names. "Broken transmission of knowledge" and "trauma" still have no priced source. |
+| V1 | **Ch 5 item 2** (what Darity and Mullen price): narrowed to the wealth gap, 2026-11-15 | Darity, Craemer, Berry and Francis (2024), p. 20, prices the longevity gap at about $29 trillion as an alternative measure. It is not in *From Here to Equality*, and Mullen is not an author of that essay (she is on the 2026 paper, which has not been read). | Keep the ruling; or restore "gaps in life expectancy" with the 2024 citation and the right names. "Broken transmission of knowledge" and "trauma" still have no priced source. **2026-11-26: the 2026 paper is read.** Mullen and Darity are both authors, and it gives the life-expectancy gap as "an alternative summary measure," about $27 trillion (the 2024 essay: about $29 trillion). So "Darity and Mullen" can now be credited with both measures, wealth gap first. |
 | V2 | **The cover note's first question** as sent | *From Here to Equality* itself defines restitution and calls it "the appropriate form of redress," so the grounding is in the book as well as the 2024 essay. The appendix's front table credits the wrong one of the two. | Fix the credit in the appendix; say so in the correction note to Darity. |
 | V3 | **Ch 1 line 134**, "This ledger is new," and the paragraph that follows | Settled 2026-11-24. Listed only so it is re-read once the appendix's contribution section is revised under A1 to A3. | Probably none. |
 
@@ -62,21 +63,30 @@ Ordered by how far each one reaches into the rest of the book.
 | Rawls (1971), print page numbers for pp. 128, 284–293 | TA §14.4 citation | Low; needed before printing |
 | Fraser, *Cannibal Capitalism* ch. 2; Christophers, *The Price Is Wrong* intro; Gawande; Keefe | A7, A6, Ch 5 line 18, TA §6.7 | Skip unless the sentence that needs each one is kept |
 
-**A session can try these** (none asked of the author).
+**Read by a session on 2026-11-26** (words and pages: `research/citations/session-web-sources_extracts_2026-11-26.md`).
+
+| Source | What it settled | Item |
+|---|---|---|
+| Mullen, Richardson, Bassett and Darity (2026), *BMJ Global Health* | Both authors name the life-expectancy gap as "an alternative summary measure," about $27 trillion; the wealth gap is "the best summary measure," $16 trillion. They call their program "restitution." | V1: the original sentence can stand with this citation |
+| EIA, *Annual Coal Report 2024*, Table 31 | $40–140 is the 2024 range for bituminous coal **by state**, not by grade. Southern West Virginia, McDowell's own field: $129.33. | TA item 5: pinned; raises a new question (A11) |
+| NCHS county drug-poisoning series | McDowell is first of all U.S. counties in 2015, 2020 and 2021, for all drug poisonings, modelled. 2015 is 83.5, not 141; 2020 is 142.6. | TA 1b item 7 and item 8: supported with two corrections |
+| GAO-11-696, full report | "Peaked at more than $1 trillion in late 2008"; $16,115 billion is the unadjusted sum of every loan. | Ch 5 item 7: replacement confirmed at the page |
+| NOAA, Gulf restoration | "BP will pay up to $8.8 billion for restoration." It is inside what BP paid. | A3: no figure exists for what went unpaid |
+| *EHS Today* on the 2005 indictment | Grace "enjoyed at least $140 million in after-tax profits from its mining operations in Libby" (an allegation, read second-hand). | A4: first figure for what the mine earned |
+| 43 CFR subpart 3104; 30 CFR part 556 subpart I | The bonding rules, onshore and offshore. The appendix cites the wrong parts and the wrong offshore agency. | TA item 7: settled |
+| Colorado Legislative Council Staff | "34 states levy some form of severance tax, including 31" on oil and gas. Nothing gives 36. | TA 1b item 14: settled |
+| Van Boven's note on the UN's 2005 principles | Restitution means putting things back as they were; money for assessable harm is "compensation," a separate form. | A10: cuts against the appendix's legal sentence |
+| Sky News (2022); *Scientific Reports* (2020) on Baotou | One village relocated and its farmland closed; groundwater around the pond contaminated; cancers reported by residents and a scholar. | A8: four of the facts now sourced as reported; the numbers are not |
+| House et al. (2011); Blackley et al. (2018), abstracts | "On the order of $1,000 per tonne"; 20.6 percent of long-tenured central Appalachian miners. | TA §11.9 supported; §11.1 to compare |
+
+**Still for a session.**
 
 | Source to find or read | Settles |
 |---|---|
-| EIA coal prices by grade, one table and year | TA item 5: the $40–140 behind every multiple |
-| A primary record of W.R. Grace's revenue from the Libby mine | A4 |
-| NOAA's damage assessment ($8.8 billion) and GAO-11-696, at the page | A3, A9 (both are on file from the register, not from the page) |
-| National Conference of State Legislatures on severance taxes; 43 CFR subpart 3104; the offshore bonding rule | TA items 7 and 14 |
-| CDC county overdose rates; the state ranking | TA 1b item 7; item 8 |
-| Dwyer-Lindgren et al. (2017) at the page | TA item 17, the 13-year gap |
-| Blackley, Halldin and Laney (2018); House et al. (2011): opened, not yet read against the claims | TA §11.1, §11.9 |
-| Reporting and studies on Baotou | A8 |
-| The UN's 2005 Basic Principles on reparation | A10 |
-| El Serafy (1989); Asare et al. (2023); Broome; Samuelson; Sen; TEEB 2018 | TA "not checked" rows |
-| Mullen et al. (2026) | V1 |
+| The 2005 indictment itself, *United States v. W.R. Grace* (D. Mont.) | A4: the $140 million in its own words |
+| The county tables behind Dwyer-Lindgren et al. (2017), at the Institute for Health Metrics and Evaluation | TA item 17, the 13-year gap |
+| A source for the 141 per 100,000 as a 2015 figure, or drop the year | TA item 8 |
+| El Serafy (1989); Asare et al. (2023); Broome; Samuelson; Sen; TEEB 2018 | TA "not checked" rows; low value |
 
 ## 4. REWORD: source in hand, supported sentence drafted, waiting for a ruling
 
@@ -127,4 +137,5 @@ Ch 5 item 1 (Mexico; also TA §11.2, §14.8); item 2 (but see V1); the Sweden mo
 
 ## Changes log
 
+- **2026-11-26.** Eleven sources read by the session; table added to §3; A11 added; A10 and V1 updated.
 - **2026-11-25.** List started from the three reports, the rulings file and the 2026-11-25 handoff.
