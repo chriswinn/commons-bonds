@@ -155,7 +155,9 @@ Bergson (1938); Esping-Andersen (1990); Hong and Page (2004); Mosteller and Tuke
 
 **Requested 2026-11-26, on the author's word (27):** the 21 single-mention books; the five §18 entries cited nowhere (Atkinson 1970; Bergson 1938; Esping-Andersen 1990; Hong and Page 2004; Mosteller and Tukey 1977: "we should look at something before we decide if we should drop it"); and Sima Qian, *Records of the Grand Historian* (any English translation).
 
-**Total on order: 33 articles, 1 book chapter, 74 books (108 requests).** The author's note: books travel from Virginia's community college libraries first, then the wider network, and will arrive at random through the end of the semester and beyond.
+**Requested from the chapter harvest, 2026-11-26 (17):** Fishback, *Soft Coal, Hard Choices*; Harvey, *The New Imperialism*; Derickson, *Black Lung*; Buchanan and Tullock, *The Calculus of Consent*; Susskind, *Growth: A Reckoning*; Kimmerer, *Braiding Sweetgrass*; Simpson, *As We Have Always Done*; Dunbar-Ortiz, *An Indigenous Peoples' History of the United States*; Deloria, *Custer Died for Your Sins*; Lehner and Hawass, *Giza and the Pyramids*; Hardin (1968); Solow (1974); Ramsey (1928); Hendryx et al. (2012); Savage (1951); Tullock (1967); Wagner et al. (2021). The harvest: `sources-harvest_ch2-4_ch6-10_2026-11-26.md`.
+
+**Total on order: 40 articles, 1 book chapter, 84 books (125 requests).** The author's note: books travel from Virginia's community college libraries first, then the wider network, and will arrive at random through the end of the semester and beyond.
 
 **Free copies:** ten downloaded and checked; ten blocked and listed for the author to try (`research/citations/session-web-sources_extracts_2026-11-26.md`, "Free copies"). The work-by-work check is `sources-reconciliation_ch1-ch5-ta_2026-11-26.md`.
 
@@ -240,6 +242,7 @@ Bergson (1938); Esping-Andersen (1990); Hong and Page (2004); Mosteller and Tuke
 
 ## Changes log
 
+- **2026-11-26.** Part B closed out (four batches); chapter harvest written; 17 more requests.
 - **2026-11-26.** Tönnies read in the German first edition (free) and translated; author's instruction recorded: where no free English copy exists, look for a free copy in another language a session can read.
 - **2026-11-26.** 27 more requests; free copies, first batch; Part B, third batch (eight pins read, five leads by search).
 - **2026-11-26.** 30 more requests (later chapters; the appendix's unread references); 21 single-mention books held.
