@@ -198,6 +198,20 @@ removed, with ", stayed" becoming " and stayed" so the sentence still parses (th
 "a title he was proud of," accepted on 2026-11-24 and held for this sentence. Two HIGH gate patterns and two
 ledger rows added in the same commit. **Every Chapter 1 claims-check ruling is now applied.**
 
+**Line 74, the diplomatic passport: confirmed by his father, 2026-11-26** (the author, with him: "Father confirmed
+the diplomatic passport for Navy travel"). The sentence stands, now on the subject's own confirmation.
+**The author asked whether the detail earns its place.** The session's view, for his decision: keep it. It is
+the one concrete sign in the paragraph of how closed his father's work was, and it sets up "tight-lipped all
+my childhood"; without it "a high clearance" stands alone and reads as a résumé line. Nothing needs revising.
+One courtesy while he is with him: that his father is comfortable seeing the clearance and the passport in
+print.
+
+**The grandfather's death year: closed as not needed (author, 2026-11-26: "Does when my grandfather died
+really matter at all for the book?").** It does not. No year is stated in the book, and the one clause that
+leaned on it ("retired not long before he died") was removed today. Line 86 says only "Years after my
+grandfather died," which needs no date. The project's two internal notes that disagree (before 1985; 1987)
+should each read "year not known; not stated in the book." No further questions to his father on this.
+
 **L12 (the obituary and Langley records)** is now optional: only the two years are missing, and the chapter
 states neither.
 

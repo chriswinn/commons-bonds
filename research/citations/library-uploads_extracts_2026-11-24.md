@@ -1372,3 +1372,47 @@ chapter's current sentence pairs one fund's date with the combined shortfall. Ei
 
 **Ledger and gate:** both figures are shared figures. When ruled, the new values need a ledger row and a gate
 pattern on "2033," "77 percent" and "$22.6 trillion."
+
+## Five files the author downloaded, 2026-11-26 (evening): one is the item asked for
+
+| File | What it is | Asked for? |
+|---|---|---|
+| `Coates_Reparations.pdf` (47 pp.; fingerprint `f0bc59b6fcd5f1ba`) | Ta-Nehisi Coates, "The Case for Reparations," *The Atlantic*, web edition dated May 21, 2014 (the June 2014 issue) | **Yes. Read in full.** |
+| `science.aab0031.pdf` (3 pp.) | Gerten, Rockström and others, "Response to Comment on 'Planetary boundaries…'" (*Science*, 2015): a technical reply about freshwater | **No.** The paper wanted is Steffen et al., "Planetary boundaries: Guiding human development on a changing planet," *Science* 347(6223), 2015, DOI 10.1126/science.1259855 |
+| `nov09_0.pdf` (6 pp.) | *The NBER Digest*, November 2009: a one-page summary of Mian and Sufi, "House Prices, Home Equity-based Borrowing, and the U.S. Household Leverage Crisis" (Working Paper 15283) | **No.** A digest of a different paper |
+| `oct14.pdf` (6 pp.) | *The NBER Digest*, October 2014: a summary of Mian and Sufi, "House Price Gains and U.S. Household Spending from 2002 to 2006"; also one of Giglio, Maggiori and Stroebel on discount rates for the very long run | **No.** The paper wanted is Mian, Rao and Sufi, "Household Balance Sheets, Consumption, and the Economic Slump," *Quarterly Journal of Economics* 128(4), 2013 |
+| `s44327-026-00385-y.pdf` (25 pp.) | Jordan and Black, "Understanding socio-economic valuation in UK urban development through the lens of power," *Discover Cities* (2026) | **No.** Not on any list for this book |
+
+### Coates, "The Case for Reparations" (2014)
+
+Short extracts; the PDF is the record. It is a web print, so it has no magazine page numbers.
+
+- Dek: "Two hundred fifty years of slavery. Ninety years of Jim Crow. Sixty years of separate but equal.
+  Thirty-five years of racist housing policy. Until we reckon with our compounding moral debts, America will
+  never be whole."
+- His definition: "Reparations—by which I mean the full acceptance of our collective biography and its
+  consequences—is the price we must pay to see ourselves squarely."
+- The mechanism he documents at length: buying "on contract," "a predatory agreement that combined all the
+  responsibilities of homeownership with all the disadvantages of renting"; and "It was the Home Owners' Loan
+  Corporation, not a private trade association, that pioneered the practice of redlining."
+- The harm in wealth: "white households are worth roughly 20 times as much as black households" (Pew).
+- What he asks for: support for "HR 40, the Commission to Study Reparation Proposals for African Americans
+  Act. We would support this bill, submit the question to study, and then assess the possible solutions."
+- "What I'm talking about is more than recompense for past injustices… a national reckoning that would lead
+  to spiritual renewal."
+
+**Bears on Chapter 5, line 244** ("he supplied the shape of the argument: name the mechanism, name the harm,
+name the debt"):
+
+| The chapter says | Status | Why |
+|---|---|---|
+| published in *The Atlantic* in 2014 | **SUPPORTED** | June 2014 issue; online May 21, 2014 |
+| "name the mechanism, name the harm" | **SUPPORTED as a fair description** | Contract selling and redlining; the wealth gap. The three-part phrase is the chapter's summary, not his words; keep it out of quotation marks. |
+| "name the debt" | **SAYS A LITTLE MORE THAN THE SOURCE** | He speaks of "compounding moral debts" and declines to set a sum; his proposal is a commission to study it. "Name the debt" is right if it means naming that a debt exists, wrong if a reader takes it as putting a figure on it. |
+| "This framework extends that shape to communities built around extraction." | the book's own | Note that his definition is acceptance and reckoning, wider than payment. |
+
+Chapters 3 and 8 also name Coates; this file serves them when their fact tables are pinned.
+
+**Useful by accident:** the October 2014 digest summarises Giglio, Maggiori and Stroebel, who measure very
+long-run discount rates from property leases of 99 to 999 years. It bears on the appendix's discounting
+section (§14.3) if a market-based estimate is wanted; the paper itself would have to be read.
