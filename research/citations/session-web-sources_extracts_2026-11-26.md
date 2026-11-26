@@ -389,3 +389,47 @@ lineage (one line each in the appendix), so the check is whether the work says w
 | The full Stern Review | the UK National Archives' web archive | not tried there (the archive refuses sessions) |
 | Mian, Rao and Sufi (2013), "Household Balance Sheets, Consumption, and the Economic Slump" | NBER working paper | the number tried was a different paper; to retry |
 | Hong and Page (2004), *PNAS* | PubMed Central | refused; **requested through the library** |
+
+---
+
+# Part B, third batch (2026-11-26)
+
+## Read on the page
+
+| Claim (where) | Source read | Its words (short) | Status |
+|---|---|---|---|
+| EPA's "$190/ton CO₂ at the 2% near-term discount rate"; the $51 (TA §3.3, §11.6, §16.4) | EPA, *Report on the Social Cost of Greenhouse Gases* (2023), full text | "the central SC-CO2 estimate (based on a 2% near-term Ramsey discount rate) of $190/mtCO2 for 2020 emissions is around 280% larger than the IWG recommended interim estimate based on the 3% constant discount rate ($51/mtCO2)" | **SUPPORTED, both figures** |
+| Contingent valuation listed under revealed preference (TA §15.1.1) | OMB Circular A-4 (2023), which the appendix itself cites | "Some examples of SPM [stated preference methods] include contingent valuation" | **CONTRADICTED.** It is a stated-preference method. |
+| Medicare "barred" from negotiating drug prices (Ch 5 line 214) | KFF, on the Inflation Reduction Act's drug provisions | "The law that established the Part D benefit included a provision known as the 'noninterference' clause, which stipulates that the HHS Secretary 'may not interfere with the negotiations between drug manufacturers and…'" | **SUPPORTED** (2003 law to the 2022 act: "nearly twenty years") |
+| Reproduction of Gulf animals (Ch 5 line 54) | NOAA Fisheries, on the spill's effects on dolphins and whales | Barataria Bay dolphins: "Increased failed pregnancies (46 percent greater than expected)"; "Increased mortality (35 percent greater than expected)" | **SUPPORTED** |
+| The natural-resource-damage rules (TA §14.8) | Code of Federal Regulations | "PART 11—NATURAL RESOURCE DAMAGE ASSESSMENTS" (43 CFR, under the Superfund law); "PART 990—NATURAL RESOURCE DAMAGE ASSESSMENTS" (15 CFR, under the Oil Pollution Act) | **SUPPORTED** |
+| The 1988 Civil Liberties Act as a restitution precedent (TA §5.5) | National Archives, "Japanese American… Redress" | payments "to more than 82,219 claimants, totaling more than $1.6 billion"; "the full $20,000 payment" | **SUPPORTED** |
+| Norway's production-side emissions (TA §11.5) | norskpetroleum.no, "Emissions to air" | "In 2025, greenhouse gas emissions from petroleum activities corresponded to about 10,8 million tonnes CO2 eq… about one quarter of Norway's aggregate" emissions | **Pinned**; compare with the appendix's share |
+| *Forclore* (Ch 5 line 236) | Wiktionary, "foreclose" (a tertiary source) | "from Old French forclos, past participle of forclore ('to exclude')" | **Supported at a dictionary of last resort**; the Oxford English Dictionary would be the citable source |
+
+## Found by search; the page itself not yet opened (leads, not findings)
+
+| Claim | What the search results say | If it holds |
+|---|---|---|
+| The herring families "found no way to file a claim" (Ch 5 line 64) | A 1994 jury ordered Exxon to pay about $287 million in compensatory damages "to commercial salmon and herring fishermen"; a 2015 ruling kept later herring losses out of the governments' reopened claim | The sentence is **wrong as written.** They claimed and were paid for early losses; what was shut out was the later collapse. |
+| "10M home foreclosures" (TA §6.7) | CoreLogic's running count of completed foreclosures since September 2008: about 3.8 million (August 2012), 4.6 million (September 2013), about 6.4 million (2016) | Neither 10 million nor "about 4 million" without a date. Use one count with its date. |
+| Purdue "settled for $21 billion in 2022" (TA §6.7) | The $21 billion is the three **distributors'** share of a $26 billion settlement finalized February 25, 2022 (Johnson & Johnson: $5 billion). The House committee's record: the Sacklers withdrew "more than $10 billion." | The appendix credits the distributors' settlement to Purdue. |
+| Minerals Management Service (Ch 5 line 210) | The Interior Inspector General's September 2008 reports: nearly a third of the royalty-in-kind staff "socialized with and received… gifts and gratuities from oil and gas companies" (Devaney's testimony, September 18, 2008, is on the House committee's site) | Supported; pin Devaney's testimony |
+| Macondo's "recoverable reserves of roughly 50 million barrels" (TA §11.2) | BP's chief executive testified the reservoir "holds at least 50 million barrels"; other pages call it oil in place | Attribute to his testimony; do not call it recoverable reserves |
+
+## Not reached
+
+The Loss and Damage Fund's own site (403); Census (the service now requires a key); the two GAO reports at
+govinfo (address not found); BP's 2016 release and EPA's Libby site page (script-only pages); Hurst (2010)
+(no response); "designed in 1935" (the CRS history read does not date the pay-as-you-go design).
+
+## Part B: what is still open after three batches
+
+Origins nobody has found: the $8–12 billion; the 600 million tons; life support at $1–10 million a
+person-year; "300+ years"; the 95 percent truncation claim; the irreversibility band; health and remediation
+cost per ton; Baotou's annual tailings and revenue; the cost of holding reserves; "Risk Capital Value" as a
+banking term. Pins still to make: Sweden (2020; "scholars"); Mexico's legal tools; the consumer bureau's
+record; "balances never caught up"; Norway against the United States; "designed in 1935"; Libby's population
+and cleanup total; "largest environmental criminal prosecution"; the capture and space tables; the state
+statutes; the four other restitution precedents; ranked-choice dates; the Casualty Actuarial Society; Chetty;
+Whyte; GAO-17-207R, GAO-18-305, GAO-20-21; McDowell's surface-mined acreage; the 141 per 100,000.

@@ -153,7 +153,11 @@ Copies of in-copyright books posted to archive.org by individuals are not used.
 **Listed in §18 and cited nowhere in the appendix's text (no request; candidates to drop):** Atkinson (1970);
 Bergson (1938); Esping-Andersen (1990); Hong and Page (2004); Mosteller and Tukey (1977).
 
-**Total on order: 30 articles, 1 book chapter, 50 books (81 requests).** The work-by-work check is `sources-reconciliation_ch1-ch5-ta_2026-11-26.md`.
+**Requested 2026-11-26, on the author's word (27):** the 21 single-mention books; the five §18 entries cited nowhere (Atkinson 1970; Bergson 1938; Esping-Andersen 1990; Hong and Page 2004; Mosteller and Tukey 1977: "we should look at something before we decide if we should drop it"); and Sima Qian, *Records of the Grand Historian* (any English translation).
+
+**Total on order: 33 articles, 1 book chapter, 74 books (108 requests).** The author's note: books travel from Virginia's community college libraries first, then the wider network, and will arrive at random through the end of the semester and beyond.
+
+**Free copies:** ten downloaded and checked; ten blocked and listed for the author to try (`research/citations/session-web-sources_extracts_2026-11-26.md`, "Free copies"). The work-by-work check is `sources-reconciliation_ch1-ch5-ta_2026-11-26.md`.
 
 ---
 
@@ -236,6 +240,7 @@ Bergson (1938); Esping-Andersen (1990); Hong and Page (2004); Mosteller and Tuke
 
 ## Changes log
 
+- **2026-11-26.** 27 more requests; free copies, first batch; Part B, third batch (eight pins read, five leads by search).
 - **2026-11-26.** 30 more requests (later chapters; the appendix's unread references); 21 single-mention books held.
 - **2026-11-26.** Part B, second batch: thirteen pins read (extracts §18–§29): Fanning and Hickel; CARICOM; pay-as-you-go; TARP; healthcare prices; Solomon; EPA's value of life; Isle de Jean Charles; Norway's tax; combustion factors; Appalachian Voices; the WTO case.
 - **2026-11-26.** 22 books and 8 more articles requested (A5); Klinger read.
