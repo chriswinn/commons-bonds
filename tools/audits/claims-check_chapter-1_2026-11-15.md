@@ -189,6 +189,15 @@ simply "in the Army, checking aircraft on the flight line." "Air Force" would be
 - For "retired not long before he died": keep it only if he himself remembers it that way; otherwise end the
   sentence at "1958."
 
+**RULED AND APPLIED 2026-11-26.** The author: "Smallest change: 'nearly his entire working life.'; end the
+sentence at 1958." Line 62 now reads: "Pooh spent nearly his entire working life at NASA's Langley Research
+Center in Hampton, Virginia. He started there when the agency was still called NACA and stayed through the
+change to NASA in 1958. He was a model maker in the wind tunnels, a title he was proud of. He was an inventor,
+and his name is in the patent record." Three changes: "nearly" added; "and retired not long before he died"
+removed, with ", stayed" becoming " and stayed" so the sentence still parses (the one mechanical change); and
+"a title he was proud of," accepted on 2026-11-24 and held for this sentence. Two HIGH gate patterns and two
+ledger rows added in the same commit. **Every Chapter 1 claims-check ruling is now applied.**
+
 **L12 (the obituary and Langley records)** is now optional: only the two years are missing, and the chapter
 states neither.
 

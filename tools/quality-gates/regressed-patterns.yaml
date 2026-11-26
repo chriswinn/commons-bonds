@@ -941,6 +941,22 @@ patterns:
     description: "Undocumented integral level superseded 2026-06-10 -> 525ドル-540/ton documented calibration (historical mentions must be labeled)"
     allowlist: []
 
+  - id: ch1-grandfather-entire-working-life
+    pattern: 'spent his entire working life'
+    type: substring
+    severity: HIGH
+    category: consistency-canon
+    description: "Ch 1 claims check, ruled 2026-11-26 on his father's answers: he served with the Army's air arm before NACA. Ratified: 'spent nearly his entire working life at NASA's Langley Research Center'"
+    allowlist: []
+
+  - id: ch1-grandfather-retired-not-long-before
+    pattern: 'retired not long before he died'
+    type: substring
+    severity: HIGH
+    category: consistency-canon
+    description: "Ch 1 claims check, ruled 2026-11-26: neither the retirement year nor the death year is known. Ratified: the sentence ends at 'the change to NASA in 1958'"
+    allowlist: []
+
   - id: ch1-colleague-company-could-send-him-back
     pattern: 'company could send him back'
     type: substring
