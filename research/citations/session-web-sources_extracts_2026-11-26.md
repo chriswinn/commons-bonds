@@ -467,3 +467,40 @@ above locate each passage. If a page is wanted, the scanned page images are in t
 
 **The 1957 English translation** (Loomis) is in copyright; no free copy. It is not needed to support the
 citation. Request it only if the book is to quote him in English from a published translation.
+
+---
+
+# Part B, fourth batch (2026-11-26): the five leads opened, and seven more pins
+
+| Claim (where) | Source read on the page | Its words (short) | Status |
+|---|---|---|---|
+| Herring families "found no way to file a claim" (Ch 5 line 64) | *Exxon Shipping Co. v. Baker* (U.S. Supreme Court, 2008), opinion, Cornell's Legal Information Institute | "In Phase II the jury awarded $287 million in compensatory damages to the commercial fishermen"; the suit was "by respondent Baker and others, including commercial fishermen and native Alaskans… for economic losses" | **CONTRADICTED as written:** commercial fishermen claimed and were awarded compensatory damages. The opinion does not mention herring by name; what herring permit holders recovered for the later collapse is still unpinned. |
+| Purdue "settled for $21 billion in 2022" (TA §6.7) | National Opioid Settlement, executive summary | "the Distributors will pay up to $21 billion over 18 years, and J&J will pay up to an additional $5 billion"; the distributors are "McKesson, Cardinal Health, and AmerisourceBergen" | **CONTRADICTED on who paid:** the $21 billion is the distributors', not Purdue's. |
+| "10M home foreclosures" (TA §6.7) | CoreLogic, National Foreclosure Report for October 2015 (press release) | "Since the financial crisis began in September 2008, there have been approximately 6 million completed foreclosures across the country" | **CONTRADICTED on 10 million;** about 6 million by late 2015. (The project's register had 4.1 million through 2012; both are CoreLogic counts at different dates.) |
+| Minerals Management Service (Ch 5 line 210) | Earl Devaney, Inspector General, testimony to the House Natural Resources Committee, September 18, 2008 | "the single-most serious problem portrayed in these reports is a pervasive culture of exclusivity, exempt from the rules that govern all other employees of the Federal Government" | **SUPPORTED** (the gifts finding is in his reports; the testimony gives the conclusion) |
+| Macondo's "recoverable reserves of roughly 50 million barrels" (TA §11.2) | Associated Press, on Tony Hayward's testimony to a House subcommittee (2010) | "Hayward estimated that the reservoir tapped by the out-of-control well holds at least 50 million barrels of oil" | **SAYS MORE THAN THE SOURCE:** "holds at least," said by BP's chief executive; not "recoverable reserves." |
+| Loss and Damage Fund "established at the 2022 United Nations climate conference, and it began operating the following year" (Ch 5 line 250) | UN News, 20 November 2022 and 30 November 2023 | COP27 "established a funding mechanism to compensate vulnerable nations for 'loss and damage'"; at COP28 delegates "agreed Thursday on the operationalization of a fund" | **SUPPORTED for 2022; "began operating" says a little more:** in 2023 its operation was agreed; whether money moved that year is not shown. |
+| German payments as a restitution precedent (TA §5.5) | Claims Conference, history page | "the German government has paid more than $90 billion in indemnification to individuals"; the Luxembourg Agreements, 1952 | **SUPPORTED** |
+| "designed in 1935" (Ch 5 line 110) | CRS, *Social Security Primer* (R42035) | "Title II of the original Social Security Act of 1935 established a national plan…" | **1935 for the program, SUPPORTED;** the pay-as-you-go design is still not dated by any source read |
+| "the largest environmental criminal prosecution" (Ch 5 line 44) | Justice Department release, February 7, 2005 | the phrase does not appear in the release | **Still unpinned** |
+
+**Refused or empty this round:** Climeworks; EPA's Libby site page; the consumer bureau's enforcement page (no
+figures in the text served); FairVote (no first-use date).
+
+## Part B: closing state
+
+Four batches, about forty-five items read. **What remains is of two kinds.**
+
+*Origins that every route has failed to find (the search is now recorded as exhausted for sessions; the
+author's library copies may still turn one up):* the $8–12 billion "beyond what BP paid"; the 600 million
+tons; life support at $1–10 million a person-year; "300+ years" at 1960 rates; the 95 percent truncation
+claim; the irreversibility band as a probability; health and remediation cost per ton; Baotou's annual
+tailings, export revenue and the 10 km radius; the cost of holding reserves; "Risk Capital Value" as a banking
+term; the 141 per 100,000 as a 2015 figure; "the largest environmental criminal prosecution."
+
+*Pins not yet made, none with a deadline:* Sweden's 2020 clause and "scholars"; Mexico's legal tools; the
+consumer bureau's record; "balances never caught up"; Norway against the United States; the date of the
+pay-as-you-go design; Libby's population and cleanup total; the capture table (Stratos, Mammoth, Orca); the
+space table; the five state statutes; South Africa's commission; ranked-choice dates; the Casualty Actuarial
+Society; Chetty; Whyte; GAO-17-207R, GAO-18-305, GAO-20-21 (gao.gov refuses sessions: the author can save
+these three at home); McDowell's surface-mined acreage from Pericak's dataset; BP's 2016 statement.
