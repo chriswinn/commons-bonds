@@ -63,6 +63,31 @@ A session tries items 19 to 25 by other routes first (Part B) and tells him whic
 
 ---
 
+### A4. Interlibrary loan requests placed, 2026-11-26
+
+Submitted through the author's school library form, by the author (two) and by the session at his direction
+(ten). The library says to allow up to 14 days; articles arrive at his school email. His winter break starts
+December 16. When one arrives he attaches the PDF in a session.
+
+| Requested | DOI | Settles | By |
+|---|---|---|---|
+| Panjwani and Xiong (2023), *Journal of Economic Behavior & Organization* 205: 648–667 | 10.1016/j.jebo.2022.11.017 | Ch 5 line 28 | author |
+| Zhou and Ge (2021), *The Extractive Industries and Society* 8(1): 340–354 | 10.1016/j.exis.2020.11.010 | Ch 5 line 138 | author |
+| Slade and Thille (2009), *Annual Review of Resource Economics* 1: 239–260 | 10.1146/annurev.resource.050708.144223 | TA Def 1.3 | session |
+| Mudliar and Koontz (2021), *Society & Natural Resources* 34(5): 639–658 | 10.1080/08941920.2020.1864535 | TA §14.5, §14.8 | session |
+| Broome (1994), *Philosophy & Public Affairs* 23(2): 128–156 | 10.1111/j.1088-4963.1994.tb00008.x | TA §14.3 | session |
+| Bernhardt and Palmer (2011), *Annals of the New York Academy of Sciences* 1223: 39–57 | 10.1111/j.1749-6632.2011.05986.x | TA §3.5, §6.2 | session |
+| Loomes and Sugden (1982), *The Economic Journal* 92(368): 805–824 | 10.2307/2232669 | TA §8 | session |
+| Asare, Powell, Robinson and Kwasnicka, "Rotation work in the resources sector: a systematic review of the impact on workers' families," *Psychology & Health* 40(1): 17–46 (online 2023) | 10.1080/08870446.2023.2190348 | TA Def 1.10 | session |
+| Barnosky et al. (2012), *Nature* 486: 52–58 | 10.1038/nature11018 | TA Thm 10.3 | session |
+| Lee and Wen (2018), "Pathways for greening the supply of rare earth elements in China," *Nature Sustainability* 1(10): 598–605 | 10.1038/s41893-018-0154-5 | Ch 5 line 138 (the "$20 billion") | session |
+| Howarth and Norgaard (1992), "Environmental Valuation under Sustainable Development," *American Economic Review* 82(2): 473–477 (journal confirmed at RePEc; the appendix's §18 names a different journal) | none | TA §15.2.3 | session |
+| El Serafy, "The Proper Calculation of Income from Depletable Natural Resources," in Ahmad, El Serafy and Lutz, eds., *Environmental Accounting for Sustainable Development* (World Bank, 1989): chapter only | none | TA front table, §4, §14.8 | session |
+
+The author's contact details used on the form are not recorded in this repository.
+
+---
+
 ## Part B. A session works these (nothing asked of the author unless a route fails)
 
 ### B1. Chapter 5
@@ -142,6 +167,7 @@ A session tries items 19 to 25 by other routes first (Part B) and tells him whic
 
 ## Changes log
 
+- **2026-11-26.** Twelve interlibrary loan requests placed (A4).
 - **2026-11-26.** The 2026 Trustees Report read; A7 done.
 - **2026-11-26.** Zhang et al. (2022) read in full; three leads added to B1.
 - **2026-11-26.** List started.
