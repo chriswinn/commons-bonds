@@ -12,6 +12,20 @@ So no item below is skipped because its sentence might be cut. The "skip if" not
 file," "not checked," and the appendix's source review), the library list, and the running list. Where a
 report's full table has a row these summaries missed, add it here.
 
+**NOT YET COMPLETE (checked 2026-11-26 at the author's question).** Three known gaps:
+1. **Built from the reports' summaries, not row by row.** The full tables hold 185 rows (Ch 5), 310 (appendix)
+   and 36 (Ch 1). Every row that is not SUPPORTED has to be matched to an item here; that reconciliation has
+   not been done.
+2. **"Supported" on the project's own notes.** A first count finds about 70 Chapter 5 rows and about 55
+   appendix rows marked SUPPORTED whose source column is a project file (the ledger, the primary-source
+   register, the bibliography's notes, the June citation spec, the positioning findings) with no sign the work
+   itself was opened. Some of those files do record a reading of the source (the Butler file does); many do
+   not. Each underlying work has to be listed and marked read or unread.
+3. **The appendix's reference list.** About 143 entries; the 37 works behind the ten commons profiles and most
+   of the "lineage" names have never been opened by anyone.
+**Next step for a session:** the row-by-row reconciliation, producing one table of every work the three texts
+rely on, with read / unread / requested against each. Then request whatever is unread.
+
 **Legend.** *Pin* = the fact is probably true and needs a citable source. *Read* = a named work nobody has
 opened. *Origin* = a figure whose source has never been found.
 
