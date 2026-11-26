@@ -157,7 +157,9 @@ Bergson (1938); Esping-Andersen (1990); Hong and Page (2004); Mosteller and Tuke
 
 **Requested from the chapter harvest, 2026-11-26 (17):** Fishback, *Soft Coal, Hard Choices*; Harvey, *The New Imperialism*; Derickson, *Black Lung*; Buchanan and Tullock, *The Calculus of Consent*; Susskind, *Growth: A Reckoning*; Kimmerer, *Braiding Sweetgrass*; Simpson, *As We Have Always Done*; Dunbar-Ortiz, *An Indigenous Peoples' History of the United States*; Deloria, *Custer Died for Your Sins*; Lehner and Hawass, *Giza and the Pyramids*; Hardin (1968); Solow (1974); Ramsey (1928); Hendryx et al. (2012); Savage (1951); Tullock (1967); Wagner et al. (2021). The harvest: `sources-harvest_ch2-4_ch6-10_2026-11-26.md`.
 
-**Total on order: 40 articles, 1 book chapter, 84 books (125 requests).** The author's note: books travel from Virginia's community college libraries first, then the wider network, and will arrive at random through the end of the semester and beyond.
+**Published English translations requested, 2026-11-26 (author's rule on translated works):** Tönnies, *Community and Society* (Loomis translation, 1957); Kant, *Groundwork of the Metaphysics of Morals* (Gregor and Timmermann, Cambridge, the edition the appendix cites). Already on order in English: Camus (O'Brien); Fanon; Sima Qian (any English translation).
+
+**Total on order: 40 articles, 1 book chapter, 86 books (127 requests).** The author's note: books travel from Virginia's community college libraries first, then the wider network, and will arrive at random through the end of the semester and beyond.
 
 **Free copies:** ten downloaded and checked; ten blocked and listed for the author to try (`research/citations/session-web-sources_extracts_2026-11-26.md`, "Free copies"). The work-by-work check is `sources-reconciliation_ch1-ch5-ta_2026-11-26.md`.
 

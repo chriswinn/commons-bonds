@@ -17,6 +17,11 @@ impact, strength & value of this book at the cost of simply finding a source."
 contradicts the sentence or the search is exhausted; say which of the two it is. *(The "how to apply" lines are
 the session's reading.)*
 
-**Added 2026-11-26 (author).** "No free English copy" is not the end of the search. If a free copy exists in
-another language a session can read (the original of a translated work especially), fetch that, quote the
-original, and give the session's own translation marked as such.
+**Translated works (author, 2026-11-26; this replaces an earlier note the same day).** Anything that rests on a
+session's own translation carries a risk, so:
+- A free copy in the original language is good for **checking** that a citation says what it is cited for.
+  Fetch it, quote the original, and mark any translation as the session's own.
+- It is **not** enough to rely on in the book. Always also request a **published English translation**
+  through the library, and quote or paraphrase from that, naming the translator and edition.
+- His words: "We should probably request English translations as anything that is based on a translation runs
+  a risk I had not thought of."

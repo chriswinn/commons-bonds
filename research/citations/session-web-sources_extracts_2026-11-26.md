@@ -466,7 +466,8 @@ kinds of bond; he does not himself oppose family to civic life.
 above locate each passage. If a page is wanted, the scanned page images are in the same archive.org item.
 
 **The 1957 English translation** (Loomis) is in copyright; no free copy. It is not needed to support the
-citation. Request it only if the book is to quote him in English from a published translation.
+citation. **Requested 2026-11-26 on the author's instruction:** a session's own translation is for checking
+only; the book relies on a published English translation.
 
 ---
 
