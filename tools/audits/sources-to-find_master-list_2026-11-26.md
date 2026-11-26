@@ -122,7 +122,9 @@ Cano-Urbina, Clapp and Willardsen (2019), *Journal of Housing Economics* 43: 131
 **Standing instruction (author, 2026-11-26):** when a session cannot reach a source after trying, it places a
 library request for it through the same form and logs it here.
 
-**Total on order: 20 articles, 1 book chapter, 22 books.**
+**Added from the reconciliation, 2026-11-26 (eight):** Arrow and Fisher (1974), *Quarterly Journal of Economics* 88(2): 312–319; Henry (1974), *American Economic Review* 64(6): 1006–1012; Fraser, "Behind Marx's Hidden Abode," *New Left Review* 86 (2014): 55–72; Bullard, *Dumping in Dixie* (1990); Dixit and Pindyck, *Investment under Uncertainty* (1994); Hacker, *The Great Risk Shift* (2006); Martínez-Alier, *The Environmentalism of the Poor* (2002); Kapp, *The Social Costs of Private Enterprise* (1950).
+
+**Total on order: 23 articles, 1 book chapter, 27 books.** The work-by-work check is `sources-reconciliation_ch1-ch5-ta_2026-11-26.md`.
 
 ---
 
