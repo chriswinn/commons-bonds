@@ -25,3 +25,8 @@ session's own translation carries a risk, so:
   through the library, and quote or paraphrase from that, naming the translator and edition.
 - His words: "We should probably request English translations as anything that is based on a translation runs
   a risk I had not thought of."
+- **Clarified by him the same day:** the risk is in "any citation that is based on a translation that you or I
+  did vs. the author / publisher approved." So the rule covers his own translations as well as a session's.
+  No citation, quotation or paraphrase in the book may rest on a translation made by him or by a session. It
+  rests on a translation the author or publisher approved, with translator and edition named. Quoting a work
+  in its original language is not affected.
