@@ -1260,3 +1260,38 @@ has now been read whole.** Print page numbers still owed.
 | Framework governance (TA §12; Def 1.10) | Who watches the fund | **Parallel** | An elected board of those owed, a civil-service bureau, audit by the accountability office, monitoring by recipients. |
 
 **L1, chapter 13: nothing more needed.**
+
+## Darity and Mullen, *From Here to Equality*, 2nd ed., Introduction: the definition and the restitution passage as full screens, 2026-11-26
+
+**What arrived.** Six Kindle screenshots (IMG_8006–8010, 8012), continuous: the definition of reparations, then
+acknowledgment, redress (restitution and atonement), closure, and the start of the chapter-by-chapter outline.
+Full screens; quotable. No page numbers (the index puts this at about print p. 3). Quotations here are kept
+short on purpose; the screenshots are the record.
+
+| Their words (short extracts) | Bears on |
+|---|---|
+| "Reparations are a program of acknowledgment, redress, and closure for a grievous injustice." | TA §5.1.1; Ch 5: the definition, **confirmed in full on the page** |
+| Acknowledgment "requires those who benefited… to recognize the advantages they gained and commit themselves to the cause of redress." | the framework's gain-and-cost pairing |
+| "Redress potentially can take two forms, not necessarily mutually exclusive: *restitution* or *atonement*." | TA front table; §5.1.1 |
+| "Restitution is the restoration of survivors to their condition before the injustice occurred or to a condition they might have attained had the injustice not taken place." | the name; running-list A10 |
+| It is impossible to restore the enslaved themselves; "it is possible to move their descendants toward a more equitable position commensurate with the status they would have attained in the absence of the injustice(s)." | carrying harm forward (V4); the counterfactual |
+| "That is why, in our proposal, we treat restitution as the appropriate form of redress. We have clear metrics for determining when restitution has been achieved that we do not have for establishing the same for atonement." | the name; why a measurable instrument |
+| Restitution "would eliminate racial disparities in wealth, income, education, health, sentencing and incarceration, political participation…" | V1: health is inside restitution's scope, though the bill is set by wealth |
+| Closure: once the program is carried out, "African Americans would make no further claims for race-specific policies… on the assumption that no new race-specific injustices are inflicted upon them." | when a restitution debt is discharged |
+| Outline of chapter 3: justice must identify "not only the perpetrators of racial harm but also those who gained from the harm—whether or not they inflicted it." | the framework's beneficiary, not only the wrongdoer |
+| Outline of chapter 2: wealth "is the most powerful indicator of the intergenerational effects of white supremacy on black economic well-being." | V1 |
+
+**What this settles.**
+1. **The definition is theirs, word for word, in the Introduction** (TA §5.1.1's quotation stands; only the
+   print page is owed).
+2. **V2 is settled in the book's favour.** The front table's "restitution as the act of redress," credited to
+   the 2020 book, is supportable from the book: restitution is one of two forms of redress and the one they
+   adopt. The exact phrase "Redress is the act of restitution" is still only in the 2024 essay; quote the book
+   for the book.
+3. **A10 is settled.** Their definition matches the UN's first half (restore the prior condition) and adds a
+   second: "or to a condition they might have attained." That second half is what makes a money measure
+   possible, and it is the footing the name needs. Cut the appendix's sentence about restitution "in law."
+4. **Two new supports for the framework's own design:** restitution is chosen because it has "clear metrics";
+   and the party named is whoever "gained from the harm—whether or not they inflicted it."
+
+**L1 is complete except for print page numbers.**
