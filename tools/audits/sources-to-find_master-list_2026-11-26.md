@@ -240,6 +240,7 @@ Bergson (1938); Esping-Andersen (1990); Hong and Page (2004); Mosteller and Tuke
 
 ## Changes log
 
+- **2026-11-26.** Tönnies read in the German first edition (free) and translated; author's instruction recorded: where no free English copy exists, look for a free copy in another language a session can read.
 - **2026-11-26.** 27 more requests; free copies, first batch; Part B, third batch (eight pins read, five leads by search).
 - **2026-11-26.** 30 more requests (later chapters; the appendix's unread references); 21 single-mention books held.
 - **2026-11-26.** Part B, second batch: thirteen pins read (extracts §18–§29): Fanning and Hickel; CARICOM; pay-as-you-go; TARP; healthcare prices; Solomon; EPA's value of life; Isle de Jean Charles; Norway's tax; combustion factors; Appalachian Voices; the WTO case.

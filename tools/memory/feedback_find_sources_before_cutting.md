@@ -16,3 +16,7 @@ impact, strength & value of this book at the cost of simply finding a source."
 `tools/audits/sources-to-find_master-list_2026-11-26.md`). A cut may still be the right ruling when a source
 contradicts the sentence or the search is exhausted; say which of the two it is. *(The "how to apply" lines are
 the session's reading.)*
+
+**Added 2026-11-26 (author).** "No free English copy" is not the end of the search. If a free copy exists in
+another language a session can read (the original of a translated work especially), fetch that, quote the
+original, and give the session's own translation marked as such.

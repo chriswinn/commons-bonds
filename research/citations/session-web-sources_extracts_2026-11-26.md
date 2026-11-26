@@ -433,3 +433,37 @@ record; "balances never caught up"; Norway against the United States; "designed 
 and cleanup total; "largest environmental criminal prosecution"; the capture and space tables; the state
 statutes; the four other restitution precedents; ranked-choice dates; the Casualty Actuarial Society; Chetty;
 Whyte; GAO-17-207R, GAO-18-305, GAO-20-21; McDowell's surface-mined acreage; the 141 per 100,000.
+
+---
+
+## Tönnies, *Gemeinschaft und Gesellschaft* (1887): the German first edition, read and translated 2026-11-26
+
+Ferdinand Tönnies, *Gemeinschaft und Gesellschaft: Abhandlung des Communismus und des Socialismus als
+empirischer Culturformen* (Leipzig: Fues's Verlag (R. Reisland), 1887). Out of copyright. Read from the
+Internet Archive's scan of the first edition (identifier `gemeinschaftund00tngoog`; text file fingerprint
+`e52c7182c95b330d`). The scan's text is machine-read; the German below is corrected by eye for obvious
+scanning errors (for example "Gtebrauche" for "Gebrauche"). **Translations are the session's own**, made for
+checking the citation; they are not from the 1957 English edition and should not be printed as if they were.
+
+| German (first edition) | Translation (the session's) | Where |
+|---|---|---|
+| "Das Verhältniss selber, und also die Verbindung wird entweder als reales und organisches Leben begriffen — dies ist das Wesen der Gemeinschaft, oder als ideelle und mechanische Bildung — dies ist der Begriff der Gesellschaft." | "The relationship itself, and so the bond, is understood either as real and organic life, which is the essence of community, or as an ideal and mechanical construction, which is the concept of society." | Book I, §1 |
+| "Gemeinschaft ist das dauernde und echte Zusammenleben, Gesellschaft nur ein vorübergehendes und scheinbares." | "Community is lasting and genuine life together; society is only a passing and apparent one." | Book I, §1 |
+| In society people live "nicht wesentlich verbunden, sondern wesentlich getrennt… während dort verbunden bleibend trotz aller Trennungen, hier getrennt bleiben trotz aller Verbundenheiten." | People are "not essentially joined but essentially separate… there, they stay joined in spite of everything that separates them; here, they stay separate in spite of everything that joins them." | Book I, §19 |
+| Contents, Book I: "Gemeinschaft des Blutes — des Ortes — des Geistes. Verwandtschaft — Nachbarschaft — Freundschaft." | "Community of blood, of place, of mind. Kinship, neighbourhood, friendship." | table of contents, §6 |
+
+**What the appendix cites it for.** One mention, in the commons profiles, as lineage for the difference
+between the Kindred and Cohesion commons ("dense family ties + atomized civic life"): "Tönnies 1887
+*Gemeinschaft und Gesellschaft*."
+
+**Status: SUPPORTED, and it fits more closely than a bare lineage note suggests.** His three forms of
+community (kinship, neighbourhood, friendship) map onto the appendix's split between ties of family and ties
+of place and association. A caution: the appendix's example sets family ties against civic life, while his
+main contrast sets all three forms of community against market society. So he supports the distinction among
+kinds of bond; he does not himself oppose family to civic life.
+
+**Page numbers** in the 1887 edition are not marked reliably in the scan's text; the book and section numbers
+above locate each passage. If a page is wanted, the scanned page images are in the same archive.org item.
+
+**The 1957 English translation** (Loomis) is in copyright; no free copy. It is not needed to support the
+citation. Request it only if the book is to quote him in English from a published translation.
