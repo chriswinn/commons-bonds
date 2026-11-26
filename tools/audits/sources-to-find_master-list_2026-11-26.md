@@ -124,7 +124,36 @@ library request for it through the same form and logs it here.
 
 **Added from the reconciliation, 2026-11-26 (eight):** Arrow and Fisher (1974), *Quarterly Journal of Economics* 88(2): 312–319; Henry (1974), *American Economic Review* 64(6): 1006–1012; Fraser, "Behind Marx's Hidden Abode," *New Left Review* 86 (2014): 55–72; Bullard, *Dumping in Dixie* (1990); Dixit and Pindyck, *Investment under Uncertainty* (1994); Hacker, *The Great Risk Shift* (2006); Martínez-Alier, *The Environmentalism of the Poor* (2002); Kapp, *The Social Costs of Private Enterprise* (1950).
 
-**Total on order: 23 articles, 1 book chapter, 27 books.** The work-by-work check is `sources-reconciliation_ch1-ch5-ta_2026-11-26.md`.
+**Requested for Chapters 4 and 6–10, 2026-11-26 (author: "request them"):** *Africa's Odious Debts*; *The Hidden
+Wealth of Nations*; *Governing the Commons*; *Black Skin, White Masks*; *Invisible Man*; *A Perfect Moral
+Storm*; *Anarchy, State, and Utopia*; *Rentier Capitalism*; *The Price Is Wrong* (whole book); *Kicking Away
+the Ladder*; *The Logic of Collective Action*; *The Myth of Sisyphus*; Coase (1960); Wittenberg, Santarius and
+Kulcinski (1986). **Not requested:** Sima Qian, *Records of the Grand Historian* (translation and volume
+unknown).
+
+**Requested from the appendix's unread references, 2026-11-26.** Books cited more than once and not freely
+available: Chris Anderson, *The Long Tail*; Elizabeth Anderson, *Private Government*; Brown Weiss, *In
+Fairness to Future Generations*; Coulthard, *Red Skin, White Masks*; Desmond, *Evicted*; Hess and Ostrom,
+*Understanding Knowledge as a Commons*; Hyman, *Debtor Nation*; Rothstein, *The Color of Law*; Sugrue, *The
+Origins of the Urban Crisis*; Taylor, *Race for Profit*; Wolfe, *Settler Colonialism and the Transformation of
+Anthropology*. Articles with no open copy: Akerlof (1970); Brennan and Schwartz (1985); Mandelbrot (1963);
+Mann (1984); Stigler (1971).
+
+**Held, for the author's word (21 books mentioned once each in the appendix):** Acemoglu and Robinson;
+Coleman; Crawford; Daily; Embrechts et al.; Federici; Folland; Fricker; Jacobs; Klinenberg; Mazzucato; O'Neil;
+Patel and Moore; Reilly; Royden; Stiglitz; Taleb; Tilly; Tirole; Tuan; Weston. Reason: the count of physical
+books on order is already 50.
+
+**Free, for a session to read (no request):** Pigou (1920), Marshall (1890), Mill (1859), Knight (1921),
+Tönnies (1887) and Kant (1785), all out of copyright; the Stern Review; Rennert et al. (2022); Rockström et
+al. (2009); Steffen et al. (2015); Schulte (2017); Woods et al.; Kenworthy and Igra (2022); Lempert et al.
+(RAND); the Brundtland report; Basel III; EPA (2023); NIOSH (1997); Tuck and Yang (2012); Coates (2014).
+Copies of in-copyright books posted to archive.org by individuals are not used.
+
+**Listed in §18 and cited nowhere in the appendix's text (no request; candidates to drop):** Atkinson (1970);
+Bergson (1938); Esping-Andersen (1990); Hong and Page (2004); Mosteller and Tukey (1977).
+
+**Total on order: 30 articles, 1 book chapter, 50 books (81 requests).** The work-by-work check is `sources-reconciliation_ch1-ch5-ta_2026-11-26.md`.
 
 ---
 
@@ -207,6 +236,7 @@ library request for it through the same form and logs it here.
 
 ## Changes log
 
+- **2026-11-26.** 30 more requests (later chapters; the appendix's unread references); 21 single-mention books held.
 - **2026-11-26.** Part B, second batch: thirteen pins read (extracts §18–§29): Fanning and Hickel; CARICOM; pay-as-you-go; TARP; healthcare prices; Solomon; EPA's value of life; Isle de Jean Charles; Norway's tax; combustion factors; Appalachian Voices; the WTO case.
 - **2026-11-26.** 22 books and 8 more articles requested (A5); Klinger read.
 - **2026-11-26.** Part B, first batch: the Grace indictment, *Umbrellas*, Realmonte, Archer, Pericak, Hamilton read; five papers and Klinger's book to retry.
