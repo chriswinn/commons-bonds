@@ -169,17 +169,20 @@ author's words as he reported them:
 |---|---|---|
 | "He started there when the agency was still called NACA, stayed through the change to NASA in 1958" | **SUPPORTED** on his father's firm recollection | No year is claimed, and none is known. |
 | "He was a model maker in the wind tunnels." (and the accepted addition, "a title he was proud of") | **SUPPORTED** | "Wind tunnel model maker" was his title; it later changed to something like "Engineering Technician" with the same work. The chapter need not mention the later title. |
-| "Pooh spent his entire working life at NASA's Langley Research Center" | **CONTRADICTED** | He served in the military first, working on aircraft on the flight line, and that work qualified him for the NACA job. |
+| "Pooh spent his entire working life at NASA's Langley Research Center" | **CONTRADICTED** | He served first with the Army's air arm (see the correction below), checking aircraft on the flight line, and that work qualified him for the NACA job. |
 | "and retired not long before he died" | **Still unsupported** | Neither year is recalled. The project's two death years (before 1985; 1987) remain unreconciled. The clause now rests only on the author's own memory, if he has one. |
 
-**A caution on "Air Force."** NACA became NASA in 1958 and the Air Force became a separate branch in 1947.
-If his service was before 1947 it was in the Army Air Forces. His father said "the airforce branch of the
-military"; unless the years are known, the safe wording does not name the branch.
+**Corrected by his father the same day (2026-11-26), as the author relayed it:** "He just recalled his father
+was in the Army Air, as the Airforce was not yet an established branch." So the service was with the Army's
+air arm, before the Air Force became a separate branch in 1947. That arm was the Army Air Corps until 1941
+and the Army Air Forces from 1941 to 1947; his father said "Army Air" and did not say which, and no years are
+known. **Safe wording names neither exactly:** "in the Army's air service" or "with the Army's air arm," or
+simply "in the Army, checking aircraft on the flight line." "Air Force" would be wrong.
 
 **Options for the author's ruling** (each uses only what his father said):
 
 - For "entire working life": (a) the smallest change, "Pooh spent nearly his entire working life at NASA's
-  Langley Research Center…"; or (b) say it: "Before Langley he served in the military, checking aircraft on
+  Langley Research Center…"; or (b) say it: "Before Langley he served with the Army's air arm, checking aircraft on
   the flight line, and that work got him the job. He spent the rest of his working life at…". Option (b) adds
   a true detail that fits the chapter's theme of skill carried from one shop to the next; the wording is his
   to set.
