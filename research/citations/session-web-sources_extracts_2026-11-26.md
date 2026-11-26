@@ -540,7 +540,7 @@ Successful," European Commission, Economic Papers 360 (February 2009), full PDF.
 | The draft says (pace, line 126) | The paper's words (short) | Status |
 |---|---|---|
 | "In the autumn of 1992… the government guaranteed that their depositors and lenders would be paid" | "the Swedish blanket guarantee of September 1992"; purpose: "households, enterprises and other holders of claims can feel secure" | **SUPPORTED** |
-| "It did not guarantee the shareholders" | the paper lists "bail-outs of shareholders" among what the policy avoided (to quote at the page before use) | **SUPPORTED in substance; pin the sentence** |
+| "It did not guarantee the shareholders" | "the aim was to save the banks – not the owners of the banks"; "avoiding bail-outs of shareholders" | **SUPPORTED** |
 | "The state took over two of the largest banks, Nordbanken and Gota" | "two major insolvent banks, Nordbanken and Gotabanken"; their deposits were "roughly 20 per cent of all deposits"; Nordbanken, "previously a government-owned bank that was partially privatized (25 per cent)… was re-nationalized" | **REWORD:** Nordbanken was already three-quarters state-owned. "Two of the largest" is not the paper's wording |
 | Bad loans moved to Securum and Retriva | "Securum for Nordbanken and Retriva for Gotabanken, were set up to manage the bad debt" | **SUPPORTED** |
 | "sold the loans off over the next few years and returned what was left to the treasury" | "In the long run, about 10–15 years… the fiscal cost… was roughly balanced by the revenues received through the liquidation" | **REWORD the timing** (10 to 15 years in this source) |

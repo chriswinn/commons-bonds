@@ -167,6 +167,15 @@ the appendix's checked claims; second: Ch 2, 4, 3, 10; third: Ch 6–9; fourth: 
 **Count check:** this log names 126 distinct requests (86 books, 39 articles, 1 book chapter), not 127; the earlier
 article count of 40 looks one too high. No receipts exist to settle it.
 
+**Owed, not yet placed (2026-11-26, second session; the form did not reach the session).** Twelve requests:
+from the reconciliation's hand check (its Part 5), books: Benjamin, *Race After Technology* (2019); Du Bois,
+*Black Reconstruction in America* (1935); Habermas, *Theory of Communicative Action* (1981); Hickel, *Less Is
+More* (2020); Nordhaus and Boyer, *Warming the World* (2000); North, *Institutions, Institutional Change and
+Economic Performance* (1990); Putnam, *Bowling Alone* (2000); articles: Cobb and Douglas (1928); Costanza et
+al. (1997), *Nature* 387: 253–260; Costanza et al. (2014), if no open copy; Viscusi (1993), *Journal of
+Economic Literature* 31(4): 1912–1946. From Chapter 2's fact table: Theodore H. White, *The Making of the
+President 1960*, a candidate source for Kennedy in McDowell County (needs the author's word).
+
 **Free copies:** ten downloaded and checked; ten blocked and listed for the author to try (`research/citations/session-web-sources_extracts_2026-11-26.md`, "Free copies"). The work-by-work check is `sources-reconciliation_ch1-ch5-ta_2026-11-26.md`.
 
 ---
@@ -250,6 +259,7 @@ article count of 40 looks one too high. No receipts exist to settle it.
 
 ## Changes log
 
+- **2026-11-26.** Second session: printable request list; free harvest items, first batch; Chapter 2 pinned fact table started; the reconciliation's "read" column checked (17 false matches; 12 requests owed).
 - **2026-11-26.** Part B closed out (four batches); chapter harvest written; 17 more requests.
 - **2026-11-26.** Tönnies read in the German first edition (free) and translated; author's instruction recorded: where no free English copy exists, look for a free copy in another language a session can read.
 - **2026-11-26.** 27 more requests; free copies, first batch; Part B, third batch (eight pins read, five leads by search).
