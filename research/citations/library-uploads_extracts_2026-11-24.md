@@ -1641,3 +1641,68 @@ life expectancy rose more than five years nationally and about one year in McDow
 drafts, and behind the phrase "a legacy quantity of the same kind." It needs the author's ruling, a ledger
 row and a gate pattern. Either use 8.8 years (both sexes, 2014, this source) or keep 13 years **for men** only
 after the earlier study is read and named.
+
+## Six more author downloads, 2026-11-27: Wang, the full Stern Review, and the three *PNAS* papers
+
+All are the items asked for (the *Science* file is a second copy of Steffen et al., already read). Short
+extracts; the PDFs are the record.
+
+### Wang, Schumacher, Levitz, Mokdad and Murray (2013), "Left behind: widening disparities for males and females in US county life expectancy, 1985–2010," *Population Health Metrics* 11:8 (15 pp.; open access; `a1e16ea0a92ab8b1`)
+
+- "For males, Fairfax County, VA had the highest life expectancy of 81.7 years… while in McDowell County, WV it
+  was 63.9 years (62.0, 65.6), a gap of 17.8 years."
+- The table of lowest counties, 2010: **males, rank 1 (lowest in the country): McDowell, West Virginia, 63.90
+  (62.04–65.61).** Females: McDowell is second lowest, 72.90 (71.37–74.29).
+- National, 2010: "male life expectancy increased from 71.0 years in 1985 to 76.3 years in 2010"; female, 80.9.
+
+**This is where the 13-year gap comes from (running-list N1), and it now has a page.** For **men**, in
+**2010**: 76.3 less 63.9 is **12.4 years**. The project's record had "about 63.5 against 76.5" and the wrong
+study; the true figures are 63.9 and 76.3, from this one.
+
+| Wording | Status |
+|---|---|
+| "a 13-year gap in life expectancy against the national average" | **SAYS MORE THAN THE SOURCE.** It is men only, 2010, and 12.4 years. |
+| "In 2010 a man in McDowell County could expect to live 63.9 years, the lowest of any county in the United States and more than twelve years short of the national figure for men" | **SUPPORTED** (Wang et al. 2013) |
+| "In 2014 life expectancy in McDowell was 70.3 years, almost nine years below the country's" | **SUPPORTED** (the institute's 2017 release; both sexes) |
+| for women, 2010: 72.9 against 80.9, eight years | **SUPPORTED** (Wang et al. 2013) |
+
+The two studies use different methods and years; do not subtract across them. Pick one and name it.
+
+### The Stern Review, complete (HM Treasury, 2006; Cambridge University Press, 2007; 662-page PDF; `dbf6209787b50555`)
+
+- Annex to chapter 2, Table 2A.1 (the PDF's p. 46): the pure rate of time preference is set by the chance
+  humanity does not survive; "δ = 0.1" per cent gives a probability of surviving 100 years of 0.905. The same
+  annex writes the discount rate as ρ = ηg + δ, with "η = 1" giving logarithmic utility.
+- Summary: not acting costs "at least 5% of global GDP each year, now and forever," rising to "20% of GDP or
+  more."
+
+**Bears on TA §14.3, §16.1** ("Stern's low constant rate (about 1.4%)"): the Review itself sets δ at 0.1
+percent and η at 1; the 1.4 percent is the rate those imply at its growth assumption, and the figure as such
+is Nordhaus's (2007, read earlier: "an equilibrium real interest rate of 1.4 percent"). **SUPPORTED, with the
+credit split:** the parameters to Stern (chapter 2, annex), the 1.4 to Nordhaus's reading of them. "Constant"
+is the appendix's word; Stern's rate depends on growth.
+
+### Solomon, Plattner, Knutti and Friedlingstein (2009), *PNAS* 106(6): 1704–1709 (`a918bce1c4864309`)
+
+- "the climate change that takes place due to increases in carbon dioxide concentration is largely
+  irreversible for 1,000 years after emissions stop."
+
+**Bears on TA §3.5** (irreversibility of fossil carbon): **SUPPORTED** as "largely irreversible for a thousand
+years." It gives no probability; with Archer et al. (2009) it is the citation the appendix lacks.
+
+### Lindberg et al. (2011), *PNAS* 108(52): 20929–20934 (`92cd30fa5ae2be55`)
+
+- Contaminants "increased at a rate directly proportional to the upstream areal extent of mining."
+- "mines reclaimed nearly two decades ago continue to contribute significantly to water quality degradation
+  within this watershed."
+
+**Bears on TA §6.2** ("Acid mine drainage eliminates aquatic food chains… for generations"): supports the
+report's replacement, "degrades streams for decades after mining ends." Note their term is **alkaline** mine
+drainage, so "acid" is wrong for mountaintop mining. Not "eliminates," and not "generations."
+
+### Lenton et al. (2008), *PNAS* 105(6): 1786–1793 (`12752e9d0f19bfb8`)
+
+- "The term 'tipping point' commonly refers to a critical threshold at which a tiny perturbation can
+  qualitatively alter the state or development of a system. Here we introduce the term 'tipping element.'"
+
+**Bears on TA Theorem 10.3** (tipping-point dynamics as lineage): **SUPPORTED.**
