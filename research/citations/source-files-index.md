@@ -71,6 +71,10 @@ reviewer needs in order to check a claim is the citation, the page and the words
 | `GAO-17-207R_Financial-assurances-reclamation.pdf` | GAO-17-207R (December 16, 2016); a public document | 2026-11-27, downloaded by the author | `gao-17-207r.pdf` | `3024829ed9ee794c` | `library-uploads_extracts_2026-11-24.md` |
 | `GAO-18-305_Coal-mine-reclamation.pdf` | GAO-18-305 (March 2018); a public document | 2026-11-27, downloaded by the author | `gao-18-305.pdf` | `0fcd7c1815bd7e9a` | `library-uploads_extracts_2026-11-24.md` |
 | `Mill_1859_On-Liberty_2nd-ed.pdf` | Mill, *On Liberty*, 2nd ed. (London: John W. Parker and Son, 1859); out of copyright | 2026-11-27, downloaded by the author | `On_Liberty.pdf` | `d7e8c1b9f898ac03` | `library-uploads_extracts_2026-11-24.md` |
+| `Dwyer-Lindgren-et-al_2017_JAMA-IM_supplement.pdf` | Supplementary Online Content to Dwyer-Lindgren et al. (2017) | 2026-11-27, downloaded by the author | `ioi170020supp1_prod.pdf` | `a1c4cd21e3544ae0` | `library-uploads_extracts_2026-11-24.md` |
+| `Mian-Rao-Sufi_2013_Household-Balance-Sheets_wp.pdf` | Mian, Rao and Sufi, working paper (February 2013); published *QJE* 128(4) (2013): 1687–1726 | 2026-11-27, downloaded by the author | `con_040504.pdf` | `9630383959188b1d` | `library-uploads_extracts_2026-11-24.md` |
+| `Steffen-et-al_2015_Science_Planetary-boundaries.pdf` | Steffen et al., *Science* 347(6223) (2015): 1259855 | 2026-11-27, downloaded by the author | `science.1259855.pdf` | `e118ae48f3c9c6dd` | `library-uploads_extracts_2026-11-24.md` |
+| `Giglio-Maggiori-Stroebel_2014_NBER-w20133_Very-Long-Run-Discount-Rates.pdf` | NBER Working Paper 20133 (2014); published *QJE* 130(1) (2015): 1–53 | 2026-11-27, fetched by the session from nber.org | `w20133.pdf` | `8b3187878b36a17f` | `library-uploads_extracts_2026-11-24.md` |
 
 **Earlier files of the same kind, for completeness:** Butler (2010), the author's printout in Drive ("Readings
 2"); the CBO household-income tables (2026-11-24, Chapter 1 session). Add rows when their fingerprints are taken.

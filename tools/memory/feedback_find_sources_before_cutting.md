@@ -30,3 +30,10 @@ session's own translation carries a risk, so:
   No citation, quotation or paraphrase in the book may rest on a translation made by him or by a session. It
   rests on a translation the author or publisher approved, with translator and edition named. Quoting a work
   in its original language is not affected.
+
+- **Refined by him 2026-11-27.** His concern is an argument resting on a translation error that he or a
+  session made. A **published** translation by a named translator from a reputable press meets it, and where
+  such a translation is out of copyright and free, fetch that first (Kant in T. K. Abbott's translation,
+  Longmans, is the example). The citation must then name the translation actually used. A library request for
+  a modern edition is still worth making when the book will quote the work or when reviewers will expect the
+  standard scholarly edition.

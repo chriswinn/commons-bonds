@@ -1531,3 +1531,72 @@ finding that part of it is a company's own promise. **SUPPORTED and now at the p
 **Bears on the commons profiles** (lineage for the Autonomy commons: "Mill 1859 *On Liberty*"): **SUPPORTED.**
 Written in English, so no translation question. The scan is of the **second** edition, also 1859; the
 appendix's entry names the same publisher and year and does not say which edition.
+
+## Three more author downloads, 2026-11-27, and two works the session fetched the same day
+
+### Supplement to Dwyer-Lindgren et al. (2017) (23 pp.; `a1c4cd21e3544ae0`)
+
+Seven tables (how counties were combined; data sources; regression models) and nine figures (maps of the risk
+of death by age band). **It has no table of life expectancy by county and does not name McDowell.**
+
+**The 13-year gap (running-list N1) is still without a page.** The article and its supplement are now both
+ruled out. What is left is the institute's own data release, "United States Life Expectancy and Age-specific
+Mortality Risk by County 1980–2014" (Institute for Health Metrics and Evaluation, Global Health Data
+Exchange), a spreadsheet, or its county-profile page for McDowell. That release reports both sexes; the
+"63.5 for men" in the project's record may come from an earlier release by sex. Until one of them is opened,
+write no number.
+
+### Mian, Rao and Sufi, "Household Balance Sheets, Consumption, and the Economic Slump" (working paper, February 2013; 60 pp.; `9630383959188b1d`)
+
+The version later published in the *Quarterly Journal of Economics* 128(4) (2013): 1687–1726. Page numbers
+below would be the working paper's; cite the journal version for print.
+
+- "an average marginal propensity to consume (MPC) of 5 to 7 cents for every dollar loss in housing wealth.
+  However, the MPC is sharply higher for poorer and more levered households."
+- "households with annual income less than $35 thousand have an MPC that is three times as large as the MPC
+  for households with more than $200 thousand in income."
+- "households in the 90th percentile of the leverage distribution have an MPC that is twice as high as
+  households in the 10th percentile."
+
+**Bears on Ch 5 line 88** ("For each dollar of housing wealth lost, the households with the least wealth cut
+their spending by about three times as much as the households with the most"): **SUPPORTED on "three times,"
+with two corrections.** The comparison is by **income** (under $35,000 against over $200,000), not by wealth;
+by leverage the ratio is two. And the source is this paper by **Mian, Rao and Sufi**, not *House of Debt*
+alone, which the sentence credits ("Mian and Sufi also show").
+
+### Steffen et al. (2015), "Planetary boundaries: Guiding human development on a changing planet," *Science* 347(6223): 1259855 (12 pp.; `e118ae48f3c9c6dd`)
+
+- "Anthropogenic perturbation levels of four of the ES processes/features (climate change, biosphere integrity,
+  biogeochemical flows, and land-system change) exceed the proposed PB."
+- "Two core boundaries—climate change and biosphere integrity—have been identified."
+
+**Bears on the commons profiles (lineage):** **SUPPORTED.**
+
+### Kant in English, out of copyright (fetched by the session at the author's suggestion)
+
+Immanuel Kant, *Fundamental Principles of the Metaphysic of Ethics*, translated by Thomas Kingsmill Abbott
+(London: Longmans, Green, and Co.; first edition 1873; this printing about 1920). Internet Archive identifier
+`fundamentalprinc00kant_0`; text file `4b5daf65deada9cf`. Abbott's is the standard nineteenth-century English
+translation, by a named scholar from a major press. The scan's text is machine-read and rough in places; read
+the page images before quoting.
+
+**Bears on the commons profiles** ("Kant 1785 *Groundwork of the Metaphysics of Morals*," lineage for the
+Autonomy commons): the work treats the autonomy of the will at length, so the lineage citation is
+**SUPPORTED.** The appendix's reference entry names the 2012 Cambridge translation (Gregor and Timmermann),
+which is on order. Whichever is cited, the entry must name the translation actually used; Abbott's title is
+*Metaphysic of Ethics*, not *Metaphysics of Morals*.
+
+### Giglio, Maggiori and Stroebel, "Very Long-Run Discount Rates" (NBER Working Paper 20133, 2014; fetched by the session; `8b3187878b36a17f`)
+
+Later published in the *Quarterly Journal of Economics* 130(1) (2015): 1–53. Abstract read; the body searched.
+
+- "100-year leaseholds are valued at more than 10% less than otherwise identical freeholds, implying discount
+  rates below 2.6% for 100-year claims. Given the riskiness of rents, this suggests that both long-run
+  risk-free discount rates and long-run risk premia are low. We show how the estimated very long-run discount
+  rates are informative for climate change policy."
+- Their model "requires a downward sloping term structure of discount rates."
+
+**Bears on TA Def 1.5, §14.3, §16.1** (the declining discount rate). Not cited anywhere in the book at
+present. It is market evidence, from several million property sales, that people already price payments a
+century away at low rates, and that the rate falls with the horizon. See the session's recommendation to the
+author in the conversation of 2026-11-27; whether to add it is his ruling.
