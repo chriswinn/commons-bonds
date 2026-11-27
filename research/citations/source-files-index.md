@@ -81,6 +81,7 @@ reviewer needs in order to check a claim is the citation, the page and the words
 | `Solomon-et-al_2009_PNAS_Irreversible-climate-change.pdf` | Solomon et al., *PNAS* 106(6) (2009): 1704–1709 | 2026-11-27, downloaded by the author | `solomon-et-al-2009-…pdf` | `a918bce1c4864309` | `library-uploads_extracts_2026-11-24.md` |
 | `Lindberg-et-al_2011_PNAS_Mountaintop-mining-watershed.pdf` | Lindberg et al., *PNAS* 108(52) (2011): 20929–20934 | 2026-11-27, downloaded by the author | `lindberg-et-al-2011-…pdf` | `92cd30fa5ae2be55` | `library-uploads_extracts_2026-11-24.md` |
 | `Lenton-et-al_2008_PNAS_Tipping-elements.pdf` | Lenton et al., *PNAS* 105(6) (2008): 1786–1793 | 2026-11-27, downloaded by the author | `lenton-et-al-2008-…pdf` | `12752e9d0f19bfb8` | `library-uploads_extracts_2026-11-24.md` |
+| `Costanza-et-al_2014_GEC_submitted-version.pdf` | Costanza et al., "Changes in the global value of ecosystem services," authors' submitted manuscript; published *Global Environmental Change* 26 (2014): 152–158 | 2026-11-27, fetched by the session from discovery.ucl.ac.uk/10189453/ (open repository copy) | `Costanza_Changes in global ES value GEC Prepub.pdf` | `62afc997030657bf` | not yet extracted |
 
 **Earlier files of the same kind, for completeness:** Butler (2010), the author's printout in Drive ("Readings
 2"); the CBO household-income tables (2026-11-24, Chapter 1 session). Add rows when their fingerprints are taken.

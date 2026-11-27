@@ -172,14 +172,27 @@ entries: about 41 read at a passage, 80 requested, 139 neither. Tentative list, 
 requested, 103 neither. About 30 requested works have no entry on either list yet and are owed to the
 tentative list under the source-tracking rule. A machine count; see the file's caveat.
 
-**Owed, not yet placed (2026-11-26, second session; the form did not reach the session).** Twelve requests:
-from the reconciliation's hand check (its Part 5), books: Benjamin, *Race After Technology* (2019); Du Bois,
-*Black Reconstruction in America* (1935); Habermas, *Theory of Communicative Action* (1981); Hickel, *Less Is
-More* (2020); Nordhaus and Boyer, *Warming the World* (2000); North, *Institutions, Institutional Change and
-Economic Performance* (1990); Putnam, *Bowling Alone* (2000); articles: Cobb and Douglas (1928); Costanza et
-al. (1997), *Nature* 387: 253–260; Costanza et al. (2014), if no open copy; Viscusi (1993), *Journal of
-Economic Literature* 31(4): 1912–1946. From Chapter 2's fact table: Theodore H. White, *The Making of the
-President 1960*, a candidate source for Kennedy in McDowell County (needs the author's word).
+**Placed 2026-11-27 (the twelve owed from the second session; the author attached his form and gave his word).**
+Eleven requests went through the library's form, each ending on the library's confirmation page ("Please allow
+up to 14 days"). Only that page was seen; receipts go to his school email. Hampton Campus pickup for the books.
+
+- Books (8): Benjamin, *Race After Technology* (Polity, 2019); Du Bois, *Black Reconstruction in America,
+  1860–1880* (1935; any reprint); Habermas, *The Theory of Communicative Action*, **volume 1 only** (trans.
+  Thomas McCarthy, Beacon Press, 1984: the appendix's entry names no volume and nothing in its text cites the
+  work, so volume 1 is the session's guess; volume 2, 1987, is not requested); Hickel, *Less Is More* (2020);
+  Nordhaus and Boyer, *Warming the World* (2000); North, *Institutions, Institutional Change and Economic
+  Performance* (1990); Putnam, *Bowling Alone* (2000); Theodore H. White, *The Making of the President 1960*
+  (Atheneum, 1961), the candidate source for Kennedy in McDowell County.
+- Articles (3): Cobb and Douglas, "A Theory of Production," *American Economic Review* 18(1), supplement
+  (1928): 139–165; Costanza et al., *Nature* 387 (1997): 253–260 (no open copy on record); Viscusi, *Journal
+  of Economic Literature* 31(4) (1993): 1912–1946.
+- **Not requested: Costanza et al. (2014).** The log said "if no open copy," and one exists: the authors'
+  submitted manuscript at University College London's repository
+  (`discovery.ucl.ac.uk/10189453/`, 17 pages), downloaded by the session 2026-11-27. It is the version before
+  the journal's typesetting, so it has no journal page numbers; the published pages (*Global Environmental
+  Change* 26: 152–158) are needed only if a page is cited. Not yet read against the appendix.
+
+The log now names 137 requests by sessions and the author together (126 + 11).
 
 **Free copies:** ten downloaded and checked; ten blocked and listed for the author to try (`research/citations/session-web-sources_extracts_2026-11-26.md`, "Free copies"). The work-by-work check is `sources-reconciliation_ch1-ch5-ta_2026-11-26.md`.
 
@@ -265,6 +278,7 @@ President 1960*, a candidate source for Kennedy in McDowell County (needs the au
 ## Changes log
 
 - **2026-11-26.** Second session: printable request list; free harvest items, first batch; Chapter 2 pinned fact table started; the reconciliation's "read" column checked (17 false matches; 12 requests owed).
+- **2026-11-27.** Eleven of the twelve owed requests placed; Costanza et al. (2014) found as an open copy instead.
 - **2026-11-26.** Part B closed out (four batches); chapter harvest written; 17 more requests.
 - **2026-11-26.** Tönnies read in the German first edition (free) and translated; author's instruction recorded: where no free English copy exists, look for a free copy in another language a session can read.
 - **2026-11-26.** 27 more requests; free copies, first batch; Part B, third batch (eight pins read, five leads by search).

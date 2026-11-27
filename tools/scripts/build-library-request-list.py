@@ -78,11 +78,23 @@ E = [
  ("B", "Samuelson, Paul A. <i>Foundations of Economic Analysis</i>. Harvard Univ. Press, 1947", TA, "", 1, "may be the wrong work"),
  ("B", "Savage, Leonard J. <i>The Foundations of Statistics</i>. Wiley, 1954", TA, "6", 1, ""),
  ("B", "Dixit, A. K., and R. S. Pindyck. <i>Investment under Uncertainty</i>. Princeton Univ. Press, 1994", TA, "", 1, ""),
+ # ---- Appendix, placed 2026-11-27 (owed from the reconciliation's hand check) ----
+ ("A", "Viscusi, W. Kip. “The Value of Risks to Life and Health.” <i>Journal of Economic Literature</i> 31, no. 4 (1993): 1912–1946", TA, "", 1, "placed 2026-11-27"),
+ ("A", "Cobb, Charles W., and Paul H. Douglas. “A Theory of Production.” <i>American Economic Review</i> 18, no. 1, supplement (1928): 139–165", TA, "", 4, "placed 2026-11-27"),
+ ("A", "Costanza, Robert, et al. “The Value of the World’s Ecosystem Services and Natural Capital.” <i>Nature</i> 387 (1997): 253–260. DOI 10.1038/387253a0", TA, "", 4, "placed 2026-11-27"),
+ ("B", "Benjamin, Ruha. <i>Race After Technology</i>. Polity, 2019", TA, "", 4, "placed 2026-11-27"),
+ ("B", "Du Bois, W. E. B. <i>Black Reconstruction in America, 1860–1880</i>. Harcourt, Brace, 1935", TA, "", 4, "placed 2026-11-27; any reprint"),
+ ("B", "Habermas, Jürgen. <i>The Theory of Communicative Action</i>, vol. 1. Translated by Thomas McCarthy. Beacon Press, 1984", TA, "", 4, "placed 2026-11-27; volume 1 only"),
+ ("B", "Hickel, Jason. <i>Less Is More</i>. William Heinemann, 2020", TA, "", 4, "placed 2026-11-27"),
+ ("B", "Nordhaus, William D., and Joseph Boyer. <i>Warming the World</i>. MIT Press, 2000", TA, "", 4, "placed 2026-11-27"),
+ ("B", "North, Douglass C. <i>Institutions, Institutional Change and Economic Performance</i>. Cambridge Univ. Press, 1990", TA, "", 4, "placed 2026-11-27"),
+ ("B", "Putnam, Robert D. <i>Bowling Alone</i>. Simon &amp; Schuster, 2000", TA, "", 4, "placed 2026-11-27"),
  # ---- Chapter 2 ----
  ("B", "Fishback, Price V. <i>Soft Coal, Hard Choices</i>. Oxford Univ. Press, 1992", "2", "", 2, ""),
  ("B", "Harvey, David. <i>The New Imperialism</i>. Oxford Univ. Press, 2003", "2", "3", 2, ""),
  ("B", "Derickson, Alan. <i>Black Lung: Anatomy of a Public Health Disaster</i>. Cornell Univ. Press, 1998", "2", "8", 2, ""),
  ("B", "Mazzucato, Mariana. <i>The Value of Everything</i>. Allen Lane, 2018", "2", "3, " + TA, 2, ""),
+ ("B", "White, Theodore H. <i>The Making of the President 1960</i>. Atheneum, 1961", "2", "", 2, "placed 2026-11-27"),
  # ---- Chapter 4 ----
  ("B", "Ndikumana, Léonce, and James K. Boyce. <i>Africa’s Odious Debts</i>. Zed Books, 2011", "4", "", 2, ""),
  ("B", "Zucman, Gabriel. <i>The Hidden Wealth of Nations</i>. Univ. of Chicago Press, 2015", "4", "", 2, ""),
@@ -239,7 +251,7 @@ def key(r):
 
 def footer(canvas, doc):
     canvas.setFont("S", 7.5)
-    canvas.drawString(0.6 * inch, 0.45 * inch, "Interlibrary loan requests placed 2026-11-26")
+    canvas.drawString(0.6 * inch, 0.45 * inch, "Interlibrary loan requests placed 2026-11-26 and 27")
     canvas.drawRightString(letter[0] - 0.6 * inch, 0.45 * inch, "Page %d" % doc.page)
 
 
