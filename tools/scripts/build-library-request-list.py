@@ -129,6 +129,7 @@ E = [
  ("B", "Nozick, Robert. <i>Anarchy, State, and Utopia</i>. Basic Books, 1974", "9", "", 3, ""),
  ("B", "Christophers, Brett. <i>Rentier Capitalism</i>. Verso, 2020", "9", "", 3, ""),
  ("B", "Christophers, Brett. <i>The Price Is Wrong</i>. Verso, 2024", "9", "5", 3, "whole book"),
+ ("B", "Christophers, Brett. <i>Our Lives in Their Portfolios</i>. Verso, 2023", "5", "9, 10", 1, "placed 2026-11-27"),
  ("B", "Chang, Ha-Joon. <i>Kicking Away the Ladder</i>. Anthem Press, 2002", "9", "", 3, ""),
  ("B", "Olson, Mancur. <i>The Logic of Collective Action</i>. Harvard Univ. Press, 1965", "9", TA, 3, ""),
  ("B", "Susskind, Daniel. <i>Growth: A Reckoning</i>. Harvard Univ. Press, 2024", "9", "", 3, ""),

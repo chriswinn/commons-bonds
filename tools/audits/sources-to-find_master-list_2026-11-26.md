@@ -192,7 +192,14 @@ up to 14 days"). Only that page was seen; receipts go to his school email. Hampt
   the journal's typesetting, so it has no journal page numbers; the published pages (*Global Environmental
   Change* 26: 152–158) are needed only if a page is cited. Not yet read against the appendix.
 
-The log now names 137 requests by sessions and the author together (126 + 11).
+**Also placed 2026-11-27, at the author's word during the decisions walk-through:** Christophers, *Our Lives in Their
+Portfolios: Why Asset Managers Own the World* (Verso, 2023), for Chapter 5 line 198 (running-list A6). Chosen from the
+publisher's descriptions of his four books as the closest to the chapter's "commons repackaged as an asset" worry;
+*Rentier Capitalism* and the whole of *The Price Is Wrong* were already requested (2026-11-26). When they arrive, read:
+the assets argument in the two rentier books; whether *The Price Is Wrong* uses Polanyi's "fictitious commodities"
+(a search summary the author found says so; unverified).
+
+The log now names 138 requests by sessions and the author together (126 + 12).
 
 **Free copies:** ten downloaded and checked; ten blocked and listed for the author to try (`research/citations/session-web-sources_extracts_2026-11-26.md`, "Free copies"). The work-by-work check is `sources-reconciliation_ch1-ch5-ta_2026-11-26.md`.
 
