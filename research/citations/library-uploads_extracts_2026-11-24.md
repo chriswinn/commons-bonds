@@ -1416,3 +1416,66 @@ Chapters 3 and 8 also name Coates; this file serves them when their fact tables 
 **Useful by accident:** the October 2014 digest summarises Giglio, Maggiori and Stroebel, who measure very
 long-run discount rates from property leases of 99 to 999 years. It bears on the appendix's discounting
 section (§14.3) if a market-based estimate is wanted; the paper itself would have to be read.
+
+## Five more files the author downloaded, 2026-11-26 (late): all five are the items asked for
+
+Short extracts; the PDFs are the record.
+
+### Dwyer-Lindgren et al. (2017), "Inequalities in Life Expectancy Among US Counties, 1980 to 2014," *JAMA Internal Medicine* 177(7): 1003–1011 (9 pp.; `ab51b21c47472ce8`)
+
+- "In 2014, life expectancy at birth for both sexes combined was 79.1… years overall, but differed by 20.1…
+  years between the counties with the lowest and highest life expectancy."
+- "counties along the lower half of the Mississippi and in eastern Kentucky and southwestern West Virginia
+  also had very low life expectancy."
+- The article reports **both sexes combined**. It does **not name McDowell County**, and it gives **no figures
+  for men**. County values are in its online supplement and the institute's data files.
+
+**Bears on the "13-year gap" (TA §5.5, §6.7, §11.1, §11.6; Ch 6 and Ch 8 drafts).** The project's record
+credits this paper with "male life expectancy about 63.5 against 76.5." **Those numbers are not in the
+article.** Status: **SOURCE DOES NOT CONTAIN THE FIGURE.** It supports only "southwestern West Virginia had
+very low life expectancy" and a national figure of 79.1 for both sexes. The 63.5 and 76.5 must come from the
+supplement, from the institute's county data, or from an earlier study of men by county; until that table is
+found, the 13-year gap has no page behind it. Next step: the supplement's county table (the author can
+download "Supplemental content" from the article's page), or the institute's county life-expectancy data.
+
+### Woods, Hargis, Hershner and Mason (2005), "Disappearance of the Natural Emergent 3-Dimensional Oyster Reef System of the James River, Virginia, 1871–1948," *Journal of Shellfish Research* 24(1): 139–142 (4 pp.; `02a0632e1acefbe5`)
+
+- "nearly all of the oyster reefs that were emergent in the James River in the 1870s had become completely
+  submerged by the 1940s… Only three small areas of reef remain emergent."
+- Abstract: "Paired t-tests indicate a significant decrease in reef height and volume but not in reef area."
+- Table 2 (twenty reefs): mean two-dimensional area 102,508 to 94,930 m²; mean volume 62,580 to 44,574 m³.
+
+**Bears on TA §11.12:** "the ~99% losses of emergent three-dimensional reef structure (Woods et al. 2005: ~30
+ac of vertical relief remain of >2,471 ac historical)." **SAYS MORE THAN THE SOURCE.** The paper has no
+acreage, no "30," no "2,471" and no percentage. It studies the James River only, to the 1940s, and finds
+height and volume fell while area did not. The acreage figures probably come from Schulte (2017) or another
+work citing this one; trace them there. Supported: "by the 1940s nearly all of the James River's emergent
+reefs were submerged."
+
+### NIOSH (1997), *Commercial Fishing Fatalities in Alaska: Risk Factors and Prevention Strategies*, Current Intelligence Bulletin 58 (35 pp.; `4775e020a46e95c1`)
+
+- Alaska's commercial fishing: "an occupational fatality rate of 140/100,000 workers/year, 20 times the
+  national average."
+- Alaska's overall work-related rate, 1980–1989: "34.8 deaths per 100,000 workers per year, nearly five times"
+  the national average (7.0).
+
+**Bears on TA Def 1.10** ("the danger of work such as commercial fishing is well documented"): **SUPPORTED.**
+
+### Basel Committee on Banking Supervision, *Basel III: Finalising post-crisis reforms* (December 2017) (162 pp.; `32afd37cade34f84`)
+
+- Searched in full. **The phrase "risk capital value" does not appear.** "Risk capital" appears fifteen
+  times, always in phrases such as "counterparty credit risk capital requirements."
+
+**Bears on TA Def 1.6** ("Risk Capital Value — banking-regulatory usage (Basel III + FDIC capital adequacy
+frameworks). Reference: Basel Committee… 2017"): **CONTRADICTED as cited.** The document the appendix names
+does not use the term. Either the collision with banking usage is dropped, or it is restated as "regulators
+speak of risk-based capital requirements," which is a different thing from a term called Risk Capital Value.
+This closes one of the twelve "no origin" items: the origin cited does not hold it.
+
+### Rockström et al. (2009), "Planetary Boundaries: Exploring the Safe Operating Space for Humanity," *Ecology and Society* 14(2): 32 (34 pp.; `e3d31319aac39291`)
+
+- "We estimate that humanity has already transgressed three planetary boundaries: for climate change, rate of
+  biodiversity loss, and changes to the global nitrogen cycle."
+
+**Bears on the commons profiles (lineage):** **SUPPORTED.** Note the appendix's §18 lists the short *Nature*
+version (461: 472–475); this is the long version. Cite whichever is read; the long one is now in hand.

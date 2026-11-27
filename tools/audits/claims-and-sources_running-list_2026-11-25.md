@@ -144,8 +144,17 @@ Ch 5 item 1 (Mexico; also TA §11.2, §14.8); item 2 (but see V1); the Sweden mo
 - Citation decisions log (`tools/back-matter/citation-decisions-log.md`): entries 001–005 and 008–018 open.
 - The correction note to Darity: held (see the rulings file).
 
+## Found 2026-11-26 (late), from the author's downloads: three new items
+
+| # | Passage | Finding | Next |
+|---|---|---|---|
+| N1 | **The 13-year gap** (TA §5.5, §6.7, §11.1, §11.6; Ch 6 and Ch 8 drafts) | Dwyer-Lindgren et al. (2017), the source the project credits, reports both sexes combined, does not name McDowell and gives no figures for men. The 63.5 and 76.5 are not in the article. | Find the county table (the article's supplement, or the institute's data). Until then the figure has no page behind it. |
+| N2 | **The reef's "~99% loss" and "~30 ac of… >2,471 ac"** (TA §11.12) | Not in Woods et al. (2005), which has no acreage and finds area did not fall significantly. | Trace the acreage in Schulte (2017), now downloaded. |
+| N3 | **"Risk Capital Value" as a banking term** (TA Def 1.6) | The Basel document the appendix cites never uses the phrase. | Drop the collision, or restate it without the term. |
+
 ## Changes log
 
+- **2026-11-26.** Five downloads read (Dwyer-Lindgren, Woods, NIOSH, Basel III, Rockström); N1–N3 added. Coates read earlier the same evening.
 - **2026-11-26.** Part B first batch: A4 and V5 updated from the Grace indictment and *Umbrellas*.
 - **2026-11-26.** Author's rule recorded (find before cutting); master find-list started.
 - **2026-11-26.** The Introduction's definition and restitution passage read; V2 and A10 settled by the page.
