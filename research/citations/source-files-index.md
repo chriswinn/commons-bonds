@@ -67,6 +67,10 @@ reviewer needs in order to check a claim is the citation, the page and the words
 | `NIOSH_1997_CIB58_Commercial-Fishing-Fatalities-Alaska.pdf` | NIOSH, Current Intelligence Bulletin 58 (1997); a public document | 2026-11-26, downloaded by the author | `cdc_38857_DS1.pdf` | `4775e020a46e95c1` | `library-uploads_extracts_2026-11-24.md` |
 | `BCBS_2017_Basel-III-Finalising-post-crisis-reforms.pdf` | Basel Committee on Banking Supervision (December 2017); a public document | 2026-11-26, downloaded by the author | `201712-standards-basel-iii-finalising-post-crisis-reforms.pdf` | `32afd37cade34f84` | `library-uploads_extracts_2026-11-24.md` |
 | `Rockstrom-et-al_2009_EandS_Planetary-Boundaries.pdf` | Rockström et al., *Ecology and Society* 14(2): 32 (2009); open access | 2026-11-26, downloaded by the author | `Rockstrm-PlanetaryBoundaries-2009.pdf` | `e3d31319aac39291` | `library-uploads_extracts_2026-11-24.md` |
+| `GAO-20-21_Black-Lung-operator-insurance.pdf` | GAO-20-21 (February 2020); a public document | 2026-11-27, downloaded by the author | `gao-20-21.pdf` | `074f11950d44bc21` | `library-uploads_extracts_2026-11-24.md` |
+| `GAO-17-207R_Financial-assurances-reclamation.pdf` | GAO-17-207R (December 16, 2016); a public document | 2026-11-27, downloaded by the author | `gao-17-207r.pdf` | `3024829ed9ee794c` | `library-uploads_extracts_2026-11-24.md` |
+| `GAO-18-305_Coal-mine-reclamation.pdf` | GAO-18-305 (March 2018); a public document | 2026-11-27, downloaded by the author | `gao-18-305.pdf` | `0fcd7c1815bd7e9a` | `library-uploads_extracts_2026-11-24.md` |
+| `Mill_1859_On-Liberty_2nd-ed.pdf` | Mill, *On Liberty*, 2nd ed. (London: John W. Parker and Son, 1859); out of copyright | 2026-11-27, downloaded by the author | `On_Liberty.pdf` | `d7e8c1b9f898ac03` | `library-uploads_extracts_2026-11-24.md` |
 
 **Earlier files of the same kind, for completeness:** Butler (2010), the author's printout in Drive ("Readings
 2"); the CBO household-income tables (2026-11-24, Chapter 1 session). Add rows when their fingerprints are taken.

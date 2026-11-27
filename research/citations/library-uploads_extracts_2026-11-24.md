@@ -1479,3 +1479,55 @@ This closes one of the twelve "no origin" items: the origin cited does not hold 
 
 **Bears on the commons profiles (lineage):** **SUPPORTED.** Note the appendix's §18 lists the short *Nature*
 version (461: 472–475); this is the long version. Cite whichever is read; the long one is now in hand.
+
+## Three GAO reports and Mill, downloaded by the author, 2026-11-27
+
+Short extracts; the PDFs are the record. All four are the items asked for.
+
+### GAO-20-21, *Black Lung Benefits Program: Improved Oversight of Coal Mine Operator Insurance Is Needed* (February 2020; 38 pp.; `074f11950d44bc21`)
+
+- "Coal mine operator bankruptcies have led to the transfer of about $865 million in estimated benefit
+  responsibility to the federal government's Black Lung Disability Trust Fund… according to DOL estimates."
+- By operator: Alpha Natural Resources $494 million; James River Coal $141 million; Patriot Coal $230 million;
+  3,322 beneficiaries. The collateral the three had posted: $27.4 million.
+- The Labor Department's estimate had been "$313 million to $325 million" and rose to $865 million by January
+  2020.
+- GAO looked at operators "that filed for bankruptcy from 2014 through 2016."
+
+**Bears on TA §11.6** ("Bankruptcy-transferred liabilities ~$865M to taxpayers (2014–2016 alone), OSMRE
+bankruptcy filings"): **the figure is SUPPORTED; its label is wrong three ways.** The source is GAO-20-21 and
+the Labor Department, not the surface-mining office. The liabilities are black-lung **benefit**
+responsibilities, not reclamation. And they moved to the **trust fund**, which is paid by the coal excise tax
+and Treasury loans, so "to taxpayers" needs the same care as running-list A2. A detail the chapters could use:
+$27.4 million of collateral stood behind $865 million of obligation. Also serves Chapter 2.
+
+### GAO-17-207R, *Financial Assurances for Reclamation: Federal Regulations and Policies for Selected Mining and Energy Development Activities* (letter report, December 16, 2016; 13 pp.; `3024829ed9ee794c`)
+
+- It compares the rules for financial assurances across coal, hardrock mining, oil and gas, and wind and
+  solar. It explains self-bonding: assuring cleanup "on the basis of their own finances," and notes "the
+  recent bankruptcy of three large coal mining companies that used self-bonds."
+- **The word "billion" does not appear in it.**
+
+**Bears on TA §11.6** ("Reclamation Bond shortfalls: $4–6 billion gap… OSMRE; GAO-17-207R"): **CONTRADICTED as
+cited.** This report gives no dollar gap. The $3.7–6.0 billion gap is arithmetic on Appalachian Voices
+(2021), seven states (read 2026-11-26). GAO-17-207R can be cited for what self-bonding is, nothing more.
+
+### GAO-18-305, *Coal Mine Reclamation: Federal and State Agencies Face Challenges in Managing Billions in Financial Assurances* (March 2018; 35 pp.; `0fcd7c1815bd7e9a`)
+
+- State agencies and the surface-mining office "reported holding approximately $10.2 billion in surety bonds…
+  collateral bonds… and self-bonds" for coal mine reclamation (2017, nationwide).
+- "GAO recommends that Congress consider amending SMCRA to eliminate self-bonding."
+
+**Bears on Ch 5** (the passage on how much has been posted in bonds; the report's section 2 listed this as a
+held, unused source) **and TA §11.1, §11.6:** a sourced national total of bonds held, with the official
+finding that part of it is a company's own promise. **SUPPORTED and now at the page.**
+
+### Mill, *On Liberty*, second edition (London: John W. Parker and Son, 1859; Google's scan of a library copy; 217 pp.; `d7e8c1b9f898ac03`)
+
+- "the only purpose for which power can be rightfully exercised over any member of a civilized community,
+  against his will, is to prevent harm to others."
+- "Over himself, over his own body and mind, the individual is sovereign."
+
+**Bears on the commons profiles** (lineage for the Autonomy commons: "Mill 1859 *On Liberty*"): **SUPPORTED.**
+Written in English, so no translation question. The scan is of the **second** edition, also 1859; the
+appendix's entry names the same publisher and year and does not say which edition.
