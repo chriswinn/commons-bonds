@@ -40,3 +40,18 @@ trillion); "An alternative summary measure can be based on the life expectancy g
 Mullen and Darity are authors. The ruling still stands until the author revisits it; the original wording
 ("their measures of the racial wealth gap, and of the gap in life expectancy") is now supportable with this
 citation. Extracts: `research/citations/session-web-sources_extracts_2026-11-26.md`.
+
+## Decisions walk-through, 2026-11-27 (recorded as given; nothing applied)
+
+At each stop the session first checks the author's earlier rulings on the same passage against every source
+read since, and shows him the result before he rules (his instruction, 2026-11-27).
+
+| Stop | Item | Ruling (author, 2026-11-27) | Text to apply |
+|---|---|---|---|
+| 2a | **V1. Item 2 reopened** (lines 246, 252). The 2026-11-15 ruling cut "and of the gap in life expectancy" for want of a source; the 2026 paper now supplies one, with both authors. | **Option A: restore both measures, wealth first. This replaces the 2026-11-15 text for these two sentences.** | Line 246: "Their measures of the racial wealth gap, and of the gap in life expectancy, put a price on the legacy of a historical injustice, and they are the most developed backward-looking accounting in the field." (the chapter's sentence as it stands; cite *From Here to Equality*, ch. 13, for the wealth gap and Mullen, Richardson, Bassett and Darity, *BMJ Global Health* (2026), for life expectancy as "an alternative summary measure"). **The 2022-study sentence added on 2026-11-15 comes out.** Line 252: "Darity and Mullen price what can be measured of that legacy, and the framework follows them: the wealth gap, and the gap in life expectancy as an alternative measure." ("broken transmission of knowledge" and "trauma passed down through generations" stay cut: chapter 13 names such harms as left out of every estimate.) The McDowell sentence from 2026-11-15 stands: "When this book measures McDowell County's own gap in life expectancy, it follows their approach of measuring a legacy by a present-day gap, and applies it to a different harm." Note for the applying session: "the most developed backward-looking accounting in the field" is the book's own judgment, with no source for or against. |
+| 2b | **V5, line 244** (*Umbrellas*: "households that were matched on other characteristics") | As recommended. | "They compared Black and white households at the same levels of education, work and income, and they showed that the structural variable is wealth, not behavior:" (the rest of the sentence stands). Source: *Umbrellas Don't Make It Rain* (2015), which compares within categories and matches no households. |
+| 2c | **V5, line 246, first sentence** ("The method belongs to them as well.") | As recommended. | "The approach belongs to them as well: measure a legacy by a present-day gap between the group that was harmed and a reference group." Source: *From Here to Equality*, ch. 13 (the bill is the gap in mean household wealth; nothing is matched). |
+| 2d | **V5, line 248** ("applies the same method of matched comparison") | **Option A.** | "The backward-looking instrument takes that approach to communities built on extraction, and adds one step of its own: it compares matched places." The rest of the paragraph stands. Gate pattern when applied: "method of matched comparison" and "matched on other characteristics." |
+
+The appendix's side of V5 (the front table's "method" cell) is in
+`claims-check_technical-appendix_rulings_2026-11-27.md`, stop 2.
