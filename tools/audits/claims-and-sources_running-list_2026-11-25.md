@@ -155,6 +155,7 @@ Ch 5 item 1 (Mexico; also TA §11.2, §14.8); item 2 (but see V1); the Sweden mo
 
 ## Changes log
 
+- **2026-11-27.** Decisions walk-through, stops 1–15: V1, V2, V4, V5, N1, N3, A1, A2, A4, A7, A9, A10, A11, N4, Social Security, the herring, black lung and the eight internal contradictions are **ruled** (see the two rulings files); A6 is held by the author for three books. Still open here: the reword batches in section 4, A3, A5, A8, V6, N2.
 - **2026-11-27.** Wang et al. (2013), the full Stern Review, Solomon, Lindberg and Lenton read; N1's origin found.
 - **2026-11-27.** The institute's county data read: the 13-year gap is 8.8 years on the credited source (N1).
 - **2026-11-27.** Supplement, Mian–Rao–Sufi and Steffen read; Kant (Abbott) and Giglio et al. fetched; N1 updated.
