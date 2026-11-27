@@ -75,6 +75,7 @@ reviewer needs in order to check a claim is the citation, the page and the words
 | `Mian-Rao-Sufi_2013_Household-Balance-Sheets_wp.pdf` | Mian, Rao and Sufi, working paper (February 2013); published *QJE* 128(4) (2013): 1687–1726 | 2026-11-27, downloaded by the author | `con_040504.pdf` | `9630383959188b1d` | `library-uploads_extracts_2026-11-24.md` |
 | `Steffen-et-al_2015_Science_Planetary-boundaries.pdf` | Steffen et al., *Science* 347(6223) (2015): 1259855 | 2026-11-27, downloaded by the author | `science.1259855.pdf` | `e118ae48f3c9c6dd` | `library-uploads_extracts_2026-11-24.md` |
 | `Giglio-Maggiori-Stroebel_2014_NBER-w20133_Very-Long-Run-Discount-Rates.pdf` | NBER Working Paper 20133 (2014); published *QJE* 130(1) (2015): 1–53 | 2026-11-27, fetched by the session from nber.org | `w20133.pdf` | `8b3187878b36a17f` | `library-uploads_extracts_2026-11-24.md` |
+| `IHME_USA_COUNTY_LE_MORTALITY_RISK_1980_2014_*.zip` (four archives) | Institute for Health Metrics and Evaluation, *United States Life Expectancy and Age-specific Mortality Risk by County 1980–2014* (2017): states, national, top and bottom 30, percent difference; a public data release | 2026-11-27, downloaded by the author | as named | `71b5b72210f88879`; `9e1725a00cd2ff4f`; `5bbbb4805d47e3ae`; `01d172ac6a8f8ed6` | `library-uploads_extracts_2026-11-24.md` |
 
 **Earlier files of the same kind, for completeness:** Butler (2010), the author's printout in Drive ("Readings
 2"); the CBO household-income tables (2026-11-24, Chapter 1 session). Add rows when their fingerprints are taken.

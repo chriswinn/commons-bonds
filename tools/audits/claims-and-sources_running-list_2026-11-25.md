@@ -148,13 +148,14 @@ Ch 5 item 1 (Mexico; also TA §11.2, §14.8); item 2 (but see V1); the Sweden mo
 
 | # | Passage | Finding | Next |
 |---|---|---|---|
-| N1 | **The 13-year gap** (TA §5.5, §6.7, §11.1, §11.6; Ch 6 and Ch 8 drafts) | Dwyer-Lindgren et al. (2017), the source the project credits, reports both sexes combined, does not name McDowell and gives no figures for men. The 63.5 and 76.5 are not in the article. | Find the county table (the article's supplement, or the institute's data). Until then the figure has no page behind it. **2026-11-27: the supplement is read and has no county table either.** Only the institute's own data release is left. |
+| N1 | **The 13-year gap** (TA §5.5, §6.7, §11.1, §11.6; Ch 6 and Ch 8 drafts) | Dwyer-Lindgren et al. (2017), the source the project credits, reports both sexes combined, does not name McDowell and gives no figures for men. The 63.5 and 76.5 are not in the article. | Find the county table (the article's supplement, or the institute's data). Until then the figure has no page behind it. **2026-11-27: the supplement is read and has no county table either.** Only the institute's own data release is left. **SETTLED AT THE DATA, 2026-11-27:** McDowell 70.27 years in 2014, the United States 79.08, both sexes: a gap of **8.8 years, not 13**; eighth lowest of all counties; up about one year since 1980 against more than five nationally. A 13-year gap for men would need an earlier study by sex (probably Wang et al. 2013), not yet read. **Now an approach item: a shared figure, his ruling, then a ledger row and gate pattern.** |
 | N2 | **The reef's "~99% loss" and "~30 ac of… >2,471 ac"** (TA §11.12) | Not in Woods et al. (2005), which has no acreage and finds area did not fall significantly. | Trace the acreage in Schulte (2017), now downloaded. |
 | N4 | **The $865 million and the "$4–6 billion gap"** (TA §11.6; Ch 2) | GAO-20-21 read: the $865 million is black-lung benefit responsibility moved to the trust fund from three bankruptcies (collateral posted: $27.4 million); it is not reclamation and not from the surface-mining office. GAO-17-207R read: it contains no dollar gap at all. GAO-18-305 read: $10.2 billion of reclamation assurances held nationwide in 2017. | Relabel the $865 million; credit the gap to Appalachian Voices (seven states); goes with A2 (who paid). |
 | N3 | **"Risk Capital Value" as a banking term** (TA Def 1.6) | The Basel document the appendix cites never uses the phrase. | Drop the collision, or restate it without the term. |
 
 ## Changes log
 
+- **2026-11-27.** The institute's county data read: the 13-year gap is 8.8 years on the credited source (N1).
 - **2026-11-27.** Supplement, Mian–Rao–Sufi and Steffen read; Kant (Abbott) and Giglio et al. fetched; N1 updated.
 - **2026-11-27.** Three GAO reports and Mill read; N4 added.
 - **2026-11-26.** Five downloads read (Dwyer-Lindgren, Woods, NIOSH, Basel III, Rockström); N1–N3 added. Coates read earlier the same evening.

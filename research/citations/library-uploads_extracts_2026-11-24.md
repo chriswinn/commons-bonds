@@ -1600,3 +1600,44 @@ Later published in the *Quarterly Journal of Economics* 130(1) (2015): 1–53. A
 present. It is market evidence, from several million property sales, that people already price payments a
 century away at low rates, and that the rate falls with the horizon. See the session's recommendation to the
 author in the conversation of 2026-11-27; whether to add it is his ruling.
+
+## The institute's county data for Dwyer-Lindgren et al. (2017): McDowell's figure, at the source (2026-11-27)
+
+Institute for Health Metrics and Evaluation, *United States Life Expectancy and Age-specific Mortality Risk by
+County 1980–2014* (Seattle: IHME, 2017), the data release for Dwyer-Lindgren et al. (2017). Four archives
+downloaded by the author from the institute's data exchange and read by the session: the state workbooks
+(West Virginia's was read), the national workbook, the top-and-bottom-30 workbook, and the percent-difference
+file. Fingerprints: `71b5b72210f88879` (states), `9e1725a00cd2ff4f` (national), `5bbbb4805d47e3ae` (top and
+bottom 30), `01d172ac6a8f8ed6` (percent difference). A fifth, larger file (every county in one table) was not
+uploaded and is **not needed**. A public data release, free to cite.
+
+**Life expectancy at birth, both sexes combined, with the release's 95 percent uncertainty intervals:**
+
+| Place | 1980 | 2014 | Change, 1980–2014 |
+|---|---|---|---|
+| United States | 73.75 | **79.08** (79.04–79.11) | +7.22% |
+| West Virginia | 72.79 | **76.03** (75.93–76.12) | +4.45% |
+| **McDowell County, West Virginia** | 69.22 | **70.27** (69.61–70.96) | +1.52% (0.18–2.89) |
+
+- McDowell is **eighth lowest of all U.S. counties** in 2014 (the release's bottom-30 list; lowest is Oglala
+  Lakota County, South Dakota, 66.81).
+- McDowell is also on the bottom-30 lists for the risk of dying between ages 25 and 45 (6.75 percent; tenth
+  highest), 45 and 65 (23.66 percent; seventh highest) and 65 and 85 (67.79 percent; fourteenth highest).
+
+**What this settles (running-list N1; TA §5.5, §6.7, §11.1, §11.6, §11.7, §16.3; the Ch 6 and Ch 8 drafts).**
+
+| The text says | Status | The data |
+|---|---|---|
+| "McDowell County's 13-year gap in life expectancy against the national average" | **CONTRADICTED on this source** | In the study the project credits, the gap in 2014 is **8.8 years** (79.08 less 70.27), both sexes. |
+| the project's record: "male life expectancy about 63.5 against 76.5 (Dwyer-Lindgren et al. 2017)" | **Not from this study** | The 2017 release has no figures by sex. A 13-year gap for men probably comes from an earlier county study that did report by sex (Wang et al., 2013, *Population Health Metrics*, is the likely one; its page refused the session). It is unverified until that study is read. |
+| credited to "CDC + Robert Wood Johnson Foundation county health rankings" (TA §11.6) | **Wrong source for either figure** | |
+
+**Sentences this data supports** (for whoever drafts later): "In 2014 a child born in McDowell County could
+expect to live 70.3 years, against 79.1 for the country: a gap of almost nine years, and the eighth-lowest
+figure of any county in the United States." And one the 13-year claim never offered: "Between 1980 and 2014
+life expectancy rose more than five years nationally and about one year in McDowell."
+
+**Consequence.** The 13-year gap is a shared figure: it is in the appendix in six places, in two chapter
+drafts, and behind the phrase "a legacy quantity of the same kind." It needs the author's ruling, a ledger
+row and a gate pattern. Either use 8.8 years (both sexes, 2014, this source) or keep 13 years **for men** only
+after the earlier study is read and named.
