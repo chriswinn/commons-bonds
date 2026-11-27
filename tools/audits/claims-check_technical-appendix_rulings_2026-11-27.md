@@ -19,7 +19,5 @@ sits in both texts is ruled once and cross-referenced.
 - **2008 (for the A9 and A5 stops, Chapter 5 lines 84–106), 2026-11-27:** his view is that the rescue was a
   misguided attempt to right a wrong, and that nothing stopped the government from rescuing people's homes and
   letting the banks fail. A remark, not a ruling; no text drafted from it.
-- **Open question put to him, not answered:** whether a session should look for a source on coal companies
-  that shed obligations through bankruptcy and re-formed under the same owners. Nothing on file documents that
-  pattern; GAO-20-21 documents only the transfer of about $865 million of black-lung benefit responsibility to
-  the trust fund.
+- **Answered 2026-11-27: yes,** a session looks for a source on coal companies that shed obligations through
+  bankruptcy and re-formed (master find-list, B0).

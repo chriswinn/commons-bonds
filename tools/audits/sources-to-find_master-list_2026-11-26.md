@@ -200,6 +200,12 @@ The log now names 137 requests by sessions and the author together (126 + 11).
 
 ## Part B. A session works these (nothing asked of the author unless a route fails)
 
+### B0. Added 2026-11-27 at the author's request
+
+| What | Kind | Why |
+|---|---|---|
+| Coal companies that shed black-lung, pension or reclamation obligations through bankruptcy and whose owners or assets carried on under a new company. A primary or scholarly source (court record, GAO, CRS, a law review), read at the page. In hand so far: GAO-20-21 only, which documents the transfer of about $865 million of benefit responsibility to the trust fund and says nothing about re-forming. | Origin | His point in the decisions walk-through (appendix rulings file, stop 3): a public payer steps in where no company is left to pay. Nothing in any text states the pattern yet; it is not to be written until sourced. |
+
 ### B1. Chapter 5
 
 | What | Kind | Line |
