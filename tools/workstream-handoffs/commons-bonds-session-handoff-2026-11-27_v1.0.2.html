@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<title>Commons Bonds session handoff, 2026-11-27 (sources in hand; ready for a decisions session)</title>
+<style>body{font-family:Georgia,serif;max-width:46em;margin:2em auto;padding:0 1em;line-height:1.5}h1{font-size:1.4em}h2{font-size:1.15em;margin-top:1.6em}code{font-size:.9em}table{border-collapse:collapse}td,th{border:1px solid #999;padding:.3em .5em;vertical-align:top;text-align:left}</style>
+</head><body>
+<h1>Session handoff, 2026-11-27: sources in hand, ready for decisions</h1>
+<p><strong>Status:</strong> internal. Written by the first sources session after it resumed on the evening of 2026-11-26 (branch <code>claude/chapter-5-sourcing-check-bm1nbc</code>; everything is on <code>main</code>). It adds to the two earlier handoffs, which still hold: <code>…2026-11-26_v1.0.0.html</code> (the sources stage as a whole) and <code>…2026-11-26_v1.0.1.html</code> (the second session: Chapter 2's fact table, the printable request list, twelve requests owed). Read all three.</p>
+
+<h2>1. What changed since v1.0.0</h2>
+<ul>
+<li><strong>Chapter 1 is finished for claims.</strong> His father's answers arrived; the author ruled; line 62 was changed on main ("nearly his entire working life"; the sentence ends at 1958; "a title he was proud of"), with two gate patterns and two ledger rows. The diplomatic passport is confirmed by his father and stays. The grandfather's death year is closed as not needed. <strong>This is the only chapter text changed in the whole sources stage.</strong></li>
+<li><strong>The author downloaded about twenty free sources</strong> the session could not reach, and the session read each: Coates; the 2026 Trustees Report (earlier); three GAO reports; Mill; Rockström; Steffen; Basel III; NIOSH; Woods; Dwyer-Lindgren with its supplement; the institute's county data; Wang et al. (2013); Mian, Rao and Sufi; the full Stern Review; Solomon; Lindberg; Lenton. Extracts are in <code>research/citations/library-uploads_extracts_2026-11-24.md</code> (the later sections).</li>
+<li><strong>The session fetched</strong> Kant in T. K. Abbott's translation (out of copyright) and Giglio, Maggiori and Stroebel on very long-run discount rates.</li>
+<li><strong>His school email holds the library's receipts for the 127 requests.</strong></li>
+<li><strong>Rule refined</strong> (<code>tools/memory/feedback_find_sources_before_cutting.md</code>): nothing in the book rests on a translation made by him or by a session; a published translation by a named translator does, and where one is out of copyright and free, fetch it first.</li>
+</ul>
+
+<h2>2. New findings, all in the running list (N1–N4) or the extracts</h2>
+<table>
+<tr><th>Item</th><th>Finding</th></tr>
+<tr><td>The 13-year gap (N1)</td><td>Its origin is Wang et al. (2013): men, 2010, McDowell 63.9 (lowest of any county) against 76.3, so 12.4 years. Both sexes, 2014 (the institute's 2017 release): 70.27 against 79.08, so 8.8 years. A shared figure; his ruling, then a ledger row and gate pattern.</td></tr>
+<tr><td>The reef's acreage (N2)</td><td>Not in Woods et al. (2005). Trace it in Schulte (2017), downloaded.</td></tr>
+<tr><td>"Risk Capital Value" (N3)</td><td>The Basel document cited never uses the phrase.</td></tr>
+<tr><td>The $865 million and the "$4–6 billion gap" (N4)</td><td>The first is black-lung benefit responsibility (GAO-20-21), not reclamation; GAO-17-207R contains no dollar gap; GAO-18-305 gives $10.2 billion of assurances held.</td></tr>
+<tr><td>Chapter 5 line 88</td><td>"Three times" is by income, and the source is Mian, Rao and Sufi.</td></tr>
+<tr><td>Coates (Ch 5 line 244)</td><td>He names the mechanism and the harm and declines to set a sum; "name the debt" says a little more than he does.</td></tr>
+<tr><td>Stern</td><td>The Review sets pure time preference at 0.1 percent; the 1.4 percent is Nordhaus's reading.</td></tr>
+<tr><td>Candidate addition</td><td>Giglio, Maggiori and Stroebel: discount rates below 2.6 percent for 100-year claims. For the appendix's discounting section, if he wants it.</td></tr>
+</table>
+
+<h2>3. The session's recommendation: hold a decisions session now, on what is settled</h2>
+<p>His rule is to find every source before deciding to <em>cut</em>. Most open items are not cuts: they are sentences where the source is in hand and says something narrower. Those can be ruled now. The split:</p>
+<ul>
+<li><strong>Ready to rule (sources complete):</strong> the four items that touch Darity's work (V1 what they price; V5 the method; V2 the credit for "restitution"; the Mexico sentence, already ruled); V4 and V6 (carrying harm forward; the "reparations bond" sentence, though V6 should wait for his reply); A1 and A11 (McDowell's tonnage and price); A2 and N4 (who paid); N1 (the life-expectancy gap); A4 (Libby's $140 million); A6 (Christophers); A9 (the 2008 passage); Social Security; the herring; the appendix's internal contradictions; every "reword" batch whose source is read.</li>
+<li><strong>Wait for the library:</strong> Baotou at length (Zhou and Ge; Lee and Wen); Fraser quoted directly; Gawande; the lineage paragraph (Parfit, Pettit, Skinner, Conley); Bullard, Martínez-Alier, Hacker; the appendix's unopened references.</li>
+<li><strong>No origin found by any route</strong> (the twelve listed at the end of Part B, fourth batch, less "Risk Capital Value," now settled): these are the only true candidates for cutting, and they stay open until the library copies have had their chance.</li>
+</ul>
+<p>After the "ready" rulings, one session applies them to the appendix and the ledger first, then Chapter 5, each with a ledger row and gate pattern; then the note to Darity can go.</p>
+
+<h2>4. Steps for the next session</h2>
+<ol>
+<li>Fetch and rebase on <code>origin/main</code>. Read <code>STATE.md</code>, the three handoffs, and <code>tools/audits/claims-and-sources_running-list_2026-11-25.md</code>.</li>
+<li>If he wants the decisions session: walk him through the "ready to rule" items one at a time, shortest evidence first, each with the sentence as it stands, what the source says, and one or two sentences the source supports. Record each ruling in <code>tools/audits/claims-check_chapter-5_rulings_2026-11-15.md</code> (and a matching file for the appendix). Apply nothing until he says so.</li>
+<li>Otherwise carry on with v1.0.1's list: the twelve owed requests (his form PDF must be attached), the rest of the harvest's free items, Chapter 2's fact table, then Chapter 4's.</li>
+<li>Read whatever arrives from the library.</li>
+</ol>
+
+<h2>5. Open with the author</h2>
+<ul>
+<li>Whether to hold the decisions session now (recommended) and whether to add the long-run discount study.</li>
+<li>From v1.0.1: twelve requests owed; Theodore White's book for Kennedy in McDowell; the Chapter 2 "wrong defendant" frame; the Chapter 10 Black Hills figures.</li>
+<li>From v1.0.0: which works he means in Chapter 10 and Chapter 7; five items with no source named; Samuelson; Drive.</li>
+<li>The son-passages read (<code>tools/audits/son-passages-read_2026-11-26.md</code>): his decision is not recorded.</li>
+<li>The note to Darity: after the rulings on the items touching his work.</li>
+</ul>
+
+<h2>6. Resume instructions for the next Claude</h2>
+<p>Read CLAUDE.md, STATE.md and the three handoffs. One session at a time; check <code>git log origin/main</code> for another session's commits before you start. No prose drafting. Rulings are recorded, not applied, until he says so. Keep quotations from copyrighted books short. End with three lines: done, waiting on him, next paste line.</p>
+</body></html>
