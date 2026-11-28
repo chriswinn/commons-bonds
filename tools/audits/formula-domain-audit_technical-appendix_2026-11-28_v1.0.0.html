@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Formula domain audit: Technical Appendix v2.0.1 (2026-11-28)</title>
+<style>
+  body { font-family: Georgia, serif; max-width: 860px; margin: 2em auto; padding: 0 1em; line-height: 1.5; color: #222; }
+  h1 { font-size: 1.6em; } h2 { font-size: 1.3em; margin-top: 2em; border-bottom: 1px solid #999; }
+  h3 { font-size: 1.1em; margin-top: 1.6em; }
+  table { border-collapse: collapse; width: 100%; margin: 1em 0; font-size: 0.92em; }
+  th, td { border: 1px solid #bbb; padding: 5px 8px; vertical-align: top; text-align: left; }
+  th { background: #eee; }
+  .f { font-family: "Courier New", monospace; background: #f4f4f4; padding: 2px 5px; }
+  .box { border-left: 4px solid #777; background: #f7f7f7; padding: 0.5em 1em; margin: 1em 0; }
+  .rec { border-left: 4px solid #2a6; background: #f2faf5; padding: 0.5em 1em; margin: 1em 0; }
+  ol.steps li { margin-bottom: 0.4em; }
+</style>
+</head>
+<body>
+
+<h1>Formula domain audit: Technical Appendix v2.0.1</h1>
+
+<p><strong>Status:</strong> internal; report only, 2026-11-28. Nothing in the appendix, the engines or the ledger has
+been changed. Nothing here is ratified. Kickoff:
+<code>tools/workstream-handoffs/formula-domain-audit-kickoff_2026-11-28.md</code>.</p>
+
+<p><strong>What was done.</strong> Every definition, formula, theorem and worked case in
+<code>TechnicalAppendix_v2.0.1.html</code> was read with five questions: for which inputs is it defined; what does it
+return at zero, at the threshold, at one, at infinity and for a negative input; do the units match; is any case
+placed outside a formula's domain; and where a formula blows up or changes sign, does the text say so. The engine
+(<code>calculations/csd_rcv_calculations.py</code>) was read, not run or edited. Edge values were computed in a
+separate scratch script that re-implements the engine's integral; those numbers are marked "by scratch script" and
+need the engine's confirmation before any of them is used.</p>
+
+<p><strong>How to read this.</strong> Part 1 answers your question in one page. Part 2 teaches the eight findings
+an economist could use against the whole, one step at a time, each with options and one recommendation. Part 3
+lists smaller silent edges. Part 4 lists the edges the appendix already handles and says. Part 5 teaches the
+wording rows you asked to be taught. Part 6 shows where two rulings you have already given move numbers nobody
+has yet said they move.</p>
+
+<h2>Part 1. The answer in one page</h2>
+
+<p>Yes, there are other places. The McDowell label under Theorem 10.3 was one of a family. I found eight that an
+economist could use to cast doubt on the rest, about fifteen smaller ones, and a good number of edges that the
+appendix already handles in so many words.</p>
+
+<p>The eight share one pattern. In each, a formula of the framework's own design (not a borrowed one) was written
+for the middle of its range and never tested at the ends. The borrowed parts (the EPA's carbon figure, the
+damage totals, Hotelling's rule, Weitzman's declining rate) hold up. The headline arithmetic holds up: I re-did
+every multiplication and division in &sect;3, &sect;4, &sect;7.6, &sect;11 and &sect;12 and found no new errors
+beyond the ones the claims check already lists.</p>
+
+<table>
+<tr><th>#</th><th>Where</th><th>What breaks, in one line</th><th>Said in the text?</th><th>Recommended handling</th></tr>
+<tr><td>A1</td><td>Theorem 10.3</td><td>The cost function does not exist at or below the threshold; the threshold is never defined for a real resource.</td><td>No</td><td>Define the threshold as functional or economic, per commons; give the cost a ceiling; say what happens past it.</td></tr>
+<tr><td>A2</td><td>Method 3, scarcity multiplier</td><td>It runs backwards: the more years of supply remain, the larger the "scarcity" premium.</td><td>No</td><td>Drop the multiplier. It never leaves 1.0 to 1.3 and carries no result.</td></tr>
+<tr><td>A3</td><td>Method 3, &alpha;; &sect;15.1.7</td><td>The same carbon is "restorable at $100 to $1,000 a ton" (Method 1) and "85 to 95 percent likely unrestorable at any cost" (Method 3). By its own definition &alpha; for a burned barrel is 1, and the premium is infinite.</td><td>The &alpha;&nbsp;=&nbsp;1 edge is said; the contradiction is not</td><td>Present Method 3 as a table over &alpha; with no centre; fix one sentence in &sect;15.1.7.</td></tr>
+<tr><td>A4</td><td>The integral's foreclosure term (&sect;11.1; Def. 1.3)</td><td>At its lower bound it can never exceed the market price; it rises when the discount rate rises; it is zero at a zero rate, where Theorem 10.4 says the answer is infinite. It also depends on a price of $75 that the text never states.</td><td>No</td><td>Say what the bound is in three sentences, and rule which price goes in.</td></tr>
+<tr><td>A5</td><td>Observation 10.5</td><td>The welfare line has the sign of the price wrong. The "weak dominance" result does not follow.</td><td>No</td><td>Correct the line and state the condition under which the result holds.</td></tr>
+<tr><td>A6</td><td>Method 3 as a whole (seed 4)</td><td>It measures a different object from the integral. For asteroid iron the integral gives about zero and Method 3 gives the price. Two sentences still read Method 3 as evidence.</td><td>Mostly; two places are not</td><td>Report Method 3 as a premium over price; strike the two sentences.</td></tr>
+<tr><td>A7</td><td>total CS = (CSD &minus; B&#8321;) + (RCV &minus; B&#8322;)</td><td>For any retrospective case the two halves cover the same years. And McDowell's and Norway's headlines subtract a payment from a cost it was not set against, which Definition 1.7 forbids.</td><td>The second is said; the first is not</td><td>Add a dividing date. Report by component beside the aggregate.</td></tr>
+<tr><td>A8</td><td>Def. 1.3 with &sect;14.1</td><td>On the price path the appendix itself writes for Hotelling, the foreclosure integral is infinite for every resource.</td><td>No</td><td>Bound utility by the price at extraction, not the price at each later date.</td></tr>
+</table>
+
+<h2>Part 2. The eight, taught step by step</h2>
+
+<h3>A1. Theorem 10.3: the threshold &tau;</h3>
+
+<p><strong>The formula in plain words.</strong> <span class="f">c(A) = c&#8320; &middot; (&tau; / (A &minus; &tau;))<sup>&xi;</sup></span>.
+A is how much of a commons there is. &tau; is a threshold. c is a cost. When A is far above &tau; the fraction is
+tiny and the cost is close to nothing: abundance hides it. As A comes down toward &tau; the bottom of the fraction
+shrinks toward zero and the cost shoots up.</p>
+
+<p><strong>Step by step at the edges</strong> (take &tau; = 1 and c&#8320; = 1 so the numbers are easy):</p>
+<ol class="steps">
+<li>A = 100: cost 0.01. Hidden.</li>
+<li>A = 2: cost 1. A = 1.1: cost 10. A = 1.01: cost 100. Rising fast.</li>
+<li>A = 1 exactly: the bottom of the fraction is zero. Division by zero. No answer.</li>
+<li>A = 0.9, below the threshold, with &xi; = 1: the cost is <em>minus</em> 10. A negative cost.</li>
+<li>A = 0.9 with &xi; = 2: the cost is plus 100, and it <em>falls</em> as A falls further: 4 at A = 0.5, and 1 at A = 0. The emptier the commons, the cheaper.</li>
+<li>A = 0.9 with &xi; = 1.5: a negative number raised to a fractional power. Not a real number at all.</li>
+</ol>
+
+<p>So the function is defined only for A above &tau;, which is what Assumption (ii) says in symbols
+("c: (&tau;, &infin;) &rarr; ..."). Assumption (i) lets A be anything above zero. The stretch from zero up to
+&tau; is inside the theorem's world and outside its cost function. The McDowell label put a real case in that stretch.</p>
+
+<p><strong>Three more things an economist would say.</strong></p>
+<ul>
+<li><em>"No cost is infinite."</em> In resource economics a price cannot rise past the cost of the next-best
+alternative, which Nordhaus named the backstop technology. Heal (1976) is the standard model: extraction cost
+rises as more is taken, up to the point where the backstop takes over, and then stays flat. I confirmed the
+paper and its abstract today; I have not read the body. The appendix's own Assumption (iii) already says this:
+"marginal extraction cost approaches the resource's reservation price near scarcity threshold." A reservation
+price is a finite number. Assumption (ii) says the cost goes to infinity at the same point. The two assumptions
+contradict each other.</li>
+<li><em>"Whose cost is c?"</em> Two different costs are run together. One is the extractor's cost of getting the
+next ton out. The other is the cost to the people who depend on the commons. They have different thresholds.</li>
+<li><em>"What is &tau; for coal?"</em> Not stated. McDowell still holds about 1.7 billion recoverable tons
+(county page, read 2026-11-15), so the coal is not near physical exhaustion.</li>
+</ul>
+
+<p><strong>Your suggestion holds up, and it does more than you asked of it.</strong> If &tau; is the point where
+a commons stops doing its work (a seam no longer worth mining; a fish stock too small to renew itself), then:</p>
+<ol class="steps">
+<li>For the extractor's cost, extraction stops <em>at</em> the threshold, because past it the ton costs more than
+it sells for. Extraction can push A down to &tau; and no further. The stretch below &tau; is never reached that
+way, and the division by zero is approached but not crossed.</li>
+<li>A commons can still end up below its threshold when the <em>threshold moves</em>. Cheap gas lowers the price
+of coal; seams that were worth mining yesterday are not today. The stock did not change. The threshold rose past
+it. So &tau; is not a constant. It depends on price and technology.</li>
+<li>The theorem is stated per commons ("multi-threshold commons... applies locally to each transition"). McDowell
+has several. The coal in the ground is at or near an economic threshold. The county's commons of work, tax base
+and community (the things &sect;7.6 prices) went through their thresholds decades ago: 98,887 people in 1950,
+19,111 in 2020. "McDowell, A below &tau;" was wrong about the coal and arguably right about the community.</li>
+</ol>
+
+<p><strong>Your two-path test on the candidate remark</strong> ("above the threshold the framework prices
+forward; past it, the case is read backward"). This is my run of your test, for you to check. It is not a ruling.</p>
+<ul>
+<li><em>Path 1, allocation.</em> Does crossing the threshold change who took the value and who bears the cost?
+No. The asymmetry is the same on both sides. What changes is the state of the cost: before the threshold it is
+a foreclosure still to come; after it, the loss of that commons has happened and belongs in Cost Severance
+Damages. On this path the remark holds for the commons that crossed.</li>
+<li><em>Path 2, shield.</em> Does crossing the threshold remove the shield? No. The theorem's mask is abundance,
+and the mask comes off at the threshold: the cost becomes visible. The shield is distance, and it stays. McDowell
+is the example: the cost became plain to everyone in the county and was still not paid by those who gained.</li>
+<li><em>Result.</em> Both paths agree on a narrower sentence than the candidate: <em>past its threshold, the loss
+of that commons is read backward, as damage done; costs still running forward from the same extraction, such as
+its carbon, are still priced forward.</em> The remark as first drafted would have dropped McDowell's forward
+carbon term, which &sect;5.3 keeps ("carries both"). The reef in &sect;11.12 fits the narrower sentence.</li>
+</ul>
+
+<p><strong>Options.</strong></p>
+<ol type="a">
+<li><strong>Bound the domain and say so.</strong> Two or three sentences in Assumption (ii): &tau; is the level
+at which the commons stops doing its work, set per commons, and it can move with price and technology; the cost
+function describes the approach from above; a commons past its threshold is read on realized damage. Remove "to
+infinity" from Assumption (iii)'s neighbour or reconcile the two.</li>
+<li><strong>Define the edge.</strong> Give the cost a ceiling: c rises until it meets the cost of replacing the
+commons function (Method 1), and stays there. Where no replacement exists at any price, the case goes to the
+Asymmetric Regret Rule, as &alpha; = 1 already does. Conclusion (II) becomes "the cost rises to the replacement
+cost" in place of "the cost grows without bound."</li>
+<li><strong>Change the form.</strong> Use c&#8320; &middot; (&tau;/A)<sup>&xi;</sup>, which is defined for every
+A above zero and blows up only when the commons is entirely gone. &tau; then is the level at which the cost
+equals c&#8320;. Simple, but it loses the idea of a threshold short of empty, which is the idea you want.</li>
+</ol>
+<div class="rec"><strong>Recommendation: (a) and (b) together.</strong> They are your suggestion written out, they
+remove the contradiction between Assumptions (ii) and (iii), and they tie the theorem to Method 1 and to the
+backward reading the appendix already has. Sources to read before the sentences are written: Heal 1976 (body);
+Pindyck 1978 (read); Krautkraemer 1998, "Nonrenewable Resource Scarcity," <em>Journal of Economic Literature</em>
+36(4) (exists; body not opened); and for a fish stock too small to renew itself, the fisheries literature on
+critical depensation (Clark's <em>Mathematical Bioeconomics</em> is the text I would look in; from memory, not
+verified).</div>
+
+<h3>A2. The scarcity multiplier runs backwards</h3>
+
+<p><strong>The formula in plain words.</strong> <span class="f">scarcity_multiplier(&sigmaf;) = 1 + 0.05 &times; ln(1 + &sigmaf;)</span>.
+Method 3 multiplies the market price by this. The bigger &sigmaf;, the bigger the premium.</p>
+
+<p><strong>Step by step.</strong></p>
+<ol class="steps">
+<li>What is &sigmaf;? The appendix calls it "reserves-to-production-grounded." The project's June grounding file
+defines it as stock divided by yearly flow, measured by the reserves-to-production ratio: the number of years the
+reserves would last at the current rate.</li>
+<li>So a large &sigmaf; means <em>many years of supply left</em>. That is the opposite of scarce.</li>
+<li>Put in the appendix's own figures. Oil, about 50 years: multiplier 1.20. McDowell coal, about 278 years on
+the county's figures: 1.28. National coal, about 422 years: 1.30. A resource with one year left: 1.035. A
+resource with none left: 1.00, no premium at all.</li>
+<li>Read down that list: the less there is left, the smaller the scarcity premium.</li>
+<li>Asteroid iron is given &sigmaf; of 1 to 10 because it is abundant (&sect;11.8). Coal is given 220 to 490
+because it has centuries of supply. The same symbol is being used in two opposite senses.</li>
+<li>One more thing, from the engine. For McDowell &sigmaf; is not an input. The engine takes the multiplier
+(1.27 to 1.31) as given and solves backward for the &sigmaf; that would produce it. The claims check found the
+same from the other side (&sect;1b, the scarcity rows).</li>
+</ol>
+
+<p><strong>What an economist would say.</strong> "Your scarcity premium is largest for the most abundant
+resource." It takes one line to show and it is the kind of error that ends a reading.</p>
+
+<p><strong>Options.</strong></p>
+<ol type="a">
+<li><strong>Drop the multiplier.</strong> Method 3 becomes price &divide; (1 &minus; &alpha;). The appendix says
+three times that the multiplier "never carries the result" and stays between 1.0 and 1.3. The multiples move
+from 8.5 to 26 down to 6.7 to 20.</li>
+<li><strong>Turn it over.</strong> Make the premium fall as years of supply rise, for example with ln(1 + T/&sigmaf;)
+for a stated horizon T. This needs a new constant and a new justification, for a factor that moves the answer
+by a quarter at most.</li>
+<li><strong>Rename it.</strong> Call it what the June file half-says it is: a weight for how much stock is
+foreclosed ("total-recoverable centuries are foreclosed for this community"). Then it is not scarcity, and the
+asteroid-iron row has to be redone.</li>
+</ol>
+<div class="rec"><strong>Recommendation: (a).</strong> It removes a factor that has no source, no derivation, a
+wrong direction and no effect on any conclusion.</div>
+
+<h3>A3. Irreversibility: &alpha;, Method 1, and &sect;15.1.7</h3>
+
+<p><strong>The formula in plain words.</strong> <span class="f">irreversibility_premium(&alpha;) = 1 / (1 &minus; &alpha;)</span>.
+&alpha; is defined as "the probability the loss cannot be restored at any finite cost."</p>
+
+<p><strong>The edge you asked about is handled.</strong> At &alpha; = 1 the premium is infinite. The appendix says
+so in five places (&sect;0, &sect;3.5, &sect;8.3, &sect;11.6, &sect;11.8), restricts &alpha; to less than one, and
+hands that case to the Asymmetric Regret Rule. The engine refuses &alpha; = 1. Intended, and said.</p>
+
+<p><strong>What is not handled. Step by step.</strong></p>
+<ol class="steps">
+<li>The band for coal and oil is &alpha; = 0.85 to 0.95, grounded on "atmospheric carbon-cycle disruption
+irreversible" and on "the barrel is gone."</li>
+<li>Method 1, two sections earlier, prices putting that same carbon back: $100 to $1,000 a ton by direct air
+capture. A loss that can be undone for a price is, by &alpha;'s own definition, restorable at finite cost. That
+is the appendix's "restorable at a cost" row, &alpha; = 0.1 to 0.5, premium 1.1 to 2.</li>
+<li>And "the barrel is gone" is certain, not 85 to 95 percent likely. By the definition that is &alpha; = 1 and
+an infinite premium.</li>
+<li>So on its own definition the carbon gives a low &alpha; and the barrel gives &alpha; = 1. Nothing in the
+appendix produces 0.85 or 0.95. The band is a chosen weight.</li>
+<li>The band decides everything. &alpha; = 0.85 gives 6.7; 0.95 gives 20; 0.99 gives 100; 0.999 gives 1,000. The
+"centre about 15" is the centre of a range nobody derived.</li>
+<li>&sect;15.1.7 has the same clash in one sentence: "atmospheric carbon-stability cannot be re-engineered at any
+finite cost above some threshold." Read with Method 1 beside it, it says the cost is infinite in one place and
+$300 to $600 in another. I think the sentence meant "past some tipping point," not "above some price."</li>
+<li>One more loose end: the appendix says the premium "is a weight, not an expected loss." That is right, and it
+is worth knowing why: if there is any chance at all that the cost is infinite, the expected cost is infinite. So
+&alpha; cannot be used as a probability in the usual way, and the definition calls it one.</li>
+</ol>
+
+<p><strong>Options.</strong></p>
+<ol type="a">
+<li><strong>Show Method 3 as a table over &alpha;, with no band and no centre.</strong> "If you judge the loss
+half restorable, the premium is 2; if nine-tenths lost for good, 10." The reader picks. The 8.5 to 26 and the
+"about 15" come out of the summary tables. Fix &sect;15.1.7 to: carbon can be removed only at a price (Method 1),
+and past a tipping point the climate it disturbed cannot be restored on any human timescale.</li>
+<li><strong>Tie &alpha; to Method 1.</strong> Define &alpha; as the share of the documented damage that has no
+priced cure in Method 1. Carbon then counts as curable at a price; a removed mountaintop does not. The two
+methods can no longer contradict each other. This is real work and gives a number for one case.</li>
+<li><strong>Move Method 3 out of the cross-check tables</strong> into a short note beside the Asymmetric Regret
+Rule, as an illustration of how heavily irreversibility can be weighted.</li>
+</ol>
+<div class="rec"><strong>Recommendation: (a), with the &sect;15.1.7 sentence.</strong> It keeps the method, makes
+no claim the text cannot support, and takes away the single free number that sets Method 3's whole result. With
+A2 and A6 it reduces Method 3 to one honest line: the premium over price is &alpha; &divide; (1 &minus; &alpha;)
+times the price, for whatever &alpha; the reader accepts.</div>
+
+<h3>A4. The foreclosure term inside the headline integral</h3>
+
+<p><strong>The formula in plain words.</strong> The integral adds two things for every future year: what later
+generations lose by not having the ton (foreclosure), and the damage the ton goes on doing. The foreclosure part
+is <span class="f">[1 &minus; S(t)] &middot; U</span>: the chance no substitute exists yet, times what the ton
+would be worth to that year. The calibration sets U at its lower bound from Definition 1.3,
+<span class="f">U = r(t) &middot; P</span>: the discount rate times the price.</p>
+
+<p><strong>Step by step.</strong></p>
+<ol class="steps">
+<li>Think of the ton as an asset worth P. An asset worth P that earns the going rate r pays r &times; P a year.
+That is the bound: the ton left in the ground is worth at least its "rent" each year.</li>
+<li>Now add up r &times; P a year, forever, discounting at the same r. You get P back, exactly. That is what a
+price is. So with no substitute ever, the foreclosure term equals the price. By scratch script: $74.7 against the
+engine's P of $75.</li>
+<li>With substitutes arriving (S rising to 0.85), about half of that: $38.5 at the baseline. This is the
+"7 percent" the appendix calls the framework's own term.</li>
+<li>So at its lower bound <strong>the foreclosure term can never be more than the market price.</strong> It says:
+taking the ton costs the future, at most, what the ton sells for.</li>
+<li>Now move the discount rate. A higher rate puts more weight on the early years, when substitutes are still
+scarce. So the term gets <em>bigger</em>: $26 (Stern, 1.4%), $38.5 (4%), $43 (Nordhaus, 5.5%). This is why the
+integral reads $526, $537, $541 in that order. A present value that rises with the discount rate is the reverse
+of what every economist expects.</li>
+<li>Push the rate toward zero. The bound r &times; P goes to zero and the term goes to zero. Theorem 10.4 says
+that at a zero long-run rate, with no full substitute, the cost is <em>infinite</em>, and calls that "the correct
+answer." Formula and calibration point in opposite directions at the same edge.</li>
+<li>The engine uses P = $75 and a substitution rate &lambda; = 0.05. Neither is in the text (the claims check
+noted this). $75 is not the 1960 price ($4.71) and not the price you ruled on 2026-11-27 ($129.33). See Part 6.</li>
+</ol>
+
+<p><strong>What an economist would say.</strong> First: "Your own term is the market price counted a second time.
+The buyer already paid P to the owner." The answer to that is not mathematical. It is the framework's premise
+that the stock is a commons and later generations had a claim on it (Definition 1.1), and it should be said
+where the term is introduced. Second: "Your headline goes up when I discount the future more." Third: "Where does
+$75 come from?"</p>
+
+<p><strong>One sentence you have already ruled is touched by this.</strong> Stop 15, item 1: "it gives a lower RCV
+than treating later generations equally would." True of the formula in general. In the calibrated numbers a lower
+rate gives a <em>lower</em> figure ($526 at Stern's rate against $541 at Nordhaus's). Not applied yet; worth a
+second look when it is.</p>
+
+<p><strong>Options.</strong></p>
+<ol type="a">
+<li><strong>Keep the bound and say what it is.</strong> Three sentences in &sect;11.1: at its lower bound the
+foreclosure term cannot exceed the price of the ton; it is entered at that bound, about half the price once
+substitutes are allowed for; because the bound moves with the rate, this term is larger at higher rates, and the
+figure should not be read as sensitive to time preference. State P and &lambda;. Rule which P.</li>
+<li><strong>Take foreclosure out of the headline.</strong> The headline becomes the damage total ($504 to $518),
+all of it other people's sourced work, and foreclosure is reported beside it as "at most one times the price;
+entered here as Open." Nothing in the headline then depends on P, S, &lambda; or the discount schedule. This
+reverses your 2026-11-11 decision that the integral is the headline, so it is an architectural call.</li>
+<li><strong>Change the bound</strong> so it does not move with the rate, for example the long-run rate times
+the price. The term then stops rising with r&#8320;, but it is still capped at a fraction of the price.</li>
+</ol>
+<div class="rec"><strong>Recommendation: (a).</strong> The number is defensible once it is described truthfully,
+and the appendix already says the framework adds "very little" to the level. Option (b) is the stronger position
+against a hostile reader and I would not argue against it; it is yours to weigh because it moves the headline.</div>
+
+<h3>A5. Observation 10.5: the sign of the price</h3>
+
+<p><strong>The formula in plain words.</strong> Two paths. Path A: extract the ton and receive its price P. Path
+B: do not extract; spend an amount I on developing a substitute. The appendix writes the difference in welfare as</p>
+<p><span class="f">SW(B) &minus; SW(A) = (three avoided costs) &minus; (I &minus; P)</span></p>
+
+<p><strong>Step by step.</strong></p>
+<ol class="steps">
+<li>On Path A society has P in hand. On Path B it does not: the ton stays in the ground.</li>
+<li>On Path B society has spent I. On Path A it has not.</li>
+<li>So Path B is worse off than Path A by I <em>and</em> by P, before any avoided costs are counted. The line
+should read: (avoided costs) &minus; (I + P).</li>
+<li>The appendix has &minus; (I &minus; P), which is &minus; I + P. It counts the price given up as a gain.</li>
+<li>With that sign, and the premise that I is no more than P, the bracket is zero or negative and Path B wins
+automatically. That is the "weak dominance under Premises (ii) to (iv)." With the sign corrected it does not
+follow. Path B wins only if the avoided costs are at least I + P.</li>
+<li>The paragraph after the formula argues it the right way round ("the foregone extraction revenue P is less
+than the social opportunity cost RCV"). So the prose and the displayed line disagree with each other.</li>
+</ol>
+
+<p><strong>Also in this observation</strong> (row 13 of the wording fixes). "Weitzman 2001 declining-rate framework
+establishes CS &gt; 0 conservatively." Weitzman's paper is about which discount rate to use. It establishes
+nothing about cost severance. And the label is wrong twice over: the sentence calls Premise (i) "CS &gt; 0" two
+paragraphs after the text explains that Premise (i) is RCV &gt; P and that the two are different. Last, "high
+constant discount rates that drive CS toward zero" is not what the calibration does: the integral rises with the
+starting rate (A4). A high rate lowers the result only by lowering the social cost of carbon one chooses.</p>
+
+<p><strong>Options.</strong></p>
+<ol type="a">
+<li><strong>Correct the line and state the condition:</strong> substitute investment beats extraction when the
+cost avoided is at least the price forgone plus the investment. For McDowell, on the appendix's figures, that is
+a wide margin. Drop "weak dominance." Rewrite the Weitzman sentence as a statement about Premise (i).</li>
+<li><strong>Demote it</strong> from a numbered observation to a remark of four sentences.</li>
+<li><strong>Cut 10.5 and its corollary.</strong> Nothing in &sect;11 depends on them.</li>
+</ol>
+<div class="rec"><strong>Recommendation: (a).</strong> The result survives with an honest condition. The corollary
+needs one more clause (B8 below).</div>
+
+<h3>A6. Method 3 measures a different thing from the integral</h3>
+
+<p><strong>Step by step.</strong></p>
+<ol class="steps">
+<li>The integral adds up costs that fall on others: foreclosure and damage. If nothing is foreclosed and nothing
+is damaged, it returns zero.</li>
+<li>Method 3 starts from the price and multiplies by numbers that are at least one. It can never return less than
+the price. The appendix says so plainly.</li>
+<li>Take asteroid iron: substitutes everywhere, no one harmed. The integral gives about zero. Method 3 gives
+about the price. Same case, same symbol "RCV," two answers.</li>
+<li>Carry it into CS = RCV &minus; B. With Method 3, an unbonded ton of asteroid iron shows cost severance equal
+to its whole price. The appendix wants this case to come out as "extract freely."</li>
+<li>The text gets round this by saying "no premium over the market price." That is the tell. What Method 3
+actually measures is the <em>premium</em>: its result minus the price. The premium is zero for asteroid iron,
+which matches the integral.</li>
+</ol>
+
+<p><strong>Every place Method 3 is read (seed 4).</strong> Correctly fenced: &sect;3.5, &sect;3.6, &sect;9.1,
+Observation 10.2, &sect;11.11 ("not evidence of direction"). Still read as evidence, or mislabelled:</p>
+<ul>
+<li>&sect;11.6, "The cross-checks": "what they establish is that the integral is not an overstatement." Method 3
+cannot establish that. Its level is the price times a chosen &alpha;.</li>
+<li>&sect;11.6, the range line: "(IPG ~8.5&ndash;26&times;)." &sect;3.2 says an IPG above one "indicates
+underpricing," and &sect;11.11 says Method 3's multiple does not. The label "IPG" should come off.</li>
+<li>&sect;15.1.3: "each can contradict it." Method 3 can contradict the integral only from below.</li>
+<li>&sect;11.8, "RCV &asymp; their (high) market value," and Corollary 10.5.1: Method 3's reading stated as RCV.</li>
+</ul>
+
+<p><strong>Options.</strong> (a) Define Method 3's reading as the premium over price, and correct the four places.
+(b) Correct the four places only. (c) As in A3(c), move Method 3 out of the tables.</p>
+<div class="rec"><strong>Recommendation: (a).</strong> With A2 and A3 it leaves Method 3 small, consistent with
+the integral at the abundant end, and unable to be quoted against you.</div>
+
+<h3>A7. The two halves of the decomposition overlap, and two headlines subtract across unlike costs</h3>
+
+<p><strong>First problem, step by step.</strong></p>
+<ol class="steps">
+<li>RCV is defined from the moment of extraction, t&#8320;, forward to infinity (Definition 1.6). For McDowell,
+&sect;7.6 writes the integral from 1960.</li>
+<li>CSD is "the realized cost of extraction that has already occurred" (Definition 1.11).</li>
+<li>For a ton mined in 1960, the years 1960 to 2026 have happened. The damage in those years is inside the
+integral, and it is also, by definition, realized damage.</li>
+<li>total CS = (CSD &minus; B&#8321;) + (RCV &minus; B&#8322;) adds the two. For every retrospective case, which
+is every case in &sect;11, the years between extraction and today are in both halves.</li>
+<li>No number in the appendix is wrong because of this, since no case computes both halves for the same
+extraction. But the formula as written double counts, and an economist will see it in the definitions.</li>
+</ol>
+<p><strong>Options.</strong> (a) State a dividing date: CSD covers extraction to the analysis date; RCV runs from
+the analysis date on. (b) Keep RCV from t&#8320; and say CSD is the part of it already realized, so the total is
+RCV &minus; B&#8321; &minus; B&#8322; with no double count. (c) One sentence at &sect;5.5 saying the two are never
+both computed for the same years.</p>
+<div class="rec"><strong>Recommendation: (a).</strong> It is one sentence in Definition 1.11 and one in
+Definition 1.6, and it is what "backward" and "forward" already mean in the prose. It also helps A1: a commons
+past its threshold falls on the CSD side of the date.</div>
+
+<p><strong>Second problem.</strong> Definition 1.7 says "A payment counts only against the cost it was set
+against," and that CS is reported by component "because an aggregate can hide an uncovered cost behind a
+well-covered one."</p>
+<ul>
+<li><em>McDowell.</em> The headline gap subtracts black-lung payments and reclamation bonds from a figure that is
+92 percent carbon. Nothing has been paid against the carbon. By component: carbon, about $496 a ton, with nothing
+set against it; the other damages ($8 to $22) against a bond several times their size, which is the
+national-payments-over-local-tons mismatch the appendix already admits. The aggregate ($425 to $450) is
+conservative, and the text says so, but by the framework's own rule the component line should be shown.</li>
+<li><em>Norway.</em> &sect;11.5 says it outright ("credits the fund against a cost it was never meant to pay")
+and still reports $70 &minus; $36 = $34. By component: carbon $70, bond zero; rent, fully bonded.</li>
+<li><em>The Hotelling split.</em> (RCV &minus; H) is described as "the gap that would remain even if every dollar
+of rent were bonded." With RCV a carbon cost and H a rent, bonding the rent pays none of the carbon; by the same
+rule the gap that would remain is the whole $70, not $34 to $39.</li>
+</ul>
+<div class="rec"><strong>Recommendation.</strong> Keep the aggregate, labelled conservative, and add the component
+line beside it in each summary table. No figure is retired; one is added.</div>
+
+<h3>A8. The foreclosure integral is infinite on the appendix's own Hotelling path</h3>
+
+<ol class="steps">
+<li>Definition 1.3: U(t) is at least r(t) &times; P(t), the rate times the price <em>at that later date</em>.</li>
+<li>&sect;14.1 writes Hotelling's path as P(t) = P(0) &middot; e<sup>rt</sup>: the price grows at the rate of interest.</li>
+<li>The discount factor shrinks at the same rate: e<sup>&minus;rt</sup>.</li>
+<li>Multiply: the growth and the shrinkage cancel. Each future year contributes r &times; P(0) &times; (chance of
+no substitute), for ever. If S never reaches one, that sum has no limit. By scratch script it passes $500 at
+2,000 years and $2,300 at 10,000 and keeps going.</li>
+<li>Theorem 10.4 avoids this by assuming U grows no faster than a polynomial. That assumption rules out the
+price path the appendix credits to Hotelling in &sect;4 and &sect;14.1. &sect;7.3's own table says a cost growing
+at the discount rate does not converge.</li>
+</ol>
+<p>Your stop-15 ruling (item 6) already changes &sect;14.1 to speak of the rent and not the price. That helps the
+wording. It does not remove the point, because a rent growing at r drags the price up with it in the long run.</p>
+<p><strong>Options.</strong> (a) Write the bound on the price at the time of extraction: U &ge; r(t) &middot; P(t&#8320;).
+This is what the engine does. (b) Keep P(t) and add an assumption that real resource prices have no long-run
+trend, with a source (Krautkraemer 1998 is where I would look; not yet read). (c) Leave it and note that the
+theorem's growth assumption excludes a pure Hotelling path.</p>
+<div class="rec"><strong>Recommendation: (a),</strong> with (c)'s note as one clause. It makes the definition match
+the computation.</div>
+
+<h2>Part 3. Smaller silent edges</h2>
+
+<table>
+<tr><th>#</th><th>Where</th><th>The edge</th><th>Simplest handling</th></tr>
+<tr><td>B1</td><td>&sect;16.2, stock-dependent S</td><td><span class="f">S = S_base &middot; [1 &minus; &zeta; (Q_critical/Q)<sup>&omega;</sup>]</span>. As the stock Q falls the bracket goes negative. With &zeta; = 0.5 and &omega; = 1, S is zero when Q is half of Q_critical and &minus;0.85 at a quarter. S is a probability; it cannot be negative, and Definition 1.2 and Theorem 10.4 both need it never to fall. Separately, an economist will object to the direction: the standard view is that scarcity raises prices and calls substitutes forth.</td><td>Write max(0, &hellip;) and state Q &ge; Q_critical; or cut &sect;16.2, which no computation uses.</td></tr>
+<tr><td>B2</td><td>&sect;16.1 discount schedule</td><td><span class="f">r(t) = (r&#8320; &minus; r_min) e<sup>&minus;&kappa;t</sup> + r_min</span> with r_min = 2%. For Stern's 1.4% the starting rate is <em>below</em> the floor, so the "declining" rate rises: 1.4%, 1.7% at fifty years, 1.96% at two hundred. Also: &sect;14.3 says the rate should fall toward "the lowest plausible rate," and the appendix's own lowest is Stern's 1.4%, not 2%. And the formula is written in t where it means t &minus; t&#8320;.</td><td>State r&#8320; &ge; r_min; run the Stern row at a constant 1.4% or lower the floor; write (t &minus; t&#8320;).</td></tr>
+<tr><td>B3</td><td>&sect;3.2, IPG = RCV / P</td><td>Undefined at P = 0 and negative for a negative price. The framework's anchoring example of a commons is air, "priced at zero." So the ratio does not exist for the cases the framework cares most about.</td><td>One sentence: the ratio is defined only for a marketed resource with a positive price; for an unpriced commons the result is reported in dollars.</td></tr>
+<tr><td>B4</td><td>&sect;4.4, (H &minus; B&#8322;) for Norway (seed 5)</td><td>The negative value (&minus;$5 to $0) is said and explained ("more once investment returns are counted"). What is not said: it compares a fund balance, which includes decades of returns, with a plain sum of cash flows, which does not. The minus sign comes from that mismatch, not from Norway bonding more than its rent. Also unsaid: (RCV &minus; H) goes negative for any resource whose rent exceeds its measured cost to others.</td><td>Say the comparison is a stock against a sum of flows and that the sign is not a finding. Say a negative first term would mean the rent alone could cover the measured cost.</td></tr>
+<tr><td>B5</td><td>Observation 10.1b; &sect;3.4; &sect;3.6 (seed 8)</td><td>Three loose ends on a bond larger than the cost. (1) Definition 1.7 and Theorem 10.1a treat B &gt; RCV as a counterexample. &sect;3.4 and &sect;3.6 say the same event "would send the computation back for re-derivation." An economist will read the second as "heads I win, tails we recompute." (2) "Only one of the two terms needs to be &gt; 0 for canonical CS &gt; 0" is false when the other is negative, and the reef's floor reading is negative. (3) "Bonds cannot be negative": a subsidy to extraction is one.</td><td>(1) Keep "counterexample" and say a re-check of inputs is done either way. (2) "The sum is positive when the positive term is the larger." (3) One clause: subsidies are outside B, or enter as a negative.</td></tr>
+<tr><td>B6</td><td>&sect;16.3, spatial cost severance</td><td>The formula adds cost over the extraction region outside the consuming region. It has no time limits and no discounting, unlike every other integral in the appendix. It cannot see a cost that falls outside the extraction region altogether, which is where Norway's carbon and most of McDowell's carbon fall; the text says "Norway's carbon cost does fall outside it" two lines after the formula returns zero for Norway. No distance appears in it (see row 15 in Part 5).</td><td>Integrate over everywhere outside the consuming region; add the discount factor and limits; or reduce &sect;16.3 to a paragraph.</td></tr>
+<tr><td>B7</td><td>&sect;3.3 and &sect;11.6, Method 1 against the integral</td><td>Method 1's low corner ($290, optimistic direct air capture) is below the integral ($525&ndash;540). &sect;11.6 says the integral "is the lower of the available figures" and that the cross-checks "establish that the integral is not an overstatement." At the optimistic corner the cure is cheaper than the damage, and an economist will say the cost of a harm cannot exceed the cost of undoing it.</td><td>Say it: at today's and near-term removal costs the integral is the lower figure; if removal reaches $100&ndash;190 a ton the cure cost becomes the ceiling.</td></tr>
+<tr><td>B8</td><td>Corollary 10.5.1</td><td>"Extract lowest-RCV sources first" ignores what extraction costs. It ranks asteroid mining ahead of Earth deposits while &sect;11.10 puts its cost five to seven orders of magnitude higher.</td><td>"Among sources of similar extraction cost"; or rank by price less extraction cost less RCV.</td></tr>
+<tr><td>B9</td><td>Definition 1.11 and &sect;5.5</td><td>CSD = floor (dollars) + &Sigma; C&#7522;, where &sect;0 gives C&#7522; in dollars per unit per year. Unlike units. And the backward "ceiling" adds the Method 3 value on top of the Method 1 floor, though forward the two are alternatives that are never summed.</td><td>Write the backward C&#7522; as dollar totals at the analysis date; say the ceiling adds the Method 3 <em>premium</em> (A6), not its whole value.</td></tr>
+<tr><td>B10</td><td>Definition 1.2</td><td>The working form S = S_max(1 &minus; e<sup>&minus;&lambda;(t&minus;t&#8320;)</sup>) is zero at the moment of extraction for every resource, including ones with substitutes on the shelf (coal for power in 1960; iron).</td><td>Add a starting value S&#8320;.</td></tr>
+<tr><td>B11</td><td>Theorem 10.3, the two parentheses in Assumption (ii)</td><td>"(or bounded above by a small constant)": then conclusion (I), cost below <em>any</em> tolerance, does not follow. "(or grows faster than any polynomial)": the adopted form grows as a polynomial, so it does not meet its own alternative. Assumption (iii) is not used in the proof.</td><td>Delete both parentheses; with A1(b), restate (II).</td></tr>
+<tr><td>B12</td><td>&sect;6.7, the Units gate as applied</td><td>Gate 2 requires dollars per unit of resource per year. The walkthroughs pass costs "in dollars over time" with no resource unit (what is the unit for a commute?). Walkthrough 1 multiplies "gap &times; population &times; earnings &times; healthcare costs," which is dollars squared.</td><td>Name the unit in each walkthrough or say the walkthroughs check form loosely; fix the product.</td></tr>
+<tr><td>B13</td><td>Definition 1.9</td><td>S_threshold is never given a value; the "gap" can be negative; the levels in &sect;13.1 have no numbers.</td><td>Say the classification is ordinal and by judgment.</td></tr>
+<tr><td>B14</td><td>Definition 1.7, route (b)</td><td>Under informed consent B is set equal to RCV by definition, so it cannot be read from any record, and Method 2 ("reads B from the record") cannot see it.</td><td>One sentence in &sect;3.4: Method 2 reads route (a) only.</td></tr>
+<tr><td>B15</td><td>&sect;9.6</td><td>"The realized payments at each site are of the same order as the lower bounds of the cost estimates." Not at Baotou (about $0 against $5&ndash;15 billion) or Libby ($250 million against $5.7&ndash;8.2 billion).</td><td>"At McDowell and Deepwater Horizon."</td></tr>
+</table>
+
+<h2>Part 4. Edges the appendix already handles and says</h2>
+
+<ul>
+<li><strong>&alpha; &rarr; 1</strong> gives an infinite premium: restricted, said five times, handed to the Asymmetric Regret Rule; the engine refuses it.</li>
+<li><strong>CS negative</strong> (a bond larger than the cost): Theorem 10.1a covers the sign; Definition 1.7 calls it a counterexample; Deepwater Horizon is named as the nearest case.</li>
+<li><strong>The reef</strong>: realized B&#8321; ($115M) above the CSD floor ($20&ndash;37M) is stated, with the geography caution.</li>
+<li><strong>McDowell without carbon</strong>: the other damages are below the bond; stated in &sect;11.6 and &sect;16.4 (but see Part 6).</li>
+<li><strong>Zero long-run discount rate</strong>: the integral is infinite; stated as intended (the knife-edge corollary), and Gate 3 is built on it.</li>
+<li><strong>A cost growing faster than the discount rate</strong>: rejected by Gate 3 with a worked example.</li>
+<li><strong>Method 3 below price</strong>: impossible, and said in five places (the exceptions are in A6).</li>
+<li><strong>Two prices, two eras</strong>: no ratio taken; said.</li>
+<li><strong>Scenario 8</strong>: the per-unit reserve is short if failure comes early; said.</li>
+<li><strong>Baotou, Deepwater, Libby</strong>: "no integral computable"; said.</li>
+<li><strong>Arithmetic re-done by hand and found right:</strong> &sect;3.4 and &sect;4.4 (Norway: $36, NOK 270, $25, $32&ndash;36, $70, $34, $1.9 trillion, the three split lines); &sect;11.5 Method 1 and Method 3; &sect;11.1 and &sect;11.6 (2.61, $496, $504&ndash;518, all Method 1 sums, $53&ndash;60 billion, $88&ndash;100, $8&ndash;13, $425&ndash;450, $512&ndash;532, the Method 3 corners and centres, the multiples); &sect;11.2 (about 15); &sect;11.3 ($5.1&ndash;7.6 billion, $5.7&ndash;8.2 billion, two-fifths); &sect;11.4 (1.2 to 7.5 years); &sect;11.12 (all four products); &sect;7.6 present values; Scenario 8. The one that does not follow, 50,000 against a decline of 79,776, is already in the claims check, Part 3.</li>
+</ul>
+
+<h2>Part 5. The wording rows you asked to be taught</h2>
+
+<h3>Row 14. Theorem 10.3's McDowell label</h3>
+<p>Taught in A1. Your option-C ruling stands as the holding position. The sentences defining the threshold can be
+drafted once Heal and Krautkraemer are read.</p>
+
+<h3>Row 15. "Cost severance scales with distance" (&sect;11.4; &sect;15)</h3>
+<ol class="steps">
+<li><strong>History.</strong> This checkout holds only the last fifty commits, so <code>git log -S</code> cannot
+reach the phrase's first appearance. The archived versions can. Version 0.0.3 has the phrase <em>three</em> times:
+&sect;11.4, the "Strategic Behavior" limitation, and &sect;16.3 ("scales with the distance and power differential
+between the two regions"). The &sect;16.3 one was rewritten before v2.0.0 to "scales with the cost density." The
+other two were left.</li>
+<li><strong>Does distance enter any formula as a quantity?</strong> No. I checked every formula. The spatial
+integral in &sect;16.3 depends on which region a cost falls in, not how far away it is. There is no kilometre
+anywhere in the mathematics.</li>
+<li><strong>How does distance enter the framework?</strong> As present or absent. Definition 1.7 and Scenario 5:
+"Cost severance requires distance... When it collapses to zero, cost severance goes to zero with it." That is a
+condition, not a scale.</li>
+<li><strong>Do the cases show scaling?</strong> They show the opposite. Libby's mine was beside the town. Carbon
+harms regardless of distance. Deepwater Horizon was off the coast it damaged.</li>
+<li><strong>Your recalled meaning is in the appendix already.</strong> Scenario 5 ends: "On Earth, distance kept
+in place by geography, power and legal structure makes possible the not-knowing that makes severance possible.
+The model prices what distance hides."</li>
+</ol>
+<p><strong>Options for &sect;11.4.</strong> (a) Replace with your meaning, pointing to Scenario 5: distance makes
+the extraction and its cost easier to hide. (b) Cut the sentence; the 10,000 km figure before it does the work.
+(c) Replace with the condition: here nothing connects the buyer to the cost. <strong>For &sect;15:</strong>
+"because severance depends on a gap between where extraction happens and where it is governed."</p>
+<div class="rec"><strong>Recommendation: (a) for &sect;11.4, in your words.</strong> It is what you meant, and the
+appendix already argues it.</div>
+
+<h3>Row 7. &sect;6.7: the discount rate moves the social cost of carbon "by an order of magnitude"</h3>
+<ol class="steps">
+<li>An order of magnitude is a factor of ten.</li>
+<li>The EPA's own 2023 table gives $120, $190 and $340 a ton at 2.5, 2.0 and 1.5 percent (confirmed today). That
+is a factor of 2.8 across one percentage point.</li>
+<li>Across the whole literature, from Nordhaus-style rates to the EPA's lowest, the spread is roughly tenfold. So
+the phrase is defensible for the literature and too strong for the source the appendix uses.</li>
+<li>The larger issue: &sect;16.4 says the McDowell level "is insensitive to the discount schedule." Both sentences
+are in the same appendix. The level looks insensitive only because the carbon figure enters as a finished number
+with the EPA's 2 percent already inside it. Change the EPA's rate and the level moves by the same 2.8.</li>
+</ol>
+<p><strong>Options.</strong> (a) &sect;6.7: "by a factor of about three within the EPA's own range, and by more
+across the literature"; &sect;16.4 gains one sentence saying the discount rate's effect arrives through the
+choice of carbon figure, which is the row below it in the table. (b) Fix &sect;6.7 only.</p>
+<div class="rec"><strong>Recommendation: (a).</strong></div>
+
+<h3>Row 13. "Weitzman establishes CS &gt; 0 conservatively"</h3>
+<p>Taught in A5.</p>
+
+<h3>Row 21. &sect;14.3: "act as if the low rate applies"</h3>
+<ol class="steps">
+<li>Weitzman's result is about the far future. If we are unsure whether the right rate is 1, 2 or 4 percent, then
+for costs centuries away the 1 percent world dominates the average, because in the other worlds those costs have
+been discounted to almost nothing.</li>
+<li>So the rate to use <em>falls over time toward</em> the lowest plausible rate. It does not start there.</li>
+<li>"Should act as if the low rate applies" says it applies now, at every horizon. That is Stern's position, not
+Weitzman's.</li>
+</ol>
+<p><strong>Options.</strong> (a) "should discount the far future at a rate approaching the lowest plausible one."
+(b) Cut the sentence; the paragraph above it already says it correctly. See also B2: the calibration's floor (2
+percent) is above the lowest rate the appendix names.</p>
+<div class="rec"><strong>Recommendation: (a).</strong></div>
+
+<h3>Row 24. &sect;16.4: "at least roughly $20&ndash;25" against "roughly $17&ndash;27"</h3>
+<ol class="steps">
+<li>The question: how low can the carbon figure go before the McDowell integral falls below the bond?</li>
+<li>The integral is 2.61 &times; (carbon figure) + everything else. "Everything else" is $30 to $45 across the
+three discount schedules, with the other damages at their central $15.</li>
+<li>Set it equal to the bond, $88 to $100, and solve. Lowest: (88 &minus; 45) &divide; 2.61 = $16.5. Highest:
+(100 &minus; 30) &divide; 2.61 = $26.7. The claims check got the same two numbers.</li>
+<li>So "$17&ndash;27" is the full range and "$20&ndash;25" is narrower than the arithmetic.</li>
+</ol>
+<p><strong>But see Part 6:</strong> your tonnage and price rulings change this sentence altogether.</p>
+
+<h3>Row 3. &sect;3.3: the Orca cost against its range</h3>
+<p>&sect;3.3 gives the "current operational" band as $600 to $1,000 a ton and names Orca. &sect;11.9 says Orca's
+actual cost is "at or modestly above the top of this range, &gt;$1,000/ton." A range whose named example sits
+outside it. <strong>Options:</strong> (a) "$600 to $1,000 or more"; (b) widen to a sourced upper figure once the
+Climeworks statement is pinned; (c) name Mammoth only. <strong>Recommendation: (a)</strong> until the source is
+pinned; every Method 1 "conservative" figure that uses $1,000 as its top then reads "or more."</p>
+
+<h3>&sect;11.9: "IPCC: &gt;$1,000/ton in pessimistic" (no page)</h3>
+<p>The $100&ndash;300 half is supported: the IPCC's own factsheet on carbon dioxide removal gives that range for
+direct air capture, and secondary sources place it in Working Group III, chapter 12 (executive summary and Table
+12.6, which a secondary copy gives as "100&ndash;300 (84&ndash;386)"). I found nothing today that attributes
+"&gt;$1,000 in pessimistic" to the IPCC. I have not opened chapter 12 itself. <strong>Options:</strong> (a) cut
+the clause, since the House et al. (2011) row beneath it already carries the $1,000 figure; (b) hold it for a
+reading of Table 12.6. <strong>Recommendation: (a)</strong>, and add the page for the $100&ndash;300 when the
+chapter is opened.</p>
+
+<h3>&sect;15.1.7: "cannot be re-engineered at any finite cost above some threshold"</h3>
+<p>Taught in A3.</p>
+
+<h2>Part 6. Two rulings already given move numbers nobody has yet said they move</h2>
+
+<div class="box">
+<p>Both come from the unstated P = $75 inside the integral (A4). All figures here are by scratch script and need
+the engine.</p>
+</div>
+
+<ol class="steps">
+<li><strong>The price ruling (stop 11b) moves the headline integral.</strong> The rulings file says the integral
+"($525&ndash;540) ... stands" and computes the new multiple from it. But the integral's foreclosure term is
+r &times; P, and P is a coal price. If the ruled price, $129.33, replaces $75 there, the foreclosure term goes
+from about $38 to about $66 and the integral from $526&ndash;541 to about <strong>$545&ndash;570</strong>. The
+shares change from 92 and 7 percent to about 88 and 12. The multiple is about 4.2 to 4.4, still "about four
+times." The gap against the recomputed bond ($35&ndash;40) is about $505&ndash;540, not $485&ndash;505.</li>
+<li><strong>If $75 stays,</strong> the headline stands, and the appendix is using a coal price it never states
+and cannot source, next to one it has just sourced.</li>
+<li><strong>So there is a ruling to make: which price belongs in the foreclosure bound?</strong> The ruled 2024
+field price is the consistent choice (the rest of the integral is in recent dollars). Option A4(b) would make the
+question disappear.</li>
+<li><strong>The two rulings together reverse the "what the finding rests on" sentences</strong> (&sect;11.6;
+&sect;16.4). As printed: without carbon the integral ($30&ndash;45) is below the bond ($88&ndash;100), so "the
+sign depends on admitting a carbon cost." After the tonnage ruling the bond is $35&ndash;40. With P = $75 the
+no-carbon integral is $28&ndash;46: a tie, sign unclear. With P = $129.33 it is $47&ndash;77: <em>above</em> the
+bond. The sign would no longer depend on carbon at all; only the size would. "A reader who rejects the social
+cost of carbon rejects most of this number" stays true. The break-even carbon figure in row 24 becomes zero or
+negative.</li>
+<li><strong>The tonnage ruling (stop 11a) also reaches Method 1,</strong> which the rulings file does not list.
+Two of its three parts are totals divided by tons: ecosystem ($7.5&ndash;30 billion) and community ($10&ndash;25
+billion). Over 1.5 billion tons they become about $5&ndash;20 and $7&ndash;17 a ton, from $12&ndash;50 and
+$17&ndash;42. The band moves from $290&ndash;2,702 to about $273&ndash;2,647. The cumulative carbon (1.57 billion
+tons of CO&#8322;) becomes about 3.9 billion.</li>
+</ol>
+
+<h2>Limits of this audit</h2>
+<ul>
+<li>The engine was read, not run. The second engine (<code>sec9_recompute</code>) was not opened.</li>
+<li>Scratch-script figures re-implement Part 3 of the engine and match its three published values ($526, $537,
+$541) to the dollar; everything else from the script is unconfirmed by the engine.</li>
+<li>Sources opened today are search results and abstracts only: the EPA's three carbon figures (confirmed);
+Heal 1976 (abstract); Krautkraemer 1998 (citation only); the IPCC range (factsheet and secondary copies). None
+is a reading of the primary text. The Nordhaus backstop and the fisheries reference in A1 are from memory.</li>
+<li>The verbal rows of the 24 wording fixes were not touched, as the kickoff directs.</li>
+<li>The two-path test in A1 is my run of your test. It needs your eye before it is recorded as passed.</li>
+</ul>
+
+<h2>For the find-list (B0), if you agree</h2>
+<ul>
+<li>Heal, G. (1976), "The Relationship Between Price and Extraction Cost for a Resource with a Backstop Technology," <em>Bell Journal of Economics</em> 7(2): 371&ndash;378. For &tau; as an economic threshold.</li>
+<li>Krautkraemer, J. (1998), "Nonrenewable Resource Scarcity," <em>Journal of Economic Literature</em> 36(4): 2065&ndash;2107. For economic against physical exhaustion, and for the long-run trend of real resource prices (A8).</li>
+<li>IPCC AR6 Working Group III, chapter 12, Table 12.6 and executive summary. For the page behind $100&ndash;300.</li>
+<li>A fisheries source on the stock level below which a population cannot renew itself (critical depensation).</li>
+</ul>
+
+<h2>Sources consulted on the web today</h2>
+<ul>
+<li>EPA carbon figures: <a href="https://www.energy.gov/sites/default/files/2024-02/114.%20EPA%2C%20Final%20Report%20on%20the%20Social%20Cost%20of%20GHGs.pdf">EPA final report (energy.gov copy)</a>; <a href="https://costofcarbon.org/epa-values-for-the-social-cost-of-greenhouse-gases">costofcarbon.org table</a>; <a href="https://www.rff.org/publications/testimony-and-public-comments/updated-estimates-of-the-social-cost-of-greenhouse-gases-for-usage-in-regulatory-analysis/">Resources for the Future comment</a></li>
+<li>IPCC direct air capture range: <a href="https://www.ipcc.ch/report/ar6/wg3/downloads/outreach/IPCC_AR6_WGIII_Factsheet_CDR.pdf">IPCC AR6 WGIII CDR factsheet</a>; <a href="https://www.cleanenergywire.org/factsheets/qa-dac">Clean Energy Wire Q&amp;A</a>; <a href="https://zerocarbon-analytics.org/wp-content/uploads/2022/04/IPCC-Working-Group-III-report_-The-land-sector-and-climate-mitigation-Appendix-1.pdf">secondary copy of the chapter 12 table</a></li>
+<li>Krautkraemer 1998: <a href="https://ideas.repec.org/a/aea/jeclit/v36y1998i4p2065-2107.html">IDEAS record</a></li>
+<li>Heal 1976: <a href="https://ideas.repec.org/a/rje/bellje/v7y1976iautumnp371-378.html">IDEAS record and abstract</a>; <a href="https://pubsonline.informs.org/doi/abs/10.1287/opre.33.2.277">"Heal's Theorem Revisited"</a></li>
+</ul>
+
+</body>
+</html>
