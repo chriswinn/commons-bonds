@@ -42,3 +42,13 @@ its place, with alternative wording offered.
   letting the banks fail. A remark, not a ruling; no text drafted from it.
 - **Answered 2026-11-27: yes,** a session looks for a source on coal companies that shed obligations through
   bankruptcy and re-formed (master find-list, B0).
+- **2026-11-28, the 24 small wording fixes (reword batch, part 3):** put to him as one table and **not ruled**; he
+  asked for them one at a time with the full sentence and an explanation. Two were taught (Theorem 10.3's
+  "A < τ regime" for McDowell; "Cost severance scales with distance"). **His thoughts, recorded at his request,
+  not rulings:** on the first, the fix should not be to stop citing the case; the framework should say what the
+  threshold is and handle a commons where stock remains but extraction has stopped being viable, and he asked
+  for a check of every place the framework can produce nonsense (kickoff:
+  `tools/workstream-handoffs/formula-domain-audit-kickoff_2026-11-28.md`). On the second, the sentence cannot
+  stand, and he recalls the intended meaning as "distance makes extraction and severed cost easier to mask,"
+  not a numerical scaling; to be discussed after the first is settled. Also to be walked through step by step,
+  as more than prose: §11.9's "IPCC: >$1,000/ton" and §15.1.7's "cannot be re-engineered at any finite cost."
