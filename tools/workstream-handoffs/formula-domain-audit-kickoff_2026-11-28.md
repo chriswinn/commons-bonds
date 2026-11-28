@@ -54,6 +54,28 @@ before he rules; write for that.
   phrase and whether any formula uses distance as a quantity.
 - **A realized bond larger than RCV** (CS negative): handled in the text; confirm it is handled everywhere.
 
+## Also in scope (author agreed to the kickoff 2026-11-28)
+
+The mathematical rows of the 24 small wording fixes, which he asked to be taught and not just reworded, and the
+two items he said need step-by-step guidance. Each gets the full sentence, what the terms mean, and options.
+
+- Theorem 10.3's McDowell label (row 14): **his ruling is pending** between removing McDowell from the
+  sentence for now and "past its production peak"; either way the threshold needs two or three sourced
+  sentences defining it (find-list B0).
+- §6.7, the discount rate moves the social cost of carbon "by an order of magnitude" (row 7); Observation 10.5,
+  Weitzman "establishes CS > 0 conservatively" (row 13); §14.3, "act as if the low rate applies" (row 21);
+  §16.4, "at least roughly $20–25" against "roughly $17–27" (row 24); §3.3, the Orca cost against its range
+  (row 3).
+- §11.9, "IPCC: >$1,000/ton in pessimistic" (no page).
+- §15.1.7, "cannot be re-engineered at any finite cost above some threshold" against Method 1.
+- "Cost severance scales with distance" (row 15): he holds that the sentence cannot stand and that the meaning
+  intended was that distance makes extraction and severed cost easier to mask. Check the phrase's history
+  (`git log -S "scales with distance"`) and whether distance enters any formula.
+
+The verbal rows (1, 2, 4, 5, 6, 8, 9, 10, 11, 12, 16, 17, 18, 19, 20, 22, 23) are not part of the audit; they
+are taken one at a time, with context, in the walk-through. On row 5 he wants something with more weight than
+"part of the bill moved to the Treasury"; on row 1 he needs the context of the sentence.
+
 ## Read first
 
 CLAUDE.md, STATE.md, `tools/workstream-handoffs/commons-bonds-session-handoff-2026-11-27_v1.0.3.html`, the
