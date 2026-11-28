@@ -59,8 +59,8 @@ before he rules; write for that.
 The mathematical rows of the 24 small wording fixes, which he asked to be taught and not just reworded, and the
 two items he said need step-by-step guidance. Each gets the full sentence, what the terms mean, and options.
 
-- Theorem 10.3's McDowell label (row 14): **his ruling is pending** between removing McDowell from the
-  sentence for now and "past its production peak"; either way the threshold needs two or three sourced
+- Theorem 10.3's McDowell label (row 14): **ruled 2026-11-28: McDowell comes out of the
+  sentence for now (option C), as a holding position;** the threshold needs two or three sourced
   sentences defining it (find-list B0).
 - §6.7, the discount rate moves the social cost of carbon "by an order of magnitude" (row 7); Observation 10.5,
   Weitzman "establishes CS > 0 conservatively" (row 13); §14.3, "act as if the low rate applies" (row 21);
